@@ -1,0 +1,16 @@
+# Large media files
+sources/*.mp3
+sources/*.mp4
+sources/*.webm
+sources/*.m4a
+sources/*.wav
+audio/output/*.mp3
+audio/output/*.wav
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# System
+.DS_Store
