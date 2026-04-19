@@ -1,45 +1,68 @@
 # Podcast Lab 🎧
 
-把视频/音频源（YouTube、Podcast、讲座等）转成中文播客音频。
+把视频/音频源（YouTube、播客、讲座等）转成**中文播客音频**。
 
 ## 目录结构
 
 ```
 podcast-lab/
-├── sources/            # 原始源文件（视频链接、下载的音频）
-├── transcripts/
-│   ├── en/             # 英文转录文本
-│   └── cn/             # 中文翻译文本
-├── audio/
-│   └── output/         # 最终中文播客音频 (.mp3)
-├── scripts/            # 处理脚本（下载、转录、翻译、TTS）
-└── archive/            # 已完成项目归档
+├── projects/
+│   └── <slug>/              # 每个项目独立文件夹
+│       ├── README.md        # 项目元信息 (源 URL, 状态, 笔记)
+│       ├── source/          # 原始音视频 (.gitignored)
+│       ├── transcript/
+│       │   ├── en.txt       # 英文/原文转录
+│       │   └── cn.txt       # 中文翻译
+│       └── audio/
+│           └── cn-podcast.mp3  # 最终中文播客 (.gitignored)
+├── scripts/                 # 通用处理脚本
+└── archive/                 # 已完成/废弃的项目
 ```
+
+## Slug 命名建议
+
+`<作者>-<主题>` 或 `<节目>-<编号>`，全小写连字符：
+- `ethan-evans-corp-politics`
+- `lex-fridman-ep-400`
+- `huberman-sleep-science`
 
 ## 工作流
 
-1. **下载音频** → `sources/`
+1. **下载**  →  `projects/<slug>/source/audio.mp3`
    ```bash
-   yt-dlp -x --audio-format mp3 -o "sources/{name}.%(ext)s" <URL>
+   yt-dlp -x --audio-format mp3 -o "projects/<slug>/source/audio.%(ext)s" <URL>
    ```
 
-2. **英文转录** → `transcripts/en/`
-   - 用 mlx-whisper (本地，Apple Silicon 加速)
+2. **英文转录**  →  `transcript/en.txt`
+   ```bash
+   python3 -c "import mlx_whisper; \
+     r = mlx_whisper.transcribe('projects/<slug>/source/audio.mp3', \
+         path_or_hf_repo='mlx-community/whisper-large-v3-turbo', language='en'); \
+     open('projects/<slug>/transcript/en.txt','w').write(r['text'])"
+   ```
 
-3. **翻译成中文** → `transcripts/cn/`
+3. **翻译**  →  `transcript/cn.txt`
+   - 手工/LLM 分段翻译（口语化、适合播客）
 
-4. **生成播客音频** → `audio/output/`
-   - 用 edge-tts (zh-CN-XiaoxiaoNeural 等)
+4. **TTS**  →  `audio/cn-podcast.mp3`
+   ```bash
+   python3 -c "import asyncio, edge_tts; \
+     text=open('projects/<slug>/transcript/cn.txt').read(); \
+     asyncio.run(edge_tts.Communicate(text,'zh-CN-XiaoxiaoNeural').save('projects/<slug>/audio/cn-podcast.mp3'))"
+   ```
 
-## 每个项目建议结构
+## 每个项目 README 模板
 
-每个项目在各目录下用统一 slug，例如 `ethan-evans-corp-politics`：
-- `sources/ethan-evans-corp-politics.mp3`
-- `transcripts/en/ethan-evans-corp-politics.txt`
-- `transcripts/cn/ethan-evans-corp-politics.txt`
-- `audio/output/ethan-evans-corp-politics.mp3`
+```markdown
+# <Title>
 
-## 注意
+- **Source:** <URL>
+- **Duration:** ~X min
+- **Status:** 转录 ⏳ · 翻译 ⏳ · 音频 ⏳
+```
 
-- `sources/` 和 `audio/` 里的大文件已在 `.gitignore` 忽略
-- 只有脚本、转录文本进 git
+## 依赖
+
+- `yt-dlp`, `ffmpeg` — 下载/处理音频
+- `mlx-whisper` (Apple Silicon) 或 `whisper` — 转录
+- `edge-tts` — 免费中文 TTS

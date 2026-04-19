@@ -1,11 +1,11 @@
-# Large media files
-sources/*.mp3
-sources/*.mp4
-sources/*.webm
-sources/*.m4a
-sources/*.wav
-audio/output/*.mp3
-audio/output/*.wav
+# Big media files
+projects/*/source/*.mp3
+projects/*/source/*.mp4
+projects/*/source/*.webm
+projects/*/source/*.m4a
+projects/*/source/*.wav
+projects/*/audio/*.mp3
+projects/*/audio/*.wav
 
 # Python
 __pycache__/
