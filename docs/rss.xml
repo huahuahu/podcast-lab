@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Podcast Lab</title>
+    <link>https://huahuahu.github.io/podcast-lab/</link>
+    <language>zh-cn</language>
+    <copyright>Copyright 2026 Podcast Lab</copyright>
+    <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。当前 feed 包含 Ethan Evans 关于公司政治、晋升、组织重组和职场影响力的长访谈中文整理版。</description>
+    <lastBuildDate>Mon, 20 Apr 2026 23:18:57 +0800</lastBuildDate>
+    <generator>Codex</generator>
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    <ttl>60</ttl>
+
+    <atom:link href="https://huahuahu.github.io/podcast-lab/rss.xml" rel="self" type="application/rss+xml"/>
+
+    <image>
+      <url>https://huahuahu.github.io/podcast-lab/assets/cover.png</url>
+      <title>Podcast Lab</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+    </image>
+
+    <itunes:type>serial</itunes:type>
+    <itunes:author>Podcast Lab</itunes:author>
+    <itunes:summary>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。当前 feed 包含 Ethan Evans 关于公司政治、晋升、组织重组和职场影响力的长访谈中文整理版。</itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/cover.png"/>
+    <itunes:category text="Technology"/>
+    <itunes:category text="Business">
+      <itunes:category text="Careers"/>
+    </itunes:category>
+    <itunes:owner>
+      <itunes:name>Podcast Lab</itunes:name>
+      <itunes:email>placeholder@example.com</itunes:email>
+    </itunes:owner>
+
+    <item>
+      <title>Ethan Evans：公司政治如何运作，以及怎样赢</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">ethan-evans-corp-politics</guid>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0800</pubDate>
+      <description>前 Amazon VP Ethan Evans 与 Ryan Peterman 的长访谈中文整理版，围绕公司政治、Empire Building、重组、scope 争夺、坏经理、skip manager、晋升叙事和职场影响力展开。原始访谈标题为 Retired Amazon VP: How Corporate Politics Work And How To Win | Ethan Evans。</description>
+      <content:encoded><![CDATA[
+        <p>这是一集围绕大公司内部运作机制的长访谈中文整理版。Ethan Evans 结合自己在 Amazon 的管理经历，讨论了公司政治、晋升门槛、团队重组、scope 争夺、坏经理、skip manager、内部博弈与影响力表达。</p>
+        <p>原始来源：<a href="https://www.youtube.com/watch?v=6WaeGfLnRvc">Ryan Peterman 访谈 Ethan Evans</a>。</p>
+        <p>当前 RSS 已预留正式音频地址，后续替换占位链接后即可用于正式播客订阅。</p>
+      ]]></content:encoded>
+      <enclosure url="https://example.com/podcast-lab/ethan-evans-corp-politics.mp3" length="0" type="audio/mpeg"/>
+      <category>Technology</category>
+      <category>Careers</category>
+      <itunes:author>Podcast Lab</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/cover.png"/>
+      <itunes:duration>02:50:45</itunes:duration>
+      <itunes:summary>前 Amazon VP Ethan Evans 与 Ryan Peterman 的长访谈中文整理版，聚焦公司政治、晋升、组织重组、scope 争夺和职场影响力。</itunes:summary>
+      <itunes:subtitle>前 Amazon VP 谈公司政治、重组与晋升规则</itunes:subtitle>
+    </item>
+  </channel>
+</rss>

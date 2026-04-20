@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Podcast Lab</title>
+  <meta name="description" content="Podcast Lab 把英文视频、播客和访谈整理成可订阅的中文播客 feed。">
+  <style>
+    :root {
+      --bg: #f7f2e8;
+      --panel: #fffaf2;
+      --text: #1f1a17;
+      --muted: #6b625b;
+      --accent: #b85c38;
+      --line: #dfd3c3;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background:
+        radial-gradient(circle at top left, #f3d8b6 0, rgba(243, 216, 182, 0) 28%),
+        linear-gradient(180deg, #f8f3ea 0%, var(--bg) 100%);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    main {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 48px 20px 72px;
+    }
+    .hero {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 28px;
+      box-shadow: 0 18px 50px rgba(102, 67, 41, 0.08);
+    }
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--accent);
+      font-size: 13px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+    h1, h2 {
+      margin: 0 0 12px;
+      line-height: 1.15;
+    }
+    h1 { font-size: clamp(36px, 6vw, 64px); }
+    h2 { font-size: clamp(24px, 4vw, 34px); }
+    p { margin: 0 0 14px; }
+    .muted { color: var(--muted); }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 22px;
+    }
+    .actions a {
+      display: inline-block;
+      padding: 11px 16px;
+      border-radius: 999px;
+      text-decoration: none;
+      border: 1px solid var(--line);
+      color: var(--text);
+      background: #fff;
+    }
+    .actions a.primary {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff8f0;
+    }
+    .section {
+      margin-top: 28px;
+      background: rgba(255, 250, 242, 0.7);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 24px 28px;
+    }
+    .episode {
+      padding-top: 12px;
+      border-top: 1px solid var(--line);
+      margin-top: 12px;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 14px;
+    }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      background: rgba(184, 92, 56, 0.08);
+      padding: 0.1em 0.35em;
+      border-radius: 6px;
+    }
+    @media (max-width: 640px) {
+      main { padding: 28px 14px 56px; }
+      .hero, .section { padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Podcast Feed</p>
+      <h1>Podcast Lab</h1>
+      <p>把英文视频、访谈和长谈节目整理成适合订阅的中文播客 feed。</p>
+      <p class="muted">当前站点用于 GitHub Pages 发布。RSS 地址固定为 <code>https://huahuahu.github.io/podcast-lab/rss.xml</code>。</p>
+      <div class="actions">
+        <a class="primary" href="/podcast-lab/rss.xml">打开 RSS</a>
+        <a href="https://github.com/huahuahu/podcast-lab">查看仓库</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>当前单集</h2>
+      <article class="episode">
+        <h3>Ethan Evans：公司政治如何运作，以及怎样赢</h3>
+        <p class="meta">时长约 2 小时 50 分钟 · 来源为 Ryan Peterman 对前 Amazon VP Ethan Evans 的访谈</p>
+        <p>这是一集围绕大公司晋升、组织重组、scope 争夺、坏经理、skip 管理和职场影响力的长访谈中文整理版。RSS 已预留正式音频地址，后续替换后即可被播客客户端正常拉取。</p>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
