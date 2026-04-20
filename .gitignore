@@ -1,16 +1,34 @@
-# Big media files
-projects/*/source/*.mp3
-projects/*/source/*.mp4
-projects/*/source/*.webm
-projects/*/source/*.m4a
-projects/*/source/*.wav
-projects/*/audio/*.mp3
-projects/*/audio/*.wav
+# Big media files (all sizes, any location under projects/)
+projects/**/source/*.mp3
+projects/**/source/*.mp4
+projects/**/source/*.webm
+projects/**/source/*.m4a
+projects/**/source/*.wav
+projects/**/source/*.mkv
+projects/**/source/*.opus
+projects/**/source/*.ogg
+projects/**/audio/*.mp3
+projects/**/audio/*.wav
+projects/**/audio/*.m4a
+
+# Hard cap: anything over ~5MB probably shouldn't be in git
+# (run `find . -size +5M -not -path '*/\.git/*'` before committing)
+
+# Model files
+*.bin
+*.onnx
+*.gguf
+*.safetensors
+
+# Diarization intermediate data (keep text JSON, but not raw wav dumps)
+**/*.wav
+**/*.opus
 
 # Python
 __pycache__/
 *.pyc
 .venv/
+venv/
 
 # System
 .DS_Store
