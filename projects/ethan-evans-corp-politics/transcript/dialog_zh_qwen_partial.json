@@ -1,0 +1,394 @@
+[
+  {
+    "start": 0.0,
+    "end": 18.18,
+    "speaker": "Ethan",
+    "text_en": "I have seen things, you know, that make me want to close my eyes, for sure. You know, you want to talk about the dark side, and that's okay. I hope no one would do this, but I know people do. That's my opening gambit for I want to take it over. After this conversation, I'm a little more cynical.",
+    "text": "我见过一些事情，真的让我想闭上眼睛。你知道，我们想谈谈那些阴暗面，这没问题。我希望没有人会这么做，但我知道有人会。这是我想要掌控局面的开场白。这次谈话之后，我变得更加愤世嫉俗了。"
+  },
+  {
+    "start": 18.18,
+    "end": 26.34,
+    "speaker": "Ryan",
+    "text_en": "This is Ethan Evans, former Amazon VP, back for a second time because I knew he had a lot to share about corporate politics.",
+    "text": "这是 Ethan Evans，前 Amazon 副总裁，这次是他第二次做客，因为他有很多关于公司政治的内容要分享。"
+  },
+  {
+    "start": 26.34,
+    "end": 34.08,
+    "speaker": "Ethan",
+    "text_en": "We're going to put these people under you for six months. Let's check the box and give them back to the person we took them from. It's almost like this hidden chest going on.",
+    "text": "我们会把这些人放在你手下六个月。我们打个勾，然后再把他们还给原来的人。这几乎就像一个隐藏的宝藏游戏。"
+  },
+  {
+    "start": 34.08,
+    "end": 51.16,
+    "speaker": "Ryan",
+    "text_en": "Absolutely. He shared what to do if you have a bad manager. You could consider this as mutiny if you went to them and you said, hey, my manager is bad. So, mutiny. Let's talk about mutiny. And he said he'd be transparent, so I really put him to the test. What are the attacker tactics?",
+    "text": "绝对。他分享了如果你有一个糟糕的经理该怎么办。你去找他们说，嘿，我的经理很糟糕，这可能被视为叛乱。所以，让我们谈谈叛乱。他说他会保持透明，所以我真的考验了他。攻击者都有哪些策略？"
+  },
+  {
+    "start": 51.16,
+    "end": 57.4,
+    "speaker": "Ethan",
+    "text_en": "Wow, Ryan, when you said we would just go deep on transparency, you were not kidding.",
+    "text": "哇，Ryan，你说我们要深入探讨透明度，你真的没开玩笑。"
+  },
+  {
+    "start": 57.6,
+    "end": 71.24,
+    "speaker": "Ryan",
+    "text_en": "So, the best attack, what is the leverage that an engineer has as they're getting fired that a company would want to pay for? And here I'll give you your last piece of your leverage. I imagine this would be useful even outside of your career.",
+    "text": "所以，最好的攻击方式是什么？当一个工程师被解雇时，公司会愿意为此买单的杠杆是什么？这里我会给你最后一个杠杆点。我想这在你的职业生涯之外也会很有用。"
+  },
+  {
+    "start": 71.24,
+    "end": 78.56,
+    "speaker": "Ethan",
+    "text_en": "Now, there's some people watching this, engineers, who are like, I hate you. I hate the politics. Do yourself a favor and get good at this.",
+    "text": "现在，有些观看这个视频的工程师可能会说，我恨你，我恨这些政治。为了自己好，还是学好这些吧。"
+  },
+  {
+    "start": 78.94,
+    "end": 126.28,
+    "speaker": "Ryan",
+    "text_en": "Here's the full episode. Last time we talked, I think one reason that people really love the conversation was because of your unusual level of transparency. I've never met anyone who was in such a high level in tech, like in VP at Amazon, that was willing to say everything directly that could help both engineers and also managers know what's going on behind the scenes at those highest levels. And I know that we didn't get to cover everything. So, today I'm hoping that we can go over everything in terms of reorgs and all of the other behind the scenes things that happen in the management of tech. So, I'm hoping you can continue to be transparent, maybe even more transparent this time.",
+    "text": "这是完整的一期节目。上次我们谈话时，人们之所以非常喜欢那次对话，是因为你有不同寻常的透明度。我从未见过像你这样在技术领域处于高层的人，比如 Amazon 的副总裁，愿意直接说出一切可以帮助工程师和经理了解幕后情况的内容。我知道我们上次没有涵盖所有内容，所以今天我希望我们可以深入讨论重组和其他技术管理中的幕后事情。希望你这次也能继续保持透明，甚至更加透明。"
+  },
+  {
+    "start": 126.28,
+    "end": 153.02,
+    "speaker": "Ethan",
+    "text_en": "Absolutely. You know, I'm comfortable with the fact that I'm not a perfect person. And sometimes some of the stuff I did, I wish I had done differently. So, I can share what I did and what I saw others do because I'm comfortable with that. And frankly, I'm retired. So, I'm immune. There's no boss over me who's going to be like, you said what? You told Ryan what? I'm free from that.",
+    "text": "当然。你知道，我接受自己不是一个完美的人。有时候我做的事情，我希望当时能做得不一样。所以，我可以分享我做过的事情和我看到别人做过的事情，因为我对此感到自在。而且坦白说，我已经退休了。所以，我不会担心有老板在我头上说，你说了什么？你告诉 Ryan 什么？我自由了。"
+  },
+  {
+    "start": 153.02,
+    "end": 157.84,
+    "speaker": "Ryan",
+    "text_en": "The first topic I want to go over is empire building.",
+    "text": "我想先讨论的话题是帝国建设。"
+  },
+  {
+    "start": 157.84,
+    "end": 251.46,
+    "speaker": "Ethan",
+    "text_en": "Empire building, I think, is a bad thing. And as defined, it means focusing more on getting raw number of people than on what you're doing or the impact you're having. So, why does it exist? Empire building exists because it's rewarded. And it's rewarded because counting people is the easiest thing to do. And so, when a leader or a set of leaders are deciding who's ready to promote, how much impact you had is subjective. One person thinks the project was hard. Another thinks, oh, that was pretty easy. But no one can debate, well, Ethan has 42 people and Ryan has 17. Ethan is the bigger leader, is the conclusion they're making. And that encourages empire building because it's what's visibly measurable. And so, what I've found is that drives leaders to want more people because that's going to be their tool. And some companies absolutely have written thresholds of, to be eligible for this promotion, you have to have this many people. So, of course, if you give high performers a goal, they're going to figure out a way to hit that goal. And if that requires claiming they need people or seeking to take over other groups, they're ambitious. They're going to find a way to rationalize that to themselves. I need those people.",
+    "text": "我认为帝国建设是一件坏事。根据定义，它意味着更关注增加人员数量，而不是你做的事情或产生的影响。那么，为什么它会存在？帝国建设之所以存在是因为它得到了奖励。而它之所以得到奖励是因为计算人数是最容易的事情。所以，当领导者或一组领导者在决定谁可以晋升时，你产生的影响是主观的。一个人认为项目很难，另一个人则认为，哦，这挺容易的。但没有人会争论，Ethan 有 42 个人，而 Ryan 只有 17 个。结论就是 Ethan 是更大的领导者。这鼓励了帝国建设，因为它是可见的衡量标准。因此，我发现这驱使领导者想要更多的人，因为这是他们的工具。有些公司确实有明确的晋升门槛，比如要达到这个晋升，你必须有这么多的下属。所以，当然，如果你给高绩效员工一个目标，他们就会想办法达成这个目标。如果这需要他们声称需要更多人或试图接管其他团队，他们是有野心的，会找到办法说服自己，我需要那些人。"
+  },
+  {
+    "start": 252.24,
+    "end": 268.4,
+    "speaker": "Ryan",
+    "text_en": "I saw that there's this desire to change the incentive structure, at least at the company that I was at, where managers could be promoted, not necessarily just directly proportional to how many recursive reports you have. Is that possible to do? Of course it is possible.",
+    "text": "我看到有一种改变激励结构的愿望，至少在我所在的公司，经理的晋升不一定是直接与你有多少下属成正比的。这可能吗？当然可能。"
+  },
+  {
+    "start": 268.4,
+    "end": 350.98,
+    "speaker": "Ethan",
+    "text_en": "It takes more effort because impact is harder to assess, right? The impact an engineering manager has is somewhat fuzzy. What's most important? Is it operational performance? Is it new features shipped? Is it whether or not those new features resonate in the market and make money? And you end up with difficulties. Like maybe my product directly generates money. Whatever I'm doing gets directly sold and customers pay for it. And what you're doing is infrastructure. Well, now how do we compare that? Like you're keeping the systems up, but I'm actually the one bringing in all the money. Who has more impact? Again, that's where people get sucked into why of 42 people in UF 17, I must be a bigger manager. That's, that's how that happens. It is of course possible to make value judgments, but then they're also harder to defend. I have to look at you and say, Ryan, we love the work you've done and you're on the right path, but Ethan was more impactful. And that just makes you mad probably, unless you happen to agree like, oh yeah, that guy's a star. It's just all these things make assessing impact difficult and dangerous. And that's why it doesn't get done as much as it should.",
+    "text": "但这需要更多的努力，因为评估影响更难，对吧？工程经理的影响是有些模糊的。最重要的是什么？是运营表现吗？是新功能的发布吗？是这些新功能是否在市场上受欢迎并带来收入吗？结果就是你会遇到困难。比如，我的产品直接带来收入，我做的事情直接销售出去，客户为之付费。而你做的事情是基础设施。那么，我们怎么比较呢？你保持系统运行，但我是真正带来收入的人。谁的影响更大？再次，这就是为什么人们会被 42 个人和 17 个人的数字所吸引，认为我必须是个更大的经理。这确实会发生。当然，可以做出价值判断，但这些判断更难辩护。我必须看着你，说 Ryan，我们喜欢你所做的工作，你走在正确的道路上，但 Ethan 的影响更大。这可能会让你生气，除非你同意，哦，是的，那家伙是个明星。所有这些都使得评估影响变得困难和危险。这也是为什么这种评估没有像应该的那样频繁进行。"
+  },
+  {
+    "start": 350.98,
+    "end": 370.34,
+    "speaker": "Ryan",
+    "text_en": "You mentioned the written thresholds for promotion. And since you were VP at Amazon, I know it's been some time, but off the top of your head, do you remember the rough written thresholds for how many reports you would need to be considered for senior management, director, and VP?",
+    "text": "你提到了晋升的书面门槛。既然你曾在 Amazon 担任 VP，虽然已经过去了一段时间，但你能记得大概的书面门槛吗？比如，要成为高级管理层、总监或 VP 需要多少下属？"
+  },
+  {
+    "start": 370.76,
+    "end": 468.3,
+    "speaker": "Ethan",
+    "text_en": "So interestingly, those thresholds did not exist while I was there and they existed in whisper numbers, but they were not written down. They came about after I left and people I was coaching still at Amazon or talking to told me very clearly that the number that got established to become a director in some orgs was 80 people and in some was 90. So I became a director in the early days of the company with 22 people because it was different times and the company was smaller and that crept up and up until when I was at the end of my career, we did have like a sense that the company wanted us to look for people with about 75 or 80 people, but it got written down as 90, at least in some organizations. And the thing that's funny about that is one of the Amazon leadership principles says there's no bonus for additional headcount, but now that it's written down that I can't get to this very well-paying level without 90 people, there damn sure is a bonus, right? And I think there's like a several hundred thousand dollar a year bonus quite literally for accumulating 90 people. And I've talked to leaders who their boss trying to get them across the threshold was like, we're going to put these people under you for six months, check the box and give them back to the person we took them from because that's the game they have to play if they want to, you know, reward a person in their team. And of course that's insanity where we're moving people around and changing their lives just to hit a number.",
+    "text": "有趣的是，我在那里的时候并没有这些门槛，虽然有一些传言中的数字，但并没有写下来。这些门槛是在我离开后才出现的。我辅导的一些仍然在 Amazon 的人或与我交谈的人明确告诉我，有些组织成为总监的门槛是 80 个人，有些是 90 个人。我在公司早期成为总监时只有 22 个下属，因为那时候情况不同，公司规模较小，这个数字逐渐上升。到我职业生涯末期，我们大概觉得公司希望我们寻找有 75 或 80 个下属的人，但最终写下来的是 90 个，至少在某些组织中是这样。有趣的是，Amazon 的领导原则之一说，增加人头数不会得到额外的奖金，但现在写下来的是，没有 90 个人就无法达到这个高薪级别，这当然是一种额外的奖励。据我所知，积累 90 个人确实会带来每年几十万美元的奖金。我与一些领导者交谈过，他们的老板为了让他们达到门槛，会说，我们把这些人放在你手下六个月，打个勾，然后再把他们还给原来的人，因为他们想奖励团队中的某个人，所以不得不玩这种游戏。当然，这种做法是疯狂的，我们在为了达成一个数字而调动人员，改变他们的生活。"
+  },
+  {
+    "start": 468.3,
+    "end": 494.92,
+    "speaker": "Ryan",
+    "text_en": "But if you did that, let's say I'm, I'm a VP and I have a very loud director or very loud senior manager who wants to become a director. And so I got, okay, to retain them, I'm going to give them some reports from over here and now they're going to be eligible for director after they get promoted though, they need to sustain those reports to sustain that position, right? Like you couldn't just move them back.",
+    "text": "但如果你这样做，假设我是 VP，我有一个非常有影响力的总监或高级经理，他们想成为总监。为了留住他们，我会给他们一些从其他地方来的下属，这样他们就有资格成为总监了。但晋升后，他们需要维持这些下属，才能保持这个职位，对吧？你不能简单地把他们调回去。"
+  },
+  {
+    "start": 494.92,
+    "end": 578.06,
+    "speaker": "Ethan",
+    "text_en": "I mean, you can, again, it depends on the company, but you can play all sorts of shell games where, um, for example, at Amazon, if you drop below the number of reports, there's like a grace period, six months, nine months, where if you can tell a story about how they're going to get back to that level or how future growth, it's okay. If they're below it temporarily, the other thing is no company, no company I know of really systematically down levels people. What they would do is they'd say, okay, well, Ryan, you're a director. Your team is no longer director scope. You're going to have to find a director level role. And so then it's up to me if I can do that in my org or I move you, but I've still achieved the goal for you. And you absolutely see, I have seen not just in Amazon, but other places when headcount is the main issue, I've seen things moved around. And I certainly, when people normally come to me, it's with the complaint. My boss actually told me that he's putting me under my peers so that my peers team will look better. So the reason I'm being reorg under this other person is not for any business reason, but because they don't have the scope to get the promotion. And so I need to go be their scope. That's what I'm being told.",
+    "text": "我是说，这取决于公司，但你可以玩各种花招，比如在 Amazon，如果你的下属人数低于某个标准，会有个宽限期，比如六个月或九个月，在这期间，如果你能讲清楚他们如何恢复到那个水平，或者未来的增长如何达到，那就可以。如果只是暂时低于标准，没问题。另外，据我所知，没有哪家公司会系统性地降级员工。他们会说，好吧，Ryan，你是总监，但你的团队不再符合总监的规模。你需要找到一个总监级别的职位。然后就看我能不能在自己的部门内找到这样的职位，或者把你调到其他部门，但无论如何，我都帮你达成了目标。我确实见过这种情况，不仅在 Amazon，其他地方也见过，当人头数是主要问题时，我见过团队调整。当然，当人们通常来找我时，他们抱怨说，我的老板实际上告诉我，他会把我放在我的同事手下，这样同事的团队看起来会更好。所以他们把我重新分配给其他人的原因不是出于业务考虑，而是因为他们没有足够的编制来让我晋升，所以我需要成为他们的编制。他们就是这么告诉我的。"
+  },
+  {
+    "start": 578.06,
+    "end": 615.26,
+    "speaker": "Ryan",
+    "text_en": "When I was an engineer and reorgs were happening, I think you don't know all the behind the scenes of how orgs are managed. And so you're told there's a certain reason for the reorg, however, and which may be true, but there may be a secondary and ulterior motive of this person also needs to get promoted. Do you ever have an experience like that, where you saw reorg happening in other orgs? You didn't know the exact person who needs to get promoted or what, but you could just tell based on how it happened and what happened that, oh, there's something else going on behind the scenes.",
+    "text": "当我还是工程师时，团队调整发生时，我觉得你并不了解背后所有的管理细节。所以你会被告知团队调整的某个原因，这可能是真的，但也可能有其他动机，比如这个人也需要晋升。你有没有遇到过这种情况，看到其他部门的团队调整？你可能不知道具体需要晋升的人是谁，但你能从调整的方式和结果中感觉到，哦，背后还有其他事情。"
+  },
+  {
+    "start": 616.02,
+    "end": 667.34,
+    "speaker": "Ethan",
+    "text_en": "Yeah. And I would say there's always something else going on, meaning all managers know, all leaders know that too many reorgs costs you people. And so you don't want to do them too often. What that means though, is like you wait as long as you can. And then when you need to do one, you're asking yourself, how do we get everything we want? How do we, how do we, if there's someone we don't like, how do we give them less? So they'll move on. If there's someone that we really think is high performance, how do we set them up for success? How do we retain key people? And yes, hopefully the start of the reorg is how do we make the business better? But as soon as we figure out what we think we need to do for the business, then we're trying to figure out how much else, you know, this ship is leaving the dock. How much else can we throw on the deck as it's pulling away? That's going to help us.",
+    "text": "是的，我可以说背后总是有其他事情。所有经理和领导都知道，频繁的团队调整会导致人员流失，所以你不想太频繁地进行调整。但这意味着你会尽可能地等待，然后在需要调整时，你会问自己，我们如何实现所有目标？如果有人我们不喜欢，我们如何减少他们的权力，让他们离开？如果有人我们认为是高绩效的，我们如何让他们成功？我们如何留住关键人才？当然，团队调整的初衷应该是如何让业务更好，但一旦我们确定了业务需要的调整，我们就会试图弄清楚还能做多少其他事情。这艘船即将离港，我们能在这艘船上放多少其他东西，以帮助我们实现目标？"
+  },
+  {
+    "start": 667.34,
+    "end": 679.32,
+    "speaker": "Ryan",
+    "text_en": "I just trying to figure out the exact mechanics, like maybe a past reorg that you've done where you tried to cram a bunch of different ulterior things into it. And how does that actually play out?",
+    "text": "我只是想了解具体的机制，比如你过去做过的某个团队调整，你试图在其中塞入很多不同的隐性目标。这实际上是如何进行的？"
+  },
+  {
+    "start": 679.32,
+    "end": 786.0,
+    "speaker": "Ethan",
+    "text_en": "Well, a couple things happen there. First, there are usually multiple people involved. And so sometimes you have to either get them on board with your second motive. You know, you have to tell them like, yeah, I want to help this person get promoted as a part of this reorg, or I want to set them up. Are you supportive of that? Sometimes you have to tell a story like, no, I'm not doing that. It's really this reason. And so there is some cleverness to justifying. Because even for a senior leader, usually a reorg is a big enough change that somebody will be auditing it. And you've got to be able to explain it to them. So you're coming up with your narrative. You're a storyteller. And you're coming up with your narrative about why this is the best possible reorg that rewards the deserving people and accomplishes the business goals. And if anybody is suffering, you've made sure that that's people that aren't the highest performers. And so if anybody does leave, it's okay. And when I think about specific reorgs I've done, they're very much about retention. If you're making a change, you're very much thinking people don't like change. Who is it I absolutely need to keep? And who is it if they leave, I'll either be okay or even maybe happy. And I can't immediately think of a place where I personally put someone in a role where I'm like, and by putting them there, they'll quit. But I can absolutely think of the reverse where people I really wanted to keep, maybe who I felt I was at risk at losing, I was using the reorg to give them something juicier.",
+    "text": "嗯，这里会发生几件事。首先，通常会有多个利益相关者参与。所以有时你需要让他们支持你的第二个动机。比如，我想要通过这次团队调整帮助某人晋升，或者我想要让他们更有机会。你支持吗？有时你需要讲一个故事，比如，我并不是为了那个目的，而是因为这个原因。所以你需要一些巧妙的解释。因为即使是高级领导，团队调整通常也是一个很大的变动，会有人来审计。你必须能够向他们解释。所以你会构建你的叙事，你是一个讲故事的人。你会构建一个关于为什么这是最佳团队调整的叙事，既能奖励那些应得的人，又能实现业务目标。如果有人受到影响，你已经确保他们不是最高绩效的员工。所以如果有人离开，也没关系。当我回顾我做过的具体团队调整，它们非常注重留人。如果你要进行变动，你必须非常清楚人们不喜欢变化。我绝对需要留住谁？如果有人离开，我是否能接受，甚至可能感到高兴？我暂时想不起自己把某人放在某个职位上，让他们辞职的情况，但我确实有过相反的情况，比如我非常想留住的人，可能我担心会失去他们，我会利用团队调整给他们一些更有吸引力的东西。"
+  },
+  {
+    "start": 786.0,
+    "end": 793.46,
+    "speaker": "Ryan",
+    "text_en": "So then how does it usually get started? I mean, a reorg, let's say, yeah, what's the triggering condition?",
+    "text": "那么通常是怎么开始的呢？我是说，团队调整，比如，触发条件是什么？"
+  },
+  {
+    "start": 794.18,
+    "end": 918.78,
+    "speaker": "Ethan",
+    "text_en": "Well, usually the triggering condition is a change in the business. So something about the business has changed and the organization is not set up to address it. So it needs to take on a new market or you've acquired a company and you need to blend them in or you want to start a new project. That's the first reason for a reorg has changed in the business. The second reason for a reorg is somebody else quit or got moved. So often reorgs come due to cascades. And many times, for example, several times in my career, my boss either left or was moved to another job. And so I had to go somewhere else. I could go up if they thought I was ready. I could go under somebody different or they could choose to backfill, you know, just leave that position open. But at least in my personal experience at Amazon, I never really saw the backfill happen. I always was moved under another leader. And several times I'm pretty sure I was put under them to stretch them. So when I ran the prime video team, my leader left and I was reorg from being under an engineering VP to being placed under a business leader. And that business leader who turned out to be one of my best managers ever. Some of his first words to me were, I don't really want your team. I don't want to run engineering. I don't know anything about it. And of course, as an engineer, I'm like, uh-oh. But he was a good leader and he said, we will figure it out. And we worked together and actually had a great run. But I had that happen a couple of times where I was put under people and it was, they had never led engineering. And it's like, well, let's give them Ethan's team and let them figure out engineering, which could be really demoralizing, right? Like, okay, here's the person who's not technical and I'm their guinea pig.",
+    "text": "通常，触发团队调整的条件是业务的变化。业务的某些方面发生了变化，而组织结构没有准备好应对这种变化。所以可能需要进入新市场，或者你收购了一家公司，需要将他们融合进来，或者你想启动一个新项目。这是团队调整的第一个原因，业务变化。团队调整的第二个原因是某个人辞职或被调动。所以团队调整通常会因为连锁反应而发生。在我的职业生涯中，有几次我的老板要么离职，要么被调到其他岗位。所以我不得不另寻出路。如果他们认为我准备好了，我可以升职；我可以被安排到另一个领导手下；或者他们可以选择不填补这个空缺，只是让这个职位空着。但至少在我的 Amazon 经历中，我从未见过填补空缺的情况，我总是被安排到另一个领导手下。有几次我确信我是被安排到他们手下，以让他们得到锻炼。比如，当我负责 Prime Video 团队时，我的领导离职了，我从一个工程 VP 手下被重新分配到一个业务领导手下。这个业务领导后来成了我最好的经理之一。他对我说的第一句话之一是，我其实并不想要你的团队，我也不想管理工程，我对这方面一无所知。当然，作为工程师，我当时心里想，哦，不。但他是个好领导，他说，我们会解决的。我们一起工作，实际上取得了很好的成绩。我有几次被安排到从未管理过工程的人手下，感觉就像，好吧，让 Ethan 的团队成为他们的试验田，这确实会让人感到沮丧，对吧？就像，好吧，这个不懂技术的人来了，我成了他们的实验对象。"
+  },
+  {
+    "start": 919.86,
+    "end": 985.3,
+    "speaker": "Ryan",
+    "text_en": "In conducting a reorg, you mentioned that you're the storyteller and you're building a narrative. And you said in some cases, you'd be direct and you'd say, we're trying to retain this person, so we're going to move things around. And in other cases, you said you would tell a story that this is solving a problem for the business and that other part would be hidden. It's really interesting to me because there's, it's almost like this hidden chest going on. Absolutely. You're aware of, there's multiple things and you're aware of the messenger of, this is what this person wants to hear. And here are the things that I'm trying to achieve. What pieces of what I'm trying to do can I sell to them to make the reorg happen? And also you'll get maybe other things as a result. And I think that turns off a lot of people, especially engineers, they go, I don't, I don't want to be managing all these things. I just want to say it as it is. Is that just a inevitable thing that you have to deal with if you're in management?",
+    "text": "在进行团队调整时，你提到你是讲故事的人，你在构建一个叙事。你说在某些情况下，你会直接说，我们要留住这个人，所以我们要调整一些东西。而在其他情况下，你会讲一个故事，说这是为了解决业务问题，而其他部分则会被隐藏。这对我来说非常有趣，因为这几乎像是一个隐藏的议程。绝对的，你意识到有很多事情，你也意识到传达的信息是，这是这个人想听到的。而这些都是我试图实现的目标。我能做到的有哪些，能让团队调整顺利进行？同时，你可能会得到其他结果。我认为这会让很多人，尤其是工程师感到反感，他们会说，我不喜欢管理这些事情，我只是想直说。如果你在管理岗位上，这是不可避免的吗？"
+  },
+  {
+    "start": 985.3,
+    "end": 1134.58,
+    "speaker": "Ethan",
+    "text_en": "Well, inevitable. You can certainly work around it, meaning you can just do a reorg purely based on business goals and not let any concern for people enter. But probably that's going to cost you people because some people are more ambitious than others or just more demanding. And there is some truth to the old saying, the squeaky wheel gets the grease. This is another harsh truth people don't like. Sometimes, let's say two people perform roughly equally, but one of them has made really clear that they're thinking about leaving. Well, a lot of managers will ask themselves, you know, Ryan's this great guy always sticks with us. He'll wait another six months and I can use those six months to save this other guy, who's also valuable. And, and by being quiet and dutiful, sometimes I can make the decision. It's not that I mean to screw you. It's more, I'm focused on saving this other person and I know you'll put up with it. And so you can end up behind just because you're such a nice guy. And, uh, I often tell people when I'm coaching them, I will often tell my clients, you are a very nice person. And when I tell them that what they don't know is I'm then going to say, and that is not a compliment in this context. Again, I don't think you need to be a jerk, but jerks up to a point, pushy people get more. Now they can push too far and then they get less because they've antagonized. But if you never ask for anything, you'll never get anything. And so in a reorg, you ask about what's inevitable. Well, what's inevitable is I have some people who have been more vocal about what they want in their career than others. Perhaps I'm arranging the reorg just because I know what some people want and I don't know what others want. And so I assume they'll be fine. That's the most benign version. It may be even more that for some people, I know they're very pushy and demanding. And for some people, I know they're not. And so I'm serving the pushy people because then I get to keep my whole team.",
+    "text": "嗯，不可避免。当然，你可以绕过这个问题，也就是说，你可以完全基于业务目标进行重组，不让任何关于人的考虑进入。但这样可能会让你失去一些人，因为有些人比其他人更有野心，或者更挑剔。有句老话，吱吱作响的轮子得到润滑，这是人们不喜欢的一个残酷事实。有时候，假设两个人表现差不多，但其中一个人明确表示他正在考虑离开。很多经理会问自己，瑞安是个很棒的家伙，他总是和我们站在一起。他可以再等六个月，而我可以利用这六个月来留住另一个也很有价值的人。通过保持低调和尽职，有时候我就能做出这样的决定。并不是我想坑你，而是我更专注于留住其他人，我知道你会忍耐。所以你可能会因为太好说话而落后。呃，我经常在辅导人们时告诉我的客户，你是一个非常好的人。但当我说这句话时，他们不知道接下来我要说，这在这个背景下并不是恭维。我并不是说你需要变成一个混蛋，但混蛋在某种程度上，强势的人会得到更多。当然，如果他们太过分，就会得到更少，因为他们已经惹恼了别人。但如果你从不提出任何要求，你就永远不会得到任何东西。所以在重组中，你问什么是不可避免的。不可避免的是，我有一些人比其他人更明确地表达了他们职业上的需求。也许我只是因为知道某些人的需求而安排重组，而对另一些人的需求一无所知。所以我假设他们会没事。这是最温和的版本。更严重的是，对于某些人，我知道他们非常强势和挑剔，而对于另一些人，我知道他们不是。所以我倾向于服务那些强势的人，这样我就能留住整个团队。"
+  },
+  {
+    "start": 1134.58,
+    "end": 1173.34,
+    "speaker": "Ryan",
+    "text_en": "So it seems like almost always it's better to be pushy and forthcoming with what you want in your career. But there is an upper bound, though, where you go too far. And so to Empire Building, for instance, as a concrete example, I mean, have you ever had someone who was a manager underneath you and clearly asking for reports? And you could you could see immediately that you don't need these reports. You're pushing because this is going to lead to your eventual promotion. And how do you handle that as a manager or as a senior leader when you can see someone's being too pushy and it's obviously not good for the business and not defendable?",
+    "text": "所以看起来几乎总是更好的是强势并明确表达你在职业上的需求。但也有一个上限，如果你太过分了。比如在建立帝国方面，举个具体的例子，假设你手下有一个经理，他显然在要求更多的下属。你可以立即看出你不需要这些报告。他这样做是因为这将有助于他最终晋升。作为经理或高级领导，当你看到有人太过分，显然对业务不利且不可辩护时，你会怎么处理？"
+  },
+  {
+    "start": 1174.34,
+    "end": 1373.98,
+    "speaker": "Ethan",
+    "text_en": "Yeah. So I think a manager, if I'm in the leadership seat, first, I better have a good trusting relationship with that person, if possible, where we can have a heart to heart and I can get in a room where they don't feel anybody's listening or watching and say, look, let's talk for a minute why you really want these people. OK, let's both be honest that your empire building and I get that you're trying to get to a goal, but this is a bridge too far. Let's talk about how I'm going to get you there or how we're going to get you there by some defendable path or some other path. And so as opposed to tell them, just, no, you can't have this, which will be very frustrating and they'll probably argue. I try to bend the conversation to let's problem solve together. What's another way to do this? And I won't say I'm always successful. Some people want what they want right now and they can't see or they have zero patience to wait. And at that point, again, that's that fine line. If I can, I'll share a related example that I know people resonate with, where one time I wanted to tell my manager that I really expected to be promoted, but I wanted to do it in a diplomatic way that couldn't get me in trouble and wouldn't irritate him. Not just couldn't get me in deep trouble, but like would bring out his support, even though I was threatening a little. And so what I did is with this manager, I wanted to be a director at Amazon. I was a senior manager. It's when I had the 22 people I referred to earlier. I went to him and his name was Neil. And I said, Neil, I need to understand how important my career is to Amazon because my career is very important to me. And see, that's a statement no one can argue with. No one can argue and say, well, your career shouldn't be important to you or it's illogical. So I said, my career is very important to me. I need to understand how important it is to Amazon, because if it's not as important to Amazon as it is to me, I need to think about that. And, you know, I need to think about that isn't a direct threat, but you laughed. Everyone understands that I'm kind of serving notice, but I'm not doing it in a way that is easily easy for him to push back on. See, if I say, well, if it's not as important to you, making it personal with him, it's not important to you as it is to me, then I might quit. So I came up with these words that clearly conveyed the message, but in a way you can't argue it's important to me. You can't argue really that if, if it's not as important to Amazon, I didn't personalize it, you know, that, that I have to think about that, that, you know, so I was able to put it on the table and, you know, he promoted me, right? He pushed the promotion through, and I think there's always a way to say things in that middle ground that makes clear what you want and makes clear that you're willing to consider your other options, but without being a threatening jerk about it.",
+    "text": "是的。所以我认为，如果我处于领导位置，首先，我最好和这个人建立一个良好的信任关系，如果可能的话，我们可以进行一次坦诚的对话，找一个他们不会觉得有人在听或看的地方，说，看，让我们谈谈你为什么真的想要这些人。好的，我们都要诚实，你在建立帝国，我理解你想要达到某个目标，但这次你走得太远了。让我们谈谈我如何帮助你达成目标，或者我们如何通过一个可辩护的路径或其他路径来达成目标。所以，与其直接告诉他们不行，你不能这样做，这会让他们非常沮丧，他们可能会争辩。我会尝试把对话转向让我们一起解决问题。有没有其他方法可以实现？我不会说每次都能成功。有些人就是想要他们现在想要的东西，他们看不到或完全没有耐心等待。在这种情况下，这又是一条微妙的线。如果可以，我会分享一个相关的例子，我知道人们会对此产生共鸣。有一次，我想告诉我的经理我非常期待晋升，但我想以一种外交的方式表达，不会让我陷入麻烦，也不会让他不高兴。不仅仅是不会让我陷入大麻烦，而是能让他支持我，即使我有点威胁。所以我对这个经理说，我想在亚马逊成为总监。当时我是高级经理，手下有22个人。我去找他，他的名字叫尼尔。我说，尼尔，我需要了解我的职业对亚马逊有多重要，因为我的职业对我来说非常重要。你看，这是一个没人能争辩的陈述。没人能说你的职业对你不重要或这是不合逻辑的。所以我说，我的职业对我来说非常重要，我需要了解它对亚马逊有多重要，因为如果它对亚马逊不如对我重要，我就需要考虑这个问题。这并不是直接的威胁，但你笑了。每个人都能理解我在发出警告，但我并没有以一种容易被反驳的方式表达。如果我说，如果它对亚马逊不如对我重要，我会辞职，这就会变成个人问题。所以我找到了这些能清楚传达信息的词，但不会让人觉得我在威胁或不讲道理。"
+  },
+  {
+    "start": 1374.98,
+    "end": 1415.38,
+    "speaker": "Ryan",
+    "text_en": "That wording is, it's, it's kind of, I mean, because when you say the wording, I feel, I mean, if I was, I feel the effects of extortion a bit, but I couldn't, I could not label it extortion. If I went to someone else and I, I went to my management and I said, hey, Ethan told me this, they would, they would probably also immediately get, oh, there's a, there's a threat here. But I don't think anyone in any room would say this guy's being mean with it, or, or we need to get rid of them. They'd say that's a well done way to present yourself.",
+    "text": "这种措辞，它有点，我是说，当你这么说时，我感觉有点像是敲诈，但我又不能直接说这是敲诈。如果我去找其他人，比如我的管理层，说，嘿，伊桑告诉我这些，他们可能会立刻意识到这里有一个威胁。但我想没有人会在任何场合说这个人很刻薄，或者我们需要开除他。他们会说这是一种很好的自我呈现方式。"
+  },
+  {
+    "start": 1415.38,
+    "end": 1458.96,
+    "speaker": "Ethan",
+    "text_en": "Right. That's bold. He's clear on what he wants. And that's, you know, one of the advantages do find a place where you fit. Meaning Amazon was a relatively sharp elbowed, pushy place. It has that reputation today. It was true long ago. You have to tune your message to, to the workplace that you're in. That message would be offensive in some workplaces. And it was totally not offensive at Amazon because there were people sort of pounding the table of, I need to move up now. And, you know, so, so part of it's just finding the place where you look like a wonderful, sweet person in the mix.",
+    "text": "对。这是大胆的。他清楚地表达了他想要什么。这是找到一个适合你的地方的一个优势。意思是，亚马逊是一个相对尖锐、强势的地方。它现在有这个名声，很久以前也是如此。你必须根据你所在的职场调整你的信息。这种信息在某些职场会让人反感，但在亚马逊完全不会，因为那里有很多人会拍桌子说，我现在就需要晋升。所以，是的，你可以计算并说，好吧，什么答案能让我得到我想要的结果？如果有人太强势而没有足够的价值，告诉他们不行，他们就会离开。"
+  },
+  {
+    "start": 1459.9,
+    "end": 1524.78,
+    "speaker": "Ryan",
+    "text_en": "You mentioned that there's this, this dichotomy, I guess. There's these people who are team players, I guess. And then there's people who are more pushy with what they want. And they're, they're very forthcoming. And obviously that has benefits for their career. I've heard people tell me that when they want to express to their manager, oh, I want to get promoted or something like that. They have this feeling that they don't want to be too pushy because it could irk the manager. Correct. I imagine you're a high performer is, it keeps, you're a high performer, but also you keep demanding things of your manager that could also go wrong, depending on the manager. So I'm curious, like your perspective as a, as a senior leader at Amazon, when you had these demanding high performers, is that something that you were, were you happy to service their requests or was this, did it ever irk you? And you said, I'm going to actually not give you what you want, because you're a little too, you're a high performer, but you're also too demanding.",
+    "text": "你提到有一种二元对立。有些人是团队合作者，有些人则更强势地表达他们的需求，非常坦率。显然，这对他们的职业有好处。我听人们说，当他们想向经理表达，比如，我想晋升，他们会有这种感觉，不想太强势，因为这可能会惹恼经理。正确。我想，如果你是一个高绩效者，这会保持你的高绩效，但同时你不断向经理提出要求，这也可能会出问题，具体取决于经理。所以我很想知道，作为亚马逊的高级领导，当你手下有这些高绩效且强势的人时，你是否乐于满足他们的要求，或者这是否会让你感到不爽，然后你说，我不会给你你想要的，因为你太强势了。"
+  },
+  {
+    "start": 1524.78,
+    "end": 1708.82,
+    "speaker": "Ethan",
+    "text_en": "So I want to tell you a couple of things about that. Yes. First, the great thing about the really demanding people is if they really are bothering you to the point where you decide they're a net negative, if you just tell them, no, they will quit because they, they are so driven about getting what they want, that if you deny them what they want, your problem will go away shortly. They will even leave for a lesser job just because they believe, well, at this place, I'm going to have different results. So, yeah, you, you can calculate and say, okay, what, there is some calculus that says, what answer gets me the results I want? And if someone's too pushy and not enough value telling them, no, you can't have that, they will then go away. The second thing though, is I tended to try and make a deal. I'm a huge believer in deal making and I made these deals with my own leadership too. And the deal essentially was, okay, you want this thing. I will help you get it, but you're a high performer. You're going to show incredible performance on the things I need. And then I will deliver. And, uh, there are managers, of course, you make that deal and don't follow through. I can say with, uh, total pride that I feel I always followed through. There's actually one exception early in my career. I've shared where I failed to do that. And I still feel bad about it 20, 20 years later. But, um, I make a deal where I say, okay, you want this, here's what it's going to take. I need this and this and this. So as an example, I can give you my manager gave me a requirement. I really didn't like, he was my vice president. I was a director at the time. And he told me, your team is too expensive. We need to put a bunch of it offshore in India with cheaper labor. You need to open. Well, he didn't even say India. He said, you need to open a low cost offshore dev center. And of course I didn't want to do any of that. Like that meant traveling around the world and having teams around the world. And I didn't know how to do it and where to do it. He left it completely. You know, he made the whole problem mine. He didn't say, go to India. He said, go somewhere. And so the long and short of this is I found a senior manager I knew who wanted to get to director. He was Indian living in the U S and I went and said, Hey, would you go back to India and start this dev center? If you can build me a dev center in India, I think we can use that as a platform to get you to director. And that's exactly what happened. He moved home to India. He got to take his son home to learn Hindi and see his grandparents. He moved to India for three years and during that, I was then able to use his independent action there. And the fact that he was doing all this stuff remotely and to the point of narrative, I was able to create a story about how this was clearly a director level accomplishment and he was promoted to director. But I made that deal years before it happened. You go to India, I will get you to director. So that's what I try and do with the demanding people.",
+    "text": "所以我想告诉你几件事。是的。首先，真正强势的人的优点是，如果他们真的让你感到困扰，以至于你认为他们是净负面的，如果你直接告诉他们不行，他们就会辞职，因为他们非常有动力去得到他们想要的东西，如果你拒绝了他们，他们的问题很快就会消失。他们甚至会为了一个稍微差一点的工作而离开，因为他们相信，在这个地方，他们会得到不同的结果。所以，是的，你可以计算并说，好吧，什么答案能让我得到我想要的结果？如果有人太强势而没有足够的价值，告诉他们不行，他们就会离开。但第二点是，我倾向于尝试达成协议。我非常相信达成协议，我也会和我的领导达成这样的协议。协议的本质是，好吧，你想要这个东西，我会帮助你得到它，但你是一个高绩效者，你需要在我需要的事情上表现出惊人的绩效。然后我会兑现承诺。当然，有些经理会达成协议但不兑现。我可以自豪地说，我总是兑现了承诺。在我职业生涯早期有一个例外，我曾分享过我没有兑现承诺的情况，20年后我仍然对此感到内疚。但我会达成协议，比如说，你想要这个，这是需要的条件。我需要这个，这个和这个。举个例子，我的经理给了我一个我非常不喜欢的要求，他是副总裁，我当时是总监。他告诉我，你的团队太贵了，我们需要把一部分团队转移到印度，用更便宜的劳动力。你需要开设一个低成本的海外开发中心。他甚至没有说印度，只是说你需要开设一个低成本的海外开发中心。当然，我一点都不想这样做，这意味着要环游世界，管理全球团队。我不知道该怎么做，也不知道该去哪里。他完全把问题留给了我，没有说去印度，只是说去某个地方。所以，长话短说，我找到了一个我认识的高级经理，他想成为总监。他是印度人，住在美国，我去找他说，嘿，你愿意回印度开设这个开发中心吗？如果你能帮我建立一个印度的开发中心，我认为我们可以用这个作为平台来让你成为总监。结果正是这样，他回到了印度，他的儿子可以回家学习印地语，见见他的祖父母。他在印度待了三年，在这段时间里，我利用他在那里的独立行动，以及他远程工作的表现，创造了一个故事，说明这显然是总监级别的成就，他被晋升为总监。但这个协议是在几年前达成的，你去印度，我会让你成为总监。所以这就是我尝试与那些强势的人达成的协议。"
+  },
+  {
+    "start": 1708.82,
+    "end": 1728.1,
+    "speaker": "Ryan",
+    "text_en": "Well, I can imagine also the, a lot of things could change over the course of a few years, maybe you're at a different org and you had that guy went to India and then you're in a, he's no longer reporting to you two years later and you can't deliver on that. But I mean, you can't make decisions based off that.",
+    "text": "嗯，我可以想象，在几年的时间里，很多事情都可能发生变化，也许你已经换了一个组织，而那个家伙去了印度，两年后他不再向你汇报，你就无法兑现承诺。但我的意思是，你不能基于这种可能性来做决定。"
+  },
+  {
+    "start": 1728.1,
+    "end": 1777.94,
+    "speaker": "Ethan",
+    "text_en": "No, if I had been reorgued or fired, you know, it depends. Right. Right. Like there are things that could have happened where I would have had to say to him, look, I'll do what I can to support you from the new role. But it isn't, I didn't do what I was saying. I, it's that I no longer have the power to, and I could feel all right about that. I can't immediately think of a circumstance where that happened to me, where I wasn't able to follow through for someone, but I can see where that would happen. The good news is people are, most leaders are professionals in that they under, they can see the difference between you didn't come through and, you know, shit happened. Those are two different categories. Yeah.",
+    "text": "不，如果我被重组了或者解雇了，那情况就不同了。对，对。有些情况下，我得告诉他，看，我会尽我所能从新角色中支持你。但并不是说我没有做到我所说的，而是我没有权力了，对此我完全可以理解。我一时想不起有哪种情况发生在我身上，让我无法为某人完成承诺，但我能想象这种情况。好消息是，大多数领导者都是专业的，他们能区分你没有完成承诺和出了问题。这是两个不同的类别。是的。"
+  },
+  {
+    "start": 1777.94,
+    "end": 1813.74,
+    "speaker": "Ryan",
+    "text_en": "It's interesting how much back of the envelope, I guess, deals there can be between managers and reports or I'm sure between managers as well. Like maybe let's say you're trying to get someone promoted in your org and you're working with your manager on making that happen eventually. And he says, he or she says, okay, I have someone who's even more urgent now, but that one's going to happen in two halves. This one we're going to do next half. And there's all this, you know, back of the envelope stuff inside of the manager and the leader's heads.",
+    "text": "有趣的是，经理和下属之间，或者经理之间，会有多少这种非正式的交易。比如，假设你正在努力让你的下属在你的团队里晋升，你和你的经理合作，希望最终实现这个目标。他可能会说，好吧，我现在有个更紧急的人选，但这个晋升会在两个周期内完成。这个我们会在下一个周期做。所有这些非正式的东西都在经理和领导者的脑子里。"
+  },
+  {
+    "start": 1813.74,
+    "end": 1914.22,
+    "speaker": "Ethan",
+    "text_en": "There's absolutely a line, meaning by a line, I mean a line up, a queue, where even HR has a policy in big companies to say, what does the forward looking slate is what we call it? The forward looking slate of promotions. And they would track and say, by halves, who's in six months, 12 months, 18 months, maybe as far as 24. And you could list different names. And so there was a sense of like, whose turn is it? We're going to do, not that there was in my time, a quota. I understand, for example, at Google today, talking to someone I coached there, there's a strict quota, like this quarter or this half, two people can get from LA to L9 in this org. And, you know, the guy I was coaching is like, I think I'm number four. I'm not going to make it. And again, that can be toxic a little bit, but people understand the idea of there's a line. And so absolutely, you have those discussions. Now, again, for early in your career, there's usually no quota to go from like entry-level college engineer, whatever that's called where you're at, to sort of regular, you know, engineer, engineer, maybe even to senior engineer. Things get to have more of this quota system when the positions are rare and expensive. And there is a question, how many staff or principal engineers does this company need? How many distinguished engineers does it need? By the way, those positions cost a million dollars a piece. So we don't just want to hand them out like popcorn.",
+    "text": "确实有一条线，我指的是排队的线。即使在大公司，HR 也有政策来管理所谓的未来晋升计划。他们会跟踪并说，按周期来看，谁在六个月、十二个月、十八个月，甚至可能到二十四个月的时候会晋升。你可以列出不同的名字。所以有一种感觉是，轮到谁了？在我那个时代，还没有硬性的名额限制。我了解到，比如现在的 Google，我辅导的一位人士告诉我，他们有严格的名额限制，比如这个季度或这个周期，这个团队只能有两个人从 L8 晋升到 L9。而我辅导的那个人说，我觉得我是第四号，我可能没戏了。当然，这可能会有点毒性，但人们理解有排队的必要。所以，确实会有这些讨论。对于职业生涯早期的人来说，通常从初级工程师到普通工程师，甚至到高级工程师，都没有名额限制。当职位变得稀缺和昂贵时，这种名额制度就更常见了。公司需要多少高级工程师或首席工程师？需要多少杰出工程师？顺便说一下，这些职位每个都价值一百万美元。所以我们不能像分爆米花一样随便分发。"
+  },
+  {
+    "start": 1914.22,
+    "end": 1959.3,
+    "speaker": "Ryan",
+    "text_en": "So you mentioned, when we were talking about empire building, there's this notion that managers' career progression is tied to the number of their recursive reports. And so on the one hand, there's an incentive for managers to say, I want more new headcount, but I could also see there being cases where managers want existing headcounts. So maybe someone underneath you is vying to take reports from someone else and basically steal scope for their own promotion. And since you were such a senior leader at Amazon, I'm curious, how did you handle cases where you noticed somewhere in your org someone is trying to steal scope from someone else in your org?",
+    "text": "你提到，当我们讨论帝国建设时，有一种观念认为经理的职业发展与他们下属的数量有关。一方面，经理有动力说，我想要更多新的人头数，但另一方面，我也能理解有些经理想要现有的编制。比如，你手下的人可能在争夺别人的下属，从而为自己的晋升抢夺范围。既然你在 Amazon 时是高级领导者，我想知道，当你注意到你的团队中有人试图从其他团队抢夺范围时，你是怎么处理的？"
+  },
+  {
+    "start": 1959.3,
+    "end": 2147.94,
+    "speaker": "Ethan",
+    "text_en": "So first, I would say this has become more common as growth is slow. In other words, when a company is growing very quickly, as Amazon was through much of my tenure there, you see less of this because it's easier to go get new people than it is to fight with someone. And it causes less bad blood. Not that I never saw that, but now that companies aren't growing, you know, if you look at the Magnificent Seven or however you look at them, most of them are flat headcount, a couple exceptions. There's a lot more of this, what I would call cannibalism. Since I can't go out and get new, I'm going to have to eat what's here. And that that's very cannibalistic. You see a lot of maneuvering for that. How did I deal with it? You can't allow people on your team to go rogue and be pirates in your own organization, like capture somebody else's ship, you know, kill the captain, sail away because of what it's going to do to your org. It you're no longer in charge than they're in charge, right? They're raiding and pillaging and you seem clueless. So you can't allow that. But what you then have to do is either find them a path, convince them to wait, or, frankly, if they turn too septic, they become your answer, meaning they're going to leave or you get them to leave and you give their team away. So if it really is cannibalistic, what happens is if they don't pull off, you know, it's like any coup attempt, I guess, in like politics. If you attempt a coup and you win, you get to be president or, you know, whatever. And if you fail, you get hung or shot. And so this is a little bit, you know, it's not quite that bloody. But one thing that holds back the worst behavior is people do realize if I get caught being too obviously self-serving, it's going to burn me here. And so they usually are pretty careful. But do they want it? Sure. People all the time are asking, could I take over this? Could I take over that? What I encourage people to do is I tell them, look, you never know when a reorg is coming. You never know when somebody is going to quit or get fired or laid off. So talk to your manager and say, hey, if we have an org change and there's an opening, I just want you to know I'm ready to step up, I'm interested, and I will stand by you. This is one thing people want to know in reorg is reorg shake the ship. And so some people are like, oh, this company is going down or it's not stable. I'm going to quit if I can. And if you tell your manager what they don't want to do is put someone in a role who's then going to leave, and so you tell them, look, I'm actually looking to stay. So when you need a stable leader, think of me. And then when that opening comes up, they're like, oh, right, Ryan said he'd stay. Perfect. Ryan just became most qualified, not because he's best, but because he's most reliable. Right. I see. And that is best in my situation.",
+    "text": "首先，我会说这种情况在公司增长放缓时变得更加普遍。换句话说，当公司像我在 Amazon 时那样快速增长时，这种情况较少见，因为招新人比和别人争斗更容易，而且不会引起太多矛盾。不是说我没有见过这种情况，但现在公司不再快速增长了，比如你看看那七家大公司，大多数都是编制不变，只有少数例外。这种所谓的内部蚕食现象就更多了。既然我不能出去招新人，那我就只能吃掉现有的。这非常具有蚕食性。你会看到很多这样的博弈。我是怎么处理的？你不能让你的团队成员在你的组织内擅自行动，像海盗一样去抢夺别人的团队，比如占领别人的船，杀掉船长，然后扬帆而去。因为这会对你的团队造成什么影响？你不再掌控局面，他们反而掌控了，对吧？他们在掠夺和抢夺，而你显得毫无头绪。所以你不能允许这种情况发生。但你接下来要做的要么是为他们找到一条路，说服他们等待，或者坦白说，如果他们变得太毒瘤，他们就成为你的答案，意思是他们要么会离开，要么你让他们离开，然后把他们的团队分给别人。如果真的变成了蚕食，那么如果他们没有成功，就像政治中的政变一样。如果你政变成功了，你就能当上总统或什么的。如果失败了，你就会被绞死或枪毙。所以这虽然不是那么血腥，但阻止最恶劣行为的一个因素是，人们意识到如果我被发现太明显地自私自利，我会在这里受挫。所以他们通常会非常小心。但他们想要吗？当然。人们总是问，我能接管这个吗？我能接管那个吗？我鼓励人们说，看，你永远不知道什么时候会有重组，也不知道谁会辞职或被解雇或裁员。所以和你的经理说，嘿，如果组织发生变化，有空缺职位，我只是想让你知道我准备好站出来，我感兴趣，而且我会支持你。重组时，人们想知道的是谁能在动荡中站稳脚跟。所以有些人会想，哦，这家公司要完蛋了，或者不稳定了，我要辞职。如果你告诉你的经理，你不想让他们把一个可能很快会离开的人放在某个职位上，所以你告诉他们，看，我实际上是想留下来。当你需要一个稳定的领导者时，想想我。然后当那个空缺职位出现时，他们会想，哦，对，Ryan 说他会留下来。太好了。Ryan 成为了最合适的人选，不是因为他最好，而是因为他最可靠。对，我明白了。这在我这里是最好的策略。"
+  },
+  {
+    "start": 2148.7,
+    "end": 2174.42,
+    "speaker": "Ryan",
+    "text_en": "So that's what you just recommended there to me almost sounds like a better narrative for asking for scope. Of course. Yeah. I mean, rather than saying, give me this person, you can say, I want what's best for the org. And if I need to step up, I'm here. But without being the pirate and you might actually get what you want.",
+    "text": "所以你刚才给我的建议听起来更像是一个更好的争取范围的叙事。当然。是的。我的意思是，与其说，给我这个人，不如说，我想要的是对团队最好的。如果我需要站出来，我在这里。但不要像海盗那样，你可能会得到你想要的。"
+  },
+  {
+    "start": 2174.42,
+    "end": 2232.44,
+    "speaker": "Ethan",
+    "text_en": "Absolutely. And that other piece of the messaging you stumbled on is really important, which is, of course, we know you want this so that your org is bigger and so that you have career growth. But there's a polite fiction that can be true, which is, I also want what is best for the org. In other words, I understand that my best path up is to do things that are valuable to you and to the organization. And if I tell you, look, when a reorg happens, it doesn't matter what the team is. If you have a need, I'll be there for you. That sounds very selfless and org-centric, even though the underlying message could be phrased as, I don't really care which team's available. I just want more scope. I'll take whatever you have. But the way I phrased it sounds so much better because one sounds like the pirate ship and the other one sounds like the selfless servant. But they're both really, hey, whatever's available, I'll take it.",
+    "text": "绝对。你提到的另一个信息传递的部分非常重要，那就是当然我们知道你想要这个是为了让你的团队更大，从而获得职业发展。但有一个礼貌的虚构，可以是真的，那就是我也想对团队最好的。换句话说，我明白我最好的晋升路径是做对你们和组织有价值的事情。如果我告诉你，看，当重组发生时，不管团队是什么，如果你有需要，我都会在那里支持你。这听起来非常无私和以团队为中心，即使潜在的信息可能是，我不在乎哪个团队有空缺，我只想获得更多范围。我会接受任何你给我的。但我说的方式听起来好得多，因为一种听起来像海盗船，另一种听起来像无私的仆人。但其实都是，不管有什么空缺，我都会接受。"
+  },
+  {
+    "start": 2233.08,
+    "end": 2258.86,
+    "speaker": "Ryan",
+    "text_en": "That phrase you said, the polite fiction, I feel like that's the thing that I could feel while we're talking about it too. It's like, it feels weird. It feels uncomfortable. It feels conniving almost because it's, you have, you secretly, you have this and also everyone else knows you have this. But you say this, but you, I mean, both can be true.",
+    "text": "你提到的那个礼貌的虚构，我觉得在我们讨论时也能感觉到。这感觉有点奇怪，有点不舒服，甚至有点阴谋论，因为虽然你心里有这个想法，而且大家都知道你有这个想法，但你却说这个，但其实两者可以都是真的。"
+  },
+  {
+    "start": 2258.86,
+    "end": 2379.72,
+    "speaker": "Ethan",
+    "text_en": "That's the thing, that's the key is it can be conniving, but it doesn't have to be. They can be honest. I can go to my manager and say, look, I want to grow and I will do whatever you need in order to grow. Like whatever's available, I will take it and do my utter best on it. And that, that can be both things. One story, when I was a director working my way towards VP, I once again had been put under a VP who had no other engineering leaders, but then they kept giving him more engineering stuff. And I was the first and I built trust with him and he just automatically came to me with everything and like, well, they handed me this. And I said, can you take it and at one point I was managing, I think eight different functions and they were as diverse all over the place. I'll give you three examples. I led the technical team for reverse logistics, meaning when people traded in video game cartridges, we had to grade them and sell them used. I was an advisor to the team that was grading returned video games or, or used video games. I was selling new video games, like software downloads, video game downloads. And then, uh, I was, um, starting to build Amazon's app store. That's three examples. A fourth example is I also owned our B2B business where like Amazon was trying to displace and go into the market of office depot and like ship pallets of paper to people. And these all had ended up under my boss. I had this, you know, you call it whatever you want, but this random mixture of stuff, but my boss loved it. And over time that totaled 200 people from all these different functions. Um, and that just came from saying yes to everything. Now, did I really want to work on grading video games or shipping pallets of paper to schools? Not really.",
+    "text": "这就是关键，你可以用点手段，但不一定非得这样。你可以坦诚相待。我可以去找我的经理说，我想成长，我会尽全力去做你需要我做的事情。不管有什么机会，我都会抓住并全力以赴。这两种方式都可以。有一次，我当总监时，正努力向副总裁晋升。我被安排在一位没有其他工程领导的副总裁手下，但公司不断给他增加工程方面的任务。我是第一个，也建立了他的信任，所以他总是自动地把所有事情都交给我。他们把任务交给我，我就会说，我能处理吗？有一段时间我管理着八个不同的职能，它们各不相同。我给你举三个例子。我领导了逆向物流的技术团队，也就是当人们退回游戏卡带时，我们需要评估它们并出售二手的。我是评估退回或二手游戏团队的顾问。我还负责销售新的游戏，比如软件下载、游戏下载。另外，我开始建立亚马逊的应用商店。这是三个例子。第四个例子是，我还负责我们的 B2B 业务，亚马逊试图取代像 Office Depot 这样的市场，向人们运送纸张托盘。所有这些最终都归到我的上司手下。你可以随便怎么称呼，但这些都是杂七杂八的任务，不过我的上司很喜欢。随着时间的推移，这些不同职能的团队总共有 200 人。这一切都来自于对所有事情说“是”。我真的想去做评估游戏或向学校运送纸张托盘吗？其实并不想。"
+  },
+  {
+    "start": 2379.72,
+    "end": 2405.4,
+    "speaker": "Ryan",
+    "text_en": "So it was the win-win though. Well, this reminds me of the offshore India story that you had. Uh, which is your manager has work. He doesn't want to do. And so he will pass it to you because he's identified you as the high performer. That'll solve his problem. So it is win-win for you because you wanted the larger org and he's does not want to deal with these problems.",
+    "text": "所以这其实是个双赢的局面。这让我想起了你提到的印度离岸团队的故事。你的经理有他不想做的工作，所以他会把任务交给你，因为他认为你是高绩效员工，能解决他的问题。这对你是双赢的，因为你想要更大的组织，而他不想处理这些问题。"
+  },
+  {
+    "start": 2405.4,
+    "end": 2466.8,
+    "speaker": "Ethan",
+    "text_en": "Exactly. And so someone I really respect. He's now a senior vice president, uh, at Walmart. He, he said he was taught in turn by a senior vice president at Amazon. The simple way to get promoted is quote, solve problems for your boss. Like if you just need to get it down to five words, solve problems for your boss. If you're solving their problems, they will value you. And if they value you, if you then express what you would like, they don't want to lose you because not everyone's helping them that way. Most, most people are not, they're just punching the clock or fighting to do their own things. And so even a so-called bad boss will often take care of someone who's helping them because even if their calculus is, well, imagine I'm evil and I don't really care about anybody, but myself, but I've got this team of people and some of them are helping me. And some of them aren't, who do I want to keep? Even if I'm totally selfish, I want to keep the ones that are helping me. So even then it can work out.",
+    "text": "没错。我非常尊重的一个人，他现在是沃尔玛的高级副总裁。他曾是亚马逊的高级副总裁，他告诉我，晋升的简单方法就是“解决你上司的问题”。如果要用五个词概括，就是“解决你上司的问题”。如果你在解决他们的问题，他们会重视你。如果你表达了自己的愿望，他们也不想失去你，因为不是每个人都在这样帮助他们。大多数人只是打卡上班或忙于自己的事情。所以即使是一个所谓的“坏上司”也会照顾帮助他们的人，因为即使他们只考虑自己，他们也希望保留那些能帮助他们的人。所以即使这样也能行得通。"
+  },
+  {
+    "start": 2467.8,
+    "end": 2505.62,
+    "speaker": "Ryan",
+    "text_en": "What about the case where, because in engineering, there are cases where we can create scope, where someone goes off, they find a problem that we didn't know existed and they build a new system that changes the industry or does something really impressive. And then the impact they had is just incredible, but they didn't necessarily solve a problem that that boss specifically came to them with. That could also work though, as well, and that manager would push that promo through. But I guess that's a different path.",
+    "text": "那如果在工程领域，我们有时可以创造新的任务范围，有人发现了一个我们不知道存在的问题，并建立了一个改变行业或非常令人印象深刻的新系统。他们的影响非常大，但并不是直接解决上司交给他们的具体问题。这种情况也可以奏效，经理也会推动晋升。但我想这是一条不同的路径。"
+  },
+  {
+    "start": 2505.62,
+    "end": 2642.4,
+    "speaker": "Ethan",
+    "text_en": "And I recommend both of these. What I mean is ask your manager what you can do, how you can help them, but also be thinking about what can you do on your own or what can you go to your manager and say, I think we should do this and here's why. So an example I'll give Amazon now sells over a billion dollars a year of funny t-shirts, custom printed, you know, you can put your slogan on a t-shirt and put it up on Amazon and buy it yourself or get other people to do it. I helped start that business and specifically, I funded the initial team on it. And my manager was saying, hey, you run Amazon's app store. Like, what does that have to do with t-shirt printing? This has nothing to do with it. Why are you doing this? And I said, well, I think there's a big business here, but I need 10 people and I have 800. So if you're going to tell me that I can't spend basically 1% of my resources on this thing I believe in, we have another discussion to have because you're micromanaging me. Like, this should be within. And so he's like, fine, I disagree, but go do, you're right, it's only a few people, go do your thing. And then it turned into a big business. And of course, I'm simplifying a ton when I say, and then it turned into a big business. We're like years of work in that phrase. But I was thinking about what else can I do? What else makes sense that either with my own resources or with lightweight approval, I can go work on. And so I think with your manager, of course, you're trying to ask, what do they need? And that's what I was doing with 790 out of my 800 team. At 10, I was doing something that he didn't think was a good idea, but I was able to say like, well, let me have my 10. He's like, all right, you're a big enough leader if you're now responsible for making these people useful. So I did. And if I had failed, I started projects that also didn't work out. You've got to shut them down quickly and have a good enough hit rate. But I think there's multiple paths to the top. I tried them all, right? Be the helpful person, but also be the inventor.",
+    "text": "我建议两条路都走。我的意思是，你要问你的经理你能做什么，怎么帮助他们，但同时也要思考你自己能做些什么，或者你能去跟经理说，我认为我们应该做这个，理由如下。举个例子，现在亚马逊每年销售超过十亿美元的有趣 T 恤，你可以定制口号印在 T 恤上，然后在亚马逊上出售或自己购买。我帮助启动了这项业务，特别是我为初始团队提供了资金。我的经理当时说，你负责亚马逊的应用商店，这跟 T 恤印刷有什么关系？这根本没关系，你为什么要做这个？我说，我觉得这里有很大的商机，但需要十个人，而我手下有八百人。如果你告诉我不能把资源的 1% 用在这个我相信的项目上，那我们就有得谈了，因为你在微观管理我。这应该在我的权限范围内。所以他说，好吧，我不同意，但你去做吧，确实只有几个人，你去做你的事吧。然后这个项目变成了一个大生意。当然，我说“然后它变成了一个大生意”是简化了很多，实际上我们投入了多年的工作。但我在思考还能做些什么，还有什么是有意义的，可以用我自己的资源或轻量级的批准去做的。所以我认为，当然，你要尝试问经理他们需要什么，就像我手下 800 人中的 790 人那样。但另外 10 人，我做了一些他认为不是好主意的事情。如果失败了，我也启动了一些没有成功但迅速关闭的项目。你必须有足够的成功率。我认为有多种途径可以到达顶峰。我尝试了所有这些方法，对吧？做一个乐于助人的人，但也要做一个创新者。"
+  },
+  {
+    "start": 2642.4,
+    "end": 2654.9,
+    "speaker": "Ryan",
+    "text_en": "We talked about reorgs earlier, and you mentioned that it can be used to manage certain leaders out. Sure. What does that look like in practice? Can you give me an example?",
+    "text": "我们之前讨论过重组，你提到它可以用来淘汰某些领导。当然。这在实践中是什么样的？你能给我举个例子吗？"
+  },
+  {
+    "start": 2654.9,
+    "end": 2850.36,
+    "speaker": "Ethan",
+    "text_en": "What it looks like in practice is you put them on something they don't want to work on, and you claim, well, that was the only seat. That was the seat we needed you in. I mean, I'd like to claim it's more complicated than that, but I'll tell a story of someone who got reorg and I thought they'd quit so much. The manager even thought they were going to quit and was very upset with this. When I first joined Amazon, we had a few groups, and we organized ourselves, and I owned what was going to be Prime Video. And someone else owned what became Prime Music, and a third person owned what became the Kindle, the e-reader. And then there was a guy who had a clear ownership over the ingestion pipeline. So the way to digitize movies, music, et cetera, was all a unified pipeline. And then there was one more leader, and he got given database maintenance, quality assurance, and like a couple small things. And even he joked, well, my group's other. It's the garbage can, right? And our VP was like, don't call it that. You cannot call it that. What about the people in it? And I'm sure he was thinking like the leader who's stuck with other isn't going to stick around. Well, as far as I know, that guy is still at Amazon 20 years later because he was one of those very calm, nice guys who was willing to do what was needed. He was the team player who was going to do what was needed. But the point is, if I wanted to get rid of a high performer, not a high performer, why would I want to get rid of a high performer? But if I wanted to get rid of a pushy, overly ambitious person, just give them other. Like six weeks later, that's a vacancy. I can open the role right now, right? Because like I'm a bit of a confrontational person. So when I needed to fire someone, I tended to just go straight at it. But this putting someone in a seat they don't like is classic. And there's even a – this is a widely understood – this isn't an Amazon thing. If you go to Japanese culture, completely other country, there's this concept called a window seat. I don't know if you ever heard of this. So in Japanese culture, which is very collectivist, and I'm not an expert, so maybe someone from Japan will say this isn't true, but I don't think so. You want to be in the center of the building, even though window seats are very desirable in American culture. The hot – you want to be in the middle of things there. You want to be close to the CEO and close to the action. So actually being on a window means you're not that important. And so, ironically, what we would think of as great being given a corner office in Japan is a signal of you've been moved as far from what's happening as possible. You've been exiled to the land of irrelevance where you don't even have co-workers on one side, you have glass. And that would be a way to signal to somebody, like, your career here is now over. You're in a window seat. So this idea isn't – you know, I don't think it's – some people would think, oh, well, that's only Amazon because they have a history of being combative. I don't think that's true. I think this idea is well known.",
+    "text": "在实践中，就是把他们安排到他们不想做的工作上，然后声称，这是唯一的位置，这是我们需要你待的位置。虽然我希望这比听起来复杂，但我会讲一个故事，有人被重组了，我以为他会辞职。经理也以为他会辞职，非常生气。我刚加入亚马逊时，有几个团队，我们进行了重组，我负责 Prime Video。另一个人负责后来的 Prime Music，第三个人负责 Kindle 电子阅读器。还有一个家伙负责内容摄取管道，也就是将电影、音乐等数字化的统一管道。还有一个领导，他被安排去做数据库维护、质量保证和一些小事情。他甚至开玩笑说，我的团队是垃圾桶。我们的副总裁说，不能这么叫，不能这么叫，这对团队成员不公平。但他的想法是，这个被安排去做其他事情的领导不会留下来。但据我所知，这个人 20 年后还在亚马逊，因为他是一个非常冷静、友好的人，愿意做需要做的事情。他是一个团队合作的人，会做需要做的事情。但重点是，如果我想淘汰一个高绩效员工，为什么我要淘汰一个高绩效员工？但如果我想淘汰一个过于野心勃勃、爱出风头的人，就给他们安排其他任务。六周后，这个位置就会空出来。我现在就可以开放这个职位，因为我自己有点好斗。所以当我需要解雇某人时，我通常会直接去做。但把某人安排到他们不喜欢的位置是经典的手段。这不仅仅是一个亚马逊特有的现象。在日本文化中，也有类似的概念，叫做“窗边位置”。你可能听说过。在日本文化中，虽然窗边的位置在美国文化中非常受欢迎，但你希望在大楼的中心位置。你希望靠近 CEO 和核心事务。所以实际上被安排在窗边意味着你并不重要。讽刺的是，我们在美国认为很棒的角落办公室，在日本则是一个信号，表示你已经被边缘化，远离了核心事务。你周围甚至没有同事，只有玻璃。这会向某人发出信号，表示他们的职业生涯在这里已经结束了。你被安排在窗边位置。所以这个概念并不仅仅限于亚马逊，因为有人可能会认为，这只是亚马逊特有的，因为他们有好斗的历史。但我不这么认为，我认为这个概念广为人知。"
+  },
+  {
+    "start": 2850.36,
+    "end": 2886.62,
+    "speaker": "Ryan",
+    "text_en": "You mentioned that one guy who gets other or the garbage can. He's the nicest guy or he's the team player and this and that. And I guess I see the incentive structure that makes it that nice guy gets garbage can. But why – I don't know. Some part of me is wishing the world wasn't that way. Sure. Is it possible to build an org where if you're nice and you wait your turn that the – because you could choose. As the VP, you could say, I'm going to reward the nice people that don't pressure.",
+    "text": "你提到那个被安排去做其他任务或垃圾桶的人，他是个非常友善的人，是个团队合作的人，等等。我理解这种激励结构，让好人去做垃圾任务。但我不明白，我内心深处希望世界不是这样的。当然。作为副总裁，你能不能建立一个组织，让那些友善、不施压的人也能得到奖励？"
+  },
+  {
+    "start": 2887.8,
+    "end": 3060.52,
+    "speaker": "Ethan",
+    "text_en": "You can to some degree. First, note that the org I described where it had all those random things was also the garbage can. So I built the garbage can kind of opting into it. Like, I will take all of your junk and that is my role. He was not doing that in the same way, but there was some of that. The problem with only rewarding the nice guys is, number one, sometimes the nice folks don't actually want more. In other words, ambition tends to come out. And if people are really ambitious, they do usually end up – not always, but they usually end up more vocal. Second, though, I have the problem that I do have all these vocal people and what they're going to do usually is not become less vocal just because I have an example of play nice and you'll move up. They're going to look for where can I go that's going to reward me right away. And so, of course, maybe a better leader than I can build this culture where all the nice people are rewarded and all the sort of less nice people see the air of their ways and become naturally generous. But that isn't human nature. And so, I think there is some balancing. What I often do, as you heard from my coaching, and I'll be honest, is I tell the nice folks, being that nice isn't helping you. You don't have to be a jerk. You have to do what I did where you say, my career is very important to me. It's okay. It's okay to have – where people fall down is they come, particularly in tech, from non-U.S. cultures that are collectivist or have different mores, and we're asking for what you want or speaking up culturally doesn't fit. I see this a lot, particularly with women from Asia, different parts of Asia. At home, they're expected culturally to take one role, which is often more family-oriented and supporting of parents and grandparents and so on. But then, to get ahead and work, they need to be a little bit more outspoken, and it's a big contrast. I would just say, it's okay to ask for what you want. That isn't wrong. And managers, even good managers, they're not in the business of guessing. If you've never told me what you want, sure, in theory, I should ask you, but I'm very busy. And so, sometimes I get around to that, and sometimes I don't. Meanwhile, this other person, every three days is knocking on my door. I'm super clear on what they want.",
+    "text": "在某种程度上可以。首先，要注意我描述的那个组织，它有很多杂七杂八的事情，其实也是一个垃圾桶。所以我建立的这个垃圾桶是主动接受这些事情的。就像，我会接受你所有的垃圾，这就是我的角色。他没有完全这样做，但也有类似的情况。只奖励好人的问题在于，首先，有时候好人并不真的想要更多。换句话说，野心往往会表现出来。如果人们真的有野心，他们通常会——不是总是，但通常会更积极发声。其次，我有很多积极发声的人，他们通常不会因为我知道好相处的人会得到晋升而变得不那么积极。他们会寻找能立即奖励他们的地方。当然，也许比我更好的领导者可以建立一种文化，让所有好相处的人都得到奖励，而那些不太好的人会改变自己的行为，变得自然大方。但这不是人的本性。所以我认为需要在两者之间找到平衡。正如你从我的辅导中听到的，我会坦诚地告诉那些好相处的人，你这么好相处实际上对你没有帮助。你不必成为一个混蛋。你需要像我一样，明确地说，我的职业生涯对我来说非常重要。这没有问题。人们往往在这一点上栽跟头，尤其是在科技行业，来自非美国文化的集体主义或有不同的道德观。我们要求你表达自己的需求或积极发声，这在文化上可能并不合适。我经常看到这种情况，尤其是在来自亚洲不同地区的女性身上。在家里，她们被期望承担一种角色，通常是更家庭导向的，支持父母和祖父母等。但在工作中，为了取得进步，她们需要更加积极发声，这形成了很大的反差。我只是想说，表达自己的需求没有错。这没有问题。即使是好经理，他们也不会去猜测。如果你从未告诉我你的需求，理论上我应该去问你，但我非常忙。所以有时候我会去问，有时候不会。而与此同时，另一个人每三天就会敲我的门，我非常清楚他们想要什么。"
+  },
+  {
+    "start": 3060.52,
+    "end": 3108.58,
+    "speaker": "Ryan",
+    "text_en": "When it comes to engineers, there's one layer to think of. And so, if someone's low-performing, there may be your peer. But if you have a low-performing manager, there's this vertical stacking that we have. You might be reporting to someone who you think is not great at their job. And so, the natural thought is go to their manager, which would be your skit, which I guess you could consider this as mutiny. If you went to them and you said, hey, my manager is bad. I don't want to report to this person. Do you have any examples of this kind of escalation coming to you, where someone in your recursive chain was considered incompetent by their reports, and they came directly to you and they said, please manage this person out, or I just don't want to report to this person?",
+    "text": "说到工程师，有一个层面需要考虑。所以，如果有人表现不佳，他们可能是你的同事。但如果你有一个表现不佳的经理，这就涉及到垂直层级的问题。你可能要向一个你觉得工作能力不强的人汇报。所以自然而然的想法是去找他们的经理，也就是你的上级的上级，这可以被视为一种叛乱。如果有人在你的下属链中觉得某个经理无能，直接来找你，说请把这个经理调走，或者我不想向这个人汇报，你有没有遇到过这样的情况？"
+  },
+  {
+    "start": 3108.58,
+    "end": 3279.0,
+    "speaker": "Ethan",
+    "text_en": "All the time. All the time. One of the hardest things for people to understand is, I've identified a legitimate weakness in my boss. I go to my skip. Why doesn't he do something? Well, if you come to me with a weakness in one of my employees, there is subconsciously this process that goes on that says, I have two choices. I can believe that you're overly sensitive and high maintenance, in which case, I don't really have a problem. You're the problem. And, you know, you're two levels down for me. So if you quit, man, the manager has to do the backfill. And I can tell the manager, you know, Ryan was here. He said this, that, and the other. Maybe you can work with him. And that's exactly what you don't want is me ratting you out. But I can make it my manager's problem. On the other hand, if I agree with you and I'm like, you know what? This manager I have really isn't that good. Now I have three problems. This is really bad for me. One, I have to decide what to do with my manager. Maybe I have to manage them out. Two, if I do manage them out, I have to hire and train somebody else. And three, while they're gone, I have to do all their work myself. So you can see why, even if it's subconscious, I have a lot of reasons not to listen or not to believe very easily. So mutiny, let's talk about mutiny. If you want to see it as a mutiny, we've talked about pirates already, never mutiny alone. If you want that to work, if you really want to say this manager is bad and we have a problem, take two or three people or send two or three people in sequence. Find some of your co-workers who are willing to speak up because I will give you an example. It really bothers me. I had a leader who was treating the women on his team like crap. Now, he wasn't doing that in front of me, but it turns out it was true. Well, it took a long time for the different rumors to bubble up to me enough to where I'm like, I'm hearing bad things. And then I went and talked to several of the women and I'm like, so in working with this person, I'm hearing. And they're like, oh, yeah. Well, then I was like, oh, okay, I've been blind to a problem. I need to act on it. Had any one of them come to me early and said, this person's a problem, they're doing this, that, and the other, I probably wouldn't have listened because it was a lone report. But when several of those reports came up, then I'm like, oh, shit, I've been missing something. So if you want to hold a mutiny, go together, right? Even if it's Zelda, it's dangerous to go alone.",
+    "text": "经常遇到。经常遇到。人们最难理解的一点是，我发现了我的老板的一个真实弱点。我去找我的上级的上级，为什么他不采取行动？好吧，如果你来找我，指出我的某个员工的弱点，潜意识里会有这样一个过程：我有两个选择。我可以认为你过于敏感和高要求，这样的话我其实没有问题，问题出在你身上。你知道，你在我这里低了两级，所以如果你辞职了，经理得去填补这个空缺。我可以告诉经理，Ryan 来找我了，他说了这些那些事情。也许你可以和他合作。而这正是你最不希望的，我把你出卖了。但另一方面，如果我同意你的看法，觉得这个经理确实不行，那我就有三个问题了。这对我来说真的很糟糕。首先，我得决定怎么处理这个经理，也许我得让他们离开。其次，如果我真的让他们离开了，我得招聘和培训新的人。第三，在他们离开期间，我得自己做他们的工作。所以你可以理解，即使这是潜意识里的想法，我也有许多理由不愿意听或轻易相信。所以，叛乱，我们来谈谈叛乱。如果你把它视为叛乱，我们已经谈过海盗了，永远不要单独叛乱。如果你真的想这样做，想说这个经理不行，我们有问题，那就找两三个同事一起，或者按顺序找两三个同事。找一些愿意发声的同事，因为我会给你举个例子。这真的让我很困扰。我有一个领导对待他的团队中的女性非常糟糕。他没有当着我的面这样做，但事实证明这是真的。不同的传言花了很长时间才传到我这里，让我意识到，我听到的都是不好的事情。然后我去找了几个女性，说，和这个人合作时，我听到的是……她们说，哦，是的。然后我才意识到，哦，好吧，我一直忽略了这个问题。我需要采取行动。如果她们中的任何一个早些来找我，说这个人有问题，他做了这些那些事情，我可能不会听，因为那只是一个单独的报告。但当有多个类似的报告时，我才会意识到，哦，天哪，我忽略了一些事情。所以，如果你想发动叛乱，那就一起行动吧，即使只有 Zelda，单独行动也是危险的。"
+  },
+  {
+    "start": 3279.0,
+    "end": 3301.88,
+    "speaker": "Ryan",
+    "text_en": "Take this. Take other people. I see. Okay, so if let's say there's a high-performing IC who is reporting to a manager and say the fact is that that manager has some shortcomings in their abilities, you would say don't go immediately to the skip. First, build allies with some of the other people and say, hey, are you also seeing this with this person?",
+    "text": "找其他人一起。我明白了。所以，假设有一个表现优秀的个体贡献者向一个经理汇报，而这个经理在某些方面确实有不足，你的建议是不要立即去找上级的上级。首先，和其他人建立同盟，说，嘿，你有没有发现这个人也有这些问题？"
+  },
+  {
+    "start": 3302.3,
+    "end": 3372.02,
+    "speaker": "Ethan",
+    "text_en": "If you can, yeah, you want to talk to them and say, hey, do you see what I see? Well, one thing is that's a way to sanity check. I'm really struggling with our boss in this area. Do you, are you having that problem? And if they say, no, I get along with them, great. And here's how, then maybe you can learn and adjust. That's the style thing. Whereas if they're like, oh, yeah. Then the hardest next hurdle is, are they willing to speak up? Because a lot of people aren't. But if they know that you're going to go first and play ringleader, like I will go talk to our skip, but I'm going to tell our skip. They can verify my story by talking to you or, and also to Sally or Fred or Rajiv. Most managers, if you go to them and say, look, I know that my saying the boss is a weak link is uncomfortable and difficult for you. But these three people are all willing to share similar stories. Would you consider at least talking to them? Most managers will do that. Most, you know, not all. There's no, there's no guarantees when you're dealing with people.",
+    "text": "如果可以的话，是的，你得和他们谈谈，说，嘿，你有没有看到我看到的问题？这可以帮你验证一下。我在这个方面真的和我们的老板相处得很困难。你有没有遇到同样的问题？如果他们说没有，和他们相处得很好，那太好了。你可以从中学到一些东西并调整自己的方式。这是风格问题。但如果他们说，哦，是的。那么接下来最难的一关就是，他们是否愿意发声？因为很多人不愿意。但如果他们知道你会先去，扮演领头羊的角色，比如我会先去找我们的上级，但我会告诉我们的上级，他可以通过和你或其他人，比如 Sally、Fred 或 Rajiv 谈话来验证我的说法。大多数经理，如果你去找他们，说，看，我知道说老板是薄弱环节会让你感到不舒服和困难，但有这三个人都愿意分享类似的故事。你能不能至少和他们谈谈？大多数经理会这样做，但也不是全部。毕竟，人在处理事情时没有保证。"
+  },
+  {
+    "start": 3372.02,
+    "end": 3451.32,
+    "speaker": "Ryan",
+    "text_en": "I mean, that's, yeah, that's the immediate thing I imagine is let's say I was that IC and then I went to other people and we all kind of knew that that person had a shortcoming. It's, there's the difference between that, that water cooler talk and saying, yeah, this person is disorganized. I mean, he keeps doing that compared to, hey, I'm going to go to his boss now and we're going to, we're going to make, take this up a notch because also there's this, this delicate balance, which is all these people still report to that person. So now if you were to get caught at any point in this process, you might worry about retribution or something if you're wrong. Um, what about the path of, cause this is all, this is a lot. I mean, your manager needs to be pretty bad. If you do this, what about the approach of you say, Hey, it's just me and him. And you want to go to the skip and say, Hey, Ethan, um, you know, nothing, nothing personal with the person that I'm reporting to, but I see a better business case for me to go to another team or, you know, something like that. Or you word it and say, I don't, don't think poorly of this manager, but I'll be more productive somewhere else for your org. What about that approach rather than the. Well, you're blending two approaches.",
+    "text": "我意思是，假设我是那个个体贡献者，然后我去找其他人，我们都觉得这个人有问题。这和在水冷却器旁闲聊说这个人很混乱是不一样的。我是说，他总是这样做。而如果你现在要去找他的老板，说我们要把这件事提升一个级别，因为还有这种微妙的平衡，所有这些人仍然要向这个人汇报。所以如果你在这个过程中被发现，你可能会担心如果自己错了会遭到报复。嗯，关于这条路，因为这确实很多。我是说，你的经理得真的很糟糕，你才会这样做。那么，有没有这样的方法，就是你说，嘿，就我和他。你想去找上级的上级，说，嘿，Ethan，和我汇报的这个人没有个人恩怨，但我觉得换到另一个团队对我更有利，或者类似的话。或者说，我对这个经理没有意见，但在其他地方我会更高效。这种做法怎么样，而不是……嗯，你把两种方法结合了。"
+  },
+  {
+    "start": 3451.32,
+    "end": 3583.44,
+    "speaker": "Ethan",
+    "text_en": "Um, the first is, which is. Remember we talked about the story you tell versus the story that may be true. If you can actually make a strong case that you're equally valuable or more valuable somewhere else, a plausible case, don't even bring up the manager. Just say, Hey, I was looking at this other role and I think I could do so much more for you in the org over here because of a, B and C. And you try that run first. And if that works, you're done. You never have to bring it up. The second thing you can say, you've just, you've got to, you've got to play chess, not checkers, meaning several moves in advance. You can totally say, look, candidly, you keep it blame free. I'm not compatible. With our leader. I'm not, maybe it's him. Maybe it's me. Of course, I naturally feel that maybe I'm doing good work and, and he could improve, but I'm not here to throw your manager under the bus. I'm just here to tell you, I need a change. And I did this once with a leader at Amazon where I wanted to make a change. I was doing a good job for him in the role I was in. So he wanted me to stay there. And what I had to help him understand is I said, you are seeing this as I take this new role or I stay in this role. And you'd prefer I stay in this role because that's good for you. And I get that. But what I'm trying to tell you is either I take this new role in your org that I'm asking for, or I'm going somewhere else entirely. So there is no choice, keep me where I'm at. There's do you want me on your team or on someone else's team? Now, I had both options available, and it was really interesting because after weeks and weeks of resistance, I was in the new role the next morning. Like once he got the clarity of, oh, I thought I had a choice between you stay in the role I want you in and you go to the role I don't really want you in. But the choice I actually have is I keep you in my team or I lose you. It was totally different the next morning.",
+    "text": "嗯，第一种方法是……记住我们谈过的故事和真相之间的区别。如果你能真正证明你在其他地方同样有价值或更有价值，一个合理的理由，就不要提经理。直接说，嘿，我看到这个其他角色，我觉得在这里我能为你的组织做更多的事情，因为有 A、B 和 C。先试试这种方法。如果成功了，你就完成了，根本不需要提经理。第二种方法是，你得下象棋，而不是跳棋，意思是你要提前多走几步。你可以完全坦诚地说，但不要归咎于任何人。我与我们的领导不兼容。可能是他，也可能是我。当然，我自然会感觉，也许我做得很好，而他可以改进，但我不想把你的经理推到风口浪尖上。我只是想告诉你，我需要改变。我曾经在 Amazon 与一个领导合作时这样做过。我在我的角色中做得很好，所以他希望我留在那里。我得帮助他理解的是，我说，你看，你认为我在这个新角色或留在这个角色中。你希望我留在这个角色中，因为这对你有好处。我理解这一点。但我想告诉你的是，要么我在这个新角色中为你工作，要么我完全离开。所以没有选择让我留在原地。你希望我在你的团队里，还是在别人的团队里？当时我两个选择都有，这真的很有趣，因为经过几周的抵抗，第二天我就换到了新角色。就像，一旦他明白了，他认为他可以选择让我留在他希望的角色中，或者让我去他不希望的角色中。但实际的选择是，他要么留住我，要么失去我。第二天情况就完全不同了。"
+  },
+  {
+    "start": 3583.96,
+    "end": 3594.4,
+    "speaker": "Ryan",
+    "text_en": "But how did you word that in a way where that person you're reporting to did not feel upset that you kind of subverted their power and forced their hand?",
+    "text": "但你是怎么表达的，让汇报给你的那个人不会因为觉得你绕过他们的权力并逼迫他们而感到不高兴？"
+  }
+]

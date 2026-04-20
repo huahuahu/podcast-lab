@@ -1,0 +1,338 @@
+[
+  {
+    "start": 0.0,
+    "end": 18.18,
+    "speaker": "Ethan",
+    "text": "I have seen things, you know, that make me want to close my eyes, for sure. You know, you want to talk about the dark side, and that's okay. I hope no one would do this, but I know people do. That's my opening gambit for I want to take it over. After this conversation, I'm a little more cynical."
+  },
+  {
+    "start": 18.18,
+    "end": 26.34,
+    "speaker": "Ryan",
+    "text": "This is Ethan Evans, former Amazon VP, back for a second time because I knew he had a lot to share about corporate politics."
+  },
+  {
+    "start": 26.34,
+    "end": 34.08,
+    "speaker": "Ethan",
+    "text": "We're going to put these people under you for six months. Let's check the box and give them back to the person we took them from. It's almost like this hidden chest going on."
+  },
+  {
+    "start": 34.08,
+    "end": 51.16,
+    "speaker": "Ryan",
+    "text": "Absolutely. He shared what to do if you have a bad manager. You could consider this as mutiny if you went to them and you said, hey, my manager is bad. So, mutiny. Let's talk about mutiny. And he said he'd be transparent, so I really put him to the test. What are the attacker tactics?"
+  },
+  {
+    "start": 51.16,
+    "end": 57.4,
+    "speaker": "Ethan",
+    "text": "Wow, Ryan, when you said we would just go deep on transparency, you were not kidding."
+  },
+  {
+    "start": 57.6,
+    "end": 71.24,
+    "speaker": "Ryan",
+    "text": "So, the best attack, what is the leverage that an engineer has as they're getting fired that a company would want to pay for? And here I'll give you your last piece of your leverage. I imagine this would be useful even outside of your career."
+  },
+  {
+    "start": 71.24,
+    "end": 78.56,
+    "speaker": "Ethan",
+    "text": "Now, there's some people watching this, engineers, who are like, I hate you. I hate the politics. Do yourself a favor and get good at this."
+  },
+  {
+    "start": 78.94,
+    "end": 126.28,
+    "speaker": "Ryan",
+    "text": "Here's the full episode. Last time we talked, I think one reason that people really love the conversation was because of your unusual level of transparency. I've never met anyone who was in such a high level in tech, like in VP at Amazon, that was willing to say everything directly that could help both engineers and also managers know what's going on behind the scenes at those highest levels. And I know that we didn't get to cover everything. So, today I'm hoping that we can go over everything in terms of reorgs and all of the other behind the scenes things that happen in the management of tech. So, I'm hoping you can continue to be transparent, maybe even more transparent this time."
+  },
+  {
+    "start": 126.28,
+    "end": 153.02,
+    "speaker": "Ethan",
+    "text": "Absolutely. You know, I'm comfortable with the fact that I'm not a perfect person. And sometimes some of the stuff I did, I wish I had done differently. So, I can share what I did and what I saw others do because I'm comfortable with that. And frankly, I'm retired. So, I'm immune. There's no boss over me who's going to be like, you said what? You told Ryan what? I'm free from that."
+  },
+  {
+    "start": 153.02,
+    "end": 157.84,
+    "speaker": "Ryan",
+    "text": "The first topic I want to go over is empire building."
+  },
+  {
+    "start": 157.84,
+    "end": 251.46,
+    "speaker": "Ethan",
+    "text": "Empire building, I think, is a bad thing. And as defined, it means focusing more on getting raw number of people than on what you're doing or the impact you're having. So, why does it exist? Empire building exists because it's rewarded. And it's rewarded because counting people is the easiest thing to do. And so, when a leader or a set of leaders are deciding who's ready to promote, how much impact you had is subjective. One person thinks the project was hard. Another thinks, oh, that was pretty easy. But no one can debate, well, Ethan has 42 people and Ryan has 17. Ethan is the bigger leader, is the conclusion they're making. And that encourages empire building because it's what's visibly measurable. And so, what I've found is that drives leaders to want more people because that's going to be their tool. And some companies absolutely have written thresholds of, to be eligible for this promotion, you have to have this many people. So, of course, if you give high performers a goal, they're going to figure out a way to hit that goal. And if that requires claiming they need people or seeking to take over other groups, they're ambitious. They're going to find a way to rationalize that to themselves. I need those people."
+  },
+  {
+    "start": 252.24,
+    "end": 268.4,
+    "speaker": "Ryan",
+    "text": "I saw that there's this desire to change the incentive structure, at least at the company that I was at, where managers could be promoted, not necessarily just directly proportional to how many recursive reports you have. Is that possible to do? Of course it is possible."
+  },
+  {
+    "start": 268.4,
+    "end": 350.98,
+    "speaker": "Ethan",
+    "text": "It takes more effort because impact is harder to assess, right? The impact an engineering manager has is somewhat fuzzy. What's most important? Is it operational performance? Is it new features shipped? Is it whether or not those new features resonate in the market and make money? And you end up with difficulties. Like maybe my product directly generates money. Whatever I'm doing gets directly sold and customers pay for it. And what you're doing is infrastructure. Well, now how do we compare that? Like you're keeping the systems up, but I'm actually the one bringing in all the money. Who has more impact? Again, that's where people get sucked into why of 42 people in UF 17, I must be a bigger manager. That's, that's how that happens. It is of course possible to make value judgments, but then they're also harder to defend. I have to look at you and say, Ryan, we love the work you've done and you're on the right path, but Ethan was more impactful. And that just makes you mad probably, unless you happen to agree like, oh yeah, that guy's a star. It's just all these things make assessing impact difficult and dangerous. And that's why it doesn't get done as much as it should."
+  },
+  {
+    "start": 350.98,
+    "end": 370.34,
+    "speaker": "Ryan",
+    "text": "You mentioned the written thresholds for promotion. And since you were VP at Amazon, I know it's been some time, but off the top of your head, do you remember the rough written thresholds for how many reports you would need to be considered for senior management, director, and VP?"
+  },
+  {
+    "start": 370.76,
+    "end": 468.3,
+    "speaker": "Ethan",
+    "text": "So interestingly, those thresholds did not exist while I was there and they existed in whisper numbers, but they were not written down. They came about after I left and people I was coaching still at Amazon or talking to told me very clearly that the number that got established to become a director in some orgs was 80 people and in some was 90. So I became a director in the early days of the company with 22 people because it was different times and the company was smaller and that crept up and up until when I was at the end of my career, we did have like a sense that the company wanted us to look for people with about 75 or 80 people, but it got written down as 90, at least in some organizations. And the thing that's funny about that is one of the Amazon leadership principles says there's no bonus for additional headcount, but now that it's written down that I can't get to this very well-paying level without 90 people, there damn sure is a bonus, right? And I think there's like a several hundred thousand dollar a year bonus quite literally for accumulating 90 people. And I've talked to leaders who their boss trying to get them across the threshold was like, we're going to put these people under you for six months, check the box and give them back to the person we took them from because that's the game they have to play if they want to, you know, reward a person in their team. And of course that's insanity where we're moving people around and changing their lives just to hit a number."
+  },
+  {
+    "start": 468.3,
+    "end": 494.92,
+    "speaker": "Ryan",
+    "text": "But if you did that, let's say I'm, I'm a VP and I have a very loud director or very loud senior manager who wants to become a director. And so I got, okay, to retain them, I'm going to give them some reports from over here and now they're going to be eligible for director after they get promoted though, they need to sustain those reports to sustain that position, right? Like you couldn't just move them back."
+  },
+  {
+    "start": 494.92,
+    "end": 578.06,
+    "speaker": "Ethan",
+    "text": "I mean, you can, again, it depends on the company, but you can play all sorts of shell games where, um, for example, at Amazon, if you drop below the number of reports, there's like a grace period, six months, nine months, where if you can tell a story about how they're going to get back to that level or how future growth, it's okay. If they're below it temporarily, the other thing is no company, no company I know of really systematically down levels people. What they would do is they'd say, okay, well, Ryan, you're a director. Your team is no longer director scope. You're going to have to find a director level role. And so then it's up to me if I can do that in my org or I move you, but I've still achieved the goal for you. And you absolutely see, I have seen not just in Amazon, but other places when headcount is the main issue, I've seen things moved around. And I certainly, when people normally come to me, it's with the complaint. My boss actually told me that he's putting me under my peers so that my peers team will look better. So the reason I'm being reorg under this other person is not for any business reason, but because they don't have the scope to get the promotion. And so I need to go be their scope. That's what I'm being told."
+  },
+  {
+    "start": 578.06,
+    "end": 615.26,
+    "speaker": "Ryan",
+    "text": "When I was an engineer and reorgs were happening, I think you don't know all the behind the scenes of how orgs are managed. And so you're told there's a certain reason for the reorg, however, and which may be true, but there may be a secondary and ulterior motive of this person also needs to get promoted. Do you ever have an experience like that, where you saw reorg happening in other orgs? You didn't know the exact person who needs to get promoted or what, but you could just tell based on how it happened and what happened that, oh, there's something else going on behind the scenes."
+  },
+  {
+    "start": 616.02,
+    "end": 667.34,
+    "speaker": "Ethan",
+    "text": "Yeah. And I would say there's always something else going on, meaning all managers know, all leaders know that too many reorgs costs you people. And so you don't want to do them too often. What that means though, is like you wait as long as you can. And then when you need to do one, you're asking yourself, how do we get everything we want? How do we, how do we, if there's someone we don't like, how do we give them less? So they'll move on. If there's someone that we really think is high performance, how do we set them up for success? How do we retain key people? And yes, hopefully the start of the reorg is how do we make the business better? But as soon as we figure out what we think we need to do for the business, then we're trying to figure out how much else, you know, this ship is leaving the dock. How much else can we throw on the deck as it's pulling away? That's going to help us."
+  },
+  {
+    "start": 667.34,
+    "end": 679.32,
+    "speaker": "Ryan",
+    "text": "I just trying to figure out the exact mechanics, like maybe a past reorg that you've done where you tried to cram a bunch of different ulterior things into it. And how does that actually play out?"
+  },
+  {
+    "start": 679.32,
+    "end": 786.0,
+    "speaker": "Ethan",
+    "text": "Well, a couple things happen there. First, there are usually multiple people involved. And so sometimes you have to either get them on board with your second motive. You know, you have to tell them like, yeah, I want to help this person get promoted as a part of this reorg, or I want to set them up. Are you supportive of that? Sometimes you have to tell a story like, no, I'm not doing that. It's really this reason. And so there is some cleverness to justifying. Because even for a senior leader, usually a reorg is a big enough change that somebody will be auditing it. And you've got to be able to explain it to them. So you're coming up with your narrative. You're a storyteller. And you're coming up with your narrative about why this is the best possible reorg that rewards the deserving people and accomplishes the business goals. And if anybody is suffering, you've made sure that that's people that aren't the highest performers. And so if anybody does leave, it's okay. And when I think about specific reorgs I've done, they're very much about retention. If you're making a change, you're very much thinking people don't like change. Who is it I absolutely need to keep? And who is it if they leave, I'll either be okay or even maybe happy. And I can't immediately think of a place where I personally put someone in a role where I'm like, and by putting them there, they'll quit. But I can absolutely think of the reverse where people I really wanted to keep, maybe who I felt I was at risk at losing, I was using the reorg to give them something juicier."
+  },
+  {
+    "start": 786.0,
+    "end": 793.46,
+    "speaker": "Ryan",
+    "text": "So then how does it usually get started? I mean, a reorg, let's say, yeah, what's the triggering condition?"
+  },
+  {
+    "start": 794.18,
+    "end": 918.78,
+    "speaker": "Ethan",
+    "text": "Well, usually the triggering condition is a change in the business. So something about the business has changed and the organization is not set up to address it. So it needs to take on a new market or you've acquired a company and you need to blend them in or you want to start a new project. That's the first reason for a reorg has changed in the business. The second reason for a reorg is somebody else quit or got moved. So often reorgs come due to cascades. And many times, for example, several times in my career, my boss either left or was moved to another job. And so I had to go somewhere else. I could go up if they thought I was ready. I could go under somebody different or they could choose to backfill, you know, just leave that position open. But at least in my personal experience at Amazon, I never really saw the backfill happen. I always was moved under another leader. And several times I'm pretty sure I was put under them to stretch them. So when I ran the prime video team, my leader left and I was reorg from being under an engineering VP to being placed under a business leader. And that business leader who turned out to be one of my best managers ever. Some of his first words to me were, I don't really want your team. I don't want to run engineering. I don't know anything about it. And of course, as an engineer, I'm like, uh-oh. But he was a good leader and he said, we will figure it out. And we worked together and actually had a great run. But I had that happen a couple of times where I was put under people and it was, they had never led engineering. And it's like, well, let's give them Ethan's team and let them figure out engineering, which could be really demoralizing, right? Like, okay, here's the person who's not technical and I'm their guinea pig."
+  },
+  {
+    "start": 919.86,
+    "end": 985.3,
+    "speaker": "Ryan",
+    "text": "In conducting a reorg, you mentioned that you're the storyteller and you're building a narrative. And you said in some cases, you'd be direct and you'd say, we're trying to retain this person, so we're going to move things around. And in other cases, you said you would tell a story that this is solving a problem for the business and that other part would be hidden. It's really interesting to me because there's, it's almost like this hidden chest going on. Absolutely. You're aware of, there's multiple things and you're aware of the messenger of, this is what this person wants to hear. And here are the things that I'm trying to achieve. What pieces of what I'm trying to do can I sell to them to make the reorg happen? And also you'll get maybe other things as a result. And I think that turns off a lot of people, especially engineers, they go, I don't, I don't want to be managing all these things. I just want to say it as it is. Is that just a inevitable thing that you have to deal with if you're in management?"
+  },
+  {
+    "start": 985.3,
+    "end": 1134.58,
+    "speaker": "Ethan",
+    "text": "Well, inevitable. You can certainly work around it, meaning you can just do a reorg purely based on business goals and not let any concern for people enter. But probably that's going to cost you people because some people are more ambitious than others or just more demanding. And there is some truth to the old saying, the squeaky wheel gets the grease. This is another harsh truth people don't like. Sometimes, let's say two people perform roughly equally, but one of them has made really clear that they're thinking about leaving. Well, a lot of managers will ask themselves, you know, Ryan's this great guy always sticks with us. He'll wait another six months and I can use those six months to save this other guy, who's also valuable. And, and by being quiet and dutiful, sometimes I can make the decision. It's not that I mean to screw you. It's more, I'm focused on saving this other person and I know you'll put up with it. And so you can end up behind just because you're such a nice guy. And, uh, I often tell people when I'm coaching them, I will often tell my clients, you are a very nice person. And when I tell them that what they don't know is I'm then going to say, and that is not a compliment in this context. Again, I don't think you need to be a jerk, but jerks up to a point, pushy people get more. Now they can push too far and then they get less because they've antagonized. But if you never ask for anything, you'll never get anything. And so in a reorg, you ask about what's inevitable. Well, what's inevitable is I have some people who have been more vocal about what they want in their career than others. Perhaps I'm arranging the reorg just because I know what some people want and I don't know what others want. And so I assume they'll be fine. That's the most benign version. It may be even more that for some people, I know they're very pushy and demanding. And for some people, I know they're not. And so I'm serving the pushy people because then I get to keep my whole team."
+  },
+  {
+    "start": 1134.58,
+    "end": 1173.34,
+    "speaker": "Ryan",
+    "text": "So it seems like almost always it's better to be pushy and forthcoming with what you want in your career. But there is an upper bound, though, where you go too far. And so to Empire Building, for instance, as a concrete example, I mean, have you ever had someone who was a manager underneath you and clearly asking for reports? And you could you could see immediately that you don't need these reports. You're pushing because this is going to lead to your eventual promotion. And how do you handle that as a manager or as a senior leader when you can see someone's being too pushy and it's obviously not good for the business and not defendable?"
+  },
+  {
+    "start": 1174.34,
+    "end": 1373.98,
+    "speaker": "Ethan",
+    "text": "Yeah. So I think a manager, if I'm in the leadership seat, first, I better have a good trusting relationship with that person, if possible, where we can have a heart to heart and I can get in a room where they don't feel anybody's listening or watching and say, look, let's talk for a minute why you really want these people. OK, let's both be honest that your empire building and I get that you're trying to get to a goal, but this is a bridge too far. Let's talk about how I'm going to get you there or how we're going to get you there by some defendable path or some other path. And so as opposed to tell them, just, no, you can't have this, which will be very frustrating and they'll probably argue. I try to bend the conversation to let's problem solve together. What's another way to do this? And I won't say I'm always successful. Some people want what they want right now and they can't see or they have zero patience to wait. And at that point, again, that's that fine line. If I can, I'll share a related example that I know people resonate with, where one time I wanted to tell my manager that I really expected to be promoted, but I wanted to do it in a diplomatic way that couldn't get me in trouble and wouldn't irritate him. Not just couldn't get me in deep trouble, but like would bring out his support, even though I was threatening a little. And so what I did is with this manager, I wanted to be a director at Amazon. I was a senior manager. It's when I had the 22 people I referred to earlier. I went to him and his name was Neil. And I said, Neil, I need to understand how important my career is to Amazon because my career is very important to me. And see, that's a statement no one can argue with. No one can argue and say, well, your career shouldn't be important to you or it's illogical. So I said, my career is very important to me. I need to understand how important it is to Amazon, because if it's not as important to Amazon as it is to me, I need to think about that. And, you know, I need to think about that isn't a direct threat, but you laughed. Everyone understands that I'm kind of serving notice, but I'm not doing it in a way that is easily easy for him to push back on. See, if I say, well, if it's not as important to you, making it personal with him, it's not important to you as it is to me, then I might quit. So I came up with these words that clearly conveyed the message, but in a way you can't argue it's important to me. You can't argue really that if, if it's not as important to Amazon, I didn't personalize it, you know, that, that I have to think about that, that, you know, so I was able to put it on the table and, you know, he promoted me, right? He pushed the promotion through, and I think there's always a way to say things in that middle ground that makes clear what you want and makes clear that you're willing to consider your other options, but without being a threatening jerk about it."
+  },
+  {
+    "start": 1374.98,
+    "end": 1415.38,
+    "speaker": "Ryan",
+    "text": "That wording is, it's, it's kind of, I mean, because when you say the wording, I feel, I mean, if I was, I feel the effects of extortion a bit, but I couldn't, I could not label it extortion. If I went to someone else and I, I went to my management and I said, hey, Ethan told me this, they would, they would probably also immediately get, oh, there's a, there's a threat here. But I don't think anyone in any room would say this guy's being mean with it, or, or we need to get rid of them. They'd say that's a well done way to present yourself."
+  },
+  {
+    "start": 1415.38,
+    "end": 1458.96,
+    "speaker": "Ethan",
+    "text": "Right. That's bold. He's clear on what he wants. And that's, you know, one of the advantages do find a place where you fit. Meaning Amazon was a relatively sharp elbowed, pushy place. It has that reputation today. It was true long ago. You have to tune your message to, to the workplace that you're in. That message would be offensive in some workplaces. And it was totally not offensive at Amazon because there were people sort of pounding the table of, I need to move up now. And, you know, so, so part of it's just finding the place where you look like a wonderful, sweet person in the mix."
+  },
+  {
+    "start": 1459.9,
+    "end": 1524.78,
+    "speaker": "Ryan",
+    "text": "You mentioned that there's this, this dichotomy, I guess. There's these people who are team players, I guess. And then there's people who are more pushy with what they want. And they're, they're very forthcoming. And obviously that has benefits for their career. I've heard people tell me that when they want to express to their manager, oh, I want to get promoted or something like that. They have this feeling that they don't want to be too pushy because it could irk the manager. Correct. I imagine you're a high performer is, it keeps, you're a high performer, but also you keep demanding things of your manager that could also go wrong, depending on the manager. So I'm curious, like your perspective as a, as a senior leader at Amazon, when you had these demanding high performers, is that something that you were, were you happy to service their requests or was this, did it ever irk you? And you said, I'm going to actually not give you what you want, because you're a little too, you're a high performer, but you're also too demanding."
+  },
+  {
+    "start": 1524.78,
+    "end": 1708.82,
+    "speaker": "Ethan",
+    "text": "So I want to tell you a couple of things about that. Yes. First, the great thing about the really demanding people is if they really are bothering you to the point where you decide they're a net negative, if you just tell them, no, they will quit because they, they are so driven about getting what they want, that if you deny them what they want, your problem will go away shortly. They will even leave for a lesser job just because they believe, well, at this place, I'm going to have different results. So, yeah, you, you can calculate and say, okay, what, there is some calculus that says, what answer gets me the results I want? And if someone's too pushy and not enough value telling them, no, you can't have that, they will then go away. The second thing though, is I tended to try and make a deal. I'm a huge believer in deal making and I made these deals with my own leadership too. And the deal essentially was, okay, you want this thing. I will help you get it, but you're a high performer. You're going to show incredible performance on the things I need. And then I will deliver. And, uh, there are managers, of course, you make that deal and don't follow through. I can say with, uh, total pride that I feel I always followed through. There's actually one exception early in my career. I've shared where I failed to do that. And I still feel bad about it 20, 20 years later. But, um, I make a deal where I say, okay, you want this, here's what it's going to take. I need this and this and this. So as an example, I can give you my manager gave me a requirement. I really didn't like, he was my vice president. I was a director at the time. And he told me, your team is too expensive. We need to put a bunch of it offshore in India with cheaper labor. You need to open. Well, he didn't even say India. He said, you need to open a low cost offshore dev center. And of course I didn't want to do any of that. Like that meant traveling around the world and having teams around the world. And I didn't know how to do it and where to do it. He left it completely. You know, he made the whole problem mine. He didn't say, go to India. He said, go somewhere. And so the long and short of this is I found a senior manager I knew who wanted to get to director. He was Indian living in the U S and I went and said, Hey, would you go back to India and start this dev center? If you can build me a dev center in India, I think we can use that as a platform to get you to director. And that's exactly what happened. He moved home to India. He got to take his son home to learn Hindi and see his grandparents. He moved to India for three years and during that, I was then able to use his independent action there. And the fact that he was doing all this stuff remotely and to the point of narrative, I was able to create a story about how this was clearly a director level accomplishment and he was promoted to director. But I made that deal years before it happened. You go to India, I will get you to director. So that's what I try and do with the demanding people."
+  },
+  {
+    "start": 1708.82,
+    "end": 1728.1,
+    "speaker": "Ryan",
+    "text": "Well, I can imagine also the, a lot of things could change over the course of a few years, maybe you're at a different org and you had that guy went to India and then you're in a, he's no longer reporting to you two years later and you can't deliver on that. But I mean, you can't make decisions based off that."
+  },
+  {
+    "start": 1728.1,
+    "end": 1777.94,
+    "speaker": "Ethan",
+    "text": "No, if I had been reorgued or fired, you know, it depends. Right. Right. Like there are things that could have happened where I would have had to say to him, look, I'll do what I can to support you from the new role. But it isn't, I didn't do what I was saying. I, it's that I no longer have the power to, and I could feel all right about that. I can't immediately think of a circumstance where that happened to me, where I wasn't able to follow through for someone, but I can see where that would happen. The good news is people are, most leaders are professionals in that they under, they can see the difference between you didn't come through and, you know, shit happened. Those are two different categories. Yeah."
+  },
+  {
+    "start": 1777.94,
+    "end": 1813.74,
+    "speaker": "Ryan",
+    "text": "It's interesting how much back of the envelope, I guess, deals there can be between managers and reports or I'm sure between managers as well. Like maybe let's say you're trying to get someone promoted in your org and you're working with your manager on making that happen eventually. And he says, he or she says, okay, I have someone who's even more urgent now, but that one's going to happen in two halves. This one we're going to do next half. And there's all this, you know, back of the envelope stuff inside of the manager and the leader's heads."
+  },
+  {
+    "start": 1813.74,
+    "end": 1914.22,
+    "speaker": "Ethan",
+    "text": "There's absolutely a line, meaning by a line, I mean a line up, a queue, where even HR has a policy in big companies to say, what does the forward looking slate is what we call it? The forward looking slate of promotions. And they would track and say, by halves, who's in six months, 12 months, 18 months, maybe as far as 24. And you could list different names. And so there was a sense of like, whose turn is it? We're going to do, not that there was in my time, a quota. I understand, for example, at Google today, talking to someone I coached there, there's a strict quota, like this quarter or this half, two people can get from LA to L9 in this org. And, you know, the guy I was coaching is like, I think I'm number four. I'm not going to make it. And again, that can be toxic a little bit, but people understand the idea of there's a line. And so absolutely, you have those discussions. Now, again, for early in your career, there's usually no quota to go from like entry-level college engineer, whatever that's called where you're at, to sort of regular, you know, engineer, engineer, maybe even to senior engineer. Things get to have more of this quota system when the positions are rare and expensive. And there is a question, how many staff or principal engineers does this company need? How many distinguished engineers does it need? By the way, those positions cost a million dollars a piece. So we don't just want to hand them out like popcorn."
+  },
+  {
+    "start": 1914.22,
+    "end": 1959.3,
+    "speaker": "Ryan",
+    "text": "So you mentioned, when we were talking about empire building, there's this notion that managers' career progression is tied to the number of their recursive reports. And so on the one hand, there's an incentive for managers to say, I want more new headcount, but I could also see there being cases where managers want existing headcounts. So maybe someone underneath you is vying to take reports from someone else and basically steal scope for their own promotion. And since you were such a senior leader at Amazon, I'm curious, how did you handle cases where you noticed somewhere in your org someone is trying to steal scope from someone else in your org?"
+  },
+  {
+    "start": 1959.3,
+    "end": 2147.94,
+    "speaker": "Ethan",
+    "text": "So first, I would say this has become more common as growth is slow. In other words, when a company is growing very quickly, as Amazon was through much of my tenure there, you see less of this because it's easier to go get new people than it is to fight with someone. And it causes less bad blood. Not that I never saw that, but now that companies aren't growing, you know, if you look at the Magnificent Seven or however you look at them, most of them are flat headcount, a couple exceptions. There's a lot more of this, what I would call cannibalism. Since I can't go out and get new, I'm going to have to eat what's here. And that that's very cannibalistic. You see a lot of maneuvering for that. How did I deal with it? You can't allow people on your team to go rogue and be pirates in your own organization, like capture somebody else's ship, you know, kill the captain, sail away because of what it's going to do to your org. It you're no longer in charge than they're in charge, right? They're raiding and pillaging and you seem clueless. So you can't allow that. But what you then have to do is either find them a path, convince them to wait, or, frankly, if they turn too septic, they become your answer, meaning they're going to leave or you get them to leave and you give their team away. So if it really is cannibalistic, what happens is if they don't pull off, you know, it's like any coup attempt, I guess, in like politics. If you attempt a coup and you win, you get to be president or, you know, whatever. And if you fail, you get hung or shot. And so this is a little bit, you know, it's not quite that bloody. But one thing that holds back the worst behavior is people do realize if I get caught being too obviously self-serving, it's going to burn me here. And so they usually are pretty careful. But do they want it? Sure. People all the time are asking, could I take over this? Could I take over that? What I encourage people to do is I tell them, look, you never know when a reorg is coming. You never know when somebody is going to quit or get fired or laid off. So talk to your manager and say, hey, if we have an org change and there's an opening, I just want you to know I'm ready to step up, I'm interested, and I will stand by you. This is one thing people want to know in reorg is reorg shake the ship. And so some people are like, oh, this company is going down or it's not stable. I'm going to quit if I can. And if you tell your manager what they don't want to do is put someone in a role who's then going to leave, and so you tell them, look, I'm actually looking to stay. So when you need a stable leader, think of me. And then when that opening comes up, they're like, oh, right, Ryan said he'd stay. Perfect. Ryan just became most qualified, not because he's best, but because he's most reliable. Right. I see. And that is best in my situation."
+  },
+  {
+    "start": 2148.7,
+    "end": 2174.42,
+    "speaker": "Ryan",
+    "text": "So that's what you just recommended there to me almost sounds like a better narrative for asking for scope. Of course. Yeah. I mean, rather than saying, give me this person, you can say, I want what's best for the org. And if I need to step up, I'm here. But without being the pirate and you might actually get what you want."
+  },
+  {
+    "start": 2174.42,
+    "end": 2232.44,
+    "speaker": "Ethan",
+    "text": "Absolutely. And that other piece of the messaging you stumbled on is really important, which is, of course, we know you want this so that your org is bigger and so that you have career growth. But there's a polite fiction that can be true, which is, I also want what is best for the org. In other words, I understand that my best path up is to do things that are valuable to you and to the organization. And if I tell you, look, when a reorg happens, it doesn't matter what the team is. If you have a need, I'll be there for you. That sounds very selfless and org-centric, even though the underlying message could be phrased as, I don't really care which team's available. I just want more scope. I'll take whatever you have. But the way I phrased it sounds so much better because one sounds like the pirate ship and the other one sounds like the selfless servant. But they're both really, hey, whatever's available, I'll take it."
+  },
+  {
+    "start": 2233.08,
+    "end": 2258.86,
+    "speaker": "Ryan",
+    "text": "That phrase you said, the polite fiction, I feel like that's the thing that I could feel while we're talking about it too. It's like, it feels weird. It feels uncomfortable. It feels conniving almost because it's, you have, you secretly, you have this and also everyone else knows you have this. But you say this, but you, I mean, both can be true."
+  },
+  {
+    "start": 2258.86,
+    "end": 2379.72,
+    "speaker": "Ethan",
+    "text": "That's the thing, that's the key is it can be conniving, but it doesn't have to be. They can be honest. I can go to my manager and say, look, I want to grow and I will do whatever you need in order to grow. Like whatever's available, I will take it and do my utter best on it. And that, that can be both things. One story, when I was a director working my way towards VP, I once again had been put under a VP who had no other engineering leaders, but then they kept giving him more engineering stuff. And I was the first and I built trust with him and he just automatically came to me with everything and like, well, they handed me this. And I said, can you take it and at one point I was managing, I think eight different functions and they were as diverse all over the place. I'll give you three examples. I led the technical team for reverse logistics, meaning when people traded in video game cartridges, we had to grade them and sell them used. I was an advisor to the team that was grading returned video games or, or used video games. I was selling new video games, like software downloads, video game downloads. And then, uh, I was, um, starting to build Amazon's app store. That's three examples. A fourth example is I also owned our B2B business where like Amazon was trying to displace and go into the market of office depot and like ship pallets of paper to people. And these all had ended up under my boss. I had this, you know, you call it whatever you want, but this random mixture of stuff, but my boss loved it. And over time that totaled 200 people from all these different functions. Um, and that just came from saying yes to everything. Now, did I really want to work on grading video games or shipping pallets of paper to schools? Not really."
+  },
+  {
+    "start": 2379.72,
+    "end": 2405.4,
+    "speaker": "Ryan",
+    "text": "So it was the win-win though. Well, this reminds me of the offshore India story that you had. Uh, which is your manager has work. He doesn't want to do. And so he will pass it to you because he's identified you as the high performer. That'll solve his problem. So it is win-win for you because you wanted the larger org and he's does not want to deal with these problems."
+  },
+  {
+    "start": 2405.4,
+    "end": 2466.8,
+    "speaker": "Ethan",
+    "text": "Exactly. And so someone I really respect. He's now a senior vice president, uh, at Walmart. He, he said he was taught in turn by a senior vice president at Amazon. The simple way to get promoted is quote, solve problems for your boss. Like if you just need to get it down to five words, solve problems for your boss. If you're solving their problems, they will value you. And if they value you, if you then express what you would like, they don't want to lose you because not everyone's helping them that way. Most, most people are not, they're just punching the clock or fighting to do their own things. And so even a so-called bad boss will often take care of someone who's helping them because even if their calculus is, well, imagine I'm evil and I don't really care about anybody, but myself, but I've got this team of people and some of them are helping me. And some of them aren't, who do I want to keep? Even if I'm totally selfish, I want to keep the ones that are helping me. So even then it can work out."
+  },
+  {
+    "start": 2467.8,
+    "end": 2505.62,
+    "speaker": "Ryan",
+    "text": "What about the case where, because in engineering, there are cases where we can create scope, where someone goes off, they find a problem that we didn't know existed and they build a new system that changes the industry or does something really impressive. And then the impact they had is just incredible, but they didn't necessarily solve a problem that that boss specifically came to them with. That could also work though, as well, and that manager would push that promo through. But I guess that's a different path."
+  },
+  {
+    "start": 2505.62,
+    "end": 2642.4,
+    "speaker": "Ethan",
+    "text": "And I recommend both of these. What I mean is ask your manager what you can do, how you can help them, but also be thinking about what can you do on your own or what can you go to your manager and say, I think we should do this and here's why. So an example I'll give Amazon now sells over a billion dollars a year of funny t-shirts, custom printed, you know, you can put your slogan on a t-shirt and put it up on Amazon and buy it yourself or get other people to do it. I helped start that business and specifically, I funded the initial team on it. And my manager was saying, hey, you run Amazon's app store. Like, what does that have to do with t-shirt printing? This has nothing to do with it. Why are you doing this? And I said, well, I think there's a big business here, but I need 10 people and I have 800. So if you're going to tell me that I can't spend basically 1% of my resources on this thing I believe in, we have another discussion to have because you're micromanaging me. Like, this should be within. And so he's like, fine, I disagree, but go do, you're right, it's only a few people, go do your thing. And then it turned into a big business. And of course, I'm simplifying a ton when I say, and then it turned into a big business. We're like years of work in that phrase. But I was thinking about what else can I do? What else makes sense that either with my own resources or with lightweight approval, I can go work on. And so I think with your manager, of course, you're trying to ask, what do they need? And that's what I was doing with 790 out of my 800 team. At 10, I was doing something that he didn't think was a good idea, but I was able to say like, well, let me have my 10. He's like, all right, you're a big enough leader if you're now responsible for making these people useful. So I did. And if I had failed, I started projects that also didn't work out. You've got to shut them down quickly and have a good enough hit rate. But I think there's multiple paths to the top. I tried them all, right? Be the helpful person, but also be the inventor."
+  },
+  {
+    "start": 2642.4,
+    "end": 2654.9,
+    "speaker": "Ryan",
+    "text": "We talked about reorgs earlier, and you mentioned that it can be used to manage certain leaders out. Sure. What does that look like in practice? Can you give me an example?"
+  },
+  {
+    "start": 2654.9,
+    "end": 2850.36,
+    "speaker": "Ethan",
+    "text": "What it looks like in practice is you put them on something they don't want to work on, and you claim, well, that was the only seat. That was the seat we needed you in. I mean, I'd like to claim it's more complicated than that, but I'll tell a story of someone who got reorg and I thought they'd quit so much. The manager even thought they were going to quit and was very upset with this. When I first joined Amazon, we had a few groups, and we organized ourselves, and I owned what was going to be Prime Video. And someone else owned what became Prime Music, and a third person owned what became the Kindle, the e-reader. And then there was a guy who had a clear ownership over the ingestion pipeline. So the way to digitize movies, music, et cetera, was all a unified pipeline. And then there was one more leader, and he got given database maintenance, quality assurance, and like a couple small things. And even he joked, well, my group's other. It's the garbage can, right? And our VP was like, don't call it that. You cannot call it that. What about the people in it? And I'm sure he was thinking like the leader who's stuck with other isn't going to stick around. Well, as far as I know, that guy is still at Amazon 20 years later because he was one of those very calm, nice guys who was willing to do what was needed. He was the team player who was going to do what was needed. But the point is, if I wanted to get rid of a high performer, not a high performer, why would I want to get rid of a high performer? But if I wanted to get rid of a pushy, overly ambitious person, just give them other. Like six weeks later, that's a vacancy. I can open the role right now, right? Because like I'm a bit of a confrontational person. So when I needed to fire someone, I tended to just go straight at it. But this putting someone in a seat they don't like is classic. And there's even a – this is a widely understood – this isn't an Amazon thing. If you go to Japanese culture, completely other country, there's this concept called a window seat. I don't know if you ever heard of this. So in Japanese culture, which is very collectivist, and I'm not an expert, so maybe someone from Japan will say this isn't true, but I don't think so. You want to be in the center of the building, even though window seats are very desirable in American culture. The hot – you want to be in the middle of things there. You want to be close to the CEO and close to the action. So actually being on a window means you're not that important. And so, ironically, what we would think of as great being given a corner office in Japan is a signal of you've been moved as far from what's happening as possible. You've been exiled to the land of irrelevance where you don't even have co-workers on one side, you have glass. And that would be a way to signal to somebody, like, your career here is now over. You're in a window seat. So this idea isn't – you know, I don't think it's – some people would think, oh, well, that's only Amazon because they have a history of being combative. I don't think that's true. I think this idea is well known."
+  },
+  {
+    "start": 2850.36,
+    "end": 2886.62,
+    "speaker": "Ryan",
+    "text": "You mentioned that one guy who gets other or the garbage can. He's the nicest guy or he's the team player and this and that. And I guess I see the incentive structure that makes it that nice guy gets garbage can. But why – I don't know. Some part of me is wishing the world wasn't that way. Sure. Is it possible to build an org where if you're nice and you wait your turn that the – because you could choose. As the VP, you could say, I'm going to reward the nice people that don't pressure."
+  },
+  {
+    "start": 2887.8,
+    "end": 3060.52,
+    "speaker": "Ethan",
+    "text": "You can to some degree. First, note that the org I described where it had all those random things was also the garbage can. So I built the garbage can kind of opting into it. Like, I will take all of your junk and that is my role. He was not doing that in the same way, but there was some of that. The problem with only rewarding the nice guys is, number one, sometimes the nice folks don't actually want more. In other words, ambition tends to come out. And if people are really ambitious, they do usually end up – not always, but they usually end up more vocal. Second, though, I have the problem that I do have all these vocal people and what they're going to do usually is not become less vocal just because I have an example of play nice and you'll move up. They're going to look for where can I go that's going to reward me right away. And so, of course, maybe a better leader than I can build this culture where all the nice people are rewarded and all the sort of less nice people see the air of their ways and become naturally generous. But that isn't human nature. And so, I think there is some balancing. What I often do, as you heard from my coaching, and I'll be honest, is I tell the nice folks, being that nice isn't helping you. You don't have to be a jerk. You have to do what I did where you say, my career is very important to me. It's okay. It's okay to have – where people fall down is they come, particularly in tech, from non-U.S. cultures that are collectivist or have different mores, and we're asking for what you want or speaking up culturally doesn't fit. I see this a lot, particularly with women from Asia, different parts of Asia. At home, they're expected culturally to take one role, which is often more family-oriented and supporting of parents and grandparents and so on. But then, to get ahead and work, they need to be a little bit more outspoken, and it's a big contrast. I would just say, it's okay to ask for what you want. That isn't wrong. And managers, even good managers, they're not in the business of guessing. If you've never told me what you want, sure, in theory, I should ask you, but I'm very busy. And so, sometimes I get around to that, and sometimes I don't. Meanwhile, this other person, every three days is knocking on my door. I'm super clear on what they want."
+  },
+  {
+    "start": 3060.52,
+    "end": 3108.58,
+    "speaker": "Ryan",
+    "text": "When it comes to engineers, there's one layer to think of. And so, if someone's low-performing, there may be your peer. But if you have a low-performing manager, there's this vertical stacking that we have. You might be reporting to someone who you think is not great at their job. And so, the natural thought is go to their manager, which would be your skit, which I guess you could consider this as mutiny. If you went to them and you said, hey, my manager is bad. I don't want to report to this person. Do you have any examples of this kind of escalation coming to you, where someone in your recursive chain was considered incompetent by their reports, and they came directly to you and they said, please manage this person out, or I just don't want to report to this person?"
+  },
+  {
+    "start": 3108.58,
+    "end": 3279.0,
+    "speaker": "Ethan",
+    "text": "All the time. All the time. One of the hardest things for people to understand is, I've identified a legitimate weakness in my boss. I go to my skip. Why doesn't he do something? Well, if you come to me with a weakness in one of my employees, there is subconsciously this process that goes on that says, I have two choices. I can believe that you're overly sensitive and high maintenance, in which case, I don't really have a problem. You're the problem. And, you know, you're two levels down for me. So if you quit, man, the manager has to do the backfill. And I can tell the manager, you know, Ryan was here. He said this, that, and the other. Maybe you can work with him. And that's exactly what you don't want is me ratting you out. But I can make it my manager's problem. On the other hand, if I agree with you and I'm like, you know what? This manager I have really isn't that good. Now I have three problems. This is really bad for me. One, I have to decide what to do with my manager. Maybe I have to manage them out. Two, if I do manage them out, I have to hire and train somebody else. And three, while they're gone, I have to do all their work myself. So you can see why, even if it's subconscious, I have a lot of reasons not to listen or not to believe very easily. So mutiny, let's talk about mutiny. If you want to see it as a mutiny, we've talked about pirates already, never mutiny alone. If you want that to work, if you really want to say this manager is bad and we have a problem, take two or three people or send two or three people in sequence. Find some of your co-workers who are willing to speak up because I will give you an example. It really bothers me. I had a leader who was treating the women on his team like crap. Now, he wasn't doing that in front of me, but it turns out it was true. Well, it took a long time for the different rumors to bubble up to me enough to where I'm like, I'm hearing bad things. And then I went and talked to several of the women and I'm like, so in working with this person, I'm hearing. And they're like, oh, yeah. Well, then I was like, oh, okay, I've been blind to a problem. I need to act on it. Had any one of them come to me early and said, this person's a problem, they're doing this, that, and the other, I probably wouldn't have listened because it was a lone report. But when several of those reports came up, then I'm like, oh, shit, I've been missing something. So if you want to hold a mutiny, go together, right? Even if it's Zelda, it's dangerous to go alone."
+  },
+  {
+    "start": 3279.0,
+    "end": 3301.88,
+    "speaker": "Ryan",
+    "text": "Take this. Take other people. I see. Okay, so if let's say there's a high-performing IC who is reporting to a manager and say the fact is that that manager has some shortcomings in their abilities, you would say don't go immediately to the skip. First, build allies with some of the other people and say, hey, are you also seeing this with this person?"
+  },
+  {
+    "start": 3302.3,
+    "end": 3372.02,
+    "speaker": "Ethan",
+    "text": "If you can, yeah, you want to talk to them and say, hey, do you see what I see? Well, one thing is that's a way to sanity check. I'm really struggling with our boss in this area. Do you, are you having that problem? And if they say, no, I get along with them, great. And here's how, then maybe you can learn and adjust. That's the style thing. Whereas if they're like, oh, yeah. Then the hardest next hurdle is, are they willing to speak up? Because a lot of people aren't. But if they know that you're going to go first and play ringleader, like I will go talk to our skip, but I'm going to tell our skip. They can verify my story by talking to you or, and also to Sally or Fred or Rajiv. Most managers, if you go to them and say, look, I know that my saying the boss is a weak link is uncomfortable and difficult for you. But these three people are all willing to share similar stories. Would you consider at least talking to them? Most managers will do that. Most, you know, not all. There's no, there's no guarantees when you're dealing with people."
+  },
+  {
+    "start": 3372.02,
+    "end": 3451.32,
+    "speaker": "Ryan",
+    "text": "I mean, that's, yeah, that's the immediate thing I imagine is let's say I was that IC and then I went to other people and we all kind of knew that that person had a shortcoming. It's, there's the difference between that, that water cooler talk and saying, yeah, this person is disorganized. I mean, he keeps doing that compared to, hey, I'm going to go to his boss now and we're going to, we're going to make, take this up a notch because also there's this, this delicate balance, which is all these people still report to that person. So now if you were to get caught at any point in this process, you might worry about retribution or something if you're wrong. Um, what about the path of, cause this is all, this is a lot. I mean, your manager needs to be pretty bad. If you do this, what about the approach of you say, Hey, it's just me and him. And you want to go to the skip and say, Hey, Ethan, um, you know, nothing, nothing personal with the person that I'm reporting to, but I see a better business case for me to go to another team or, you know, something like that. Or you word it and say, I don't, don't think poorly of this manager, but I'll be more productive somewhere else for your org. What about that approach rather than the. Well, you're blending two approaches."
+  },
+  {
+    "start": 3451.32,
+    "end": 3583.44,
+    "speaker": "Ethan",
+    "text": "Um, the first is, which is. Remember we talked about the story you tell versus the story that may be true. If you can actually make a strong case that you're equally valuable or more valuable somewhere else, a plausible case, don't even bring up the manager. Just say, Hey, I was looking at this other role and I think I could do so much more for you in the org over here because of a, B and C. And you try that run first. And if that works, you're done. You never have to bring it up. The second thing you can say, you've just, you've got to, you've got to play chess, not checkers, meaning several moves in advance. You can totally say, look, candidly, you keep it blame free. I'm not compatible. With our leader. I'm not, maybe it's him. Maybe it's me. Of course, I naturally feel that maybe I'm doing good work and, and he could improve, but I'm not here to throw your manager under the bus. I'm just here to tell you, I need a change. And I did this once with a leader at Amazon where I wanted to make a change. I was doing a good job for him in the role I was in. So he wanted me to stay there. And what I had to help him understand is I said, you are seeing this as I take this new role or I stay in this role. And you'd prefer I stay in this role because that's good for you. And I get that. But what I'm trying to tell you is either I take this new role in your org that I'm asking for, or I'm going somewhere else entirely. So there is no choice, keep me where I'm at. There's do you want me on your team or on someone else's team? Now, I had both options available, and it was really interesting because after weeks and weeks of resistance, I was in the new role the next morning. Like once he got the clarity of, oh, I thought I had a choice between you stay in the role I want you in and you go to the role I don't really want you in. But the choice I actually have is I keep you in my team or I lose you. It was totally different the next morning."
+  },
+  {
+    "start": 3583.96,
+    "end": 3594.4,
+    "speaker": "Ryan",
+    "text": "But how did you word that in a way where that person you're reporting to did not feel upset that you kind of subverted their power and forced their hand?"
+  }
+]

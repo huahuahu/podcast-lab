@@ -1,0 +1,8487 @@
+[
+  {
+    "start": 0.03,
+    "end": 3.86,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4.42,
+    "end": 7.51,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8.32,
+    "end": 17.33,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 17.8,
+    "end": 17.82,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 17.82,
+    "end": 17.83,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 17.83,
+    "end": 18.59,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 19.05,
+    "end": 26.51,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 26.51,
+    "end": 33.04,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 33.04,
+    "end": 51.97,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 34.1,
+    "end": 34.68,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 51.97,
+    "end": 58.03,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 58.03,
+    "end": 71.56,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 71.56,
+    "end": 78.69,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 78.69,
+    "end": 78.74,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 79.01,
+    "end": 80.36,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 85.03,
+    "end": 126.39,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 126.9,
+    "end": 131.0,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 131.89,
+    "end": 137.75,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 138.07,
+    "end": 141.22,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 141.88,
+    "end": 151.7,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 152.01,
+    "end": 153.09,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 154.08,
+    "end": 157.96,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 157.96,
+    "end": 158.18,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 158.69,
+    "end": 171.01,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 171.35,
+    "end": 176.46,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 177.2,
+    "end": 178.28,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 179.46,
+    "end": 180.29,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 181.12,
+    "end": 184.51,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 184.85,
+    "end": 190.33,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 191.46,
+    "end": 197.82,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 198.67,
+    "end": 208.56,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 208.98,
+    "end": 209.91,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 210.14,
+    "end": 215.91,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 216.27,
+    "end": 219.69,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 219.9,
+    "end": 228.5,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 228.59,
+    "end": 236.99,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 237.39,
+    "end": 245.14,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 245.9,
+    "end": 251.03,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 251.03,
+    "end": 266.88,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 267.04,
+    "end": 267.06,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 267.06,
+    "end": 267.08,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 267.08,
+    "end": 267.97,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 267.97,
+    "end": 270.06,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 270.37,
+    "end": 287.24,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 288.36,
+    "end": 299.82,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 300.3,
+    "end": 307.95,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 309.25,
+    "end": 329.53,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 329.6,
+    "end": 335.69,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 336.27,
+    "end": 342.75,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 343.59,
+    "end": 346.96,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 347.62,
+    "end": 351.0,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 351.0,
+    "end": 351.01,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 352.08,
+    "end": 369.96,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 369.96,
+    "end": 394.35,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 394.92,
+    "end": 406.67,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 406.97,
+    "end": 420.0,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 420.79,
+    "end": 427.26,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 428.1,
+    "end": 433.79,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 434.46,
+    "end": 443.15,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 444.03,
+    "end": 444.79,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 445.16,
+    "end": 446.64,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 447.13,
+    "end": 463.79,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 464.63,
+    "end": 468.48,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 469.71,
+    "end": 470.03,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 470.03,
+    "end": 487.85,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 477.56,
+    "end": 478.02,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 488.98,
+    "end": 491.21,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 491.75,
+    "end": 495.03,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 495.03,
+    "end": 502.72,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 503.75,
+    "end": 539.37,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 540.22,
+    "end": 554.49,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 555.39,
+    "end": 561.04,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 562.02,
+    "end": 575.89,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 576.77,
+    "end": 578.12,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 578.44,
+    "end": 615.33,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 615.33,
+    "end": 615.68,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 615.78,
+    "end": 635.85,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 636.2,
+    "end": 667.03,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 667.03,
+    "end": 679.44,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 680.55,
+    "end": 680.92,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 680.92,
+    "end": 680.97,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 680.97,
+    "end": 688.63,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 689.44,
+    "end": 690.81,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 691.42,
+    "end": 742.21,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 742.6,
+    "end": 745.8,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 746.88,
+    "end": 752.15,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 752.82,
+    "end": 754.36,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 755.36,
+    "end": 763.08,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 763.66,
+    "end": 764.3,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 765.16,
+    "end": 765.63,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 766.22,
+    "end": 768.67,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 769.14,
+    "end": 769.99,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 770.37,
+    "end": 774.49,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 775.59,
+    "end": 786.27,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 786.27,
+    "end": 786.52,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 786.52,
+    "end": 787.03,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 787.03,
+    "end": 793.7,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 794.13,
+    "end": 816.71,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 816.98,
+    "end": 820.63,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 821.19,
+    "end": 831.53,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 832.02,
+    "end": 842.65,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 842.89,
+    "end": 850.14,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 851.71,
+    "end": 863.05,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 863.14,
+    "end": 863.98,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 864.08,
+    "end": 867.47,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 868.86,
+    "end": 870.29,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 870.66,
+    "end": 876.6,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 876.75,
+    "end": 883.76,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 884.16,
+    "end": 885.68,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 886.78,
+    "end": 893.87,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 895.25,
+    "end": 899.38,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 899.64,
+    "end": 902.19,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 903.2,
+    "end": 912.39,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 912.66,
+    "end": 918.82,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 919.53,
+    "end": 942.53,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 926.43,
+    "end": 926.62,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 942.9,
+    "end": 945.22,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 945.54,
+    "end": 947.61,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 948.09,
+    "end": 970.82,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 949.99,
+    "end": 950.72,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 971.39,
+    "end": 977.26,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 977.55,
+    "end": 985.56,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 986.1,
+    "end": 996.33,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 996.72,
+    "end": 998.14,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 998.93,
+    "end": 1000.94,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1001.49,
+    "end": 1002.47,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1004.58,
+    "end": 1008.51,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1008.92,
+    "end": 1013.05,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1013.81,
+    "end": 1027.23,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1027.8,
+    "end": 1030.92,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1031.9,
+    "end": 1035.21,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1035.55,
+    "end": 1043.56,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1044.71,
+    "end": 1049.64,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1049.81,
+    "end": 1051.21,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1051.77,
+    "end": 1054.38,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1054.65,
+    "end": 1057.82,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1058.6,
+    "end": 1063.34,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1064.39,
+    "end": 1077.15,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1077.35,
+    "end": 1080.33,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1078.93,
+    "end": 1079.19,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1081.85,
+    "end": 1083.61,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1084.23,
+    "end": 1085.41,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1086.17,
+    "end": 1087.52,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1088.42,
+    "end": 1092.94,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1093.43,
+    "end": 1096.26,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1096.89,
+    "end": 1099.71,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1100.21,
+    "end": 1102.04,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1102.61,
+    "end": 1118.57,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1119.25,
+    "end": 1122.4,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1123.6,
+    "end": 1134.82,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1134.82,
+    "end": 1134.93,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1134.98,
+    "end": 1135.09,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1135.09,
+    "end": 1135.14,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1135.14,
+    "end": 1135.18,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1135.18,
+    "end": 1136.04,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1136.04,
+    "end": 1136.19,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1136.19,
+    "end": 1136.24,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1136.24,
+    "end": 1146.92,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1144.83,
+    "end": 1145.2,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1147.82,
+    "end": 1173.54,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1174.29,
+    "end": 1198.0,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1198.34,
+    "end": 1205.6,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1205.92,
+    "end": 1220.46,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1220.52,
+    "end": 1222.12,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1222.62,
+    "end": 1229.58,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1230.32,
+    "end": 1242.49,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1243.06,
+    "end": 1250.74,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1251.01,
+    "end": 1254.15,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1254.67,
+    "end": 1256.59,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1257.47,
+    "end": 1262.89,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1264.26,
+    "end": 1266.63,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1267.07,
+    "end": 1268.0,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1269.45,
+    "end": 1275.29,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1276.39,
+    "end": 1278.82,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1279.41,
+    "end": 1290.78,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1291.39,
+    "end": 1292.64,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1292.99,
+    "end": 1295.66,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1296.37,
+    "end": 1297.72,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1298.29,
+    "end": 1299.54,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1300.72,
+    "end": 1301.18,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1301.26,
+    "end": 1322.54,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1322.9,
+    "end": 1326.74,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1326.96,
+    "end": 1332.87,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1334.83,
+    "end": 1337.44,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1337.85,
+    "end": 1348.83,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1350.32,
+    "end": 1358.67,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1359.43,
+    "end": 1360.14,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1361.42,
+    "end": 1364.56,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1365.69,
+    "end": 1373.91,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1374.8,
+    "end": 1375.01,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1375.12,
+    "end": 1376.04,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1376.04,
+    "end": 1377.69,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1377.98,
+    "end": 1382.57,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1383.09,
+    "end": 1412.25,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1388.74,
+    "end": 1389.03,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1412.54,
+    "end": 1415.02,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1414.58,
+    "end": 1422.49,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1416.6,
+    "end": 1417.72,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1423.07,
+    "end": 1430.09,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1432.25,
+    "end": 1434.12,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1434.9,
+    "end": 1448.73,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1449.71,
+    "end": 1453.83,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1454.08,
+    "end": 1457.49,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1458.13,
+    "end": 1459.03,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1459.03,
+    "end": 1459.04,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1459.04,
+    "end": 1459.08,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1459.08,
+    "end": 1459.14,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1459.68,
+    "end": 1461.09,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1461.47,
+    "end": 1511.09,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1490.58,
+    "end": 1490.75,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1511.79,
+    "end": 1519.89,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1520.6,
+    "end": 1525.02,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1525.73,
+    "end": 1525.75,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1525.75,
+    "end": 1538.46,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1538.79,
+    "end": 1543.22,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1543.89,
+    "end": 1549.95,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1550.66,
+    "end": 1567.36,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1568.28,
+    "end": 1572.98,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1573.27,
+    "end": 1584.36,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1585.02,
+    "end": 1586.35,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1587.21,
+    "end": 1591.11,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1591.88,
+    "end": 1593.32,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1593.89,
+    "end": 1595.21,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1596.63,
+    "end": 1611.56,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1612.88,
+    "end": 1613.35,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1614.85,
+    "end": 1622.11,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1622.95,
+    "end": 1634.7,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1634.95,
+    "end": 1640.62,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1641.12,
+    "end": 1651.96,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1653.53,
+    "end": 1673.47,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1674.22,
+    "end": 1676.88,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1677.07,
+    "end": 1684.12,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1685.27,
+    "end": 1702.47,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1703.01,
+    "end": 1703.58,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1704.69,
+    "end": 1708.88,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1708.88,
+    "end": 1708.89,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1710.23,
+    "end": 1711.43,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1711.98,
+    "end": 1728.25,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1728.25,
+    "end": 1734.24,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1734.66,
+    "end": 1739.51,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1740.54,
+    "end": 1755.89,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1757.33,
+    "end": 1758.07,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1760.03,
+    "end": 1761.6,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1762.0,
+    "end": 1762.61,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1763.94,
+    "end": 1765.05,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1765.88,
+    "end": 1770.81,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1771.53,
+    "end": 1773.54,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1774.47,
+    "end": 1777.42,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1777.42,
+    "end": 1777.54,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1777.54,
+    "end": 1777.61,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1777.61,
+    "end": 1777.69,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1777.69,
+    "end": 1778.03,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1778.03,
+    "end": 1780.92,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1781.37,
+    "end": 1788.24,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1789.17,
+    "end": 1798.52,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1798.97,
+    "end": 1808.79,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1809.2,
+    "end": 1814.97,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1814.97,
+    "end": 1815.39,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1815.85,
+    "end": 1820.94,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1821.11,
+    "end": 1831.73,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1832.27,
+    "end": 1846.56,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1846.8,
+    "end": 1860.8,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1861.29,
+    "end": 1866.42,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1867.18,
+    "end": 1867.81,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1868.97,
+    "end": 1877.27,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1878.35,
+    "end": 1882.93,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1883.3,
+    "end": 1887.82,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1888.7,
+    "end": 1894.32,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1894.86,
+    "end": 1901.76,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1901.88,
+    "end": 1914.48,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1914.48,
+    "end": 1914.5,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1914.69,
+    "end": 1914.72,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1914.72,
+    "end": 1914.79,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1914.79,
+    "end": 1926.65,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1927.59,
+    "end": 1959.67,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1938.99,
+    "end": 1939.31,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1960.03,
+    "end": 1960.06,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1960.06,
+    "end": 1960.1,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1960.1,
+    "end": 1960.97,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 1960.97,
+    "end": 1961.48,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1961.72,
+    "end": 1979.06,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1979.96,
+    "end": 1981.63,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1982.02,
+    "end": 1984.14,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1984.72,
+    "end": 1992.85,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 1993.76,
+    "end": 2002.0,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2002.84,
+    "end": 2006.77,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2007.41,
+    "end": 2009.24,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2009.66,
+    "end": 2021.59,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2022.06,
+    "end": 2030.06,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2030.38,
+    "end": 2039.54,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2039.97,
+    "end": 2045.65,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2045.99,
+    "end": 2067.64,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2068.6,
+    "end": 2079.28,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2080.26,
+    "end": 2083.27,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2083.81,
+    "end": 2090.3,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2090.83,
+    "end": 2099.21,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2100.75,
+    "end": 2108.85,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2109.79,
+    "end": 2127.09,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2127.97,
+    "end": 2133.1,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2133.5,
+    "end": 2144.0,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2144.37,
+    "end": 2148.05,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2148.93,
+    "end": 2161.74,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 2156.82,
+    "end": 2157.55,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2157.63,
+    "end": 2158.16,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2159.42,
+    "end": 2161.16,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2161.9,
+    "end": 2174.66,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 2174.66,
+    "end": 2176.18,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2176.37,
+    "end": 2180.87,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2181.66,
+    "end": 2188.95,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2189.36,
+    "end": 2201.02,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2201.59,
+    "end": 2204.07,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2204.85,
+    "end": 2205.07,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2205.9,
+    "end": 2211.04,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2212.41,
+    "end": 2232.04,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2232.04,
+    "end": 2232.53,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 2233.22,
+    "end": 2254.78,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 2254.9,
+    "end": 2258.97,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 2258.97,
+    "end": 2259.09,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2259.09,
+    "end": 2260.1,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 2259.14,
+    "end": 2261.33,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2262.83,
+    "end": 2264.01,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2264.59,
+    "end": 2265.85,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2266.21,
+    "end": 2278.19,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2278.53,
+    "end": 2280.4,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2281.18,
+    "end": 2285.88,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2286.53,
+    "end": 2286.61,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2286.96,
+    "end": 2290.64,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2291.27,
+    "end": 2301.17,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2302.14,
+    "end": 2312.04,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2312.97,
+    "end": 2313.69,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2314.3,
+    "end": 2323.35,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2323.97,
+    "end": 2330.18,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2330.37,
+    "end": 2331.33,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2331.75,
+    "end": 2338.92,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2338.97,
+    "end": 2359.02,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2360.32,
+    "end": 2363.64,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2364.2,
+    "end": 2365.57,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2365.89,
+    "end": 2368.35,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2368.67,
+    "end": 2370.55,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2371.29,
+    "end": 2379.69,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2380.76,
+    "end": 2381.3,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2381.3,
+    "end": 2381.33,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 2382.36,
+    "end": 2405.28,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 2387.69,
+    "end": 2388.01,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2405.28,
+    "end": 2418.07,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2405.31,
+    "end": 2405.82,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 2419.1,
+    "end": 2422.57,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2423.53,
+    "end": 2428.11,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2429.96,
+    "end": 2460.69,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2461.23,
+    "end": 2463.11,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2463.29,
+    "end": 2466.82,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2468.05,
+    "end": 2468.07,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2468.07,
+    "end": 2485.45,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 2478.75,
+    "end": 2479.0,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2485.68,
+    "end": 2489.67,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 2489.63,
+    "end": 2490.09,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2490.07,
+    "end": 2495.56,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 2496.11,
+    "end": 2496.86,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 2497.53,
+    "end": 2504.43,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 2499.1,
+    "end": 2499.83,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2504.43,
+    "end": 2504.48,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2504.48,
+    "end": 2504.5,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 2505.01,
+    "end": 2505.45,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2505.09,
+    "end": 2505.41,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 2505.45,
+    "end": 2505.72,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 2505.72,
+    "end": 2505.82,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2506.47,
+    "end": 2506.49,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 2506.49,
+    "end": 2520.14,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2520.5,
+    "end": 2538.91,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2539.6,
+    "end": 2541.78,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2542.1,
+    "end": 2549.05,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2549.15,
+    "end": 2552.46,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2552.88,
+    "end": 2553.44,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2554.37,
+    "end": 2567.49,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2568.03,
+    "end": 2571.36,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2572.03,
+    "end": 2577.99,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2578.7,
+    "end": 2585.21,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2584.54,
+    "end": 2585.1,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 2585.89,
+    "end": 2586.33,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2588.67,
+    "end": 2589.2,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2590.43,
+    "end": 2604.32,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2604.81,
+    "end": 2609.04,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2609.97,
+    "end": 2611.79,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2612.25,
+    "end": 2617.11,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2617.66,
+    "end": 2619.44,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2620.01,
+    "end": 2621.24,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2621.68,
+    "end": 2624.67,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2624.89,
+    "end": 2625.75,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2626.47,
+    "end": 2634.03,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2634.62,
+    "end": 2635.18,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2636.53,
+    "end": 2642.74,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2643.2,
+    "end": 2643.21,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2643.21,
+    "end": 2645.91,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 2646.99,
+    "end": 2651.36,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 2651.77,
+    "end": 2654.97,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 2654.97,
+    "end": 2655.18,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2656.19,
+    "end": 2662.18,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2663.21,
+    "end": 2666.62,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2667.09,
+    "end": 2667.77,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2668.19,
+    "end": 2678.73,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2678.89,
+    "end": 2700.52,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2701.57,
+    "end": 2704.15,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2704.69,
+    "end": 2717.33,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2717.6,
+    "end": 2720.2,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2720.48,
+    "end": 2742.79,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2744.43,
+    "end": 2744.92,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2745.58,
+    "end": 2754.37,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2754.74,
+    "end": 2755.75,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2756.6,
+    "end": 2762.65,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2762.94,
+    "end": 2768.83,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2769.89,
+    "end": 2774.77,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2775.75,
+    "end": 2780.63,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2780.95,
+    "end": 2783.02,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2783.39,
+    "end": 2795.64,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2796.05,
+    "end": 2796.71,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2797.13,
+    "end": 2811.71,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2812.22,
+    "end": 2816.67,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2817.03,
+    "end": 2822.9,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2823.12,
+    "end": 2839.55,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2841.38,
+    "end": 2850.44,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2850.91,
+    "end": 2867.21,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 2867.89,
+    "end": 2883.18,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 2883.78,
+    "end": 2886.9,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 2888.09,
+    "end": 2889.79,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2890.57,
+    "end": 2905.84,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2897.35,
+    "end": 2898.36,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 2898.55,
+    "end": 2899.04,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 2906.6,
+    "end": 2910.6,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2910.99,
+    "end": 2912.76,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2913.65,
+    "end": 2917.8,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2918.36,
+    "end": 2928.06,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2928.72,
+    "end": 2929.94,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2931.74,
+    "end": 2935.86,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2936.64,
+    "end": 2939.25,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2939.57,
+    "end": 2948.63,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2949.07,
+    "end": 2950.0,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2951.52,
+    "end": 2959.82,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2959.97,
+    "end": 2966.4,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2966.57,
+    "end": 2974.5,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2976.0,
+    "end": 2982.77,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2983.48,
+    "end": 2985.27,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2986.05,
+    "end": 2988.29,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2989.1,
+    "end": 2993.42,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 2994.33,
+    "end": 3002.26,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3003.26,
+    "end": 3005.25,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3005.86,
+    "end": 3007.44,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3007.9,
+    "end": 3012.86,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3013.32,
+    "end": 3029.01,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3030.11,
+    "end": 3030.65,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3031.37,
+    "end": 3035.12,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3036.03,
+    "end": 3037.23,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3037.97,
+    "end": 3038.63,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3040.1,
+    "end": 3041.07,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3041.9,
+    "end": 3045.6,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3046.36,
+    "end": 3048.09,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3049.63,
+    "end": 3060.57,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3061.21,
+    "end": 3063.79,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3063.94,
+    "end": 3075.03,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3073.91,
+    "end": 3074.07,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3075.36,
+    "end": 3088.73,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3088.95,
+    "end": 3104.12,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3104.56,
+    "end": 3106.74,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3106.94,
+    "end": 3108.96,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3108.96,
+    "end": 3109.64,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3110.14,
+    "end": 3110.16,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3110.16,
+    "end": 3110.95,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3111.66,
+    "end": 3113.08,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3113.55,
+    "end": 3119.91,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3121.01,
+    "end": 3124.77,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3126.34,
+    "end": 3127.26,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3128.15,
+    "end": 3132.3,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3132.6,
+    "end": 3135.81,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3136.92,
+    "end": 3139.88,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3141.24,
+    "end": 3146.26,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3146.95,
+    "end": 3152.13,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3152.91,
+    "end": 3158.02,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3158.74,
+    "end": 3172.72,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3173.39,
+    "end": 3180.12,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3180.48,
+    "end": 3186.22,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3186.66,
+    "end": 3190.82,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3191.75,
+    "end": 3194.87,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3195.65,
+    "end": 3197.4,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3198.35,
+    "end": 3202.92,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3203.9,
+    "end": 3216.64,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3216.96,
+    "end": 3218.43,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3219.88,
+    "end": 3221.7,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3222.55,
+    "end": 3224.07,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3225.5,
+    "end": 3226.87,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3227.85,
+    "end": 3228.35,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3229.4,
+    "end": 3230.97,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3232.57,
+    "end": 3246.6,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3248.06,
+    "end": 3252.96,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3255.45,
+    "end": 3262.19,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3264.55,
+    "end": 3279.03,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3279.03,
+    "end": 3281.14,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3281.54,
+    "end": 3292.31,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3290.23,
+    "end": 3291.11,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3292.75,
+    "end": 3296.22,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3296.34,
+    "end": 3302.97,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3302.97,
+    "end": 3308.7,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3309.98,
+    "end": 3312.75,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3313.23,
+    "end": 3315.5,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3316.12,
+    "end": 3323.07,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3323.9,
+    "end": 3327.48,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3327.92,
+    "end": 3330.57,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3331.19,
+    "end": 3344.45,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3346.34,
+    "end": 3348.76,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3349.45,
+    "end": 3356.13,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3356.72,
+    "end": 3362.9,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3365.34,
+    "end": 3366.85,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3367.39,
+    "end": 3372.03,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3369.72,
+    "end": 3370.1,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3372.03,
+    "end": 3382.24,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3382.83,
+    "end": 3439.44,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3415.29,
+    "end": 3416.14,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3440.32,
+    "end": 3449.33,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3449.33,
+    "end": 3450.11,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3449.35,
+    "end": 3449.97,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3450.11,
+    "end": 3450.97,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3450.97,
+    "end": 3452.42,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3453.01,
+    "end": 3454.55,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3455.46,
+    "end": 3456.79,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3457.9,
+    "end": 3469.58,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3470.02,
+    "end": 3478.04,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3478.61,
+    "end": 3483.1,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3484.09,
+    "end": 3493.53,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3495.03,
+    "end": 3496.4,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3497.61,
+    "end": 3499.23,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3500.36,
+    "end": 3501.0,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3501.93,
+    "end": 3515.36,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3516.39,
+    "end": 3526.13,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3527.02,
+    "end": 3529.84,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3530.85,
+    "end": 3535.12,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3535.88,
+    "end": 3542.45,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3542.89,
+    "end": 3559.39,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3559.98,
+    "end": 3565.14,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3565.67,
+    "end": 3575.24,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3576.13,
+    "end": 3580.32,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3582.02,
+    "end": 3583.61,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3583.72,
+    "end": 3583.91,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3583.91,
+    "end": 3593.11,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3593.29,
+    "end": 3593.97,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3593.34,
+    "end": 3593.93,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3593.97,
+    "end": 3594.49,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3595.17,
+    "end": 3595.18,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3595.18,
+    "end": 3600.63,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3601.49,
+    "end": 3609.12,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3610.34,
+    "end": 3615.6,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3616.9,
+    "end": 3622.11,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3623.72,
+    "end": 3625.07,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3626.84,
+    "end": 3628.27,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3628.81,
+    "end": 3635.18,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3635.99,
+    "end": 3644.58,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3645.98,
+    "end": 3649.81,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3650.57,
+    "end": 3655.61,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3656.27,
+    "end": 3657.16,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3658.11,
+    "end": 3659.1,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3659.8,
+    "end": 3659.86,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3659.97,
+    "end": 3677.03,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3674.49,
+    "end": 3675.24,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3675.88,
+    "end": 3677.01,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3677.03,
+    "end": 3689.9,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3683.59,
+    "end": 3684.16,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3689.43,
+    "end": 3694.36,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3695.32,
+    "end": 3698.83,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3699.13,
+    "end": 3699.81,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3700.99,
+    "end": 3701.97,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3701.97,
+    "end": 3702.22,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3702.22,
+    "end": 3702.27,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3702.27,
+    "end": 3702.29,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3702.84,
+    "end": 3702.88,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3702.96,
+    "end": 3722.57,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3722.57,
+    "end": 3722.64,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3722.98,
+    "end": 3723.01,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3723.01,
+    "end": 3723.03,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3723.03,
+    "end": 3730.0,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3731.43,
+    "end": 3736.11,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3736.56,
+    "end": 3754.26,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3754.58,
+    "end": 3763.21,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3763.56,
+    "end": 3765.03,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3765.45,
+    "end": 3766.24,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3767.09,
+    "end": 3771.04,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3772.27,
+    "end": 3772.76,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3773.75,
+    "end": 3775.61,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3776.77,
+    "end": 3784.59,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3779.09,
+    "end": 3779.59,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3784.92,
+    "end": 3802.0,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3802.95,
+    "end": 3822.32,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3812.58,
+    "end": 3812.87,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3823.21,
+    "end": 3824.5,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3824.95,
+    "end": 3829.27,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3830.67,
+    "end": 3848.64,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3848.97,
+    "end": 3851.02,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3851.02,
+    "end": 3851.51,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3851.51,
+    "end": 3851.53,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3851.53,
+    "end": 3851.56,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3852.02,
+    "end": 3852.05,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3852.05,
+    "end": 3857.64,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3858.63,
+    "end": 3880.99,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3866.99,
+    "end": 3867.39,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3881.1,
+    "end": 3891.91,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 3881.43,
+    "end": 3881.8,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3889.53,
+    "end": 3890.34,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3891.46,
+    "end": 3897.28,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3897.97,
+    "end": 3898.73,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3900.97,
+    "end": 3910.73,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3911.01,
+    "end": 3916.89,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3916.97,
+    "end": 3917.01,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3917.14,
+    "end": 3923.92,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3924.55,
+    "end": 3932.48,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3932.94,
+    "end": 3934.76,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3936.01,
+    "end": 3938.01,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3939.15,
+    "end": 3941.25,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3941.96,
+    "end": 3943.94,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3945.54,
+    "end": 3947.73,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3948.24,
+    "end": 3950.43,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3951.31,
+    "end": 3954.69,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3955.24,
+    "end": 3956.95,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3957.91,
+    "end": 3966.85,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3967.24,
+    "end": 3967.43,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3967.55,
+    "end": 3975.34,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3975.76,
+    "end": 3980.57,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3981.03,
+    "end": 3987.14,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 3987.51,
+    "end": 4001.55,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4001.89,
+    "end": 4005.7,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4006.07,
+    "end": 4007.69,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4008.48,
+    "end": 4009.53,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4010.36,
+    "end": 4015.39,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4015.81,
+    "end": 4019.27,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4020.72,
+    "end": 4022.04,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4022.78,
+    "end": 4025.7,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4026.84,
+    "end": 4028.52,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4029.22,
+    "end": 4039.43,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4040.58,
+    "end": 4049.85,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4051.03,
+    "end": 4053.14,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4053.59,
+    "end": 4055.58,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4056.27,
+    "end": 4058.42,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4058.97,
+    "end": 4067.51,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4067.9,
+    "end": 4069.02,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4070.26,
+    "end": 4077.67,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4078.33,
+    "end": 4080.15,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4081.08,
+    "end": 4081.77,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4081.98,
+    "end": 4085.16,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4085.97,
+    "end": 4089.5,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4090.02,
+    "end": 4095.78,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4097.38,
+    "end": 4111.79,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4112.74,
+    "end": 4117.35,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4117.95,
+    "end": 4118.63,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4119.34,
+    "end": 4122.98,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4124.3,
+    "end": 4131.15,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4131.84,
+    "end": 4137.0,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4137.95,
+    "end": 4143.69,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4143.69,
+    "end": 4143.86,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 4143.86,
+    "end": 4143.87,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4143.87,
+    "end": 4143.91,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 4144.56,
+    "end": 4144.58,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 4144.58,
+    "end": 4144.6,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4144.6,
+    "end": 4148.28,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 4148.87,
+    "end": 4169.25,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 4169.32,
+    "end": 4182.97,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 4182.97,
+    "end": 4189.6,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4190.06,
+    "end": 4196.44,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4196.96,
+    "end": 4230.63,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4231.27,
+    "end": 4242.68,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4244.36,
+    "end": 4262.03,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4263.18,
+    "end": 4266.72,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4268.01,
+    "end": 4271.03,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4271.06,
+    "end": 4271.9,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4272.66,
+    "end": 4274.27,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4275.55,
+    "end": 4280.05,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4281.37,
+    "end": 4284.58,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4284.85,
+    "end": 4291.83,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4294.25,
+    "end": 4297.65,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4297.94,
+    "end": 4299.61,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4300.52,
+    "end": 4306.45,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4306.48,
+    "end": 4307.04,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4307.04,
+    "end": 4307.95,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 4308.47,
+    "end": 4338.37,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 4326.51,
+    "end": 4326.93,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4338.37,
+    "end": 4338.41,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4338.98,
+    "end": 4343.82,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4344.69,
+    "end": 4357.54,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4358.22,
+    "end": 4361.85,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4362.1,
+    "end": 4373.56,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4374.54,
+    "end": 4376.97,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4377.25,
+    "end": 4379.08,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4379.35,
+    "end": 4385.37,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4387.13,
+    "end": 4404.0,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4404.74,
+    "end": 4405.25,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4405.55,
+    "end": 4406.58,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4407.26,
+    "end": 4409.01,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4409.7,
+    "end": 4420.59,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4421.52,
+    "end": 4433.79,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4434.9,
+    "end": 4437.57,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4437.65,
+    "end": 4438.53,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4440.38,
+    "end": 4441.51,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4442.19,
+    "end": 4448.97,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4449.45,
+    "end": 4454.1,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4454.2,
+    "end": 4462.19,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4462.35,
+    "end": 4463.35,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4463.82,
+    "end": 4465.19,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4465.98,
+    "end": 4467.75,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4469.41,
+    "end": 4473.1,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4473.58,
+    "end": 4473.59,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4473.59,
+    "end": 4475.57,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 4475.97,
+    "end": 4506.77,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 4486.94,
+    "end": 4487.4,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4507.33,
+    "end": 4521.43,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4521.94,
+    "end": 4523.34,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4524.29,
+    "end": 4524.98,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4526.26,
+    "end": 4528.66,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4529.33,
+    "end": 4536.1,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4536.6,
+    "end": 4538.44,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4539.47,
+    "end": 4541.48,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4542.51,
+    "end": 4544.91,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4545.33,
+    "end": 4549.58,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4550.26,
+    "end": 4550.86,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4552.33,
+    "end": 4561.87,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4562.25,
+    "end": 4574.59,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4575.75,
+    "end": 4589.34,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4590.15,
+    "end": 4592.85,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4596.24,
+    "end": 4597.54,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4598.45,
+    "end": 4602.08,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4602.94,
+    "end": 4605.1,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4605.66,
+    "end": 4609.49,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4610.31,
+    "end": 4614.99,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4615.73,
+    "end": 4624.24,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4626.28,
+    "end": 4630.13,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4630.97,
+    "end": 4631.98,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4632.4,
+    "end": 4634.51,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4634.67,
+    "end": 4636.84,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4636.98,
+    "end": 4652.27,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4652.94,
+    "end": 4663.93,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4665.58,
+    "end": 4671.03,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4671.03,
+    "end": 4689.07,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 4682.03,
+    "end": 4682.19,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4689.07,
+    "end": 4689.61,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4689.61,
+    "end": 4689.68,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 4689.68,
+    "end": 4695.7,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4696.61,
+    "end": 4701.41,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4701.9,
+    "end": 4703.67,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4704.53,
+    "end": 4707.21,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4707.85,
+    "end": 4710.6,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4710.94,
+    "end": 4714.84,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4715.01,
+    "end": 4718.4,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4719.46,
+    "end": 4730.84,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4731.63,
+    "end": 4734.26,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4734.94,
+    "end": 4756.06,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4756.47,
+    "end": 4758.29,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4758.68,
+    "end": 4765.08,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4765.58,
+    "end": 4767.27,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4768.05,
+    "end": 4772.53,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4772.91,
+    "end": 4774.19,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4775.03,
+    "end": 4778.69,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4779.77,
+    "end": 4796.21,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4796.68,
+    "end": 4797.86,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4798.47,
+    "end": 4801.61,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4798.57,
+    "end": 4799.11,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 4799.48,
+    "end": 4801.22,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 4801.61,
+    "end": 4817.42,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 4806.86,
+    "end": 4806.89,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4807.21,
+    "end": 4807.23,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4818.59,
+    "end": 4818.97,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 4818.97,
+    "end": 4819.63,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4821.42,
+    "end": 4825.0,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4825.17,
+    "end": 4829.05,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4829.35,
+    "end": 4831.31,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4832.07,
+    "end": 4840.19,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4840.64,
+    "end": 4849.13,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4849.65,
+    "end": 4865.09,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4865.63,
+    "end": 4869.14,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4869.95,
+    "end": 4877.8,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4878.98,
+    "end": 4885.43,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4886.07,
+    "end": 4888.79,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4889.14,
+    "end": 4890.81,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4890.96,
+    "end": 4893.09,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4894.41,
+    "end": 4903.4,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4903.77,
+    "end": 4914.12,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4915.68,
+    "end": 4919.82,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4920.21,
+    "end": 4926.94,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4928.07,
+    "end": 4929.0,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4929.35,
+    "end": 4931.02,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4931.02,
+    "end": 4938.57,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 4934.15,
+    "end": 4934.3,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4938.57,
+    "end": 4938.92,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4938.92,
+    "end": 4938.97,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 4938.97,
+    "end": 4941.22,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4941.28,
+    "end": 4942.68,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4942.84,
+    "end": 4959.15,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4959.44,
+    "end": 4978.44,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4979.47,
+    "end": 4983.15,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4983.47,
+    "end": 4995.47,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 4996.08,
+    "end": 5000.67,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5001.16,
+    "end": 5011.53,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5013.19,
+    "end": 5027.48,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5028.09,
+    "end": 5029.32,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5030.1,
+    "end": 5039.65,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5040.27,
+    "end": 5041.66,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5041.84,
+    "end": 5045.47,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5046.16,
+    "end": 5046.79,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5048.31,
+    "end": 5054.99,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5055.71,
+    "end": 5056.64,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5056.98,
+    "end": 5057.38,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5058.36,
+    "end": 5061.84,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5062.87,
+    "end": 5072.23,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5072.86,
+    "end": 5074.16,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5075.25,
+    "end": 5082.29,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5083.62,
+    "end": 5089.21,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5090.07,
+    "end": 5095.91,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5096.15,
+    "end": 5099.54,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5100.36,
+    "end": 5104.53,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5105.83,
+    "end": 5106.46,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5107.17,
+    "end": 5114.35,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5114.59,
+    "end": 5117.71,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5118.64,
+    "end": 5123.96,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5124.72,
+    "end": 5128.11,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5129.2,
+    "end": 5131.48,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5132.63,
+    "end": 5136.81,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5137.84,
+    "end": 5142.69,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5144.12,
+    "end": 5147.26,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5148.37,
+    "end": 5148.83,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5149.84,
+    "end": 5152.24,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5153.3,
+    "end": 5157.1,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5157.67,
+    "end": 5159.85,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5160.71,
+    "end": 5167.26,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5167.66,
+    "end": 5177.77,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5178.06,
+    "end": 5179.71,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5179.71,
+    "end": 5179.86,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 5179.96,
+    "end": 5184.08,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 5184.55,
+    "end": 5198.75,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 5198.75,
+    "end": 5198.95,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5198.95,
+    "end": 5198.97,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 5198.97,
+    "end": 5204.87,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5205.07,
+    "end": 5208.03,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5208.57,
+    "end": 5210.05,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5210.71,
+    "end": 5215.49,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5215.98,
+    "end": 5216.67,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5217.31,
+    "end": 5220.19,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5220.7,
+    "end": 5221.53,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5222.88,
+    "end": 5223.82,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5224.28,
+    "end": 5237.76,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5239.14,
+    "end": 5240.95,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5241.81,
+    "end": 5243.26,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5243.67,
+    "end": 5259.11,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5259.48,
+    "end": 5260.15,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5260.96,
+    "end": 5268.09,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5268.1,
+    "end": 5268.14,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5268.29,
+    "end": 5272.49,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5272.71,
+    "end": 5288.17,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5289.63,
+    "end": 5290.58,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5291.32,
+    "end": 5298.53,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5298.93,
+    "end": 5310.22,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5310.78,
+    "end": 5314.91,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5315.5,
+    "end": 5317.04,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5317.92,
+    "end": 5319.3,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5319.72,
+    "end": 5322.41,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5323.45,
+    "end": 5337.96,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5327.08,
+    "end": 5327.16,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 5338.15,
+    "end": 5341.63,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5342.12,
+    "end": 5343.96,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5344.93,
+    "end": 5346.23,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5347.06,
+    "end": 5349.12,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5349.93,
+    "end": 5354.03,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5354.89,
+    "end": 5357.79,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5358.72,
+    "end": 5359.67,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5360.09,
+    "end": 5370.26,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5371.55,
+    "end": 5373.3,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5373.69,
+    "end": 5384.22,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5384.22,
+    "end": 5384.24,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 5386.41,
+    "end": 5386.43,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5386.43,
+    "end": 5390.67,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 5386.55,
+    "end": 5387.66,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5390.67,
+    "end": 5391.26,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5390.68,
+    "end": 5391.96,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 5391.96,
+    "end": 5397.03,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5392.64,
+    "end": 5393.3,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 5397.03,
+    "end": 5409.26,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 5404.05,
+    "end": 5404.18,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5409.82,
+    "end": 5421.34,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 5420.84,
+    "end": 5422.76,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5423.34,
+    "end": 5426.04,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5426.04,
+    "end": 5439.97,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 5429.51,
+    "end": 5430.0,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5439.97,
+    "end": 5440.73,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5440.73,
+    "end": 5440.97,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 5440.97,
+    "end": 5449.91,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5452.87,
+    "end": 5475.21,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5471.4,
+    "end": 5472.07,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 5473.99,
+    "end": 5475.02,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 5475.72,
+    "end": 5476.81,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5475.9,
+    "end": 5476.31,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 5477.28,
+    "end": 5489.65,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5486.03,
+    "end": 5487.09,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 5490.8,
+    "end": 5491.34,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5492.3,
+    "end": 5493.89,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5494.48,
+    "end": 5497.7,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5498.33,
+    "end": 5504.01,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5504.5,
+    "end": 5505.69,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5506.95,
+    "end": 5510.7,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5510.78,
+    "end": 5538.59,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5539.45,
+    "end": 5542.91,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5544.11,
+    "end": 5547.28,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5547.54,
+    "end": 5550.03,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5550.57,
+    "end": 5555.48,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5557.41,
+    "end": 5561.17,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5563.09,
+    "end": 5564.53,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5565.49,
+    "end": 5566.25,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5567.4,
+    "end": 5575.77,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5576.49,
+    "end": 5578.8,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5580.04,
+    "end": 5603.41,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5583.83,
+    "end": 5583.92,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 5602.29,
+    "end": 5603.04,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 5604.2,
+    "end": 5613.16,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5606.8,
+    "end": 5608.15,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 5613.45,
+    "end": 5614.9,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5615.52,
+    "end": 5619.54,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5621.33,
+    "end": 5627.42,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5628.1,
+    "end": 5629.78,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5630.71,
+    "end": 5631.89,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5632.3,
+    "end": 5633.13,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5633.68,
+    "end": 5635.99,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5637.48,
+    "end": 5642.66,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5642.95,
+    "end": 5643.84,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5644.16,
+    "end": 5652.45,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5653.19,
+    "end": 5655.45,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5655.77,
+    "end": 5659.11,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5659.16,
+    "end": 5661.59,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5661.81,
+    "end": 5665.42,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5665.88,
+    "end": 5675.89,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5676.92,
+    "end": 5678.35,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5679.24,
+    "end": 5679.26,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 5679.26,
+    "end": 5680.04,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5680.04,
+    "end": 5682.55,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 5683.38,
+    "end": 5695.97,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 5683.68,
+    "end": 5685.07,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5695.97,
+    "end": 5700.0,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5700.96,
+    "end": 5701.76,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5702.25,
+    "end": 5706.11,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5706.63,
+    "end": 5708.39,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5709.54,
+    "end": 5711.43,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5712.76,
+    "end": 5714.02,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5714.48,
+    "end": 5717.92,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5719.26,
+    "end": 5726.39,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5727.42,
+    "end": 5733.24,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5734.21,
+    "end": 5737.65,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5739.96,
+    "end": 5742.14,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5743.83,
+    "end": 5748.35,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5749.28,
+    "end": 5752.94,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5753.6,
+    "end": 5754.2,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5755.5,
+    "end": 5761.05,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5761.41,
+    "end": 5767.03,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5767.16,
+    "end": 5771.33,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5771.64,
+    "end": 5774.52,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5775.96,
+    "end": 5778.05,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5776.23,
+    "end": 5776.61,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 5778.96,
+    "end": 5800.51,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 5800.96,
+    "end": 5815.56,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 5807.16,
+    "end": 5807.22,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5816.84,
+    "end": 5816.98,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 5816.98,
+    "end": 5817.86,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5817.86,
+    "end": 5818.04,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 5818.04,
+    "end": 5827.8,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5828.2,
+    "end": 5829.23,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5829.94,
+    "end": 5831.17,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5831.88,
+    "end": 5838.33,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5838.49,
+    "end": 5849.38,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5849.85,
+    "end": 5852.45,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5852.65,
+    "end": 5859.5,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5860.16,
+    "end": 5863.98,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5865.09,
+    "end": 5865.97,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5866.27,
+    "end": 5877.48,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5878.83,
+    "end": 5881.1,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5882.86,
+    "end": 5894.42,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5896.11,
+    "end": 5898.64,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5899.5,
+    "end": 5902.15,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5903.26,
+    "end": 5905.76,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5906.31,
+    "end": 5918.33,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5918.73,
+    "end": 5932.08,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5932.23,
+    "end": 5933.57,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5934.39,
+    "end": 5935.74,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5936.59,
+    "end": 5938.12,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5939.04,
+    "end": 5944.32,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5944.62,
+    "end": 5952.48,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5953.16,
+    "end": 5964.28,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5965.16,
+    "end": 5968.14,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5968.8,
+    "end": 5969.58,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5971.32,
+    "end": 5973.04,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5973.75,
+    "end": 5980.58,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5981.26,
+    "end": 5982.94,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5983.97,
+    "end": 5988.46,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5989.51,
+    "end": 5989.53,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 5989.53,
+    "end": 5992.07,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 5992.28,
+    "end": 6006.57,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 6007.45,
+    "end": 6007.46,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 6007.46,
+    "end": 6013.57,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6014.48,
+    "end": 6017.55,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6018.7,
+    "end": 6023.46,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6025.1,
+    "end": 6034.67,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6035.51,
+    "end": 6037.43,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6037.99,
+    "end": 6038.61,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6040.39,
+    "end": 6051.76,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6052.0,
+    "end": 6059.24,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6059.96,
+    "end": 6065.7,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6066.75,
+    "end": 6067.4,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6068.25,
+    "end": 6069.7,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6071.18,
+    "end": 6111.19,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 6078.19,
+    "end": 6078.63,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6079.25,
+    "end": 6080.03,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6084.75,
+    "end": 6085.07,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6104.6,
+    "end": 6105.36,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6111.94,
+    "end": 6118.11,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6118.55,
+    "end": 6122.75,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6123.55,
+    "end": 6131.36,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6132.14,
+    "end": 6139.32,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6139.7,
+    "end": 6146.01,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6146.53,
+    "end": 6150.14,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6150.48,
+    "end": 6157.01,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6158.55,
+    "end": 6160.27,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6160.65,
+    "end": 6162.73,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6162.95,
+    "end": 6164.59,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6165.58,
+    "end": 6170.61,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6170.75,
+    "end": 6172.64,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6173.19,
+    "end": 6174.27,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6174.75,
+    "end": 6175.44,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6175.86,
+    "end": 6177.38,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6178.12,
+    "end": 6182.17,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6183.84,
+    "end": 6184.38,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6185.58,
+    "end": 6187.91,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6188.45,
+    "end": 6193.66,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6193.66,
+    "end": 6193.68,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 6194.29,
+    "end": 6194.3,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6194.3,
+    "end": 6215.41,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 6215.41,
+    "end": 6215.52,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6215.84,
+    "end": 6216.39,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6215.85,
+    "end": 6216.68,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 6216.68,
+    "end": 6220.32,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6220.43,
+    "end": 6222.35,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6223.33,
+    "end": 6224.21,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6225.32,
+    "end": 6226.4,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6227.58,
+    "end": 6232.37,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6233.37,
+    "end": 6242.35,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6243.61,
+    "end": 6249.74,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6245.47,
+    "end": 6246.08,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 6249.77,
+    "end": 6253.79,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6255.24,
+    "end": 6259.78,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6261.36,
+    "end": 6272.72,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6273.16,
+    "end": 6273.67,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6274.05,
+    "end": 6276.52,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6276.72,
+    "end": 6280.13,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6280.7,
+    "end": 6281.24,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6281.8,
+    "end": 6283.5,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6284.28,
+    "end": 6284.69,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6285.53,
+    "end": 6287.54,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6288.69,
+    "end": 6291.62,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6292.31,
+    "end": 6296.43,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6297.88,
+    "end": 6298.56,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6298.93,
+    "end": 6300.45,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6300.72,
+    "end": 6302.76,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6303.43,
+    "end": 6311.57,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6313.37,
+    "end": 6318.17,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6318.87,
+    "end": 6325.66,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6326.33,
+    "end": 6333.12,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6333.52,
+    "end": 6339.7,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6341.4,
+    "end": 6341.82,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6341.91,
+    "end": 6345.96,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6346.13,
+    "end": 6357.01,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6357.48,
+    "end": 6360.02,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6361.15,
+    "end": 6362.5,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6362.78,
+    "end": 6365.26,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6366.14,
+    "end": 6376.17,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6376.82,
+    "end": 6384.03,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6385.29,
+    "end": 6389.7,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6390.17,
+    "end": 6396.13,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 6396.72,
+    "end": 6409.34,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 6409.78,
+    "end": 6411.97,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 6411.97,
+    "end": 6412.06,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6413.0,
+    "end": 6418.72,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6419.47,
+    "end": 6422.99,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6424.21,
+    "end": 6428.17,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6428.63,
+    "end": 6431.58,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6433.15,
+    "end": 6435.24,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6435.9,
+    "end": 6437.07,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6437.86,
+    "end": 6438.42,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6439.9,
+    "end": 6446.18,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6446.69,
+    "end": 6447.21,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6448.42,
+    "end": 6448.96,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6449.88,
+    "end": 6451.93,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6452.64,
+    "end": 6461.27,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6461.72,
+    "end": 6464.03,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6464.47,
+    "end": 6475.47,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6477.08,
+    "end": 6480.71,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6482.34,
+    "end": 6502.02,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6503.35,
+    "end": 6505.71,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6506.59,
+    "end": 6510.59,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6511.87,
+    "end": 6513.6,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6514.02,
+    "end": 6527.25,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6527.35,
+    "end": 6529.04,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6531.13,
+    "end": 6544.44,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6544.73,
+    "end": 6546.81,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6547.55,
+    "end": 6548.12,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6548.56,
+    "end": 6550.33,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6550.97,
+    "end": 6555.56,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6557.01,
+    "end": 6577.21,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6577.6,
+    "end": 6580.44,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6580.81,
+    "end": 6583.93,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6584.49,
+    "end": 6584.96,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6585.58,
+    "end": 6603.15,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6603.57,
+    "end": 6605.43,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6606.07,
+    "end": 6614.46,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 6615.0,
+    "end": 6615.89,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 6616.45,
+    "end": 6616.97,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 6616.97,
+    "end": 6618.05,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6618.12,
+    "end": 6620.08,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6620.72,
+    "end": 6622.81,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6623.18,
+    "end": 6631.18,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6631.84,
+    "end": 6639.87,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6637.42,
+    "end": 6637.49,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 6637.53,
+    "end": 6637.74,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 6640.87,
+    "end": 6645.88,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6647.33,
+    "end": 6659.83,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6659.77,
+    "end": 6659.78,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 6659.83,
+    "end": 6660.26,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 6660.26,
+    "end": 6660.41,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6660.56,
+    "end": 6663.12,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6663.48,
+    "end": 6665.0,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6666.85,
+    "end": 6676.15,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6677.97,
+    "end": 6678.68,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6680.62,
+    "end": 6689.82,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6690.5,
+    "end": 6699.25,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6699.47,
+    "end": 6702.02,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6702.56,
+    "end": 6705.16,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6705.82,
+    "end": 6708.06,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6708.89,
+    "end": 6709.92,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6711.03,
+    "end": 6719.01,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6719.89,
+    "end": 6723.42,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6724.35,
+    "end": 6724.36,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6724.36,
+    "end": 6734.08,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 6734.29,
+    "end": 6741.83,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 6742.08,
+    "end": 6748.26,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6748.8,
+    "end": 6752.83,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6753.46,
+    "end": 6763.43,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6764.07,
+    "end": 6764.7,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6766.01,
+    "end": 6770.55,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6770.77,
+    "end": 6772.64,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6773.12,
+    "end": 6785.25,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6785.76,
+    "end": 6788.73,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6789.28,
+    "end": 6805.58,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6807.57,
+    "end": 6816.18,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6816.96,
+    "end": 6818.37,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6819.29,
+    "end": 6820.13,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6820.32,
+    "end": 6823.5,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6824.35,
+    "end": 6825.77,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6826.56,
+    "end": 6831.33,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6831.76,
+    "end": 6832.53,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6833.41,
+    "end": 6834.84,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6835.1,
+    "end": 6837.26,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6838.15,
+    "end": 6838.81,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6839.47,
+    "end": 6842.79,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6843.79,
+    "end": 6848.43,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6849.04,
+    "end": 6858.66,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6859.28,
+    "end": 6862.33,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6863.89,
+    "end": 6868.54,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6869.51,
+    "end": 6870.05,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6871.33,
+    "end": 6871.8,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6872.21,
+    "end": 6872.59,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6874.38,
+    "end": 6875.7,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6876.61,
+    "end": 6880.58,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6882.18,
+    "end": 6889.71,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6890.33,
+    "end": 6898.67,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6898.92,
+    "end": 6900.22,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6901.28,
+    "end": 6904.84,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6905.84,
+    "end": 6917.77,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6918.58,
+    "end": 6921.01,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6922.51,
+    "end": 6924.28,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6924.91,
+    "end": 6925.97,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6926.61,
+    "end": 6934.37,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6934.88,
+    "end": 6935.61,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6936.2,
+    "end": 6940.38,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6941.38,
+    "end": 6943.76,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6944.95,
+    "end": 6964.26,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 6964.26,
+    "end": 6964.36,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6964.73,
+    "end": 6964.75,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 6964.75,
+    "end": 6964.77,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6964.77,
+    "end": 6964.97,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 6964.97,
+    "end": 6978.0,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6978.75,
+    "end": 6982.25,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6983.99,
+    "end": 6986.16,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6987.06,
+    "end": 6992.78,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 6993.39,
+    "end": 7000.84,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7001.76,
+    "end": 7002.43,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7002.77,
+    "end": 7004.89,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7006.23,
+    "end": 7011.83,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7012.84,
+    "end": 7016.59,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7017.33,
+    "end": 7019.39,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7019.93,
+    "end": 7031.39,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7031.83,
+    "end": 7032.28,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7033.53,
+    "end": 7050.0,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7050.17,
+    "end": 7053.85,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7054.59,
+    "end": 7059.06,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7059.86,
+    "end": 7061.32,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7061.71,
+    "end": 7083.63,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7083.63,
+    "end": 7083.78,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 7084.21,
+    "end": 7095.02,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 7095.02,
+    "end": 7095.07,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7095.6,
+    "end": 7095.77,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7095.77,
+    "end": 7095.97,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 7095.97,
+    "end": 7100.47,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7100.61,
+    "end": 7106.92,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7107.04,
+    "end": 7112.12,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7112.79,
+    "end": 7115.0,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7115.81,
+    "end": 7131.02,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7131.44,
+    "end": 7133.3,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7133.63,
+    "end": 7135.59,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7136.65,
+    "end": 7137.23,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7137.65,
+    "end": 7138.26,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7139.17,
+    "end": 7145.8,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7146.49,
+    "end": 7154.98,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7156.01,
+    "end": 7166.07,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7166.54,
+    "end": 7167.81,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7168.43,
+    "end": 7173.81,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7175.2,
+    "end": 7177.0,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7178.27,
+    "end": 7184.85,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7185.37,
+    "end": 7185.61,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7186.35,
+    "end": 7196.44,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7197.51,
+    "end": 7198.06,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7198.42,
+    "end": 7202.74,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7203.31,
+    "end": 7207.41,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7208.19,
+    "end": 7212.74,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7213.44,
+    "end": 7213.62,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 7213.62,
+    "end": 7225.11,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7225.89,
+    "end": 7227.49,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7228.15,
+    "end": 7232.93,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 7232.17,
+    "end": 7234.21,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7234.21,
+    "end": 7234.28,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 7234.28,
+    "end": 7234.33,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7234.33,
+    "end": 7234.39,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 7234.39,
+    "end": 7234.43,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7234.43,
+    "end": 7234.58,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 7234.58,
+    "end": 7234.63,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7234.63,
+    "end": 7234.92,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 7234.92,
+    "end": 7234.95,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7234.95,
+    "end": 7234.97,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 7234.97,
+    "end": 7237.57,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7237.77,
+    "end": 7240.42,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7240.76,
+    "end": 7243.88,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7244.32,
+    "end": 7245.5,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7246.04,
+    "end": 7248.5,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7248.5,
+    "end": 7248.55,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 7248.99,
+    "end": 7249.02,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7249.02,
+    "end": 7273.09,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 7273.36,
+    "end": 7284.14,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7284.83,
+    "end": 7286.64,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7287.2,
+    "end": 7290.18,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7291.06,
+    "end": 7298.7,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7299.23,
+    "end": 7315.6,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7316.36,
+    "end": 7323.49,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7325.05,
+    "end": 7345.85,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7346.29,
+    "end": 7349.31,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7349.97,
+    "end": 7352.3,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7353.31,
+    "end": 7353.87,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7354.66,
+    "end": 7355.4,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7356.65,
+    "end": 7357.99,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7358.32,
+    "end": 7360.82,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7360.97,
+    "end": 7366.49,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7366.74,
+    "end": 7372.55,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7373.51,
+    "end": 7374.12,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7374.54,
+    "end": 7381.24,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7382.08,
+    "end": 7382.54,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7384.28,
+    "end": 7394.81,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7395.01,
+    "end": 7397.04,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7397.04,
+    "end": 7424.2,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 7424.81,
+    "end": 7429.96,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7430.19,
+    "end": 7433.99,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7434.72,
+    "end": 7435.54,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7436.37,
+    "end": 7438.8,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7439.51,
+    "end": 7443.24,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7444.18,
+    "end": 7446.88,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7447.44,
+    "end": 7451.22,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7451.78,
+    "end": 7465.6,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7465.89,
+    "end": 7490.03,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7490.62,
+    "end": 7496.13,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7496.45,
+    "end": 7498.42,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7498.98,
+    "end": 7502.22,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7502.81,
+    "end": 7503.99,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7504.41,
+    "end": 7506.01,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7507.92,
+    "end": 7513.73,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7513.89,
+    "end": 7516.59,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7517.37,
+    "end": 7538.97,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7524.09,
+    "end": 7524.78,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 7538.97,
+    "end": 7550.09,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 7550.53,
+    "end": 7556.27,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 7553.89,
+    "end": 7554.09,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7556.27,
+    "end": 7556.28,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7557.6,
+    "end": 7558.31,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7559.12,
+    "end": 7564.08,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7564.28,
+    "end": 7565.01,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7565.57,
+    "end": 7566.85,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7567.37,
+    "end": 7571.62,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7572.33,
+    "end": 7574.12,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7574.24,
+    "end": 7575.69,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7575.98,
+    "end": 7599.84,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7600.18,
+    "end": 7604.63,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7605.46,
+    "end": 7609.42,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7610.12,
+    "end": 7630.26,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7631.09,
+    "end": 7634.75,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7636.17,
+    "end": 7643.38,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7645.27,
+    "end": 7648.08,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7648.32,
+    "end": 7650.9,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7651.59,
+    "end": 7667.93,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7668.99,
+    "end": 7671.95,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7672.65,
+    "end": 7674.06,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7674.49,
+    "end": 7677.7,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7678.48,
+    "end": 7682.0,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7682.0,
+    "end": 7682.02,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 7682.61,
+    "end": 7683.03,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7683.03,
+    "end": 7684.48,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 7684.91,
+    "end": 7688.97,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 7688.97,
+    "end": 7697.56,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7698.95,
+    "end": 7700.08,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7700.82,
+    "end": 7701.53,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7702.14,
+    "end": 7704.33,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7704.4,
+    "end": 7708.62,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7709.29,
+    "end": 7715.64,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7716.19,
+    "end": 7716.87,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7717.49,
+    "end": 7732.68,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7733.27,
+    "end": 7747.14,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7748.07,
+    "end": 7751.49,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7752.03,
+    "end": 7769.91,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7770.65,
+    "end": 7776.93,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7777.52,
+    "end": 7778.21,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7778.75,
+    "end": 7781.41,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7782.61,
+    "end": 7784.4,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7785.06,
+    "end": 7793.78,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7795.03,
+    "end": 7806.73,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7806.81,
+    "end": 7820.55,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7820.9,
+    "end": 7824.99,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7825.61,
+    "end": 7829.19,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7830.3,
+    "end": 7834.38,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7834.94,
+    "end": 7835.6,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7836.9,
+    "end": 7842.23,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7842.25,
+    "end": 7844.27,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7845.12,
+    "end": 7845.99,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7846.74,
+    "end": 7847.21,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7848.02,
+    "end": 7849.89,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7851.14,
+    "end": 7852.61,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7853.22,
+    "end": 7853.98,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7854.43,
+    "end": 7861.76,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7862.72,
+    "end": 7863.34,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7865.6,
+    "end": 7868.08,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7869.48,
+    "end": 7881.69,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7882.14,
+    "end": 7889.18,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7889.85,
+    "end": 7890.97,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7890.97,
+    "end": 7916.04,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 7917.53,
+    "end": 7932.21,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 7933.27,
+    "end": 7933.83,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 7934.25,
+    "end": 7937.36,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 7937.9,
+    "end": 7945.14,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 7938.35,
+    "end": 7938.66,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7945.73,
+    "end": 7955.97,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 7955.97,
+    "end": 7961.49,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7962.11,
+    "end": 7974.41,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7974.94,
+    "end": 7978.24,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7979.31,
+    "end": 7987.8,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7988.39,
+    "end": 7990.02,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7990.46,
+    "end": 7996.28,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 7996.98,
+    "end": 8001.33,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8002.24,
+    "end": 8005.7,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8006.04,
+    "end": 8016.08,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8016.89,
+    "end": 8034.93,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8035.57,
+    "end": 8038.29,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8038.35,
+    "end": 8047.01,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8041.88,
+    "end": 8042.23,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 8042.71,
+    "end": 8043.6,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 8044.23,
+    "end": 8045.86,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 8047.25,
+    "end": 8050.01,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8050.81,
+    "end": 8053.59,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8054.57,
+    "end": 8055.21,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8056.31,
+    "end": 8064.56,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8064.93,
+    "end": 8068.69,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8069.61,
+    "end": 8070.69,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8071.66,
+    "end": 8076.15,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8077.01,
+    "end": 8081.96,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8082.6,
+    "end": 8084.22,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8085.1,
+    "end": 8086.4,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8087.27,
+    "end": 8088.0,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8089.45,
+    "end": 8091.56,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8092.18,
+    "end": 8092.79,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8092.94,
+    "end": 8105.67,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8106.88,
+    "end": 8108.33,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8109.33,
+    "end": 8111.88,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8112.87,
+    "end": 8118.48,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8119.05,
+    "end": 8122.9,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8122.96,
+    "end": 8138.27,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8138.69,
+    "end": 8142.29,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8143.01,
+    "end": 8145.85,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8146.37,
+    "end": 8153.93,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8154.81,
+    "end": 8162.18,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8162.89,
+    "end": 8164.76,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8165.46,
+    "end": 8172.05,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8173.5,
+    "end": 8174.55,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8173.59,
+    "end": 8173.84,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 8174.65,
+    "end": 8175.24,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8177.71,
+    "end": 8180.81,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8181.55,
+    "end": 8191.7,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8192.61,
+    "end": 8195.8,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8197.6,
+    "end": 8202.11,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8203.24,
+    "end": 8208.81,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8209.55,
+    "end": 8210.07,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8210.95,
+    "end": 8212.38,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8213.14,
+    "end": 8217.5,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8219.29,
+    "end": 8224.33,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8225.46,
+    "end": 8227.94,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8228.53,
+    "end": 8228.99,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8230.04,
+    "end": 8235.22,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8235.67,
+    "end": 8244.11,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8244.31,
+    "end": 8245.17,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8247.64,
+    "end": 8259.97,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8260.73,
+    "end": 8270.1,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8270.4,
+    "end": 8273.15,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8270.5,
+    "end": 8271.06,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 8273.89,
+    "end": 8290.67,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8291.19,
+    "end": 8295.63,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8295.83,
+    "end": 8316.25,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8316.82,
+    "end": 8320.69,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8320.94,
+    "end": 8332.8,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8333.41,
+    "end": 8341.93,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8342.39,
+    "end": 8343.87,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8345.48,
+    "end": 8356.6,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8356.87,
+    "end": 8358.47,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8359.25,
+    "end": 8375.9,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8376.93,
+    "end": 8383.63,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8383.97,
+    "end": 8389.17,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8389.71,
+    "end": 8393.37,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8395.17,
+    "end": 8397.25,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8398.52,
+    "end": 8405.4,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8406.14,
+    "end": 8408.91,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8408.91,
+    "end": 8408.98,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 8409.89,
+    "end": 8409.91,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 8409.91,
+    "end": 8409.92,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8409.92,
+    "end": 8452.75,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 8454.09,
+    "end": 8465.22,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 8465.22,
+    "end": 8478.57,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8478.93,
+    "end": 8488.19,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8488.56,
+    "end": 8498.03,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8498.65,
+    "end": 8499.34,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8499.88,
+    "end": 8501.55,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8502.75,
+    "end": 8504.32,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8505.49,
+    "end": 8514.62,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8514.85,
+    "end": 8531.95,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8532.81,
+    "end": 8534.33,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8534.71,
+    "end": 8535.42,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8536.15,
+    "end": 8536.69,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8537.53,
+    "end": 8548.67,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8548.91,
+    "end": 8552.92,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8554.05,
+    "end": 8554.63,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8555.34,
+    "end": 8555.99,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8557.77,
+    "end": 8560.36,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8560.89,
+    "end": 8562.98,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8563.99,
+    "end": 8573.91,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8574.98,
+    "end": 8575.5,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8576.02,
+    "end": 8579.96,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8580.58,
+    "end": 8585.29,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8587.72,
+    "end": 8601.86,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8590.13,
+    "end": 8590.47,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 8601.2,
+    "end": 8601.61,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 8601.86,
+    "end": 8602.45,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 8602.45,
+    "end": 8603.18,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8604.04,
+    "end": 8610.9,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8611.9,
+    "end": 8613.6,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8613.99,
+    "end": 8615.66,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8616.41,
+    "end": 8620.07,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8620.46,
+    "end": 8627.43,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8628.07,
+    "end": 8629.35,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8630.6,
+    "end": 8635.27,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8635.95,
+    "end": 8637.55,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8638.12,
+    "end": 8641.21,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8641.7,
+    "end": 8674.3,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 8645.52,
+    "end": 8646.27,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8674.61,
+    "end": 8674.68,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8674.68,
+    "end": 8674.71,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 8674.71,
+    "end": 8683.4,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8684.07,
+    "end": 8686.93,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8688.31,
+    "end": 8695.67,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8696.14,
+    "end": 8696.92,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8697.51,
+    "end": 8723.17,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8723.87,
+    "end": 8726.95,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8727.49,
+    "end": 8730.19,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8731.31,
+    "end": 8750.04,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8750.7,
+    "end": 8751.14,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8752.23,
+    "end": 8753.84,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8754.09,
+    "end": 8754.92,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8755.3,
+    "end": 8763.27,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8763.4,
+    "end": 8771.76,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8772.35,
+    "end": 8773.71,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8774.27,
+    "end": 8775.33,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8775.6,
+    "end": 8794.39,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8795.3,
+    "end": 8796.58,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8797.37,
+    "end": 8798.64,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8798.98,
+    "end": 8802.94,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8803.35,
+    "end": 8807.25,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8808.49,
+    "end": 8811.19,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8811.75,
+    "end": 8856.01,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 8818.86,
+    "end": 8819.18,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8827.02,
+    "end": 8827.34,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8843.19,
+    "end": 8843.43,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8845.69,
+    "end": 8846.04,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8856.01,
+    "end": 8856.17,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8856.44,
+    "end": 8862.46,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8862.61,
+    "end": 8866.24,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8866.41,
+    "end": 8868.25,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8868.7,
+    "end": 8891.13,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8891.99,
+    "end": 8895.57,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8895.97,
+    "end": 8899.16,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8899.72,
+    "end": 8903.96,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8904.26,
+    "end": 8919.23,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8919.97,
+    "end": 8946.4,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8947.51,
+    "end": 8952.45,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8952.59,
+    "end": 8954.09,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8954.38,
+    "end": 8955.81,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8957.26,
+    "end": 8962.12,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8962.44,
+    "end": 8971.02,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8971.91,
+    "end": 8972.47,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8973.04,
+    "end": 8978.83,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8979.4,
+    "end": 8979.88,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8981.31,
+    "end": 8983.91,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8984.38,
+    "end": 8988.31,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8988.77,
+    "end": 8993.68,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8994.63,
+    "end": 8997.73,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 8998.37,
+    "end": 9000.45,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9000.8,
+    "end": 9009.63,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9010.66,
+    "end": 9020.21,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9020.8,
+    "end": 9021.46,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9023.16,
+    "end": 9024.61,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9025.29,
+    "end": 9029.91,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9031.43,
+    "end": 9033.34,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9034.15,
+    "end": 9037.29,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9038.48,
+    "end": 9041.96,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9043.33,
+    "end": 9044.95,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9044.96,
+    "end": 9045.01,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9045.15,
+    "end": 9049.45,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9050.18,
+    "end": 9051.44,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9051.9,
+    "end": 9054.51,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9055.78,
+    "end": 9056.22,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9056.22,
+    "end": 9056.57,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 9056.57,
+    "end": 9057.03,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9057.03,
+    "end": 9060.51,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 9059.7,
+    "end": 9091.13,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9091.99,
+    "end": 9097.71,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9098.29,
+    "end": 9099.72,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9100.03,
+    "end": 9167.54,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 9103.94,
+    "end": 9104.03,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9104.28,
+    "end": 9104.31,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9128.41,
+    "end": 9128.55,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9167.85,
+    "end": 9175.31,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 9175.66,
+    "end": 9187.37,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9187.86,
+    "end": 9210.93,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9211.37,
+    "end": 9213.07,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9214.17,
+    "end": 9214.76,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9215.54,
+    "end": 9216.43,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9217.19,
+    "end": 9223.06,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9223.67,
+    "end": 9230.67,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9231.25,
+    "end": 9246.86,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9248.59,
+    "end": 9252.22,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9252.81,
+    "end": 9259.53,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9259.71,
+    "end": 9275.51,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9276.32,
+    "end": 9276.86,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9277.97,
+    "end": 9286.23,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9286.48,
+    "end": 9289.87,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9290.87,
+    "end": 9291.91,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9292.67,
+    "end": 9295.03,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9295.98,
+    "end": 9298.81,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9300.2,
+    "end": 9305.6,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9308.77,
+    "end": 9314.47,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9314.91,
+    "end": 9315.64,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9315.66,
+    "end": 9320.01,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9320.52,
+    "end": 9320.9,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9322.25,
+    "end": 9327.86,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9328.78,
+    "end": 9339.62,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9339.97,
+    "end": 9340.66,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9341.14,
+    "end": 9342.98,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9343.72,
+    "end": 9351.4,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9351.94,
+    "end": 9367.82,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9368.15,
+    "end": 9370.38,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9370.99,
+    "end": 9374.23,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9374.8,
+    "end": 9378.03,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9378.03,
+    "end": 9409.41,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 9409.41,
+    "end": 9419.99,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9420.79,
+    "end": 9421.71,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9422.12,
+    "end": 9425.17,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9425.75,
+    "end": 9430.34,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9430.64,
+    "end": 9446.32,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9447.31,
+    "end": 9448.97,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9449.63,
+    "end": 9450.39,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9450.76,
+    "end": 9464.73,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9465.22,
+    "end": 9478.14,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9478.35,
+    "end": 9479.28,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9479.97,
+    "end": 9480.41,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9480.96,
+    "end": 9485.45,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9486.11,
+    "end": 9489.1,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9489.47,
+    "end": 9490.87,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9491.71,
+    "end": 9494.9,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9495.36,
+    "end": 9498.72,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9499.83,
+    "end": 9505.63,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9506.16,
+    "end": 9515.83,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9516.67,
+    "end": 9519.2,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9519.71,
+    "end": 9520.77,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9521.75,
+    "end": 9534.32,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9534.74,
+    "end": 9538.03,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9538.03,
+    "end": 9541.41,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 9542.22,
+    "end": 9579.12,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 9579.43,
+    "end": 9579.45,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9579.45,
+    "end": 9579.97,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 9579.97,
+    "end": 9591.07,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9592.41,
+    "end": 9601.18,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9602.9,
+    "end": 9606.33,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9606.53,
+    "end": 9615.49,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9616.05,
+    "end": 9632.67,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9633.73,
+    "end": 9645.34,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9647.27,
+    "end": 9655.4,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9656.67,
+    "end": 9665.37,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9665.81,
+    "end": 9666.71,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9668.38,
+    "end": 9689.59,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9690.94,
+    "end": 9699.19,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9700.03,
+    "end": 9700.98,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9701.3,
+    "end": 9708.69,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9709.13,
+    "end": 9709.62,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9710.58,
+    "end": 9720.37,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9721.77,
+    "end": 9727.49,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9728.81,
+    "end": 9732.82,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9733.48,
+    "end": 9737.95,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9738.1,
+    "end": 9739.62,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9740.03,
+    "end": 9758.81,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9759.25,
+    "end": 9770.96,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9772.07,
+    "end": 9776.44,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9776.7,
+    "end": 9779.26,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9779.97,
+    "end": 9782.15,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9782.15,
+    "end": 9782.18,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 9782.72,
+    "end": 9782.74,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9782.74,
+    "end": 9789.45,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 9789.61,
+    "end": 9789.96,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 9790.08,
+    "end": 9821.01,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 9822.46,
+    "end": 9822.48,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 9822.48,
+    "end": 9837.58,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9838.34,
+    "end": 9849.85,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9852.13,
+    "end": 9868.19,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9868.78,
+    "end": 9888.44,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9888.85,
+    "end": 9892.19,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9893.22,
+    "end": 9897.42,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9898.3,
+    "end": 9904.93,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9906.11,
+    "end": 9913.0,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9913.69,
+    "end": 9925.77,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9928.37,
+    "end": 9931.19,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9931.41,
+    "end": 9932.64,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9934.11,
+    "end": 9934.77,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9935.64,
+    "end": 9939.41,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9940.06,
+    "end": 9941.77,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9942.12,
+    "end": 9942.78,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9943.76,
+    "end": 9947.13,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9947.79,
+    "end": 9950.59,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9951.07,
+    "end": 9954.24,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9954.86,
+    "end": 9955.61,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9956.89,
+    "end": 9968.45,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9968.48,
+    "end": 9972.6,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9973.65,
+    "end": 9976.01,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9977.0,
+    "end": 9979.96,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9981.64,
+    "end": 9986.47,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9987.8,
+    "end": 9991.11,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9992.16,
+    "end": 9994.81,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 9995.01,
+    "end": 9999.06,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 10000.27,
+    "end": 10003.77,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 10004.27,
+    "end": 10004.29,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 10004.29,
+    "end": 10023.04,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 10014.26,
+    "end": 10014.55,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 10024.17,
+    "end": 10054.63,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 10054.85,
+    "end": 10055.66,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 10057.09,
+    "end": 10058.61,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 10059.17,
+    "end": 10059.72,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 10060.16,
+    "end": 10061.24,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 10062.04,
+    "end": 10064.37,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 10065.12,
+    "end": 10071.74,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 10071.98,
+    "end": 10081.58,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 10082.02,
+    "end": 10083.35,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 10085.27,
+    "end": 10096.02,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 10096.02,
+    "end": 10109.39,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 10110.42,
+    "end": 10110.45,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 10110.45,
+    "end": 10117.07,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 10117.99,
+    "end": 10119.46,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 10120.17,
+    "end": 10120.51,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 10120.78,
+    "end": 10121.76,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 10122.99,
+    "end": 10135.43,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 10136.4,
+    "end": 10147.93,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 10148.17,
+    "end": 10155.02,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 10155.64,
+    "end": 10187.06,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 10166.88,
+    "end": 10167.4,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 10187.49,
+    "end": 10190.24,
+    "speaker": "Ethan"
+  },
+  {
+    "start": 10188.5,
+    "end": 10191.11,
+    "speaker": "Ryan"
+  },
+  {
+    "start": 10191.77,
+    "end": 10244.15,
+    "speaker": "Ryan"
+  }
+]
