@@ -42,7 +42,7 @@ podcast-lab/
    ```
 
 3. **翻译**  →  `transcript/cn.txt`
-   - 手工/LLM 分段翻译（口语化、适合播客）
+   - 手工/LLM 分段翻译（口语化、适合播客，说话人使用简体中文为主，夹杂英文单词。常用词：播客、podcast、网址、地址、GitHub、OpenClaw、翻译、音频、视频、YouTube、API、token、模型。请用简体中文输出，保留英文技术名词不翻译。）
 
 4. **TTS**  →  `audio/cn-podcast.mp3`
    ```bash
