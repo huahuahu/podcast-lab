@@ -47,7 +47,7 @@
         <p>原始来源：<a href="https://www.youtube.com/watch?v=6WaeGfLnRvc">Ryan Peterman 访谈 Ethan Evans</a>。</p>
         <p>当前 RSS 已预留正式音频地址，后续替换占位链接后即可用于正式播客订阅。</p>
       ]]></content:encoded>
-      <enclosure url="https://example.com/podcast-lab/ethan-evans-corp-politics.mp3" length="0" type="audio/mpeg"/>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.1.0-ethan-evans-zh/ethan-evans-corp-politics-zh.mp3" length="58163252" type="audio/mpeg"/>
       <category>Technology</category>
       <category>Careers</category>
       <itunes:author>Podcast Lab</itunes:author>
