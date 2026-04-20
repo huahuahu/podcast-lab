@@ -1,0 +1,15 @@
+{
+  "voices": {
+    "host":  "zh-CN-XiaoxiaoNeural",
+    "guest": "zh-CN-YunyangNeural"
+  },
+  "pause_ms": 500,
+  "lines": [
+    {"speaker": "host",  "text": "大家好，欢迎收听本期节目。今天我们邀请到了前亚马逊副总裁 Ethan Evans。"},
+    {"speaker": "guest", "text": "大家好，很高兴来到这里分享。"},
+    {"speaker": "host",  "text": "Ethan，您在亚马逊工作了这么多年，能先聊聊您怎么看职场政治吗？"},
+    {"speaker": "guest", "text": "职场政治其实是个被误解的词。很多人以为它是负面的，但本质上就是组织中的利益博弈。"},
+    {"speaker": "host",  "text": "那普通工程师怎么才能在这种环境里不吃亏？"},
+    {"speaker": "guest", "text": "第一步是承认它存在，然后学会识别其中的规则。逃避没有用。"}
+  ]
+}
