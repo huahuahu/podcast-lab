@@ -23,8 +23,11 @@ import tempfile
 from pathlib import Path
 
 
-WHISPER_CLI = "/opt/homebrew/bin/whisper-cli"
-WHISPER_MODEL = "/Users/tigerguo/.openclaw/models/whisper/ggml-large-v3-turbo1.bin"
+WHISPER_CLI = os.environ.get("WHISPER_CLI", "/opt/homebrew/bin/whisper-cli")
+WHISPER_MODEL = os.environ.get(
+    "WHISPER_MODEL",
+    os.path.expanduser("~/.openclaw/models/whisper/ggml-large-v3-turbo1.bin"),
+)
 
 
 def run_whisper(audio: str, lang: str = "auto") -> list:

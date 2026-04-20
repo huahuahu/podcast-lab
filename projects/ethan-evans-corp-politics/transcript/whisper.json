@@ -20,7 +20,7 @@
 		"ftype": 1
 	},
 	"params": {
-		"model": "/Users/tigerguo/.openclaw/models/whisper/ggml-large-v3-turbo.bin",
+		"model": "~/.openclaw/models/whisper/ggml-large-v3-turbo.bin",
 		"language": "en",
 		"translate": false
 	},

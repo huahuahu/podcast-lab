@@ -17,10 +17,11 @@ SLUG="${1:?usage: pipeline.sh <slug> <youtube_url> [num_speakers]}"
 URL="${2:?usage: pipeline.sh <slug> <youtube_url> [num_speakers]}"
 NUM_SPEAKERS="${3:-2}"
 
-REPO="/Users/tigerguo/git/podcast-lab"
+REPO="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 PROJ="$REPO/projects/$SLUG"
 
-source ~/.openclaw/secrets/env.sh
+# 可选：加载本地 secrets（如 HF_TOKEN 等）。文件不存在就跳过。
+[ -f "${OPENCLAW_SECRETS:-$HOME/.openclaw/secrets/env.sh}" ] && source "${OPENCLAW_SECRETS:-$HOME/.openclaw/secrets/env.sh}"
 
 mkdir -p "$PROJ"/{source,transcript,audio,diarization}
 
