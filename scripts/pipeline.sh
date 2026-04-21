@@ -61,6 +61,23 @@ else
   echo "✓ 2/4 dialog_en.json exists, skipping"
 fi
 
+# ─── 2.5 Host/Guest 重分配（LLM）─────────────────────
+# Azure diarize 每个 chunk 独立诊断 speaker，跨 chunk 不保证同一个人。
+# 用 Copilot GPT-5.4 根据对话内容重新分为 Host / Guest。
+# 设置 REASSIGN_SPEAKERS=0 可跳过（独白视频 / 已手工改过场景）
+REASSIGN_SPEAKERS="${REASSIGN_SPEAKERS:-1}"
+SPEAKER_SENTINEL="$PROJ/transcript/.speakers-reassigned"
+if [ "$REASSIGN_SPEAKERS" = "1" ] && [ ! -f "$SPEAKER_SENTINEL" ]; then
+  echo "👥 2.5/4 Reassigning Host/Guest via LLM..."
+  [ -f "$PROJ/transcript/dialog_en.orig.json" ] || \
+    cp "$PROJ/transcript/dialog_en.json" "$PROJ/transcript/dialog_en.orig.json"
+  python3 -u "$REPO/scripts/reassign_speakers_llm.py" \
+    "$PROJ/transcript/dialog_en.json"
+  touch "$SPEAKER_SENTINEL"
+else
+  echo "✓ 2.5/4 speakers reassigned (or disabled), skipping"
+fi
+
 # ─── 3. 翻译（Copilot GPT-5.4）──────────────────────────────
 if [ ! -f "$PROJ/transcript/dialog_zh.json" ] \
   || [ "$(python3 -c "import json; print(len(json.load(open('$PROJ/transcript/dialog_zh.json'))))" 2>/dev/null || echo 0)" -lt \

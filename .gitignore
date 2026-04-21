@@ -11,9 +11,12 @@ projects/**/audio/*.mp3
 projects/**/audio/*.wav
 projects/**/audio/*.m4a
 
-# TTS cache 和 SF 切片：纯中间产物，能重生，不入 repo
+# TTS cache 和 STT 切片：纯中间产物，能重生，不入 repo
 projects/**/audio/tts_cache/
 projects/**/transcript/sf_chunks/
+projects/**/transcript/azure_chunks/
+projects/**/transcript/dialog_en.orig.json
+projects/**/transcript/.speakers-reassigned
 
 # 日志文件
 projects/**/*.log

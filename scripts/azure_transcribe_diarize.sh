@@ -13,13 +13,13 @@
 #
 # 环境变量:
 #   AZURE_OPENAI_CRED_FILE  (默认 ~/.openclaw/credentials/azure-openai.json)
-#   CHUNK_SEC               (默认 600，10 分钟一段)
+#   CHUNK_SEC               (默认 300，5 分钟一段。越小越稳，diarize 模型处理大文件慢且易断)
 #   MAX_BYTES               (默认 24000000，~24MB 低于 Azure 25MB 上限)
 set -euo pipefail
 
 AUDIO="${1:?usage: azure_transcribe_diarize.sh <audio> <out_dir> [chunk_sec]}"
 OUT_DIR="${2:?usage: azure_transcribe_diarize.sh <audio> <out_dir> [chunk_sec]}"
-CHUNK_SEC="${3:-${CHUNK_SEC:-600}}"
+CHUNK_SEC="${3:-${CHUNK_SEC:-300}}"
 
 CRED="${AZURE_OPENAI_CRED_FILE:-$HOME/.openclaw/credentials/azure-openai.json}"
 [ -r "$CRED" ] || { echo "missing $CRED" >&2; exit 2; }
@@ -58,20 +58,31 @@ while [ "$start" -lt "$TOTAL" ]; do
   else
     echo "📤  uploading chunk $idx to Azure diarize..."
     attempt=0
-    while [ $attempt -lt 3 ]; do
-      if curl -sS --fail-with-body -X POST "$URL" \
+    ok=0
+    while [ $attempt -lt 6 ]; do
+      if curl -sS --fail-with-body \
+          --connect-timeout 30 --max-time 360 \
+          -X POST "$URL" \
           -H "api-key: $KEY" \
           -F "file=@${mp3}" \
           -F "response_format=json" \
           -F "chunking_strategy=auto" \
           -F "stream=true" \
           -o "$sse"; then
+        ok=1
         break
       fi
       attempt=$((attempt + 1))
-      echo "⚠️  chunk $idx 第 $attempt 次失败，5s 后重试..." >&2
-      sleep 5
+      echo "⚠️  chunk $idx 第 $attempt 次失败，15s 后重试..." >&2
+      sleep 15
     done
+
+    if [ "$ok" != "1" ]; then
+      echo "❌ chunk $idx 6 次全失败，先跳过，后面手动重跑" >&2
+      rm -f "$sse"
+      start=$((start + CHUNK_SEC))
+      continue
+    fi
 
     # 从 SSE 抽出 segment 事件，加上全局偏移
     python3 - "$sse" "$start" > "$segs" <<'PY'

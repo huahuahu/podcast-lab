@@ -1,0 +1,1472 @@
+[
+  {
+    "start": 9.844,
+    "end": 24.094,
+    "speaker": "Host",
+    "text_en": "Iran, after initially balking, will send negotiators to Islamabad for a new round of talks with the United States less than forty eight hours before the ceasefire is set to expire. Iran, however, has criticised the U.S.",
+    "text": "Iran在最初表示抗拒之后，将派谈判代表前往Islamabad，与美国展开新一轮会谈，而此时距离停火到期还不到48小时。不过，Iran批评美国从停火生效一开始就在违反停火协议。"
+  },
+  {
+    "start": 24.144,
+    "end": 36.394,
+    "speaker": "Host",
+    "text_en": "for violating the ceasefire from the beginning of its implementation, citing the U.S. naval blockade of the Strait of Hormuz since april thirteenth and the seizure of an Iranian container ship.",
+    "text": "Iran指出，自4月13日以来，美国对Hormuz海峡实施海上封锁，并扣押了一艘Iran货轮，以此作为美国违反停火协议的证据。"
+  },
+  {
+    "start": 36.852,
+    "end": 49.102,
+    "speaker": "Host",
+    "text_en": "Both they cite as breaches of the truce as well as international law. Iran says that if the U.S. continues to carry out what it defines as acts of aggression, Iranian forces will respond accordingly.",
+    "text": "Iran称，这两项行为都既违反了停战协议，也违反了国际法。Iran表示，如果美国继续实施其所定义的侵略行为，Iran部队将作出相应回应。"
+  },
+  {
+    "start": 49.802,
+    "end": 62.152,
+    "speaker": "Host",
+    "text_en": "Tehran's ten point proposal submitted before the first round of Islamabad talks is the basis for further negotiations but the ten points include a number of conditions the U.S. has repeatedly rejected.",
+    "text": "Tehran在Islamabad首轮会谈前提交的十点提案，是后续谈判的基础，但这十点内容中包含若干美国一再拒绝接受的条件。"
+  },
+  {
+    "start": 62.702,
+    "end": 75.696,
+    "speaker": "Host",
+    "text_en": "It demands the lifting of all primary and secondary sanctions on Iran. Iran continued Iranian control over the Strait of Hormuz, U.S. military withdrawal from the Middle East, an end to attacks on Iran and its allies,",
+    "text": "提案要求取消针对Iran的所有一级和二级制裁，继续由Iran控制Hormuz海峡，美国从中东撤军，停止对Iran及其盟友的攻击，"
+  },
+  {
+    "start": 76.096,
+    "end": 84.346,
+    "speaker": "Host",
+    "text_en": "the release of some $100 billion in frozen Iranian assets, and a UN Security Council resolution making any deal binding.",
+    "text": "解冻约1000亿美元的Iran资产，并由联合国安理会通过决议，使任何协议都具有约束力。"
+  },
+  {
+    "start": 85.012,
+    "end": 96.912,
+    "speaker": "Host",
+    "text_en": "So where are we? Is the Trump administration ready to make concessions in the face of Iran's ability to strangle the global economy by shutting down the Strait of Hormuz? What will be the role of Israel,",
+    "text": "所以现在局势到哪一步了？面对Iran有能力通过关闭Hormuz海峡来扼住全球经济咽喉，Trump政府准备作出让步吗？Israel会扮演什么角色，"
+  },
+  {
+    "start": 97.262,
+    "end": 111.962,
+    "speaker": "Host",
+    "text_en": "which has threatened to resume attacks on Iran? With perhaps only 5% of the pre-war 20% of the oil and natural gas making its way through the strait, how much more can the global economy, already under severe distress in...",
+    "text": "而Israel此前已威胁要恢复对Iran的攻击？在战前经由这条海峡运输的全球20%石油和天然气中，如今可能只剩5%还能通过，在本就已陷入严重困境的全球经济还能承受多久……"
+  },
+  {
+    "start": 111.732,
+    "end": 128.982,
+    "speaker": "Host",
+    "text_en": "endure before it triggers a global economic crisis. Joining me to discuss the crisis in the Middle East is Professor John Mearsheimer. He is the R. Wendell Harrison Distinguished Service Professor of Political Science at the University of Chicago.",
+    "text": "在它引发一场全球经济危机之前，还能撑多久。今天和我一起讨论中东危机的是 John Mearsheimer 教授。他是 University of Chicago 的 R. Wendell Harrison 杰出政治学教授。"
+  },
+  {
+    "start": 129.532,
+    "end": 143.482,
+    "speaker": "Host",
+    "text_en": "Professor Mearsheimer, who graduated from West Point and was a captain in the U.S. Air Force, is the author of numerous books, including Conventional Deterrence, nuclear deterrence ethics, Lydell Hart and the weight of history,",
+    "text": "Mearsheimer 教授毕业于 West Point，曾任美国空军上尉，著有多部作品，包括《Conventional Deterrence》《nuclear deterrence ethics》《Lydell Hart and the Weight of History》，"
+  },
+  {
+    "start": 143.632,
+    "end": 154.132,
+    "speaker": "Host",
+    "text_en": "the tragedy of great power politics, the Israel lobby and U.S. foreign policy, and Why Leaders Lie: The Truth About Lying in International Politics.",
+    "text": "《The Tragedy of Great Power Politics》《The Israel Lobby and U.S. Foreign Policy》，以及《Why Leaders Lie: The Truth About Lying in International Politics》。"
+  },
+  {
+    "start": 155.182,
+    "end": 162.032,
+    "speaker": "Host",
+    "text_en": "The big question for me, John, is does the Trump administration realize",
+    "text": "John，我最关心的一个大问题是，Trump 政府是否意识到"
+  },
+  {
+    "start": 163.22,
+    "end": 182.92,
+    "speaker": "Host",
+    "text_en": "in your view, that this is a game that Iran controls, that essentially because of their stranglehold on the Strait of Hormuz, they're largely going to be able to dictate the terms.",
+    "text": "在你看来，这其实是一场由 Iran 掌控的博弈？本质上说，因为他们牢牢卡住了 Hormuz Strait，所以很大程度上将能够决定条件。"
+  },
+  {
+    "start": 183.892,
+    "end": 200.942,
+    "speaker": "Guest",
+    "text_en": "Let me just reinforce what you said, Chris. I think there's no question that if you go up the escalation ladder, which the Trump administration is threatening to do after the ceasefire ends on Wednesday, that we cannot win.",
+    "text": "Chris，我先补充一下你刚才说的。我认为毫无疑问，如果局势沿着升级阶梯继续往上走——而 Trump 政府正威胁要在周三停火结束后这么做——那我们是赢不了的。"
+  },
+  {
+    "start": 201.442,
+    "end": 217.474,
+    "speaker": "Guest",
+    "text_en": "And in fact, I would make the argument that it's in Iran's advantage for the United States to go up the escalation ladder because the longer this war goes on. and less oil that comes out of the Persian Gulf and maybe even the Red Sea,",
+    "text": "事实上，我甚至会说，美国沿着升级阶梯继续加码，反而对 Iran 更有利，因为这场战争拖得越久，从 Persian Gulf 甚至可能还有 Red Sea 运出的石油就会越少，"
+  },
+  {
+    "start": 217.624,
+    "end": 218.974,
+    "speaker": "Guest",
+    "text_en": "the better for Iran.",
+    "text": "对 Iran 就越有利。"
+  },
+  {
+    "start": 219.974,
+    "end": 237.324,
+    "speaker": "Guest",
+    "text_en": "So I think going up the escalation ladder makes no sense for us. The $64,000 question is whether or not President Trump and his advisors understand that. And my guess is that they do, and therefore I think that...",
+    "text": "所以我觉得，对我们来说，沿着升级阶梯往上走毫无意义。关键问题在于，Trump 总统和他的顾问们是否明白这一点。我的猜测是他们明白，所以我认为……"
+  },
+  {
+    "start": 238.1,
+    "end": 258.8,
+    "speaker": "Guest",
+    "text_en": "We will go to great lengths to work out some sort of deal on Wednesday or before Wednesday so that we don't have to go up the escalation ladder. I just find it hard to believe that the administration would be interested in escalating. But,",
+    "text": "我们会尽一切努力在周三或周三之前达成某种协议，这样就不用沿着升级阶梯往上走了。我只是很难相信政府会有兴趣让局势升级。不过，"
+  },
+  {
+    "start": 258.9,
+    "end": 270.12,
+    "speaker": "Guest",
+    "text_en": "you know, you never know with the Trump administration and with President Trump in particular. So it's hard to say for sure. Sure, but I don't see them going up the escalation ladder. I think they'll try to craft a deal.",
+    "text": "你也知道，Trump 政府，尤其是 Trump 总统本人，很多事都说不准。所以很难下定论。当然，但我不觉得他们会沿着升级阶梯往上走。我认为他们会努力谈出一份协议。"
+  },
+  {
+    "start": 270.22,
+    "end": 279.62,
+    "speaker": "Guest",
+    "text_en": "And if they don't have all of the essentials in place, they'll just extend the ceasefire. So that's my surmise as to where this one is headed.",
+    "text": "如果所有关键要素还没完全到位，他们就会直接延长停火。所以这就是我对这件事接下来走向的判断。"
+  },
+  {
+    "start": 280.62,
+    "end": 282.82,
+    "speaker": "Host",
+    "text_en": "I want to ask you about the 10 points because",
+    "text": "我想问你那 10 点，因为"
+  },
+  {
+    "start": 284.084,
+    "end": 300.55,
+    "speaker": "Host",
+    "text_en": "Many of these points-I mean the removal of U.S. military bases from the region, continued control of the Strait of Hormuz-these are pretty bitter pills for the United States. It's the swallow",
+    "text": "这些点里有很多——我是说，把美国军事基地撤出该地区、继续控制 Hormuz 海峡——这些对美国来说都很难接受。很难吞下去。"
+  },
+  {
+    "start": 302.05,
+    "end": 310.35,
+    "speaker": "Guest",
+    "text_en": "I think there's no question about that. I often say that, you know, if you look at what people are talking about in terms of a settlement this week.",
+    "text": "我觉得这一点毫无疑问。我常说，如果你看看人们这周在谈的所谓解决方案。"
+  },
+  {
+    "start": 312.148,
+    "end": 330.498,
+    "speaker": "Guest",
+    "text_en": "What they focus on is the nuclear issue, and what they really focus on is the nuclear enrichment issue. Hardly anybody seems to be saying anything about things like reparations, sanctions, who controls the Strait of Hormuz moving forward,",
+    "text": "他们关注的是核问题，而真正聚焦的其实是铀浓缩问题。几乎没人提到赔偿、制裁、未来由谁控制 Hormuz 海峡这类事情。"
+  },
+  {
+    "start": 330.598,
+    "end": 346.952,
+    "speaker": "Guest",
+    "text_en": "what about American military bases in the region, and furthermore, the Iranians are deeply interested in getting some sort of security arrangement. put in place so that Israel and the United States don't attack Iran again in six months.",
+    "text": "那这一地区的美国军事基地怎么办？而且，伊朗人非常希望能建立某种安全安排，确保 Israel 和美国不会在六个月后再次攻击 Iran。"
+  },
+  {
+    "start": 347.202,
+    "end": 363.752,
+    "speaker": "Guest",
+    "text_en": "These are hugely complicated issues. There are a good number of them. And I think they have to be settled as well as the nuclear issue. But even on the nuclear issue, Chris, it's not clear to me where this all leads.",
+    "text": "这些问题都极其复杂，而且数量不少。我认为这些问题和核问题一样，都必须得到解决。但即便只看核问题，Chris，我也不清楚这一切最终会走向哪里。"
+  },
+  {
+    "start": 364.602,
+    "end": 376.31,
+    "speaker": "Guest",
+    "text_en": "The United States would like to eliminate They rans nuclear enrichment capability completely, but it seems quite clear that the Iranians are unwilling to do that. Furthermore,",
+    "text": "美国希望彻底消除 Iran 的铀浓缩能力，但看起来很明显，伊朗人并不愿意这么做。而且，"
+  },
+  {
+    "start": 376.36,
+    "end": 394.91,
+    "speaker": "Guest",
+    "text_en": "it seems that the Americans or the United States and the Israelis want all of that enriched uranium that Iran has, the uranium that is enriched up to 60 percent. They want it taken out of the country. But the Iranians have said very clearly that that's not.",
+    "text": "看起来美国人，或者说美国和以色列人，希望把 Iran 现有的那些浓缩铀，也就是浓缩到 60% 的铀，全部运出国境。但伊朗人已经说得非常明确了，这不"
+  },
+  {
+    "start": 394.9,
+    "end": 406.15,
+    "speaker": "Guest",
+    "text_en": "not going to happen. Obviously, some compromises are going to have to be made here, but those compromises will not be easy to make. I don't think they'll be made quickly.",
+    "text": "可能发生。显然，这里必须做出一些妥协，但这些妥协并不容易达成。我觉得也不会很快谈成。"
+  },
+  {
+    "start": 406.2,
+    "end": 421.1,
+    "speaker": "Guest",
+    "text_en": "And then the question is, how is Trump going to sell them, especially to the Israelis and to Israel's supporters in the United States? So what we're saying here, I think, is that even on the nuclear issue alone, it's a very complicated matter.",
+    "text": "接下来的问题是，Trump 要怎么把这些妥协包装并推销出去，尤其是对以色列人以及美国国内支持 Israel 的人来说？所以我想我们这里要表达的是，即便只看核问题，这件事本身就已经非常复杂了。"
+  },
+  {
+    "start": 421.2,
+    "end": 429.844,
+    "speaker": "Guest",
+    "text_en": "But when you throw in all the other issues. as well. It's just hard to see how you get any sort of what one might call meaningful peace agreement.",
+    "text": "但如果再把其他所有问题也都算进去，就很难看出要怎么达成任何一种可以称得上有实质意义的和平协议。"
+  },
+  {
+    "start": 431.344,
+    "end": 451.214,
+    "speaker": "Guest",
+    "text_en": "You have the Netanyahu government threatening to resume attacks on Iran, even unilaterally. And the other question is how much influence Jared Kushner. And Steve Whitkoff, I mean two utterly inept negotiators, of course, but two,",
+    "text": "Netanyahu 政府正在威胁要恢复对 Iran 的攻击，甚至可能单方面行动。另一个问题是，Jared Kushner 和 Steve Whitkoff 会有多大影响力。我的意思是，这两个人当然都是彻头彻尾无能的谈判者，但这两位——"
+  },
+  {
+    "start": 451.314,
+    "end": 470.372,
+    "speaker": "Guest",
+    "text_en": "and let's call them what they are, I mean they're Zionist assets, you know, are they able, as they were with the inception of this war, to sell the Trump administration? on what Netanyahu wants, which is resuming attacks.",
+    "text": "说白了，就按他们本来的身份来叫吧，我是说，他们就是 Zionist 的代理人。你知道吗，他们还能不能像这场战争刚开始时那样，把 Netanyahu 想要的东西推销给 Trump 政府？也就是恢复攻击。"
+  },
+  {
+    "start": 471.122,
+    "end": 478.022,
+    "speaker": "Guest",
+    "text_en": "Look, I think even without Kushner and Wyckoff, who are Israeli assets for sure,",
+    "text": "你看，我觉得就算没有 Kushner 和 Wyckoff——这两个人肯定是以色列的代理人——"
+  },
+  {
+    "start": 478.172,
+    "end": 493.272,
+    "speaker": "Guest",
+    "text_en": "there is so much pressure from pro-Israel forces in the United States on Trump that there are real limits to what he can do vis-a-vis Iran in terms of making concessions to the Iranians.",
+    "text": "美国国内亲以色列势力给 Trump 的压力也非常大，所以他在对伊朗让步这件事上，实际上能做的空间是很有限的。"
+  },
+  {
+    "start": 494.9,
+    "end": 509.35,
+    "speaker": "Guest",
+    "text_en": "But the problem here is that Trump is also feeling pressure from the other side. And what I mean by that is if he doesn't settle this, and especially if he escalates as the Israelis would like him to do,",
+    "text": "但问题在于，Trump 同时也在承受另一边的压力。我的意思是，如果他不能把这件事摆平，尤其是如果他像以色列希望的那样进一步升级局势，"
+  },
+  {
+    "start": 509.55,
+    "end": 526.116,
+    "speaker": "Guest",
+    "text_en": "then we're heading on a course where the international economy is going to go off a cliff. I mean, the incentive for President Trump to settle this conflict as quickly as possible. has mainly to do with economic considerations.",
+    "text": "那我们就会走上一条让国际经济坠崖的道路。我的意思是，Trump 总统想尽快平息这场冲突，主要还是出于经济层面的考量。"
+  },
+  {
+    "start": 526.816,
+    "end": 551.316,
+    "speaker": "Guest",
+    "text_en": "There's a great danger here that if we continue on this path and again if we escalate especially that this will have disastrous consequences for the world economy which includes the United States and of course that will have disastrous consequences for the midterm elections. So Trump is desperate to shut this one down so he has that pressure on one side and then he has pressure from",
+    "text": "这里有一个很大的危险：如果我们继续沿着这条路走下去，而且再次强调，尤其是如果局势升级，那么这将给世界经济带来灾难性后果，其中也包括美国经济。当然，这也会给中期选举带来灾难性后果。所以 Trump 非常急于把这件事压下来，因此他一边承受着这种压力，另一边又承受着来自"
+  },
+  {
+    "start": 551.348,
+    "end": 559.948,
+    "speaker": "Guest",
+    "text_en": "Israel on the other side. And again, we cannot emphasize strongly enough that Israel has no interest in settling this war. Israel",
+    "text": "以色列的压力。而且再说一遍，我们怎么强调都不为过：以色列根本无意结束这场战争。以色列"
+  },
+  {
+    "start": 559.948,
+    "end": 560.348,
+    "speaker": "Host",
+    "text_en": "Yeah.",
+    "text": "对。"
+  },
+  {
+    "start": 560.348,
+    "end": 577.648,
+    "speaker": "Guest",
+    "text_en": "wants to see Iran finished, finished off. They want to see Iran decisively defeated. And as we both know, if anyone has won this war at this point and is likely to come out of this war as a winner, it's Iran, not the United States. Well,",
+    "text": "想看到 Iran 被彻底收拾、彻底打垮。他们想看到 Iran 被决定性地击败。而且我们都知道，到目前为止，如果说这场战争里有谁赢了、谁最有可能作为赢家走出来，那是 Iran，不是 United States。嗯，"
+  },
+  {
+    "start": 577.698,
+    "end": 595.21,
+    "speaker": "Guest",
+    "text_en": "given that reality. The Israelis are going to continue to put pressure on the United States to stay at war. So I would argue that even if President Trump is able to extend the ceasefire and get a framework for a future agreement in place,",
+    "text": "鉴于这个现实，Israel 人会继续向 United States 施压，要它继续打下去。所以我的看法是，即便 President Trump 能够延长停火，并为未来协议搭起一个框架，"
+  },
+  {
+    "start": 595.36,
+    "end": 599.66,
+    "speaker": "Guest",
+    "text_en": "the Israelis and their supporters in the United States will be working.",
+    "text": "Israel 人以及他们在 United States 的支持者也会一直运作。"
+  },
+  {
+    "start": 600.0,
+    "end": 612.55,
+    "speaker": "Guest",
+    "text_en": "In overtime, not to make that framework morph into a peaceful agreement, they'll be working overtime to undermine that framework and get the United States back at war with Iran.",
+    "text": "他们会拼命加班，不是为了让这个框架逐渐变成一份和平协议，而是会拼命去破坏这个框架，把 United States 再次拖回与 Iran 的战争中。"
+  },
+  {
+    "start": 614.1,
+    "end": 628.908,
+    "speaker": "Host",
+    "text_en": "One of the fascinating kind of subtext of this was Lebanon. Israel, almost when the ceasefire began, started pounding Lebanon. But Trump said it had to stop.",
+    "text": "这件事里一个很耐人寻味的潜台词是 Lebanon。几乎就在停火开始的时候，Israel 就开始猛炸 Lebanon。但 Trump 说这必须停下来。"
+  },
+  {
+    "start": 629.058,
+    "end": 650.444,
+    "speaker": "Host",
+    "text_en": "I mean, Israel has a very kind of elastic vision of ceasefires. It's still attacking Lebanon. But this was a fundamental demand on the part of Iran. They said, well, we've stopped attacking GCC bases in GCC countries. with your allies,",
+    "text": "我的意思是，Israel 对停火有一种弹性很大的理解。它现在还在攻击 Lebanon。但这是 Iran 提出的一个根本性要求。他们说，好吧，我们已经停止攻击 GCC 国家里的 GCC 基地，也就是你们盟友那边的基地，"
+  },
+  {
+    "start": 650.644,
+    "end": 665.844,
+    "speaker": "Host",
+    "text_en": "so you have to stop attacking our allies. This is a regional ceasefire, and they, you know, while Israel has certainly breached the ceasefire in Lebanon, as they do daily in Gaza,",
+    "text": "所以你们也必须停止攻击我们的盟友。这是一次地区性的停火。而且，你知道，虽然 Israel 的确违反了在 Lebanon 的停火，就像他们每天在 Gaza 做的那样，"
+  },
+  {
+    "start": 666.044,
+    "end": 671.394,
+    "speaker": "Host",
+    "text_en": "nevertheless it does seem, I don't know what your take on it is, that that was",
+    "text": "但尽管如此，看起来确实像是——我不知道你怎么看——那是"
+  },
+  {
+    "start": 673.044,
+    "end": 677.544,
+    "speaker": "Host",
+    "text_en": "a huge concession on the part of the Trump administration to Iranian demands.",
+    "text": "这是 Trump 政府为满足伊朗要求作出的巨大让步。"
+  },
+  {
+    "start": 678.344,
+    "end": 699.394,
+    "speaker": "Guest",
+    "text_en": "Well, excuse me, the Trump administration had no choice but to get Israel to stop attacking. Hezbollah and Iran for a brief period of time, at least, so that the Iranians would open the Strait of Hormuz. That's what they wanted.",
+    "text": "嗯，恕我直言，Trump 政府别无选择，只能让 Israel 停止攻击。至少得让 Hezbollah 和 Iran 暂时缓一缓，这样伊朗人才会开放霍尔木兹海峡。这就是他们想要的。"
+  },
+  {
+    "start": 700.044,
+    "end": 716.194,
+    "speaker": "Guest",
+    "text_en": "And Trump was able to get the Israelis to make a small concession, which is to say the Israelis agreed to a 10-day ceasefire. Just think about it. It's a 10-day ceasefire. And I've been following it and it's not even much of a ceasefire in",
+    "text": "而 Trump 也确实让以色列人作出了一点小让步，也就是说，以色列同意了 10 天停火。你想想看，只是 10 天停火。我一直在关注这件事，而在这"
+  },
+  {
+    "start": 716.194,
+    "end": 716.394,
+    "speaker": "Host",
+    "text_en": "Right.",
+    "text": "对。"
+  },
+  {
+    "start": 716.394,
+    "end": 730.078,
+    "speaker": "Guest",
+    "text_en": "this 10-day period. period. But the idea that the Israelis are interested in a meaningful ceasefire is not a serious argument. What the Israelis are interested in is creating a civil war.",
+    "text": "这 10 天里，甚至都算不上什么真正的停火。但说以色列人对有实质意义的停火感兴趣，这种说法根本站不住脚。以色列人真正感兴趣的是制造一场内战。"
+  },
+  {
+    "start": 730.932,
+    "end": 758.032,
+    "speaker": "Guest",
+    "text_en": "in Lebanon for two reasons one to weaken Hezbollah and to take Hezbollah's attention off of Israel and number two to weaken Lebanon overall this is standard Israeli tactics and the Israelis will continue to attack Lebanon and Hezbollah in good part not just to weaken Hezbollah but in good part",
+    "text": "在 Lebanon 制造内战有两个原因：第一，削弱 Hezbollah，把 Hezbollah 的注意力从 Israel 身上转移开；第二，整体削弱 Lebanon。这是以色列的惯用战术。以色列还会继续攻击 Lebanon 和 Hezbollah，很大程度上不只是为了削弱 Hezbollah，更重要的是"
+  },
+  {
+    "start": 758.292,
+    "end": 774.492,
+    "speaker": "Guest",
+    "text_en": "To undermine any negotiations between Iran on one hand and the United States on the other. It's obvious that for Iran, Hezbollah is a very important ally and they want to do everything they can to help Hezbollah.",
+    "text": "破坏 Iran 一方和 United States 另一方之间的任何谈判。很明显，对 Iran 来说，Hezbollah 是一个非常重要的盟友，他们会尽一切可能去帮助 Hezbollah。"
+  },
+  {
+    "start": 774.592,
+    "end": 784.042,
+    "speaker": "Guest",
+    "text_en": "The Israelis fully understand that and the Israelis understand that if they continue to attack Hezbollah and continue to keep the situation.",
+    "text": "以色列人完全明白这一点，而且他们也明白，如果他们继续攻击 Hezbollah，继续让局势保持下去。"
+  },
+  {
+    "start": 785.108,
+    "end": 802.008,
+    "speaker": "Guest",
+    "text_en": "In Lebanon, as a hot conflict, that this will limit how much Iran will be able to concede to the United States. So this is one of the reasons I find it hard to imagine that you're ever going to settle this conflict in any meaningful way.",
+    "text": "在 Lebanon，作为一场正在进行的激烈冲突，这会限制 Iran 能向 United States 作出多大让步。所以这也是我觉得很难想象你们最终能以任何有意义的方式解决这场冲突的原因之一。"
+  },
+  {
+    "start": 802.008,
+    "end": 810.158,
+    "speaker": "Host",
+    "text_en": "Hmm. You wrote the book with Stephen Walt on the Israel lobby. We've certainly seen...",
+    "text": "嗯。你和 Stephen Walt 合著过一本关于 Israel lobby 的书。我们当然已经看到……"
+  },
+  {
+    "start": 811.188,
+    "end": 823.188,
+    "speaker": "Host",
+    "text_en": "diminishing of the power of the Israel lobby and APAC? Democrats now kind of run from it, whereas they couldn't wait to get key slots at the APAC convention.",
+    "text": "Israel lobby 和 AIPAC 的影响力在减弱？现在 Democrats 某种程度上都在躲着它，而以前他们可是巴不得在 AIPAC 大会上拿到关键席位。"
+  },
+  {
+    "start": 824.438,
+    "end": 836.088,
+    "speaker": "Host",
+    "text_en": "Do you think the Israel lobby is weakened enough that its kind of death grip on the American political system is no longer as",
+    "text": "你觉得 Israel lobby 已经被削弱到这样一种程度了吗：它对 American 政治体系那种近乎致命的控制力，已经不再像"
+  },
+  {
+    "start": 836.724,
+    "end": 845.024,
+    "speaker": "Guest",
+    "text_en": "effective. I think in terms of the public discourse in the United States, the lobby has lost.",
+    "text": "以前那么有效了。我认为，就 United States 的公共话语层面来说，这个游说集团已经输了。"
+  },
+  {
+    "start": 846.124,
+    "end": 863.974,
+    "speaker": "Guest",
+    "text_en": "When Steve and I wrote the article and then the book in 2006 and 2007, the lobby was able to basically control the discourse and greatly limit the criticism of Israel, the U.S.-Israeli relationship, and the lobby itself. Those days are gone.",
+    "text": "Steve 和我在 2006 年、2007 年写那篇文章以及后来那本书的时候，这个游说集团基本上还能控制舆论，并且极大限制对 Israel、对 U.S.-Israeli 关系，以及对它自身的批评。那样的日子已经过去了。"
+  },
+  {
+    "start": 864.124,
+    "end": 878.092,
+    "speaker": "Guest",
+    "text_en": "The discourse today... say about the lobby and criticism of Israel, this is all out in the open in ways that are actually hard for me to imagine, Chris, given where we were at back when Steve and I wrote the article in the book.",
+    "text": "今天的舆论环境……关于这个游说集团、关于对 Israel 的批评，这些现在都已经被公开摊开来谈了。说实话，Chris，想到 Steve 和我当年写那篇文章和那本书时的处境，这种变化大到连我都很难想象。"
+  },
+  {
+    "start": 878.192,
+    "end": 892.742,
+    "speaker": "Guest",
+    "text_en": "But that's at the level of the discourse, at the level of policy, and especially with regard to the Trump administration, which, as you know, has two more years and nine months in power, the lobby still has a stranglehold on the Trump administration.",
+    "text": "但那只是话语层面。在政策层面，尤其是就 Trump administration 而言——你也知道，它还有两年九个月的执政时间——这个游说集团依然牢牢掐着 Trump administration 的脖子。"
+  },
+  {
+    "start": 893.492,
+    "end": 899.792,
+    "speaker": "Guest",
+    "text_en": "And there's no evidence that Trump has been able to break away from that strategy.",
+    "text": "而且没有证据表明 Trump 能摆脱那套策略。"
+  },
+  {
+    "start": 900.0,
+    "end": 926.75,
+    "speaker": "Guest",
+    "text_en": "hold and act independently to act simply in America's interest so in terms of US policy I think the lobby is as strong as ever now how that plays out after the next presidential election is a different matter because you see both in the Democratic Party and in the Republican Party that there are politicians who are beginning to question the relationship with Israel",
+    "text": "能够顶住压力、独立行事，单纯按美国的利益来行动。所以就美国政策而言，我觉得这个游说集团现在依然和以前一样强大。至于下一次总统大选之后会怎么发展，那就是另一回事了，因为你会看到，不管是在 Democratic Party 还是 Republican Party，都已经有一些政客开始质疑和 Israel 的关系。"
+  },
+  {
+    "start": 927.316,
+    "end": 947.866,
+    "speaker": "Guest",
+    "text_en": "who are beginning to question whether associating themselves with AIPAC is a good thing and so forth and so on. But I would still bet that it'll be, you know, a good 10 years before our policy towards Israel is not seriously affected by the lobby.",
+    "text": "他们也开始质疑，把自己和 AIPAC 绑在一起到底是不是件好事，诸如此类。不过我还是敢打赌，至少还得再过个 10 年，我们对 Israel 的政策才不会继续受到这个游说集团的严重影响。"
+  },
+  {
+    "start": 948.816,
+    "end": 965.482,
+    "speaker": "Host",
+    "text_en": "So what does that mean, vis-a-vis Iran? So if the Israel lobby retains that kind of power, And in a way, Trump was even more obsequious because the Israel lobby has been calling for a war in Iran for four decades, and other administrations have.",
+    "text": "那这对 Iran 来说意味着什么？如果 Israel lobby 还保有这么大的权力，而且从某种意义上说，Trump 甚至更谄媚，因为 Israel lobby 四十年来一直在鼓吹对 Iran 开战，而其他几届政府都曾经。"
+  },
+  {
+    "start": 966.196,
+    "end": 976.646,
+    "speaker": "Host",
+    "text_en": "resisted for all of the reasons that are now apparent but does what how does that play out I mean it looks like a very dark scenario",
+    "text": "顶住了这种压力，原因现在也都很明显了。但这会怎么发展？我的意思是，这看起来像是个非常黑暗的局面。"
+  },
+  {
+    "start": 977.196,
+    "end": 992.996,
+    "speaker": "Guest",
+    "text_en": "Well, it's hard for me to imagine, Chris, that we get a meaningful peace agreement between the United States and Iran because of the power of the lobby. I think the only argument against that.",
+    "text": "嗯，Chris，我很难想象，在这个游说集团的影响力之下，美国和 Iran 能达成一份真正有意义的和平协议。我觉得唯一能反驳这个看法的理由是，"
+  },
+  {
+    "start": 992.948,
+    "end": 1001.148,
+    "speaker": "Guest",
+    "text_en": "that position is that the economic consequences of continuing this war against Iran will be so drastic,",
+    "text": "继续这场针对 Iran 的战争所带来的经济后果会极其严重，"
+  },
+  {
+    "start": 1001.398,
+    "end": 1019.848,
+    "speaker": "Guest",
+    "text_en": "will hurt the international economy and therefore the American economy so much that we have no choice but to work out an arrangement with Iran that recognizes the fact that Iran is the winner in this conflict and that there's not going to be any more attack.",
+    "text": "会重创国际经济，进而也重创美国经济，严重到我们别无选择，只能和 Iran 达成某种安排，承认 Iran 才是这场冲突中的赢家，而且不会再有进一步的攻击。"
+  },
+  {
+    "start": 1019.892,
+    "end": 1021.742,
+    "speaker": "Guest",
+    "text_en": "tax on Iran down the road.",
+    "text": "未来某个时候对 Iran 征税。"
+  },
+  {
+    "start": 1023.542,
+    "end": 1030.142,
+    "speaker": "Guest",
+    "text_en": "That may happen. It's very hard to say just how this is going to play out over the next few months.",
+    "text": "这有可能会发生。接下来几个月局势到底会怎么发展，现在很难说得准。"
+  },
+  {
+    "start": 1030.842,
+    "end": 1046.442,
+    "speaker": "Guest",
+    "text_en": "But I think if that doesn't happen, in other words, if we don't get to the precipice and we're not on the verge of falling off the precipice, I think that Israel will make it impossible for us to have a meaningful agreement with the Iranians.",
+    "text": "但我觉得，如果这没有发生，换句话说，如果我们没有走到悬崖边上，也没有处在快要掉下去的边缘，我认为 Israel 会让我们根本不可能和伊朗人达成一项有实质意义的协议。"
+  },
+  {
+    "start": 1047.796,
+    "end": 1052.446,
+    "speaker": "Host",
+    "text_en": "Let's talk about the tactic of seizing Iranian ships by the Trump administration.",
+    "text": "我们来聊聊 Trump 政府扣押伊朗船只这种做法。"
+  },
+  {
+    "start": 1054.996,
+    "end": 1061.846,
+    "speaker": "Guest",
+    "text_en": "Well, I thought that last Friday when...",
+    "text": "嗯，我当时觉得，上周五的时候……"
+  },
+  {
+    "start": 1062.964,
+    "end": 1068.664,
+    "speaker": "Guest",
+    "text_en": "The ceasefire between Israel and Lebanon was in place,",
+    "text": "Israel 和 Lebanon 之间的停火已经生效，"
+  },
+  {
+    "start": 1068.714,
+    "end": 1092.664,
+    "speaker": "Guest",
+    "text_en": "and the Iranians said that they would open up the strait, and in fact began to open up the strait, that the ceasefire was then fully in place and that we would begin moving forward in the negotiations in Islamabad. It looked very promising last Friday.",
+    "text": "而且伊朗方面说他们会开放那条海峡，事实上也开始开放了，所以当时停火已经完全落实，我们也将开始推进在 Islamabad 的谈判。上周五看起来前景非常乐观。"
+  },
+  {
+    "start": 1092.468,
+    "end": 1110.518,
+    "speaker": "Guest",
+    "text_en": "asked Friday when these events took place. Then President Trump said that he was not going to take the U.S. blockade off the Strait of Hormuz, which is another way of saying he was not going to take the U.S. blockade off of Iran.",
+    "text": "上周五这些事情发生的时候我就是这么想的。然后 Trump 总统说，他不会解除美国在 Hormuz 海峡的封锁，换句话说，也就是他不会解除美国对 Iran 的封锁。"
+  },
+  {
+    "start": 1110.668,
+    "end": 1119.568,
+    "speaker": "Guest",
+    "text_en": "And this is after Iran has just agreed to end its blockade. And he also said that the United States was going to stop and board.",
+    "text": "而且这还是在 Iran 刚刚同意结束封锁之后发生的。他还说，美国将会继续拦截并登船检查。"
+  },
+  {
+    "start": 1119.668,
+    "end": 1139.218,
+    "speaker": "Guest",
+    "text_en": "ships that were headed toward Iran or were leaving from Iran and the end result is that the Iranians did 180 degree turn and they said they're reclosing the Strait of Hormuz and that's where we are today",
+    "text": "那些驶向 Iran 或从 Iran 离开的船只，结果就是伊朗方面来了个 180 度大转弯，说他们要重新关闭 Hormuz 海峡，这也就是我们今天看到的局面。"
+  },
+  {
+    "start": 1140.404,
+    "end": 1151.504,
+    "speaker": "Guest",
+    "text_en": "This is completely counterproductive. Forget the legality of what we did. This is completely counterproductive. You got the ceasefire in place on Friday,",
+    "text": "这完全是在帮倒忙。先不说我们这么做合不合法，这就是彻头彻尾地适得其反。你周五才刚把停火落实下来，"
+  },
+  {
+    "start": 1151.554,
+    "end": 1169.664,
+    "speaker": "Guest",
+    "text_en": "and you're talking about having negotiations in Islamabad early this week in the wake of putting the ceasefire in place. Why wouldn't you just put an end to the American naval blockade on Iran? It just makes common sense.",
+    "text": "而且还在说本周初要在 Islamabad 展开谈判，作为停火生效后的后续安排。那你为什么不干脆结束美国对 Iran 的海上封锁呢？这不是很符合常理吗。"
+  },
+  {
+    "start": 1170.064,
+    "end": 1180.364,
+    "speaker": "Guest",
+    "text_en": "Why would you say you're going to keep the blockade on? Why would you say that you're going to board Iranian ships and then actually go out and board an Iranian ship after you shoot it up?",
+    "text": "你为什么还要说会继续维持封锁？为什么要说你们会登上伊朗船只检查，然后在把一艘伊朗船打坏之后，真的又跑去登船？"
+  },
+  {
+    "start": 1181.524,
+    "end": 1201.95,
+    "speaker": "Guest",
+    "text_en": "It just doesn't seem to make any sense to me. And this is, you know, one of the principal aspects of Trumpian foreign policy. It is rather bizarre and doesn't seem to comport with what one would consider sort of rational. legal behavior. So I,",
+    "text": "我实在觉得这说不通。而这你知道，也是 Trump 式外交政策的一个主要特征。它相当怪异，而且看起来也不符合人们通常理解的那种理性、合法的行为。所以我，"
+  },
+  {
+    "start": 1202.05,
+    "end": 1205.05,
+    "speaker": "Guest",
+    "text_en": "to be honest, don't understand what's going on here.",
+    "text": "说实话，搞不懂这里到底在发生什么。"
+  },
+  {
+    "start": 1206.75,
+    "end": 1210.5,
+    "speaker": "Host",
+    "text_en": "Isn't it in their interest to have Iranian oil on the market?",
+    "text": "让伊朗石油进入市场，难道不符合他们的利益吗？"
+  },
+  {
+    "start": 1211.06,
+    "end": 1212.66,
+    "speaker": "Guest",
+    "text_en": "I didn't mention that,",
+    "text": "我刚才没提这个，"
+  },
+  {
+    "start": 1212.66,
+    "end": 1212.86,
+    "speaker": "Guest",
+    "text_en": "I",
+    "text": "我"
+  },
+  {
+    "start": 1212.86,
+    "end": 1213.01,
+    "speaker": "Host",
+    "text_en": "but you're",
+    "text": "但你会"
+  },
+  {
+    "start": 1213.01,
+    "end": 1213.16,
+    "speaker": "Host",
+    "text_en": "would",
+    "text": "会"
+  },
+  {
+    "start": 1213.16,
+    "end": 1213.36,
+    "speaker": "Host",
+    "text_en": "exactly",
+    "text": "这么想"
+  },
+  {
+    "start": 1213.36,
+    "end": 1213.56,
+    "speaker": "Host",
+    "text_en": "think it.",
+    "text": "的。"
+  },
+  {
+    "start": 1213.56,
+    "end": 1226.51,
+    "speaker": "Guest",
+    "text_en": "right. That's why we were allowing Iranian oil to come through the strait out into the global market. You're exactly right. And here they are threatening to cut it off.",
+    "text": "对。所以这就是为什么我们当时允许 Iranian 的石油通过海峡进入全球市场。你说得完全对。可现在他们却在威胁要把它切断。"
+  },
+  {
+    "start": 1226.66,
+    "end": 1235.41,
+    "speaker": "Guest",
+    "text_en": "In addition to the fact they're making it less likely that the other side trusts you, the Iranians trust you, and that you can work out a deal.",
+    "text": "除此之外，这还会让对方更难信任你，让 Iranian 更难信任你，也更难谈成协议。"
+  },
+  {
+    "start": 1236.41,
+    "end": 1246.694,
+    "speaker": "Guest",
+    "text_en": "It seems... that the Trump administration wants a deal. They should want a deal because, as I said to you before, they can't go up the escalation ladder and win,",
+    "text": "看起来……Trump 政府是想达成协议的。他们也确实应该想达成协议，因为就像我之前跟你说过的，他们没法在升级对抗这条路上一路往上走还赢下来，"
+  },
+  {
+    "start": 1246.794,
+    "end": 1263.544,
+    "speaker": "Guest",
+    "text_en": "number one. And number two, they are in danger of taking the international economy off a cliff. So they should want a deal here. And sometimes President Trump acts like he wants a deal. Other times he acts like he doesn't want a deal.",
+    "text": "这是第一。第二，他们现在有把国际经济推下悬崖的风险。所以他们在这件事上应该想要达成协议。有时候 President Trump 表现得像是想谈成，有时候又表现得像是不想谈成。"
+  },
+  {
+    "start": 1264.564,
+    "end": 1277.914,
+    "speaker": "Guest",
+    "text_en": "This is an instance of that, and then you add to it, as you did, the fact that we really do need that Iranian oil out in the global market to do everything possible to keep oil prices as low as possible.",
+    "text": "这就是其中一个例子。再加上，正如你刚才说的，我们确实需要让伊朗的石油进入全球市场，尽一切可能把油价压到尽可能低。"
+  },
+  {
+    "start": 1278.764,
+    "end": 1301.87,
+    "speaker": "Host",
+    "text_en": "Well, the reason great powers have a diplomatic core is that they're multilingual, bicultural. They understand their adversary as well as their allies, and the Trump administration has gutted the State Department.",
+    "text": "嗯，大国之所以有外交核心班底，就是因为这些人懂多种语言、熟悉两种文化。他们既了解对手，也了解盟友，而 Trump 政府把国务院基本掏空了。"
+  },
+  {
+    "start": 1301.97,
+    "end": 1315.42,
+    "speaker": "Host",
+    "text_en": "So one wonders if it's just, on the one hand, they may want to deal. On the other hand, they're utterly unable perhaps to read Iranian political power and Iranian culture.",
+    "text": "所以人们会怀疑，一方面他们也许是想达成协议；但另一方面，他们可能根本没有能力去读懂伊朗的政治权力结构和伊朗文化。"
+  },
+  {
+    "start": 1317.14,
+    "end": 1331.118,
+    "speaker": "Guest",
+    "text_en": "I agree with you. I mean, there's no question that just in a very general level. President Trump does not respect expertise. He thinks he's a genius. He thinks he knows everything. He doesn't have to rely on experts.",
+    "text": "我同意你的看法。我的意思是，毫无疑问，从很宏观的层面来说，President Trump 不尊重专业意见。他觉得自己是个天才，觉得自己什么都懂，不需要依赖专家。"
+  },
+  {
+    "start": 1331.618,
+    "end": 1348.868,
+    "speaker": "Guest",
+    "text_en": "And he doesn't need anyone from the State Department or any area experts inside the government to tell him what to do. He knows what to do. So there is that dimension to it. But there's another dimension to this, Chris, that's even more worrisome.",
+    "text": "他也不需要国务院的人，或者政府内部任何地区问题专家来告诉他该怎么做。他自己知道该怎么做。所以这确实是其中一个层面。但这件事还有另一个层面，Chris，而且更让人担心。"
+  },
+  {
+    "start": 1349.216,
+    "end": 1369.692,
+    "speaker": "Guest",
+    "text_en": "And that is that it sometimes strikes me that President Trump is a mad king. I don't know if you read the story in the Wall Street Journal about what life is like inside. President Trump's White House in the course of this war against Iran.",
+    "text": "那就是，有时候我真的觉得 President Trump 像个疯王。我不知道你有没有看过《华尔街日报》的那篇报道，讲的是在这场针对伊朗的战争期间，President Trump 的白宫内部到底是一种什么样的状态。"
+  },
+  {
+    "start": 1370.092,
+    "end": 1387.642,
+    "speaker": "Guest",
+    "text_en": "And the story is told in there, and the White House has not refuted this story, that after those two pilots were shot down earlier this month and President Trump was told about this,",
+    "text": "那里面讲了这个故事，而且白宫并没有否认这个说法：本月早些时候那两名飞行员被击落后，Trump 总统得知这件事时，"
+  },
+  {
+    "start": 1387.842,
+    "end": 1393.442,
+    "speaker": "Guest",
+    "text_en": "he was hysterical. He was hysterical for a few hours. He was just...",
+    "text": "他当场就失控了。整整几个小时都处于歇斯底里的状态。他就是……"
+  },
+  {
+    "start": 1393.268,
+    "end": 1412.168,
+    "speaker": "Guest",
+    "text_en": "just beside himself with rage to the point where his aides had to keep him outside of the room while they decided how to deal with the problem and occasionally one of the aides would go out and brief him on what was going on.",
+    "text": "愤怒到几乎无法自持，以至于助手们不得不把他留在房间外面，好让他们商量该怎么处理这个问题，期间偶尔会有助手出去向他通报一下情况。"
+  },
+  {
+    "start": 1412.724,
+    "end": 1428.874,
+    "speaker": "Guest",
+    "text_en": "You want to just think about what's going on here. Here is the president of the United States in the midst of a serious crisis. An American fighter plane, an F-15, has been shot down inside of Iran. There are two pilots who are missing.",
+    "text": "你想想这里到底发生了什么。当时美国总统正处在一场严重危机之中。一架美国战斗机，也就是一架 F-15，在伊朗境内被击落了。还有两名飞行员下落不明。"
+  },
+  {
+    "start": 1429.124,
+    "end": 1442.668,
+    "speaker": "Guest",
+    "text_en": "They have to rescue them. And this is going to take some careful planning. This is a crisis. The president of the United States is throwing a tantrum, an hours-long tantrum. According to the Wall Street Journal, again,",
+    "text": "他们必须把人救出来。而这需要非常谨慎的规划。这是一场危机。可美国总统却在大发脾气，而且一闹就是好几个小时。根据《华尔街日报》的说法，再说一遍，"
+  },
+  {
+    "start": 1442.718,
+    "end": 1445.818,
+    "speaker": "Guest",
+    "text_en": "to the point where he has to be taken outside of the room.",
+    "text": "严重到他都得被带出那个房间。"
+  },
+  {
+    "start": 1447.118,
+    "end": 1451.818,
+    "speaker": "Host",
+    "text_en": "Can you imagine this happening with JFK during the Cuban Missile Crisis?",
+    "text": "你能想象这种事会发生在 JFK 处理古巴导弹危机的时候吗？"
+  },
+  {
+    "start": 1452.868,
+    "end": 1470.866,
+    "speaker": "Guest",
+    "text_en": "It's unimaginable. It's unimaginable to me that any president would act this way. And it's very interesting how little attention this episode has got in the mainstream media. But it, I think, speaks volumes about.",
+    "text": "简直无法想象。对我来说，任何一位总统会这样行事都不可思议。而且很有意思的是，这件事在主流媒体里几乎没得到什么关注。但我觉得，这非常能说明问题。"
+  },
+  {
+    "start": 1471.476,
+    "end": 1488.026,
+    "speaker": "Guest",
+    "text_en": "The dangers that we face with President Trump in control. If we get into a really serious crisis, something beyond the actual war that's now taking place that threatens to escalate that involves maybe China or Russia, and he's in charge,",
+    "text": "President Trump 掌权时，我们面临的危险。如果我们陷入一场非常严重的危机，超出眼下这场战争、并且有升级风险的那种，甚至可能牵涉 China 或 Russia，而这时候是他在掌舵，"
+  },
+  {
+    "start": 1488.176,
+    "end": 1499.558,
+    "speaker": "Guest",
+    "text_en": "this is a very frightening thought. And I would imagine in that circumstance he'll be pushed out of the room again and his aides will take over. But what does that tell you about the United States? Thanks.",
+    "text": "这真是个非常可怕的念头。我猜到那种情况下，他又会被请出房间，然后由他的助手们接管。但这说明了美国什么？谢谢。"
+  },
+  {
+    "start": 1500.084,
+    "end": 1514.384,
+    "speaker": "Guest",
+    "text_en": "And just one final point on this. You want to remember that President Trump is the kind of person who thinks he knows everything and therefore even his aides don't matter that much. He is the ultimate decider, period, end of story.",
+    "text": "关于这一点，我最后再说一句。你要记住，President Trump 这种人觉得自己什么都懂，所以连他的助手都没那么重要。他才是那个拍板的人，就这么简单。"
+  },
+  {
+    "start": 1514.834,
+    "end": 1525.584,
+    "speaker": "Guest",
+    "text_en": "And if this is our ultimate decider, if this is our sovereign in an extreme crisis, I think we're in real trouble.",
+    "text": "如果这就是我们最终拍板的人，如果在极端危机中这就是我们的最高统治者，那我觉得我们真的麻烦大了。"
+  },
+  {
+    "start": 1526.708,
+    "end": 1539.258,
+    "speaker": "Host",
+    "text_en": "Well, he was reportedly against the advice of his military and intelligence chiefs. He believed the Iranians would not seize the Strait of Hormuz.",
+    "text": "嗯，据报道，他当时没有听从军方和情报部门负责人的建议。他相信伊朗人不会封锁 Hormuz 海峡。"
+  },
+  {
+    "start": 1540.116,
+    "end": 1559.216,
+    "speaker": "Guest",
+    "text_en": "Oh, absolutely. I mean, think if you go back to the original decision to attack Iran, and you read, there were two New York Times stories on this whole matter. The second one was just filled with details. It's very clear that except for Pete Hexeth,",
+    "text": "哦，绝对是这样。你想想，如果回到最初决定攻击 Iran 的时候，再去看相关报道，New York Times 就这个问题发了两篇报道。第二篇里面全是细节。很明显，除了 Pete Hexeth 之外，"
+  },
+  {
+    "start": 1559.316,
+    "end": 1575.284,
+    "speaker": "Guest",
+    "text_en": "who really doesn't matter very much, because I don't think anybody, even President Trump, takes him that seriously, but all of his other advisors. were very, very skeptical, if not opposed, to this operation.",
+    "text": "他其实没那么重要，因为我觉得根本没人——连 President Trump 都算上——会太把他当回事，但其他所有顾问都非常非常怀疑这次行动，甚至是反对的。"
+  },
+  {
+    "start": 1575.484,
+    "end": 1590.484,
+    "speaker": "Guest",
+    "text_en": "They understood full well that this was playing with fire, but nevertheless President Trump dismissed their concerns and he went along with the Israelis who basically sold him a bill of goods. It was the head of Mossad.",
+    "text": "他们完全明白这就是在玩火，但 President Trump 还是无视了他们的担忧，转而听了以色列方面的话，基本上就是被他们忽悠了。是 Mossad 的负责人。"
+  },
+  {
+    "start": 1591.284,
+    "end": 1620.334,
+    "speaker": "Guest",
+    "text_en": "and David Barnea and Prime Minister Netanyahu who convinced President Trump that we would win a quick and decisive victory and then just to build on your point therefore we wouldn't have to worry about Iran closing the Strait of Hormuz we would win very quickly but the fact is if Trump had listened to his advisors and he had carefully examined them as to why they were reticent or opposed to going",
+    "text": "还有 David Barnea 和总理 Netanyahu，他们说服了 President Trump，让他相信我们会取得一场迅速而决定性的胜利。顺着你的观点往下说，也正因为如此，我们就不用担心 Iran 会关闭霍尔木兹海峡；我们会很快取胜。但事实是，如果 Trump 当时听了顾问们的意见，并且认真追问他们为什么对开战犹豫或反对的话，"
+  },
+  {
+    "start": 1620.5,
+    "end": 1641.75,
+    "speaker": "Guest",
+    "text_en": "to war against Iran he might not have done this in fact I think it's highly likely he would not have done it but again he didn't really care what they had to say and he was willing to listen to the Israelis and he should have understood that the Israelis were selling him a bill of goods but apparently he didn't",
+    "text": "他可能就不会这么做。实际上，我认为他极有可能根本不会这么做。但问题还是一样，他并不真的在乎他们怎么说，反而愿意听 Israelis 的。他本该明白，Israelis 是在给他画大饼、兜售一套不靠谱的说辞，但显然他没有看出来。"
+  },
+  {
+    "start": 1642.85,
+    "end": 1644.4,
+    "speaker": "Host",
+    "text_en": "Let's talk about the global economy.",
+    "text": "我们来谈谈全球经济。"
+  },
+  {
+    "start": 1645.78,
+    "end": 1649.88,
+    "speaker": "Host",
+    "text_en": "You know, a guess. Some oil is getting out.",
+    "text": "你看，粗略估计一下，还是有一些石油在运出去。"
+  },
+  {
+    "start": 1651.13,
+    "end": 1673.03,
+    "speaker": "Host",
+    "text_en": "Not a lot. I mean, an estimate, maybe 5%. Countries, India, Japan, I mean, they're all Philippines. They're already in serious trouble. And this, if it's not a total blockage, this trickle is already having seismic.",
+    "text": "但不多。我的意思是，估计也就大概 5%。像 India、Japan，我是说，还有 Philippines，这些国家已经陷入严重麻烦了。而且即便这还不算完全封锁，这么一点点流出也已经带来了剧烈的"
+  },
+  {
+    "start": 1673.428,
+    "end": 1687.284,
+    "speaker": "Host",
+    "text_en": "ramifications so talk a little bit about where we are now in terms of the global economy and potentially where we could go and then there's all sorts of other Factors like fertilizer,",
+    "text": "连锁影响。所以你讲讲，现在全球经济处在什么位置，接下来可能会走向哪里。另外还有各种别的因素，比如化肥，"
+  },
+  {
+    "start": 1687.534,
+    "end": 1699.684,
+    "speaker": "Host",
+    "text_en": "I mean, which is also passed through the Strait because it's an oil derivative and the effect on food prices.",
+    "text": "我的意思是，那东西也要经过这条海峡，因为它是石油衍生品，还有这对食品价格的影响。"
+  },
+  {
+    "start": 1700.534,
+    "end": 1713.088,
+    "speaker": "Guest",
+    "text_en": "Yeah, I mean, there are a number of dimensions to the economic catastrophe that's staring us in the face. And again, I like to talk about this is the Titanic hitting the ice. iceberg.",
+    "text": "对，摆在我们面前的这场经济灾难，其实有很多个层面。再说一次，我喜欢把这件事比作 Titanic 撞上冰山。"
+  },
+  {
+    "start": 1713.288,
+    "end": 1713.738,
+    "speaker": "Host",
+    "text_en": "Hmm.",
+    "text": "嗯。"
+  },
+  {
+    "start": 1713.738,
+    "end": 1729.288,
+    "speaker": "Guest",
+    "text_en": "And it's important to emphasize that Titanic has not hit the iceberg. And although there's no question that serious damage has been done and will be done, catastrophic damage will be done if we hit the iceberg.",
+    "text": "而且很重要的一点是，要强调现在 Titanic 还没有撞上冰山。虽然毫无疑问，已经造成了严重损害，而且还会继续造成损害，但如果真的撞上冰山，那就会是灾难性的打击。"
+  },
+  {
+    "start": 1729.588,
+    "end": 1740.096,
+    "speaker": "Guest",
+    "text_en": "And of course, this is why President Trump is deeply committed, I believe, to shutting this one down as quickly as possible, because he does not want to hit the iceberg. iceberg.",
+    "text": "当然，这也是为什么我认为 President Trump 非常坚定地想尽快把这件事平息下来，因为他不想撞上那座冰山。冰山。"
+  },
+  {
+    "start": 1741.346,
+    "end": 1757.946,
+    "speaker": "Guest",
+    "text_en": "First of all, there is the helium, as you point out. There's a significant helium shortage in the world because the Strait has been shut down. And helium is very important for producing microchips. Furthermore,",
+    "text": "首先，正如你指出的，是 helium。由于海峡被封锁，全球现在出现了相当严重的 helium 短缺。而 helium 对制造 microchips 非常重要。另外，"
+  },
+  {
+    "start": 1758.096,
+    "end": 1775.062,
+    "speaker": "Guest",
+    "text_en": "there's been a significant slowdown in the amount of aluminum coming out of the Gulf. And aluminum really matters. As well, then there are the fertilizers, 30% of the world's fertilizers come through the Gulf and hardly any are getting out.",
+    "text": "从 Gulf 运出的 aluminum 数量也明显放缓了。而 aluminum 真的很关键。还有 fertilizers，全球 30% 的 fertilizers 都要经过 Gulf，但现在几乎运不出来。"
+  },
+  {
+    "start": 1775.362,
+    "end": 1783.912,
+    "speaker": "Guest",
+    "text_en": "And this is going to have huge consequences for the production of food around the world.",
+    "text": "这会对全球粮食生产造成巨大的影响。"
+  },
+  {
+    "start": 1785.162,
+    "end": 1790.412,
+    "speaker": "Guest",
+    "text_en": "Remember, we had this thing called the Green Revolution and the Green Revolution.",
+    "text": "记住，我们曾经有过所谓的 Green Revolution，也就是绿色革命。"
+  },
+  {
+    "start": 1792.5,
+    "end": 1808.876,
+    "speaker": "Guest",
+    "text_en": "allowed countries around the world to produce sufficient food to feed almost all of their people. And that green revolution was heavily dependent on the coming of abundant fertilizers, right?",
+    "text": "它让世界各国能够生产出足够的粮食，养活几乎所有人口。而那场绿色革命，在很大程度上依赖于充足 fertilizers 的出现，对吧？"
+  },
+  {
+    "start": 1809.376,
+    "end": 1826.626,
+    "speaker": "Guest",
+    "text_en": "You used to have to rely on manure and compost instead of fertilizers, but once you get fertilizers and lots of fertilizers coming out of the Gulf, that facilitates the green revolution. And then furthermore, you mechanize agriculture.",
+    "text": "以前你只能依赖粪肥和堆肥，而不是化肥；但一旦有了化肥，尤其是海湾地区大量产出的化肥，这就推动了绿色革命。再进一步，农业也实现了机械化。"
+  },
+  {
+    "start": 1827.54,
+    "end": 1846.34,
+    "speaker": "Guest",
+    "text_en": "And when you mechanize agriculture, that means that agriculture is dependent on gas and oil and what have you. And therefore, if the amount of oil coming out of the Gulf, the amount of fuel coming out of the Gulf is reduced significantly, that is,",
+    "text": "而农业一旦机械化，就意味着农业会依赖天然气、石油之类的能源。所以，如果海湾地区产出的石油、燃料大幅减少，那就会——"
+  },
+  {
+    "start": 1846.54,
+    "end": 1865.528,
+    "speaker": "Guest",
+    "text_en": "along with the fertilizer, going to have a significant effect on the amount of food that's produced and the price of food. So I think. The food crisis that's looming is great and it could be even worse if this conflict isn't shut down sooner.",
+    "text": "再加上化肥供应的问题——对粮食产量和粮价造成重大影响。所以我认为，正在逼近的粮食危机非常严重，如果这场冲突不能尽快平息，情况还可能更糟。"
+  },
+  {
+    "start": 1865.728,
+    "end": 1868.428,
+    "speaker": "Guest",
+    "text_en": "And then with regard to oil and gas.",
+    "text": "然后再说石油和天然气。"
+  },
+  {
+    "start": 1869.524,
+    "end": 1890.674,
+    "speaker": "Guest",
+    "text_en": "The Saudis, to some extent, got around this problem by shipping oil across a pipeline that crosses Saudi Arabia from the Persian Gulf to the Red Sea, and they're exporting oil through the Red Sea, and quite a bit of oil, too,",
+    "text": "Saudi 在某种程度上绕开了这个问题，他们通过一条横穿 Saudi Arabia、从波斯湾通往红海的管道输送石油，再经由红海出口石油，而且出口量还不小。"
+  },
+  {
+    "start": 1890.824,
+    "end": 1893.024,
+    "speaker": "Guest",
+    "text_en": "and that's alleviated the problem somewhat.",
+    "text": "这在一定程度上缓解了问题。"
+  },
+  {
+    "start": 1894.124,
+    "end": 1910.036,
+    "speaker": "Guest",
+    "text_en": "The great fear here is that if this escalates, It's the Iranians working with the Houthis will shut down the Red Sea at Bab al-Mandeb Strait, and that will really do disastrous things to the world economy.",
+    "text": "这里最大的担忧是，如果局势升级，Iranian 会和 Houthis 联手，在 Bab al-Mandeb Strait 封锁红海，那将真的会给全球经济带来灾难性后果。"
+  },
+  {
+    "start": 1910.236,
+    "end": 1924.936,
+    "speaker": "Guest",
+    "text_en": "So at the moment, the damage has been limited somewhat because Saudi oil is getting out. through the Red Sea. And as you pointed out before, Chris, Iranian oil has been getting out as well.",
+    "text": "所以目前来看，损害在一定程度上还算有限，因为 Saudi 的石油还能经由红海运出去。而且正如你刚才提到的，Chris，Iranian 的石油也一直还能运出去。"
+  },
+  {
+    "start": 1925.236,
+    "end": 1944.436,
+    "speaker": "Guest",
+    "text_en": "So I would guess that 20% of the world's oil comes out of the Gulf. That's about $20 billion barrels a day, excuse me, about 20 million barrels a day. And I think probably now about 10 million barrels is getting out.",
+    "text": "所以我猜，全球大约 20% 的石油都来自海湾地区。那大概是每天 200 亿桶，抱歉，应该是每天大约 2000 万桶。我想现在大概只有 1000 万桶还能运出来。"
+  },
+  {
+    "start": 1944.948,
+    "end": 1959.248,
+    "speaker": "Guest",
+    "text_en": "or when Iranian oil was getting out, it was a total of about 10. So only about 10 million barrels were being held up. But you can imagine a situation where if this war escalates, we'll go back to where 20 million barrels are not coming out.",
+    "text": "或者说，在 Iranian oil 还能出口的时候，总量大概也是 1000 万桶。所以实际上只是大约 1000 万桶被卡住了。但你可以想象一种情况，如果这场战争升级，我们就会回到 2000 万桶都运不出来的局面。"
+  },
+  {
+    "start": 1959.348,
+    "end": 1972.298,
+    "speaker": "Guest",
+    "text_en": "And that will have devastating consequences. So what I'm getting at here is a great deal of damage has already been done, most of it in Asia at this point in time. But almost everybody agrees that",
+    "text": "那将带来毁灭性的后果。所以我想说的是，损害其实已经造成了，而且到目前为止大部分都发生在亚洲。但几乎所有人都同意，"
+  },
+  {
+    "start": 1972.372,
+    "end": 1983.272,
+    "speaker": "Guest",
+    "text_en": "The effects, the negative effects are working their way toward Europe and eventually will work their way towards the United States. But in Asia, there's huge problems already.",
+    "text": "这些负面影响正在一步步传导到欧洲，最终也会传导到美国。但在亚洲，问题已经非常严重了。"
+  },
+  {
+    "start": 1984.322,
+    "end": 1998.534,
+    "speaker": "Guest",
+    "text_en": "And there is a real danger that they will get even worse if this war escalates. So to put it in slightly different terms, if this war isn't settled quickly. And one thing I forgot, by the way, is diesel and jet fuel.",
+    "text": "而且如果这场战争升级，情况很可能还会进一步恶化。换个说法，如果这场战争不能尽快解决。哦对了，顺便说一句，我刚才漏掉了一点，就是柴油和航空燃油。"
+  },
+  {
+    "start": 1999.584,
+    "end": 2008.134,
+    "speaker": "Guest",
+    "text_en": "That's, you know, where there's a bigger crisis looming than even with regard to normal oil and gas.",
+    "text": "你知道，在这方面，正在逼近的危机甚至比普通石油和天然气还要严重。"
+  },
+  {
+    "start": 2009.384,
+    "end": 2015.184,
+    "speaker": "Host",
+    "text_en": "Didn't I read somewhere, I think European airlines have about six weeks left of jet fuel?",
+    "text": "我是不是在哪儿看到过，我记得欧洲的航空公司大概只剩六周的航空燃油了？"
+  },
+  {
+    "start": 2015.184,
+    "end": 2030.778,
+    "speaker": "Guest",
+    "text_en": "Yes, and then they're in real trouble. And that problem has already manifested itself in Asia, right? And as I say, the problem is beginning to move into Europe and it'll eventually move into the United States.",
+    "text": "对，那之后他们就真的麻烦大了。而且这个问题在亚洲其实已经显现出来了，对吧？就像我说的，这个问题正开始蔓延到欧洲，最终也会传到美国。"
+  },
+  {
+    "start": 2030.978,
+    "end": 2041.928,
+    "speaker": "Guest",
+    "text_en": "And again, this is why President Trump has a deep-seated interest in shutting this war down and doing everything he can to minimize the damage. And minimize is the important word here.",
+    "text": "再说一次，这就是为什么 Trump 总统强烈希望尽快结束这场战争，并且尽一切可能把损害降到最低。而这里最关键的词就是“降到最低”."
+  },
+  {
+    "start": 2041.978,
+    "end": 2056.22,
+    "speaker": "Guest",
+    "text_en": "There's been a huge amount of damage done and almost everybody agrees that there's There's going to be significant damage in the years ahead, that this is not a problem that can be fixed immediately, but you can minimize the damage.",
+    "text": "已经造成了巨大的破坏，几乎所有人都同意，未来几年还会有相当严重的损害。这不是一个能立刻解决的问题，但你可以把损害尽量降到最低。"
+  },
+  {
+    "start": 2056.42,
+    "end": 2067.47,
+    "speaker": "Guest",
+    "text_en": "And if President Trump doesn't cut a deal with the Iranians and get the Strait open and get oil flowing, get diesel and jet fuel flowing, doesn't get fertilizers flowing,",
+    "text": "如果 Trump 总统不能和伊朗人达成协议，不能让海峡重新开放，不能让石油恢复流通，不能让柴油和航空燃油恢复供应，也不能让化肥恢复流通，"
+  },
+  {
+    "start": 2067.57,
+    "end": 2077.09,
+    "speaker": "Guest",
+    "text_en": "and we're in the same situation, you know, five months from now that we're in now. I believe that the consequences will be catastrophic for the world economy.",
+    "text": "而五个月后我们的处境还和现在一样，那么我认为，对世界经济的后果将是灾难性的。"
+  },
+  {
+    "start": 2078.54,
+    "end": 2098.39,
+    "speaker": "Host",
+    "text_en": "So you have Trump's idiocy and impulsiveness. You have, in your words, the fact that the Israel lobby still has a stranglehold on the Trump White House and U.S. policy, and of course the Israeli government is dead set against",
+    "text": "所以，一方面有 Trump 的愚蠢和冲动；另一方面，正如你所说，以色列游说集团依然死死掐着 Trump 白宫和美国政策的喉咙，当然，以色列政府也坚决反对"
+  },
+  {
+    "start": 2099.444,
+    "end": 2099.994,
+    "speaker": "Guest",
+    "text_en": "All right.",
+    "text": "好。"
+  },
+  {
+    "start": 2100.0,
+    "end": 2118.7,
+    "speaker": "Host",
+    "text_en": "any kind of agreement with Iran. You have demands by Iran, and let's be clear that Iran has been targeted for 47 years through sanctions, and I think it appears that Iran has said enough. This is going to end.",
+    "text": "任何形式的美伊协议。还有伊朗方面提出的要求。我们得说清楚，伊朗 47 年来一直是制裁打击的目标，我觉得现在看起来，伊朗已经说得很明白：够了，这件事必须结束。"
+  },
+  {
+    "start": 2119.15,
+    "end": 2122.8,
+    "speaker": "Host",
+    "text_en": "These are big demands for the United States.",
+    "text": "这些对美国来说都是很大的要求。"
+  },
+  {
+    "start": 2124.6,
+    "end": 2127.85,
+    "speaker": "Host",
+    "text_en": "How do we limp forward? How does it go forward?",
+    "text": "那我们要怎么勉强往前走？这事还怎么推进下去？"
+  },
+  {
+    "start": 2129.14,
+    "end": 2144.422,
+    "speaker": "Guest",
+    "text_en": "I don't know. You know, I mean, you raise these issues at the beginning of the program when you started talking about the 10-point plan of the Iranians, which President Trump has said would be the basis. for the negotiations moving forward.",
+    "text": "我不知道。你看，我是说，你在节目一开始提到了这些问题，当时你说到伊朗提出的那个十点计划，而 Trump 总统说过，那会成为接下来推进谈判的基础。"
+  },
+  {
+    "start": 2144.872,
+    "end": 2159.172,
+    "speaker": "Guest",
+    "text_en": "I mean, just think about Iranian control of the Strait of Hormuz, which effectively means they're going to treat it as a pathway that has a toll booth, an Iranian toll booth on it.",
+    "text": "我的意思是，你想想伊朗对 Hormuz 海峡的控制，这实际上就意味着他们会把那里当成一条设了收费站的通道，一个伊朗的收费站。"
+  },
+  {
+    "start": 2159.572,
+    "end": 2160.972,
+    "speaker": "Host",
+    "text_en": "In Chinese currency,",
+    "text": "而且是用人民币，"
+  },
+  {
+    "start": 2160.972,
+    "end": 2161.272,
+    "speaker": "Guest",
+    "text_en": "Yes.",
+    "text": "对。"
+  },
+  {
+    "start": 2161.272,
+    "end": 2162.122,
+    "speaker": "Host",
+    "text_en": "not in the dollar.",
+    "text": "不是用美元。"
+  },
+  {
+    "start": 2162.222,
+    "end": 2176.014,
+    "speaker": "Guest",
+    "text_en": "Are we going to tolerate that? Kind of hard to imagine, but maybe we'll have to swallow on that. that one. Then there's the subject of sanctions. Are we really going to take sanctions off Iran?",
+    "text": "我们会容忍这种事吗？很难想象，但也许我们不得不把这口气咽下去。然后还有制裁的问题。我们真的要解除对伊朗的制裁吗？"
+  },
+  {
+    "start": 2177.114,
+    "end": 2195.208,
+    "speaker": "Guest",
+    "text_en": "And are we going to pay reparations to Iran? If that happens, isn't Iran over time? likely to recover from the punishment that we have inflicted on its economy? And won't its economy flourish?",
+    "text": "那我们还要向伊朗支付赔偿吗？如果真那样，伊朗是不是很可能会随着时间推移，从我们对其经济施加的打击中恢复过来？而且它的经济难道不会重新繁荣起来吗？"
+  },
+  {
+    "start": 2195.308,
+    "end": 2203.908,
+    "speaker": "Guest",
+    "text_en": "And won't this lead to it becoming a more powerful state in the Middle East? And how will the Israelis react to that?",
+    "text": "这难道不会让它成为中东一个更强大的国家吗？那以色列人会对此作何反应？"
+  },
+  {
+    "start": 2205.008,
+    "end": 2218.764,
+    "speaker": "Guest",
+    "text_en": "We're not going to do away with their nuclear enrichment capability in toto. I mean, they're going to keep some nuclear enrichment capability. The Israelis and the Hawks in the United States are never going to be happy with that.",
+    "text": "我们不可能把他们的铀浓缩能力彻底废掉。我的意思是，他们还是会保留一部分铀浓缩能力。以色列人和美国的鹰派永远都不会对此满意。"
+  },
+  {
+    "start": 2219.214,
+    "end": 2226.064,
+    "speaker": "Host",
+    "text_en": "President Trump at best, I think, is going to get an improved JCPOA. Can you sell that?",
+    "text": "我觉得，Trump 充其量也就是拿到一个升级版的 JCPOA。这个你能卖得出去吗？"
+  },
+  {
+    "start": 2227.364,
+    "end": 2241.07,
+    "speaker": "Guest",
+    "text_en": "Furthermore, how do you convince the Iranians that you're not going to pay them a return visit, that there's not going to be a third war? What do you do in that regard? What do you do with American bases in the region? region?",
+    "text": "再进一步说，你怎么让伊朗人相信你不会再回来打他们一次，不会有第三场战争？这方面你打算怎么办？你又打算怎么处理美国在该地区的基地？"
+  },
+  {
+    "start": 2241.52,
+    "end": 2255.27,
+    "speaker": "Guest",
+    "text_en": "Are we just going to leave the region as they'd like us to? Or are we going to stay there? And if we stay there, are they going to greatly increase their ballistic missile force? I think so. I think one could argue that even if we leave,",
+    "text": "我们是要像他们希望的那样，干脆离开这个地区吗？还是要继续留在那里？如果我们留在那里，他们会不会大幅增强自己的弹道导弹力量？我觉得会。我认为甚至可以说，就算我们离开了，"
+  },
+  {
+    "start": 2255.32,
+    "end": 2267.32,
+    "speaker": "Guest",
+    "text_en": "they'll greatly increase their ballistic missile force. What are the Israelis going to do then? So you can go on and on talking about all of the really difficult issues that have to be solved.",
+    "text": "他们也会大幅增强自己的弹道导弹力量。那到时候以色列人会怎么做？所以，这里面一连串真正棘手的问题，你可以一直讲下去。"
+  },
+  {
+    "start": 2267.54,
+    "end": 2280.99,
+    "speaker": "Guest",
+    "text_en": "And the question is, how do you solve them? How do you get some sort of meaningful peace agreement here? And even if you don't get a meaningful peace agreement, how do you work out a frozen conflict?",
+    "text": "问题在于，你要怎么解决这些问题？你怎么才能在这里达成某种有意义的和平协议？就算达不成有意义的和平协议，你又怎么维持一种冻结冲突的状态？"
+  },
+  {
+    "start": 2281.09,
+    "end": 2295.19,
+    "speaker": "Guest",
+    "text_en": "What does a frozen conflict look like? And how stable is that frozen conflict moving forward? I mean, I wish I could give you clear answers to this, Chris, but when I look at it, I find it kind of mind boggling.",
+    "text": "所谓冻结冲突，具体会是什么样子？而且这种冻结冲突往后看究竟有多稳定？我是说，Chris，我真希望能给你一个明确答案，但我一看这个局面，就觉得有点让人头大。"
+  },
+  {
+    "start": 2294.996,
+    "end": 2309.246,
+    "speaker": "Guest",
+    "text_en": "to try and figure out where this is all headed. And the only thing I can say with a high degree of certainty is it looks like one giant mess that's going to lead to endless trouble.",
+    "text": "试着搞清楚这一切最终会走向哪里。而我唯一能相当确定地说的是，这看起来就是一团巨大的乱局，接下来会带来没完没了的麻烦。"
+  },
+  {
+    "start": 2311.06,
+    "end": 2319.11,
+    "speaker": "Host",
+    "text_en": "Do you limp forward with a ceasefire, a frozen conflict? Is that perhaps at the moment the best that we can hope for?",
+    "text": "那是不是只能勉强往前走，先搞个停火，形成一种冻结冲突？这会不会是我们眼下所能期待的最好结果？"
+  },
+  {
+    "start": 2319.46,
+    "end": 2338.472,
+    "speaker": "Guest",
+    "text_en": "Yeah, I think that that's true. As I said before, the one possible factor that offers hope is that if we... are headed towards the iceberg, and it looks like we're going to hit the iceberg, and we have one last clear chance to veer away from it,",
+    "text": "对，我觉得是这样。就像我之前说的，唯一一个还能带来希望的因素是，如果我们……正在朝冰山驶去，而且看起来马上就要撞上了，而我们还有最后一次明确的机会可以转向避开它，"
+  },
+  {
+    "start": 2339.072,
+    "end": 2343.972,
+    "speaker": "Guest",
+    "text_en": "we may then put tremendous pressure on the Israelis to just...",
+    "text": "那我们可能就会对 Israelis 施加巨大的压力，让他们干脆……"
+  },
+  {
+    "start": 2346.068,
+    "end": 2361.718,
+    "speaker": "Guest",
+    "text_en": "not say anything to just accept what we do and then we cut a deal with the Iranians. But that deal we would cut with the Iranians would be a deal that's very favorable to them. The key point here is that the Iranians are in the driver's seat.",
+    "text": "什么都别说，直接接受我们的做法，然后我们再去和 Iranians 达成协议。但我们和 Iranians 达成的那个协议，会是一个对他们非常有利的协议。这里的关键点在于，Iranians 现在掌握着主动权。"
+  },
+  {
+    "start": 2361.818,
+    "end": 2374.168,
+    "speaker": "Guest",
+    "text_en": "This is why I said you can't go up the escalation ladder and win against them. You want to remember, we came into this war with four big demands. They had to do away with their nuclear enrichment capability completely.",
+    "text": "这就是为什么我说，你没法沿着升级的阶梯一路往上走，还能赢过他们。你得记住，我们打这场仗时一开始提出了四个重大要求。第一，他们必须彻底取消自己的核浓缩能力。"
+  },
+  {
+    "start": 2374.1,
+    "end": 2385.05,
+    "speaker": "Guest",
+    "text_en": "Completely. They had to stop supporting the Houthis, Hamas and Hezbollah. They had to get rid of their missiles. And furthermore, there was going to be regime change. Those were the big four demands,",
+    "text": "彻底取消。第二，他们必须停止支持 Houthis、Hamas 和 Hezbollah。第三，他们必须放弃导弹。再进一步说，还要实现政权更迭。这就是四大要求，"
+  },
+  {
+    "start": 2385.35,
+    "end": 2399.8,
+    "speaker": "Guest",
+    "text_en": "the most important of which I believe was regime change, because if you got regime change, then in their story, you could achieve the other three goals. But those were the big four goals. We have failed on all four counts. You just don't want to.",
+    "text": "而我认为其中最重要的是政权更迭，因为按照他们的逻辑，只要实现了政权更迭，另外三个目标也就能达成。但这就是四大目标。我们在这四点上全都失败了。你就是不愿意。"
+  },
+  {
+    "start": 2400.0,
+    "end": 2406.85,
+    "speaker": "Guest",
+    "text_en": "Besides, we have failed to achieve any of those goals. And in fact, one could argue, Chris, that we have made the situation worse.",
+    "text": "此外，这些目标我们一个都没实现。事实上，Chris，甚至可以说，我们把局势搞得更糟了。"
+  },
+  {
+    "start": 2407.95,
+    "end": 2426.35,
+    "speaker": "Guest",
+    "text_en": "In terms of missiles, it would seem to me that the major lesson that the Iranians should take from this conflict is that they should build lots of missiles, lots of launchers, and hide them in missile cities. In terms of the nuclear issue,",
+    "text": "就导弹而言，在我看来，Iranian 应该从这场冲突中吸取的主要教训是：他们应该大量建造导弹、大量配备发射器，并把它们藏进导弹地下城。至于核问题，"
+  },
+  {
+    "start": 2426.45,
+    "end": 2436.408,
+    "speaker": "Guest",
+    "text_en": "one could argue that we have made the situation worse. One could argue that they, if anything, they should have learned that what they need is nuclear weapons and this could be pushing them further in that direction.",
+    "text": "也可以说，我们把局势弄得更糟了。甚至可以说，他们应该得出的教训恰恰是：他们需要核武器，而这可能会把他们进一步推向那个方向。"
+  },
+  {
+    "start": 2436.458,
+    "end": 2444.808,
+    "speaker": "Guest",
+    "text_en": "And then there's the whole question of the Strait of Hormuz and it's important to emphasize that in addition to failing to achieve our four objectives,",
+    "text": "然后还有整个 Hormuz Strait 的问题。需要强调的是，除了没能实现我们的四个目标之外，"
+  },
+  {
+    "start": 2445.008,
+    "end": 2453.758,
+    "speaker": "Guest",
+    "text_en": "we're now in a situation where the Iranians control the Strait of Hormuz and have a toll booth inserted in it, which...",
+    "text": "我们现在还陷入了一种局面：Iranian 控制了 Hormuz Strait，并在那儿设了个收费站，这在……"
+  },
+  {
+    "start": 2453.94,
+    "end": 2480.69,
+    "speaker": "Guest",
+    "text_en": "did not exist on February 27th and this is likely to remain in place it's hard for me to imagine them giving up the toll booth or giving up control of the Strait maybe they will because they'll get some other goodies in the deal that is worked out but we have failed here this has been a colossal blunder and Trump is again now in a position where he's got the Israelis",
+    "text": "2月27日那时候还是不存在的，而且这种情况很可能会持续下去。我很难想象他们会放弃这个收费站，或者放弃对海峡的控制。也许他们会，因为他们可能会在最终谈成的协议里拿到别的好处。但我们这次失败了，这是个灾难性的重大失误。而现在 Trump 又一次处在这样一个位置：他一边有 Israelis"
+  },
+  {
+    "start": 2481.204,
+    "end": 2500.004,
+    "speaker": "Guest",
+    "text_en": "He's hemming him in on one side, and he has the potential of hitting that iceberg, hemming him in on the other side. He has hardly any maneuver room, and it's hardly surprising, therefore, to see him behaving in more and more erratic ways,",
+    "text": "在一侧把他逼住，另一侧又有可能撞上那座冰山，也把他卡死。他几乎没有任何腾挪空间，所以看到他的行为变得越来越反常，"
+  },
+  {
+    "start": 2500.254,
+    "end": 2506.854,
+    "speaker": "Guest",
+    "text_en": "looking more and more like a mad king, because he has put himself in an untenable position.",
+    "text": "看起来越来越像个疯王，也就一点都不奇怪了，因为是他自己把自己逼进了一个无法维持的处境。"
+  },
+  {
+    "start": 2508.756,
+    "end": 2514.706,
+    "speaker": "Host",
+    "text_en": "Is this our Suez crisis or are we not there yet? Does the Suez crisis happen once we hit the iceberg?",
+    "text": "这是我们的苏伊士危机吗，还是说还没到那一步？苏伊士危机会不会是在我们撞上冰山之后才发生？"
+  },
+  {
+    "start": 2516.052,
+    "end": 2535.502,
+    "speaker": "Guest",
+    "text_en": "Snyder's Suez Crisis. I mean, to understand what happened at Suez, you have to remember that Britain was a declining great power. The decline started around 1900, and it's pretty much all downhill from 1900 up until the present.",
+    "text": "Snyder 的苏伊士危机。我的意思是，要理解苏伊士到底发生了什么，你得记住，Britain 当时是一个正在衰落的大国。这种衰落大概从 1900 年左右开始，而且从 1900 年到现在，基本上就是一路下滑。"
+  },
+  {
+    "start": 2539.412,
+    "end": 2551.912,
+    "speaker": "Guest",
+    "text_en": "Britain in 1956 was not even a great power. You remember well, Chris, we referred to the world that we lived in during the Cold War as a bipolar system. There were two great powers in the system.",
+    "text": "1956 年的 Britain 甚至都算不上一个大国了。你应该记得，Chris，我们把冷战时期我们所处的那个世界称为两极体系。那个体系里只有两个大国。"
+  },
+  {
+    "start": 2552.012,
+    "end": 2565.862,
+    "speaker": "Guest",
+    "text_en": "We called them superpowers. Those two great powers were the United States and the Soviet Union. Britain was not even a great power. And you remember in 1968, this, of course, is 12 years after the Suez crisis.",
+    "text": "我们把它们叫作超级大国。这两个大国就是 United States 和 Soviet Union。Britain 连大国都算不上。你还记得，到了 1968 年——当然，这已经是苏伊士危机 12 年之后了。"
+  },
+  {
+    "start": 2566.164,
+    "end": 2584.464,
+    "speaker": "Guest",
+    "text_en": "The British basically abandoned all their defense commitments east of Suez, east of the Suez Canal. And this is because, again, Britain is a declining great power. It's losing its military might. Its power projection capability is greatly reduced.",
+    "text": "Britain 基本上放弃了它在苏伊士以东、也就是苏伊士运河以东的所有防务承诺。原因还是一样，Britain 是一个正在衰落的大国。它的军事实力在流失，力量投送能力也大幅下降。"
+  },
+  {
+    "start": 2584.914,
+    "end": 2598.0,
+    "speaker": "Guest",
+    "text_en": "This is not what's happening to the United States. There's no question that the United States now has a peer competitor in the system, which is China. And Russia is also a great power. great power. We're now in a multipolar world.",
+    "text": "而 United States 现在并不是这种情况。毫无疑问，如今这个体系里，United States 有一个势均力敌的竞争对手，那就是 China。Russia 也是一个大国。我们现在处在一个多极世界里。"
+  },
+  {
+    "start": 2598.9,
+    "end": 2611.7,
+    "speaker": "Guest",
+    "text_en": "So the United States does have to deal with two other great powers, but the United States is still a great power. It has a tremendous amount of power, and that power is not going to go away.",
+    "text": "所以 United States 的确得同时应对另外两个大国，但 United States 依然是一个大国。它仍然拥有极其强大的实力，而这种实力不会消失。"
+  },
+  {
+    "start": 2612.852,
+    "end": 2625.152,
+    "speaker": "Guest",
+    "text_en": "What's going on here is that the United States, especially under President Trump, but even under President Biden, has lost its ability to employ that power in smart ways.",
+    "text": "现在真正发生的情况是，United States，尤其是在 President Trump 任内，但即便是在 President Biden 任内，也已经失去了以聪明方式运用这种力量的能力。"
+  },
+  {
+    "start": 2625.502,
+    "end": 2637.802,
+    "speaker": "Guest",
+    "text_en": "We behave in remarkably foolish ways. And this is true not just under Trump, it was true under Biden as well. You want to remember that Joe Biden is the president who embraced.",
+    "text": "我们的行事方式愚蠢得惊人。而且这不只是 Trump 任内如此，Biden 任内也是这样。你要记得，Joe Biden 就是那位公开拥抱了——"
+  },
+  {
+    "start": 2639.06,
+    "end": 2641.96,
+    "speaker": "Guest",
+    "text_en": "Prime Minister Netanyahu after October 7th",
+    "text": "10月7日之后的总理 Netanyahu——"
+  },
+  {
+    "start": 2641.96,
+    "end": 2642.26,
+    "speaker": "Host",
+    "text_en": "Yeah",
+    "text": "对"
+  },
+  {
+    "start": 2642.26,
+    "end": 2657.31,
+    "speaker": "Guest",
+    "text_en": "and fully supported the genocide in Gaza. And there were a number of other policies, including U.S. policy toward Iran, where President Biden misbehaved or behaved in foolish ways would be a better way to put it.",
+    "text": "并且全力支持了 Gaza 的种族灭绝。还有不少其他政策，包括美国对 Iran 的政策，Biden 总统都表现失当，或者更准确地说，是做法很愚蠢。"
+  },
+  {
+    "start": 2657.41,
+    "end": 2666.36,
+    "speaker": "Guest",
+    "text_en": "But the point is the United States is incredibly powerful. And that's what makes President Trump so dangerous. And it's also what allows.",
+    "text": "但关键在于，美国强大得惊人。而这也正是 Trump 总统如此危险的原因。这也是为什么他能够——"
+  },
+  {
+    "start": 2666.388,
+    "end": 2694.788,
+    "speaker": "Guest",
+    "text_en": "How's President Trump to whiplash allies and adversaries alike to ignore international law and international institutions? He can get away with all of this because we are so powerful. We're not, in my opinion, going to get weaker with the passage of time. The United States is going to remain a very powerful state on the world stage and the only interest.",
+    "text": "Trump 总统怎么能把盟友和对手都折腾得晕头转向，怎么能无视国际法和国际机构？他之所以能这么干而不付出代价，就是因为我们太强大了。在我看来，随着时间推移，我们不会变弱。美国仍将是世界舞台上一个非常强大的国家，而唯一真正值得关心的——"
+  },
+  {
+    "start": 2694.868,
+    "end": 2698.168,
+    "speaker": "Guest",
+    "text_en": "resting question is, will we get our act together?",
+    "text": "核心问题是，我们能不能把自己整顿好？"
+  },
+  {
+    "start": 2700.0,
+    "end": 2712.4,
+    "speaker": "Guest",
+    "text_en": "Act in responsible ways, which we have not been doing for a long time. I don't hold out much hope in that regard. But I don't think it's a Suez moment.",
+    "text": "能不能以负责任的方式行事，而这恰恰是我们很长时间以来都没做到的。对此我并不抱太大希望。但我不认为这是什么 Suez 时刻。"
+  },
+  {
+    "start": 2712.55,
+    "end": 2723.4,
+    "speaker": "Guest",
+    "text_en": "I think the Suez moment was just one giant step in the gradual decline of British power over the course of the 20th century.",
+    "text": "我觉得，苏伊士时刻只是英国在整个20世纪国力逐步衰落过程中的一个巨大转折点。"
+  },
+  {
+    "start": 2724.628,
+    "end": 2736.128,
+    "speaker": "Host",
+    "text_en": "Great. Thank you, John. And I want to thank Max, Sophia, who produced the show. You can find me at ChrisHedges.Substack.com.",
+    "text": "很好。谢谢你，John。也感谢制作这档节目的 Max 和 Sophia。你可以在 ChrisHedges.Substack.com 找到我。"
+  }
+]
