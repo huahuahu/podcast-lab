@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""把 dialog_zh.json 转成 multivoice.py 能吃的格式，并指定中文音色"""
+"""把 dialog_zh.json 转成 multivoice_robust.py 能吃的格式，并指定中文音色"""
 import json, sys
 
 src = json.load(open(sys.argv[1]))
