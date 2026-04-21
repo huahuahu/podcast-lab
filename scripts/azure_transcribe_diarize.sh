@@ -117,13 +117,19 @@ for fp in files:
 
 # Azure 返回的 speaker 是 'A' / 'B' / 'C' ...
 # 每个 chunk 内部是独立 diarize 的，不同 chunk 里的 'A' 不一定是同一个人。
-# 这里做一个朴素处理：假设整集 2 人对话，chunk 级别的 A/B 已经覆盖大部分；
 # 后续可用 rename_speakers.py 手工重映射到 Host/Guest。
 #
-# 合并相邻同 speaker 片段（1s 内间隔）以减少碎片，接近 pyannote 风格。
+# 合并策略：
+#   1) 相邻同 speaker + 间隔 <1s → 合并
+#   2) 但合并后的段落长度不超过 MAX_CHARS（默认 250），超了就开新段
+#   3) 这样避免独白视频被合成一大段导致 TTS 超时
+MAX_CHARS = 250  # 大致 15-25 秒语音
 merged = []
 for s in all_segs:
-    if merged and merged[-1]["speaker"] == s["speaker"] and s["start"] - merged[-1]["end"] < 1.0:
+    if (merged
+        and merged[-1]["speaker"] == s["speaker"]
+        and s["start"] - merged[-1]["end"] < 1.0
+        and len(merged[-1]["text"]) + len(s["text"]) + 1 <= MAX_CHARS):
         merged[-1]["end"] = s["end"]
         merged[-1]["text"] = (merged[-1]["text"] + " " + s["text"]).strip()
     else:
