@@ -1,0 +1,41 @@
+{
+  "voices": {
+    "Guest": "zh-CN-YunyangNeural",
+    "Host": "zh-CN-XiaoxiaoNeural"
+  },
+  "pause_ms": 350,
+  "lines": [
+    {
+      "speaker": "Guest",
+      "text": "中东每个国家——也许除了 UAE——都在拼命避免这场战争。中国人和俄罗斯人不想打这场仗。Trump 也真的不想打这场仗。那到底是谁想打？Benjamin Netanyahu。"
+    },
+    {
+      "speaker": "Host",
+      "text": "哇。"
+    },
+    {
+      "speaker": "Host",
+      "text": "那他会打上他想要的这场战争吗？"
+    },
+    {
+      "speaker": "Guest",
+      "text": "哎，这个很难说。我在这个问题上一直摇摆不定。一方面，我觉得这场战争不可能发生，因为光靠打击 Iran，我们根本实现不了目标。"
+    },
+    {
+      "speaker": "Guest",
+      "text": "而且，你还得把 Iran 的报复能力算进去。你刚才就在说 Hormuz 海峡，如果那边局势升温，会带来什么后果。"
+    },
+    {
+      "speaker": "Guest",
+      "text": "当然，Iran 也会向 Israel 发射弹道导弹。所以，单从战略角度看，很难理解为什么发动这场战争是合理的。但另一方面，看起来 Trump 已经把自己逼进死角了。"
+    },
+    {
+      "speaker": "Guest",
+      "text": "而且，Israel 人显然正在对他施加巨大的压力，要他对 Iran 开战。再说了，你知道的，他能违抗自己的主子吗？我看不能。所以这又把我推向了另一种判断。"
+    },
+    {
+      "speaker": "Guest",
+      "text": "所以我有时候觉得，在 Israel 的压力之下，战争不可避免；可到了第二天，我又觉得不会发生，因为我实在讲不出一个故事，说明这场战争最后怎么会给各方带来某种皆大欢喜的结局。"
+    }
+  ]
+}

@@ -9,7 +9,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Wed, 22 Apr 2026 08:05:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 08:26:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -35,6 +35,28 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>Judge Napolitano：谁真的想要伊朗战争？</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">napolitano-who-wants-iran-war</guid>
+      <pubDate>Wed, 22 Apr 2026 08:24:00 +0800</pubDate>
+      <description>Judge Napolitano 与嘉宾短频讨论：中东几乎没有国家想要一场伊朗战争，中国、俄罗斯都不想。唯有以色列施加强大压力。原视频来自 Judging Freedom 频道，标题 Who really wants war with Iran?。</description>
+      <content:encoded><![CDATA[
+        <p>短片段：Judge Napolitano 与嘉宾分析中东各方为何都不愿意与伊朗开战，以及为什么在以色列压力下 Trump 仍有可能被推入战争的故事线。</p>
+        <p>原始来源：<a href="https://www.youtube.com/watch?v=O-_BEnupKjc">Who really wants war with Iran?</a>。</p>
+      ]]></content:encoded>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.3.0-napolitano-who-wants-iran-war/podcast_zh.mp3" length="498452" type="audio/mpeg"/>
+      <category>News</category>
+      <category>Politics</category>
+      <itunes:author>Podcast Lab</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/cover.png"/>
+      <itunes:duration>00:01:25</itunes:duration>
+      <itunes:summary>Judge Napolitano 与嘉宾短频分析：中东和主要大国都不想打伊朗战争，唯有以色列在施压。</itunes:summary>
+      <itunes:subtitle>短片段：谁在推动伊朗战争？</itunes:subtitle>
+    </item>
 
     <item>
       <title>Chris Hedges × John Mearsheimer：伊朗战争还有出路吗？</title>
