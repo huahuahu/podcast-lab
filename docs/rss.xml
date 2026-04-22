@@ -8,8 +8,8 @@
     <link>https://huahuahu.github.io/podcast-lab/</link>
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
-    <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。当前 feed 包含 Ethan Evans 关于公司政治、晋升、组织重组和职场影响力的长访谈中文整理版。</description>
-    <lastBuildDate>Mon, 20 Apr 2026 23:18:57 +0800</lastBuildDate>
+    <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
+    <lastBuildDate>Wed, 22 Apr 2026 08:05:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -24,7 +24,7 @@
 
     <itunes:type>serial</itunes:type>
     <itunes:author>Podcast Lab</itunes:author>
-    <itunes:summary>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。当前 feed 包含 Ethan Evans 关于公司政治、晋升、组织重组和职场影响力的长访谈中文整理版。</itunes:summary>
+    <itunes:summary>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/cover.png"/>
     <itunes:category text="Technology"/>
@@ -35,6 +35,29 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>Chris Hedges × John Mearsheimer：伊朗战争还有出路吗？</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">hedges-mearsheimer-iran-war</guid>
+      <pubDate>Tue, 21 Apr 2026 22:45:00 +0800</pubDate>
+      <description>于 Chris Hedges 访谈国际关系学者 John Mearsheimer。两人分析伊朗-美国新一轮谈判、Hormuz 海峡封锁、以色列因素、Trump 的策略选择，以及大国关系重塑中的潜在变变。原始节目为 The Chris Hedges Report：Is There a Way out of the Iran War? (w/ John Mearsheimer)。</description>
+      <content:encoded><![CDATA[
+        <p>这期节目 Chris Hedges 与 John Mearsheimer 对谈，讨论伊朗与美国在 Islamabad 恢复谈判的前景、以色列在停火框架内的角色、Hormuz 海峡封锁对全球能源技治经济的冲击，以及 Trump 的决策风格与美国国力受损的体现。</p>
+        <p>原始来源：<a href="https://www.youtube.com/watch?v=GMg6_jGfjzM">Is There a Way out of the Iran War? (w/ John Mearsheimer)</a>。</p>
+        <p>中文版使用 Podcast Lab v3 管线制作：Azure gpt-4o-transcribe-diarize 转录 + 说话人分离，Copilot GPT-5.4 完成 Host/Guest 重分配和翻译，edge-tts 双音色合成（主持人 晓晓 / 嘉宾 云扬）。</p>
+      ]]></content:encoded>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.2.0-hedges-mearsheimer-iran-war/podcast_zh.mp3" length="13790708" type="audio/mpeg"/>
+      <category>News</category>
+      <category>Politics</category>
+      <itunes:author>Podcast Lab</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/cover.png"/>
+      <itunes:duration>00:39:29</itunes:duration>
+      <itunes:summary>Chris Hedges 访谈 John Mearsheimer，分析伊朗-美国谈判前景、以色列因素、Hormuz 封锁对全球经济的冲击，以及 Trump 的处理方式。</itunes:summary>
+      <itunes:subtitle>Chris Hedges 与 John Mearsheimer 对谈伊朗战争与大国关系</itunes:subtitle>
+    </item>
 
     <item>
       <title>Ethan Evans：公司政治如何运作，以及怎样赢</title>
