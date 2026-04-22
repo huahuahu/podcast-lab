@@ -9,7 +9,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Wed, 22 Apr 2026 08:26:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 08:55:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -35,6 +35,28 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>John Mearsheimer：美国正在输掉以色列的战争</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">mearsheimer-america-losing-israel-war</guid>
+      <pubDate>Wed, 22 Apr 2026 08:55:00 +0800</pubDate>
+      <description>Judge Napolitano 访谈国际关系学者 John Mearsheimer，分析美国在伊朗-以色列战争中的战略困境、与 Tehran 谈判的前景、Trump 政府的外交表现，以及美国美学、政府效能和大国矛盾背后的跟脚。原视频标题为 America Is Losing Israel's War — Here's Why。</description>
+      <content:encoded><![CDATA[
+        <p>Judge Napolitano 与 John Mearsheimer 对谈，讨论美国在以色列与伊朗冲突中的困局： Hormuz 海峡封锁的经济冲击、以色列对白宫的持续压力、Trump 政府的外交变数，以及大国战略关系中的重构信号。</p>
+        <p>原始来源：<a href="https://www.youtube.com/watch?v=AdC37Wj4kiM">America Is Losing Israel's War — Here's Why</a>。</p>
+      ]]></content:encoded>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.4.0-mearsheimer-america-losing-israel-war/podcast_zh.mp3" length="10180268" type="audio/mpeg"/>
+      <category>News</category>
+      <category>Politics</category>
+      <itunes:author>Podcast Lab</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/cover.png"/>
+      <itunes:duration>00:29:06</itunes:duration>
+      <itunes:summary>Mearsheimer 分析美国在以伊战争中的战略困境与 Trump 政府的外交表现。</itunes:summary>
+      <itunes:subtitle>美国为何在以色列的战争中节节败退</itunes:subtitle>
+    </item>
 
     <item>
       <title>Judge Napolitano：谁真的想要伊朗战争？</title>
