@@ -9,7 +9,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Fri, 24 Apr 2026 00:54:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 06:55:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -43,8 +43,40 @@
       <pubDate>Fri, 24 Apr 2026 00:54:00 +0800</pubDate>
       <description>Soft Skills Engineering #509 中文版。Jamison Dance 和 Dave Smith 回答两个开发者来信：一位否认强推 AI 编程的工程师该不该转做 engineering manager；另一位从个体贡献过渡到需要带团队的角色，如何在 leading 和 doing 之间找到自己的节奏。</description>
       <content:encoded><![CDATA[
-        <p>Soft Skills Engineering 第 509 期。两个话题：(1) 听众讨厌 AI 编程趋势，正考虑转型做 Engineering Manager；(2) 当组织需要你 'lead' 但你更喜欢 'do' 时，怎么照顾自己和团队。</p>
-        <p>原始来源：<a href="https://softskills.audio/">Soft Skills Engineering</a>。中文版由 Podcast Lab v3 管线自动生成。</p>
+        <h3>中文摘要</h3>
+        <p>这一期里，Dave 和 Jamison 回答了这些问题：</p>
+        <ol>
+          <li>
+            <p>我在一家 big tech 做 senior software engineer，现在很想换条职业赛道。随着 AI 的崛起，我已经不再享受这份工作了，而且每天都很焦虑，总觉得下一波大 layoff 随时会来。现在我感觉自己就像在流水线上干活一样，像只猴子一样不停按回车。所以我一直在考虑转方向，想去做 engineering management。一方面，我确实挺喜欢带新人、做战略规划，以及协调 vendor 和不同团队之间的项目，但除此之外，我也没有特别明确的证据说明这条路适合我。在我现在的工作里，短期内也没有机会让我更进一步，去管理一个跨团队项目，所以我不太确定该怎么判断 engineering management 到底是不是适合自己。如果不真的去做这份工作，我该怎么弄清楚？另外，一个人通常要怎么转过去，尤其是通过 external hire 或者内部 transfer 的方式？</p>
+          </li>
+          <li>
+            <p>Paolo 问：</p>
+            <p>我最近进入了一个 senior role。我不再是项目里的主要推动者了。现在我应该给 junior developers 留出空间，让他们来主导、做决定、对结果负责。我的工作是带他们、支持他们，而不是自己直接上手掌舵。</p>
+            <p>但我看到有些项目会因为大家太被动而拖下来。有时候方案效率不高；有时候则是还没真正搞清楚核心问题，就已经开始执行了。还有一些情况下，整个节奏会直接停住，好几周都没有什么实质进展，因为没人主动把事情往前推。顺便说一下，我已经多次主动 check in、表示可以提供帮助了，但这些问题还是一直在发生。</p>
+            <p>我相信人是在挣扎中成长的，所以我不想一看到阻力就立刻跳进去接管。但如果项目延期或者失败，责任最后还是会落到我头上。</p>
+            <p>所以这个平衡到底该怎么拿捏？你怎么才能既给别人真正的 ownership，而不是象征性的 ownership，同时又能维持标准和 accountability？另外，又该怎么避免自己变成那种太快冲进去接管一切的 micromanager，或者变成那种放任事情一路漂下去的甩手领导？</p>
+          </li>
+        </ol>
+
+        <hr/>
+
+        <h3>Original Release Notes</h3>
+        <p>In this episode, Dave and Jamison answer these questions:</p>
+        <ol>
+          <li>
+            <p>I am a senior software engineer at big tech and need a career change. With the rise of AI, I no longer enjoy this profession and panic everyday just waiting for a huge round of layoffs. At this point I feel like I am on some assembly line hitting enter like a monkey. Therefore I have been thinking of changing lanes and would like to get into engineering management. On the one hand I have enjoyed mentoring, strategic planning and coordinating projects across vendors and across teams, but besides that I don’t have clear evidence that this profession would fit me. In my current job there is no immediate opportunity to step up and manage a cross team project at the moment, so I am not sure how I can figure out if engineering management is the right choice for me. How do I figure this out without doing the job and how does one transition into it, probably as an external hire or transfer hire?</p>
+          </li>
+          <li>
+            <p>Paolo asks,</p>
+            <p>I’ve stepped into a senior role recently. I’m no longer the primary driver on projects. I’m supposed to create space for junior developers to lead, make decisions, and own outcomes. My job is to mentor and support, not to take the wheel.</p>
+            <p>But I’m seeing projects drag because of passivity. Sometimes the solutions are inefficient. Other times it feels like the core problem isn’t fully understood before execution starts. In a few cases, momentum just stalls, and weeks go by without real progress because no one is pushing the work forward. It’s worth mentioning that I check in multiple times to offer help yet these problems keep happening.</p>
+            <p>I believe people grow by struggling, so I don’t want to jump in at the first sign of friction. But if a project slips or fails, that responsibility ultimately rolls up to me.</p>
+            <p>So how do you strike the balance? How do you give someone real ownership, not just symbolic ownership, while still maintaining standards and accountability? And how do you avoid becoming either the micromanager who swoops in too quickly or the absentee leader who lets things drift?</p>
+          </li>
+        </ol>
+
+        <hr/>
+        <p><small>中文版由 <a href="https://github.com/huahuahu/podcast-lab">Podcast Lab v3</a> 管线自动生成：Azure gpt-4o-transcribe-diarize + Copilot GPT-5.4 翻译 + edge-tts 双音色合成。原始来源：<a href="https://softskills.audio/2026/04/20/episode-509-i-hate-ai-software-dev,-so-should-i-become-a-manager-and-leading,-not-doing/">Soft Skills Engineering #509</a>。</small></p>
       ]]></content:encoded>
       <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.5.0-sse-509-ai-dev-hater-manager/podcast_zh.mp3" length="16269020" type="audio/mpeg"/>
       <category>Technology</category>
