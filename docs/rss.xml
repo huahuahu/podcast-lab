@@ -9,7 +9,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Wed, 22 Apr 2026 08:55:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 00:54:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -35,6 +35,28 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>SSE #509：我讨厌 AI 编程，该转去做 manager 吗？</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-509-ai-dev-hater-manager</guid>
+      <pubDate>Fri, 24 Apr 2026 00:54:00 +0800</pubDate>
+      <description>Soft Skills Engineering #509 中文版。Jamison Dance 和 Dave Smith 回答两个开发者来信：一位否认强推 AI 编程的工程师该不该转做 engineering manager；另一位从个体贡献过渡到需要带团队的角色，如何在 leading 和 doing 之间找到自己的节奏。</description>
+      <content:encoded><![CDATA[
+        <p>Soft Skills Engineering 第 509 期。两个话题：(1) 听众讨厌 AI 编程趋势，正考虑转型做 Engineering Manager；(2) 当组织需要你 'lead' 但你更喜欢 'do' 时，怎么照顾自己和团队。</p>
+        <p>原始来源：<a href="https://softskills.audio/">Soft Skills Engineering</a>。中文版由 Podcast Lab v3 管线自动生成。</p>
+      ]]></content:encoded>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.5.0-sse-509-ai-dev-hater-manager/podcast_zh.mp3" length="16269020" type="audio/mpeg"/>
+      <category>Technology</category>
+      <category>Career</category>
+      <itunes:author>Podcast Lab</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/cover.png"/>
+      <itunes:duration>00:46:58</itunes:duration>
+      <itunes:summary>听众来信：讨厌 AI 编程该不该转做 manager？leading vs doing 怎么选？</itunes:summary>
+      <itunes:subtitle>AI 让编码变趣了吗？lead 还是 do？</itunes:subtitle>
+    </item>
 
     <item>
       <title>John Mearsheimer：美国正在输掉以色列的战争</title>
