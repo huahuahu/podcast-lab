@@ -50,6 +50,7 @@ while [ "$start" -lt "$TOTAL" ]; do
   if [ ! -f "$mp3" ]; then
     echo "✂️  chunk $idx @ ${start}s → $mp3"
     ffmpeg -loglevel error -ss "$start" -t "$CHUNK_SEC" -i "$AUDIO" \
+      -map_metadata -1 \
       -acodec libmp3lame -b:a 64k -ac 1 -ar 16000 -y "$mp3"
   fi
 
