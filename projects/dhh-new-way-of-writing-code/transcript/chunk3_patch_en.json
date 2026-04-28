@@ -1,0 +1,470 @@
+[
+  {
+    "start": 600.0,
+    "end": 604.781,
+    "speaker": "Guest",
+    "text": "Basically Gmail, and then all the rest is in this tiny little part of the graph."
+  },
+  {
+    "start": 604.781,
+    "end": 613.028,
+    "speaker": "Guest",
+    "text": "So we thought that after using Gmail, I used it since I don't know when I signed up, a few weeks into it, I got one of those invite codes."
+  },
+  {
+    "start": 613.028,
+    "end": 614.94,
+    "speaker": "Host",
+    "text": "That was a really clever launch."
+  },
+  {
+    "start": 614.94,
+    "end": 616.434,
+    "speaker": "Guest",
+    "text": "And I used it ever since."
+  },
+  {
+    "start": 616.434,
+    "end": 620.378,
+    "speaker": "Guest",
+    "text": "So that's literally 17 years or something of that, of Gmail usage."
+  },
+  {
+    "start": 620.378,
+    "end": 627.251,
+    "speaker": "Guest",
+    "text": "And over that time I built up a lot of opinions about things that didn't work quite like I would prefer it to work."
+  },
+  {
+    "start": 627.251,
+    "end": 630.717,
+    "speaker": "Guest",
+    "text": "And we put all those opinions into a new software product."
+  },
+  {
+    "start": 630.717,
+    "end": 644.88,
+    "speaker": "Guest",
+    "text": "Spent about almost two years developing it, millions of dollars in accumulative R&D funds, and launched it in the summer of 2020, which, by the way, time to launch a product, well, 2020 wasn't great for a whole host of different reasons."
+  },
+  {
+    "start": 644.88,
+    "end": 647.151,
+    "speaker": "Guest",
+    "text": "We were kind of trying to slot in a..."
+  },
+  {
+    "start": 647.151,
+    "end": 651.096,
+    "speaker": "Host",
+    "text": "Can there just be a week where the whole world is not just insane?"
+  },
+  {
+    "start": 651.096,
+    "end": 652.59,
+    "speaker": "Guest",
+    "text": "We finally picked a week."
+  },
+  {
+    "start": 652.59,
+    "end": 656.474,
+    "speaker": "Guest",
+    "text": "We went live, and then we had the battle of our lives with Apple."
+  },
+  {
+    "start": 656.474,
+    "end": 657.131,
+    "speaker": "Host",
+    "text": "With Apple."
+  },
+  {
+    "start": 657.131,
+    "end": 658.088,
+    "speaker": "Host",
+    "text": "I remember that."
+  },
+  {
+    "start": 658.088,
+    "end": 659.641,
+    "speaker": "Guest",
+    "text": "And ultimately ended up..."
+  },
+  {
+    "start": 659.641,
+    "end": 661.853,
+    "speaker": "Host",
+    "text": "They didn't want to approve your app."
+  },
+  {
+    "start": 661.853,
+    "end": 666.215,
+    "speaker": "Guest",
+    "text": "They didn't want to approve our app unless we paid the toll fee, the 30%."
+  },
+  {
+    "start": 666.215,
+    "end": 673.865,
+    "speaker": "Guest",
+    "text": "And they were basically willing to say, you can't be in the App Store, which for an email product like that is a death sentence."
+  },
+  {
+    "start": 673.865,
+    "end": 674.104,
+    "speaker": "Host",
+    "text": "Yes."
+  },
+  {
+    "start": 674.104,
+    "end": 678.287,
+    "speaker": "Guest",
+    "text": "You have to be on not just mobile phones, but specifically the iPhone."
+  },
+  {
+    "start": 678.287,
+    "end": 679.422,
+    "speaker": "Host",
+    "text": "This is true today."
+  },
+  {
+    "start": 679.422,
+    "end": 679.542,
+    "speaker": "Guest",
+    "text": "S."
+  },
+  {
+    "start": 679.542,
+    "end": 682.53,
+    "speaker": "Guest",
+    "text": "is the most affluent software market in the world."
+  },
+  {
+    "start": 682.53,
+    "end": 686.116,
+    "speaker": "Guest",
+    "text": "So for that business to work, we needed to be on the iPhone."
+  },
+  {
+    "start": 686.116,
+    "end": 695.797,
+    "speaker": "Guest",
+    "text": "After a two-week epic struggle back and forth, thankfully time to perfection with WWDC, where Apple preferably didn't want to look like the Goliath squashing a..."
+  },
+  {
+    "start": 695.797,
+    "end": 696.454,
+    "speaker": "Host",
+    "text": "Tiny David."
+  },
+  {
+    "start": 696.454,
+    "end": 698.127,
+    "speaker": "Guest",
+    "text": "developer, a tiny developer."
+  },
+  {
+    "start": 698.127,
+    "end": 703.865,
+    "speaker": "Guest",
+    "text": "We ended up being allowed in, and Apple sort of rewrote the rules after the fact to make it fit."
+  },
+  {
+    "start": 703.865,
+    "end": 709.183,
+    "speaker": "Guest",
+    "text": "It was a small victory, not the ultimate victory, but at least it allowed us to be there."
+  },
+  {
+    "start": 709.183,
+    "end": 716.534,
+    "speaker": "Guest",
+    "text": "And Hey ended up being an enormous success, in part, ironically, because Apple gave us wall-to-wall coverage for two weeks."
+  },
+  {
+    "start": 716.534,
+    "end": 723.586,
+    "speaker": "Guest",
+    "text": "When I look back upon that, I think I wouldn't have gambled like that because the outcome would have been zero, right?"
+  },
+  {
+    "start": 723.586,
+    "end": 725.199,
+    "speaker": "Guest",
+    "text": "Like Apple refuses our app."
+  },
+  {
+    "start": 725.199,
+    "end": 727.769,
+    "speaker": "Guest",
+    "text": "We sign up 200 people, and the app is dead."
+  },
+  {
+    "start": 727.769,
+    "end": 738.347,
+    "speaker": "Guest",
+    "text": "What instead happened was they gave us a multi-million dollar launch campaign and coverage in all major media, and we signed up tens of thousands of people in those first weeks."
+  },
+  {
+    "start": 738.347,
+    "end": 741.394,
+    "speaker": "Guest",
+    "text": "That was an insane event, but also very satisfying."
+  },
+  {
+    "start": 741.394,
+    "end": 744.442,
+    "speaker": "Guest",
+    "text": "And the other satisfying thing was I just love Hey."
+  },
+  {
+    "start": 744.442,
+    "end": 745.578,
+    "speaker": "Guest",
+    "text": "I use it every day."
+  },
+  {
+    "start": 745.578,
+    "end": 748.805,
+    "speaker": "Guest",
+    "text": "I basically use Basecamp in terms of web applications."
+  },
+  {
+    "start": 748.805,
+    "end": 751.554,
+    "speaker": "Guest",
+    "text": "That's where we do all our collaborative work."
+  },
+  {
+    "start": 751.554,
+    "end": 758.247,
+    "speaker": "Guest",
+    "text": "And then my number two app—and many days, it's my number one app—is Hey because I just do all my stuff in email."
+  },
+  {
+    "start": 758.247,
+    "end": 760.757,
+    "speaker": "Guest",
+    "text": "I am constantly communicating with people."
+  },
+  {
+    "start": 760.757,
+    "end": 761.474,
+    "speaker": "Guest",
+    "text": "I'm writing."
+  },
+  {
+    "start": 761.474,
+    "end": 764.641,
+    "speaker": "Guest",
+    "text": "I'm doing a lot of stuff in email, as many people do."
+  },
+  {
+    "start": 764.641,
+    "end": 782.629,
+    "speaker": "Guest",
+    "text": "And having that be a pleasurable experience and a nice environment and my inbox being a little more sacred than what happens with Gmail where total strangers around the world can just make your pocket buzz if you have notifications turned on, which they are by default, just seems insane to me, right?"
+  },
+  {
+    "start": 782.629,
+    "end": 787.769,
+    "speaker": "Guest",
+    "text": "This idea that there's direct access to one of my most important daily priority lists."
+  },
+  {
+    "start": 787.769,
+    "end": 790.04,
+    "speaker": "Guest",
+    "text": "Like anyone can put something on that?"
+  },
+  {
+    "start": 790.04,
+    "end": 790.458,
+    "speaker": "Guest",
+    "text": "Insane."
+  },
+  {
+    "start": 790.458,
+    "end": 792.131,
+    "speaker": "Guest",
+    "text": "Anyway, Hey doesn't do that."
+  },
+  {
+    "start": 792.131,
+    "end": 798.645,
+    "speaker": "Guest",
+    "text": "We have the screener and no one gets to reach your inbox before you've said, I want to hear from this person."
+  },
+  {
+    "start": 798.645,
+    "end": 801.753,
+    "speaker": "Guest",
+    "text": "And most of the time I say no to most people, right?"
+  },
+  {
+    "start": 801.753,
+    "end": 805.159,
+    "speaker": "Guest",
+    "text": "Like things end up in the screener and we have thumbs up."
+  },
+  {
+    "start": 805.159,
+    "end": 806.892,
+    "speaker": "Guest",
+    "text": "I will hear from this person."
+  },
+  {
+    "start": 806.892,
+    "end": 807.61,
+    "speaker": "Guest",
+    "text": "Thumbs down."
+  },
+  {
+    "start": 807.61,
+    "end": 809.94,
+    "speaker": "Guest",
+    "text": "I'll never hear from that person again."
+  },
+  {
+    "start": 809.94,
+    "end": 811.494,
+    "speaker": "Host",
+    "text": "This is how I reached out."
+  },
+  {
+    "start": 811.494,
+    "end": 821.952,
+    "speaker": "Host",
+    "text": "I mean, we were, I'm not sure we were connected on X, but I said email because your email is out there and your screener seems to have worked because it gave me the thumbs up."
+  },
+  {
+    "start": 821.952,
+    "end": 823.984,
+    "speaker": "Guest",
+    "text": "It did because the screener is me."
+  },
+  {
+    "start": 823.984,
+    "end": 828.825,
+    "speaker": "Guest",
+    "text": "So there's not even AI trying to suss out whether I want to hear from you or not."
+  },
+  {
+    "start": 828.825,
+    "end": 839.88,
+    "speaker": "Guest",
+    "text": "Because what turns out to be true is it's actually not that onerous to once a day, go through your screener and say thumbs up or down because there aren't that many people in the world."
+  },
+  {
+    "start": 839.88,
+    "end": 848.486,
+    "speaker": "Guest",
+    "text": "And if you say no to the annoying pestering salespeople who within Gmail managed to read your inbox seven times, then the workload is much less."
+  },
+  {
+    "start": 848.486,
+    "end": 860.857,
+    "speaker": "Guest",
+    "text": "And it's very satisfying, I would say too, because when I was using Gmail, I would get roped into this sales tactic that they of course rely on, which is that like you write back and say like, no, thank you."
+  },
+  {
+    "start": 860.857,
+    "end": 861.992,
+    "speaker": "Guest",
+    "text": "I'm not interested."
+  },
+  {
+    "start": 861.992,
+    "end": 864.024,
+    "speaker": "Guest",
+    "text": "And then they would respond again."
+  },
+  {
+    "start": 864.024,
+    "end": 864.263,
+    "speaker": "Host",
+    "text": "Yes."
+  },
+  {
+    "start": 864.263,
+    "end": 868.685,
+    "speaker": "Guest",
+    "text": "And now you feel like, wait, am I now obligated to respond to this person?"
+  },
+  {
+    "start": 868.685,
+    "end": 870.179,
+    "speaker": "Guest",
+    "text": "I kind of feel like I am."
+  },
+  {
+    "start": 870.179,
+    "end": 872.57,
+    "speaker": "Guest",
+    "text": "And occasionally I would end up writing."
+  },
+  {
+    "start": 872.57,
+    "end": 876.454,
+    "speaker": "Guest",
+    "text": "And even if I wouldn't write, they still have access to my inbox."
+  },
+  {
+    "start": 876.454,
+    "end": 878.367,
+    "speaker": "Guest",
+    "text": "So I would hear from them again."
+  },
+  {
+    "start": 878.367,
+    "end": 880.936,
+    "speaker": "Guest",
+    "text": "Next week, they have a whole drip campaign."
+  },
+  {
+    "start": 880.936,
+    "end": 882.55,
+    "speaker": "Host",
+    "text": "They all fucking do, right?"
+  },
+  {
+    "start": 882.55,
+    "end": 884.582,
+    "speaker": "Guest",
+    "text": "That any outreach is seven emails."
+  },
+  {
+    "start": 884.582,
+    "end": 885.777,
+    "speaker": "Guest",
+    "text": "It's not one emails."
+  },
+  {
+    "start": 885.777,
+    "end": 886.853,
+    "speaker": "Guest",
+    "text": "It's seven emails."
+  },
+  {
+    "start": 886.853,
+    "end": 889.9,
+    "speaker": "Host",
+    "text": "And if you show any sign of life, it's probably 52."
+  },
+  {
+    "start": 889.9,
+    "end": 892.052,
+    "speaker": "Guest",
+    "text": "That's just not how it works in Hey."
+  },
+  {
+    "start": 892.052,
+    "end": 895.757,
+    "speaker": "Guest",
+    "text": "I say thumbs down one time, never hear from that person again."
+  },
+  {
+    "start": 895.757,
+    "end": 900.0,
+    "speaker": "Guest",
+    "text": "It's actually amazing how quickly you can curate your garden from that."
+  }
+]
