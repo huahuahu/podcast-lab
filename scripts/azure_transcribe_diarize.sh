@@ -2,11 +2,16 @@
 # azure_transcribe_diarize.sh — 用 Azure gpt-4o-transcribe-diarize 一步搞定
 # STT + speaker diarization（替代 SF SenseVoice + pyannote）。
 #
+# 注意：访问 Azure endpoint 要走直连，不要走 VPN/proxy。
+#   试过走 VPN 握手在 chunked SSE 中间易断流。如果 shell 有
+#   HTTPS_PROXY / HTTP_PROXY / ALL_PROXY / https_proxy / http_proxy / all_proxy
+#   请先 unset 后再跑：
+#     unset HTTPS_PROXY HTTP_PROXY ALL_PROXY https_proxy http_proxy all_proxy
+#
 # 备选：可改用 OpenAI 直连（api.openai.com）的 gpt-4o-transcribe。
 #   把 URL 换成 https://api.openai.com/v1/audio/transcriptions，
 #   把 api-key 头换成 Authorization: Bearer $OPENAI_API_KEY，
 #   model 字段填 gpt-4o-transcribe。其他切片/SSE 解析逻辑不变。
-#   注意：国内 Azure endpoint 走 VPN 经常握手失败/断流，长音频建议走 OpenAI 直连（不过 VPN）更稳。
 #
 # 用法:
 #   ./azure_transcribe_diarize.sh <audio> <out_dir> [chunk_sec]
