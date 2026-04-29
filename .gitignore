@@ -45,3 +45,6 @@ venv/
 
 # System
 .DS_Store
+
+# Claude Code local settings
+.claude/
