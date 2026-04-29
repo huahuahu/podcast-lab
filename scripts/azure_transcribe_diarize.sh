@@ -6,7 +6,7 @@
 #   把 URL 换成 https://api.openai.com/v1/audio/transcriptions，
 #   把 api-key 头换成 Authorization: Bearer $OPENAI_API_KEY，
 #   model 字段填 gpt-4o-transcribe。其他切片/SSE 解析逻辑不变。
-#   注意：国内走 VPN 直连 OpenAI 经常断流/握手失败，长音频建议优先 Azure。
+#   注意：国内 Azure endpoint 走 VPN 经常握手失败/断流，长音频建议走 OpenAI 直连（不过 VPN）更稳。
 #
 # 用法:
 #   ./azure_transcribe_diarize.sh <audio> <out_dir> [chunk_sec]
