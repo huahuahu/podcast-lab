@@ -9,7 +9,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Wed, 29 Apr 2026 06:25:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 18:00:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -35,6 +35,35 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>John Mearsheimer：Trump 是怎样输掉这场战争的</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">mearsheimer-trump-lost-war</guid>
+      <pubDate>Wed, 29 Apr 2026 18:00:00 +0800</pubDate>
+      <description>Judge Napolitano 访谈 John Mearsheimer，分析 Trump 在伊朗战争中的战略失败、Iran 与 Russia/Hezbollah/Hamas 三方支持的关系，以及为什么美国-伊朗很难达成有实质意义的和平协议。</description>
+      <content:encoded><![CDATA[
+        <h3>中文摘要</h3>
+        <p>Judge Napolitano 与 John Mearsheimer 对谈，讨论：</p>
+        <ul>
+          <li>伊朗人民在这场战争中展现的勇气与 Tehran 的外交盟友</li>
+          <li>Iran 对 Hezbollah、Hamas 、其他代理组织的支持什么不会停</li>
+          <li>为什么 Trump 政府在以色列压力下很难达成实质和平协议</li>
+          <li>美国国力在中东问题上的受损</li>
+        </ul>
+        <p><small>原始来源：<a href="https://www.youtube.com/watch?v=VHXJxEU7Ses">Prof. John Mearsheimer: How Trump Lost His War</a> on Judging Freedom。中文版由 Podcast Lab v3 管线自动生成（Azure diarize 直连 + Copilot GPT-5.4 重分配与翻译 + edge-tts 双音色）。</small></p>
+      ]]></content:encoded>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.7.0-mearsheimer-trump-lost-war/podcast_zh.mp3" length="10764236" type="audio/mpeg"/>
+      <category>News</category>
+      <category>Politics</category>
+      <itunes:author>Podcast Lab</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/cover.png"/>
+      <itunes:duration>00:30:47</itunes:duration>
+      <itunes:summary>Mearsheimer 分析 Trump 在伊朗战争中的战略失败与中东各方势力。</itunes:summary>
+      <itunes:subtitle>Trump 在伊朗战争中的战略失败</itunes:subtitle>
+    </item>
 
     <item>
       <title>DHH × Pragmatic Engineer：用 AI 写代码的新方式</title>
