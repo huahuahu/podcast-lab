@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Wed, 29 Apr 2026 18:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 19:00:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,36 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>财富智慧课 #1 · 家庭资产配置（APRD 系列）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">aprd-wealth-class-1-asset-allocation</guid>
+      <pubDate>Wed, 29 Apr 2026 19:00:00 +0800</pubDate>
+      <description>APRD 财富智慧课第一节：家庭资产配置。主讲人梳理通胀对货币购买力的侵蚀、复利与时间的关系、超额储蓄怎么处置，以及个人在「财富战场上场」之前要先做好的功课，并用约 50 分钟讲家庭资产配置的实操方法。</description>
+      <content:encoded><![CDATA[
+        <h3>课程概要</h3>
+        <p>APRD 财富智慧课系列第一节，主讲家庭资产配置。课程分三大部分：</p>
+        <ul>
+          <li>当下家庭财富管理面对的路径与挑战，包括通胀对货币购买力的侵蚀、社会服务性通胀的真实水平</li>
+          <li>复利与时间的关系：为什么时间比收益率更重要，以及大部分人为什么挣不到「最后阶段」的指数级回报</li>
+          <li>实操：约 50 分钟讲个人/家庭在财富战场上场前应做的准备和资产配置方法</li>
+        </ul>
+        <p><small>录制日期 2026-04-27，时长 02:09:31。中文字幕由 Azure OpenAI gpt-4o-mini-transcribe 自动生成，音频为原录音直接转 mp3，未做翻译、TTS 或 diarization。</small></p>
+      ]]></content:encoded>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.8.0-aprd-wealth-class-1/podcast_zh.mp3" length="44189243" type="audio/mpeg"/>
+      <podcast:transcript url="https://github.com/huahuahu/podcast-lab/releases/download/v0.8.0-aprd-wealth-class-1/zh.srt" type="application/srt" language="zh"/>
+      <podcast:transcript url="https://github.com/huahuahu/podcast-lab/releases/download/v0.8.0-aprd-wealth-class-1/zh.vtt" type="text/vtt" language="zh"/>
+      <category>Business</category>
+      <category>Investing</category>
+      <itunes:author>Podcast Lab</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/cover.png"/>
+      <itunes:duration>02:09:31</itunes:duration>
+      <itunes:summary>家庭资产配置实操：通胀、复利、时间、超额储蓄怎么处置。</itunes:summary>
+      <itunes:subtitle>APRD 财富智慧课系列第一节</itunes:subtitle>
+    </item>
 
     <item>
       <title>John Mearsheimer：Trump 是怎样输掉这场战争的</title>
