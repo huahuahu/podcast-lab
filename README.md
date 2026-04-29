@@ -31,7 +31,7 @@ audio/podcast_zh.mp3  🎧
 
 | 环节 | 选用 | 为什么 |
 |---|---|---|
-| **STT + Diarize** | Azure `gpt-4o-transcribe-diarize`（SSE 流式） | 一个 API 同时返回文字 + 时间戳 + 说话人；免本地 pyannote、免 HF token、免长时间跑模型 |
+| **STT + Diarize** | Azure `gpt-4o-transcribe-diarize`（SSE 流式） | 一个 API 同时返回文字 + 时间戳 + 说话人；免本地 pyannote、免 HF token、免长时间跑模型。也可改用 **OpenAI 直连**（`api.openai.com` 的 `gpt-4o-transcribe`），只需换 endpoint + `OPENAI_API_KEY`。 |
 | **翻译** | GitHub Copilot `gpt-5.4` | 公司订阅免费；口语化、保留术语、上下文连贯 |
 | **TTS** | `edge-tts` + `zh-CN-YunyangNeural` / `zh-CN-XiaoxiaoNeural` | 免费白嫖 Microsoft Edge 协议；支持多音色；音质自然 |
 
