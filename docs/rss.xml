@@ -57,7 +57,6 @@
       <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.7.0-mearsheimer-trump-lost-war/podcast_zh.mp3" length="10764236" type="audio/mpeg"/>
       <podcast:transcript url="https://github.com/huahuahu/podcast-lab/releases/download/v0.7.0-mearsheimer-trump-lost-war/bilingual.srt" type="application/srt" language="zh"/>
       <podcast:transcript url="https://github.com/huahuahu/podcast-lab/releases/download/v0.7.0-mearsheimer-trump-lost-war/zh.vtt" type="text/vtt" language="zh"/>
-      <podcast:transcript url="https://github.com/huahuahu/podcast-lab/releases/download/v0.7.0-mearsheimer-trump-lost-war/en.vtt" type="text/vtt" language="en"/>
       <category>News</category>
       <category>Politics</category>
       <itunes:author>Podcast Lab</itunes:author>
