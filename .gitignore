@@ -21,6 +21,9 @@ projects/**/transcript/.speakers-reassigned
 # 日志文件
 projects/**/*.log
 
+# 临时存档（重跑时备份的旧产物）
+projects/**/_archive_*/
+
 # pyannote/diarization 中间 wav
 projects/**/source/audio_16k.wav
 

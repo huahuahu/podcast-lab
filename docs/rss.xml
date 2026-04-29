@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Wed, 29 Apr 2026 19:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 21:00:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -99,20 +99,24 @@
     </item>
 
     <item>
-      <title>DHH × Pragmatic Engineer：用 AI 写代码的新方式</title>
+      <title>DHH × Pragmatic Engineer：用 AI 写代码的新方式（v2 重制）</title>
       <link>https://huahuahu.github.io/podcast-lab/</link>
       <guid isPermaLink="false">dhh-new-way-of-writing-code</guid>
-      <pubDate>Tue, 28 Apr 2026 23:42:00 +0800</pubDate>
-      <description>The Pragmatic Engineer 访谈 DHH（David Heinemeier Hansson）。DHH 半年前还狠批 AI 编程，冬休期间 180 度大转变——37signals 现在 AI-first，每个工程师/设计师都变得更雄心勃勃。聊到 Hey、Linux 发行版 Omarchy、Basecamp 重做、AI tooling 演化、传统 IDE 让位给 agent、招聘标准变化，以及 Smalltalk 与 Kent Beck 的影响。</description>
+      <pubDate>Wed, 29 Apr 2026 21:00:00 +0800</pubDate>
+      <description>The Pragmatic Engineer 访谈 DHH（David Heinemeier Hansson）。DHH 半年前还狠批 AI 编程，冬休期间 180 度大转变——37signals 现在 AI-first，每个工程师/设计师都变得更雄心勃勃。聊到 Hey、Linux 发行版 Omarchy、Basecamp 重做、AI tooling 演化、传统 IDE 让位给 agent、招聘标准变化，以及 Smalltalk 与 Kent Beck 的影响。　　本期为 v2 重制版：旧版 speaker 分配在多次手工修补后不一致、结尾不稳；本版整集从 STT 起重跑全管线，干净一致。</description>
       <content:encoded><![CDATA[
         <h3>中文摘要</h3>
         <p>The Pragmatic Engineer 主持人 Gergely Orosz 访谈 DHH。</p>
         <p>半年前 DHH 在别人的 podcast 上狠批 AI 编程工具。冬休期间几周，他做了 180 度大转变，所以今天这期节目讨论：到底什么变了？37signals 的团队现在怎么写代码？AI 怎么让设计师也能全栈、让小公司重做心中的 Linux 发行版、让招聘标准提高。</p>
         <p>还聊到传统 IDE、Smalltalk、Kent Beck的《Smalltalk Best Practices》对他的影响，以及 DHH 有什么送给年轻开发者的建议。</p>
-
+        <p><strong>v2 说明：</strong>旧版（v0.6.0）的 speaker 分配在 LLM reassign 之前打过多个手工补丁，又单独修补过 chunk 3，结尾几个 chunk 主持/嘉宾切换不稳，听感乱。这一版整集从头重跑（STT → LLM reassign → 翻译 → TTS → 字幕），全程不修补，HOST/GUEST 一致。</p>
         <p><small>原始来源：<a href="https://www.pragmaticengineer.com/dhh-new-way-of-writing-code">DHH's new way of writing code</a> on The Pragmatic Engineer Podcast。中文版由 Podcast Lab v3 管线自动生成。</small></p>
       ]]></content:encoded>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.6.0-dhh-new-way-of-writing-code/podcast_zh.mp3" length="48321020" type="audio/mpeg"/>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.9.0-dhh-new-way-of-writing-code/podcast_zh.mp3" length="47079284" type="audio/mpeg"/>
+      <podcast:transcript url="https://github.com/huahuahu/podcast-lab/releases/download/v0.9.0-dhh-new-way-of-writing-code/zh.srt" type="application/srt" language="zh"/>
+      <podcast:transcript url="https://github.com/huahuahu/podcast-lab/releases/download/v0.9.0-dhh-new-way-of-writing-code/zh.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://github.com/huahuahu/podcast-lab/releases/download/v0.9.0-dhh-new-way-of-writing-code/bilingual.srt" type="application/srt" language="zh"/>
+      <podcast:transcript url="https://github.com/huahuahu/podcast-lab/releases/download/v0.9.0-dhh-new-way-of-writing-code/bilingual.vtt" type="text/vtt" language="zh"/>
       <category>Technology</category>
       <category>Programming</category>
       <category>AI</category>
@@ -120,9 +124,9 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/cover.png"/>
-      <itunes:duration>02:17:35</itunes:duration>
-      <itunes:summary>DHH 谈他如何从狠批 AI 编程到 AI-first，以及 37signals 的工作方式变革。</itunes:summary>
-      <itunes:subtitle>DHH 反转：从狠批 AI 编程到 AI-first</itunes:subtitle>
+      <itunes:duration>02:14:51</itunes:duration>
+      <itunes:summary>DHH 谈他如何从狠批 AI 编程到 AI-first，以及 37signals 的工作方式变革。（v2 重制）</itunes:summary>
+      <itunes:subtitle>DHH 反转：从狠批 AI 编程到 AI-first（v2 重制）</itunes:subtitle>
     </item>
 
     <item>
