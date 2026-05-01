@@ -46,8 +46,7 @@ def write_srt(path: str, cues: list):
 def write_vtt(path: str, cues: list):
     with open(path, "w", encoding="utf-8") as f:
         f.write("WEBVTT\n\n")
-        for i, c in enumerate(cues, 1):
-            f.write(f"{i}\n")
+        for c in cues:
             f.write(f"{fmt_vtt_time(c['start'])} --> {fmt_vtt_time(c['end'])}\n")
             f.write(f"{c['text']}\n\n")
 
