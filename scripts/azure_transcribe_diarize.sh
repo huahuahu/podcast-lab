@@ -28,6 +28,8 @@
 #   MAX_BYTES               (默认 24000000，~24MB 低于 Azure 25MB 上限)
 set -euo pipefail
 
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
 # Azure endpoint 在国内需要直连（走 VPN/proxy 在长 SSE 中间易断流、握手失败）。
 # 在脚本内部 unset proxy，这样调用者不需要预处理环境；
 # 其它需要 proxy 的工具（gh/git/copilot 等）不受影响，因为只在本脚本进程生效。
@@ -102,30 +104,7 @@ while [ "$start" -lt "$TOTAL" ]; do
     fi
 
     # 从 SSE 抽出 segment 事件，加上全局偏移
-    python3 - "$sse" "$start" > "$segs" <<'PY'
-import json, re, sys
-sse_path, offset = sys.argv[1], float(sys.argv[2])
-segs = []
-with open(sse_path) as f:
-    for line in f:
-        line = line.strip()
-        if not line.startswith("data: "):
-            continue
-        payload = line[6:]
-        try:
-            evt = json.loads(payload)
-        except Exception:
-            continue
-        if evt.get("type") != "transcript.text.segment":
-            continue
-        segs.append({
-            "start": round(float(evt["start"]) + offset, 3),
-            "end":   round(float(evt["end"])   + offset, 3),
-            "speaker": evt.get("speaker") or "?",
-            "text": (evt.get("text") or "").strip(),
-        })
-json.dump(segs, sys.stdout, ensure_ascii=False, indent=2)
-PY
+    python3 "$SCRIPT_DIR/_parse_segs.py" "$sse" "$start" > "$segs"
     echo "   ✓ $(jq length "$segs") segments"
   fi
 
@@ -134,47 +113,7 @@ done
 
 # 合并所有 chunk 的 segs → dialog_en.json
 echo "🔗 合并 ${idx} 个 chunk → dialog_en.json"
-python3 - "$CHUNK_DIR" "$OUT_DIR/dialog_en.json" <<'PY'
-import json, os, sys, glob, re
-chunk_dir, out = sys.argv[1], sys.argv[2]
-files = sorted(glob.glob(os.path.join(chunk_dir, "chunk_*.segs.json")))
-all_segs = []
-for fp in files:
-    with open(fp) as f:
-        all_segs.extend(json.load(f))
-
-# Azure 返回的 speaker 是 'A' / 'B' / 'C' ...
-# 每个 chunk 内部是独立 diarize 的，不同 chunk 里的 'A' 不一定是同一个人。
-# 后续可用 rename_speakers.py 手工重映射到 Host/Guest。
-#
-# 合并策略：
-#   1) 相邻同 speaker + 间隔 <1s → 合并
-#   2) 但合并后的段落长度不超过 MAX_CHARS（默认 250），超了就开新段
-#   3) 这样避免独白视频被合成一大段导致 TTS 超时
-MAX_CHARS = 250  # 大致 15-25 秒语音
-merged = []
-for s in all_segs:
-    if (merged
-        and merged[-1]["speaker"] == s["speaker"]
-        and s["start"] - merged[-1]["end"] < 1.0
-        and len(merged[-1]["text"]) + len(s["text"]) + 1 <= MAX_CHARS):
-        merged[-1]["end"] = s["end"]
-        merged[-1]["text"] = (merged[-1]["text"] + " " + s["text"]).strip()
-    else:
-        merged.append(dict(s))
-
-# speaker 规范化 A→SPEAKER_00, B→SPEAKER_01, ...（和 pyannote 对齐）
-def norm(sp):
-    if re.fullmatch(r"[A-Z]", sp or ""):
-        return f"SPEAKER_{ord(sp) - ord('A'):02d}"
-    return sp
-for s in merged:
-    s["speaker"] = norm(s["speaker"])
-
-with open(out, "w") as f:
-    json.dump(merged, f, ensure_ascii=False, indent=2)
-print(f"✅ {len(merged)} utterances → {out}")
-PY
+python3 "$SCRIPT_DIR/_merge_chunks.py" "$CHUNK_DIR" "$OUT_DIR/dialog_en.json"
 
 echo ""
 echo "✅ 完成: $OUT_DIR/dialog_en.json"
