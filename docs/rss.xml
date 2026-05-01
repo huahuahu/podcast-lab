@@ -56,10 +56,10 @@
         <p><small>原始来源：<a href="https://judgenap.com/">Judging Freedom</a> — Judge Andrew Napolitano。中文版由 Podcast Lab v3 管线自动生成（Azure gpt-4o-transcribe-diarize 直连 + Copilot GPT-5.4 重分配与翻译 + edge-tts 双音色，scheme B 字幕）。</small></p>
       ]]></content:encoded>
       <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.11.0-mearsheimer-netanyahu-tricked-trump/podcast_zh.mp3" length="8984108" type="audio/mpeg"/>
-      <podcast:transcript url="https://github.com/huahuahu/podcast-lab/releases/download/v0.11.0-mearsheimer-netanyahu-tricked-trump/zh.srt" type="application/srt" language="zh"/>
-      <podcast:transcript url="https://github.com/huahuahu/podcast-lab/releases/download/v0.11.0-mearsheimer-netanyahu-tricked-trump/zh.vtt" type="text/vtt" language="zh"/>
-      <podcast:transcript url="https://github.com/huahuahu/podcast-lab/releases/download/v0.11.0-mearsheimer-netanyahu-tricked-trump/bilingual.srt" type="application/srt" language="zh"/>
-      <podcast:transcript url="https://github.com/huahuahu/podcast-lab/releases/download/v0.11.0-mearsheimer-netanyahu-tricked-trump/bilingual.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/mearsheimer-netanyahu-tricked-trump/zh.srt" type="application/srt" language="zh"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/mearsheimer-netanyahu-tricked-trump/zh.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/mearsheimer-netanyahu-tricked-trump/bilingual.srt" type="application/srt" language="zh"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/mearsheimer-netanyahu-tricked-trump/bilingual.vtt" type="text/vtt" language="zh"/>
       <category>News</category>
       <category>Politics</category>
       <itunes:author>Podcast Lab</itunes:author>
@@ -91,10 +91,10 @@
         <p><small>原始来源：<a href="https://softskills.audio/episodes/510">Soft Skills Engineering Episode 510</a>。中文版由 Podcast Lab v3 管线自动生成（Azure gpt-4o-transcribe-diarize 直连 + Copilot GPT-5.4 重分配与翻译 + edge-tts 双音色，scheme B 字幕）。</small></p>
       ]]></content:encoded>
       <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.10.0-sse-510-old-and-behind/podcast_zh.mp3" length="15725828" type="audio/mpeg"/>
-      <podcast:transcript url="https://github.com/huahuahu/podcast-lab/releases/download/v0.10.0-sse-510-old-and-behind/zh.srt" type="application/srt" language="zh"/>
-      <podcast:transcript url="https://github.com/huahuahu/podcast-lab/releases/download/v0.10.0-sse-510-old-and-behind/zh.vtt" type="text/vtt" language="zh"/>
-      <podcast:transcript url="https://github.com/huahuahu/podcast-lab/releases/download/v0.10.0-sse-510-old-and-behind/bilingual.srt" type="application/srt" language="zh"/>
-      <podcast:transcript url="https://github.com/huahuahu/podcast-lab/releases/download/v0.10.0-sse-510-old-and-behind/bilingual.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/sse-510-old-and-behind/zh.srt" type="application/srt" language="zh"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/sse-510-old-and-behind/zh.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/sse-510-old-and-behind/bilingual.srt" type="application/srt" language="zh"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/sse-510-old-and-behind/bilingual.vtt" type="text/vtt" language="zh"/>
       <category>Technology</category>
       <category>Career</category>
       <itunes:author>Podcast Lab</itunes:author>
@@ -123,8 +123,8 @@
         <p><small>录制日期 2026-04-27，时长 02:09:31。中文字幕由 Azure OpenAI gpt-4o-mini-transcribe 自动生成，音频为原录音直接转 mp3，未做翻译、TTS 或 diarization。</small></p>
       ]]></content:encoded>
       <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.8.0-aprd-wealth-class-1/podcast_zh.mp3" length="44189243" type="audio/mpeg"/>
-      <podcast:transcript url="https://github.com/huahuahu/podcast-lab/releases/download/v0.8.0-aprd-wealth-class-1/zh.srt" type="application/srt" language="zh"/>
-      <podcast:transcript url="https://github.com/huahuahu/podcast-lab/releases/download/v0.8.0-aprd-wealth-class-1/zh.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/aprd-wealth-class-1-asset-allocation/zh.srt" type="application/srt" language="zh"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/aprd-wealth-class-1-asset-allocation/zh.vtt" type="text/vtt" language="zh"/>
       <category>Business</category>
       <category>Investing</category>
       <itunes:author>Podcast Lab</itunes:author>
@@ -154,8 +154,8 @@
         <p><small>原始来源：<a href="https://www.youtube.com/watch?v=VHXJxEU7Ses">Prof. John Mearsheimer: How Trump Lost His War</a> on Judging Freedom。中文版由 Podcast Lab v3 管线自动生成（Azure diarize 直连 + Copilot GPT-5.4 重分配与翻译 + edge-tts 双音色）。</small></p>
       ]]></content:encoded>
       <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.7.0-mearsheimer-trump-lost-war/podcast_zh.mp3" length="10764236" type="audio/mpeg"/>
-      <podcast:transcript url="https://github.com/huahuahu/podcast-lab/releases/download/v0.7.0-mearsheimer-trump-lost-war/bilingual.srt" type="application/srt" language="zh"/>
-      <podcast:transcript url="https://github.com/huahuahu/podcast-lab/releases/download/v0.7.0-mearsheimer-trump-lost-war/zh.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/mearsheimer-trump-lost-war/bilingual.srt" type="application/srt" language="zh"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/mearsheimer-trump-lost-war/zh.vtt" type="text/vtt" language="zh"/>
       <category>News</category>
       <category>Politics</category>
       <itunes:author>Podcast Lab</itunes:author>
@@ -182,10 +182,10 @@
         <p><small>原始来源：<a href="https://www.pragmaticengineer.com/dhh-new-way-of-writing-code">DHH's new way of writing code</a> on The Pragmatic Engineer Podcast。中文版由 Podcast Lab v3 管线自动生成。</small></p>
       ]]></content:encoded>
       <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.9.0-dhh-new-way-of-writing-code/podcast_zh.mp3" length="47079284" type="audio/mpeg"/>
-      <podcast:transcript url="https://github.com/huahuahu/podcast-lab/releases/download/v0.9.0-dhh-new-way-of-writing-code/zh.srt" type="application/srt" language="zh"/>
-      <podcast:transcript url="https://github.com/huahuahu/podcast-lab/releases/download/v0.9.0-dhh-new-way-of-writing-code/zh.vtt" type="text/vtt" language="zh"/>
-      <podcast:transcript url="https://github.com/huahuahu/podcast-lab/releases/download/v0.9.0-dhh-new-way-of-writing-code/bilingual.srt" type="application/srt" language="zh"/>
-      <podcast:transcript url="https://github.com/huahuahu/podcast-lab/releases/download/v0.9.0-dhh-new-way-of-writing-code/bilingual.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/dhh-new-way-of-writing-code/zh.srt" type="application/srt" language="zh"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/dhh-new-way-of-writing-code/zh.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/dhh-new-way-of-writing-code/bilingual.srt" type="application/srt" language="zh"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/dhh-new-way-of-writing-code/bilingual.vtt" type="text/vtt" language="zh"/>
       <category>Technology</category>
       <category>Programming</category>
       <category>AI</category>

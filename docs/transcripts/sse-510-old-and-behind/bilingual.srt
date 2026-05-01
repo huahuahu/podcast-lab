@@ -1,0 +1,1850 @@
+1
+00:00:00,000 --> 00:00:19,032
+[Host] 想让你最喜欢的产品除了深色模式和浅色模式之外，再加一个三文鱼色模式，光靠游说可不够。想成为一名优秀的软件工程师，这里是 Soft Skills Engineering 播客第 510 期，我是你们的主持人 Jamison Dance。
+It takes more than lobbying to add salmon mode in addition to dark and light modes to your favorite product. To be a great software engineer, this is episode 510 of the Soft Skills Engineering Podcast, where I'm your host, Jamison Dance.
+
+2
+00:00:19,382 --> 00:00:22,334
+[Host] 我是你们的主持人 Dave Smith。
+I'm your host, Dave Smith.
+
+3
+00:00:22,684 --> 00:00:37,324
+[Host] Soft Skills Engineering 是一档每周更新的建议类节目，聊的是软件开发这个技术领域里所有那些非技术的事，比如搞清楚他们说的 salmon 到底是指三文鱼色，还是某种鱼。
+Soft Skills Engineering is a weekly advice show about all the non-technical things that go into the technical field of software development, like figuring out if they mean the color salmon or some kind of fish.
+
+4
+00:00:37,674 --> 00:00:46,050
+[Host] 基于 Persona。要是一条鱼来用这个文本编辑器会怎样？它会怎么表达自己的意图？
+Based Persona. What if a fish were to use this text editor? How would it express its intent?
+
+5
+00:00:46,400 --> 00:01:06,200
+[Host] 你看过那个网络漫画吗？里面一条三文鱼在跟一个人类说话，那个人类说，嘿，告诉你个有趣的事，我们有一种颜色是以你命名的。那条鱼就说，哦，真的？叫 salmon？那个人类说，对。然后那条鱼说——
+Have you seen the webcomic where there's a salmon fish talking to a human and the human goes, hey, fun fact, we have a color named after you. And the fish is like, oh, really? It's called salmon? And the human's like, yeah. And the fish goes,
+
+6
+00:01:06,549 --> 00:01:08,853
+[Host] 是灰色的，对吧？
+it's gray, right?
+
+7
+00:01:09,203 --> 00:01:10,259
+[Host] 对。
+Yeah.
+
+8
+00:01:10,609 --> 00:01:13,537
+[Host] 然后那个人类就开始冒汗了。
+And the human's like sweating.
+
+9
+00:01:13,887 --> 00:01:16,191
+[Host] 呃，也不完全是。
+Uh, not exactly.
+
+10
+00:01:16,541 --> 00:01:18,893
+[Host] 它是灰色的，对吧？
+It's gray, right?
+
+11
+00:01:19,243 --> 00:01:37,891
+[Host] 我后来才知道，有时候他们会给三文鱼染色，让它看起来更粉一点，这让我有点难过，但我还是照吃不误。这个嘛，你知道的，我们今天不是聊技术层面的，也不是聊三文鱼。Dave，你要不要感谢一下我们的 patrons？
+i learned that sometimes they dye salmon to make it more pink and that made me sad but i still eat it this is not you know we're not about the technical side and we're also not about salmon dave do you want to thank our patrons
+
+12
+00:01:38,241 --> 00:01:49,977
+[Guest] 对，要的。好，特别感谢那些支持到我们每周都会念出他们 Patreon 主页名这个档位的朋友。他们是 Angel Will Not。Please stop asking.
+Yes, I do. Okay, big shout out to those that are contributing at the level where we read their profile name from Patreon every week. They are Angel Will Not. Please stop asking.
+
+13
+00:01:50,327 --> 00:01:56,447
+[Guest] 引号 22 闭引号 不等于 引号 22 引号 I got rich and bought the yacht back
+Quote 22 close quote not equal to quote 22 quote I got rich and bought the yacht back
+
+14
+00:01:56,797 --> 00:02:04,453
+[Guest] 错误：你的 will angel 名称变体必须至少包含一个大写字母、一个数字和一个特殊字符
+Error your will angel name variant must contain at least one uppercase letter one number and one special character
+
+15
+00:02:04,803 --> 00:02:18,867
+[Guest] 没人知道我的真名是 Seth angel，最后那里是两个 L。我本来觉得这名字挺好笑的，但你们没笑，现在我有点不好意思了。will angel，如果你能听见，请救救我们。
+No one knows my real name is Seth angel that's a double L at the end there I thought this was a funny name but you didn't laugh now I feel self-conscious will angel if you can hear me please save us
+
+16
+00:02:19,217 --> 00:02:20,297
+[Host] 啊。
+Ah.
+
+17
+00:02:20,647 --> 00:02:27,199
+[Guest] 我想在我的墓碑上写“no carrier”，但如果我活得够久，到时候就没人懂这个梗了。
+I want to put no carrier on my tombstone, but if I live long enough, no one will get the joke.
+
+18
+00:02:27,549 --> 00:02:29,973
+[Host] 等等，我没懂这个梗。
+Wait, I don't get the joke.
+
+19
+00:02:30,323 --> 00:02:36,107
+[Guest] 哦糟了，你太年轻了。我猜这个人年龄大概在 40 到 50 岁之间。
+Oh crap, you're too young. I'm going to say this person is between 40 and 50.
+
+20
+00:02:36,457 --> 00:02:39,001
+[Host] 这是跟 modem 有关的梗吗？
+Is this a modem thing?
+
+21
+00:02:39,351 --> 00:02:50,871
+[Guest] 对，是 modem 的梗。以前 slash.com 的评论区里这个梗特别火，大家会假装自己评论写到一半被政府掐断了，最后就只显示“no carrier”。
+It is a modem thing, but it was big on slash.com comments back in the day where you were pretending like the government cut you off mid-comment. It would just go to no carrier.
+
+22
+00:02:51,221 --> 00:02:53,381
+[Host] 好吧。啊？
+Okay. Huh?
+
+23
+00:02:53,731 --> 00:03:05,803
+[Guest] 总之，我在 LinkedIn 上的真实名字是“Yemi debugging the Dark Candy，the mobile development ordinary first of his name”。哎呀。应该是“his name of first ordinary development mobile”。
+Anyway, my actual name on LinkedIn is Yemi debugging the Dark Candy, the mobile development ordinary first of his name. Oh boy. Name his of first ordinary development mobile.
+
+24
+00:03:06,153 --> 00:03:10,377
+[Host] Bubble the candy dark the in debugging yummy Jacob Chantling
+Bubble the candy dark the in debugging yummy Jacob Chantling
+
+25
+00:03:10,727 --> 00:03:12,047
+[Guest] 哈哈哈哈。
+Ha, ha, ha, ha.
+
+26
+00:03:12,397 --> 00:03:21,421
+[Host] 我就喜欢 Jacob Shandling 把 yammy 拼错了，因为这种词到底怎么拼，根本没人知道。只有我们看得到。
+I love how Jacob Shandling misspelled yammy because no one knows how these things are actually spelled. Only we see them.
+
+27
+00:03:21,771 --> 00:03:24,339
+[Guest] 对，这算是我们的特权。
+Yes, that is our privilege.
+
+28
+00:03:24,689 --> 00:03:30,785
+[Host] 好，又来一个，我真是太感谢这些可怕的……你觉得这是个字谜吗？
+Okay, here comes another one that I'm just so thankful for these horrible... Is this an anagram, you think?
+
+29
+00:03:31,135 --> 00:03:35,671
+[Guest] 我不知道。我准备把它输进 Google Translate 里。
+I don't know. I'm going to put it into Google Translate.
+
+30
+00:03:36,021 --> 00:03:44,277
+[Host] 好。Cavaluti o for Quan Turti，或者像我妈以前常说的那样，Fithae, clithae, who's nithae?
+Okay. Cavaluti o for Quan Turti, or as my mother used to say, Fithae, clithae, who's nithae?
+
+31
+00:03:44,627 --> 00:03:51,347
+[Host] Google Translate 在识别这是什么语言这件事上完全帮不上忙。嗯。
+Google Translate is unhelpful about detecting this language. Huh.
+
+32
+00:03:51,697 --> 00:03:56,425
+[Host] 我要去问一个大型语言模型。你听说过这玩意儿吗？
+I'm going to ask a large language model. Have you heard about these?
+
+33
+00:03:56,775 --> 00:04:05,151
+[Guest] 对。你跟我说说效果怎么样。我听说你这么干是在把水彻底消灭掉，水以后都不存在了。
+Yeah. Tell me how it does. I hear you're annihilating water by doing this. It will no longer exist.
+
+34
+00:04:05,501 --> 00:04:07,085
+[Host] 把水删了。
+Deleting water.
+
+35
+00:04:07,435 --> 00:04:08,443
+[Guest] 对。
+Yeah.
+
+36
+00:04:08,793 --> 00:04:27,081
+[Host] 哦，这是一种把常见说法按发音硬写出来的版本，估计是用特别重、很刻意的口音说的。你可以想成很重的 Brooklyn 腔、老派移民口音，或者某个家庭内部的玩笑。你这句大概可以翻成：重质不重量。
+Oh, this is a phonetic rendering of a common phrase likely spoken with a very thick stylized accent. Think heavy Brooklyn, old world, or a specific family joke. Here's the translation of what you've got there. Quality over quantity,
+
+37
+00:04:27,431 --> 00:04:32,975
+[Host] 或者像我妈以前常说的：先来一个，第二个，下一位是谁？
+or as my mother used to say. Say, first, second, who's next?
+
+38
+00:04:33,325 --> 00:04:34,309
+[Guest] 啊？
+Huh.
+
+39
+00:04:34,659 --> 00:04:36,339
+[Guest] 我觉得这不对。
+I think this is not right.
+
+40
+00:04:36,689 --> 00:04:38,537
+[Host] 嗯，安息吧。
+Well, rest in peace,
+
+41
+00:04:38,887 --> 00:04:39,895
+[Guest] 对。
+Yeah.
+
+42
+00:04:40,245 --> 00:04:41,445
+[Host] 雨林。
+the rainforest.
+
+43
+00:04:41,795 --> 00:04:44,339
+[Host] 好，我们继续往下读。
+All right, let's continue reading
+
+44
+00:04:44,689 --> 00:04:46,322
+[Host] Stationary
+Stationary
+
+45
+00:04:46,672 --> 00:04:47,920
+[Host] 这个
+the
+
+46
+00:04:48,270 --> 00:04:49,542
+[Host] 服务。
+services.
+
+47
+00:04:49,892 --> 00:04:51,620
+[Host] 少了个分号。
+missing semicolon.
+
+48
+00:04:51,970 --> 00:04:56,626
+[Host] 少了那个分号。Drone Angel 在 Will Deploy 工作。
+The missing semicolon. Drone Angel works at Will Deploy.
+
+49
+00:04:56,976 --> 00:05:08,280
+[Host] 哦，就那个词 help。那简直就是在喊救命。然后还有普普通通的 Nick Molyneux。这哥们没改名字，但他在招人。
+Oh, just the word help. That is literally a cry for help. And then there's plain old Nick Molyneux. The guy doesn't change his name, but he is hiring.
+
+50
+00:05:08,630 --> 00:05:22,310
+[Host] Embedded 工程师看 assembly，就跟 typescript 工程师看 javascript 一个样。Javier Gonzalez Chewy 多亏了 SSHART，拿到了他的第一份工程师工作。太棒了！
+Embedded engineers treat assembly the same way typescript engineers treat javascript. Javier Gonzalez Chewy landed his first engineering role thanks SSHART. Yes!
+
+51
+00:05:22,660 --> 00:05:24,244
+[Guest] 哦，不错。
+Oh, nice.
+
+52
+00:05:24,594 --> 00:05:46,746
+[Host] 恭喜你，Chewy。Ted Timbrel，大家都想知道 Will Angel 是谁，但没人问 Angel 过得怎么样。哭泣表情。一个字面意义上的 open parent。来自 Drone Deploy 的 Dan。Never is not just greater or marshal me going emoji。我喜欢鸡肉。我喜欢肝。
+Congratulations, Chewy. Ted Timbrel, everyone wants to know Will Angel, but nobody asks how is Angel. Crying emoji face. A literal open parent. Dan from Drone Deploy. Never is not just greater or marshal me going emoji. I like chicken. I like liver.
+
+53
+00:05:47,096 --> 00:05:59,024
+[Host] Meow makes meow makes please get over。Sys Python summit 在 2026 年 10 月 22 日和 23 日举行。Kyle Boss，Kent C. Dodd slowing down。
+Meow makes meow makes please get over. Sys Python summit on the 22nd and 23rd of October 2026. Kyle Boss, Kent C. Dodd slowing down.
+
+54
+00:05:59,374 --> 00:06:20,542
+[Host] Jenny Kim，the Stochastic Parrot。Will Angel 简直是 Patreon 名字界的螃蟹之王，还配了一幅漂亮的螃蟹 ASCII art。干得漂亮，Will Angel。Ira Chan，Jonathan Kings and I，文档用得真是漂亮又很 functional。要是我是 Angel，我可不会。
+Jenny Kim, the Stochastic Parrot. Will Angel is the crab of Patreon names with a beautiful crab ASCII art. Nice job, Will Angel. Ira Chan, Jonathan Kings and I beautiful functional use of documentation. If I were Angel, I wouldn't.
+
+55
+00:06:20,892 --> 00:06:32,124
+[Host] vote.williamangel.net，别在意那个味道，我们来看看今天要投什么。哦，太美了，真的太美了，谢谢你。好。
+vote.williamangel.net ignore the smell let's see what we're voting for today oh it's beautiful just beautiful thank you okay
+
+56
+00:06:32,474 --> 00:06:33,530
+[Guest] 哦哦。
+Ooh.
+
+57
+00:06:33,880 --> 00:06:47,872
+[Host] dave，香水大亨 dave，闻起来很香。把内部梗加进你的 HSRND 和你的个人 repo，从技术上讲也还算是一种团队建设活动。Brayden Kane 的 John Grant，
+dave the perfume tycoon dave smells nice adding inside jokes to your HSRND and your personal repo is technically still a team building exercise. Brayden Kane's John Grant,
+
+58
+00:06:48,222 --> 00:07:01,230
+[Host] Brittany Alec 斜杠 new Newcastle 最棒的开发者大会，5 月 27 到 28 日，然后是右括号，后面还跟了一个字面意义上的右括号。我的天哪，
+Brittany Alec slash new Newcastle's best dev conference May 27-28 and closed parentheses followed by a literal closing parent. Oh my goodness,
+
+59
+00:07:01,580 --> 00:07:16,580
+[Host] 非常感谢所有在 Patreon 上支持我们的朋友。如果你也想让我们每周都在节目里念出你的 Patreon 个人资料名，就去 softskills.audio，点击“support us on Patreon”按钮。
+thank you so much to everyone who contributes on Patreon. If you would like to have us read your Patreon profile name on the air every week, go to softskills.audio and click the support us on Patreon button.
+
+60
+00:07:16,930 --> 00:07:34,306
+[Host] 然后以高得离谱的档位支持我们，我们就会把你的个人资料名照念出来，只要它适合工作场合，不会害我们被炎上。如果你支持任意金额，我们都会给你发一份 Slack 邀请，让你加入我们的 Slack 社区
+and contribute at the exorbitant level and we will say whatever your profile name is as long as it's safe for work and won't get us canceled and if you contribute any amount we'll send you a Slack invitation to join our Slack community
+
+61
+00:07:34,656 --> 00:07:47,832
+[Host] 一般是在每个月第一周左右发，所以除非你在我们的 Patreon 页面上礼貌地提一下——很多人都这么做了——我们也很乐意把这些邀请发出去，所以谢谢大家。
+Around the first week of every month, so unless you ask nicely on our Patreon page, which a lot of you have, and we love giving those invites out, so thank you.
+
+62
+00:07:48,182 --> 00:07:51,950
+[Host] Dave 人很好。我可是铁腕统治。
+Dave is nice. I rule with an iron fist.
+
+63
+00:07:52,300 --> 00:07:53,308
+[Guest] 对。
+Yeah.
+
+64
+00:07:53,658 --> 00:07:55,674
+[Host] 不，你得等着。
+No, you must wait.
+
+65
+00:07:56,024 --> 00:08:00,080
+[Guest] 对。Jameson 觉得，等一等味道会更好。
+Yeah. It tastes better if you wait, is what Jameson thinks.
+
+66
+00:08:00,430 --> 00:08:01,486
+[Host] 对。
+Yeah.
+
+67
+00:08:01,836 --> 00:08:03,588
+[Guest] 就像三文鱼。
+Like salmon.
+
+68
+00:08:03,938 --> 00:08:09,962
+[Host] 好吧。我们已经让他等得够久了。要不要我来读第一个问题？
+All right. We've made him wait long enough. Should I read our first question?
+
+69
+00:08:10,312 --> 00:08:11,440
+[Guest] 读吧。
+Go for it.
+
+70
+00:08:11,790 --> 00:08:24,414
+[Host] 这是一位匿名听众的问题。他说，我在一家大型远程办公公司工作。我们每年会线下见一两次。我其实不太了解我的工程师同事。
+This is from an anonymous listener who says, I work at a large remote company. We meet up once or twice a year. I don't really know much about my engineering coworkers.
+
+71
+00:08:24,764 --> 00:08:48,956
+[Host] 除了我团队里的五个人之外，我对其他同事几乎都不熟，所以这种线下聚会看起来是个让我认识其他团队成员的好机会。我是转行进入这个领域的，现在是一名中级 IC，勉强算初级以上，快 40 岁了，不过长得比较年轻。哦，你可真幸运。看看你，居然还炫耀上了。
+coworkers aside from the five people on my team so the in-person meetups seem like a good place for me to get to know people from the other teams i am a career switcher and i'm currently a mid-level ic borderline junior in my late 30s and have a youthful appearance oh lucky you look at look at you bragging
+
+72
+00:08:49,306 --> 00:09:05,506
+[Host] 我也是快 40 岁了，但我看起来可一点都不年轻。在这种聚会上，我的职位、外表，说实话可能还有我的举止，都让我觉得，大家似乎会期待我去和那些二十多岁的 IC 们社交。
+i'm also in my late 30s i do not have a youthful appearance at these meetups my position and appearance and honestly possibly my demeanor make me feel like i am expected to socialize with other ices in their in their 20s.
+
+73
+00:09:05,856 --> 00:09:18,960
+[Host] 虽然他们人都挺好，但一聊到工作以外的话题，我就很难和他们有共鸣，因为我年纪大不少，人生阶段也不一样——我已经结婚了，要还房贷，还有孩子。
+Although they are nice people, I find it hard to relate to them when talking about non-work related topics since I am much older and in a different stage of life, married with a mortgage and kids.
+
+74
+00:09:19,310 --> 00:09:20,846
+[Guest] 哦，对。
+Oh, yeah.
+
+75
+00:09:21,196 --> 00:09:29,932
+[Host] 我想和那些年龄、人生阶段跟我更接近的同事多来往，但他们大多都是 team lead 或 manager。
+I want to socialize with co-workers closer to my age and stage in life but most of them are team leads or managers.
+
+76
+00:09:30,282 --> 00:09:45,810
+[Host] 我觉得如果跟他们走得近，可能会被看成是在拍马屁。我还听说，一旦 someone 成了 manager，就很难再和 IC 做朋友了，因为他们现在是老板，通常也只会和其他 manager 来往。
+I feel like socializing with them would be seen as brown nosing. I've also heard that once someone is a manager, it is very hard for them to befriend ICs because they are now their boss and they mostly befriend other managers.
+
+77
+00:09:46,160 --> 00:10:03,128
+[Host] 我上一份职业里几乎没有什么管理层或者办公室政治这类东西，所以我也不知道这是不是事实。要是我这么做，会不会反而对自己不利？还是我想太多了？我是不是想跟谁来往都没问题？
+My previous career had little management or corporate politics type stuff, so I don't know if this is true. Would I be hurting myself by doing this? Am I overthinking this? Would I be fine socializing with whomever I want?
+
+78
+00:10:03,478 --> 00:10:08,350
+[Host] 对于我这种情况，你有什么看法或建议吗？谢谢。
+Do you have any words or advice regarding my situation? Thanks.
+
+79
+00:10:08,700 --> 00:10:13,812
+[Guest] 哎呀，我也有过同样的问题，只不过那时候我其实才二十多岁。
+Oh boy, I had the same problem except I was actually in my twenties.
+
+80
+00:10:14,162 --> 00:10:19,994
+[Host] 哦，就是说你那时候才二十多岁，但你，呃，已经结婚了。
+oh like you were in your 20s but you uh you got married
+
+81
+00:10:20,344 --> 00:10:25,912
+[Guest] 年纪轻轻就结婚了，很早就背上房贷、带孩子，呃，对。
+young married young out of mortgage and kids and uh yes
+
+82
+00:10:26,262 --> 00:10:29,310
+[Host] 你是精神上很老成，就是——
+you were spiritually old that's
+
+83
+00:10:29,660 --> 00:10:33,164
+[Guest] 我就是那种内心很老成的人，哦对。
+i was like old on the inside oh yeah
+
+84
+00:10:33,514 --> 00:10:45,778
+[Host] 这就是他们说你是个“老灵魂”的意思，对吧？意思就是你很年轻就做着企业里的工作，还背着房贷、带着孩子。我很确定就是这样。
+what they mean when they say you're an old soul right it means you work a corporate job with a mortgage and kids very young i'm pretty sure yeah
+
+85
+00:10:46,128 --> 00:10:49,968
+[Guest] 还跟一帮毛头小子混在一起。什么——
+and hang out with whippersnappers what
+
+86
+00:10:50,318 --> 00:10:52,334
+[Host] 你当时都干嘛了？
+did you do
+
+87
+00:10:52,684 --> 00:10:55,948
+[Guest] 我不记得了，那都是很久以前的事了。
+I don't remember that was a long time ago.
+
+88
+00:10:56,298 --> 00:11:00,186
+[Guest] 我觉得我当时没把这个问题想得这么复杂。
+I don't think I thought this hard about this problem.
+
+89
+00:11:00,536 --> 00:11:04,400
+[Host] 嗯，我觉得没问题。我的意思是。
+Yeah, I think it's fine. I mean.
+
+90
+00:11:04,750 --> 00:11:41,374
+[Guest] 社交会不会被看成是在拍马屁，我觉得不会，前提是你本来就不是在拍马屁。我听说过一种说法，说一旦存在管理关系，彼此就很难做朋友。我确实听过有人这么主张，但大家在线下聚会里本来就会比较友好，这也是聚会的目的之一，就是让大家多了解彼此一点。所以，确实有可能，如果对方是经理，而且他们想保持一点距离，你未必会发展出那种能延续到聚会之外的长期友谊。但如果对方不是你的经理，这层顾虑就会少很多。
+socializing would be seen as brown nosing i don't think it would be not if you're not brown nosing i've heard when someone is managed it's hard for them to be friend icies i've heard people espouse that sentiment but people are friendly at meetups and that's part of the point is to get to know each other a little bit more so it's it's possible you might not develop long lasting friendships that continue outside of the meetup with managers if they're trying to keep a little bit of distance but if they're not your manager then that kind of goes away a little bit
+
+91
+00:11:41,724 --> 00:11:50,484
+[Guest] 而且这也没什么坏处，我不知道，我觉得认识一下和你共事的人挺好的，不管他们处在什么层级。对。
+and it wouldn't hurt i don't know i think it's nice to know the people you work with whatever level they're at yeah
+
+92
+00:11:50,834 --> 00:11:52,250
+[Host] 我同意。
+I agree.
+
+93
+00:11:52,600 --> 00:12:07,408
+[Guest] 而且一年也就一两次。所以，你到底在担心什么？是啊，就算你真的是在拍马屁，又能造成多大伤害呢？总不至于吧。你这语气像是在说：来吧，我接受挑战。
+
+
+94
+00:12:07,758 --> 00:12:12,966
+[Host] 我们聚会有开放酒吧，你肯定想不到我能闯出多大的祸。
+And it's only once or twice a year. So like, what are you worried about? Yeah, even if you are brown nosing how like, you can't do that much damage, surely you're like challenge accepted.
+
+95
+00:12:13,316 --> 00:12:20,084
+[Guest] 我觉得这里更深层、从心理层面来说，正在发生的是——我们就先，我们就先——
+they have an open bar at my meetup you would be shocked at how much damage i could do
+
+96
+00:12:20,434 --> 00:12:31,354
+[Guest] 那我们这就穿上太空精神科医生的制服吧，让我先套进去，我把拉链一路拉上来，把面罩也完全放下来，拉链是从正面一直拉到顶的。
+I think what's happening under the hood here under the psychological hood and we'll just we'll just
+
+97
+00:12:31,704 --> 00:12:41,760
+[Host] 一路拉到底？要不我们来个超大的机甲变身蒙太奇之类的，就像你一步步穿进去——那套才是真正的战衣。
+we'll just put on our space psychiatrist uniform here let me just suit up into my i'll just zip that right up drop the visor all the way the zipper goes right up the front
+
+98
+00:12:42,110 --> 00:12:44,294
+[Guest] 哦，那也太棒了。
+all the way what if we had a big mecca montage of like like you're stepping into that's the actual suit
+
+99
+00:12:44,644 --> 00:12:46,420
+[Host] 那肯定很酷。
+oh that would be so great
+
+100
+00:12:46,770 --> 00:12:50,202
+[Guest] 对啊，我是说，我们显然确实有那个。
+That'd be cool.
+
+101
+00:12:50,552 --> 00:12:58,376
+[Host] 对，对，当然。要不我们把那段一直压着没放出来的机甲蒙太奇给大家看看？
+yeah i mean we do have that obviously
+
+102
+00:12:58,726 --> 00:13:24,118
+[Guest] 没错，我也不知道我们为什么一直没录下来，听起来真的很酷。而且这还是个纯音频播客，所以你们只能相信我们说的——它看起来也特别酷。总之，我觉得如果从底层机制来看，太空心理学模式启动：你现在三十多岁，是转行过来的人，资历还浅，严格说算是接近初级吧，不过我得说，四舍五入就是初级。
+Yeah, yeah, of course. What if we showed people the Mecha Montage that we've been sitting on this whole time?
+
+103
+00:13:24,468 --> 00:13:43,212
+[Guest] 就是初级。你在这个新世界里会紧张，而且你也知道，每个职业都有自己的一套小文化。我觉得你现在有点战战兢兢、很不安，怕自己把事情搞砸。尤其是你已经转过一次行了，你知道那有多痛苦，所以你大概只是有点过度——
+exactly i don't know why we've never recorded it it sounds really cool and this is an audio only podcast so you just need to take our word for it it looks really cool too anyway i think under the hood space psychology mode engaged here you are in your 30s you are a career switcher you are junior it says borderline junior which is i'm going to say rounds to junior
+
+104
+00:13:43,562 --> 00:13:45,674
+[Host] 担心把这事搞砸。
+to junior and you are nervous in this new world and you know every every career has its own little culture and I think you're feeling skittish and nervous that you're going to screw this up especially given that you've already switched careers once and you know how painful it is to do that and you're just probably overly
+
+105
+00:13:46,024 --> 00:13:52,408
+[Guest] 对，我觉得只要你的行为还算在正常人的合理范围内，事情其实没那么严重。
+Nervous about screwing this up.
+
+106
+00:13:52,758 --> 00:13:53,814
+[Host] 对。
+Yeah, I think the stakes aren't that high as long as you're kind of within the bell curve of reasonable human behavior.
+
+107
+00:13:54,164 --> 00:13:57,860
+[Guest] 不过总得有人把这个边界往外推一推。
+Yeah
+
+108
+00:13:58,210 --> 00:14:17,146
+[Host] 所以我觉得这种聚会有时候会有一种倾向，尤其如果你比较害羞的话，就只跟一起工作的人待在一块儿。而且这也挺好的，特别是如果你们平时都是远程办公，能线下见到那些每天一起工作的人，确实很不错。
+Somebody's got to push those ends out, though.
+
+109
+00:14:17,496 --> 00:14:28,416
+[Host] 但我觉得你不会显得格格不入。我想很多人都会到处走动，去认识其他团队的人、社交，而这本来就是目的的一部
+So I think there's a tendency sometimes at these meetups, especially if you're shy to just stick with the people you work with. And it is nice, especially if y'all work remote, to see the people you work with every day in person.
+
+110
+00:14:28,766 --> 00:14:29,774
+[Guest] 对。
+But I think you would not look out of place. I imagine a bunch of people will be bouncing around and meeting other people on other teams and socializing and part
+
+111
+00:14:30,124 --> 00:14:37,588
+[Host] 分，就是要在别的场景、用别的方式和人互动。所以我觉得这样完全没问题。
+Yeah,
+
+112
+00:14:37,938 --> 00:14:40,290
+[Guest] 我觉得也没问题，而且
+of the point is interact with people in other contexts and other ways. So I think this is fine.
+
+113
+00:14:40,640 --> 00:14:44,864
+[Host] 我觉得你团队里不会有人觉得那样很装。
+I think it's fine too and
+
+114
+00:14:45,214 --> 00:14:53,998
+[Guest] 然后说到和年轻人一起玩这件事，你知道，我脑子里立刻跳出来一个梗，出自一部现在其实都已经挺老的剧了。
+I don't think anyone on your team would think it was snooty.
+
+115
+00:14:54,348 --> 00:14:59,508
+[Guest] 就是那部 30 Rock，里面有个角色雇了一个私家侦探，对吧。
+then on the direction of hanging out with the younger ones You know, I think that immediately jumps to my mind the meme which came from a show that's actually getting quite old now
+
+116
+00:14:59,858 --> 00:15:03,506
+[Host] 对，就是那个“how do you do fellow kids”吧？
+now the 30 rock show where one of the characters hires a private investigator yes
+
+117
+00:15:03,856 --> 00:15:25,768
+[Guest] 对，“how do you do fellow kids”，他还把帽子反着戴，穿着一件写着“music band”的 T 恤，肩上还扛着个滑板。我的意思是，只要你别搞成那种对年轻人的刻板夸张模仿，别硬要把自己弄得像二十来岁、非得跟他们混在一起，我觉得这就是一个潜在风险。你就做你自己就好了。
+Yeah, how do you do fellow kids one?
+
+118
+00:15:26,118 --> 00:15:51,606
+[Guest] 你知道，你甚至可能会惊讶。不，我知道你现在可能在想，也许我就是不喜欢和年轻人待在一起，哪怕他们的职业经历其实跟你更接近，而且确实不太容易产生共鸣，我懂。但你知道吗，这些人可能其实很喜欢和你相处，因为你已经比他们多走了一段路，也看过前面会发生什么。我不知道，他们大概也会想听听你的看法。
+how do you do fellow kids and he's wearing his hat backwards and he has a t-shirt that says music band on it and he's carrying a skateboard over his shoulder i mean i think as long as you stay away from that kind of caricature of youth where you're like trying to be like the 20 somethings and hang with them i think that's one possible hazard is just be who you are
+
+119
+00:15:51,956 --> 00:15:59,180
+[Host] 我觉得人都是很有深度、很丰富的，而聚会就是体验这种丰富性的一种方式。
+you know you might and you might even be surprised no i know you're you're thinking maybe i just don't like hanging out with the the young ones even though their career experience more aligns with yours and it's hard to relate with them i get it but you know what these people probably love hanging out with you because you're you've been down the road a little further and you've seen what's up ahead and i don't know they probably would like to hear from you
+
+120
+00:15:59,530 --> 00:16:00,538
+[Guest] 对。
+I think people are deep and rich and meetups are one way to experience some of that richness.
+
+121
+00:16:00,888 --> 00:16:08,352
+[Host] 不是每个人在那种场合都会表现出来，不过对，我同意。你可能会挺意外的。
+Yeah,
+
+122
+00:16:08,702 --> 00:16:17,702
+[Guest] 对。所以我会说，别刻意避开年轻人，哪怕他们可能不是你最喜欢的一类人。可能是会有点烦。
+Not everyone shows it off in those contexts, but yeah, I agree. You might be surprised.
+
+123
+00:16:18,052 --> 00:16:27,796
+[Guest] 这真的很好笑。比如我说“烦”，是因为我家里现在有青少年，他们对那些实际上只比自己小一岁的孩子都烦得不行。
+yeah. So I'd say don't avoid the young people, even though they might not be your favorite. It might be a little annoying.
+
+124
+00:16:28,146 --> 00:16:29,202
+[Host] 对。
+It's so funny. Like I say annoying because I have teenagers in my house right now and they are so, so annoyed by kids who are literally one year younger than them.
+
+125
+00:16:29,552 --> 00:16:42,440
+[Guest] 他们就会说，哦，他们太烦了。我就会说，听着，在我看来你昨天也这样。我几乎都分不出你和比你小一岁的那群人有什么区别。哦，这就——
+Yeah.
+
+126
+00:16:42,790 --> 00:16:47,590
+[Host] 有意思的是，他们对比自己年纪大的人也特别烦。
+and they're like oh they're so annoying and i'm like listen as far as i'm concerned that was you yesterday like i can barely tell the difference between you and the next year down oh that's
+
+127
+00:16:47,940 --> 00:16:56,052
+[Guest] 对，而且——哦，顺便说一句，今天我们先暂停一下，来个今日 Gen Z 俚语小科普。新的——
+Interestingly, they're also so annoyed by people older than them.
+
+128
+00:16:56,402 --> 00:16:57,434
+[Host] 好。
+right and there's oh by the way today let's just take a moment and do the gen z slang sidebar of the day new
+
+129
+00:16:57,784 --> 00:17:02,848
+[Guest] Gen Z 现在在传一个形容人老的词，你听过吗？对。
+Okay.
+
+130
+00:17:03,198 --> 00:17:04,974
+[Host] 是 unc 吗？
+word making the rounds among the gen z for old have you heard this yeah
+
+131
+00:17:05,324 --> 00:17:06,380
+[Host] 对。
+Is it unc?
+
+132
+00:17:06,730 --> 00:17:08,218
+[Guest] 这是我最
+
+
+133
+00:17:08,568 --> 00:17:09,600
+[Host] 对，
+Yeah.
+
+134
+00:17:09,950 --> 00:17:11,966
+[Guest] 喜欢的之一，我
+it's one of my
+
+135
+00:17:12,316 --> 00:17:14,044
+[Host] 我有在联系。
+Yeah,
+
+136
+00:17:14,394 --> 00:17:17,058
+[Guest] 喜欢那个，呃，你知道的。
+favorites I
+
+137
+00:17:17,408 --> 00:17:18,464
+[Host] 对。
+I'm in touch.
+
+138
+00:17:18,814 --> 00:17:45,238
+[Guest] 所以，呃，总之还是回到这个问题上吧。对，我完全同意 Jameson 的看法。和经理们一起待着不会被认为是在拍马屁，这没问题。事实上，我觉得组织这种聚会的人——而且办这种活动大概率成本挺高的——我的意思是，他们要把人飞过来，还要安排酒店，组织者最不希望看到的就是你人为地限制自己当面能接触的人，
+love the unk you're
+
+139
+00:17:45,588 --> 00:17:48,900
+[Guest] 就因为“我不想看起来像是在拍马屁”。
+Yeah.
+
+140
+00:17:49,250 --> 00:18:03,794
+[Host] 对，我同意。我觉得如果大家真的会担心这个，或者真的有人会这么看，那大概说明团队文化里有点不对劲。我会注意别真的把自己所有时间都花在——
+so unk anyway so anyway but back to the question yeah so I totally agree with Jameson hanging out with managers will not be considered brown nosing it's fine and in fact I think the people who organize these meetups which are probably quite expensive to put together I mean you're flying people in you're putting them in hotels the last thing that the organizers would want is for you to artificially limit the people you
+
+141
+00:18:04,144 --> 00:18:22,552
+[Host] 就像你也不会想在这次聚会上把所有时间都只花在任何一个小圈子里一样，但也别整场都黏在这群全是经理的人旁边，就你和他们，因为我觉得有些时候他们可能也会想单纯地，算是聊聊工作上的事，然后——
+you connect with in person because quote, I don't want to look like a brown noser.
+
+142
+00:18:22,902 --> 00:18:23,910
+[Guest] 对。
+Yeah, I agree. I think if people are genuinely worried about that or observing it, it is something off in the culture, I guess. I would make sure I'm not literally spending all of my time,
+
+143
+00:18:24,260 --> 00:18:29,276
+[Host] 但如果你聊的是那种偏经理层面的事，这就更难做到了。
+just like you don't want to spend all of your time with any group at this meetup, but don't just kind of glom on to this group of all managers and you, because I think there are likely times where they'll want to just sort of. Sort of talk shop and
+
+144
+00:18:29,626 --> 00:18:38,194
+[Host] 比如说他们走进一个烟雾缭绕的房间，门上还写着“仅限经理”，那就让他们去吧。你没必要跟着
+Yeah.
+
+145
+00:18:38,544 --> 00:18:39,552
+[Guest] 对。
+that gets harder to do if you're talking about manager-y things.
+
+146
+00:18:39,902 --> 00:18:41,702
+[Host] 他们一起进去。
+Like if they go into a room that's full of smoke and says managers only on the door, just let them go. You don't need to follow
+
+147
+00:18:42,052 --> 00:18:48,892
+[Guest] 对。那牌子可拦不住我，因为我不识字。然后你就大摇大摆走进去了。
+Yeah.
+
+148
+00:18:49,242 --> 00:19:05,274
+[Host] 所以最后有几个非黑即白的问题。是我想太多了吗？是。我要是想跟谁社交都可以，会没事吗？会。那对于我这种情况，你有什么建议吗？没有，这
+them in there.
+
+149
+00:19:05,624 --> 00:19:06,752
+[Guest] 没有。
+Yeah. That sign won't stop me because I can't read. And then you stroll in.
+
+150
+00:19:07,102 --> 00:19:13,126
+[Host] 这也太简单了。我们今天要是照着提纲来，能省下不少时间。
+So there's a couple yes-no questions at the end of this. Am I overthinking this? Yes. Would I be fine socializing with whomever I want? Yes. and do you have any words of advice regarding my situation no that
+
+151
+00:19:13,476 --> 00:19:16,428
+[Host] 好，Dave，你来读下一条吧？
+No.
+
+152
+00:19:16,778 --> 00:19:29,786
+[Guest] 当然，这个，呃，这个，呃，这肯定是位匿名听众，我们还是再确认一下。对，是一位匿名听众。天哪，早晚有一天我们会搞砸这事，然后我们就会——
+that was easy we could have saved a lot of time today if we just stuck to the script
+
+153
+00:19:30,135 --> 00:19:33,183
+[Host] 我们会把别人的隐私信息曝出来。
+All right, Dave, you want to read our next one?
+
+154
+00:19:33,533 --> 00:19:36,677
+[Guest] 我们会把社保号都给公开了，我们——
+you bet this uh this uh this must be an anonymous listener let's just double check yeah this is a an anonymous listener man one of these days we're going to screw that up and we're going to
+
+155
+00:19:37,027 --> 00:19:38,083
+[Host] 对。
+We're going to dox somebody.
+
+156
+00:19:38,433 --> 00:19:42,897
+[Guest] 可能应该把社保号这个字段从表单里删掉，真的。
+we're going to reveal the social social security number we
+
+157
+00:19:43,247 --> 00:19:48,935
+[Host] 我老觉得总有一天会派上用场。到现在还没有，不过——
+Yeah.
+
+158
+00:19:49,285 --> 00:19:52,837
+[Guest] 再拍一张你的护照照片也传上去……就
+should take social security number out of the field out of the Out of the form, probably.
+
+159
+00:19:53,187 --> 00:19:54,243
+[Host] 对。
+I just keep thinking it'll be helpful one day. It hasn't been yet, but.
+
+160
+00:19:54,593 --> 00:20:08,561
+[Guest] 开玩笑的。我们不会收集任何……我们不要求任何身份识别信息。所以你要是给我们你的 PII，风险自负。好，下面这封来自一位匿名听众，是真匿名。
+Take a photo of your passport and put it in the... Just
+
+161
+00:20:08,911 --> 00:20:14,431
+[Guest] 他说，嗨，Dave 和 Jameson，在你们叫我辞职之前，先听我说完。
+Yeah.
+
+162
+00:20:14,781 --> 00:20:23,565
+[Host] 一听这话就知道这人已经听我们节目很久了。你知道吗？很感激。谢谢你一直听我们。
+kidding. We don't collect any... We don't require any identifying information. So give us your PII at your own risk. All right. This comes from anonymous listener, truly anonymous,
+
+163
+00:20:23,915 --> 00:20:38,771
+[Host] 没错。我在科技行业工作了 30 年，过去 20 年一直在同一家公司，但我换过很多岗位，好让工作保持新鲜感。我在开发工作中接触并学习了很多新技术，
+who says, hi, Dave and Jameson, before you tell me to quit my job, hear me out.
+
+164
+00:20:39,121 --> 00:20:54,409
+[Host] 还做过架构、系统管理、管理岗、供应商关系等等。这些经历对我的职业发展非常有帮助，我也很感激这些成长机会。我积累了不错的口碑，也很受同事们尊重。
+You know someone's been listening for a while when they say that. And you know what? Appreciate it. Thank you for sticking with us.
+
+165
+00:20:54,759 --> 00:21:01,191
+[Host] 我多次向管理层证明了自己的价值，帮公司节省了数百万的开支。
+That's right. I have worked in technology for 30 years. I've been at the same company for the past 20 years, but I've changed roles many times to keep work interesting. I've enjoyed learning new technologies while working in development,
+
+166
+00:21:01,541 --> 00:21:12,773
+[Host] 还创造了创新解决方案来提升效率。我在美国企业里工作，属于保险和金融行业，而这个行业通常被认为是由冷酷、
+architecture, system administration, management, vendor relations, and more. This has been very beneficial to my career, and I appreciate all the opportunities to grow. I've earned a good reputation, and I am well respected by my peers.
+
+167
+00:21:13,123 --> 00:21:21,307
+[Host] 冷血、贪恋权力的一帮人。这种刻板印象也许有少数例外，但总体上还真不算错。
+I've proven my worth to leadership many times over by reducing expenses by many millions.
+
+168
+00:21:21,657 --> 00:21:36,897
+[Host] 哦，好，继续。我从来都不欣赏这个行业的经营方式，但这些年总得谋生，所以我才一直待在这儿。我终于到极限了，我真的受够了我的行业这样对待员工、客户，
+And creating innovative solutions to improve efficiencies. I work for corporate America in the insurance and finance industry which is generally considered to be led by cold,
+
+169
+00:21:37,247 --> 00:21:40,703
+[Guest] 以及社区。我插一句，我也是。
+heartless, power-hungry mongers. A stereotype that probably has a few exceptions but is generally not incorrect.
+
+170
+00:21:41,053 --> 00:21:55,933
+[Host] 这点我们倒是一样。好，继续。正因为如此，我实在没法在自己的工作里找到价值感。这些年我一直被打压，现在也累了，不想再被管理层剥削了。
+Oh, okay. Continuing. I've never appreciated this industry's business practices, but I've had to make a living over the years, so here I am. I am finally at my breaking point, and I'm absolutely fed up with how employees, customers,
+
+171
+00:21:56,283 --> 00:22:05,331
+[Host] 我不再主动揽那些大项目了。而且我也不想再做那个比别人都出彩的人了，我决定就接受平庸。
+and communities are treated by my industry. I'm going to just interject. So am I.
+
+172
+00:22:05,681 --> 00:22:21,065
+[Host] 我打算再过几年就退休，说实话，我已经没有精力也没有意愿再去找另一个可能更有意义的行业了，尤其是在现在这种就业市场下。我是真心在乎很多和我一起工作的人。
+We have that in common. Okay, continuing. Because of this, I just cannot find value in my work. I've been beaten down over the years and I'm tired of being exploited by management.
+
+173
+00:22:21,415 --> 00:22:35,671
+[Host] 他们当中几乎没几个人是为了往企业晋升阶梯上爬。大多数人只是想赚够钱还房贷、养孩子、照顾年迈的父母，并希望最后还能剩下一点给自己养老。
+I no longer volunteer to take on big projects. And instead of being someone who outshines others, I have decided to settle for mediocrity.
+
+174
+00:22:36,021 --> 00:22:45,261
+[Host] 我离开的时候，怎么才能既不给同事们留下一地消沉情绪，又不在那之前继续给这头怪兽添柴加火呢？
+I'm planning to retire in a few years and honestly don't have the energy or desire to search for another potentially more meaningful industry to work in, especially in the current job market. I genuinely care about many of the people I work with.
+
+175
+00:22:45,611 --> 00:22:46,595
+[Guest] 哦，
+Very few of them are in it to climb the corporate ladder. Most are just trying to earn enough money to pay the mortgage, feed their children, care for aging parents, and hope to have enough left over for their own retirement.
+
+176
+00:22:46,945 --> 00:22:50,185
+[Host] 这问题可真够沉重的，朋友。
+How do I not leave a wake of malaise? is for my peers when I leave, but also not help feed the beast until then.
+
+177
+00:22:50,535 --> 00:22:52,551
+[Guest] 对，这很有意思。
+Ooh,
+
+178
+00:22:52,901 --> 00:22:56,261
+[Host] 说真的，这段让我有点感触。
+That is a somber question, my friend.
+
+179
+00:22:56,611 --> 00:23:03,235
+[Host] 什么意思？比如说，你隐约能看到自己未来也会有点类似的情况？
+yeah, that is fascinating.
+
+180
+00:23:03,585 --> 00:23:06,801
+[Guest] 哦。哦，哇。不。
+Honestly, I'm getting the feels a little bit on this one.
+
+181
+00:23:07,151 --> 00:23:08,159
+[Host] 嗯。
+What do you mean? Like you can squint and see a similar thing for you in the future?
+
+182
+00:23:08,509 --> 00:23:27,853
+[Guest] 我觉得特别难过。我不知道该怎么说。你知道吗，这挺有意思的。我们这个节目已经做了 10 年了。这意味着，随着我们慢慢变老，情感上的敏感度变化，你可以通过从第一期直接跳到第 510 期，在我身上看到这种变化。
+Oh. Oh, wow. No.
+
+183
+00:23:28,203 --> 00:23:36,555
+[Guest] 我一听到这个人的处境，眼眶就有点湿了，真的就一点点。你知道的，这么多年你投入了那么多心血。
+Hmm.
+
+184
+00:23:36,905 --> 00:24:06,905
+[Guest] 而这个企业机器，这整个行业，简直就是一团该死的垃圾火场，太糟了。可你又会想，我想好好过自己的生活，去做点有意义、很美好的事，但我却感觉自己被这东西绑住了。再考虑到这里的时间线，我猜大概率还有养老金在那儿悬着，所以你知道，现在离开的话，可能在财务上会是毁灭性的。说真的，这简直就是斯德哥尔摩综合征了。总之，是啊。
+I feel really sad. I don't know how to say this. You know, it's funny. We've been doing this show for 10 years. And what that means is that the emotional sensitivity as we age, you get to see that in me by jumping from episode one to episode 510.
+
+185
+00:24:07,255 --> 00:24:15,895
+[Host] 就是被这台机器给套牢了，挺让人难过的。好，这就说得通了。我不是想冒犯你的年龄。
+I tear up a little, just a little when I hear about the predicament this person is in. You know, you've put so much work in for so many years.
+
+186
+00:24:16,245 --> 00:24:39,693
+[Guest] 没有，说真的，你知道吗，我刚才说不是的时候，其实是有点防御心态，我当时没往自己身上想。但我绝对能理解这种感觉，比如说，快进几年，这可能就是我。到时候我会想，我该怎么办？难道就一路装下去，直到熬出头吗？我最近还有个朋友跟我说，他比我大一点，我也不太确定。
+and this corporate machine this this whole industry is just a freaking dumpster fire it's terrible and you're like i want to live my life and do something meaningful and wonderful but i am i feel tied down to this thing yeah and probably given the time frame here probably there's a pension on the line is my guess so you know leaving now would be like could be financially devastating i mean talk about stockholm syndrome anyway yeah
+
+187
+00:24:40,043 --> 00:24:45,707
+[Guest] 但他基本上就是说，我已经等不及要逃离这种老鼠赛跑了，而且
+just beholden to this machine sad okay that makes sense i do not mean to insult your age
+
+188
+00:24:46,057 --> 00:24:47,065
+[Host] 嗯。
+no honestly you know what i i think i was a little defensive when i said no i wasn't thinking about myself but i can i can definitely see it like in a you know fast forward a few years and this this could be me and i'm like what do i do do i just kind of fake it till i make it i i also recently had a friend who told me he's a little older than me i don't know
+
+189
+00:24:47,415 --> 00:24:51,111
+[Guest] 他在科技行业工作，真的已经累坏了。
+but he basically said like i cannot wait to get out of this rat race and
+
+190
+00:24:51,461 --> 00:24:52,517
+[Host] 对。
+Hmm.
+
+191
+00:24:52,867 --> 00:25:03,475
+[Guest] 这么多年下来，他真的已经被耗干了。他的性格也不是特别适合那种快节奏、你知道的、充满炒作氛围的科技行业工作。
+he works in tech and he's just so tired
+
+192
+00:25:03,825 --> 00:25:04,881
+[Host] 对。
+Yeah.
+
+193
+00:25:05,231 --> 00:25:08,519
+[Guest] 他就是太累了，我也挺能体谅他的。
+it's been so many years he's just exhausted his personality is not super compatible with kind of like fast-paced you know hype-filled technology work and
+
+194
+00:25:08,869 --> 00:25:12,469
+[Host] 呼。嗯，这事我有不少想法。
+Yeah.
+
+195
+00:25:12,819 --> 00:25:13,827
+[Guest] 对。
+and he's just he's exhausted and i feel for him too
+
+196
+00:25:14,177 --> 00:25:32,609
+[Host] 其中一个想法是，我曾经在一家被一些人称作邪恶的公司工作过，而且也许这么说也有道理。我觉得我确实也经历过这种挣扎。我的意思是，我没在那里待 20 年，但我确实会被那种氛围困扰，就是那种——
+Whew. Well, I have a bunch of thoughts about this.
+
+197
+00:25:32,959 --> 00:25:37,759
+[Host] 我在乎我做的事情，我也在乎和我一起共事的人。
+Yeah.
+
+198
+00:25:38,109 --> 00:25:39,093
+[Guest] 嗯。
+One of them is I worked at a company that has been called evil by some people and maybe justifiably. And I think I did. I mean, I wasn't there 20 years, but I did struggle with this vibe of like.
+
+199
+00:25:39,443 --> 00:25:46,523
+[Host] 但我也是这台庞大机器的一部分，而它肯定至少会带来一些负面的外部影响。
+I care about the stuff I work on. I care about the people I work with.
+
+200
+00:25:46,873 --> 00:25:47,881
+[Guest] 对。
+Mm hmm.
+
+201
+00:25:48,231 --> 00:25:56,871
+[Host] 往严重了说，甚至可以算是在主动让人们的生活变得更糟。大概就在这个光谱上的某个位置。
+But I'm part of this gigantic machine that certainly has at least some negative externalities.
+
+202
+00:25:57,221 --> 00:26:00,461
+[Host] 但同时也确实做了很多好事。
+Yeah.
+
+203
+00:26:00,811 --> 00:26:05,419
+[Host] 对，对，对。至少我是这么说服自己的。
+And at worst, you could call like actively making people's lives worse. Somewhere on that spectrum.
+
+204
+00:26:05,769 --> 00:26:07,593
+[Guest] 哦，那当然。
+And also doing a lot of good, too.
+
+205
+00:26:07,943 --> 00:26:09,119
+[Host] 为了
+Yeah, yeah, yeah. At least that's what I told myself.
+
+206
+00:26:09,469 --> 00:26:10,885
+[Host] 我是说，
+Oh, for sure.
+
+207
+00:26:11,235 --> 00:26:12,483
+[Host] 感觉
+To
+
+208
+00:26:12,833 --> 00:26:13,865
+[Host] 我
+I mean,
+
+209
+00:26:14,215 --> 00:26:15,511
+[Guest] 好多了。
+feel
+
+210
+00:26:15,861 --> 00:26:19,509
+[Guest] 我知道你在说哪家公司，而且确实是这样。
+I
+
+211
+00:26:19,859 --> 00:26:21,035
+[Guest] 而且
+better.
+
+212
+00:26:21,385 --> 00:26:27,889
+[Host] 对，绝对是，它确实做了很多好事。不，我是认真的，你
+know the company you're talking about and for sure it did.
+
+213
+00:26:28,239 --> 00:26:29,463
+[Guest] 对对对
+and
+
+214
+00:26:29,813 --> 00:26:41,621
+[Host] 你想想，要交付他们所做的那些事情，并让这一切运转起来，需要多大的工作量，老兄，太不可思议了，而且这也是有必要的，对。
+yeah for sure it does a lot of good no i i really mean it you
+
+215
+00:26:41,971 --> 00:26:49,771
+[Guest] 但确实有点，对，就是会有一种别扭感，像是，嗯，我要是走了就辜负了这些人，不过
+yeah yeah yeah
+
+216
+00:26:50,121 --> 00:26:51,681
+[Host] 哦，对
+think about the the kind of work it takes to deliver what they do and make that all work man it's incredible it's needed yeah
+
+217
+00:26:52,031 --> 00:26:55,175
+[Guest] 但同时又会有点像是在某种
+but it is a bit yeah there's a there's a dissonance there of like well i'll be letting these people down but
+
+218
+00:26:55,525 --> 00:27:09,565
+[Guest] 程度上跟体制作对，如果我辞职了，或者我也不知道，像《Office Space》那样搞点破坏，但他们其实根本不会注意到，因为他们体量太大了，而我只是个微不足道的小点，所以，对
+oh yeah
+
+219
+00:27:09,915 --> 00:27:11,139
+[Host] 听着，
+also be vaguely in some
+
+220
+00:27:11,489 --> 00:27:17,009
+[Host] 他们设计出整套系统，就是为了防止你对它造成任何伤害。
+way sticking it to the man if i quit or i don't know sabotage them like office space style but also they will never notice because they're so gigantic and i'm this tiny little speck and yeah
+
+221
+00:27:17,359 --> 00:27:22,135
+[Host] 而且如果你一不小心还真做成了点事，那更好
+Listen,
+
+222
+00:27:22,485 --> 00:27:34,101
+[Guest] 对。那些能存活这么久、而且在这个世界上还很兴旺的组织，它们的免疫系统都强得惊人，足以抵御任何可能伤害它们的病原体。
+
+
+223
+00:27:34,451 --> 00:27:47,771
+[Guest] 对。我在那儿工作的时候，有些时候挺难过的。我不觉得自己是故意在想，反正我就是不干活了。我觉得我有时候是有点抑郁，所以工作上也没什么效率。
+they have designed this whole system to prevent you doing any damage to it.
+
+224
+00:27:48,121 --> 00:27:49,369
+[Host] 当然。
+and if you accidentally get some stuff done great
+
+225
+00:27:49,719 --> 00:28:02,103
+[Guest] 但我相信，如果我当时说，其实根据我从别人那里听来的汇报和他们观察到的事情，我有很充分的证据表明，我就算好几个月不去上班，也还是能保住工作，所以——
+Yeah. The immune systems in these organizations that have survived this long and are thriving in the world are incredibly strong against pathogens that might want to do them harm.
+
+226
+00:28:02,453 --> 00:28:03,509
+[Host] 对。
+Yeah. I was sad at times when I worked there. I don't think I deliberately said, I'm just going to not do any work. I think I was at times depressed and not effective at work.
+
+227
+00:28:03,859 --> 00:28:12,019
+[Guest] 好消息是，如果你想摸鱼又不想被开除，这种巨型大公司里有很多地方可以藏身。对。
+Sure.
+
+228
+00:28:12,369 --> 00:28:25,233
+[Host] 这对我来说可不是什么好消息。哦，这感觉太糟了。我的意思不是说，糟糕是因为你拿了钱却没干活。我是说那种对灵魂的摧残——
+But I believe that if I had said, actually, I have very strong evidence based on reports I've heard from other people about. things they've observed that i could just like not go to work for many months and still have a job so
+
+229
+00:28:25,583 --> 00:28:34,007
+[Host] 那种只是从系统里榨取一份工资的长期悲哀，真的，唉，听得我心都往下沉。对。
+Yeah.
+
+230
+00:28:34,357 --> 00:28:44,341
+[Guest] 对，我们之前聊过这个，但我确实觉得，如果我当时真那么做了，我会痛苦得多，至少哪怕只是因为害怕被发现，还有那种愧疚感。
+the good news is if you want to slack off and not get fired there's a lot of room to hide in these giant mega corps yeah
+
+231
+00:28:44,691 --> 00:28:45,747
+[Host] 对
+This is not good news to my ears. Oh, that feels so bad. And I don't mean I don't mean it feels bad because you're taking money and not working for it. I just mean the soul destroying.
+
+232
+00:28:46,097 --> 00:28:50,465
+[Guest] 至少哪怕只是因为害怕被发现，还有那种愧疚感。
+sadness of just milking a paycheck out of the system. over the long term it's just oh my heart sinks yes
+
+233
+00:28:50,815 --> 00:28:51,871
+[Host] 对
+Yeah, we talked about it before, but I do believe if I had done that, I would have been much more miserable, at
+
+234
+00:28:52,221 --> 00:29:00,477
+[Guest] 比如说，我工作已经非常努力了，但我还是会有一种不太理性的恐惧，想着万一哪天他们发现了怎么办。
+yeah
+
+235
+00:29:00,827 --> 00:29:04,307
+[Host] 对对，这是你的冒名顶替综合征
+least for no other reason than because of the fear of getting found out and the guilt.
+
+236
+00:29:04,657 --> 00:29:15,961
+[Guest] 但如果我是故意那样做的，对，就是故意不露面，或者尽量少干活，那我觉得——我觉得那种恐惧会把我压垮。不过也不是每个人都会这样。
+yeah
+
+237
+00:29:16,311 --> 00:29:25,983
+[Host] 不过好消息是，那就不算冒名顶替综合征了，因为你会说，不，我知道自己就是个冒牌货，这不是综合征。
+Like, I work really hard at my job and I still have this irrational fear of what if they find out someday.
+
+238
+00:29:26,333 --> 00:29:29,213
+[Guest] 对，确实是这样。对。
+yeah yeah it's your imposter syndrome
+
+239
+00:29:29,563 --> 00:29:31,555
+[Host] 这也是一种策略。
+But if I had deliberately, yeah, been just not showing up or trying to do as little as possible, then I think that's. I think that fear would crush me. It doesn't crush everybody, though.
+
+240
+00:29:31,905 --> 00:29:34,713
+[Guest] 对，也许这样会让人安心一点。
+Well, the good news is it wouldn't be imposter syndrome, though, because you're like, no, I know I'm an imposter. It's not a syndrome.
+
+241
+00:29:35,063 --> 00:29:43,415
+[Host] 我的意思是，我有个比较轻松的想法，能让你在退休前最后这几年里找到一点意义，就是——
+Yeah, that's true. Yeah.
+
+242
+00:29:43,765 --> 00:29:45,349
+[Guest] 好，你说。
+It's a strategy.
+
+243
+00:29:45,699 --> 00:29:59,931
+[Host] 至少你可以说服自己，你是在为那些你真正关心的人做点好事。我就从这点切入吧。你在乎你的同事。让我看看，他写了什么？或者她写了什么。
+Yeah, maybe there'd be some comfort.
+
+244
+00:30:00,281 --> 00:30:04,793
+[Guest] 对，我在乎和我一起工作的人。好，继续吧。
+I mean, I have a playful idea to find some meaning in your last few years before you retire where
+
+245
+00:30:05,143 --> 00:30:06,199
+[Host] 对。
+Yeah, hit me.
+
+246
+00:30:06,549 --> 00:30:07,653
+[Guest] 那个。
+you can at least convince yourself that you're doing some good for the people you really care about. And I'm latching on here. You care about your co-workers. Let's see, what did he write? He or she.
+
+247
+00:30:08,003 --> 00:30:19,307
+[Host] 在你离开前的最后几年，悄悄搭建一张代码暗网。这样等你走了以后，你的同事和客户还会时不时看到一些好玩的内部梗冒出来。
+Yeah, people I work with. Okay, let's go
+
+248
+00:30:19,657 --> 00:30:30,865
+[Guest] 哦，这就像——你还记得那个故事吗？有个人被开除了，然后他留下了一堆后门，还删了很多数据，最后因为这事进监狱了，对吧。
+with Yeah.
+
+249
+00:30:31,215 --> 00:30:34,671
+[Host] 对，不过要做那个的搞笑无害版。
+that.
+
+250
+00:30:35,021 --> 00:30:37,349
+[Guest] 就像是那个的善意版。
+Spend your last few years building a covert network of code. that will cause playful inside jokes to appear for your co-workers and your customers after you leave.
+
+251
+00:30:37,699 --> 00:30:38,755
+[Host] 对。
+oh it's like do you remember that story of that guy that got fired and he left all these like back doors and deleted a bunch of data and he went to prison for it yeah
+
+252
+00:30:39,105 --> 00:30:41,313
+[Guest] 对对，就是那个意思。
+Yeah, but do the playful version of that.
+
+253
+00:30:41,663 --> 00:30:46,511
+[Host] 就像，嘿，我是 Bob。希望你今天过得很棒。
+it's like the benevolent version
+
+254
+00:30:46,861 --> 00:30:55,285
+[Guest] 你知道的，我没把我们的 Active Directory 删掉，别担心。你会说，我本来还不担心，直到你这么一说。
+Yeah,
+
+255
+00:30:55,635 --> 00:31:03,027
+[Host] 要是人们登录银行账户时，在支票账户的交易记录之间突然看到你的脸，会怎么样？
+of exactly. that yeah
+
+256
+00:31:03,377 --> 00:31:05,321
+[Guest] 那我可太开心了。
+It's like, hey, it's Bob. Hope you're having a great day.
+
+257
+00:31:05,671 --> 00:31:09,775
+[Host] 你大概会因为这个进监狱吧，对吧，什么——
+you know i didn't delete our active directory don't worry you're like i wasn't until you said that
+
+258
+00:31:10,125 --> 00:31:11,109
+[Guest] 对，
+What if your face appears between transactions in people's checking accounts when they log into their bank?
+
+259
+00:31:11,459 --> 00:31:12,779
+[Guest] 大概吧。
+That would bring me joy.
+
+260
+00:31:13,129 --> 00:31:30,289
+[Host] 我是说，比如你和同事之间有一些内部梗，而你手上又有一些管理员工具，你是不是可以把这些东西像隐写一样塞进去，这样等某个日期条件触发之后，屏幕顶部就会冒出一些特别精彩的小内部笑话。
+you'd probably go to jail for that right what
+
+261
+00:31:30,639 --> 00:31:31,647
+[Guest] 对。
+Yeah,
+
+262
+00:31:31,997 --> 00:31:36,461
+[Host] 我是说，我前面提到过《Office Space》那部电影。
+
+
+263
+00:31:36,811 --> 00:31:48,475
+[Host] 当然，别像那部电影里那样偷公司的东西、再把楼给烧了，但有一点确实值得一说，就是你决定：你知道吗，我其实没那么在乎了。
+probably.
+
+264
+00:31:48,825 --> 00:32:04,569
+[Host] 不再在乎那些威胁式的、靠鞭子抽着走的激励方式了，我就是想试着过得开心一点。我觉得，在异想天开和带点正义感的恶作剧里，其实能找到很多意义吧，我大概会这么说。
+about like what if there's some inside jokes that you and your co-workers have and you've got some admin tools and you could go like like steganographically insert these things so that after a certain date is triggered they get some really great little inside jokes that show up at the top of the screen
+
+265
+00:32:04,919 --> 00:32:05,927
+[Guest] 对。
+Yeah.
+
+266
+00:32:06,277 --> 00:32:07,333
+[Host] 在——
+i mean i referenced office space earlier
+
+267
+00:32:07,683 --> 00:32:08,739
+[Host] 对。
+and don't like steal from the company and burn the building down like they do in that movie but there is something to be said for deciding you know i don't really care
+
+268
+00:32:09,089 --> 00:32:19,697
+[Guest] 我在这份企业工作最后那几周，感觉自己有点兴奋过头了。我倒也没搞什么恶作剧之类的，但那种感觉真的很有意思，去表现出——
+about the kind of threats and the whip part of the motivation anymore and i'm just gonna try to have a good time i think there's a lot of meaning to be found in whimsy and righteous mischief i guess i'll put it that way
+
+269
+00:32:20,047 --> 00:32:31,999
+[Guest] 去开一个会，然后我那种老板的老板的老板宣布他要走了，我就在聊天里打“活该，终于走了”，jk jk，就那种，那个 Zoom 会议里有上千人，嗯。
+Yeah.
+
+270
+00:32:32,349 --> 00:32:39,213
+[Host] 你当时就是不在乎了，对吧？那种轻飘飘、如释重负的感觉很特别。
+at
+
+271
+00:32:39,563 --> 00:32:44,147
+[Guest] 倒也不是恶意，就是我当时想，这事会让我开心一下。
+Yeah.
+
+272
+00:32:44,497 --> 00:32:56,329
+[Guest] 所以我觉得，在你最后那几年里，真的得很小心地拿捏好投入精力的分寸。因为如果你开始往后退，变得平庸，没错，确实有可能还能这样混上几年。
+my last couple of weeks at this corporate job i feel like i became a little bit giddy and i didn't pull any like pranks or anything but it was so fun to show
+
+273
+00:32:56,679 --> 00:33:11,007
+[Guest] 但在现在这种环境下，你被裁员的可能性其实非常大。别搞错了，尤其是在这个行业里，我不管你已经干了 30 年，还是像这个例子里干了 20 年，他们明天照样会把你开掉。
+show up to a meeting and have my like boss's boss's boss announce that they're leaving and then type good riddance in the chat jk jk like like a thousand people in this zoom meeting and yeah
+
+274
+00:33:11,357 --> 00:33:15,005
+[Host] 对，他们在这方面可太有经验了，
+you just didn't care right there's something about that lightweight feeling
+
+275
+00:33:15,355 --> 00:33:16,363
+[Guest] 对。
+it wasn't like malicious but i'm like this this will entertain me
+
+276
+00:33:16,713 --> 00:33:23,769
+[Host] 就是看一眼情况，然后算明白，等等，我们可以把这个人惹毛，同时还能赚钱。
+so i think in your last few years you really do have to be careful to strike the right balance of investing your effort because If you do back off and go to mediocrity, yeah, there's a chance you can string that along for a few years.
+
+277
+00:33:24,119 --> 00:33:36,887
+[Guest] 对。所以千万别以为他们不会这么干。我想说的是，得让大家彻底打消一种幻想：这家巨型健康保险金融公司，对你根本谈不上有什么忠诚可言。
+But in today's climate, there's a really good chance that you will be laid off. And make no mistake, especially in this industry, I don't care if you have 30 years of service under your belt or 20 years in this case, they will fire you tomorrow.
+
+278
+00:33:37,237 --> 00:33:55,021
+[Guest] 他们没有。所以你要明白，不管你对未来几年有什么打算，这家公司都可能会动用这个选项，而且他们真的会这么做。对他们来说，考虑这件事可能就一瞬间。落到你身上，感受就是这样。然后你就只是——
+Yeah, they have a lot of practice in
+
+279
+00:33:55,371 --> 00:33:58,155
+[Guest] 直接被扫地出门了，所以
+Yes.
+
+280
+00:33:58,505 --> 00:33:59,561
+[Host] 对。
+looking at situations and figuring out, wait. We can make this person mad and make money.
+
+281
+00:33:59,911 --> 00:34:01,735
+[Guest] 我们说的这一切
+Yeah. So don't think for a minute that they won't do that. I guess I'm just going to say like, let's disabuse everyone of any kind of notion that this mega health insurance finance company has any, any degree of loyalty to you.
+
+282
+00:34:02,085 --> 00:34:03,141
+[Host] 对。
+They do not. And so know that whatever you plan for the next few years, know that this company could exercise that option and they will do so. And to you, it's like a microsecond of consideration. That's what it'll feel like to you. And you are just.
+
+283
+00:34:03,491 --> 00:34:17,891
+[Guest] 我觉得你得记住，这不只是有可能发生，而且在当下比以往任何时候都更有可能。顺便说一句，我刚才说把你的脸放进支票账户交易记录里是在开玩笑，因为那样真的会很——
+you're out on the street so
+
+284
+00:34:18,241 --> 00:34:19,753
+[Host] 别这么干。
+Yeah.
+
+285
+00:34:20,103 --> 00:34:31,479
+[Guest] 你想想看，在金融行业，干这种事你真有可能会坐牢。金融行业监管特别严，在太空里我们也是把这种人送去坐牢，这就是太空法。
+everything
+
+286
+00:34:31,829 --> 00:34:34,829
+[Host] 在太空里，监狱就在外面。
+Yeah.
+
+287
+00:34:35,179 --> 00:34:36,187
+[Guest] 对。
+we say i think you've got to remember that that is not only possible but more likely than ever right now and by the way i was joking about putting your face in the checking account transactions because that would be really
+
+288
+00:34:36,537 --> 00:34:38,025
+[Host] 也算是。
+Don't do that.
+
+289
+00:34:38,375 --> 00:34:40,991
+[Guest] 我们直接把门打开就行了。
+you think you really would you could actually go to jail for something like that in the finance like the finance industry is so heavily regulated that in space we send those people to jail that's the space law
+
+290
+00:34:41,341 --> 00:34:44,413
+[Guest] 挺严酷的。对，挺狠的。
+Jail is outside in space
+
+291
+00:34:44,763 --> 00:34:55,203
+[Guest] 但我是说，你知道，我刚才其实都有点想哭了。对我来说，一想到自己最后这几年就这么被耗掉，一直想方设法躲避关注，
+Yeah,
+
+292
+00:34:55,553 --> 00:35:07,529
+[Guest] 不敢去做任何真正有意义的事，还要在一个我讨厌的行业里工作，这种感觉痛苦到我都很难消化。我会去想，这会对你的心理造成多大的伤害。
+also.
+
+293
+00:35:07,879 --> 00:35:27,607
+[Guest] 你会怎么感受，它又会怎么一点点渗透到你其他的人际关系里。对我来说，这个风险根本不值得冒。然后再想想你退休后的第二天——想象一下你坐在退休派对上，大家围着你鼓掌，还端着蛋糕，而你心里却在想：我真讨厌这个地方。
+we just opened the door.
+
+294
+00:35:27,957 --> 00:35:30,525
+[Host] 你知道，而且那就是——
+It's pretty draconian. Yeah, it's pretty rough.
+
+295
+00:35:30,875 --> 00:35:31,883
+[Guest] 对。
+But I mean, listen, the thought, you know, I was kind of tearing up a little earlier, sort of the thought to me of just burning my last few years, trying to avoid attention,
+
+296
+00:35:32,233 --> 00:35:34,129
+[Host] 你当时在想的，
+trying to do anything good, working for an industry I hate is so painful for me to internalize that I think about the damage that will do to your psyche.
+
+297
+00:35:34,479 --> 00:35:35,679
+[Host] 对吧？
+the way you will feel the way that it will trickle into your other relationships that to me is not a risk worth taking and then to think about the day after you retire like think about you sitting in your retirement party everyone's standing around you and clapping with a cake and you're just like i hate this place
+
+298
+00:35:36,029 --> 00:35:51,725
+[Guest] 而且，这就是个很糟糕的故事。但如果你离开的时候能说，我已经尽我所能去服务我的同事了，我在这里做出了自己最好的工作，我帮助了所有我能帮助的人，我没有留下任何遗憾，我挣得问心无愧。
+You know, and that's
+
+299
+00:35:52,075 --> 00:36:06,451
+[Guest] 而且这家公司、我的朋友们，也都因为我在这里而过得更好。这跟“没错，我成功转移了他们想炒掉我的注意力，硬拖了三年，好让我退休。我能退休了”完全是两回事。
+Yeah.
+
+300
+00:36:06,801 --> 00:36:07,857
+[Host] 对。
+what you're thinking,
+
+301
+00:36:08,207 --> 00:36:24,575
+[Host] 这也有点像我们之前聊过的：当人们在讨论离职时，不是为了退休，而只是去另一份工作。如果你心里至少有一个明确的终点或截止日期，你会获得某种清晰感和更高的风险承受度。
+
+
+302
+00:36:24,925 --> 00:36:43,045
+[Host] 也许你会更愿意去试试某个有风险的项目，我也不知道，可能会搞砸，但也可能很有意思；或者，我也不知道，更强硬地推动一些改变。当然，如果你真的已经受够了，那大概只会把你耗尽，不过——
+right?
+
+303
+00:36:43,395 --> 00:36:44,403
+[Guest] 对。
+
+
+304
+00:36:44,753 --> 00:36:56,969
+[Host] 但你确实会有一些自由，去做那些你之前还没做过的事，因为你知道前面有终点。至于你想怎么利用这一点，我也说不好，但这跟你只是——
+And like, that's a terrible story. But going out and saying like, I did my best to serve my coworkers. I did my best work here. I helped everyone I could. I left nothing on the table. I earned my wages.
+
+305
+00:36:57,319 --> 00:37:06,847
+[Host] 一门心思想往上爬的时候不一样。或者说，只要不是要被炒，你大概也不会太在意绩效评估，对吧？
+And this company and my friends are better off because I was here. Like that's a totally different story than yes, I successfully distracted them from firing me for three years so that I could retire. I could retire.
+
+306
+00:37:07,197 --> 00:37:08,205
+[Guest] 对。
+Yeah.
+
+307
+00:37:08,555 --> 00:37:11,171
+[Guest] 除此之外的事都不是问题。
+This is also like we've talked about this in the past when people are discussing leaving jobs, not for retiring, but just going to another job. There is a certain amount of clarity and risk tolerance you get if there's a definitive end line or end date in your mind, at least.
+
+308
+00:37:11,521 --> 00:37:21,697
+[Host] 而且你还能砍掉一大块工作。等你确实需要在意绩效评估的时候，这么做其实挺有用的，也许反而会让你更轻松。
+Maybe you're more willing to, I don't know, try this risky project that might blow up, but might be fun or I don't know, push hard for some change. Although if you're really fed up, that's probably. going to just burn you out but
+
+309
+00:37:22,047 --> 00:37:32,631
+[Guest] 对，我觉得是这样。你想象一下，去发起某个只有你能做的项目，因为你对这家公司里里外外都太熟了。你已经有 30 年资历了。
+Yeah.
+
+310
+00:37:32,981 --> 00:37:48,341
+[Guest] 你知道大家在意什么，也知道需要什么。也许你真能在这里做出点很酷的事。谁知道呢，也许最后会是个大失败，但至少离开的时候你知道自己试过做一件大事，这其实也挺酷的，对吧。
+you do have some freedom to do things you you have not done yet knowing that there's a finish line i don't know how you want to use that but it's it's different than when you're just
+
+311
+00:37:48,691 --> 00:37:55,339
+[Host] 对，我是说，你大概也因为在那里工作过，积累了很多跨各个组织的关系，
+trying to climb the ladder or you probably don't care a ton about your performance review as long as it's not like you're getting fired right yeah
+
+312
+00:37:55,689 --> 00:37:56,865
+[Guest] 所以——
+Right.
+
+313
+00:37:57,215 --> 00:38:00,599
+[Host] 各个 orgs 里的人脉，然后还能说
+
+
+314
+00:38:00,949 --> 00:38:02,605
+[Guest] 对，差不多。
+Everything short of that is no problem.
+
+315
+00:38:02,955 --> 00:38:09,747
+[Host] 他们需要转型，而你就去当他们的 Bitcoin 战略总监。这就是你该干的。
+and you you get to cut out a chunk of work that is useful when you do need to care about your performance review maybe that could be freeing
+
+316
+00:38:10,097 --> 00:38:11,897
+[Guest] 能出什么岔子呢？
+Yeah, I think so. Imagine trying to kick off some initiative that only you can do because you know this company inside and out. You have 30 years of tenure under your belt.
+
+317
+00:38:12,247 --> 00:38:19,207
+[Host] 结果证明，能出的问题还真不少。不过我很高兴你没把辞职摆上台面。
+you know what makes people tick you know what's needed maybe you could do something really cool here and who knows maybe it'll be a big failure but at least going out knowing you tried to do something big that could be really cool yeah
+
+318
+00:38:19,557 --> 00:38:20,565
+[Guest] 对。
+Yeah, I mean you probably have a bunch of connections across the
+
+319
+00:38:20,915 --> 00:38:32,075
+[Host] 我同意，在你职业生涯的尾声阶段想重新开始，确实会很难。你可以试着稍微主动看看外面的机会，反正也没什么成本。
+so
+
+320
+00:38:32,425 --> 00:38:42,529
+[Host] 我觉得现在外面的情况确实挺难的，整体来说工程师的就业市场都不太容易，不过说不定你还是能找到点什么。
+orgs from working there and tell
+
+321
+00:38:42,879 --> 00:38:55,359
+[Host] 但我觉得，你通往成功退休的路，大概是在现在这份工作里找到一点趣味和玩心，然后像 Dave 说的那样，把注意力放在你身边的人身上，还有
+much yeah
+
+322
+00:38:55,709 --> 00:38:56,885
+[Guest] 没错。
+them they need to pivot and you'll be their director of Bitcoin strategy. That's what you should do.
+
+323
+00:38:57,235 --> 00:38:59,971
+[Host] 让他们的生活变得更好。
+What could go wrong?
+
+324
+00:39:00,321 --> 00:39:12,945
+[Guest] 把工作做好，不是为了公司，也不是为了那些会在一瞬间就把你炒掉的吸血鬼。是为了你的同事，尽量让他们的生活过得更好。试着去激励他们。
+Quite a bit, it turns out that, but I'm glad you took quit your job off the table.
+
+325
+00:39:13,295 --> 00:39:26,759
+[Guest] 你看，这对你来说是个机会，让你能以前所未有的方式去指导别人。你有这么多年的经验，见过那么多事。把这些智慧分享给大家。建立新的私人联系。
+Yeah.
+
+326
+00:39:27,109 --> 00:39:35,533
+[Guest] 其实，也许你的目标应该是和别人建立足够深的连接，深到你退休之后，他们还想继续和你保持联系。
+I agree that it would be tough to find a in the in the tail end of your career kind of start over. You might want to try just actively looking around a little bit. It doesn't cost you anything.
+
+327
+00:39:35,883 --> 00:39:49,563
+[Host] 对，我是说，你很多工作关系其实都……我一直觉得，有些人在这方面比我强。我不太擅长在不再一起工作之后，还和那些我真的很喜欢共事的人保持联系。
+It is hard out there, I think, in general for the labor market for engineers, but maybe you'll find something.
+
+328
+00:39:49,913 --> 00:39:51,545
+[Guest] 对，我也是。
+But I think your path to a successful retirement is probably finding some whimsy and playfulness at your current gig and focusing, like Dave said, on the people around you and
+
+329
+00:39:51,895 --> 00:40:10,039
+[Host] 我们会有这些很棒的友谊，其中一部分确实来自被迫的近距离相处——毕竟你每天都能见到他们——但这种关系也很美好，而且你可以试着把它巩固下来，建立一些在你们不再一起工作之后也能持续下去的东西。
+That's right.
+
+330
+00:40:10,389 --> 00:40:24,789
+[Guest] 我得说一句，虽然你说别让我劝你辞职，但我自己还真这么干过一次。所以当时我在一家大公司工作，已经待了好几年了。那时候我赚很多钱，比我之前和之后赚得都多。
+making their lives better.
+
+331
+00:40:25,139 --> 00:40:38,171
+[Guest] 但我也有很多类似的问题。谢天谢地，我没有这个人那样的伦理顾虑，但我感觉自己就像机器里的一个齿轮，改变不了什么，也真的做不出什么影响，更谈不上做好事。
+Do great work not for the business, not for the bloodsuckers who would fire you in an instant. in an instant. But for your co-workers, try to make their lives better. Try to inspire them.
+
+332
+00:40:38,521 --> 00:40:55,009
+[Guest] 所以对我来说，去一个让我觉得自己能做到这些的地方，太值得了。我能贡献价值，能带来改变，真的能做好事，为此我接受了大幅降薪。实际上，我为了离开那里，薪水砍掉了50%以上。
+Look, this is an opportunity for you to provide mentorship like you've never done before. You know, you've got so many years, you've seen a lot of stuff. Share that wisdom with people. Make new personal connections.
+
+333
+00:40:55,359 --> 00:41:12,327
+[Guest] 而且我当时非常紧张。我觉得很多人一想到放弃钱都会紧张。很多时候这也确实有充分理由，对吧？比如我现在本来就只是勉强够付账单。好，如果是这种情况，那这条路不适合你。
+In fact, maybe your goal should be connect with people so deeply that they want to stay connected with you after you retire.
+
+334
+00:41:12,677 --> 00:41:15,797
+[Host] 但如果你还有点腾挪空间的话。
+Yeah, I mean, a lot of your work relationships are... I always, there's some people who are better at this than I am. I'm not as good at keeping in touch with people that I really enjoy working with after I don't work with them anymore.
+
+335
+00:41:16,147 --> 00:41:43,507
+[Guest] 那你真的很难给这种感觉标个价：你会为自己清醒时大部分时间都在做的事情而感到很棒。我知道很多人都说过类似的话，就像 Ebenezer Scrooge 的故事有成千上万种变体一样，核心都是人生不只有挣工资这一件事。这是真的，真的是这样。我在这件事上也是实打实拿真金白银证明了自己的想法，而我非常庆幸自己这么做了。
+Yeah, me too.
+
+336
+00:41:43,857 --> 00:41:56,097
+[Guest] 而且这也不是一条完美的路。比如我离开之后，第一家公司我肯定是选错了。但天哪，我现在的感觉比当年在那家巨头公司最后那几年好多了。
+And we have these great friendships and part of it is forced proximity of, well, you see them every day, but there's something nice, but you can try and shore those up and build things that'll last after you aren't working with them anymore.
+
+337
+00:41:56,447 --> 00:41:57,503
+[Host] 对。
+And I got to say, even though you said don't tell me to quit my job, I did this once. So I was working at a big company and I'd been there several years. I was making a lot of money, more than I've ever made before and since.
+
+338
+00:41:57,853 --> 00:42:13,165
+[Guest] 我感觉整个人的灵魂都被重新唤醒了，像是终于回来了。连我老婆都注意到了，说，哇，你就是……你明显没那么开心了。我觉得这都开始影响到我的家庭生活和其他人际关系了。
+But I had a lot of these same problems. I didn't have the ethical concerns, thankfully, that this person had, but I felt like a cog in a machine, couldn't make any difference, couldn't really make an impact or do good.
+
+339
+00:42:13,515 --> 00:42:25,203
+[Guest] 所以一定要留意这一点，因为这些东西真的没有一个价格值得你把自己卖掉，只为了硬撑到退休，或者只是为了让工资能按时发下来。对。
+And it was so worth it to me to go to a place where I felt like I could. I could contribute, make a difference and actually do good that I took an enormous pay cut. It was actually more than 50% of my pay to leave that.
+
+340
+00:42:25,553 --> 00:42:30,929
+[Host] 对，30 年后我可能会把这期节目翻出来放给自己听。
+And I was very nervous to do that. I think a lot of people are nervous to walk away from money. And a lot of times there's a good reason for that, right? Like I'm barely making paying my bills as is. Okay. If that's the case, this is not for you.
+
+341
+00:42:31,279 --> 00:42:42,415
+[Guest] 没错，我也该这么做，那肯定挺好笑的。30 年后，说不定我七十多岁了，还在死死抓着人生最后一份工作不放，就为了再撑那几年。
+But if you have the wiggle room.
+
+342
+00:42:42,765 --> 00:42:54,861
+[Host] 不，我是说，这听起来很有智慧，我也认同。而且我觉得我也做过挺类似的事，降薪离开一家大公司之后，感觉开心多了，不过——
+it's really hard to put a price on feeling great about what you spend your waking hours doing and I know a lot of people have said this like this is like you know the Ebenezer Scrooge story in a thousand variants out there is that there's more to life than just you know earning a wage and it's true it's actually true and I put a lot of money where my mouth is on that one and I'm so glad that I did
+
+343
+00:42:55,211 --> 00:42:56,363
+[Guest] 嗯哼。
+And it wasn't a perfect path. Like when I left, I definitely made a bad choice in my first company. But man, I feel so much better now than I did during those last couple of years at that giant company.
+
+344
+00:42:56,713 --> 00:43:29,425
+[Host] 我完全能想象自己又被重新卷进去，真的再次一头扎进工作里。事实上，我也经常特别容易陷进工作。而且结果证明，这不一定非得是在大公司，小公司也一样会这样。对。不过我很感谢这个视角吧，我就这么说——也许那些事其实没那么重要。再去想想退休这件事，也会让人换个角度看问题：我现在正在做的这些选择，将来回头看时，我会觉得满意吗？
+Yeah.
+
+345
+00:43:29,775 --> 00:43:36,423
+[Guest] 对。那祝你好运。这是个很棒的问题，谢谢你提出来，也让我开始思考了。
+I feel like my whole soul was rejuvenated and back. Even my wife noticed like, wow, you're just you're not super happy. And I think it was starting to affect my family life and other relationships.
+
+346
+00:43:36,773 --> 00:43:41,381
+[Host] 对，这个问题很好。这是个很严肃的问题。
+So be mindful of that because there's really not a price. where those things are worth selling out so that you can make it all the way to retirement or so that you can have your wage paid out on time yeah
+
+347
+00:43:41,731 --> 00:43:42,739
+[Guest] 对。
+Yeah, I'm going to replay this episode in like 30 years myself.
+
+348
+00:43:43,089 --> 00:43:45,489
+[Host] 这也是个很重要的问题。
+exactly so i should too that'd be funny in 30 years i'll be clinging to my last job for the last few years in my 70s
+
+349
+00:43:45,839 --> 00:43:49,535
+[Guest] 如果你需要一些轻松搞笑的点子，告诉我们，
+No, I mean, it sounds wise and I agree and I think I did something. pretty similar of taking a pay cut leaving a big company feeling so much happier but
+
+350
+00:43:49,885 --> 00:43:50,917
+[Host] 对，
+Mm hmm.
+
+351
+00:43:51,267 --> 00:43:53,235
+[Guest] 看看可以做点什么
+i can definitely see myself getting sucked back in again to really sucked into work in fact i do often get very sucked into work and doesn't have to be at a big company it turns out you could do that at small companies too Yeah. but i appreciate the perspective i guess i'll say it that way that it might not matter and thinking about retirement also puts that in a different perspective too of like will i feel good about the choices that i am making now
+
+352
+00:43:53,585 --> 00:43:54,641
+[Host] 对。
+Yeah. Well, good luck. This is a great question. Thanks for asking it. It's making me think.
+
+353
+00:43:54,991 --> 00:43:57,223
+[Guest] 如果你决定留下来的话。
+Yeah, it is a good one. It's a serious one.
+
+354
+00:43:57,573 --> 00:43:59,685
+[Guest] 对，我们就想听这个。
+Yeah.
+
+355
+00:44:00,035 --> 00:44:05,747
+[Host] 到时候也告诉我们后来怎么样了。我想听听你最后怎么决定的。
+It's an important one.
+
+356
+00:44:06,097 --> 00:44:21,529
+[Host] 我同意，我很想听。好，那如果大家也想让自己的问题得到解答，可以去 softskills.audio，点击“ask a question”按钮，然后填写我们的表单。别担心，不需要社保卡，
+Let us know if you need fun joking ideas
+
+357
+00:44:21,879 --> 00:44:37,719
+[Guest] 也不需要护照，或者任何其他身份信息。也非常感谢每周来填写表单的每一个人。我们真的很感谢大家发来的这些问题。问题一直源源不断地进来，稳定、舒服的节奏，真的特别多。
+Yeah,
+
+358
+00:44:38,069 --> 00:44:47,189
+[Host] 我们都会看，我还会把它们打印出来，睡前读一读，甚至当睡前故事读给我的孩子们听，他们可喜欢了。
+of what to do
+
+359
+00:44:47,539 --> 00:44:51,619
+[Guest] 我倒是挺想知道，我的孩子以后会不会听这个。
+yeah.
+
+360
+00:44:51,969 --> 00:44:59,217
+[Guest] 他们现在还太小，不会在意，但也许四十年后的某一天，他们会去翻翻往期内容，然后说——
+if you stay.
+
+361
+00:44:59,567 --> 00:45:00,575
+[Host] 哦。
+Yeah, we're here for it.
+
+362
+00:45:00,925 --> 00:45:06,133
+[Guest] 对，也许吧，也许。结果发现他没那么逊，或者说——
+Tell us what happened too. I want to hear what you decide.
+
+363
+00:45:06,483 --> 00:45:07,563
+[Host] 啊。
+I agree. I'd love to hear it. All right, what can people do if they want their own questions answered? Go to softskills.audio and click the ask a question button where you can fill out our form. Don't worry, no social security card required,
+
+364
+00:45:07,913 --> 00:45:09,569
+[Guest] 哦，他是
+nor passport, nor any other identifying information. And thank you so much to everyone who fills that out each week. We really appreciate these questions that come in. They just flow, just a steady, nice flow, so many of them.
+
+365
+00:45:09,919 --> 00:45:10,975
+[Host] 更
+them we read them i print them out and i read them before i go to bed i read them to my kids as bedtime stories they love it
+
+366
+00:45:11,325 --> 00:45:12,621
+[Guest] 一样逊
+I'm interested to know if my kids will ever listen to this.
+
+367
+00:45:12,971 --> 00:45:14,099
+[Host] 逊。
+They're too young to care now, but maybe there's a future forty years from now where they they go and peruse the backlog and say,
+
+368
+00:45:14,449 --> 00:45:17,305
+[Guest] 跟我们想的一样逊。对。
+Oh.
+
+369
+00:45:17,655 --> 00:45:19,311
+[Host] 甚至更逊。
+yeah, maybe, maybe. Turns out he wasn't lame or
+
+370
+00:45:19,661 --> 00:45:24,989
+[Host] 好的。行，那感谢你的收听。我们下周再见。
+Ah.
+
