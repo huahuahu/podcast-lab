@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Wed, 29 Apr 2026 21:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2026 09:00:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,41 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>SSE #510：又老又落后，怎么撑到退休？</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-510-old-and-behind</guid>
+      <pubDate>Fri, 01 May 2026 09:00:00 +0800</pubDate>
+      <description>Soft Skills Engineering #510 中文版。Dave 和 Jameson 回答两个问题：(1) 将近 40 岁、在大型远程办公公司里和一群 20 多岁同事相处不来，年度线下聚会该怎么社交？是否会被看成在拍马屁？(2) 在保险/金融大厂工作 30 年的资深工程师，离退休还有几年，已经厌倦了这个冷血贪权的行业，怎么既不留下一地消沉，又不再给这头怪兽添柴？</description>
+      <content:encoded><![CDATA[
+        <h3>中文摘要</h3>
+        <p>Dave Smith 和 Jameson Dance 回答两个问题：</p>
+        <ol>
+          <li>
+            <p>一位将近 40 岁的听众，在大型远程办公公司里，团队里五个人之外谁都不熟。年度线下聚会上，他的资历、年龄、外貌都让他在那群 20 多岁的同事中显得格格不入；和年纪、人生阶段更接近的同事走近些，又怕被看成是在拍马屁，因为那些人大多是 team lead 或更高。这种情况下他到底该怎么社交？两位主持都笑说「想太多」，但也确实给出了挺实在的建议。</p>
+          </li>
+          <li>
+            <p>一位资深工程师，在科技行业干了 30 年，过去 20 年都在同一家保险/金融公司。他越来越无法认同这个行业的经营方式，主动揽事和「做最出彩的人」都已经放下了，决定接受平庸，再过几年就退休。他的问题是：怎么才能既不在离开时给同事们留下一地消沉情绪，又不在这之前继续给这台怪兽添柴？这一段 Dave 和 Jameson 都很走心，Jameson 几乎落泪，给出了从「在体制内悄悄做点善意的事」到「被裁的可能性远比你想象的大」再到「为同事和自己活，不为公司」一系列建议。</p>
+          </li>
+        </ol>
+        <p><small>原始来源：<a href="https://softskills.audio/episodes/510">Soft Skills Engineering Episode 510</a>。中文版由 Podcast Lab v3 管线自动生成（Azure gpt-4o-transcribe-diarize 直连 + Copilot GPT-5.4 重分配与翻译 + edge-tts 双音色，scheme B 字幕）。</small></p>
+      ]]></content:encoded>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.10.0-sse-510-old-and-behind/podcast_zh.mp3" length="15725828" type="audio/mpeg"/>
+      <podcast:transcript url="https://github.com/huahuahu/podcast-lab/releases/download/v0.10.0-sse-510-old-and-behind/zh.srt" type="application/srt" language="zh"/>
+      <podcast:transcript url="https://github.com/huahuahu/podcast-lab/releases/download/v0.10.0-sse-510-old-and-behind/zh.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://github.com/huahuahu/podcast-lab/releases/download/v0.10.0-sse-510-old-and-behind/bilingual.srt" type="application/srt" language="zh"/>
+      <podcast:transcript url="https://github.com/huahuahu/podcast-lab/releases/download/v0.10.0-sse-510-old-and-behind/bilingual.vtt" type="text/vtt" language="zh"/>
+      <category>Technology</category>
+      <category>Career</category>
+      <itunes:author>Podcast Lab</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/cover.png"/>
+      <itunes:duration>00:45:46</itunes:duration>
+      <itunes:summary>SSE #510：怎么和年轻同事社交不被看成拍马屁？怎么撑过退休前的最后几年？</itunes:summary>
+      <itunes:subtitle>聚会社交 &amp; 厌倦行业前的最后几年</itunes:subtitle>
+    </item>
 
     <item>
       <title>财富智慧课 #1 · 家庭资产配置（APRD 系列）</title>

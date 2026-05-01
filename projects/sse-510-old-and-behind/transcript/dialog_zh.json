@@ -1,0 +1,2641 @@
+[
+  {
+    "start": 5.78,
+    "end": 17.23,
+    "speaker": "Host",
+    "text_en": "It takes more than lobbying to add salmon mode in addition to dark and light modes to your favorite product. To be a great software engineer, this is episode 510 of the Soft Skills Engineering Podcast, where I'm your host, Jamison Dance.",
+    "text": "想让你最喜欢的产品除了深色模式和浅色模式之外，再加一个三文鱼色模式，光靠游说可不够。想成为一名优秀的软件工程师，这里是 Soft Skills Engineering 播客第 510 期，我是你们的主持人 Jamison Dance。"
+  },
+  {
+    "start": 17.38,
+    "end": 18.38,
+    "speaker": "Host",
+    "text_en": "I'm your host, Dave Smith.",
+    "text": "我是你们的主持人 Dave Smith。"
+  },
+  {
+    "start": 18.53,
+    "end": 28.58,
+    "speaker": "Host",
+    "text_en": "Soft Skills Engineering is a weekly advice show about all the non-technical things that go into the technical field of software development, like figuring out if they mean the color salmon or some kind of fish.",
+    "text": "Soft Skills Engineering 是一档每周更新的建议类节目，聊的是软件开发这个技术领域里所有那些非技术的事，比如搞清楚他们说的 salmon 到底是指三文鱼色，还是某种鱼。"
+  },
+  {
+    "start": 29.268,
+    "end": 37.468,
+    "speaker": "Host",
+    "text_en": "Based Persona. What if a fish were to use this text editor? How would it express its intent?",
+    "text": "基于 Persona。要是一条鱼来用这个文本编辑器会怎样？它会怎么表达自己的意图？"
+  },
+  {
+    "start": 37.868,
+    "end": 50.352,
+    "speaker": "Host",
+    "text_en": "Have you seen the webcomic where there's a salmon fish talking to a human and the human goes, hey, fun fact, we have a color named after you. And the fish is like, oh, really? It's called salmon? And the human's like, yeah. And the fish goes,",
+    "text": "你看过那个网络漫画吗？里面一条三文鱼在跟一个人类说话，那个人类说，嘿，告诉你个有趣的事，我们有一种颜色是以你命名的。那条鱼就说，哦，真的？叫 salmon？那个人类说，对。然后那条鱼说——"
+  },
+  {
+    "start": 50.452,
+    "end": 51.802,
+    "speaker": "Host",
+    "text_en": "it's gray, right?",
+    "text": "是灰色的，对吧？"
+  },
+  {
+    "start": 55.452,
+    "end": 55.702,
+    "speaker": "Host",
+    "text_en": "Yeah.",
+    "text": "对。"
+  },
+  {
+    "start": 55.702,
+    "end": 57.202,
+    "speaker": "Host",
+    "text_en": "And the human's like sweating.",
+    "text": "然后那个人类就开始冒汗了。"
+  },
+  {
+    "start": 58.552,
+    "end": 59.852,
+    "speaker": "Host",
+    "text_en": "Uh, not exactly.",
+    "text": "呃，也不完全是。"
+  },
+  {
+    "start": 61.102,
+    "end": 62.352,
+    "speaker": "Host",
+    "text_en": "It's gray, right?",
+    "text": "它是灰色的，对吧？"
+  },
+  {
+    "start": 64.148,
+    "end": 77.848,
+    "speaker": "Host",
+    "text_en": "i learned that sometimes they dye salmon to make it more pink and that made me sad but i still eat it this is not you know we're not about the technical side and we're also not about salmon dave do you want to thank our patrons",
+    "text": "我后来才知道，有时候他们会给三文鱼染色，让它看起来更粉一点，这让我有点难过，但我还是照吃不误。这个嘛，你知道的，我们今天不是聊技术层面的，也不是聊三文鱼。Dave，你要不要感谢一下我们的 patrons？"
+  },
+  {
+    "start": 78.448,
+    "end": 88.248,
+    "speaker": "Guest",
+    "text_en": "Yes, I do. Okay, big shout out to those that are contributing at the level where we read their profile name from Patreon every week. They are Angel Will Not. Please stop asking.",
+    "text": "对，要的。好，特别感谢那些支持到我们每周都会念出他们 Patreon 主页名这个档位的朋友。他们是 Angel Will Not。Please stop asking."
+  },
+  {
+    "start": 90.132,
+    "end": 97.382,
+    "speaker": "Guest",
+    "text_en": "Quote 22 close quote not equal to quote 22 quote I got rich and bought the yacht back",
+    "text": "引号 22 闭引号 不等于 引号 22 引号 I got rich and bought the yacht back"
+  },
+  {
+    "start": 98.832,
+    "end": 104.382,
+    "speaker": "Guest",
+    "text_en": "Error your will angel name variant must contain at least one uppercase letter one number and one special character",
+    "text": "错误：你的 will angel 名称变体必须至少包含一个大写字母、一个数字和一个特殊字符"
+  },
+  {
+    "start": 106.232,
+    "end": 115.532,
+    "speaker": "Guest",
+    "text_en": "No one knows my real name is Seth angel that's a double L at the end there I thought this was a funny name but you didn't laugh now I feel self-conscious will angel if you can hear me please save us",
+    "text": "没人知道我的真名是 Seth angel，最后那里是两个 L。我本来觉得这名字挺好笑的，但你们没笑，现在我有点不好意思了。will angel，如果你能听见，请救救我们。"
+  },
+  {
+    "start": 116.084,
+    "end": 116.384,
+    "speaker": "Host",
+    "text_en": "Ah.",
+    "text": "啊。"
+  },
+  {
+    "start": 119.834,
+    "end": 124.934,
+    "speaker": "Guest",
+    "text_en": "I want to put no carrier on my tombstone, but if I live long enough, no one will get the joke.",
+    "text": "我想在我的墓碑上写“no carrier”，但如果我活得够久，到时候就没人懂这个梗了。"
+  },
+  {
+    "start": 126.356,
+    "end": 127.706,
+    "speaker": "Host",
+    "text_en": "Wait, I don't get the joke.",
+    "text": "等等，我没懂这个梗。"
+  },
+  {
+    "start": 127.806,
+    "end": 132.256,
+    "speaker": "Guest",
+    "text_en": "Oh crap, you're too young. I'm going to say this person is between 40 and 50.",
+    "text": "哦糟了，你太年轻了。我猜这个人年龄大概在 40 到 50 岁之间。"
+  },
+  {
+    "start": 132.256,
+    "end": 133.306,
+    "speaker": "Host",
+    "text_en": "Is this a modem thing?",
+    "text": "这是跟 modem 有关的梗吗？"
+  },
+  {
+    "start": 133.306,
+    "end": 142.956,
+    "speaker": "Guest",
+    "text_en": "It is a modem thing, but it was big on slash.com comments back in the day where you were pretending like the government cut you off mid-comment. It would just go to no carrier.",
+    "text": "对，是 modem 的梗。以前 slash.com 的评论区里这个梗特别火，大家会假装自己评论写到一半被政府掐断了，最后就只显示“no carrier”。"
+  },
+  {
+    "start": 143.056,
+    "end": 144.106,
+    "speaker": "Host",
+    "text_en": "Okay. Huh?",
+    "text": "好吧。啊？"
+  },
+  {
+    "start": 144.106,
+    "end": 153.156,
+    "speaker": "Guest",
+    "text_en": "Anyway, my actual name on LinkedIn is Yemi debugging the Dark Candy, the mobile development ordinary first of his name. Oh boy. Name his of first ordinary development mobile.",
+    "text": "总之，我在 LinkedIn 上的真实名字是“Yemi debugging the Dark Candy，the mobile development ordinary first of his name”。哎呀。应该是“his name of first ordinary development mobile”。"
+  },
+  {
+    "start": 153.108,
+    "end": 155.958,
+    "speaker": "Host",
+    "text_en": "Bubble the candy dark the in debugging yummy Jacob Chantling",
+    "text": "Bubble the candy dark the in debugging yummy Jacob Chantling"
+  },
+  {
+    "start": 156.758,
+    "end": 157.508,
+    "speaker": "Guest",
+    "text_en": "Ha, ha, ha, ha.",
+    "text": "哈哈哈哈。"
+  },
+  {
+    "start": 158.514,
+    "end": 163.964,
+    "speaker": "Host",
+    "text_en": "I love how Jacob Shandling misspelled yammy because no one knows how these things are actually spelled. Only we see them.",
+    "text": "我就喜欢 Jacob Shandling 把 yammy 拼错了，因为这种词到底怎么拼，根本没人知道。只有我们看得到。"
+  },
+  {
+    "start": 163.964,
+    "end": 166.014,
+    "speaker": "Guest",
+    "text_en": "Yes, that is our privilege.",
+    "text": "对，这算是我们的特权。"
+  },
+  {
+    "start": 166.364,
+    "end": 171.764,
+    "speaker": "Host",
+    "text_en": "Okay, here comes another one that I'm just so thankful for these horrible... Is this an anagram, you think?",
+    "text": "好，又来一个，我真是太感谢这些可怕的……你觉得这是个字谜吗？"
+  },
+  {
+    "start": 171.764,
+    "end": 174.914,
+    "speaker": "Guest",
+    "text_en": "I don't know. I'm going to put it into Google Translate.",
+    "text": "我不知道。我准备把它输进 Google Translate 里。"
+  },
+  {
+    "start": 175.214,
+    "end": 182.114,
+    "speaker": "Host",
+    "text_en": "Okay. Cavaluti o for Quan Turti, or as my mother used to say, Fithae, clithae, who's nithae?",
+    "text": "好。Cavaluti o for Quan Turti，或者像我妈以前常说的那样，Fithae, clithae, who's nithae?"
+  },
+  {
+    "start": 182.114,
+    "end": 185.696,
+    "speaker": "Host",
+    "text_en": "Google Translate is unhelpful about detecting this language. Huh.",
+    "text": "Google Translate 在识别这是什么语言这件事上完全帮不上忙。嗯。"
+  },
+  {
+    "start": 185.996,
+    "end": 189.396,
+    "speaker": "Host",
+    "text_en": "I'm going to ask a large language model. Have you heard about these?",
+    "text": "我要去问一个大型语言模型。你听说过这玩意儿吗？"
+  },
+  {
+    "start": 189.496,
+    "end": 195.746,
+    "speaker": "Guest",
+    "text_en": "Yeah. Tell me how it does. I hear you're annihilating water by doing this. It will no longer exist.",
+    "text": "对。你跟我说说效果怎么样。我听说你这么干是在把水彻底消灭掉，水以后都不存在了。"
+  },
+  {
+    "start": 195.896,
+    "end": 196.646,
+    "speaker": "Host",
+    "text_en": "Deleting water.",
+    "text": "把水删了。"
+  },
+  {
+    "start": 197.496,
+    "end": 197.846,
+    "speaker": "Guest",
+    "text_en": "Yeah.",
+    "text": "对。"
+  },
+  {
+    "start": 198.346,
+    "end": 211.546,
+    "speaker": "Host",
+    "text_en": "Oh, this is a phonetic rendering of a common phrase likely spoken with a very thick stylized accent. Think heavy Brooklyn, old world, or a specific family joke. Here's the translation of what you've got there. Quality over quantity,",
+    "text": "哦，这是一种把常见说法按发音硬写出来的版本，估计是用特别重、很刻意的口音说的。你可以想成很重的 Brooklyn 腔、老派移民口音，或者某个家庭内部的玩笑。你这句大概可以翻成：重质不重量。"
+  },
+  {
+    "start": 211.696,
+    "end": 213.814,
+    "speaker": "Host",
+    "text_en": "or as my mother used to say. Say, first, second, who's next?",
+    "text": "或者像我妈以前常说的：先来一个，第二个，下一位是谁？"
+  },
+  {
+    "start": 213.814,
+    "end": 214.164,
+    "speaker": "Guest",
+    "text_en": "Huh.",
+    "text": "啊？"
+  },
+  {
+    "start": 214.164,
+    "end": 215.464,
+    "speaker": "Guest",
+    "text_en": "I think this is not right.",
+    "text": "我觉得这不对。"
+  },
+  {
+    "start": 215.464,
+    "end": 217.114,
+    "speaker": "Host",
+    "text_en": "Well, rest in peace,",
+    "text": "嗯，安息吧。"
+  },
+  {
+    "start": 217.114,
+    "end": 217.164,
+    "speaker": "Guest",
+    "text_en": "Yeah.",
+    "text": "对。"
+  },
+  {
+    "start": 217.164,
+    "end": 217.614,
+    "speaker": "Host",
+    "text_en": "the rainforest.",
+    "text": "雨林。"
+  },
+  {
+    "start": 217.614,
+    "end": 219.564,
+    "speaker": "Host",
+    "text_en": "All right, let's continue reading",
+    "text": "好，我们继续往下读。"
+  },
+  {
+    "start": 219.564,
+    "end": 219.614,
+    "speaker": "Host",
+    "text_en": "Stationary",
+    "text": "Stationary"
+  },
+  {
+    "start": 219.614,
+    "end": 219.714,
+    "speaker": "Host",
+    "text_en": "the",
+    "text": "这个"
+  },
+  {
+    "start": 219.714,
+    "end": 219.814,
+    "speaker": "Host",
+    "text_en": "services.",
+    "text": "服务。"
+  },
+  {
+    "start": 219.814,
+    "end": 222.364,
+    "speaker": "Host",
+    "text_en": "missing semicolon.",
+    "text": "少了个分号。"
+  },
+  {
+    "start": 223.364,
+    "end": 227.364,
+    "speaker": "Host",
+    "text_en": "The missing semicolon. Drone Angel works at Will Deploy.",
+    "text": "少了那个分号。Drone Angel 在 Will Deploy 工作。"
+  },
+  {
+    "start": 231.124,
+    "end": 238.174,
+    "speaker": "Host",
+    "text_en": "Oh, just the word help. That is literally a cry for help. And then there's plain old Nick Molyneux. The guy doesn't change his name, but he is hiring.",
+    "text": "哦，就那个词 help。那简直就是在喊救命。然后还有普普通通的 Nick Molyneux。这哥们没改名字，但他在招人。"
+  },
+  {
+    "start": 240.224,
+    "end": 250.374,
+    "speaker": "Host",
+    "text_en": "Embedded engineers treat assembly the same way typescript engineers treat javascript. Javier Gonzalez Chewy landed his first engineering role thanks SSHART. Yes!",
+    "text": "Embedded 工程师看 assembly，就跟 typescript 工程师看 javascript 一个样。Javier Gonzalez Chewy 多亏了 SSHART，拿到了他的第一份工程师工作。太棒了！"
+  },
+  {
+    "start": 250.374,
+    "end": 251.424,
+    "speaker": "Guest",
+    "text_en": "Oh, nice.",
+    "text": "哦，不错。"
+  },
+  {
+    "start": 251.624,
+    "end": 263.618,
+    "speaker": "Host",
+    "text_en": "Congratulations, Chewy. Ted Timbrel, everyone wants to know Will Angel, but nobody asks how is Angel. Crying emoji face. A literal open parent. Dan from Drone Deploy. Never is not just greater or marshal me going emoji. I like chicken. I like liver.",
+    "text": "恭喜你，Chewy。Ted Timbrel，大家都想知道 Will Angel 是谁，但没人问 Angel 过得怎么样。哭泣表情。一个字面意义上的 open parent。来自 Drone Deploy 的 Dan。Never is not just greater or marshal me going emoji。我喜欢鸡肉。我喜欢肝。"
+  },
+  {
+    "start": 263.718,
+    "end": 270.418,
+    "speaker": "Host",
+    "text_en": "Meow makes meow makes please get over. Sys Python summit on the 22nd and 23rd of October 2026. Kyle Boss, Kent C. Dodd slowing down.",
+    "text": "Meow makes meow makes please get over。Sys Python summit 在 2026 年 10 月 22 日和 23 日举行。Kyle Boss，Kent C. Dodd slowing down。"
+  },
+  {
+    "start": 271.568,
+    "end": 283.268,
+    "speaker": "Host",
+    "text_en": "Jenny Kim, the Stochastic Parrot. Will Angel is the crab of Patreon names with a beautiful crab ASCII art. Nice job, Will Angel. Ira Chan, Jonathan Kings and I beautiful functional use of documentation. If I were Angel, I wouldn't.",
+    "text": "Jenny Kim，the Stochastic Parrot。Will Angel 简直是 Patreon 名字界的螃蟹之王，还配了一幅漂亮的螃蟹 ASCII art。干得漂亮，Will Angel。Ira Chan，Jonathan Kings and I，文档用得真是漂亮又很 functional。要是我是 Angel，我可不会。"
+  },
+  {
+    "start": 284.628,
+    "end": 293.378,
+    "speaker": "Host",
+    "text_en": "vote.williamangel.net ignore the smell let's see what we're voting for today oh it's beautiful just beautiful thank you okay",
+    "text": "vote.williamangel.net，别在意那个味道，我们来看看今天要投什么。哦，太美了，真的太美了，谢谢你。好。"
+  },
+  {
+    "start": 293.378,
+    "end": 293.828,
+    "speaker": "Guest",
+    "text_en": "Ooh.",
+    "text": "哦哦。"
+  },
+  {
+    "start": 293.828,
+    "end": 305.1,
+    "speaker": "Host",
+    "text_en": "dave the perfume tycoon dave smells nice adding inside jokes to your HSRND and your personal repo is technically still a team building exercise. Brayden Kane's John Grant,",
+    "text": "dave，香水大亨 dave，闻起来很香。把内部梗加进你的 HSRND 和你的个人 repo，从技术上讲也还算是一种团队建设活动。Brayden Kane 的 John Grant，"
+  },
+  {
+    "start": 305.15,
+    "end": 314.4,
+    "speaker": "Host",
+    "text_en": "Brittany Alec slash new Newcastle's best dev conference May 27-28 and closed parentheses followed by a literal closing parent. Oh my goodness,",
+    "text": "Brittany Alec 斜杠 new Newcastle 最棒的开发者大会，5 月 27 到 28 日，然后是右括号，后面还跟了一个字面意义上的右括号。我的天哪，"
+  },
+  {
+    "start": 314.45,
+    "end": 324.25,
+    "speaker": "Host",
+    "text_en": "thank you so much to everyone who contributes on Patreon. If you would like to have us read your Patreon profile name on the air every week, go to softskills.audio and click the support us on Patreon button.",
+    "text": "非常感谢所有在 Patreon 上支持我们的朋友。如果你也想让我们每周都在节目里念出你的 Patreon 个人资料名，就去 softskills.audio，点击“support us on Patreon”按钮。"
+  },
+  {
+    "start": 324.916,
+    "end": 337.616,
+    "speaker": "Host",
+    "text_en": "and contribute at the exorbitant level and we will say whatever your profile name is as long as it's safe for work and won't get us canceled and if you contribute any amount we'll send you a Slack invitation to join our Slack community",
+    "text": "然后以高得离谱的档位支持我们，我们就会把你的个人资料名照念出来，只要它适合工作场合，不会害我们被炎上。如果你支持任意金额，我们都会给你发一份 Slack 邀请，让你加入我们的 Slack 社区"
+  },
+  {
+    "start": 338.228,
+    "end": 346.428,
+    "speaker": "Host",
+    "text_en": "Around the first week of every month, so unless you ask nicely on our Patreon page, which a lot of you have, and we love giving those invites out, so thank you.",
+    "text": "一般是在每个月第一周左右发，所以除非你在我们的 Patreon 页面上礼貌地提一下——很多人都这么做了——我们也很乐意把这些邀请发出去，所以谢谢大家。"
+  },
+  {
+    "start": 346.428,
+    "end": 348.628,
+    "speaker": "Host",
+    "text_en": "Dave is nice. I rule with an iron fist.",
+    "text": "Dave 人很好。我可是铁腕统治。"
+  },
+  {
+    "start": 348.628,
+    "end": 348.728,
+    "speaker": "Guest",
+    "text_en": "Yeah.",
+    "text": "对。"
+  },
+  {
+    "start": 348.728,
+    "end": 349.578,
+    "speaker": "Host",
+    "text_en": "No, you must wait.",
+    "text": "不，你得等着。"
+  },
+  {
+    "start": 349.578,
+    "end": 352.828,
+    "speaker": "Guest",
+    "text_en": "Yeah. It tastes better if you wait, is what Jameson thinks.",
+    "text": "对。Jameson 觉得，等一等味道会更好。"
+  },
+  {
+    "start": 352.828,
+    "end": 353.278,
+    "speaker": "Host",
+    "text_en": "Yeah.",
+    "text": "对。"
+  },
+  {
+    "start": 353.628,
+    "end": 354.328,
+    "speaker": "Guest",
+    "text_en": "Like salmon.",
+    "text": "就像三文鱼。"
+  },
+  {
+    "start": 354.328,
+    "end": 358.178,
+    "speaker": "Host",
+    "text_en": "All right. We've made him wait long enough. Should I read our first question?",
+    "text": "好吧。我们已经让他等得够久了。要不要我来读第一个问题？"
+  },
+  {
+    "start": 358.178,
+    "end": 358.628,
+    "speaker": "Guest",
+    "text_en": "Go for it.",
+    "text": "读吧。"
+  },
+  {
+    "start": 358.628,
+    "end": 365.628,
+    "speaker": "Host",
+    "text_en": "This is from an anonymous listener who says, I work at a large remote company. We meet up once or twice a year. I don't really know much about my engineering coworkers.",
+    "text": "这是一位匿名听众的问题。他说，我在一家大型远程办公公司工作。我们每年会线下见一两次。我其实不太了解我的工程师同事。"
+  },
+  {
+    "start": 365.492,
+    "end": 382.592,
+    "speaker": "Host",
+    "text_en": "coworkers aside from the five people on my team so the in-person meetups seem like a good place for me to get to know people from the other teams i am a career switcher and i'm currently a mid-level ic borderline junior in my late 30s and have a youthful appearance oh lucky you look at look at you bragging",
+    "text": "除了我团队里的五个人之外，我对其他同事几乎都不熟，所以这种线下聚会看起来是个让我认识其他团队成员的好机会。我是转行进入这个领域的，现在是一名中级 IC，勉强算初级以上，快 40 岁了，不过长得比较年轻。哦，你可真幸运。看看你，居然还炫耀上了。"
+  },
+  {
+    "start": 383.342,
+    "end": 394.704,
+    "speaker": "Host",
+    "text_en": "i'm also in my late 30s i do not have a youthful appearance at these meetups my position and appearance and honestly possibly my demeanor make me feel like i am expected to socialize with other ices in their in their 20s.",
+    "text": "我也是快 40 岁了，但我看起来可一点都不年轻。在这种聚会上，我的职位、外表，说实话可能还有我的举止，都让我觉得，大家似乎会期待我去和那些二十多岁的 IC 们社交。"
+  },
+  {
+    "start": 395.204,
+    "end": 403.254,
+    "speaker": "Host",
+    "text_en": "Although they are nice people, I find it hard to relate to them when talking about non-work related topics since I am much older and in a different stage of life, married with a mortgage and kids.",
+    "text": "虽然他们人都挺好，但一聊到工作以外的话题，我就很难和他们有共鸣，因为我年纪大不少，人生阶段也不一样——我已经结婚了，要还房贷，还有孩子。"
+  },
+  {
+    "start": 403.254,
+    "end": 403.704,
+    "speaker": "Guest",
+    "text_en": "Oh, yeah.",
+    "text": "哦，对。"
+  },
+  {
+    "start": 403.954,
+    "end": 408.904,
+    "speaker": "Host",
+    "text_en": "I want to socialize with co-workers closer to my age and stage in life but most of them are team leads or managers.",
+    "text": "我想和那些年龄、人生阶段跟我更接近的同事多来往，但他们大多都是 team lead 或 manager。"
+  },
+  {
+    "start": 409.304,
+    "end": 418.354,
+    "speaker": "Host",
+    "text_en": "I feel like socializing with them would be seen as brown nosing. I've also heard that once someone is a manager, it is very hard for them to befriend ICs because they are now their boss and they mostly befriend other managers.",
+    "text": "我觉得如果跟他们走得近，可能会被看成是在拍马屁。我还听说，一旦 someone 成了 manager，就很难再和 IC 做朋友了，因为他们现在是老板，通常也只会和其他 manager 来往。"
+  },
+  {
+    "start": 419.028,
+    "end": 428.928,
+    "speaker": "Host",
+    "text_en": "My previous career had little management or corporate politics type stuff, so I don't know if this is true. Would I be hurting myself by doing this? Am I overthinking this? Would I be fine socializing with whomever I want?",
+    "text": "我上一份职业里几乎没有什么管理层或者办公室政治这类东西，所以我也不知道这是不是事实。要是我这么做，会不会反而对自己不利？还是我想太多了？我是不是想跟谁来往都没问题？"
+  },
+  {
+    "start": 429.278,
+    "end": 432.128,
+    "speaker": "Host",
+    "text_en": "Do you have any words or advice regarding my situation? Thanks.",
+    "text": "对于我这种情况，你有什么看法或建议吗？谢谢。"
+  },
+  {
+    "start": 432.328,
+    "end": 436.078,
+    "speaker": "Guest",
+    "text_en": "Oh boy, I had the same problem except I was actually in my twenties.",
+    "text": "哎呀，我也有过同样的问题，只不过那时候我其实才二十多岁。"
+  },
+  {
+    "start": 439.796,
+    "end": 443.896,
+    "speaker": "Host",
+    "text_en": "oh like you were in your 20s but you uh you got married",
+    "text": "哦，就是说你那时候才二十多岁，但你，呃，已经结婚了。"
+  },
+  {
+    "start": 443.896,
+    "end": 446.546,
+    "speaker": "Guest",
+    "text_en": "young married young out of mortgage and kids and uh yes",
+    "text": "年纪轻轻就结婚了，很早就背上房贷、带孩子，呃，对。"
+  },
+  {
+    "start": 446.546,
+    "end": 448.196,
+    "speaker": "Host",
+    "text_en": "you were spiritually old that's",
+    "text": "你是精神上很老成，就是——"
+  },
+  {
+    "start": 448.196,
+    "end": 451.746,
+    "speaker": "Guest",
+    "text_en": "i was like old on the inside oh yeah",
+    "text": "我就是那种内心很老成的人，哦对。"
+  },
+  {
+    "start": 451.746,
+    "end": 459.896,
+    "speaker": "Host",
+    "text_en": "what they mean when they say you're an old soul right it means you work a corporate job with a mortgage and kids very young i'm pretty sure yeah",
+    "text": "这就是他们说你是个“老灵魂”的意思，对吧？意思就是你很年轻就做着企业里的工作，还背着房贷、带着孩子。我很确定就是这样。"
+  },
+  {
+    "start": 459.896,
+    "end": 462.146,
+    "speaker": "Guest",
+    "text_en": "and hang out with whippersnappers what",
+    "text": "还跟一帮毛头小子混在一起。什么——"
+  },
+  {
+    "start": 462.146,
+    "end": 463.196,
+    "speaker": "Host",
+    "text_en": "did you do",
+    "text": "你当时都干嘛了？"
+  },
+  {
+    "start": 463.668,
+    "end": 465.068,
+    "speaker": "Guest",
+    "text_en": "I don't remember that was a long time ago.",
+    "text": "我不记得了，那都是很久以前的事了。"
+  },
+  {
+    "start": 468.068,
+    "end": 470.618,
+    "speaker": "Guest",
+    "text_en": "I don't think I thought this hard about this problem.",
+    "text": "我觉得我当时没把这个问题想得这么复杂。"
+  },
+  {
+    "start": 471.768,
+    "end": 474.618,
+    "speaker": "Host",
+    "text_en": "Yeah, I think it's fine. I mean.",
+    "text": "嗯，我觉得没问题。我的意思是。"
+  },
+  {
+    "start": 475.476,
+    "end": 502.176,
+    "speaker": "Guest",
+    "text_en": "socializing would be seen as brown nosing i don't think it would be not if you're not brown nosing i've heard when someone is managed it's hard for them to be friend icies i've heard people espouse that sentiment but people are friendly at meetups and that's part of the point is to get to know each other a little bit more so it's it's possible you might not develop long lasting friendships that continue outside of the meetup with managers if they're trying to keep a little bit of distance but if they're not your manager then that kind of goes away a little bit",
+    "text": "社交会不会被看成是在拍马屁，我觉得不会，前提是你本来就不是在拍马屁。我听说过一种说法，说一旦存在管理关系，彼此就很难做朋友。我确实听过有人这么主张，但大家在线下聚会里本来就会比较友好，这也是聚会的目的之一，就是让大家多了解彼此一点。所以，确实有可能，如果对方是经理，而且他们想保持一点距离，你未必会发展出那种能延续到聚会之外的长期友谊。但如果对方不是你的经理，这层顾虑就会少很多。"
+  },
+  {
+    "start": 502.964,
+    "end": 508.414,
+    "speaker": "Guest",
+    "text_en": "and it wouldn't hurt i don't know i think it's nice to know the people you work with whatever level they're at yeah",
+    "text": "而且这也没什么坏处，我不知道，我觉得认识一下和你共事的人挺好的，不管他们处在什么层级。对。"
+  },
+  {
+    "start": 508.414,
+    "end": 508.864,
+    "speaker": "Host",
+    "text_en": "I agree.",
+    "text": "我同意。"
+  },
+  {
+    "start": 508.864,
+    "end": 508.914,
+    "speaker": "Host",
+    "text_en": "",
+    "text": ""
+  },
+  {
+    "start": 508.914,
+    "end": 520.114,
+    "speaker": "Guest",
+    "text_en": "And it's only once or twice a year. So like, what are you worried about? Yeah, even if you are brown nosing how like, you can't do that much damage, surely you're like challenge accepted.",
+    "text": "而且一年也就一两次。所以，你到底在担心什么？是啊，就算你真的是在拍马屁，又能造成多大伤害呢？总不至于吧。你这语气像是在说：来吧，我接受挑战。"
+  },
+  {
+    "start": 522.664,
+    "end": 526.514,
+    "speaker": "Host",
+    "text_en": "they have an open bar at my meetup you would be shocked at how much damage i could do",
+    "text": "我们聚会有开放酒吧，你肯定想不到我能闯出多大的祸。"
+  },
+  {
+    "start": 526.764,
+    "end": 530.614,
+    "speaker": "Guest",
+    "text_en": "I think what's happening under the hood here under the psychological hood and we'll just we'll just",
+    "text": "我觉得这里更深层、从心理层面来说，正在发生的是——我们就先，我们就先——"
+  },
+  {
+    "start": 530.484,
+    "end": 539.784,
+    "speaker": "Guest",
+    "text_en": "we'll just put on our space psychiatrist uniform here let me just suit up into my i'll just zip that right up drop the visor all the way the zipper goes right up the front",
+    "text": "那我们这就穿上太空精神科医生的制服吧，让我先套进去，我把拉链一路拉上来，把面罩也完全放下来，拉链是从正面一直拉到顶的。"
+  },
+  {
+    "start": 539.784,
+    "end": 548.534,
+    "speaker": "Host",
+    "text_en": "all the way what if we had a big mecca montage of like like you're stepping into that's the actual suit",
+    "text": "一路拉到底？要不我们来个超大的机甲变身蒙太奇之类的，就像你一步步穿进去——那套才是真正的战衣。"
+  },
+  {
+    "start": 548.534,
+    "end": 549.884,
+    "speaker": "Guest",
+    "text_en": "oh that would be so great",
+    "text": "哦，那也太棒了。"
+  },
+  {
+    "start": 550.516,
+    "end": 551.266,
+    "speaker": "Host",
+    "text_en": "That'd be cool.",
+    "text": "那肯定很酷。"
+  },
+  {
+    "start": 551.366,
+    "end": 553.916,
+    "speaker": "Guest",
+    "text_en": "yeah i mean we do have that obviously",
+    "text": "对啊，我是说，我们显然确实有那个。"
+  },
+  {
+    "start": 553.916,
+    "end": 559.116,
+    "speaker": "Host",
+    "text_en": "Yeah, yeah, of course. What if we showed people the Mecha Montage that we've been sitting on this whole time?",
+    "text": "对，对，当然。要不我们把那段一直压着没放出来的机甲蒙太奇给大家看看？"
+  },
+  {
+    "start": 559.116,
+    "end": 580.466,
+    "speaker": "Guest",
+    "text_en": "exactly i don't know why we've never recorded it it sounds really cool and this is an audio only podcast so you just need to take our word for it it looks really cool too anyway i think under the hood space psychology mode engaged here you are in your 30s you are a career switcher you are junior it says borderline junior which is i'm going to say rounds to junior",
+    "text": "没错，我也不知道我们为什么一直没录下来，听起来真的很酷。而且这还是个纯音频播客，所以你们只能相信我们说的——它看起来也特别酷。总之，我觉得如果从底层机制来看，太空心理学模式启动：你现在三十多岁，是转行过来的人，资历还浅，严格说算是接近初级吧，不过我得说，四舍五入就是初级。"
+  },
+  {
+    "start": 580.244,
+    "end": 599.744,
+    "speaker": "Guest",
+    "text_en": "to junior and you are nervous in this new world and you know every every career has its own little culture and I think you're feeling skittish and nervous that you're going to screw this up especially given that you've already switched careers once and you know how painful it is to do that and you're just probably overly",
+    "text": "就是初级。你在这个新世界里会紧张，而且你也知道，每个职业都有自己的一套小文化。我觉得你现在有点战战兢兢、很不安，怕自己把事情搞砸。尤其是你已经转过一次行了，你知道那有多痛苦，所以你大概只是有点过度——"
+  },
+  {
+    "start": 600.0,
+    "end": 601.1,
+    "speaker": "Host",
+    "text_en": "Nervous about screwing this up.",
+    "text": "担心把这事搞砸。"
+  },
+  {
+    "start": 601.1,
+    "end": 607.6,
+    "speaker": "Guest",
+    "text_en": "Yeah, I think the stakes aren't that high as long as you're kind of within the bell curve of reasonable human behavior.",
+    "text": "对，我觉得只要你的行为还算在正常人的合理范围内，事情其实没那么严重。"
+  },
+  {
+    "start": 607.6,
+    "end": 608.1,
+    "speaker": "Host",
+    "text_en": "Yeah",
+    "text": "对。"
+  },
+  {
+    "start": 609.85,
+    "end": 612.4,
+    "speaker": "Guest",
+    "text_en": "Somebody's got to push those ends out, though.",
+    "text": "不过总得有人把这个边界往外推一推。"
+  },
+  {
+    "start": 612.45,
+    "end": 623.7,
+    "speaker": "Host",
+    "text_en": "So I think there's a tendency sometimes at these meetups, especially if you're shy to just stick with the people you work with. And it is nice, especially if y'all work remote, to see the people you work with every day in person.",
+    "text": "所以我觉得这种聚会有时候会有一种倾向，尤其如果你比较害羞的话，就只跟一起工作的人待在一块儿。而且这也挺好的，特别是如果你们平时都是远程办公，能线下见到那些每天一起工作的人，确实很不错。"
+  },
+  {
+    "start": 624.308,
+    "end": 632.708,
+    "speaker": "Host",
+    "text_en": "But I think you would not look out of place. I imagine a bunch of people will be bouncing around and meeting other people on other teams and socializing and part",
+    "text": "但我觉得你不会显得格格不入。我想很多人都会到处走动，去认识其他团队的人、社交，而这本来就是目的的一部"
+  },
+  {
+    "start": 632.708,
+    "end": 633.208,
+    "speaker": "Guest",
+    "text_en": "Yeah,",
+    "text": "对。"
+  },
+  {
+    "start": 633.208,
+    "end": 639.158,
+    "speaker": "Host",
+    "text_en": "of the point is interact with people in other contexts and other ways. So I think this is fine.",
+    "text": "分，就是要在别的场景、用别的方式和人互动。所以我觉得这样完全没问题。"
+  },
+  {
+    "start": 639.158,
+    "end": 640.358,
+    "speaker": "Guest",
+    "text_en": "I think it's fine too and",
+    "text": "我觉得也没问题，而且"
+  },
+  {
+    "start": 640.358,
+    "end": 642.858,
+    "speaker": "Host",
+    "text_en": "I don't think anyone on your team would think it was snooty.",
+    "text": "我觉得你团队里不会有人觉得那样很装。"
+  },
+  {
+    "start": 643.408,
+    "end": 652.408,
+    "speaker": "Guest",
+    "text_en": "then on the direction of hanging out with the younger ones You know, I think that immediately jumps to my mind the meme which came from a show that's actually getting quite old now",
+    "text": "然后说到和年轻人一起玩这件事，你知道，我脑子里立刻跳出来一个梗，出自一部现在其实都已经挺老的剧了。"
+  },
+  {
+    "start": 652.34,
+    "end": 656.09,
+    "speaker": "Guest",
+    "text_en": "now the 30 rock show where one of the characters hires a private investigator yes",
+    "text": "就是那部 30 Rock，里面有个角色雇了一个私家侦探，对吧。"
+  },
+  {
+    "start": 656.09,
+    "end": 657.69,
+    "speaker": "Host",
+    "text_en": "Yeah, how do you do fellow kids one?",
+    "text": "对，就是那个“how do you do fellow kids”吧？"
+  },
+  {
+    "start": 657.69,
+    "end": 678.99,
+    "speaker": "Guest",
+    "text_en": "how do you do fellow kids and he's wearing his hat backwards and he has a t-shirt that says music band on it and he's carrying a skateboard over his shoulder i mean i think as long as you stay away from that kind of caricature of youth where you're like trying to be like the 20 somethings and hang with them i think that's one possible hazard is just be who you are",
+    "text": "对，“how do you do fellow kids”，他还把帽子反着戴，穿着一件写着“music band”的 T 恤，肩上还扛着个滑板。我的意思是，只要你别搞成那种对年轻人的刻板夸张模仿，别硬要把自己弄得像二十来岁、非得跟他们混在一起，我觉得这就是一个潜在风险。你就做你自己就好了。"
+  },
+  {
+    "start": 679.092,
+    "end": 699.492,
+    "speaker": "Guest",
+    "text_en": "you know you might and you might even be surprised no i know you're you're thinking maybe i just don't like hanging out with the the young ones even though their career experience more aligns with yours and it's hard to relate with them i get it but you know what these people probably love hanging out with you because you're you've been down the road a little further and you've seen what's up ahead and i don't know they probably would like to hear from you",
+    "text": "你知道，你甚至可能会惊讶。不，我知道你现在可能在想，也许我就是不喜欢和年轻人待在一起，哪怕他们的职业经历其实跟你更接近，而且确实不太容易产生共鸣，我懂。但你知道吗，这些人可能其实很喜欢和你相处，因为你已经比他们多走了一段路，也看过前面会发生什么。我不知道，他们大概也会想听听你的看法。"
+  },
+  {
+    "start": 699.592,
+    "end": 705.792,
+    "speaker": "Host",
+    "text_en": "I think people are deep and rich and meetups are one way to experience some of that richness.",
+    "text": "我觉得人都是很有深度、很丰富的，而聚会就是体验这种丰富性的一种方式。"
+  },
+  {
+    "start": 706.196,
+    "end": 706.296,
+    "speaker": "Guest",
+    "text_en": "Yeah,",
+    "text": "对。"
+  },
+  {
+    "start": 706.296,
+    "end": 711.396,
+    "speaker": "Host",
+    "text_en": "Not everyone shows it off in those contexts, but yeah, I agree. You might be surprised.",
+    "text": "不是每个人在那种场合都会表现出来，不过对，我同意。你可能会挺意外的。"
+  },
+  {
+    "start": 711.596,
+    "end": 717.796,
+    "speaker": "Guest",
+    "text_en": "yeah. So I'd say don't avoid the young people, even though they might not be your favorite. It might be a little annoying.",
+    "text": "对。所以我会说，别刻意避开年轻人，哪怕他们可能不是你最喜欢的一类人。可能是会有点烦。"
+  },
+  {
+    "start": 717.846,
+    "end": 729.296,
+    "speaker": "Guest",
+    "text_en": "It's so funny. Like I say annoying because I have teenagers in my house right now and they are so, so annoyed by kids who are literally one year younger than them.",
+    "text": "这真的很好笑。比如我说“烦”，是因为我家里现在有青少年，他们对那些实际上只比自己小一岁的孩子都烦得不行。"
+  },
+  {
+    "start": 729.876,
+    "end": 730.426,
+    "speaker": "Host",
+    "text_en": "Yeah.",
+    "text": "对。"
+  },
+  {
+    "start": 730.726,
+    "end": 741.476,
+    "speaker": "Guest",
+    "text_en": "and they're like oh they're so annoying and i'm like listen as far as i'm concerned that was you yesterday like i can barely tell the difference between you and the next year down oh that's",
+    "text": "他们就会说，哦，他们太烦了。我就会说，听着，在我看来你昨天也这样。我几乎都分不出你和比你小一岁的那群人有什么区别。哦，这就——"
+  },
+  {
+    "start": 741.476,
+    "end": 745.226,
+    "speaker": "Host",
+    "text_en": "Interestingly, they're also so annoyed by people older than them.",
+    "text": "有意思的是，他们对比自己年纪大的人也特别烦。"
+  },
+  {
+    "start": 745.226,
+    "end": 752.626,
+    "speaker": "Guest",
+    "text_en": "right and there's oh by the way today let's just take a moment and do the gen z slang sidebar of the day new",
+    "text": "对，而且——哦，顺便说一句，今天我们先暂停一下，来个今日 Gen Z 俚语小科普。新的——"
+  },
+  {
+    "start": 752.626,
+    "end": 753.126,
+    "speaker": "Host",
+    "text_en": "Okay.",
+    "text": "好。"
+  },
+  {
+    "start": 753.126,
+    "end": 757.626,
+    "speaker": "Guest",
+    "text_en": "word making the rounds among the gen z for old have you heard this yeah",
+    "text": "Gen Z 现在在传一个形容人老的词，你听过吗？对。"
+  },
+  {
+    "start": 757.626,
+    "end": 757.826,
+    "speaker": "Host",
+    "text_en": "Is it unc?",
+    "text": "是 unc 吗？"
+  },
+  {
+    "start": 757.826,
+    "end": 758.226,
+    "speaker": "Guest",
+    "text_en": "",
+    "text": ""
+  },
+  {
+    "start": 759.38,
+    "end": 759.73,
+    "speaker": "Host",
+    "text_en": "Yeah.",
+    "text": "对。"
+  },
+  {
+    "start": 759.73,
+    "end": 760.43,
+    "speaker": "Guest",
+    "text_en": "it's one of my",
+    "text": "这是我最"
+  },
+  {
+    "start": 760.43,
+    "end": 760.48,
+    "speaker": "Host",
+    "text_en": "Yeah,",
+    "text": "对，"
+  },
+  {
+    "start": 760.48,
+    "end": 760.78,
+    "speaker": "Guest",
+    "text_en": "favorites I",
+    "text": "喜欢的之一，我"
+  },
+  {
+    "start": 760.78,
+    "end": 761.23,
+    "speaker": "Host",
+    "text_en": "I'm in touch.",
+    "text": "我有在联系。"
+  },
+  {
+    "start": 761.23,
+    "end": 762.33,
+    "speaker": "Guest",
+    "text_en": "love the unk you're",
+    "text": "喜欢那个，呃，你知道的。"
+  },
+  {
+    "start": 762.33,
+    "end": 762.58,
+    "speaker": "Host",
+    "text_en": "Yeah.",
+    "text": "对。"
+  },
+  {
+    "start": 762.58,
+    "end": 786.33,
+    "speaker": "Guest",
+    "text_en": "so unk anyway so anyway but back to the question yeah so I totally agree with Jameson hanging out with managers will not be considered brown nosing it's fine and in fact I think the people who organize these meetups which are probably quite expensive to put together I mean you're flying people in you're putting them in hotels the last thing that the organizers would want is for you to artificially limit the people you",
+    "text": "所以，呃，总之还是回到这个问题上吧。对，我完全同意 Jameson 的看法。和经理们一起待着不会被认为是在拍马屁，这没问题。事实上，我觉得组织这种聚会的人——而且办这种活动大概率成本挺高的——我的意思是，他们要把人飞过来，还要安排酒店，组织者最不希望看到的就是你人为地限制自己当面能接触的人，"
+  },
+  {
+    "start": 786.324,
+    "end": 790.724,
+    "speaker": "Guest",
+    "text_en": "you connect with in person because quote, I don't want to look like a brown noser.",
+    "text": "就因为“我不想看起来像是在拍马屁”。"
+  },
+  {
+    "start": 790.724,
+    "end": 803.074,
+    "speaker": "Host",
+    "text_en": "Yeah, I agree. I think if people are genuinely worried about that or observing it, it is something off in the culture, I guess. I would make sure I'm not literally spending all of my time,",
+    "text": "对，我同意。我觉得如果大家真的会担心这个，或者真的有人会这么看，那大概说明团队文化里有点不对劲。我会注意别真的把自己所有时间都花在——"
+  },
+  {
+    "start": 803.124,
+    "end": 815.174,
+    "speaker": "Host",
+    "text_en": "just like you don't want to spend all of your time with any group at this meetup, but don't just kind of glom on to this group of all managers and you, because I think there are likely times where they'll want to just sort of. Sort of talk shop and",
+    "text": "就像你也不会想在这次聚会上把所有时间都只花在任何一个小圈子里一样，但也别整场都黏在这群全是经理的人旁边，就你和他们，因为我觉得有些时候他们可能也会想单纯地，算是聊聊工作上的事，然后——"
+  },
+  {
+    "start": 815.174,
+    "end": 815.324,
+    "speaker": "Guest",
+    "text_en": "Yeah.",
+    "text": "对。"
+  },
+  {
+    "start": 815.324,
+    "end": 819.474,
+    "speaker": "Host",
+    "text_en": "that gets harder to do if you're talking about manager-y things.",
+    "text": "但如果你聊的是那种偏经理层面的事，这就更难做到了。"
+  },
+  {
+    "start": 819.624,
+    "end": 826.424,
+    "speaker": "Host",
+    "text_en": "Like if they go into a room that's full of smoke and says managers only on the door, just let them go. You don't need to follow",
+    "text": "比如说他们走进一个烟雾缭绕的房间，门上还写着“仅限经理”，那就让他们去吧。你没必要跟着"
+  },
+  {
+    "start": 826.424,
+    "end": 826.624,
+    "speaker": "Guest",
+    "text_en": "Yeah.",
+    "text": "对。"
+  },
+  {
+    "start": 826.624,
+    "end": 827.024,
+    "speaker": "Host",
+    "text_en": "them in there.",
+    "text": "他们一起进去。"
+  },
+  {
+    "start": 827.424,
+    "end": 831.674,
+    "speaker": "Guest",
+    "text_en": "Yeah. That sign won't stop me because I can't read. And then you stroll in.",
+    "text": "对。那牌子可拦不住我，因为我不识字。然后你就大摇大摆走进去了。"
+  },
+  {
+    "start": 833.424,
+    "end": 844.612,
+    "speaker": "Host",
+    "text_en": "So there's a couple yes-no questions at the end of this. Am I overthinking this? Yes. Would I be fine socializing with whomever I want? Yes. and do you have any words of advice regarding my situation no that",
+    "text": "所以最后有几个非黑即白的问题。是我想太多了吗？是。我要是想跟谁社交都可以，会没事吗？会。那对于我这种情况，你有什么建议吗？没有，这"
+  },
+  {
+    "start": 844.612,
+    "end": 845.062,
+    "speaker": "Guest",
+    "text_en": "No.",
+    "text": "没有。"
+  },
+  {
+    "start": 845.062,
+    "end": 850.712,
+    "speaker": "Host",
+    "text_en": "that was easy we could have saved a lot of time today if we just stuck to the script",
+    "text": "这也太简单了。我们今天要是照着提纲来，能省下不少时间。"
+  },
+  {
+    "start": 853.112,
+    "end": 855.262,
+    "speaker": "Host",
+    "text_en": "All right, Dave, you want to read our next one?",
+    "text": "好，Dave，你来读下一条吧？"
+  },
+  {
+    "start": 855.262,
+    "end": 862.962,
+    "speaker": "Guest",
+    "text_en": "you bet this uh this uh this must be an anonymous listener let's just double check yeah this is a an anonymous listener man one of these days we're going to screw that up and we're going to",
+    "text": "当然，这个，呃，这个，呃，这肯定是位匿名听众，我们还是再确认一下。对，是一位匿名听众。天哪，早晚有一天我们会搞砸这事，然后我们就会——"
+  },
+  {
+    "start": 862.962,
+    "end": 863.862,
+    "speaker": "Host",
+    "text_en": "We're going to dox somebody.",
+    "text": "我们会把别人的隐私信息曝出来。"
+  },
+  {
+    "start": 863.862,
+    "end": 866.412,
+    "speaker": "Guest",
+    "text_en": "we're going to reveal the social social security number we",
+    "text": "我们会把社保号都给公开了，我们——"
+  },
+  {
+    "start": 866.412,
+    "end": 866.812,
+    "speaker": "Host",
+    "text_en": "Yeah.",
+    "text": "对。"
+  },
+  {
+    "start": 866.812,
+    "end": 869.296,
+    "speaker": "Guest",
+    "text_en": "should take social security number out of the field out of the Out of the form, probably.",
+    "text": "可能应该把社保号这个字段从表单里删掉，真的。"
+  },
+  {
+    "start": 870.346,
+    "end": 874.546,
+    "speaker": "Host",
+    "text_en": "I just keep thinking it'll be helpful one day. It hasn't been yet, but.",
+    "text": "我老觉得总有一天会派上用场。到现在还没有，不过——"
+  },
+  {
+    "start": 876.852,
+    "end": 880.402,
+    "speaker": "Guest",
+    "text_en": "Take a photo of your passport and put it in the... Just",
+    "text": "再拍一张你的护照照片也传上去……就"
+  },
+  {
+    "start": 880.402,
+    "end": 880.852,
+    "speaker": "Host",
+    "text_en": "Yeah.",
+    "text": "对。"
+  },
+  {
+    "start": 880.852,
+    "end": 891.652,
+    "speaker": "Guest",
+    "text_en": "kidding. We don't collect any... We don't require any identifying information. So give us your PII at your own risk. All right. This comes from anonymous listener, truly anonymous,",
+    "text": "开玩笑的。我们不会收集任何……我们不要求任何身份识别信息。所以你要是给我们你的 PII，风险自负。好，下面这封来自一位匿名听众，是真匿名。"
+  },
+  {
+    "start": 891.702,
+    "end": 894.452,
+    "speaker": "Guest",
+    "text_en": "who says, hi, Dave and Jameson, before you tell me to quit my job, hear me out.",
+    "text": "他说，嗨，Dave 和 Jameson，在你们叫我辞职之前，先听我说完。"
+  },
+  {
+    "start": 895.652,
+    "end": 901.45,
+    "speaker": "Host",
+    "text_en": "You know someone's been listening for a while when they say that. And you know what? Appreciate it. Thank you for sticking with us.",
+    "text": "一听这话就知道这人已经听我们节目很久了。你知道吗？很感激。谢谢你一直听我们。"
+  },
+  {
+    "start": 901.45,
+    "end": 911.45,
+    "speaker": "Host",
+    "text_en": "That's right. I have worked in technology for 30 years. I've been at the same company for the past 20 years, but I've changed roles many times to keep work interesting. I've enjoyed learning new technologies while working in development,",
+    "text": "没错。我在科技行业工作了 30 年，过去 20 年一直在同一家公司，但我换过很多岗位，好让工作保持新鲜感。我在开发工作中接触并学习了很多新技术，"
+  },
+  {
+    "start": 911.6,
+    "end": 921.6,
+    "speaker": "Host",
+    "text_en": "architecture, system administration, management, vendor relations, and more. This has been very beneficial to my career, and I appreciate all the opportunities to grow. I've earned a good reputation, and I am well respected by my peers.",
+    "text": "还做过架构、系统管理、管理岗、供应商关系等等。这些经历对我的职业发展非常有帮助，我也很感激这些成长机会。我积累了不错的口碑，也很受同事们尊重。"
+  },
+  {
+    "start": 922.0,
+    "end": 926.55,
+    "speaker": "Host",
+    "text_en": "I've proven my worth to leadership many times over by reducing expenses by many millions.",
+    "text": "我多次向管理层证明了自己的价值，帮公司节省了数百万的开支。"
+  },
+  {
+    "start": 926.868,
+    "end": 935.568,
+    "speaker": "Host",
+    "text_en": "And creating innovative solutions to improve efficiencies. I work for corporate America in the insurance and finance industry which is generally considered to be led by cold,",
+    "text": "还创造了创新解决方案来提升效率。我在美国企业里工作，属于保险和金融行业，而这个行业通常被认为是由冷酷、"
+  },
+  {
+    "start": 935.968,
+    "end": 941.468,
+    "speaker": "Host",
+    "text_en": "heartless, power-hungry mongers. A stereotype that probably has a few exceptions but is generally not incorrect.",
+    "text": "冷血、贪恋权力的一帮人。这种刻板印象也许有少数例外，但总体上还真不算错。"
+  },
+  {
+    "start": 945.684,
+    "end": 960.334,
+    "speaker": "Host",
+    "text_en": "Oh, okay. Continuing. I've never appreciated this industry's business practices, but I've had to make a living over the years, so here I am. I am finally at my breaking point, and I'm absolutely fed up with how employees, customers,",
+    "text": "哦，好，继续。我从来都不欣赏这个行业的经营方式，但这些年总得谋生，所以我才一直待在这儿。我终于到极限了，我真的受够了我的行业这样对待员工、客户，"
+  },
+  {
+    "start": 960.434,
+    "end": 964.684,
+    "speaker": "Guest",
+    "text_en": "and communities are treated by my industry. I'm going to just interject. So am I.",
+    "text": "以及社区。我插一句，我也是。"
+  },
+  {
+    "start": 967.602,
+    "end": 978.152,
+    "speaker": "Host",
+    "text_en": "We have that in common. Okay, continuing. Because of this, I just cannot find value in my work. I've been beaten down over the years and I'm tired of being exploited by management.",
+    "text": "这点我们倒是一样。好，继续。正因为如此，我实在没法在自己的工作里找到价值感。这些年我一直被打压，现在也累了，不想再被管理层剥削了。"
+  },
+  {
+    "start": 978.402,
+    "end": 986.652,
+    "speaker": "Host",
+    "text_en": "I no longer volunteer to take on big projects. And instead of being someone who outshines others, I have decided to settle for mediocrity.",
+    "text": "我不再主动揽那些大项目了。而且我也不想再做那个比别人都出彩的人了，我决定就接受平庸。"
+  },
+  {
+    "start": 987.252,
+    "end": 1000.002,
+    "speaker": "Host",
+    "text_en": "I'm planning to retire in a few years and honestly don't have the energy or desire to search for another potentially more meaningful industry to work in, especially in the current job market. I genuinely care about many of the people I work with.",
+    "text": "我打算再过几年就退休，说实话，我已经没有精力也没有意愿再去找另一个可能更有意义的行业了，尤其是在现在这种就业市场下。我是真心在乎很多和我一起工作的人。"
+  },
+  {
+    "start": 1000.202,
+    "end": 1010.002,
+    "speaker": "Host",
+    "text_en": "Very few of them are in it to climb the corporate ladder. Most are just trying to earn enough money to pay the mortgage, feed their children, care for aging parents, and hope to have enough left over for their own retirement.",
+    "text": "他们当中几乎没几个人是为了往企业晋升阶梯上爬。大多数人只是想赚够钱还房贷、养孩子、照顾年迈的父母，并希望最后还能剩下一点给自己养老。"
+  },
+  {
+    "start": 1010.852,
+    "end": 1020.264,
+    "speaker": "Host",
+    "text_en": "How do I not leave a wake of malaise? is for my peers when I leave, but also not help feed the beast until then.",
+    "text": "我离开的时候，怎么才能既不给同事们留下一地消沉情绪，又不在那之前继续给这头怪兽添柴加火呢？"
+  },
+  {
+    "start": 1021.364,
+    "end": 1021.864,
+    "speaker": "Guest",
+    "text_en": "Ooh,",
+    "text": "哦，"
+  },
+  {
+    "start": 1021.864,
+    "end": 1024.064,
+    "speaker": "Host",
+    "text_en": "That is a somber question, my friend.",
+    "text": "这问题可真够沉重的，朋友。"
+  },
+  {
+    "start": 1024.064,
+    "end": 1025.764,
+    "speaker": "Guest",
+    "text_en": "yeah, that is fascinating.",
+    "text": "对，这很有意思。"
+  },
+  {
+    "start": 1026.614,
+    "end": 1029.164,
+    "speaker": "Host",
+    "text_en": "Honestly, I'm getting the feels a little bit on this one.",
+    "text": "说真的，这段让我有点感触。"
+  },
+  {
+    "start": 1029.214,
+    "end": 1033.864,
+    "speaker": "Host",
+    "text_en": "What do you mean? Like you can squint and see a similar thing for you in the future?",
+    "text": "什么意思？比如说，你隐约能看到自己未来也会有点类似的情况？"
+  },
+  {
+    "start": 1033.864,
+    "end": 1036.164,
+    "speaker": "Guest",
+    "text_en": "Oh. Oh, wow. No.",
+    "text": "哦。哦，哇。不。"
+  },
+  {
+    "start": 1037.652,
+    "end": 1038.652,
+    "speaker": "Host",
+    "text_en": "Hmm.",
+    "text": "嗯。"
+  },
+  {
+    "start": 1039.102,
+    "end": 1052.352,
+    "speaker": "Guest",
+    "text_en": "I feel really sad. I don't know how to say this. You know, it's funny. We've been doing this show for 10 years. And what that means is that the emotional sensitivity as we age, you get to see that in me by jumping from episode one to episode 510.",
+    "text": "我觉得特别难过。我不知道该怎么说。你知道吗，这挺有意思的。我们这个节目已经做了 10 年了。这意味着，随着我们慢慢变老，情感上的敏感度变化，你可以通过从第一期直接跳到第 510 期，在我身上看到这种变化。"
+  },
+  {
+    "start": 1052.652,
+    "end": 1060.952,
+    "speaker": "Guest",
+    "text_en": "I tear up a little, just a little when I hear about the predicament this person is in. You know, you've put so much work in for so many years.",
+    "text": "我一听到这个人的处境，眼眶就有点湿了，真的就一点点。你知道的，这么多年你投入了那么多心血。"
+  },
+  {
+    "start": 1061.716,
+    "end": 1088.366,
+    "speaker": "Guest",
+    "text_en": "and this corporate machine this this whole industry is just a freaking dumpster fire it's terrible and you're like i want to live my life and do something meaningful and wonderful but i am i feel tied down to this thing yeah and probably given the time frame here probably there's a pension on the line is my guess so you know leaving now would be like could be financially devastating i mean talk about stockholm syndrome anyway yeah",
+    "text": "而这个企业机器，这整个行业，简直就是一团该死的垃圾火场，太糟了。可你又会想，我想好好过自己的生活，去做点有意义、很美好的事，但我却感觉自己被这东西绑住了。再考虑到这里的时间线，我猜大概率还有养老金在那儿悬着，所以你知道，现在离开的话，可能在财务上会是毁灭性的。说真的，这简直就是斯德哥尔摩综合征了。总之，是啊。"
+  },
+  {
+    "start": 1089.044,
+    "end": 1096.044,
+    "speaker": "Host",
+    "text_en": "just beholden to this machine sad okay that makes sense i do not mean to insult your age",
+    "text": "就是被这台机器给套牢了，挺让人难过的。好，这就说得通了。我不是想冒犯你的年龄。"
+  },
+  {
+    "start": 1097.594,
+    "end": 1115.294,
+    "speaker": "Guest",
+    "text_en": "no honestly you know what i i think i was a little defensive when i said no i wasn't thinking about myself but i can i can definitely see it like in a you know fast forward a few years and this this could be me and i'm like what do i do do i just kind of fake it till i make it i i also recently had a friend who told me he's a little older than me i don't know",
+    "text": "没有，说真的，你知道吗，我刚才说不是的时候，其实是有点防御心态，我当时没往自己身上想。但我绝对能理解这种感觉，比如说，快进几年，这可能就是我。到时候我会想，我该怎么办？难道就一路装下去，直到熬出头吗？我最近还有个朋友跟我说，他比我大一点，我也不太确定。"
+  },
+  {
+    "start": 1114.868,
+    "end": 1120.018,
+    "speaker": "Guest",
+    "text_en": "but he basically said like i cannot wait to get out of this rat race and",
+    "text": "但他基本上就是说，我已经等不及要逃离这种老鼠赛跑了，而且"
+  },
+  {
+    "start": 1120.018,
+    "end": 1120.468,
+    "speaker": "Host",
+    "text_en": "Hmm.",
+    "text": "嗯。"
+  },
+  {
+    "start": 1120.468,
+    "end": 1122.718,
+    "speaker": "Guest",
+    "text_en": "he works in tech and he's just so tired",
+    "text": "他在科技行业工作，真的已经累坏了。"
+  },
+  {
+    "start": 1122.718,
+    "end": 1122.818,
+    "speaker": "Host",
+    "text_en": "Yeah.",
+    "text": "对。"
+  },
+  {
+    "start": 1122.818,
+    "end": 1132.118,
+    "speaker": "Guest",
+    "text_en": "it's been so many years he's just exhausted his personality is not super compatible with kind of like fast-paced you know hype-filled technology work and",
+    "text": "这么多年下来，他真的已经被耗干了。他的性格也不是特别适合那种快节奏、你知道的、充满炒作氛围的科技行业工作。"
+  },
+  {
+    "start": 1132.118,
+    "end": 1132.318,
+    "speaker": "Host",
+    "text_en": "Yeah.",
+    "text": "对。"
+  },
+  {
+    "start": 1132.318,
+    "end": 1134.768,
+    "speaker": "Guest",
+    "text_en": "and he's just he's exhausted and i feel for him too",
+    "text": "他就是太累了，我也挺能体谅他的。"
+  },
+  {
+    "start": 1135.476,
+    "end": 1138.476,
+    "speaker": "Host",
+    "text_en": "Whew. Well, I have a bunch of thoughts about this.",
+    "text": "呼。嗯，这事我有不少想法。"
+  },
+  {
+    "start": 1138.476,
+    "end": 1138.926,
+    "speaker": "Guest",
+    "text_en": "Yeah.",
+    "text": "对。"
+  },
+  {
+    "start": 1138.926,
+    "end": 1151.876,
+    "speaker": "Host",
+    "text_en": "One of them is I worked at a company that has been called evil by some people and maybe justifiably. And I think I did. I mean, I wasn't there 20 years, but I did struggle with this vibe of like.",
+    "text": "其中一个想法是，我曾经在一家被一些人称作邪恶的公司工作过，而且也许这么说也有道理。我觉得我确实也经历过这种挣扎。我的意思是，我没在那里待 20 年，但我确实会被那种氛围困扰，就是那种——"
+  },
+  {
+    "start": 1152.5,
+    "end": 1156.7,
+    "speaker": "Host",
+    "text_en": "I care about the stuff I work on. I care about the people I work with.",
+    "text": "我在乎我做的事情，我也在乎和我一起共事的人。"
+  },
+  {
+    "start": 1156.7,
+    "end": 1157.3,
+    "speaker": "Guest",
+    "text_en": "Mm hmm.",
+    "text": "嗯。"
+  },
+  {
+    "start": 1157.55,
+    "end": 1165.3,
+    "speaker": "Host",
+    "text_en": "But I'm part of this gigantic machine that certainly has at least some negative externalities.",
+    "text": "但我也是这台庞大机器的一部分，而它肯定至少会带来一些负面的外部影响。"
+  },
+  {
+    "start": 1165.95,
+    "end": 1166.25,
+    "speaker": "Guest",
+    "text_en": "Yeah.",
+    "text": "对。"
+  },
+  {
+    "start": 1166.35,
+    "end": 1173.0,
+    "speaker": "Host",
+    "text_en": "And at worst, you could call like actively making people's lives worse. Somewhere on that spectrum.",
+    "text": "往严重了说，甚至可以算是在主动让人们的生活变得更糟。大概就在这个光谱上的某个位置。"
+  },
+  {
+    "start": 1173.05,
+    "end": 1174.7,
+    "speaker": "Host",
+    "text_en": "And also doing a lot of good, too.",
+    "text": "但同时也确实做了很多好事。"
+  },
+  {
+    "start": 1174.7,
+    "end": 1177.35,
+    "speaker": "Host",
+    "text_en": "Yeah, yeah, yeah. At least that's what I told myself.",
+    "text": "对，对，对。至少我是这么说服自己的。"
+  },
+  {
+    "start": 1177.35,
+    "end": 1178.0,
+    "speaker": "Guest",
+    "text_en": "Oh, for sure.",
+    "text": "哦，那当然。"
+  },
+  {
+    "start": 1178.0,
+    "end": 1178.1,
+    "speaker": "Host",
+    "text_en": "To",
+    "text": "为了"
+  },
+  {
+    "start": 1178.1,
+    "end": 1178.3,
+    "speaker": "Host",
+    "text_en": "I mean,",
+    "text": "我是说，"
+  },
+  {
+    "start": 1178.3,
+    "end": 1178.35,
+    "speaker": "Host",
+    "text_en": "feel",
+    "text": "感觉"
+  },
+  {
+    "start": 1178.35,
+    "end": 1178.55,
+    "speaker": "Host",
+    "text_en": "I",
+    "text": "我"
+  },
+  {
+    "start": 1178.55,
+    "end": 1178.75,
+    "speaker": "Guest",
+    "text_en": "better.",
+    "text": "好多了。"
+  },
+  {
+    "start": 1178.75,
+    "end": 1181.15,
+    "speaker": "Guest",
+    "text_en": "know the company you're talking about and for sure it did.",
+    "text": "我知道你在说哪家公司，而且确实是这样。"
+  },
+  {
+    "start": 1181.172,
+    "end": 1181.172,
+    "speaker": "Guest",
+    "text_en": "and",
+    "text": "而且"
+  },
+  {
+    "start": 1181.172,
+    "end": 1184.022,
+    "speaker": "Host",
+    "text_en": "yeah for sure it does a lot of good no i i really mean it you",
+    "text": "对，绝对是，它确实做了很多好事。不，我是认真的，你"
+  },
+  {
+    "start": 1184.022,
+    "end": 1185.172,
+    "speaker": "Guest",
+    "text_en": "yeah yeah yeah",
+    "text": "对对对"
+  },
+  {
+    "start": 1185.172,
+    "end": 1191.622,
+    "speaker": "Host",
+    "text_en": "think about the the kind of work it takes to deliver what they do and make that all work man it's incredible it's needed yeah",
+    "text": "你想想，要交付他们所做的那些事情，并让这一切运转起来，需要多大的工作量，老兄，太不可思议了，而且这也是有必要的，对。"
+  },
+  {
+    "start": 1191.622,
+    "end": 1197.572,
+    "speaker": "Guest",
+    "text_en": "but it is a bit yeah there's a there's a dissonance there of like well i'll be letting these people down but",
+    "text": "但确实有点，对，就是会有一种别扭感，像是，嗯，我要是走了就辜负了这些人，不过"
+  },
+  {
+    "start": 1197.572,
+    "end": 1197.922,
+    "speaker": "Host",
+    "text_en": "oh yeah",
+    "text": "哦，对"
+  },
+  {
+    "start": 1197.922,
+    "end": 1199.822,
+    "speaker": "Guest",
+    "text_en": "also be vaguely in some",
+    "text": "但同时又会有点像是在某种"
+  },
+  {
+    "start": 1200.0,
+    "end": 1210.9,
+    "speaker": "Guest",
+    "text_en": "way sticking it to the man if i quit or i don't know sabotage them like office space style but also they will never notice because they're so gigantic and i'm this tiny little speck and yeah",
+    "text": "程度上跟体制作对，如果我辞职了，或者我也不知道，像《Office Space》那样搞点破坏，但他们其实根本不会注意到，因为他们体量太大了，而我只是个微不足道的小点，所以，对"
+  },
+  {
+    "start": 1210.9,
+    "end": 1211.5,
+    "speaker": "Host",
+    "text_en": "Listen,",
+    "text": "听着，"
+  },
+  {
+    "start": 1211.5,
+    "end": 1211.65,
+    "speaker": "Host",
+    "text_en": "",
+    "text": ""
+  },
+  {
+    "start": 1211.65,
+    "end": 1217.2,
+    "speaker": "Host",
+    "text_en": "they have designed this whole system to prevent you doing any damage to it.",
+    "text": "他们设计出整套系统，就是为了防止你对它造成任何伤害。"
+  },
+  {
+    "start": 1217.4,
+    "end": 1220.25,
+    "speaker": "Host",
+    "text_en": "and if you accidentally get some stuff done great",
+    "text": "而且如果你一不小心还真做成了点事，那更好"
+  },
+  {
+    "start": 1222.772,
+    "end": 1232.322,
+    "speaker": "Guest",
+    "text_en": "Yeah. The immune systems in these organizations that have survived this long and are thriving in the world are incredibly strong against pathogens that might want to do them harm.",
+    "text": "对。那些能存活这么久、而且在这个世界上还很兴旺的组织，它们的免疫系统都强得惊人，足以抵御任何可能伤害它们的病原体。"
+  },
+  {
+    "start": 1232.322,
+    "end": 1241.972,
+    "speaker": "Guest",
+    "text_en": "Yeah. I was sad at times when I worked there. I don't think I deliberately said, I'm just going to not do any work. I think I was at times depressed and not effective at work.",
+    "text": "对。我在那儿工作的时候，有些时候挺难过的。我不觉得自己是故意在想，反正我就是不干活了。我觉得我有时候是有点抑郁，所以工作上也没什么效率。"
+  },
+  {
+    "start": 1241.972,
+    "end": 1242.322,
+    "speaker": "Host",
+    "text_en": "Sure.",
+    "text": "当然。"
+  },
+  {
+    "start": 1242.322,
+    "end": 1256.11,
+    "speaker": "Guest",
+    "text_en": "But I believe that if I had said, actually, I have very strong evidence based on reports I've heard from other people about. things they've observed that i could just like not go to work for many months and still have a job so",
+    "text": "但我相信，如果我当时说，其实根据我从别人那里听来的汇报和他们观察到的事情，我有很充分的证据表明，我就算好几个月不去上班，也还是能保住工作，所以——"
+  },
+  {
+    "start": 1256.11,
+    "end": 1256.66,
+    "speaker": "Host",
+    "text_en": "Yeah.",
+    "text": "对。"
+  },
+  {
+    "start": 1256.66,
+    "end": 1265.26,
+    "speaker": "Guest",
+    "text_en": "the good news is if you want to slack off and not get fired there's a lot of room to hide in these giant mega corps yeah",
+    "text": "好消息是，如果你想摸鱼又不想被开除，这种巨型大公司里有很多地方可以藏身。对。"
+  },
+  {
+    "start": 1265.26,
+    "end": 1277.11,
+    "speaker": "Host",
+    "text_en": "This is not good news to my ears. Oh, that feels so bad. And I don't mean I don't mean it feels bad because you're taking money and not working for it. I just mean the soul destroying.",
+    "text": "这对我来说可不是什么好消息。哦，这感觉太糟了。我的意思不是说，糟糕是因为你拿了钱却没干活。我是说那种对灵魂的摧残——"
+  },
+  {
+    "start": 1278.356,
+    "end": 1286.448,
+    "speaker": "Host",
+    "text_en": "sadness of just milking a paycheck out of the system. over the long term it's just oh my heart sinks yes",
+    "text": "那种只是从系统里榨取一份工资的长期悲哀，真的，唉，听得我心都往下沉。对。"
+  },
+  {
+    "start": 1286.448,
+    "end": 1292.848,
+    "speaker": "Guest",
+    "text_en": "Yeah, we talked about it before, but I do believe if I had done that, I would have been much more miserable, at",
+    "text": "对，我们之前聊过这个，但我确实觉得，如果我当时真那么做了，我会痛苦得多，至少哪怕只是因为害怕被发现，还有那种愧疚感。"
+  },
+  {
+    "start": 1292.848,
+    "end": 1293.048,
+    "speaker": "Host",
+    "text_en": "yeah",
+    "text": "对"
+  },
+  {
+    "start": 1293.048,
+    "end": 1297.748,
+    "speaker": "Guest",
+    "text_en": "least for no other reason than because of the fear of getting found out and the guilt.",
+    "text": "至少哪怕只是因为害怕被发现，还有那种愧疚感。"
+  },
+  {
+    "start": 1297.748,
+    "end": 1298.248,
+    "speaker": "Host",
+    "text_en": "yeah",
+    "text": "对"
+  },
+  {
+    "start": 1298.248,
+    "end": 1303.648,
+    "speaker": "Guest",
+    "text_en": "Like, I work really hard at my job and I still have this irrational fear of what if they find out someday.",
+    "text": "比如说，我工作已经非常努力了，但我还是会有一种不太理性的恐惧，想着万一哪天他们发现了怎么办。"
+  },
+  {
+    "start": 1303.648,
+    "end": 1305.298,
+    "speaker": "Host",
+    "text_en": "yeah yeah it's your imposter syndrome",
+    "text": "对对，这是你的冒名顶替综合征"
+  },
+  {
+    "start": 1305.298,
+    "end": 1313.334,
+    "speaker": "Guest",
+    "text_en": "But if I had deliberately, yeah, been just not showing up or trying to do as little as possible, then I think that's. I think that fear would crush me. It doesn't crush everybody, though.",
+    "text": "但如果我是故意那样做的，对，就是故意不露面，或者尽量少干活，那我觉得——我觉得那种恐惧会把我压垮。不过也不是每个人都会这样。"
+  },
+  {
+    "start": 1313.534,
+    "end": 1319.484,
+    "speaker": "Host",
+    "text_en": "Well, the good news is it wouldn't be imposter syndrome, though, because you're like, no, I know I'm an imposter. It's not a syndrome.",
+    "text": "不过好消息是，那就不算冒名顶替综合征了，因为你会说，不，我知道自己就是个冒牌货，这不是综合征。"
+  },
+  {
+    "start": 1319.484,
+    "end": 1320.684,
+    "speaker": "Guest",
+    "text_en": "Yeah, that's true. Yeah.",
+    "text": "对，确实是这样。对。"
+  },
+  {
+    "start": 1320.684,
+    "end": 1321.334,
+    "speaker": "Host",
+    "text_en": "It's a strategy.",
+    "text": "这也是一种策略。"
+  },
+  {
+    "start": 1321.334,
+    "end": 1322.884,
+    "speaker": "Guest",
+    "text_en": "Yeah, maybe there'd be some comfort.",
+    "text": "对，也许这样会让人安心一点。"
+  },
+  {
+    "start": 1322.884,
+    "end": 1326.734,
+    "speaker": "Host",
+    "text_en": "I mean, I have a playful idea to find some meaning in your last few years before you retire where",
+    "text": "我的意思是，我有个比较轻松的想法，能让你在退休前最后这几年里找到一点意义，就是——"
+  },
+  {
+    "start": 1326.734,
+    "end": 1327.834,
+    "speaker": "Guest",
+    "text_en": "Yeah, hit me.",
+    "text": "好，你说。"
+  },
+  {
+    "start": 1327.834,
+    "end": 1337.234,
+    "speaker": "Host",
+    "text_en": "you can at least convince yourself that you're doing some good for the people you really care about. And I'm latching on here. You care about your co-workers. Let's see, what did he write? He or she.",
+    "text": "至少你可以说服自己，你是在为那些你真正关心的人做点好事。我就从这点切入吧。你在乎你的同事。让我看看，他写了什么？或者她写了什么。"
+  },
+  {
+    "start": 1338.772,
+    "end": 1341.422,
+    "speaker": "Guest",
+    "text_en": "Yeah, people I work with. Okay, let's go",
+    "text": "对，我在乎和我一起工作的人。好，继续吧。"
+  },
+  {
+    "start": 1341.422,
+    "end": 1341.522,
+    "speaker": "Host",
+    "text_en": "with Yeah.",
+    "text": "对。"
+  },
+  {
+    "start": 1341.522,
+    "end": 1341.672,
+    "speaker": "Guest",
+    "text_en": "that.",
+    "text": "那个。"
+  },
+  {
+    "start": 1341.672,
+    "end": 1354.64,
+    "speaker": "Host",
+    "text_en": "Spend your last few years building a covert network of code. that will cause playful inside jokes to appear for your co-workers and your customers after you leave.",
+    "text": "在你离开前的最后几年，悄悄搭建一张代码暗网。这样等你走了以后，你的同事和客户还会时不时看到一些好玩的内部梗冒出来。"
+  },
+  {
+    "start": 1354.74,
+    "end": 1362.59,
+    "speaker": "Guest",
+    "text_en": "oh it's like do you remember that story of that guy that got fired and he left all these like back doors and deleted a bunch of data and he went to prison for it yeah",
+    "text": "哦，这就像——你还记得那个故事吗？有个人被开除了，然后他留下了一堆后门，还删了很多数据，最后因为这事进监狱了，对吧。"
+  },
+  {
+    "start": 1362.59,
+    "end": 1364.04,
+    "speaker": "Host",
+    "text_en": "Yeah, but do the playful version of that.",
+    "text": "对，不过要做那个的搞笑无害版。"
+  },
+  {
+    "start": 1364.04,
+    "end": 1365.54,
+    "speaker": "Guest",
+    "text_en": "it's like the benevolent version",
+    "text": "就像是那个的善意版。"
+  },
+  {
+    "start": 1365.54,
+    "end": 1365.64,
+    "speaker": "Host",
+    "text_en": "Yeah,",
+    "text": "对。"
+  },
+  {
+    "start": 1365.64,
+    "end": 1366.34,
+    "speaker": "Guest",
+    "text_en": "of exactly. that yeah",
+    "text": "对对，就是那个意思。"
+  },
+  {
+    "start": 1366.84,
+    "end": 1370.262,
+    "speaker": "Host",
+    "text_en": "It's like, hey, it's Bob. Hope you're having a great day.",
+    "text": "就像，嘿，我是 Bob。希望你今天过得很棒。"
+  },
+  {
+    "start": 1370.262,
+    "end": 1377.862,
+    "speaker": "Guest",
+    "text_en": "you know i didn't delete our active directory don't worry you're like i wasn't until you said that",
+    "text": "你知道的，我没把我们的 Active Directory 删掉，别担心。你会说，我本来还不担心，直到你这么一说。"
+  },
+  {
+    "start": 1378.112,
+    "end": 1384.362,
+    "speaker": "Host",
+    "text_en": "What if your face appears between transactions in people's checking accounts when they log into their bank?",
+    "text": "要是人们登录银行账户时，在支票账户的交易记录之间突然看到你的脸，会怎么样？"
+  },
+  {
+    "start": 1385.62,
+    "end": 1386.97,
+    "speaker": "Guest",
+    "text_en": "That would bring me joy.",
+    "text": "那我可太开心了。"
+  },
+  {
+    "start": 1387.22,
+    "end": 1388.87,
+    "speaker": "Host",
+    "text_en": "you'd probably go to jail for that right what",
+    "text": "你大概会因为这个进监狱吧，对吧，什么——"
+  },
+  {
+    "start": 1388.87,
+    "end": 1389.37,
+    "speaker": "Guest",
+    "text_en": "Yeah,",
+    "text": "对，"
+  },
+  {
+    "start": 1389.37,
+    "end": 1389.52,
+    "speaker": "Host",
+    "text_en": "",
+    "text": ""
+  },
+  {
+    "start": 1389.52,
+    "end": 1390.02,
+    "speaker": "Guest",
+    "text_en": "probably.",
+    "text": "大概吧。"
+  },
+  {
+    "start": 1390.02,
+    "end": 1404.62,
+    "speaker": "Host",
+    "text_en": "about like what if there's some inside jokes that you and your co-workers have and you've got some admin tools and you could go like like steganographically insert these things so that after a certain date is triggered they get some really great little inside jokes that show up at the top of the screen",
+    "text": "我是说，比如你和同事之间有一些内部梗，而你手上又有一些管理员工具，你是不是可以把这些东西像隐写一样塞进去，这样等某个日期条件触发之后，屏幕顶部就会冒出一些特别精彩的小内部笑话。"
+  },
+  {
+    "start": 1404.72,
+    "end": 1405.22,
+    "speaker": "Guest",
+    "text_en": "Yeah.",
+    "text": "对。"
+  },
+  {
+    "start": 1405.27,
+    "end": 1407.97,
+    "speaker": "Host",
+    "text_en": "i mean i referenced office space earlier",
+    "text": "我是说，我前面提到过《Office Space》那部电影。"
+  },
+  {
+    "start": 1408.628,
+    "end": 1416.728,
+    "speaker": "Host",
+    "text_en": "and don't like steal from the company and burn the building down like they do in that movie but there is something to be said for deciding you know i don't really care",
+    "text": "当然，别像那部电影里那样偷公司的东西、再把楼给烧了，但有一点确实值得一说，就是你决定：你知道吗，我其实没那么在乎了。"
+  },
+  {
+    "start": 1417.716,
+    "end": 1434.216,
+    "speaker": "Host",
+    "text_en": "about the kind of threats and the whip part of the motivation anymore and i'm just gonna try to have a good time i think there's a lot of meaning to be found in whimsy and righteous mischief i guess i'll put it that way",
+    "text": "不再在乎那些威胁式的、靠鞭子抽着走的激励方式了，我就是想试着过得开心一点。我觉得，在异想天开和带点正义感的恶作剧里，其实能找到很多意义吧，我大概会这么说。"
+  },
+  {
+    "start": 1434.216,
+    "end": 1434.316,
+    "speaker": "Guest",
+    "text_en": "Yeah.",
+    "text": "对。"
+  },
+  {
+    "start": 1434.316,
+    "end": 1434.816,
+    "speaker": "Host",
+    "text_en": "at",
+    "text": "在——"
+  },
+  {
+    "start": 1434.816,
+    "end": 1435.566,
+    "speaker": "Host",
+    "text_en": "Yeah.",
+    "text": "对。"
+  },
+  {
+    "start": 1435.566,
+    "end": 1445.666,
+    "speaker": "Guest",
+    "text_en": "my last couple of weeks at this corporate job i feel like i became a little bit giddy and i didn't pull any like pranks or anything but it was so fun to show",
+    "text": "我在这份企业工作最后那几周，感觉自己有点兴奋过头了。我倒也没搞什么恶作剧之类的，但那种感觉真的很有意思，去表现出——"
+  },
+  {
+    "start": 1445.556,
+    "end": 1457.656,
+    "speaker": "Guest",
+    "text_en": "show up to a meeting and have my like boss's boss's boss announce that they're leaving and then type good riddance in the chat jk jk like like a thousand people in this zoom meeting and yeah",
+    "text": "去开一个会，然后我那种老板的老板的老板宣布他要走了，我就在聊天里打“活该，终于走了”，jk jk，就那种，那个 Zoom 会议里有上千人，嗯。"
+  },
+  {
+    "start": 1457.656,
+    "end": 1461.356,
+    "speaker": "Host",
+    "text_en": "you just didn't care right there's something about that lightweight feeling",
+    "text": "你当时就是不在乎了，对吧？那种轻飘飘、如释重负的感觉很特别。"
+  },
+  {
+    "start": 1461.606,
+    "end": 1465.706,
+    "speaker": "Guest",
+    "text_en": "it wasn't like malicious but i'm like this this will entertain me",
+    "text": "倒也不是恶意，就是我当时想，这事会让我开心一下。"
+  },
+  {
+    "start": 1466.006,
+    "end": 1478.364,
+    "speaker": "Guest",
+    "text_en": "so i think in your last few years you really do have to be careful to strike the right balance of investing your effort because If you do back off and go to mediocrity, yeah, there's a chance you can string that along for a few years.",
+    "text": "所以我觉得，在你最后那几年里，真的得很小心地拿捏好投入精力的分寸。因为如果你开始往后退，变得平庸，没错，确实有可能还能这样混上几年。"
+  },
+  {
+    "start": 1478.564,
+    "end": 1491.914,
+    "speaker": "Guest",
+    "text_en": "But in today's climate, there's a really good chance that you will be laid off. And make no mistake, especially in this industry, I don't care if you have 30 years of service under your belt or 20 years in this case, they will fire you tomorrow.",
+    "text": "但在现在这种环境下，你被裁员的可能性其实非常大。别搞错了，尤其是在这个行业里，我不管你已经干了 30 年，还是像这个例子里干了 20 年，他们明天照样会把你开掉。"
+  },
+  {
+    "start": 1492.064,
+    "end": 1493.914,
+    "speaker": "Host",
+    "text_en": "Yeah, they have a lot of practice in",
+    "text": "对，他们在这方面可太有经验了，"
+  },
+  {
+    "start": 1493.914,
+    "end": 1493.964,
+    "speaker": "Guest",
+    "text_en": "Yes.",
+    "text": "对。"
+  },
+  {
+    "start": 1493.964,
+    "end": 1500.4,
+    "speaker": "Host",
+    "text_en": "looking at situations and figuring out, wait. We can make this person mad and make money.",
+    "text": "就是看一眼情况，然后算明白，等等，我们可以把这个人惹毛，同时还能赚钱。"
+  },
+  {
+    "start": 1500.55,
+    "end": 1513.15,
+    "speaker": "Guest",
+    "text_en": "Yeah. So don't think for a minute that they won't do that. I guess I'm just going to say like, let's disabuse everyone of any kind of notion that this mega health insurance finance company has any, any degree of loyalty to you.",
+    "text": "对。所以千万别以为他们不会这么干。我想说的是，得让大家彻底打消一种幻想：这家巨型健康保险金融公司，对你根本谈不上有什么忠诚可言。"
+  },
+  {
+    "start": 1513.25,
+    "end": 1527.0,
+    "speaker": "Guest",
+    "text_en": "They do not. And so know that whatever you plan for the next few years, know that this company could exercise that option and they will do so. And to you, it's like a microsecond of consideration. That's what it'll feel like to you. And you are just.",
+    "text": "他们没有。所以你要明白，不管你对未来几年有什么打算，这家公司都可能会动用这个选项，而且他们真的会这么做。对他们来说，考虑这件事可能就一瞬间。落到你身上，感受就是这样。然后你就只是——"
+  },
+  {
+    "start": 1527.284,
+    "end": 1528.684,
+    "speaker": "Guest",
+    "text_en": "you're out on the street so",
+    "text": "直接被扫地出门了，所以"
+  },
+  {
+    "start": 1528.684,
+    "end": 1529.134,
+    "speaker": "Host",
+    "text_en": "Yeah.",
+    "text": "对。"
+  },
+  {
+    "start": 1529.134,
+    "end": 1529.484,
+    "speaker": "Guest",
+    "text_en": "everything",
+    "text": "我们说的这一切"
+  },
+  {
+    "start": 1529.484,
+    "end": 1529.884,
+    "speaker": "Host",
+    "text_en": "Yeah.",
+    "text": "对。"
+  },
+  {
+    "start": 1529.884,
+    "end": 1541.784,
+    "speaker": "Guest",
+    "text_en": "we say i think you've got to remember that that is not only possible but more likely than ever right now and by the way i was joking about putting your face in the checking account transactions because that would be really",
+    "text": "我觉得你得记住，这不只是有可能发生，而且在当下比以往任何时候都更有可能。顺便说一句，我刚才说把你的脸放进支票账户交易记录里是在开玩笑，因为那样真的会很——"
+  },
+  {
+    "start": 1541.784,
+    "end": 1542.634,
+    "speaker": "Host",
+    "text_en": "Don't do that.",
+    "text": "别这么干。"
+  },
+  {
+    "start": 1542.634,
+    "end": 1552.034,
+    "speaker": "Guest",
+    "text_en": "you think you really would you could actually go to jail for something like that in the finance like the finance industry is so heavily regulated that in space we send those people to jail that's the space law",
+    "text": "你想想看，在金融行业，干这种事你真有可能会坐牢。金融行业监管特别严，在太空里我们也是把这种人送去坐牢，这就是太空法。"
+  },
+  {
+    "start": 1552.852,
+    "end": 1554.902,
+    "speaker": "Host",
+    "text_en": "Jail is outside in space",
+    "text": "在太空里，监狱就在外面。"
+  },
+  {
+    "start": 1554.902,
+    "end": 1554.952,
+    "speaker": "Guest",
+    "text_en": "Yeah,",
+    "text": "对。"
+  },
+  {
+    "start": 1554.952,
+    "end": 1555.402,
+    "speaker": "Host",
+    "text_en": "also.",
+    "text": "也算是。"
+  },
+  {
+    "start": 1555.402,
+    "end": 1556.552,
+    "speaker": "Guest",
+    "text_en": "we just opened the door.",
+    "text": "我们直接把门打开就行了。"
+  },
+  {
+    "start": 1556.552,
+    "end": 1559.152,
+    "speaker": "Guest",
+    "text_en": "It's pretty draconian. Yeah, it's pretty rough.",
+    "text": "挺严酷的。对，挺狠的。"
+  },
+  {
+    "start": 1559.152,
+    "end": 1568.852,
+    "speaker": "Guest",
+    "text_en": "But I mean, listen, the thought, you know, I was kind of tearing up a little earlier, sort of the thought to me of just burning my last few years, trying to avoid attention,",
+    "text": "但我是说，你知道，我刚才其实都有点想哭了。对我来说，一想到自己最后这几年就这么被耗掉，一直想方设法躲避关注，"
+  },
+  {
+    "start": 1569.102,
+    "end": 1578.202,
+    "speaker": "Guest",
+    "text_en": "trying to do anything good, working for an industry I hate is so painful for me to internalize that I think about the damage that will do to your psyche.",
+    "text": "不敢去做任何真正有意义的事，还要在一个我讨厌的行业里工作，这种感觉痛苦到我都很难消化。我会去想，这会对你的心理造成多大的伤害。"
+  },
+  {
+    "start": 1578.9,
+    "end": 1595.4,
+    "speaker": "Guest",
+    "text_en": "the way you will feel the way that it will trickle into your other relationships that to me is not a risk worth taking and then to think about the day after you retire like think about you sitting in your retirement party everyone's standing around you and clapping with a cake and you're just like i hate this place",
+    "text": "你会怎么感受，它又会怎么一点点渗透到你其他的人际关系里。对我来说，这个风险根本不值得冒。然后再想想你退休后的第二天——想象一下你坐在退休派对上，大家围着你鼓掌，还端着蛋糕，而你心里却在想：我真讨厌这个地方。"
+  },
+  {
+    "start": 1596.052,
+    "end": 1598.452,
+    "speaker": "Host",
+    "text_en": "You know, and that's",
+    "text": "你知道，而且那就是——"
+  },
+  {
+    "start": 1598.452,
+    "end": 1598.852,
+    "speaker": "Guest",
+    "text_en": "Yeah.",
+    "text": "对。"
+  },
+  {
+    "start": 1598.852,
+    "end": 1599.252,
+    "speaker": "Host",
+    "text_en": "what you're thinking,",
+    "text": "你当时在想的，"
+  },
+  {
+    "start": 1599.252,
+    "end": 1599.352,
+    "speaker": "Host",
+    "text_en": "",
+    "text": ""
+  },
+  {
+    "start": 1599.352,
+    "end": 1599.552,
+    "speaker": "Host",
+    "text_en": "right?",
+    "text": "对吧？"
+  },
+  {
+    "start": 1599.552,
+    "end": 1599.652,
+    "speaker": "Host",
+    "text_en": "",
+    "text": ""
+  },
+  {
+    "start": 1599.652,
+    "end": 1611.202,
+    "speaker": "Guest",
+    "text_en": "And like, that's a terrible story. But going out and saying like, I did my best to serve my coworkers. I did my best work here. I helped everyone I could. I left nothing on the table. I earned my wages.",
+    "text": "而且，这就是个很糟糕的故事。但如果你离开的时候能说，我已经尽我所能去服务我的同事了，我在这里做出了自己最好的工作，我帮助了所有我能帮助的人，我没有留下任何遗憾，我挣得问心无愧。"
+  },
+  {
+    "start": 1611.552,
+    "end": 1623.816,
+    "speaker": "Guest",
+    "text_en": "And this company and my friends are better off because I was here. Like that's a totally different story than yes, I successfully distracted them from firing me for three years so that I could retire. I could retire.",
+    "text": "而且这家公司、我的朋友们，也都因为我在这里而过得更好。这跟“没错，我成功转移了他们想炒掉我的注意力，硬拖了三年，好让我退休。我能退休了”完全是两回事。"
+  },
+  {
+    "start": 1623.866,
+    "end": 1624.316,
+    "speaker": "Host",
+    "text_en": "Yeah.",
+    "text": "对。"
+  },
+  {
+    "start": 1624.516,
+    "end": 1639.816,
+    "speaker": "Host",
+    "text_en": "This is also like we've talked about this in the past when people are discussing leaving jobs, not for retiring, but just going to another job. There is a certain amount of clarity and risk tolerance you get if there's a definitive end line or end date in your mind, at least.",
+    "text": "这也有点像我们之前聊过的：当人们在讨论离职时，不是为了退休，而只是去另一份工作。如果你心里至少有一个明确的终点或截止日期，你会获得某种清晰感和更高的风险承受度。"
+  },
+  {
+    "start": 1640.416,
+    "end": 1652.406,
+    "speaker": "Host",
+    "text_en": "Maybe you're more willing to, I don't know, try this risky project that might blow up, but might be fun or I don't know, push hard for some change. Although if you're really fed up, that's probably. going to just burn you out but",
+    "text": "也许你会更愿意去试试某个有风险的项目，我也不知道，可能会搞砸，但也可能很有意思；或者，我也不知道，更强硬地推动一些改变。当然，如果你真的已经受够了，那大概只会把你耗尽，不过——"
+  },
+  {
+    "start": 1652.406,
+    "end": 1652.456,
+    "speaker": "Guest",
+    "text_en": "Yeah.",
+    "text": "对。"
+  },
+  {
+    "start": 1652.456,
+    "end": 1663.256,
+    "speaker": "Host",
+    "text_en": "you do have some freedom to do things you you have not done yet knowing that there's a finish line i don't know how you want to use that but it's it's different than when you're just",
+    "text": "但你确实会有一些自由，去做那些你之前还没做过的事，因为你知道前面有终点。至于你想怎么利用这一点，我也说不好，但这跟你只是——"
+  },
+  {
+    "start": 1663.892,
+    "end": 1671.242,
+    "speaker": "Host",
+    "text_en": "trying to climb the ladder or you probably don't care a ton about your performance review as long as it's not like you're getting fired right yeah",
+    "text": "一门心思想往上爬的时候不一样。或者说，只要不是要被炒，你大概也不会太在意绩效评估，对吧？"
+  },
+  {
+    "start": 1671.242,
+    "end": 1671.642,
+    "speaker": "Guest",
+    "text_en": "Right.",
+    "text": "对。"
+  },
+  {
+    "start": 1671.642,
+    "end": 1671.792,
+    "speaker": "Host",
+    "text_en": "",
+    "text": ""
+  },
+  {
+    "start": 1671.792,
+    "end": 1673.492,
+    "speaker": "Guest",
+    "text_en": "Everything short of that is no problem.",
+    "text": "除此之外的事都不是问题。"
+  },
+  {
+    "start": 1673.992,
+    "end": 1681.792,
+    "speaker": "Host",
+    "text_en": "and you you get to cut out a chunk of work that is useful when you do need to care about your performance review maybe that could be freeing",
+    "text": "而且你还能砍掉一大块工作。等你确实需要在意绩效评估的时候，这么做其实挺有用的，也许反而会让你更轻松。"
+  },
+  {
+    "start": 1682.042,
+    "end": 1690.442,
+    "speaker": "Guest",
+    "text_en": "Yeah, I think so. Imagine trying to kick off some initiative that only you can do because you know this company inside and out. You have 30 years of tenure under your belt.",
+    "text": "对，我觉得是这样。你想象一下，去发起某个只有你能做的项目，因为你对这家公司里里外外都太熟了。你已经有 30 年资历了。"
+  },
+  {
+    "start": 1690.612,
+    "end": 1701.412,
+    "speaker": "Guest",
+    "text_en": "you know what makes people tick you know what's needed maybe you could do something really cool here and who knows maybe it'll be a big failure but at least going out knowing you tried to do something big that could be really cool yeah",
+    "text": "你知道大家在意什么，也知道需要什么。也许你真能在这里做出点很酷的事。谁知道呢，也许最后会是个大失败，但至少离开的时候你知道自己试过做一件大事，这其实也挺酷的，对吧。"
+  },
+  {
+    "start": 1701.412,
+    "end": 1704.012,
+    "speaker": "Host",
+    "text_en": "Yeah, I mean you probably have a bunch of connections across the",
+    "text": "对，我是说，你大概也因为在那里工作过，积累了很多跨各个组织的关系，"
+  },
+  {
+    "start": 1704.012,
+    "end": 1704.212,
+    "speaker": "Guest",
+    "text_en": "so",
+    "text": "所以——"
+  },
+  {
+    "start": 1704.212,
+    "end": 1706.412,
+    "speaker": "Host",
+    "text_en": "orgs from working there and tell",
+    "text": "各个 orgs 里的人脉，然后还能说"
+  },
+  {
+    "start": 1706.412,
+    "end": 1707.312,
+    "speaker": "Guest",
+    "text_en": "much yeah",
+    "text": "对，差不多。"
+  },
+  {
+    "start": 1707.312,
+    "end": 1712.062,
+    "speaker": "Host",
+    "text_en": "them they need to pivot and you'll be their director of Bitcoin strategy. That's what you should do.",
+    "text": "他们需要转型，而你就去当他们的 Bitcoin 战略总监。这就是你该干的。"
+  },
+  {
+    "start": 1712.532,
+    "end": 1713.332,
+    "speaker": "Guest",
+    "text_en": "What could go wrong?",
+    "text": "能出什么岔子呢？"
+  },
+  {
+    "start": 1713.482,
+    "end": 1720.232,
+    "speaker": "Host",
+    "text_en": "Quite a bit, it turns out that, but I'm glad you took quit your job off the table.",
+    "text": "结果证明，能出的问题还真不少。不过我很高兴你没把辞职摆上台面。"
+  },
+  {
+    "start": 1720.232,
+    "end": 1720.432,
+    "speaker": "Guest",
+    "text_en": "Yeah.",
+    "text": "对。"
+  },
+  {
+    "start": 1720.432,
+    "end": 1730.232,
+    "speaker": "Host",
+    "text_en": "I agree that it would be tough to find a in the in the tail end of your career kind of start over. You might want to try just actively looking around a little bit. It doesn't cost you anything.",
+    "text": "我同意，在你职业生涯的尾声阶段想重新开始，确实会很难。你可以试着稍微主动看看外面的机会，反正也没什么成本。"
+  },
+  {
+    "start": 1730.332,
+    "end": 1736.132,
+    "speaker": "Host",
+    "text_en": "It is hard out there, I think, in general for the labor market for engineers, but maybe you'll find something.",
+    "text": "我觉得现在外面的情况确实挺难的，整体来说工程师的就业市场都不太容易，不过说不定你还是能找到点什么。"
+  },
+  {
+    "start": 1736.182,
+    "end": 1747.182,
+    "speaker": "Host",
+    "text_en": "But I think your path to a successful retirement is probably finding some whimsy and playfulness at your current gig and focusing, like Dave said, on the people around you and",
+    "text": "但我觉得，你通往成功退休的路，大概是在现在这份工作里找到一点趣味和玩心，然后像 Dave 说的那样，把注意力放在你身边的人身上，还有"
+  },
+  {
+    "start": 1747.182,
+    "end": 1747.582,
+    "speaker": "Guest",
+    "text_en": "That's right.",
+    "text": "没错。"
+  },
+  {
+    "start": 1747.582,
+    "end": 1748.632,
+    "speaker": "Host",
+    "text_en": "making their lives better.",
+    "text": "让他们的生活变得更好。"
+  },
+  {
+    "start": 1748.632,
+    "end": 1757.816,
+    "speaker": "Guest",
+    "text_en": "Do great work not for the business, not for the bloodsuckers who would fire you in an instant. in an instant. But for your co-workers, try to make their lives better. Try to inspire them.",
+    "text": "把工作做好，不是为了公司，也不是为了那些会在一瞬间就把你炒掉的吸血鬼。是为了你的同事，尽量让他们的生活过得更好。试着去激励他们。"
+  },
+  {
+    "start": 1757.916,
+    "end": 1768.716,
+    "speaker": "Guest",
+    "text_en": "Look, this is an opportunity for you to provide mentorship like you've never done before. You know, you've got so many years, you've seen a lot of stuff. Share that wisdom with people. Make new personal connections.",
+    "text": "你看，这对你来说是个机会，让你能以前所未有的方式去指导别人。你有这么多年的经验，见过那么多事。把这些智慧分享给大家。建立新的私人联系。"
+  },
+  {
+    "start": 1768.966,
+    "end": 1775.216,
+    "speaker": "Guest",
+    "text_en": "In fact, maybe your goal should be connect with people so deeply that they want to stay connected with you after you retire.",
+    "text": "其实，也许你的目标应该是和别人建立足够深的连接，深到你退休之后，他们还想继续和你保持联系。"
+  },
+  {
+    "start": 1775.566,
+    "end": 1786.302,
+    "speaker": "Host",
+    "text_en": "Yeah, I mean, a lot of your work relationships are... I always, there's some people who are better at this than I am. I'm not as good at keeping in touch with people that I really enjoy working with after I don't work with them anymore.",
+    "text": "对，我是说，你很多工作关系其实都……我一直觉得，有些人在这方面比我强。我不太擅长在不再一起工作之后，还和那些我真的很喜欢共事的人保持联系。"
+  },
+  {
+    "start": 1786.302,
+    "end": 1787.052,
+    "speaker": "Guest",
+    "text_en": "Yeah, me too.",
+    "text": "对，我也是。"
+  },
+  {
+    "start": 1787.202,
+    "end": 1799.402,
+    "speaker": "Host",
+    "text_en": "And we have these great friendships and part of it is forced proximity of, well, you see them every day, but there's something nice, but you can try and shore those up and build things that'll last after you aren't working with them anymore.",
+    "text": "我们会有这些很棒的友谊，其中一部分确实来自被迫的近距离相处——毕竟你每天都能见到他们——但这种关系也很美好，而且你可以试着把它巩固下来，建立一些在你们不再一起工作之后也能持续下去的东西。"
+  },
+  {
+    "start": 1800.0,
+    "end": 1811.65,
+    "speaker": "Guest",
+    "text_en": "And I got to say, even though you said don't tell me to quit my job, I did this once. So I was working at a big company and I'd been there several years. I was making a lot of money, more than I've ever made before and since.",
+    "text": "我得说一句，虽然你说别让我劝你辞职，但我自己还真这么干过一次。所以当时我在一家大公司工作，已经待了好几年了。那时候我赚很多钱，比我之前和之后赚得都多。"
+  },
+  {
+    "start": 1811.95,
+    "end": 1822.45,
+    "speaker": "Guest",
+    "text_en": "But I had a lot of these same problems. I didn't have the ethical concerns, thankfully, that this person had, but I felt like a cog in a machine, couldn't make any difference, couldn't really make an impact or do good.",
+    "text": "但我也有很多类似的问题。谢天谢地，我没有这个人那样的伦理顾虑，但我感觉自己就像机器里的一个齿轮，改变不了什么，也真的做不出什么影响，更谈不上做好事。"
+  },
+  {
+    "start": 1822.9,
+    "end": 1837.086,
+    "speaker": "Guest",
+    "text_en": "And it was so worth it to me to go to a place where I felt like I could. I could contribute, make a difference and actually do good that I took an enormous pay cut. It was actually more than 50% of my pay to leave that.",
+    "text": "所以对我来说，去一个让我觉得自己能做到这些的地方，太值得了。我能贡献价值，能带来改变，真的能做好事，为此我接受了大幅降薪。实际上，我为了离开那里，薪水砍掉了50%以上。"
+  },
+  {
+    "start": 1837.136,
+    "end": 1847.786,
+    "speaker": "Guest",
+    "text_en": "And I was very nervous to do that. I think a lot of people are nervous to walk away from money. And a lot of times there's a good reason for that, right? Like I'm barely making paying my bills as is. Okay. If that's the case, this is not for you.",
+    "text": "而且我当时非常紧张。我觉得很多人一想到放弃钱都会紧张。很多时候这也确实有充分理由，对吧？比如我现在本来就只是勉强够付账单。好，如果是这种情况，那这条路不适合你。"
+  },
+  {
+    "start": 1847.836,
+    "end": 1849.186,
+    "speaker": "Host",
+    "text_en": "But if you have the wiggle room.",
+    "text": "但如果你还有点腾挪空间的话。"
+  },
+  {
+    "start": 1849.748,
+    "end": 1873.548,
+    "speaker": "Guest",
+    "text_en": "it's really hard to put a price on feeling great about what you spend your waking hours doing and I know a lot of people have said this like this is like you know the Ebenezer Scrooge story in a thousand variants out there is that there's more to life than just you know earning a wage and it's true it's actually true and I put a lot of money where my mouth is on that one and I'm so glad that I did",
+    "text": "那你真的很难给这种感觉标个价：你会为自己清醒时大部分时间都在做的事情而感到很棒。我知道很多人都说过类似的话，就像 Ebenezer Scrooge 的故事有成千上万种变体一样，核心都是人生不只有挣工资这一件事。这是真的，真的是这样。我在这件事上也是实打实拿真金白银证明了自己的想法，而我非常庆幸自己这么做了。"
+  },
+  {
+    "start": 1874.004,
+    "end": 1885.454,
+    "speaker": "Guest",
+    "text_en": "And it wasn't a perfect path. Like when I left, I definitely made a bad choice in my first company. But man, I feel so much better now than I did during those last couple of years at that giant company.",
+    "text": "而且这也不是一条完美的路。比如我离开之后，第一家公司我肯定是选错了。但天哪，我现在的感觉比当年在那家巨头公司最后那几年好多了。"
+  },
+  {
+    "start": 1885.504,
+    "end": 1885.704,
+    "speaker": "Host",
+    "text_en": "Yeah.",
+    "text": "对。"
+  },
+  {
+    "start": 1885.704,
+    "end": 1896.854,
+    "speaker": "Guest",
+    "text_en": "I feel like my whole soul was rejuvenated and back. Even my wife noticed like, wow, you're just you're not super happy. And I think it was starting to affect my family life and other relationships.",
+    "text": "我感觉整个人的灵魂都被重新唤醒了，像是终于回来了。连我老婆都注意到了，说，哇，你就是……你明显没那么开心了。我觉得这都开始影响到我的家庭生活和其他人际关系了。"
+  },
+  {
+    "start": 1897.304,
+    "end": 1910.104,
+    "speaker": "Guest",
+    "text_en": "So be mindful of that because there's really not a price. where those things are worth selling out so that you can make it all the way to retirement or so that you can have your wage paid out on time yeah",
+    "text": "所以一定要留意这一点，因为这些东西真的没有一个价格值得你把自己卖掉，只为了硬撑到退休，或者只是为了让工资能按时发下来。对。"
+  },
+  {
+    "start": 1910.104,
+    "end": 1913.204,
+    "speaker": "Host",
+    "text_en": "Yeah, I'm going to replay this episode in like 30 years myself.",
+    "text": "对，30 年后我可能会把这期节目翻出来放给自己听。"
+  },
+  {
+    "start": 1913.204,
+    "end": 1923.454,
+    "speaker": "Guest",
+    "text_en": "exactly so i should too that'd be funny in 30 years i'll be clinging to my last job for the last few years in my 70s",
+    "text": "没错，我也该这么做，那肯定挺好笑的。30 年后，说不定我七十多岁了，还在死死抓着人生最后一份工作不放，就为了再撑那几年。"
+  },
+  {
+    "start": 1923.454,
+    "end": 1934.998,
+    "speaker": "Host",
+    "text_en": "No, I mean, it sounds wise and I agree and I think I did something. pretty similar of taking a pay cut leaving a big company feeling so much happier but",
+    "text": "不，我是说，这听起来很有智慧，我也认同。而且我觉得我也做过挺类似的事，降薪离开一家大公司之后，感觉开心多了，不过——"
+  },
+  {
+    "start": 1934.998,
+    "end": 1935.648,
+    "speaker": "Guest",
+    "text_en": "Mm hmm.",
+    "text": "嗯哼。"
+  },
+  {
+    "start": 1935.648,
+    "end": 1959.398,
+    "speaker": "Host",
+    "text_en": "i can definitely see myself getting sucked back in again to really sucked into work in fact i do often get very sucked into work and doesn't have to be at a big company it turns out you could do that at small companies too Yeah. but i appreciate the perspective i guess i'll say it that way that it might not matter and thinking about retirement also puts that in a different perspective too of like will i feel good about the choices that i am making now",
+    "text": "我完全能想象自己又被重新卷进去，真的再次一头扎进工作里。事实上，我也经常特别容易陷进工作。而且结果证明，这不一定非得是在大公司，小公司也一样会这样。对。不过我很感谢这个视角吧，我就这么说——也许那些事其实没那么重要。再去想想退休这件事，也会让人换个角度看问题：我现在正在做的这些选择，将来回头看时，我会觉得满意吗？"
+  },
+  {
+    "start": 1959.636,
+    "end": 1964.386,
+    "speaker": "Guest",
+    "text_en": "Yeah. Well, good luck. This is a great question. Thanks for asking it. It's making me think.",
+    "text": "对。那祝你好运。这是个很棒的问题，谢谢你提出来，也让我开始思考了。"
+  },
+  {
+    "start": 1964.586,
+    "end": 1966.386,
+    "speaker": "Host",
+    "text_en": "Yeah, it is a good one. It's a serious one.",
+    "text": "对，这个问题很好。这是个很严肃的问题。"
+  },
+  {
+    "start": 1966.586,
+    "end": 1966.786,
+    "speaker": "Guest",
+    "text_en": "Yeah.",
+    "text": "对。"
+  },
+  {
+    "start": 1966.886,
+    "end": 1967.636,
+    "speaker": "Host",
+    "text_en": "It's an important one.",
+    "text": "这也是个很重要的问题。"
+  },
+  {
+    "start": 1968.116,
+    "end": 1970.716,
+    "speaker": "Guest",
+    "text_en": "Let us know if you need fun joking ideas",
+    "text": "如果你需要一些轻松搞笑的点子，告诉我们，"
+  },
+  {
+    "start": 1970.716,
+    "end": 1970.916,
+    "speaker": "Host",
+    "text_en": "Yeah,",
+    "text": "对，"
+  },
+  {
+    "start": 1970.916,
+    "end": 1971.316,
+    "speaker": "Guest",
+    "text_en": "of what to do",
+    "text": "看看可以做点什么"
+  },
+  {
+    "start": 1971.316,
+    "end": 1971.516,
+    "speaker": "Host",
+    "text_en": "yeah.",
+    "text": "对。"
+  },
+  {
+    "start": 1971.516,
+    "end": 1972.216,
+    "speaker": "Guest",
+    "text_en": "if you stay.",
+    "text": "如果你决定留下来的话。"
+  },
+  {
+    "start": 1972.816,
+    "end": 1974.016,
+    "speaker": "Guest",
+    "text_en": "Yeah, we're here for it.",
+    "text": "对，我们就想听这个。"
+  },
+  {
+    "start": 1974.016,
+    "end": 1976.466,
+    "speaker": "Host",
+    "text_en": "Tell us what happened too. I want to hear what you decide.",
+    "text": "到时候也告诉我们后来怎么样了。我想听听你最后怎么决定的。"
+  },
+  {
+    "start": 1976.566,
+    "end": 1986.466,
+    "speaker": "Host",
+    "text_en": "I agree. I'd love to hear it. All right, what can people do if they want their own questions answered? Go to softskills.audio and click the ask a question button where you can fill out our form. Don't worry, no social security card required,",
+    "text": "我同意，我很想听。好，那如果大家也想让自己的问题得到解答，可以去 softskills.audio，点击“ask a question”按钮，然后填写我们的表单。别担心，不需要社保卡，"
+  },
+  {
+    "start": 1986.566,
+    "end": 1997.016,
+    "speaker": "Guest",
+    "text_en": "nor passport, nor any other identifying information. And thank you so much to everyone who fills that out each week. We really appreciate these questions that come in. They just flow, just a steady, nice flow, so many of them.",
+    "text": "也不需要护照，或者任何其他身份信息。也非常感谢每周来填写表单的每一个人。我们真的很感谢大家发来的这些问题。问题一直源源不断地进来，稳定、舒服的节奏，真的特别多。"
+  },
+  {
+    "start": 1996.948,
+    "end": 2003.848,
+    "speaker": "Host",
+    "text_en": "them we read them i print them out and i read them before i go to bed i read them to my kids as bedtime stories they love it",
+    "text": "我们都会看，我还会把它们打印出来，睡前读一读，甚至当睡前故事读给我的孩子们听，他们可喜欢了。"
+  },
+  {
+    "start": 2005.298,
+    "end": 2007.948,
+    "speaker": "Guest",
+    "text_en": "I'm interested to know if my kids will ever listen to this.",
+    "text": "我倒是挺想知道，我的孩子以后会不会听这个。"
+  },
+  {
+    "start": 2009.006,
+    "end": 2015.256,
+    "speaker": "Guest",
+    "text_en": "They're too young to care now, but maybe there's a future forty years from now where they they go and peruse the backlog and say,",
+    "text": "他们现在还太小，不会在意，但也许四十年后的某一天，他们会去翻翻往期内容，然后说——"
+  },
+  {
+    "start": 2015.256,
+    "end": 2015.456,
+    "speaker": "Host",
+    "text_en": "Oh.",
+    "text": "哦。"
+  },
+  {
+    "start": 2015.456,
+    "end": 2018.256,
+    "speaker": "Guest",
+    "text_en": "yeah, maybe, maybe. Turns out he wasn't lame or",
+    "text": "对，也许吧，也许。结果发现他没那么逊，或者说——"
+  },
+  {
+    "start": 2018.256,
+    "end": 2018.356,
+    "speaker": "Host",
+    "text_en": "Ah.",
+    "text": "啊。"
+  },
+  {
+    "start": 2018.356,
+    "end": 2018.856,
+    "speaker": "Guest",
+    "text_en": "oh, he was",
+    "text": "哦，他是"
+  },
+  {
+    "start": 2018.856,
+    "end": 2019.106,
+    "speaker": "Host",
+    "text_en": "Extra",
+    "text": "更"
+  },
+  {
+    "start": 2019.106,
+    "end": 2019.606,
+    "speaker": "Guest",
+    "text_en": "just as lame",
+    "text": "一样逊"
+  },
+  {
+    "start": 2019.606,
+    "end": 2019.806,
+    "speaker": "Host",
+    "text_en": "lame.",
+    "text": "逊。"
+  },
+  {
+    "start": 2019.806,
+    "end": 2021.256,
+    "speaker": "Guest",
+    "text_en": "as as we thought. Yeah.",
+    "text": "跟我们想的一样逊。对。"
+  },
+  {
+    "start": 2021.256,
+    "end": 2022.206,
+    "speaker": "Host",
+    "text_en": "Even lamer.",
+    "text": "甚至更逊。"
+  },
+  {
+    "start": 2022.706,
+    "end": 2027.006,
+    "speaker": "Host",
+    "text_en": "Yeah. All right. Thank you for listening. We will catch you next week.",
+    "text": "好的。行，那感谢你的收听。我们下周再见。"
+  }
+]
