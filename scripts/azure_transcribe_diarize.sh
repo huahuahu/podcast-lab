@@ -28,6 +28,11 @@
 #   MAX_BYTES               (默认 24000000，~24MB 低于 Azure 25MB 上限)
 set -euo pipefail
 
+# Azure endpoint 在国内需要直连（走 VPN/proxy 在长 SSE 中间易断流、握手失败）。
+# 在脚本内部 unset proxy，这样调用者不需要预处理环境；
+# 其它需要 proxy 的工具（gh/git/copilot 等）不受影响，因为只在本脚本进程生效。
+unset HTTP_PROXY HTTPS_PROXY ALL_PROXY http_proxy https_proxy all_proxy NO_PROXY no_proxy 2>/dev/null || true
+
 AUDIO="${1:?usage: azure_transcribe_diarize.sh <audio> <out_dir> [chunk_sec]}"
 OUT_DIR="${2:?usage: azure_transcribe_diarize.sh <audio> <out_dir> [chunk_sec]}"
 CHUNK_SEC="${3:-${CHUNK_SEC:-300}}"

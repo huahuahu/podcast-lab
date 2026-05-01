@@ -14,6 +14,9 @@
 #   <out_dir>/dialog_en.json                   合并后的 dialog（schema 同 diarize 版）
 set -euo pipefail
 
+# Azure endpoint 在国内需要直连；脚本内部 unset proxy，不影响调用者环境。
+unset HTTP_PROXY HTTPS_PROXY ALL_PROXY http_proxy https_proxy all_proxy NO_PROXY no_proxy 2>/dev/null || true
+
 AUDIO="${1:?usage: $0 <audio> <out_dir> [chunk_sec]}"
 OUT_DIR="${2:?usage: $0 <audio> <out_dir> [chunk_sec]}"
 CHUNK_SEC="${3:-${CHUNK_SEC:-300}}"
