@@ -78,6 +78,20 @@ else
   echo "✓ 2.5/4 speakers reassigned (or disabled), skipping"
 fi
 
+# ─── 2.7 Smart merge（丢弃 backchannel + 合并相邻同 speaker 短段）─────
+# Azure diarize 在快节奏对话里把 utterance 切得太碎（"Oh," / "on" / "awesome."
+# 之类的碎片满天飞）。这里在翻译前丢掉纯 backchannel，并把同 speaker
+# 相邻短段合起来，避免后续翻译/TTS 把对话切得断断续续。
+SMART_MERGE="${SMART_MERGE:-1}"
+SMART_SENTINEL="$PROJ/transcript/.smart-merged"
+if [ "$SMART_MERGE" = "1" ] && [ ! -f "$SMART_SENTINEL" ]; then
+  echo "🔀 2.7/4 Smart merge dialog..."
+  python3 -u "$REPO/scripts/smart_merge_dialog.py" "$PROJ"
+  touch "$SMART_SENTINEL"
+else
+  echo "✓ 2.7/4 smart merge done (or disabled), skipping"
+fi
+
 # ─── 3. 翻译（Copilot GPT-5.4）──────────────────────────────
 if [ ! -f "$PROJ/transcript/dialog_zh.json" ] \
   || [ "$(python3 -c "import json; print(len(json.load(open('$PROJ/transcript/dialog_zh.json'))))" 2>/dev/null || echo 0)" -lt \
