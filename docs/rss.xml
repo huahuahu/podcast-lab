@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Fri, 01 May 2026 18:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2026 16:00:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,40 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>Jensen Huang × Dwarkesh · Nvidia 的供应链护城河、TPU 竞争与卖芯片给中国</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">dwarkesh-jensen-huang-2026</guid>
+      <pubDate>Mon, 04 May 2026 16:00:00 +0800</pubDate>
+      <description>Dwarkesh Patel 长聊 Nvidia CEO Jensen Huang。主线是 Nvidia 的真正护城河到底是什么——不是 CUDA，而是对全球先进半导体供应链的掌控；以及由此延伸的硬话题：Google TPU 会不会撼动 Nvidia、Anthropic 大量跑在 TPU 上意味着什么、应不应该卖 AI 芯片给中国、Nvidia 为什么不直接做 hyperscaler，以及 Jensen 对没更早投 Anthropic 的遗憾。</description>
+      <content:encoded><![CDATA[
+        <h3>中文摘要</h3>
+        <p>Dwarkesh Patel 与 Jensen Huang 1 小时 43 分钟的长谈，几乎全程围绕一个问题：Nvidia 的真正护城河到底在哪里？</p>
+        <ul>
+          <li>真正的护城河不是 CUDA，而是 Nvidia 对台积电、HBM、CoWoS 这条已经极端瓶颈化的先进半导体供应链的整合能力——别的对手就算芯片设计追上，也很难拿到产能</li>
+          <li>TPU 已经是 Anthropic 的主力算力来源；Jensen 承认「他们大部分推理跑在 TPU 上」，但坚持 Nvidia 平台的可编程性和泛化性是 ASIC 替代不了的</li>
+          <li>关于卖 AI 芯片给中国：Jensen 的立场是「让中国的 AI 跑在美国的栈上」对长期更有利，封锁只会逼出本土替代</li>
+          <li>Nvidia 不做 hyperscaler，是因为「能不做的事就不做」——CUDA、向量库、机器人这些没人愿意做的他才下场，云已经很多人在做了</li>
+          <li>Jensen 自陈最大遗憾：没更早大额投资 Anthropic。当时根本没意识到 VC 撑不起一家 AI lab，Google 那种体量的现金支持是必须的</li>
+        </ul>
+        <p><small>原始来源：<a href="https://www.dwarkesh.com/p/jensen-huang">Dwarkesh Podcast</a> · <a href="https://youtu.be/Hrbq66XqtCo">YouTube</a>。本期跳过 Azure STT，直接复用 YouTube 上的人工英文字幕做 transcript；其余流程保持一致：Copilot GPT-5.4 重分配 Host/Guest + 翻译，edge-tts 双男声（云希 + 云扬），scheme B 字幕。</small></p>
+      ]]></content:encoded>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.12.0-dwarkesh-jensen-huang-2026/podcast_zh.mp3" length="36082196" type="audio/mpeg"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/dwarkesh-jensen-huang-2026/zh.srt" type="application/srt" language="zh"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/dwarkesh-jensen-huang-2026/zh.vtt" type="text/vtt" language="zh"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/dwarkesh-jensen-huang-2026/bilingual.srt" type="application/srt" language="zh"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/dwarkesh-jensen-huang-2026/bilingual.vtt" type="text/vtt" language="zh"/>
+      <category>Technology</category>
+      <category>Business</category>
+      <itunes:author>Podcast Lab</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/cover.png"/>
+      <itunes:duration>01:41:30</itunes:duration>
+      <itunes:summary>Dwarkesh × Jensen Huang：Nvidia 真正的护城河是供应链，不是 CUDA。</itunes:summary>
+      <itunes:subtitle>TPU 竞争、卖芯片给中国、为什么不做 hyperscaler</itunes:subtitle>
+    </item>
 
     <item>
       <title>Mearsheimer · Netanyahu 把 Trump 骗进战争</title>

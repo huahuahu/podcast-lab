@@ -187,5 +187,7 @@ gh release create v0.x-<slug> \
 
 ## 🎬 已完成项目
 
+- [dwarkesh-jensen-huang-2026](./projects/dwarkesh-jensen-huang-2026/) — Dwarkesh × Jensen Huang：Nvidia 的供应链护城河 (1h41m)
+  → 🎧 [下载中文版](https://github.com/huahuahu/podcast-lab/releases/tag/v0.12.0-dwarkesh-jensen-huang-2026)
 - [ethan-evans-corp-politics](./projects/ethan-evans-corp-politics/) — Retired Amazon VP 聊公司政治 (2h42m)
   → 🎧 [下载中文版](https://github.com/huahuahu/podcast-lab/releases/tag/v0.1.0-ethan-evans-zh)
