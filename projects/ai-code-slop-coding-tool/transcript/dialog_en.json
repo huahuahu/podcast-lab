@@ -1,0 +1,188 @@
+[
+  {
+    "start": 0.16,
+    "end": 11.04,
+    "speaker": "Guest",
+    "text": "AI loves to just create endlessly, never AI loves to just create endlessly, never deleting code. And if it does, you may deleting code. And if it does, you may deleting code. And if it does, you may get 10 lines deleted, 2,000 lines added. get 10 lines deleted, 2,000 lines added."
+  },
+  {
+    "start": 11.04,
+    "end": 23.109,
+    "speaker": "Guest",
+    "text": "get 10 lines deleted, 2,000 lines added. And so what many Vibe coders see is that And so what many Vibe coders see is that And so what many Vibe coders see is that even when asking the AI to refactor even when asking the AI to refactor even when asking the AI to refactor something, it actually usually ends up something, it actually usually ends up something, it actually usually ends up in a net ad of code rather than removal."
+  },
+  {
+    "start": 23.109,
+    "end": 23.119,
+    "speaker": "Guest",
+    "text": "in a net ad of code rather than removal."
+  },
+  {
+    "start": 23.119,
+    "end": 52.399,
+    "speaker": "Guest",
+    "text": "in a net ad of code rather than removal. &gt;&gt; What the heck is this thing doing? I &gt;&gt; What the heck is this thing doing? I &gt;&gt; What the heck is this thing doing? I most recently talked about this massive most recently talked about this massive most recently talked about this massive amount of code as being an issue in my amount of code as being an issue in my amount of code as being an issue in my 37,000 lines of slop video. So, that 37,000 lines of slop video. So, that 37,000 lines of slop video. So, that video was quite a bit of critique. This video was quite a bit of critique. This video was quite a bit of critique. This video, I want to take an opportunity to video, I want to take an opportunity to video, I want to take an opportunity to talk about a tool that can help fight talk about a tool that can help fight talk about a tool that can help fight that slop. And that tool is that slop. And that tool is that slop. And that tool is check this thing out. is a CLI that check this thing out. is a CLI that check this thing out. is a CLI that finds all kinds of things like dead finds all kinds of things like dead"
+  },
+  {
+    "start": 52.399,
+    "end": 69.91,
+    "speaker": "Guest",
+    "text": "finds all kinds of things like dead code, code duplication, architectural code, code duplication, architectural code, code duplication, architectural boundary issues, and tons of things that boundary issues, and tons of things that boundary issues, and tons of things that AI loves to do. So, I'm going to show AI loves to do. So, I'm going to show AI loves to do. So, I'm going to show you this thing in action, and we're you this thing in action, and we're you this thing in action, and we're going to talk all about it. First and going to talk all about it. First and going to talk all about it. First and foremost, the biggest question on your foremost, the biggest question on your foremost, the biggest question on your mind, is it fast? Well, it's built in mind, is it fast? Well, it's built in mind, is it fast? Well, it's built in Rust, so that means you know it's fast."
+  },
+  {
+    "start": 69.91,
+    "end": 69.92,
+    "speaker": "Guest",
+    "text": "Rust, so that means you know it's fast."
+  },
+  {
+    "start": 69.92,
+    "end": 98.24,
+    "speaker": "Guest",
+    "text": "Rust, so that means you know it's fast. It actually is very fast all things uh It actually is very fast all things uh It actually is very fast all things uh considered. The benchmarks do be considered. The benchmarks do be considered. The benchmarks do be benchmarking. Now, using FOW is dead benchmarking. Now, using FOW is dead benchmarking. Now, using FOW is dead simple. You just run npxow and then simple. You just run npxow and then simple. You just run npxow and then there's a number of different tools like there's a number of different tools like there's a number of different tools like dead code, dupes, health and you can dead code, dupes, health and you can dead code, dupes, health and you can even have it autofix. Let's talk about even have it autofix. Let's talk about even have it autofix. Let's talk about the first one which is dead code. So I the first one which is dead code. So I the first one which is dead code. So I have a codebase here and this codebase have a codebase here and this codebase have a codebase here and this codebase was not totally vibe coded but mostly was not totally vibe coded but mostly was not totally vibe coded but mostly vibecoded and we can run npxow vibecoded and we can run npxow"
+  },
+  {
+    "start": 98.24,
+    "end": 127.6,
+    "speaker": "Guest",
+    "text": "vibecoded and we can run npxow and then dead code. When I run this what and then dead code. When I run this what and then dead code. When I run this what it's going to do is it's going to it's going to do is it's going to it's going to do is it's going to generate a report. This is going to find generate a report. This is going to find generate a report. This is going to find anything from unused files to duplicated anything from unused files to duplicated anything from unused files to duplicated exports or TypeScript uh unused exports or TypeScript uh unused exports or TypeScript uh unused TypeScript types. And it says in their TypeScript types. And it says in their TypeScript types. And it says in their docs that most projects find 50 plus docs that most projects find 50 plus docs that most projects find 50 plus unused exports on the first run. So what unused exports on the first run. So what unused exports on the first run. So what are my results? 15 exports, 19 types, are my results? 15 exports, 19 types, are my results? 15 exports, 19 types, and one unused dependency and one and one unused dependency and one and one unused dependency and one testonly dependency. Apparently I have testonly dependency. Apparently I have"
+  },
+  {
+    "start": 127.6,
+    "end": 129.599,
+    "speaker": "Guest",
+    "text": "testonly dependency. Apparently I have D3 array in here and I've never used it. D3 array in here and I've never used it."
+  },
+  {
+    "start": 129.599,
+    "end": 158.319,
+    "speaker": "Guest",
+    "text": "D3 array in here and I've never used it. I don't know why I have D3 and array in I don't know why I have D3 and array in I don't know why I have D3 and array in here, but it is. And if we check this here, but it is. And if we check this here, but it is. And if we check this out, it's going to give you a detailed out, it's going to give you a detailed out, it's going to give you a detailed report. Unused type exports. Now, this report. Unused type exports. Now, this report. Unused type exports. Now, this is really great because every single is really great because every single is really great because every single time that AI writes something, changes time that AI writes something, changes time that AI writes something, changes course, and doesn't clean up after course, and doesn't clean up after course, and doesn't clean up after itself, that dead code is just sitting itself, that dead code is just sitting itself, that dead code is just sitting there. It's polluting your context. It's there. It's polluting your context. It's there. It's polluting your context. It's making the results worse over time making the results worse over time making the results worse over time because there's this stuff that's because there's this stuff that's because there's this stuff that's unnecessary just sitting in your unnecessary just sitting in your unnecessary just sitting in your codebase, but the agents might as well codebase, but the agents might as well"
+  },
+  {
+    "start": 158.319,
+    "end": 187.2,
+    "speaker": "Guest",
+    "text": "codebase, but the agents might as well think these things still exist. Now from think these things still exist. Now from think these things still exist. Now from here we have a detailed report and you here we have a detailed report and you here we have a detailed report and you can have an AI skill that goes ahead and can have an AI skill that goes ahead and can have an AI skill that goes ahead and runs this after each commit and then runs this after each commit and then runs this after each commit and then cleans up after itself. But the best cleans up after itself. But the best cleans up after itself. But the best part is is that because it's a part is is that because it's a part is is that because it's a definitive here's the file, here's the definitive here's the file, here's the definitive here's the file, here's the line, here's the thing that is wrong. It line, here's the thing that is wrong. It line, here's the thing that is wrong. It makes it absolutely trivial for AI to go makes it absolutely trivial for AI to go makes it absolutely trivial for AI to go clean it up. Now, another neat feature clean it up. Now, another neat feature clean it up. Now, another neat feature of the dead code tool is the boundary of the dead code tool is the boundary"
+  },
+  {
+    "start": 187.2,
+    "end": 213.68,
+    "speaker": "Guest",
+    "text": "of the dead code tool is the boundary violations. You can actually write your violations. You can actually write your violations. You can actually write your fellow JSON file to determine what the fellow JSON file to determine what the fellow JSON file to determine what the boundaries are as in never should the UI boundaries are as in never should the UI boundaries are as in never should the UI code import something from the database code import something from the database code import something from the database folder or never should it import from folder or never should it import from folder or never should it import from these folders and it uses globs to do these folders and it uses globs to do these folders and it uses globs to do that. There's a number of built-in that. There's a number of built-in that. There's a number of built-in presets here that you can use. Uh or you presets here that you can use. Uh or you presets here that you can use. Uh or you can easily write your own with your can easily write your own with your"
+  },
+  {
+    "start": 213.68,
+    "end": 242.08,
+    "speaker": "Guest",
+    "text": "can easily write your own with your individually tuned preset or just folder individually tuned preset or just folder individually tuned preset or just folder structure. So that way when AI is structure. So that way when AI is structure. So that way when AI is working, it can run your boundary working, it can run your boundary working, it can run your boundary violations code and it can report back violations code and it can report back violations code and it can report back to the agent, hey, there's been a to the agent, hey, there's been a to the agent, hey, there's been a boundary violation. And and I say this boundary violation. And and I say this boundary violation. And and I say this about in the context of AI, but like about in the context of AI, but like about in the context of AI, but like we've all had team members who just we've all had team members who just we've all had team members who just willy-nilly do stuff. I mean, importing willy-nilly do stuff. I mean, importing willy-nilly do stuff. I mean, importing a server something to somewhere should a server something to somewhere should a server something to somewhere should be a problem. And it's really cool that be a problem. And it's really cool that be a problem. And it's really cool that you can put this into your CI and warn you can put this into your CI and warn"
+  },
+  {
+    "start": 242.08,
+    "end": 257.749,
+    "speaker": "Guest",
+    "text": "you can put this into your CI and warn everybody that something wrong is going everybody that something wrong is going everybody that something wrong is going down. Therefore, giving the user the down. Therefore, giving the user the down. Therefore, giving the user the chance to fix it without it getting chance to fix it without it getting chance to fix it without it getting caught in a code review because we know caught in a code review because we know caught in a code review because we know that code reviews can take a long time that code reviews can take a long time that code reviews can take a long time and if the tools find the errors before and if the tools find the errors before and if the tools find the errors before a user does, then it's easier to fix."
+  },
+  {
+    "start": 257.749,
+    "end": 257.759,
+    "speaker": "Guest",
+    "text": "a user does, then it's easier to fix."
+  },
+  {
+    "start": 257.759,
+    "end": 287.36,
+    "speaker": "Guest",
+    "text": "a user does, then it's easier to fix. And honestly, it's probably better for And honestly, it's probably better for And honestly, it's probably better for personalities, too, if the robot is personalities, too, if the robot is personalities, too, if the robot is telling you your sucks. Now another telling you your sucks. Now another telling you your sucks. Now another really cool tool in here is the dupes really cool tool in here is the dupes really cool tool in here is the dupes command. Now dupes is really interesting command. Now dupes is really interesting command. Now dupes is really interesting because again another thing AI loves to because again another thing AI loves to because again another thing AI loves to do is write something once and then oh do is write something once and then oh do is write something once and then oh it needs that same kind of function in it needs that same kind of function in it needs that same kind of function in another folder. Let me just write it another folder. Let me just write it another folder. Let me just write it here too. Oh and let me just write it here too. Oh and let me just write it here too. Oh and let me just write it here too even though it's already in here too even though it's already in here too even though it's already in this codebase. It's not going to scan this codebase. It's not going to scan this codebase. It's not going to scan your whole codebase every single time your whole codebase every single time your whole codebase every single time unless you're really strict with it. So unless you're really strict with it. So"
+  },
+  {
+    "start": 287.36,
+    "end": 316.479,
+    "speaker": "Guest",
+    "text": "unless you're really strict with it. So let's go ahead and run npxow let's go ahead and run npxow let's go ahead and run npxow and then it's dupes. And by default, and then it's dupes. And by default, and then it's dupes. And by default, what it is is an abbased tokenization to what it is is an abbased tokenization to what it is is an abbased tokenization to find clones. You can see here that it find clones. You can see here that it find clones. You can see here that it has found some serious issues. Now, not has found some serious issues. Now, not has found some serious issues. Now, not all of these are things you'll want to all of these are things you'll want to all of these are things you'll want to always fix, and that's a good thing always fix, and that's a good thing always fix, and that's a good thing because this tool is highly configurable because this tool is highly configurable because this tool is highly configurable in how exactly it is finding in how exactly it is finding in how exactly it is finding duplications. Because sometimes those duplications. Because sometimes those duplications. Because sometimes those duplications like oh hey it's found this duplications like oh hey it's found this"
+  },
+  {
+    "start": 316.479,
+    "end": 327.68,
+    "speaker": "Guest",
+    "text": "duplications like oh hey it's found this line of code that is duplicated from 231 line of code that is duplicated from 231 line of code that is duplicated from 231 to 244 on the aggregation file. It's to 244 on the aggregation file. It's to 244 on the aggregation file. It's also in the same file as uh 328 to 338. also in the same file as uh 328 to 338."
+  },
+  {
+    "start": 327.68,
+    "end": 355.68,
+    "speaker": "Guest",
+    "text": "also in the same file as uh 328 to 338. That's a prime target for something that That's a prime target for something that That's a prime target for something that is going to be refactored. And this is is going to be refactored. And this is is going to be refactored. And this is one of those tools that you will want to one of those tools that you will want to one of those tools that you will want to when you're first getting used to it, when you're first getting used to it, when you're first getting used to it, verify and validate that the things that verify and validate that the things that verify and validate that the things that you are seeing are in fact actual you are seeing are in fact actual you are seeing are in fact actual issues, but also how you like to code. I issues, but also how you like to code. I issues, but also how you like to code. I have found this tool as being really have found this tool as being really have found this tool as being really helpful for an AI that refuses to reuse helpful for an AI that refuses to reuse helpful for an AI that refuses to reuse functions. What's interesting here too functions. What's interesting here too functions. What's interesting here too is that there's even cross language is that there's even cross language is that there's even cross language support across Typescript and JavaScript support across Typescript and JavaScript"
+  },
+  {
+    "start": 355.68,
+    "end": 375.51,
+    "speaker": "Guest",
+    "text": "support across Typescript and JavaScript files. By default, it does use asbased files. By default, it does use asbased files. By default, it does use asbased tokenization in finding clones. However, tokenization in finding clones. However, tokenization in finding clones. However, the other modes like weak, which is a the other modes like weak, which is a the other modes like weak, which is a straight up string value differ or a straight up string value differ or a straight up string value differ or a semantic one that tries to uh find semantic one that tries to uh find semantic one that tries to uh find duplicated code that was copied and then duplicated code that was copied and then duplicated code that was copied and then adapted with new variable names, right?"
+  },
+  {
+    "start": 375.51,
+    "end": 375.52,
+    "speaker": "Guest",
+    "text": "adapted with new variable names, right?"
+  },
+  {
+    "start": 375.52,
+    "end": 402.309,
+    "speaker": "Guest",
+    "text": "adapted with new variable names, right? So, you can use this thing and try it So, you can use this thing and try it So, you can use this thing and try it out in different types of ways. Really out in different types of ways. Really out in different types of ways. Really cool stuff. Now, there's also a health cool stuff. Now, there's also a health cool stuff. Now, there's also a health command. And when we run this, it's command. And when we run this, it's command. And when we run this, it's going to give you some refactoring going to give you some refactoring going to give you some refactoring targets. You can see, check this thing targets. You can see, check this thing targets. You can see, check this thing out. Again, this is not an AI just going out. Again, this is not an AI just going out. Again, this is not an AI just going off and making these judgments. This is off and making these judgments. This is off and making these judgments. This is based on both dead code complexity, how based on both dead code complexity, how based on both dead code complexity, how much the effort is going to be, and how much the effort is going to be, and how much the effort is going to be, and how high of a confidence it has in that the high of a confidence it has in that the high of a confidence it has in that the fact that this will improve this code."
+  },
+  {
+    "start": 402.309,
+    "end": 402.319,
+    "speaker": "Guest",
+    "text": "fact that this will improve this code."
+  },
+  {
+    "start": 402.319,
+    "end": 432.24,
+    "speaker": "Guest",
+    "text": "fact that this will improve this code. For instance, in this date normalization For instance, in this date normalization For instance, in this date normalization file, it says remove five used exports file, it says remove five used exports file, it says remove five used exports to reduce its surface area. Wow. Now, if to reduce its surface area. Wow. Now, if to reduce its surface area. Wow. Now, if that's clear instructions that an AI that's clear instructions that an AI that's clear instructions that an AI could handle, a junior developer could could handle, a junior developer could could handle, a junior developer could handle those instructions. And I think handle those instructions. And I think handle those instructions. And I think it's really super cool that these tools it's really super cool that these tools it's really super cool that these tools exist in this way. And the one thing I exist in this way. And the one thing I exist in this way. And the one thing I absolutely love about this tool is how absolutely love about this tool is how absolutely love about this tool is how fast it is. Meaning that you can just fast it is. Meaning that you can just fast it is. Meaning that you can just keep running it. You can have agents run keep running it. You can have agents run keep running it. You can have agents run it. You can run it personally, put in it. You can run it personally, put in it. You can run it personally, put in your CI, any of that sort of stuff. Now, your CI, any of that sort of stuff. Now,"
+  },
+  {
+    "start": 432.24,
+    "end": 461.68,
+    "speaker": "Guest",
+    "text": "your CI, any of that sort of stuff. Now, there's also the ability to autofix there's also the ability to autofix there's also the ability to autofix stuff. So, if we run npx fowix hyphen stuff. So, if we run npx fowix hyphen stuff. So, if we run npx fowix hyphen dry hyphen run, it's going to show us dry hyphen run, it's going to show us dry hyphen run, it's going to show us what it's going to do. Now, autofix what it's going to do. Now, autofix what it's going to do. Now, autofix tools kind of freak me out a little bit tools kind of freak me out a little bit tools kind of freak me out a little bit for some reason, but you can see exactly for some reason, but you can see exactly for some reason, but you can see exactly what the plan is going to be here. So, what the plan is going to be here. So, what the plan is going to be here. So, if I then run this without the dry run, if I then run this without the dry run, if I then run this without the dry run, hit enter, I can go ahead and check my hit enter, I can go ahead and check my hit enter, I can go ahead and check my codebase, and it's going to clean this codebase, and it's going to clean this codebase, and it's going to clean this thing up. I can check my code. And if we thing up. I can check my code. And if we thing up. I can check my code. And if we look at the actual changes here, you can look at the actual changes here, you can"
+  },
+  {
+    "start": 461.68,
+    "end": 491.599,
+    "speaker": "Guest",
+    "text": "look at the actual changes here, you can see it's not that it removed this see it's not that it removed this see it's not that it removed this entirely, it's that we don't need to entirely, it's that we don't need to entirely, it's that we don't need to export this. So, of course, it just export this. So, of course, it just export this. So, of course, it just removed the export. So, really cool removed the export. So, really cool removed the export. So, really cool stuff. I'm going to use this tool stuff. I'm going to use this tool stuff. I'm going to use this tool regardless if I'm working with AI or regardless if I'm working with AI or regardless if I'm working with AI or not. Now, other neat things in here are not. Now, other neat things in here are not. Now, other neat things in here are SCSS and Tailwind Analysis. They SCSS and Tailwind Analysis. They SCSS and Tailwind Analysis. They recently added agent skills as well, so recently added agent skills as well, so recently added agent skills as well, so you can go ahead and add yourow skills you can go ahead and add yourow skills you can go ahead and add yourow skills directly to your AI agent, meaning that directly to your AI agent, meaning that directly to your AI agent, meaning that you don't have to write them yourself, you don't have to write them yourself,"
+  },
+  {
+    "start": 491.599,
+    "end": 507.83,
+    "speaker": "Guest",
+    "text": "you don't have to write them yourself, and your agent will just know how to and your agent will just know how to and your agent will just know how to run. There's also Cloud Code hooks, run. There's also Cloud Code hooks, run. There's also Cloud Code hooks, which are super handy if you want this which are super handy if you want this which are super handy if you want this stuff to run on a hook when things stuff to run on a hook when things stuff to run on a hook when things changed, as well as a VS Code extension, changed, as well as a VS Code extension, changed, as well as a VS Code extension, CI integration, and even health badges."
+  },
+  {
+    "start": 507.83,
+    "end": 507.84,
+    "speaker": "Guest",
+    "text": "CI integration, and even health badges."
+  },
+  {
+    "start": 507.84,
+    "end": 529.99,
+    "speaker": "Guest",
+    "text": "CI integration, and even health badges. Now, another thing I really appreciate Now, another thing I really appreciate Now, another thing I really appreciate about here is that there's 90 builtin about here is that there's 90 builtin about here is that there's 90 builtin plugins. That means that most of the plugins. That means that most of the plugins. That means that most of the things that you use will just work. And things that you use will just work. And things that you use will just work. And I'm talking about spelt kit, Gatsby, I'm talking about spelt kit, Gatsby, I'm talking about spelt kit, Gatsby, Astro, Angular, Expo, NextJS, NestJS, Astro, Angular, Expo, NextJS, NestJS, Astro, Angular, Expo, NextJS, NestJS, Nitro, Capacitor, Sel, uh, Vess, and the Nitro, Capacitor, Sel, uh, Vess, and the Nitro, Capacitor, Sel, uh, Vess, and the bundlers. V, Webpack, RS pack, RS build, bundlers. V, Webpack, RS pack, RS build, bundlers. V, Webpack, RS pack, RS build, roll up, roll down, TS up, TS down, uh, roll up, roll down, TS up, TS down, uh, roll up, roll down, TS up, TS down, uh, linting. It works with all the llinters."
+  },
+  {
+    "start": 529.99,
+    "end": 530.0,
+    "speaker": "Guest",
+    "text": "linting. It works with all the llinters."
+  },
+  {
+    "start": 530.0,
+    "end": 537.839,
+    "speaker": "Host",
+    "text": "linting. It works with all the llinters. My gosh, it works with all the darn My gosh, it works with all the darn My gosh, it works with all the darn stuff. So, check this thing out. This stuff. So, check this thing out. This stuff. So, check this thing out. This tool fights slob."
+  }
+]

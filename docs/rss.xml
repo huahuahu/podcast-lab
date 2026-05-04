@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Mon, 04 May 2026 16:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2026 17:00:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,32 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>This Coding Tool Kills AI Code Slop（治 AI 代码肇邋的工具）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">ai-code-slop-coding-tool</guid>
+      <pubDate>Mon, 04 May 2026 17:00:00 +0800</pubDate>
+      <description>一个短视频推荐专门清理 AI 生成代码凗余的工具。AI 写代码总是只加不删，一个重构下去可能删 10 行、加 2000 行；这个工具兼容主流 linter，帮 vibe coder 把 AI 生成的冗余代码收拾干净。</description>
+      <content:encoded><![CDATA[
+        <h3>中文摘要</h3>
+        <p>AI 写代码的一个明显毛病：它从不删代码。就算叫它重构，净增量依然是正的。本期介绍一个 tool，专门用来手术式地干掉这些 AI 生成的凗余片段，能接主流 linter。</p>
+        <p><small>原始来源：<a href="https://www.youtube.com/watch?v=XLtuSy1opW4">YouTube</a>。本集作为管线测试集，验证 RSS transcript 新约定（VTT 优先 + rel="captions"）。</small></p>
+      ]]></content:encoded>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.13.0-ai-code-slop-coding-tool/podcast_zh.mp3" length="4974716" type="audio/mpeg"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/ai-code-slop-coding-tool/zh.vtt" type="text/vtt" language="zh" rel="captions"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/ai-code-slop-coding-tool/bilingual.vtt" type="text/vtt" language="zh" rel="captions"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/ai-code-slop-coding-tool/zh.srt" type="application/srt" language="zh"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/ai-code-slop-coding-tool/bilingual.srt" type="application/srt" language="zh"/>
+      <category>Technology</category>
+      <itunes:author>Podcast Lab</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/cover.png"/>
+      <itunes:duration>00:14:00</itunes:duration>
+      <itunes:summary>介绍一个专门清理 AI 生成代码凗余的工具。</itunes:summary>
+      <itunes:subtitle>治 AI 只加不删的肇邋代码</itunes:subtitle>
+    </item>
 
     <item>
       <title>Jensen Huang × Dwarkesh · Nvidia 的供应链护城河、TPU 竞争与卖芯片给中国</title>

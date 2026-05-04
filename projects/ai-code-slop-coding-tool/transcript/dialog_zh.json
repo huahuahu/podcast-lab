@@ -1,0 +1,219 @@
+[
+  {
+    "start": 0.16,
+    "end": 11.04,
+    "speaker": "Guest",
+    "text_en": "AI loves to just create endlessly, never AI loves to just create endlessly, never deleting code. And if it does, you may deleting code. And if it does, you may deleting code. And if it does, you may get 10 lines deleted, 2,000 lines added. get 10 lines deleted, 2,000 lines added.",
+    "text": "AI 就是喜欢没完没了地生成内容，从来不删代码。就算它删了，你也可能是删掉 10 行，却又加了 2000 行。"
+  },
+  {
+    "start": 11.04,
+    "end": 23.109,
+    "speaker": "Guest",
+    "text_en": "get 10 lines deleted, 2,000 lines added. And so what many Vibe coders see is that And so what many Vibe coders see is that And so what many Vibe coders see is that even when asking the AI to refactor even when asking the AI to refactor even when asking the AI to refactor something, it actually usually ends up something, it actually usually ends up something, it actually usually ends up in a net ad of code rather than removal.",
+    "text": "结果很多 Vibe coder 看到的是，就算让 AI 去重构某些东西，最后通常也是代码净增加，而不是减少。"
+  },
+  {
+    "start": 23.109,
+    "end": 23.119,
+    "speaker": "Guest",
+    "text_en": "in a net ad of code rather than removal.",
+    "text": "结果是代码净增加，而不是减少。"
+  },
+  {
+    "start": 23.119,
+    "end": 52.399,
+    "speaker": "Guest",
+    "text_en": "in a net ad of code rather than removal. &gt;&gt; What the heck is this thing doing? I &gt;&gt; What the heck is this thing doing? I &gt;&gt; What the heck is this thing doing? I most recently talked about this massive most recently talked about this massive most recently talked about this massive amount of code as being an issue in my amount of code as being an issue in my amount of code as being an issue in my 37,000 lines of slop video. So, that 37,000 lines of slop video. So, that 37,000 lines of slop video. So, that video was quite a bit of critique. This video was quite a bit of critique. This video was quite a bit of critique. This video, I want to take an opportunity to video, I want to take an opportunity to video, I want to take an opportunity to talk about a tool that can help fight talk about a tool that can help fight talk about a tool that can help fight that slop. And that tool is that slop. And that tool is that slop. And that tool is check this thing out. is a CLI that check this thing out. is a CLI that check this thing out. is a CLI that finds all kinds of things like dead finds all kinds of things like dead",
+    "text": "结果是代码净增加，而不是减少。>> 这玩意儿到底在干嘛？我最近在那个讲 3.7 万行垃圾代码的视频里，专门提到过海量代码这个问题。所以那期 3.7 万行垃圾代码的视频，批评的成分其实挺多的。这期视频里，我想借这个机会聊一个能帮你对抗这种垃圾代码的工具。这个工具就是——来看看这个东西。它是一个 CLI，可以找出各种问题，比如死代码、重复代码、架构边界问题，还有一大堆 AI 特别爱制造的问题。"
+  },
+  {
+    "start": 52.399,
+    "end": 69.91,
+    "speaker": "Guest",
+    "text_en": "finds all kinds of things like dead code, code duplication, architectural code, code duplication, architectural code, code duplication, architectural boundary issues, and tons of things that boundary issues, and tons of things that boundary issues, and tons of things that AI loves to do. So, I'm going to show AI loves to do. So, I'm going to show AI loves to do. So, I'm going to show you this thing in action, and we're you this thing in action, and we're you this thing in action, and we're going to talk all about it. First and going to talk all about it. First and going to talk all about it. First and foremost, the biggest question on your foremost, the biggest question on your foremost, the biggest question on your mind, is it fast? Well, it's built in mind, is it fast? Well, it's built in mind, is it fast? Well, it's built in Rust, so that means you know it's fast.",
+    "text": "它能找出各种问题，比如死代码、重复代码、架构边界问题，还有一大堆 AI 特别爱制造的问题。所以我会给你演示一下这东西实际跑起来是什么样，也会把它从头到尾讲清楚。首先，也是你现在最关心的问题：它快不快？嗯，它是用 Rust 写的，所以你也知道，肯定快。"
+  },
+  {
+    "start": 69.91,
+    "end": 69.92,
+    "speaker": "Guest",
+    "text_en": "Rust, so that means you know it's fast.",
+    "text": "是 Rust 写的，所以你也知道，它肯定快。"
+  },
+  {
+    "start": 69.92,
+    "end": 98.24,
+    "speaker": "Guest",
+    "text_en": "Rust, so that means you know it's fast. It actually is very fast all things uh It actually is very fast all things uh It actually is very fast all things uh considered. The benchmarks do be considered. The benchmarks do be considered. The benchmarks do be benchmarking. Now, using FOW is dead benchmarking. Now, using FOW is dead benchmarking. Now, using FOW is dead simple. You just run npxow and then simple. You just run npxow and then simple. You just run npxow and then there's a number of different tools like there's a number of different tools like there's a number of different tools like dead code, dupes, health and you can dead code, dupes, health and you can dead code, dupes, health and you can even have it autofix. Let's talk about even have it autofix. Let's talk about even have it autofix. Let's talk about the first one which is dead code. So I the first one which is dead code. So I the first one which is dead code. So I have a codebase here and this codebase have a codebase here and this codebase have a codebase here and this codebase was not totally vibe coded but mostly was not totally vibe coded but mostly was not totally vibe coded but mostly vibecoded and we can run npxow vibecoded and we can run npxow",
+    "text": "是 Rust 写的，所以你也知道，它肯定快。综合来看，它确实非常快。基准测试也确实做了。现在，FOW 用起来也特别简单。你只要运行 npxow，然后它下面有好几种工具，比如 dead code、dupes、health，甚至还能自动修复。先说第一个，也就是 dead code。我这里有一个代码库，这个代码库不算完全是 vibe coded，但大部分确实是 vibe coded 的，我们可以跑一下 npxow。"
+  },
+  {
+    "start": 98.24,
+    "end": 127.6,
+    "speaker": "Guest",
+    "text_en": "vibecoded and we can run npxow and then dead code. When I run this what and then dead code. When I run this what and then dead code. When I run this what it's going to do is it's going to it's going to do is it's going to it's going to do is it's going to generate a report. This is going to find generate a report. This is going to find generate a report. This is going to find anything from unused files to duplicated anything from unused files to duplicated anything from unused files to duplicated exports or TypeScript uh unused exports or TypeScript uh unused exports or TypeScript uh unused TypeScript types. And it says in their TypeScript types. And it says in their TypeScript types. And it says in their docs that most projects find 50 plus docs that most projects find 50 plus docs that most projects find 50 plus unused exports on the first run. So what unused exports on the first run. So what unused exports on the first run. So what are my results? 15 exports, 19 types, are my results? 15 exports, 19 types, are my results? 15 exports, 19 types, and one unused dependency and one and one unused dependency and one and one unused dependency and one testonly dependency. Apparently I have testonly dependency. Apparently I have",
+    "text": "大部分是 vibe coded 的，我们可以运行 npxow，然后执行 dead code。跑这个命令之后，它会生成一份报告。这个报告会找出各种问题，从未使用的文件，到重复导出，或者 TypeScript 里未使用的类型。它们的文档里说，大多数项目第一次运行时都能发现 50 个以上未使用的导出。那我的结果是什么呢？15 个导出、19 个类型、1 个未使用的依赖，还有 1 个仅测试使用的依赖。看起来我有"
+  },
+  {
+    "start": 127.6,
+    "end": 129.599,
+    "speaker": "Guest",
+    "text_en": "testonly dependency. Apparently I have D3 array in here and I've never used it. D3 array in here and I've never used it.",
+    "text": "testonly 依赖。显然这里有个 D3 array，但我从来没用过。这里有个 D3 array，但我从来没用过。"
+  },
+  {
+    "start": 129.599,
+    "end": 158.319,
+    "speaker": "Guest",
+    "text_en": "D3 array in here and I've never used it. I don't know why I have D3 and array in I don't know why I have D3 and array in I don't know why I have D3 and array in here, but it is. And if we check this here, but it is. And if we check this here, but it is. And if we check this out, it's going to give you a detailed out, it's going to give you a detailed out, it's going to give you a detailed report. Unused type exports. Now, this report. Unused type exports. Now, this report. Unused type exports. Now, this is really great because every single is really great because every single is really great because every single time that AI writes something, changes time that AI writes something, changes time that AI writes something, changes course, and doesn't clean up after course, and doesn't clean up after course, and doesn't clean up after itself, that dead code is just sitting itself, that dead code is just sitting itself, that dead code is just sitting there. It's polluting your context. It's there. It's polluting your context. It's there. It's polluting your context. It's making the results worse over time making the results worse over time making the results worse over time because there's this stuff that's because there's this stuff that's because there's this stuff that's unnecessary just sitting in your unnecessary just sitting in your unnecessary just sitting in your codebase, but the agents might as well codebase, but the agents might as well",
+    "text": "这里有个 D3 array，但我从来没用过。我也不知道为什么这里会有 D3 和 array，我也不知道为什么这里会有 D3 和 array，我也不知道为什么这里会有 D3 和 array，但它确实就在这儿。如果我们看看这个，如果我们看看这个，如果我们点开看看，它会给你一份详细的报告，会给你一份详细的报告，会给你一份详细的报告。未使用的类型导出。现在，这份报告。未使用的类型导出。现在，这份报告。未使用的类型导出。现在，这真的特别棒，因为每一次 AI 写了点什么、改了方向，每一次 AI 写了点什么、改了方向，每一次 AI 写了点什么、改了方向，却没有把自己留下的东西清理干净，却没有把自己留下的东西清理干净，却没有把自己留下的东西清理干净，那些死代码就会一直躺在那里。它在污染你的上下文。它就在那里。它在污染你的上下文。它就在那里。它在污染你的上下文。随着时间推移，它会让结果越来越差，随着时间推移，它会让结果越来越差，随着时间推移，它会让结果越来越差，因为有这些没必要的东西，就这么堆在你的代码库里，因为有这些没必要的东西，就这么堆在你的代码库里，因为有这些没必要的东西，就这么堆在你的代码库里，但 agent 很可能还是会"
+  },
+  {
+    "start": 158.319,
+    "end": 187.2,
+    "speaker": "Guest",
+    "text_en": "codebase, but the agents might as well think these things still exist. Now from think these things still exist. Now from think these things still exist. Now from here we have a detailed report and you here we have a detailed report and you here we have a detailed report and you can have an AI skill that goes ahead and can have an AI skill that goes ahead and can have an AI skill that goes ahead and runs this after each commit and then runs this after each commit and then runs this after each commit and then cleans up after itself. But the best cleans up after itself. But the best cleans up after itself. But the best part is is that because it's a part is is that because it's a part is is that because it's a definitive here's the file, here's the definitive here's the file, here's the definitive here's the file, here's the line, here's the thing that is wrong. It line, here's the thing that is wrong. It line, here's the thing that is wrong. It makes it absolutely trivial for AI to go makes it absolutely trivial for AI to go makes it absolutely trivial for AI to go clean it up. Now, another neat feature clean it up. Now, another neat feature clean it up. Now, another neat feature of the dead code tool is the boundary of the dead code tool is the boundary",
+    "text": "但 agent 很可能还是会以为这些东西依然存在。现在从这里开始，我们有一份详细报告，而你可以做一个 AI skill，让它在每次 commit 之后运行这个，让它在每次 commit 之后运行这个，让它在每次 commit 之后运行这个，然后自己把这些清理掉。但最棒的是，因为它是一份明确的“这里是文件、这里是行号、这里是出问题的东西”的报告。这里是行号、这里是出问题的东西。这里是行号、这里是出问题的东西。这让 AI 去清理它变得毫不费力，让 AI 去清理它变得毫不费力，让 AI 去清理它变得毫不费力。现在，死代码工具的另一个很酷的功能是 boundary"
+  },
+  {
+    "start": 187.2,
+    "end": 213.68,
+    "speaker": "Guest",
+    "text_en": "of the dead code tool is the boundary violations. You can actually write your violations. You can actually write your violations. You can actually write your fellow JSON file to determine what the fellow JSON file to determine what the fellow JSON file to determine what the boundaries are as in never should the UI boundaries are as in never should the UI boundaries are as in never should the UI code import something from the database code import something from the database code import something from the database folder or never should it import from folder or never should it import from folder or never should it import from these folders and it uses globs to do these folders and it uses globs to do these folders and it uses globs to do that. There's a number of built-in that. There's a number of built-in that. There's a number of built-in presets here that you can use. Uh or you presets here that you can use. Uh or you presets here that you can use. Uh or you can easily write your own with your can easily write your own with your",
+    "text": "死代码工具的另一个功能是边界违规。你实际上可以编写你的违规规则。你实际上可以编写你的违规规则。你实际上可以编写一个 JSON 文件，来定义这些边界到底是什么，比如 UI 代码绝不应该从 database 文件夹里 import 东西，比如 UI 代码绝不应该从 database 文件夹里 import 东西，比如 UI 代码绝不应该从 database 文件夹里 import 东西，或者绝不应该从这些文件夹里 import，或者绝不应该从这些文件夹里 import，或者绝不应该从这些文件夹里 import，它会用 glob 模式来做这件事。这里有不少内置的 preset 可用。呃，或者你，这里有不少内置的 preset 可用。呃，或者你，这里有不少内置的 preset 可用。呃，或者你也可以很容易地自己写一套，按你的"
+  },
+  {
+    "start": 213.68,
+    "end": 242.08,
+    "speaker": "Guest",
+    "text_en": "can easily write your own with your individually tuned preset or just folder individually tuned preset or just folder individually tuned preset or just folder structure. So that way when AI is structure. So that way when AI is structure. So that way when AI is working, it can run your boundary working, it can run your boundary working, it can run your boundary violations code and it can report back violations code and it can report back violations code and it can report back to the agent, hey, there's been a to the agent, hey, there's been a to the agent, hey, there's been a boundary violation. And and I say this boundary violation. And and I say this boundary violation. And and I say this about in the context of AI, but like about in the context of AI, but like about in the context of AI, but like we've all had team members who just we've all had team members who just we've all had team members who just willy-nilly do stuff. I mean, importing willy-nilly do stuff. I mean, importing willy-nilly do stuff. I mean, importing a server something to somewhere should a server something to somewhere should a server something to somewhere should be a problem. And it's really cool that be a problem. And it's really cool that be a problem. And it's really cool that you can put this into your CI and warn you can put this into your CI and warn",
+    "text": "也可以很容易地自己写一套，按你单独调好的 preset，或者就按文件夹结构来。所以这样一来，当 AI 在工作时，它就可以运行你的边界违规检查代码，它就可以运行你的边界违规检查代码，它就可以运行你的边界违规检查代码，然后把结果反馈给 agent：嘿，这里出现了边界违规。然后把结果反馈给 agent：嘿，这里出现了边界违规。然后把结果反馈给 agent：嘿，这里出现了边界违规。虽然我这里是在 AI 的语境下说这个，但其实吧，我们都遇到过那种做事很随意的团队成员。我的意思是，把某个 server 端的东西 import 到不该去的地方，本来就应该算个问题。而且很酷的一点是，你可以把这个放进 CI 里，然后提醒"
+  },
+  {
+    "start": 242.08,
+    "end": 257.749,
+    "speaker": "Guest",
+    "text_en": "you can put this into your CI and warn everybody that something wrong is going everybody that something wrong is going everybody that something wrong is going down. Therefore, giving the user the down. Therefore, giving the user the down. Therefore, giving the user the chance to fix it without it getting chance to fix it without it getting chance to fix it without it getting caught in a code review because we know caught in a code review because we know caught in a code review because we know that code reviews can take a long time that code reviews can take a long time that code reviews can take a long time and if the tools find the errors before and if the tools find the errors before and if the tools find the errors before a user does, then it's easier to fix.",
+    "text": "你可以把这个放进 CI 里，提醒所有人有问题正在发生，提醒所有人有问题正在发生，提醒所有人有问题正在发生。这样一来，用户就有机会在问题进入 code review 之前先修掉它，这样一来，用户就有机会在问题进入 code review 之前先修掉它，这样一来，用户就有机会在问题进入 code review 之前先修掉它，因为我们都知道 code review 可能会花很长时间，因为我们都知道 code review 可能会花很长时间，因为我们都知道 code review 可能会花很长时间。而如果工具能在用户发现之前先找到错误，而如果工具能在用户发现之前先找到错误，而如果工具能在用户发现之前先找到错误，那修起来就更容易。"
+  },
+  {
+    "start": 257.749,
+    "end": 257.759,
+    "speaker": "Guest",
+    "text_en": "a user does, then it's easier to fix.",
+    "text": "如果工具能在用户发现之前先找到错误，那修起来就更容易。"
+  },
+  {
+    "start": 257.759,
+    "end": 287.36,
+    "speaker": "Guest",
+    "text_en": "a user does, then it's easier to fix. And honestly, it's probably better for And honestly, it's probably better for And honestly, it's probably better for personalities, too, if the robot is personalities, too, if the robot is personalities, too, if the robot is telling you your sucks. Now another telling you your sucks. Now another telling you your sucks. Now another really cool tool in here is the dupes really cool tool in here is the dupes really cool tool in here is the dupes command. Now dupes is really interesting command. Now dupes is really interesting command. Now dupes is really interesting because again another thing AI loves to because again another thing AI loves to because again another thing AI loves to do is write something once and then oh do is write something once and then oh do is write something once and then oh it needs that same kind of function in it needs that same kind of function in it needs that same kind of function in another folder. Let me just write it another folder. Let me just write it another folder. Let me just write it here too. Oh and let me just write it here too. Oh and let me just write it here too. Oh and let me just write it here too even though it's already in here too even though it's already in here too even though it's already in this codebase. It's not going to scan this codebase. It's not going to scan this codebase. It's not going to scan your whole codebase every single time your whole codebase every single time your whole codebase every single time unless you're really strict with it. So unless you're really strict with it. So",
+    "text": "如果工具能在用户发现之前先找到错误，那修起来就更容易。说真的，从人际关系上讲可能也更好，要是指出你代码烂的是机器人。现在，这里另一个特别酷的工具是 dupes 命令。这个 dupes 命令很有意思。这个 dupes 命令很有意思。因为，还是那句话，AI 特别喜欢干的另一件事就是：写了一次东西，然后，哦，它在另一个文件夹里也需要类似的函数。那我就在这儿也写一份吧。哦，那我就在这儿也写一份吧。哦，那我就在这儿也写一份吧。即使这个代码库里其实已经有了。即使这个代码库里其实已经有了。即使这个代码库里其实已经有了。它不会每次都去扫描你的整个代码库。它不会每次都去扫描你的整个代码库。它不会每次都去扫描你的整个代码库。除非你对它要求特别严格。所以"
+  },
+  {
+    "start": 287.36,
+    "end": 316.479,
+    "speaker": "Guest",
+    "text_en": "unless you're really strict with it. So let's go ahead and run npxow let's go ahead and run npxow let's go ahead and run npxow and then it's dupes. And by default, and then it's dupes. And by default, and then it's dupes. And by default, what it is is an abbased tokenization to what it is is an abbased tokenization to what it is is an abbased tokenization to find clones. You can see here that it find clones. You can see here that it find clones. You can see here that it has found some serious issues. Now, not has found some serious issues. Now, not has found some serious issues. Now, not all of these are things you'll want to all of these are things you'll want to all of these are things you'll want to always fix, and that's a good thing always fix, and that's a good thing always fix, and that's a good thing because this tool is highly configurable because this tool is highly configurable because this tool is highly configurable in how exactly it is finding in how exactly it is finding in how exactly it is finding duplications. Because sometimes those duplications. Because sometimes those duplications. Because sometimes those duplications like oh hey it's found this duplications like oh hey it's found this",
+    "text": "除非你对它管得非常严格。所以我们来直接跑一下 npxow，然后是 dupes。默认情况下，它用的是基于 AST 的 token 化方式来查找克隆代码。你可以看到，它已经发现了一些挺严重的问题。当然，不是所有这些都一定要一直修，这反而是件好事，因为这个工具在“具体怎么查重”这件事上可配置性非常高。因为有时候这些重复项会像是，哦，它发现了这个"
+  },
+  {
+    "start": 316.479,
+    "end": 327.68,
+    "speaker": "Guest",
+    "text_en": "duplications like oh hey it's found this line of code that is duplicated from 231 line of code that is duplicated from 231 line of code that is duplicated from 231 to 244 on the aggregation file. It's to 244 on the aggregation file. It's to 244 on the aggregation file. It's also in the same file as uh 328 to 338. also in the same file as uh 328 to 338.",
+    "text": "重复项会像是，哦，它发现了 aggregation 文件里第 231 到 244 行这段重复代码。而且它还出现在同一个文件里的第 328 到 338 行。"
+  },
+  {
+    "start": 327.68,
+    "end": 355.68,
+    "speaker": "Guest",
+    "text_en": "also in the same file as uh 328 to 338. That's a prime target for something that That's a prime target for something that That's a prime target for something that is going to be refactored. And this is is going to be refactored. And this is is going to be refactored. And this is one of those tools that you will want to one of those tools that you will want to one of those tools that you will want to when you're first getting used to it, when you're first getting used to it, when you're first getting used to it, verify and validate that the things that verify and validate that the things that verify and validate that the things that you are seeing are in fact actual you are seeing are in fact actual you are seeing are in fact actual issues, but also how you like to code. I issues, but also how you like to code. I issues, but also how you like to code. I have found this tool as being really have found this tool as being really have found this tool as being really helpful for an AI that refuses to reuse helpful for an AI that refuses to reuse helpful for an AI that refuses to reuse functions. What's interesting here too functions. What's interesting here too functions. What's interesting here too is that there's even cross language is that there's even cross language is that there's even cross language support across Typescript and JavaScript support across Typescript and JavaScript",
+    "text": "而且还在同一个文件里的第 328 到 338 行。这种就是非常适合拿来重构的目标。这也是那种你刚开始上手时，会想要先去核实、确认一下你看到的东西到底是不是真问题的工具，同时也要看它是否符合你的编码习惯。我发现这个工具对那种死活不愿意复用函数的 AI 特别有帮助。还有个很有意思的点是，它甚至支持跨语言，在 Typescript 和 JavaScript 文件之间做检查。"
+  },
+  {
+    "start": 355.68,
+    "end": 375.51,
+    "speaker": "Guest",
+    "text_en": "support across Typescript and JavaScript files. By default, it does use asbased files. By default, it does use asbased files. By default, it does use asbased tokenization in finding clones. However, tokenization in finding clones. However, tokenization in finding clones. However, the other modes like weak, which is a the other modes like weak, which is a the other modes like weak, which is a straight up string value differ or a straight up string value differ or a straight up string value differ or a semantic one that tries to uh find semantic one that tries to uh find semantic one that tries to uh find duplicated code that was copied and then duplicated code that was copied and then duplicated code that was copied and then adapted with new variable names, right?",
+    "text": "支持跨 Typescript 和 JavaScript 文件。默认情况下，它确实是用基于 AST 的 token 化方式来找克隆代码。不过，其他模式比如 weak，本质上就是直接做字符串差异比较；或者 semantic 这种，它会尝试找出那种复制后又改了变量名的重复代码，对吧？"
+  },
+  {
+    "start": 375.51,
+    "end": 375.52,
+    "speaker": "Guest",
+    "text_en": "adapted with new variable names, right?",
+    "text": "改了变量名之后的那种重复代码，对吧？"
+  },
+  {
+    "start": 375.52,
+    "end": 402.309,
+    "speaker": "Guest",
+    "text_en": "adapted with new variable names, right? So, you can use this thing and try it So, you can use this thing and try it So, you can use this thing and try it out in different types of ways. Really out in different types of ways. Really out in different types of ways. Really cool stuff. Now, there's also a health cool stuff. Now, there's also a health cool stuff. Now, there's also a health command. And when we run this, it's command. And when we run this, it's command. And when we run this, it's going to give you some refactoring going to give you some refactoring going to give you some refactoring targets. You can see, check this thing targets. You can see, check this thing targets. You can see, check this thing out. Again, this is not an AI just going out. Again, this is not an AI just going out. Again, this is not an AI just going off and making these judgments. This is off and making these judgments. This is off and making these judgments. This is based on both dead code complexity, how based on both dead code complexity, how based on both dead code complexity, how much the effort is going to be, and how much the effort is going to be, and how much the effort is going to be, and how high of a confidence it has in that the high of a confidence it has in that the high of a confidence it has in that the fact that this will improve this code.",
+    "text": "改了变量名之后的那种重复代码，对吧？所以你可以用这个东西，从不同方式去试。真的很酷。然后它还有一个 health 命令。我们跑这个命令的时候，它会给你一些重构目标。你看这个，真的很有意思。再说一次，这不是 AI 自己跑出去瞎下判断。这是基于死代码、复杂度、需要投入多少工作量，以及它对“这样做会改善这段代码”这件事有多高的置信度来判断的。"
+  },
+  {
+    "start": 402.309,
+    "end": 402.319,
+    "speaker": "Guest",
+    "text_en": "fact that this will improve this code.",
+    "text": "这样做会改善这段代码。"
+  },
+  {
+    "start": 402.319,
+    "end": 432.24,
+    "speaker": "Guest",
+    "text_en": "fact that this will improve this code. For instance, in this date normalization For instance, in this date normalization For instance, in this date normalization file, it says remove five used exports file, it says remove five used exports file, it says remove five used exports to reduce its surface area. Wow. Now, if to reduce its surface area. Wow. Now, if to reduce its surface area. Wow. Now, if that's clear instructions that an AI that's clear instructions that an AI that's clear instructions that an AI could handle, a junior developer could could handle, a junior developer could could handle, a junior developer could handle those instructions. And I think handle those instructions. And I think handle those instructions. And I think it's really super cool that these tools it's really super cool that these tools it's really super cool that these tools exist in this way. And the one thing I exist in this way. And the one thing I exist in this way. And the one thing I absolutely love about this tool is how absolutely love about this tool is how absolutely love about this tool is how fast it is. Meaning that you can just fast it is. Meaning that you can just fast it is. Meaning that you can just keep running it. You can have agents run keep running it. You can have agents run keep running it. You can have agents run it. You can run it personally, put in it. You can run it personally, put in it. You can run it personally, put in your CI, any of that sort of stuff. Now, your CI, any of that sort of stuff. Now,",
+    "text": "这样做会改善这段代码。比如说，在这个 date normalization 文件里，它写的是：移除五个已使用的导出项，以减少它的对外暴露面。哇。如果这是很明确的指令，那 AI 可以处理，初级开发者也可以处理这些指令。我觉得这些工具能以这种方式存在，真的特别酷。而且我最喜欢这个工具的一点，就是它非常快。也就是说你可以一直跑它。你可以让 agents 去跑，也可以自己跑，放进你的 CI 里，诸如此类。"
+  },
+  {
+    "start": 432.24,
+    "end": 461.68,
+    "speaker": "Guest",
+    "text_en": "your CI, any of that sort of stuff. Now, there's also the ability to autofix there's also the ability to autofix there's also the ability to autofix stuff. So, if we run npx fowix hyphen stuff. So, if we run npx fowix hyphen stuff. So, if we run npx fowix hyphen dry hyphen run, it's going to show us dry hyphen run, it's going to show us dry hyphen run, it's going to show us what it's going to do. Now, autofix what it's going to do. Now, autofix what it's going to do. Now, autofix tools kind of freak me out a little bit tools kind of freak me out a little bit tools kind of freak me out a little bit for some reason, but you can see exactly for some reason, but you can see exactly for some reason, but you can see exactly what the plan is going to be here. So, what the plan is going to be here. So, what the plan is going to be here. So, if I then run this without the dry run, if I then run this without the dry run, if I then run this without the dry run, hit enter, I can go ahead and check my hit enter, I can go ahead and check my hit enter, I can go ahead and check my codebase, and it's going to clean this codebase, and it's going to clean this codebase, and it's going to clean this thing up. I can check my code. And if we thing up. I can check my code. And if we thing up. I can check my code. And if we look at the actual changes here, you can look at the actual changes here, you can",
+    "text": "你的 CI 之类的这些东西。它还有自动修复的能力。所以如果我们运行 npx fowix-stuff。所以如果我们运行 npx fowix-dry-run，它会先展示它打算做什么。自动修复工具不知道为什么总让我有点发怵，不过你可以清楚看到这里的执行计划。所以如果我接着不带 dry run 来运行它，按下回车，我就可以去检查我的代码库，它会把这个代码库清理干净。我可以看看我的代码。如果我们看这里实际的改动，你可以"
+  },
+  {
+    "start": 461.68,
+    "end": 491.599,
+    "speaker": "Guest",
+    "text_en": "look at the actual changes here, you can see it's not that it removed this see it's not that it removed this see it's not that it removed this entirely, it's that we don't need to entirely, it's that we don't need to entirely, it's that we don't need to export this. So, of course, it just export this. So, of course, it just export this. So, of course, it just removed the export. So, really cool removed the export. So, really cool removed the export. So, really cool stuff. I'm going to use this tool stuff. I'm going to use this tool stuff. I'm going to use this tool regardless if I'm working with AI or regardless if I'm working with AI or regardless if I'm working with AI or not. Now, other neat things in here are not. Now, other neat things in here are not. Now, other neat things in here are SCSS and Tailwind Analysis. They SCSS and Tailwind Analysis. They SCSS and Tailwind Analysis. They recently added agent skills as well, so recently added agent skills as well, so recently added agent skills as well, so you can go ahead and add yourow skills you can go ahead and add yourow skills you can go ahead and add yourow skills directly to your AI agent, meaning that directly to your AI agent, meaning that directly to your AI agent, meaning that you don't have to write them yourself, you don't have to write them yourself,",
+    "text": "看看这里实际的改动，你会发现它并不是把这段东西整个删掉了，而是我们其实不需要导出这个。所以它当然就只是把 export 去掉了。真的很酷。我不管是不是在配合 AI 工作，都会用这个工具。这里面另外一些很不错的东西还有 SCSS 和 Tailwind 分析。他们最近还加了 agent skills，所以你可以直接把 yourow skills 加到你的 AI agent 里，也就是说"
+  },
+  {
+    "start": 491.599,
+    "end": 507.83,
+    "speaker": "Guest",
+    "text_en": "you don't have to write them yourself, and your agent will just know how to and your agent will just know how to and your agent will just know how to run. There's also Cloud Code hooks, run. There's also Cloud Code hooks, run. There's also Cloud Code hooks, which are super handy if you want this which are super handy if you want this which are super handy if you want this stuff to run on a hook when things stuff to run on a hook when things stuff to run on a hook when things changed, as well as a VS Code extension, changed, as well as a VS Code extension, changed, as well as a VS Code extension, CI integration, and even health badges.",
+    "text": "你不用自己去写这些，你的 agent 就会知道怎么运行。还有 Cloud Code hooks，如果你想在内容发生变化时通过 hook 触发运行，这个就特别好用。另外还有 VS Code 扩展、CI 集成，甚至还有健康徽章。"
+  },
+  {
+    "start": 507.83,
+    "end": 507.84,
+    "speaker": "Guest",
+    "text_en": "CI integration, and even health badges.",
+    "text": "CI 集成，甚至还有健康徽章。"
+  },
+  {
+    "start": 507.84,
+    "end": 529.99,
+    "speaker": "Guest",
+    "text_en": "CI integration, and even health badges. Now, another thing I really appreciate Now, another thing I really appreciate Now, another thing I really appreciate about here is that there's 90 builtin about here is that there's 90 builtin about here is that there's 90 builtin plugins. That means that most of the plugins. That means that most of the plugins. That means that most of the things that you use will just work. And things that you use will just work. And things that you use will just work. And I'm talking about spelt kit, Gatsby, I'm talking about spelt kit, Gatsby, I'm talking about spelt kit, Gatsby, Astro, Angular, Expo, NextJS, NestJS, Astro, Angular, Expo, NextJS, NestJS, Astro, Angular, Expo, NextJS, NestJS, Nitro, Capacitor, Sel, uh, Vess, and the Nitro, Capacitor, Sel, uh, Vess, and the Nitro, Capacitor, Sel, uh, Vess, and the bundlers. V, Webpack, RS pack, RS build, bundlers. V, Webpack, RS pack, RS build, bundlers. V, Webpack, RS pack, RS build, roll up, roll down, TS up, TS down, uh, roll up, roll down, TS up, TS down, uh, roll up, roll down, TS up, TS down, uh, linting. It works with all the llinters.",
+    "text": "CI 集成，甚至还有健康徽章。还有一点我特别欣赏的是，这里内置了 90 个插件。这意味着你大多数会用到的东西都能直接开箱即用。我说的是 SvelteKit、Gatsby、Astro、Angular、Expo、NextJS、NestJS、Nitro、Capacitor、Sel、呃、Vess，还有各种打包工具。V、Webpack、RSPack、RSBuild、Rollup、Rolldown、TSup、TSDown，呃，还有 lint 这块。它兼容所有这些 linter。"
+  },
+  {
+    "start": 529.99,
+    "end": 530.0,
+    "speaker": "Guest",
+    "text_en": "linting. It works with all the llinters.",
+    "text": "lint 这块。它兼容所有这些 linter。"
+  },
+  {
+    "start": 530.0,
+    "end": 537.839,
+    "speaker": "Host",
+    "text_en": "linting. It works with all the llinters. My gosh, it works with all the darn My gosh, it works with all the darn My gosh, it works with all the darn stuff. So, check this thing out. This stuff. So, check this thing out. This stuff. So, check this thing out. This tool fights slob.",
+    "text": "lint 这块。它兼容所有这些 linter。天哪，基本上所有这些鬼东西它都支持。所以去看看这个吧。这个工具专治代码邋遢。"
+  }
+]
