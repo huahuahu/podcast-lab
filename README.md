@@ -112,6 +112,27 @@ python3 -u scripts/multivoice_robust.py \
 
 ---
 
+## 📝 RSS `<podcast:transcript>` 约定
+
+给每一集在 `docs/rss.xml` 里写 transcript 标签时，遵以下规矩（Overcast 等只取第一个的 app 只会拿到顶部那一条）：
+
+1. **VTT 在前，SRT 在后** — VTT 是 W3C 标准、同步字幕在 podcast 生态里支持更广。
+2. **VTT 加 `rel="captions"`** — 明确告诉 app「这是跟随音频滚动的字幕」（caption）而不是静态文稿，Podverse 等会走 caption 模式展示。
+3. **SRT 不加 rel** — 作为文稿备胎访问。
+
+示例（顺序很重要）：
+
+```xml
+<podcast:transcript url=".../zh.vtt"        type="text/vtt"        language="zh" rel="captions"/>
+<podcast:transcript url=".../bilingual.vtt" type="text/vtt"        language="zh" rel="captions"/>
+<podcast:transcript url=".../zh.srt"        type="application/srt" language="zh"/>
+<podcast:transcript url=".../bilingual.srt" type="application/srt" language="zh"/>
+```
+
+可用 `python3 -c "import xml.etree.ElementTree as ET; ET.parse('docs/rss.xml')"` 检验 XML 是否合法。
+
+---
+
 ## 🔑 环境要求
 
 ### 必需
