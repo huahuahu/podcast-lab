@@ -38,6 +38,38 @@
     </itunes:owner>
 
     <item>
+      <title>Soft Skills Engineering #511 · 临时管理岗 + 软件团队的绩效奖金</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-511-temp-management</guid>
+      <pubDate>Tue, 05 May 2026 22:30:00 +0800</pubDate>
+      <description>SSE 第 511 期，两个问题：(1) FAANG Staff Engineer 被点名顶替请病假的 manager（1–2 个月），临时管理岗该怎么管？1–2 个月够不够看出自己喜不喜欢做管理？(2) HR 卡涨薪、说差距用绩效奖金来体现——软件团队的绩效奖金到底该怎么衡量？双男声中文 TTS（云希 + 云扬），翻译后做了 GPT-5.4 的 speaker 二次校验，修正了 16 处 diarize 翻转。</description>
+      <content:encoded><![CDATA[
+        <h3>中文摘要</h3>
+        <p>Dave Smith 和 Jameson Dance 在 SSE 第 511 期回答两个问题：</p>
+        <ol>
+          <li><strong>临时管理岗到底要不要接？</strong>一位 FAANG 大厂的 Staff Engineer，干了 7 年从没主动追求过管理岗。一位同事请 1–2 个月病假，他被点名临时顶上当 manager。Dave 和 Jameson 的看法：downside 很小、upside 很大，值得接。但策略上不要做大刀阔斧的重组——你没那个上下文，而且两个月后人家要回来。比较合理的目标：(a) 先做交接，把那位 manager 脑子里的隐性知识尽量榨出来；(b) 写一个 60/90 天的「假装我会一直干下去」的计划，但只动小的、可逆的优化；(c) 把这当成一次「我喜不喜欢做 manager」的低风险试用期。</li>
+          <li><strong>软件工程师的绩效奖金该怎么衡量？</strong>HR 卡涨薪，说会用绩效奖金体现差距，但又没有明确目标。Dave 和 Jameson 的悲观判断：基本无解。任何指标都会被 game。最终在大公司里，绩效奖金更像「每个 manager 在房间里替自己团队讲故事的能力」决定的——所以你真正的工作其实是吟游诗人，是让你的 manager 手里有一套关于你的好故事。Goodhart's law 永远在场。</li>
+        </ol>
+        <p>顺手扯到的话题：和 LLM 吵架到底比和人吵架轻松还是难、Postel's law 该不该被讨厌、邪恶 Dave Smith、把同事病情搞得严重一点拖延对方回归、Gen Z 用 lore 这个词聊家庭日常。</p>
+        <p><small>原始来源：<a href="https://softskills.audio/2026/05/04/episode-511-should-i-take-a-temporary-management-position-and-performance-based-bonuses/">Soft Skills Engineering Episode 511</a>。流程：Azure diarize STT → GPT-5.4 speaker reassign → smart-merge → GPT-5.4 翻译 → <strong>GPT-5.4 speaker 二次校验（修正 16 处）</strong> → edge-tts 双男声（云希 Host + 云扬 Guest）→ scheme B 字幕。</small></p>
+      ]]></content:encoded>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.15.0-sse-511-temp-management/podcast_zh.mp3" length="14537348" type="audio/mpeg"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/sse-511-temp-management/zh.vtt" type="text/vtt" language="zh" rel="captions"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/sse-511-temp-management/bilingual.vtt" type="text/vtt" language="zh" rel="captions"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/sse-511-temp-management/zh.srt" type="application/srt" language="zh"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/sse-511-temp-management/bilingual.srt" type="application/srt" language="zh"/>
+      <category>Technology</category>
+      <category>Business</category>
+      <itunes:author>Podcast Lab</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/sse-511-temp-management.jpg"/>
+      <itunes:duration>00:41:29</itunes:duration>
+      <itunes:summary>Soft Skills Engineering 第 511 期：临时管理岗要不要接 + 软件团队绩效奖金到底怎么发。</itunes:summary>
+      <itunes:subtitle>临时 manager · 绩效奖金 · 双男声 · GPT-5.4 二次 speaker 校验</itunes:subtitle>
+    </item>
+
+    <item>
       <title>Jensen Huang × Dwarkesh · Nvidia 的供应链护城河、TPU 竞争与卖芯片给中国（修订版 · 官方说话人标注）</title>
       <link>https://huahuahu.github.io/podcast-lab/</link>
       <guid isPermaLink="false">dwarkesh-jensen-huang-2026-v2</guid>

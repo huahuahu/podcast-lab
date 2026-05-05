@@ -1,0 +1,990 @@
+1
+00:00:00,000 --> 00:00:13,896
+[Host] 光是得意洋洋地告诉 LLM 它哪儿错了，还不足以让你成为一名优秀的工程师。这里是 Soft Skills Engineering，第 511 期。我是主持人 Dave Smith。
+It takes more than smugly telling the LLM it was wrong about something to be a great engineer. This is Soft Skills Engineering, episode 511. I'm your host, Dave Smith.
+
+2
+00:00:14,246 --> 00:00:16,742
+[Guest] 我是主持人 Jameson Dance。
+I'm your host, Jameson Dance.
+
+3
+00:00:17,092 --> 00:00:35,500
+[Host] Soft Skills Engineering 是一档每周更新的建议类播客，面向软件开发者——这些人已经把跟人吵架练得太熟了，现在干脆开始全职跟 LLM 吵。你觉得跟谁吵对你来说更好，还是更糟？机器人，还是人类。
+Soft Skills Engineering is a weekly advice podcast for software developers who got so good at arguing with humans that they're now doing it full-time with LLMs. Do you think it's better or worse for you to argue with? A robot versus a human.
+
+4
+00:00:35,850 --> 00:00:38,466
+[Guest] 对我来说更好还是更糟？
+Better or worse for me?
+
+5
+00:00:38,816 --> 00:00:44,312
+[Host] 我觉得要糟得多得多。嗯。为什么？
+I'm going to say much, much worse. Hmm. Why?
+
+6
+00:00:44,662 --> 00:00:59,878
+[Guest] 这个问题我能讲上 60 分钟。不过我先给你两个理由。第一，机器人对糟糕行为的容忍度，比任何人类都高得多。所以你会学到糟糕的礼仪、糟糕的举止，还有糟糕的技巧。
+I'll give you 60 minutes of answer. But I'll give you two reasons. Number one, the robot is a lot more tolerant of horrible behavior than any human would be. So you will learn bad etiquette and bad manners and bad techniques.
+
+7
+00:01:00,228 --> 00:01:12,564
+[Guest] 第二，你要让一个 LLM 相信自己错了，比说服一个人类容易得多。所以这其实对你想练习的那门技艺是有害的——我猜那门技艺就是，说服的艺术。
+And number two, you can much more easily convince an LLM that it is wrong than you can a human. So it's actually bad practice for the art you're trying to practice, which is, I'm assuming, the art of persuasion.
+
+8
+00:01:12,914 --> 00:01:27,097
+[Host] 我在想，外面是不是该有个“错误观点基准测试”，专门衡量一个人死咬着不放到底有多容易，比如硬说“不，实际上，海洋完全是由螃蟹组成的”，而不是“海水里有一些螃蟹”。
+I wonder if there's some wrong idea benchmark out there of how easy is it to just stick to your guns and say, no, actually, the ocean is made of crabs completely instead of water with some crabs in it.
+
+9
+00:01:27,447 --> 00:01:28,575
+[Guest] 而是
+Instead
+
+10
+00:01:28,925 --> 00:01:30,485
+[Host] 然后，
+And then,
+
+11
+00:01:30,835 --> 00:01:33,979
+[Guest] 不是部分抓取，而是完全抓取。
+of partial grab, it's full grab.
+
+12
+00:01:34,329 --> 00:01:37,977
+[Host] 对。大概确实有那样的基准。
+yeah. There's probably a benchmark like that.
+
+13
+00:01:38,327 --> 00:01:40,295
+[Guest] 对，应该是有的。
+Yeah, there probably is.
+
+14
+00:01:40,645 --> 00:01:48,277
+[Host] 不过这不是我们这期节目的重点。好吧，我们该——我要感谢一下我们的 patrons 吗？
+that's not what this show's about. All right. We should, should I thank our patrons?
+
+15
+00:01:48,627 --> 00:01:51,147
+[Guest] 我刚还希望你会这么做呢。
+I was hoping you would.
+
+16
+00:01:51,497 --> 00:01:55,241
+[Host] 我本来不打算说的，我本来想等你来说。
+I wasn't going to say it. I was going to wait for you to.
+
+17
+00:01:55,591 --> 00:02:05,215
+[Guest] 你本来就会主动去做，因为我不想显得太强势。好吧，这就是我学到的一项技能：别跟 LLMs 争论。对。
+you'd have volunteered to do it because i didn't want to be pushy okay see that's an example of a skill i learned not arguing with llms yeah
+
+18
+00:02:05,565 --> 00:02:10,773
+[Host] 嗯，它们其实也没那么强势。所以，对。
+Well, they're also not super pushy. So yeah.
+
+19
+00:02:11,123 --> 00:02:18,155
+[Guest] 问题就在这儿，不过它们会让人类变得更强势——它们是在助长这种事。哦。
+that's the thing but they but they allow humans to be put they're enablers oh
+
+20
+00:02:18,505 --> 00:02:35,689
+[Host] 那叫什么来着？是 Postel's law 吗？就是那个“对接收的内容要宽容，对发送的内容要保守”的法则？不是政治意义上的自由派和保守派啊，而是比如大家会把它用在 API 校验上，有时候也会用在沟通里。
+What's that? Is that pastilles law? What's the law about be liberal in what you accept and conservative in what you send? Not in the political sense, but like people use it for like API validation and also for communication sometimes.
+
+21
+00:02:36,039 --> 00:02:40,551
+[Guest] 有时候会。对，我讨厌那个，我讨厌那条法则。
+sometimes yeah I hate that I hate that law
+
+22
+00:02:40,901 --> 00:02:42,821
+[Host] 你讨厌吗？
+do you yeah I really do it
+
+23
+00:02:43,171 --> 00:02:53,995
+[Guest] 真的讨厌。那会把很多负担都压到你身上，也正因为这样，web 浏览器才会那么复杂，复杂到我们实际上真正只有两种。
+that's put a lot of burden on you does and it's why it's why web browsers are so complicated that we only really have two they
+
+24
+00:02:54,345 --> 00:02:57,489
+[Host] 你得什么都接收，这就是——
+you have to accept everything that's
+
+25
+00:02:57,839 --> 00:02:59,015
+[Guest] 接受
+accept
+
+26
+00:02:59,365 --> 00:03:01,069
+[Host] 很公平
+fair all
+
+27
+00:03:01,419 --> 00:03:03,747
+[Guest] 对，反正是的，嗯
+the yes anyway yeah
+
+28
+00:03:04,097 --> 00:03:27,881
+[Host] 好，接下来感谢一下我们的 patrons。谢谢你，Angel——不行，别再问了。谢谢，谢谢。我……嗯，我得重新来一遍，我都生疏了。我不会在每一个名字后面都说一句“谢谢”。开头和结尾那些“谢谢”就是干这个用的。好，继续。22 不等于 22。
+right to the patrons thank let's thank our patrons you to angel will not please stop asking thank you thank you I'm I hmm I got to start this over I'm out of practice I'm not going to say thank you Thank you after every single name. That's what the thank yous at the beginning of the end are for. All right, moving on. 22 does not equal 22.
+
+29
+00:03:28,231 --> 00:03:53,359
+[Host] 下一个人的真名叫 Will Angel。错误：你的 Will Angel 名字变体必须至少包含一个大写字母、一个数字和一个特殊字符。没人知道我的真名其实是 Seth Angel。我本来觉得这名字挺好笑的，但你们没笑。现在我都有点不好意思了。Will Angel，如果你能听见，请救救我们。
+The real name of the next guy is Will Angel. Error, your Will Angel name variant must contain at least one uppercase letter, one number, and one special character. No one knows my real name is Seth Angel. I thought this was a funny name, but you didn't laugh. Now I feel self-conscious. Will Angel, if you can hear me, please save us.
+
+30
+00:03:53,709 --> 00:04:08,925
+[Host] 我想把“no carrier”刻在我的墓碑上，但如果我活得够久，到时候就没人懂这个梗了。我 LinkedIn 上的真名其实是 Yammy Debugging in the Dark Candy，移动开发普通人，名号第一的 Jacob Shandling。
+I want to put no carrier on my tombstone, but if I live long enough, no one will get the joke. My actual name on LinkedIn is Yammy Debugging in the Dark Candy, the mobile development ordinary first of his name, Jacob Shandling.
+
+31
+00:04:09,275 --> 00:04:29,003
+[Host] Kvothe over quantity，或者像我妈以前常说的，如果你有 kilo F，那还剩谁？那个丢失的分号，Will Angel 请因你那奇怪的工位螃蟹问题到 HR 报到。救命！然后还有老老实实的 Nick Molyneux，这家伙不改名字，不过他在招人！
+Kvothe over quantity, or as my mother used to say, if you have kilo F, who's left? The missing semicolon, will Angel please report to HR over your strange cubicle crabs? Help! And then there's plain old Nick Molyneux, this guy doesn't change his name, but he is hiring!
+
+32
+00:04:29,353 --> 00:04:53,329
+[Host] Embedded engineers 对待 assembly 的方式，就跟 typescript engineers 对待 javascript 一样。Javier Gonzalez，Chewy，拿到了第一份工程师工作。谢谢，Soft Skills Heart。Ted Timbrel。Chewy Ted Timbrel，Chewy Ted Timbrel，Chewy Ted Timbrel，Chewy Ted Timbrel，Chewy Ted Timbrel。
+Embedded engineers treat assembly the same way typescript engineers treat javascript. Javier Gonzalez, Chewy, the first landed first engineering role. Thanks, Soft Skills Heart. Ted Timbrel. Chewy Ted Timbrel, chewy Ted Timbrel, chewy Ted Timbrel, chewy Ted Timbrel, chewy Ted Timbrel.
+
+33
+00:04:53,679 --> 00:05:15,495
+[Host] 一个左括号。Dan from Drone to play never 不只是个创作者，在火星上 flamingo emoji。我喜欢鸡肉。我喜欢肝，meowks。Meowks，请送达。Swiss Python Summit，2026 年 10 月 22 日和 23 日那场。Kyle Boss，Kent C. Dodds。
+A single opening parenthesis. Dan from Drone to play never is not just a creator on Mars flamingo emoji. I like chicken. I like liver meowks. Meowks, please deliver. Swiss Python Summit, the one on 22nd and 23rd of October 2026. Kyle Boss, Kent C. Dodds.
+
+34
+00:05:15,845 --> 00:05:17,165
+[Guest] 慢一点。
+Slowing down.
+
+35
+00:05:17,515 --> 00:05:50,803
+[Host] Jenny Kim，the Stochastic Parrot。Will Angel 是 Patreon 名字里的螃蟹。Ira Chan，Jonathan King，是一份美得惊人的函数式用户文档。要是我是 Angel，我就不会那样。Vote.WilliamAngel.net。Net，别理那些螃蟹。Dave 的连环杀手名字，Dave Smiles。在你个人仓库的 agents.md 里加内部梗，从技术上说也还算团队建设活动。Brayden Keynes。John Grant，
+Jenny Kim, the Stochastic Parrot. Will Angel is the crab of Patreon names. Ira Chan, Jonathan King, is an eye-beautiful functional user documentation. If I were Angel, I wouldn't. Vote.WilliamAngel.net. Net ignore the crabs. Dave's serial killer name, Dave Smiles. Adding inside jokes to your agents.md in your personal repo is technically still a team building exercise. Brayden Keynes. John Grant,
+
+36
+00:05:51,153 --> 00:06:01,617
+[Host] Brittany Alex 斜杠 new Newcastle's best dev conference，5 月 27、28 日，以及右括号后面再跟一个右括号。谢谢。
+Brittany Alex slash new Newcastle's best dev conference May 27th, 28th and close parentheses followed by a single closing parentheses. Thank you.
+
+37
+00:06:01,968 --> 00:06:03,312
+[Guest] 太棒了。
+That's awesome.
+
+38
+00:06:03,662 --> 00:06:24,542
+[Host] 谢谢，谢谢。我正坐在椅子上想着那些想在 Patreon 上改个人资料名字、结果又忘了的人。等他们通勤结束，或者不管他们当时在干嘛——洗碗也好，散步也好，一边听播客——我就在想，这种事肯定发生在很多人身上，我太能共情了，你
+Thank you. Thank you. I'm sitting here in my chair thinking about people who want to change their profile name on Patreon and then forget. yet by the time they finish their commute or whatever it is they're doing watching dishes or going on a walk while they listen to the podcast and i'm like i'm sure that's happened to a bunch of people and i feel that so much you
+
+39
+00:06:24,892 --> 00:06:33,436
+[Host] 但我们相信你。我们相信你有能力把它改成一个很搞笑的名字。我觉得这个世界可以更好笑一点。
+But we believe in you. We believe in your ability to change it to something silly. I think the world could be more silly.
+
+40
+00:06:33,786 --> 00:06:35,106
+[Guest] 做得到
+could do it
+
+41
+00:06:35,456 --> 00:07:03,224
+[Guest] 感谢各位 patron，还有所有在收听的朋友。如果你也想加入 patron，可以去 softskills.audio。我们的内容托管在 Patreon 上。无论支持多少金额，你都能收到加入我们 Slack 团队的邀请。支持到一定金额，你还可以加入这份名单，成为这些品味超棒、不断给世界增加一点沙雕气息的优秀人士之一，这真的很赞。谢谢你们。Dave，
+Thank you, patrons and everyone else for listening. If you want to join the patrons, you can go to softskills.audio. Export is on Patreon. Any amount gets you an invite to our Slack team. Enough of an amount gets you to join this list of great, high taste individuals who increase the silliness level in the world, which is awesome. And thank you. Dave,
+
+42
+00:07:03,574 --> 00:07:06,766
+[Host] 我希望由你来读我们的第一个问题。
+I expect you to read our first question.
+
+43
+00:07:07,116 --> 00:07:10,908
+[Guest] 我会满足你的期待的。我不会让你失望。
+I will fulfill your expectation. I will not disappoint you.
+
+44
+00:07:11,258 --> 00:07:12,914
+[Host] 完美。
+perfect.
+
+45
+00:07:13,264 --> 00:07:37,768
+[Guest] 太好了。好，这个问题来自一位匿名听众。他说，我快有 15 年工作经验了，过去 7 年一直在 Fang。给不了解的人解释一下，Fang 指的是 Facebook——现在已经不叫 Facebook 了——Amazon、Apple、Netflix、Google——现在也不叫 Google 了。还有什么来着？这些公司里还有别的改名了吗？没有了吧？
+Excellent. Okay, this comes from an anonymous listener who says, I'm approaching 15 years of experience with the last seven years at Fang. And for those that don't know, Fang stands for Facebook, no longer called Facebook, Amazon, Apple, Netflix, Google, no longer called Google. What else? Has any of these companies changed names? None of them?
+
+46
+00:07:38,118 --> 00:07:39,966
+[Host] 我不知道。
+I don't know.
+
+47
+00:07:40,316 --> 00:07:55,220
+[Host] 好，继续。大概一年前，多亏了这个播客，我晋升成了 staff engineer。不错。然后我转到了同一位总监下面的一个相邻团队。我从来没有主动追求过管理岗位，
+Okay, continuing. About a year ago, I was promoted to staff engineer thanks to the podcast. All right. And switch to an adjacent team under the same director. I have never actively pursued a management role,
+
+48
+00:07:55,570 --> 00:08:08,674
+[Host] 但我最近开始越来越多地考虑这件事。我的一位同事刚刚宣布，因为医疗原因需要请一到两个月的长期假，所以他们问我，能不能在对方休假期间临时担任经理。
+but I've been starting to think about it more. A colleague of mine just announced they need to take extended medical leave of one to two months, and I was asked to fill in as a temporary manager while they are out.
+
+49
+00:08:09,024 --> 00:08:25,608
+[Host] 如果大家都知道这个团队只是暂时的，我该怎么去管理它？我是不是只该尽量让这个团队维持下去，还是应该把目标定得更高一点？一到两个月够不够让我判断自己会不会喜欢做管理？管理？
+How do I go about managing a team if everyone knows it's short-lived? Should I just try to keep the team alive or aim higher? Is one to two months enough for me to get a sense of whether I'd enjoy management? management?
+
+50
+00:08:25,958 --> 00:08:41,198
+[Host] 我感觉自己像是一下子跳进了深水区，很吓人，但也很刺激。我超喜欢这个播客，每一期我都听了。哇。无论是搞笑还是建议，你们给什么我都收。
+I feel like I've dived into the deep end and it's scary, but also exciting. I love the podcast. I've listened to every episode. Wow. I'll take whatever comedy or advice you have to offer.
+
+51
+00:08:41,548 --> 00:08:45,724
+[Guest] 我们该把这个当成 XOR，还是普通的逻辑 or？
+Should we treat that like an XOR or a logical or?
+
+52
+00:08:46,074 --> 00:09:06,882
+[Host] 哦天哪，这个太棒了。先恭喜你晋升。你说这要感谢播客，我猜你应该也不只是跑去说一句“嘿，我听了这个播客，大家让一让，给我来个晋升”，不过这份功劳我还是很乐意收下。你怎么看？我觉得吧，你的同事，你的那位同事——
+oh man this is this is great good on you for getting promoted you said thanks to the podcast i assume that you also did something besides said hey i listened to the podcast stand back one promotion please but i appreciate all the credit what do you think i think that look your co-worker your colleague
+
+53
+00:09:07,232 --> 00:09:25,448
+[Guest] 确实碰上了很不幸的事，一到两个月的病假。这大概率是很严重的健康问题。我觉得你应该好好“利用”你同事这段时间，在他们回来之前靠出色表现把这个岗位彻底拿下，优秀到他们延长病假回来之后直接被开掉。
+Has a really unfortunate thing happened one to two months of medical leave. That's probably a serious medical issue. I think that you should take advantage of your colleague and force them out of this role by the time they get back by doing such an amazing job that they will be fired after their extended medical leave.
+
+54
+00:09:25,798 --> 00:09:29,614
+[Host] 你这是被 Bizarro Dave Smith 替换了吗？
+Have you been replaced by Bizarro Dave Smith?
+
+55
+00:09:29,964 --> 00:09:31,980
+[Guest] 邪恶模式已启动。
+The evil mode engaged.
+
+56
+00:09:32,330 --> 00:09:42,482
+[Host] 对，就像 Mario 和 Wario。或者我猜是 D 吧，如果把它倒过来……不过看起来还是有点像个 d，差别也没那么大，所以——
+Yeah, it's like Mario and Wario. I guess D, if you flip it upside down. one doesn't really look still a d like much difference so
+
+57
+00:09:42,832 --> 00:09:47,800
+[Guest] 很难分得清谁是谁，哪个是邪恶的，哪个是善良的。
+Very hard to tell them apart, the evil one versus the good one.
+
+58
+00:09:48,150 --> 00:09:55,182
+[Host] 我是说，我觉得如果你想把这事做绝一点，你可以直接让他们的病情更严重一点。
+I mean, I think if you want to lean into this, you could just make their medical condition worse.
+
+59
+00:09:55,532 --> 00:10:02,060
+[Guest] 那样可能就不止一两个月了。他们会给你更多时间来执行你的邪恶计划。
+And then it might be longer than one to two months. They'll give you more time for your evil plan.
+
+60
+00:10:02,410 --> 00:10:17,266
+[Host] 哦，哇。加码了。这可真够坏的。对，你可能确实得这么干。你可能需要时间。就像，我真的很喜欢这份差事。拜托别回来了。
+Oh, wow. Double down. That's really bad. Yeah, you might need to. You might need time. Like I'm really liking this gig. Please don't come back.
+
+61
+00:10:17,616 --> 00:10:23,208
+[Guest] 对，往他们病房里猛打点 5G 信号。把脑子烤坏之类的。
+Yeah, blast some 5G into their hospital room. Fry the brain or something.
+
+62
+00:10:23,558 --> 00:10:36,662
+[Host] 我觉得这是个很好的机会，让你先试试做管理。而转去做管理最难的地方之一就在这儿。这有点像拿到第一份软件工作。你怎么才能让别人愿意在一个……
+I think this is a great opportunity to dip your toe into management, which is one of the hardest parts about making the move to management. It's similar to getting your first software job. How do you get someone to take a chance on you in a...
+
+63
+00:10:37,012 --> 00:11:08,116
+[Host] 可能有点棘手、责任又很重的岗位上赌你一把，而你之前又完全没有经验？如果没人愿意给你机会，你又怎么获得经验？其实你已经回答了这个问题。所以，至于你该不该做，我觉得答案非常明确，你绝对应该试试。你会学到很多东西，你会成为一个更好的 IC，如果你之后真的对管理感兴趣，也会更容易转过去。或者你也可能会发现自己很讨厌这件事，而这
+potentially tricky position that has a lot of responsibility when you don't have any prior experience how do you get prior experience if no one will take a chance on you you've answered the question so whether you should do it or not i i think it's very clear you should absolutely try it you will learn a bunch you will be a better ic you will be more easily able to switch into management later if you are interested in that for real or maybe you'll find out you hate it and that's
+
+64
+00:11:08,466 --> 00:11:13,842
+[Host] 也会是个非常有用的认知。所以我觉得 downside 很小。
+Really useful to know. So I think the downsides are low.
+
+65
+00:11:14,192 --> 00:11:31,136
+[Guest] 对，坏处很小，好处却很大。我还想给我们这整段讨论加个小注脚：如果听众听完之后得到的信息是——如果你想试试做管理，只要去找个经理，把他弄得病得很重，不得不长期病休——这可不是我们的建议。
+Yeah. Downsides are low. Upsides are really high. And I just want to. Put a little footnote on this whole conversation that if the message our listeners are taking away from this is that if you want to dip your toes into management, all you have to do is find a manager and get them really sick so they have to take extended medical leave. This is not what we recommend.
+
+66
+00:11:31,486 --> 00:11:37,366
+[Host] 对，千万别这么干。对，那你就是把我们的节目听岔了。
+Yeah, do the opposite of that. Yeah, you've misheard our show.
+
+67
+00:11:37,716 --> 00:11:49,356
+[Guest] 那另一个问题呢？我是不是只要尽量让团队撑住就行，还是应该追求更高的目标？我直觉上觉得——不对，应该说我的理解是，不是“直觉”。
+What about this other question? Should I just try to keep the team alive or aim higher? I intuit that to mean I guess interpret, not intuit.
+
+68
+00:11:49,706 --> 00:11:51,674
+[Host] 也许两个都要。
+Maybe both.
+
+69
+00:11:52,024 --> 00:12:04,672
+[Guest] 我该不该试着做一些大的改动？比如我看到一些问题，有些地方我觉得应该不一样。我是不是该重新调整一下，改改我们的流程？你怎么看？
+Should I try? Should I try to make some big changes, right? I see some problems, some things that I think should be different. Should I kind of reshuffle stuff and change our processes? What do you think about that?
+
+70
+00:12:05,022 --> 00:12:15,102
+[Host] 对啊，比如等你同事回来时，整个团队都面目全非了。像是“你把我的团队怎么了？怎么多了这么多流程？”
+Yeah, like let's make the team unrecognizable when your colleague returns. Like what have you done with my team? All these processes.
+
+71
+00:12:15,452 --> 00:12:23,636
+[Guest] 又来了，又往那个方向带了——对，去搞破坏他们，对，再给所有人洗脑，让他们都讨厌原来的经理。
+Again, leaning into the, yes, the sabotage them and yes, brainwash them all to hate their old manager.
+
+72
+00:12:23,986 --> 00:12:28,018
+[Host] 看看我把你从什么样带成了现在这样。
+Look where I took you from.
+
+73
+00:12:28,368 --> 00:12:35,016
+[Guest] 对。你可以靠当个冷酷无情的暴君，来把你原来的经理衬托得特别伟大。
+Yeah. You could try to make your old manager look really great by being a ruthless tyrant.
+
+74
+00:12:35,366 --> 00:12:48,206
+[Host] 对，我们肯定会迫不及待盼着原来的经理回来，把我们从——对，什么 Gorlog the Skull Smasher 之类的家伙手里救出来，不管你给自己经理起了什么新名字，是吧。
+Yeah, we can't wait for old manager to come back to save us from, yeah, Gorlog the Skull Smasher or whatever your manager. name becomes yes
+
+75
+00:12:48,556 --> 00:12:51,220
+[Guest] 但也就只能撑一到两个月。
+But only for one to two months.
+
+76
+00:12:51,570 --> 00:12:56,010
+[Host] 这就是第一步：要求他们用你的新名字来称呼你。
+that's step one request that they address you by your new name
+
+77
+00:12:56,360 --> 00:13:06,248
+[Host] 我很享受和你们做同事的时光，但现在是时候让我进入一个不同的角色了——Gorlog Skull Smasher 的角色，而且会有一些变化。
+i've enjoyed being your colleague it's time for me to step into a different role the role of gorlog skull smasher and there'll be some changes
+
+78
+00:13:06,598 --> 00:13:08,638
+[Guest] 你们可能已经知道了。
+You might know it.
+
+79
+00:13:08,988 --> 00:13:11,652
+[Host] 我让你们猜猜第一条是什么。
+I'll give you a guess what the first one is.
+
+80
+00:13:12,002 --> 00:13:26,978
+[Guest] 我对这件事有个很明确的看法，这也来自于我对刚走上管理岗位这件事本身的看法。哪怕你是个有经验的经理，到了一个新岗位，我也觉得你不该一上来就搞大刀阔斧的改变，除非……
+I have a strong opinion about this, which comes from my strong opinion about just stepping into a management role, even as an experienced manager at a new role, which is I don't think you should try to come in and make wild changes unless.
+
+81
+00:13:27,328 --> 00:13:54,544
+[Guest] 除非真有什么事情已经火烧眉毛了，不然你大概率还没有足够的背景信息，去对流程、人员或者优先级做大的调整，尤其是在这只是个临时安排的情况下。如果这是一个全新的岗位，我还会说，可能先花一个月时间；当然如果是特别小的 startup，或者你处在某些很特殊的环境里，这也不一定适用。但总的来说，你不会想一上来就说你……
+there's something actively on fire you are very likely to not have the right context to make a big change to process or people or priorities especially if it's a temporary thing if this was a new role i would also say like probably take a month if it's a really small startup if you're in some specific context that doesn't always apply but i think in general you don't want to just roll in and say you
+
+82
+00:13:54,894 --> 00:14:05,022
+[Guest] 好消息是，我对这份工作和这个团队一无所知，但我已经有一大堆想法，觉得哪些地方必须改。这样通常不会有好结果。
+Good news, I know nothing about the job or the team, but I've got a lot of ideas about how things need to be different. That doesn't often work well.
+
+83
+00:14:05,372 --> 00:14:24,836
+[Host] 对，我同意。我觉得在一个新的管理岗位上，花一到两个月先摸清情况，本来就是我比较喜欢的节奏。这样你才算勉强有足够的背景，知道到底发生了什么。等你把这些都搞清楚的时候，差不多也正好到了可以开始做一些调整的时候了。
+Yeah, I agree. I think one to two months is actually about the amount of time I like to take in a new management position just to get the lay of the land anyway. So you're just barely going to have enough context to know what's going on. By the time you're done, and that's about the time when you could be making some changes anyway,
+
+84
+00:14:25,186 --> 00:14:39,322
+[Host] 所以我觉得这里有一种直觉是对的：我大概不该一进来就大刀阔斧地改一堆东西，或者一下子把团队带到什么全新的层级。当然，话虽这么说，虽然确实是这样。
+so I think there's some intuition here that says, I probably don't want to come in here and make a bunch of changes or take the team to some new level. Now, having said that, while yes, it is.
+
+85
+00:14:39,672 --> 00:14:54,024
+[Host] 你大概率没有足够的信息和背景去做那种大范围、彻底性的变革，但我觉得你绝对应该去寻找改进的机会。这其实是个很好的机会。你是用全新的视角在看这些流程，
+probably the case that you will not have enough information or context to make big sweeping changes, I think you definitely should look for opportunities to improve things. This is a great opportunity. You've got new eyes on the processes,
+
+86
+00:14:54,374 --> 00:15:14,822
+[Host] 也是用全新的视角在看团队成员。你有很多经验，15 年的软件开发经验，这些都可以派上用场，帮助这个团队在那些你本来就很擅长的事情上做得更好。所以我觉得这是个很好的机会，可以让它变得更好一点，但我大概不会以搞一场革命为目标。
+new eyes on the team members. You've got a bunch of experience, 15 years of software development experience that you could bring to bear to help this team in things that you're already really great at. So I think there's a really good opportunity to make it a little better, but I probably would not be aiming for revolution.
+
+87
+00:15:15,172 --> 00:15:28,972
+[Guest] 对。你可能会有更多一些背景，因为你——我不确定这是不是你已经在参与的团队——但看起来至少是一个你多少了解一些的团队。所以这不算是完全凭空进入。
+Yeah. You probably have more context because you are, I don't know if it's a team you're already working on, but it seems like a team you at least know something about. So it's not quite coming in from nowhere.
+
+88
+00:15:29,322 --> 00:15:51,978
+[Guest] 但另一方面，这一点也会被另一个事实抵消，或者说平衡掉：这会是你第一次真正意义上的管理经历。另外，这还是个临时岗位，也就意味着……我是说，事情也有可能发生变化。也许那位同事需要请更长时间的假，或者他们在人生上有了某种新的想法，想去做点别的事情之类的。
+But that's also made up by the fact that, or balanced out by the fact that this will be a first kind of management experience thing. Also, the fact that it's a temporary role means you are... I mean, there's a possibility that something changes. Maybe the coworker needs to take a longer leave or they have a kind of a life realization they would like to do something else or whatever.
+
+89
+00:15:52,328 --> 00:15:57,032
+[Guest] 但这里某种程度上是有个结束日期的，这和那种——
+But there is an end date here in a way that there isn't in a.
+
+90
+00:15:57,382 --> 00:16:16,918
+[Guest] 那种全职管理岗位不一样，所以你做决定的时候，多少还是会有点那种“影子”笼罩着。我感觉我现在也有点把这点说得太重了——不是说你什么都别做，你还是应该去做那些你觉得能让事情变得更好的事，但你想推动多颠覆性的改变，大概还是有个上限。
+kind of full-time management role so you do still have a bit of uh kind of have their shadow hanging over your decisions a little bit i feel like i've overemphasized this now too like you shouldn't do nothing you should do stuff you think will make things better but there's probably a ceiling on how how disruptive of a change you want to make
+
+91
+00:16:17,268 --> 00:16:28,404
+[Guest] 如果这需要等经理回来之后，还得花很大力气去适应这个新现实，比如说，我也不知道，我们现在从 Scrum 改成 Kanban 了，而且所有流程——
+If it requires a lot of change on the part of the manager when they come back to deal with the new reality, if you add, I don't know, we're now Kanban instead of Scrum and all our processes
+
+92
+00:16:28,754 --> 00:16:30,794
+[Host] 对，是。
+are yeah
+
+93
+00:16:31,144 --> 00:16:55,312
+[Guest] 都完全不一样了。我可能觉得这样更好，但对另一个人来说，上手和消化这些会是个很大的成本。大概率不值得。但如果是那种，嘿，你知道那些我们一直没排优先级的告警吗？我真的觉得我们应该把优先级理清楚、把它整理好，这样大家能省出更多时间——这种就感觉是合理的改变。
+totally different. I think this is better, but it's going to be a big ramp up for someone else to deal with it. Probably not worth it. If it's like, hey, you know those alerts we haven't prioritized? I really think we should prioritize them and clean it up and we'll get more time back. That feels like a reasonable change.
+
+94
+00:16:55,662 --> 00:17:03,414
+[Host] 对，所以换句话说，你是在找优化空间，或者效率提升，可能不是那种彻底的颠覆。
+yeah so in other words you're looking for optimizations or are efficiency wins, maybe not total disruption.
+
+95
+00:17:03,764 --> 00:17:10,244
+[Guest] 对，对。我觉得我要把这个想法直接说出来，看看我自己是不是真的认同。
+Yeah, yeah. And I think I'm going to say this idea out loud and feel whether I agree with it
+
+96
+00:17:10,594 --> 00:17:12,682
+[Host] 行，不错。
+or not. Nice.
+
+97
+00:17:13,032 --> 00:17:33,024
+[Guest] 我觉得比较有用的做法是，你在做未来规划时，把这件事当成一个长期安排来看待，哪怕你只是在那儿待一到两个月。还是那句话，大概到这个时间点，你就应该开始说：这是我对这个团队的策略或愿景。还有我的，我也不知道，30、60……
+I think it'd be useful if you treated it like it was going to be permanent in your future plans where you're there one to two months. Again, that's about the time where you should start saying, here's my strategy or vision for what this team will be like. And here's my, I don't know, 30, 60.
+
+98
+00:17:33,374 --> 00:18:08,510
+[Guest] 比如一个 60/90 天计划，说明我们这个团队接下来要做哪些事，怎么做得更好、做得更多、解决我刚才提到的这些问题。所以我觉得，你围绕这件事提前做规划、认真想想这些问题，可能会很有帮助。等经理回来后，你也许可以跟他分享：这是我观察到的情况，还有一些你可能需要考虑的事。但这对你来说也是非常有价值的经历，因为你会练习用这种方式思考：怎样才能让这个团队变得更好？这个团队当前的问题和机会是什么？以及——
+a 60 90 day plan for things that we will do on this team to do better do more solve these problems i've addressed so i think it's it's probably useful for you to plan around this and think about these problems maybe you can share them with the manager when they come back here's what i've observed and some stuff you maybe want to think about but that's also a very valuable experience for you because you'll have practice thinking that way what will help make this team what are this team's current problems and opportunities and what
+
+99
+00:18:08,860 --> 00:18:12,388
+[Guest] 如果我有能力去做，我会怎么处理这些问题？
+What will I do about them assuming I'm able to?
+
+100
+00:18:12,738 --> 00:18:27,954
+[Host] 对，我很喜欢这个思路。我想想。我的意思是，你肯定会在一到两个月里形成一些判断。那你真正能做的事情有哪些？比如说，你应该做些什么？
+Yeah, I love it. Let's see. What are some of the kind of, I mean, you're going to get a sense for sure in one to two months. What are the things you really can do? Like, should, what should you do?
+
+101
+00:18:28,304 --> 00:18:47,888
+[Guest] 我刚才也在想，有没有一些你实际上可以去做的具体事情，但我觉得这会非常取决于具体情况。所以我觉得你就是先进去再说。坦白讲，你大概率会觉得自己像是被直接扔进深水区，到时候你可能只要觉得自己至少算是把团队从……
+I was trying to think of like specific things that you could actually do, but I think it's going to be so situation dependent that I think you just go in and frankly, you're going to probably feel so deep in the water that you're going to be happy just to kind of like. Feel like you've kept the team from...
+
+102
+00:18:48,238 --> 00:19:22,318
+[Guest] 在两个月后没有彻底崩掉，就已经很不错了，那可能就够了，可能这就是你需要瞄准的最高目标。对，这也许是个值得聊的点。我觉得如果是我，或者是和我共事的某个经理，不得不离开一两个月，如果有别人顶上来，而团队只是顺利地继续运转，没有出什么大乱子，我会觉得那就已经很好了，是个好结果，真的是个好结果。这就是我所期待的。如果事情还能明显变得更好，那就是额外的惊喜；如果团队崩了——
+imploding after two months that you might that might be enough that might be as high as you need to aim yeah that's maybe a useful thing to talk about i think if i or a manager i was working with had to leave for a month or two if someone else stepped in and the team just kind of kept on going successfully without any major disasters i feel like that would be that'd be great good outcome good outcome that's what i'm hoping for if things get much better magical bonus if they implode
+
+103
+00:19:22,668 --> 00:19:31,356
+[Host] 听起来不太好，但我其实是希望不要有太多扰动，事情就按当前方向继续，以一种有效的方式推进下去。
+Sounds bad, but I am kind of hoping that there's not a ton of disruption and things just sort of continue in a useful way in the current direction.
+
+104
+00:19:31,706 --> 00:19:55,274
+[Guest] 我觉得有一件事非常值得做，就是在你同事离开之前，做一次背景交接。比如让他把关于这个团队他知道的一切都告诉你：哪些人是他比较担心的？有哪些人际关系上的动态是我需要了解的？你手上有哪些正在推进中的项目？总之，尽可能把你能从那个经理那里挖到的信息都挖出来。
+One thing that I think would be very good to do is before your colleague leaves, get a context transfer. Like tell me everything you know about this team. Who are the people you're worried about? What do I need to know about interpersonal dynamics? What projects do you have in flight? Like get everything you possibly can out of that manager.
+
+105
+00:19:55,624 --> 00:20:14,607
+[Guest] 在他们休假离开之前先当一阵子经理，其实这在你这种情况下是个很不错的好处。不光你能用一种风险比较低的方式感受一下自己到底有多喜欢做管理，而且你现在还有这位经理在——我猜他们应该还没开始休病假——所以
+manager before they leave and that's actually a really nice benefit that you have in this situation is not only are you going to get a low stakes way to get a sense for how much you like management but also you still have the manager i'm presuming they haven't started the medical leave yet and so a
+
+106
+00:20:14,957 --> 00:20:30,365
+[Guest] 很多时候你是在给一个已经离职的人补位，那种情况下，所有背景信息基本都跟着人一起没了。这点真的很好。你也可以从这位经理的上级那里了解一些情况，不过那终究是不同的视角。
+lot of times you're backfilling someone who's already left and so it's like all that context is out the door you that is great. can get some of that from the person this manager reports to it's a different perspective though
+
+107
+00:20:30,715 --> 00:20:47,299
+[Host] 这当然有用，而且你也确实应该这么做，去和这位经理的经理聊聊。但能直接从和他们一起工作过的人那里获得信息，也同样很棒。对。很好。我们算是回答这个问题了吗？
+It's useful and you should still do that. Talk to the manager's manager. But getting it directly from the person that worked with them is also great. Yeah. Cool. Have we answered the question?
+
+108
+00:20:47,649 --> 00:21:12,249
+[Guest] 我觉得算是回答了。祝你好运。这是个很好的机会，我不会犹豫，会接下来。我能想到的唯一 downside，就是你在这个临时管理岗位上的时候，你原来的职位出了什么问题，结果你回不去了。那样的话，你其实就是走过了一扇单向门，而你原本以为那是双向门。尤其是如果那位经理又回来了的话。
+I think so. Good luck. This is a great opportunity. I would not hesitate to take this. And the only downside I could think of is that something bad happens to your previous position while you're in this new temporary management position that you can't go back to. And now you've actually walked through a one-way door that you thought was a two-way door. And especially if that manager comes back.
+
+109
+00:21:12,599 --> 00:21:49,415
+[Host] 两个月后他们回来，说，好了，我准备拿回我原来的工作了。你就会说，是啊，但我原来的工作已经没了，那现在怎么办？这大概是我能想到最糟糕的情况了。所以你可能要从更大范围的组织层面得到一些保证，确认你还能回到原来的职位。我觉得这很合理。我的意思是，我猜你已经在同一家公司待了七年了，你也晋升到了 staff engineer，而且多亏了这个播客，你已经具备了实现一切所需的全部技能，足以让你最疯狂的梦想都成真。
+after two months and they're like okay ready for my old job back and you're like yeah but my old job is gone so now what that's like probably the worst case scenario that I could imagine happening so you might want to get some assurance from the broader organization that you'll be able to return to your old position which I think makes sense I mean I'm assuming you've been at the same company for seven years you promoted staff engineer and you have all the skills you need thanks to this podcast to do everything to make all your wildest dreams come true
+
+110
+00:21:49,765 --> 00:21:52,813
+[Guest] 对，工作上是这样，别的方面也是。
+Yep, at work and everywhere else too.
+
+111
+00:21:53,163 --> 00:22:00,579
+[Host] 别的方面也是，尤其是在你努力成为 astron 的这件事上，我们可是提供了大量大量的信息。
+Everywhere else, especially in your endeavors to become an astron which we've provided extensive extensive information about
+
+112
+00:22:00,929 --> 00:22:14,129
+[Guest] 对，我儿子昨晚睡觉的时候特别难搞。他三岁，快四岁了。他哭得完全哄不好，因为陪着他的人是我，不是我老婆。这个反应我能理解，我以前见过。
+Yes, my son was having a really rough time going to bed last night. He's three, almost four. He was sobbing inconsolably because I was with him and not my wife. I understand that reaction. I've seen it before.
+
+113
+00:22:14,479 --> 00:22:28,687
+[Guest] 我唯一能转移他注意力的办法，就是他有个会发光的小灯，会投出星星、月亮之类的图案。我就跟他说，嘿，你知道吗，几周前我们送了一些人去月球了。然后他立刻——
+And the only way I could distract him is he has this little light that shines and projects like stars and the moon and stuff. And I told him, hey, did you know that we sent some people to the moon a couple weeks ago? and then instantly
+
+114
+00:22:29,037 --> 00:22:30,885
+[Host] 哇。
+Whoa.
+
+115
+00:22:31,235 --> 00:22:40,427
+[Guest] 就不哭了，马上对太空特别感兴趣。所以人类天生向往太空——这就是我从“太空育儿”里得到的感悟。
+stop crying was very interested in space so the people yearn for space that's was my takeaway of space parenting
+
+116
+00:22:40,777 --> 00:22:46,633
+[Host] 对。儿子，你知道吗，太空里还有太空律师。
+Yes. Son, did you know that in space there are space lawyers?
+
+117
+00:22:46,983 --> 00:23:07,527
+[Guest] 然后他真的就冷静下来了。他就像在说，嗯，知道。我觉得他主要是在努力弄明白我们到底是什么意思。我还试着解释，说哦，是那个国家……但我觉得他理解成了是我本人和另外一些人一起去的，然后就开始盘算他自己的太空之旅了，听起来——
+Then he really calmed down. He was like, yes. i think he was mostly trying to figure out what we meant and i tried to explain oh the the country and i think he meant like he assumed it was me as personally and some other people and then was and was planning his own trip to space, which sounds
+
+118
+00:23:07,877 --> 00:23:10,805
+[Host] 不错啊。去吧。
+good. Go for it.
+
+119
+00:23:11,155 --> 00:23:12,835
+[Guest] 我们去太空了。
+We went to space.
+
+120
+00:23:13,185 --> 00:23:15,849
+[Host] 等等，你和妈妈吗？
+Wait, you and mom?
+
+121
+00:23:16,199 --> 00:23:18,599
+[Host] 要我来读下一个问题吗？
+Shall I read our next question?
+
+122
+00:23:18,949 --> 00:23:29,173
+[Guest] 对，回答你的问题：对，你应该读我们的下一个问题。这正是我希望你做的。而且我现在明确说出来，免得有任何歧义。
+Yes, answering your question, yes, you should read our next question. That's what I was hoping you would do. And I will state it as an explicit expectation to avoid any ambiguity.
+
+123
+00:23:29,523 --> 00:23:42,891
+[Host] 好，我来读。这是听众 Bobby Droptables 的问题。他问：我最近经历了一次薪资谈判，HR 挡下了加薪，说我是非管理岗开发里薪资最高的。
+great. I'll do it. This is from a listener named Bobby Droptables who asks, I recently came out of a salary negotiation where HR blocked a pay raise because they said I was already the highest paid non-management position dev.
+
+124
+00:23:43,241 --> 00:24:08,057
+[Host] 虽然按市场水平来说，我的薪资确实不错，但也谈不上离谱。HR 说他们希望整个组织的薪资区间尽量平一些，薪酬差异通过绩效奖金来处理。纸面上看，这对大多数部门，比如销售、工程等，听起来都还不错。但我真的很难想出管理层能用什么指标来评估软件团队。
+While I'm getting paid well for the market, I wouldn't say it's a ridiculous amount. HR said they wanted a fairly flat salary range across the organization with pay differences being dealt with via performance bonuses. On paper, this sounds good for most departments, sales, engineering, etc. But I'm really struggling to figure out what metrics management could use to assess the software team.
+
+125
+00:24:08,407 --> 00:24:21,727
+[Host] 感觉任何能想出来的指标都会被钻空子，而且很可能带来负面后果。你们有没有见过什么还不错的指标或方法，可以在发绩效奖金时评估软件团队的表现？
+It feels like any metric that could be dreamt up could would be gamed and would likely have negative consequences. Have you ever come across any decent metrics or methods for assessing software performance when it comes to performance bonuses,
+
+126
+00:24:22,077 --> 00:24:42,933
+[Host] 尤其是在 team lead 可能对谁拿多少、怎么分都没有发言权的情况下？哦。哦，HR 给挡了。太难受了。而且这招真滑头。不是不是不是，我们不能给你加薪，但我们已经帮你解决问题了——别担心，好好表现你就会拿到奖金。
+especially when the team lead might not have a say in who gets what or how much? Ooh. Oh, HR blocked it. Painful. And what a slick move. No, no, no. We can't give you a raise, but we've solved your problem by just saying, don't worry, perform well and you'll get a bonus.
+
+127
+00:24:43,283 --> 00:24:50,555
+[Guest] 对，别担心。你会拿到一笔完全浮动、由我们自行决定的奖金，然后我们大家都会……
+Yeah, don't worry. You'll get a bonus that is totally variable, up to our discretion, and we'll all...
+
+128
+00:24:50,905 --> 00:24:56,929
+[Host] 而且几乎肯定取决于一堆你根本控制不了的因素，就像这次加薪一样。
+Almost definitely depend on factors way beyond your control, just like this pay raise.
+
+129
+00:24:57,279 --> 00:25:24,663
+[Guest] 对，这真的是个特别棘手的问题。我现在比以前几份工作都更贴近销售团队。销售和工程在衡量绩效与影响这件事上，完全是两个世界。这里面有很多软技能，也有很多彼此帮忙、互相配合的部分。但说到底，销售那边最后就是看一个数字，然后说，怎么样，这个数字是多少？数字好不好？有钱进来没有。
+Yeah, this is such a tricky problem. I work closer with salespeople than I have in other jobs. And it's such a vastly different world measuring performance and impact with sales versus engineering. There's a lot of soft skills and a lot of kind of helping each other out. But at the end of the day, there is just a number you look at and say how what. What is number? Number good? have some money
+
+130
+00:25:25,013 --> 00:25:46,805
+[Guest] 如果做得不好，钱就更少。这和软件、设计、产品又太不一样了，因为这些岗位对营收的影响都非常间接，很容易受叙事、感觉、个性冲突这些因素影响。我觉得从来没有人真正把这件事解决好过，所以先说明一下：没有，我也没见过什么像样的好办法。
+and we're not good have less money and it's so different in software and design and product where the the impact on revenue is so indirect and it's susceptible to narrative and vibes and personality clashes and i don't think anyone has solved this well ever so preface no i have not come across any decent ideas
+
+131
+00:25:47,155 --> 00:25:49,507
+[Host] 用指标来衡量。
+To metrics.
+
+132
+00:25:49,857 --> 00:25:59,601
+[Guest] 我记得我刚参加工作时，特别渴望有一个清晰、具体的指标，或者一套指标，能让我向我的第一任雇主证明自己的表现。
+I remember craving a nice concrete metric or set of metrics that I could use to demonstrate my performance to my very first employer.
+
+133
+00:25:59,951 --> 00:26:13,967
+[Guest] 我甚至还专门坐下来跟部门经理聊，直接问，哎，这个到底怎么做？我那时候还很天真，以为坐在我对面的这个人会知道该怎么衡量工程绩效，能比较客观地做出评估。
+I even sat down with the department manager and just said, hey, how do we do this? And I was naive enough to think back then that this person sitting across the table from me would have any idea how to measure engineering performance and be able to like objectively assess.
+
+134
+00:26:14,317 --> 00:26:39,133
+[Guest] 评估一个工程师团队，然后说你拿高分，你拿低分，给你多一点钱，给你少一点钱。那是25年前，不对，20——算一下，23年前。现在我坐到了当年那个部门经理的同一边，我心里想的是：对，我们衡量工程绩效的方式，就是定性评估，加上主观叙事。基于主观叙事的评价。对，就是这样。
+a team of engineers and say you get big number you get small number more money to you less money to you and that was a 25 years ago 20 let's see 23 years ago and now I sit on that same side of the table as that department manager and I think to myself yep we we figure out engineering performance through qualitative assessment and subjective narrative subjective narrative based evaluation yep
+
+135
+00:26:39,483 --> 00:26:53,907
+[Host] 很遗憾，这就是目前最先进的状态了。对，我也研究过这个，也见过几次相关尝试。市面上确实有一些产品，试图去衡量某种意义上的工程健康度。
+That's the state of the art, unfortunately. Yeah, I've looked into this and I've been around a couple attempts at it and there are some products that attempt to measure sort of engineering health.
+
+136
+00:26:54,257 --> 00:27:11,897
+[Guest] 我觉得，很多 individual contributors 都非常不信任那种用仪表盘来衡量自己的方式，因为他们会觉得这最终会被拿来进一步拧紧螺丝。也就是你刚才说的那种情况：为了让数字变好看，反而激励出一些并不理想的行为。
+I think there's this wide distrust among individual contributors of being measured on some kind of dashboard because they feel like it will be used to crank the screws tighter and exactly what you described of motivating non-optimal. behavior in order to make the numbers go up
+
+137
+00:27:12,247 --> 00:27:13,807
+[Host] 嗯哼。
+Mm -hmm.
+
+138
+00:27:14,157 --> 00:27:24,981
+[Guest] 这些产品基本都差不多，它们会用一些编码化的、或者稍微伪装过的说法来描述，但本质上往往就是一些展示以下内容的仪表盘：
+these products are all very they use coded or or slightly disguised language to to describe it but they're often dashboards of
+
+139
+00:27:25,331 --> 00:27:48,155
+[Guest] 比如代码行数、pull request 数量，或者各种衡量具体活动的东西。可即便如此，这些也并没有真正直接和营收产出挂钩。你完全可以提交一堆很烂的 PR，也可以发出去一大堆代码。尤其是现在有了 LLMs，有些地方还在搞什么 token 排行榜，或者看你用了多少 token。
+lines of code or number of pull requests or like various things measuring concrete activity even then that's not really tied directly to output of revenue you could make a bunch of crappy PRs you could ship a bunch of code especially with LLMs now there's some places making kind of token leaderboards or or how many tokens do you use
+
+140
+00:27:48,505 --> 00:28:09,217
+[Host] 对，我刚刚就在想，这简直就是 2026 年的工程指标。还有，听我说，千万别低估一些经理内心深处那种强烈的欲望——他们特别想按照某个所谓“客观”的指标给团队成员排个名。要是今年这个客观指标变成了 token 消耗量，你也别太惊讶。
+Yes, I was just thinking like that is the 2026. engineering measure and and listen don't don't underestimate manage some managers deep deep desire to rank their team members along a quote objective metric and do not be surprised if that objective metric for this year is token consumption
+
+141
+00:28:09,567 --> 00:28:35,583
+[Guest] 对，我听说过有人拿这个当指标用。我还没见过它被直接拿来做绩效衡量，但更多是用来看你在多大程度上采用了 AI 编程，尤其是在那些想把这套东西推向大型组织的地方。从一个非常粗糙的工具角度看，这也说得通。我的意思是，如果你有 1 万名工程师，你可以在全员大会上做些鼓舞人心的演讲，但像
+Yeah, I've heard that metric used as a, I haven't seen it used as a performance measure, but more of a how much are you adopting AI coding for places that are trying to push it on large orgs. And it makes sense as a very blunt instrument. I mean, if you have 10,000 engineers, you give inspirational speeches at all hands, but like
+
+142
+00:28:35,933 --> 00:28:58,589
+[Guest] 你不可能跟他们每个人都进行细致深入的讨论，而且总会有一些反对者，就是讨厌这东西到一定程度。于是你就抡起“把 token 数字放上仪表盘”这把锤子，一通猛砸，希望尽管它会带来各种负面激励，还是能把你的团队稍微砸得更接近你想要的结果。不过也有 Dora 指标，
+you can't have nuanced discussions with all of them and there are going to be some detractors who just hate it enough and you smash it all with the put token number on a dashboard hammer and hopefully that smashes your team slightly closer to the outcomes you want despite all the negative things it encourages. But there are the Dora metrics,
+
+143
+00:28:58,939 --> 00:29:03,235
+[Host] 还有那个 DevOps research，A 代表什么来着？
+there's the DevOps research, what does the A stand for?
+
+144
+00:29:03,585 --> 00:29:07,377
+[Guest] Awesome。Agency。Assessment。
+Awesome. Agency. Assessment.
+
+145
+00:29:07,727 --> 00:29:28,775
+[Host] 或者，呃，它也可以代表“任何能让这个数字涨上去的东西”。DevOps Research and Assessment——等等，它其实是代表 Assessment 吗？是的，没错。它有点像一个调研问卷，嗯，还是带点定性的，但他们会尽量用统计学那一套，说如果我们……
+or uh it stands for anything you need to make this number go up devops research and assessment wait it actually stands for assessment it does yeah it's like a survey that um it again is somewhat qualitative but they try to do the stats thing where they say what if we
+
+146
+00:29:29,125 --> 00:29:49,381
+[Guest] 去统计人们彼此讲述的这些案例数量，再把它们转成数字呢？不过他们有很多比我聪明的 PhD 在做这个，所以他们搞出了一些指标，说这些指标和高绩效软件团队是相关的。但这些都是团队层面的，比如部署频率、变更失败率，还有……
+count the number of stories that people tell about each other and turn those into numbers but they have lots of phd's working on it that are smarter than i am so they've come up with some metrics that they say correlate with high performing software teams but they're at the team level it's like frequency of deploy and change failure rate and
+
+147
+00:29:49,731 --> 00:30:12,291
+[Host] 哦对，我觉得测量在这方面就特别有效。我很喜欢其中一些团队层面的指标。比如我们团队的周期时间中位数是多少，也就是从开始开发到部署上线这段时间。你知道，这些都是非常值得持续跟踪的数字。但到了个人层面，变数就太多了。对，
+Oh yeah, and that's where measurement I think works really great. I love some of those metrics at the team level. like what is our team median cycle time for like from start of development to production deploy you know it's like these are great numbers to keep track of but at an individual level there's so much variation Yeah,
+
+148
+00:30:12,641 --> 00:30:23,297
+[Guest] 所以如果你拿这个做个排行榜，我就……我也不知道，也许样本足够多的话可以吧。我不确定。Dave 的部署频率到底是多少？
+that if you make a leaderboard of that, like, I don't, I don't know, maybe with enough samples. I don't know. What is Dave's deployment frequency?
+
+149
+00:30:23,647 --> 00:30:31,495
+[Host] 这话到底是什么意思？到目前为止你只被“部署”过一次，你只被部署到地球这一次。
+Like, what does that even mean? Only once so far, you've been deployed to Earth one time.
+
+150
+00:30:31,845 --> 00:30:47,253
+[Guest] 这个趋势可不太妙，数字越来越低了。对，我们现在一直在揪着这些数字说，但你知道吗？这就是你会陷入的两难处境。你在一家公司工作，而 HR 对你的薪酬最终有决定权，
+It's trending poorly. The number is getting lower. Yeah, and we're kind of harping on these numbers, but you know what? This is the dilemma you find yourself in. You work for a company where HR has the ultimate say over what your pay will be,
+
+151
+00:30:47,603 --> 00:30:59,123
+[Host] 但 HR 对工程的理解又不足以评估工程绩效和人才。那他们怎么办呢？通常他们会依赖经理怎么说。而且我知道 Jameson 也……
+and HR does not understand enough about engineering to assess engineering performance talent. And so what do they do? Well, they typically will depend on what managers say, and Jameson, I know, has...
+
+152
+00:30:59,473 --> 00:31:15,121
+[Host] Joe 参加过那种会议：一群经理坐在一起，可能由 HR 或财务的人主持，他们基本上就是在想办法把各自团队成员互相排个名，好为自己团队多分一点蛋糕。这种情况非常常见。
+Joe has been in meetings where a bunch of managers are sitting around, probably governed by an HR or finance person, and they're basically trying to rank their team members against each other to get more of the pie for their team. That's very common.
+
+153
+00:31:15,471 --> 00:31:31,527
+[Host] 对。所以你就想象一下，一个 HR 坐在那里听，基本上是谁能在那个房间里替自己团队成员讲出最有说服力的故事，谁就更容易说服他们。归根结底还是看讲故事的能力。
+Yeah. And so just imagine an HR person who's just kind of listening and is essentially persuaded by whoever makes the best case in that room for their team members. And that's going to come down to storytelling.
+
+154
+00:31:31,877 --> 00:31:50,669
+[Guest] 对。我一想到那些会就头大，我一点都不怀念。那种会很难开。说白了，就是一群人一起分配稀缺资源，这事本来就很难，而且，毫不意外地，是啊，有时候真的挺痛苦的。有些情况会非常明确，也会
+Yeah. I'm thinking back to those meetings. I don't miss them. They're tough. It's just, it's hard to allocate scarce resources with a group of people and surprise, surprise. It's yeah, it's painful sometimes. There are cases where it's very clear and there's
+
+155
+00:31:51,019 --> 00:32:11,395
+[Guest] 甚至在整个小组里都能达成共识，比如，哦对，这个人显然很优秀，而且这也确实和他们的工作有关。如果你做出了特别出色、而且大家看得见的工作，那当然会对公司产生影响，但同时也会形成故事，而这些故事会被传播，所以
+there's even consensus among the group like oh yeah this person is obviously great and it is related to their work if you just do awesome work that's well that's that's visible then that has impacts on the company but also it it creates stories and those stories are shared so
+
+156
+00:32:11,745 --> 00:32:24,345
+[Guest] 所以我觉得，最好的办法其实和你争取晋升或者加薪时差不多。就是如果你优秀得很明显，而且很多人都认同，那你的故事和数据看起来都会很好。
+I think your best bet is kind of the same as if you're going for a promotion or going for a raise. Like if you are visibly awesome and lots of people agree, the story numbers will look good.
+
+157
+00:32:24,695 --> 00:32:38,591
+[Host] 我觉得挺有意思的是，HR 说，不，我们会发绩效奖金，但他们又没有目标。我在提问里没看到这一点。这就很模糊，听起来就像是换了个说法的拒绝。
+I think it is interesting that HR is saying, no, we'll do performance bonuses, but they don't have targets. I didn't see that in the question. That is pretty vague and it just sounds like no with extra steps.
+
+158
+00:32:38,941 --> 00:32:44,941
+[Guest] 听起来完全就是这么回事，换了几个步骤说不而已。天哪，真是。
+that's exactly what it sounds like no extra steps oh man yes
+
+159
+00:32:45,291 --> 00:33:06,771
+[Host] 这就是在说不，只不过他们不用现在告诉你不，可以拖到以后再说，而“以后”就是别人的问题了。嗯，我确实见过绩效奖金，但通常会和公司的业绩或者部门的业绩挂钩，这种就有点像大家摊摊手说，天啊，我也不知道该怎么把这个归因到个人，比如说
+it's a no but they don't have to tell you no until later and later is someone else's problem um i have seen performance bonuses but it's tied to like the company's performance or the department's performance and that kind of feels like you sort of throw up your hands and say man i don't know how we attribute like
+
+160
+00:33:07,121 --> 00:33:32,489
+[Host] 我们就大概依赖职级来算吧，因为很多时候它是按你基本工资的一定比例来发的，或者你晋升后这个比例会提高。所以我们就靠这个来大致分配这笔钱。但再往下细到个人，真的太难决定了。我真希望不是这样，我真希望这里有个明确答案。只有在我对某个个人有非常具体的顾虑时，我才会用到个人指标。
+We'll vaguely count on leveling because often it's a percentage of your base salary or the percentage goes up as you get promoted. So we'll count on that to sort of allocate the funds. But beyond that, it's so hard to decide individually. I wish it weren't. I wish there were an answer here. I have used metrics about individuals when I have very specific concerns.
+
+161
+00:33:32,839 --> 00:34:01,255
+[Host] 如果我感觉自己看到了那种生产力偏低的情况，我会去核实一下，看看是不是我判断对了。他们是不是——如果我只是看看那些你平时不会拿来评判一个人的数字——但就是，我也说不上来，我现在感受到的这个故事是：生产力低。那如果我去数一数工单、PR，或者我也不知道，嗯，PR review，或者其他我们手头能拿到的数字，这样判断准吗？
+if i have seen what feels like low productivity i will go check and say am i correct are they if i just look at the numbers that you don't use to judge someone regularly but like i don't know it feels my this the story i'm feeling is low productivity does that seem accurate if i just count up tickets or prs or i don't know uh pr reviews or whatever numbers we have available
+
+162
+00:34:01,605 --> 00:34:05,661
+[Guest] 对。比如 PR 评论里敲了多少个字。
+Yeah. Number of characters typed into PR comment.
+
+163
+00:34:06,011 --> 00:34:25,379
+[Host] 评论，对对。或者你给 CEO 的社交媒体帖子点了多少个赞之类的。但这更多是在别的什么事情先让我起疑之后，我才会去看，而不是把它当成一个持续性的衡量方式。因为人的工作方式本来就不一样，也有一些人会——
+comments yeah yeah how many thumbs up you gave the ceo's social media post or whatever but that's more after something else has already tripped me and less as a continuous thing because people are shaped differently as well there's some people who
+
+164
+00:34:25,729 --> 00:34:41,833
+[Host] 做很多“胶水型工作”，能帮到整个团队。那他们个人指标可能就会比同级别的其他人稍微低一点，因为他们经常在结对、经常沟通，或者也有那种牛仔程序员，东西产出一大堆，但老是坏。
+Do a lot of glue work that helps the whole team and maybe their individual metrics are a little bit lower than someone at their level because they're pairing a lot, they're having a lot of conversations, or there's the cowboy coder who cranks out a ton of stuff and it's broken all the time.
+
+165
+00:34:42,183 --> 00:34:47,847
+[Guest] 除了说这事基本没救了之外，我很难给出别的答案，但我真希望不是这样。
+I'm struggling to have a different answer besides this is hopeless, but I wish it weren't.
+
+166
+00:34:48,197 --> 00:35:13,637
+[Guest] 嗯，这事大概率确实没救。我解释一下为什么我会这么觉得。我以前待过一家公司，采用的就是完全一样的安排：薪资区间是平的，收入差异通过绩效奖金来拉开。但在我那个案例里，绩效奖金是股票。所以基本上，基础工资到某个数就封顶了，没有人的 base salary 会超过那个上限。然后股票——
+Well, it probably is hopeless. And let me just explain why I think that's the case. I've worked for a company that had exactly this arrangement, a flat salary range with pay differences via performance bonuses. But in my case, the performance bonuses were stock. And so basically there was a cap on pay up to a certain amount. No one made more than that as a base salary. And then the stock.
+
+167
+00:35:13,987 --> 00:35:37,651
+[Host] 你每年拿到的股票，人与人之间差距会非常大。你知道的，有的人总收入可能是另一个人的两三倍。这就是那家公司用来管理这件事的策略。我甚至敢打赌，你们公司肯定听说过那家公司，而且正在照搬同样的策略。所以你大概也没什么办法去对抗这件事，除了——
+stock that you were given each year varied wildly from person to person you know where someone could be making two three x what someone else was making and this was that company's strategy for managing this and i would be willing to bet a nickel that your company has heard about that company and is adopting this this same strategy and so there's probably not much you can do to fight against this other than
+
+168
+00:35:38,001 --> 00:36:01,785
+[Host] 尽量确保你的经理手里有一套关于你的、非常有说服力的叙事。这样当他们在会议室里为这笔奖金据理力争时，随时都能讲出一些很棒的故事，让 HR 听了会觉得：对，这就是我们想留住、也愿意给高薪的人。而且，认同这个故事的人越多，或者除了——之外，听过这个故事的人越多越好。
+And make sure your manager is armed with really great narratives about you so that when they're in the room fighting for this bonus money, they have at the ready cool stories they can tell that makes an HR person go, yes, that's someone we want to retain and pay well. And the more people that agree with the story or have heard the story besides
+
+169
+00:36:02,135 --> 00:36:20,831
+[Host] 你的经理，当然也是越认可你越好。如果别的团队的经理也说，哦对，那个确实很棒，因为它帮到了我的团队，或者我也说不清。反正至少我经历过的环境里，并不完全是那种互相捅刀子、恶狠狠厮杀的局面，比如说——
+your manager, the better too. If another manager of another team says, oh yeah, that really was awesome because it helped my team or I don't know. I don't know like exactly it's not it's not at least the ones I've been aren't purely just backstabbing vicious battling like
+
+170
+00:36:21,181 --> 00:36:23,197
+[Guest] 不不不，不是那样。
+No, no, no, no, no.
+
+171
+00:36:23,547 --> 00:36:39,267
+[Host] 确实会有一些分歧和竞争，但我们的意思是，大家还是一起工作的，而且总体上彼此也都挺喜欢对方的。所以有那么几个人，情况就很明显，大家都会说，哦对，显然就是某某。
+there is some disagreement in competition but we are I mean we work together and we like each other generally so there are there are a few people where it's pretty easy everyone just says oh yeah obviously person x
+
+172
+00:36:39,617 --> 00:36:50,345
+[Guest] 没错。我觉得这里的关键点是：你以为自己做的是软件工程这门生意，但实际上，你是个吟游诗人，你做的是“传说”这门生意。
+Exactly. And I think the takeaway here is you thought you were in the software engineering business. But actually, you are a bard and you are in the lore business.
+
+173
+00:36:50,695 --> 00:36:52,327
+[Host] 什么意思？
+What do you mean?
+
+174
+00:36:52,677 --> 00:36:59,205
+[Guest] 你的工作，是收集并讲述关于你自己的精彩故事，同时也让别人也去这么讲。
+Your job is to collect and tell really great stories about yourself and then let other people do that as well.
+
+175
+00:36:59,555 --> 00:37:06,347
+[Host] 哦，我还以为你是说那种发出邪恶狂笑，或者弹鲁特琴给人施法的意思。
+Oh, I thought you meant like cast vicious laughter or play the lute in a way that casts spells on people.
+
+176
+00:37:06,697 --> 00:37:21,601
+[Host] 那算是更偏奇幻设定里的吟游诗人。我其实没那么懂，Jameson 才是奇幻方面的专家，我只是略懂一点，所以我刚才可能用错了一些词。不过我现在挺喜欢这个说法的。
+that's like a little bit more of a fantastical bard i'm not actually a really jameson's the expert on fantasy i just dabble and so i may have used some of the wrong words but i i like nowadays
+
+177
+00:37:21,951 --> 00:37:40,335
+[Host] Gen Z 那帮人现在都在用 lore 这个词，来形容自己生活里发生的那些很酷的事。就比如，呃，我有个十几岁的外甥，他有时候放学回家会跟他妈妈说：妈，今天又有新 lore 掉落了。我就觉得这真的是一种很棒的人生态度。
+the gen z folks are all using the term lore about cool things that happen in their life like my uh i have a teenage nephew and he came home comes home from school sometimes and tells his mom mom new lore dropped today i just think it's a great way to look at life
+
+178
+00:37:40,685 --> 00:37:55,925
+[Host] 对，对，不过这其实也是你职业发展里的问题。我感觉我们经常提到这个，但不提 Goodhart's law 又没法聊这个话题：当一个衡量指标变成目标时，它就不再是一个有效的衡量指标了。
+yeah. Yeah, but that's your job with your career. I feel like we mentioned this a lot, but we couldn't talk about this without mentioning Goodheart's law, where when a measure becomes a target, it ceases to become an effective measure.
+
+179
+00:37:56,275 --> 00:38:18,787
+[Host] 我觉得，这大概就是为什么我们会对“用绩效指标去有效激励卓越表现”这件事感到很无力的底层原因。你完全可以很轻松地把一个数字做上去，但做的却是错的事。这不代表指标没用，只是说，指标更适合用来回看发生了什么，而不是拿来告诉人们该做什么。我——
+I think that's sort of the underlying premise behind the hopelessness we feel about effectively motivating excellent performance with performance metrics is you can make a number go up and do the wrong thing. very easily it doesn't mean metrics are useless but they're much better for looking at what happened than telling people what to do i
+
+180
+00:38:19,137 --> 00:38:31,641
+[Host] 我也不知道，反正这让我很想去找个机器人聊聊软件工程研究，因为这方面其实有不少研究。只是我已经有一阵子没去看新的东西了，不过——
+don't know there's probably this makes me want to go like talk to a robot about software engineering research because there is a bunch of research about it it's been a while since i've looked into new stuff but
+
+181
+00:38:31,991 --> 00:38:36,119
+[Guest] 也许我们应该在录这期播客之前就想到这个。
+maybe we should have thought of that before we recorded this podcast.
+
+182
+00:38:36,469 --> 00:38:40,525
+[Host] 大概吧，不过那就得做点准备了。
+probably that would have required Some prep.
+
+183
+00:38:40,875 --> 00:38:47,475
+[Guest] 我可不搞那些。我的准备就是我的生活。我就是这样过日子的，所以——
+I don't do any of that. The prep is my life. I live my life so
+
+184
+00:38:47,825 --> 00:38:49,505
+[Host] 没错。
+That's right.
+
+185
+00:38:49,855 --> 00:38:52,255
+[Guest] 我随时都准备好录播客。
+that I'm always ready to do the podcast.
+
+186
+00:38:52,605 --> 00:38:54,285
+[Host] 没错。
+That's right.
+
+187
+00:38:54,635 --> 00:39:04,259
+[Guest] 而且不管什么时候，只要我说“这个本来该在录播客前做完”，其实我都说错了，因为我已经做了对这期播客来说最合适的准备。
+And at any moment when I say I should have done this before the podcast, I'm actually wrong because I already prepared as much as is best for the podcast.
+
+188
+00:39:04,609 --> 00:39:19,561
+[Host] 对。等等，我敢打赌听众还不知道这个，但我们甚至都不是每周固定安排录制的。就是会随机响个闹钟，然后就像在说：来，开始，两道题，冲。
+That's right. Wait, I'll bet our listeners don't know this, but we don't even schedule this every week. We just randomly have an alarm that goes off and it's like, here, go, two questions, run.
+
+189
+00:39:19,911 --> 00:39:28,191
+[Guest] 然后你得立刻放下手头所有事，不管你人在哪儿，也不管当时是一天里的什么时间，都得马上开始录。
+And you have to drop everything and record wherever you are, whatever time of day it is.
+
+190
+00:39:28,541 --> 00:39:35,885
+[Host] 对，就跟 pager duty 警报一样。啊，靠。播客。现在。
+yeah it's like the pager duty alert Ah, crap. Podcast. Now.
+
+191
+00:39:36,235 --> 00:40:00,451
+[Host] 如果你对这个有了解，或者你见过好的软件性能指标，我会很感兴趣。我觉得我在这件事上唯一有点转变的地方是……这些指标基本上总是很糟。你怎么能蠢到去跟别人说，我们需要让你的 commit 数量涨上去——不过也不是完全没可能，毕竟要把这种细微差别传达给特别大的组织，真的很难。而且也有可能——
+If you know stuff about this or if you've seen good software performance metrics, I would be interested. I think the one place I've evolved at this is from... They're literally always bad. And how could you be so stupid as to tell anyone, we need your number of commits to go up to it's possible, it's really hard to communicate nuance to very large orgs. And it's possible that
+
+192
+00:40:00,801 --> 00:40:17,409
+[Host] 在某些情况下、某段时间里，要求个人生产力指标里的某个数字往这个方向动一动，可能是个不错的权衡。至少我们承担得起这么做，而且整体影响会是正面的，即便它会带来一些奇怪的问题。
+It could be a good trade-off for part of the time in some cases to say, make this number move this way for your individual productivity metrics. Better that we can afford to do it and the impact will be positive overall, even if it's going to cause some weird stuff.
+
+193
+00:40:17,759 --> 00:40:30,359
+[Host] 但我还是觉得，你永远没法只是做一个仪表盘，把所有人都放进去，就能看到准确的人员强制排序。好吧。我们这个问题算回答了吗？
+But I still think you can never just build a dashboard and put everyone on the dashboard and see the accurate stack ranking of people yet. All right. Have we answered the question?
+
+194
+00:40:30,709 --> 00:40:36,997
+[Guest] 最好算是回答了，因为关于这个我已经没什么可说的了。我觉得答案是算。
+The answer better be yes, because I have no more to say about it. I think the answer is yes.
+
+195
+00:40:37,347 --> 00:40:42,291
+[Guest] 你这辈子就准备好说这一句了，那说明这就是最好的答案。
+That's all your life prepared you to say, which means it's the best.
+
+196
+00:40:42,641 --> 00:40:48,089
+[Host] 对。那如果大家想让自己的问题得到解答，可以怎么做？
+Yes. What can people do if they want their own questions answered?
+
+197
+00:40:48,439 --> 00:41:01,495
+[Guest] 这个问题的答案是：去 softskills.audio，点击“ask a question”按钮。如果你在那个表单里写的问题是“大家该去哪里让自己在播客里的问题得到解答”，它就会自毁。
+The answer to that question is go to softskills.audio and click the ask a question button. And if in that form you write a question which is where should people go to answer their to get their questions answered on the podcast, it will self-destruct.
+
+198
+00:41:01,845 --> 00:41:18,405
+[Host] 你知道 Google form 也能被 stack overflow 吗？按理说你会觉得他们早就该修好了。并没有。结果发现这全都是递归。好了，感谢收听。我们下周再见。
+Did you know you can stack overflow a Google form? With the right, you would have thought that they would have fixed that already. Nope. Turns out it's all, it's all recursion. All right. Thank you for listening. We will catch you next week.
+

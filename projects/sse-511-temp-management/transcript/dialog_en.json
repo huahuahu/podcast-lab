@@ -1,0 +1,1190 @@
+[
+  {
+    "start": 5.716,
+    "end": 14.766,
+    "speaker": "Host",
+    "text": "It takes more than smugly telling the LLM it was wrong about something to be a great engineer. This is Soft Skills Engineering, episode 511. I'm your host, Dave Smith."
+  },
+  {
+    "start": 15.066,
+    "end": 16.516,
+    "speaker": "Guest",
+    "text": "I'm your host, Jameson Dance."
+  },
+  {
+    "start": 16.716,
+    "end": 31.236,
+    "speaker": "Host",
+    "text": "Soft Skills Engineering is a weekly advice podcast for software developers who got so good at arguing with humans that they're now doing it full-time with LLMs. Do you think it's better or worse for you to argue with? A robot versus a human."
+  },
+  {
+    "start": 31.536,
+    "end": 33.036,
+    "speaker": "Guest",
+    "text": "Better or worse for me?"
+  },
+  {
+    "start": 33.036,
+    "end": 36.786,
+    "speaker": "Host",
+    "text": "I'm going to say much, much worse. Hmm. Why?"
+  },
+  {
+    "start": 36.786,
+    "end": 53.266,
+    "speaker": "Guest",
+    "text": "I'll give you 60 minutes of answer. But I'll give you two reasons. Number one, the robot is a lot more tolerant of horrible behavior than any human would be. So you will learn bad etiquette and bad manners and bad techniques."
+  },
+  {
+    "start": 53.466,
+    "end": 65.616,
+    "speaker": "Guest",
+    "text": "And number two, you can much more easily convince an LLM that it is wrong than you can a human. So it's actually bad practice for the art you're trying to practice, which is, I'm assuming, the art of persuasion."
+  },
+  {
+    "start": 66.644,
+    "end": 78.794,
+    "speaker": "Host",
+    "text": "I wonder if there's some wrong idea benchmark out there of how easy is it to just stick to your guns and say, no, actually, the ocean is made of crabs completely instead of water with some crabs in it."
+  },
+  {
+    "start": 79.044,
+    "end": 79.144,
+    "speaker": "Guest",
+    "text": "Instead"
+  },
+  {
+    "start": 79.144,
+    "end": 79.544,
+    "speaker": "Host",
+    "text": "And then,"
+  },
+  {
+    "start": 79.544,
+    "end": 81.044,
+    "speaker": "Guest",
+    "text": "of partial grab, it's full grab."
+  },
+  {
+    "start": 81.044,
+    "end": 84.494,
+    "speaker": "Host",
+    "text": "yeah. There's probably a benchmark like that."
+  },
+  {
+    "start": 84.494,
+    "end": 85.444,
+    "speaker": "Guest",
+    "text": "Yeah, there probably is."
+  },
+  {
+    "start": 86.794,
+    "end": 90.444,
+    "speaker": "Host",
+    "text": "that's not what this show's about. All right. We should, should I thank our patrons?"
+  },
+  {
+    "start": 90.844,
+    "end": 91.944,
+    "speaker": "Guest",
+    "text": "I was hoping you would."
+  },
+  {
+    "start": 91.944,
+    "end": 94.194,
+    "speaker": "Host",
+    "text": "I wasn't going to say it. I was going to wait for you to."
+  },
+  {
+    "start": 94.068,
+    "end": 101.118,
+    "speaker": "Guest",
+    "text": "you'd have volunteered to do it because i didn't want to be pushy okay see that's an example of a skill i learned not arguing with llms yeah"
+  },
+  {
+    "start": 101.118,
+    "end": 103.368,
+    "speaker": "Host",
+    "text": "Well, they're also not super pushy. So yeah."
+  },
+  {
+    "start": 103.368,
+    "end": 107.218,
+    "speaker": "Guest",
+    "text": "that's the thing but they but they allow humans to be put they're enablers oh"
+  },
+  {
+    "start": 107.218,
+    "end": 121.068,
+    "speaker": "Host",
+    "text": "What's that? Is that pastilles law? What's the law about be liberal in what you accept and conservative in what you send? Not in the political sense, but like people use it for like API validation and also for communication sometimes."
+  },
+  {
+    "start": 120.884,
+    "end": 123.084,
+    "speaker": "Guest",
+    "text": "sometimes yeah I hate that I hate that law"
+  },
+  {
+    "start": 123.084,
+    "end": 124.984,
+    "speaker": "Host",
+    "text": "do you yeah I really do it"
+  },
+  {
+    "start": 124.984,
+    "end": 132.384,
+    "speaker": "Guest",
+    "text": "that's put a lot of burden on you does and it's why it's why web browsers are so complicated that we only really have two they"
+  },
+  {
+    "start": 133.434,
+    "end": 135.584,
+    "speaker": "Host",
+    "text": "you have to accept everything that's"
+  },
+  {
+    "start": 135.584,
+    "end": 135.684,
+    "speaker": "Guest",
+    "text": "accept"
+  },
+  {
+    "start": 135.684,
+    "end": 135.834,
+    "speaker": "Host",
+    "text": "fair all"
+  },
+  {
+    "start": 135.834,
+    "end": 137.384,
+    "speaker": "Guest",
+    "text": "the yes anyway yeah"
+  },
+  {
+    "start": 137.384,
+    "end": 156.32,
+    "speaker": "Host",
+    "text": "right to the patrons thank let's thank our patrons you to angel will not please stop asking thank you thank you I'm I hmm I got to start this over I'm out of practice I'm not going to say thank you Thank you after every single name. That's what the thank yous at the beginning of the end are for. All right, moving on. 22 does not equal 22."
+  },
+  {
+    "start": 157.172,
+    "end": 173.572,
+    "speaker": "Host",
+    "text": "The real name of the next guy is Will Angel. Error, your Will Angel name variant must contain at least one uppercase letter, one number, and one special character. No one knows my real name is Seth Angel. I thought this was a funny name, but you didn't laugh. Now I feel self-conscious. Will Angel, if you can hear me, please save us."
+  },
+  {
+    "start": 174.422,
+    "end": 184.572,
+    "speaker": "Host",
+    "text": "I want to put no carrier on my tombstone, but if I live long enough, no one will get the joke. My actual name on LinkedIn is Yammy Debugging in the Dark Candy, the mobile development ordinary first of his name, Jacob Shandling."
+  },
+  {
+    "start": 184.916,
+    "end": 198.816,
+    "speaker": "Host",
+    "text": "Kvothe over quantity, or as my mother used to say, if you have kilo F, who's left? The missing semicolon, will Angel please report to HR over your strange cubicle crabs? Help! And then there's plain old Nick Molyneux, this guy doesn't change his name, but he is hiring!"
+  },
+  {
+    "start": 199.966,
+    "end": 217.454,
+    "speaker": "Host",
+    "text": "Embedded engineers treat assembly the same way typescript engineers treat javascript. Javier Gonzalez, Chewy, the first landed first engineering role. Thanks, Soft Skills Heart. Ted Timbrel. Chewy Ted Timbrel, chewy Ted Timbrel, chewy Ted Timbrel, chewy Ted Timbrel, chewy Ted Timbrel."
+  },
+  {
+    "start": 220.596,
+    "end": 233.596,
+    "speaker": "Host",
+    "text": "A single opening parenthesis. Dan from Drone to play never is not just a creator on Mars flamingo emoji. I like chicken. I like liver meowks. Meowks, please deliver. Swiss Python Summit, the one on 22nd and 23rd of October 2026. Kyle Boss, Kent C. Dodds."
+  },
+  {
+    "start": 234.596,
+    "end": 235.546,
+    "speaker": "Guest",
+    "text": "Slowing down."
+  },
+  {
+    "start": 236.546,
+    "end": 260.624,
+    "speaker": "Host",
+    "text": "Jenny Kim, the Stochastic Parrot. Will Angel is the crab of Patreon names. Ira Chan, Jonathan King, is an eye-beautiful functional user documentation. If I were Angel, I wouldn't. Vote.WilliamAngel.net. Net ignore the crabs. Dave's serial killer name, Dave Smiles. Adding inside jokes to your agents.md in your personal repo is technically still a team building exercise. Brayden Keynes. John Grant,"
+  },
+  {
+    "start": 260.724,
+    "end": 267.474,
+    "speaker": "Host",
+    "text": "Brittany Alex slash new Newcastle's best dev conference May 27th, 28th and close parentheses followed by a single closing parentheses. Thank you."
+  },
+  {
+    "start": 267.474,
+    "end": 267.974,
+    "speaker": "Guest",
+    "text": "That's awesome."
+  },
+  {
+    "start": 267.974,
+    "end": 287.168,
+    "speaker": "Host",
+    "text": "Thank you. Thank you. I'm sitting here in my chair thinking about people who want to change their profile name on Patreon and then forget. yet by the time they finish their commute or whatever it is they're doing watching dishes or going on a walk while they listen to the podcast and i'm like i'm sure that's happened to a bunch of people and i feel that so much you"
+  },
+  {
+    "start": 287.168,
+    "end": 291.818,
+    "speaker": "Host",
+    "text": "But we believe in you. We believe in your ability to change it to something silly. I think the world could be more silly."
+  },
+  {
+    "start": 292.268,
+    "end": 292.618,
+    "speaker": "Guest",
+    "text": "could do it"
+  },
+  {
+    "start": 292.618,
+    "end": 314.15,
+    "speaker": "Host",
+    "text": "Thank you, patrons and everyone else for listening. If you want to join the patrons, you can go to softskills.audio. Export is on Patreon. Any amount gets you an invite to our Slack team. Enough of an amount gets you to join this list of great, high taste individuals who increase the silliness level in the world, which is awesome. And thank you. Dave,"
+  },
+  {
+    "start": 314.35,
+    "end": 317.0,
+    "speaker": "Guest",
+    "text": "I expect you to read our first question."
+  },
+  {
+    "start": 317.15,
+    "end": 320.1,
+    "speaker": "Host",
+    "text": "I will fulfill your expectation. I will not disappoint you."
+  },
+  {
+    "start": 320.1,
+    "end": 320.55,
+    "speaker": "Guest",
+    "text": "perfect."
+  },
+  {
+    "start": 322.15,
+    "end": 339.888,
+    "speaker": "Host",
+    "text": "Excellent. Okay, this comes from an anonymous listener who says, I'm approaching 15 years of experience with the last seven years at Fang. And for those that don't know, Fang stands for Facebook, no longer called Facebook, Amazon, Apple, Netflix, Google, no longer called Google. What else? Has any of these companies changed names? None of them?"
+  },
+  {
+    "start": 339.888,
+    "end": 340.688,
+    "speaker": "Guest",
+    "text": "I don't know."
+  },
+  {
+    "start": 340.688,
+    "end": 351.286,
+    "speaker": "Host",
+    "text": "Okay, continuing. About a year ago, I was promoted to staff engineer thanks to the podcast. All right. And switch to an adjacent team under the same director. I have never actively pursued a management role,"
+  },
+  {
+    "start": 351.436,
+    "end": 363.986,
+    "speaker": "Host",
+    "text": "but I've been starting to think about it more. A colleague of mine just announced they need to take extended medical leave of one to two months, and I was asked to fill in as a temporary manager while they are out."
+  },
+  {
+    "start": 364.486,
+    "end": 376.256,
+    "speaker": "Host",
+    "text": "How do I go about managing a team if everyone knows it's short-lived? Should I just try to keep the team alive or aim higher? Is one to two months enough for me to get a sense of whether I'd enjoy management? management?"
+  },
+  {
+    "start": 376.406,
+    "end": 388.106,
+    "speaker": "Host",
+    "text": "I feel like I've dived into the deep end and it's scary, but also exciting. I love the podcast. I've listened to every episode. Wow. I'll take whatever comedy or advice you have to offer."
+  },
+  {
+    "start": 389.456,
+    "end": 392.906,
+    "speaker": "Guest",
+    "text": "Should we treat that like an XOR or a logical or?"
+  },
+  {
+    "start": 396.148,
+    "end": 417.648,
+    "speaker": "Host",
+    "text": "oh man this is this is great good on you for getting promoted you said thanks to the podcast i assume that you also did something besides said hey i listened to the podcast stand back one promotion please but i appreciate all the credit what do you think i think that look your co-worker your colleague"
+  },
+  {
+    "start": 418.388,
+    "end": 434.838,
+    "speaker": "Guest",
+    "text": "Has a really unfortunate thing happened one to two months of medical leave. That's probably a serious medical issue. I think that you should take advantage of your colleague and force them out of this role by the time they get back by doing such an amazing job that they will be fired after their extended medical leave."
+  },
+  {
+    "start": 435.238,
+    "end": 438.388,
+    "speaker": "Host",
+    "text": "Have you been replaced by Bizarro Dave Smith?"
+  },
+  {
+    "start": 439.338,
+    "end": 441.638,
+    "speaker": "Guest",
+    "text": "The evil mode engaged."
+  },
+  {
+    "start": 442.538,
+    "end": 452.706,
+    "speaker": "Host",
+    "text": "Yeah, it's like Mario and Wario. I guess D, if you flip it upside down. one doesn't really look still a d like much difference so"
+  },
+  {
+    "start": 452.706,
+    "end": 455.706,
+    "speaker": "Guest",
+    "text": "Very hard to tell them apart, the evil one versus the good one."
+  },
+  {
+    "start": 458.406,
+    "end": 462.356,
+    "speaker": "Host",
+    "text": "I mean, I think if you want to lean into this, you could just make their medical condition worse."
+  },
+  {
+    "start": 463.476,
+    "end": 466.826,
+    "speaker": "Guest",
+    "text": "And then it might be longer than one to two months. They'll give you more time for your evil plan."
+  },
+  {
+    "start": 466.826,
+    "end": 476.826,
+    "speaker": "Host",
+    "text": "Oh, wow. Double down. That's really bad. Yeah, you might need to. You might need time. Like I'm really liking this gig. Please don't come back."
+  },
+  {
+    "start": 476.826,
+    "end": 481.226,
+    "speaker": "Guest",
+    "text": "Yeah, blast some 5G into their hospital room. Fry the brain or something."
+  },
+  {
+    "start": 483.604,
+    "end": 497.804,
+    "speaker": "Host",
+    "text": "I think this is a great opportunity to dip your toe into management, which is one of the hardest parts about making the move to management. It's similar to getting your first software job. How do you get someone to take a chance on you in a..."
+  },
+  {
+    "start": 498.9,
+    "end": 521.55,
+    "speaker": "Host",
+    "text": "potentially tricky position that has a lot of responsibility when you don't have any prior experience how do you get prior experience if no one will take a chance on you you've answered the question so whether you should do it or not i i think it's very clear you should absolutely try it you will learn a bunch you will be a better ic you will be more easily able to switch into management later if you are interested in that for real or maybe you'll find out you hate it and that's"
+  },
+  {
+    "start": 522.068,
+    "end": 524.868,
+    "speaker": "Host",
+    "text": "Really useful to know. So I think the downsides are low."
+  },
+  {
+    "start": 525.068,
+    "end": 545.144,
+    "speaker": "Guest",
+    "text": "Yeah. Downsides are low. Upsides are really high. And I just want to. Put a little footnote on this whole conversation that if the message our listeners are taking away from this is that if you want to dip your toes into management, all you have to do is find a manager and get them really sick so they have to take extended medical leave. This is not what we recommend."
+  },
+  {
+    "start": 545.494,
+    "end": 548.794,
+    "speaker": "Host",
+    "text": "Yeah, do the opposite of that. Yeah, you've misheard our show."
+  },
+  {
+    "start": 551.044,
+    "end": 558.594,
+    "speaker": "Guest",
+    "text": "What about this other question? Should I just try to keep the team alive or aim higher? I intuit that to mean I guess interpret, not intuit."
+  },
+  {
+    "start": 559.394,
+    "end": 560.044,
+    "speaker": "Host",
+    "text": "Maybe both."
+  },
+  {
+    "start": 560.144,
+    "end": 569.972,
+    "speaker": "Guest",
+    "text": "Should I try? Should I try to make some big changes, right? I see some problems, some things that I think should be different. Should I kind of reshuffle stuff and change our processes? What do you think about that?"
+  },
+  {
+    "start": 569.972,
+    "end": 576.522,
+    "speaker": "Host",
+    "text": "Yeah, like let's make the team unrecognizable when your colleague returns. Like what have you done with my team? All these processes."
+  },
+  {
+    "start": 576.822,
+    "end": 583.822,
+    "speaker": "Guest",
+    "text": "Again, leaning into the, yes, the sabotage them and yes, brainwash them all to hate their old manager."
+  },
+  {
+    "start": 584.722,
+    "end": 586.172,
+    "speaker": "Host",
+    "text": "Look where I took you from."
+  },
+  {
+    "start": 586.322,
+    "end": 592.068,
+    "speaker": "Guest",
+    "text": "Yeah. You could try to make your old manager look really great by being a ruthless tyrant."
+  },
+  {
+    "start": 592.468,
+    "end": 601.35,
+    "speaker": "Host",
+    "text": "Yeah, we can't wait for old manager to come back to save us from, yeah, Gorlog the Skull Smasher or whatever your manager. name becomes yes"
+  },
+  {
+    "start": 604.45,
+    "end": 605.75,
+    "speaker": "Guest",
+    "text": "But only for one to two months."
+  },
+  {
+    "start": 606.9,
+    "end": 611.1,
+    "speaker": "Host",
+    "text": "that's step one request that they address you by your new name"
+  },
+  {
+    "start": 614.65,
+    "end": 622.2,
+    "speaker": "Host",
+    "text": "i've enjoyed being your colleague it's time for me to step into a different role the role of gorlog skull smasher and there'll be some changes"
+  },
+  {
+    "start": 622.836,
+    "end": 623.636,
+    "speaker": "Guest",
+    "text": "You might know it."
+  },
+  {
+    "start": 625.186,
+    "end": 627.236,
+    "speaker": "Host",
+    "text": "I'll give you a guess what the first one is."
+  },
+  {
+    "start": 629.486,
+    "end": 645.436,
+    "speaker": "Guest",
+    "text": "I have a strong opinion about this, which comes from my strong opinion about just stepping into a management role, even as an experienced manager at a new role, which is I don't think you should try to come in and make wild changes unless."
+  },
+  {
+    "start": 646.164,
+    "end": 674.564,
+    "speaker": "Guest",
+    "text": "there's something actively on fire you are very likely to not have the right context to make a big change to process or people or priorities especially if it's a temporary thing if this was a new role i would also say like probably take a month if it's a really small startup if you're in some specific context that doesn't always apply but i think in general you don't want to just roll in and say you"
+  },
+  {
+    "start": 674.484,
+    "end": 681.984,
+    "speaker": "Guest",
+    "text": "Good news, I know nothing about the job or the team, but I've got a lot of ideas about how things need to be different. That doesn't often work well."
+  },
+  {
+    "start": 682.934,
+    "end": 699.494,
+    "speaker": "Host",
+    "text": "Yeah, I agree. I think one to two months is actually about the amount of time I like to take in a new management position just to get the lay of the land anyway. So you're just barely going to have enough context to know what's going on. By the time you're done, and that's about the time when you could be making some changes anyway,"
+  },
+  {
+    "start": 699.544,
+    "end": 710.344,
+    "speaker": "Host",
+    "text": "so I think there's some intuition here that says, I probably don't want to come in here and make a bunch of changes or take the team to some new level. Now, having said that, while yes, it is."
+  },
+  {
+    "start": 710.9,
+    "end": 723.0,
+    "speaker": "Host",
+    "text": "probably the case that you will not have enough information or context to make big sweeping changes, I think you definitely should look for opportunities to improve things. This is a great opportunity. You've got new eyes on the processes,"
+  },
+  {
+    "start": 723.4,
+    "end": 736.9,
+    "speaker": "Host",
+    "text": "new eyes on the team members. You've got a bunch of experience, 15 years of software development experience that you could bring to bear to help this team in things that you're already really great at. So I think there's a really good opportunity to make it a little better, but I probably would not be aiming for revolution."
+  },
+  {
+    "start": 737.05,
+    "end": 748.018,
+    "speaker": "Guest",
+    "text": "Yeah. You probably have more context because you are, I don't know if it's a team you're already working on, but it seems like a team you at least know something about. So it's not quite coming in from nowhere."
+  },
+  {
+    "start": 748.068,
+    "end": 767.586,
+    "speaker": "Guest",
+    "text": "But that's also made up by the fact that, or balanced out by the fact that this will be a first kind of management experience thing. Also, the fact that it's a temporary role means you are... I mean, there's a possibility that something changes. Maybe the coworker needs to take a longer leave or they have a kind of a life realization they would like to do something else or whatever."
+  },
+  {
+    "start": 767.936,
+    "end": 771.686,
+    "speaker": "Guest",
+    "text": "But there is an end date here in a way that there isn't in a."
+  },
+  {
+    "start": 772.596,
+    "end": 788.646,
+    "speaker": "Guest",
+    "text": "kind of full-time management role so you do still have a bit of uh kind of have their shadow hanging over your decisions a little bit i feel like i've overemphasized this now too like you shouldn't do nothing you should do stuff you think will make things better but there's probably a ceiling on how how disruptive of a change you want to make"
+  },
+  {
+    "start": 789.236,
+    "end": 799.986,
+    "speaker": "Guest",
+    "text": "If it requires a lot of change on the part of the manager when they come back to deal with the new reality, if you add, I don't know, we're now Kanban instead of Scrum and all our processes"
+  },
+  {
+    "start": 799.986,
+    "end": 800.186,
+    "speaker": "Host",
+    "text": "are yeah"
+  },
+  {
+    "start": 800.186,
+    "end": 815.136,
+    "speaker": "Guest",
+    "text": "totally different. I think this is better, but it's going to be a big ramp up for someone else to deal with it. Probably not worth it. If it's like, hey, you know those alerts we haven't prioritized? I really think we should prioritize them and clean it up and we'll get more time back. That feels like a reasonable change."
+  },
+  {
+    "start": 815.136,
+    "end": 822.392,
+    "speaker": "Host",
+    "text": "yeah so in other words you're looking for optimizations or are efficiency wins, maybe not total disruption."
+  },
+  {
+    "start": 822.742,
+    "end": 828.842,
+    "speaker": "Guest",
+    "text": "Yeah, yeah. And I think I'm going to say this idea out loud and feel whether I agree with it"
+  },
+  {
+    "start": 828.842,
+    "end": 829.142,
+    "speaker": "Host",
+    "text": "or not. Nice."
+  },
+  {
+    "start": 829.142,
+    "end": 846.892,
+    "speaker": "Guest",
+    "text": "I think it'd be useful if you treated it like it was going to be permanent in your future plans where you're there one to two months. Again, that's about the time where you should start saying, here's my strategy or vision for what this team will be like. And here's my, I don't know, 30, 60."
+  },
+  {
+    "start": 846.676,
+    "end": 870.976,
+    "speaker": "Guest",
+    "text": "a 60 90 day plan for things that we will do on this team to do better do more solve these problems i've addressed so i think it's it's probably useful for you to plan around this and think about these problems maybe you can share them with the manager when they come back here's what i've observed and some stuff you maybe want to think about but that's also a very valuable experience for you because you'll have practice thinking that way what will help make this team what are this team's current problems and opportunities and what"
+  },
+  {
+    "start": 871.476,
+    "end": 874.026,
+    "speaker": "Guest",
+    "text": "What will I do about them assuming I'm able to?"
+  },
+  {
+    "start": 874.476,
+    "end": 885.176,
+    "speaker": "Host",
+    "text": "Yeah, I love it. Let's see. What are some of the kind of, I mean, you're going to get a sense for sure in one to two months. What are the things you really can do? Like, should, what should you do?"
+  },
+  {
+    "start": 885.226,
+    "end": 899.856,
+    "speaker": "Guest",
+    "text": "I was trying to think of like specific things that you could actually do, but I think it's going to be so situation dependent that I think you just go in and frankly, you're going to probably feel so deep in the water that you're going to be happy just to kind of like. Feel like you've kept the team from..."
+  },
+  {
+    "start": 900.0,
+    "end": 927.2,
+    "speaker": "Guest",
+    "text": "imploding after two months that you might that might be enough that might be as high as you need to aim yeah that's maybe a useful thing to talk about i think if i or a manager i was working with had to leave for a month or two if someone else stepped in and the team just kind of kept on going successfully without any major disasters i feel like that would be that'd be great good outcome good outcome that's what i'm hoping for if things get much better magical bonus if they implode"
+  },
+  {
+    "start": 927.796,
+    "end": 936.546,
+    "speaker": "Host",
+    "text": "Sounds bad, but I am kind of hoping that there's not a ton of disruption and things just sort of continue in a useful way in the current direction."
+  },
+  {
+    "start": 936.646,
+    "end": 955.996,
+    "speaker": "Guest",
+    "text": "One thing that I think would be very good to do is before your colleague leaves, get a context transfer. Like tell me everything you know about this team. Who are the people you're worried about? What do I need to know about interpersonal dynamics? What projects do you have in flight? Like get everything you possibly can out of that manager."
+  },
+  {
+    "start": 955.956,
+    "end": 971.656,
+    "speaker": "Guest",
+    "text": "manager before they leave and that's actually a really nice benefit that you have in this situation is not only are you going to get a low stakes way to get a sense for how much you like management but also you still have the manager i'm presuming they haven't started the medical leave yet and so a"
+  },
+  {
+    "start": 972.056,
+    "end": 983.106,
+    "speaker": "Guest",
+    "text": "lot of times you're backfilling someone who's already left and so it's like all that context is out the door you that is great. can get some of that from the person this manager reports to it's a different perspective though"
+  },
+  {
+    "start": 983.188,
+    "end": 993.186,
+    "speaker": "Host",
+    "text": "It's useful and you should still do that. Talk to the manager's manager. But getting it directly from the person that worked with them is also great. Yeah. Cool. Have we answered the question?"
+  },
+  {
+    "start": 993.386,
+    "end": 1014.736,
+    "speaker": "Guest",
+    "text": "I think so. Good luck. This is a great opportunity. I would not hesitate to take this. And the only downside I could think of is that something bad happens to your previous position while you're in this new temporary management position that you can't go back to. And now you've actually walked through a one-way door that you thought was a two-way door. And especially if that manager comes back."
+  },
+  {
+    "start": 1015.412,
+    "end": 1040.462,
+    "speaker": "Host",
+    "text": "after two months and they're like okay ready for my old job back and you're like yeah but my old job is gone so now what that's like probably the worst case scenario that I could imagine happening so you might want to get some assurance from the broader organization that you'll be able to return to your old position which I think makes sense I mean I'm assuming you've been at the same company for seven years you promoted staff engineer and you have all the skills you need thanks to this podcast to do everything to make all your wildest dreams come true"
+  },
+  {
+    "start": 1040.462,
+    "end": 1042.812,
+    "speaker": "Guest",
+    "text": "Yep, at work and everywhere else too."
+  },
+  {
+    "start": 1042.932,
+    "end": 1049.232,
+    "speaker": "Host",
+    "text": "Everywhere else, especially in your endeavors to become an astron which we've provided extensive extensive information about"
+  },
+  {
+    "start": 1049.232,
+    "end": 1062.798,
+    "speaker": "Guest",
+    "text": "Yes, my son was having a really rough time going to bed last night. He's three, almost four. He was sobbing inconsolably because I was with him and not my wife. I understand that reaction. I've seen it before."
+  },
+  {
+    "start": 1063.348,
+    "end": 1076.294,
+    "speaker": "Guest",
+    "text": "And the only way I could distract him is he has this little light that shines and projects like stars and the moon and stuff. And I told him, hey, did you know that we sent some people to the moon a couple weeks ago? and then instantly"
+  },
+  {
+    "start": 1076.294,
+    "end": 1076.444,
+    "speaker": "Host",
+    "text": "Whoa."
+  },
+  {
+    "start": 1076.444,
+    "end": 1084.794,
+    "speaker": "Guest",
+    "text": "stop crying was very interested in space so the people yearn for space that's was my takeaway of space parenting"
+  },
+  {
+    "start": 1084.794,
+    "end": 1089.344,
+    "speaker": "Host",
+    "text": "Yes. Son, did you know that in space there are space lawyers?"
+  },
+  {
+    "start": 1091.194,
+    "end": 1107.072,
+    "speaker": "Guest",
+    "text": "Then he really calmed down. He was like, yes. i think he was mostly trying to figure out what we meant and i tried to explain oh the the country and i think he meant like he assumed it was me as personally and some other people and then was and was planning his own trip to space, which sounds"
+  },
+  {
+    "start": 1107.822,
+    "end": 1109.622,
+    "speaker": "Host",
+    "text": "good. Go for it."
+  },
+  {
+    "start": 1109.772,
+    "end": 1111.572,
+    "speaker": "Guest",
+    "text": "We went to space."
+  },
+  {
+    "start": 1111.672,
+    "end": 1112.572,
+    "speaker": "Host",
+    "text": "Wait, you and mom?"
+  },
+  {
+    "start": 1116.622,
+    "end": 1118.022,
+    "speaker": "Host",
+    "text": "Shall I read our next question?"
+  },
+  {
+    "start": 1118.422,
+    "end": 1127.272,
+    "speaker": "Guest",
+    "text": "Yes, answering your question, yes, you should read our next question. That's what I was hoping you would do. And I will state it as an explicit expectation to avoid any ambiguity."
+  },
+  {
+    "start": 1127.472,
+    "end": 1140.708,
+    "speaker": "Host",
+    "text": "great. I'll do it. This is from a listener named Bobby Droptables who asks, I recently came out of a salary negotiation where HR blocked a pay raise because they said I was already the highest paid non-management position dev."
+  },
+  {
+    "start": 1141.158,
+    "end": 1162.684,
+    "speaker": "Host",
+    "text": "While I'm getting paid well for the market, I wouldn't say it's a ridiculous amount. HR said they wanted a fairly flat salary range across the organization with pay differences being dealt with via performance bonuses. On paper, this sounds good for most departments, sales, engineering, etc. But I'm really struggling to figure out what metrics management could use to assess the software team."
+  },
+  {
+    "start": 1162.984,
+    "end": 1174.684,
+    "speaker": "Host",
+    "text": "It feels like any metric that could be dreamt up could would be gamed and would likely have negative consequences. Have you ever come across any decent metrics or methods for assessing software performance when it comes to performance bonuses,"
+  },
+  {
+    "start": 1174.834,
+    "end": 1193.168,
+    "speaker": "Host",
+    "text": "especially when the team lead might not have a say in who gets what or how much? Ooh. Oh, HR blocked it. Painful. And what a slick move. No, no, no. We can't give you a raise, but we've solved your problem by just saying, don't worry, perform well and you'll get a bonus."
+  },
+  {
+    "start": 1193.768,
+    "end": 1199.968,
+    "speaker": "Guest",
+    "text": "Yeah, don't worry. You'll get a bonus that is totally variable, up to our discretion, and we'll all..."
+  },
+  {
+    "start": 1200.0,
+    "end": 1203.85,
+    "speaker": "Host",
+    "text": "Almost definitely depend on factors way beyond your control, just like this pay raise."
+  },
+  {
+    "start": 1203.95,
+    "end": 1230.316,
+    "speaker": "Guest",
+    "text": "Yeah, this is such a tricky problem. I work closer with salespeople than I have in other jobs. And it's such a vastly different world measuring performance and impact with sales versus engineering. There's a lot of soft skills and a lot of kind of helping each other out. But at the end of the day, there is just a number you look at and say how what. What is number? Number good? have some money"
+  },
+  {
+    "start": 1230.516,
+    "end": 1258.216,
+    "speaker": "Guest",
+    "text": "and we're not good have less money and it's so different in software and design and product where the the impact on revenue is so indirect and it's susceptible to narrative and vibes and personality clashes and i don't think anyone has solved this well ever so preface no i have not come across any decent ideas"
+  },
+  {
+    "start": 1258.068,
+    "end": 1258.418,
+    "speaker": "Host",
+    "text": "To metrics."
+  },
+  {
+    "start": 1260.368,
+    "end": 1269.518,
+    "speaker": "Guest",
+    "text": "I remember craving a nice concrete metric or set of metrics that I could use to demonstrate my performance to my very first employer."
+  },
+  {
+    "start": 1269.668,
+    "end": 1285.768,
+    "speaker": "Guest",
+    "text": "I even sat down with the department manager and just said, hey, how do we do this? And I was naive enough to think back then that this person sitting across the table from me would have any idea how to measure engineering performance and be able to like objectively assess."
+  },
+  {
+    "start": 1285.94,
+    "end": 1312.39,
+    "speaker": "Guest",
+    "text": "a team of engineers and say you get big number you get small number more money to you less money to you and that was a 25 years ago 20 let's see 23 years ago and now I sit on that same side of the table as that department manager and I think to myself yep we we figure out engineering performance through qualitative assessment and subjective narrative subjective narrative based evaluation yep"
+  },
+  {
+    "start": 1312.82,
+    "end": 1324.07,
+    "speaker": "Host",
+    "text": "That's the state of the art, unfortunately. Yeah, I've looked into this and I've been around a couple attempts at it and there are some products that attempt to measure sort of engineering health."
+  },
+  {
+    "start": 1324.32,
+    "end": 1341.56,
+    "speaker": "Guest",
+    "text": "I think there's this wide distrust among individual contributors of being measured on some kind of dashboard because they feel like it will be used to crank the screws tighter and exactly what you described of motivating non-optimal. behavior in order to make the numbers go up"
+  },
+  {
+    "start": 1341.56,
+    "end": 1342.11,
+    "speaker": "Host",
+    "text": "Mm -hmm."
+  },
+  {
+    "start": 1342.11,
+    "end": 1352.71,
+    "speaker": "Guest",
+    "text": "these products are all very they use coded or or slightly disguised language to to describe it but they're often dashboards of"
+  },
+  {
+    "start": 1353.46,
+    "end": 1376.61,
+    "speaker": "Guest",
+    "text": "lines of code or number of pull requests or like various things measuring concrete activity even then that's not really tied directly to output of revenue you could make a bunch of crappy PRs you could ship a bunch of code especially with LLMs now there's some places making kind of token leaderboards or or how many tokens do you use"
+  },
+  {
+    "start": 1376.71,
+    "end": 1395.626,
+    "speaker": "Host",
+    "text": "Yes, I was just thinking like that is the 2026. engineering measure and and listen don't don't underestimate manage some managers deep deep desire to rank their team members along a quote objective metric and do not be surprised if that objective metric for this year is token consumption"
+  },
+  {
+    "start": 1395.976,
+    "end": 1418.602,
+    "speaker": "Guest",
+    "text": "Yeah, I've heard that metric used as a, I haven't seen it used as a performance measure, but more of a how much are you adopting AI coding for places that are trying to push it on large orgs. And it makes sense as a very blunt instrument. I mean, if you have 10,000 engineers, you give inspirational speeches at all hands, but like"
+  },
+  {
+    "start": 1418.652,
+    "end": 1439.202,
+    "speaker": "Guest",
+    "text": "you can't have nuanced discussions with all of them and there are going to be some detractors who just hate it enough and you smash it all with the put token number on a dashboard hammer and hopefully that smashes your team slightly closer to the outcomes you want despite all the negative things it encourages. But there are the Dora metrics,"
+  },
+  {
+    "start": 1439.452,
+    "end": 1442.452,
+    "speaker": "Host",
+    "text": "there's the DevOps research, what does the A stand for?"
+  },
+  {
+    "start": 1442.772,
+    "end": 1445.072,
+    "speaker": "Guest",
+    "text": "Awesome. Agency. Assessment."
+  },
+  {
+    "start": 1445.072,
+    "end": 1463.922,
+    "speaker": "Host",
+    "text": "or uh it stands for anything you need to make this number go up devops research and assessment wait it actually stands for assessment it does yeah it's like a survey that um it again is somewhat qualitative but they try to do the stats thing where they say what if we"
+  },
+  {
+    "start": 1464.66,
+    "end": 1484.31,
+    "speaker": "Guest",
+    "text": "count the number of stories that people tell about each other and turn those into numbers but they have lots of phd's working on it that are smarter than i am so they've come up with some metrics that they say correlate with high performing software teams but they're at the team level it's like frequency of deploy and change failure rate and"
+  },
+  {
+    "start": 1484.51,
+    "end": 1500.1,
+    "speaker": "Guest",
+    "text": "Oh yeah, and that's where measurement I think works really great. I love some of those metrics at the team level. like what is our team median cycle time for like from start of development to production deploy you know it's like these are great numbers to keep track of but at an individual level there's so much variation Yeah,"
+  },
+  {
+    "start": 1500.2,
+    "end": 1508.9,
+    "speaker": "Guest",
+    "text": "that if you make a leaderboard of that, like, I don't, I don't know, maybe with enough samples. I don't know. What is Dave's deployment frequency?"
+  },
+  {
+    "start": 1510.35,
+    "end": 1515.65,
+    "speaker": "Host",
+    "text": "Like, what does that even mean? Only once so far, you've been deployed to Earth one time."
+  },
+  {
+    "start": 1520.82,
+    "end": 1535.47,
+    "speaker": "Guest",
+    "text": "It's trending poorly. The number is getting lower. Yeah, and we're kind of harping on these numbers, but you know what? This is the dilemma you find yourself in. You work for a company where HR has the ultimate say over what your pay will be,"
+  },
+  {
+    "start": 1535.57,
+    "end": 1548.27,
+    "speaker": "Guest",
+    "text": "and HR does not understand enough about engineering to assess engineering performance talent. And so what do they do? Well, they typically will depend on what managers say, and Jameson, I know, has..."
+  },
+  {
+    "start": 1548.052,
+    "end": 1560.652,
+    "speaker": "Guest",
+    "text": "Joe has been in meetings where a bunch of managers are sitting around, probably governed by an HR or finance person, and they're basically trying to rank their team members against each other to get more of the pie for their team. That's very common."
+  },
+  {
+    "start": 1561.14,
+    "end": 1573.39,
+    "speaker": "Host",
+    "text": "Yeah. And so just imagine an HR person who's just kind of listening and is essentially persuaded by whoever makes the best case in that room for their team members. And that's going to come down to storytelling."
+  },
+  {
+    "start": 1573.74,
+    "end": 1589.44,
+    "speaker": "Guest",
+    "text": "Yeah. I'm thinking back to those meetings. I don't miss them. They're tough. It's just, it's hard to allocate scarce resources with a group of people and surprise, surprise. It's yeah, it's painful sometimes. There are cases where it's very clear and there's"
+  },
+  {
+    "start": 1589.364,
+    "end": 1610.264,
+    "speaker": "Guest",
+    "text": "there's even consensus among the group like oh yeah this person is obviously great and it is related to their work if you just do awesome work that's well that's that's visible then that has impacts on the company but also it it creates stories and those stories are shared so"
+  },
+  {
+    "start": 1610.9,
+    "end": 1622.4,
+    "speaker": "Guest",
+    "text": "I think your best bet is kind of the same as if you're going for a promotion or going for a raise. Like if you are visibly awesome and lots of people agree, the story numbers will look good."
+  },
+  {
+    "start": 1622.45,
+    "end": 1634.35,
+    "speaker": "Host",
+    "text": "I think it is interesting that HR is saying, no, we'll do performance bonuses, but they don't have targets. I didn't see that in the question. That is pretty vague and it just sounds like no with extra steps."
+  },
+  {
+    "start": 1637.524,
+    "end": 1642.724,
+    "speaker": "Guest",
+    "text": "that's exactly what it sounds like no extra steps oh man yes"
+  },
+  {
+    "start": 1642.724,
+    "end": 1663.974,
+    "speaker": "Host",
+    "text": "it's a no but they don't have to tell you no until later and later is someone else's problem um i have seen performance bonuses but it's tied to like the company's performance or the department's performance and that kind of feels like you sort of throw up your hands and say man i don't know how we attribute like"
+  },
+  {
+    "start": 1664.34,
+    "end": 1687.04,
+    "speaker": "Host",
+    "text": "We'll vaguely count on leveling because often it's a percentage of your base salary or the percentage goes up as you get promoted. So we'll count on that to sort of allocate the funds. But beyond that, it's so hard to decide individually. I wish it weren't. I wish there were an answer here. I have used metrics about individuals when I have very specific concerns."
+  },
+  {
+    "start": 1688.084,
+    "end": 1712.984,
+    "speaker": "Host",
+    "text": "if i have seen what feels like low productivity i will go check and say am i correct are they if i just look at the numbers that you don't use to judge someone regularly but like i don't know it feels my this the story i'm feeling is low productivity does that seem accurate if i just count up tickets or prs or i don't know uh pr reviews or whatever numbers we have available"
+  },
+  {
+    "start": 1712.984,
+    "end": 1716.334,
+    "speaker": "Guest",
+    "text": "Yeah. Number of characters typed into PR comment."
+  },
+  {
+    "start": 1716.308,
+    "end": 1733.358,
+    "speaker": "Host",
+    "text": "comments yeah yeah how many thumbs up you gave the ceo's social media post or whatever but that's more after something else has already tripped me and less as a continuous thing because people are shaped differently as well there's some people who"
+  },
+  {
+    "start": 1734.292,
+    "end": 1748.542,
+    "speaker": "Host",
+    "text": "Do a lot of glue work that helps the whole team and maybe their individual metrics are a little bit lower than someone at their level because they're pairing a lot, they're having a lot of conversations, or there's the cowboy coder who cranks out a ton of stuff and it's broken all the time."
+  },
+  {
+    "start": 1749.556,
+    "end": 1753.956,
+    "speaker": "Guest",
+    "text": "I'm struggling to have a different answer besides this is hopeless, but I wish it weren't."
+  },
+  {
+    "start": 1754.406,
+    "end": 1777.256,
+    "speaker": "Host",
+    "text": "Well, it probably is hopeless. And let me just explain why I think that's the case. I've worked for a company that had exactly this arrangement, a flat salary range with pay differences via performance bonuses. But in my case, the performance bonuses were stock. And so basically there was a cap on pay up to a certain amount. No one made more than that as a base salary. And then the stock."
+  },
+  {
+    "start": 1777.3,
+    "end": 1799.95,
+    "speaker": "Host",
+    "text": "stock that you were given each year varied wildly from person to person you know where someone could be making two three x what someone else was making and this was that company's strategy for managing this and i would be willing to bet a nickel that your company has heard about that company and is adopting this this same strategy and so there's probably not much you can do to fight against this other than"
+  },
+  {
+    "start": 1800.0,
+    "end": 1818.95,
+    "speaker": "Host",
+    "text": "And make sure your manager is armed with really great narratives about you so that when they're in the room fighting for this bonus money, they have at the ready cool stories they can tell that makes an HR person go, yes, that's someone we want to retain and pay well. And the more people that agree with the story or have heard the story besides"
+  },
+  {
+    "start": 1819.3,
+    "end": 1834.692,
+    "speaker": "Host",
+    "text": "your manager, the better too. If another manager of another team says, oh yeah, that really was awesome because it helped my team or I don't know. I don't know like exactly it's not it's not at least the ones I've been aren't purely just backstabbing vicious battling like"
+  },
+  {
+    "start": 1834.692,
+    "end": 1835.992,
+    "speaker": "Guest",
+    "text": "No, no, no, no, no."
+  },
+  {
+    "start": 1835.992,
+    "end": 1848.592,
+    "speaker": "Host",
+    "text": "there is some disagreement in competition but we are I mean we work together and we like each other generally so there are there are a few people where it's pretty easy everyone just says oh yeah obviously person x"
+  },
+  {
+    "start": 1849.042,
+    "end": 1858.494,
+    "speaker": "Guest",
+    "text": "Exactly. And I think the takeaway here is you thought you were in the software engineering business. But actually, you are a bard and you are in the lore business."
+  },
+  {
+    "start": 1858.644,
+    "end": 1859.294,
+    "speaker": "Host",
+    "text": "What do you mean?"
+  },
+  {
+    "start": 1859.294,
+    "end": 1865.194,
+    "speaker": "Guest",
+    "text": "Your job is to collect and tell really great stories about yourself and then let other people do that as well."
+  },
+  {
+    "start": 1865.194,
+    "end": 1873.944,
+    "speaker": "Host",
+    "text": "Oh, I thought you meant like cast vicious laughter or play the lute in a way that casts spells on people."
+  },
+  {
+    "start": 1875.348,
+    "end": 1884.648,
+    "speaker": "Guest",
+    "text": "that's like a little bit more of a fantastical bard i'm not actually a really jameson's the expert on fantasy i just dabble and so i may have used some of the wrong words but i i like nowadays"
+  },
+  {
+    "start": 1884.898,
+    "end": 1901.598,
+    "speaker": "Guest",
+    "text": "the gen z folks are all using the term lore about cool things that happen in their life like my uh i have a teenage nephew and he came home comes home from school sometimes and tells his mom mom new lore dropped today i just think it's a great way to look at life"
+  },
+  {
+    "start": 1901.598,
+    "end": 1912.66,
+    "speaker": "Host",
+    "text": "yeah. Yeah, but that's your job with your career. I feel like we mentioned this a lot, but we couldn't talk about this without mentioning Goodheart's law, where when a measure becomes a target, it ceases to become an effective measure."
+  },
+  {
+    "start": 1912.96,
+    "end": 1940.06,
+    "speaker": "Host",
+    "text": "I think that's sort of the underlying premise behind the hopelessness we feel about effectively motivating excellent performance with performance metrics is you can make a number go up and do the wrong thing. very easily it doesn't mean metrics are useless but they're much better for looking at what happened than telling people what to do i"
+  },
+  {
+    "start": 1940.71,
+    "end": 1951.96,
+    "speaker": "Host",
+    "text": "don't know there's probably this makes me want to go like talk to a robot about software engineering research because there is a bunch of research about it it's been a while since i've looked into new stuff but"
+  },
+  {
+    "start": 1951.96,
+    "end": 1955.31,
+    "speaker": "Guest",
+    "text": "maybe we should have thought of that before we recorded this podcast."
+  },
+  {
+    "start": 1956.01,
+    "end": 1959.594,
+    "speaker": "Host",
+    "text": "probably that would have required Some prep."
+  },
+  {
+    "start": 1959.794,
+    "end": 1965.244,
+    "speaker": "Guest",
+    "text": "I don't do any of that. The prep is my life. I live my life so"
+  },
+  {
+    "start": 1965.244,
+    "end": 1965.794,
+    "speaker": "Host",
+    "text": "That's right."
+  },
+  {
+    "start": 1965.794,
+    "end": 1967.094,
+    "speaker": "Guest",
+    "text": "that I'm always ready to do the podcast."
+  },
+  {
+    "start": 1967.094,
+    "end": 1967.594,
+    "speaker": "Host",
+    "text": "That's right."
+  },
+  {
+    "start": 1967.594,
+    "end": 1976.844,
+    "speaker": "Guest",
+    "text": "And at any moment when I say I should have done this before the podcast, I'm actually wrong because I already prepared as much as is best for the podcast."
+  },
+  {
+    "start": 1976.844,
+    "end": 1986.876,
+    "speaker": "Host",
+    "text": "That's right. Wait, I'll bet our listeners don't know this, but we don't even schedule this every week. We just randomly have an alarm that goes off and it's like, here, go, two questions, run."
+  },
+  {
+    "start": 1987.226,
+    "end": 1991.976,
+    "speaker": "Guest",
+    "text": "And you have to drop everything and record wherever you are, whatever time of day it is."
+  },
+  {
+    "start": 1991.976,
+    "end": 1996.52,
+    "speaker": "Host",
+    "text": "yeah it's like the pager duty alert Ah, crap. Podcast. Now."
+  },
+  {
+    "start": 1998.67,
+    "end": 2023.966,
+    "speaker": "Guest",
+    "text": "If you know stuff about this or if you've seen good software performance metrics, I would be interested. I think the one place I've evolved at this is from... They're literally always bad. And how could you be so stupid as to tell anyone, we need your number of commits to go up to it's possible, it's really hard to communicate nuance to very large orgs. And it's possible that"
+  },
+  {
+    "start": 2024.596,
+    "end": 2041.296,
+    "speaker": "Guest",
+    "text": "It could be a good trade-off for part of the time in some cases to say, make this number move this way for your individual productivity metrics. Better that we can afford to do it and the impact will be positive overall, even if it's going to cause some weird stuff."
+  },
+  {
+    "start": 2041.396,
+    "end": 2051.646,
+    "speaker": "Guest",
+    "text": "But I still think you can never just build a dashboard and put everyone on the dashboard and see the accurate stack ranking of people yet. All right. Have we answered the question?"
+  },
+  {
+    "start": 2052.244,
+    "end": 2056.844,
+    "speaker": "Host",
+    "text": "The answer better be yes, because I have no more to say about it. I think the answer is yes."
+  },
+  {
+    "start": 2059.794,
+    "end": 2062.694,
+    "speaker": "Guest",
+    "text": "That's all your life prepared you to say, which means it's the best."
+  },
+  {
+    "start": 2063.668,
+    "end": 2066.968,
+    "speaker": "Host",
+    "text": "Yes. What can people do if they want their own questions answered?"
+  },
+  {
+    "start": 2066.968,
+    "end": 2079.268,
+    "speaker": "Guest",
+    "text": "The answer to that question is go to softskills.audio and click the ask a question button. And if in that form you write a question which is where should people go to answer their to get their questions answered on the podcast, it will self-destruct."
+  },
+  {
+    "start": 2082.548,
+    "end": 2096.248,
+    "speaker": "Host",
+    "text": "Did you know you can stack overflow a Google form? With the right, you would have thought that they would have fixed that already. Nope. Turns out it's all, it's all recursion. All right. Thank you for listening. We will catch you next week."
+  }
+]
