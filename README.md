@@ -112,6 +112,30 @@ python3 -u scripts/multivoice_robust.py \
 
 ---
 
+## 🖼️ 单集封面图约定
+
+**每一集都要单独生成一张封面图**，不要直接复用系列封面 `assets/cover.png`。
+
+规则：
+
+1. 文件名 `docs/assets/<slug>.jpg`（或 `<slug>-v2.jpg` 如有修订版）
+2. 尺寸 1400×1400（iTunes 最低要求 1400×1400，最大 3000×3000）
+3. 来源优先级：YouTube 缩略图 `https://i.ytimg.com/vi/<VIDEO_ID>/maxresdefault.jpg` → ffmpeg 处理成方图
+4. RSS 里把该集的 `<itunes:image href="..."/>` 指向单集封面，不要用全站 cover
+
+ YouTube 缩略图（16:9）转方图标准命令（高斯模糊背景 + 原图居中）：
+
+```bash
+curl -sL -o /tmp/yt.jpg "https://i.ytimg.com/vi/<VIDEO_ID>/maxresdefault.jpg"
+ffmpeg -y -i /tmp/yt.jpg \
+  -filter_complex "[0:v]scale=1400:1400:force_original_aspect_ratio=increase,crop=1400:1400,gblur=sigma=30[bg];[0:v]scale=1400:-1[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2" \
+  -q:v 2 docs/assets/<slug>.jpg
+```
+
+如果 YouTube 缩略图拿不到（`maxresdefault` 偶尔 404），降级到 `hqdefault.jpg`。也可以用 AI 生图工具自己造一张。
+
+---
+
 ## 📝 RSS `<podcast:transcript>` 约定
 
 给每一集在 `docs/rss.xml` 里写 transcript 标签时，遵以下规矩（Overcast 等只取第一个的 app 只会拿到顶部那一条）：
