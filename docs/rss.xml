@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Mon, 04 May 2026 17:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 19:30:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,43 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>Jensen Huang × Dwarkesh · Nvidia 的供应链护城河、TPU 竞争与卖芯片给中国（修订版 · 官方说话人标注）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">dwarkesh-jensen-huang-2026-v2</guid>
+      <pubDate>Tue, 05 May 2026 19:30:00 +0800</pubDate>
+      <description>同一集的修订版：用 Dwarkesh 官网带说话人标签的官方 transcript 重新对齐 Host/Guest，修掉初版里 LLM 把开篇问题误判成 Jensen 等错误。其余流程保持一致：Copilot GPT-5.4 翻译，edge-tts 双男声（云希 + 云扬），scheme B 字幕。内容/翻译质量较初版整体有提升，逐字时间戳与原音频对齐更精准。</description>
+      <content:encoded><![CDATA[
+        <h3>修订说明</h3>
+        <p>初版（2026-05-04 发布）使用 Copilot GPT-5.4 根据对话内容把每段判定 Host 还是 Guest，但因为 YouTube 字幕按时间切而不按说话人切，部分跨说话人边界的段落被整段误判，最显眼的是开篇问 Nvidia 护城河那一段——明显是 Dwarkesh，却被标成 Jensen。</p>
+        <p>本版改用 Dwarkesh 官网（dwarkesh.com/p/jensen-huang）发布的带说话人标签的官方 transcript：抓全文 → 拆成 (Dwarkesh / Jensen) × (paragraph) 的 181 轮 → 用 token-stream 对齐还原每一轮在原音频里的起止时间 → 据此重建 dialog_en.json，顺带把 sponsor reads 也对齐过滤掉。最终 91 Host / 90 Guest，开篇正确归 Dwarkesh，全集 100% 官方覆盖。</p>
+        <h3>中文摘要</h3>
+        <p>Dwarkesh Patel 与 Jensen Huang 1 小时 43 分钟长谈，几乎全程围绕一个问题：Nvidia 的真正护城河到底在哪里？</p>
+        <ul>
+          <li>真正的护城河不是 CUDA，而是 Nvidia 对台积电、HBM、CoWoS 这条已经极端瓶颈化的先进半导体供应链的整合能力——别的对手就算芯片设计追上，也很难拿到产能</li>
+          <li>TPU 已经是 Anthropic 的主力算力来源；Jensen 承认「他们大部分推理跑在 TPU 上」，但坚持 Nvidia 平台的可编程性和泛化性是 ASIC 替代不了的</li>
+          <li>关于卖 AI 芯片给中国：Jensen 的立场是「让中国的 AI 跑在美国的栈上」对长期更有利，封锁只会逼出本土替代</li>
+          <li>Nvidia 不做 hyperscaler，是因为「能不做的事就不做」——CUDA、向量库、机器人这些没人愿意做的他才下场，云已经很多人在做了</li>
+          <li>Jensen 自陈最大遗憾：没更早大额投资 Anthropic。当时根本没意识到 VC 撑不起一家 AI lab，Google 那种体量的现金支持是必须的</li>
+        </ul>
+        <p><small>原始来源：<a href="https://www.dwarkesh.com/p/jensen-huang">Dwarkesh Podcast</a> · <a href="https://youtu.be/Hrbq66XqtCo">YouTube</a>。修订版改动：用官网带说话人标签的 transcript 重新对齐 Host/Guest（替换 LLM 判定），并据此重新跑翻译与 TTS。</small></p>
+      ]]></content:encoded>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.14.0-dwarkesh-jensen-huang-2026-v2/podcast_zh.mp3" length="33355172" type="audio/mpeg"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/dwarkesh-jensen-huang-2026-v2/zh.vtt" type="text/vtt" language="zh" rel="captions"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/dwarkesh-jensen-huang-2026-v2/bilingual.vtt" type="text/vtt" language="zh" rel="captions"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/dwarkesh-jensen-huang-2026-v2/zh.srt" type="application/srt" language="zh"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/dwarkesh-jensen-huang-2026-v2/bilingual.srt" type="application/srt" language="zh"/>
+      <category>Technology</category>
+      <category>Business</category>
+      <itunes:author>Podcast Lab</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/cover.png"/>
+      <itunes:duration>01:33:37</itunes:duration>
+      <itunes:summary>Dwarkesh × Jensen Huang 修订版：改用 Dwarkesh 官网官方 transcript 重新对齐说话人。</itunes:summary>
+      <itunes:subtitle>修订版 · 官方说话人标注 · TPU 竞争 · 卖芯片给中国</itunes:subtitle>
+    </item>
 
     <item>
       <title>This Coding Tool Kills AI Code Slop（治 AI 代码肇邋的工具）</title>
