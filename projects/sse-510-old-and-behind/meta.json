@@ -1,0 +1,12 @@
+{
+  "show": "Soft Skills Engineering #510",
+  "host": "Dave Smith — 开场白、念赞助、读问题信件多由他主导",
+  "guest": "Jameson Dance — 常笑场、抛回应、做总结",
+  "voices": {
+    "Host": "zh-CN-YunxiNeural",
+    "Guest": "zh-CN-YunyangNeural"
+  },
+  "chapters": {
+    "rules": "sse"
+  }
+}

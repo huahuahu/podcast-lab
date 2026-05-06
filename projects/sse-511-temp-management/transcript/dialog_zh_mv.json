@@ -1,7 +1,7 @@
 {
   "voices": {
-    "Host": "zh-CN-YunxiNeural",
-    "Guest": "zh-CN-YunyangNeural"
+    "Guest": "zh-CN-YunyangNeural",
+    "Host": "zh-CN-YunxiNeural"
   },
   "pause_ms": 350,
   "lines": [

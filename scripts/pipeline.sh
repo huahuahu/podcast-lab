@@ -128,7 +128,8 @@ if [ ! -f "$PROJ/audio/podcast_zh.mp3" ]; then
   python3 -u "$REPO/scripts/multivoice_robust.py" \
     "$PROJ/transcript/dialog_zh_mv.json" \
     -o "$PROJ/audio/podcast_zh.mp3" \
-    --cache-dir "$PROJ/audio/tts_cache"
+    --cache-dir "$PROJ/audio/tts_cache" \
+    --timings "$PROJ/transcript/timings.json"
 else
   echo "✓ 4/4 podcast_zh.mp3 exists, skipping"
 fi
@@ -136,6 +137,17 @@ fi
 echo ""
 echo "✅ Done! Final podcast:"
 echo "   $PROJ/audio/podcast_zh.mp3"
+
+# ─── 5. ID3 chapters（可选）─────────────────────────
+ADD_CHAPTERS="${ADD_CHAPTERS:-1}"
+CHAPTERS_SENTINEL="$PROJ/audio/.chapters-added"
+if [ "$ADD_CHAPTERS" = "1" ] && [ -f "$PROJ/transcript/timings.json" ] && [ ! -f "$CHAPTERS_SENTINEL" ]; then
+  echo "📑 5/5 Adding ID3 chapters..."
+  python3 -u "$REPO/scripts/add_chapters.py" "$PROJ" && touch "$CHAPTERS_SENTINEL" || echo "⚠️  add_chapters 失败，忽略"
+else
+  echo "✓ 5/5 chapters added (or disabled), skipping"
+fi
+
 echo ""
 echo "👉 发布到 GitHub Release（mp3 >50MB 时推荐）:"
 echo "   gh release create v0.1.0-$SLUG --repo huahuahu/podcast-lab \\"

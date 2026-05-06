@@ -110,6 +110,8 @@ async def main():
     ap.add_argument("-o", "--output", default="output.mp3")
     ap.add_argument("--cache-dir", default=None,
                     help="把每句 mp3 存在这里，支持断点续传")
+    ap.add_argument("--timings", default=None,
+                    help="把每行 {idx,speaker,start_ms,end_ms} 写到这个 JSON")
     args = ap.parse_args()
 
     lines, voices, pause_ms = load_dialogue(args.dialogue)
@@ -126,7 +128,18 @@ async def main():
     if not silence_path.exists():
         make_silence(pause_ms, silence_path)
 
+    def probe_ms(p):
+        r = subprocess.run(
+            ["ffprobe", "-v", "quiet", "-show_entries", "format=duration",
+             "-of", "csv=p=0", str(p)],
+            capture_output=True, text=True, check=True,
+        )
+        return int(round(float(r.stdout.strip()) * 1000))
+
     parts = []
+    timings = []
+    cur_ms = 0
+    pause_actual = probe_ms(silence_path)
     for i, line in enumerate(lines):
         speaker = line["speaker"]
         text = line["text"]
@@ -140,9 +153,22 @@ async def main():
             print(f"  [{i+1:03d}/{len(lines)}] {speaker:6s} ({voice}) → {preview}...", flush=True)
             await synth_with_retry(text, voice, out)
 
+        line_ms = probe_ms(out)
+        timings.append({
+            "idx": i, "speaker": speaker,
+            "start_ms": cur_ms, "end_ms": cur_ms + line_ms,
+            "text": text,
+        })
+        cur_ms += line_ms
+
         parts.append(out)
         if i < len(lines) - 1:
             parts.append(silence_path)
+            cur_ms += pause_actual
+
+    if args.timings:
+        json.dump(timings, open(args.timings, "w"), ensure_ascii=False, indent=2)
+        print(f"⏱  timings → {args.timings}", flush=True)
 
     print(f"🔗 concat {len(parts)} segments → {args.output}", flush=True)
     concat_mp3s(parts, Path(args.output))
