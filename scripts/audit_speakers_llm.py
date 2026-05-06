@@ -20,6 +20,8 @@
 - <project_dir>/transcript/.speakers-audited      （sentinel，pipeline 跳过用）
 """
 import argparse, json, os, shutil, sys, urllib.request
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import _config
 
 ENDPOINT = "https://api.githubcopilot.com/chat/completions"
 HEADERS = {
@@ -94,13 +96,14 @@ def main():
     out = os.path.join(proj, "transcript", "audit_report.json")
     sentinel = os.path.join(proj, "transcript", ".speakers-audited")
     bak = os.path.join(proj, "transcript", "dialog_zh.pre-audit.bak.json")
-    meta_path = os.path.join(proj, "meta.json")
 
     if not os.path.exists(src):
         print(f"❌ 缺少 {src}", file=sys.stderr)
         sys.exit(1)
 
-    meta = json.load(open(meta_path)) if os.path.exists(meta_path) else {}
+    meta = _config.resolve(proj)
+    if meta.get("_series"):
+        print(f"📋 series cfg: {meta['_series']}")
     sys_p = build_sys(meta)
 
     d = json.load(open(src))

@@ -9,6 +9,8 @@
   }
 """
 import json, os, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import _config
 
 src_path = sys.argv[1]
 out_path = sys.argv[2]
@@ -29,18 +31,13 @@ VOICE_MAP = {
 }
 DEFAULT_VOICE = "zh-CN-XiaoyiNeural"
 
-# 找同级 project meta.json: <proj>/transcript/dialog_zh.json -> <proj>/meta.json
+# 找同级 project 目录: <proj>/transcript/dialog_zh.json -> <proj>/
 proj_dir = os.path.dirname(os.path.dirname(os.path.abspath(src_path)))
-meta_path = os.path.join(proj_dir, "meta.json")
-override = {}
-if os.path.exists(meta_path):
-    try:
-        meta = json.load(open(meta_path))
-        override = (meta.get("voices") or {})
-        if override:
-            print(f"📋 meta.json voices override: {override}")
-    except Exception as e:
-        print(f"⚠️  meta.json 读失败: {e}")
+cfg = _config.resolve(proj_dir)
+override = (cfg.get("voices") or {})
+if override:
+    src_label = cfg.get("_series", "meta.json")
+    print(f"📋 voices override [{src_label}]: {override}")
 
 speakers_seen = {t["speaker"] for t in src if t.get("text")}
 voices = {sp: override.get(sp, VOICE_MAP.get(sp, DEFAULT_VOICE)) for sp in speakers_seen}

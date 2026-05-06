@@ -20,6 +20,8 @@
 - <proj>/transcript/chapters.json （审阅用）
 """
 import argparse, json, os, re, shutil, subprocess, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import _config
 
 def detect_sse(timings, dialog):
     """SSE 专用：找 Q1/Q2 信件正文起点。
@@ -100,7 +102,6 @@ def main():
     mp3 = os.path.join(proj, "audio", "podcast_zh.mp3")
     timings_path = os.path.join(proj, "transcript", "timings.json")
     chapters_path = os.path.join(proj, "transcript", "chapters.json")
-    meta_path = os.path.join(proj, "meta.json")
     bak = os.path.join(proj, "audio", "podcast_zh.nochapters.bak.mp3")
 
     if not os.path.exists(mp3) or not os.path.exists(timings_path):
@@ -108,8 +109,10 @@ def main():
         sys.exit(1)
 
     timings = json.load(open(timings_path))
-    meta = json.load(open(meta_path)) if os.path.exists(meta_path) else {}
-    rules = args.rules or (meta.get("chapters") or {}).get("rules")
+    cfg = _config.resolve(proj)
+    rules = args.rules or (cfg.get("chapters") or {}).get("rules")
+    if cfg.get("_series") and not args.rules:
+        print(f"📋 series cfg: {cfg['_series']}, rules={rules}")
 
     # 自动判定：slug 含 sse → sse 规则
     if rules is None:
