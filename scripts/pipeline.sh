@@ -105,6 +105,20 @@ else
   echo "✓ 3/4 dialog_zh.json complete, skipping"
 fi
 
+# ─── 3.5 LLM 二次校验 speaker（FLIP 自动修正）─────────────
+# 在翻译后、TTS 前，让 GPT-5.4 用对话上下文复查 Host/Guest 标注。
+# 给 LLM 强制三态输出 OK / FLIP / UNSURE，FLIP 自动写回 dialog_zh.json
+# （原版备份成 dialog_zh.pre-audit.bak.json）。
+# 设置 AUDIT_SPEAKERS=0 跳过；可选 projects/<slug>/meta.json 提供节目背景。
+AUDIT_SPEAKERS="${AUDIT_SPEAKERS:-1}"
+AUDIT_SENTINEL="$PROJ/transcript/.speakers-audited"
+if [ "$AUDIT_SPEAKERS" = "1" ] && [ ! -f "$AUDIT_SENTINEL" ]; then
+  echo "🔍 3.5/4 LLM audit speakers..."
+  python3 -u "$REPO/scripts/audit_speakers_llm.py" "$PROJ"
+else
+  echo "✓ 3.5/4 speaker audit done (or disabled), skipping"
+fi
+
 # ─── 4. TTS 合成 ───────────────────────────────────────────
 if [ ! -f "$PROJ/audio/podcast_zh.mp3" ]; then
   echo "🎙 4/4 Synthesizing Chinese podcast audio..."
