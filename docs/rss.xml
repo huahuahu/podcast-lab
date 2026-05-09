@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Sat, 09 May 2026 23:10:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 23:50:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,21 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>米尔斯海默：特朗普在伊朗战争里找不到下台阶</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">mearsheimer-iran-trump-no-offramp</guid>
+      <pubDate>Sat, 09 May 2026 23:50:00 +0800</pubDate>
+      <description>Rachel Blevins 对话芝加哥大学米尔斯海默教授：伊朗为何不让步、霍尔木兹海峡、特朗普访华前的中东僵局。中文 AI 配音版（Azure STT + GPT 翻译 + edge-tts），原片 31 分钟。</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.18.0-mearsheimer-iran-trump-no-offramp/podcast_zh.mp3" length="9868196" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/mearsheimer-iran-trump-no-offramp.png"/>
+      <category>News</category>
+      <itunes:author>Rachel Blevins × John Mearsheimer</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>27:58</itunes:duration>
+    </item>
 
     <item>
       <title>APRD 财富智慧课二 · 系统化投资构筑终身养老财富</title>
