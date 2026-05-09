@@ -10,9 +10,12 @@ RSS_URL="${2:-https://huahuahu.github.io/podcast-lab/rss.xml}"
 echo "⏳ 等 GitHub Pages 部署 + RSS 出现 slug=$SLUG ..."
 deadline=$(( $(date +%s) + 120 ))
 found=0
+pat="<guid[^>]*>$SLUG</guid>"
 while [ "$(date +%s)" -lt "$deadline" ]; do
   body=$(curl -fsSL --max-time 10 "$RSS_URL" 2>/dev/null || echo "")
-  if echo "$body" | grep -q "<guid[^>]*>$SLUG</guid>"; then
+  # 注意：grep -q + 大字符串会触发 SIGPIPE(141)，与 set -e/pipefail 冲突
+  # 用 -c 计数避开这个问题
+  if [ "$(printf '%s' "$body" | grep -c "$pat" 2>/dev/null || echo 0)" -gt 0 ]; then
     found=1; break
   fi
   sleep 6
@@ -38,17 +41,23 @@ fail=0
 echo "🔗 检查 URL HEAD:"
 for u in $urls; do
   case "$u" in http://*|https://*) ;; *) continue;; esac
-  code=$(curl -sIL -o /dev/null -w '%{http_code}' --max-time 15 "$u" || echo "000")
+  # -L 跟 302；github release 重定向到 S3 需多调一些时间
+  # 不用 -w '%{http_code}' 因为加 -L 后会拼出多个 code。
+  # 用 -o 刷出 Header 到 stderr/temp，取最后一个 HTTP 状态行。
+  status_line=$(curl -sIL --max-time 30 -o /dev/null -D - "$u" 2>/dev/null | grep -E '^HTTP/' | tail -1)
+  code=$(printf '%s' "$status_line" | awk '{print $2}')
   if [ "$code" = "200" ]; then
     echo "  ✓ 200 $u"
   else
-    echo "  ✗ $code $u"; fail=1
+    echo "  ✗ ${code:-???} $u"; fail=1
   fi
 done
 
 # 强校验 itunes:image 必须有
-if ! echo "$ITEM" | grep -q 'itunes:image'; then
+if [ "$(printf '%s' "$ITEM" | grep -c 'itunes:image' 2>/dev/null || echo 0)" -lt 1 ]; then
   echo "  ✗ itunes:image 缺失"; fail=1
+else
+  echo "  ✓ itunes:image 存在"
 fi
 
 [ "$fail" = 0 ] || { echo "❌ final_acceptance FAILED"; exit 1; }
