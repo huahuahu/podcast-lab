@@ -58,6 +58,7 @@
         <p><small>原始来源：<a href="https://www.youtube.com/watch?v=rwueq7n_3yA">单向街东京 YouTube</a>。流程：原始中文音频 + YouTube 官方自动中文字幕（opencc 繁→简，1127 cues）。本期不重新合成，直接发布原音频。</small></p>
       ]]></content:encoded>
       <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.16.0-guoyu-claude-code-end-of-knowledge-work/audio.mp3" length="51150476" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/guoyu-claude-code-end-of-knowledge-work.png"/>
       <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/guoyu-claude-code-end-of-knowledge-work/zh.vtt" type="text/vtt" language="zh" rel="captions"/>
       <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/guoyu-claude-code-end-of-knowledge-work/zh.srt" type="application/srt" language="zh"/>
       <category>Technology</category>
