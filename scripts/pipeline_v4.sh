@@ -37,7 +37,7 @@ LANE=$("$V4/process/decide_lane.sh" "$PROJ")
 echo "🛤  lane=$LANE"
 case "$LANE" in
   passthrough) "$V4/process/lane_passthrough.sh" "$PROJ" $WITH_SUBS ;;
-  translate)   echo "⚠️  lane=translate 暂未在 v4 实现，请用旧 pipeline.sh"; exit 4 ;;
+  translate)   "$V4/process/lane_translate.sh"   "$PROJ" ;;
 esac
 
 # 3) enrich
