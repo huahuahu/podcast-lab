@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Tue, 05 May 2026 22:50:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 15:45:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,36 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>郭宇 × 单向街东京：Claude Code / 知识工作者的终结</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">guoyu-claude-code-end-of-knowledge-work</guid>
+      <pubDate>Sat, 09 May 2026 15:45:00 +0800</pubDate>
+      <description>郭宇在单向街东京的现场对谈：从 2025 年 10 月 Claude Code Skills 这个节点切入，论证「软件的终结」与知识工作者的失业时间表。原始中文音频，37 分钟。</description>
+      <content:encoded><![CDATA[
+        <h3>谁在说</h3>
+        <p>郭宇——2008 年自学编程，2011 年进互联网，参与抖音从 0 到 1，2020 年从字节跳动「退休」到东京，目前以投资人 / 写作者身份生活。这场是 2026 年 5 月在单向街东京的现场对谈。</p>
+        <h3>核心观点</h3>
+        <ul>
+          <li>真正的拐点不是 ChatGPT，而是 2025 年 10 月 Claude Code 的 Skills 机制——软件不再需要被「写死」，而是 Token 流动出来的</li>
+          <li>SaaS、初级程序员、企业内部法务首批被替代；Claude 2 月发布的 Legal Plugin 单日触发法律科技板块约 2850 亿美元抛售</li>
+          <li>中美在编码模型上有 6–12 个月代差：中国卡都被消费级多模态吃掉，编码模型靠蒸馏永远晚一代</li>
+          <li>One-Man AI：他在自己的 5090 上每晚跑 1000 个循环，让 Agent 自己设计公司、写代码、发邮件</li>
+          <li>给年轻人的建议：未来 3–6 个月学会用 Claude Code，再之后连这个都不用学</li>
+        </ul>
+        <p>更详细的整理：项目仓库里的 <code>blog/post.md</code>。</p>
+        <p><small>原始来源：<a href="https://www.youtube.com/watch?v=rwueq7n_3yA">单向街东京 YouTube</a>。流程：原始中文音频 + YouTube 官方自动中文字幕（opencc 繁→简，1127 cues）。本期不重新合成，直接发布原音频。</small></p>
+      ]]></content:encoded>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.16.0-guoyu-claude-code-end-of-knowledge-work/audio.mp3" length="51150476" type="audio/mpeg"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/guoyu-claude-code-end-of-knowledge-work/zh.vtt" type="text/vtt" language="zh" rel="captions"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/guoyu-claude-code-end-of-knowledge-work/zh.srt" type="application/srt" language="zh"/>
+      <category>Technology</category>
+      <itunes:author>郭宇 / 单向街东京</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>37:28</itunes:duration>
+    </item>
 
     <item>
       <title>Soft Skills Engineering #511 · 临时管理岗 + 软件团队的绩效奖金</title>
