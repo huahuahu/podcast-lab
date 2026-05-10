@@ -1,5 +1,7 @@
 # Podcast Lab 🎧
 
+> 🤖 **Agent 接手请看** [`AGENTS.md`](AGENTS.md) **+** [`docs/MAINTENANCE.md`](docs/MAINTENANCE.md)。README 是面向人类的概述，MAINTENANCE 才是今天真实运行中的流程。
+
 把任何输入（YouTube、播客 RSS、本地文件、中文视频…）→ 一条**能在播客客户端订阅播放的节目**：mp3 + 封面 + 简介，按需翻译/字幕/章节。
 
 ---
