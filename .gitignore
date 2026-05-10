@@ -20,6 +20,7 @@ projects/**/transcript/.speakers-reassigned
 
 # 日志文件
 projects/**/*.log
+logs/
 
 # 临时存档（重跑时备份的旧产物）
 projects/**/_archive_*/
@@ -51,8 +52,3 @@ venv/
 
 # Claude Code local settings
 .claude/
-logs/allin-elon-anthropic-v2.log
-logs/allin-elon-anthropic.log
-logs/allin-openai-misses.log
-logs/aprd-wealth-class-2-systematic-investment.log
-logs/mearsheimer-iran-trump-no-offramp.log
