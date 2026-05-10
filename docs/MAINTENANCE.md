@@ -1,0 +1,158 @@
+# MAINTENANCE.md — podcast-lab 运维手册（活文档）
+
+> 每次跑完一集或踩到新坑，**就来更新这份文件**。
+> "每一次新看到的都是最新的逻辑"。
+> 同时也是我（小爪）下次接手时的第一份参考。
+
+---
+
+## TL;DR — 一集新节目的标准流程
+
+假设拿到一个 YouTube 链接 `<URL>`：
+
+```bash
+cd ~/git/podcast-lab
+export HTTPS_PROXY=http://127.0.0.1:7890 HTTP_PROXY=http://127.0.0.1:7890 \
+       ALL_PROXY=socks5://127.0.0.1:7890 NO_PROXY=localhost,127.0.0.1
+CHUNK_SEC=1200 nohup ./scripts/pipeline.sh <slug> "<URL>" --lang en \
+  > logs/<slug>.log 2>&1 < /dev/null & disown
+```
+
+跑完后（产物 `projects/<slug>/audio/podcast_zh.mp3`）：
+
+```bash
+# 1. 写 release notes（看 dialog_zh.json 几句关键内容）
+edit projects/<slug>/release_notes.md
+
+# 2. cover + verify
+bash scripts/v4/enrich/cover_fetch.sh projects/<slug>
+cp projects/<slug>/cover.png docs/assets/covers/<slug>.png
+bash scripts/v4/publish/verify_local.sh projects/<slug>
+
+# 3. release
+TAG=v0.X.0-<slug>
+gh release create "$TAG" projects/<slug>/audio/podcast_zh.mp3 \
+  --title "..." --notes-file projects/<slug>/release_notes.md
+
+# 4. 改 docs/rss.xml：插一个 <item>，更新 lastBuildDate
+edit docs/rss.xml
+
+# 5. push
+git add docs/rss.xml docs/assets/covers/<slug>.png && \
+  git commit -m "release $TAG" && git push
+
+# 6. 验收
+bash scripts/v4/publish/final_acceptance.sh <slug>
+```
+
+---
+
+## 关键约束（容易忘）
+
+### 1. 代理必须**外部 set，内部不动**
+- yt-dlp **要走代理**才能抓 YouTube metadata（直连国内会卡死/失败）
+- Azure 接口**不能走代理**（SSE 容易断）
+- ✅ 正确做法：外部 export proxy；`azure_transcribe_diarize.sh` 内部会自己 unset
+- ❌ 我踩过的坑：外部 unset proxy → yt-dlp 立刻挂
+
+### 2. Azure diarize 必须切片
+- 名义 25MB 上限，但**实际单次能吃的音频远少于 25MB**（接近 1h 的音频会直接被拒，报 "Audio file might be corrupted or unsupported"）
+- 稳妥配置：`CHUNK_SEC=1200`（20min/片，约 5MB）
+- `CHUNK_SEC=0` = 整台一次塞，**目前不可行**，下次哪个版本 Azure 解禁了再说
+
+### 3. edge-tts 音色名必须真实存在
+- 加新音色到 `configs/series.json` 前一定 `python3 -m edge_tts --list-voices | grep zh-` 核对
+- 我编过的不存在的音色：`zh-CN-YunhaoNeural`（不存在！会让整个 TTS 在第一句 Freeberg 那里崩掉）
+- 当前可用普通话男声只有 4 个：Yunyang / Yunjian / Yunxi / Yunxia
+- 要第 5 个男声 → 用 `zh-TW-YunJheNeural` 或 `zh-HK-WanLungNeural`（我们 Freeberg 用的就是这个）
+
+### 4. 多人节目（>2 speakers）的 speaker 对齐
+- Azure diarize 每个 chunk 内部独立判 A/B/C，**跨 chunk 编号不连贯**
+- 所以 4 人 All-In 不能用 host/guest 二分类
+- 解决：`scripts/align_speakers_multi.py` 用 GPT-5.4 + `series.json` 里的 `personas` 把每片 A/B/C 映射成全局人名
+- `lane_translate.sh` 自动调用（前提：`series.multi_speaker = true` 且 `series.personas` 有人物画像）
+- ⚠️ 局限：发言少 / 风格不鲜明的角色（如 Freeberg 在某些 chunk）会被标 Unknown，落到 fallback 女声
+
+---
+
+## 常见挂法 & 自救
+
+| 现象 | 原因 | 处理 |
+|---|---|---|
+| `yt-dlp metadata failed` | 没设 proxy | export 4 个 proxy 环境变量后重跑 |
+| `Audio file might be corrupted or unsupported` | Azure 单次吃太大 | 用 `CHUNK_SEC=1200` 切片 |
+| 翻译挂在 batch X，`SSL: UNEXPECTED_EOF` | Copilot endpoint 偶发抖动 | **重跑同一条命令**（断点续传，已译的不重做）|
+| 翻译挂 `IDE token expired` | 正常，脚本会自动续 token | 不用管 |
+| TTS 进程突然消失（无报错） | 父进程被信号收走 | 重跑 lane_translate（cache 在） |
+| `NoAudioReceived` 单句失败 | 某句翻译只剩个 `。` 之类 | **已修**：`multivoice_robust.py` 用 200ms / 500ms 静音兜底，不再中断 |
+| Freeberg 突然变女声 | speaker 对齐落到 Unknown | 当前已知缺陷；后续要加跨片声纹比对 |
+
+---
+
+## 仓库结构（关键文件）
+
+```
+~/git/podcast-lab/
+├─ scripts/
+│   ├─ pipeline.sh                       # 一键入口（v4 全自动）
+│   ├─ azure_transcribe_diarize.sh       # Azure STT，含 unset proxy + 切片 + SSE 解析
+│   ├─ align_speakers_multi.py           # ⭐ 多人节目跨片 speaker 对齐
+│   ├─ _merge_chunks.py                  # 合并 chunk segs.json，speaker 字段透传人名
+│   ├─ smart_merge_dialog.py             # 合并背景音/同人短句
+│   ├─ translate_dialog_copilot.py       # GPT-5.4 中译（断点续传）
+│   ├─ reassign_speakers_llm.py          # 旧的 host/guest 二分类（仅 2 人节目用）
+│   ├─ audit_speakers_llm.py             # 旧的 host/guest 审核（仅 2 人节目用）
+│   ├─ prepare_multivoice.py             # 把 dialog_zh + voices 配置 → 喂给 multivoice
+│   ├─ multivoice_robust.py              # ⭐ edge-tts 多音色合成 + 静音兜底
+│   └─ add_chapters.py                   # 给最终 mp3 加章节
+│
+│   ├─ v4/
+│   │   ├─ ingest/                       # 各平台 adapter (youtube, podcast_rss, ...)
+│   │   ├─ process/lane_translate.sh     # ⭐ 主流水线（含 multi-speaker hook）
+│   │   ├─ enrich/cover_fetch.sh
+│   │   └─ publish/
+│   │       ├─ verify_local.sh
+│   │       └─ final_acceptance.sh
+│
+├─ configs/series.json                   # ⭐ 系列 → personas + voices + 各种开关
+├─ projects/<slug>/                      # 单集工作目录（gitignored 大文件）
+│   ├─ source/audio.mp3, meta.json, thumbnail.jpg
+│   ├─ transcript/
+│   │   ├─ azure_chunks/                 # 每片 mp3 + segs.json
+│   │   ├─ .speakers-aligned.json        # speaker 对齐缓存
+│   │   ├─ dialog_en.json
+│   │   ├─ dialog_zh.json
+│   │   └─ timings.json
+│   ├─ audio/
+│   │   ├─ tts_cache/                    # 每句 mp3 缓存，gitignored
+│   │   └─ podcast_zh.mp3                # 最终成品
+│   ├─ cover.png
+│   └─ release_notes.md
+│
+├─ docs/
+│   ├─ rss.xml                           # ⭐ 发布到 GitHub Pages 的 podcast feed
+│   ├─ assets/covers/<slug>.png
+│   ├─ MAINTENANCE.md                    # ← 你正在读这个
+│   └─ PIPELINE_V4.md                    # v4 设计文档
+│
+└─ logs/<slug>.log                       # 每集跑流水线的日志
+```
+
+---
+
+## 凭证
+
+- Azure: `~/.openclaw/credentials/azure-openai.json`
+  - 必须有 `deployments.diarize`（值是 `gpt-4o-transcribe-diarize` 之类的部署名）
+- GitHub Copilot token: `~/.openclaw/credentials/github-copilot.token.json`（用于翻译 + speaker 对齐）
+- gh CLI: 已用 `huahuahu` 账号登录
+
+---
+
+## 维护规则（写给未来的我）
+
+1. **每次跑完一集**，看下 `logs/<slug>.log` 有无新错误模式 → 写进上面"常见挂法"。
+2. **每改一个脚本默认值**或加一个新机制 → 来更新对应章节，不要只 commit 代码。
+3. **加新音色 / 新 series** → 直接到"配置约束"那段补一笔。
+4. **删了某个废弃脚本** → 同步更新"仓库结构"。
+5. 这个文件不要怕长。**搜得到 > 简洁**。
