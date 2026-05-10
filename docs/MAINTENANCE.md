@@ -29,9 +29,8 @@ CHUNK_SEC=1200 nohup ./scripts/pipeline.sh <slug> "<URL>" --lang en \
 # 1. 写 release notes（看 dialog_zh.json 几句关键内容）
 edit projects/<slug>/release_notes.md
 
-# 2. cover + verify
+# 2. cover（会自动镜像到 docs/assets/covers/）+ verify
 bash scripts/v4/enrich/cover_fetch.sh projects/<slug>
-cp projects/<slug>/cover.png docs/assets/covers/<slug>.png
 bash scripts/v4/publish/verify_local.sh projects/<slug>
 
 # 3. release

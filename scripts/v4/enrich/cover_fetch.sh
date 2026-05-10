@@ -10,13 +10,29 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 source "$SCRIPT_DIR/../lib/meta.sh"
 
 OUT="$PROJ/cover.png"
-[ -f "$OUT" ] && { echo "✓ cover.png 已存在"; exit 0; }
+SLUG="$(basename "$PROJ")"
+REPO="$(cd "$SCRIPT_DIR/../../.." && pwd)"
+DOCS_OUT="$REPO/docs/assets/covers/$SLUG.png"
+
+# 镜像到 docs/（调用处不用再手动 cp）
+mirror_to_docs() {
+  mkdir -p "$REPO/docs/assets/covers"
+  cp "$OUT" "$DOCS_OUT"
+  echo "→ mirrored to docs/assets/covers/$SLUG.png"
+}
+
+if [ -f "$OUT" ]; then
+  echo "✓ cover.png 已存在"
+  [ -f "$DOCS_OUT" ] || mirror_to_docs
+  exit 0
+fi
 
 # 1) 本地 source/thumbnail.*
 LOCAL=$(ls "$PROJ"/source/thumbnail.* 2>/dev/null | head -1 || true)
 if [ -n "$LOCAL" ]; then
   echo "🖼  using local $LOCAL"
   sips -s format png -Z 1400 "$LOCAL" --out "$OUT" >/dev/null
+  mirror_to_docs
   exit 0
 fi
 
@@ -27,7 +43,7 @@ if [ -n "$URL" ]; then
   TMP=$(mktemp); curl -sSL --max-time 30 -o "$TMP" "$URL" || TMP=""
   if [ -n "$TMP" ] && [ -s "$TMP" ]; then
     sips -s format png -Z 1400 "$TMP" --out "$OUT" >/dev/null
-    rm -f "$TMP"; exit 0
+    rm -f "$TMP"; mirror_to_docs; exit 0
   fi
 fi
 
@@ -43,7 +59,7 @@ if [ -n "$SRC_URL" ]; then
     TMP=$(mktemp); curl -sSL --max-time 30 -o "$TMP" "$OG" || TMP=""
     if [ -n "$TMP" ] && [ -s "$TMP" ]; then
       sips -s format png -Z 1400 "$TMP" --out "$OUT" >/dev/null
-      rm -f "$TMP"; exit 0
+      rm -f "$TMP"; mirror_to_docs; exit 0
     fi
   fi
 fi

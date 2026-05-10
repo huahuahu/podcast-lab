@@ -2,7 +2,7 @@
 # verify_local.sh — 本地 sanity check（发布前）
 #   - meta.json 必填字段齐
 #   - source/audio.mp3 存在 & ffprobe 能读
-#   - cover.png 存在 & 是图片
+#   - cover.png 存在 & docs/assets/covers/<slug>.png 镜像也在
 # 用法: verify_local.sh <project_dir>
 set -euo pipefail
 
@@ -41,6 +41,16 @@ if [ -f "$PROJ/cover.png" ]; then
   echo "  ✓ cover.png ${size}"
 else
   echo "  ✗ cover.png missing"; fail=1
+fi
+
+# docs mirror (RSS 会引用这份，必须存在并 git 跟踪)
+SLUG="$(basename "$PROJ")"
+REPO="$(cd "$SCRIPT_DIR/../../.." && pwd)"
+DOCS_COVER="$REPO/docs/assets/covers/$SLUG.png"
+if [ -f "$DOCS_COVER" ]; then
+  echo "  ✓ docs/assets/covers/$SLUG.png"
+else
+  echo "  ✗ docs/assets/covers/$SLUG.png missing (跳 enrich/cover_fetch.sh 会自动镜像)"; fail=1
 fi
 
 [ "$fail" = 0 ] || { echo "❌ verify_local FAILED"; exit 1; }
