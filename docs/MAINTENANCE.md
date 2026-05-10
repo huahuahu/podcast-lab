@@ -17,11 +17,11 @@
 
 ```bash
 cd ~/git/podcast-lab
-export HTTPS_PROXY=http://127.0.0.1:7890 HTTP_PROXY=http://127.0.0.1:7890 \
-       ALL_PROXY=socks5://127.0.0.1:7890 NO_PROXY=localhost,127.0.0.1
 CHUNK_SEC=1200 nohup ./scripts/pipeline.sh <slug> "<URL>" --lang en \
   > logs/<slug>.log 2>&1 < /dev/null & disown
 ```
+
+> 应该不需要手动 export proxy——agent 运行环境默认已有；Azure 那步需要不走代理，`azure_transcribe_diarize.sh` 在包里自己 unset。
 
 跑完后（产物 `projects/<slug>/audio/podcast_zh.mp3`）：
 
@@ -54,11 +54,10 @@ bash scripts/v4/publish/final_acceptance.sh <slug>
 
 ## 关键约束（容易忘）
 
-### 1. 代理必须**外部 set，内部不动**
-- yt-dlp **要走代理**才能抓 YouTube metadata（直连国内会卡死/失败）
-- Azure 接口**不能走代理**（SSE 容易断）
-- ✅ 正确做法：外部 export proxy；`azure_transcribe_diarize.sh` 内部会自己 unset
-- ❌ 我踩过的坑：外部 unset proxy → yt-dlp 立刻挂
+### 1. 代理 — 默认不管，只有 Azure 需要 unset
+- agent 进程默认已走代理（`HTTPS_PROXY` 等环境变量一般已组装好）→ yt-dlp / gh / curl 都能直接走
+- **唯一需要不走代理的是 Azure**（SSE 连接走代理会被别）→ `azure_transcribe_diarize.sh` 已在包里自己 unset，不需要外部干预
+- ⚠️ 别在外面 `unset HTTPS_PROXY`——会让同一句里调用的 yt-dlp / gh 掏不到网
 
 ### 2. Azure diarize 必须切片
 - 名义 25MB 上限，但**实际单次能吃的音频远少于 25MB**（接近 1h 的音频会直接被拒，报 "Audio file might be corrupted or unsupported"）
@@ -95,7 +94,7 @@ bash scripts/v4/publish/final_acceptance.sh <slug>
 
 | 现象 | 原因 | 处理 |
 |---|---|---|
-| `yt-dlp metadata failed` | 没设 proxy | export 4 个 proxy 环境变量后重跑 |
+| `yt-dlp metadata failed` | 代理在外面被人手动 unset 了 | 别在 shell 里 unset；agent 默认已走代理 |
 | `Audio file might be corrupted or unsupported` | Azure 单次吃太大 | 用 `CHUNK_SEC=1200` 切片 |
 | 翻译挂在 batch X，`SSL: UNEXPECTED_EOF` | Copilot endpoint 偶发抖动 | **重跑同一条命令**（断点续传，已译的不重做）|
 | 翻译挂 `IDE token expired` | 正常，脚本会自动续 token | 不用管 |
@@ -116,8 +115,8 @@ bash scripts/v4/publish/final_acceptance.sh <slug>
 │   ├─ _merge_chunks.py                  # 合并 chunk segs.json，speaker 字段透传人名
 │   ├─ smart_merge_dialog.py             # 合并背景音/同人短句
 │   ├─ translate_dialog_copilot.py       # GPT-5.4 中译（断点续传）
-│   ├─ reassign_speakers_llm.py          # 旧的 host/guest 二分类（仅 2 人节目用）
-│   ├─ audit_speakers_llm.py             # 旧的 host/guest 审核（仅 2 人节目用）
+│   ├─ reassign_speakers_llm.py          # 2 人节目跨 chunk 校 host/guest
+│   ├─ audit_speakers_llm.py             # 2 人节目翻译后再校一次
 │   ├─ prepare_multivoice.py             # 把 dialog_zh + voices 配置 → 喂给 multivoice
 │   ├─ multivoice_robust.py              # ⭐ edge-tts 多音色合成 + 静音兜底
 │   └─ add_chapters.py                   # 给最终 mp3 加章节
