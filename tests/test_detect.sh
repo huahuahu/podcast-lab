@@ -2,7 +2,7 @@
 # test_detect.sh — 验证 URL → adapter 名映射
 set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-DETECT="$SCRIPT_DIR/../scripts/v4/ingest/detect.sh"
+DETECT="$SCRIPT_DIR/../scripts/ingest/detect.sh"
 
 assert_eq() {
   local actual="$1" expected="$2" name="$3"

@@ -45,7 +45,7 @@ fi
 
 # docs mirror (RSS 会引用这份，必须存在并 git 跟踪)
 SLUG="$(basename "$PROJ")"
-REPO="$(cd "$SCRIPT_DIR/../../.." && pwd)"
+REPO="$(cd "$SCRIPT_DIR/../.." && pwd)"
 DOCS_COVER="$REPO/docs/assets/covers/$SLUG.png"
 if [ -f "$DOCS_COVER" ]; then
   echo "  ✓ docs/assets/covers/$SLUG.png"

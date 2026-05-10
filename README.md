@@ -6,7 +6,7 @@
 
 ---
 
-## 🚀 管线总览（v4）
+## 🚀 管线总览
 
 ```
 input (URL / 本地文件)
@@ -29,7 +29,7 @@ input (URL / 本地文件)
 （手动）GitHub Release + docs/rss.xml + final_acceptance
 ```
 
-设计原则：薄壳 + 厚 step。`pipeline.sh` 只 dispatch，实际工作在 `scripts/v4/{ingest,process,enrich,publish}/` 里。每一步输入输出都是文件，可单独跑、可单独测。
+设计原则：薄壳 + 厚 step。`pipeline.sh` 只 dispatch，实际工作在 `scripts/{ingest,process,enrich,publish}/` 里。每一步输入输出都是文件，可单独跑、可单独测。
 
 详细设计见 [`docs/PIPELINE_V4.md`](docs/PIPELINE_V4.md)。
 
@@ -48,10 +48,10 @@ input (URL / 本地文件)
 
 入口做的事：
 
-1. `v4/ingest/detect.sh` 识别 URL → 选 adapter（youtube / local / …）下载音频和元数据
-2. `v4/process/decide_lane.sh` 按 `meta.lang` + 是否有官方 transcript 决定 lane
-3. `v4/enrich/cover_fetch.sh` 准备封面（原图 → resize → AI 兜底）
-4. `v4/publish/verify_local.sh` 检查产物齐全
+1. `scripts/ingest/detect.sh` 识别 URL → 选 adapter（youtube / local / …）下载音频和元数据
+2. `scripts/process/decide_lane.sh` 按 `meta.lang` + 是否有官方 transcript 决定 lane
+3. `scripts/enrich/cover_fetch.sh` 准备封面（原图 → resize → AI 兜底）
+4. `scripts/publish/verify_local.sh` 检查产物齐全
 
 产物全部落到 `projects/<slug>/`：
 
@@ -82,22 +82,22 @@ projects/<slug>/
 
 ```bash
 # 抓素材
-scripts/v4/ingest/adapter_youtube.sh projects/<slug> <URL> en
+scripts/ingest/adapter_youtube.sh projects/<slug> <URL> en
 
 # 决定 lane
-scripts/v4/process/decide_lane.sh projects/<slug>
+scripts/process/decide_lane.sh projects/<slug>
 
 # 跑翻译 lane（英文源完整流程）
-scripts/v4/process/lane_translate.sh projects/<slug>
+scripts/process/lane_translate.sh projects/<slug>
 
 # 中文源直通（可选生成字幕）
-scripts/v4/process/lane_passthrough.sh projects/<slug> --with-subs
+scripts/process/lane_passthrough.sh projects/<slug> --with-subs
 
 # 抓封面
-scripts/v4/enrich/cover_fetch.sh projects/<slug>
+scripts/enrich/cover_fetch.sh projects/<slug>
 
 # 本地校验
-scripts/v4/publish/verify_local.sh projects/<slug>
+scripts/publish/verify_local.sh projects/<slug>
 ```
 
 translate lane 内部串的就是这些底层脚本（保留下来供 lane 复用）：
@@ -185,7 +185,7 @@ gh release create v0.X.0-<slug> \
 # 2) 编辑 docs/rss.xml 加 <item>，引用 cover + audio + transcript URL
 # 3) git push（触发 GitHub Pages 部署）
 # 4) 最后一关：等 Pages 上线 + 校验 RSS
-scripts/v4/publish/final_acceptance.sh <slug>
+scripts/publish/final_acceptance.sh <slug>
 ```
 
 `final_acceptance.sh` 会轮询 GitHub Pages（最多 90s），确保：

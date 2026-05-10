@@ -30,8 +30,8 @@ CHUNK_SEC=1200 nohup ./scripts/pipeline.sh <slug> "<URL>" --lang en \
 edit projects/<slug>/release_notes.md
 
 # 2. cover（会自动镜像到 docs/assets/covers/）+ verify
-bash scripts/v4/enrich/cover_fetch.sh projects/<slug>
-bash scripts/v4/publish/verify_local.sh projects/<slug>
+bash scripts/enrich/cover_fetch.sh projects/<slug>
+bash scripts/publish/verify_local.sh projects/<slug>
 
 # 3. release
 TAG=v0.X.0-<slug>
@@ -46,7 +46,7 @@ git add docs/rss.xml docs/assets/covers/<slug>.png && \
   git commit -m "release $TAG" && git push
 
 # 6. 验收
-bash scripts/v4/publish/final_acceptance.sh <slug>
+bash scripts/publish/final_acceptance.sh <slug>
 ```
 
 ---
@@ -108,7 +108,7 @@ bash scripts/v4/publish/final_acceptance.sh <slug>
 ```
 ~/git/podcast-lab/
 ├─ scripts/
-│   ├─ pipeline.sh                       # 一键入口（v4 全自动）
+│   ├─ pipeline.sh                       # 一键入口（ingest → process → enrich → verify）
 │   ├─ azure_transcribe_diarize.sh       # Azure STT，含 unset proxy + 切片 + SSE 解析
 │   ├─ align_speakers_multi.py           # ⭐ 多人节目跨片 speaker 对齐
 │   ├─ _merge_chunks.py                  # 合并 chunk segs.json，speaker 字段透传人名
@@ -118,15 +118,14 @@ bash scripts/v4/publish/final_acceptance.sh <slug>
 │   ├─ audit_speakers_llm.py             # 2 人节目翻译后再校一次
 │   ├─ prepare_multivoice.py             # 把 dialog_zh + voices 配置 → 喂给 multivoice
 │   ├─ multivoice_robust.py              # ⭐ edge-tts 多音色合成 + 静音兜底
-│   └─ add_chapters.py                   # 给最终 mp3 加章节
-│
-│   ├─ v4/
-│   │   ├─ ingest/                       # 各平台 adapter (youtube, podcast_rss, ...)
-│   │   ├─ process/lane_translate.sh     # ⭐ 主流水线（含 multi-speaker hook）
-│   │   ├─ enrich/cover_fetch.sh
-│   │   └─ publish/
-│   │       ├─ verify_local.sh
-│   │       └─ final_acceptance.sh
+│   ├─ add_chapters.py                   # 给最终 mp3 加章节
+│   ├─ ingest/                           # 各平台 adapter (youtube, local, …)
+│   ├─ process/                          # decide_lane + lane_translate / lane_passthrough
+│   │   └─ lane_translate.sh             # ⭐ 主流水线（含 multi-speaker hook）
+│   ├─ enrich/cover_fetch.sh             # 封面，自动镜像到 docs/assets/covers/
+│   ├─ publish/verify_local.sh           # 发布前 sanity check
+│   ├─ publish/final_acceptance.sh       # GitHub Pages 上线后验收
+│   └─ lib/meta.sh                       # 元数据读写小工具
 │
 ├─ configs/series.json                   # ⭐ 系列 → personas + voices + 各种开关
 ├─ projects/<slug>/                      # 单集工作目录（gitignored 大文件）

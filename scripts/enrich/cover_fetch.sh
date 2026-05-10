@@ -11,7 +11,7 @@ source "$SCRIPT_DIR/../lib/meta.sh"
 
 OUT="$PROJ/cover.png"
 SLUG="$(basename "$PROJ")"
-REPO="$(cd "$SCRIPT_DIR/../../.." && pwd)"
+REPO="$(cd "$SCRIPT_DIR/../.." && pwd)"
 DOCS_OUT="$REPO/docs/assets/covers/$SLUG.png"
 
 # 镜像到 docs/（调用处不用再手动 cp）

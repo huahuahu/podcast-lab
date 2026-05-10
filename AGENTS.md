@@ -4,7 +4,7 @@
 > **先读这两个文件，再做事**：
 >
 > 1. [`docs/MAINTENANCE.md`](docs/MAINTENANCE.md) — 当前真实有效的运维流程（活文档，每次踩坑都更新）
-> 2. [`docs/PIPELINE_V4.md`](docs/PIPELINE_V4.md) — v4 流水线设计文档（背景知识）
+> 2. [`docs/PIPELINE_V4.md`](docs/PIPELINE_V4.md) — 流水线设计文档（背景知识）
 >
 > README 是给人类看的高层介绍；MAINTENANCE 才是给你看的操作手册。
 

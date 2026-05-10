@@ -2,8 +2,8 @@
 # test_verify_local.sh — verify_local: 缺音频应失败，齐了应通过
 set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-V4="$SCRIPT_DIR/../scripts/v4"
-source "$V4/lib/meta.sh"
+STEPS="$SCRIPT_DIR/../scripts"
+source "$STEPS/lib/meta.sh"
 
 PROJ=$(mktemp -d)
 trap 'rm -rf "$PROJ"' EXIT
@@ -13,12 +13,12 @@ meta_set "$PROJ" title "T"; meta_set "$PROJ" author "A"; meta_set "$PROJ" lang "
 meta_set_raw "$PROJ" duration_sec "10"; meta_set "$PROJ" lane "passthrough"
 
 # 缺音频 + 缺 cover 应该失败
-if "$V4/publish/verify_local.sh" "$PROJ" >/dev/null 2>&1; then
+if "$STEPS/publish/verify_local.sh" "$PROJ" >/dev/null 2>&1; then
   echo "✗ verify should fail without audio/cover"; exit 1
 fi
 echo "  ✓ fails when audio/cover missing"
 
-# 造一段 1s 静音 + cover
+# 造一段 1s 静音 + cover + docs 镜像
 ffmpeg -loglevel error -f lavfi -i anullsrc=r=8000:cl=mono -t 2 -q:a 9 "$PROJ/source/audio.mp3"
 python3 - <<PY
 import struct, zlib, pathlib
@@ -33,7 +33,15 @@ def png(w,h):
 pathlib.Path('$PROJ/cover.png').write_bytes(png(32,32))
 PY
 
-"$V4/publish/verify_local.sh" "$PROJ" >/dev/null
+# verify_local 也检查 docs/assets/covers/<slug>.png，测试需要造出来事后清除
+REPO="$(cd "$SCRIPT_DIR/.." && pwd)"
+SLUG="$(basename "$PROJ")"
+DOCS_COVER="$REPO/docs/assets/covers/$SLUG.png"
+mkdir -p "$(dirname "$DOCS_COVER")"
+cp "$PROJ/cover.png" "$DOCS_COVER"
+trap 'rm -rf "$PROJ" "$DOCS_COVER"' EXIT
+
+"$STEPS/publish/verify_local.sh" "$PROJ" >/dev/null
 echo "  ✓ passes when audio + cover present"
 
 echo "✅ test_verify_local: passed"

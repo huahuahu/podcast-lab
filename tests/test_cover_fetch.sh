@@ -2,8 +2,8 @@
 # test_cover_fetch.sh — cover_fetch 优先级测试（用本地 thumbnail.jpg）
 set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-V4="$SCRIPT_DIR/../scripts/v4"
-source "$V4/lib/meta.sh"
+STEPS="$SCRIPT_DIR/../scripts"
+source "$STEPS/lib/meta.sh"
 
 PROJ=$(mktemp -d)
 trap 'rm -rf "$PROJ"' EXIT
@@ -24,7 +24,7 @@ def png(w, h, rgb=(255,0,0)):
 pathlib.Path('$PROJ/source/thumbnail.png').write_bytes(png(64,64))
 PY
 
-"$V4/enrich/cover_fetch.sh" "$PROJ"
+"$STEPS/enrich/cover_fetch.sh" "$PROJ"
 
 [ -f "$PROJ/cover.png" ] || { echo "✗ cover.png missing"; exit 1; }
 size=$(sips -g pixelWidth "$PROJ/cover.png" | awk '/pixel/{print $2}')
