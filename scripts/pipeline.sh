@@ -1,155 +1,54 @@
 #!/usr/bin/env bash
-# pipeline.sh — YouTube → 双人中文播客 的一键 pipeline (v3)
-#
-# 唯一方案：
-#   STT + Diar = Azure gpt-4o-transcribe-diarize（一步搞定）
-#   MT         = GitHub Copilot gpt-5.4（免费，公司 license）
-#   TTS        = edge-tts（免费，Microsoft）
-#
-# 用法：
-#   ./pipeline.sh <slug> <youtube_url> [num_speakers]
-#
-# 环境变量（可选）：
-#   CHUNK_SEC=600                             # Azure 切片长度，默认 10 分钟
-#   AZURE_OPENAI_CRED_FILE=~/.openclaw/credentials/azure-openai.json
-#   OPENCLAW_SECRETS=~/.openclaw/secrets/env.sh
-#
-# 输出到 projects/<slug>/：
-#   source/audio.mp3             — 原音频
-#   transcript/azure_chunks/     — Azure 切片原始 SSE + 解析后 segs（中间产物，断点续传用）
-#   transcript/dialog_en.json    — 合并后的英文对话（带 speaker）
-#   transcript/dialog_zh.json    — 中文翻译
-#   audio/podcast_zh.mp3         — 最终双人中文播客
-
+# pipeline.sh — 多源播客制作管线入口（薄壳）
+# 用法: pipeline.sh <slug> <url-or-path> [--lang zh|en|...] [--with-subs]
 set -euo pipefail
 
-SLUG="${1:?usage: pipeline.sh <slug> <youtube_url> [num_speakers]}"
-URL="${2:?usage: pipeline.sh <slug> <youtube_url> [num_speakers]}"
-NUM_SPEAKERS="${3:-2}"   # 目前仅做提示用，Azure 自动分
+SLUG="${1:?usage: pipeline.sh <slug> <url> [--lang xx] [--with-subs]}"
+URL="${2:?usage: pipeline.sh <slug> <url> [--lang xx] [--with-subs]}"
+shift 2
+
+LANG_HINT=""
+WITH_SUBS=""
+while [ $# -gt 0 ]; do
+  case "$1" in
+    --lang) LANG_HINT="$2"; shift 2;;
+    --with-subs) WITH_SUBS="--with-subs"; shift;;
+    *) echo "unknown arg: $1" >&2; exit 2;;
+  esac
+done
 
 REPO="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 PROJ="$REPO/projects/$SLUG"
+V4="$REPO/scripts/v4"
 
-# 可选：加载本地 secrets
-[ -f "${OPENCLAW_SECRETS:-$HOME/.openclaw/secrets/env.sh}" ] && \
-  source "${OPENCLAW_SECRETS:-$HOME/.openclaw/secrets/env.sh}"
+mkdir -p "$PROJ"
 
-mkdir -p "$PROJ"/{source,transcript,audio}
+echo "═══ pipeline: $SLUG ═══"
 
-echo "═══ [$SLUG] Pipeline start ═══"
-echo "  STT+Diar  : Azure gpt-4o-transcribe-diarize"
-echo "  Translate : Copilot GPT-5.4"
-echo "  Speakers  : ~$NUM_SPEAKERS (auto-detected)"
-echo ""
+# 1) detect → ingest
+ADAPTER=$("$V4/ingest/detect.sh" "$URL")
+echo "🔍 adapter=$ADAPTER"
+ADAPTER_SH="$V4/ingest/adapter_${ADAPTER}.sh"
+[ -x "$ADAPTER_SH" ] || { echo "❌ adapter not implemented yet: $ADAPTER" >&2; exit 3; }
+"$ADAPTER_SH" "$PROJ" "$URL" "$LANG_HINT"
 
-# ─── 1. Download ───────────────────────────────────────────
-if [ ! -f "$PROJ/source/audio.mp3" ]; then
-  echo "🎬 1/4 Downloading audio..."
-  yt-dlp -x --audio-format mp3 --audio-quality 0 \
-    -o "$PROJ/source/audio.%(ext)s" "$URL"
-else
-  echo "✓ 1/4 audio.mp3 exists, skipping"
-fi
+# 2) decide lane → process
+LANE=$("$V4/process/decide_lane.sh" "$PROJ")
+echo "🛤  lane=$LANE"
+case "$LANE" in
+  passthrough) "$V4/process/lane_passthrough.sh" "$PROJ" $WITH_SUBS ;;
+  translate)   "$V4/process/lane_translate.sh"   "$PROJ" ;;
+esac
 
-# ─── 2. STT + Diarize（Azure 一步）──────────────────────────
-if [ ! -f "$PROJ/transcript/dialog_en.json" ]; then
-  echo "☁️  2/4 Azure gpt-4o-transcribe-diarize (STT + diarize)..."
-  bash "$REPO/scripts/azure_transcribe_diarize.sh" \
-    "$PROJ/source/audio.mp3" \
-    "$PROJ/transcript"
-else
-  echo "✓ 2/4 dialog_en.json exists, skipping"
-fi
+# 3) enrich
+"$V4/enrich/cover_fetch.sh" "$PROJ" || echo "⚠️  cover 抓不到，需要手动 / AI 兜底"
 
-# ─── 2.5 Host/Guest 重分配（LLM）─────────────────────
-# Azure diarize 每个 chunk 独立诊断 speaker，跨 chunk 不保证同一个人。
-# 用 Copilot GPT-5.4 根据对话内容重新分为 Host / Guest。
-# 设置 REASSIGN_SPEAKERS=0 可跳过（独白视频 / 已手工改过场景）
-REASSIGN_SPEAKERS="${REASSIGN_SPEAKERS:-1}"
-SPEAKER_SENTINEL="$PROJ/transcript/.speakers-reassigned"
-if [ "$REASSIGN_SPEAKERS" = "1" ] && [ ! -f "$SPEAKER_SENTINEL" ]; then
-  echo "👥 2.5/4 Reassigning Host/Guest via LLM..."
-  [ -f "$PROJ/transcript/dialog_en.orig.json" ] || \
-    cp "$PROJ/transcript/dialog_en.json" "$PROJ/transcript/dialog_en.orig.json"
-  python3 -u "$REPO/scripts/reassign_speakers_llm.py" \
-    "$PROJ/transcript/dialog_en.json"
-  touch "$SPEAKER_SENTINEL"
-else
-  echo "✓ 2.5/4 speakers reassigned (or disabled), skipping"
-fi
-
-# ─── 2.7 Smart merge（丢弃 backchannel + 合并相邻同 speaker 短段）─────
-# Azure diarize 在快节奏对话里把 utterance 切得太碎（"Oh," / "on" / "awesome."
-# 之类的碎片满天飞）。这里在翻译前丢掉纯 backchannel，并把同 speaker
-# 相邻短段合起来，避免后续翻译/TTS 把对话切得断断续续。
-SMART_MERGE="${SMART_MERGE:-1}"
-SMART_SENTINEL="$PROJ/transcript/.smart-merged"
-if [ "$SMART_MERGE" = "1" ] && [ ! -f "$SMART_SENTINEL" ]; then
-  echo "🔀 2.7/4 Smart merge dialog..."
-  python3 -u "$REPO/scripts/smart_merge_dialog.py" "$PROJ"
-  touch "$SMART_SENTINEL"
-else
-  echo "✓ 2.7/4 smart merge done (or disabled), skipping"
-fi
-
-# ─── 3. 翻译（Copilot GPT-5.4）──────────────────────────────
-if [ ! -f "$PROJ/transcript/dialog_zh.json" ] \
-  || [ "$(python3 -c "import json; print(len(json.load(open('$PROJ/transcript/dialog_zh.json'))))" 2>/dev/null || echo 0)" -lt \
-       "$(python3 -c "import json; print(len(json.load(open('$PROJ/transcript/dialog_en.json'))))")" ]; then
-  echo "🌐 3/4 Translating via Copilot GPT-5.4..."
-  python3 -u "$REPO/scripts/translate_dialog_copilot.py" \
-    "$PROJ/transcript/dialog_en.json" \
-    "$PROJ/transcript/dialog_zh.json" \
-    --batch-size 8
-else
-  echo "✓ 3/4 dialog_zh.json complete, skipping"
-fi
-
-# ─── 3.5 LLM 二次校验 speaker（FLIP 自动修正）─────────────
-# 在翻译后、TTS 前，让 GPT-5.4 用对话上下文复查 Host/Guest 标注。
-# 给 LLM 强制三态输出 OK / FLIP / UNSURE，FLIP 自动写回 dialog_zh.json
-# （原版备份成 dialog_zh.pre-audit.bak.json）。
-# 设置 AUDIT_SPEAKERS=0 跳过；可选 projects/<slug>/meta.json 提供节目背景。
-AUDIT_SPEAKERS="${AUDIT_SPEAKERS:-1}"
-AUDIT_SENTINEL="$PROJ/transcript/.speakers-audited"
-if [ "$AUDIT_SPEAKERS" = "1" ] && [ ! -f "$AUDIT_SENTINEL" ]; then
-  echo "🔍 3.5/4 LLM audit speakers..."
-  python3 -u "$REPO/scripts/audit_speakers_llm.py" "$PROJ"
-else
-  echo "✓ 3.5/4 speaker audit done (or disabled), skipping"
-fi
-
-# ─── 4. TTS 合成 ───────────────────────────────────────────
-if [ ! -f "$PROJ/audio/podcast_zh.mp3" ]; then
-  echo "🎙 4/4 Synthesizing Chinese podcast audio..."
-  python3 "$REPO/scripts/prepare_multivoice.py" \
-    "$PROJ/transcript/dialog_zh.json" \
-    "$PROJ/transcript/dialog_zh_mv.json"
-  python3 -u "$REPO/scripts/multivoice_robust.py" \
-    "$PROJ/transcript/dialog_zh_mv.json" \
-    -o "$PROJ/audio/podcast_zh.mp3" \
-    --cache-dir "$PROJ/audio/tts_cache" \
-    --timings "$PROJ/transcript/timings.json"
-else
-  echo "✓ 4/4 podcast_zh.mp3 exists, skipping"
-fi
+# 4) verify_local（发布前最后一关，外部脚本可继续 publish）
+"$V4/publish/verify_local.sh" "$PROJ"
 
 echo ""
-echo "✅ Done! Final podcast:"
-echo "   $PROJ/audio/podcast_zh.mp3"
-
-# ─── 5. ID3 chapters（可选）─────────────────────────
-ADD_CHAPTERS="${ADD_CHAPTERS:-1}"
-CHAPTERS_SENTINEL="$PROJ/audio/.chapters-added"
-if [ "$ADD_CHAPTERS" = "1" ] && [ -f "$PROJ/transcript/timings.json" ] && [ ! -f "$CHAPTERS_SENTINEL" ]; then
-  echo "📑 5/5 Adding ID3 chapters..."
-  python3 -u "$REPO/scripts/add_chapters.py" "$PROJ" && touch "$CHAPTERS_SENTINEL" || echo "⚠️  add_chapters 失败，忽略"
-else
-  echo "✓ 5/5 chapters added (or disabled), skipping"
-fi
-
-echo ""
-echo "👉 发布到 GitHub Release（mp3 >50MB 时推荐）:"
-echo "   gh release create v0.1.0-$SLUG --repo huahuahu/podcast-lab \\"
-echo "     --title '...' --notes '...' \\"
-echo "     $PROJ/audio/podcast_zh.mp3"
+echo "✅ v4 ingest+process+enrich 完成。下一步:"
+echo "   gh release create v0.X.0-$SLUG ..."
+echo "   编辑 docs/rss.xml 加 item，引用 cover.png + audio.mp3"
+echo "   git push"
+echo "   $V4/publish/final_acceptance.sh $SLUG"
