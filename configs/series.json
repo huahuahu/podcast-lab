@@ -1,6 +1,25 @@
 {
   "series": [
     {
+      "id": "allin",
+      "match": "^allin-",
+      "show": "All-In Podcast",
+      "multi_speaker": true,
+      "personas": {
+        "Chamath": "Chamath Palihapitiya — 「Chamath」。印度裔加拿大人，语速偏慢低沉，常带外货口音，喜欢宏观、市场结构、冷静论战，召集他人时会叫 'Sacks'/'Freeberg'/'Jason'；常说 'I think the real question is...' / 'Bestie'。主持人之一，序幕/总结段常出现。",
+        "Jason":   "Jason Calacanis — 「J-Cal」。响亮、中语速、带纽约口音，兴奋时抢话、大笑。兴趣点是初创、年轻创业者、产品。常说 'as a journalist' / 'when I was at...' / 'angel investing'。口頭禅常有 'right? right?'。常被 Sacks/Chamath 调侯。",
+        "Sacks":   "David Sacks — 「Sacks」。中低音、语速中等、几乎不笑。保守派政治论述主力，现任 Trump 政府 AI & Crypto Czar，聊监管/政策/Trump/民主党事务时表达清晰、带论证结构。常说 'the deep state' / 'the establishment' / 'the woke mind virus'。偊尔被叫 'Sacks-poo' / 'sexy poo'。",
+        "Freeberg": "David Friedberg — 「Freeberg」 / 「Sultan of Science」。语速偏快、语调平稳、理性报告体，大量使用数据、能源、生物科技、气候、农业术语，基本不聊政治。常说 'the data shows' / 'mathematically' / 'I did the math'。偶尔主持主题论坛。"
+      },
+      "voices": {
+        "Chamath":  "zh-CN-YunyangNeural",
+        "Jason":    "zh-CN-YunjianNeural",
+        "Sacks":    "zh-CN-YunxiNeural",
+        "Freeberg": "zh-TW-YunJheNeural",
+        "Unknown":  "zh-CN-XiaoxiaoNeural"
+      }
+    },
+    {
       "id": "sse",
       "match": "^sse-",
       "show": "Soft Skills Engineering",

@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Sat, 09 May 2026 23:50:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 17:30:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,20 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>All-In · Elon 收购 Anthropic？AI 寡头格局、“AI 版 FDA” 与如何炒 AI 周期</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">allin-elon-anthropic-ai-monopoly</guid>
+      <pubDate>Sun, 10 May 2026 17:30:00 +0800</pubDate>
+      <description>All-In Podcast 四位 besties（Chamath / Jason / Sacks / Freeberg）本周圆桌：Elon 想让 xAI 收购 Anthropic、下一组 AI 寡头格局、白宫会不会搞“AI 版 FDA”、以及如何在这一轮 AI 周期里调仓。中文 4 人配音版（Azure STT + GPT 翻译 + edge-tts），原片 1h22m。</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.19.0-allin-elon-anthropic-ai-monopoly/podcast_zh.mp3" length="36926780" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/allin-elon-anthropic-ai-monopoly.png"/>
+      <category>Technology</category>
+      <itunes:author>Chamath Palihapitiya × Jason Calacanis × David Sacks × David Friedberg</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:46:07</itunes:duration>
+    </item>
 
     <item>
       <title>米尔斯海默：特朗普在伊朗战争里找不到下台阶</title>

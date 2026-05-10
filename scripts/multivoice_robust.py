@@ -50,6 +50,14 @@ async def synth_one(text: str, voice: str, out_path: Path, timeout: float = 45.0
 
 
 async def synth_with_retry(text: str, voice: str, out_path: Path, retries: int = 3):
+    # 去除标点后为空 → edge-tts 会返回 NoAudio，直接生成 200ms 静音占位
+    import re
+    if not re.sub(r"[\s\W_]+", "", text):
+        if out_path.exists():
+            out_path.unlink()
+        make_silence(200, out_path)
+        return True
+
     last_err = None
     for attempt in range(1, retries + 1):
         try:
@@ -75,7 +83,12 @@ async def synth_with_retry(text: str, voice: str, out_path: Path, retries: int =
                 return True
         except Exception as e:
             last_err = f"short-retry failed: {e}"
-    raise RuntimeError(f"合成失败: {last_err}")
+    # 全失败也不中断整集：用 500ms 静音占位，记个警
+    print(f"    🔇 合成全失败，用静音占位: {last_err} | text={text[:60]!r}", flush=True)
+    if out_path.exists():
+        out_path.unlink()
+    make_silence(500, out_path)
+    return True
 
 
 def make_silence(duration_ms: int, out_path: Path):

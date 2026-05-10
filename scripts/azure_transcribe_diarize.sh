@@ -38,6 +38,7 @@ unset HTTP_PROXY HTTPS_PROXY ALL_PROXY http_proxy https_proxy all_proxy NO_PROXY
 AUDIO="${1:?usage: azure_transcribe_diarize.sh <audio> <out_dir> [chunk_sec]}"
 OUT_DIR="${2:?usage: azure_transcribe_diarize.sh <audio> <out_dir> [chunk_sec]}"
 CHUNK_SEC="${3:-${CHUNK_SEC:-300}}"
+# CHUNK_SEC=0 表示不切片，整台一次传（speaker 全局一致，代价是失败重跳、须压低码率以适配 Azure 25MB 上限）
 
 CRED="${AZURE_OPENAI_CRED_FILE:-$HOME/.openclaw/credentials/azure-openai.json}"
 [ -r "$CRED" ] || { echo "missing $CRED" >&2; exit 2; }
@@ -53,8 +54,20 @@ mkdir -p "$CHUNK_DIR"
 
 TOTAL=$(ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$AUDIO" \
         | awk '{printf "%d", $1}')
-echo "🎬 total=${TOTAL}s chunk=${CHUNK_SEC}s → $(( (TOTAL + CHUNK_SEC - 1) / CHUNK_SEC )) 片"
 
+# CHUNK_SEC=0 → 整台作为单一 chunk，为了不超 25MB 改用更低码率
+if [ "$CHUNK_SEC" -eq 0 ]; then
+  CHUNK_SEC=$((TOTAL + 1))
+  WHOLE_FILE=1
+  CHUNK_BITRATE="32k"
+  CHUNK_TIMEOUT=1800   # 整台 diarize 可能 5-15 min服务器端
+  echo "🎬 total=${TOTAL}s 模式=整台一发 (bitrate=32k mono 16kHz)"
+else
+  WHOLE_FILE=0
+  CHUNK_BITRATE="64k"
+  CHUNK_TIMEOUT=360
+  echo "🎬 total=${TOTAL}s chunk=${CHUNK_SEC}s → $(( (TOTAL + CHUNK_SEC - 1) / CHUNK_SEC )) 片"
+fi
 idx=0
 start=0
 while [ "$start" -lt "$TOTAL" ]; do
@@ -69,7 +82,7 @@ while [ "$start" -lt "$TOTAL" ]; do
     echo "✂️  chunk $idx @ ${start}s → $mp3"
     ffmpeg -loglevel error -ss "$start" -t "$CHUNK_SEC" -i "$AUDIO" \
       -map_metadata -1 \
-      -acodec libmp3lame -b:a 64k -ac 1 -ar 16000 -y "$mp3"
+      -acodec libmp3lame -b:a "$CHUNK_BITRATE" -ac 1 -ar 16000 -y "$mp3"
   fi
 
   if [ -f "$segs" ] && jq -e '. | type == "array" and length > 0' "$segs" >/dev/null 2>&1; then
@@ -80,7 +93,7 @@ while [ "$start" -lt "$TOTAL" ]; do
     ok=0
     while [ $attempt -lt 6 ]; do
       if curl -sS --fail-with-body \
-          --connect-timeout 30 --max-time 360 \
+          --connect-timeout 30 --max-time "$CHUNK_TIMEOUT" \
           -X POST "$URL" \
           -H "api-key: $KEY" \
           -F "file=@${mp3}" \

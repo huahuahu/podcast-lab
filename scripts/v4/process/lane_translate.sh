@@ -25,7 +25,11 @@ mkdir -p "$PROJ/transcript" "$PROJ/audio"
 
 HAS_OFFICIAL=$(meta_get "$PROJ" has_official_transcript || echo false)
 
-echo "🛤  lane_translate: $(basename "$PROJ") (official_transcript=$HAS_OFFICIAL)"
+# multi_speaker: 跳过 host/guest 二人二分类（reassign + audit）。
+# 从 configs/series.json + project meta.json 合并后的 cfg 里读。
+MULTI_SPEAKER=$(python3 -c "import sys; sys.path.insert(0, '$REPO/scripts'); import _config; print('1' if _config.resolve('$PROJ').get('multi_speaker') else '0')" 2>/dev/null || echo 0)
+
+echo "🛤  lane_translate: $(basename "$PROJ") (official_transcript=$HAS_OFFICIAL, multi_speaker=$MULTI_SPEAKER)"
 
 # 1) 拿 dialog_en.json
 if [ -f "$PROJ/transcript/dialog_en.json" ]; then
@@ -37,10 +41,25 @@ else
   echo "☁️  Azure STT + diarize..."
   bash "$REPO/scripts/azure_transcribe_diarize.sh" \
     "$PROJ/source/audio.mp3" "$PROJ/transcript"
+
+  # 1b) 多人节目：跨 chunk speaker 对齐（要求 series 配置了 personas）
+  if [ "$MULTI_SPEAKER" = "1" ] && [ ! -f "$PROJ/transcript/.speakers-aligned" ]; then
+    HAS_PERSONAS=$(python3 -c "import sys; sys.path.insert(0,'$REPO/scripts'); import _config; print('1' if _config.resolve('$PROJ').get('personas') else '0')" 2>/dev/null || echo 0)
+    if [ "$HAS_PERSONAS" = "1" ]; then
+      echo "🔗 align speakers across chunks (multi-speaker)..."
+      python3 -u "$REPO/scripts/align_speakers_multi.py" "$PROJ"
+      echo "🔄 re-merge chunks with aligned speakers..."
+      python3 "$REPO/scripts/_merge_chunks.py" \
+        "$PROJ/transcript/azure_chunks" "$PROJ/transcript/dialog_en.json"
+      touch "$PROJ/transcript/.speakers-aligned"
+    else
+      echo "⚠️  multi_speaker=1 但 series 未配 personas，跳过跨片对齐"
+    fi
+  fi
 fi
 
-# 2) Speaker reassign（无官方 transcript 才需要）
-if [ "$HAS_OFFICIAL" != "true" ]; then
+# 2) Speaker reassign（无官方 transcript 且非多人节目才需要）
+if [ "$HAS_OFFICIAL" != "true" ] && [ "$MULTI_SPEAKER" != "1" ]; then
   REASSIGN_SPEAKERS="${REASSIGN_SPEAKERS:-1}"
   S="$PROJ/transcript/.speakers-reassigned"
   if [ "$REASSIGN_SPEAKERS" = "1" ] && [ ! -f "$S" ]; then
@@ -73,8 +92,9 @@ if [ "$NEED_TR" = 1 ]; then
     "$PROJ/transcript/dialog_en.json" "$PROJ/transcript/dialog_zh.json" --batch-size 8
 fi
 
-# 5) Speaker audit
+# 5) Speaker audit（多人节目跳过，audit 也是 host/guest 二分模型）
 AUDIT_SPEAKERS="${AUDIT_SPEAKERS:-1}"
+[ "$MULTI_SPEAKER" = "1" ] && AUDIT_SPEAKERS=0
 A="$PROJ/transcript/.speakers-audited"
 if [ "$AUDIT_SPEAKERS" = "1" ] && [ ! -f "$A" ]; then
   echo "🔍 audit speakers..."
