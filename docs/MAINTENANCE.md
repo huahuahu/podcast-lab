@@ -8,6 +8,11 @@
 
 ## TL;DR — 一集新节目的标准流程
 
+**开始之前：拿到本集的 EP 号**。查 docs/rss.xml 里最大的 `EPnn`，+1 就是本集号。
+所有对外文案（release title / RSS title）都要以 `EPnn · ` 开头。
+例：现在最新已发 `EP19 · ...`，下一集 = `EP20 · ...`。
+快查脚本：`grep -oE 'EP[0-9]+' docs/rss.xml | sort -u | tail`。
+
 假设拿到一个 YouTube 链接 `<URL>`：
 
 ```bash
@@ -72,6 +77,17 @@ bash scripts/v4/publish/final_acceptance.sh <slug>
 - 解决：`scripts/align_speakers_multi.py` 用 GPT-5.4 + `series.json` 里的 `personas` 把每片 A/B/C 映射成全局人名
 - `lane_translate.sh` 自动调用（前提：`series.multi_speaker = true` 且 `series.personas` 有人物画像）
 - ⚠️ 局限：发言少 / 风格不鲜明的角色（如 Freeberg 在某些 chunk）会被标 Unknown，落到 fallback 女声
+
+### 5. 集数编号 EPnn
+- 所有 RSS / release title 都以 `EPnn · 中文标题` 开头。
+- 两位数补零（`EP01`、`EP19`）。
+- 发一集前先查下集号：
+  ```bash
+  grep -oE 'EP[0-9]+' docs/rss.xml | sort -u | tail -n 1
+  ```
+  加 1 即本集 EP 号。
+- `gh release create --title` 也要带 EP 号（release notes 正文不强制）。
+- 历史补编号：EP01-EP19 是在 EP19 之后用一段 Python 脚本按 `pubDate` 升序回填的；以后如果发现号位冲突或错位，可从 git 历史捞出来重跑。
 
 ---
 
