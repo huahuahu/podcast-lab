@@ -1,0 +1,34 @@
+{
+  "chunk_001.segs.json": {
+    "B": "Jason",
+    "C": "Unknown",
+    "A": "Freeberg",
+    "E": "Sacks",
+    "D": "Unknown"
+  },
+  "chunk_002.segs.json": {
+    "A": "Sacks",
+    "B": "Jason",
+    "C": "Chamath",
+    "F": "Freeberg",
+    "D": "Unknown",
+    "E": "Jason",
+    "G": "Unknown"
+  },
+  "chunk_003.segs.json": {
+    "A": "Jason",
+    "B": "Freeberg",
+    "D": "Sacks",
+    "E": "Chamath",
+    "F": "Freeberg",
+    "C": "Chamath"
+  },
+  "chunk_004.segs.json": {
+    "A": "Freeberg",
+    "B": "Chamath",
+    "C": "Jason",
+    "F": "Sacks",
+    "D": "Sacks",
+    "E": "Unknown"
+  }
+}

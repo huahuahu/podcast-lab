@@ -1,0 +1,3764 @@
+[
+  {
+    "start": 0.0,
+    "end": 0.4,
+    "speaker": "Unknown",
+    "text": "How do I sound?"
+  },
+  {
+    "start": 0.4,
+    "end": 1.15,
+    "speaker": "Jason",
+    "text": "You sound perfect."
+  },
+  {
+    "start": 1.15,
+    "end": 1.65,
+    "speaker": "Chamath",
+    "text": "You sound great."
+  },
+  {
+    "start": 1.65,
+    "end": 2.3,
+    "speaker": "Unknown",
+    "text": "How do I look?"
+  },
+  {
+    "start": 2.55,
+    "end": 6.4,
+    "speaker": "Chamath",
+    "text": "Yeah, you sound great. Better than you look. Got that face made for radio."
+  },
+  {
+    "start": 7.55,
+    "end": 10.05,
+    "speaker": "Jason",
+    "text": "You don't look as tired as you have in recent weeks."
+  },
+  {
+    "start": 10.1,
+    "end": 16.8,
+    "speaker": "Chamath",
+    "text": "That's true. Yeah. Oh yeah, somebody was slagging me for the bags into my eyes. I mean, this audience is brutal."
+  },
+  {
+    "start": 17.0,
+    "end": 17.6,
+    "speaker": "Jason",
+    "text": "They're brutal."
+  },
+  {
+    "start": 18.1,
+    "end": 18.85,
+    "speaker": "Chamath",
+    "text": "They're brutal."
+  },
+  {
+    "start": 19.0,
+    "end": 20.0,
+    "speaker": "Unknown",
+    "text": "It's a good thing I'm rich."
+  },
+  {
+    "start": 23.9,
+    "end": 25.2,
+    "speaker": "Jason",
+    "text": "Let your winners ride."
+  },
+  {
+    "start": 35.412,
+    "end": 37.162,
+    "speaker": "Chamath",
+    "text": "Everybody, queen of Kinwa."
+  },
+  {
+    "start": 39.212,
+    "end": 65.296,
+    "speaker": "Chamath",
+    "text": "All right, everybody, welcome back. It's the number one podcast in the world. It's the All In Podcast with us today. Chamath Polly-Hapitia, David Sachs, and our fifth bestie, Mr. Brad Gerstner is here. I think David Freeberg is suffering from some. socialist related flu he's very sick of reading about socialism but he'll be back next week with two incredible incredible interviews it's"
+  },
+  {
+    "start": 65.296,
+    "end": 67.896,
+    "speaker": "Freeberg",
+    "text": "You guys see those Spencer Pratt ads? Wow."
+  },
+  {
+    "start": 68.346,
+    "end": 72.846,
+    "speaker": "Chamath",
+    "text": "one of the best political ads i've ever ever seen oh there's like three or four of them they're multiples yeah"
+  },
+  {
+    "start": 72.846,
+    "end": 85.296,
+    "speaker": "Jason",
+    "text": "whoever that social media team is is on fire if you get a good social media team and you get a good ad production team i think it's next gen because these things go crazy and spencer pratt if he wins this election which i think he's going to in los angeles"
+  },
+  {
+    "start": 85.268,
+    "end": 89.818,
+    "speaker": "Chamath",
+    "text": "was the reason is what brad said those ads are incredible incredible"
+  },
+  {
+    "start": 89.818,
+    "end": 93.468,
+    "speaker": "Freeberg",
+    "text": "Well, he's also quite a good debater. Did you see clips from this debate?"
+  },
+  {
+    "start": 94.368,
+    "end": 97.718,
+    "speaker": "Chamath",
+    "text": "he's so funny he's so chill yeah"
+  },
+  {
+    "start": 98.468,
+    "end": 110.718,
+    "speaker": "Freeberg",
+    "text": "he's up against Karen Bass, who's the mayor who is basically extremely left wing. And then there's someone who's a city councilwoman who's even further to the left of Karen Bass. I mean, she's often like Fidel Castro territory."
+  },
+  {
+    "start": 110.718,
+    "end": 112.868,
+    "speaker": "Chamath",
+    "text": "she's an indian fidel castro"
+  },
+  {
+    "start": 112.82,
+    "end": 126.178,
+    "speaker": "Freeberg",
+    "text": "Rahman. So she was basically, I guess, criticizing the mayor for the homelessness problem. And then Pratt pointed out that this councilwoman is actually in charge of all these homeless programs already."
+  },
+  {
+    "start": 127.128,
+    "end": 128.478,
+    "speaker": "Jason",
+    "text": "He eviscerated her."
+  },
+  {
+    "start": 128.478,
+    "end": 129.028,
+    "speaker": "Freeberg",
+    "text": "He eviscerated"
+  },
+  {
+    "start": 129.028,
+    "end": 129.528,
+    "speaker": "Jason",
+    "text": "He destroyed"
+  },
+  {
+    "start": 129.528,
+    "end": 130.228,
+    "speaker": "Freeberg",
+    "text": "her. And he basically"
+  },
+  {
+    "start": 130.228,
+    "end": 130.478,
+    "speaker": "Jason",
+    "text": "her. He destroyed"
+  },
+  {
+    "start": 130.478,
+    "end": 130.978,
+    "speaker": "Freeberg",
+    "text": "made"
+  },
+  {
+    "start": 130.978,
+    "end": 131.128,
+    "speaker": "Jason",
+    "text": "the her."
+  },
+  {
+    "start": 131.128,
+    "end": 137.978,
+    "speaker": "Freeberg",
+    "text": "key point, which is, look, the problem here is not lack of housing. It's an addiction issue and it's a mental illness issue. And he said, look, if you."
+  },
+  {
+    "start": 137.978,
+    "end": 146.728,
+    "speaker": "Jason",
+    "text": "He said if she went to the street, she gets stabbed in the neck. Which is pretty accurate if you've been to Skid Row. I mean, you would not want to walk."
+  },
+  {
+    "start": 146.58,
+    "end": 147.83,
+    "speaker": "Chamath",
+    "text": "walk through there oh"
+  },
+  {
+    "start": 147.83,
+    "end": 149.73,
+    "speaker": "Sacks",
+    "text": "It was like the Spider-Man photo."
+  },
+  {
+    "start": 149.73,
+    "end": 153.13,
+    "speaker": "Chamath",
+    "text": "Wait Nick's got the clip plays a clip Nick this god let's clip is"
+  },
+  {
+    "start": 153.13,
+    "end": 153.23,
+    "speaker": "Jason",
+    "text": "This"
+  },
+  {
+    "start": 153.23,
+    "end": 153.38,
+    "speaker": "Chamath",
+    "text": "brutal"
+  },
+  {
+    "start": 153.38,
+    "end": 156.73,
+    "speaker": "Jason",
+    "text": "is a different clip, but this went super viral. It reminded me of Trump a little bit"
+  },
+  {
+    "start": 157.43,
+    "end": 157.58,
+    "speaker": "Chamath",
+    "text": "see"
+  },
+  {
+    "start": 157.98,
+    "end": 166.68,
+    "speaker": "Sacks",
+    "text": "I'm not sure how to respond to that vision of Los Angeles. This is a MAGA Republican's idea of what Los Angeles looks like. This is really not."
+  },
+  {
+    "start": 170.58,
+    "end": 174.48,
+    "speaker": "Chamath",
+    "text": "for those of you listening he put his hands up and wiggled his tongue like oh my god"
+  },
+  {
+    "start": 174.804,
+    "end": 190.504,
+    "speaker": "Sacks",
+    "text": "Hey, Sachs, you know, Stephen Pratt wins mayor and then the, you know, the ballot initiative, the Retirement Protection and Savings Act, right, is going to pass, going to pass with big numbers. This is the, you know, referendum that effectively is going to knock out the wealth tax."
+  },
+  {
+    "start": 190.654,
+    "end": 208.304,
+    "speaker": "Sacks",
+    "text": "Can you imagine if California effectively passes a constitutional amendment protecting retirement savings and personal assets and banning the wealth tax and Pratt gets elected, the message that would send to the country? tree, that's a very non-consensus view that I'm becoming increasingly optimistic about."
+  },
+  {
+    "start": 209.054,
+    "end": 215.71,
+    "speaker": "Freeberg",
+    "text": "Well, from your lips to God's ears. But until that message actually is sent, I think I'm going to be, yeah,"
+  },
+  {
+    "start": 215.71,
+    "end": 216.46,
+    "speaker": "Sacks",
+    "text": "in texas"
+  },
+  {
+    "start": 216.46,
+    "end": 217.46,
+    "speaker": "Freeberg",
+    "text": "in Texas."
+  },
+  {
+    "start": 217.51,
+    "end": 235.11,
+    "speaker": "Sacks",
+    "text": "well i yeah well i mean this is also in the face of i don't know just a follow-up story here but mandami did like an attack video on ken griffin's house we talked about it on the pot a couple weeks ago and like literally stood in front of his house pointed at it and this is in the face of like a ceo getting shot"
+  },
+  {
+    "start": 235.636,
+    "end": 257.636,
+    "speaker": "Sacks",
+    "text": "For ideological reasons, Sam Altman's house being targeted. This is like a really dangerous thing for Mondami to do. And Ken Griffin came out today or yesterday in an interview and said, hey, listen, I'm out. We're going to be putting our efforts into Florida. And this is the same thing that happened to Chicago. And he basically said, like, I really felt offended and I was nervous about this."
+  },
+  {
+    "start": 258.164,
+    "end": 272.014,
+    "speaker": "Sacks",
+    "text": "because of my personal safety and he called him out when dominic came out with like a mealy mouthed response that didn't even apologize for what he did just double down on it essentially all right let's get to the i don't know if you guys saw it or not but it's"
+  },
+  {
+    "start": 272.014,
+    "end": 274.814,
+    "speaker": "Chamath",
+    "text": "Who cares? New York is becoming a flyover city."
+  },
+  {
+    "start": 276.264,
+    "end": 281.314,
+    "speaker": "Sacks",
+    "text": "interesting way to put it uh don't disagree all right first story elon just leased all of colossus one his"
+  },
+  {
+    "start": 281.314,
+    "end": 281.714,
+    "speaker": "Chamath",
+    "text": "Wait,"
+  },
+  {
+    "start": 281.714,
+    "end": 281.864,
+    "speaker": "Sacks",
+    "text": "data"
+  },
+  {
+    "start": 281.864,
+    "end": 281.964,
+    "speaker": "Chamath",
+    "text": "what?"
+  },
+  {
+    "start": 281.964,
+    "end": 282.264,
+    "speaker": "Sacks",
+    "text": "center"
+  },
+  {
+    "start": 282.264,
+    "end": 284.01,
+    "speaker": "Chamath",
+    "text": "He did? Hmm"
+  },
+  {
+    "start": 284.01,
+    "end": 295.11,
+    "speaker": "Sacks",
+    "text": "Lost your kindness? What? What? Yes, shocking to Dario and Anthropic. Jermoth on last week's pod. Go ahead and give yourself a pat on the back. You said Elon and Daria should do a deal tomorrow."
+  },
+  {
+    "start": 295.26,
+    "end": 317.462,
+    "speaker": "Sacks",
+    "text": "It didn't happen. The next day it happened five days later. So you came close, Jermoth, but no cigar because of Anthropic's obvious compute constraints. Anthropic just added over 220,000 NVIDIA GPUs, over 300 megawatts of energy. The deal is already having an impact, as we've discussed here. Claude users have been experiencing rate limits. Well,"
+  },
+  {
+    "start": 317.512,
+    "end": 331.862,
+    "speaker": "Sacks",
+    "text": "Claude has now doubled the Claude code rate limits, removed peak usage caps for paid users, and increased API volumes for Opus models. XAI is now trading their models at Colossus 2, so they have more than enough compute. Elon made a great bet."
+  },
+  {
+    "start": 332.628,
+    "end": 349.728,
+    "speaker": "Sacks",
+    "text": "on compute and built up those data centers really fast, and that is now paying off. We had the cursor deal we talked about last week. Let's talk about the emergence of Elon Web Services, E-W-S, Chamath. He is now in the hyperscaler competing against Google Cloud,"
+  },
+  {
+    "start": 349.878,
+    "end": 359.478,
+    "speaker": "Sacks",
+    "text": "Amazon Web Services, and Azure. And I don't know if you had inside information or just a brilliant epiphany, but take us behind the call and what do you think about the deal itself?"
+  },
+  {
+    "start": 360.628,
+    "end": 386.178,
+    "speaker": "Chamath",
+    "text": "I think the deal is fantastic. I'll say maybe three quick things. The first is, as I mentioned a couple weeks ago, anthropic and open AI's revenue performance has nothing to do with demand. Zero. It is entirely to do with the supply constraints that exist in data centers and specifically in power."
+  },
+  {
+    "start": 387.028,
+    "end": 399.728,
+    "speaker": "Sacks",
+    "text": "If they had infinite power, I think that their revenues would probably be even more parabolic. And so all the breathlessness about either exceeding or underperforming a forecast, in my opinion, mean nothing."
+  },
+  {
+    "start": 400.028,
+    "end": 431.658,
+    "speaker": "Sacks",
+    "text": "I think the five-year view for those two companies is quite robust. The thing that they really need is more compute and more power. That's the first thing. The second thing is, while they need that, we have a very big problem, which is we unfortunately have very poor leadership at the head of most of these AI firms. I think they are coming off as untrustworthy or too self-interested."
+  },
+  {
+    "start": 432.658,
+    "end": 458.228,
+    "speaker": "Sacks",
+    "text": "The political reaction now is starting to turn negative. The community reaction is negative. You have about nine gigawatts that are supposed to come online this year. Almost 50% of it now is being protested. More than likely, if history holds, most of that will get turned off. So they will get even more supply constraint. So that's the setup."
+  },
+  {
+    "start": 459.316,
+    "end": 483.966,
+    "speaker": "Chamath",
+    "text": "So what's the opportunity? I think for Elon, if you look inside of how people try to nitpick the SpaceX valuation case, or let's not, let's give them, sorry, let's be more generous. When people try to paint the bear case or they try to red team the valuation, the biggest element is the on the come value around the orbital data centers. And by actually landing a bunch of terrestrial capacity."
+  },
+  {
+    "start": 484.852,
+    "end": 496.452,
+    "speaker": "Sacks",
+    "text": "I think you start to blunt that because you can now start to say that even if the orbital data centers get delayed by a few months or a few quarters, even if the technological de-risking of it takes longer,"
+  },
+  {
+    "start": 496.652,
+    "end": 522.046,
+    "speaker": "Sacks",
+    "text": "he now has a structural core business that will effectively subsidize his ability to train Grok, which I think is a really important and underreported theme. So you have all this infrastructure. He somehow saw the tea leaves. Before most people, he built to a level of scale and secure power. Before most people, it has now become the critical asset. And now he's kind of kingmaking."
+  },
+  {
+    "start": 522.896,
+    "end": 532.446,
+    "speaker": "Sacks",
+    "text": "And I think that that's a really interesting valuation reinforcement as SpaceX goes through testing the waters and the roadshow. Brad, your take."
+  },
+  {
+    "start": 533.46,
+    "end": 556.06,
+    "speaker": "Chamath",
+    "text": "Yeah, no, I think it's well said. I mean, first, we know that there's nobody better on planet Earth than Elon at converting electrons to tokens. It's a critically important evolution to the story. You know, I think our friend Sean McGuire, he sent out a tweet that summed it up well. And he said SpaceX has this five layer cake, launch, connectivity, compute, hyperscaler, space data centers,"
+  },
+  {
+    "start": 556.11,
+    "end": 562.61,
+    "speaker": "Chamath",
+    "text": "and then applications and models and then other bets. Right. The question on the roadshow has been."
+  },
+  {
+    "start": 562.964,
+    "end": 579.514,
+    "speaker": "Sacks",
+    "text": "But X.AI isn't on the revenue trajectory of OpenAI and Anthropic, and yet there are huge commitments. And now we see the ace card that Elon's playing. He said he was building AWS all along or EWS all along."
+  },
+  {
+    "start": 579.814,
+    "end": 591.014,
+    "speaker": "Sacks",
+    "text": "And so I estimate that this is going to generate in this year an incremental $4 to $5 billion of revenue on top of what I've seen analyst estimates in the mid-20s. That's a material amount of it."
+  },
+  {
+    "start": 590.836,
+    "end": 605.286,
+    "speaker": "Sacks",
+    "text": "Out of incremental revenue to offset the cost of the investments that he's made here and that will subsidize to Chamath's point, all that he's investing to build the next generation of Grok. Remember, too, that he has three facilities,"
+  },
+  {
+    "start": 605.436,
+    "end": 617.236,
+    "speaker": "Sacks",
+    "text": "Colossus, MacroHard and MacroHarder, 1.2 gigawatts at MacroHard and MacroHarder in Blackwell. So he's given the one that's kind of less connected, H100s great for inference."
+  },
+  {
+    "start": 617.748,
+    "end": 645.248,
+    "speaker": "Sacks",
+    "text": "to anthropic he's monetizing it in a big way it's terrific for anthropic and it solves what i think was the biggest question in the valuation story which is what if he spends ahead of x.ai's revenue it takes the pressure chamath off x.ai delivering immediate revenue now he becomes uh an immediate competitor in the hyperscale i don't think this is the last announcement i think he's going to make a lot more"
+  },
+  {
+    "start": 646.036,
+    "end": 655.536,
+    "speaker": "Sacks",
+    "text": "you know, moves in this direction. I think it will be a material part of their story and their revenue projections as they come together. And I would just say finally, you know, again,"
+  },
+  {
+    "start": 655.586,
+    "end": 680.072,
+    "speaker": "Sacks",
+    "text": "everybody has talked about how we don't have enough power, how we don't have enough compute, how the revenues would not show up this year, you know, but the chaos that is American capitalism somehow finds a way. Okay. And there's tremendous demand for Anthropic and we find a way. I was so happy. to see kind of the detente and the kind exchange between the team of Anthropic and Elon,"
+  },
+  {
+    "start": 680.322,
+    "end": 703.022,
+    "speaker": "Sacks",
+    "text": "because we need all of this in order to produce American frontier models to stay at the frontier. And then finally, I just say, you know, Chamath, you reference these activists that are protesting delaying these data centers in these localities. One thing I want to dispel this myth, this is not like organic, hyper local protests by people in a community that aren't being spurred on."
+  },
+  {
+    "start": 703.476,
+    "end": 717.476,
+    "speaker": "Sacks",
+    "text": "This is highly organized activists that are moving across the country to stir up trouble in the exact same way they did to stop all fission reactors being built 30 years ago in America. Now we have no nuclear reactors being built."
+  },
+  {
+    "start": 717.576,
+    "end": 736.318,
+    "speaker": "Sacks",
+    "text": "China's got 100 of them. Who was funding those activists? I think we need to really look into who's funding the activists now. I'm not saying that there aren't any concerns, but the misinformation about water, the misinformation about electricity bills. bills. Electricity bills are going up in the places that are not building data centers,"
+  },
+  {
+    "start": 736.468,
+    "end": 749.718,
+    "speaker": "Sacks",
+    "text": "New York and California, because they haven't built any supply on the grid in Texas where you're building the most data centers in the country. Electricity costs are going down. So I think that's a boogeyman that we got to take on."
+  },
+  {
+    "start": 750.718,
+    "end": 751.618,
+    "speaker": "Chamath",
+    "text": "SACS, you're the last."
+  },
+  {
+    "start": 752.948,
+    "end": 769.33,
+    "speaker": "Freeberg",
+    "text": "Well, look, the deal is highly complimentary, as Jamath and Brad pointed out. SpaceX has a profitable, I think very profitable space and telecommunications Starlink business, the satellite business. But the XAI business had huge losses."
+  },
+  {
+    "start": 769.38,
+    "end": 778.73,
+    "speaker": "Freeberg",
+    "text": "The reason is pretty straightforward. You need these super large training clusters, but they cost a lot of money. And until you have a model that's capable of competing at the frontier, you're not making any revenue."
+  },
+  {
+    "start": 779.08,
+    "end": 790.524,
+    "speaker": "Freeberg",
+    "text": "And that problem is compounded by the fact that right now all the revenue is in enterprise, which is to say coding. We know that. Actually, I just did that deal with Cursor to try and catch up, but they don't have a coding product yet."
+  },
+  {
+    "start": 790.724,
+    "end": 806.424,
+    "speaker": "Freeberg",
+    "text": "So they're not participating in the revenue, but they're participating in all of the costs. So this deal fixes that problem. Elon's now able to have a frontier model company, but he's able to now not have these massive unpaid for CapEx commitments,"
+  },
+  {
+    "start": 806.724,
+    "end": 825.218,
+    "speaker": "Freeberg",
+    "text": "right? Because he's able to kind of lease that capacity. So I think it solves a major problem for them and their balance sheet. And then you have to say that for Anthropic, this is a really great thing because they were a compute constraint. And just to build on that point, I mean, I guess let me be the first to congratulate Dario on winning the AI race."
+  },
+  {
+    "start": 826.708,
+    "end": 826.958,
+    "speaker": "Sacks",
+    "text": "And you've"
+  },
+  {
+    "start": 826.958,
+    "end": 827.158,
+    "speaker": "Freeberg",
+    "text": "Because"
+  },
+  {
+    "start": 827.158,
+    "end": 827.708,
+    "speaker": "Sacks",
+    "text": "been, let's"
+  },
+  {
+    "start": 827.708,
+    "end": 827.758,
+    "speaker": "Freeberg",
+    "text": "my"
+  },
+  {
+    "start": 827.758,
+    "end": 848.508,
+    "speaker": "Sacks",
+    "text": "be honest, Zach, you have been on this podcast, you've been moderately critical of that company and Dario himself for being, you know, a little P doomer 110 and on your ex account, you've been even a little spicier. So now that there's peace in the Middle East of the AI business, what's your take here?"
+  },
+  {
+    "start": 849.058,
+    "end": 862.828,
+    "speaker": "Freeberg",
+    "text": "take is, look, let's just honestly and accurately assess where. the state of this AI market is at right now and Anthropic's place within it. So for the last three years, Anthropic has been growing at a rate of 10x a year."
+  },
+  {
+    "start": 863.128,
+    "end": 874.328,
+    "speaker": "Freeberg",
+    "text": "I think going into this year, probably the conventional wisdom was that there'd be no way to sustain that kind of rate of growth at this level of scale. And what happened in the first four months of the year? First,"
+  },
+  {
+    "start": 874.428,
+    "end": 889.364,
+    "speaker": "Freeberg",
+    "text": "we find out that from January 1st to March 31st, they grew from roughly 10 billion of ARR to 30 billion. So it tripled. And then in April, if anything, the rate of increase seemed to accelerate. They went from 30 to 44 billion of ARR."
+  },
+  {
+    "start": 890.064,
+    "end": 900.514,
+    "speaker": "Freeberg",
+    "text": "Nobody in Silicon Valley has ever seen anything like it. Forget about the rest of the country. I mean, all we do in Silicon Valley is deal with exponentials and still people have never seen that kind of growth at that level of scale."
+  },
+  {
+    "start": 901.172,
+    "end": 923.772,
+    "speaker": "Freeberg",
+    "text": "The only thing holding them back in the future was compute. Now they've made this deal. They've made other deals as well to get that compute. I think it's pretty much a foregone conclusion that they will hit that forecast of 10x this year, exiting the year at, call it, roughly 100 billion of ARR. And now the only question is whether they hit a trillion in 2027. And we can debate whether that's"
+  },
+  {
+    "start": 923.772,
+    "end": 925.772,
+    "speaker": "Chamath",
+    "text": "getting on board I like it"
+  },
+  {
+    "start": 925.772,
+    "end": 942.634,
+    "speaker": "Freeberg",
+    "text": "or not. But look, if they do that. I think they'll easily be the most valuable tech company in history. In fact, they might even be more valuable than the rest of the MAG7 put together, just to give people some basis for comparison here. You know, the biggest tech companies, Apple, Nvidia,"
+  },
+  {
+    "start": 942.634,
+    "end": 944.184,
+    "speaker": "Chamath",
+    "text": "NVIDIA, Google, Apple."
+  },
+  {
+    "start": 944.184,
+    "end": 952.202,
+    "speaker": "Freeberg",
+    "text": "Google, I think they kind of do around $400 to $500 billion a year right now of revenue. I mean, I guess Nvidia is a little bit of a different category, but you look at. You"
+  },
+  {
+    "start": 952.202,
+    "end": 952.352,
+    "speaker": "Sacks",
+    "text": "The"
+  },
+  {
+    "start": 952.352,
+    "end": 952.852,
+    "speaker": "Freeberg",
+    "text": "look at hyper Google,"
+  },
+  {
+    "start": 952.852,
+    "end": 953.052,
+    "speaker": "Sacks",
+    "text": "scalers,"
+  },
+  {
+    "start": 953.052,
+    "end": 953.452,
+    "speaker": "Freeberg",
+    "text": "the"
+  },
+  {
+    "start": 953.452,
+    "end": 953.902,
+    "speaker": "Sacks",
+    "text": "the three hyper"
+  },
+  {
+    "start": 953.902,
+    "end": 954.002,
+    "speaker": "Freeberg",
+    "text": "hyper"
+  },
+  {
+    "start": 954.002,
+    "end": 954.102,
+    "speaker": "Sacks",
+    "text": "scalers."
+  },
+  {
+    "start": 954.102,
+    "end": 954.352,
+    "speaker": "Freeberg",
+    "text": "scales."
+  },
+  {
+    "start": 954.702,
+    "end": 954.852,
+    "speaker": "Sacks",
+    "text": "Correct."
+  },
+  {
+    "start": 954.852,
+    "end": 971.202,
+    "speaker": "Freeberg",
+    "text": "I mean, Google is doing what, like 120 billion a quarter, something like that, 100 billion a quarter. But growing at what, 20% year over year, not 100%. It's certainly not 1000%. So the fact that Anthropic could be on track, in fact, let me"
+  },
+  {
+    "start": 971.202,
+    "end": 971.402,
+    "speaker": "Sacks",
+    "text": "You"
+  },
+  {
+    "start": 971.402,
+    "end": 971.652,
+    "speaker": "Freeberg",
+    "text": "correct that."
+  },
+  {
+    "start": 971.652,
+    "end": 971.902,
+    "speaker": "Sacks",
+    "text": "see them"
+  },
+  {
+    "start": 971.902,
+    "end": 972.002,
+    "speaker": "Freeberg",
+    "text": "They"
+  },
+  {
+    "start": 972.002,
+    "end": 972.252,
+    "speaker": "Sacks",
+    "text": "going to"
+  },
+  {
+    "start": 972.252,
+    "end": 972.352,
+    "speaker": "Freeberg",
+    "text": "are"
+  },
+  {
+    "start": 972.352,
+    "end": 972.502,
+    "speaker": "Sacks",
+    "text": "the mag"
+  },
+  {
+    "start": 972.502,
+    "end": 972.652,
+    "speaker": "Freeberg",
+    "text": "on"
+  },
+  {
+    "start": 972.652,
+    "end": 972.802,
+    "speaker": "Sacks",
+    "text": "eight."
+  },
+  {
+    "start": 972.802,
+    "end": 972.952,
+    "speaker": "Freeberg",
+    "text": "track."
+  },
+  {
+    "start": 972.952,
+    "end": 973.802,
+    "speaker": "Sacks",
+    "text": "It'll be a mag eight."
+  },
+  {
+    "start": 973.802,
+    "end": 993.172,
+    "speaker": "Freeberg",
+    "text": "I'm saying something else, which is that. Unless something about their current trajectory changes, Anthropic will be the most powerful monopoly ever created in human history. Again, it will be, you know, a trillion dollars of ARR. growing at some exponential."
+  },
+  {
+    "start": 993.422,
+    "end": 994.172,
+    "speaker": "Sacks",
+    "text": "Interesting."
+  },
+  {
+    "start": 994.172,
+    "end": 997.772,
+    "speaker": "Freeberg",
+    "text": "Dario calls it AGI. I call it the biggest monopoly in human history."
+  },
+  {
+    "start": 997.772,
+    "end": 1003.572,
+    "speaker": "Sacks",
+    "text": "Interesting to hear that word monopoly, Sachs. Very interesting placement. Chamath, go ahead and then we'll"
+  },
+  {
+    "start": 1003.572,
+    "end": 1031.312,
+    "speaker": "Chamath",
+    "text": "Not just Apple in 2025 was $420 billion. Microsoft was $300 billion. Alphabet was $390 billion. Amazon $700 billion. Nvidia $190 billion. Meta $185 billion. Tesla $110 billion total. about 2.3 to 2.35 trillion so if Sachs is right and anthropic you know can tack on a trillion it won't be the mag seven it'll be the mag one"
+  },
+  {
+    "start": 1031.962,
+    "end": 1037.062,
+    "speaker": "Sacks",
+    "text": "Just to put it in perspective, though, Dario on Dorkish said he thought that combined AI revenue."
+  },
+  {
+    "start": 1038.004,
+    "end": 1050.604,
+    "speaker": "Chamath",
+    "text": "The market leaders would be about a trillion in 29. I love what you're saying, Sachs. I think there is unlimited TAM. We may be over our skis a little bit in terms of, you know, the forecast. If you back your way from compute, right,"
+  },
+  {
+    "start": 1050.754,
+    "end": 1066.09,
+    "speaker": "Chamath",
+    "text": "they expect to have five gigs by the end of this year, 10 gigs by the end of next year. It's kind of hard to get to those numbers for a single company, but I do believe that the trajectory that they're on, I totally agree with you, is on an exponential that not many people believed in four months ago. That's a go."
+  },
+  {
+    "start": 1066.09,
+    "end": 1080.746,
+    "speaker": "Freeberg",
+    "text": "Right. So then the question is, OK, I think we all agree they're on an exponential curve and that the TAM is big enough to support that. Just one data point on TAM, my understanding of the total market size just on coding. is one trillion,"
+  },
+  {
+    "start": 1080.796,
+    "end": 1093.196,
+    "speaker": "Freeberg",
+    "text": "meaning that a trillion dollars a year roughly is spent on software developers and all things related to the creation of software. Now, I'm not saying that they eat that entire market, but I can easily see the market for software doubling,"
+  },
+  {
+    "start": 1093.196,
+    "end": 1093.946,
+    "speaker": "Chamath",
+    "text": "I think it's more than that."
+  },
+  {
+    "start": 1093.946,
+    "end": 1098.396,
+    "speaker": "Freeberg",
+    "text": "well, hold on, doubling from a trillion to two trillion, given that"
+  },
+  {
+    "start": 1099.316,
+    "end": 1126.866,
+    "speaker": "Freeberg",
+    "text": "coding tokens basically 10x's or 100x's the value of that market and the ability to generate code so i think we all agree that the tam here is large enough to support a trillion dollars of revenue brad i think you bring up a couple of really important constraints first there may not be enough compute and there's not enough energy i say the second big one is what's the competitive reaction going to be because i would say at the beginning of this year all these frontier labs were playing around with a lot of different things you"
+  },
+  {
+    "start": 1126.644,
+    "end": 1154.744,
+    "speaker": "Freeberg",
+    "text": "things i mean anthropic was the porcupine they believed in one thing all these other companies were kind of acting like the fox who thinks they're good at a lot of different things they were doing nanobanana they were doing sora they were doing you know they were doing image generation they were doing fantasy character chatbots in hindsight they were doing a lot of things that appear to be kind of a waste of time the whole market appears now to be coding and the things that we built on coding tokens like co-work like agents"
+  },
+  {
+    "start": 1155.156,
+    "end": 1165.856,
+    "speaker": "Freeberg",
+    "text": "And so there is going to be a competitive response here where all the other guys realize, oh, wait a second, we were misfocused. They're going to get focused. I just don't know how much share they're going to be able to take."
+  },
+  {
+    "start": 1165.956,
+    "end": 1179.056,
+    "speaker": "Freeberg",
+    "text": "It does look like OpenAI has already made the pivot. We hear very good things about codecs now based on GPT 5.5. 5.5 is based on a new base model called SPUD. I think they're very optimistic about continuing improvements."
+  },
+  {
+    "start": 1179.406,
+    "end": 1199.816,
+    "speaker": "Freeberg",
+    "text": "Their rate of growth appears to be accelerating now. because of 5.5. So look, there's reason to believe that OpenAI can take some share here. I'm sure that Google won't be asleep at the wheel. They're very, very good at coding. They've got a really good team and Elon just tied up with Cursor. So there is going to be more competition, but still what you have to say."
+  },
+  {
+    "start": 1200.0,
+    "end": 1215.248,
+    "speaker": "Sacks",
+    "text": "Hey, and I think all of us know this from Silicon Valley is you always want to be the company in the lead that's on that trajectory where all you have to do is maintain inertia, whereas the other people have to change something. in order to put themselves back in the race so"
+  },
+  {
+    "start": 1215.248,
+    "end": 1215.598,
+    "speaker": "Jason",
+    "text": "Good"
+  },
+  {
+    "start": 1215.598,
+    "end": 1215.698,
+    "speaker": "Sacks",
+    "text": "this"
+  },
+  {
+    "start": 1215.698,
+    "end": 1215.898,
+    "speaker": "Jason",
+    "text": "point."
+  },
+  {
+    "start": 1215.898,
+    "end": 1224.698,
+    "speaker": "Sacks",
+    "text": "is when i say somewhat sort of facetiously congratulations daria on winning the ai race i don't mean that he's won it but he is winning it right now"
+  },
+  {
+    "start": 1224.798,
+    "end": 1252.62,
+    "speaker": "Jason",
+    "text": "But here's the brilliance of what Elon's doing. If you look at the existing business, which is Starlink and basically the launch services at SpaceX, incredible business, obviously. $20 billion this year, I think, is the estimate. But if you look at the footprint of Amazon Web Services, Azure and GCP, you're looking at, you know, $300 billion in revenue. and a market cap of combined 5 trillion,"
+  },
+  {
+    "start": 1252.87,
+    "end": 1265.37,
+    "speaker": "Jason",
+    "text": "4 trillion if these were independent companies. And if you look at what is Elon's core competency at Tesla, it's building factories. And if you look at the footprint of these factories, they're huge. What are data centers?"
+  },
+  {
+    "start": 1265.47,
+    "end": 1275.67,
+    "speaker": "Jason",
+    "text": "They're basically big giant factories. And then if you look at energy, what else is Elon extremely good at? This is the battery deployment and he's also got solar deployment from the solar city."
+  },
+  {
+    "start": 1276.18,
+    "end": 1289.63,
+    "speaker": "Jason",
+    "text": "often criticize acquisition he did years ago so you put this all together if this is five billion as i think you referenced brad if it's five billion dollars in incremental elon web services business and he's a neocloud"
+  },
+  {
+    "start": 1290.196,
+    "end": 1318.096,
+    "speaker": "Jason",
+    "text": "what could he build on planet earth what could he build inside of teslas in terms of extra compute what could he build inside the power wall what if the power walls had his new fabs in them and you built a distributed system from home to home the power wall has compute in it the cars have compute in it and of course the ultimate manifestation of this where nobody can complain is you go right out into space and that's what he's going to do and the the sneaky small"
+  },
+  {
+    "start": 1318.1,
+    "end": 1334.25,
+    "speaker": "Jason",
+    "text": "Small part of this announcement from Elon and from Anthropic and Dario was they're also interested in space. So look for the race to go from factories and data centers to homes. The Powerwall with computer in it, it's already online, right?"
+  },
+  {
+    "start": 1334.35,
+    "end": 1344.8,
+    "speaker": "Jason",
+    "text": "And Starlink also gives them the ability to do distributed compute to people's homes. Again, you could be paying people to put Powerwalls with computer in it. That's going to be the next shoe to drop, I believe."
+  },
+  {
+    "start": 1344.948,
+    "end": 1352.148,
+    "speaker": "Chamath",
+    "text": "Did you guys see the deal that was announced yesterday between Pulti Homes, which is a huge builder,"
+  },
+  {
+    "start": 1352.148,
+    "end": 1352.298,
+    "speaker": "Jason",
+    "text": "they're"
+  },
+  {
+    "start": 1352.298,
+    "end": 1352.698,
+    "speaker": "Chamath",
+    "text": "and"
+  },
+  {
+    "start": 1352.698,
+    "end": 1352.848,
+    "speaker": "Jason",
+    "text": "doing it"
+  },
+  {
+    "start": 1352.848,
+    "end": 1352.998,
+    "speaker": "Chamath",
+    "text": "NVIDIA"
+  },
+  {
+    "start": 1352.998,
+    "end": 1353.298,
+    "speaker": "Jason",
+    "text": "as well."
+  },
+  {
+    "start": 1353.298,
+    "end": 1369.868,
+    "speaker": "Chamath",
+    "text": "and SPAN? Nick, just throw this up here. It's super cool. What's happening is that these guys are putting many data centers with NVIDIA GPU clusters. beside every home and then allowing people to actually run those things and that's just incredible i thought that was so cool so"
+  },
+  {
+    "start": 1369.868,
+    "end": 1383.068,
+    "speaker": "Jason",
+    "text": "It's a great pivot. What this company did originally, Chamath, was they did the power panel. They made smart power panels. So, you know, when you flip your breakers, all those breakers are in an app. I looked at it for my house, but I guess they pivoted to add this. And I think base power, Brad,"
+  },
+  {
+    "start": 1383.068,
+    "end": 1383.118,
+    "speaker": "Chamath",
+    "text": "i"
+  },
+  {
+    "start": 1383.118,
+    "end": 1383.368,
+    "speaker": "Jason",
+    "text": "you're an investor"
+  },
+  {
+    "start": 1383.368,
+    "end": 1383.718,
+    "speaker": "Chamath",
+    "text": "love that"
+  },
+  {
+    "start": 1383.718,
+    "end": 1388.828,
+    "speaker": "Jason",
+    "text": "in it. They're going to do the same thing. Zach Dell is doing that. One of the things I just would say in response, Jason, to what"
+  },
+  {
+    "start": 1388.828,
+    "end": 1388.928,
+    "speaker": "Sacks",
+    "text": "you Yep."
+  },
+  {
+    "start": 1388.928,
+    "end": 1412.828,
+    "speaker": "Jason",
+    "text": "just said about Elon, right? This is why the SpaceX IPO is going to trade at 40 to 50 times revenue, okay? So next year, if they do 40 to 50 billion and this thing goes out at 2 trillion, right? They're going to trade at a really high revenue multiple compared to the MAG-5 that are trading at like 25 times earnings. And there's only one person on the planet."
+  },
+  {
+    "start": 1413.204,
+    "end": 1434.954,
+    "speaker": "Jason",
+    "text": "who has a future pipeline of innovation and the largest TAM in the world because he's playing in all these different spaces that can command that multiple and it's Elon and it's deserved and And it's great Tesla for the country. has that same Elon variable in it as well, which is people value his companies at, I would say, two times market, three times market,"
+  },
+  {
+    "start": 1435.004,
+    "end": 1437.154,
+    "speaker": "Jason",
+    "text": "four times market because of the future pipeline."
+  },
+  {
+    "start": 1437.154,
+    "end": 1437.404,
+    "speaker": "Chamath",
+    "text": "You"
+  },
+  {
+    "start": 1437.404,
+    "end": 1437.504,
+    "speaker": "Jason",
+    "text": "And"
+  },
+  {
+    "start": 1437.504,
+    "end": 1437.754,
+    "speaker": "Chamath",
+    "text": "guys,"
+  },
+  {
+    "start": 1437.754,
+    "end": 1443.38,
+    "speaker": "Jason",
+    "text": "they devalue Apple because they don't have somebody like Elon. on our Steve Jobs there who is giving them the future."
+  },
+  {
+    "start": 1443.43,
+    "end": 1444.38,
+    "speaker": "Chamath",
+    "text": "I don't think it's devalued."
+  },
+  {
+    "start": 1444.38,
+    "end": 1451.93,
+    "speaker": "Jason",
+    "text": "Or properly valued if you don't have an Elon and you have somebody like, I think that's exactly what it is. We talked about this last week, but explain why you think it's different."
+  },
+  {
+    "start": 1451.93,
+    "end": 1466.38,
+    "speaker": "Chamath",
+    "text": "I think all of these companies are actually very fairly valued and then Elon world gets a premium and that premium is because of what you guys said that I agree with. The big message that I take away from this, which the markets"
+  },
+  {
+    "start": 1467.348,
+    "end": 1493.648,
+    "speaker": "Chamath",
+    "text": "and retail are telling you is you guys have stopped innovating there's a lot of incrementalism and we as a society aren't benefiting broadly the way that you told us we would be and so maybe this is the best way for them to get this message which is to whack their valuation and by the way i'll just say it again when tesla and spacex merge and we have all things elon and elon corp okay which will happen"
+  },
+  {
+    "start": 1494.164,
+    "end": 1519.664,
+    "speaker": "Chamath",
+    "text": "probably by the end of the year maybe it'll happen in the middle of next year it's going to then break everybody's brains again because you'll have this one asset as you guys said that will trade at a valuation premium and some people will say it's unexplainable and i think it's logically explainable which is everybody else has stopped innovating people know how to draw more blood from the stone how to target better ads"
+  },
+  {
+    "start": 1521.044,
+    "end": 1523.144,
+    "speaker": "Chamath",
+    "text": "That does nothing for society anymore."
+  },
+  {
+    "start": 1523.144,
+    "end": 1523.894,
+    "speaker": "Jason",
+    "text": "that's literally,"
+  },
+  {
+    "start": 1524.094,
+    "end": 1527.544,
+    "speaker": "Chamath",
+    "text": "in fact, it does the opposite. There is no good left."
+  },
+  {
+    "start": 1527.544,
+    "end": 1540.344,
+    "speaker": "Jason",
+    "text": "That was literally the exact point I was making when you cut me off. If you look, Tim Cook's greatest innovation, Tim Cook's greatest innovation before you cut me off was Apple TV, not even the hardware product. It was just spending money and making a"
+  },
+  {
+    "start": 1540.344,
+    "end": 1540.394,
+    "speaker": "Chamath",
+    "text": "But"
+  },
+  {
+    "start": 1540.394,
+    "end": 1540.794,
+    "speaker": "Jason",
+    "text": "Netflix knockoff."
+  },
+  {
+    "start": 1540.794,
+    "end": 1541.144,
+    "speaker": "Chamath",
+    "text": "you're being"
+  },
+  {
+    "start": 1541.144,
+    "end": 1541.494,
+    "speaker": "Jason",
+    "text": "There's been no"
+  },
+  {
+    "start": 1541.494,
+    "end": 1541.594,
+    "speaker": "Chamath",
+    "text": "derogatory."
+  },
+  {
+    "start": 1541.594,
+    "end": 1542.994,
+    "speaker": "Jason",
+    "text": "other product in,"
+  },
+  {
+    "start": 1542.994,
+    "end": 1545.644,
+    "speaker": "Chamath",
+    "text": "Hold on. Let me finish again before you interrupt me making"
+  },
+  {
+    "start": 1545.644,
+    "end": 1545.694,
+    "speaker": "Jason",
+    "text": "you"
+  },
+  {
+    "start": 1545.694,
+    "end": 1547.044,
+    "speaker": "Chamath",
+    "text": "my points. don't like that? Oh, you don't like being interrupted?"
+  },
+  {
+    "start": 1548.276,
+    "end": 1548.476,
+    "speaker": "Jason",
+    "text": "Interesting."
+  },
+  {
+    "start": 1548.476,
+    "end": 1549.476,
+    "speaker": "Chamath",
+    "text": "Okay. go back to your mom."
+  },
+  {
+    "start": 1549.826,
+    "end": 1550.876,
+    "speaker": "Sacks",
+    "text": "Hot meat kettle."
+  },
+  {
+    "start": 1552.244,
+    "end": 1567.894,
+    "speaker": "Jason",
+    "text": "if you look at their track record and i think this is why we had a change there is they have not done anything innovative and in fact the things they were doing that were innovating in ai or self-driving cars they shut down they won't take any swing to the bat so they are getting penalized"
+  },
+  {
+    "start": 1567.894,
+    "end": 1568.094,
+    "speaker": "Chamath",
+    "text": "they're"
+  },
+  {
+    "start": 1568.094,
+    "end": 1568.494,
+    "speaker": "Jason",
+    "text": "in their evaluation"
+  },
+  {
+    "start": 1568.494,
+    "end": 1571.744,
+    "speaker": "Chamath",
+    "text": "not getting penalized they're just not getting a premium they're not getting"
+  },
+  {
+    "start": 1571.744,
+    "end": 1572.844,
+    "speaker": "Jason",
+    "text": "penalized i think they're getting penalized"
+  },
+  {
+    "start": 1572.844,
+    "end": 1576.594,
+    "speaker": "Chamath",
+    "text": "by every metric they're trading at incredible valuations just look at them"
+  },
+  {
+    "start": 1576.844,
+    "end": 1584.576,
+    "speaker": "Jason",
+    "text": "oh no i don't i mean if you compare the two valuations situations i think they're being penalized anyway let's anybody else want to get in on this before we move on to the next one yeah uh"
+  },
+  {
+    "start": 1584.576,
+    "end": 1602.512,
+    "speaker": "Chamath",
+    "text": "There is no world in which Google and Meta and Apple and Amazon could be viewed as being penalized in valuation. There is very clearly a world where Elon gets a massive premium because he's innovating. You're saying the same things. You're saying"
+  },
+  {
+    "start": 1602.512,
+    "end": 1602.562,
+    "speaker": "Jason",
+    "text": "I"
+  },
+  {
+    "start": 1602.562,
+    "end": 1602.862,
+    "speaker": "Chamath",
+    "text": "the same"
+  },
+  {
+    "start": 1602.862,
+    "end": 1602.912,
+    "speaker": "Jason",
+    "text": "think"
+  },
+  {
+    "start": 1602.912,
+    "end": 1603.012,
+    "speaker": "Chamath",
+    "text": "things."
+  },
+  {
+    "start": 1603.012,
+    "end": 1604.512,
+    "speaker": "Jason",
+    "text": "we're saying the same thing. It's not Okay,"
+  },
+  {
+    "start": 1604.512,
+    "end": 1605.112,
+    "speaker": "Chamath",
+    "text": "the same thing."
+  },
+  {
+    "start": 1605.112,
+    "end": 1623.686,
+    "speaker": "Jason",
+    "text": "listen, I think we're debating semantics here. I'm not letting you off the hook, sexy poo. When Sachs is very deliberate in how he speaks, they said he's the captain of the debate club in his 20,000 word article this week and that he's a master debater. He's a masturbator. And you slipped in, you slipped it in."
+  },
+  {
+    "start": 1624.186,
+    "end": 1638.072,
+    "speaker": "Jason",
+    "text": "Are you saying that the FTC or whoever should be going in and looking at Anthrop? Oh, Brad's book is getting attacked. Headwinds. You said they're a monopoly or they're heading to monopoly tactics. Is that what you're saying? Bang?"
+  },
+  {
+    "start": 1638.922,
+    "end": 1639.972,
+    "speaker": "Sacks",
+    "text": "Well, look, I mean,"
+  },
+  {
+    "start": 1639.972,
+    "end": 1640.122,
+    "speaker": "Jason",
+    "text": "Provocative."
+  },
+  {
+    "start": 1640.122,
+    "end": 1657.022,
+    "speaker": "Sacks",
+    "text": "we know that tech markets have a history of consolidating down and turning into either monopolies or duopolies. And if you just look at the revenue right now, there's only two companies making substantial revenue on AI. It's Anthropic and OpenAI."
+  },
+  {
+    "start": 1657.272,
+    "end": 1677.412,
+    "speaker": "Sacks",
+    "text": "We know that OpenAI is growing at three to four X, which is incredible at the level of scale they're at. Anthropic, though, we said is growing at an exponential 10 X a year. And if they just do that for 18 more months, they'll be by far the most valuable company in human history and they'll have unprecedented control over the most important technology of our time."
+  },
+  {
+    "start": 1677.462,
+    "end": 1696.782,
+    "speaker": "Sacks",
+    "text": "So I don't know what you call that, but it is something to think about. And I guess I do have a thought experiment for you guys, which is I just want you to think for a second about the case of John D. Rockefeller, who I think is known as probably. the most successful, most"
+  },
+  {
+    "start": 1696.782,
+    "end": 1697.482,
+    "speaker": "Chamath",
+    "text": "Greatest business"
+  },
+  {
+    "start": 1697.482,
+    "end": 1697.632,
+    "speaker": "Sacks",
+    "text": "ruthless"
+  },
+  {
+    "start": 1697.632,
+    "end": 1697.882,
+    "speaker": "Chamath",
+    "text": "guy ever."
+  },
+  {
+    "start": 1697.882,
+    "end": 1709.832,
+    "speaker": "Sacks",
+    "text": "monopolist in American history. But he wasn't very good at PR. He was terrible at PR. Everyone sort of recognized how ruthless he is. We see movies like There Will Be Blood, which is basically about him. In any event,"
+  },
+  {
+    "start": 1709.932,
+    "end": 1721.476,
+    "speaker": "Sacks",
+    "text": "imagine if John D. Rockefeller was way better at public relations and instead of calling his company Standard Oil, he called it Safe Oil. Okay, let's just play this thought experiment."
+  },
+  {
+    "start": 1721.476,
+    "end": 1723.326,
+    "speaker": "Jason",
+    "text": "Plain beautiful coal. Yes, yes"
+  },
+  {
+    "start": 1723.326,
+    "end": 1724.176,
+    "speaker": "Sacks",
+    "text": "Safe oil."
+  },
+  {
+    "start": 1724.176,
+    "end": 1724.326,
+    "speaker": "Jason",
+    "text": "Love"
+  },
+  {
+    "start": 1724.326,
+    "end": 1724.676,
+    "speaker": "Sacks",
+    "text": "He called"
+  },
+  {
+    "start": 1724.676,
+    "end": 1724.776,
+    "speaker": "Jason",
+    "text": "it."
+  },
+  {
+    "start": 1724.776,
+    "end": 1740.226,
+    "speaker": "Sacks",
+    "text": "it safe oil because, as we know, kerosene is dangerous. Their first big product was kerosene. And kerosene can light your house or it can burn it down. And in the wrong hands, it can torch a city or you can use it to make a bomb. So John D."
+  },
+  {
+    "start": 1740.98,
+    "end": 1762.328,
+    "speaker": "Sacks",
+    "text": "Let's say should have called for the creation of a new government agency to regulate the safety of his product and they could have done rigorous testing, licensing, common sense regulation. There would have been a very intense debate over safety standards. You know, what should the proper wick thickness be and should we allow all those? dangerous independent refiners, right?"
+  },
+  {
+    "start": 1762.528,
+    "end": 1781.178,
+    "speaker": "Sacks",
+    "text": "And I think people would have gotten so wrapped up in this debate over what constituted safe oil or safe kerosene that they would have missed what was really going on, which is that Rockefeller was building the richest, most powerful monopoly of all time. In fact, people might even have called Rockefeller an effective altruist because,"
+  },
+  {
+    "start": 1781.328,
+    "end": 1785.726,
+    "speaker": "Sacks",
+    "text": "of course, he was so concerned about the safety. of his product."
+  },
+  {
+    "start": 1785.726,
+    "end": 1788.976,
+    "speaker": "Jason",
+    "text": "I love it. Shout out to David Sachs' writers. Great,"
+  },
+  {
+    "start": 1788.976,
+    "end": 1789.926,
+    "speaker": "Chamath",
+    "text": "Who wrote this?"
+  },
+  {
+    "start": 1789.926,
+    "end": 1790.276,
+    "speaker": "Jason",
+    "text": "great writers."
+  },
+  {
+    "start": 1790.276,
+    "end": 1791.976,
+    "speaker": "Chamath",
+    "text": "Newman? Newman wrote this?"
+  },
+  {
+    "start": 1791.976,
+    "end": 1792.876,
+    "speaker": "Sacks",
+    "text": "No, I wrote it."
+  },
+  {
+    "start": 1792.876,
+    "end": 1798.626,
+    "speaker": "Jason",
+    "text": "Emmy Award for best writing in a dramatic monologue goes to Newman. Wow, Sachs."
+  },
+  {
+    "start": 1798.626,
+    "end": 1799.126,
+    "speaker": "Sacks",
+    "text": "that's my writing."
+  },
+  {
+    "start": 1799.126,
+    "end": 1801.176,
+    "speaker": "Jason",
+    "text": "You landed it. Very good, Sachs."
+  },
+  {
+    "start": 1801.176,
+    "end": 1813.326,
+    "speaker": "Unknown",
+    "text": "I thought after the Elon Anthropic detect where Elon said, you know, complimented Anthropic that and David started off with a bit of a compliment. I thought we maybe were past this. First, it's ridiculous to think of this as a monopoly."
+  },
+  {
+    "start": 1814.068,
+    "end": 1833.718,
+    "speaker": "Unknown",
+    "text": "You know, we're talking about annual run rate revenues, David, but on a gap basis, they're doing about the same revenue as OpenAI in the month of March. OK, so we're way ahead of ourselves. By the way, five months ago, everybody thought OpenAI was going to run away with this. Google's revenues are very substantial in AI. And by the way, Google, Amazon,"
+  },
+  {
+    "start": 1833.868,
+    "end": 1844.692,
+    "speaker": "Unknown",
+    "text": "et cetera, these companies are producing $100 billion of free cash flow to justify their incremental investment. At the same time, you have these two startups that are. that are still fledgling, that are still fragile in the scheme of things."
+  },
+  {
+    "start": 1845.14,
+    "end": 1866.04,
+    "speaker": "Unknown",
+    "text": "You of all people should know we've got the best competition in AI on the planet, which is why we're at the frontier and kicking the tail of everybody else on the planet. So I just want to see these companies compete. I want to see DC stay out of the way. The last thing I want to be doing is, you know, seeing people talk about this and throwing roadblocks into the way of the competition."
+  },
+  {
+    "start": 1866.04,
+    "end": 1866.44,
+    "speaker": "Sacks",
+    "text": "All right."
+  },
+  {
+    "start": 1866.44,
+    "end": 1867.69,
+    "speaker": "Unknown",
+    "text": "I think Anthropik"
+  },
+  {
+    "start": 1867.69,
+    "end": 1867.84,
+    "speaker": "Sacks",
+    "text": "I agree."
+  },
+  {
+    "start": 1867.84,
+    "end": 1868.04,
+    "speaker": "Unknown",
+    "text": "is."
+  },
+  {
+    "start": 1868.09,
+    "end": 1883.468,
+    "speaker": "Jason",
+    "text": "Well, let me let me hold on. Let me translate Brad for you. Don't f*** with my paper is what he's saying. He's got bets on these. I mean, so Saks, Washington, D.C., don't f*** with Brad's paper. Saks, do you want to get into the regulation stuff right now as a segue?"
+  },
+  {
+    "start": 1883.668,
+    "end": 1888.668,
+    "speaker": "Sacks",
+    "text": "Let me respond to Brad and also translate what I'm saying satirically. OK, so"
+  },
+  {
+    "start": 1888.668,
+    "end": 1888.968,
+    "speaker": "Jason",
+    "text": "Satirically."
+  },
+  {
+    "start": 1888.968,
+    "end": 1911.334,
+    "speaker": "Sacks",
+    "text": "first of all, nobody wants to see these companies compete vigorously more than me. That was the whole premise. of the action plan that we worked on last year is we want to bring out the best in everyone. This is how America is going to win the AI race. We have five major labs vigorously competing. And as long as that competition is taking place, I think that's a good thing."
+  },
+  {
+    "start": 1911.384,
+    "end": 1921.884,
+    "speaker": "Sacks",
+    "text": "It doesn't mean we can't have guardrails in the rest of it, but basically competition should be our North Star. All that being said, okay, what I am pointing out, and I think it's historically true."
+  },
+  {
+    "start": 1922.612,
+    "end": 1948.072,
+    "speaker": "Sacks",
+    "text": "that people in Washington have woken up to monopolies on the late side, not early, right? Because, I mean, once a company has won 80% of the market, that's when they wake up and say, oh, we have a monopoly here. And I'm not saying that they have a monopoly yet, but if the trajectory continues for just 18 more months. then I think it will be in this unprecedentedly powerful position and"
+  },
+  {
+    "start": 1948.072,
+    "end": 1948.822,
+    "speaker": "Unknown",
+    "text": "I mean, I mean..."
+  },
+  {
+    "start": 1948.822,
+    "end": 1970.522,
+    "speaker": "Sacks",
+    "text": "and hold on and I don't think people should be distracted from that fact by this rhetoric around safety because someone like Rockefeller could have used it too and I do think I mean just like one one last point on this I do think that if you actually look at what a lot of the the safest policies are calling for you"
+  },
+  {
+    "start": 1970.068,
+    "end": 1983.968,
+    "speaker": "Sacks",
+    "text": "They're basically calling for a form of regulatory capture, and they're calling for things that would create a stronger moat around this monopoly or duopoly that's in the process of being created, and it would get in the way of competition. So again,"
+  },
+  {
+    "start": 1984.068,
+    "end": 2000.284,
+    "speaker": "Sacks",
+    "text": "I think that people might not have such a charitable view of all this safety rhetoric if they understood that what was being created here is the biggest monopoly in human history. And I think we should just be a little bit more skeptical about some of these altruistic claims."
+  },
+  {
+    "start": 2000.384,
+    "end": 2014.306,
+    "speaker": "Unknown",
+    "text": "I can't believe that David is like, you know, talking monopolies when we haven't even left the starting gate. of AI. I think this is a, to me,"
+  },
+  {
+    "start": 2014.306,
+    "end": 2014.456,
+    "speaker": "Sacks",
+    "text": "there's"
+  },
+  {
+    "start": 2014.456,
+    "end": 2015.006,
+    "speaker": "Unknown",
+    "text": "the"
+  },
+  {
+    "start": 2015.006,
+    "end": 2016.406,
+    "speaker": "Sacks",
+    "text": "only two companies with revenue look"
+  },
+  {
+    "start": 2016.406,
+    "end": 2029.056,
+    "speaker": "Unknown",
+    "text": "last thing I want is DC trying to preemptively, preemptively, which would be like a disastrous consequence. Get in the game of picking winners and losers at the starting line of AI. That would be a disaster."
+  },
+  {
+    "start": 2029.356,
+    "end": 2032.806,
+    "speaker": "Jason",
+    "text": "Brad, did you just put another soapbox on top of the soapbox you were standing on?"
+  },
+  {
+    "start": 2034.756,
+    "end": 2040.398,
+    "speaker": "Sacks",
+    "text": "brad like i said my north star is competition as long as it's competition going on i support it however"
+  },
+  {
+    "start": 2040.398,
+    "end": 2040.748,
+    "speaker": "Unknown",
+    "text": "I was going to say, please."
+  },
+  {
+    "start": 2040.748,
+    "end": 2060.474,
+    "speaker": "Sacks",
+    "text": "hold on hold on we know that monopolists want to stop competition and they use regulatory capture to do it and furthermore they do things like ban their competitors from using their product what conceivable reason Did Anthropic have for banning OpenClaw using its models? That is anti-competitive, is it not?"
+  },
+  {
+    "start": 2061.024,
+    "end": 2061.474,
+    "speaker": "Jason",
+    "text": "I would"
+  },
+  {
+    "start": 2061.474,
+    "end": 2061.824,
+    "speaker": "Chamath",
+    "text": "I mean,"
+  },
+  {
+    "start": 2061.824,
+    "end": 2071.724,
+    "speaker": "Jason",
+    "text": "double click on it. Double click on it. I might not, you know, file, but I would double click. Okay, listen, Chamath, the girls are fighting. Let's keep moving through the docket. We're going to be here all day with these two."
+  },
+  {
+    "start": 2072.124,
+    "end": 2081.274,
+    "speaker": "Jason",
+    "text": "And one thing that you're going to need to act on very quickly is the All In Summit. It's selling out fast. Don't miss it. Speakers are top tier again. Freeberg, busy working on."
+  },
+  {
+    "start": 2081.332,
+    "end": 2108.132,
+    "speaker": "Jason",
+    "text": "some amazing speakers sax will be there he's flying in and out every day for four hours and then we're we're going to have a lot of networking stuff going down we're building some networking software so when you come to our events you get to meet people that's what we always say my playbook for events if you learn something from the speakers every day one or two things if you meet somebody new and you eat some great food and have some fun you get two or three of those things ah man even if you get one you're going to come back to the event you're going to get all"
+  },
+  {
+    "start": 2108.052,
+    "end": 2136.752,
+    "speaker": "Jason",
+    "text": "all three all day long all in.com slash events los angeles september 13th 14th and 15th apologies to everybody asking but liquidity is sold out and we've shut down the wait list there's just no more room all right the white house allegedly possibly is considering according to reports an fda for ai that would vet you heard that correct folks that would vet new models for safety the thing we've been talking about not doing here that"
+  },
+  {
+    "start": 2136.596,
+    "end": 2152.746,
+    "speaker": "Jason",
+    "text": "The thing David Sachs has spent the last year on, the White House is considering. New York Times reported Trump is considering an executive order to create a quote AI working group. This group would include tech execs and government officials who would quote examine potential oversight procedures."
+  },
+  {
+    "start": 2153.876,
+    "end": 2169.676,
+    "speaker": "Jason",
+    "text": "including, quote, a review process for new AI models. Oy, according to the report, the catalyst was, wait for it, Anthropics mythos model, which reportedly scared, spooked, made people really nervous at the White House."
+  },
+  {
+    "start": 2169.776,
+    "end": 2188.628,
+    "speaker": "Jason",
+    "text": "Quote, the White House wants to avoid any political repercussions if a devastating AI-enabled cyber attack were to occur. They want to see YA, according to the New York Times. Kevin Hassett, that guy, the director of the National Economic Council, confirmed the report on Fox Business. Here's your 15-second clip."
+  },
+  {
+    "start": 2188.628,
+    "end": 2205.928,
+    "speaker": "Unknown",
+    "text": "We're studying possibly an executive order to give a clear roadmap to everybody about how this is going to go and how future AIs that also potentially create vulnerabilities should go through a process so that they're released in the wild after they've been proven safe, just like an FDA drug."
+  },
+  {
+    "start": 2206.528,
+    "end": 2211.116,
+    "speaker": "Jason",
+    "text": "Additionally. Friend of the pod, Scott Besson, had something"
+  },
+  {
+    "start": 2211.116,
+    "end": 2211.216,
+    "speaker": "Unknown",
+    "text": "What"
+  },
+  {
+    "start": 2211.216,
+    "end": 2211.516,
+    "speaker": "Jason",
+    "text": "to say."
+  },
+  {
+    "start": 2211.516,
+    "end": 2236.166,
+    "speaker": "Unknown",
+    "text": "we've had in the past month was a step change in the power of one large language model, but we're going to see it from the other AI companies. What we are determined to do is work with our AI companies to allow them to continue innovate. But our charge of the U.S. government is maintaining safety and there is a very important calculus here between innovation and safety."
+  },
+  {
+    "start": 2236.276,
+    "end": 2240.176,
+    "speaker": "Unknown",
+    "text": "And the U.S. government, we're going to make sure that things stay safe."
+  },
+  {
+    "start": 2240.176,
+    "end": 2246.726,
+    "speaker": "Jason",
+    "text": "There you go Kevin Hassett and Besant slightly different positions here Brad, what do you think?"
+  },
+  {
+    "start": 2247.076,
+    "end": 2255.876,
+    "speaker": "Unknown",
+    "text": "Actually, I don't think they're slightly different positions, but I would agree that Kevin bringing up the FDA kind of muddied the waters I talked to Kevin last night after that clip ran"
+  },
+  {
+    "start": 2256.756,
+    "end": 2267.456,
+    "speaker": "Unknown",
+    "text": "You know, and I asked him, I just said, do you think FDA is the right analog here? And he said, you know, I was I was only bringing it up to say that we want them to show us the models so that we can coordinate them."
+  },
+  {
+    "start": 2267.856,
+    "end": 2284.622,
+    "speaker": "Unknown",
+    "text": "Obviously, our job is to make sure that the government is prepared, that we harden our systems, that our intelligence agencies are up to speed. But he does not think and I can't find anybody. on the right that believes that we're going to move to an approval regime, right?"
+  },
+  {
+    "start": 2284.722,
+    "end": 2293.222,
+    "speaker": "Unknown",
+    "text": "The approval regime, this idea that you're going to have to share every model with an FDA in Washington and they're going to have to pre-approve the model is a disaster."
+  },
+  {
+    "start": 2293.572,
+    "end": 2306.122,
+    "speaker": "Unknown",
+    "text": "Sachs has been effectively fighting against this correctly over the course of the last year. It would lead to three bad things. Number one, we do not want to put the Washington in the position of picking winners and losers when it comes to"
+  },
+  {
+    "start": 2305.844,
+    "end": 2314.794,
+    "speaker": "Unknown",
+    "text": "when it comes to these models. We're winning. We're on the winning horse in America. We're out in front of the rest of the world. There's no reason to change horses and regimes at this point."
+  },
+  {
+    "start": 2314.844,
+    "end": 2327.238,
+    "speaker": "Unknown",
+    "text": "And we don't want to burden this with more democracy. But at the same time, obviously, I call these pre-AGI or AGI models, mistral, spud, et cetera. I see a lot of coordination going on between the industry and government."
+  },
+  {
+    "start": 2327.388,
+    "end": 2339.438,
+    "speaker": "Unknown",
+    "text": "I think we can do an even better job of evolving that framework so that everybody in government is on the same page. We need to build more capacity in government to quickly be able to do the cyber review on these models."
+  },
+  {
+    "start": 2339.538,
+    "end": 2358.306,
+    "speaker": "Unknown",
+    "text": "Right now, it takes too long when the coordination does occur. So we need to have a finite amount of time to get government feedback, etc. But the last thing that we want is an FDA of models sitting in Washington. Kevin understands that. Scott Besson understands that. So I expect that we will continue down the path that we've been on."
+  },
+  {
+    "start": 2358.356,
+    "end": 2374.256,
+    "speaker": "Jason",
+    "text": "Chamath, obviously, I think we all agree we don't need an FDA for AI, but there are things that reasonably people would want to have guardrails around AI. I'm sure you would agree it shouldn't be a total free-for-all."
+  },
+  {
+    "start": 2374.356,
+    "end": 2394.02,
+    "speaker": "Jason",
+    "text": "So what's your take on this? Is it just... somebody gave a bad analogy here or maybe some people were weaseling their way into the White House to try to shift things when Sachs was back at home or something. What's going on here? Give us the because that's what I think that's what people say. They say the last person to talk to Trump kind of has his ear and that things can bend a certain way."
+  },
+  {
+    "start": 2394.92,
+    "end": 2414.85,
+    "speaker": "Chamath",
+    "text": "I don't think it's a I think that there's a pretty profound vibe shift Respect to tech, tech oligarchs, Silicon Valley, and particularly the AI, that vibe shift has already happened on Main Street. And I think that that's starting to seep into Washington. I think that regulations are coming."
+  },
+  {
+    "start": 2415.5,
+    "end": 2435.06,
+    "speaker": "Chamath",
+    "text": "I think they'll be worse under a democratic regime, but I think that some form of oversight is going to exist under a Republican regime. The question that I think is worth asking is why? And if you listen to everybody's tone, it's all around the negatives of AI."
+  },
+  {
+    "start": 2436.11,
+    "end": 2450.36,
+    "speaker": "Chamath",
+    "text": "So I think we suffer from two things. Number one is we have horrible messaging. Nobody spends the time and the money to articulate the positive upside case so that there's broad based support. And two,"
+  },
+  {
+    "start": 2450.51,
+    "end": 2465.516,
+    "speaker": "Chamath",
+    "text": "the idea that there's going to be, as Sax said earlier, a few winners and many, many, many potential losers, I think is really disconcerting to everybody. And the response from the tech community, again,"
+  },
+  {
+    "start": 2465.566,
+    "end": 2481.764,
+    "speaker": "Chamath",
+    "text": "should be the leadership of the tech world coming together and actually reinvesting in America writ large. They're not doing that in enough of a scale that blunts this. So what you're seeing is the buildup of antibodies. Is it avoidable? Yes."
+  },
+  {
+    "start": 2482.464,
+    "end": 2500.014,
+    "speaker": "Chamath",
+    "text": "Are we doing a good job of avoiding it? Absolutely not. We're doing a horrible job. I'd give the community, the tech leaders, a D minus trending to an F. The response is what we're seeing. So I think the question, Jason, isn't regulation, no regulation. It's why did we get here?"
+  },
+  {
+    "start": 2501.332,
+    "end": 2524.032,
+    "speaker": "Chamath",
+    "text": "And I think we got here because the other version, the glass half full version, the demonstrated investment, the broad based uplifting of American society hasn't happened. And if it has, it's been very poorly communicated. And so the response is, hey, hold on, we're going to give three guys trillion dollar net worths and we're going to allow them to control the keys. That's why this is happening."
+  },
+  {
+    "start": 2524.032,
+    "end": 2525.832,
+    "speaker": "Jason",
+    "text": "Exactly correct. And it's very easy."
+  },
+  {
+    "start": 2526.836,
+    "end": 2555.636,
+    "speaker": "Jason",
+    "text": "facts to imagine all the bad things that can happen our minds are constructed to do that we're vigilant we look out for the tiger or you know the tornado to keep ourselves safe humans have a bias towards safety and they're going to think about you know deep fakes they're going to think about robotics and think about self-driving cars taking people's jobs they're going to think about you know all the dark things that could happen bioweapons etc and we don't have anybody out there really talking about all the positives that"
+  },
+  {
+    "start": 2555.668,
+    "end": 2581.768,
+    "speaker": "Jason",
+    "text": "That could happen. What's your take on the palace intrigue we all have here? What's going on in the palace, in the 47th administration around this debate? Who's leading Trump down the path of regulation and creating this AI FDA? We know you're part of the camp that wants to keep this train moving and not overregulated, not have regulatory capture. Who are the people trying to slow this down?"
+  },
+  {
+    "start": 2582.708,
+    "end": 2595.862,
+    "speaker": "Sacks",
+    "text": "Well, look, I think there's several things going on here. The first one is there's a lot of fake news. This whole idea of an FDA for AI, I don't think any senior official supports it, just like Brad was saying. I spoke to Haas as well."
+  },
+  {
+    "start": 2595.912,
+    "end": 2613.812,
+    "speaker": "Sacks",
+    "text": "That's not where his head is at. So I don't think anybody in the administration is saying they want an FDA for AI. Certainly, I don't think that's the way the president thinks about these issues. He's the most pro-innovation president we've ever had. And the White House chief of staff, Susie Wallace, just put out a statement last night that I think pretty much shoots this down."
+  },
+  {
+    "start": 2614.112,
+    "end": 2622.862,
+    "speaker": "Sacks",
+    "text": "So I think there's a big fake news component. Remember, it was not really the White House who was saying it was the New York Times. And really, I think actually Andrew Ross Storch."
+  },
+  {
+    "start": 2622.612,
+    "end": 2651.362,
+    "speaker": "Sacks",
+    "text": "a storken no i'm not criticizing him but he's a commentator and he's the one who said this first and then somehow that spin or that gloss somehow took on a life of its own and i think silicon valley reacted accordingly there's a very visceral negative reaction here because we know how damaging that would be to innovation but look i think the good news is that that was fake news second i think that there's another thing going on which is a straw manning of what"
+  },
+  {
+    "start": 2652.02,
+    "end": 2675.62,
+    "speaker": "Sacks",
+    "text": "The Trump administration did on AI in its first year. And in the same way that they want to spin this FDA for AI, they're also trying to spin what we did as this completely laissez-faire attitude where there'd be no regulations whatsoever, no guardrails. It's a way of criticizing what we did. They're trying to portray it as unsafe. In fact, if you look on March 20th, the White House released"
+  },
+  {
+    "start": 2676.244,
+    "end": 2693.944,
+    "speaker": "Sacks",
+    "text": "a national AI regulatory framework that I worked on in which we put out a four-page bulleted list of legislation that we would support if Congress wants to pass it. So we have not been against every conceivable regulation or every conceivable law."
+  },
+  {
+    "start": 2694.044,
+    "end": 2713.24,
+    "speaker": "Sacks",
+    "text": "We just believe that there should be specific solutions to specific problems as opposed to a giant power grab by Washington that would squash innovation. So I think that's point number two. Point number three is there is a legitimate thing happening here with let's call it mythos or cyber. OK,"
+  },
+  {
+    "start": 2713.29,
+    "end": 2729.782,
+    "speaker": "Sacks",
+    "text": "we know that it's not just mythos open AI now as a model that's just as cyber capable as mythos. And within three to six months, all the major frontier labs and including Chinese models will have cyber capabilities. In response to that,"
+  },
+  {
+    "start": 2729.882,
+    "end": 2745.832,
+    "speaker": "Sacks",
+    "text": "we do need there to be a hardening of systems and we do need there to be a scanning of code bases to find these vulnerabilities and patch them before the hackers do it because the hackers will have these capabilities in a matter of months."
+  },
+  {
+    "start": 2745.882,
+    "end": 2755.832,
+    "speaker": "Sacks",
+    "text": "That's a certainty because the same capabilities you use for cyber defense can also be used for cyber offense. It's the same tool set and open source models will have these capabilities anyway."
+  },
+  {
+    "start": 2755.832,
+    "end": 2758.942,
+    "speaker": "Jason",
+    "text": "They are. Anyway, They already have it to a certain extent, let's be honest. They have 80% of it,"
+  },
+  {
+    "start": 2758.942,
+    "end": 2759.042,
+    "speaker": "Sacks",
+    "text": "So look,"
+  },
+  {
+    "start": 2759.042,
+    "end": 2759.592,
+    "speaker": "Jason",
+    "text": "90% of it."
+  },
+  {
+    "start": 2759.592,
+    "end": 2785.76,
+    "speaker": "Sacks",
+    "text": "it's simply the case that AI will be good at cyber. And so we do need a response to that. Now, my view on what should that response be. Should be, first of all, we should want the government and the private sector to work cooperatively. And I think they are. We have a giant cybersecurity industry in the United States whose sole job it is to protect systems and protect against breaches and"
+  },
+  {
+    "start": 2785.76,
+    "end": 2786.21,
+    "speaker": "Jason",
+    "text": "We have"
+  },
+  {
+    "start": 2786.21,
+    "end": 2786.26,
+    "speaker": "Sacks",
+    "text": "hacking."
+  },
+  {
+    "start": 2786.26,
+    "end": 2788.31,
+    "speaker": "Jason",
+    "text": "the best companies in the world at doing that."
+  },
+  {
+    "start": 2788.31,
+    "end": 2788.56,
+    "speaker": "Sacks",
+    "text": "And so exactly."
+  },
+  {
+    "start": 2788.56,
+    "end": 2793.26,
+    "speaker": "Jason",
+    "text": "We have CrowdStrike. We have Palo Alto Networks. We talked about that before. We have the best defense."
+  },
+  {
+    "start": 2793.66,
+    "end": 2814.834,
+    "speaker": "Sacks",
+    "text": "Right. Exactly. And so what we should be doing, I think. think is getting these tools, Mythos and then the OpenAI model and others like it in the hands of our cybersecurity industry. And by the way, not just the public companies like Palo Alto Networks and CrowdStrike, although certainly they're two of the most noteworthy, but there's also some incredibly strong startups on Oh, the way up that"
+  },
+  {
+    "start": 2814.834,
+    "end": 2815.284,
+    "speaker": "Jason",
+    "text": "there's a long"
+  },
+  {
+    "start": 2815.284,
+    "end": 2815.484,
+    "speaker": "Sacks",
+    "text": "are at"
+  },
+  {
+    "start": 2815.484,
+    "end": 2816.284,
+    "speaker": "Jason",
+    "text": "tail of hundreds."
+  },
+  {
+    "start": 2816.284,
+    "end": 2835.174,
+    "speaker": "Sacks",
+    "text": "the cutting edge of doing AI-powered pen testing and all the rest of it. We need to get these tools into their hands as quickly as possible because they're a They're a force multiplier for all the companies out there that aren't that good at cybersecurity or maybe they've got IT departments They can use these companies as vendors. So I think that there is a role"
+  },
+  {
+    "start": 2835.174,
+    "end": 2835.224,
+    "speaker": "Chamath",
+    "text": "Can"
+  },
+  {
+    "start": 2835.224,
+    "end": 2835.424,
+    "speaker": "Sacks",
+    "text": "for us"
+  },
+  {
+    "start": 2835.424,
+    "end": 2835.574,
+    "speaker": "Chamath",
+    "text": "I ask you"
+  },
+  {
+    "start": 2835.574,
+    "end": 2835.724,
+    "speaker": "Sacks",
+    "text": "to play"
+  },
+  {
+    "start": 2835.724,
+    "end": 2842.374,
+    "speaker": "Chamath",
+    "text": "a question? Do you think that the models should have a KYC wrapper going forward?"
+  },
+  {
+    "start": 2842.674,
+    "end": 2848.424,
+    "speaker": "Jason",
+    "text": "KYC for the audience is know your customer. Yeah, so really what it would mean is that before you can use."
+  },
+  {
+    "start": 2849.204,
+    "end": 2857.762,
+    "speaker": "Chamath",
+    "text": "mythos you have to identify yourself so that we can try to know that you're not a state-sponsored actor or a bad guy."
+  },
+  {
+    "start": 2857.762,
+    "end": 2875.412,
+    "speaker": "Sacks",
+    "text": "I think that's the type of thing that we should be thinking about. So first of all, I want to say that both Anthropic and OpenAI acted responsibly here. No one was trying to release these super powerful models. So in a way, all the people who are saying that we need pre-release approvals for models, they're trying to solve a problem that didn't exist."
+  },
+  {
+    "start": 2875.412,
+    "end": 2875.712,
+    "speaker": "Chamath",
+    "text": "They"
+  },
+  {
+    "start": 2875.712,
+    "end": 2875.812,
+    "speaker": "Sacks",
+    "text": "Anthropic"
+  },
+  {
+    "start": 2875.812,
+    "end": 2876.012,
+    "speaker": "Chamath",
+    "text": "self"
+  },
+  {
+    "start": 2876.012,
+    "end": 2876.212,
+    "speaker": "Sacks",
+    "text": "wasn't,"
+  },
+  {
+    "start": 2876.212,
+    "end": 2877.512,
+    "speaker": "Chamath",
+    "text": "-regulated, which"
+  },
+  {
+    "start": 2877.512,
+    "end": 2877.812,
+    "speaker": "Sacks",
+    "text": "Anthropic"
+  },
+  {
+    "start": 2877.812,
+    "end": 2877.962,
+    "speaker": "Chamath",
+    "text": "is"
+  },
+  {
+    "start": 2877.962,
+    "end": 2878.062,
+    "speaker": "Sacks",
+    "text": "wasn't"
+  },
+  {
+    "start": 2878.062,
+    "end": 2878.312,
+    "speaker": "Chamath",
+    "text": "the ideal"
+  },
+  {
+    "start": 2878.312,
+    "end": 2878.712,
+    "speaker": "Sacks",
+    "text": "trying to release"
+  },
+  {
+    "start": 2878.712,
+    "end": 2878.762,
+    "speaker": "Chamath",
+    "text": "situation."
+  },
+  {
+    "start": 2878.762,
+    "end": 2883.064,
+    "speaker": "Sacks",
+    "text": "this. OpenAI wasn't trying to release this. They all understood the power and they were all acting. all acted responsibly"
+  },
+  {
+    "start": 2883.064,
+    "end": 2889.814,
+    "speaker": "Jason",
+    "text": "They understood the ramifications acts they would have been sued so there is a self-policing going on here Which is the ultimate way to do this"
+  },
+  {
+    "start": 2890.114,
+    "end": 2909.564,
+    "speaker": "Sacks",
+    "text": "yes and but to your point shamath yeah look i think that before giving your api for a super powerful model you should not give that to a company or an actor you don't know who they are so yeah some basic kyc makes sense they should know who they're giving these tools to and i guess my view on the mythos preview and whatever the equivalent is of"
+  },
+  {
+    "start": 2909.588,
+    "end": 2923.288,
+    "speaker": "Sacks",
+    "text": "of what open AI is doing is that we very rapidly need to get these tools into the hands of more good guys. You need to know who those good guys are. You need to know who they are. So yeah, KYC is like a predicate for that, right?"
+  },
+  {
+    "start": 2923.288,
+    "end": 2923.638,
+    "speaker": "Jason",
+    "text": "And"
+  },
+  {
+    "start": 2923.638,
+    "end": 2923.788,
+    "speaker": "Sacks",
+    "text": "You got"
+  },
+  {
+    "start": 2923.788,
+    "end": 2923.888,
+    "speaker": "Jason",
+    "text": "just"
+  },
+  {
+    "start": 2923.888,
+    "end": 2924.238,
+    "speaker": "Sacks",
+    "text": "to know who they are."
+  },
+  {
+    "start": 2924.238,
+    "end": 2938.488,
+    "speaker": "Jason",
+    "text": "to be clear, we'd all agree that if you did have identity for those frontier models, which they're probably doing anyway right now, and you logged what people were doing with them to look for security breaches, that wouldn't necessarily happen when you released it to the public because of. Because of privacy issues."
+  },
+  {
+    "start": 2938.588,
+    "end": 2956.932,
+    "speaker": "Jason",
+    "text": "Here's your poly market For Trump ordering a federal review of AI models by May 31st, 21% chance, I think, to our partner at Polymarket, man, I got to get in here. I don't, do I have inside information here being the world's greatest moderator on this podcast or I can, can I collect this money, Chamath? What am I going to do here?"
+  },
+  {
+    "start": 2956.932,
+    "end": 2959.882,
+    "speaker": "Sacks",
+    "text": "I would not do not do not place a bet, J.K.L."
+  },
+  {
+    "start": 2959.882,
+    "end": 2960.732,
+    "speaker": "Jason",
+    "text": "Don't place a bet."
+  },
+  {
+    "start": 2960.732,
+    "end": 2962.182,
+    "speaker": "Sacks",
+    "text": "Don't place a bet. But in"
+  },
+  {
+    "start": 2962.182,
+    "end": 2962.332,
+    "speaker": "Jason",
+    "text": "Don't"
+  },
+  {
+    "start": 2962.332,
+    "end": 2962.632,
+    "speaker": "Sacks",
+    "text": "any place way,"
+  },
+  {
+    "start": 2962.632,
+    "end": 2962.782,
+    "speaker": "Jason",
+    "text": "a to bet."
+  },
+  {
+    "start": 2962.782,
+    "end": 2966.132,
+    "speaker": "Sacks",
+    "text": "Chamath's point, I mean, look, I think we're kind of workshopping this in real time."
+  },
+  {
+    "start": 2966.232,
+    "end": 2966.482,
+    "speaker": "Jason",
+    "text": "We"
+  },
+  {
+    "start": 2966.482,
+    "end": 2966.632,
+    "speaker": "Sacks",
+    "text": "I"
+  },
+  {
+    "start": 2966.632,
+    "end": 2966.882,
+    "speaker": "Jason",
+    "text": "are, which"
+  },
+  {
+    "start": 2966.882,
+    "end": 2966.932,
+    "speaker": "Sacks",
+    "text": "think"
+  },
+  {
+    "start": 2966.932,
+    "end": 2967.132,
+    "speaker": "Jason",
+    "text": "is good."
+  },
+  {
+    "start": 2967.132,
+    "end": 2971.208,
+    "speaker": "Sacks",
+    "text": "that I think that for the preview period. We should definitely have KYC. Maybe"
+  },
+  {
+    "start": 2971.208,
+    "end": 2971.658,
+    "speaker": "Jason",
+    "text": "What about"
+  },
+  {
+    "start": 2971.658,
+    "end": 2971.808,
+    "speaker": "Sacks",
+    "text": "once"
+  },
+  {
+    "start": 2971.808,
+    "end": 2972.208,
+    "speaker": "Jason",
+    "text": "logging?"
+  },
+  {
+    "start": 2972.208,
+    "end": 2972.308,
+    "speaker": "Sacks",
+    "text": "you're"
+  },
+  {
+    "start": 2972.308,
+    "end": 2972.958,
+    "speaker": "Jason",
+    "text": "What about logging?"
+  },
+  {
+    "start": 2972.958,
+    "end": 2983.256,
+    "speaker": "Sacks",
+    "text": "past the preview period and it's in general release. I'm not sure if the KYC matters as much because so many people are going to have it. But during the preview period, there should be KYC."
+  },
+  {
+    "start": 2983.256,
+    "end": 3007.516,
+    "speaker": "Jason",
+    "text": "Let me just say one thing. All the labs are already tracking API use, okay, and anything suspicious because there are major anti-destillation efforts going on by all the labs. There's a ton of coordination going on with the government. There's way more happening, I think, in terms about API and API use and anything suspicious is being... being flagged and being shared with the government."
+  },
+  {
+    "start": 3007.566,
+    "end": 3027.132,
+    "speaker": "Jason",
+    "text": "So the idea that we have no idea who's doing it, I think is not the case. And in fact, in some cases, we may want to allow people to use it so that we can see exactly the types of things that they are extracting. So I would just, I would say we're already down that path, but better coordination. may in fact be called for."
+  },
+  {
+    "start": 3027.132,
+    "end": 3044.432,
+    "speaker": "Sacks",
+    "text": "And just one last point on this whole thing is I just want to build on my point that free release approvals of solving a problem that didn't really exist because, again, Anthropic and OpenAI weren't trying to release these models yet is that there is a substantial faction of, let's say, AI ideologues or doomers who."
+  },
+  {
+    "start": 3045.62,
+    "end": 3056.72,
+    "speaker": "Sacks",
+    "text": "are basically employing the classic never let a crisis go to waste strategy, right? That yes, we do have this cyber issue that is real. You know, everyone needs to harden their systems now over"
+  },
+  {
+    "start": 3057.12,
+    "end": 3070.814,
+    "speaker": "Sacks",
+    "text": "the next three to six months. That is a real issue. But that is a problem that we will solve over the next six months. We have to. But what they're trying to do is use that. issue to try and create a permanent new infrastructure in Washington. Again,"
+  },
+  {
+    "start": 3070.914,
+    "end": 3085.174,
+    "speaker": "Sacks",
+    "text": "I don't think that's not the administration's intention. That's not the administration's agenda. But you saw a lot of people on social media, a lot of the think tanks and even Bernie Sanders weighed in. And he said, for the first time, I like something that the"
+  },
+  {
+    "start": 3085.174,
+    "end": 3085.524,
+    "speaker": "Jason",
+    "text": "This"
+  },
+  {
+    "start": 3085.524,
+    "end": 3085.624,
+    "speaker": "Sacks",
+    "text": "Trump"
+  },
+  {
+    "start": 3085.624,
+    "end": 3085.674,
+    "speaker": "Jason",
+    "text": "is"
+  },
+  {
+    "start": 3085.674,
+    "end": 3086.474,
+    "speaker": "Sacks",
+    "text": "administration wants to"
+  },
+  {
+    "start": 3086.474,
+    "end": 3086.524,
+    "speaker": "Jason",
+    "text": "The"
+  },
+  {
+    "start": 3086.524,
+    "end": 3086.624,
+    "speaker": "Sacks",
+    "text": "do."
+  },
+  {
+    "start": 3086.624,
+    "end": 3096.574,
+    "speaker": "Jason",
+    "text": "administration understands the 1% of the 1% of tax and everybody understand that this is out of control. The AI is going to take the jobs. They're going to take my summer home. It's going to be terrible."
+  },
+  {
+    "start": 3097.074,
+    "end": 3101.474,
+    "speaker": "Sacks",
+    "text": "So there are people who have this agenda. Look, Bernie Sanders just wants to stop the progress. I mean,"
+  },
+  {
+    "start": 3101.474,
+    "end": 3101.524,
+    "speaker": "Jason",
+    "text": "Of"
+  },
+  {
+    "start": 3101.524,
+    "end": 3102.074,
+    "speaker": "Sacks",
+    "text": "he wants"
+  },
+  {
+    "start": 3102.074,
+    "end": 3102.324,
+    "speaker": "Jason",
+    "text": "course I"
+  },
+  {
+    "start": 3102.324,
+    "end": 3102.474,
+    "speaker": "Sacks",
+    "text": "to ban"
+  },
+  {
+    "start": 3102.474,
+    "end": 3102.624,
+    "speaker": "Jason",
+    "text": "do."
+  },
+  {
+    "start": 3102.624,
+    "end": 3115.494,
+    "speaker": "Sacks",
+    "text": "data centers. He put out a bunch of – he basically has bought into the whole Doomer narrative. So, look, that's why he likes the FDA. idea is because it would put the kibosh on innovation"
+  },
+  {
+    "start": 3115.494,
+    "end": 3115.544,
+    "speaker": "Jason",
+    "text": "It's"
+  },
+  {
+    "start": 3115.544,
+    "end": 3115.994,
+    "speaker": "Sacks",
+    "text": "and"
+  },
+  {
+    "start": 3115.994,
+    "end": 3120.244,
+    "speaker": "Jason",
+    "text": "enough already. Let's have a go back to paper and pen. It was a better society, Sachs."
+  },
+  {
+    "start": 3120.344,
+    "end": 3121.344,
+    "speaker": "Chamath",
+    "text": "Jason, what do you think?"
+  },
+  {
+    "start": 3121.544,
+    "end": 3134.936,
+    "speaker": "Jason",
+    "text": "I think there's two really interesting things I want to build on here. The first is your point, Chamath, around how do we turn around this sort of. Bad vibes around AI. I think we have to have two strategies here."
+  },
+  {
+    "start": 3134.986,
+    "end": 3159.676,
+    "speaker": "Jason",
+    "text": "One is giving what you've been working on, Brad, with your project. We should see more people giving. There's no reason why NVIDIA, SpaceX, when they go public, Anthropik, when they go public, OpenAI, if and when they go public or if they stay as a nonprofit. There's no reason those folks in an IPO couldn't give a portion of the IPO to every American citizen. So IPOK, IPO for kids, they all take."
+  },
+  {
+    "start": 3160.148,
+    "end": 3173.748,
+    "speaker": "Jason",
+    "text": "you know, whatever it is, 5%, 1%, whatever they choose, and they put it into the Invest America accounts. And we should see some major giving from the people who are becoming trillionaires, 100 billionaires, whatever it happens to be. There's no reason not to."
+  },
+  {
+    "start": 3173.898,
+    "end": 3186.998,
+    "speaker": "Jason",
+    "text": "But those people haven't been doing that. We had this giving pledge, which was a little bit of virtue signaling, and it wasn't real. It was just, you know, at the end of your life, you promise to give away half your money. So let's have something real. Let's have something where, you know, people say, I'm going to give away 1% of my."
+  },
+  {
+    "start": 3186.932,
+    "end": 3206.116,
+    "speaker": "Jason",
+    "text": "For my stock over the next 20 years of my life, every year, 1% will go into Invest America, whatever it is, it won't cost anybody anything. You can't spend this money, whether it's Bezos or whoever. Second. In that same thing in terms of giving back, we have not talked about how massive this could be for health and extending people's life and reducing suffering."
+  },
+  {
+    "start": 3206.266,
+    "end": 3219.016,
+    "speaker": "Jason",
+    "text": "We need to work on that. That's where contributions to basic science could come in and obviously education and lowering the cost of education. And if you look at what Americans on the bottom half, you were talking about the cup half empty,"
+  },
+  {
+    "start": 3219.066,
+    "end": 3231.144,
+    "speaker": "Jason",
+    "text": "there's really two or three things they really feel anxiety about. One of it is income and the second is health care. And on the margins, housing and their kids, you know, their kids education,"
+  },
+  {
+    "start": 3231.244,
+    "end": 3243.144,
+    "speaker": "Jason",
+    "text": "the cost of those things, we should really take a look deeply at and I know this is very unpopular amongst capitalists, including myself, we should really look at the minimum wage and study what happened in New Zealand, Sweden, Switzerland."
+  },
+  {
+    "start": 3244.148,
+    "end": 3252.698,
+    "speaker": "Jason",
+    "text": "or Australia when they raised it. What actually happened when they raised it, and there was a lot of hand wringing about it, but when they slowly raised it, what they found was those consumers don't save money, they spend it,"
+  },
+  {
+    "start": 3252.748,
+    "end": 3266.148,
+    "speaker": "Jason",
+    "text": "they're always behind the eight ball in terms of their spending. We should opt in to trying to raise the minimum wage company by company by company and just give people who are at the end of the spectrum that understanding that,"
+  },
+  {
+    "start": 3266.248,
+    "end": 3277.638,
+    "speaker": "Jason",
+    "text": "hey, year over year, whether it's Amazon or Target, et cetera, restaurants, we're all collectively going to add a little bit to that minimum wage and try to lift the bottom third of society."
+  },
+  {
+    "start": 3278.038,
+    "end": 3286.438,
+    "speaker": "Jason",
+    "text": "That's the stuff we're not talking about. We don't talk about it here on this podcast. We don't talk about universal health care. We don't talk about the minimum wage, but that's what capitalists should be talking about."
+  },
+  {
+    "start": 3286.588,
+    "end": 3295.888,
+    "speaker": "Jason",
+    "text": "And if we did that, if we increase the minimum wage, and I'm not a socialist, I'm a capitalist who think this is good for capitalism. If we increase the minimum wage just modestly each year."
+  },
+  {
+    "start": 3296.5,
+    "end": 3306.25,
+    "speaker": "Jason",
+    "text": "And we opted into doing that and we figured out a way to give universal health care. Companies wouldn't have to deal with universal health care and we would have customers and we're a customer driven economy like 60,"
+  },
+  {
+    "start": 3306.35,
+    "end": 3319.75,
+    "speaker": "Jason",
+    "text": "70, 80 percent of what happens in this country is driven by the consumer. We need consumer spending. It's great for companies if we had more people being able to buy Netflix or order on Amazon. Anyway, that's my that's my TED talk. Thanks for coming."
+  },
+  {
+    "start": 3319.85,
+    "end": 3323.45,
+    "speaker": "Sacks",
+    "text": "How do we get from AI to the minimum wage? I'm still a little because bit confused."
+  },
+  {
+    "start": 3323.45,
+    "end": 3330.702,
+    "speaker": "Jason",
+    "text": "of the black. Guy, no, the black eye we have in this country with polarization of wealth and people scared of losing their jobs. We should look"
+  },
+  {
+    "start": 3330.702,
+    "end": 3330.752,
+    "speaker": "Sacks",
+    "text": "I"
+  },
+  {
+    "start": 3330.752,
+    "end": 3330.952,
+    "speaker": "Jason",
+    "text": "at why"
+  },
+  {
+    "start": 3330.952,
+    "end": 3331.152,
+    "speaker": "Sacks",
+    "text": "agree."
+  },
+  {
+    "start": 3331.152,
+    "end": 3332.202,
+    "speaker": "Jason",
+    "text": "are they scared,"
+  },
+  {
+    "start": 3332.202,
+    "end": 3332.252,
+    "speaker": "Sacks",
+    "text": "I"
+  },
+  {
+    "start": 3332.252,
+    "end": 3332.652,
+    "speaker": "Jason",
+    "text": "David?"
+  },
+  {
+    "start": 3332.652,
+    "end": 3332.752,
+    "speaker": "Sacks",
+    "text": "agree."
+  },
+  {
+    "start": 3332.752,
+    "end": 3346.802,
+    "speaker": "Jason",
+    "text": "And I've talked to you privately and you said to me privately, you can strike this if you want, but you said to me privately, you wouldn't be against necessarily figuring out a way to do universal health care if there was a way to do it. You want to see every human have health care, yes?"
+  },
+  {
+    "start": 3348.244,
+    "end": 3353.294,
+    "speaker": "Sacks",
+    "text": "Sure. I mean, the issue is not the desirability of it. It's the cost. I mean, and"
+  },
+  {
+    "start": 3353.294,
+    "end": 3353.744,
+    "speaker": "Jason",
+    "text": "So you're"
+  },
+  {
+    "start": 3353.744,
+    "end": 3353.944,
+    "speaker": "Sacks",
+    "text": "also,"
+  },
+  {
+    "start": 3353.944,
+    "end": 3356.194,
+    "speaker": "Jason",
+    "text": "a great entrepreneur of our time. How would you do it?"
+  },
+  {
+    "start": 3356.194,
+    "end": 3356.294,
+    "speaker": "Sacks",
+    "text": "I"
+  },
+  {
+    "start": 3356.294,
+    "end": 3357.044,
+    "speaker": "Jason",
+    "text": "Have you given any"
+  },
+  {
+    "start": 3357.044,
+    "end": 3357.194,
+    "speaker": "Sacks",
+    "text": "don't know."
+  },
+  {
+    "start": 3357.194,
+    "end": 3357.394,
+    "speaker": "Jason",
+    "text": "thought to"
+  },
+  {
+    "start": 3357.394,
+    "end": 3357.544,
+    "speaker": "Sacks",
+    "text": "I haven't"
+  },
+  {
+    "start": 3357.544,
+    "end": 3357.744,
+    "speaker": "Jason",
+    "text": "it?"
+  },
+  {
+    "start": 3357.744,
+    "end": 3368.676,
+    "speaker": "Sacks",
+    "text": "studied that issue. So I don't know. I just know that like the countries. I remember what PJ O'Rourke once said, which is, if you think health care is expensive now, just wait until you make it free."
+  },
+  {
+    "start": 3370.026,
+    "end": 3370.776,
+    "speaker": "Jason",
+    "text": "Yeah, more consumption."
+  },
+  {
+    "start": 3370.776,
+    "end": 3374.976,
+    "speaker": "Sacks",
+    "text": "So you take away all the incentives and you have an even bigger problem. Let me what just do you think make a one."
+  },
+  {
+    "start": 3374.976,
+    "end": 3375.976,
+    "speaker": "Jason",
+    "text": "minimum wage? Yeah, go ahead."
+  },
+  {
+    "start": 3375.976,
+    "end": 3388.726,
+    "speaker": "Sacks",
+    "text": "Well, let me just get back to AI. Listen, you guys are right about the unpopularity of AI. We've all seen those polls, but I want to just put up this additional poll that came out about the salience of this issue,"
+  },
+  {
+    "start": 3388.776,
+    "end": 3403.46,
+    "speaker": "Sacks",
+    "text": "which is how important do people think it is? And AI ranked 29 out of 39. So although AI is not very popular, it is certainly not top of mind for voters. It's not in the top 10 issues. It's not in the top 20 issues. What is top of mind for voters?"
+  },
+  {
+    "start": 3403.56,
+    "end": 3417.71,
+    "speaker": "Sacks",
+    "text": "Number one, cost of living. Number two, the economy. And we know that AI is deflationary. It helps with the cost of living and it's creating an economic boom right now. Okay. It's 75% of GDP growth in Q1."
+  },
+  {
+    "start": 3417.78,
+    "end": 3431.584,
+    "speaker": "Sacks",
+    "text": "By the way, that economic growth is not just limited to startups in Silicon Valley. We're seeing a construction boom. We're seeing a blue collar boom. We're seeing 25 to 30% wage increases for construction workers. And so on down the line."
+  },
+  {
+    "start": 3431.584,
+    "end": 3434.934,
+    "speaker": "Jason",
+    "text": "And Brad, if you look at that chart, there's health care in there too."
+  },
+  {
+    "start": 3434.934,
+    "end": 3447.134,
+    "speaker": "Sacks",
+    "text": "So look, my point is that AI may not be popular, but the effects of it actually are popular if the media would honestly report what was happening, which is AI is creating an economic boom right now."
+  },
+  {
+    "start": 3447.134,
+    "end": 3469.708,
+    "speaker": "Jason",
+    "text": "It couldn't be better said, David. You know, Bernie Sanders calling for a moratorium shutting out all data centers. We'd have negative GDP growth this year. The stock market would be down 15 to 20 percent. Unemployment would be on the rise. You know, there is a consequence to the government controlling through command and control the economy. In 1929, we had 4% unemployment. Three years later,"
+  },
+  {
+    "start": 3469.808,
+    "end": 3483.858,
+    "speaker": "Jason",
+    "text": "unemployment was 23% because government got involved in regulating everything and shutting down, you know, what was working. That is the greatest threat we have here. AI is delivering huge net benefits today in terms of unemployment rate,"
+  },
+  {
+    "start": 3483.908,
+    "end": 3493.308,
+    "speaker": "Jason",
+    "text": "in terms of economic growth and productivity growth. We need to tell the story. But to Chamath's earlier point, we also need to deliver net benefits. Jason, thanks for the shout out. Yes,"
+  },
+  {
+    "start": 3493.358,
+    "end": 3504.908,
+    "speaker": "Jason",
+    "text": "every American having an investment account that compounds with the upside of AI, we're going to do that, going to deliver that, and that's going to be massive. But I also think ideas like if we're going to put a data center in Abilene, Texas,"
+  },
+  {
+    "start": 3505.058,
+    "end": 3514.308,
+    "speaker": "Jason",
+    "text": "let's make electricity in Abilene free for the households in Abilene, Texas, right? There are ideas that can deliver net benefits. We got to deliver those. I think we're."
+  },
+  {
+    "start": 3514.42,
+    "end": 3516.87,
+    "speaker": "Unknown",
+    "text": "optimism will be on the march i think we're in the trough right"
+  },
+  {
+    "start": 3516.87,
+    "end": 3517.07,
+    "speaker": "Jason",
+    "text": "What's"
+  },
+  {
+    "start": 3517.07,
+    "end": 3517.42,
+    "speaker": "Unknown",
+    "text": "now you"
+  },
+  {
+    "start": 3517.42,
+    "end": 3526.97,
+    "speaker": "Jason",
+    "text": "your take on minimum wage and universal health care, Brad? How do you think about it as a capitalist, as an innovator and in the face of AI, which could have a dramatic impact on these issues?"
+  },
+  {
+    "start": 3528.67,
+    "end": 3540.22,
+    "speaker": "Unknown",
+    "text": "know like sacks i you know to me i haven't spent a ton of time thinking about those except that as a society we're 38 trillion dollars in debt we haven't been able to afford to deliver those things i generally think the market works out those"
+  },
+  {
+    "start": 3540.884,
+    "end": 3569.784,
+    "speaker": "Unknown",
+    "text": "issues better than the government top down trying to you know the government gets more and more involved in health care and the only thing that happens it gets more expensive so we've all seen the charts of the most expensive categories where we've had inflation education health care etc it's where the government's involved i actually think if you just let the markets work we're entering into an age of abundance a lot of these problems are going to be solved people are going to have a lot of ai coaches in health care and education etc let the market work government stay at bay keep things safe you"
+  },
+  {
+    "start": 3569.556,
+    "end": 3570.606,
+    "speaker": "Unknown",
+    "text": "Hey, we're on a good march."
+  },
+  {
+    "start": 3570.856,
+    "end": 3571.656,
+    "speaker": "Jason",
+    "text": "I think this."
+  },
+  {
+    "start": 3572.5,
+    "end": 3599.9,
+    "speaker": "Jason",
+    "text": "proves my point perfectly if you talk to any founder they're not thinking about housing they're not thinking about higher education costs they're not thinking about minimum wage you know and they're not thinking about health care all that often some some do though there's some innovation there and it's because it's so regulated that entrepreneurs and vcs are just like that's kryptonite the government has poisoned the well we can't participate in that and that's the roadblock and that's where americans are suffering and that's where it would be great if founders actually put their minds to it in the government"
+  },
+  {
+    "start": 3600.0,
+    "end": 3626.69,
+    "speaker": "Jason",
+    "text": "Instruments got to get rid of all that regulation and let us cook in those specific verticals. All right. The market is in hyperdrive. Hyperscaler revenue has made the markets move up. We hit on this briefly, but we didn't have you here. Fifth best EBITDA, cloud computing, Onatare, I referenced it earlier, but AWS is now in $150 billion run rate, Azure 108 billion, GCP, Google Cloud, 80 billion."
+  },
+  {
+    "start": 3626.79,
+    "end": 3638.534,
+    "speaker": "Jason",
+    "text": "There's a little bit of fun with numbers there because Azure and Microsoft include some of their software products in there and Google Cloud includes things like Google Office or Google Suite in there. But the growth numbers are tremendous. AWS,"
+  },
+  {
+    "start": 3638.634,
+    "end": 3663.184,
+    "speaker": "Jason",
+    "text": "which is the more pure play of the three, 28% growth on a very big number. Azure, 39%. Google Cloud stunning everybody with 63% growth. It is incredible what the ARR numbers are. Google Cloud at 10, AWS 10, Azure 9.5. So basically 30 billion collectively. Jammin Ball, who works for you, I think put out some data on the Twitter."
+  },
+  {
+    "start": 3663.316,
+    "end": 3691.516,
+    "speaker": "Jason",
+    "text": "sure brad markets at all times high all-time highs max seven cooking uber blowing out growth disney blowing out growth the consumer seems absurdly strong based on those two bellwethers tech seems extremely strong based on the cloud computing what's your take on the overall market and overall economy obviously inflation up a bit people hand-wringing about the never-ending war and the cost of oil"
+  },
+  {
+    "start": 3692.084,
+    "end": 3706.584,
+    "speaker": "Jason",
+    "text": "Let's just telescope way up. The level of criticism directed to this administration, tariffs were going to cause hyperinflation, we're going to destroy GDP, conflicts in Venezuela and Iran, we're going to do the same."
+  },
+  {
+    "start": 3707.034,
+    "end": 3724.008,
+    "speaker": "Jason",
+    "text": "We've heard all of the negative stories, but what's happening? Accelerating GDP, a 10-year that's sitting at 4.3, inflation totally under control. AI, AI, AI, compute, compute, compute. We're leading the world. It's contributing massively, right,"
+  },
+  {
+    "start": 3724.108,
+    "end": 3739.908,
+    "speaker": "Jason",
+    "text": "to GDP growth in the country. We see the S&P only up 8% this year, right? So we're not into bubble territory here. Meta's trading at 17 times fully tax gap earnings. NVIDIA at 19 times. Microsoft at 20 times. Google at 24 times."
+  },
+  {
+    "start": 3740.108,
+    "end": 3755.676,
+    "speaker": "Jason",
+    "text": "And then the memory stocks that everybody's excited about, we have 25% of our. Kind of our portfolio in S.K. Hynek's, five times fully taxed gap earnings, Samsung six times, Micron seven times, right? This is not the stuff that bubbles are made of."
+  },
+  {
+    "start": 3755.726,
+    "end": 3767.276,
+    "speaker": "Jason",
+    "text": "You know, David referenced it earlier. We started the year OpenAI and Anthropic were doing combined about 30 billion in revenue. Now combined four months later, 80 billion in revenue."
+  },
+  {
+    "start": 3767.892,
+    "end": 3784.742,
+    "speaker": "Chamath",
+    "text": "The policies of this administration on the economy are working. They're working in spades. Our gap on the rest of the world in AI is growing. And so from my perspective, you know, we've been all in on the market. I talked about it earlier in the year. We're heavily tilted"
+  },
+  {
+    "start": 3784.742,
+    "end": 3789.044,
+    "speaker": "Jason",
+    "text": "When did about. you make that switch to go all in on the market? Because you were bearish. All"
+  },
+  {
+    "start": 3789.044,
+    "end": 3800.994,
+    "speaker": "Chamath",
+    "text": "I right. would say toward the end of last year, the market had run up a lot. We had a lot of these questions. Listen, entering this year, there was a huge question hanging over the market. Would the AI revenue show up?"
+  },
+  {
+    "start": 3801.716,
+    "end": 3813.066,
+    "speaker": "Chamath",
+    "text": "If the anthropic revenues hadn't shown up and we didn't see this reacceleration out of the hyperscalers, the market would be down 10 to 15 percent because people would say there's no ROI on all So of this investment"
+  },
+  {
+    "start": 3813.066,
+    "end": 3813.766,
+    "speaker": "Jason",
+    "text": "you would have been bearish"
+  },
+  {
+    "start": 3813.766,
+    "end": 3814.116,
+    "speaker": "Chamath",
+    "text": "in infrastructure."
+  },
+  {
+    "start": 3814.116,
+    "end": 3814.816,
+    "speaker": "Jason",
+    "text": "that case or whatever."
+  },
+  {
+    "start": 3814.816,
+    "end": 3828.716,
+    "speaker": "Chamath",
+    "text": "Exactly. When I saw the numbers start showing up in December and into January, we went from medium to large in terms of our exposures and 80 percent of our exposures or more have been in compute AI, memory, et cetera."
+  },
+  {
+    "start": 3828.756,
+    "end": 3840.106,
+    "speaker": "Jason",
+    "text": "And this is why it's great to operate in the private market and the public market, because you can see things in the private markets that inform the public markets. But the question remains, Brad, how much better would the economy have been doing?"
+  },
+  {
+    "start": 3841.076,
+    "end": 3849.376,
+    "speaker": "Jason",
+    "text": "You know, as much credit as you're giving to the administration if they didn't start a hundred billion dollar war that we did not need to go into, according to all reports."
+  },
+  {
+    "start": 3849.576,
+    "end": 3864.276,
+    "speaker": "Jason",
+    "text": "And if we didn't do a bunch of tariffs that wound up being unconstitutional by the Supreme Court, which Trump himself put in, we would have been further ahead. That's my take on it. We would be ripping even more if we didn't have those silly"
+  },
+  {
+    "start": 3864.276,
+    "end": 3864.576,
+    "speaker": "Chamath",
+    "text": "Jason,"
+  },
+  {
+    "start": 3864.576,
+    "end": 3864.876,
+    "speaker": "Jason",
+    "text": "diversions."
+  },
+  {
+    "start": 3864.876,
+    "end": 3884.25,
+    "speaker": "Chamath",
+    "text": "it's hard to imagine, okay, just to set up again here. It's hard to imagine a more Goldilocks situation for the United States of America. We have reset the table geopolitically. The discount rate globally is actually coming down, not going up, evidenced by markets at all time high and the bond market in control."
+  },
+  {
+    "start": 3884.35,
+    "end": 3896.084,
+    "speaker": "Chamath",
+    "text": "And then look at the private markets. We have multiple trillion dollar companies that have been created in the private markets that are now coming public. SpaceX coming public is going to be a multi-trillion dollar. With,"
+  },
+  {
+    "start": 3896.084,
+    "end": 3896.234,
+    "speaker": "Jason",
+    "text": "it's this"
+  },
+  {
+    "start": 3896.234,
+    "end": 3902.634,
+    "speaker": "Chamath",
+    "text": "you know, open AI and throughout, it's like at some point you just have to acknowledge USA is winning. Of"
+  },
+  {
+    "start": 3902.634,
+    "end": 3902.834,
+    "speaker": "Jason",
+    "text": "course,"
+  },
+  {
+    "start": 3902.834,
+    "end": 3904.084,
+    "speaker": "Chamath",
+    "text": "course, there are always things"
+  },
+  {
+    "start": 3904.084,
+    "end": 3904.234,
+    "speaker": "Jason",
+    "text": "100"
+  },
+  {
+    "start": 3904.234,
+    "end": 3911.634,
+    "speaker": "Chamath",
+    "text": "that we could be doing better, but there's not a country on the world that wouldn't trade all of its fortune for the United States fortune today."
+  },
+  {
+    "start": 3911.634,
+    "end": 3927.678,
+    "speaker": "Jason",
+    "text": "% in agreement, American exceptionalism as embodied by the great companies in America, SpaceX, Google, et cetera, all the ones we've been talking here, that is the story. And I give. give infinite credit to this administration for being business friendly. I do think they've made two critical mistakes."
+  },
+  {
+    "start": 3927.778,
+    "end": 3937.828,
+    "speaker": "Jason",
+    "text": "I think the tariffs were poorly executed and I think we shouldn't have gone to this war and we should find a quick resolution to it, which the administration seems to be desperately doing. Zach, your take on the economy."
+  },
+  {
+    "start": 3938.868,
+    "end": 3952.668,
+    "speaker": "Sacks",
+    "text": "Well, look, we have an AI boom going on right now, and I think that's thanks to President Trump's policies. Remember, the first week he was in office, he rescinded the Biden policies on chips and models. And what were those policies? It was the approval regime that we're talking about."
+  },
+  {
+    "start": 3953.268,
+    "end": 3967.268,
+    "speaker": "Sacks",
+    "text": "Models would have to go to Washington to get approved if they were trained with some number of flops. And then every sale of a GPU worldwide would have to be licensed from Washington unless it fit into some narrow exemptions. The whole approach of the Biden administration"
+  },
+  {
+    "start": 3967.618,
+    "end": 3981.868,
+    "speaker": "Sacks",
+    "text": "that President Trump inherited was everything approved in Washington. He rescinded that. He declared that we had to win the AI race and he unleashed our companies to do that. Now, one other really important thing is energy. Remember,"
+  },
+  {
+    "start": 3982.018,
+    "end": 4001.394,
+    "speaker": "Sacks",
+    "text": "it was this president going back a decade who said drill baby drill. He said we have to unleash American energy. That's the basis for the American economy. It's also the basis for AI. He also has said that he wanted to allow our AI companies to become energy companies so they could bring their own power to these data centers so they're not drawing off the grid."
+  },
+  {
+    "start": 4001.544,
+    "end": 4022.114,
+    "speaker": "Sacks",
+    "text": "They're not competing with consumers for electricity. They're generating their own power. And it's thanks to this president that we have seen this blue collar construction boom right now, powering all this infrastructure. What would the alternative have been? We know I mean Bernie Sanders has said it would have been banned on data centers. So I think"
+  },
+  {
+    "start": 4022.114,
+    "end": 4022.464,
+    "speaker": "Jason",
+    "text": "Raise taxes,"
+  },
+  {
+    "start": 4022.464,
+    "end": 4023.314,
+    "speaker": "Sacks",
+    "text": "you need to give credit where"
+  },
+  {
+    "start": 4023.314,
+    "end": 4023.564,
+    "speaker": "Jason",
+    "text": "ban data"
+  },
+  {
+    "start": 4023.564,
+    "end": 4023.714,
+    "speaker": "Sacks",
+    "text": "it's due"
+  },
+  {
+    "start": 4023.714,
+    "end": 4037.114,
+    "speaker": "Jason",
+    "text": "centers. That would be a much worse choice. Chamath, I'll give you the last word here as we wrap on the economy generally. I think the markets are going to keep going up for a while. And then at some point they're going to go down."
+  },
+  {
+    "start": 4038.664,
+    "end": 4049.172,
+    "speaker": "Jason",
+    "text": "Okay. I wrote it down, Chamath. You said markets are up. And then eventually they're going to come down. Those are the two things up and we put a U here and then a D here."
+  },
+  {
+    "start": 4049.422,
+    "end": 4050.122,
+    "speaker": "Sacks",
+    "text": "I think"
+  },
+  {
+    "start": 4050.122,
+    "end": 4050.372,
+    "speaker": "Jason",
+    "text": "Got it."
+  },
+  {
+    "start": 4050.372,
+    "end": 4052.422,
+    "speaker": "Sacks",
+    "text": "you're doing an impression of the"
+  },
+  {
+    "start": 4052.422,
+    "end": 4053.122,
+    "speaker": "Jason",
+    "text": "taking Up and notes down."
+  },
+  {
+    "start": 4053.122,
+    "end": 4054.372,
+    "speaker": "Sacks",
+    "text": "emoji. Is that what you're doing?"
+  },
+  {
+    "start": 4054.572,
+    "end": 4068.172,
+    "speaker": "Jason",
+    "text": "Yes. Okay. Up and down. Wow. Thank you for tuning into All In, where you can get your great calls and market action advice. It's going to go up and then down, folks. Act accordingly. Come on, no seriousness. But what makes you bullish,"
+  },
+  {
+    "start": 4068.322,
+    "end": 4076.576,
+    "speaker": "Jason",
+    "text": "you know, let's say in the next six months, 12 months, catalysts, and then what do you think? What do you think the headwinds are as well? Let's take the, you know, the short to midterm six months to two years."
+  },
+  {
+    "start": 4077.876,
+    "end": 4102.702,
+    "speaker": "Freeberg",
+    "text": "I think that in the short term, the people that makes the new thing needs to get valued and needs to demonstrate value. So who are the people making the new thing? It's the NVIDIAs, it's the memory makers, it's the anthropics, it's the SpaceXes, and it's the OpenAIs. But eventually it all comes home to roost."
+  },
+  {
+    "start": 4104.402,
+    "end": 4120.952,
+    "speaker": "Freeberg",
+    "text": "And you can't just make things for a market who then doesn't have a measurable benefit themselves. To be very clear and blunt, there is literally not a scintilla of evidence that AI has helped lift the operating margins of the S&P 500."
+  },
+  {
+    "start": 4122.068,
+    "end": 4143.668,
+    "speaker": "Freeberg",
+    "text": "There's all kinds of bluster. There's going to be an important fork in the road. It's probably two or three years from now. One path will be OPEX shrinks, hence margins increase. And the other path is revenues grow and margins expand and OPEX stays flat, or maybe it even goes up. Those two things are very important differences because in the former..."
+  },
+  {
+    "start": 4144.084,
+    "end": 4165.084,
+    "speaker": "Freeberg",
+    "text": "you're talking about shrinking workforce and shrinking OPEX as a percentage of operating margin and revenue. In the latter, you're actually growing through it. The answer to that question, I think, is critical about how the markets will respond and how society will respond. So I think we have kind of call it 500 days where you just got to be net long,"
+  },
+  {
+    "start": 4165.184,
+    "end": 4180.248,
+    "speaker": "Freeberg",
+    "text": "but I think it's literally in the hundreds of days from now. 500. You're going to have to have an important reckoning moment. The people that are paying for all these tokens need to see it in actual benefit."
+  },
+  {
+    "start": 4180.648,
+    "end": 4182.398,
+    "speaker": "Jason",
+    "text": "Yeah, that's reasonable. Yeah."
+  },
+  {
+    "start": 4182.398,
+    "end": 4201.58,
+    "speaker": "Sacks",
+    "text": "That's a really interesting point. Let me connect a couple of dots here between something Jamal said and what Brad said, which is. At the beginning of the year, we went into this year with this massive capex, this massive investment infrastructure, but people weren't sure that the ROI was going to be there in terms of model revenue. And that was true. And then the model revenue has proven out."
+  },
+  {
+    "start": 4201.68,
+    "end": 4222.766,
+    "speaker": "Sacks",
+    "text": "And now what Samantha is saying is that we're going to be at another fork in the road soon in terms of whether there's going to be ROI. On all those tokens that are being sold and generating the revenue for those model companies. And I agree with you that that is not proven out yet, but I'm optimistic that it is going to be proven out. And otherwise, you wouldn't be seeing enterprises"
+  },
+  {
+    "start": 4222.766,
+    "end": 4224.016,
+    "speaker": "Freeberg",
+    "text": "Look, I listen."
+  },
+  {
+    "start": 4224.016,
+    "end": 4244.608,
+    "speaker": "Sacks",
+    "text": "continue to buy. Hold on, let me just explain. You wouldn't be seeing enterprise continue their month-over-month spend. on coding tokens if they didn't feel like the ROI was going to be there but you make a good point which is what is the impact on the economy going to be When all of this new software, this bespoke software that's being created through, again,"
+  },
+  {
+    "start": 4244.658,
+    "end": 4261.958,
+    "speaker": "Sacks",
+    "text": "all these coding tokens that are being bought, it's going to power a wave of productivity like I think we've never seen before. So I think what you're seeing is the ROI is getting sort of trickling down from infrastructure to model to application to end user. And I think it's going to create an economic boom."
+  },
+  {
+    "start": 4262.058,
+    "end": 4266.908,
+    "speaker": "Jason",
+    "text": "I got it. I'm with you, Sax. This is deja vu all over again. We watched this happen with the PC revolution."
+  },
+  {
+    "start": 4266.964,
+    "end": 4295.614,
+    "speaker": "Jason",
+    "text": "evolution the internet revolution cloud revolution mobile revolution we had all this hand ringing will this ever pay off should i build an app should i build a website should i not should i move to the cloud should i keep it on prem all of these questions over and over and over again and then they went from question marks to exclamation points i can tell you inside of my firm we have started we were using agents then we started building code and i've got three people on the team who are making all the interfaces and products that a 22 person investment firm should not be making internally they should be using sas software"
+  },
+  {
+    "start": 4295.604,
+    "end": 4306.104,
+    "speaker": "Jason",
+    "text": "and they are shipping product day in and day out the ROI is fait accompli Brad it is fait accompli I think this has been decided I think it's been decided you"
+  },
+  {
+    "start": 4306.104,
+    "end": 4309.104,
+    "speaker": "Freeberg",
+    "text": "It has not been decided at all. It has not been decided at all."
+  },
+  {
+    "start": 4309.304,
+    "end": 4322.604,
+    "speaker": "Jason",
+    "text": "have 80 90 you're working with the big enterprises I invest in 100 startups a year I work with the small ones it is fait accompli with startups they are building software they're shipping they are getting massive value from these tokens and they're getting so much value that they don't have to add"
+  },
+  {
+    "start": 4323.156,
+    "end": 4336.456,
+    "speaker": "Jason",
+    "text": "You know, but half the number of employees that they would with the same amount of capital, they're getting further with less money. It is working in startup land. I don't know what's happening at 80-90. You would have a better picture, obviously, of the enterprise. Tell us what you see there."
+  },
+  {
+    "start": 4336.456,
+    "end": 4368.914,
+    "speaker": "Freeberg",
+    "text": "I mean, our business is doing well, but what I'm trying to get across to you guys is that you can't will profits to go up. Okay. So ultimately what happens is I'm just going to take a company randomly. Anheuser-Busch. They have to eventually sell more beer. Okay? Take Nike. They ultimately have to sell more shoes. Take the medical devices company. They have to sell more artificial hips and knees."
+  },
+  {
+    "start": 4369.214,
+    "end": 4396.668,
+    "speaker": "Freeberg",
+    "text": "So the point I'm trying to get across is right now there's an enormous amount of very constructive and creative experimentation. But I think what is also true is a lot of that has not yet proven value. I don't think that means it's going to stop. All I'm just trying to say is until a company can trace very directly, I spent X and I made Y where Y is now greater than X and it's lifted my margins."
+  },
+  {
+    "start": 4398.168,
+    "end": 4421.49,
+    "speaker": "Freeberg",
+    "text": "That is the thing that causes the flywheel to spin faster. And right now we've started the first part of that equation. We've spent the X and we have not seen the Y. You would see it in global GDP. You haven't. You would see it in global productivity. You haven't. You would see it in the global profit margins of the S&P 500. We haven't. It doesn't mean it's not coming."
+  },
+  {
+    "start": 4421.49,
+    "end": 4438.14,
+    "speaker": "Jason",
+    "text": "Brad, you want to pick up on this? Because I'm definitely taking the other side of it because I'm seeing with a lot of these companies, massive lowering of costs, their ads are getting more effective at the same time they've stopped hiring, they're not adding positions in a lot of cases, and things like just pick the Nike example."
+  },
+  {
+    "start": 4438.932,
+    "end": 4452.282,
+    "speaker": "Jason",
+    "text": "A lot of the photo shoots they used to do for their app, excuse me, a lot of the imagery they used to make, now they're able to make more of it without having to hire photographers and do that stuff. I know this example because we have a startup that does this specifically for brands like Nike."
+  },
+  {
+    "start": 4452.432,
+    "end": 4474.022,
+    "speaker": "Jason",
+    "text": "They've seen a massive drop. We have one that helped DoorDash with their food pictures. All those pictures used to have to be taken by photographers. Now it's all done by AI. Massive reduction in cost. And they're using ads and ad creative now that is double-digit percentage more effective. while costing half as much. So I definitely think we're seeing it on the earnings, but is that true?"
+  },
+  {
+    "start": 4474.122,
+    "end": 4476.472,
+    "speaker": "Jason",
+    "text": "Are you seeing it in the earnings of these companies yet?"
+  },
+  {
+    "start": 4476.472,
+    "end": 4502.818,
+    "speaker": "Chamath",
+    "text": "Yeah, so two data points. Number one, we just saw Azure grow 39% in the quarter. We saw Google Cloud grow 63% in the quarter. Headcount growth for those companies the last three years, Mag5 combined, is about 3%. So their operating margins are all expanding. If you look at the S&P 500 writ large. large in Q1 of 24 operating margins were about 11.8%. That was up from 11% in 23."
+  },
+  {
+    "start": 4503.068,
+    "end": 4512.368,
+    "speaker": "Chamath",
+    "text": "This year, they're 13%. So we've had a 200 basis point improvement in the operating margins of the S&P 500, which is massive,"
+  },
+  {
+    "start": 4512.368,
+    "end": 4513.518,
+    "speaker": "Freeberg",
+    "text": "Do you think that's AI?"
+  },
+  {
+    "start": 4513.518,
+    "end": 4519.468,
+    "speaker": "Chamath",
+    "text": "Across those businesses. And Chamath, I think that that's the question where it could dovetail"
+  },
+  {
+    "start": 4519.468,
+    "end": 4520.018,
+    "speaker": "Freeberg",
+    "text": "I'll bet you with dollars"
+  },
+  {
+    "start": 4520.018,
+    "end": 4520.268,
+    "speaker": "Chamath",
+    "text": "what you're"
+  },
+  {
+    "start": 4520.268,
+    "end": 4520.418,
+    "speaker": "Freeberg",
+    "text": "to"
+  },
+  {
+    "start": 4520.418,
+    "end": 4520.568,
+    "speaker": "Chamath",
+    "text": "saying."
+  },
+  {
+    "start": 4520.568,
+    "end": 4528.564,
+    "speaker": "Freeberg",
+    "text": "donuts it's not AI. I'll bet any amount of money it's not AI. Is it the same financial engineering that got these earnings to rise in the last decade?"
+  },
+  {
+    "start": 4528.814,
+    "end": 4543.764,
+    "speaker": "Chamath",
+    "text": "Yeah. So I think that's the question. Or is this margin expansion durable? The forecast, the consensus forecast and estimate is that margins are going to continue to expand over the course of the next two years. You and I both know back in 22, 23,"
+  },
+  {
+    "start": 4544.014,
+    "end": 4565.506,
+    "speaker": "Chamath",
+    "text": "we went from the age of excess to the age of fitness, right? A lot of these companies were able to shed people, you know, with the excuse of AI. just because they had become, you know, too excessive during the period of COVID. So I think it's a legitimate question whether or not that's all from AI, but I will tell you anecdotally, it maps for me. I'm hearing like Jason"
+  },
+  {
+    "start": 4565.606,
+    "end": 4574.256,
+    "speaker": "Chamath",
+    "text": "and David, a lot of these companies that are, you know, really growing their top lines at an accelerating rate without expanding headcount nearly at the same pace."
+  },
+  {
+    "start": 4574.556,
+    "end": 4577.006,
+    "speaker": "Freeberg",
+    "text": "Okay. Sax, I'll give you the final word while we wrap."
+  },
+  {
+    "start": 4577.006,
+    "end": 4580.756,
+    "speaker": "Sacks",
+    "text": "Brad was talking about how we got all these operating efficiency improvements."
+  },
+  {
+    "start": 4581.428,
+    "end": 4600.628,
+    "speaker": "Sacks",
+    "text": "The unemployment rate stayed at historic lows during that time. I mean, the economists consider full employment to be four to five percent and we've stayed at the low four percent, four point two percent roughly during this time. So you're able to get these efficiency improvements while unemployment is still extremely low. Moreover."
+  },
+  {
+    "start": 4601.204,
+    "end": 4617.604,
+    "speaker": "Sacks",
+    "text": "There was just a big article saying that the unemployment rate for young college graduates has dropped. So, you know, there was this whole narrative recently that recent college graduates were going to have the hardest time finding jobs because, you know, there's going to be no work left for entry level jobs because of AI."
+  },
+  {
+    "start": 4617.754,
+    "end": 4637.372,
+    "speaker": "Sacks",
+    "text": "And in fact, it has gotten easier for recent college graduates to find work recently. Maybe that's because they're AI natives. Maybe that's because they know how to use AI better. So in any event, I mean, we're just not seeing any evidence yet of these theoretical downsides of AI around job loss and unemployment, and we are starting to see big productivity gains."
+  },
+  {
+    "start": 4637.372,
+    "end": 4660.574,
+    "speaker": "Jason",
+    "text": "Yeah, this is going to be a circular discussion, but yeah, there's a lot of conflicting evidence. The last piece of conflicting evidence obviously is the labor participation rate, because if you are not even opting in to participate, then you don't get counted as unemployed. And that's been, I think, a big challenge. 61.9% in March labor participation rate back in before"
+  },
+  {
+    "start": 4660.574,
+    "end": 4660.824,
+    "speaker": "Sacks",
+    "text": "but yet"
+  },
+  {
+    "start": 4660.824,
+    "end": 4660.874,
+    "speaker": "Jason",
+    "text": "COVID"
+  },
+  {
+    "start": 4660.874,
+    "end": 4661.374,
+    "speaker": "Sacks",
+    "text": "the recent college"
+  },
+  {
+    "start": 4661.374,
+    "end": 4674.076,
+    "speaker": "Jason",
+    "text": "we were graduates. at 63.3. Yeah, and college graduates are hearing different stories, certain degrees, getting jobs, other ones not getting jobs. it's too early to tell i think is probably what we all agree in and it's a it's a mixed bag which"
+  },
+  {
+    "start": 4674.076,
+    "end": 4676.076,
+    "speaker": "Sacks",
+    "text": "no, I don't agree with that. No, it's not. Look,"
+  },
+  {
+    "start": 4676.076,
+    "end": 4676.676,
+    "speaker": "Jason",
+    "text": "one no"
+  },
+  {
+    "start": 4676.676,
+    "end": 4681.126,
+    "speaker": "Sacks",
+    "text": "whenever I have data to refute one of your narratives, you always say it's too soon to tell."
+  },
+  {
+    "start": 4681.876,
+    "end": 4682.776,
+    "speaker": "Jason",
+    "text": "no no what i do is"
+  },
+  {
+    "start": 4682.776,
+    "end": 4690.062,
+    "speaker": "Sacks",
+    "text": "Headline, Wall Street Journal, Nick put it on the screen. College graduates are finally catching a break in this job market. JK, you should be happy about this."
+  },
+  {
+    "start": 4690.062,
+    "end": 4697.312,
+    "speaker": "Jason",
+    "text": "I know, listen, I'm happy anybody gets a job, but what you do is then you say we don't trust the numbers and we should get rid of the Fed and we should get rid of the numbers. So"
+  },
+  {
+    "start": 4697.312,
+    "end": 4697.362,
+    "speaker": "Sacks",
+    "text": "I"
+  },
+  {
+    "start": 4697.362,
+    "end": 4697.612,
+    "speaker": "Jason",
+    "text": "we all know"
+  },
+  {
+    "start": 4697.612,
+    "end": 4697.712,
+    "speaker": "Sacks",
+    "text": "never"
+  },
+  {
+    "start": 4697.712,
+    "end": 4697.762,
+    "speaker": "Jason",
+    "text": "the"
+  },
+  {
+    "start": 4697.762,
+    "end": 4697.812,
+    "speaker": "Sacks",
+    "text": "said"
+  },
+  {
+    "start": 4697.812,
+    "end": 4697.912,
+    "speaker": "Jason",
+    "text": "debate."
+  },
+  {
+    "start": 4697.912,
+    "end": 4699.012,
+    "speaker": "Sacks",
+    "text": "we should get rid of the Fed. Did"
+  },
+  {
+    "start": 4699.012,
+    "end": 4699.112,
+    "speaker": "Jason",
+    "text": "that was"
+  },
+  {
+    "start": 4699.112,
+    "end": 4699.162,
+    "speaker": "Sacks",
+    "text": "I"
+  },
+  {
+    "start": 4699.162,
+    "end": 4699.262,
+    "speaker": "Jason",
+    "text": "Chamath."
+  },
+  {
+    "start": 4699.262,
+    "end": 4699.662,
+    "speaker": "Sacks",
+    "text": "ever say that?"
+  },
+  {
+    "start": 4699.662,
+    "end": 4703.262,
+    "speaker": "Jason",
+    "text": "You chose Chamath. Let's get rid of the Fed because we don't like the numbers. Listen, it's all great."
+  },
+  {
+    "start": 4703.262,
+    "end": 4703.512,
+    "speaker": "Freeberg",
+    "text": "Come on."
+  },
+  {
+    "start": 4703.512,
+    "end": 4703.812,
+    "speaker": "Jason",
+    "text": "Welcome"
+  },
+  {
+    "start": 4703.812,
+    "end": 4703.962,
+    "speaker": "Freeberg",
+    "text": "What"
+  },
+  {
+    "start": 4703.962,
+    "end": 4704.112,
+    "speaker": "Jason",
+    "text": "to"
+  },
+  {
+    "start": 4704.112,
+    "end": 4704.162,
+    "speaker": "Freeberg",
+    "text": "did"
+  },
+  {
+    "start": 4704.162,
+    "end": 4704.262,
+    "speaker": "Jason",
+    "text": "the debate"
+  },
+  {
+    "start": 4704.262,
+    "end": 4704.462,
+    "speaker": "Freeberg",
+    "text": "I say?"
+  },
+  {
+    "start": 4704.462,
+    "end": 4704.712,
+    "speaker": "Jason",
+    "text": "club."
+  },
+  {
+    "start": 4704.962,
+    "end": 4705.712,
+    "speaker": "Freeberg",
+    "text": "What did I say?"
+  },
+  {
+    "start": 4705.712,
+    "end": 4723.54,
+    "speaker": "Jason",
+    "text": "You said abolish the Fed. Abolish the Fed. What is the Fed here for? All right, listen, enough. We're getting into Trump derangement syndrome or Trump bend the knee syndrome. It's the end of the show. We had a great show, everybody. body we had some laughs we all learned we workshop some stuff let's leave it where it is great job president"
+  },
+  {
+    "start": 4723.54,
+    "end": 4723.69,
+    "speaker": "Sacks",
+    "text": "I"
+  },
+  {
+    "start": 4723.69,
+    "end": 4723.84,
+    "speaker": "Jason",
+    "text": "trump"
+  },
+  {
+    "start": 4723.84,
+    "end": 4726.34,
+    "speaker": "Sacks",
+    "text": "want to congratulate all"
+  },
+  {
+    "start": 4726.34,
+    "end": 4728.59,
+    "speaker": "Jason",
+    "text": "here we go oh"
+  },
+  {
+    "start": 4728.59,
+    "end": 4734.59,
+    "speaker": "Sacks",
+    "text": "of our innovators and I want to congratulate Elon and Dario D. Rockefeller on their recent deal."
+  },
+  {
+    "start": 4734.84,
+    "end": 4738.09,
+    "speaker": "Jason",
+    "text": "shots fired i'm getting straight come on the program anytime"
+  },
+  {
+    "start": 4738.09,
+    "end": 4738.34,
+    "speaker": "Freeberg",
+    "text": "Unbelievable."
+  },
+  {
+    "start": 4738.34,
+    "end": 4763.776,
+    "speaker": "Jason",
+    "text": "daria hey you know daria well brad well get him on the program next week i want him on the program have him come on will you ask him for me I will you ask him for me? Well, I sure I'll ask him. And, you know, the fact of the matter is, I think our lucky stars that we have Elon, that we have Anthropic, that we have OpenAI, that we have Google, that we have Amazon all innovating in this country."
+  },
+  {
+    "start": 4764.076,
+    "end": 4772.126,
+    "speaker": "Jason",
+    "text": "And, you know, I know we like to, you know, kind of poke fun on the edges of these things. But the fact of the matter is, you know, I see them all."
+  },
+  {
+    "start": 4772.884,
+    "end": 4788.734,
+    "speaker": "Chamath",
+    "text": "showing up, sharing their models, driving as hard as they can to innovate. We have the best competitive framework in the country. David's right. It's been transformed over the course of the last 14 months. We need to stay the course. We're on the winning horse. We just had the derby last week."
+  },
+  {
+    "start": 4788.734,
+    "end": 4789.134,
+    "speaker": "Jason",
+    "text": "There it"
+  },
+  {
+    "start": 4789.134,
+    "end": 4789.284,
+    "speaker": "Chamath",
+    "text": "We're"
+  },
+  {
+    "start": 4789.284,
+    "end": 4789.384,
+    "speaker": "Jason",
+    "text": "is."
+  },
+  {
+    "start": 4789.384,
+    "end": 4790.834,
+    "speaker": "Chamath",
+    "text": "on the winning horse. Stay on"
+  },
+  {
+    "start": 4790.834,
+    "end": 4790.884,
+    "speaker": "Jason",
+    "text": "That's"
+  },
+  {
+    "start": 4790.884,
+    "end": 4791.134,
+    "speaker": "Chamath",
+    "text": "the horse."
+  },
+  {
+    "start": 4791.134,
+    "end": 4791.334,
+    "speaker": "Jason",
+    "text": "it."
+  },
+  {
+    "start": 4791.384,
+    "end": 4791.734,
+    "speaker": "Chamath",
+    "text": "America"
+  },
+  {
+    "start": 4791.734,
+    "end": 4791.934,
+    "speaker": "Jason",
+    "text": "Senator"
+  },
+  {
+    "start": 4791.934,
+    "end": 4793.934,
+    "speaker": "Chamath",
+    "text": "for the win. America for the win."
+  },
+  {
+    "start": 4794.034,
+    "end": 4799.634,
+    "speaker": "Jason",
+    "text": "There it is. Senator Brad Gerstner. I think if you're going to run, you got to get rid of the red glasses. We got to get maybe tortoise shells."
+  },
+  {
+    "start": 4800.0,
+    "end": 4803.652,
+    "speaker": "Unknown",
+    "text": "But I think you got a serious shot, Senator. Senator"
+  },
+  {
+    "start": 4803.652,
+    "end": 4803.802,
+    "speaker": "Jason",
+    "text": "I"
+  },
+  {
+    "start": 4803.802,
+    "end": 4804.052,
+    "speaker": "Unknown",
+    "text": "Gershner,"
+  },
+  {
+    "start": 4804.052,
+    "end": 4806.702,
+    "speaker": "Jason",
+    "text": "like Secretary better. Secretary."
+  },
+  {
+    "start": 4806.702,
+    "end": 4819.352,
+    "speaker": "Unknown",
+    "text": "Secretary, who's, yes, Secretary of the Treasury, Brad Gershner, Secretary of State, David Sachs, Secretary of Cashmere and Wine, Jamal Abdel. How are you doing with"
+  },
+  {
+    "start": 4819.352,
+    "end": 4819.502,
+    "speaker": "Sacks",
+    "text": "there"
+  },
+  {
+    "start": 4819.502,
+    "end": 4819.702,
+    "speaker": "Unknown",
+    "text": "your,"
+  },
+  {
+    "start": 4819.702,
+    "end": 4819.802,
+    "speaker": "Sacks",
+    "text": "there's"
+  },
+  {
+    "start": 4819.802,
+    "end": 4820.002,
+    "speaker": "Unknown",
+    "text": "of"
+  },
+  {
+    "start": 4820.002,
+    "end": 4830.752,
+    "speaker": "Sacks",
+    "text": "so much fake news out there because i mean look i totally agree with everything brad said look i poke fun at some of these companies for some of the things they do but i am happy that they are american companies and that they're innovating here so of"
+  },
+  {
+    "start": 4830.752,
+    "end": 4831.202,
+    "speaker": "Unknown",
+    "text": "Congratulations on"
+  },
+  {
+    "start": 4831.202,
+    "end": 4831.652,
+    "speaker": "Sacks",
+    "text": "course and"
+  },
+  {
+    "start": 4831.652,
+    "end": 4832.802,
+    "speaker": "Unknown",
+    "text": "your monopoly, darling."
+  },
+  {
+    "start": 4832.852,
+    "end": 4848.552,
+    "speaker": "Sacks",
+    "text": "And yes, and look, there's so much fake news out there. I mean, we just covered on this podcast how beneficial some of these economic trends are. You never get it from the media and they are trying to derail us from from, you know, the policies that have been so successful."
+  },
+  {
+    "start": 4848.552,
+    "end": 4859.202,
+    "speaker": "Jason",
+    "text": "yes but they did some great inspiring coverage of micro looting so get your micro looting on congratulations new york times we'll see you next time everybody bye bye love"
+  },
+  {
+    "start": 4859.202,
+    "end": 4860.152,
+    "speaker": "Sacks",
+    "text": "Love you, boys."
+  },
+  {
+    "start": 4860.152,
+    "end": 4861.002,
+    "speaker": "Jason",
+    "text": "you guys"
+  },
+  {
+    "start": 4866.932,
+    "end": 4867.332,
+    "speaker": "Jason",
+    "text": "David's out."
+  },
+  {
+    "start": 4870.482,
+    "end": 4870.782,
+    "speaker": "Jason",
+    "text": "And I said"
+  },
+  {
+    "start": 4870.782,
+    "end": 4874.132,
+    "speaker": "Sacks",
+    "text": "We open source it to the fans and they've just gone crazy with it."
+  },
+  {
+    "start": 4874.282,
+    "end": 4876.432,
+    "speaker": "Jason",
+    "text": "Love you, Wes. I am queen of quinoa."
+  },
+  {
+    "start": 4883.382,
+    "end": 4884.132,
+    "speaker": "Jason",
+    "text": "The besties are gone."
+  },
+  {
+    "start": 4884.132,
+    "end": 4888.382,
+    "speaker": "Sacks",
+    "text": "Go it. Go 13. That's funny, a dog taking it. I wish your driveway's next."
+  },
+  {
+    "start": 4888.782,
+    "end": 4889.532,
+    "speaker": "Jason",
+    "text": "Bring that on in."
+  },
+  {
+    "start": 4891.182,
+    "end": 4891.232,
+    "speaker": "Sacks",
+    "text": "Hang"
+  },
+  {
+    "start": 4891.232,
+    "end": 4891.582,
+    "speaker": "Jason",
+    "text": "man."
+  },
+  {
+    "start": 4891.582,
+    "end": 4891.732,
+    "speaker": "Sacks",
+    "text": "on."
+  },
+  {
+    "start": 4891.732,
+    "end": 4895.832,
+    "speaker": "Jason",
+    "text": "My Aunt Natasha will meet me at Glitza. We should all just get a room and just have one big."
+  }
+]

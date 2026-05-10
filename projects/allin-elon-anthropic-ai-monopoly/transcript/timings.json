@@ -1,0 +1,4391 @@
+[
+  {
+    "idx": 0,
+    "speaker": "Unknown",
+    "start_ms": 0,
+    "end_ms": 1872,
+    "text": "我听起来怎么样？"
+  },
+  {
+    "idx": 1,
+    "speaker": "Jason",
+    "start_ms": 2280,
+    "end_ms": 4584,
+    "text": "你听起来很完美。"
+  },
+  {
+    "idx": 2,
+    "speaker": "Chamath",
+    "start_ms": 4992,
+    "end_ms": 6696,
+    "text": "你听起来很棒。"
+  },
+  {
+    "idx": 3,
+    "speaker": "Unknown",
+    "start_ms": 7104,
+    "end_ms": 9072,
+    "text": "那我看起来怎么样？"
+  },
+  {
+    "idx": 4,
+    "speaker": "Chamath",
+    "start_ms": 9480,
+    "end_ms": 15936,
+    "text": "对，你听起来很棒。比你看起来强。那张脸天生就是做广播的。"
+  },
+  {
+    "idx": 5,
+    "speaker": "Jason",
+    "start_ms": 16344,
+    "end_ms": 19848,
+    "text": "你看起来没前几周那么疲惫了。"
+  },
+  {
+    "idx": 6,
+    "speaker": "Chamath",
+    "start_ms": 20256,
+    "end_ms": 28776,
+    "text": "这倒是真的。对。哦对，有人还吐槽我眼袋很重。我的意思是，这帮观众也太狠了。"
+  },
+  {
+    "idx": 7,
+    "speaker": "Jason",
+    "start_ms": 29184,
+    "end_ms": 31560,
+    "text": "他们确实挺狠的。"
+  },
+  {
+    "idx": 8,
+    "speaker": "Chamath",
+    "start_ms": 31968,
+    "end_ms": 33792,
+    "text": "他们可太狠了。"
+  },
+  {
+    "idx": 9,
+    "speaker": "Unknown",
+    "start_ms": 34200,
+    "end_ms": 35928,
+    "text": "还好我有钱。"
+  },
+  {
+    "idx": 10,
+    "speaker": "Jason",
+    "start_ms": 36336,
+    "end_ms": 38520,
+    "text": "让赢家继续跑。"
+  },
+  {
+    "idx": 11,
+    "speaker": "Chamath",
+    "start_ms": 38928,
+    "end_ms": 41016,
+    "text": "各位，Kinwa 女王。"
+  },
+  {
+    "idx": 12,
+    "speaker": "Chamath",
+    "start_ms": 41424,
+    "end_ms": 69840,
+    "text": "好了，各位，欢迎回来。这是世界第一的播客。这里是 All In Podcast，今天和我们一起的是 Chamath Palihapitiya、David Sacks，还有我们的第五位好兄弟，Brad Gerstner 先生也来了。我觉得 David Freeberg 可能是得了点……和社会主义有关的流感，他已经看社会主义的新闻看到快病倒了。不过他下周会带着两场非常非常精彩的采访回来，就是——"
+  },
+  {
+    "idx": 13,
+    "speaker": "Freeberg",
+    "start_ms": 70248,
+    "end_ms": 74952,
+    "text": "你们看到那些 Spencer Pratt 的广告了吗？哇。"
+  },
+  {
+    "idx": 14,
+    "speaker": "Chamath",
+    "start_ms": 75360,
+    "end_ms": 82824,
+    "text": "那绝对是我看过最最棒的政治广告之一，哦，而且好像有三四条，是一整套的，对吧。"
+  },
+  {
+    "idx": 15,
+    "speaker": "Jason",
+    "start_ms": 83232,
+    "end_ms": 103608,
+    "text": "那个社媒团队不管是谁，状态都火力全开。要是你有一个厉害的社媒团队，再配上一个强的广告制作团队，我觉得这就是下一代玩法，因为这些内容传播得太疯了。而且如果 Spencer Pratt 赢下这次选举——我觉得他会在洛杉矶赢——"
+  },
+  {
+    "idx": 16,
+    "speaker": "Chamath",
+    "start_ms": 104016,
+    "end_ms": 109152,
+    "text": "原因就是 Brad 说的，那些广告太厉害了，真的太厉害了"
+  },
+  {
+    "idx": 17,
+    "speaker": "Freeberg",
+    "start_ms": 109560,
+    "end_ms": 115848,
+    "text": "嗯，而且他也特别会辩论。你看到这场辩论的片段了吗？"
+  },
+  {
+    "idx": 18,
+    "speaker": "Chamath",
+    "start_ms": 116256,
+    "end_ms": 119472,
+    "text": "他太搞笑了，也特别松弛，对"
+  },
+  {
+    "idx": 19,
+    "speaker": "Freeberg",
+    "start_ms": 119880,
+    "end_ms": 133560,
+    "text": "他的对手是 Karen Bass，也就是那位市长，基本上属于非常左翼。然后还有一个市议员，比 Karen Bass 还要更左。我是说，她经常都快到 Fidel Castro 那个路数了。"
+  },
+  {
+    "idx": 20,
+    "speaker": "Chamath",
+    "start_ms": 133968,
+    "end_ms": 136992,
+    "text": "她就是个印度版 Fidel Castro"
+  },
+  {
+    "idx": 21,
+    "speaker": "Freeberg",
+    "start_ms": 137400,
+    "end_ms": 149544,
+    "text": "Rahman。她当时基本上是在批评市长处理无家可归问题不力。然后 Pratt 就指出，这位市议员其实本来就负责这些无家可归者项目。"
+  },
+  {
+    "idx": 22,
+    "speaker": "Jason",
+    "start_ms": 149952,
+    "end_ms": 152616,
+    "text": "他把她驳得体无完肤。"
+  },
+  {
+    "idx": 23,
+    "speaker": "Freeberg",
+    "start_ms": 153024,
+    "end_ms": 155664,
+    "text": "他把她驳得体无完肤。"
+  },
+  {
+    "idx": 24,
+    "speaker": "Jason",
+    "start_ms": 156072,
+    "end_ms": 158664,
+    "text": "他把她说得体无完肤。"
+  },
+  {
+    "idx": 25,
+    "speaker": "Freeberg",
+    "start_ms": 159072,
+    "end_ms": 162936,
+    "text": "她。而且他基本上"
+  },
+  {
+    "idx": 26,
+    "speaker": "Jason",
+    "start_ms": 163344,
+    "end_ms": 166320,
+    "text": "她。他把她说惨了。"
+  },
+  {
+    "idx": 27,
+    "speaker": "Freeberg",
+    "start_ms": 166728,
+    "end_ms": 168528,
+    "text": "提出了"
+  },
+  {
+    "idx": 28,
+    "speaker": "Jason",
+    "start_ms": 168936,
+    "end_ms": 170616,
+    "text": "那个她。"
+  },
+  {
+    "idx": 29,
+    "speaker": "Freeberg",
+    "start_ms": 171024,
+    "end_ms": 183600,
+    "text": "关键点。就是说，你看，这里的问题不是住房短缺，而是成瘾问题和精神疾病问题。他还说，你看，如果你……"
+  },
+  {
+    "idx": 30,
+    "speaker": "Jason",
+    "start_ms": 184008,
+    "end_ms": 197160,
+    "text": "他说，如果她流落街头，就会被人在脖子上捅一刀。如果你去过 Skid Row，就知道这说得挺准确的。我的意思是，你绝对不会想走在那儿。"
+  },
+  {
+    "idx": 31,
+    "speaker": "Chamath",
+    "start_ms": 197568,
+    "end_ms": 199608,
+    "text": "从那儿走过去，哦"
+  },
+  {
+    "idx": 32,
+    "speaker": "Sacks",
+    "start_ms": 200016,
+    "end_ms": 203256,
+    "text": "这就像那张 Spider-Man 的梗图。"
+  },
+  {
+    "idx": 33,
+    "speaker": "Chamath",
+    "start_ms": 203664,
+    "end_ms": 209808,
+    "text": "等等，Nick 那边有那段片子，放一下。Nick，天哪，这段也太——"
+  },
+  {
+    "idx": 34,
+    "speaker": "Jason",
+    "start_ms": 210216,
+    "end_ms": 211536,
+    "text": "这"
+  },
+  {
+    "idx": 35,
+    "speaker": "Chamath",
+    "start_ms": 211944,
+    "end_ms": 213264,
+    "text": "太狠了"
+  },
+  {
+    "idx": 36,
+    "speaker": "Jason",
+    "start_ms": 213672,
+    "end_ms": 220224,
+    "text": "这是另一段视频，但这段传播得特别疯。我有点想起 Trump 了。"
+  },
+  {
+    "idx": 37,
+    "speaker": "Chamath",
+    "start_ms": 220632,
+    "end_ms": 221856,
+    "text": "看吧"
+  },
+  {
+    "idx": 38,
+    "speaker": "Sacks",
+    "start_ms": 222264,
+    "end_ms": 233400,
+    "text": "我都不知道该怎么回应那种对 Los Angeles 的想象。这就是一个 MAGA Republican 心目中 Los Angeles 的样子。实际上根本不是这样。"
+  },
+  {
+    "idx": 39,
+    "speaker": "Chamath",
+    "start_ms": 233808,
+    "end_ms": 241248,
+    "text": "给只听音频的朋友补充一下，他刚刚举起双手，还吐着舌头晃来晃去，一副“我的天啊”的样子。"
+  },
+  {
+    "idx": 40,
+    "speaker": "Sacks",
+    "start_ms": 241656,
+    "end_ms": 257472,
+    "text": "嘿，Sachs，你知道吗，Stephen Pratt 赢下市长选举，然后那个投票倡议——Retirement Protection and Savings Act，对吧——也会通过，而且会高票通过。这就是那个实际上会把财富税干掉的公投。"
+  },
+  {
+    "idx": 41,
+    "speaker": "Sacks",
+    "start_ms": 257880,
+    "end_ms": 277416,
+    "text": "你能想象吗，如果 California 实际上通过了一项保护退休储蓄和个人资产、并禁止财富税的宪法修正案，而且 Pratt 也当选了，这会向全国传递出什么样的信息？老实说，这是个非常不符合主流共识的看法，但我对此越来越乐观了。"
+  },
+  {
+    "idx": 42,
+    "speaker": "Freeberg",
+    "start_ms": 277824,
+    "end_ms": 285600,
+    "text": "嗯，借你吉言。但在那个信号真的发出来之前，我觉得我还是会，嗯，"
+  },
+  {
+    "idx": 43,
+    "speaker": "Sacks",
+    "start_ms": 286008,
+    "end_ms": 288336,
+    "text": "待在 Texas"
+  },
+  {
+    "idx": 44,
+    "speaker": "Freeberg",
+    "start_ms": 288744,
+    "end_ms": 290856,
+    "text": "待在 Texas。"
+  },
+  {
+    "idx": 45,
+    "speaker": "Sacks",
+    "start_ms": 291264,
+    "end_ms": 312312,
+    "text": "嗯，对，我是说，而且这还是在——我不知道，就顺带说个后续——Mandami 还专门做了个攻击 Ken Griffin 家的视频。我们几周前在播客里聊过这事。他真的是站在 Ken Griffin 家门前指着那房子说。这还是在已经有 CEO 遭枪击这种事情发生的背景下。"
+  },
+  {
+    "idx": 46,
+    "speaker": "Sacks",
+    "start_ms": 312720,
+    "end_ms": 338496,
+    "text": "而且还是出于意识形态原因，Sam Altman 的房子也成了目标。Mandami 这么做真的非常危险。Ken Griffin 今天还是昨天在一次采访里出来说，嘿，听着，我退出了。我们会把精力投到 Florida 去。这跟 Chicago 发生的事是一样的。他基本上就是说，我真的觉得被冒犯了，而且我对此感到不安。"
+  },
+  {
+    "idx": 47,
+    "speaker": "Sacks",
+    "start_ms": 338904,
+    "end_ms": 359328,
+    "text": "因为这关系到我的人身安全。他还点名批评了他。后来 Dominic 给了个含糊其辞的回应，甚至都没为自己的所作所为道歉，本质上就是在加倍坚持自己的做法。好吧，我们接着说下一个话题。我不知道你们有没有看到，不过这事是"
+  },
+  {
+    "idx": 48,
+    "speaker": "Chamath",
+    "start_ms": 359736,
+    "end_ms": 364224,
+    "text": "谁在乎？New York 正在变成一座飞越城市。"
+  },
+  {
+    "idx": 49,
+    "speaker": "Sacks",
+    "start_ms": 364632,
+    "end_ms": 374112,
+    "text": "这个说法挺有意思，呃，我也不反对。好，第一条新闻，Elon 刚刚把 Colossus One 的整个——他的——"
+  },
+  {
+    "idx": 50,
+    "speaker": "Chamath",
+    "start_ms": 374520,
+    "end_ms": 375648,
+    "text": "等等，"
+  },
+  {
+    "idx": 51,
+    "speaker": "Sacks",
+    "start_ms": 376056,
+    "end_ms": 377688,
+    "text": "数据"
+  },
+  {
+    "idx": 52,
+    "speaker": "Chamath",
+    "start_ms": 378096,
+    "end_ms": 379200,
+    "text": "什么？"
+  },
+  {
+    "idx": 53,
+    "speaker": "Sacks",
+    "start_ms": 379608,
+    "end_ms": 381144,
+    "text": "中心"
+  },
+  {
+    "idx": 54,
+    "speaker": "Chamath",
+    "start_ms": 381552,
+    "end_ms": 384120,
+    "text": "他真这么干了？嗯。"
+  },
+  {
+    "idx": 55,
+    "speaker": "Sacks",
+    "start_ms": 384528,
+    "end_ms": 401832,
+    "text": "你的善意哪去了？什么？什么？对，Dario 和 Anthropic 肯定很震惊。Jermoth 在上周的播客里提过。来吧，给自己拍拍背。你当时说 Elon 和 Dario 明天就该谈个交易。"
+  },
+  {
+    "idx": 56,
+    "speaker": "Sacks",
+    "start_ms": 402240,
+    "end_ms": 431520,
+    "text": "结果没发生。第二天没发生，是五天后才发生的。所以你已经很接近了，Jermoth，但还是差那么一点，因为 Anthropic 明显受制于算力限制。Anthropic 刚刚新增了超过 22 万块 NVIDIA GPU，以及超过 300 兆瓦的电力。正如我们之前在这儿讨论过的，这笔交易已经开始产生影响了。Claude 用户之前一直在遇到限流。现在，"
+  },
+  {
+    "idx": 57,
+    "speaker": "Sacks",
+    "start_ms": 431928,
+    "end_ms": 453072,
+    "text": "Claude 现在已经把 Claude Code 的速率限制翻倍，取消了付费用户的高峰使用上限，还提高了 Opus 模型的 API 调用量。XAI 现在把他们的模型放在 Colossus 2 上运行，所以他们的算力已经绰绰有余。Elon 在算力上的这笔押注非常漂亮。"
+  },
+  {
+    "idx": 58,
+    "speaker": "Sacks",
+    "start_ms": 453480,
+    "end_ms": 473592,
+    "text": "他在算力上下注，而且非常快地把那些数据中心建了起来，现在已经开始见回报了。我们上周聊过 Cursor 那笔交易。接下来聊聊 Elon Web Services，也就是 EWS 的崛起，Chamath。他现在已经成了超大规模云服务商，开始和 Google Cloud、"
+  },
+  {
+    "idx": 59,
+    "speaker": "Sacks",
+    "start_ms": 474000,
+    "end_ms": 487392,
+    "text": "Amazon Web Services 以及 Azure 竞争了。我不知道你是有内部消息，还是单纯灵光一现，但你来讲讲当时这个判断背后的逻辑，以及你怎么看这笔交易本身？"
+  },
+  {
+    "idx": 60,
+    "speaker": "Chamath",
+    "start_ms": 487800,
+    "end_ms": 504672,
+    "text": "我觉得这笔交易非常棒。我简单说三点。第一，正如我几周前提到的，Anthropic 和 OpenAI 的营收表现跟需求没有关系，完全没有。问题完全出在数据中心现有的供给限制上，尤其是电力方面。"
+  },
+  {
+    "idx": 61,
+    "speaker": "Sacks",
+    "start_ms": 505080,
+    "end_ms": 519072,
+    "text": "如果他们有无限的电力，我觉得他们的营收曲线可能会更加陡峭。所以那些关于他们是超预期还是不及预期的各种大惊小怪，在我看来都没什么意义。"
+  },
+  {
+    "idx": 62,
+    "speaker": "Sacks",
+    "start_ms": 519480,
+    "end_ms": 545496,
+    "text": "我觉得从五年的视角看，这两家公司都非常稳健。他们真正需要的是更多算力和更多电力。这是第一点。第二点是，虽然他们需要这些资源，但我们现在有个很大的问题：很遗憾，大多数这些 AI 公司的领导层都很差。我觉得他们给人的感觉是不值得信任，或者太以自身利益为中心。"
+  },
+  {
+    "idx": 63,
+    "speaker": "Sacks",
+    "start_ms": 545904,
+    "end_ms": 570888,
+    "text": "现在政治层面的反应已经开始转向负面，社区层面的反应也是负面的。今年原本预计会有大约 9 吉瓦的电力上线，但现在其中将近 50% 都遭到了抗议。按历史经验来看，这里面大部分最终很可能都会被叫停。这样一来，他们的供给约束只会更严重。这就是当前的局面。"
+  },
+  {
+    "idx": 64,
+    "speaker": "Chamath",
+    "start_ms": 571296,
+    "end_ms": 596784,
+    "text": "那机会在哪儿？我觉得对 Elon 来说，如果你去看人们是怎么挑 SpaceX 估值毛病的，或者别这么说，抱歉，我们大方一点。就是当人们试图描绘空头逻辑，或者从反方角度审视这个估值时，最大的一个因素，就是围绕轨道数据中心那部分尚未兑现的预期价值。而如果他真的落地了一大批地面算力容量。"
+  },
+  {
+    "idx": 65,
+    "speaker": "Sacks",
+    "start_ms": 597192,
+    "end_ms": 608976,
+    "text": "我觉得这就开始削弱那种质疑了，因为你现在可以说，就算轨道数据中心要延后几个月，甚至几个季度，就算这项技术的去风险化过程花的时间更长，"
+  },
+  {
+    "idx": 66,
+    "speaker": "Sacks",
+    "start_ms": 609384,
+    "end_ms": 638808,
+    "text": "他现在已经有了一个结构性的核心业务，实际上可以补贴他训练 Grok 的能力，我觉得这是一个非常重要但报道不足的主题。所以你有了这一整套基础设施。他某种程度上比大多数人更早看清了风向，在大多数人之前就把规模做起来并锁定了电力资源。现在这已经成了关键资产。而且现在他某种意义上已经在决定谁能上桌。"
+  },
+  {
+    "idx": 67,
+    "speaker": "Sacks",
+    "start_ms": 639216,
+    "end_ms": 649536,
+    "text": "我觉得这对 SpaceX 在试探市场反应、进行路演的过程中，是一个非常有意思的估值强化因素。Brad，你怎么看？"
+  },
+  {
+    "idx": 68,
+    "speaker": "Chamath",
+    "start_ms": 649944,
+    "end_ms": 676056,
+    "text": "对，我觉得你说得很好。首先，我们都知道，在把电力转化成 token 这件事上，地球上没人比 Elon 更厉害。这是整个故事里一个极其重要的演进。你知道，我觉得我们的朋友 Sean McGuire 发过一条推文，总结得很到位。他说 SpaceX 有一个五层蛋糕：发射、连接、算力、超大规模云服务商、太空数据中心，"
+  },
+  {
+    "idx": 69,
+    "speaker": "Chamath",
+    "start_ms": 676464,
+    "end_ms": 683592,
+    "text": "然后是应用和模型，再然后是其他押注。对吧。路演中的问题一直是。"
+  },
+  {
+    "idx": 70,
+    "speaker": "Sacks",
+    "start_ms": 684000,
+    "end_ms": 700656,
+    "text": "但是 X.AI 的营收增长轨迹并不像 OpenAI 和 Anthropic 那样强，可承诺投入却非常大。现在我们看到了 Elon 打出的王牌。他说自己其实一直都在建 AWS，或者说 EWS。"
+  },
+  {
+    "idx": 71,
+    "speaker": "Sacks",
+    "start_ms": 701064,
+    "end_ms": 713424,
+    "text": "所以我估计，这项业务今年会在分析师目前给出的 200 多亿美元中段预期基础上，额外再带来 40 亿到 50 亿美元的收入。这是相当可观的一块。"
+  },
+  {
+    "idx": 72,
+    "speaker": "Sacks",
+    "start_ms": 713832,
+    "end_ms": 727056,
+    "text": "靠新增收入来抵消他在这里所做投资的成本，而且也会像 Chamath 说的那样，为他投入建设下一代 Grok 的所有资金提供补贴。还有，别忘了，他有三个设施，"
+  },
+  {
+    "idx": 73,
+    "speaker": "Sacks",
+    "start_ms": 727464,
+    "end_ms": 742632,
+    "text": "Colossus、MacroHard 和 MacroHarder，MacroHard 和 MacroHarder 那边有 1.2 吉瓦的 Blackwell。所以他把那个连接性相对没那么强的设施拿出来了，H100 很适合做推理。"
+  },
+  {
+    "idx": 74,
+    "speaker": "Sacks",
+    "start_ms": 743040,
+    "end_ms": 772272,
+    "text": "给 Anthropic 之后，他正在大规模把它变现，这对 Anthropic 来说非常棒，而且也解决了我认为这个估值逻辑里最大的问题：如果他在 x.ai 产生收入之前就提前大举投入怎么办？这样一来，Chamath，x.ai 立刻交出收入的压力就减轻了。现在他也立刻成了 hyperscale 领域的竞争者。我觉得这不会是最后一个公告，我认为他还会有更多"
+  },
+  {
+    "idx": 75,
+    "speaker": "Sacks",
+    "start_ms": 772680,
+    "end_ms": 784200,
+    "text": "朝这个方向的动作。我觉得这会成为他们整体叙事和收入预测整合过程中的一个重要组成部分。最后我还想说，还是那句话，"
+  },
+  {
+    "idx": 76,
+    "speaker": "Sacks",
+    "start_ms": 784608,
+    "end_ms": 805368,
+    "text": "大家都在说我们电力不够、算力不够、收入今年不会体现出来，但美式资本主义这种混乱中不知怎么总能找到办法。好吧。Anthropic 的需求非常强，我们总能找到路子。我特别高兴看到 Anthropic 团队和 Elon 之间某种缓和，以及那种友善的互动，"
+  },
+  {
+    "idx": 77,
+    "speaker": "Sacks",
+    "start_ms": 805776,
+    "end_ms": 826056,
+    "text": "因为我们需要这一切，才能做出美国的前沿模型，并继续站在前沿。最后我还想说一句，Chamath，你提到那些在各地抗议、拖延数据中心建设的活动人士。有一点我想澄清，这并不是什么社区居民自发形成的、超本地化的抗议，不是没人推动的那种。"
+  },
+  {
+    "idx": 78,
+    "speaker": "Sacks",
+    "start_ms": 826464,
+    "end_ms": 841944,
+    "text": "这些是高度组织化的活动人士，在全国各地流动作业、煽动事端，方式和他们 30 年前在美国阻止所有裂变反应堆建设时一模一样。结果就是现在我们没有新的核反应堆在建。"
+  },
+  {
+    "idx": 79,
+    "speaker": "Sacks",
+    "start_ms": 842352,
+    "end_ms": 864024,
+    "text": "China 已经有 100 座了。那些活动人士当年是谁在资助？我觉得我们现在真的需要查一查，究竟是谁在资助这些活动人士。我不是说完全没有合理担忧，但关于用水的错误信息、关于电费的错误信息——电费上涨的地方，恰恰是那些没有在建数据中心的地方。"
+  },
+  {
+    "idx": 80,
+    "speaker": "Sacks",
+    "start_ms": 864432,
+    "end_ms": 881568,
+    "text": "纽约和加州就是这样，因为他们一直没像 Texas 那样在电网上增加供给，而 Texas 正在建设全国最多的数据中心。电价是在下降的。所以我觉得那就是个被夸大的吓人说法，我们得正面应对。"
+  },
+  {
+    "idx": 81,
+    "speaker": "Chamath",
+    "start_ms": 881976,
+    "end_ms": 884064,
+    "text": "Sacks，你最后一个。"
+  },
+  {
+    "idx": 82,
+    "speaker": "Freeberg",
+    "start_ms": 884472,
+    "end_ms": 900336,
+    "text": "你看，这笔交易的互补性很强，正如 Jamath 和 Brad 刚才指出的。SpaceX 有一个盈利的——我觉得是非常盈利的——航天和电信业务，也就是 Starlink 这个卫星业务。但 xAI 业务亏损很大。"
+  },
+  {
+    "idx": 83,
+    "speaker": "Freeberg",
+    "start_ms": 900744,
+    "end_ms": 914208,
+    "text": "原因其实很直接。你需要这种超大规模训练集群，但它们非常烧钱。而且在你还没有一个能在前沿水平上竞争的模型之前，是赚不到收入的。"
+  },
+  {
+    "idx": 84,
+    "speaker": "Freeberg",
+    "start_ms": 914616,
+    "end_ms": 930936,
+    "text": "而这个问题又因为另一点变得更严重：现在所有收入基本都在企业端，也就是说在编程这块。这个我们都知道。其实他们刚和 Cursor 做了那笔交易，想要追赶上来，但他们自己还没有编程产品。"
+  },
+  {
+    "idx": 85,
+    "speaker": "Freeberg",
+    "start_ms": 931344,
+    "end_ms": 946464,
+    "text": "所以他们没有参与收入，却承担了所有成本。所以这笔交易解决了这个问题。Elon 现在可以拥有一家前沿模型公司，同时又不用背上这些巨额、没有资金覆盖的 CapEx 承诺，"
+  },
+  {
+    "idx": 86,
+    "speaker": "Freeberg",
+    "start_ms": 946872,
+    "end_ms": 970872,
+    "text": "对吧？因为他现在某种程度上可以通过租用这些产能来解决。所以我觉得这解决了他们以及他们资产负债表上的一个重大问题。然后你还得说，对 Anthropic 来说，这也是件非常好的事，因为他们之前受限于算力。顺着这个点说下去，我想不如让我第一个恭喜 Dario 赢下了 AI 竞赛。"
+  },
+  {
+    "idx": 87,
+    "speaker": "Sacks",
+    "start_ms": 971280,
+    "end_ms": 973680,
+    "text": "而且你已经"
+  },
+  {
+    "idx": 88,
+    "speaker": "Freeberg",
+    "start_ms": 974088,
+    "end_ms": 975816,
+    "text": "因为"
+  },
+  {
+    "idx": 89,
+    "speaker": "Sacks",
+    "start_ms": 976224,
+    "end_ms": 978792,
+    "text": "一直以来，咱们就"
+  },
+  {
+    "idx": 90,
+    "speaker": "Freeberg",
+    "start_ms": 979200,
+    "end_ms": 980928,
+    "text": "我的"
+  },
+  {
+    "idx": 91,
+    "speaker": "Sacks",
+    "start_ms": 981336,
+    "end_ms": 999960,
+    "text": "坦白说吧，Zach，你在这个播客上一直对那家公司以及 Dario 本人有些批评，你知道的，觉得他有点偏 AI 末日论者。在你的 X 账号上，你说得还更猛一点。所以现在 AI 行业的中东和平已经实现了，你怎么看这件事？"
+  },
+  {
+    "idx": 92,
+    "speaker": "Freeberg",
+    "start_ms": 1000368,
+    "end_ms": 1014624,
+    "text": "我的看法是，听着，我们就诚实、准确地评估一下现在这个 AI 市场到底处在什么状态，以及 Anthropic 在其中的位置。过去三年里，Anthropic 一直保持着每年 10 倍的增长速度。"
+  },
+  {
+    "idx": 93,
+    "speaker": "Freeberg",
+    "start_ms": 1015032,
+    "end_ms": 1028112,
+    "text": "我觉得在进入今年的时候，大家普遍的看法大概是，这种增长速度到了这个规模，肯定不可能持续下去。那今年前四个月发生了什么？首先，"
+  },
+  {
+    "idx": 94,
+    "speaker": "Freeberg",
+    "start_ms": 1028520,
+    "end_ms": 1048632,
+    "text": "我们发现，从 1 月 1 日到 3 月 31 日，他们的 ARR 大约从 100 亿美元增长到 300 亿美元，也就是翻了三倍。然后到了 4 月，如果说有什么变化的话，那就是增长速度看起来还在加快。他们的 ARR 从 300 亿美元涨到了 440 亿美元。"
+  },
+  {
+    "idx": 95,
+    "speaker": "Freeberg",
+    "start_ms": 1049040,
+    "end_ms": 1063776,
+    "text": "Silicon Valley 从来没人见过这种情况，别说美国其他地方了。我的意思是，我们在 Silicon Valley 天天接触的就是指数级增长，但即便如此，人们也从没见过在这种规模下还能有这样的增长。"
+  },
+  {
+    "idx": 96,
+    "speaker": "Freeberg",
+    "start_ms": 1064184,
+    "end_ms": 1090752,
+    "text": "未来唯一限制他们发展的就是算力。现在他们已经达成了这笔交易，也还通过其他交易拿到了这些算力。我觉得他们今年实现 10 倍增长的预测，基本上已经是板上钉钉了，到年底 ARR 大概会来到 1000 亿美元左右。现在唯一的问题就是，他们能不能在 2027 年做到 1 万亿美元。这个我们可以再讨论到底是不是"
+  },
+  {
+    "idx": 97,
+    "speaker": "Chamath",
+    "start_ms": 1091160,
+    "end_ms": 1093968,
+    "text": "我开始认同了，我喜欢这个说法"
+  },
+  {
+    "idx": 98,
+    "speaker": "Freeberg",
+    "start_ms": 1094376,
+    "end_ms": 1114896,
+    "text": "这样。但你看，如果他们真做到这一点，我觉得他们会轻松成为历史上市值最高的科技公司。事实上，他们的市值甚至可能比整个 MAG7 加起来还高，我这么说只是给大家一个对比参照。你想想那些最大的科技公司，Apple、Nvidia，"
+  },
+  {
+    "idx": 99,
+    "speaker": "Chamath",
+    "start_ms": 1115304,
+    "end_ms": 1118040,
+    "text": "NVIDIA、Google、Apple。"
+  },
+  {
+    "idx": 100,
+    "speaker": "Freeberg",
+    "start_ms": 1118448,
+    "end_ms": 1130880,
+    "text": "Google，我觉得他们现在一年的营收大概也就是 4000 亿到 5000 亿美元。我的意思是，Nvidia 可能算是稍微不同的一类，但你看看。你"
+  },
+  {
+    "idx": 101,
+    "speaker": "Sacks",
+    "start_ms": 1131288,
+    "end_ms": 1132800,
+    "text": "这些"
+  },
+  {
+    "idx": 102,
+    "speaker": "Freeberg",
+    "start_ms": 1133208,
+    "end_ms": 1136232,
+    "text": "看看这些超大规模的 Google，"
+  },
+  {
+    "idx": 103,
+    "speaker": "Sacks",
+    "start_ms": 1136640,
+    "end_ms": 1138488,
+    "text": "云厂商，"
+  },
+  {
+    "idx": 104,
+    "speaker": "Freeberg",
+    "start_ms": 1138896,
+    "end_ms": 1140816,
+    "text": "那三家"
+  },
+  {
+    "idx": 105,
+    "speaker": "Sacks",
+    "start_ms": 1141224,
+    "end_ms": 1143216,
+    "text": "超大规模"
+  },
+  {
+    "idx": 106,
+    "speaker": "Freeberg",
+    "start_ms": 1143624,
+    "end_ms": 1145664,
+    "text": "超大规模"
+  },
+  {
+    "idx": 107,
+    "speaker": "Sacks",
+    "start_ms": 1146072,
+    "end_ms": 1147896,
+    "text": "云厂商。"
+  },
+  {
+    "idx": 108,
+    "speaker": "Freeberg",
+    "start_ms": 1148304,
+    "end_ms": 1150152,
+    "text": "云厂商。"
+  },
+  {
+    "idx": 109,
+    "speaker": "Sacks",
+    "start_ms": 1150560,
+    "end_ms": 1152024,
+    "text": "对。"
+  },
+  {
+    "idx": 110,
+    "speaker": "Freeberg",
+    "start_ms": 1152432,
+    "end_ms": 1175088,
+    "text": "我是说，Google 现在一季度营收大概有多少，1200 亿美元左右？或者 1000 亿美元一季度？但同比增速是多少，20% 左右，不是 100%。当然更不可能是 1000%。所以 Anthropic 竟然可能正朝着这个方向发展，事实上，让我——"
+  },
+  {
+    "idx": 111,
+    "speaker": "Sacks",
+    "start_ms": 1175496,
+    "end_ms": 1177032,
+    "text": "你"
+  },
+  {
+    "idx": 112,
+    "speaker": "Freeberg",
+    "start_ms": 1177440,
+    "end_ms": 1179456,
+    "text": "纠正一下。"
+  },
+  {
+    "idx": 113,
+    "speaker": "Sacks",
+    "start_ms": 1179864,
+    "end_ms": 1181544,
+    "text": "看他们"
+  },
+  {
+    "idx": 114,
+    "speaker": "Freeberg",
+    "start_ms": 1181952,
+    "end_ms": 1183656,
+    "text": "他们"
+  },
+  {
+    "idx": 115,
+    "speaker": "Sacks",
+    "start_ms": 1184064,
+    "end_ms": 1185696,
+    "text": "要去"
+  },
+  {
+    "idx": 116,
+    "speaker": "Freeberg",
+    "start_ms": 1186104,
+    "end_ms": 1187760,
+    "text": "是"
+  },
+  {
+    "idx": 117,
+    "speaker": "Sacks",
+    "start_ms": 1188168,
+    "end_ms": 1189728,
+    "text": "第"
+  },
+  {
+    "idx": 118,
+    "speaker": "Freeberg",
+    "start_ms": 1190136,
+    "end_ms": 1191768,
+    "text": "在"
+  },
+  {
+    "idx": 119,
+    "speaker": "Sacks",
+    "start_ms": 1192176,
+    "end_ms": 1193856,
+    "text": "八。"
+  },
+  {
+    "idx": 120,
+    "speaker": "Freeberg",
+    "start_ms": 1194264,
+    "end_ms": 1196040,
+    "text": "轨道。"
+  },
+  {
+    "idx": 121,
+    "speaker": "Sacks",
+    "start_ms": 1196448,
+    "end_ms": 1199232,
+    "text": "那就会变成 Mag Eight。"
+  },
+  {
+    "idx": 122,
+    "speaker": "Freeberg",
+    "start_ms": 1199640,
+    "end_ms": 1216296,
+    "text": "我说的是另一件事。就是除非他们当前的发展轨迹发生变化，不然 Anthropic 会成为人类历史上有史以来最强大的垄断。再说一遍，它的 ARR 会达到一万亿美元，而且还会以某种指数级速度增长。"
+  },
+  {
+    "idx": 123,
+    "speaker": "Sacks",
+    "start_ms": 1216704,
+    "end_ms": 1218336,
+    "text": "有意思。"
+  },
+  {
+    "idx": 124,
+    "speaker": "Freeberg",
+    "start_ms": 1218744,
+    "end_ms": 1224648,
+    "text": "Dario 把这叫 AGI。我把它叫做人类历史上最大的垄断。"
+  },
+  {
+    "idx": 125,
+    "speaker": "Sacks",
+    "start_ms": 1225056,
+    "end_ms": 1234512,
+    "text": "听到“垄断”这个词很有意思啊，Sachs。这个用词放在这儿很有意思。Chamath，你继续，然后我们再——"
+  },
+  {
+    "idx": 126,
+    "speaker": "Chamath",
+    "start_ms": 1234920,
+    "end_ms": 1266768,
+    "text": "不说别的，Apple 在 2025 年是 4200 亿美元。Microsoft 是 3000 亿美元。Alphabet 是 3900 亿美元。Amazon 7000 亿美元。Nvidia 1900 亿美元。Meta 1850 亿美元。Tesla 总共 1100 亿美元。加起来大概是 2.3 到 2.35 万亿美元。所以如果 Sachs 说得对，Anthropic 还能再加上一万亿美元，那就不是 Mag Seven 了，而是 Mag One。"
+  },
+  {
+    "idx": 127,
+    "speaker": "Sacks",
+    "start_ms": 1267176,
+    "end_ms": 1275216,
+    "text": "不过为了给大家一个参照，Dario 在 Dorkish 上说过，他认为 AI 的总收入加起来——"
+  },
+  {
+    "idx": 128,
+    "speaker": "Chamath",
+    "start_ms": 1275624,
+    "end_ms": 1292568,
+    "text": "到 29 年，市场领导者的规模大概会到一万亿美元。我很喜欢你刚才说的，Sachs。我觉得 TAM 是没有上限的。只是就预测来说，我们可能稍微有点冲过头了。你如果从算力倒推的话，对吧，"
+  },
+  {
+    "idx": 129,
+    "speaker": "Chamath",
+    "start_ms": 1292976,
+    "end_ms": 1314000,
+    "text": "他们预计到今年年底会有 5 gig，到明年年底会到 10 gig。对单家公司来说，要做到这些数字其实挺难的，但我确实相信，他们现在走的这条轨迹——这点我完全同意你——是在一个指数级曲线上，而四个月前还没多少人相信这一点。这是确定的。"
+  },
+  {
+    "idx": 130,
+    "speaker": "Freeberg",
+    "start_ms": 1314408,
+    "end_ms": 1332096,
+    "text": "对。所以问题就在于，好吧，我觉得我们都同意，他们正处在一条指数曲线上，而且 TAM 也足够大，能够支撑这一点。关于 TAM，我补充一个数据点：据我了解，光是 coding 的总市场规模就是一万亿美元，"
+  },
+  {
+    "idx": 131,
+    "speaker": "Freeberg",
+    "start_ms": 1332504,
+    "end_ms": 1346856,
+    "text": "也就是说，每年大约有一万亿美元花在软件开发者身上，以及所有和软件创造相关的事情上。当然，我不是说他们会吃下整个市场，但我很容易就能想象软件市场翻一倍，"
+  },
+  {
+    "idx": 132,
+    "speaker": "Chamath",
+    "start_ms": 1347264,
+    "end_ms": 1348968,
+    "text": "我觉得还不止。"
+  },
+  {
+    "idx": 133,
+    "speaker": "Freeberg",
+    "start_ms": 1349376,
+    "end_ms": 1354272,
+    "text": "呃，先等等，从一万亿翻到两万亿，考虑到"
+  },
+  {
+    "idx": 134,
+    "speaker": "Freeberg",
+    "start_ms": 1354680,
+    "end_ms": 1386144,
+    "text": "coding tokens 基本上把这个市场的价值和生成代码的能力放大了 10 倍甚至 100 倍，所以我觉得我们都同意，这里的 TAM 足够大，能支撑一万亿美元的收入。Brad，我觉得你提到了几个非常重要的约束。第一，可能没有足够的算力；第二，也没有足够的能源。我想说第三个大的问题是，竞争对手会作何反应？因为我要说的是，在今年年初，这些前沿实验室都还在尝试很多不同的东西，你"
+  },
+  {
+    "idx": 135,
+    "speaker": "Freeberg",
+    "start_ms": 1386552,
+    "end_ms": 1418544,
+    "text": "很多东西。我的意思是，Anthropic 就像那只刺猬，他们只相信一件事；而其他这些公司更像狐狸，觉得自己很多事情都很擅长。他们在做 nanobanana，在做 sora，也在做图像生成，在做那种幻想角色聊天机器人。事后看，他们当时做的很多事情现在看来都有点浪费时间。现在整个市场看起来都在转向 coding，以及我们基于 coding tokens 构建出来的那些东西，比如 co-work，比如 agents。"
+  },
+  {
+    "idx": 136,
+    "speaker": "Freeberg",
+    "start_ms": 1418952,
+    "end_ms": 1433184,
+    "text": "所以这里一定会出现竞争性的反应，其他玩家都会意识到，哦，等一下，我们之前的重点放错了。他们会重新聚焦。我只是不知道他们最终能抢到多少份额。"
+  },
+  {
+    "idx": 137,
+    "speaker": "Freeberg",
+    "start_ms": 1433592,
+    "end_ms": 1448856,
+    "text": "看起来 OpenAI 已经开始转向了。我们现在听到很多关于基于 GPT 5.5 的编程模型的好消息。5.5 是基于一个叫 SPUD 的新基础模型。我觉得他们对持续改进非常乐观。"
+  },
+  {
+    "idx": 138,
+    "speaker": "Freeberg",
+    "start_ms": 1449264,
+    "end_ms": 1474704,
+    "text": "他们现在的增长速度看起来正在加快，就是因为 5.5。所以你看，有理由相信 OpenAI 能在这里拿下一些份额。我也相信 Google 不会掉以轻心。他们在编程方面非常非常强，团队也很厉害，而且 Elon 刚刚和 Cursor 绑定在一起了。所以竞争肯定会更多，不过话虽如此，你还是得承认。"
+  },
+  {
+    "idx": 139,
+    "speaker": "Sacks",
+    "start_ms": 1475112,
+    "end_ms": 1491096,
+    "text": "而且我觉得，我们这些在 Silicon Valley 的人都知道，你总是想成为那个领先、而且还在上升轨道上的公司，因为这样你只需要保持惯性就行了；而其他人则必须做出改变，才能重新回到这场竞争里，所以"
+  },
+  {
+    "idx": 140,
+    "speaker": "Jason",
+    "start_ms": 1491504,
+    "end_ms": 1492848,
+    "text": "好"
+  },
+  {
+    "idx": 141,
+    "speaker": "Sacks",
+    "start_ms": 1493256,
+    "end_ms": 1494960,
+    "text": "这"
+  },
+  {
+    "idx": 142,
+    "speaker": "Jason",
+    "start_ms": 1495368,
+    "end_ms": 1496952,
+    "text": "个观点。"
+  },
+  {
+    "idx": 143,
+    "speaker": "Sacks",
+    "start_ms": 1497360,
+    "end_ms": 1508040,
+    "text": "所以当我半开玩笑地说，恭喜你，Daria，你赢下了 AI 竞赛，我的意思不是说他已经彻底赢了，而是说他现在正在领先。"
+  },
+  {
+    "idx": 144,
+    "speaker": "Jason",
+    "start_ms": 1508448,
+    "end_ms": 1536144,
+    "text": "但这里面最厉害的地方，就是 Elon 在做的这件事。你看他现有的业务，也就是 Starlink，基本上再加上 SpaceX 的发射服务，显然已经是非常惊人的生意了。我记得今年的预估大概是 200 亿美元。但如果你看看 Amazon Web Services、Azure 和 GCP 的体量，那可是差不多 3000 亿美元的营收。再加起来，市值能到 5 万亿美元。"
+  },
+  {
+    "idx": 145,
+    "speaker": "Jason",
+    "start_ms": 1536552,
+    "end_ms": 1552152,
+    "text": "如果这些是独立公司的话，大概也有 4 万亿美元。再看 Elon 在 Tesla 的核心能力是什么，就是建工厂。而且你看看这些工厂的规模，都非常巨大。那数据中心是什么？"
+  },
+  {
+    "idx": 146,
+    "speaker": "Jason",
+    "start_ms": 1552560,
+    "end_ms": 1564824,
+    "text": "本质上就是超大型工厂。再看能源这块，Elon 还有什么特别擅长？就是电池部署，而且他通过 SolarCity 也有太阳能部署的能力。"
+  },
+  {
+    "idx": 147,
+    "speaker": "Jason",
+    "start_ms": 1565232,
+    "end_ms": 1580352,
+    "text": "那笔他多年前做的收购经常被人批评。所以把这些都放在一起看，如果像你刚才提到的，Brad，这是一项 50 亿美元的增量 Elon web services 业务，而他又是个 neocloud 玩家，"
+  },
+  {
+    "idx": 148,
+    "speaker": "Jason",
+    "start_ms": 1580760,
+    "end_ms": 1613184,
+    "text": "那他在地球上能建出什么？他能在 Tesla 车里塞进多少额外算力？他能在 Powerwall 里面做出什么？如果 Powerwall 里装上他新的 fabs 呢？如果你把它做成一个从家庭到家庭的分布式系统呢？Powerwall 里有算力，车里也有算力，当然，这件事最终、也是最彻底的形态，就是直接把它搬到太空里去，而且这就是他要做的。还有一个偷偷藏在里面、看起来不起眼的"
+  },
+  {
+    "idx": 149,
+    "speaker": "Jason",
+    "start_ms": 1613592,
+    "end_ms": 1631904,
+    "text": "小细节是，Elon、Anthropic 和 Dario 这次公告里还提到，他们对太空也有兴趣。所以接下来你要关注的是，这场竞赛会从工厂和数据中心，延伸到家庭。带计算能力的 Powerwall，其实已经联网了，对吧？"
+  },
+  {
+    "idx": 150,
+    "speaker": "Jason",
+    "start_ms": 1632312,
+    "end_ms": 1648488,
+    "text": "而且 Starlink 也让他们具备了把分布式算力送进千家万户的能力。再说一次，你甚至可以付钱让人们安装带计算能力的 Powerwall。我觉得这会是接下来要发生的下一只靴子落地。"
+  },
+  {
+    "idx": 151,
+    "speaker": "Chamath",
+    "start_ms": 1648896,
+    "end_ms": 1657128,
+    "text": "你们看到昨天宣布的那笔交易了吗？是 Pulti Homes——一家非常大的房屋开发商——和别人达成的合作。"
+  },
+  {
+    "idx": 152,
+    "speaker": "Jason",
+    "start_ms": 1657536,
+    "end_ms": 1659120,
+    "text": "他们在"
+  },
+  {
+    "idx": 153,
+    "speaker": "Chamath",
+    "start_ms": 1659528,
+    "end_ms": 1660704,
+    "text": "而且"
+  },
+  {
+    "idx": 154,
+    "speaker": "Jason",
+    "start_ms": 1661112,
+    "end_ms": 1662816,
+    "text": "也在做"
+  },
+  {
+    "idx": 155,
+    "speaker": "Chamath",
+    "start_ms": 1663224,
+    "end_ms": 1664616,
+    "text": "NVIDIA"
+  },
+  {
+    "idx": 156,
+    "speaker": "Jason",
+    "start_ms": 1665024,
+    "end_ms": 1666584,
+    "text": "这个。"
+  },
+  {
+    "idx": 157,
+    "speaker": "Chamath",
+    "start_ms": 1666992,
+    "end_ms": 1686936,
+    "text": "还有 SPAN？Nick，把这个放出来。特别酷。现在发生的是，这帮人在每家每户旁边都部署了很多带 NVIDIA GPU 集群的数据中心，然后让人们真的可以去运行这些东西，这简直太不可思议了。我当时就觉得这太酷了，所以"
+  },
+  {
+    "idx": 158,
+    "speaker": "Jason",
+    "start_ms": 1687344,
+    "end_ms": 1710744,
+    "text": "这是一次很棒的转型。Chamath，这家公司最早做的是配电面板。他们做的是智能配电面板。所以你知道，你切换断路器的时候，所有那些断路器都能在一个 app 里看到。我之前还给我家看过这个，但我猜他们后来转型加上了这个。我觉得 Base Power，Brad，"
+  },
+  {
+    "idx": 159,
+    "speaker": "Chamath",
+    "start_ms": 1711152,
+    "end_ms": 1712184,
+    "text": "我"
+  },
+  {
+    "idx": 160,
+    "speaker": "Jason",
+    "start_ms": 1712592,
+    "end_ms": 1714728,
+    "text": "你是个投资人"
+  },
+  {
+    "idx": 161,
+    "speaker": "Chamath",
+    "start_ms": 1715136,
+    "end_ms": 1716696,
+    "text": "这点我喜欢"
+  },
+  {
+    "idx": 162,
+    "speaker": "Jason",
+    "start_ms": 1717104,
+    "end_ms": 1727880,
+    "text": "也在这么做。他们也会做同样的事。Zach Dell 就在这么干。Jason，针对你刚才说的，我想回应一点，就是"
+  },
+  {
+    "idx": 163,
+    "speaker": "Sacks",
+    "start_ms": 1728288,
+    "end_ms": 1730424,
+    "text": "对，没错。"
+  },
+  {
+    "idx": 164,
+    "speaker": "Jason",
+    "start_ms": 1730832,
+    "end_ms": 1758168,
+    "text": "你刚才说到 Elon，对吧？这就是为什么 SpaceX 的 IPO 会按营收的 40 到 50 倍来交易，明白吗？所以明年如果他们做到 400 亿到 500 亿美元营收，而这家公司上市估值到 2 万亿美元，对吧？那它的营收倍数会非常高，相比之下，MAG-5 现在大概是按 25 倍市盈率在交易。而且全世界只有一个人。"
+  },
+  {
+    "idx": 165,
+    "speaker": "Jason",
+    "start_ms": 1758576,
+    "end_ms": 1785816,
+    "text": "这个人拥有未来创新的产品管线，也拥有全球最大的 TAM，因为他同时布局了这么多不同领域，所以他能撑得起这样的倍数。这个人就是 Elon，而且这是他应得的，也很棒。Tesla 对国家也是好事。它同样也带有那种 Elon 因素，也就是说，人们给他的公司估值时，我会说，通常会给到市场平均的两倍、三倍，"
+  },
+  {
+    "idx": 166,
+    "speaker": "Jason",
+    "start_ms": 1786224,
+    "end_ms": 1790448,
+    "text": "甚至四倍，因为看的是未来的产品管线。"
+  },
+  {
+    "idx": 167,
+    "speaker": "Chamath",
+    "start_ms": 1790856,
+    "end_ms": 1791912,
+    "text": "你"
+  },
+  {
+    "idx": 168,
+    "speaker": "Jason",
+    "start_ms": 1792320,
+    "end_ms": 1793808,
+    "text": "而且"
+  },
+  {
+    "idx": 169,
+    "speaker": "Chamath",
+    "start_ms": 1794216,
+    "end_ms": 1795272,
+    "text": "各位，"
+  },
+  {
+    "idx": 170,
+    "speaker": "Jason",
+    "start_ms": 1795680,
+    "end_ms": 1805472,
+    "text": "他们给 Apple 估值打折，是因为他们没有像 Elon 这样的人，或者说没有一个 Steve Jobs 那样的人在那里，持续向大家描绘未来。"
+  },
+  {
+    "idx": 171,
+    "speaker": "Chamath",
+    "start_ms": 1805880,
+    "end_ms": 1808568,
+    "text": "我不觉得这是被低估值了。"
+  },
+  {
+    "idx": 172,
+    "speaker": "Jason",
+    "start_ms": 1808976,
+    "end_ms": 1821744,
+    "text": "或者说，如果没有 Elon 这样的人，估值就不算合理；有个像——我觉得本质上就是这么回事。我们上周聊过这个，但你解释一下为什么你觉得不一样。"
+  },
+  {
+    "idx": 173,
+    "speaker": "Chamath",
+    "start_ms": 1822152,
+    "end_ms": 1836480,
+    "text": "我觉得这些公司其实估值都相当合理，而 Elon 宇宙会拿到一层溢价。这个溢价的原因，就是你们刚才说的那些，我也同意。我从这里得到的一个核心信息，也是市场"
+  },
+  {
+    "idx": 174,
+    "speaker": "Chamath",
+    "start_ms": 1836888,
+    "end_ms": 1864224,
+    "text": "和散户在告诉你的，就是你们已经停止创新了，现在更多只是小修小补；而且作为整个社会，我们并没有像你们曾经承诺的那样，广泛地从中受益。所以，也许他们传递这个信息的最好方式，就是狠狠干你们的估值。顺便我再说一遍，等 Tesla 和 SpaceX 合并，我们有了“all things Elon”、有了 Elon Corp，好吧——这事会发生的——"
+  },
+  {
+    "idx": 175,
+    "speaker": "Chamath",
+    "start_ms": 1864632,
+    "end_ms": 1889784,
+    "text": "大概率今年年底前，也可能明年年中发生。到时候它又会再次把所有人看懵，因为正如你们说的，你会看到这一个资产以估值溢价交易。有些人会说这根本解释不通，但我觉得这在逻辑上完全说得通：因为其他人都已经停止创新了，大家只知道怎么从石头里再榨出更多血，怎么把广告投放得更精准。"
+  },
+  {
+    "idx": 176,
+    "speaker": "Chamath",
+    "start_ms": 1890192,
+    "end_ms": 1892856,
+    "text": "这对社会已经毫无作用了。"
+  },
+  {
+    "idx": 177,
+    "speaker": "Jason",
+    "start_ms": 1893264,
+    "end_ms": 1895280,
+    "text": "这说的就是，"
+  },
+  {
+    "idx": 178,
+    "speaker": "Chamath",
+    "start_ms": 1895688,
+    "end_ms": 1900488,
+    "text": "事实上，恰恰相反。已经一点好处都不剩了。"
+  },
+  {
+    "idx": 179,
+    "speaker": "Jason",
+    "start_ms": 1900896,
+    "end_ms": 1917720,
+    "text": "这完全就是我刚才被你打断时想表达的重点。你看，Tim Cook 最伟大的创新，Tim Cook 在你打断我之前最伟大的创新，就是 Apple TV，甚至都不是硬件产品。它不过就是砸钱，做了一个"
+  },
+  {
+    "idx": 180,
+    "speaker": "Chamath",
+    "start_ms": 1918128,
+    "end_ms": 1919256,
+    "text": "但是"
+  },
+  {
+    "idx": 181,
+    "speaker": "Jason",
+    "start_ms": 1919664,
+    "end_ms": 1922064,
+    "text": "Netflix 的山寨版。"
+  },
+  {
+    "idx": 182,
+    "speaker": "Chamath",
+    "start_ms": 1922472,
+    "end_ms": 1923864,
+    "text": "你这有点"
+  },
+  {
+    "idx": 183,
+    "speaker": "Jason",
+    "start_ms": 1924272,
+    "end_ms": 1926216,
+    "text": "一直都没有"
+  },
+  {
+    "idx": 184,
+    "speaker": "Chamath",
+    "start_ms": 1926624,
+    "end_ms": 1927920,
+    "text": "贬义的。"
+  },
+  {
+    "idx": 185,
+    "speaker": "Jason",
+    "start_ms": 1928328,
+    "end_ms": 1930800,
+    "text": "别的产品也一样，"
+  },
+  {
+    "idx": 186,
+    "speaker": "Chamath",
+    "start_ms": 1931208,
+    "end_ms": 1935408,
+    "text": "等一下。在你打断我之前，先让我把话说完，"
+  },
+  {
+    "idx": 187,
+    "speaker": "Jason",
+    "start_ms": 1935816,
+    "end_ms": 1937064,
+    "text": "你"
+  },
+  {
+    "idx": 188,
+    "speaker": "Chamath",
+    "start_ms": 1937472,
+    "end_ms": 1943400,
+    "text": "把我的观点讲完。你不喜欢那样？哦，你也不喜欢被打断？"
+  },
+  {
+    "idx": 189,
+    "speaker": "Jason",
+    "start_ms": 1943808,
+    "end_ms": 1945464,
+    "text": "有意思。"
+  },
+  {
+    "idx": 190,
+    "speaker": "Chamath",
+    "start_ms": 1945872,
+    "end_ms": 1948008,
+    "text": "好啊，回去找你妈吧。"
+  },
+  {
+    "idx": 191,
+    "speaker": "Sacks",
+    "start_ms": 1948416,
+    "end_ms": 1950840,
+    "text": "真是五十步笑百步。"
+  },
+  {
+    "idx": 192,
+    "speaker": "Jason",
+    "start_ms": 1951248,
+    "end_ms": 1972248,
+    "text": "如果你看他们过往的成绩，我觉得这也是为什么我们看到那里发生了变化——他们没有做出任何创新。事实上，他们之前在 AI 或自动驾驶汽车上做的一些创新项目，也都被他们关掉了。他们根本不愿意挥棒出击，所以在估值上他们正在被惩罚。"
+  },
+  {
+    "idx": 193,
+    "speaker": "Chamath",
+    "start_ms": 1972656,
+    "end_ms": 1973952,
+    "text": "他们是——"
+  },
+  {
+    "idx": 194,
+    "speaker": "Jason",
+    "start_ms": 1974360,
+    "end_ms": 1976640,
+    "text": "在市场评估里。"
+  },
+  {
+    "idx": 195,
+    "speaker": "Chamath",
+    "start_ms": 1977048,
+    "end_ms": 1981800,
+    "text": "不是被惩罚，他们只是没有拿到溢价，他们没有得到——"
+  },
+  {
+    "idx": 196,
+    "speaker": "Jason",
+    "start_ms": 1982208,
+    "end_ms": 1986552,
+    "text": "被惩罚了，我觉得他们就是被惩罚了。"
+  },
+  {
+    "idx": 197,
+    "speaker": "Chamath",
+    "start_ms": 1986960,
+    "end_ms": 1992912,
+    "text": "按任何指标看，他们现在的交易估值都高得惊人，你看看就知道了。"
+  },
+  {
+    "idx": 198,
+    "speaker": "Jason",
+    "start_ms": 1993320,
+    "end_ms": 2008464,
+    "text": "哦不，我不这么看。我的意思是，如果你比较这两种估值情况，我觉得他们就是被惩罚了。不管怎样，在我们进入下一个话题之前，还有谁想补充吗？嗯——"
+  },
+  {
+    "idx": 199,
+    "speaker": "Chamath",
+    "start_ms": 2008872,
+    "end_ms": 2026344,
+    "text": "不存在这样一种情况：Google、Meta、Apple 和 Amazon 会被看作是在估值上受到惩罚。倒是很明显存在这样一种情况：Elon 因为在创新而拿到了巨大的溢价。你说的其实是同一件事。你的意思是——"
+  },
+  {
+    "idx": 200,
+    "speaker": "Jason",
+    "start_ms": 2026752,
+    "end_ms": 2028120,
+    "text": "我"
+  },
+  {
+    "idx": 201,
+    "speaker": "Chamath",
+    "start_ms": 2028528,
+    "end_ms": 2029896,
+    "text": "是同一"
+  },
+  {
+    "idx": 202,
+    "speaker": "Jason",
+    "start_ms": 2030304,
+    "end_ms": 2031816,
+    "text": "觉得"
+  },
+  {
+    "idx": 203,
+    "speaker": "Chamath",
+    "start_ms": 2032224,
+    "end_ms": 2033424,
+    "text": "回事。"
+  },
+  {
+    "idx": 204,
+    "speaker": "Jason",
+    "start_ms": 2033832,
+    "end_ms": 2037888,
+    "text": "我们说的是一回事。不是，好吧，"
+  },
+  {
+    "idx": 205,
+    "speaker": "Chamath",
+    "start_ms": 2038296,
+    "end_ms": 2039808,
+    "text": "不是一回事。"
+  },
+  {
+    "idx": 206,
+    "speaker": "Jason",
+    "start_ms": 2040216,
+    "end_ms": 2062776,
+    "text": "听着，我觉得我们现在是在抠字眼。我可不会这么轻易放过你，sexy poo。Sachs 说话一向非常谨慎，他们这周那篇两万字的文章里说他是辩论俱乐部的队长，还说他是个辩论高手。结果他是个自慰高手。你刚才还偷偷塞了这么一句，你就是塞进去了。"
+  },
+  {
+    "idx": 207,
+    "speaker": "Jason",
+    "start_ms": 2063184,
+    "end_ms": 2080872,
+    "text": "你的意思是，FTC 之类的机构应该介入去查 Anthrop 吗？哦，Brad 的书正被人拿来攻击。逆风来了。你刚才说他们是垄断，或者说他们正走向垄断式手段。你是这个意思吗？Bang？"
+  },
+  {
+    "idx": 208,
+    "speaker": "Sacks",
+    "start_ms": 2081280,
+    "end_ms": 2084424,
+    "text": "嗯，你看，我是说，"
+  },
+  {
+    "idx": 209,
+    "speaker": "Jason",
+    "start_ms": 2084832,
+    "end_ms": 2086920,
+    "text": "很有挑衅性。"
+  },
+  {
+    "idx": 210,
+    "speaker": "Sacks",
+    "start_ms": 2087328,
+    "end_ms": 2101728,
+    "text": "我们知道，科技市场历来会不断整合，最后变成垄断或者双寡头。你现在只看营收的话，在 AI 上真正做出可观收入的公司只有两家：Anthropic 和 OpenAI。"
+  },
+  {
+    "idx": 211,
+    "speaker": "Sacks",
+    "start_ms": 2102136,
+    "end_ms": 2126376,
+    "text": "我们知道 OpenAI 现在以 3 到 4 倍的速度增长，按他们现在这个体量来说已经非常惊人了。不过我们刚才说过，Anthropic 的年增长是指数级的，达到 10 倍。如果他们再这样持续 18 个月，那它将毫无疑问成为人类历史上最有价值的公司，并且会以前所未有的程度掌控我们这个时代最重要的技术。"
+  },
+  {
+    "idx": 212,
+    "speaker": "Sacks",
+    "start_ms": 2126784,
+    "end_ms": 2142648,
+    "text": "所以，这该叫什么我也说不好，但这确实值得想一想。我想给你们做个思想实验，就是请你们花一秒钟想想 John D. Rockefeller 这个例子。我觉得他大概被认为是……最成功、最"
+  },
+  {
+    "idx": 213,
+    "speaker": "Chamath",
+    "start_ms": 2143056,
+    "end_ms": 2144976,
+    "text": "最伟大的商业"
+  },
+  {
+    "idx": 214,
+    "speaker": "Sacks",
+    "start_ms": 2145384,
+    "end_ms": 2147544,
+    "text": "冷酷无情的"
+  },
+  {
+    "idx": 215,
+    "speaker": "Chamath",
+    "start_ms": 2147952,
+    "end_ms": 2149152,
+    "text": "商人。"
+  },
+  {
+    "idx": 216,
+    "speaker": "Sacks",
+    "start_ms": 2149560,
+    "end_ms": 2167584,
+    "text": "是美国历史上的垄断者。但他不太擅长公关。他的公关简直糟透了。大家多少都看得出来他有多冷酷无情。我们还看过像《血色将至》这样的电影，基本上讲的就是他。总之，"
+  },
+  {
+    "idx": 217,
+    "speaker": "Sacks",
+    "start_ms": 2167992,
+    "end_ms": 2181096,
+    "text": "你想象一下，如果 John D. Rockefeller 特别擅长公共关系，而且他不把自己的公司叫 Standard Oil，而是叫 Safe Oil。好，我们就来做这个思想实验。"
+  },
+  {
+    "idx": 218,
+    "speaker": "Jason",
+    "start_ms": 2181504,
+    "end_ms": 2185248,
+    "text": "纯净又美丽的煤。对，对。"
+  },
+  {
+    "idx": 219,
+    "speaker": "Sacks",
+    "start_ms": 2185656,
+    "end_ms": 2187672,
+    "text": "Safe Oil。"
+  },
+  {
+    "idx": 220,
+    "speaker": "Jason",
+    "start_ms": 2188080,
+    "end_ms": 2189592,
+    "text": "喜欢。"
+  },
+  {
+    "idx": 221,
+    "speaker": "Sacks",
+    "start_ms": 2190000,
+    "end_ms": 2191776,
+    "text": "他把它叫"
+  },
+  {
+    "idx": 222,
+    "speaker": "Jason",
+    "start_ms": 2192184,
+    "end_ms": 2193744,
+    "text": "这个。"
+  },
+  {
+    "idx": 223,
+    "speaker": "Sacks",
+    "start_ms": 2194152,
+    "end_ms": 2212752,
+    "text": "叫 Safe Oil，因为我们都知道，煤油是危险的。他们最早的大产品就是煤油。煤油可以点亮你的房子，也可以把它烧掉。而且落到不对的人手里，它能烧掉一座城市，或者你也可以拿它来做炸弹。所以 John D."
+  },
+  {
+    "idx": 224,
+    "speaker": "Sacks",
+    "start_ms": 2213160,
+    "end_ms": 2238816,
+    "text": "这么说吧，他本来应该呼吁成立一个新的政府机构来监管他产品的安全性，他们本可以做严格测试、发放许可、搞一些合情合理的监管。那样一来，围绕安全标准肯定会有一场非常激烈的争论。比如说，灯芯的合适厚度到底该是多少？还有，我们到底该不该允许那些危险的独立炼油商存在，对吧？"
+  },
+  {
+    "idx": 225,
+    "speaker": "Sacks",
+    "start_ms": 2239224,
+    "end_ms": 2260368,
+    "text": "我觉得，人们会被关于什么才算安全的油、什么才算安全的煤油这种争论彻底带偏，结果错过了真正发生的事——那就是 Rockefeller 正在打造史上最富有、最强大的垄断企业。事实上，人们甚至可能会把 Rockefeller 称作一个有效利他主义者，因为，"
+  },
+  {
+    "idx": 226,
+    "speaker": "Sacks",
+    "start_ms": 2260776,
+    "end_ms": 2265144,
+    "text": "毕竟，他可是如此关心自己产品的安全性。"
+  },
+  {
+    "idx": 227,
+    "speaker": "Jason",
+    "start_ms": 2265552,
+    "end_ms": 2271648,
+    "text": "我太喜欢了。向 David Sachs 的写手团队致敬。真是"
+  },
+  {
+    "idx": 228,
+    "speaker": "Chamath",
+    "start_ms": 2272056,
+    "end_ms": 2273736,
+    "text": "这是谁写的？"
+  },
+  {
+    "idx": 229,
+    "speaker": "Jason",
+    "start_ms": 2274144,
+    "end_ms": 2276184,
+    "text": "太会写了。"
+  },
+  {
+    "idx": 230,
+    "speaker": "Chamath",
+    "start_ms": 2276592,
+    "end_ms": 2279520,
+    "text": "Newman？这是 Newman 写的？"
+  },
+  {
+    "idx": 231,
+    "speaker": "Sacks",
+    "start_ms": 2279928,
+    "end_ms": 2282064,
+    "text": "不，我写的。"
+  },
+  {
+    "idx": 232,
+    "speaker": "Jason",
+    "start_ms": 2282472,
+    "end_ms": 2288448,
+    "text": "剧情类独白最佳编剧 Emmy Award 颁给 Newman。哇，Sacks。"
+  },
+  {
+    "idx": 233,
+    "speaker": "Sacks",
+    "start_ms": 2288856,
+    "end_ms": 2290848,
+    "text": "那是我写的。"
+  },
+  {
+    "idx": 234,
+    "speaker": "Jason",
+    "start_ms": 2291256,
+    "end_ms": 2295192,
+    "text": "你接得漂亮。非常好，Sacks。"
+  },
+  {
+    "idx": 235,
+    "speaker": "Unknown",
+    "start_ms": 2295600,
+    "end_ms": 2311728,
+    "text": "我本来以为，在 Elon 和 Anthropic 那次互动之后，Elon 当时还夸了 Anthropic，David 开场也稍微夸了两句，我还以为我们已经过了这个阶段了。首先，把这说成垄断就很荒唐。"
+  },
+  {
+    "idx": 236,
+    "speaker": "Unknown",
+    "start_ms": 2312136,
+    "end_ms": 2338536,
+    "text": "你看，David，我们说的是年化营收 run rate，但如果按 GAAP 口径，他们在 3 月份单月的营收其实和 OpenAI 差不多。好吧，所以我们现在明显是说早了。顺便说一句，五个月前大家还都觉得 OpenAI 会一骑绝尘。Google 在 AI 上的营收也非常可观。而且，Google、Amazon，"
+  },
+  {
+    "idx": 237,
+    "speaker": "Unknown",
+    "start_ms": 2338944,
+    "end_ms": 2353896,
+    "text": "等等，这些公司每年能产生 1000 亿美元的自由现金流，足以支撑它们新增的投资。与此同时，还有这两家创业公司，它们还很稚嫩，从大局来看也依然很脆弱。"
+  },
+  {
+    "idx": 238,
+    "speaker": "Unknown",
+    "start_ms": 2354304,
+    "end_ms": 2379000,
+    "text": "你最清楚不过了，我们在 AI 领域拥有这个星球上最强的竞争，这也是为什么我们能站在前沿，把地球上其他所有人都甩在后面。所以我就是想看到这些公司去竞争。我希望 DC 别来碍事。我最不想看到的，就是人们在这件事上大谈特谈，然后给竞争设置路障。"
+  },
+  {
+    "idx": 239,
+    "speaker": "Sacks",
+    "start_ms": 2379408,
+    "end_ms": 2381112,
+    "text": "好吧。"
+  },
+  {
+    "idx": 240,
+    "speaker": "Unknown",
+    "start_ms": 2381520,
+    "end_ms": 2383920,
+    "text": "我觉得是 Anthropik"
+  },
+  {
+    "idx": 241,
+    "speaker": "Sacks",
+    "start_ms": 2384328,
+    "end_ms": 2386008,
+    "text": "我同意。"
+  },
+  {
+    "idx": 242,
+    "speaker": "Unknown",
+    "start_ms": 2386416,
+    "end_ms": 2387544,
+    "text": "是。"
+  },
+  {
+    "idx": 243,
+    "speaker": "Jason",
+    "start_ms": 2387952,
+    "end_ms": 2409840,
+    "text": "好，等一下等一下。我来给你们翻译一下 Brad 的意思。他其实是在说，别他妈动我的票面价值。他在这些公司上是有下注的。我的意思是，Sacks，Washington, D.C.，别他妈动 Brad 的票面价值。Sacks，你现在要不要顺势聊聊监管这块？"
+  },
+  {
+    "idx": 244,
+    "speaker": "Sacks",
+    "start_ms": 2410248,
+    "end_ms": 2417112,
+    "text": "我先回应一下 Brad，也顺便把我刚才那句讽刺的话翻译清楚。好，所以——"
+  },
+  {
+    "idx": 245,
+    "speaker": "Jason",
+    "start_ms": 2417520,
+    "end_ms": 2419080,
+    "text": "讽刺。"
+  },
+  {
+    "idx": 246,
+    "speaker": "Sacks",
+    "start_ms": 2419488,
+    "end_ms": 2443464,
+    "text": "首先，没有人比我更想看到这些公司展开激烈竞争。这其实就是我们去年一起制定那个行动计划的核心前提。我们希望把每个人最好的一面都激发出来。美国要赢下 AI 竞赛，就得靠这个。我们有五家主要实验室在激烈竞争。只要这种竞争还在发生，我觉得就是好事。"
+  },
+  {
+    "idx": 247,
+    "speaker": "Sacks",
+    "start_ms": 2443872,
+    "end_ms": 2459424,
+    "text": "这并不意味着我们不能有一些护栏和其他配套措施，但总体来说，竞争应该是我们的北极星。话虽如此，好吧，我想指出的是，而且我觉得从历史上看这也成立。"
+  },
+  {
+    "idx": 248,
+    "speaker": "Sacks",
+    "start_ms": 2459832,
+    "end_ms": 2485968,
+    "text": "华盛顿那帮人往往是在垄断形成得很晚的时候才反应过来，不是很早就看出来，对吧？因为我的意思是，一家公司一旦拿下了 80% 的市场，他们这时候才会醒过来说，哦，这里有垄断了。我不是说他们现在已经构成垄断了，但如果这个趋势再持续 18 个月，那我觉得它就会处在一个前所未有的强势位置，而且"
+  },
+  {
+    "idx": 249,
+    "speaker": "Unknown",
+    "start_ms": 2486376,
+    "end_ms": 2488512,
+    "text": "我是说，我是说……"
+  },
+  {
+    "idx": 250,
+    "speaker": "Sacks",
+    "start_ms": 2488920,
+    "end_ms": 2506176,
+    "text": "还有，等一下，我觉得大家不应该被这种围绕安全的说辞分散注意力，因为像 Rockefeller 这样的人当年也完全可以这么说。我还想再补充最后一点：如果你真的去看很多所谓最安全的政策到底在主张什么，你会发现"
+  },
+  {
+    "idx": 251,
+    "speaker": "Sacks",
+    "start_ms": 2506584,
+    "end_ms": 2520720,
+    "text": "它们本质上是在要求一种监管俘获，而且它们主张的那些东西，会给这个正在形成中的垄断或双头垄断挖出更深的护城河，还会阻碍竞争。所以再说一次，"
+  },
+  {
+    "idx": 252,
+    "speaker": "Sacks",
+    "start_ms": 2521128,
+    "end_ms": 2537712,
+    "text": "我觉得，如果人们明白这里正在被制造出来的，可能是人类历史上最大的垄断，那他们对这些安全话术恐怕就不会这么善意解读了。我觉得我们应该对其中一些利他主义式的说法再多一点怀疑。"
+  },
+  {
+    "idx": 253,
+    "speaker": "Unknown",
+    "start_ms": 2538120,
+    "end_ms": 2548488,
+    "text": "我真不敢相信 David 现在就在谈垄断，明明我们连 AI 的起跑线都还没真正离开。在我看来，这个，我觉得，"
+  },
+  {
+    "idx": 254,
+    "speaker": "Sacks",
+    "start_ms": 2548896,
+    "end_ms": 2550408,
+    "text": "这有"
+  },
+  {
+    "idx": 255,
+    "speaker": "Unknown",
+    "start_ms": 2550816,
+    "end_ms": 2552064,
+    "text": "这个"
+  },
+  {
+    "idx": 256,
+    "speaker": "Sacks",
+    "start_ms": 2552472,
+    "end_ms": 2556600,
+    "text": "只有两家有营收规模的公司，看起来是这样。"
+  },
+  {
+    "idx": 257,
+    "speaker": "Unknown",
+    "start_ms": 2557008,
+    "end_ms": 2571240,
+    "text": "我最不希望看到的，就是 DC 试图提前、提前介入，那会带来灾难性的后果。跑去在 AI 的起跑线上就决定谁是赢家谁是输家，那将是一场灾难。"
+  },
+  {
+    "idx": 258,
+    "speaker": "Jason",
+    "start_ms": 2571648,
+    "end_ms": 2576832,
+    "text": "Brad，你这是在你站着的讲台上又叠了一个讲台吗？"
+  },
+  {
+    "idx": 259,
+    "speaker": "Sacks",
+    "start_ms": 2577240,
+    "end_ms": 2585280,
+    "text": "Brad，就像我说的，我的核心原则是竞争。只要竞争还在发生，我就支持，不过——"
+  },
+  {
+    "idx": 260,
+    "speaker": "Unknown",
+    "start_ms": 2585688,
+    "end_ms": 2588016,
+    "text": "我正想说，拜托。"
+  },
+  {
+    "idx": 261,
+    "speaker": "Sacks",
+    "start_ms": 2588424,
+    "end_ms": 2610312,
+    "text": "等等，等等。我们都知道，垄断者想要扼杀竞争，他们会利用监管俘获来做到这一点。而且，他们还会做出比如禁止竞争对手使用自己产品这种事。Anthropic 禁止 OpenClaw 使用它的模型，能有什么说得过去的理由？这不是反竞争行为吗？"
+  },
+  {
+    "idx": 262,
+    "speaker": "Jason",
+    "start_ms": 2610720,
+    "end_ms": 2612184,
+    "text": "我会——"
+  },
+  {
+    "idx": 263,
+    "speaker": "Chamath",
+    "start_ms": 2612592,
+    "end_ms": 2613840,
+    "text": "我是说——"
+  },
+  {
+    "idx": 264,
+    "speaker": "Jason",
+    "start_ms": 2614248,
+    "end_ms": 2631144,
+    "text": "双击它。双击它。我可能不会，你知道，去归档，但我会双击。好了，听着，Chamath，姑娘们吵起来了。我们继续往下过议程吧。跟这两位聊下去，我们得在这儿待一整天。"
+  },
+  {
+    "idx": 265,
+    "speaker": "Jason",
+    "start_ms": 2631552,
+    "end_ms": 2645904,
+    "text": "还有一件你们得赶紧行动的事，就是 All In Summit。票卖得很快，马上就要售罄了。别错过。嘉宾阵容这次也还是顶级。Freeberg 正忙着敲定一些"
+  },
+  {
+    "idx": 266,
+    "speaker": "Jason",
+    "start_ms": 2646312,
+    "end_ms": 2684640,
+    "text": "非常厉害的嘉宾，Sachs 也会到场，他每天都会飞进飞出，只待四个小时。然后我们还会安排很多社交活动。我们正在开发一些社交软件，这样你来参加我们的活动时就能认识人。这也是我们一直在说的，我办活动的打法就是：如果你每天能从嘉宾那里学到一两件事，如果你能认识一个新朋友，再吃点好吃的、玩得开心一点，只要你能收获其中两三样，哎呀，那就值了。哪怕你只收获一样，你下次也还会回来参加活动，你会把这些都拿到"
+  },
+  {
+    "idx": 267,
+    "speaker": "Jason",
+    "start_ms": 2685048,
+    "end_ms": 2716104,
+    "text": "三样全拿到，整天都是。allin.com/events，洛杉矶，9 月 13、14、15 日。也跟所有来问的人说声抱歉，流动性名额已经卖光了，我们也关闭了候补名单，真的没有更多位置了。好，报道称，白宫据说可能正在考虑设立一个 AI 版 FDA，没听错，各位，就是要对新模型做安全审查。也就是我们一直在讨论不该这么做的那件事，"
+  },
+  {
+    "idx": 268,
+    "speaker": "Jason",
+    "start_ms": 2716512,
+    "end_ms": 2736936,
+    "text": "也就是 David Sachs 过去一年一直在忙的那件事，白宫正在考虑。纽约时报报道说，Trump 正在考虑签署一项行政命令，成立一个所谓的“AI 工作组”。这个小组将包括科技公司高管和政府官员，用来“研究潜在的监管程序”。"
+  },
+  {
+    "idx": 269,
+    "speaker": "Jason",
+    "start_ms": 2737344,
+    "end_ms": 2752464,
+    "text": "其中包括，原话是，“对新 AI 模型进行审查的流程”。哎哟。根据报道，导火索是——等着——Anthropic 的 Mythos 模型，据说把白宫的人吓到了，搞得他们非常紧张。"
+  },
+  {
+    "idx": 270,
+    "speaker": "Jason",
+    "start_ms": 2752872,
+    "end_ms": 2774112,
+    "text": "“白宫希望避免一旦发生由 AI 赋能的毁灭性网络攻击时所带来的任何政治后果。”根据纽约时报，他们想先把责任撇清。国家经济委员会主任 Kevin Hassett，就是那位，也在 Fox Business 上证实了这篇报道。来，给你们放一段 15 秒的片段。"
+  },
+  {
+    "idx": 271,
+    "speaker": "Unknown",
+    "start_ms": 2774520,
+    "end_ms": 2795232,
+    "text": "我们正在研究是否通过一项行政命令，给所有人一个清晰的路线图，说明这件事接下来会怎么推进，以及未来那些同样可能带来漏洞的 AI，应该经过怎样的流程，才能在被证明安全之后再投放到现实世界中，就像 FDA 审批药物那样。"
+  },
+  {
+    "idx": 272,
+    "speaker": "Jason",
+    "start_ms": 2795640,
+    "end_ms": 2800512,
+    "text": "另外，咱们播客的老朋友 Scott Besson 也说了几句。"
+  },
+  {
+    "idx": 273,
+    "speaker": "Unknown",
+    "start_ms": 2800920,
+    "end_ms": 2802120,
+    "text": "什么"
+  },
+  {
+    "idx": 274,
+    "speaker": "Jason",
+    "start_ms": 2802528,
+    "end_ms": 2804376,
+    "text": "想说的话。"
+  },
+  {
+    "idx": 275,
+    "speaker": "Unknown",
+    "start_ms": 2804784,
+    "end_ms": 2829408,
+    "text": "我们过去一个月看到的，是某个大型语言模型能力上的一次跃升，但我们也会在其他 AI 公司身上看到这种情况。我们决心要做的，是与这些 AI 公司合作，让他们能够继续创新。但美国政府肩负的职责是维护安全，而这里面在创新和安全之间有一笔非常重要的权衡。"
+  },
+  {
+    "idx": 276,
+    "speaker": "Unknown",
+    "start_ms": 2829816,
+    "end_ms": 2833608,
+    "text": "而美国政府会确保一切都保持安全。"
+  },
+  {
+    "idx": 277,
+    "speaker": "Jason",
+    "start_ms": 2834016,
+    "end_ms": 2841744,
+    "text": "就是这样。Kevin Hassett 和 Bessent 在这件事上的立场略有不同，Brad，你怎么看？"
+  },
+  {
+    "idx": 278,
+    "speaker": "Unknown",
+    "start_ms": 2842152,
+    "end_ms": 2855232,
+    "text": "其实，我不觉得他们的立场只是略有不同，不过我同意，Kevin 提到 FDA 这件事确实把水搅浑了。那段片段播出后，我昨晚和 Kevin 聊了聊。"
+  },
+  {
+    "idx": 279,
+    "speaker": "Unknown",
+    "start_ms": 2855640,
+    "end_ms": 2871048,
+    "text": "你知道，我就问他，我说，你觉得这里拿 FDA 来类比合适吗？他说，你知道，我提这个只是想表达，我们希望他们把模型给我们看，这样我们就能进行协调。"
+  },
+  {
+    "idx": 280,
+    "speaker": "Unknown",
+    "start_ms": 2871456,
+    "end_ms": 2888040,
+    "text": "显然，我们的职责是确保政府做好准备，加固我们的系统，让情报机构及时掌握情况。但他并不认为，而且我也找不到右派里任何一个人会相信，我们会转向一种审批制度，对吧？"
+  },
+  {
+    "idx": 281,
+    "speaker": "Unknown",
+    "start_ms": 2888448,
+    "end_ms": 2899368,
+    "text": "所谓审批制度，就是你得把每个模型都交给华盛顿的某个 FDA，然后他们还得事先批准这个模型——这简直是场灾难。"
+  },
+  {
+    "idx": 282,
+    "speaker": "Unknown",
+    "start_ms": 2899776,
+    "end_ms": 2915112,
+    "text": "过去一年里，Sachs 一直在有效地反对这件事，而且反对得很对。这会带来三件坏事。第一，我们不想让华盛顿在这些模型的问题上扮演决定谁赢谁输的角色。"
+  },
+  {
+    "idx": 283,
+    "speaker": "Unknown",
+    "start_ms": 2915520,
+    "end_ms": 2928072,
+    "text": "说到这些模型，我们现在是领先的。美国现在押对了马，我们走在世界其他国家前面。这个时候没有理由中途换马，也没有理由换制度。"
+  },
+  {
+    "idx": 284,
+    "speaker": "Unknown",
+    "start_ms": 2928480,
+    "end_ms": 2945808,
+    "text": "而且我们也不想在这件事上再增加更多官僚程序。但与此同时，显然，对于这些我称为 pre-AGI 或 AGI 的模型，Mistral、Spud 等等，我看到行业和政府之间已经有很多协调在进行。"
+  },
+  {
+    "idx": 285,
+    "speaker": "Unknown",
+    "start_ms": 2946216,
+    "end_ms": 2959776,
+    "text": "我觉得我们还能把这个框架进一步完善，让政府内部所有人都达成一致。我们需要在政府里建立更强的能力，能够快速对这些模型做网络安全审查。"
+  },
+  {
+    "idx": 286,
+    "speaker": "Unknown",
+    "start_ms": 2960184,
+    "end_ms": 2984040,
+    "text": "现在即便发生协调，流程也还是太慢了。所以我们需要设定一个明确的时间范围，让政府给出反馈等等。但我们最不想看到的，就是华盛顿坐着一个专门审批模型的 FDA。Kevin 明白这一点，Scott Besson 也明白。所以我预计我们会继续沿着现在这条路走下去。"
+  },
+  {
+    "idx": 287,
+    "speaker": "Jason",
+    "start_ms": 2984448,
+    "end_ms": 2999304,
+    "text": "Chamath，显然，我觉得我们都同意，AI 不需要一个 FDA，但在 AI 上确实有些事情是理性的人会希望设一些护栏的。我相信你也会同意，它不应该完全毫无约束。"
+  },
+  {
+    "idx": 288,
+    "speaker": "Jason",
+    "start_ms": 2999712,
+    "end_ms": 3026928,
+    "text": "所以你怎么看这件事？这只是……有人打了个很糟糕的比方，还是说有些人在 Sachs 不在华盛顿、回家那会儿，偷偷钻进 White House 想把事情往某个方向带？这里到底发生了什么？给我们讲讲原因吧，因为我觉得大家都是这么看的。大家都说，最后一个跟 Trump 说话的人，往往最能影响他，事情就会朝某个方向偏过去。"
+  },
+  {
+    "idx": 289,
+    "speaker": "Chamath",
+    "start_ms": 3027336,
+    "end_ms": 3048240,
+    "text": "我不觉得这只是个——我觉得现在对科技、科技寡头、Silicon Valley，尤其是 AI，整体的风向已经发生了非常明显的变化。这种风向变化在普通民众那边其实已经发生了。我觉得现在也开始慢慢渗透到 Washington 了。我认为监管要来了。"
+  },
+  {
+    "idx": 290,
+    "speaker": "Chamath",
+    "start_ms": 3048648,
+    "end_ms": 3066024,
+    "text": "我觉得如果是民主党执政，情况会更糟，但我也认为在共和党执政下，某种形式的监管同样会存在。我觉得真正值得问的问题是，为什么？如果你去听大家说话的语气，几乎全都围绕着 AI 的负面影响。"
+  },
+  {
+    "idx": 291,
+    "speaker": "Chamath",
+    "start_ms": 3066432,
+    "end_ms": 3080712,
+    "text": "所以我觉得我们现在有两个问题。第一，我们的信息传达做得很糟。没有人愿意花时间和钱，把 AI 积极的一面、上行空间讲清楚，从而获得广泛支持。第二，"
+  },
+  {
+    "idx": 292,
+    "speaker": "Chamath",
+    "start_ms": 3081120,
+    "end_ms": 3094368,
+    "text": "就像 Sax 前面说的，未来可能只会有少数赢家，却会有非常非常多潜在的输家，我觉得这一点真的让所有人都很不安。而科技圈给出的回应，还是一样，"
+  },
+  {
+    "idx": 293,
+    "speaker": "Chamath",
+    "start_ms": 3094776,
+    "end_ms": 3113544,
+    "text": "本来应该是科技界的领导者们站出来，一起真正把钱重新投回更广泛意义上的 America。但他们做得远远不够，规模也不足以化解这种情绪。所以你现在看到的，其实就是抗体在形成。这能避免吗？能。"
+  },
+  {
+    "idx": 294,
+    "speaker": "Chamath",
+    "start_ms": 3113952,
+    "end_ms": 3134136,
+    "text": "那我们在避免这件事上做得好吗？绝对没有。我们做得非常糟。我给整个圈子、给这些科技领袖打个 D-，而且还在往 F 滑。现在看到的这些反应，就是结果。所以我觉得，Jason，问题不是要不要监管，而是我们为什么会走到这一步。"
+  },
+  {
+    "idx": 295,
+    "speaker": "Chamath",
+    "start_ms": 3134544,
+    "end_ms": 3163656,
+    "text": "我觉得我们走到今天，是因为另一种叙事——也就是更乐观、看到杯子半满的那种版本——没有真正出现；那些已经被证明的投资、对美国社会更广泛层面的带动和提升，并没有发生。就算发生了，传播也做得非常差。所以大家的反应就是：等等，我们这是要让三个人坐拥万亿美元级别的净资产，还让他们掌握钥匙？这就是为什么会变成现在这样。"
+  },
+  {
+    "idx": 296,
+    "speaker": "Jason",
+    "start_ms": 3164064,
+    "end_ms": 3168168,
+    "text": "完全正确。而且这非常容易。"
+  },
+  {
+    "idx": 297,
+    "speaker": "Jason",
+    "start_ms": 3168576,
+    "end_ms": 3200472,
+    "text": "人天生就很容易去想象所有可能发生的坏事，我们的大脑就是这么构造出来的。我们会保持警觉，会提防老虎，或者你知道，龙卷风，好让自己安全。人类天生偏向安全感，所以他们会想到 deepfake，会想到机器人，会想到自动驾驶汽车抢走人们的工作，还会想到各种可能发生的黑暗面，比如生物武器之类的。而真正站出来谈那些积极可能性的人，其实并不多。"
+  },
+  {
+    "idx": 298,
+    "speaker": "Jason",
+    "start_ms": 3200880,
+    "end_ms": 3229608,
+    "text": "那些也可能发生。你怎么看我们这里人人都在谈的这场“宫廷内斗”？在这场争论里，47th administration 内部到底发生了什么？是谁在把 Trump 往监管这条路上带，想搞出一个 AI 版 FDA？我们知道你属于那一派，希望让这列火车继续往前开，不要过度监管，也不要出现监管俘获。那到底是哪些人在试图拖慢这件事？"
+  },
+  {
+    "idx": 299,
+    "speaker": "Sacks",
+    "start_ms": 3230016,
+    "end_ms": 3246720,
+    "text": "嗯，你看，我觉得这里面有几件事同时在发生。第一，就是有很多假新闻。这个所谓给 AI 搞一个 FDA 的说法，我不觉得有任何高级官员支持，就像 Brad 刚才说的那样。我也和 Haas 聊过。"
+  },
+  {
+    "idx": 300,
+    "speaker": "Sacks",
+    "start_ms": 3247128,
+    "end_ms": 3269064,
+    "text": "那根本不是他在想的方向。所以我不认为政府里有任何人主张给 AI 设一个 FDA。当然，我也不觉得总统是这么看这些问题的。他是我们见过最支持创新的总统。白宫幕僚长 Susie Wallace 昨晚也刚发了声明，我觉得基本已经把这件事否掉了。"
+  },
+  {
+    "idx": 301,
+    "speaker": "Sacks",
+    "start_ms": 3269472,
+    "end_ms": 3283464,
+    "text": "所以我觉得这里面很大一部分就是假新闻。记住，最早这么说的其实并不是白宫，而是 New York Times。更准确地说，我觉得其实是 Andrew Ross Storch。"
+  },
+  {
+    "idx": 302,
+    "speaker": "Sacks",
+    "start_ms": 3283872,
+    "end_ms": 3317832,
+    "text": "Andrew Ross Storch——我不是在批评他——但他是个评论员，最早是他先这么说的。然后不知怎么地，这种说法或者这种解读就自己发酵起来了。我觉得 Silicon Valley 也因此做出了相应反应。大家对此有一种非常本能、非常强烈的负面反应，因为我们都知道那会对创新造成多大伤害。不过你看，好消息是，那就是假新闻。第二，我觉得还有另一件事在发生，就是有人在刻意歪曲"
+  },
+  {
+    "idx": 303,
+    "speaker": "Sacks",
+    "start_ms": 3318240,
+    "end_ms": 3343488,
+    "text": "Trump administration 第一年的 AI 政策。就像他们想把这件事包装成 AI 版 FDA 一样，他们也在试图把我们当时做的事说成是一种彻底放任自由的态度，好像完全没有任何监管、没有任何护栏。这是一种批评我们做法的方式，他们想把它描绘成不安全。事实上，如果你去看 3 月 20 日，白宫发布了"
+  },
+  {
+    "idx": 304,
+    "speaker": "Sacks",
+    "start_ms": 3343896,
+    "end_ms": 3361128,
+    "text": "我参与制定过一个全国性的 AI 监管框架，我们当时发布了一份四页的要点清单，列出了如果国会想通过的话，我们会支持哪些立法。所以我们并不是反对所有可能的监管，或者所有可能的法律。"
+  },
+  {
+    "idx": 305,
+    "speaker": "Sacks",
+    "start_ms": 3361536,
+    "end_ms": 3382632,
+    "text": "我们只是认为，应该针对具体问题给出具体解决方案，而不是让 Washington 搞一次大规模权力扩张，把创新直接扼杀掉。所以我觉得这是第二点。第三点是，这里确实有一件合理的事正在发生，姑且叫它 mythos 或 cyber。好吧，"
+  },
+  {
+    "idx": 306,
+    "speaker": "Sacks",
+    "start_ms": 3383040,
+    "end_ms": 3401856,
+    "text": "我们知道，现在不只是 mythos，OpenAI 也已经有了一个在网络攻防能力上和 mythos 一样强的模型。而且在接下来三到六个月内，所有主要的前沿实验室，包括中国的模型，都会具备网络攻防能力。针对这一点，"
+  },
+  {
+    "idx": 307,
+    "speaker": "Sacks",
+    "start_ms": 3402264,
+    "end_ms": 3414168,
+    "text": "我们确实需要加强系统防护，也确实需要扫描代码库，找出这些漏洞，并在黑客利用它们之前先把补丁打上，因为黑客在几个月内就会具备这些能力。"
+  },
+  {
+    "idx": 308,
+    "speaker": "Sacks",
+    "start_ms": 3414576,
+    "end_ms": 3426192,
+    "text": "这是确定无疑的，因为你用来做网络防御的同样能力，也可以用来做网络攻击。用的是同一套工具，而且开源模型反正也都会具备这些能力。"
+  },
+  {
+    "idx": 309,
+    "speaker": "Jason",
+    "start_ms": 3426600,
+    "end_ms": 3434928,
+    "text": "是的。反正说真的，它们其实已经在一定程度上具备了。已经有 80% 了，"
+  },
+  {
+    "idx": 310,
+    "speaker": "Sacks",
+    "start_ms": 3435336,
+    "end_ms": 3437088,
+    "text": "所以你看，"
+  },
+  {
+    "idx": 311,
+    "speaker": "Jason",
+    "start_ms": 3437496,
+    "end_ms": 3439512,
+    "text": "90%。"
+  },
+  {
+    "idx": 312,
+    "speaker": "Sacks",
+    "start_ms": 3439920,
+    "end_ms": 3465960,
+    "text": "现实情况就是，AI 会非常擅长网络安全攻防。所以我们确实需要对此作出回应。至于这个回应应该是什么，我的看法是，首先，我们应该希望政府和私营部门协同合作。我觉得他们现在也确实在这么做。美国有一个庞大的网络安全产业，它唯一的职责就是保护系统，防止数据泄露和"
+  },
+  {
+    "idx": 313,
+    "speaker": "Jason",
+    "start_ms": 3466368,
+    "end_ms": 3468048,
+    "text": "我们有"
+  },
+  {
+    "idx": 314,
+    "speaker": "Sacks",
+    "start_ms": 3468456,
+    "end_ms": 3470376,
+    "text": "黑客攻击。"
+  },
+  {
+    "idx": 315,
+    "speaker": "Jason",
+    "start_ms": 3470784,
+    "end_ms": 3473808,
+    "text": "在这方面最顶尖的公司。"
+  },
+  {
+    "idx": 316,
+    "speaker": "Sacks",
+    "start_ms": 3474216,
+    "end_ms": 3476352,
+    "text": "对，没错。"
+  },
+  {
+    "idx": 317,
+    "speaker": "Jason",
+    "start_ms": 3476760,
+    "end_ms": 3486000,
+    "text": "我们有 CrowdStrike。我们有 Palo Alto Networks。我们之前聊过这个。我们的防御能力是最强的。"
+  },
+  {
+    "idx": 318,
+    "speaker": "Sacks",
+    "start_ms": 3486408,
+    "end_ms": 3511776,
+    "text": "对，完全正确。所以我觉得，我们应该做的是把这些工具——Mythos，还有 OpenAI 的模型，以及其他类似的工具——交到我们的网络安全行业手里。顺便说一句，不只是像 Palo Alto Networks 和 CrowdStrike 这样的上市公司，当然它们肯定是最值得关注的两家，但也还有一些实力非常强的初创公司正在迅速崛起，"
+  },
+  {
+    "idx": 319,
+    "speaker": "Jason",
+    "start_ms": 3512184,
+    "end_ms": 3514200,
+    "text": "有很长一串"
+  },
+  {
+    "idx": 320,
+    "speaker": "Sacks",
+    "start_ms": 3514608,
+    "end_ms": 3516192,
+    "text": "处在"
+  },
+  {
+    "idx": 321,
+    "speaker": "Jason",
+    "start_ms": 3516600,
+    "end_ms": 3518904,
+    "text": "数百家的末端。"
+  },
+  {
+    "idx": 322,
+    "speaker": "Sacks",
+    "start_ms": 3519312,
+    "end_ms": 3540744,
+    "text": "处在用 AI 做渗透测试等各类事情的最前沿。我们得尽快把这些工具交到他们手里，因为对于那些网络安全做得没那么好的公司来说，他们是效率放大器。或者说，有些公司有 IT 部门，也可以把这些公司当成供应商来用。所以我觉得这里面是有一个角色的。"
+  },
+  {
+    "idx": 323,
+    "speaker": "Chamath",
+    "start_ms": 3541152,
+    "end_ms": 3542136,
+    "text": "能"
+  },
+  {
+    "idx": 324,
+    "speaker": "Sacks",
+    "start_ms": 3542544,
+    "end_ms": 3544176,
+    "text": "让我们"
+  },
+  {
+    "idx": 325,
+    "speaker": "Chamath",
+    "start_ms": 3544584,
+    "end_ms": 3545880,
+    "text": "我问你"
+  },
+  {
+    "idx": 326,
+    "speaker": "Sacks",
+    "start_ms": 3546288,
+    "end_ms": 3548064,
+    "text": "来进行"
+  },
+  {
+    "idx": 327,
+    "speaker": "Chamath",
+    "start_ms": 3548472,
+    "end_ms": 3554328,
+    "text": "一个问题吗？你觉得未来这些模型应该加一层 KYC 封装吗？"
+  },
+  {
+    "idx": 328,
+    "speaker": "Jason",
+    "start_ms": 3554736,
+    "end_ms": 3564960,
+    "text": "给观众解释一下，KYC 就是 know your customer，也就是“了解你的客户”。对，所以它真正的意思是，在你能使用之前。"
+  },
+  {
+    "idx": 329,
+    "speaker": "Chamath",
+    "start_ms": 3565368,
+    "end_ms": 3573696,
+    "text": "在使用 mythos 之前，你得先表明身份，这样我们才能尽量确认你不是国家支持的行为者，或者不是什么坏人。"
+  },
+  {
+    "idx": 330,
+    "speaker": "Sacks",
+    "start_ms": 3574104,
+    "end_ms": 3596232,
+    "text": "我觉得这才是我们应该思考的方向。首先我想说，Anthropic 和 OpenAI 在这件事上的处理都很负责任。没有人想把这些超级强大的模型直接放出来。所以某种程度上，那些说我们需要在模型发布前先审批的人，其实是在试图解决一个并不存在的问题。"
+  },
+  {
+    "idx": 331,
+    "speaker": "Chamath",
+    "start_ms": 3596640,
+    "end_ms": 3597720,
+    "text": "他们"
+  },
+  {
+    "idx": 332,
+    "speaker": "Sacks",
+    "start_ms": 3598128,
+    "end_ms": 3600048,
+    "text": "Anthropic"
+  },
+  {
+    "idx": 333,
+    "speaker": "Chamath",
+    "start_ms": 3600456,
+    "end_ms": 3601656,
+    "text": "自我"
+  },
+  {
+    "idx": 334,
+    "speaker": "Sacks",
+    "start_ms": 3602064,
+    "end_ms": 3603696,
+    "text": "并没有，"
+  },
+  {
+    "idx": 335,
+    "speaker": "Chamath",
+    "start_ms": 3604104,
+    "end_ms": 3606000,
+    "text": "监管，也就是"
+  },
+  {
+    "idx": 336,
+    "speaker": "Sacks",
+    "start_ms": 3606408,
+    "end_ms": 3608328,
+    "text": "Anthropic"
+  },
+  {
+    "idx": 337,
+    "speaker": "Chamath",
+    "start_ms": 3608736,
+    "end_ms": 3609792,
+    "text": "是"
+  },
+  {
+    "idx": 338,
+    "speaker": "Sacks",
+    "start_ms": 3610200,
+    "end_ms": 3611832,
+    "text": "并不是"
+  },
+  {
+    "idx": 339,
+    "speaker": "Chamath",
+    "start_ms": 3612240,
+    "end_ms": 3613584,
+    "text": "理想的"
+  },
+  {
+    "idx": 340,
+    "speaker": "Sacks",
+    "start_ms": 3613992,
+    "end_ms": 3615840,
+    "text": "想要发布"
+  },
+  {
+    "idx": 341,
+    "speaker": "Chamath",
+    "start_ms": 3616248,
+    "end_ms": 3617472,
+    "text": "情况。"
+  },
+  {
+    "idx": 342,
+    "speaker": "Sacks",
+    "start_ms": 3617880,
+    "end_ms": 3628152,
+    "text": "这个。OpenAI 也不是想要发布这个。他们都明白这里面的威力，而且他们的行为都很负责任。"
+  },
+  {
+    "idx": 343,
+    "speaker": "Jason",
+    "start_ms": 3628560,
+    "end_ms": 3640608,
+    "text": "他们明白这样做会带来什么后果，不然他们早就被起诉了。所以这里其实存在一种自我约束，而这才是处理这件事的最佳方式。"
+  },
+  {
+    "idx": 344,
+    "speaker": "Sacks",
+    "start_ms": 3641016,
+    "end_ms": 3664656,
+    "text": "对，但说到你这个点，Chamath，是这样，我觉得在把一个超强模型的 API 提供出去之前，你不该把它交给一家你根本不了解的公司，或者一个你不知道是谁的行为主体。所以，做一些基础的 KYC 是有道理的，他们应该知道自己把这些工具交给了谁。至于我对 Mythos preview 以及"
+  },
+  {
+    "idx": 345,
+    "speaker": "Sacks",
+    "start_ms": 3665064,
+    "end_ms": 3681384,
+    "text": "OpenAI 在做的对应那套东西的看法是，我们得非常快地把这些工具交到更多好人手里。你得知道这些好人是谁。你得知道他们是谁。所以没错，KYC 算是这个前提条件，对吧？"
+  },
+  {
+    "idx": 346,
+    "speaker": "Jason",
+    "start_ms": 3681792,
+    "end_ms": 3683280,
+    "text": "而且"
+  },
+  {
+    "idx": 347,
+    "speaker": "Sacks",
+    "start_ms": 3683688,
+    "end_ms": 3685320,
+    "text": "你得"
+  },
+  {
+    "idx": 348,
+    "speaker": "Jason",
+    "start_ms": 3685728,
+    "end_ms": 3687240,
+    "text": "就是"
+  },
+  {
+    "idx": 349,
+    "speaker": "Sacks",
+    "start_ms": 3687648,
+    "end_ms": 3689760,
+    "text": "知道他们是谁。"
+  },
+  {
+    "idx": 350,
+    "speaker": "Jason",
+    "start_ms": 3690168,
+    "end_ms": 3709560,
+    "text": "说清楚一点，我们应该都会同意，如果你对那些前沿模型掌握了用户身份——他们现在大概率本来也在这么做——并且记录人们如何使用这些模型，以便查找安全漏洞，那么一旦你把它向公众开放，这种做法就未必还能继续，因为隐私问题。"
+  },
+  {
+    "idx": 351,
+    "speaker": "Jason",
+    "start_ms": 3709968,
+    "end_ms": 3735528,
+    "text": "这是你在 Polymarket 上看到的盘口：Trump 要求在 5 月 31 日前对 AI 模型进行联邦审查，概率是 21%。我得说，感谢我们的合作伙伴 Polymarket，哥们，我得进去下注了。我这算不算有内幕信息啊，毕竟我是这个播客里全世界最强的主持人，还是说我能把这钱赚了，Chamath？我这该怎么办？"
+  },
+  {
+    "idx": 352,
+    "speaker": "Sacks",
+    "start_ms": 3735936,
+    "end_ms": 3740424,
+    "text": "我不会，不会，不会下注的，J.K.L。"
+  },
+  {
+    "idx": 353,
+    "speaker": "Jason",
+    "start_ms": 3740832,
+    "end_ms": 3742440,
+    "text": "别下注。"
+  },
+  {
+    "idx": 354,
+    "speaker": "Sacks",
+    "start_ms": 3742848,
+    "end_ms": 3745896,
+    "text": "别下注。不过在——"
+  },
+  {
+    "idx": 355,
+    "speaker": "Jason",
+    "start_ms": 3746304,
+    "end_ms": 3747672,
+    "text": "别——"
+  },
+  {
+    "idx": 356,
+    "speaker": "Sacks",
+    "start_ms": 3748080,
+    "end_ms": 3749928,
+    "text": "不管怎么说，"
+  },
+  {
+    "idx": 357,
+    "speaker": "Jason",
+    "start_ms": 3750336,
+    "end_ms": 3751848,
+    "text": "——下注。"
+  },
+  {
+    "idx": 358,
+    "speaker": "Sacks",
+    "start_ms": 3752256,
+    "end_ms": 3759600,
+    "text": "Chamath 的观点是，我是说，你看，我觉得我们有点像是在实时推敲这件事。"
+  },
+  {
+    "idx": 359,
+    "speaker": "Jason",
+    "start_ms": 3760008,
+    "end_ms": 3761664,
+    "text": "我们——"
+  },
+  {
+    "idx": 360,
+    "speaker": "Sacks",
+    "start_ms": 3762072,
+    "end_ms": 3763656,
+    "text": "我"
+  },
+  {
+    "idx": 361,
+    "speaker": "Jason",
+    "start_ms": 3764064,
+    "end_ms": 3766536,
+    "text": "是，我觉得这"
+  },
+  {
+    "idx": 362,
+    "speaker": "Sacks",
+    "start_ms": 3766944,
+    "end_ms": 3768552,
+    "text": "觉得"
+  },
+  {
+    "idx": 363,
+    "speaker": "Jason",
+    "start_ms": 3768960,
+    "end_ms": 3770736,
+    "text": "挺好的。"
+  },
+  {
+    "idx": 364,
+    "speaker": "Sacks",
+    "start_ms": 3771144,
+    "end_ms": 3776976,
+    "text": "我觉得在预览期内，我们肯定应该做 KYC。也许"
+  },
+  {
+    "idx": 365,
+    "speaker": "Jason",
+    "start_ms": 3777384,
+    "end_ms": 3778776,
+    "text": "那"
+  },
+  {
+    "idx": 366,
+    "speaker": "Sacks",
+    "start_ms": 3779184,
+    "end_ms": 3780720,
+    "text": "一旦"
+  },
+  {
+    "idx": 367,
+    "speaker": "Jason",
+    "start_ms": 3781128,
+    "end_ms": 3782832,
+    "text": "登录呢？"
+  },
+  {
+    "idx": 368,
+    "speaker": "Sacks",
+    "start_ms": 3783240,
+    "end_ms": 3785136,
+    "text": "你们已经"
+  },
+  {
+    "idx": 369,
+    "speaker": "Jason",
+    "start_ms": 3785544,
+    "end_ms": 3787872,
+    "text": "那日志记录呢？"
+  },
+  {
+    "idx": 370,
+    "speaker": "Sacks",
+    "start_ms": 3788280,
+    "end_ms": 3801024,
+    "text": "过了预览期之后，它就正式全面发布了。我不确定到那时候 KYC 还有没有那么重要，因为会有很多人都能用到它。但在预览期内，应该要有 KYC。"
+  },
+  {
+    "idx": 371,
+    "speaker": "Jason",
+    "start_ms": 3801432,
+    "end_ms": 3828336,
+    "text": "我就说一点。所有实验室其实都已经在追踪 API 的使用情况了，明白吗？任何可疑行为也都在盯着，因为所有实验室现在都在大力做反蒸馏工作。大家和政府之间也有大量协作。关于 API、API 的使用，以及任何可疑情况，实际上已经有更多动作在进行了……这些都会被标记出来，并且共享给政府。"
+  },
+  {
+    "idx": 372,
+    "speaker": "Jason",
+    "start_ms": 3828744,
+    "end_ms": 3851616,
+    "text": "所以，说我们完全不知道是谁在做这些事，我觉得并不是这样。事实上，在某些情况下，我们甚至可能希望允许他们继续使用，这样我们才能准确看到他们到底在提取什么类型的东西。所以我的意思是，我们其实已经走在这条路上了，不过确实可能需要更好的协调。"
+  },
+  {
+    "idx": 373,
+    "speaker": "Sacks",
+    "start_ms": 3852024,
+    "end_ms": 3875592,
+    "text": "关于这整件事，最后我再补充一点。我想接着我刚才的观点说：提前批准发布，其实是在解决一个原本并不存在的问题，因为再说一次，Anthropic 和 OpenAI 当时其实并不打算发布这些模型。问题在于，有相当一部分人——姑且称他们为 AI 意识形态派或者末日派——他们"
+  },
+  {
+    "idx": 374,
+    "speaker": "Sacks",
+    "start_ms": 3876000,
+    "end_ms": 3888864,
+    "text": "基本上就是在采用那种经典的“绝不浪费一场危机”的策略，对吧？没错，我们现在确实有一个真实存在的网络安全问题。你知道的，接下来"
+  },
+  {
+    "idx": 375,
+    "speaker": "Sacks",
+    "start_ms": 3889272,
+    "end_ms": 3909384,
+    "text": "未来三到六个月里，所有人都得加固自己的系统。这确实是个真实问题。但这也是我们会在接下来六个月内解决的问题。我们必须解决。但他们想做的，是利用这个问题，试图在 Washington 建立一套永久性的新基础设施。还是那句话，"
+  },
+  {
+    "idx": 376,
+    "speaker": "Sacks",
+    "start_ms": 3909792,
+    "end_ms": 3924120,
+    "text": "我不认为那是政府的意图，也不是政府的议程。但你也看到社交媒体上很多人、很多智库，甚至连 Bernie Sanders 都出来表态了。他说，这是他第一次喜欢这个"
+  },
+  {
+    "idx": 377,
+    "speaker": "Jason",
+    "start_ms": 3924528,
+    "end_ms": 3925992,
+    "text": "这届"
+  },
+  {
+    "idx": 378,
+    "speaker": "Sacks",
+    "start_ms": 3926400,
+    "end_ms": 3928056,
+    "text": "Trump"
+  },
+  {
+    "idx": 379,
+    "speaker": "Jason",
+    "start_ms": 3928464,
+    "end_ms": 3929976,
+    "text": "政府"
+  },
+  {
+    "idx": 380,
+    "speaker": "Sacks",
+    "start_ms": 3930384,
+    "end_ms": 3932088,
+    "text": "想要"
+  },
+  {
+    "idx": 381,
+    "speaker": "Jason",
+    "start_ms": 3932496,
+    "end_ms": 3934104,
+    "text": "做的事。"
+  },
+  {
+    "idx": 382,
+    "speaker": "Sacks",
+    "start_ms": 3934512,
+    "end_ms": 3934776,
+    "text": "。"
+  },
+  {
+    "idx": 383,
+    "speaker": "Jason",
+    "start_ms": 3935184,
+    "end_ms": 3948264,
+    "text": "政府明白，那1%里的1%的税，还有所有人都明白这事已经失控了。AI 要来抢工作了，他们还要把我的避暑别墅也拿走，太可怕了。"
+  },
+  {
+    "idx": 384,
+    "speaker": "Sacks",
+    "start_ms": 3948672,
+    "end_ms": 3957600,
+    "text": "所以确实有些人抱着这种议程。你看，Bernie Sanders 就是想阻止进步。我的意思是，"
+  },
+  {
+    "idx": 385,
+    "speaker": "Jason",
+    "start_ms": 3958008,
+    "end_ms": 3959304,
+    "text": "当"
+  },
+  {
+    "idx": 386,
+    "speaker": "Sacks",
+    "start_ms": 3959712,
+    "end_ms": 3962160,
+    "text": "然，他想"
+  },
+  {
+    "idx": 387,
+    "speaker": "Jason",
+    "start_ms": 3962568,
+    "end_ms": 3964200,
+    "text": "我确实"
+  },
+  {
+    "idx": 388,
+    "speaker": "Sacks",
+    "start_ms": 3964608,
+    "end_ms": 3966408,
+    "text": "去禁止"
+  },
+  {
+    "idx": 389,
+    "speaker": "Jason",
+    "start_ms": 3966816,
+    "end_ms": 3968352,
+    "text": "是的。"
+  },
+  {
+    "idx": 390,
+    "speaker": "Sacks",
+    "start_ms": 3968760,
+    "end_ms": 3982080,
+    "text": "数据中心。他抛出了一堆——他基本上已经完全接受了那套“末日派”的叙事。所以你看，这就是为什么他会喜欢 FDA 那套想法，因为那会直接扼杀创新。"
+  },
+  {
+    "idx": 391,
+    "speaker": "Jason",
+    "start_ms": 3982488,
+    "end_ms": 3983808,
+    "text": "这"
+  },
+  {
+    "idx": 392,
+    "speaker": "Sacks",
+    "start_ms": 3984216,
+    "end_ms": 3985872,
+    "text": "还有"
+  },
+  {
+    "idx": 393,
+    "speaker": "Jason",
+    "start_ms": 3986280,
+    "end_ms": 3993480,
+    "text": "差不多得了。咱们还是回到纸和笔吧。那时候的社会更好，Sachs。"
+  },
+  {
+    "idx": 394,
+    "speaker": "Chamath",
+    "start_ms": 3993888,
+    "end_ms": 3995904,
+    "text": "Jason，你怎么看？"
+  },
+  {
+    "idx": 395,
+    "speaker": "Jason",
+    "start_ms": 3996312,
+    "end_ms": 4010304,
+    "text": "我觉得这里有两点特别有意思，我想接着展开。第一点是你刚才说的，Chamath，关于我们该怎么扭转大家对 AI 的这种负面观感。我觉得这里得有两套策略。"
+  },
+  {
+    "idx": 396,
+    "speaker": "Jason",
+    "start_ms": 4010712,
+    "end_ms": 4041696,
+    "text": "第一，就是推进你一直在做的那个项目，Brad。我们应该看到更多人站出来捐赠。NVIDIA、SpaceX 上市的时候，Anthropic 上市的时候，OpenAI 如果将来上市，或者就算它继续保持非营利组织，也没有理由不这么做。我的意思是，这些公司在 IPO 的时候，完全可以拿出一部分份额分给每一个美国公民。所以就是 IPOK，给孩子们的 IPO，大家都能分到一点。"
+  },
+  {
+    "idx": 397,
+    "speaker": "Jason",
+    "start_ms": 4042104,
+    "end_ms": 4061160,
+    "text": "你知道，不管是多少，5%、1%，随他们自己定，然后把这部分放进 Invest America 账户里。我们也应该看到那些正在变成万亿富豪、千亿富豪的人，做出一些大规模捐赠。不管最后是谁，都没有理由不这么做。"
+  },
+  {
+    "idx": 398,
+    "speaker": "Jason",
+    "start_ms": 4061568,
+    "end_ms": 4081440,
+    "text": "但这些人一直没这么干。之前那个“捐赠誓言”多少有点作秀，不算真格的。说白了就是，你临终前承诺把自己一半的钱捐出去。所以我们得来点真的。我们得要那种人们会说，我接下来要拿出我手里 1% 的——"
+  },
+  {
+    "idx": 399,
+    "speaker": "Jason",
+    "start_ms": 4081848,
+    "end_ms": 4107696,
+    "text": "我未来 20 年里，每年都会把自己 1% 的股票放进 Invest America，不管具体怎么设计，这对任何人都不算什么负担。这笔钱你本来也花不掉，不管是 Bezos 还是谁。第二，同样从回馈社会这个角度讲，我们还没有讨论过，这件事对医疗健康、延长寿命、减少痛苦，可能会带来多么巨大的影响。"
+  },
+  {
+    "idx": 400,
+    "speaker": "Jason",
+    "start_ms": 4108104,
+    "end_ms": 4123704,
+    "text": "我们得在这方面下功夫。这也是基础科学投入能发挥作用的地方，当然还有教育，以及降低教育成本。如果你看美国底层那一半人，你刚才说的是“杯子有一半是空的”那种视角。"
+  },
+  {
+    "idx": 401,
+    "speaker": "Jason",
+    "start_ms": 4124112,
+    "end_ms": 4135296,
+    "text": "他们真正焦虑的其实就两三件事。第一是收入，第二是医疗保健。再往边上说，还有住房和孩子，比如孩子的教育。"
+  },
+  {
+    "idx": 402,
+    "speaker": "Jason",
+    "start_ms": 4135704,
+    "end_ms": 4151688,
+    "text": "这些东西的成本，我们真的应该认真深入地研究一下。我知道这在资本主义者里很不受欢迎，包括我自己在内，但我们确实应该看看最低工资，也研究一下 New Zealand、Sweden、Switzerland。"
+  },
+  {
+    "idx": 403,
+    "speaker": "Jason",
+    "start_ms": 4152096,
+    "end_ms": 4165704,
+    "text": "或者 Australia 在提高最低工资之后到底发生了什么。大家当时对此有很多担忧，但他们缓慢上调之后发现，这些消费者不会把钱存起来，他们会花掉。"
+  },
+  {
+    "idx": 404,
+    "speaker": "Jason",
+    "start_ms": 4166112,
+    "end_ms": 4179120,
+    "text": "他们在消费上一直都很吃紧。我们应该主动去尝试，一家公司一家公司地提高最低工资，给那些处在社会光谱末端的人一种确定感，让他们知道。"
+  },
+  {
+    "idx": 405,
+    "speaker": "Jason",
+    "start_ms": 4179528,
+    "end_ms": 4191552,
+    "text": "嘿，不管是 Amazon 还是 Target，等等，还有餐馆，我们都可以一起每年给最低工资再往上加一点，努力把社会最底部的三分之一往上托一托。"
+  },
+  {
+    "idx": 406,
+    "speaker": "Jason",
+    "start_ms": 4191960,
+    "end_ms": 4204392,
+    "text": "这些才是我们没有在谈的事。我们在这个播客里不谈这些。我们不谈全民医保，也不谈最低工资，但这些恰恰是资本主义者应该谈的。"
+  },
+  {
+    "idx": 407,
+    "speaker": "Jason",
+    "start_ms": 4204800,
+    "end_ms": 4217112,
+    "text": "如果我们这么做，如果我们提高最低工资——我不是社会主义者，我是个资本主义者，而且我认为这对资本主义有好处——如果我们每年只是小幅提高最低工资。"
+  },
+  {
+    "idx": 408,
+    "speaker": "Jason",
+    "start_ms": 4217520,
+    "end_ms": 4233984,
+    "text": "而且我们也选择去做这件事，并且想出了一个办法来提供全民医保。公司就不用再为全民医保操心了，而我们也会有更多消费者。我们的经济是由消费者驱动的，大概有 60%,"
+  },
+  {
+    "idx": 409,
+    "speaker": "Jason",
+    "start_ms": 4234392,
+    "end_ms": 4253280,
+    "text": "70%、80% 的经济活动都是由消费者驱动的。我们需要消费支出。如果有更多人买得起 Netflix，或者能在 Amazon 下单，对公司来说是大好事。总之，这就是我的 TED 演讲。感谢大家来听。"
+  },
+  {
+    "idx": 410,
+    "speaker": "Sacks",
+    "start_ms": 4253688,
+    "end_ms": 4260384,
+    "text": "我们怎么从 AI 讲到最低工资了？我还是有点……有点没搞明白。"
+  },
+  {
+    "idx": 411,
+    "speaker": "Jason",
+    "start_ms": 4260792,
+    "end_ms": 4269840,
+    "text": "是因为这个国家在财富两极分化，以及人们害怕失业这件事上，形象很差。不，我们应该看看"
+  },
+  {
+    "idx": 412,
+    "speaker": "Sacks",
+    "start_ms": 4270248,
+    "end_ms": 4271832,
+    "text": "我"
+  },
+  {
+    "idx": 413,
+    "speaker": "Jason",
+    "start_ms": 4272240,
+    "end_ms": 4273848,
+    "text": "为什么"
+  },
+  {
+    "idx": 414,
+    "speaker": "Sacks",
+    "start_ms": 4274256,
+    "end_ms": 4275744,
+    "text": "同意。"
+  },
+  {
+    "idx": 415,
+    "speaker": "Jason",
+    "start_ms": 4276152,
+    "end_ms": 4278264,
+    "text": "他们会害怕，"
+  },
+  {
+    "idx": 416,
+    "speaker": "Sacks",
+    "start_ms": 4278672,
+    "end_ms": 4280256,
+    "text": "我"
+  },
+  {
+    "idx": 417,
+    "speaker": "Jason",
+    "start_ms": 4280664,
+    "end_ms": 4282128,
+    "text": "David？"
+  },
+  {
+    "idx": 418,
+    "speaker": "Sacks",
+    "start_ms": 4282536,
+    "end_ms": 4284024,
+    "text": "同意。"
+  },
+  {
+    "idx": 419,
+    "speaker": "Jason",
+    "start_ms": 4284432,
+    "end_ms": 4301184,
+    "text": "而且我私下也跟你聊过，你私下跟我说过，这段你要想删也可以，但你私下确实跟我说过，如果能找到办法的话，你并不一定反对想办法搞全民医保。你是希望每个人都能有医疗保障的，对吧？"
+  },
+  {
+    "idx": 420,
+    "speaker": "Sacks",
+    "start_ms": 4301592,
+    "end_ms": 4310424,
+    "text": "当然。我的意思是，问题不在于这件事好不好，而在于成本。我的意思是，而且"
+  },
+  {
+    "idx": 421,
+    "speaker": "Jason",
+    "start_ms": 4310832,
+    "end_ms": 4312680,
+    "text": "所以你是"
+  },
+  {
+    "idx": 422,
+    "speaker": "Sacks",
+    "start_ms": 4313088,
+    "end_ms": 4314600,
+    "text": "也是，"
+  },
+  {
+    "idx": 423,
+    "speaker": "Jason",
+    "start_ms": 4315008,
+    "end_ms": 4320240,
+    "text": "我们这个时代最伟大的企业家之一。你会怎么做？"
+  },
+  {
+    "idx": 424,
+    "speaker": "Sacks",
+    "start_ms": 4320648,
+    "end_ms": 4322232,
+    "text": "我"
+  },
+  {
+    "idx": 425,
+    "speaker": "Jason",
+    "start_ms": 4322640,
+    "end_ms": 4325328,
+    "text": "你有没有认真想过"
+  },
+  {
+    "idx": 426,
+    "speaker": "Sacks",
+    "start_ms": 4325736,
+    "end_ms": 4327440,
+    "text": "不知道。"
+  },
+  {
+    "idx": 427,
+    "speaker": "Jason",
+    "start_ms": 4327848,
+    "end_ms": 4329576,
+    "text": "这个问题"
+  },
+  {
+    "idx": 428,
+    "speaker": "Sacks",
+    "start_ms": 4329984,
+    "end_ms": 4331640,
+    "text": "我还没"
+  },
+  {
+    "idx": 429,
+    "speaker": "Jason",
+    "start_ms": 4332048,
+    "end_ms": 4333416,
+    "text": "吗？"
+  },
+  {
+    "idx": 430,
+    "speaker": "Sacks",
+    "start_ms": 4333824,
+    "end_ms": 4349712,
+    "text": "研究过那个问题，所以我不知道。我只知道，就像那些国家的情况一样。我记得 PJ O'Rourke 以前说过一句话：如果你觉得现在的医疗保健已经很贵了，那就等到你把它变成免费的再看吧。"
+  },
+  {
+    "idx": 431,
+    "speaker": "Jason",
+    "start_ms": 4350120,
+    "end_ms": 4352832,
+    "text": "对，消费会更多。"
+  },
+  {
+    "idx": 432,
+    "speaker": "Sacks",
+    "start_ms": 4353240,
+    "end_ms": 4359720,
+    "text": "所以你把所有激励都拿掉，问题只会更大。让我先说一个点。"
+  },
+  {
+    "idx": 433,
+    "speaker": "Jason",
+    "start_ms": 4360128,
+    "end_ms": 4363752,
+    "text": "最低工资？对，你继续。"
+  },
+  {
+    "idx": 434,
+    "speaker": "Sacks",
+    "start_ms": 4364160,
+    "end_ms": 4378944,
+    "text": "好，我还是回到 AI 这个话题。听着，你们说 AI 不受欢迎，这点没错。那些民调我们都看过了，但我还想补充一份刚出来的民调，讲的是这个议题的显著性，"
+  },
+  {
+    "idx": 435,
+    "speaker": "Sacks",
+    "start_ms": 4379352,
+    "end_ms": 4398360,
+    "text": "也就是人们觉得这件事到底有多重要。AI 在 39 个议题里排第 29。所以虽然 AI 确实不太受欢迎，但它显然也不是选民最关心的事。它不在前 10，也不在前 20。那选民最关心的是什么？"
+  },
+  {
+    "idx": 436,
+    "speaker": "Sacks",
+    "start_ms": 4398768,
+    "end_ms": 4417560,
+    "text": "第一，生活成本。第二，经济。而我们知道，AI 是有通缩效应的。它有助于降低生活成本，而且现在正在带来一波经济繁荣。好吧，第一季度 GDP 增长里有 75% 都来自这个。"
+  },
+  {
+    "idx": 437,
+    "speaker": "Sacks",
+    "start_ms": 4417968,
+    "end_ms": 4434432,
+    "text": "顺便说一句，这种经济增长不只是局限于 Silicon Valley 的创业公司。我们看到建筑业在繁荣，蓝领岗位也在繁荣。建筑工人的工资涨幅达到了 25% 到 30%。诸如此类。"
+  },
+  {
+    "idx": 438,
+    "speaker": "Jason",
+    "start_ms": 4434840,
+    "end_ms": 4440144,
+    "text": "还有，Brad，如果你看那张图，里面也包括医疗保健。"
+  },
+  {
+    "idx": 439,
+    "speaker": "Sacks",
+    "start_ms": 4440552,
+    "end_ms": 4455864,
+    "text": "所以你看，我的意思是，AI 也许本身不受欢迎，但如果媒体能如实报道正在发生的事，它带来的效果其实是受欢迎的，因为 AI 现在确实正在创造一波经济繁荣。"
+  },
+  {
+    "idx": 440,
+    "speaker": "Jason",
+    "start_ms": 4456272,
+    "end_ms": 4487088,
+    "text": "这话说得再到位不过了，David。你看，Bernie Sanders 号召搞暂停令，把所有数据中心都挡在门外。那我们今年的 GDP 增长就会变成负的。股市会跌 15% 到 20%。失业率会上升。你知道，政府用这种命令式、管控式的方式来控制经济，是会有后果的。1929 年的时候，我们的失业率是 4%。三年之后，"
+  },
+  {
+    "idx": 441,
+    "speaker": "Jason",
+    "start_ms": 4487496,
+    "end_ms": 4504608,
+    "text": "失业率到了 23%，因为政府开始介入，什么都要监管，还把原本运转良好的东西关停了。这才是我们现在面临的最大威胁。AI 现在已经带来了巨大的净收益，从失业率的角度来说，"
+  },
+  {
+    "idx": 442,
+    "speaker": "Jason",
+    "start_ms": 4505016,
+    "end_ms": 4521000,
+    "text": "从经济增长和生产率增长的角度来说都是如此。我们得把这个故事讲清楚。但就像 Chamath 前面说的，我们也得真正交付净收益。Jason，感谢你提到我。没错，"
+  },
+  {
+    "idx": 443,
+    "speaker": "Jason",
+    "start_ms": 4521408,
+    "end_ms": 4539408,
+    "text": "让每个美国人都拥有一个能随着 AI 上行红利不断复利增长的投资账户，我们会去做这件事，会把它落地，而这会是非常巨大的。但我也觉得，像这样的一些想法——如果我们要在 Texas 的 Abilene 建一个数据中心，"
+  },
+  {
+    "idx": 444,
+    "speaker": "Jason",
+    "start_ms": 4539816,
+    "end_ms": 4551936,
+    "text": "那就让 Texas 的 Abilene 当地家庭用电免费，对吧？是有一些办法能真正带来净收益的。我们必须把这些做出来。我觉得我们——"
+  },
+  {
+    "idx": 445,
+    "speaker": "Unknown",
+    "start_ms": 4552344,
+    "end_ms": 4558200,
+    "text": "乐观情绪会一路高涨，我觉得我们现在正处在低谷，对吧"
+  },
+  {
+    "idx": 446,
+    "speaker": "Jason",
+    "start_ms": 4558608,
+    "end_ms": 4560024,
+    "text": "什么？"
+  },
+  {
+    "idx": 447,
+    "speaker": "Unknown",
+    "start_ms": 4560432,
+    "end_ms": 4561920,
+    "text": "现在你"
+  },
+  {
+    "idx": 448,
+    "speaker": "Jason",
+    "start_ms": 4562328,
+    "end_ms": 4576008,
+    "text": "Brad，你怎么看最低工资和全民医保？作为一个资本主义者、一个创新者，尤其是在 AI 可能会对这些议题产生巨大影响的背景下，你是怎么思考的？"
+  },
+  {
+    "idx": 449,
+    "speaker": "Unknown",
+    "start_ms": 4576416,
+    "end_ms": 4597056,
+    "text": "你知道，像 Sacks 一样，对我来说，我其实没花太多时间去想这些问题。只是说，作为一个社会，我们已经背了 38 万亿美元的债务，我们一直都负担不起去提供这些东西。我总体上觉得，这些问题通常还是市场比政府更能解决。"
+  },
+  {
+    "idx": 450,
+    "speaker": "Unknown",
+    "start_ms": 4597464,
+    "end_ms": 4639992,
+    "text": "比起政府自上而下地去干预这些事，市场处理得更好。你知道，政府在医疗保健里介入得越来越深，结果唯一发生的事就是它变得越来越贵。所以我们都看过那些图表，最贵、通胀最严重的几个类别——教育、医疗保健等等——恰恰都是政府介入的地方。我其实觉得，如果你就让市场自己运转，我们正在进入一个物资充裕的时代，这里面很多问题都会被解决。人们会在医疗、教育等领域拥有大量 AI 教练。让市场发挥作用，政府别插手太多，把安全守住就行。"
+  },
+  {
+    "idx": 451,
+    "speaker": "Unknown",
+    "start_ms": 4640400,
+    "end_ms": 4644000,
+    "text": "嘿，我们现在走在一条不错的路上。"
+  },
+  {
+    "idx": 452,
+    "speaker": "Jason",
+    "start_ms": 4644408,
+    "end_ms": 4646304,
+    "text": "我觉得这——"
+  },
+  {
+    "idx": 453,
+    "speaker": "Jason",
+    "start_ms": 4646712,
+    "end_ms": 4687776,
+    "text": "这恰恰完美证明了我的观点：如果你去跟任何一个创始人聊，他们不会在想住房问题，不会在想高等教育成本，不会在想最低工资，你知道的，他们也不会经常去想医疗保健。当然也有一些人在想，那里确实也有一些创新。但正因为这些领域监管太重了，创业者和 VC 都会觉得，那简直就是氪石。政府已经把这口井给毒坏了，我们根本没法参与。这就是路障，这也是美国人正在受苦的地方。而如果创始人们真的愿意把心思放到这些问题上，那就太好了；同时政府这边"
+  },
+  {
+    "idx": 454,
+    "speaker": "Jason",
+    "start_ms": 4688184,
+    "end_ms": 4721256,
+    "text": "也得把那些监管工具统统清掉，让我们在这些垂直领域里放手去干。好吧。现在市场已经进入超高速状态了。超大规模云厂商的营收推动了市场上涨。我们之前简短提过这个，但当时你不在。EBITDA 排名前五，云计算，Onatare，我前面提到过，AWS 现在的年化收入已经到了 1500 亿美元，Azure 是 1080 亿美元，GCP，也就是 Google Cloud，是 800 亿美元。"
+  },
+  {
+    "idx": 455,
+    "speaker": "Jason",
+    "start_ms": 4721664,
+    "end_ms": 4739496,
+    "text": "这里面在数字上有一点小花活，因为 Azure 和 Microsoft 把他们的一些软件产品也算进去了，而 Google Cloud 也把像 Google Office 或 Google Suite 这样的东西算在里面。但增长数字确实非常惊人。AWS，"
+  },
+  {
+    "idx": 456,
+    "speaker": "Jason",
+    "start_ms": 4739904,
+    "end_ms": 4768176,
+    "text": "这三家里业务最纯的一家，在很大的基数上还实现了 28% 的增长。Azure 是 39%，Google Cloud 更是以 63% 的增长震惊了所有人。它们的 ARR 数字真是惊人。Google Cloud 是 10，AWS 10，Azure 9.5。也就是说，合计基本上有 300 亿。你那边的 Jammin Ball，我记得他在 Twitter 上发过一些数据。"
+  },
+  {
+    "idx": 457,
+    "speaker": "Jason",
+    "start_ms": 4768584,
+    "end_ms": 4797240,
+    "text": "当然，Brad，市场一直在创历史新高，Max 7 表现火热，Uber 的增长大超预期，Disney 的增长也大超预期。看这两个风向标，消费者似乎强得离谱；看云计算这边，科技行业也显得极其强劲。你怎么看整体市场和整体经济？当然，通胀是有点抬头，大家也在为这场看不到尽头的战争和油价成本忧心忡忡。"
+  },
+  {
+    "idx": 458,
+    "speaker": "Jason",
+    "start_ms": 4797648,
+    "end_ms": 4811184,
+    "text": "我们把视角拉高一点来看。针对这一届政府的批评声量很大，说关税会导致恶性通胀，会毁掉 GDP，委内瑞拉和伊朗的冲突也会带来同样的结果。"
+  },
+  {
+    "idx": 459,
+    "speaker": "Jason",
+    "start_ms": 4811592,
+    "end_ms": 4834200,
+    "text": "这些负面说法我们都听过了，但实际发生了什么？GDP 在加速增长，10 年期国债收益率在 4.3，通胀完全受控。AI、AI、AI，算力、算力、算力。我们正在引领世界。这显然正在对国家的 GDP 增长作出巨大贡献，对吧。"
+  },
+  {
+    "idx": 460,
+    "speaker": "Jason",
+    "start_ms": 4834608,
+    "end_ms": 4849680,
+    "text": "我们看到标普今年也只涨了 8%，对吧？所以现在还远没到泡沫区间。Meta 的 fully taxed GAAP earnings 倍数是 17 倍，NVIDIA 是 19 倍，Microsoft 是 20 倍，Google 是 24 倍。"
+  },
+  {
+    "idx": 461,
+    "speaker": "Jason",
+    "start_ms": 4850088,
+    "end_ms": 4865544,
+    "text": "然后是大家都很兴奋的存储芯片股，我们大概有 25% 的仓位在 S.K. Hynek's，fully taxed GAAP earnings 只有 5 倍，Samsung 6 倍，Micron 7 倍，对吧？这可不是泡沫会有的那种东西。"
+  },
+  {
+    "idx": 462,
+    "speaker": "Jason",
+    "start_ms": 4865952,
+    "end_ms": 4878504,
+    "text": "你知道，David 前面提到过。年初的时候，OpenAI 和 Anthropic 合计大概是 300 亿收入。结果四个月后，两家合计已经到 800 亿收入了。"
+  },
+  {
+    "idx": 463,
+    "speaker": "Chamath",
+    "start_ms": 4878912,
+    "end_ms": 4897488,
+    "text": "这一届政府的经济政策是有效的，而且是非常有效。我们在 AI 上相对世界其他地区的领先优势还在扩大。所以从我的角度看，你知道的，我们一直都是重仓市场。我在今年早些时候就说过，我们的配置明显偏向"
+  },
+  {
+    "idx": 464,
+    "speaker": "Jason",
+    "start_ms": 4897896,
+    "end_ms": 4906032,
+    "text": "你大概是什么时候转向、开始全面押注市场的？因为你之前是看空的。整体上。"
+  },
+  {
+    "idx": 465,
+    "speaker": "Chamath",
+    "start_ms": 4906440,
+    "end_ms": 4921272,
+    "text": "对。我会说是在去年年底左右，当时市场已经涨了很多。我们当时也被问了很多这样的问题。你看，进入今年的时候，市场上悬着一个很大的问题：AI 的收入到底会不会兑现？"
+  },
+  {
+    "idx": 466,
+    "speaker": "Chamath",
+    "start_ms": 4921680,
+    "end_ms": 4936128,
+    "text": "如果 Anthropic 的收入没有体现出来，而且我们也没看到这些 hyperscalers 再次加速增长，那市场现在会跌 10% 到 15%，因为大家会说，这么多投资根本没有 ROI。"
+  },
+  {
+    "idx": 467,
+    "speaker": "Jason",
+    "start_ms": 4936536,
+    "end_ms": 4939080,
+    "text": "那你本来就会看空，"
+  },
+  {
+    "idx": 468,
+    "speaker": "Chamath",
+    "start_ms": 4939488,
+    "end_ms": 4941720,
+    "text": "是在基础设施这块。"
+  },
+  {
+    "idx": 469,
+    "speaker": "Jason",
+    "start_ms": 4942128,
+    "end_ms": 4945008,
+    "text": "在那种情况下之类的。"
+  },
+  {
+    "idx": 470,
+    "speaker": "Chamath",
+    "start_ms": 4945416,
+    "end_ms": 4959288,
+    "text": "没错。当我看到 12 月到 1 月这些数据开始出来时，我们的仓位敞口就从中等加到了较大，而且我们 80% 以上的敞口都放在了算力、AI、内存这些方向。"
+  },
+  {
+    "idx": 471,
+    "speaker": "Jason",
+    "start_ms": 4959696,
+    "end_ms": 4974024,
+    "text": "这也就是为什么同时做私募市场和公开市场很棒，因为你能在私募市场里看到一些东西，从而帮助判断公开市场。但问题还是在，Brad，经济本来还能表现得多好？"
+  },
+  {
+    "idx": 472,
+    "speaker": "Jason",
+    "start_ms": 4974432,
+    "end_ms": 4986264,
+    "text": "你知道，虽然你把很多功劳都归给了这届政府，但如果他们当初没有发动那场根本没必要打、据各种报道花了一千亿美元的战争的话。"
+  },
+  {
+    "idx": 473,
+    "speaker": "Jason",
+    "start_ms": 4986672,
+    "end_ms": 5001240,
+    "text": "还有，如果我们没搞那一堆最后被最高法院判定违宪的关税——而且还是 Trump 自己加上的——我们现在本来会走得更靠前。这就是我的看法。要是没有那些愚蠢的"
+  },
+  {
+    "idx": 474,
+    "speaker": "Chamath",
+    "start_ms": 5001648,
+    "end_ms": 5002896,
+    "text": "Jason，"
+  },
+  {
+    "idx": 475,
+    "speaker": "Jason",
+    "start_ms": 5003304,
+    "end_ms": 5004840,
+    "text": "岔子。"
+  },
+  {
+    "idx": 476,
+    "speaker": "Chamath",
+    "start_ms": 5005248,
+    "end_ms": 5023464,
+    "text": "很难想象还有比现在对 United States of America 更理想的局面了。我们已经在地缘政治上重新洗牌了。全球贴现率实际上是在下降，不是在上升，这一点从市场创历史新高以及债券市场保持稳定就能看出来。"
+  },
+  {
+    "idx": 477,
+    "speaker": "Chamath",
+    "start_ms": 5023872,
+    "end_ms": 5037768,
+    "text": "再看看私募市场。我们已经在私募市场里创造出了多家万亿美元公司，现在它们正要上市。SpaceX 一旦上市，市值会是好几万亿美元级别的。再加上，"
+  },
+  {
+    "idx": 478,
+    "speaker": "Jason",
+    "start_ms": 5038176,
+    "end_ms": 5039832,
+    "text": "这也太"
+  },
+  {
+    "idx": 479,
+    "speaker": "Chamath",
+    "start_ms": 5040240,
+    "end_ms": 5047056,
+    "text": "你知道，还有 OpenAI 等等，放眼整个市场，某个时刻你就是得承认，美国正在赢。"
+  },
+  {
+    "idx": 480,
+    "speaker": "Jason",
+    "start_ms": 5047464,
+    "end_ms": 5049024,
+    "text": "当然，"
+  },
+  {
+    "idx": 481,
+    "speaker": "Chamath",
+    "start_ms": 5049432,
+    "end_ms": 5051664,
+    "text": "当然，总是有些事情"
+  },
+  {
+    "idx": 482,
+    "speaker": "Jason",
+    "start_ms": 5052072,
+    "end_ms": 5053872,
+    "text": "百分之百"
+  },
+  {
+    "idx": 483,
+    "speaker": "Chamath",
+    "start_ms": 5054280,
+    "end_ms": 5062200,
+    "text": "是我们本可以做得更好的，但当今世界上没有哪个国家不愿意拿自己全部的国运来换美国的国运。"
+  },
+  {
+    "idx": 484,
+    "speaker": "Jason",
+    "start_ms": 5062608,
+    "end_ms": 5084472,
+    "text": "我百分之百同意。美国例外主义体现在美国这些伟大的公司身上，SpaceX、Google 等等，还有我们刚才一直在聊的那些公司，这才是核心故事。而且我得给本届政府无限的肯定，因为他们对商业很友好。不过我确实觉得他们犯了两个关键错误。"
+  },
+  {
+    "idx": 485,
+    "speaker": "Jason",
+    "start_ms": 5084880,
+    "end_ms": 5098488,
+    "text": "我觉得关税执行得很糟，而且我觉得我们本不该打这场战争，我们应该尽快找到解决办法，而政府看起来也正在拼命这么做。Zach，你怎么看经济？"
+  },
+  {
+    "idx": 486,
+    "speaker": "Sacks",
+    "start_ms": 5098896,
+    "end_ms": 5117208,
+    "text": "你看，我们现在正处在一波 AI 繁荣之中，我认为这要归功于 Trump 总统的政策。别忘了，他上任第一周就撤销了 Biden 在芯片和模型方面的政策。那些政策是什么？就是我们刚才说的那套审批制度。"
+  },
+  {
+    "idx": 487,
+    "speaker": "Sacks",
+    "start_ms": 5117616,
+    "end_ms": 5135472,
+    "text": "如果模型训练用了达到某个 flops 数量级的算力，就必须去 Washington 申请批准。然后，全球范围内每一笔 GPU 销售，除非落入某些很窄的豁免范围，否则都得从 Washington 获得许可。Biden 政府的整套做法"
+  },
+  {
+    "idx": 488,
+    "speaker": "Sacks",
+    "start_ms": 5135880,
+    "end_ms": 5153760,
+    "text": "Trump 总统接手时，华盛顿那套获批的东西全都还在。他把那些都撤销了。他宣布我们必须赢下 AI 竞赛，并且放开手让我们的公司去做这件事。还有另外一个非常重要的点，就是能源。记住，"
+  },
+  {
+    "idx": 489,
+    "speaker": "Sacks",
+    "start_ms": 5154168,
+    "end_ms": 5175792,
+    "text": "早在十年前，这位总统就在说“drill baby drill”。他说我们必须释放美国的能源潜力。这是美国经济的基础，也是 AI 的基础。他还说过，希望允许我们的 AI 公司变成能源公司，这样它们就能给这些数据中心自带电力，而不是从电网取电。"
+  },
+  {
+    "idx": 490,
+    "speaker": "Sacks",
+    "start_ms": 5176200,
+    "end_ms": 5198088,
+    "text": "它们不是在和普通消费者争抢电力，而是在自己发电。也正是多亏了这位总统，我们现在才看到了这波蓝领建筑热潮，为所有这些基础设施提供支撑。那另一种选择会是什么？我们知道，我是说，Bernie Sanders 说过要禁止数据中心。所以我觉得"
+  },
+  {
+    "idx": 491,
+    "speaker": "Jason",
+    "start_ms": 5198496,
+    "end_ms": 5200008,
+    "text": "加税，"
+  },
+  {
+    "idx": 492,
+    "speaker": "Sacks",
+    "start_ms": 5200416,
+    "end_ms": 5203152,
+    "text": "该给的功劳还是得给"
+  },
+  {
+    "idx": 493,
+    "speaker": "Jason",
+    "start_ms": 5203560,
+    "end_ms": 5205504,
+    "text": "禁止数据"
+  },
+  {
+    "idx": 494,
+    "speaker": "Sacks",
+    "start_ms": 5205912,
+    "end_ms": 5207808,
+    "text": "到该给的人"
+  },
+  {
+    "idx": 495,
+    "speaker": "Jason",
+    "start_ms": 5208216,
+    "end_ms": 5223480,
+    "text": "中心。那会是糟糕得多的选择。Chamath，关于整体经济，我们收尾前最后一句给你。我觉得市场还会继续涨一阵子。然后到了某个时候，它们也会跌下来。"
+  },
+  {
+    "idx": 496,
+    "speaker": "Jason",
+    "start_ms": 5223888,
+    "end_ms": 5236080,
+    "text": "好，我记下来了，Chamath。你是说市场现在在涨，然后最终还会跌下来。就这两点，一个涨，我们这儿写个 U，然后这儿写个 D。"
+  },
+  {
+    "idx": 497,
+    "speaker": "Sacks",
+    "start_ms": 5236488,
+    "end_ms": 5238264,
+    "text": "我觉得"
+  },
+  {
+    "idx": 498,
+    "speaker": "Jason",
+    "start_ms": 5238672,
+    "end_ms": 5240064,
+    "text": "懂了。"
+  },
+  {
+    "idx": 499,
+    "speaker": "Sacks",
+    "start_ms": 5240472,
+    "end_ms": 5242728,
+    "text": "你这是在模仿那个"
+  },
+  {
+    "idx": 500,
+    "speaker": "Jason",
+    "start_ms": 5243136,
+    "end_ms": 5245752,
+    "text": "记“涨”和“跌”的笔记。"
+  },
+  {
+    "idx": 501,
+    "speaker": "Sacks",
+    "start_ms": 5246160,
+    "end_ms": 5250552,
+    "text": "emoji，是吧？你是在干这个吗？"
+  },
+  {
+    "idx": 502,
+    "speaker": "Jason",
+    "start_ms": 5250960,
+    "end_ms": 5271264,
+    "text": "对。好，涨和跌。哇，感谢大家收听 All In，在这里你能听到各种神准判断和市场操作建议。各位，接下来就是先涨后跌。自己看着办吧。拜托，别这么严肃。不过，是什么让你看多呢，"
+  },
+  {
+    "idx": 503,
+    "speaker": "Jason",
+    "start_ms": 5271672,
+    "end_ms": 5283768,
+    "text": "比如说，未来六个月、十二个月，有哪些催化因素？另外你觉得阻力又是什么？我们就聊聊短中期吧，大概六个月到两年。"
+  },
+  {
+    "idx": 504,
+    "speaker": "Freeberg",
+    "start_ms": 5284176,
+    "end_ms": 5303544,
+    "text": "我觉得短期来看，创造新东西的人必须被市场认可，也必须证明自己的价值。那谁是在创造这些新东西的人？是 NVIDIA，是做存储芯片的厂商，是 Anthropic，是 SpaceX，也是 OpenAI。但最终一切都得回归现实。"
+  },
+  {
+    "idx": 505,
+    "speaker": "Freeberg",
+    "start_ms": 5303952,
+    "end_ms": 5317608,
+    "text": "你不能只是给一个市场造东西，而这个市场本身却得不到可衡量的收益。说得再直白一点，目前根本没有哪怕一丁点证据表明，AI 帮助提升了标普 500 企业的营业利润率。"
+  },
+  {
+    "idx": 506,
+    "speaker": "Freeberg",
+    "start_ms": 5318016,
+    "end_ms": 5341272,
+    "text": "现在各种宣传和吹风都有。接下来会来到一个很关键的分岔路口，大概就在两三年后。一条路是 OPEX 缩减，因此利润率上升。另一条路是营收增长、利润率扩大，而 OPEX 保持不变，甚至可能还会上升。这两种情况差别非常大，因为前一种……"
+  },
+  {
+    "idx": 507,
+    "speaker": "Freeberg",
+    "start_ms": 5341680,
+    "end_ms": 5364480,
+    "text": "你说的是员工规模收缩，以及 OPEX 占营业利润和营收的比例下降。而后一种，其实是靠增长穿越过去。我觉得这个问题的答案，对市场会怎么反应、社会会怎么反应，都至关重要。所以我觉得，差不多可以说接下来 500 天里，你还是得保持净多头仓位，"
+  },
+  {
+    "idx": 508,
+    "speaker": "Freeberg",
+    "start_ms": 5364888,
+    "end_ms": 5376672,
+    "text": "但我觉得真的就是从现在起几百天内，大概 500 天，你会迎来一个重要的清算时刻。那些为这些 token 买单的人，必须看到实实在在的收益。"
+  },
+  {
+    "idx": 509,
+    "speaker": "Jason",
+    "start_ms": 5377080,
+    "end_ms": 5380416,
+    "text": "对，这很合理。对。"
+  },
+  {
+    "idx": 510,
+    "speaker": "Sacks",
+    "start_ms": 5380824,
+    "end_ms": 5405904,
+    "text": "这个观点特别有意思。我把 Jamal 说的和 Brad 说的两件事串起来看一下。就是，今年年初的时候，我们带着巨额 capex、巨额基础设施投资进入这一年，但当时大家并不确定，从模型收入的角度看，ROI 是否真的能成立。这一点确实存在。而后来，模型收入已经被证明出来了。"
+  },
+  {
+    "idx": 511,
+    "speaker": "Sacks",
+    "start_ms": 5406312,
+    "end_ms": 5429256,
+    "text": "而现在 Samantha 的意思是，很快我们又会来到另一个分岔路口：那些被卖出去、并为这些模型公司带来收入的 token，最终到底能不能产生 ROI。我同意你的看法，这一点目前还没有被证明，但我对此是乐观的，我觉得它最终会被证明出来。否则的话，你也不会看到企业客户"
+  },
+  {
+    "idx": 512,
+    "speaker": "Freeberg",
+    "start_ms": 5429664,
+    "end_ms": 5432256,
+    "text": "你看，我在听。"
+  },
+  {
+    "idx": 513,
+    "speaker": "Sacks",
+    "start_ms": 5432664,
+    "end_ms": 5452080,
+    "text": "还会继续买。等等，让我解释一下。如果企业觉得拿不到 ROI，你就不会看到他们在 coding tokens 上的月度支出还在持续增长。不过你提了个很好的问题，就是当这些新的软件、这些定制化软件，通过——还是那句话——"
+  },
+  {
+    "idx": 514,
+    "speaker": "Sacks",
+    "start_ms": 5452488,
+    "end_ms": 5472864,
+    "text": "通过购买的这些 coding tokens 被创造出来之后，它将推动一波我觉得前所未见的生产力浪潮。所以我认为你现在看到的是，ROI 正在从基础设施层传导到模型层，再到应用层，最后到终端用户。我觉得这会带来一场经济繁荣。"
+  },
+  {
+    "idx": 515,
+    "speaker": "Jason",
+    "start_ms": 5473272,
+    "end_ms": 5483280,
+    "text": "我懂了。我同意你，Sacks。这一幕简直似曾相识。我们在 PC 革命时就见过这种情况。"
+  },
+  {
+    "idx": 516,
+    "speaker": "Jason",
+    "start_ms": 5483688,
+    "end_ms": 5523912,
+    "text": "还有互联网革命、云革命、移动革命。每次大家都在焦虑：这东西到底能不能回本？我要不要做个 app？要不要建个网站？要不要迁到云上？还是继续放在本地部署？这些问题一遍又一遍地出现，最后全都从问号变成了惊叹号。我可以告诉你，在我的公司内部，我们一开始在用 agents，后来开始自己写代码。现在我团队里有三个人，正在做各种界面和产品——一个 22 人的投资机构本来根本不该内部做这些，按理说他们应该直接用 SaaS 软件。"
+  },
+  {
+    "idx": 517,
+    "speaker": "Jason",
+    "start_ms": 5524320,
+    "end_ms": 5536776,
+    "text": "但他们每天都在持续交付产品。ROI 已经是既成事实了，Brad，已经是既成事实了。我觉得这件事已经定了，我觉得已经定了，你——"
+  },
+  {
+    "idx": 518,
+    "speaker": "Freeberg",
+    "start_ms": 5537184,
+    "end_ms": 5541312,
+    "text": "根本还没定。根本还没定。"
+  },
+  {
+    "idx": 519,
+    "speaker": "Jason",
+    "start_ms": 5541720,
+    "end_ms": 5563752,
+    "text": "你接触的是 80、90 家大企业，你是在跟大企业打交道；我一年投 100 家 startup，我接触的是小公司。对 startup 来说，这已经是既成事实了。他们在构建软件，在持续发布，从这些 tokens 里拿到了巨大的价值，而且价值大到他们根本不需要再增加"
+  },
+  {
+    "idx": 520,
+    "speaker": "Jason",
+    "start_ms": 5564160,
+    "end_ms": 5587728,
+    "text": "你知道的，用同样多的资本，他们雇的人只有原来的一半，却能把事情推进得更远，花更少的钱做成更多事。这在创业公司那边是行得通的。至于 80-90 那些大公司现在是什么情况，我不太清楚。你显然更了解企业端。跟我们说说你看到的情况。"
+  },
+  {
+    "idx": 521,
+    "speaker": "Freeberg",
+    "start_ms": 5588136,
+    "end_ms": 5614944,
+    "text": "我的意思是，我们的业务做得不错，但我想让你们明白的是，利润不是你想涨就能涨的。好吧。归根结底会发生什么呢，我随便举家公司，Anheuser-Busch，他们最终还是得卖出更多啤酒。好吧？再看 Nike，他们最终还是得卖出更多鞋。再看医疗器械公司，他们还是得卖出更多人工髋关节和膝关节。"
+  },
+  {
+    "idx": 522,
+    "speaker": "Freeberg",
+    "start_ms": 5615352,
+    "end_ms": 5640456,
+    "text": "所以我想表达的重点是，现在确实有大量非常积极、非常有创造性的实验在进行。但我认为同样真实的是，其中很多还没有证明价值。我不觉得这意味着它会停止。我只是想说，在一家公司能够非常直接地追踪到：我投入了 X，赚回了 Y，而且现在 Y 大于 X，并且还提升了我的利润率之前，"
+  },
+  {
+    "idx": 523,
+    "speaker": "Freeberg",
+    "start_ms": 5640864,
+    "end_ms": 5668680,
+    "text": "真正能让飞轮转得更快的，就是这件事。而现在我们只完成了这个等式的前半部分。我们花了 X，但还没看到 Y。你本该能在全球 GDP 里看到它，但你没有。你本该能在全球生产率里看到它，但你没有。你本该能在 S&P 500 整体的全球利润率里看到它，但我们也没有看到。这不代表它不会到来。"
+  },
+  {
+    "idx": 524,
+    "speaker": "Jason",
+    "start_ms": 5669088,
+    "end_ms": 5687424,
+    "text": "Brad，你想接着说说吗？因为我显然是站在另一边的。我看到很多公司成本大幅下降，广告效果也在变得更好，同时他们停止招聘了，很多情况下也不再增加编制。再比如就拿 Nike 这个例子来说。"
+  },
+  {
+    "idx": 525,
+    "speaker": "Jason",
+    "start_ms": 5687832,
+    "end_ms": 5707128,
+    "text": "他们以前为了 app 做的很多拍摄，抱歉，应该说他们以前要制作的很多图片素材，现在不用雇摄影师、也不用折腾那些事，就能做出更多了。我知道这个例子，是因为我们有一家创业公司就是专门给 Nike 这类品牌做这个的。"
+  },
+  {
+    "idx": 526,
+    "speaker": "Jason",
+    "start_ms": 5707536,
+    "end_ms": 5736240,
+    "text": "他们已经看到了巨大的下降。我们还有一家帮 DoorDash 处理食物图片的公司。那些图片以前都得靠摄影师去拍，现在全都由 AI 完成。成本大幅下降。而且他们现在用的广告和广告创意，效果提升了两位数百分比，成本却只要原来的一半。所以我确实觉得我们已经能从财报里看到这种变化了，但这是真的吗？"
+  },
+  {
+    "idx": 527,
+    "speaker": "Jason",
+    "start_ms": 5736648,
+    "end_ms": 5740992,
+    "text": "你现在已经能从这些公司的财报里看出来了吗？"
+  },
+  {
+    "idx": 528,
+    "speaker": "Chamath",
+    "start_ms": 5741400,
+    "end_ms": 5770392,
+    "text": "对，所以有两个数据点。第一，我们刚看到 Azure 这个季度增长了 39%。Google Cloud 这个季度增长了 63%。而这些公司过去三年的员工人数增长，Mag5 合起来大概只有 3%。所以它们的营业利润率都在扩大。如果你看整个 S&P 500，24 年第一季度的营业利润率大概是 11.8%，高于 23 年的 11%。"
+  },
+  {
+    "idx": 529,
+    "speaker": "Chamath",
+    "start_ms": 5770800,
+    "end_ms": 5779512,
+    "text": "今年则到了 13%。也就是说，S&P 500 的营业利润率提升了 200 个基点，这个幅度非常大。"
+  },
+  {
+    "idx": 530,
+    "speaker": "Freeberg",
+    "start_ms": 5779920,
+    "end_ms": 5782728,
+    "text": "你觉得这是 AI 带来的吗？"
+  },
+  {
+    "idx": 531,
+    "speaker": "Chamath",
+    "start_ms": 5783136,
+    "end_ms": 5791488,
+    "text": "在这些业务里都是这样。Chamath，我觉得这正是问题所在，也就是两者可能会在这里衔接上。"
+  },
+  {
+    "idx": 532,
+    "speaker": "Freeberg",
+    "start_ms": 5791896,
+    "end_ms": 5794392,
+    "text": "我愿意拿钱打赌"
+  },
+  {
+    "idx": 533,
+    "speaker": "Chamath",
+    "start_ms": 5794800,
+    "end_ms": 5795952,
+    "text": "你在"
+  },
+  {
+    "idx": 534,
+    "speaker": "Freeberg",
+    "start_ms": 5796360,
+    "end_ms": 5798112,
+    "text": "说的"
+  },
+  {
+    "idx": 535,
+    "speaker": "Chamath",
+    "start_ms": 5798520,
+    "end_ms": 5799624,
+    "text": "这个。"
+  },
+  {
+    "idx": 536,
+    "speaker": "Freeberg",
+    "start_ms": 5800032,
+    "end_ms": 5811144,
+    "text": "扯淡，这不是 AI。我敢拿多少钱赌都行，这不是 AI。是不是和过去十年里把这些盈利推高的那套金融工程是同一回事？"
+  },
+  {
+    "idx": 537,
+    "speaker": "Chamath",
+    "start_ms": 5811552,
+    "end_ms": 5828376,
+    "text": "对。所以我觉得问题就在这儿。还是说，这种利润率扩张是可持续的？现在的预测、市场一致预期和估算都认为，未来两年利润率还会继续扩大。你我都知道，在 22、23 年那会儿，"
+  },
+  {
+    "idx": 538,
+    "speaker": "Chamath",
+    "start_ms": 5828784,
+    "end_ms": 5853600,
+    "text": "我们是从“过度扩张时代”进入了“精益健身时代”，对吧？很多公司借着 AI 的名义裁掉了不少人，说白了就是因为它们在 COVID 那段时期膨胀得太厉害了。所以我觉得，质疑这到底是不是全都来自 AI，是个很合理的问题。但我可以凭一些亲身观察告诉你，这在我这里是对得上的。我听到的情况，像 Jason"
+  },
+  {
+    "idx": 539,
+    "speaker": "Chamath",
+    "start_ms": 5854008,
+    "end_ms": 5861400,
+    "text": "和 David 说的那样，很多公司营收增长都在加速，但人头数并没有按差不多的速度扩张。"
+  },
+  {
+    "idx": 540,
+    "speaker": "Freeberg",
+    "start_ms": 5861808,
+    "end_ms": 5867088,
+    "text": "好。Sacks，收尾之前最后一句给你。"
+  },
+  {
+    "idx": 541,
+    "speaker": "Sacks",
+    "start_ms": 5867496,
+    "end_ms": 5872488,
+    "text": "Brad 刚才在讲，我们是怎么获得这些运营效率提升的。"
+  },
+  {
+    "idx": 542,
+    "speaker": "Sacks",
+    "start_ms": 5872896,
+    "end_ms": 5894952,
+    "text": "那段时间失业率一直维持在历史低位。我的意思是，经济学家通常认为充分就业大概是 4% 到 5%，而这段时间我们一直都在 4% 出头，大约 4.2% 左右。所以你能看到这些效率提升的同时，失业率依然极低。而且，"
+  },
+  {
+    "idx": 543,
+    "speaker": "Sacks",
+    "start_ms": 5895360,
+    "end_ms": 5911752,
+    "text": "刚有一篇很大的报道说，年轻大学毕业生的失业率已经下降了。所以，前阵子一直有一种说法，说应届大学毕业生会最难找工作，因为 AI 会让入门级岗位几乎没什么工作可做了。"
+  },
+  {
+    "idx": 544,
+    "speaker": "Sacks",
+    "start_ms": 5912160,
+    "end_ms": 5936640,
+    "text": "事实上，最近应届大学毕业生找工作变得更容易了。也许是因为他们是 AI 原住民，也许是因为他们更会用 AI。所以不管怎么说，我的意思是，到目前为止，我们还没有看到那些关于 AI 会导致失业和就业流失的理论性负面影响的证据，反而开始看到巨大的生产力提升。"
+  },
+  {
+    "idx": 545,
+    "speaker": "Jason",
+    "start_ms": 5937048,
+    "end_ms": 5961768,
+    "text": "对，这会变成一个循环讨论，不过是的，确实有很多相互矛盾的证据。最后一个明显相互矛盾的证据就是劳动参与率，因为如果你连参与都不选择参与，那你就不会被算作失业人口。我觉得这一直是个很大的挑战。3 月份的劳动参与率是 61.9%，而在之前"
+  },
+  {
+    "idx": 546,
+    "speaker": "Sacks",
+    "start_ms": 5962176,
+    "end_ms": 5963832,
+    "text": "但最近"
+  },
+  {
+    "idx": 547,
+    "speaker": "Jason",
+    "start_ms": 5964240,
+    "end_ms": 5965680,
+    "text": "COVID"
+  },
+  {
+    "idx": 548,
+    "speaker": "Sacks",
+    "start_ms": 5966088,
+    "end_ms": 5968008,
+    "text": "应届大学"
+  },
+  {
+    "idx": 549,
+    "speaker": "Jason",
+    "start_ms": 5968416,
+    "end_ms": 5988168,
+    "text": "我们当时毕业生是 63.3%。对，而且大学毕业生听到的情况也不一样，有些专业能找到工作，另一些专业找不到工作。我觉得现在下结论还太早了，这大概是我们都同意的一点。情况是好坏参半，这也是"
+  },
+  {
+    "idx": 550,
+    "speaker": "Sacks",
+    "start_ms": 5988576,
+    "end_ms": 5993328,
+    "text": "不，我不同意。不是这样的。你看，"
+  },
+  {
+    "idx": 551,
+    "speaker": "Jason",
+    "start_ms": 5993736,
+    "end_ms": 5995920,
+    "text": "有一点，不"
+  },
+  {
+    "idx": 552,
+    "speaker": "Sacks",
+    "start_ms": 5996328,
+    "end_ms": 6003768,
+    "text": "每次我拿出数据来反驳你的某个说法，你总是说现在下结论还太早。"
+  },
+  {
+    "idx": 553,
+    "speaker": "Jason",
+    "start_ms": 6004176,
+    "end_ms": 6006576,
+    "text": "不不不，我做的是"
+  },
+  {
+    "idx": 554,
+    "speaker": "Sacks",
+    "start_ms": 6006984,
+    "end_ms": 6018552,
+    "text": "头条，《华尔街日报》，Nick，把它放到屏幕上。大学毕业生终于在这个就业市场里迎来了转机。JK，你应该为这事高兴。"
+  },
+  {
+    "idx": 555,
+    "speaker": "Jason",
+    "start_ms": 6018960,
+    "end_ms": 6032376,
+    "text": "我知道，听着，我当然高兴任何人能找到工作，但你的做法是，接着你又说我们不该相信这些数据，还说应该废掉 Fed，也别再看这些数据了。所以"
+  },
+  {
+    "idx": 556,
+    "speaker": "Sacks",
+    "start_ms": 6032784,
+    "end_ms": 6034368,
+    "text": "我"
+  },
+  {
+    "idx": 557,
+    "speaker": "Jason",
+    "start_ms": 6034776,
+    "end_ms": 6036768,
+    "text": "我们都知道"
+  },
+  {
+    "idx": 558,
+    "speaker": "Sacks",
+    "start_ms": 6037176,
+    "end_ms": 6038712,
+    "text": "从没"
+  },
+  {
+    "idx": 559,
+    "speaker": "Jason",
+    "start_ms": 6039120,
+    "end_ms": 6040440,
+    "text": "这"
+  },
+  {
+    "idx": 560,
+    "speaker": "Sacks",
+    "start_ms": 6040848,
+    "end_ms": 6042432,
+    "text": "说过"
+  },
+  {
+    "idx": 561,
+    "speaker": "Jason",
+    "start_ms": 6042840,
+    "end_ms": 6044256,
+    "text": "辩论。"
+  },
+  {
+    "idx": 562,
+    "speaker": "Sacks",
+    "start_ms": 6044664,
+    "end_ms": 6048336,
+    "text": "我们应该废掉美联储。我有"
+  },
+  {
+    "idx": 563,
+    "speaker": "Jason",
+    "start_ms": 6048744,
+    "end_ms": 6050184,
+    "text": "那是"
+  },
+  {
+    "idx": 564,
+    "speaker": "Sacks",
+    "start_ms": 6050592,
+    "end_ms": 6052176,
+    "text": "我"
+  },
+  {
+    "idx": 565,
+    "speaker": "Jason",
+    "start_ms": 6052584,
+    "end_ms": 6054120,
+    "text": "Chamath。"
+  },
+  {
+    "idx": 566,
+    "speaker": "Sacks",
+    "start_ms": 6054528,
+    "end_ms": 6056640,
+    "text": "说过那种话吗？"
+  },
+  {
+    "idx": 567,
+    "speaker": "Jason",
+    "start_ms": 6057048,
+    "end_ms": 6065568,
+    "text": "是你选了 Chamath。就因为我们不喜欢这些数字，就把美联储废掉。听着，都挺好。"
+  },
+  {
+    "idx": 568,
+    "speaker": "Freeberg",
+    "start_ms": 6065976,
+    "end_ms": 6067704,
+    "text": "得了吧。"
+  },
+  {
+    "idx": 569,
+    "speaker": "Jason",
+    "start_ms": 6068112,
+    "end_ms": 6070032,
+    "text": "欢迎来到"
+  },
+  {
+    "idx": 570,
+    "speaker": "Freeberg",
+    "start_ms": 6070440,
+    "end_ms": 6072192,
+    "text": "什么"
+  },
+  {
+    "idx": 571,
+    "speaker": "Jason",
+    "start_ms": 6072600,
+    "end_ms": 6074016,
+    "text": "辩论"
+  },
+  {
+    "idx": 572,
+    "speaker": "Freeberg",
+    "start_ms": 6074424,
+    "end_ms": 6076152,
+    "text": "我说"
+  },
+  {
+    "idx": 573,
+    "speaker": "Jason",
+    "start_ms": 6076560,
+    "end_ms": 6078144,
+    "text": "俱乐部"
+  },
+  {
+    "idx": 574,
+    "speaker": "Freeberg",
+    "start_ms": 6078552,
+    "end_ms": 6080280,
+    "text": "什么了？"
+  },
+  {
+    "idx": 575,
+    "speaker": "Jason",
+    "start_ms": 6080688,
+    "end_ms": 6080952,
+    "text": "。"
+  },
+  {
+    "idx": 576,
+    "speaker": "Freeberg",
+    "start_ms": 6081360,
+    "end_ms": 6083304,
+    "text": "我说什么了？"
+  },
+  {
+    "idx": 577,
+    "speaker": "Jason",
+    "start_ms": 6083712,
+    "end_ms": 6112104,
+    "text": "你说要废除美联储。废除美联储。美联储存在是干嘛的？好了，听着，差不多得了。我们这都快变成特朗普精神错乱综合征，或者特朗普下跪综合征了。节目结束了。今天这期很棒，各位。我们一起笑过，也都学到了东西，还一起推敲了一些想法。就到这儿吧。干得漂亮，总统。"
+  },
+  {
+    "idx": 578,
+    "speaker": "Sacks",
+    "start_ms": 6112512,
+    "end_ms": 6114096,
+    "text": "我"
+  },
+  {
+    "idx": 579,
+    "speaker": "Jason",
+    "start_ms": 6114504,
+    "end_ms": 6115992,
+    "text": "Trump"
+  },
+  {
+    "idx": 580,
+    "speaker": "Sacks",
+    "start_ms": 6116400,
+    "end_ms": 6118464,
+    "text": "想祝贺所有"
+  },
+  {
+    "idx": 581,
+    "speaker": "Jason",
+    "start_ms": 6118872,
+    "end_ms": 6121104,
+    "text": "来了来了，哦"
+  },
+  {
+    "idx": 582,
+    "speaker": "Sacks",
+    "start_ms": 6121512,
+    "end_ms": 6128352,
+    "text": "我们的创新者，我还想祝贺 Elon 和 Dario D. Rockefeller 最近达成的那笔交易。"
+  },
+  {
+    "idx": 583,
+    "speaker": "Jason",
+    "start_ms": 6128760,
+    "end_ms": 6135192,
+    "text": "火药味十足啊。我得认真起来了。随时欢迎来节目。"
+  },
+  {
+    "idx": 584,
+    "speaker": "Freeberg",
+    "start_ms": 6135600,
+    "end_ms": 6137640,
+    "text": "难以置信。"
+  },
+  {
+    "idx": 585,
+    "speaker": "Jason",
+    "start_ms": 6138048,
+    "end_ms": 6164400,
+    "text": "Daria，嘿，你跟 Daria 很熟，你也认识 Brad，安排他下周来节目吧，我想让他上节目。让他来，好吗？你帮我问问他。我会的，你帮我问问他？嗯，我当然会去问他。而且说真的，我们得庆幸我们有 Elon，有 Anthropic，有 OpenAI，有 Google，有 Amazon，都在这个国家里持续创新。"
+  },
+  {
+    "idx": 586,
+    "speaker": "Jason",
+    "start_ms": 6164808,
+    "end_ms": 6174528,
+    "text": "而且，你知道，我知道我们喜欢在这些事情的边边角角上开点玩笑。但事实是，我都看在眼里。"
+  },
+  {
+    "idx": 587,
+    "speaker": "Chamath",
+    "start_ms": 6174936,
+    "end_ms": 6194568,
+    "text": "他们都在积极出现、分享他们的模型，拼尽全力去创新。我们国家有最好的竞争格局。David 说得对。过去 14 个月里，这一切已经彻底改变了。我们得坚持当前路线。我们押对了马。上周德比赛马刚跑完。"
+  },
+  {
+    "idx": 588,
+    "speaker": "Jason",
+    "start_ms": 6194976,
+    "end_ms": 6196872,
+    "text": "就是这样。"
+  },
+  {
+    "idx": 589,
+    "speaker": "Chamath",
+    "start_ms": 6197280,
+    "end_ms": 6198408,
+    "text": "我们"
+  },
+  {
+    "idx": 590,
+    "speaker": "Jason",
+    "start_ms": 6198816,
+    "end_ms": 6200304,
+    "text": "没错。"
+  },
+  {
+    "idx": 591,
+    "speaker": "Chamath",
+    "start_ms": 6200712,
+    "end_ms": 6203664,
+    "text": "押对了马。继续坚持。"
+  },
+  {
+    "idx": 592,
+    "speaker": "Jason",
+    "start_ms": 6204072,
+    "end_ms": 6205944,
+    "text": "就是这个。"
+  },
+  {
+    "idx": 593,
+    "speaker": "Chamath",
+    "start_ms": 6206352,
+    "end_ms": 6208032,
+    "text": "关键就在这儿。"
+  },
+  {
+    "idx": 594,
+    "speaker": "Jason",
+    "start_ms": 6208440,
+    "end_ms": 6209928,
+    "text": "没错。"
+  },
+  {
+    "idx": 595,
+    "speaker": "Chamath",
+    "start_ms": 6210336,
+    "end_ms": 6211824,
+    "text": "America"
+  },
+  {
+    "idx": 596,
+    "speaker": "Jason",
+    "start_ms": 6212232,
+    "end_ms": 6213888,
+    "text": "参议员"
+  },
+  {
+    "idx": 597,
+    "speaker": "Chamath",
+    "start_ms": 6214296,
+    "end_ms": 6217368,
+    "text": "稳赢了。America稳赢了。"
+  },
+  {
+    "idx": 598,
+    "speaker": "Jason",
+    "start_ms": 6217776,
+    "end_ms": 6230016,
+    "text": "就是这样。参议员 Brad Gerstner。我觉得如果你真要参选，就得把那副红框眼镜换掉。我们得给你弄一副，可能玳瑁纹的。"
+  },
+  {
+    "idx": 599,
+    "speaker": "Unknown",
+    "start_ms": 6230424,
+    "end_ms": 6235512,
+    "text": "不过我觉得你真有很大机会，参议员。参议员"
+  },
+  {
+    "idx": 600,
+    "speaker": "Jason",
+    "start_ms": 6235920,
+    "end_ms": 6237288,
+    "text": "我"
+  },
+  {
+    "idx": 601,
+    "speaker": "Unknown",
+    "start_ms": 6237696,
+    "end_ms": 6239016,
+    "text": "Gershner，"
+  },
+  {
+    "idx": 602,
+    "speaker": "Jason",
+    "start_ms": 6239424,
+    "end_ms": 6243744,
+    "text": "我觉得叫 Secretary 更好。Secretary。"
+  },
+  {
+    "idx": 603,
+    "speaker": "Unknown",
+    "start_ms": 6244152,
+    "end_ms": 6255072,
+    "text": "Secretary，谁来着，对，财政部长 Brad Gershner，国务卿 David Sachs，羊绒与红酒部长 Jamal Abdel。你那边怎么样，"
+  },
+  {
+    "idx": 604,
+    "speaker": "Sacks",
+    "start_ms": 6255480,
+    "end_ms": 6257136,
+    "text": "那边"
+  },
+  {
+    "idx": 605,
+    "speaker": "Unknown",
+    "start_ms": 6257544,
+    "end_ms": 6258720,
+    "text": "你的，"
+  },
+  {
+    "idx": 606,
+    "speaker": "Sacks",
+    "start_ms": 6259128,
+    "end_ms": 6260712,
+    "text": "有个"
+  },
+  {
+    "idx": 607,
+    "speaker": "Unknown",
+    "start_ms": 6261120,
+    "end_ms": 6262176,
+    "text": "的"
+  },
+  {
+    "idx": 608,
+    "speaker": "Sacks",
+    "start_ms": 6262584,
+    "end_ms": 6279168,
+    "text": "外面假新闻太多了。我的意思是，你看，Brad 说的我完全同意。你看，我会拿这些公司做的一些事开开玩笑，但我很高兴它们是 American 公司，而且它们是在这里搞创新，所以当然了。"
+  },
+  {
+    "idx": 609,
+    "speaker": "Unknown",
+    "start_ms": 6279576,
+    "end_ms": 6281040,
+    "text": "恭喜你啊，"
+  },
+  {
+    "idx": 610,
+    "speaker": "Sacks",
+    "start_ms": 6281448,
+    "end_ms": 6283848,
+    "text": "当然，还有——"
+  },
+  {
+    "idx": 611,
+    "speaker": "Unknown",
+    "start_ms": 6284256,
+    "end_ms": 6286632,
+    "text": "你的垄断，亲爱的。"
+  },
+  {
+    "idx": 612,
+    "speaker": "Sacks",
+    "start_ms": 6287040,
+    "end_ms": 6305304,
+    "text": "对，而且你看，外面假新闻真的太多了。我的意思是，我们刚刚在这个播客里讲过，这些经济趋势里有些是多么有利。你从媒体那里永远听不到这些，他们正试图把我们从那些一直非常成功的政策上带偏。"
+  },
+  {
+    "idx": 613,
+    "speaker": "Jason",
+    "start_ms": 6305712,
+    "end_ms": 6320304,
+    "text": "对，但他们倒是对“微型抢劫”做了很棒、很鼓舞人心的报道。所以大家都去搞点“微型抢劫”吧。恭喜你啊，New York Times。各位下次见，拜拜，爱你们。"
+  },
+  {
+    "idx": 614,
+    "speaker": "Sacks",
+    "start_ms": 6320712,
+    "end_ms": 6323088,
+    "text": "爱你们，兄弟们。"
+  },
+  {
+    "idx": 615,
+    "speaker": "Jason",
+    "start_ms": 6323496,
+    "end_ms": 6326016,
+    "text": "爱你们，伙计们。"
+  },
+  {
+    "idx": 616,
+    "speaker": "Jason",
+    "start_ms": 6326424,
+    "end_ms": 6328152,
+    "text": "David 不在。"
+  },
+  {
+    "idx": 617,
+    "speaker": "Jason",
+    "start_ms": 6328560,
+    "end_ms": 6330432,
+    "text": "然后我说"
+  },
+  {
+    "idx": 618,
+    "speaker": "Sacks",
+    "start_ms": 6330840,
+    "end_ms": 6335112,
+    "text": "我们把它开源给粉丝们，他们直接就玩疯了。"
+  },
+  {
+    "idx": 619,
+    "speaker": "Jason",
+    "start_ms": 6335520,
+    "end_ms": 6339456,
+    "text": "爱你，Wes。我是藜麦女王。"
+  },
+  {
+    "idx": 620,
+    "speaker": "Jason",
+    "start_ms": 6339864,
+    "end_ms": 6342240,
+    "text": "兄弟团都走了。"
+  },
+  {
+    "idx": 621,
+    "speaker": "Sacks",
+    "start_ms": 6342648,
+    "end_ms": 6350952,
+    "text": "知道了。上 13。真搞笑，一只狗把它叼走了。希望下一个是你家车道。"
+  },
+  {
+    "idx": 622,
+    "speaker": "Jason",
+    "start_ms": 6351360,
+    "end_ms": 6353568,
+    "text": "把那个拿进来吧。"
+  },
+  {
+    "idx": 623,
+    "speaker": "Sacks",
+    "start_ms": 6353976,
+    "end_ms": 6355488,
+    "text": "等等"
+  },
+  {
+    "idx": 624,
+    "speaker": "Jason",
+    "start_ms": 6355896,
+    "end_ms": 6357408,
+    "text": "天哪。"
+  },
+  {
+    "idx": 625,
+    "speaker": "Sacks",
+    "start_ms": 6357816,
+    "end_ms": 6359472,
+    "text": "说下去。"
+  },
+  {
+    "idx": 626,
+    "speaker": "Jason",
+    "start_ms": 6359880,
+    "end_ms": 6367704,
+    "text": "我姑妈 Natasha 会在 Glitza 跟我碰面。我们干脆都开个房间，大家一起搞个大的。"
+  }
+]

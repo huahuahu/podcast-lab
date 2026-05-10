@@ -1,0 +1,4391 @@
+[
+  {
+    "start": 0.0,
+    "end": 0.4,
+    "speaker": "Unknown",
+    "text_en": "How do I sound?",
+    "text": "我听起来怎么样？"
+  },
+  {
+    "start": 0.4,
+    "end": 1.15,
+    "speaker": "Jason",
+    "text_en": "You sound perfect.",
+    "text": "你听起来很完美。"
+  },
+  {
+    "start": 1.15,
+    "end": 1.65,
+    "speaker": "Chamath",
+    "text_en": "You sound great.",
+    "text": "你听起来很棒。"
+  },
+  {
+    "start": 1.65,
+    "end": 2.3,
+    "speaker": "Unknown",
+    "text_en": "How do I look?",
+    "text": "那我看起来怎么样？"
+  },
+  {
+    "start": 2.55,
+    "end": 6.4,
+    "speaker": "Chamath",
+    "text_en": "Yeah, you sound great. Better than you look. Got that face made for radio.",
+    "text": "对，你听起来很棒。比你看起来强。那张脸天生就是做广播的。"
+  },
+  {
+    "start": 7.55,
+    "end": 10.05,
+    "speaker": "Jason",
+    "text_en": "You don't look as tired as you have in recent weeks.",
+    "text": "你看起来没前几周那么疲惫了。"
+  },
+  {
+    "start": 10.1,
+    "end": 16.8,
+    "speaker": "Chamath",
+    "text_en": "That's true. Yeah. Oh yeah, somebody was slagging me for the bags into my eyes. I mean, this audience is brutal.",
+    "text": "这倒是真的。对。哦对，有人还吐槽我眼袋很重。我的意思是，这帮观众也太狠了。"
+  },
+  {
+    "start": 17.0,
+    "end": 17.6,
+    "speaker": "Jason",
+    "text_en": "They're brutal.",
+    "text": "他们确实挺狠的。"
+  },
+  {
+    "start": 18.1,
+    "end": 18.85,
+    "speaker": "Chamath",
+    "text_en": "They're brutal.",
+    "text": "他们可太狠了。"
+  },
+  {
+    "start": 19.0,
+    "end": 20.0,
+    "speaker": "Unknown",
+    "text_en": "It's a good thing I'm rich.",
+    "text": "还好我有钱。"
+  },
+  {
+    "start": 23.9,
+    "end": 25.2,
+    "speaker": "Jason",
+    "text_en": "Let your winners ride.",
+    "text": "让赢家继续跑。"
+  },
+  {
+    "start": 35.412,
+    "end": 37.162,
+    "speaker": "Chamath",
+    "text_en": "Everybody, queen of Kinwa.",
+    "text": "各位，Kinwa 女王。"
+  },
+  {
+    "start": 39.212,
+    "end": 65.296,
+    "speaker": "Chamath",
+    "text_en": "All right, everybody, welcome back. It's the number one podcast in the world. It's the All In Podcast with us today. Chamath Polly-Hapitia, David Sachs, and our fifth bestie, Mr. Brad Gerstner is here. I think David Freeberg is suffering from some. socialist related flu he's very sick of reading about socialism but he'll be back next week with two incredible incredible interviews it's",
+    "text": "好了，各位，欢迎回来。这是世界第一的播客。这里是 All In Podcast，今天和我们一起的是 Chamath Palihapitiya、David Sacks，还有我们的第五位好兄弟，Brad Gerstner 先生也来了。我觉得 David Freeberg 可能是得了点……和社会主义有关的流感，他已经看社会主义的新闻看到快病倒了。不过他下周会带着两场非常非常精彩的采访回来，就是——"
+  },
+  {
+    "start": 65.296,
+    "end": 67.896,
+    "speaker": "Freeberg",
+    "text_en": "You guys see those Spencer Pratt ads? Wow.",
+    "text": "你们看到那些 Spencer Pratt 的广告了吗？哇。"
+  },
+  {
+    "start": 68.346,
+    "end": 72.846,
+    "speaker": "Chamath",
+    "text_en": "one of the best political ads i've ever ever seen oh there's like three or four of them they're multiples yeah",
+    "text": "那绝对是我看过最最棒的政治广告之一，哦，而且好像有三四条，是一整套的，对吧。"
+  },
+  {
+    "start": 72.846,
+    "end": 85.296,
+    "speaker": "Jason",
+    "text_en": "whoever that social media team is is on fire if you get a good social media team and you get a good ad production team i think it's next gen because these things go crazy and spencer pratt if he wins this election which i think he's going to in los angeles",
+    "text": "那个社媒团队不管是谁，状态都火力全开。要是你有一个厉害的社媒团队，再配上一个强的广告制作团队，我觉得这就是下一代玩法，因为这些内容传播得太疯了。而且如果 Spencer Pratt 赢下这次选举——我觉得他会在洛杉矶赢——"
+  },
+  {
+    "start": 85.268,
+    "end": 89.818,
+    "speaker": "Chamath",
+    "text_en": "was the reason is what brad said those ads are incredible incredible",
+    "text": "原因就是 Brad 说的，那些广告太厉害了，真的太厉害了"
+  },
+  {
+    "start": 89.818,
+    "end": 93.468,
+    "speaker": "Freeberg",
+    "text_en": "Well, he's also quite a good debater. Did you see clips from this debate?",
+    "text": "嗯，而且他也特别会辩论。你看到这场辩论的片段了吗？"
+  },
+  {
+    "start": 94.368,
+    "end": 97.718,
+    "speaker": "Chamath",
+    "text_en": "he's so funny he's so chill yeah",
+    "text": "他太搞笑了，也特别松弛，对"
+  },
+  {
+    "start": 98.468,
+    "end": 110.718,
+    "speaker": "Freeberg",
+    "text_en": "he's up against Karen Bass, who's the mayor who is basically extremely left wing. And then there's someone who's a city councilwoman who's even further to the left of Karen Bass. I mean, she's often like Fidel Castro territory.",
+    "text": "他的对手是 Karen Bass，也就是那位市长，基本上属于非常左翼。然后还有一个市议员，比 Karen Bass 还要更左。我是说，她经常都快到 Fidel Castro 那个路数了。"
+  },
+  {
+    "start": 110.718,
+    "end": 112.868,
+    "speaker": "Chamath",
+    "text_en": "she's an indian fidel castro",
+    "text": "她就是个印度版 Fidel Castro"
+  },
+  {
+    "start": 112.82,
+    "end": 126.178,
+    "speaker": "Freeberg",
+    "text_en": "Rahman. So she was basically, I guess, criticizing the mayor for the homelessness problem. And then Pratt pointed out that this councilwoman is actually in charge of all these homeless programs already.",
+    "text": "Rahman。她当时基本上是在批评市长处理无家可归问题不力。然后 Pratt 就指出，这位市议员其实本来就负责这些无家可归者项目。"
+  },
+  {
+    "start": 127.128,
+    "end": 128.478,
+    "speaker": "Jason",
+    "text_en": "He eviscerated her.",
+    "text": "他把她驳得体无完肤。"
+  },
+  {
+    "start": 128.478,
+    "end": 129.028,
+    "speaker": "Freeberg",
+    "text_en": "He eviscerated",
+    "text": "他把她驳得体无完肤。"
+  },
+  {
+    "start": 129.028,
+    "end": 129.528,
+    "speaker": "Jason",
+    "text_en": "He destroyed",
+    "text": "他把她说得体无完肤。"
+  },
+  {
+    "start": 129.528,
+    "end": 130.228,
+    "speaker": "Freeberg",
+    "text_en": "her. And he basically",
+    "text": "她。而且他基本上"
+  },
+  {
+    "start": 130.228,
+    "end": 130.478,
+    "speaker": "Jason",
+    "text_en": "her. He destroyed",
+    "text": "她。他把她说惨了。"
+  },
+  {
+    "start": 130.478,
+    "end": 130.978,
+    "speaker": "Freeberg",
+    "text_en": "made",
+    "text": "提出了"
+  },
+  {
+    "start": 130.978,
+    "end": 131.128,
+    "speaker": "Jason",
+    "text_en": "the her.",
+    "text": "那个她。"
+  },
+  {
+    "start": 131.128,
+    "end": 137.978,
+    "speaker": "Freeberg",
+    "text_en": "key point, which is, look, the problem here is not lack of housing. It's an addiction issue and it's a mental illness issue. And he said, look, if you.",
+    "text": "关键点。就是说，你看，这里的问题不是住房短缺，而是成瘾问题和精神疾病问题。他还说，你看，如果你……"
+  },
+  {
+    "start": 137.978,
+    "end": 146.728,
+    "speaker": "Jason",
+    "text_en": "He said if she went to the street, she gets stabbed in the neck. Which is pretty accurate if you've been to Skid Row. I mean, you would not want to walk.",
+    "text": "他说，如果她流落街头，就会被人在脖子上捅一刀。如果你去过 Skid Row，就知道这说得挺准确的。我的意思是，你绝对不会想走在那儿。"
+  },
+  {
+    "start": 146.58,
+    "end": 147.83,
+    "speaker": "Chamath",
+    "text_en": "walk through there oh",
+    "text": "从那儿走过去，哦"
+  },
+  {
+    "start": 147.83,
+    "end": 149.73,
+    "speaker": "Sacks",
+    "text_en": "It was like the Spider-Man photo.",
+    "text": "这就像那张 Spider-Man 的梗图。"
+  },
+  {
+    "start": 149.73,
+    "end": 153.13,
+    "speaker": "Chamath",
+    "text_en": "Wait Nick's got the clip plays a clip Nick this god let's clip is",
+    "text": "等等，Nick 那边有那段片子，放一下。Nick，天哪，这段也太——"
+  },
+  {
+    "start": 153.13,
+    "end": 153.23,
+    "speaker": "Jason",
+    "text_en": "This",
+    "text": "这"
+  },
+  {
+    "start": 153.23,
+    "end": 153.38,
+    "speaker": "Chamath",
+    "text_en": "brutal",
+    "text": "太狠了"
+  },
+  {
+    "start": 153.38,
+    "end": 156.73,
+    "speaker": "Jason",
+    "text_en": "is a different clip, but this went super viral. It reminded me of Trump a little bit",
+    "text": "这是另一段视频，但这段传播得特别疯。我有点想起 Trump 了。"
+  },
+  {
+    "start": 157.43,
+    "end": 157.58,
+    "speaker": "Chamath",
+    "text_en": "see",
+    "text": "看吧"
+  },
+  {
+    "start": 157.98,
+    "end": 166.68,
+    "speaker": "Sacks",
+    "text_en": "I'm not sure how to respond to that vision of Los Angeles. This is a MAGA Republican's idea of what Los Angeles looks like. This is really not.",
+    "text": "我都不知道该怎么回应那种对 Los Angeles 的想象。这就是一个 MAGA Republican 心目中 Los Angeles 的样子。实际上根本不是这样。"
+  },
+  {
+    "start": 170.58,
+    "end": 174.48,
+    "speaker": "Chamath",
+    "text_en": "for those of you listening he put his hands up and wiggled his tongue like oh my god",
+    "text": "给只听音频的朋友补充一下，他刚刚举起双手，还吐着舌头晃来晃去，一副“我的天啊”的样子。"
+  },
+  {
+    "start": 174.804,
+    "end": 190.504,
+    "speaker": "Sacks",
+    "text_en": "Hey, Sachs, you know, Stephen Pratt wins mayor and then the, you know, the ballot initiative, the Retirement Protection and Savings Act, right, is going to pass, going to pass with big numbers. This is the, you know, referendum that effectively is going to knock out the wealth tax.",
+    "text": "嘿，Sachs，你知道吗，Stephen Pratt 赢下市长选举，然后那个投票倡议——Retirement Protection and Savings Act，对吧——也会通过，而且会高票通过。这就是那个实际上会把财富税干掉的公投。"
+  },
+  {
+    "start": 190.654,
+    "end": 208.304,
+    "speaker": "Sacks",
+    "text_en": "Can you imagine if California effectively passes a constitutional amendment protecting retirement savings and personal assets and banning the wealth tax and Pratt gets elected, the message that would send to the country? tree, that's a very non-consensus view that I'm becoming increasingly optimistic about.",
+    "text": "你能想象吗，如果 California 实际上通过了一项保护退休储蓄和个人资产、并禁止财富税的宪法修正案，而且 Pratt 也当选了，这会向全国传递出什么样的信息？老实说，这是个非常不符合主流共识的看法，但我对此越来越乐观了。"
+  },
+  {
+    "start": 209.054,
+    "end": 215.71,
+    "speaker": "Freeberg",
+    "text_en": "Well, from your lips to God's ears. But until that message actually is sent, I think I'm going to be, yeah,",
+    "text": "嗯，借你吉言。但在那个信号真的发出来之前，我觉得我还是会，嗯，"
+  },
+  {
+    "start": 215.71,
+    "end": 216.46,
+    "speaker": "Sacks",
+    "text_en": "in texas",
+    "text": "待在 Texas"
+  },
+  {
+    "start": 216.46,
+    "end": 217.46,
+    "speaker": "Freeberg",
+    "text_en": "in Texas.",
+    "text": "待在 Texas。"
+  },
+  {
+    "start": 217.51,
+    "end": 235.11,
+    "speaker": "Sacks",
+    "text_en": "well i yeah well i mean this is also in the face of i don't know just a follow-up story here but mandami did like an attack video on ken griffin's house we talked about it on the pot a couple weeks ago and like literally stood in front of his house pointed at it and this is in the face of like a ceo getting shot",
+    "text": "嗯，对，我是说，而且这还是在——我不知道，就顺带说个后续——Mandami 还专门做了个攻击 Ken Griffin 家的视频。我们几周前在播客里聊过这事。他真的是站在 Ken Griffin 家门前指着那房子说。这还是在已经有 CEO 遭枪击这种事情发生的背景下。"
+  },
+  {
+    "start": 235.636,
+    "end": 257.636,
+    "speaker": "Sacks",
+    "text_en": "For ideological reasons, Sam Altman's house being targeted. This is like a really dangerous thing for Mondami to do. And Ken Griffin came out today or yesterday in an interview and said, hey, listen, I'm out. We're going to be putting our efforts into Florida. And this is the same thing that happened to Chicago. And he basically said, like, I really felt offended and I was nervous about this.",
+    "text": "而且还是出于意识形态原因，Sam Altman 的房子也成了目标。Mandami 这么做真的非常危险。Ken Griffin 今天还是昨天在一次采访里出来说，嘿，听着，我退出了。我们会把精力投到 Florida 去。这跟 Chicago 发生的事是一样的。他基本上就是说，我真的觉得被冒犯了，而且我对此感到不安。"
+  },
+  {
+    "start": 258.164,
+    "end": 272.014,
+    "speaker": "Sacks",
+    "text_en": "because of my personal safety and he called him out when dominic came out with like a mealy mouthed response that didn't even apologize for what he did just double down on it essentially all right let's get to the i don't know if you guys saw it or not but it's",
+    "text": "因为这关系到我的人身安全。他还点名批评了他。后来 Dominic 给了个含糊其辞的回应，甚至都没为自己的所作所为道歉，本质上就是在加倍坚持自己的做法。好吧，我们接着说下一个话题。我不知道你们有没有看到，不过这事是"
+  },
+  {
+    "start": 272.014,
+    "end": 274.814,
+    "speaker": "Chamath",
+    "text_en": "Who cares? New York is becoming a flyover city.",
+    "text": "谁在乎？New York 正在变成一座飞越城市。"
+  },
+  {
+    "start": 276.264,
+    "end": 281.314,
+    "speaker": "Sacks",
+    "text_en": "interesting way to put it uh don't disagree all right first story elon just leased all of colossus one his",
+    "text": "这个说法挺有意思，呃，我也不反对。好，第一条新闻，Elon 刚刚把 Colossus One 的整个——他的——"
+  },
+  {
+    "start": 281.314,
+    "end": 281.714,
+    "speaker": "Chamath",
+    "text_en": "Wait,",
+    "text": "等等，"
+  },
+  {
+    "start": 281.714,
+    "end": 281.864,
+    "speaker": "Sacks",
+    "text_en": "data",
+    "text": "数据"
+  },
+  {
+    "start": 281.864,
+    "end": 281.964,
+    "speaker": "Chamath",
+    "text_en": "what?",
+    "text": "什么？"
+  },
+  {
+    "start": 281.964,
+    "end": 282.264,
+    "speaker": "Sacks",
+    "text_en": "center",
+    "text": "中心"
+  },
+  {
+    "start": 282.264,
+    "end": 284.01,
+    "speaker": "Chamath",
+    "text_en": "He did? Hmm",
+    "text": "他真这么干了？嗯。"
+  },
+  {
+    "start": 284.01,
+    "end": 295.11,
+    "speaker": "Sacks",
+    "text_en": "Lost your kindness? What? What? Yes, shocking to Dario and Anthropic. Jermoth on last week's pod. Go ahead and give yourself a pat on the back. You said Elon and Daria should do a deal tomorrow.",
+    "text": "你的善意哪去了？什么？什么？对，Dario 和 Anthropic 肯定很震惊。Jermoth 在上周的播客里提过。来吧，给自己拍拍背。你当时说 Elon 和 Dario 明天就该谈个交易。"
+  },
+  {
+    "start": 295.26,
+    "end": 317.462,
+    "speaker": "Sacks",
+    "text_en": "It didn't happen. The next day it happened five days later. So you came close, Jermoth, but no cigar because of Anthropic's obvious compute constraints. Anthropic just added over 220,000 NVIDIA GPUs, over 300 megawatts of energy. The deal is already having an impact, as we've discussed here. Claude users have been experiencing rate limits. Well,",
+    "text": "结果没发生。第二天没发生，是五天后才发生的。所以你已经很接近了，Jermoth，但还是差那么一点，因为 Anthropic 明显受制于算力限制。Anthropic 刚刚新增了超过 22 万块 NVIDIA GPU，以及超过 300 兆瓦的电力。正如我们之前在这儿讨论过的，这笔交易已经开始产生影响了。Claude 用户之前一直在遇到限流。现在，"
+  },
+  {
+    "start": 317.512,
+    "end": 331.862,
+    "speaker": "Sacks",
+    "text_en": "Claude has now doubled the Claude code rate limits, removed peak usage caps for paid users, and increased API volumes for Opus models. XAI is now trading their models at Colossus 2, so they have more than enough compute. Elon made a great bet.",
+    "text": "Claude 现在已经把 Claude Code 的速率限制翻倍，取消了付费用户的高峰使用上限，还提高了 Opus 模型的 API 调用量。XAI 现在把他们的模型放在 Colossus 2 上运行，所以他们的算力已经绰绰有余。Elon 在算力上的这笔押注非常漂亮。"
+  },
+  {
+    "start": 332.628,
+    "end": 349.728,
+    "speaker": "Sacks",
+    "text_en": "on compute and built up those data centers really fast, and that is now paying off. We had the cursor deal we talked about last week. Let's talk about the emergence of Elon Web Services, E-W-S, Chamath. He is now in the hyperscaler competing against Google Cloud,",
+    "text": "他在算力上下注，而且非常快地把那些数据中心建了起来，现在已经开始见回报了。我们上周聊过 Cursor 那笔交易。接下来聊聊 Elon Web Services，也就是 EWS 的崛起，Chamath。他现在已经成了超大规模云服务商，开始和 Google Cloud、"
+  },
+  {
+    "start": 349.878,
+    "end": 359.478,
+    "speaker": "Sacks",
+    "text_en": "Amazon Web Services, and Azure. And I don't know if you had inside information or just a brilliant epiphany, but take us behind the call and what do you think about the deal itself?",
+    "text": "Amazon Web Services 以及 Azure 竞争了。我不知道你是有内部消息，还是单纯灵光一现，但你来讲讲当时这个判断背后的逻辑，以及你怎么看这笔交易本身？"
+  },
+  {
+    "start": 360.628,
+    "end": 386.178,
+    "speaker": "Chamath",
+    "text_en": "I think the deal is fantastic. I'll say maybe three quick things. The first is, as I mentioned a couple weeks ago, anthropic and open AI's revenue performance has nothing to do with demand. Zero. It is entirely to do with the supply constraints that exist in data centers and specifically in power.",
+    "text": "我觉得这笔交易非常棒。我简单说三点。第一，正如我几周前提到的，Anthropic 和 OpenAI 的营收表现跟需求没有关系，完全没有。问题完全出在数据中心现有的供给限制上，尤其是电力方面。"
+  },
+  {
+    "start": 387.028,
+    "end": 399.728,
+    "speaker": "Sacks",
+    "text_en": "If they had infinite power, I think that their revenues would probably be even more parabolic. And so all the breathlessness about either exceeding or underperforming a forecast, in my opinion, mean nothing.",
+    "text": "如果他们有无限的电力，我觉得他们的营收曲线可能会更加陡峭。所以那些关于他们是超预期还是不及预期的各种大惊小怪，在我看来都没什么意义。"
+  },
+  {
+    "start": 400.028,
+    "end": 431.658,
+    "speaker": "Sacks",
+    "text_en": "I think the five-year view for those two companies is quite robust. The thing that they really need is more compute and more power. That's the first thing. The second thing is, while they need that, we have a very big problem, which is we unfortunately have very poor leadership at the head of most of these AI firms. I think they are coming off as untrustworthy or too self-interested.",
+    "text": "我觉得从五年的视角看，这两家公司都非常稳健。他们真正需要的是更多算力和更多电力。这是第一点。第二点是，虽然他们需要这些资源，但我们现在有个很大的问题：很遗憾，大多数这些 AI 公司的领导层都很差。我觉得他们给人的感觉是不值得信任，或者太以自身利益为中心。"
+  },
+  {
+    "start": 432.658,
+    "end": 458.228,
+    "speaker": "Sacks",
+    "text_en": "The political reaction now is starting to turn negative. The community reaction is negative. You have about nine gigawatts that are supposed to come online this year. Almost 50% of it now is being protested. More than likely, if history holds, most of that will get turned off. So they will get even more supply constraint. So that's the setup.",
+    "text": "现在政治层面的反应已经开始转向负面，社区层面的反应也是负面的。今年原本预计会有大约 9 吉瓦的电力上线，但现在其中将近 50% 都遭到了抗议。按历史经验来看，这里面大部分最终很可能都会被叫停。这样一来，他们的供给约束只会更严重。这就是当前的局面。"
+  },
+  {
+    "start": 459.316,
+    "end": 483.966,
+    "speaker": "Chamath",
+    "text_en": "So what's the opportunity? I think for Elon, if you look inside of how people try to nitpick the SpaceX valuation case, or let's not, let's give them, sorry, let's be more generous. When people try to paint the bear case or they try to red team the valuation, the biggest element is the on the come value around the orbital data centers. And by actually landing a bunch of terrestrial capacity.",
+    "text": "那机会在哪儿？我觉得对 Elon 来说，如果你去看人们是怎么挑 SpaceX 估值毛病的，或者别这么说，抱歉，我们大方一点。就是当人们试图描绘空头逻辑，或者从反方角度审视这个估值时，最大的一个因素，就是围绕轨道数据中心那部分尚未兑现的预期价值。而如果他真的落地了一大批地面算力容量。"
+  },
+  {
+    "start": 484.852,
+    "end": 496.452,
+    "speaker": "Sacks",
+    "text_en": "I think you start to blunt that because you can now start to say that even if the orbital data centers get delayed by a few months or a few quarters, even if the technological de-risking of it takes longer,",
+    "text": "我觉得这就开始削弱那种质疑了，因为你现在可以说，就算轨道数据中心要延后几个月，甚至几个季度，就算这项技术的去风险化过程花的时间更长，"
+  },
+  {
+    "start": 496.652,
+    "end": 522.046,
+    "speaker": "Sacks",
+    "text_en": "he now has a structural core business that will effectively subsidize his ability to train Grok, which I think is a really important and underreported theme. So you have all this infrastructure. He somehow saw the tea leaves. Before most people, he built to a level of scale and secure power. Before most people, it has now become the critical asset. And now he's kind of kingmaking.",
+    "text": "他现在已经有了一个结构性的核心业务，实际上可以补贴他训练 Grok 的能力，我觉得这是一个非常重要但报道不足的主题。所以你有了这一整套基础设施。他某种程度上比大多数人更早看清了风向，在大多数人之前就把规模做起来并锁定了电力资源。现在这已经成了关键资产。而且现在他某种意义上已经在决定谁能上桌。"
+  },
+  {
+    "start": 522.896,
+    "end": 532.446,
+    "speaker": "Sacks",
+    "text_en": "And I think that that's a really interesting valuation reinforcement as SpaceX goes through testing the waters and the roadshow. Brad, your take.",
+    "text": "我觉得这对 SpaceX 在试探市场反应、进行路演的过程中，是一个非常有意思的估值强化因素。Brad，你怎么看？"
+  },
+  {
+    "start": 533.46,
+    "end": 556.06,
+    "speaker": "Chamath",
+    "text_en": "Yeah, no, I think it's well said. I mean, first, we know that there's nobody better on planet Earth than Elon at converting electrons to tokens. It's a critically important evolution to the story. You know, I think our friend Sean McGuire, he sent out a tweet that summed it up well. And he said SpaceX has this five layer cake, launch, connectivity, compute, hyperscaler, space data centers,",
+    "text": "对，我觉得你说得很好。首先，我们都知道，在把电力转化成 token 这件事上，地球上没人比 Elon 更厉害。这是整个故事里一个极其重要的演进。你知道，我觉得我们的朋友 Sean McGuire 发过一条推文，总结得很到位。他说 SpaceX 有一个五层蛋糕：发射、连接、算力、超大规模云服务商、太空数据中心，"
+  },
+  {
+    "start": 556.11,
+    "end": 562.61,
+    "speaker": "Chamath",
+    "text_en": "and then applications and models and then other bets. Right. The question on the roadshow has been.",
+    "text": "然后是应用和模型，再然后是其他押注。对吧。路演中的问题一直是。"
+  },
+  {
+    "start": 562.964,
+    "end": 579.514,
+    "speaker": "Sacks",
+    "text_en": "But X.AI isn't on the revenue trajectory of OpenAI and Anthropic, and yet there are huge commitments. And now we see the ace card that Elon's playing. He said he was building AWS all along or EWS all along.",
+    "text": "但是 X.AI 的营收增长轨迹并不像 OpenAI 和 Anthropic 那样强，可承诺投入却非常大。现在我们看到了 Elon 打出的王牌。他说自己其实一直都在建 AWS，或者说 EWS。"
+  },
+  {
+    "start": 579.814,
+    "end": 591.014,
+    "speaker": "Sacks",
+    "text_en": "And so I estimate that this is going to generate in this year an incremental $4 to $5 billion of revenue on top of what I've seen analyst estimates in the mid-20s. That's a material amount of it.",
+    "text": "所以我估计，这项业务今年会在分析师目前给出的 200 多亿美元中段预期基础上，额外再带来 40 亿到 50 亿美元的收入。这是相当可观的一块。"
+  },
+  {
+    "start": 590.836,
+    "end": 605.286,
+    "speaker": "Sacks",
+    "text_en": "Out of incremental revenue to offset the cost of the investments that he's made here and that will subsidize to Chamath's point, all that he's investing to build the next generation of Grok. Remember, too, that he has three facilities,",
+    "text": "靠新增收入来抵消他在这里所做投资的成本，而且也会像 Chamath 说的那样，为他投入建设下一代 Grok 的所有资金提供补贴。还有，别忘了，他有三个设施，"
+  },
+  {
+    "start": 605.436,
+    "end": 617.236,
+    "speaker": "Sacks",
+    "text_en": "Colossus, MacroHard and MacroHarder, 1.2 gigawatts at MacroHard and MacroHarder in Blackwell. So he's given the one that's kind of less connected, H100s great for inference.",
+    "text": "Colossus、MacroHard 和 MacroHarder，MacroHard 和 MacroHarder 那边有 1.2 吉瓦的 Blackwell。所以他把那个连接性相对没那么强的设施拿出来了，H100 很适合做推理。"
+  },
+  {
+    "start": 617.748,
+    "end": 645.248,
+    "speaker": "Sacks",
+    "text_en": "to anthropic he's monetizing it in a big way it's terrific for anthropic and it solves what i think was the biggest question in the valuation story which is what if he spends ahead of x.ai's revenue it takes the pressure chamath off x.ai delivering immediate revenue now he becomes uh an immediate competitor in the hyperscale i don't think this is the last announcement i think he's going to make a lot more",
+    "text": "给 Anthropic 之后，他正在大规模把它变现，这对 Anthropic 来说非常棒，而且也解决了我认为这个估值逻辑里最大的问题：如果他在 x.ai 产生收入之前就提前大举投入怎么办？这样一来，Chamath，x.ai 立刻交出收入的压力就减轻了。现在他也立刻成了 hyperscale 领域的竞争者。我觉得这不会是最后一个公告，我认为他还会有更多"
+  },
+  {
+    "start": 646.036,
+    "end": 655.536,
+    "speaker": "Sacks",
+    "text_en": "you know, moves in this direction. I think it will be a material part of their story and their revenue projections as they come together. And I would just say finally, you know, again,",
+    "text": "朝这个方向的动作。我觉得这会成为他们整体叙事和收入预测整合过程中的一个重要组成部分。最后我还想说，还是那句话，"
+  },
+  {
+    "start": 655.586,
+    "end": 680.072,
+    "speaker": "Sacks",
+    "text_en": "everybody has talked about how we don't have enough power, how we don't have enough compute, how the revenues would not show up this year, you know, but the chaos that is American capitalism somehow finds a way. Okay. And there's tremendous demand for Anthropic and we find a way. I was so happy. to see kind of the detente and the kind exchange between the team of Anthropic and Elon,",
+    "text": "大家都在说我们电力不够、算力不够、收入今年不会体现出来，但美式资本主义这种混乱中不知怎么总能找到办法。好吧。Anthropic 的需求非常强，我们总能找到路子。我特别高兴看到 Anthropic 团队和 Elon 之间某种缓和，以及那种友善的互动，"
+  },
+  {
+    "start": 680.322,
+    "end": 703.022,
+    "speaker": "Sacks",
+    "text_en": "because we need all of this in order to produce American frontier models to stay at the frontier. And then finally, I just say, you know, Chamath, you reference these activists that are protesting delaying these data centers in these localities. One thing I want to dispel this myth, this is not like organic, hyper local protests by people in a community that aren't being spurred on.",
+    "text": "因为我们需要这一切，才能做出美国的前沿模型，并继续站在前沿。最后我还想说一句，Chamath，你提到那些在各地抗议、拖延数据中心建设的活动人士。有一点我想澄清，这并不是什么社区居民自发形成的、超本地化的抗议，不是没人推动的那种。"
+  },
+  {
+    "start": 703.476,
+    "end": 717.476,
+    "speaker": "Sacks",
+    "text_en": "This is highly organized activists that are moving across the country to stir up trouble in the exact same way they did to stop all fission reactors being built 30 years ago in America. Now we have no nuclear reactors being built.",
+    "text": "这些是高度组织化的活动人士，在全国各地流动作业、煽动事端，方式和他们 30 年前在美国阻止所有裂变反应堆建设时一模一样。结果就是现在我们没有新的核反应堆在建。"
+  },
+  {
+    "start": 717.576,
+    "end": 736.318,
+    "speaker": "Sacks",
+    "text_en": "China's got 100 of them. Who was funding those activists? I think we need to really look into who's funding the activists now. I'm not saying that there aren't any concerns, but the misinformation about water, the misinformation about electricity bills. bills. Electricity bills are going up in the places that are not building data centers,",
+    "text": "China 已经有 100 座了。那些活动人士当年是谁在资助？我觉得我们现在真的需要查一查，究竟是谁在资助这些活动人士。我不是说完全没有合理担忧，但关于用水的错误信息、关于电费的错误信息——电费上涨的地方，恰恰是那些没有在建数据中心的地方。"
+  },
+  {
+    "start": 736.468,
+    "end": 749.718,
+    "speaker": "Sacks",
+    "text_en": "New York and California, because they haven't built any supply on the grid in Texas where you're building the most data centers in the country. Electricity costs are going down. So I think that's a boogeyman that we got to take on.",
+    "text": "纽约和加州就是这样，因为他们一直没像 Texas 那样在电网上增加供给，而 Texas 正在建设全国最多的数据中心。电价是在下降的。所以我觉得那就是个被夸大的吓人说法，我们得正面应对。"
+  },
+  {
+    "start": 750.718,
+    "end": 751.618,
+    "speaker": "Chamath",
+    "text_en": "SACS, you're the last.",
+    "text": "Sacks，你最后一个。"
+  },
+  {
+    "start": 752.948,
+    "end": 769.33,
+    "speaker": "Freeberg",
+    "text_en": "Well, look, the deal is highly complimentary, as Jamath and Brad pointed out. SpaceX has a profitable, I think very profitable space and telecommunications Starlink business, the satellite business. But the XAI business had huge losses.",
+    "text": "你看，这笔交易的互补性很强，正如 Jamath 和 Brad 刚才指出的。SpaceX 有一个盈利的——我觉得是非常盈利的——航天和电信业务，也就是 Starlink 这个卫星业务。但 xAI 业务亏损很大。"
+  },
+  {
+    "start": 769.38,
+    "end": 778.73,
+    "speaker": "Freeberg",
+    "text_en": "The reason is pretty straightforward. You need these super large training clusters, but they cost a lot of money. And until you have a model that's capable of competing at the frontier, you're not making any revenue.",
+    "text": "原因其实很直接。你需要这种超大规模训练集群，但它们非常烧钱。而且在你还没有一个能在前沿水平上竞争的模型之前，是赚不到收入的。"
+  },
+  {
+    "start": 779.08,
+    "end": 790.524,
+    "speaker": "Freeberg",
+    "text_en": "And that problem is compounded by the fact that right now all the revenue is in enterprise, which is to say coding. We know that. Actually, I just did that deal with Cursor to try and catch up, but they don't have a coding product yet.",
+    "text": "而这个问题又因为另一点变得更严重：现在所有收入基本都在企业端，也就是说在编程这块。这个我们都知道。其实他们刚和 Cursor 做了那笔交易，想要追赶上来，但他们自己还没有编程产品。"
+  },
+  {
+    "start": 790.724,
+    "end": 806.424,
+    "speaker": "Freeberg",
+    "text_en": "So they're not participating in the revenue, but they're participating in all of the costs. So this deal fixes that problem. Elon's now able to have a frontier model company, but he's able to now not have these massive unpaid for CapEx commitments,",
+    "text": "所以他们没有参与收入，却承担了所有成本。所以这笔交易解决了这个问题。Elon 现在可以拥有一家前沿模型公司，同时又不用背上这些巨额、没有资金覆盖的 CapEx 承诺，"
+  },
+  {
+    "start": 806.724,
+    "end": 825.218,
+    "speaker": "Freeberg",
+    "text_en": "right? Because he's able to kind of lease that capacity. So I think it solves a major problem for them and their balance sheet. And then you have to say that for Anthropic, this is a really great thing because they were a compute constraint. And just to build on that point, I mean, I guess let me be the first to congratulate Dario on winning the AI race.",
+    "text": "对吧？因为他现在某种程度上可以通过租用这些产能来解决。所以我觉得这解决了他们以及他们资产负债表上的一个重大问题。然后你还得说，对 Anthropic 来说，这也是件非常好的事，因为他们之前受限于算力。顺着这个点说下去，我想不如让我第一个恭喜 Dario 赢下了 AI 竞赛。"
+  },
+  {
+    "start": 826.708,
+    "end": 826.958,
+    "speaker": "Sacks",
+    "text_en": "And you've",
+    "text": "而且你已经"
+  },
+  {
+    "start": 826.958,
+    "end": 827.158,
+    "speaker": "Freeberg",
+    "text_en": "Because",
+    "text": "因为"
+  },
+  {
+    "start": 827.158,
+    "end": 827.708,
+    "speaker": "Sacks",
+    "text_en": "been, let's",
+    "text": "一直以来，咱们就"
+  },
+  {
+    "start": 827.708,
+    "end": 827.758,
+    "speaker": "Freeberg",
+    "text_en": "my",
+    "text": "我的"
+  },
+  {
+    "start": 827.758,
+    "end": 848.508,
+    "speaker": "Sacks",
+    "text_en": "be honest, Zach, you have been on this podcast, you've been moderately critical of that company and Dario himself for being, you know, a little P doomer 110 and on your ex account, you've been even a little spicier. So now that there's peace in the Middle East of the AI business, what's your take here?",
+    "text": "坦白说吧，Zach，你在这个播客上一直对那家公司以及 Dario 本人有些批评，你知道的，觉得他有点偏 AI 末日论者。在你的 X 账号上，你说得还更猛一点。所以现在 AI 行业的中东和平已经实现了，你怎么看这件事？"
+  },
+  {
+    "start": 849.058,
+    "end": 862.828,
+    "speaker": "Freeberg",
+    "text_en": "take is, look, let's just honestly and accurately assess where. the state of this AI market is at right now and Anthropic's place within it. So for the last three years, Anthropic has been growing at a rate of 10x a year.",
+    "text": "我的看法是，听着，我们就诚实、准确地评估一下现在这个 AI 市场到底处在什么状态，以及 Anthropic 在其中的位置。过去三年里，Anthropic 一直保持着每年 10 倍的增长速度。"
+  },
+  {
+    "start": 863.128,
+    "end": 874.328,
+    "speaker": "Freeberg",
+    "text_en": "I think going into this year, probably the conventional wisdom was that there'd be no way to sustain that kind of rate of growth at this level of scale. And what happened in the first four months of the year? First,",
+    "text": "我觉得在进入今年的时候，大家普遍的看法大概是，这种增长速度到了这个规模，肯定不可能持续下去。那今年前四个月发生了什么？首先，"
+  },
+  {
+    "start": 874.428,
+    "end": 889.364,
+    "speaker": "Freeberg",
+    "text_en": "we find out that from January 1st to March 31st, they grew from roughly 10 billion of ARR to 30 billion. So it tripled. And then in April, if anything, the rate of increase seemed to accelerate. They went from 30 to 44 billion of ARR.",
+    "text": "我们发现，从 1 月 1 日到 3 月 31 日，他们的 ARR 大约从 100 亿美元增长到 300 亿美元，也就是翻了三倍。然后到了 4 月，如果说有什么变化的话，那就是增长速度看起来还在加快。他们的 ARR 从 300 亿美元涨到了 440 亿美元。"
+  },
+  {
+    "start": 890.064,
+    "end": 900.514,
+    "speaker": "Freeberg",
+    "text_en": "Nobody in Silicon Valley has ever seen anything like it. Forget about the rest of the country. I mean, all we do in Silicon Valley is deal with exponentials and still people have never seen that kind of growth at that level of scale.",
+    "text": "Silicon Valley 从来没人见过这种情况，别说美国其他地方了。我的意思是，我们在 Silicon Valley 天天接触的就是指数级增长，但即便如此，人们也从没见过在这种规模下还能有这样的增长。"
+  },
+  {
+    "start": 901.172,
+    "end": 923.772,
+    "speaker": "Freeberg",
+    "text_en": "The only thing holding them back in the future was compute. Now they've made this deal. They've made other deals as well to get that compute. I think it's pretty much a foregone conclusion that they will hit that forecast of 10x this year, exiting the year at, call it, roughly 100 billion of ARR. And now the only question is whether they hit a trillion in 2027. And we can debate whether that's",
+    "text": "未来唯一限制他们发展的就是算力。现在他们已经达成了这笔交易，也还通过其他交易拿到了这些算力。我觉得他们今年实现 10 倍增长的预测，基本上已经是板上钉钉了，到年底 ARR 大概会来到 1000 亿美元左右。现在唯一的问题就是，他们能不能在 2027 年做到 1 万亿美元。这个我们可以再讨论到底是不是"
+  },
+  {
+    "start": 923.772,
+    "end": 925.772,
+    "speaker": "Chamath",
+    "text_en": "getting on board I like it",
+    "text": "我开始认同了，我喜欢这个说法"
+  },
+  {
+    "start": 925.772,
+    "end": 942.634,
+    "speaker": "Freeberg",
+    "text_en": "or not. But look, if they do that. I think they'll easily be the most valuable tech company in history. In fact, they might even be more valuable than the rest of the MAG7 put together, just to give people some basis for comparison here. You know, the biggest tech companies, Apple, Nvidia,",
+    "text": "这样。但你看，如果他们真做到这一点，我觉得他们会轻松成为历史上市值最高的科技公司。事实上，他们的市值甚至可能比整个 MAG7 加起来还高，我这么说只是给大家一个对比参照。你想想那些最大的科技公司，Apple、Nvidia，"
+  },
+  {
+    "start": 942.634,
+    "end": 944.184,
+    "speaker": "Chamath",
+    "text_en": "NVIDIA, Google, Apple.",
+    "text": "NVIDIA、Google、Apple。"
+  },
+  {
+    "start": 944.184,
+    "end": 952.202,
+    "speaker": "Freeberg",
+    "text_en": "Google, I think they kind of do around $400 to $500 billion a year right now of revenue. I mean, I guess Nvidia is a little bit of a different category, but you look at. You",
+    "text": "Google，我觉得他们现在一年的营收大概也就是 4000 亿到 5000 亿美元。我的意思是，Nvidia 可能算是稍微不同的一类，但你看看。你"
+  },
+  {
+    "start": 952.202,
+    "end": 952.352,
+    "speaker": "Sacks",
+    "text_en": "The",
+    "text": "这些"
+  },
+  {
+    "start": 952.352,
+    "end": 952.852,
+    "speaker": "Freeberg",
+    "text_en": "look at hyper Google,",
+    "text": "看看这些超大规模的 Google，"
+  },
+  {
+    "start": 952.852,
+    "end": 953.052,
+    "speaker": "Sacks",
+    "text_en": "scalers,",
+    "text": "云厂商，"
+  },
+  {
+    "start": 953.052,
+    "end": 953.452,
+    "speaker": "Freeberg",
+    "text_en": "the",
+    "text": "那三家"
+  },
+  {
+    "start": 953.452,
+    "end": 953.902,
+    "speaker": "Sacks",
+    "text_en": "the three hyper",
+    "text": "超大规模"
+  },
+  {
+    "start": 953.902,
+    "end": 954.002,
+    "speaker": "Freeberg",
+    "text_en": "hyper",
+    "text": "超大规模"
+  },
+  {
+    "start": 954.002,
+    "end": 954.102,
+    "speaker": "Sacks",
+    "text_en": "scalers.",
+    "text": "云厂商。"
+  },
+  {
+    "start": 954.102,
+    "end": 954.352,
+    "speaker": "Freeberg",
+    "text_en": "scales.",
+    "text": "云厂商。"
+  },
+  {
+    "start": 954.702,
+    "end": 954.852,
+    "speaker": "Sacks",
+    "text_en": "Correct.",
+    "text": "对。"
+  },
+  {
+    "start": 954.852,
+    "end": 971.202,
+    "speaker": "Freeberg",
+    "text_en": "I mean, Google is doing what, like 120 billion a quarter, something like that, 100 billion a quarter. But growing at what, 20% year over year, not 100%. It's certainly not 1000%. So the fact that Anthropic could be on track, in fact, let me",
+    "text": "我是说，Google 现在一季度营收大概有多少，1200 亿美元左右？或者 1000 亿美元一季度？但同比增速是多少，20% 左右，不是 100%。当然更不可能是 1000%。所以 Anthropic 竟然可能正朝着这个方向发展，事实上，让我——"
+  },
+  {
+    "start": 971.202,
+    "end": 971.402,
+    "speaker": "Sacks",
+    "text_en": "You",
+    "text": "你"
+  },
+  {
+    "start": 971.402,
+    "end": 971.652,
+    "speaker": "Freeberg",
+    "text_en": "correct that.",
+    "text": "纠正一下。"
+  },
+  {
+    "start": 971.652,
+    "end": 971.902,
+    "speaker": "Sacks",
+    "text_en": "see them",
+    "text": "看他们"
+  },
+  {
+    "start": 971.902,
+    "end": 972.002,
+    "speaker": "Freeberg",
+    "text_en": "They",
+    "text": "他们"
+  },
+  {
+    "start": 972.002,
+    "end": 972.252,
+    "speaker": "Sacks",
+    "text_en": "going to",
+    "text": "要去"
+  },
+  {
+    "start": 972.252,
+    "end": 972.352,
+    "speaker": "Freeberg",
+    "text_en": "are",
+    "text": "是"
+  },
+  {
+    "start": 972.352,
+    "end": 972.502,
+    "speaker": "Sacks",
+    "text_en": "the mag",
+    "text": "第"
+  },
+  {
+    "start": 972.502,
+    "end": 972.652,
+    "speaker": "Freeberg",
+    "text_en": "on",
+    "text": "在"
+  },
+  {
+    "start": 972.652,
+    "end": 972.802,
+    "speaker": "Sacks",
+    "text_en": "eight.",
+    "text": "八。"
+  },
+  {
+    "start": 972.802,
+    "end": 972.952,
+    "speaker": "Freeberg",
+    "text_en": "track.",
+    "text": "轨道。"
+  },
+  {
+    "start": 972.952,
+    "end": 973.802,
+    "speaker": "Sacks",
+    "text_en": "It'll be a mag eight.",
+    "text": "那就会变成 Mag Eight。"
+  },
+  {
+    "start": 973.802,
+    "end": 993.172,
+    "speaker": "Freeberg",
+    "text_en": "I'm saying something else, which is that. Unless something about their current trajectory changes, Anthropic will be the most powerful monopoly ever created in human history. Again, it will be, you know, a trillion dollars of ARR. growing at some exponential.",
+    "text": "我说的是另一件事。就是除非他们当前的发展轨迹发生变化，不然 Anthropic 会成为人类历史上有史以来最强大的垄断。再说一遍，它的 ARR 会达到一万亿美元，而且还会以某种指数级速度增长。"
+  },
+  {
+    "start": 993.422,
+    "end": 994.172,
+    "speaker": "Sacks",
+    "text_en": "Interesting.",
+    "text": "有意思。"
+  },
+  {
+    "start": 994.172,
+    "end": 997.772,
+    "speaker": "Freeberg",
+    "text_en": "Dario calls it AGI. I call it the biggest monopoly in human history.",
+    "text": "Dario 把这叫 AGI。我把它叫做人类历史上最大的垄断。"
+  },
+  {
+    "start": 997.772,
+    "end": 1003.572,
+    "speaker": "Sacks",
+    "text_en": "Interesting to hear that word monopoly, Sachs. Very interesting placement. Chamath, go ahead and then we'll",
+    "text": "听到“垄断”这个词很有意思啊，Sachs。这个用词放在这儿很有意思。Chamath，你继续，然后我们再——"
+  },
+  {
+    "start": 1003.572,
+    "end": 1031.312,
+    "speaker": "Chamath",
+    "text_en": "Not just Apple in 2025 was $420 billion. Microsoft was $300 billion. Alphabet was $390 billion. Amazon $700 billion. Nvidia $190 billion. Meta $185 billion. Tesla $110 billion total. about 2.3 to 2.35 trillion so if Sachs is right and anthropic you know can tack on a trillion it won't be the mag seven it'll be the mag one",
+    "text": "不说别的，Apple 在 2025 年是 4200 亿美元。Microsoft 是 3000 亿美元。Alphabet 是 3900 亿美元。Amazon 7000 亿美元。Nvidia 1900 亿美元。Meta 1850 亿美元。Tesla 总共 1100 亿美元。加起来大概是 2.3 到 2.35 万亿美元。所以如果 Sachs 说得对，Anthropic 还能再加上一万亿美元，那就不是 Mag Seven 了，而是 Mag One。"
+  },
+  {
+    "start": 1031.962,
+    "end": 1037.062,
+    "speaker": "Sacks",
+    "text_en": "Just to put it in perspective, though, Dario on Dorkish said he thought that combined AI revenue.",
+    "text": "不过为了给大家一个参照，Dario 在 Dorkish 上说过，他认为 AI 的总收入加起来——"
+  },
+  {
+    "start": 1038.004,
+    "end": 1050.604,
+    "speaker": "Chamath",
+    "text_en": "The market leaders would be about a trillion in 29. I love what you're saying, Sachs. I think there is unlimited TAM. We may be over our skis a little bit in terms of, you know, the forecast. If you back your way from compute, right,",
+    "text": "到 29 年，市场领导者的规模大概会到一万亿美元。我很喜欢你刚才说的，Sachs。我觉得 TAM 是没有上限的。只是就预测来说，我们可能稍微有点冲过头了。你如果从算力倒推的话，对吧，"
+  },
+  {
+    "start": 1050.754,
+    "end": 1066.09,
+    "speaker": "Chamath",
+    "text_en": "they expect to have five gigs by the end of this year, 10 gigs by the end of next year. It's kind of hard to get to those numbers for a single company, but I do believe that the trajectory that they're on, I totally agree with you, is on an exponential that not many people believed in four months ago. That's a go.",
+    "text": "他们预计到今年年底会有 5 gig，到明年年底会到 10 gig。对单家公司来说，要做到这些数字其实挺难的，但我确实相信，他们现在走的这条轨迹——这点我完全同意你——是在一个指数级曲线上，而四个月前还没多少人相信这一点。这是确定的。"
+  },
+  {
+    "start": 1066.09,
+    "end": 1080.746,
+    "speaker": "Freeberg",
+    "text_en": "Right. So then the question is, OK, I think we all agree they're on an exponential curve and that the TAM is big enough to support that. Just one data point on TAM, my understanding of the total market size just on coding. is one trillion,",
+    "text": "对。所以问题就在于，好吧，我觉得我们都同意，他们正处在一条指数曲线上，而且 TAM 也足够大，能够支撑这一点。关于 TAM，我补充一个数据点：据我了解，光是 coding 的总市场规模就是一万亿美元，"
+  },
+  {
+    "start": 1080.796,
+    "end": 1093.196,
+    "speaker": "Freeberg",
+    "text_en": "meaning that a trillion dollars a year roughly is spent on software developers and all things related to the creation of software. Now, I'm not saying that they eat that entire market, but I can easily see the market for software doubling,",
+    "text": "也就是说，每年大约有一万亿美元花在软件开发者身上，以及所有和软件创造相关的事情上。当然，我不是说他们会吃下整个市场，但我很容易就能想象软件市场翻一倍，"
+  },
+  {
+    "start": 1093.196,
+    "end": 1093.946,
+    "speaker": "Chamath",
+    "text_en": "I think it's more than that.",
+    "text": "我觉得还不止。"
+  },
+  {
+    "start": 1093.946,
+    "end": 1098.396,
+    "speaker": "Freeberg",
+    "text_en": "well, hold on, doubling from a trillion to two trillion, given that",
+    "text": "呃，先等等，从一万亿翻到两万亿，考虑到"
+  },
+  {
+    "start": 1099.316,
+    "end": 1126.866,
+    "speaker": "Freeberg",
+    "text_en": "coding tokens basically 10x's or 100x's the value of that market and the ability to generate code so i think we all agree that the tam here is large enough to support a trillion dollars of revenue brad i think you bring up a couple of really important constraints first there may not be enough compute and there's not enough energy i say the second big one is what's the competitive reaction going to be because i would say at the beginning of this year all these frontier labs were playing around with a lot of different things you",
+    "text": "coding tokens 基本上把这个市场的价值和生成代码的能力放大了 10 倍甚至 100 倍，所以我觉得我们都同意，这里的 TAM 足够大，能支撑一万亿美元的收入。Brad，我觉得你提到了几个非常重要的约束。第一，可能没有足够的算力；第二，也没有足够的能源。我想说第三个大的问题是，竞争对手会作何反应？因为我要说的是，在今年年初，这些前沿实验室都还在尝试很多不同的东西，你"
+  },
+  {
+    "start": 1126.644,
+    "end": 1154.744,
+    "speaker": "Freeberg",
+    "text_en": "things i mean anthropic was the porcupine they believed in one thing all these other companies were kind of acting like the fox who thinks they're good at a lot of different things they were doing nanobanana they were doing sora they were doing you know they were doing image generation they were doing fantasy character chatbots in hindsight they were doing a lot of things that appear to be kind of a waste of time the whole market appears now to be coding and the things that we built on coding tokens like co-work like agents",
+    "text": "很多东西。我的意思是，Anthropic 就像那只刺猬，他们只相信一件事；而其他这些公司更像狐狸，觉得自己很多事情都很擅长。他们在做 nanobanana，在做 sora，也在做图像生成，在做那种幻想角色聊天机器人。事后看，他们当时做的很多事情现在看来都有点浪费时间。现在整个市场看起来都在转向 coding，以及我们基于 coding tokens 构建出来的那些东西，比如 co-work，比如 agents。"
+  },
+  {
+    "start": 1155.156,
+    "end": 1165.856,
+    "speaker": "Freeberg",
+    "text_en": "And so there is going to be a competitive response here where all the other guys realize, oh, wait a second, we were misfocused. They're going to get focused. I just don't know how much share they're going to be able to take.",
+    "text": "所以这里一定会出现竞争性的反应，其他玩家都会意识到，哦，等一下，我们之前的重点放错了。他们会重新聚焦。我只是不知道他们最终能抢到多少份额。"
+  },
+  {
+    "start": 1165.956,
+    "end": 1179.056,
+    "speaker": "Freeberg",
+    "text_en": "It does look like OpenAI has already made the pivot. We hear very good things about codecs now based on GPT 5.5. 5.5 is based on a new base model called SPUD. I think they're very optimistic about continuing improvements.",
+    "text": "看起来 OpenAI 已经开始转向了。我们现在听到很多关于基于 GPT 5.5 的编程模型的好消息。5.5 是基于一个叫 SPUD 的新基础模型。我觉得他们对持续改进非常乐观。"
+  },
+  {
+    "start": 1179.406,
+    "end": 1199.816,
+    "speaker": "Freeberg",
+    "text_en": "Their rate of growth appears to be accelerating now. because of 5.5. So look, there's reason to believe that OpenAI can take some share here. I'm sure that Google won't be asleep at the wheel. They're very, very good at coding. They've got a really good team and Elon just tied up with Cursor. So there is going to be more competition, but still what you have to say.",
+    "text": "他们现在的增长速度看起来正在加快，就是因为 5.5。所以你看，有理由相信 OpenAI 能在这里拿下一些份额。我也相信 Google 不会掉以轻心。他们在编程方面非常非常强，团队也很厉害，而且 Elon 刚刚和 Cursor 绑定在一起了。所以竞争肯定会更多，不过话虽如此，你还是得承认。"
+  },
+  {
+    "start": 1200.0,
+    "end": 1215.248,
+    "speaker": "Sacks",
+    "text_en": "Hey, and I think all of us know this from Silicon Valley is you always want to be the company in the lead that's on that trajectory where all you have to do is maintain inertia, whereas the other people have to change something. in order to put themselves back in the race so",
+    "text": "而且我觉得，我们这些在 Silicon Valley 的人都知道，你总是想成为那个领先、而且还在上升轨道上的公司，因为这样你只需要保持惯性就行了；而其他人则必须做出改变，才能重新回到这场竞争里，所以"
+  },
+  {
+    "start": 1215.248,
+    "end": 1215.598,
+    "speaker": "Jason",
+    "text_en": "Good",
+    "text": "好"
+  },
+  {
+    "start": 1215.598,
+    "end": 1215.698,
+    "speaker": "Sacks",
+    "text_en": "this",
+    "text": "这"
+  },
+  {
+    "start": 1215.698,
+    "end": 1215.898,
+    "speaker": "Jason",
+    "text_en": "point.",
+    "text": "个观点。"
+  },
+  {
+    "start": 1215.898,
+    "end": 1224.698,
+    "speaker": "Sacks",
+    "text_en": "is when i say somewhat sort of facetiously congratulations daria on winning the ai race i don't mean that he's won it but he is winning it right now",
+    "text": "所以当我半开玩笑地说，恭喜你，Daria，你赢下了 AI 竞赛，我的意思不是说他已经彻底赢了，而是说他现在正在领先。"
+  },
+  {
+    "start": 1224.798,
+    "end": 1252.62,
+    "speaker": "Jason",
+    "text_en": "But here's the brilliance of what Elon's doing. If you look at the existing business, which is Starlink and basically the launch services at SpaceX, incredible business, obviously. $20 billion this year, I think, is the estimate. But if you look at the footprint of Amazon Web Services, Azure and GCP, you're looking at, you know, $300 billion in revenue. and a market cap of combined 5 trillion,",
+    "text": "但这里面最厉害的地方，就是 Elon 在做的这件事。你看他现有的业务，也就是 Starlink，基本上再加上 SpaceX 的发射服务，显然已经是非常惊人的生意了。我记得今年的预估大概是 200 亿美元。但如果你看看 Amazon Web Services、Azure 和 GCP 的体量，那可是差不多 3000 亿美元的营收。再加起来，市值能到 5 万亿美元。"
+  },
+  {
+    "start": 1252.87,
+    "end": 1265.37,
+    "speaker": "Jason",
+    "text_en": "4 trillion if these were independent companies. And if you look at what is Elon's core competency at Tesla, it's building factories. And if you look at the footprint of these factories, they're huge. What are data centers?",
+    "text": "如果这些是独立公司的话，大概也有 4 万亿美元。再看 Elon 在 Tesla 的核心能力是什么，就是建工厂。而且你看看这些工厂的规模，都非常巨大。那数据中心是什么？"
+  },
+  {
+    "start": 1265.47,
+    "end": 1275.67,
+    "speaker": "Jason",
+    "text_en": "They're basically big giant factories. And then if you look at energy, what else is Elon extremely good at? This is the battery deployment and he's also got solar deployment from the solar city.",
+    "text": "本质上就是超大型工厂。再看能源这块，Elon 还有什么特别擅长？就是电池部署，而且他通过 SolarCity 也有太阳能部署的能力。"
+  },
+  {
+    "start": 1276.18,
+    "end": 1289.63,
+    "speaker": "Jason",
+    "text_en": "often criticize acquisition he did years ago so you put this all together if this is five billion as i think you referenced brad if it's five billion dollars in incremental elon web services business and he's a neocloud",
+    "text": "那笔他多年前做的收购经常被人批评。所以把这些都放在一起看，如果像你刚才提到的，Brad，这是一项 50 亿美元的增量 Elon web services 业务，而他又是个 neocloud 玩家，"
+  },
+  {
+    "start": 1290.196,
+    "end": 1318.096,
+    "speaker": "Jason",
+    "text_en": "what could he build on planet earth what could he build inside of teslas in terms of extra compute what could he build inside the power wall what if the power walls had his new fabs in them and you built a distributed system from home to home the power wall has compute in it the cars have compute in it and of course the ultimate manifestation of this where nobody can complain is you go right out into space and that's what he's going to do and the the sneaky small",
+    "text": "那他在地球上能建出什么？他能在 Tesla 车里塞进多少额外算力？他能在 Powerwall 里面做出什么？如果 Powerwall 里装上他新的 fabs 呢？如果你把它做成一个从家庭到家庭的分布式系统呢？Powerwall 里有算力，车里也有算力，当然，这件事最终、也是最彻底的形态，就是直接把它搬到太空里去，而且这就是他要做的。还有一个偷偷藏在里面、看起来不起眼的"
+  },
+  {
+    "start": 1318.1,
+    "end": 1334.25,
+    "speaker": "Jason",
+    "text_en": "Small part of this announcement from Elon and from Anthropic and Dario was they're also interested in space. So look for the race to go from factories and data centers to homes. The Powerwall with computer in it, it's already online, right?",
+    "text": "小细节是，Elon、Anthropic 和 Dario 这次公告里还提到，他们对太空也有兴趣。所以接下来你要关注的是，这场竞赛会从工厂和数据中心，延伸到家庭。带计算能力的 Powerwall，其实已经联网了，对吧？"
+  },
+  {
+    "start": 1334.35,
+    "end": 1344.8,
+    "speaker": "Jason",
+    "text_en": "And Starlink also gives them the ability to do distributed compute to people's homes. Again, you could be paying people to put Powerwalls with computer in it. That's going to be the next shoe to drop, I believe.",
+    "text": "而且 Starlink 也让他们具备了把分布式算力送进千家万户的能力。再说一次，你甚至可以付钱让人们安装带计算能力的 Powerwall。我觉得这会是接下来要发生的下一只靴子落地。"
+  },
+  {
+    "start": 1344.948,
+    "end": 1352.148,
+    "speaker": "Chamath",
+    "text_en": "Did you guys see the deal that was announced yesterday between Pulti Homes, which is a huge builder,",
+    "text": "你们看到昨天宣布的那笔交易了吗？是 Pulti Homes——一家非常大的房屋开发商——和别人达成的合作。"
+  },
+  {
+    "start": 1352.148,
+    "end": 1352.298,
+    "speaker": "Jason",
+    "text_en": "they're",
+    "text": "他们在"
+  },
+  {
+    "start": 1352.298,
+    "end": 1352.698,
+    "speaker": "Chamath",
+    "text_en": "and",
+    "text": "而且"
+  },
+  {
+    "start": 1352.698,
+    "end": 1352.848,
+    "speaker": "Jason",
+    "text_en": "doing it",
+    "text": "也在做"
+  },
+  {
+    "start": 1352.848,
+    "end": 1352.998,
+    "speaker": "Chamath",
+    "text_en": "NVIDIA",
+    "text": "NVIDIA"
+  },
+  {
+    "start": 1352.998,
+    "end": 1353.298,
+    "speaker": "Jason",
+    "text_en": "as well.",
+    "text": "这个。"
+  },
+  {
+    "start": 1353.298,
+    "end": 1369.868,
+    "speaker": "Chamath",
+    "text_en": "and SPAN? Nick, just throw this up here. It's super cool. What's happening is that these guys are putting many data centers with NVIDIA GPU clusters. beside every home and then allowing people to actually run those things and that's just incredible i thought that was so cool so",
+    "text": "还有 SPAN？Nick，把这个放出来。特别酷。现在发生的是，这帮人在每家每户旁边都部署了很多带 NVIDIA GPU 集群的数据中心，然后让人们真的可以去运行这些东西，这简直太不可思议了。我当时就觉得这太酷了，所以"
+  },
+  {
+    "start": 1369.868,
+    "end": 1383.068,
+    "speaker": "Jason",
+    "text_en": "It's a great pivot. What this company did originally, Chamath, was they did the power panel. They made smart power panels. So, you know, when you flip your breakers, all those breakers are in an app. I looked at it for my house, but I guess they pivoted to add this. And I think base power, Brad,",
+    "text": "这是一次很棒的转型。Chamath，这家公司最早做的是配电面板。他们做的是智能配电面板。所以你知道，你切换断路器的时候，所有那些断路器都能在一个 app 里看到。我之前还给我家看过这个，但我猜他们后来转型加上了这个。我觉得 Base Power，Brad，"
+  },
+  {
+    "start": 1383.068,
+    "end": 1383.118,
+    "speaker": "Chamath",
+    "text_en": "i",
+    "text": "我"
+  },
+  {
+    "start": 1383.118,
+    "end": 1383.368,
+    "speaker": "Jason",
+    "text_en": "you're an investor",
+    "text": "你是个投资人"
+  },
+  {
+    "start": 1383.368,
+    "end": 1383.718,
+    "speaker": "Chamath",
+    "text_en": "love that",
+    "text": "这点我喜欢"
+  },
+  {
+    "start": 1383.718,
+    "end": 1388.828,
+    "speaker": "Jason",
+    "text_en": "in it. They're going to do the same thing. Zach Dell is doing that. One of the things I just would say in response, Jason, to what",
+    "text": "也在这么做。他们也会做同样的事。Zach Dell 就在这么干。Jason，针对你刚才说的，我想回应一点，就是"
+  },
+  {
+    "start": 1388.828,
+    "end": 1388.928,
+    "speaker": "Sacks",
+    "text_en": "you Yep.",
+    "text": "对，没错。"
+  },
+  {
+    "start": 1388.928,
+    "end": 1412.828,
+    "speaker": "Jason",
+    "text_en": "just said about Elon, right? This is why the SpaceX IPO is going to trade at 40 to 50 times revenue, okay? So next year, if they do 40 to 50 billion and this thing goes out at 2 trillion, right? They're going to trade at a really high revenue multiple compared to the MAG-5 that are trading at like 25 times earnings. And there's only one person on the planet.",
+    "text": "你刚才说到 Elon，对吧？这就是为什么 SpaceX 的 IPO 会按营收的 40 到 50 倍来交易，明白吗？所以明年如果他们做到 400 亿到 500 亿美元营收，而这家公司上市估值到 2 万亿美元，对吧？那它的营收倍数会非常高，相比之下，MAG-5 现在大概是按 25 倍市盈率在交易。而且全世界只有一个人。"
+  },
+  {
+    "start": 1413.204,
+    "end": 1434.954,
+    "speaker": "Jason",
+    "text_en": "who has a future pipeline of innovation and the largest TAM in the world because he's playing in all these different spaces that can command that multiple and it's Elon and it's deserved and And it's great Tesla for the country. has that same Elon variable in it as well, which is people value his companies at, I would say, two times market, three times market,",
+    "text": "这个人拥有未来创新的产品管线，也拥有全球最大的 TAM，因为他同时布局了这么多不同领域，所以他能撑得起这样的倍数。这个人就是 Elon，而且这是他应得的，也很棒。Tesla 对国家也是好事。它同样也带有那种 Elon 因素，也就是说，人们给他的公司估值时，我会说，通常会给到市场平均的两倍、三倍，"
+  },
+  {
+    "start": 1435.004,
+    "end": 1437.154,
+    "speaker": "Jason",
+    "text_en": "four times market because of the future pipeline.",
+    "text": "甚至四倍，因为看的是未来的产品管线。"
+  },
+  {
+    "start": 1437.154,
+    "end": 1437.404,
+    "speaker": "Chamath",
+    "text_en": "You",
+    "text": "你"
+  },
+  {
+    "start": 1437.404,
+    "end": 1437.504,
+    "speaker": "Jason",
+    "text_en": "And",
+    "text": "而且"
+  },
+  {
+    "start": 1437.504,
+    "end": 1437.754,
+    "speaker": "Chamath",
+    "text_en": "guys,",
+    "text": "各位，"
+  },
+  {
+    "start": 1437.754,
+    "end": 1443.38,
+    "speaker": "Jason",
+    "text_en": "they devalue Apple because they don't have somebody like Elon. on our Steve Jobs there who is giving them the future.",
+    "text": "他们给 Apple 估值打折，是因为他们没有像 Elon 这样的人，或者说没有一个 Steve Jobs 那样的人在那里，持续向大家描绘未来。"
+  },
+  {
+    "start": 1443.43,
+    "end": 1444.38,
+    "speaker": "Chamath",
+    "text_en": "I don't think it's devalued.",
+    "text": "我不觉得这是被低估值了。"
+  },
+  {
+    "start": 1444.38,
+    "end": 1451.93,
+    "speaker": "Jason",
+    "text_en": "Or properly valued if you don't have an Elon and you have somebody like, I think that's exactly what it is. We talked about this last week, but explain why you think it's different.",
+    "text": "或者说，如果没有 Elon 这样的人，估值就不算合理；有个像——我觉得本质上就是这么回事。我们上周聊过这个，但你解释一下为什么你觉得不一样。"
+  },
+  {
+    "start": 1451.93,
+    "end": 1466.38,
+    "speaker": "Chamath",
+    "text_en": "I think all of these companies are actually very fairly valued and then Elon world gets a premium and that premium is because of what you guys said that I agree with. The big message that I take away from this, which the markets",
+    "text": "我觉得这些公司其实估值都相当合理，而 Elon 宇宙会拿到一层溢价。这个溢价的原因，就是你们刚才说的那些，我也同意。我从这里得到的一个核心信息，也是市场"
+  },
+  {
+    "start": 1467.348,
+    "end": 1493.648,
+    "speaker": "Chamath",
+    "text_en": "and retail are telling you is you guys have stopped innovating there's a lot of incrementalism and we as a society aren't benefiting broadly the way that you told us we would be and so maybe this is the best way for them to get this message which is to whack their valuation and by the way i'll just say it again when tesla and spacex merge and we have all things elon and elon corp okay which will happen",
+    "text": "和散户在告诉你的，就是你们已经停止创新了，现在更多只是小修小补；而且作为整个社会，我们并没有像你们曾经承诺的那样，广泛地从中受益。所以，也许他们传递这个信息的最好方式，就是狠狠干你们的估值。顺便我再说一遍，等 Tesla 和 SpaceX 合并，我们有了“all things Elon”、有了 Elon Corp，好吧——这事会发生的——"
+  },
+  {
+    "start": 1494.164,
+    "end": 1519.664,
+    "speaker": "Chamath",
+    "text_en": "probably by the end of the year maybe it'll happen in the middle of next year it's going to then break everybody's brains again because you'll have this one asset as you guys said that will trade at a valuation premium and some people will say it's unexplainable and i think it's logically explainable which is everybody else has stopped innovating people know how to draw more blood from the stone how to target better ads",
+    "text": "大概率今年年底前，也可能明年年中发生。到时候它又会再次把所有人看懵，因为正如你们说的，你会看到这一个资产以估值溢价交易。有些人会说这根本解释不通，但我觉得这在逻辑上完全说得通：因为其他人都已经停止创新了，大家只知道怎么从石头里再榨出更多血，怎么把广告投放得更精准。"
+  },
+  {
+    "start": 1521.044,
+    "end": 1523.144,
+    "speaker": "Chamath",
+    "text_en": "That does nothing for society anymore.",
+    "text": "这对社会已经毫无作用了。"
+  },
+  {
+    "start": 1523.144,
+    "end": 1523.894,
+    "speaker": "Jason",
+    "text_en": "that's literally,",
+    "text": "这说的就是，"
+  },
+  {
+    "start": 1524.094,
+    "end": 1527.544,
+    "speaker": "Chamath",
+    "text_en": "in fact, it does the opposite. There is no good left.",
+    "text": "事实上，恰恰相反。已经一点好处都不剩了。"
+  },
+  {
+    "start": 1527.544,
+    "end": 1540.344,
+    "speaker": "Jason",
+    "text_en": "That was literally the exact point I was making when you cut me off. If you look, Tim Cook's greatest innovation, Tim Cook's greatest innovation before you cut me off was Apple TV, not even the hardware product. It was just spending money and making a",
+    "text": "这完全就是我刚才被你打断时想表达的重点。你看，Tim Cook 最伟大的创新，Tim Cook 在你打断我之前最伟大的创新，就是 Apple TV，甚至都不是硬件产品。它不过就是砸钱，做了一个"
+  },
+  {
+    "start": 1540.344,
+    "end": 1540.394,
+    "speaker": "Chamath",
+    "text_en": "But",
+    "text": "但是"
+  },
+  {
+    "start": 1540.394,
+    "end": 1540.794,
+    "speaker": "Jason",
+    "text_en": "Netflix knockoff.",
+    "text": "Netflix 的山寨版。"
+  },
+  {
+    "start": 1540.794,
+    "end": 1541.144,
+    "speaker": "Chamath",
+    "text_en": "you're being",
+    "text": "你这有点"
+  },
+  {
+    "start": 1541.144,
+    "end": 1541.494,
+    "speaker": "Jason",
+    "text_en": "There's been no",
+    "text": "一直都没有"
+  },
+  {
+    "start": 1541.494,
+    "end": 1541.594,
+    "speaker": "Chamath",
+    "text_en": "derogatory.",
+    "text": "贬义的。"
+  },
+  {
+    "start": 1541.594,
+    "end": 1542.994,
+    "speaker": "Jason",
+    "text_en": "other product in,",
+    "text": "别的产品也一样，"
+  },
+  {
+    "start": 1542.994,
+    "end": 1545.644,
+    "speaker": "Chamath",
+    "text_en": "Hold on. Let me finish again before you interrupt me making",
+    "text": "等一下。在你打断我之前，先让我把话说完，"
+  },
+  {
+    "start": 1545.644,
+    "end": 1545.694,
+    "speaker": "Jason",
+    "text_en": "you",
+    "text": "你"
+  },
+  {
+    "start": 1545.694,
+    "end": 1547.044,
+    "speaker": "Chamath",
+    "text_en": "my points. don't like that? Oh, you don't like being interrupted?",
+    "text": "把我的观点讲完。你不喜欢那样？哦，你也不喜欢被打断？"
+  },
+  {
+    "start": 1548.276,
+    "end": 1548.476,
+    "speaker": "Jason",
+    "text_en": "Interesting.",
+    "text": "有意思。"
+  },
+  {
+    "start": 1548.476,
+    "end": 1549.476,
+    "speaker": "Chamath",
+    "text_en": "Okay. go back to your mom.",
+    "text": "好啊，回去找你妈吧。"
+  },
+  {
+    "start": 1549.826,
+    "end": 1550.876,
+    "speaker": "Sacks",
+    "text_en": "Hot meat kettle.",
+    "text": "真是五十步笑百步。"
+  },
+  {
+    "start": 1552.244,
+    "end": 1567.894,
+    "speaker": "Jason",
+    "text_en": "if you look at their track record and i think this is why we had a change there is they have not done anything innovative and in fact the things they were doing that were innovating in ai or self-driving cars they shut down they won't take any swing to the bat so they are getting penalized",
+    "text": "如果你看他们过往的成绩，我觉得这也是为什么我们看到那里发生了变化——他们没有做出任何创新。事实上，他们之前在 AI 或自动驾驶汽车上做的一些创新项目，也都被他们关掉了。他们根本不愿意挥棒出击，所以在估值上他们正在被惩罚。"
+  },
+  {
+    "start": 1567.894,
+    "end": 1568.094,
+    "speaker": "Chamath",
+    "text_en": "they're",
+    "text": "他们是——"
+  },
+  {
+    "start": 1568.094,
+    "end": 1568.494,
+    "speaker": "Jason",
+    "text_en": "in their evaluation",
+    "text": "在市场评估里。"
+  },
+  {
+    "start": 1568.494,
+    "end": 1571.744,
+    "speaker": "Chamath",
+    "text_en": "not getting penalized they're just not getting a premium they're not getting",
+    "text": "不是被惩罚，他们只是没有拿到溢价，他们没有得到——"
+  },
+  {
+    "start": 1571.744,
+    "end": 1572.844,
+    "speaker": "Jason",
+    "text_en": "penalized i think they're getting penalized",
+    "text": "被惩罚了，我觉得他们就是被惩罚了。"
+  },
+  {
+    "start": 1572.844,
+    "end": 1576.594,
+    "speaker": "Chamath",
+    "text_en": "by every metric they're trading at incredible valuations just look at them",
+    "text": "按任何指标看，他们现在的交易估值都高得惊人，你看看就知道了。"
+  },
+  {
+    "start": 1576.844,
+    "end": 1584.576,
+    "speaker": "Jason",
+    "text_en": "oh no i don't i mean if you compare the two valuations situations i think they're being penalized anyway let's anybody else want to get in on this before we move on to the next one yeah uh",
+    "text": "哦不，我不这么看。我的意思是，如果你比较这两种估值情况，我觉得他们就是被惩罚了。不管怎样，在我们进入下一个话题之前，还有谁想补充吗？嗯——"
+  },
+  {
+    "start": 1584.576,
+    "end": 1602.512,
+    "speaker": "Chamath",
+    "text_en": "There is no world in which Google and Meta and Apple and Amazon could be viewed as being penalized in valuation. There is very clearly a world where Elon gets a massive premium because he's innovating. You're saying the same things. You're saying",
+    "text": "不存在这样一种情况：Google、Meta、Apple 和 Amazon 会被看作是在估值上受到惩罚。倒是很明显存在这样一种情况：Elon 因为在创新而拿到了巨大的溢价。你说的其实是同一件事。你的意思是——"
+  },
+  {
+    "start": 1602.512,
+    "end": 1602.562,
+    "speaker": "Jason",
+    "text_en": "I",
+    "text": "我"
+  },
+  {
+    "start": 1602.562,
+    "end": 1602.862,
+    "speaker": "Chamath",
+    "text_en": "the same",
+    "text": "是同一"
+  },
+  {
+    "start": 1602.862,
+    "end": 1602.912,
+    "speaker": "Jason",
+    "text_en": "think",
+    "text": "觉得"
+  },
+  {
+    "start": 1602.912,
+    "end": 1603.012,
+    "speaker": "Chamath",
+    "text_en": "things.",
+    "text": "回事。"
+  },
+  {
+    "start": 1603.012,
+    "end": 1604.512,
+    "speaker": "Jason",
+    "text_en": "we're saying the same thing. It's not Okay,",
+    "text": "我们说的是一回事。不是，好吧，"
+  },
+  {
+    "start": 1604.512,
+    "end": 1605.112,
+    "speaker": "Chamath",
+    "text_en": "the same thing.",
+    "text": "不是一回事。"
+  },
+  {
+    "start": 1605.112,
+    "end": 1623.686,
+    "speaker": "Jason",
+    "text_en": "listen, I think we're debating semantics here. I'm not letting you off the hook, sexy poo. When Sachs is very deliberate in how he speaks, they said he's the captain of the debate club in his 20,000 word article this week and that he's a master debater. He's a masturbator. And you slipped in, you slipped it in.",
+    "text": "听着，我觉得我们现在是在抠字眼。我可不会这么轻易放过你，sexy poo。Sachs 说话一向非常谨慎，他们这周那篇两万字的文章里说他是辩论俱乐部的队长，还说他是个辩论高手。结果他是个自慰高手。你刚才还偷偷塞了这么一句，你就是塞进去了。"
+  },
+  {
+    "start": 1624.186,
+    "end": 1638.072,
+    "speaker": "Jason",
+    "text_en": "Are you saying that the FTC or whoever should be going in and looking at Anthrop? Oh, Brad's book is getting attacked. Headwinds. You said they're a monopoly or they're heading to monopoly tactics. Is that what you're saying? Bang?",
+    "text": "你的意思是，FTC 之类的机构应该介入去查 Anthrop 吗？哦，Brad 的书正被人拿来攻击。逆风来了。你刚才说他们是垄断，或者说他们正走向垄断式手段。你是这个意思吗？Bang？"
+  },
+  {
+    "start": 1638.922,
+    "end": 1639.972,
+    "speaker": "Sacks",
+    "text_en": "Well, look, I mean,",
+    "text": "嗯，你看，我是说，"
+  },
+  {
+    "start": 1639.972,
+    "end": 1640.122,
+    "speaker": "Jason",
+    "text_en": "Provocative.",
+    "text": "很有挑衅性。"
+  },
+  {
+    "start": 1640.122,
+    "end": 1657.022,
+    "speaker": "Sacks",
+    "text_en": "we know that tech markets have a history of consolidating down and turning into either monopolies or duopolies. And if you just look at the revenue right now, there's only two companies making substantial revenue on AI. It's Anthropic and OpenAI.",
+    "text": "我们知道，科技市场历来会不断整合，最后变成垄断或者双寡头。你现在只看营收的话，在 AI 上真正做出可观收入的公司只有两家：Anthropic 和 OpenAI。"
+  },
+  {
+    "start": 1657.272,
+    "end": 1677.412,
+    "speaker": "Sacks",
+    "text_en": "We know that OpenAI is growing at three to four X, which is incredible at the level of scale they're at. Anthropic, though, we said is growing at an exponential 10 X a year. And if they just do that for 18 more months, they'll be by far the most valuable company in human history and they'll have unprecedented control over the most important technology of our time.",
+    "text": "我们知道 OpenAI 现在以 3 到 4 倍的速度增长，按他们现在这个体量来说已经非常惊人了。不过我们刚才说过，Anthropic 的年增长是指数级的，达到 10 倍。如果他们再这样持续 18 个月，那它将毫无疑问成为人类历史上最有价值的公司，并且会以前所未有的程度掌控我们这个时代最重要的技术。"
+  },
+  {
+    "start": 1677.462,
+    "end": 1696.782,
+    "speaker": "Sacks",
+    "text_en": "So I don't know what you call that, but it is something to think about. And I guess I do have a thought experiment for you guys, which is I just want you to think for a second about the case of John D. Rockefeller, who I think is known as probably. the most successful, most",
+    "text": "所以，这该叫什么我也说不好，但这确实值得想一想。我想给你们做个思想实验，就是请你们花一秒钟想想 John D. Rockefeller 这个例子。我觉得他大概被认为是……最成功、最"
+  },
+  {
+    "start": 1696.782,
+    "end": 1697.482,
+    "speaker": "Chamath",
+    "text_en": "Greatest business",
+    "text": "最伟大的商业"
+  },
+  {
+    "start": 1697.482,
+    "end": 1697.632,
+    "speaker": "Sacks",
+    "text_en": "ruthless",
+    "text": "冷酷无情的"
+  },
+  {
+    "start": 1697.632,
+    "end": 1697.882,
+    "speaker": "Chamath",
+    "text_en": "guy ever.",
+    "text": "商人。"
+  },
+  {
+    "start": 1697.882,
+    "end": 1709.832,
+    "speaker": "Sacks",
+    "text_en": "monopolist in American history. But he wasn't very good at PR. He was terrible at PR. Everyone sort of recognized how ruthless he is. We see movies like There Will Be Blood, which is basically about him. In any event,",
+    "text": "是美国历史上的垄断者。但他不太擅长公关。他的公关简直糟透了。大家多少都看得出来他有多冷酷无情。我们还看过像《血色将至》这样的电影，基本上讲的就是他。总之，"
+  },
+  {
+    "start": 1709.932,
+    "end": 1721.476,
+    "speaker": "Sacks",
+    "text_en": "imagine if John D. Rockefeller was way better at public relations and instead of calling his company Standard Oil, he called it Safe Oil. Okay, let's just play this thought experiment.",
+    "text": "你想象一下，如果 John D. Rockefeller 特别擅长公共关系，而且他不把自己的公司叫 Standard Oil，而是叫 Safe Oil。好，我们就来做这个思想实验。"
+  },
+  {
+    "start": 1721.476,
+    "end": 1723.326,
+    "speaker": "Jason",
+    "text_en": "Plain beautiful coal. Yes, yes",
+    "text": "纯净又美丽的煤。对，对。"
+  },
+  {
+    "start": 1723.326,
+    "end": 1724.176,
+    "speaker": "Sacks",
+    "text_en": "Safe oil.",
+    "text": "Safe Oil。"
+  },
+  {
+    "start": 1724.176,
+    "end": 1724.326,
+    "speaker": "Jason",
+    "text_en": "Love",
+    "text": "喜欢。"
+  },
+  {
+    "start": 1724.326,
+    "end": 1724.676,
+    "speaker": "Sacks",
+    "text_en": "He called",
+    "text": "他把它叫"
+  },
+  {
+    "start": 1724.676,
+    "end": 1724.776,
+    "speaker": "Jason",
+    "text_en": "it.",
+    "text": "这个。"
+  },
+  {
+    "start": 1724.776,
+    "end": 1740.226,
+    "speaker": "Sacks",
+    "text_en": "it safe oil because, as we know, kerosene is dangerous. Their first big product was kerosene. And kerosene can light your house or it can burn it down. And in the wrong hands, it can torch a city or you can use it to make a bomb. So John D.",
+    "text": "叫 Safe Oil，因为我们都知道，煤油是危险的。他们最早的大产品就是煤油。煤油可以点亮你的房子，也可以把它烧掉。而且落到不对的人手里，它能烧掉一座城市，或者你也可以拿它来做炸弹。所以 John D."
+  },
+  {
+    "start": 1740.98,
+    "end": 1762.328,
+    "speaker": "Sacks",
+    "text_en": "Let's say should have called for the creation of a new government agency to regulate the safety of his product and they could have done rigorous testing, licensing, common sense regulation. There would have been a very intense debate over safety standards. You know, what should the proper wick thickness be and should we allow all those? dangerous independent refiners, right?",
+    "text": "这么说吧，他本来应该呼吁成立一个新的政府机构来监管他产品的安全性，他们本可以做严格测试、发放许可、搞一些合情合理的监管。那样一来，围绕安全标准肯定会有一场非常激烈的争论。比如说，灯芯的合适厚度到底该是多少？还有，我们到底该不该允许那些危险的独立炼油商存在，对吧？"
+  },
+  {
+    "start": 1762.528,
+    "end": 1781.178,
+    "speaker": "Sacks",
+    "text_en": "And I think people would have gotten so wrapped up in this debate over what constituted safe oil or safe kerosene that they would have missed what was really going on, which is that Rockefeller was building the richest, most powerful monopoly of all time. In fact, people might even have called Rockefeller an effective altruist because,",
+    "text": "我觉得，人们会被关于什么才算安全的油、什么才算安全的煤油这种争论彻底带偏，结果错过了真正发生的事——那就是 Rockefeller 正在打造史上最富有、最强大的垄断企业。事实上，人们甚至可能会把 Rockefeller 称作一个有效利他主义者，因为，"
+  },
+  {
+    "start": 1781.328,
+    "end": 1785.726,
+    "speaker": "Sacks",
+    "text_en": "of course, he was so concerned about the safety. of his product.",
+    "text": "毕竟，他可是如此关心自己产品的安全性。"
+  },
+  {
+    "start": 1785.726,
+    "end": 1788.976,
+    "speaker": "Jason",
+    "text_en": "I love it. Shout out to David Sachs' writers. Great,",
+    "text": "我太喜欢了。向 David Sachs 的写手团队致敬。真是"
+  },
+  {
+    "start": 1788.976,
+    "end": 1789.926,
+    "speaker": "Chamath",
+    "text_en": "Who wrote this?",
+    "text": "这是谁写的？"
+  },
+  {
+    "start": 1789.926,
+    "end": 1790.276,
+    "speaker": "Jason",
+    "text_en": "great writers.",
+    "text": "太会写了。"
+  },
+  {
+    "start": 1790.276,
+    "end": 1791.976,
+    "speaker": "Chamath",
+    "text_en": "Newman? Newman wrote this?",
+    "text": "Newman？这是 Newman 写的？"
+  },
+  {
+    "start": 1791.976,
+    "end": 1792.876,
+    "speaker": "Sacks",
+    "text_en": "No, I wrote it.",
+    "text": "不，我写的。"
+  },
+  {
+    "start": 1792.876,
+    "end": 1798.626,
+    "speaker": "Jason",
+    "text_en": "Emmy Award for best writing in a dramatic monologue goes to Newman. Wow, Sachs.",
+    "text": "剧情类独白最佳编剧 Emmy Award 颁给 Newman。哇，Sacks。"
+  },
+  {
+    "start": 1798.626,
+    "end": 1799.126,
+    "speaker": "Sacks",
+    "text_en": "that's my writing.",
+    "text": "那是我写的。"
+  },
+  {
+    "start": 1799.126,
+    "end": 1801.176,
+    "speaker": "Jason",
+    "text_en": "You landed it. Very good, Sachs.",
+    "text": "你接得漂亮。非常好，Sacks。"
+  },
+  {
+    "start": 1801.176,
+    "end": 1813.326,
+    "speaker": "Unknown",
+    "text_en": "I thought after the Elon Anthropic detect where Elon said, you know, complimented Anthropic that and David started off with a bit of a compliment. I thought we maybe were past this. First, it's ridiculous to think of this as a monopoly.",
+    "text": "我本来以为，在 Elon 和 Anthropic 那次互动之后，Elon 当时还夸了 Anthropic，David 开场也稍微夸了两句，我还以为我们已经过了这个阶段了。首先，把这说成垄断就很荒唐。"
+  },
+  {
+    "start": 1814.068,
+    "end": 1833.718,
+    "speaker": "Unknown",
+    "text_en": "You know, we're talking about annual run rate revenues, David, but on a gap basis, they're doing about the same revenue as OpenAI in the month of March. OK, so we're way ahead of ourselves. By the way, five months ago, everybody thought OpenAI was going to run away with this. Google's revenues are very substantial in AI. And by the way, Google, Amazon,",
+    "text": "你看，David，我们说的是年化营收 run rate，但如果按 GAAP 口径，他们在 3 月份单月的营收其实和 OpenAI 差不多。好吧，所以我们现在明显是说早了。顺便说一句，五个月前大家还都觉得 OpenAI 会一骑绝尘。Google 在 AI 上的营收也非常可观。而且，Google、Amazon，"
+  },
+  {
+    "start": 1833.868,
+    "end": 1844.692,
+    "speaker": "Unknown",
+    "text_en": "et cetera, these companies are producing $100 billion of free cash flow to justify their incremental investment. At the same time, you have these two startups that are. that are still fledgling, that are still fragile in the scheme of things.",
+    "text": "等等，这些公司每年能产生 1000 亿美元的自由现金流，足以支撑它们新增的投资。与此同时，还有这两家创业公司，它们还很稚嫩，从大局来看也依然很脆弱。"
+  },
+  {
+    "start": 1845.14,
+    "end": 1866.04,
+    "speaker": "Unknown",
+    "text_en": "You of all people should know we've got the best competition in AI on the planet, which is why we're at the frontier and kicking the tail of everybody else on the planet. So I just want to see these companies compete. I want to see DC stay out of the way. The last thing I want to be doing is, you know, seeing people talk about this and throwing roadblocks into the way of the competition.",
+    "text": "你最清楚不过了，我们在 AI 领域拥有这个星球上最强的竞争，这也是为什么我们能站在前沿，把地球上其他所有人都甩在后面。所以我就是想看到这些公司去竞争。我希望 DC 别来碍事。我最不想看到的，就是人们在这件事上大谈特谈，然后给竞争设置路障。"
+  },
+  {
+    "start": 1866.04,
+    "end": 1866.44,
+    "speaker": "Sacks",
+    "text_en": "All right.",
+    "text": "好吧。"
+  },
+  {
+    "start": 1866.44,
+    "end": 1867.69,
+    "speaker": "Unknown",
+    "text_en": "I think Anthropik",
+    "text": "我觉得是 Anthropik"
+  },
+  {
+    "start": 1867.69,
+    "end": 1867.84,
+    "speaker": "Sacks",
+    "text_en": "I agree.",
+    "text": "我同意。"
+  },
+  {
+    "start": 1867.84,
+    "end": 1868.04,
+    "speaker": "Unknown",
+    "text_en": "is.",
+    "text": "是。"
+  },
+  {
+    "start": 1868.09,
+    "end": 1883.468,
+    "speaker": "Jason",
+    "text_en": "Well, let me let me hold on. Let me translate Brad for you. Don't f*** with my paper is what he's saying. He's got bets on these. I mean, so Saks, Washington, D.C., don't f*** with Brad's paper. Saks, do you want to get into the regulation stuff right now as a segue?",
+    "text": "好，等一下等一下。我来给你们翻译一下 Brad 的意思。他其实是在说，别他妈动我的票面价值。他在这些公司上是有下注的。我的意思是，Sacks，Washington, D.C.，别他妈动 Brad 的票面价值。Sacks，你现在要不要顺势聊聊监管这块？"
+  },
+  {
+    "start": 1883.668,
+    "end": 1888.668,
+    "speaker": "Sacks",
+    "text_en": "Let me respond to Brad and also translate what I'm saying satirically. OK, so",
+    "text": "我先回应一下 Brad，也顺便把我刚才那句讽刺的话翻译清楚。好，所以——"
+  },
+  {
+    "start": 1888.668,
+    "end": 1888.968,
+    "speaker": "Jason",
+    "text_en": "Satirically.",
+    "text": "讽刺。"
+  },
+  {
+    "start": 1888.968,
+    "end": 1911.334,
+    "speaker": "Sacks",
+    "text_en": "first of all, nobody wants to see these companies compete vigorously more than me. That was the whole premise. of the action plan that we worked on last year is we want to bring out the best in everyone. This is how America is going to win the AI race. We have five major labs vigorously competing. And as long as that competition is taking place, I think that's a good thing.",
+    "text": "首先，没有人比我更想看到这些公司展开激烈竞争。这其实就是我们去年一起制定那个行动计划的核心前提。我们希望把每个人最好的一面都激发出来。美国要赢下 AI 竞赛，就得靠这个。我们有五家主要实验室在激烈竞争。只要这种竞争还在发生，我觉得就是好事。"
+  },
+  {
+    "start": 1911.384,
+    "end": 1921.884,
+    "speaker": "Sacks",
+    "text_en": "It doesn't mean we can't have guardrails in the rest of it, but basically competition should be our North Star. All that being said, okay, what I am pointing out, and I think it's historically true.",
+    "text": "这并不意味着我们不能有一些护栏和其他配套措施，但总体来说，竞争应该是我们的北极星。话虽如此，好吧，我想指出的是，而且我觉得从历史上看这也成立。"
+  },
+  {
+    "start": 1922.612,
+    "end": 1948.072,
+    "speaker": "Sacks",
+    "text_en": "that people in Washington have woken up to monopolies on the late side, not early, right? Because, I mean, once a company has won 80% of the market, that's when they wake up and say, oh, we have a monopoly here. And I'm not saying that they have a monopoly yet, but if the trajectory continues for just 18 more months. then I think it will be in this unprecedentedly powerful position and",
+    "text": "华盛顿那帮人往往是在垄断形成得很晚的时候才反应过来，不是很早就看出来，对吧？因为我的意思是，一家公司一旦拿下了 80% 的市场，他们这时候才会醒过来说，哦，这里有垄断了。我不是说他们现在已经构成垄断了，但如果这个趋势再持续 18 个月，那我觉得它就会处在一个前所未有的强势位置，而且"
+  },
+  {
+    "start": 1948.072,
+    "end": 1948.822,
+    "speaker": "Unknown",
+    "text_en": "I mean, I mean...",
+    "text": "我是说，我是说……"
+  },
+  {
+    "start": 1948.822,
+    "end": 1970.522,
+    "speaker": "Sacks",
+    "text_en": "and hold on and I don't think people should be distracted from that fact by this rhetoric around safety because someone like Rockefeller could have used it too and I do think I mean just like one one last point on this I do think that if you actually look at what a lot of the the safest policies are calling for you",
+    "text": "还有，等一下，我觉得大家不应该被这种围绕安全的说辞分散注意力，因为像 Rockefeller 这样的人当年也完全可以这么说。我还想再补充最后一点：如果你真的去看很多所谓最安全的政策到底在主张什么，你会发现"
+  },
+  {
+    "start": 1970.068,
+    "end": 1983.968,
+    "speaker": "Sacks",
+    "text_en": "They're basically calling for a form of regulatory capture, and they're calling for things that would create a stronger moat around this monopoly or duopoly that's in the process of being created, and it would get in the way of competition. So again,",
+    "text": "它们本质上是在要求一种监管俘获，而且它们主张的那些东西，会给这个正在形成中的垄断或双头垄断挖出更深的护城河，还会阻碍竞争。所以再说一次，"
+  },
+  {
+    "start": 1984.068,
+    "end": 2000.284,
+    "speaker": "Sacks",
+    "text_en": "I think that people might not have such a charitable view of all this safety rhetoric if they understood that what was being created here is the biggest monopoly in human history. And I think we should just be a little bit more skeptical about some of these altruistic claims.",
+    "text": "我觉得，如果人们明白这里正在被制造出来的，可能是人类历史上最大的垄断，那他们对这些安全话术恐怕就不会这么善意解读了。我觉得我们应该对其中一些利他主义式的说法再多一点怀疑。"
+  },
+  {
+    "start": 2000.384,
+    "end": 2014.306,
+    "speaker": "Unknown",
+    "text_en": "I can't believe that David is like, you know, talking monopolies when we haven't even left the starting gate. of AI. I think this is a, to me,",
+    "text": "我真不敢相信 David 现在就在谈垄断，明明我们连 AI 的起跑线都还没真正离开。在我看来，这个，我觉得，"
+  },
+  {
+    "start": 2014.306,
+    "end": 2014.456,
+    "speaker": "Sacks",
+    "text_en": "there's",
+    "text": "这有"
+  },
+  {
+    "start": 2014.456,
+    "end": 2015.006,
+    "speaker": "Unknown",
+    "text_en": "the",
+    "text": "这个"
+  },
+  {
+    "start": 2015.006,
+    "end": 2016.406,
+    "speaker": "Sacks",
+    "text_en": "only two companies with revenue look",
+    "text": "只有两家有营收规模的公司，看起来是这样。"
+  },
+  {
+    "start": 2016.406,
+    "end": 2029.056,
+    "speaker": "Unknown",
+    "text_en": "last thing I want is DC trying to preemptively, preemptively, which would be like a disastrous consequence. Get in the game of picking winners and losers at the starting line of AI. That would be a disaster.",
+    "text": "我最不希望看到的，就是 DC 试图提前、提前介入，那会带来灾难性的后果。跑去在 AI 的起跑线上就决定谁是赢家谁是输家，那将是一场灾难。"
+  },
+  {
+    "start": 2029.356,
+    "end": 2032.806,
+    "speaker": "Jason",
+    "text_en": "Brad, did you just put another soapbox on top of the soapbox you were standing on?",
+    "text": "Brad，你这是在你站着的讲台上又叠了一个讲台吗？"
+  },
+  {
+    "start": 2034.756,
+    "end": 2040.398,
+    "speaker": "Sacks",
+    "text_en": "brad like i said my north star is competition as long as it's competition going on i support it however",
+    "text": "Brad，就像我说的，我的核心原则是竞争。只要竞争还在发生，我就支持，不过——"
+  },
+  {
+    "start": 2040.398,
+    "end": 2040.748,
+    "speaker": "Unknown",
+    "text_en": "I was going to say, please.",
+    "text": "我正想说，拜托。"
+  },
+  {
+    "start": 2040.748,
+    "end": 2060.474,
+    "speaker": "Sacks",
+    "text_en": "hold on hold on we know that monopolists want to stop competition and they use regulatory capture to do it and furthermore they do things like ban their competitors from using their product what conceivable reason Did Anthropic have for banning OpenClaw using its models? That is anti-competitive, is it not?",
+    "text": "等等，等等。我们都知道，垄断者想要扼杀竞争，他们会利用监管俘获来做到这一点。而且，他们还会做出比如禁止竞争对手使用自己产品这种事。Anthropic 禁止 OpenClaw 使用它的模型，能有什么说得过去的理由？这不是反竞争行为吗？"
+  },
+  {
+    "start": 2061.024,
+    "end": 2061.474,
+    "speaker": "Jason",
+    "text_en": "I would",
+    "text": "我会——"
+  },
+  {
+    "start": 2061.474,
+    "end": 2061.824,
+    "speaker": "Chamath",
+    "text_en": "I mean,",
+    "text": "我是说——"
+  },
+  {
+    "start": 2061.824,
+    "end": 2071.724,
+    "speaker": "Jason",
+    "text_en": "double click on it. Double click on it. I might not, you know, file, but I would double click. Okay, listen, Chamath, the girls are fighting. Let's keep moving through the docket. We're going to be here all day with these two.",
+    "text": "双击它。双击它。我可能不会，你知道，去归档，但我会双击。好了，听着，Chamath，姑娘们吵起来了。我们继续往下过议程吧。跟这两位聊下去，我们得在这儿待一整天。"
+  },
+  {
+    "start": 2072.124,
+    "end": 2081.274,
+    "speaker": "Jason",
+    "text_en": "And one thing that you're going to need to act on very quickly is the All In Summit. It's selling out fast. Don't miss it. Speakers are top tier again. Freeberg, busy working on.",
+    "text": "还有一件你们得赶紧行动的事，就是 All In Summit。票卖得很快，马上就要售罄了。别错过。嘉宾阵容这次也还是顶级。Freeberg 正忙着敲定一些"
+  },
+  {
+    "start": 2081.332,
+    "end": 2108.132,
+    "speaker": "Jason",
+    "text_en": "some amazing speakers sax will be there he's flying in and out every day for four hours and then we're we're going to have a lot of networking stuff going down we're building some networking software so when you come to our events you get to meet people that's what we always say my playbook for events if you learn something from the speakers every day one or two things if you meet somebody new and you eat some great food and have some fun you get two or three of those things ah man even if you get one you're going to come back to the event you're going to get all",
+    "text": "非常厉害的嘉宾，Sachs 也会到场，他每天都会飞进飞出，只待四个小时。然后我们还会安排很多社交活动。我们正在开发一些社交软件，这样你来参加我们的活动时就能认识人。这也是我们一直在说的，我办活动的打法就是：如果你每天能从嘉宾那里学到一两件事，如果你能认识一个新朋友，再吃点好吃的、玩得开心一点，只要你能收获其中两三样，哎呀，那就值了。哪怕你只收获一样，你下次也还会回来参加活动，你会把这些都拿到"
+  },
+  {
+    "start": 2108.052,
+    "end": 2136.752,
+    "speaker": "Jason",
+    "text_en": "all three all day long all in.com slash events los angeles september 13th 14th and 15th apologies to everybody asking but liquidity is sold out and we've shut down the wait list there's just no more room all right the white house allegedly possibly is considering according to reports an fda for ai that would vet you heard that correct folks that would vet new models for safety the thing we've been talking about not doing here that",
+    "text": "三样全拿到，整天都是。allin.com/events，洛杉矶，9 月 13、14、15 日。也跟所有来问的人说声抱歉，流动性名额已经卖光了，我们也关闭了候补名单，真的没有更多位置了。好，报道称，白宫据说可能正在考虑设立一个 AI 版 FDA，没听错，各位，就是要对新模型做安全审查。也就是我们一直在讨论不该这么做的那件事，"
+  },
+  {
+    "start": 2136.596,
+    "end": 2152.746,
+    "speaker": "Jason",
+    "text_en": "The thing David Sachs has spent the last year on, the White House is considering. New York Times reported Trump is considering an executive order to create a quote AI working group. This group would include tech execs and government officials who would quote examine potential oversight procedures.",
+    "text": "也就是 David Sachs 过去一年一直在忙的那件事，白宫正在考虑。纽约时报报道说，Trump 正在考虑签署一项行政命令，成立一个所谓的“AI 工作组”。这个小组将包括科技公司高管和政府官员，用来“研究潜在的监管程序”。"
+  },
+  {
+    "start": 2153.876,
+    "end": 2169.676,
+    "speaker": "Jason",
+    "text_en": "including, quote, a review process for new AI models. Oy, according to the report, the catalyst was, wait for it, Anthropics mythos model, which reportedly scared, spooked, made people really nervous at the White House.",
+    "text": "其中包括，原话是，“对新 AI 模型进行审查的流程”。哎哟。根据报道，导火索是——等着——Anthropic 的 Mythos 模型，据说把白宫的人吓到了，搞得他们非常紧张。"
+  },
+  {
+    "start": 2169.776,
+    "end": 2188.628,
+    "speaker": "Jason",
+    "text_en": "Quote, the White House wants to avoid any political repercussions if a devastating AI-enabled cyber attack were to occur. They want to see YA, according to the New York Times. Kevin Hassett, that guy, the director of the National Economic Council, confirmed the report on Fox Business. Here's your 15-second clip.",
+    "text": "“白宫希望避免一旦发生由 AI 赋能的毁灭性网络攻击时所带来的任何政治后果。”根据纽约时报，他们想先把责任撇清。国家经济委员会主任 Kevin Hassett，就是那位，也在 Fox Business 上证实了这篇报道。来，给你们放一段 15 秒的片段。"
+  },
+  {
+    "start": 2188.628,
+    "end": 2205.928,
+    "speaker": "Unknown",
+    "text_en": "We're studying possibly an executive order to give a clear roadmap to everybody about how this is going to go and how future AIs that also potentially create vulnerabilities should go through a process so that they're released in the wild after they've been proven safe, just like an FDA drug.",
+    "text": "我们正在研究是否通过一项行政命令，给所有人一个清晰的路线图，说明这件事接下来会怎么推进，以及未来那些同样可能带来漏洞的 AI，应该经过怎样的流程，才能在被证明安全之后再投放到现实世界中，就像 FDA 审批药物那样。"
+  },
+  {
+    "start": 2206.528,
+    "end": 2211.116,
+    "speaker": "Jason",
+    "text_en": "Additionally. Friend of the pod, Scott Besson, had something",
+    "text": "另外，咱们播客的老朋友 Scott Besson 也说了几句。"
+  },
+  {
+    "start": 2211.116,
+    "end": 2211.216,
+    "speaker": "Unknown",
+    "text_en": "What",
+    "text": "什么"
+  },
+  {
+    "start": 2211.216,
+    "end": 2211.516,
+    "speaker": "Jason",
+    "text_en": "to say.",
+    "text": "想说的话。"
+  },
+  {
+    "start": 2211.516,
+    "end": 2236.166,
+    "speaker": "Unknown",
+    "text_en": "we've had in the past month was a step change in the power of one large language model, but we're going to see it from the other AI companies. What we are determined to do is work with our AI companies to allow them to continue innovate. But our charge of the U.S. government is maintaining safety and there is a very important calculus here between innovation and safety.",
+    "text": "我们过去一个月看到的，是某个大型语言模型能力上的一次跃升，但我们也会在其他 AI 公司身上看到这种情况。我们决心要做的，是与这些 AI 公司合作，让他们能够继续创新。但美国政府肩负的职责是维护安全，而这里面在创新和安全之间有一笔非常重要的权衡。"
+  },
+  {
+    "start": 2236.276,
+    "end": 2240.176,
+    "speaker": "Unknown",
+    "text_en": "And the U.S. government, we're going to make sure that things stay safe.",
+    "text": "而美国政府会确保一切都保持安全。"
+  },
+  {
+    "start": 2240.176,
+    "end": 2246.726,
+    "speaker": "Jason",
+    "text_en": "There you go Kevin Hassett and Besant slightly different positions here Brad, what do you think?",
+    "text": "就是这样。Kevin Hassett 和 Bessent 在这件事上的立场略有不同，Brad，你怎么看？"
+  },
+  {
+    "start": 2247.076,
+    "end": 2255.876,
+    "speaker": "Unknown",
+    "text_en": "Actually, I don't think they're slightly different positions, but I would agree that Kevin bringing up the FDA kind of muddied the waters I talked to Kevin last night after that clip ran",
+    "text": "其实，我不觉得他们的立场只是略有不同，不过我同意，Kevin 提到 FDA 这件事确实把水搅浑了。那段片段播出后，我昨晚和 Kevin 聊了聊。"
+  },
+  {
+    "start": 2256.756,
+    "end": 2267.456,
+    "speaker": "Unknown",
+    "text_en": "You know, and I asked him, I just said, do you think FDA is the right analog here? And he said, you know, I was I was only bringing it up to say that we want them to show us the models so that we can coordinate them.",
+    "text": "你知道，我就问他，我说，你觉得这里拿 FDA 来类比合适吗？他说，你知道，我提这个只是想表达，我们希望他们把模型给我们看，这样我们就能进行协调。"
+  },
+  {
+    "start": 2267.856,
+    "end": 2284.622,
+    "speaker": "Unknown",
+    "text_en": "Obviously, our job is to make sure that the government is prepared, that we harden our systems, that our intelligence agencies are up to speed. But he does not think and I can't find anybody. on the right that believes that we're going to move to an approval regime, right?",
+    "text": "显然，我们的职责是确保政府做好准备，加固我们的系统，让情报机构及时掌握情况。但他并不认为，而且我也找不到右派里任何一个人会相信，我们会转向一种审批制度，对吧？"
+  },
+  {
+    "start": 2284.722,
+    "end": 2293.222,
+    "speaker": "Unknown",
+    "text_en": "The approval regime, this idea that you're going to have to share every model with an FDA in Washington and they're going to have to pre-approve the model is a disaster.",
+    "text": "所谓审批制度，就是你得把每个模型都交给华盛顿的某个 FDA，然后他们还得事先批准这个模型——这简直是场灾难。"
+  },
+  {
+    "start": 2293.572,
+    "end": 2306.122,
+    "speaker": "Unknown",
+    "text_en": "Sachs has been effectively fighting against this correctly over the course of the last year. It would lead to three bad things. Number one, we do not want to put the Washington in the position of picking winners and losers when it comes to",
+    "text": "过去一年里，Sachs 一直在有效地反对这件事，而且反对得很对。这会带来三件坏事。第一，我们不想让华盛顿在这些模型的问题上扮演决定谁赢谁输的角色。"
+  },
+  {
+    "start": 2305.844,
+    "end": 2314.794,
+    "speaker": "Unknown",
+    "text_en": "when it comes to these models. We're winning. We're on the winning horse in America. We're out in front of the rest of the world. There's no reason to change horses and regimes at this point.",
+    "text": "说到这些模型，我们现在是领先的。美国现在押对了马，我们走在世界其他国家前面。这个时候没有理由中途换马，也没有理由换制度。"
+  },
+  {
+    "start": 2314.844,
+    "end": 2327.238,
+    "speaker": "Unknown",
+    "text_en": "And we don't want to burden this with more democracy. But at the same time, obviously, I call these pre-AGI or AGI models, mistral, spud, et cetera. I see a lot of coordination going on between the industry and government.",
+    "text": "而且我们也不想在这件事上再增加更多官僚程序。但与此同时，显然，对于这些我称为 pre-AGI 或 AGI 的模型，Mistral、Spud 等等，我看到行业和政府之间已经有很多协调在进行。"
+  },
+  {
+    "start": 2327.388,
+    "end": 2339.438,
+    "speaker": "Unknown",
+    "text_en": "I think we can do an even better job of evolving that framework so that everybody in government is on the same page. We need to build more capacity in government to quickly be able to do the cyber review on these models.",
+    "text": "我觉得我们还能把这个框架进一步完善，让政府内部所有人都达成一致。我们需要在政府里建立更强的能力，能够快速对这些模型做网络安全审查。"
+  },
+  {
+    "start": 2339.538,
+    "end": 2358.306,
+    "speaker": "Unknown",
+    "text_en": "Right now, it takes too long when the coordination does occur. So we need to have a finite amount of time to get government feedback, etc. But the last thing that we want is an FDA of models sitting in Washington. Kevin understands that. Scott Besson understands that. So I expect that we will continue down the path that we've been on.",
+    "text": "现在即便发生协调，流程也还是太慢了。所以我们需要设定一个明确的时间范围，让政府给出反馈等等。但我们最不想看到的，就是华盛顿坐着一个专门审批模型的 FDA。Kevin 明白这一点，Scott Besson 也明白。所以我预计我们会继续沿着现在这条路走下去。"
+  },
+  {
+    "start": 2358.356,
+    "end": 2374.256,
+    "speaker": "Jason",
+    "text_en": "Chamath, obviously, I think we all agree we don't need an FDA for AI, but there are things that reasonably people would want to have guardrails around AI. I'm sure you would agree it shouldn't be a total free-for-all.",
+    "text": "Chamath，显然，我觉得我们都同意，AI 不需要一个 FDA，但在 AI 上确实有些事情是理性的人会希望设一些护栏的。我相信你也会同意，它不应该完全毫无约束。"
+  },
+  {
+    "start": 2374.356,
+    "end": 2394.02,
+    "speaker": "Jason",
+    "text_en": "So what's your take on this? Is it just... somebody gave a bad analogy here or maybe some people were weaseling their way into the White House to try to shift things when Sachs was back at home or something. What's going on here? Give us the because that's what I think that's what people say. They say the last person to talk to Trump kind of has his ear and that things can bend a certain way.",
+    "text": "所以你怎么看这件事？这只是……有人打了个很糟糕的比方，还是说有些人在 Sachs 不在华盛顿、回家那会儿，偷偷钻进 White House 想把事情往某个方向带？这里到底发生了什么？给我们讲讲原因吧，因为我觉得大家都是这么看的。大家都说，最后一个跟 Trump 说话的人，往往最能影响他，事情就会朝某个方向偏过去。"
+  },
+  {
+    "start": 2394.92,
+    "end": 2414.85,
+    "speaker": "Chamath",
+    "text_en": "I don't think it's a I think that there's a pretty profound vibe shift Respect to tech, tech oligarchs, Silicon Valley, and particularly the AI, that vibe shift has already happened on Main Street. And I think that that's starting to seep into Washington. I think that regulations are coming.",
+    "text": "我不觉得这只是个——我觉得现在对科技、科技寡头、Silicon Valley，尤其是 AI，整体的风向已经发生了非常明显的变化。这种风向变化在普通民众那边其实已经发生了。我觉得现在也开始慢慢渗透到 Washington 了。我认为监管要来了。"
+  },
+  {
+    "start": 2415.5,
+    "end": 2435.06,
+    "speaker": "Chamath",
+    "text_en": "I think they'll be worse under a democratic regime, but I think that some form of oversight is going to exist under a Republican regime. The question that I think is worth asking is why? And if you listen to everybody's tone, it's all around the negatives of AI.",
+    "text": "我觉得如果是民主党执政，情况会更糟，但我也认为在共和党执政下，某种形式的监管同样会存在。我觉得真正值得问的问题是，为什么？如果你去听大家说话的语气，几乎全都围绕着 AI 的负面影响。"
+  },
+  {
+    "start": 2436.11,
+    "end": 2450.36,
+    "speaker": "Chamath",
+    "text_en": "So I think we suffer from two things. Number one is we have horrible messaging. Nobody spends the time and the money to articulate the positive upside case so that there's broad based support. And two,",
+    "text": "所以我觉得我们现在有两个问题。第一，我们的信息传达做得很糟。没有人愿意花时间和钱，把 AI 积极的一面、上行空间讲清楚，从而获得广泛支持。第二，"
+  },
+  {
+    "start": 2450.51,
+    "end": 2465.516,
+    "speaker": "Chamath",
+    "text_en": "the idea that there's going to be, as Sax said earlier, a few winners and many, many, many potential losers, I think is really disconcerting to everybody. And the response from the tech community, again,",
+    "text": "就像 Sax 前面说的，未来可能只会有少数赢家，却会有非常非常多潜在的输家，我觉得这一点真的让所有人都很不安。而科技圈给出的回应，还是一样，"
+  },
+  {
+    "start": 2465.566,
+    "end": 2481.764,
+    "speaker": "Chamath",
+    "text_en": "should be the leadership of the tech world coming together and actually reinvesting in America writ large. They're not doing that in enough of a scale that blunts this. So what you're seeing is the buildup of antibodies. Is it avoidable? Yes.",
+    "text": "本来应该是科技界的领导者们站出来，一起真正把钱重新投回更广泛意义上的 America。但他们做得远远不够，规模也不足以化解这种情绪。所以你现在看到的，其实就是抗体在形成。这能避免吗？能。"
+  },
+  {
+    "start": 2482.464,
+    "end": 2500.014,
+    "speaker": "Chamath",
+    "text_en": "Are we doing a good job of avoiding it? Absolutely not. We're doing a horrible job. I'd give the community, the tech leaders, a D minus trending to an F. The response is what we're seeing. So I think the question, Jason, isn't regulation, no regulation. It's why did we get here?",
+    "text": "那我们在避免这件事上做得好吗？绝对没有。我们做得非常糟。我给整个圈子、给这些科技领袖打个 D-，而且还在往 F 滑。现在看到的这些反应，就是结果。所以我觉得，Jason，问题不是要不要监管，而是我们为什么会走到这一步。"
+  },
+  {
+    "start": 2501.332,
+    "end": 2524.032,
+    "speaker": "Chamath",
+    "text_en": "And I think we got here because the other version, the glass half full version, the demonstrated investment, the broad based uplifting of American society hasn't happened. And if it has, it's been very poorly communicated. And so the response is, hey, hold on, we're going to give three guys trillion dollar net worths and we're going to allow them to control the keys. That's why this is happening.",
+    "text": "我觉得我们走到今天，是因为另一种叙事——也就是更乐观、看到杯子半满的那种版本——没有真正出现；那些已经被证明的投资、对美国社会更广泛层面的带动和提升，并没有发生。就算发生了，传播也做得非常差。所以大家的反应就是：等等，我们这是要让三个人坐拥万亿美元级别的净资产，还让他们掌握钥匙？这就是为什么会变成现在这样。"
+  },
+  {
+    "start": 2524.032,
+    "end": 2525.832,
+    "speaker": "Jason",
+    "text_en": "Exactly correct. And it's very easy.",
+    "text": "完全正确。而且这非常容易。"
+  },
+  {
+    "start": 2526.836,
+    "end": 2555.636,
+    "speaker": "Jason",
+    "text_en": "facts to imagine all the bad things that can happen our minds are constructed to do that we're vigilant we look out for the tiger or you know the tornado to keep ourselves safe humans have a bias towards safety and they're going to think about you know deep fakes they're going to think about robotics and think about self-driving cars taking people's jobs they're going to think about you know all the dark things that could happen bioweapons etc and we don't have anybody out there really talking about all the positives that",
+    "text": "人天生就很容易去想象所有可能发生的坏事，我们的大脑就是这么构造出来的。我们会保持警觉，会提防老虎，或者你知道，龙卷风，好让自己安全。人类天生偏向安全感，所以他们会想到 deepfake，会想到机器人，会想到自动驾驶汽车抢走人们的工作，还会想到各种可能发生的黑暗面，比如生物武器之类的。而真正站出来谈那些积极可能性的人，其实并不多。"
+  },
+  {
+    "start": 2555.668,
+    "end": 2581.768,
+    "speaker": "Jason",
+    "text_en": "That could happen. What's your take on the palace intrigue we all have here? What's going on in the palace, in the 47th administration around this debate? Who's leading Trump down the path of regulation and creating this AI FDA? We know you're part of the camp that wants to keep this train moving and not overregulated, not have regulatory capture. Who are the people trying to slow this down?",
+    "text": "那些也可能发生。你怎么看我们这里人人都在谈的这场“宫廷内斗”？在这场争论里，47th administration 内部到底发生了什么？是谁在把 Trump 往监管这条路上带，想搞出一个 AI 版 FDA？我们知道你属于那一派，希望让这列火车继续往前开，不要过度监管，也不要出现监管俘获。那到底是哪些人在试图拖慢这件事？"
+  },
+  {
+    "start": 2582.708,
+    "end": 2595.862,
+    "speaker": "Sacks",
+    "text_en": "Well, look, I think there's several things going on here. The first one is there's a lot of fake news. This whole idea of an FDA for AI, I don't think any senior official supports it, just like Brad was saying. I spoke to Haas as well.",
+    "text": "嗯，你看，我觉得这里面有几件事同时在发生。第一，就是有很多假新闻。这个所谓给 AI 搞一个 FDA 的说法，我不觉得有任何高级官员支持，就像 Brad 刚才说的那样。我也和 Haas 聊过。"
+  },
+  {
+    "start": 2595.912,
+    "end": 2613.812,
+    "speaker": "Sacks",
+    "text_en": "That's not where his head is at. So I don't think anybody in the administration is saying they want an FDA for AI. Certainly, I don't think that's the way the president thinks about these issues. He's the most pro-innovation president we've ever had. And the White House chief of staff, Susie Wallace, just put out a statement last night that I think pretty much shoots this down.",
+    "text": "那根本不是他在想的方向。所以我不认为政府里有任何人主张给 AI 设一个 FDA。当然，我也不觉得总统是这么看这些问题的。他是我们见过最支持创新的总统。白宫幕僚长 Susie Wallace 昨晚也刚发了声明，我觉得基本已经把这件事否掉了。"
+  },
+  {
+    "start": 2614.112,
+    "end": 2622.862,
+    "speaker": "Sacks",
+    "text_en": "So I think there's a big fake news component. Remember, it was not really the White House who was saying it was the New York Times. And really, I think actually Andrew Ross Storch.",
+    "text": "所以我觉得这里面很大一部分就是假新闻。记住，最早这么说的其实并不是白宫，而是 New York Times。更准确地说，我觉得其实是 Andrew Ross Storch。"
+  },
+  {
+    "start": 2622.612,
+    "end": 2651.362,
+    "speaker": "Sacks",
+    "text_en": "a storken no i'm not criticizing him but he's a commentator and he's the one who said this first and then somehow that spin or that gloss somehow took on a life of its own and i think silicon valley reacted accordingly there's a very visceral negative reaction here because we know how damaging that would be to innovation but look i think the good news is that that was fake news second i think that there's another thing going on which is a straw manning of what",
+    "text": "Andrew Ross Storch——我不是在批评他——但他是个评论员，最早是他先这么说的。然后不知怎么地，这种说法或者这种解读就自己发酵起来了。我觉得 Silicon Valley 也因此做出了相应反应。大家对此有一种非常本能、非常强烈的负面反应，因为我们都知道那会对创新造成多大伤害。不过你看，好消息是，那就是假新闻。第二，我觉得还有另一件事在发生，就是有人在刻意歪曲"
+  },
+  {
+    "start": 2652.02,
+    "end": 2675.62,
+    "speaker": "Sacks",
+    "text_en": "The Trump administration did on AI in its first year. And in the same way that they want to spin this FDA for AI, they're also trying to spin what we did as this completely laissez-faire attitude where there'd be no regulations whatsoever, no guardrails. It's a way of criticizing what we did. They're trying to portray it as unsafe. In fact, if you look on March 20th, the White House released",
+    "text": "Trump administration 第一年的 AI 政策。就像他们想把这件事包装成 AI 版 FDA 一样，他们也在试图把我们当时做的事说成是一种彻底放任自由的态度，好像完全没有任何监管、没有任何护栏。这是一种批评我们做法的方式，他们想把它描绘成不安全。事实上，如果你去看 3 月 20 日，白宫发布了"
+  },
+  {
+    "start": 2676.244,
+    "end": 2693.944,
+    "speaker": "Sacks",
+    "text_en": "a national AI regulatory framework that I worked on in which we put out a four-page bulleted list of legislation that we would support if Congress wants to pass it. So we have not been against every conceivable regulation or every conceivable law.",
+    "text": "我参与制定过一个全国性的 AI 监管框架，我们当时发布了一份四页的要点清单，列出了如果国会想通过的话，我们会支持哪些立法。所以我们并不是反对所有可能的监管，或者所有可能的法律。"
+  },
+  {
+    "start": 2694.044,
+    "end": 2713.24,
+    "speaker": "Sacks",
+    "text_en": "We just believe that there should be specific solutions to specific problems as opposed to a giant power grab by Washington that would squash innovation. So I think that's point number two. Point number three is there is a legitimate thing happening here with let's call it mythos or cyber. OK,",
+    "text": "我们只是认为，应该针对具体问题给出具体解决方案，而不是让 Washington 搞一次大规模权力扩张，把创新直接扼杀掉。所以我觉得这是第二点。第三点是，这里确实有一件合理的事正在发生，姑且叫它 mythos 或 cyber。好吧，"
+  },
+  {
+    "start": 2713.29,
+    "end": 2729.782,
+    "speaker": "Sacks",
+    "text_en": "we know that it's not just mythos open AI now as a model that's just as cyber capable as mythos. And within three to six months, all the major frontier labs and including Chinese models will have cyber capabilities. In response to that,",
+    "text": "我们知道，现在不只是 mythos，OpenAI 也已经有了一个在网络攻防能力上和 mythos 一样强的模型。而且在接下来三到六个月内，所有主要的前沿实验室，包括中国的模型，都会具备网络攻防能力。针对这一点，"
+  },
+  {
+    "start": 2729.882,
+    "end": 2745.832,
+    "speaker": "Sacks",
+    "text_en": "we do need there to be a hardening of systems and we do need there to be a scanning of code bases to find these vulnerabilities and patch them before the hackers do it because the hackers will have these capabilities in a matter of months.",
+    "text": "我们确实需要加强系统防护，也确实需要扫描代码库，找出这些漏洞，并在黑客利用它们之前先把补丁打上，因为黑客在几个月内就会具备这些能力。"
+  },
+  {
+    "start": 2745.882,
+    "end": 2755.832,
+    "speaker": "Sacks",
+    "text_en": "That's a certainty because the same capabilities you use for cyber defense can also be used for cyber offense. It's the same tool set and open source models will have these capabilities anyway.",
+    "text": "这是确定无疑的，因为你用来做网络防御的同样能力，也可以用来做网络攻击。用的是同一套工具，而且开源模型反正也都会具备这些能力。"
+  },
+  {
+    "start": 2755.832,
+    "end": 2758.942,
+    "speaker": "Jason",
+    "text_en": "They are. Anyway, They already have it to a certain extent, let's be honest. They have 80% of it,",
+    "text": "是的。反正说真的，它们其实已经在一定程度上具备了。已经有 80% 了，"
+  },
+  {
+    "start": 2758.942,
+    "end": 2759.042,
+    "speaker": "Sacks",
+    "text_en": "So look,",
+    "text": "所以你看，"
+  },
+  {
+    "start": 2759.042,
+    "end": 2759.592,
+    "speaker": "Jason",
+    "text_en": "90% of it.",
+    "text": "90%。"
+  },
+  {
+    "start": 2759.592,
+    "end": 2785.76,
+    "speaker": "Sacks",
+    "text_en": "it's simply the case that AI will be good at cyber. And so we do need a response to that. Now, my view on what should that response be. Should be, first of all, we should want the government and the private sector to work cooperatively. And I think they are. We have a giant cybersecurity industry in the United States whose sole job it is to protect systems and protect against breaches and",
+    "text": "现实情况就是，AI 会非常擅长网络安全攻防。所以我们确实需要对此作出回应。至于这个回应应该是什么，我的看法是，首先，我们应该希望政府和私营部门协同合作。我觉得他们现在也确实在这么做。美国有一个庞大的网络安全产业，它唯一的职责就是保护系统，防止数据泄露和"
+  },
+  {
+    "start": 2785.76,
+    "end": 2786.21,
+    "speaker": "Jason",
+    "text_en": "We have",
+    "text": "我们有"
+  },
+  {
+    "start": 2786.21,
+    "end": 2786.26,
+    "speaker": "Sacks",
+    "text_en": "hacking.",
+    "text": "黑客攻击。"
+  },
+  {
+    "start": 2786.26,
+    "end": 2788.31,
+    "speaker": "Jason",
+    "text_en": "the best companies in the world at doing that.",
+    "text": "在这方面最顶尖的公司。"
+  },
+  {
+    "start": 2788.31,
+    "end": 2788.56,
+    "speaker": "Sacks",
+    "text_en": "And so exactly.",
+    "text": "对，没错。"
+  },
+  {
+    "start": 2788.56,
+    "end": 2793.26,
+    "speaker": "Jason",
+    "text_en": "We have CrowdStrike. We have Palo Alto Networks. We talked about that before. We have the best defense.",
+    "text": "我们有 CrowdStrike。我们有 Palo Alto Networks。我们之前聊过这个。我们的防御能力是最强的。"
+  },
+  {
+    "start": 2793.66,
+    "end": 2814.834,
+    "speaker": "Sacks",
+    "text_en": "Right. Exactly. And so what we should be doing, I think. think is getting these tools, Mythos and then the OpenAI model and others like it in the hands of our cybersecurity industry. And by the way, not just the public companies like Palo Alto Networks and CrowdStrike, although certainly they're two of the most noteworthy, but there's also some incredibly strong startups on Oh, the way up that",
+    "text": "对，完全正确。所以我觉得，我们应该做的是把这些工具——Mythos，还有 OpenAI 的模型，以及其他类似的工具——交到我们的网络安全行业手里。顺便说一句，不只是像 Palo Alto Networks 和 CrowdStrike 这样的上市公司，当然它们肯定是最值得关注的两家，但也还有一些实力非常强的初创公司正在迅速崛起，"
+  },
+  {
+    "start": 2814.834,
+    "end": 2815.284,
+    "speaker": "Jason",
+    "text_en": "there's a long",
+    "text": "有很长一串"
+  },
+  {
+    "start": 2815.284,
+    "end": 2815.484,
+    "speaker": "Sacks",
+    "text_en": "are at",
+    "text": "处在"
+  },
+  {
+    "start": 2815.484,
+    "end": 2816.284,
+    "speaker": "Jason",
+    "text_en": "tail of hundreds.",
+    "text": "数百家的末端。"
+  },
+  {
+    "start": 2816.284,
+    "end": 2835.174,
+    "speaker": "Sacks",
+    "text_en": "the cutting edge of doing AI-powered pen testing and all the rest of it. We need to get these tools into their hands as quickly as possible because they're a They're a force multiplier for all the companies out there that aren't that good at cybersecurity or maybe they've got IT departments They can use these companies as vendors. So I think that there is a role",
+    "text": "处在用 AI 做渗透测试等各类事情的最前沿。我们得尽快把这些工具交到他们手里，因为对于那些网络安全做得没那么好的公司来说，他们是效率放大器。或者说，有些公司有 IT 部门，也可以把这些公司当成供应商来用。所以我觉得这里面是有一个角色的。"
+  },
+  {
+    "start": 2835.174,
+    "end": 2835.224,
+    "speaker": "Chamath",
+    "text_en": "Can",
+    "text": "能"
+  },
+  {
+    "start": 2835.224,
+    "end": 2835.424,
+    "speaker": "Sacks",
+    "text_en": "for us",
+    "text": "让我们"
+  },
+  {
+    "start": 2835.424,
+    "end": 2835.574,
+    "speaker": "Chamath",
+    "text_en": "I ask you",
+    "text": "我问你"
+  },
+  {
+    "start": 2835.574,
+    "end": 2835.724,
+    "speaker": "Sacks",
+    "text_en": "to play",
+    "text": "来进行"
+  },
+  {
+    "start": 2835.724,
+    "end": 2842.374,
+    "speaker": "Chamath",
+    "text_en": "a question? Do you think that the models should have a KYC wrapper going forward?",
+    "text": "一个问题吗？你觉得未来这些模型应该加一层 KYC 封装吗？"
+  },
+  {
+    "start": 2842.674,
+    "end": 2848.424,
+    "speaker": "Jason",
+    "text_en": "KYC for the audience is know your customer. Yeah, so really what it would mean is that before you can use.",
+    "text": "给观众解释一下，KYC 就是 know your customer，也就是“了解你的客户”。对，所以它真正的意思是，在你能使用之前。"
+  },
+  {
+    "start": 2849.204,
+    "end": 2857.762,
+    "speaker": "Chamath",
+    "text_en": "mythos you have to identify yourself so that we can try to know that you're not a state-sponsored actor or a bad guy.",
+    "text": "在使用 mythos 之前，你得先表明身份，这样我们才能尽量确认你不是国家支持的行为者，或者不是什么坏人。"
+  },
+  {
+    "start": 2857.762,
+    "end": 2875.412,
+    "speaker": "Sacks",
+    "text_en": "I think that's the type of thing that we should be thinking about. So first of all, I want to say that both Anthropic and OpenAI acted responsibly here. No one was trying to release these super powerful models. So in a way, all the people who are saying that we need pre-release approvals for models, they're trying to solve a problem that didn't exist.",
+    "text": "我觉得这才是我们应该思考的方向。首先我想说，Anthropic 和 OpenAI 在这件事上的处理都很负责任。没有人想把这些超级强大的模型直接放出来。所以某种程度上，那些说我们需要在模型发布前先审批的人，其实是在试图解决一个并不存在的问题。"
+  },
+  {
+    "start": 2875.412,
+    "end": 2875.712,
+    "speaker": "Chamath",
+    "text_en": "They",
+    "text": "他们"
+  },
+  {
+    "start": 2875.712,
+    "end": 2875.812,
+    "speaker": "Sacks",
+    "text_en": "Anthropic",
+    "text": "Anthropic"
+  },
+  {
+    "start": 2875.812,
+    "end": 2876.012,
+    "speaker": "Chamath",
+    "text_en": "self",
+    "text": "自我"
+  },
+  {
+    "start": 2876.012,
+    "end": 2876.212,
+    "speaker": "Sacks",
+    "text_en": "wasn't,",
+    "text": "并没有，"
+  },
+  {
+    "start": 2876.212,
+    "end": 2877.512,
+    "speaker": "Chamath",
+    "text_en": "-regulated, which",
+    "text": "监管，也就是"
+  },
+  {
+    "start": 2877.512,
+    "end": 2877.812,
+    "speaker": "Sacks",
+    "text_en": "Anthropic",
+    "text": "Anthropic"
+  },
+  {
+    "start": 2877.812,
+    "end": 2877.962,
+    "speaker": "Chamath",
+    "text_en": "is",
+    "text": "是"
+  },
+  {
+    "start": 2877.962,
+    "end": 2878.062,
+    "speaker": "Sacks",
+    "text_en": "wasn't",
+    "text": "并不是"
+  },
+  {
+    "start": 2878.062,
+    "end": 2878.312,
+    "speaker": "Chamath",
+    "text_en": "the ideal",
+    "text": "理想的"
+  },
+  {
+    "start": 2878.312,
+    "end": 2878.712,
+    "speaker": "Sacks",
+    "text_en": "trying to release",
+    "text": "想要发布"
+  },
+  {
+    "start": 2878.712,
+    "end": 2878.762,
+    "speaker": "Chamath",
+    "text_en": "situation.",
+    "text": "情况。"
+  },
+  {
+    "start": 2878.762,
+    "end": 2883.064,
+    "speaker": "Sacks",
+    "text_en": "this. OpenAI wasn't trying to release this. They all understood the power and they were all acting. all acted responsibly",
+    "text": "这个。OpenAI 也不是想要发布这个。他们都明白这里面的威力，而且他们的行为都很负责任。"
+  },
+  {
+    "start": 2883.064,
+    "end": 2889.814,
+    "speaker": "Jason",
+    "text_en": "They understood the ramifications acts they would have been sued so there is a self-policing going on here Which is the ultimate way to do this",
+    "text": "他们明白这样做会带来什么后果，不然他们早就被起诉了。所以这里其实存在一种自我约束，而这才是处理这件事的最佳方式。"
+  },
+  {
+    "start": 2890.114,
+    "end": 2909.564,
+    "speaker": "Sacks",
+    "text_en": "yes and but to your point shamath yeah look i think that before giving your api for a super powerful model you should not give that to a company or an actor you don't know who they are so yeah some basic kyc makes sense they should know who they're giving these tools to and i guess my view on the mythos preview and whatever the equivalent is of",
+    "text": "对，但说到你这个点，Chamath，是这样，我觉得在把一个超强模型的 API 提供出去之前，你不该把它交给一家你根本不了解的公司，或者一个你不知道是谁的行为主体。所以，做一些基础的 KYC 是有道理的，他们应该知道自己把这些工具交给了谁。至于我对 Mythos preview 以及"
+  },
+  {
+    "start": 2909.588,
+    "end": 2923.288,
+    "speaker": "Sacks",
+    "text_en": "of what open AI is doing is that we very rapidly need to get these tools into the hands of more good guys. You need to know who those good guys are. You need to know who they are. So yeah, KYC is like a predicate for that, right?",
+    "text": "OpenAI 在做的对应那套东西的看法是，我们得非常快地把这些工具交到更多好人手里。你得知道这些好人是谁。你得知道他们是谁。所以没错，KYC 算是这个前提条件，对吧？"
+  },
+  {
+    "start": 2923.288,
+    "end": 2923.638,
+    "speaker": "Jason",
+    "text_en": "And",
+    "text": "而且"
+  },
+  {
+    "start": 2923.638,
+    "end": 2923.788,
+    "speaker": "Sacks",
+    "text_en": "You got",
+    "text": "你得"
+  },
+  {
+    "start": 2923.788,
+    "end": 2923.888,
+    "speaker": "Jason",
+    "text_en": "just",
+    "text": "就是"
+  },
+  {
+    "start": 2923.888,
+    "end": 2924.238,
+    "speaker": "Sacks",
+    "text_en": "to know who they are.",
+    "text": "知道他们是谁。"
+  },
+  {
+    "start": 2924.238,
+    "end": 2938.488,
+    "speaker": "Jason",
+    "text_en": "to be clear, we'd all agree that if you did have identity for those frontier models, which they're probably doing anyway right now, and you logged what people were doing with them to look for security breaches, that wouldn't necessarily happen when you released it to the public because of. Because of privacy issues.",
+    "text": "说清楚一点，我们应该都会同意，如果你对那些前沿模型掌握了用户身份——他们现在大概率本来也在这么做——并且记录人们如何使用这些模型，以便查找安全漏洞，那么一旦你把它向公众开放，这种做法就未必还能继续，因为隐私问题。"
+  },
+  {
+    "start": 2938.588,
+    "end": 2956.932,
+    "speaker": "Jason",
+    "text_en": "Here's your poly market For Trump ordering a federal review of AI models by May 31st, 21% chance, I think, to our partner at Polymarket, man, I got to get in here. I don't, do I have inside information here being the world's greatest moderator on this podcast or I can, can I collect this money, Chamath? What am I going to do here?",
+    "text": "这是你在 Polymarket 上看到的盘口：Trump 要求在 5 月 31 日前对 AI 模型进行联邦审查，概率是 21%。我得说，感谢我们的合作伙伴 Polymarket，哥们，我得进去下注了。我这算不算有内幕信息啊，毕竟我是这个播客里全世界最强的主持人，还是说我能把这钱赚了，Chamath？我这该怎么办？"
+  },
+  {
+    "start": 2956.932,
+    "end": 2959.882,
+    "speaker": "Sacks",
+    "text_en": "I would not do not do not place a bet, J.K.L.",
+    "text": "我不会，不会，不会下注的，J.K.L。"
+  },
+  {
+    "start": 2959.882,
+    "end": 2960.732,
+    "speaker": "Jason",
+    "text_en": "Don't place a bet.",
+    "text": "别下注。"
+  },
+  {
+    "start": 2960.732,
+    "end": 2962.182,
+    "speaker": "Sacks",
+    "text_en": "Don't place a bet. But in",
+    "text": "别下注。不过在——"
+  },
+  {
+    "start": 2962.182,
+    "end": 2962.332,
+    "speaker": "Jason",
+    "text_en": "Don't",
+    "text": "别——"
+  },
+  {
+    "start": 2962.332,
+    "end": 2962.632,
+    "speaker": "Sacks",
+    "text_en": "any place way,",
+    "text": "不管怎么说，"
+  },
+  {
+    "start": 2962.632,
+    "end": 2962.782,
+    "speaker": "Jason",
+    "text_en": "a to bet.",
+    "text": "——下注。"
+  },
+  {
+    "start": 2962.782,
+    "end": 2966.132,
+    "speaker": "Sacks",
+    "text_en": "Chamath's point, I mean, look, I think we're kind of workshopping this in real time.",
+    "text": "Chamath 的观点是，我是说，你看，我觉得我们有点像是在实时推敲这件事。"
+  },
+  {
+    "start": 2966.232,
+    "end": 2966.482,
+    "speaker": "Jason",
+    "text_en": "We",
+    "text": "我们——"
+  },
+  {
+    "start": 2966.482,
+    "end": 2966.632,
+    "speaker": "Sacks",
+    "text_en": "I",
+    "text": "我"
+  },
+  {
+    "start": 2966.632,
+    "end": 2966.882,
+    "speaker": "Jason",
+    "text_en": "are, which",
+    "text": "是，我觉得这"
+  },
+  {
+    "start": 2966.882,
+    "end": 2966.932,
+    "speaker": "Sacks",
+    "text_en": "think",
+    "text": "觉得"
+  },
+  {
+    "start": 2966.932,
+    "end": 2967.132,
+    "speaker": "Jason",
+    "text_en": "is good.",
+    "text": "挺好的。"
+  },
+  {
+    "start": 2967.132,
+    "end": 2971.208,
+    "speaker": "Sacks",
+    "text_en": "that I think that for the preview period. We should definitely have KYC. Maybe",
+    "text": "我觉得在预览期内，我们肯定应该做 KYC。也许"
+  },
+  {
+    "start": 2971.208,
+    "end": 2971.658,
+    "speaker": "Jason",
+    "text_en": "What about",
+    "text": "那"
+  },
+  {
+    "start": 2971.658,
+    "end": 2971.808,
+    "speaker": "Sacks",
+    "text_en": "once",
+    "text": "一旦"
+  },
+  {
+    "start": 2971.808,
+    "end": 2972.208,
+    "speaker": "Jason",
+    "text_en": "logging?",
+    "text": "登录呢？"
+  },
+  {
+    "start": 2972.208,
+    "end": 2972.308,
+    "speaker": "Sacks",
+    "text_en": "you're",
+    "text": "你们已经"
+  },
+  {
+    "start": 2972.308,
+    "end": 2972.958,
+    "speaker": "Jason",
+    "text_en": "What about logging?",
+    "text": "那日志记录呢？"
+  },
+  {
+    "start": 2972.958,
+    "end": 2983.256,
+    "speaker": "Sacks",
+    "text_en": "past the preview period and it's in general release. I'm not sure if the KYC matters as much because so many people are going to have it. But during the preview period, there should be KYC.",
+    "text": "过了预览期之后，它就正式全面发布了。我不确定到那时候 KYC 还有没有那么重要，因为会有很多人都能用到它。但在预览期内，应该要有 KYC。"
+  },
+  {
+    "start": 2983.256,
+    "end": 3007.516,
+    "speaker": "Jason",
+    "text_en": "Let me just say one thing. All the labs are already tracking API use, okay, and anything suspicious because there are major anti-destillation efforts going on by all the labs. There's a ton of coordination going on with the government. There's way more happening, I think, in terms about API and API use and anything suspicious is being... being flagged and being shared with the government.",
+    "text": "我就说一点。所有实验室其实都已经在追踪 API 的使用情况了，明白吗？任何可疑行为也都在盯着，因为所有实验室现在都在大力做反蒸馏工作。大家和政府之间也有大量协作。关于 API、API 的使用，以及任何可疑情况，实际上已经有更多动作在进行了……这些都会被标记出来，并且共享给政府。"
+  },
+  {
+    "start": 3007.566,
+    "end": 3027.132,
+    "speaker": "Jason",
+    "text_en": "So the idea that we have no idea who's doing it, I think is not the case. And in fact, in some cases, we may want to allow people to use it so that we can see exactly the types of things that they are extracting. So I would just, I would say we're already down that path, but better coordination. may in fact be called for.",
+    "text": "所以，说我们完全不知道是谁在做这些事，我觉得并不是这样。事实上，在某些情况下，我们甚至可能希望允许他们继续使用，这样我们才能准确看到他们到底在提取什么类型的东西。所以我的意思是，我们其实已经走在这条路上了，不过确实可能需要更好的协调。"
+  },
+  {
+    "start": 3027.132,
+    "end": 3044.432,
+    "speaker": "Sacks",
+    "text_en": "And just one last point on this whole thing is I just want to build on my point that free release approvals of solving a problem that didn't really exist because, again, Anthropic and OpenAI weren't trying to release these models yet is that there is a substantial faction of, let's say, AI ideologues or doomers who.",
+    "text": "关于这整件事，最后我再补充一点。我想接着我刚才的观点说：提前批准发布，其实是在解决一个原本并不存在的问题，因为再说一次，Anthropic 和 OpenAI 当时其实并不打算发布这些模型。问题在于，有相当一部分人——姑且称他们为 AI 意识形态派或者末日派——他们"
+  },
+  {
+    "start": 3045.62,
+    "end": 3056.72,
+    "speaker": "Sacks",
+    "text_en": "are basically employing the classic never let a crisis go to waste strategy, right? That yes, we do have this cyber issue that is real. You know, everyone needs to harden their systems now over",
+    "text": "基本上就是在采用那种经典的“绝不浪费一场危机”的策略，对吧？没错，我们现在确实有一个真实存在的网络安全问题。你知道的，接下来"
+  },
+  {
+    "start": 3057.12,
+    "end": 3070.814,
+    "speaker": "Sacks",
+    "text_en": "the next three to six months. That is a real issue. But that is a problem that we will solve over the next six months. We have to. But what they're trying to do is use that. issue to try and create a permanent new infrastructure in Washington. Again,",
+    "text": "未来三到六个月里，所有人都得加固自己的系统。这确实是个真实问题。但这也是我们会在接下来六个月内解决的问题。我们必须解决。但他们想做的，是利用这个问题，试图在 Washington 建立一套永久性的新基础设施。还是那句话，"
+  },
+  {
+    "start": 3070.914,
+    "end": 3085.174,
+    "speaker": "Sacks",
+    "text_en": "I don't think that's not the administration's intention. That's not the administration's agenda. But you saw a lot of people on social media, a lot of the think tanks and even Bernie Sanders weighed in. And he said, for the first time, I like something that the",
+    "text": "我不认为那是政府的意图，也不是政府的议程。但你也看到社交媒体上很多人、很多智库，甚至连 Bernie Sanders 都出来表态了。他说，这是他第一次喜欢这个"
+  },
+  {
+    "start": 3085.174,
+    "end": 3085.524,
+    "speaker": "Jason",
+    "text_en": "This",
+    "text": "这届"
+  },
+  {
+    "start": 3085.524,
+    "end": 3085.624,
+    "speaker": "Sacks",
+    "text_en": "Trump",
+    "text": "Trump"
+  },
+  {
+    "start": 3085.624,
+    "end": 3085.674,
+    "speaker": "Jason",
+    "text_en": "is",
+    "text": "政府"
+  },
+  {
+    "start": 3085.674,
+    "end": 3086.474,
+    "speaker": "Sacks",
+    "text_en": "administration wants to",
+    "text": "想要"
+  },
+  {
+    "start": 3086.474,
+    "end": 3086.524,
+    "speaker": "Jason",
+    "text_en": "The",
+    "text": "做的事。"
+  },
+  {
+    "start": 3086.524,
+    "end": 3086.624,
+    "speaker": "Sacks",
+    "text_en": "do.",
+    "text": "。"
+  },
+  {
+    "start": 3086.624,
+    "end": 3096.574,
+    "speaker": "Jason",
+    "text_en": "administration understands the 1% of the 1% of tax and everybody understand that this is out of control. The AI is going to take the jobs. They're going to take my summer home. It's going to be terrible.",
+    "text": "政府明白，那1%里的1%的税，还有所有人都明白这事已经失控了。AI 要来抢工作了，他们还要把我的避暑别墅也拿走，太可怕了。"
+  },
+  {
+    "start": 3097.074,
+    "end": 3101.474,
+    "speaker": "Sacks",
+    "text_en": "So there are people who have this agenda. Look, Bernie Sanders just wants to stop the progress. I mean,",
+    "text": "所以确实有些人抱着这种议程。你看，Bernie Sanders 就是想阻止进步。我的意思是，"
+  },
+  {
+    "start": 3101.474,
+    "end": 3101.524,
+    "speaker": "Jason",
+    "text_en": "Of",
+    "text": "当"
+  },
+  {
+    "start": 3101.524,
+    "end": 3102.074,
+    "speaker": "Sacks",
+    "text_en": "he wants",
+    "text": "然，他想"
+  },
+  {
+    "start": 3102.074,
+    "end": 3102.324,
+    "speaker": "Jason",
+    "text_en": "course I",
+    "text": "我确实"
+  },
+  {
+    "start": 3102.324,
+    "end": 3102.474,
+    "speaker": "Sacks",
+    "text_en": "to ban",
+    "text": "去禁止"
+  },
+  {
+    "start": 3102.474,
+    "end": 3102.624,
+    "speaker": "Jason",
+    "text_en": "do.",
+    "text": "是的。"
+  },
+  {
+    "start": 3102.624,
+    "end": 3115.494,
+    "speaker": "Sacks",
+    "text_en": "data centers. He put out a bunch of – he basically has bought into the whole Doomer narrative. So, look, that's why he likes the FDA. idea is because it would put the kibosh on innovation",
+    "text": "数据中心。他抛出了一堆——他基本上已经完全接受了那套“末日派”的叙事。所以你看，这就是为什么他会喜欢 FDA 那套想法，因为那会直接扼杀创新。"
+  },
+  {
+    "start": 3115.494,
+    "end": 3115.544,
+    "speaker": "Jason",
+    "text_en": "It's",
+    "text": "这"
+  },
+  {
+    "start": 3115.544,
+    "end": 3115.994,
+    "speaker": "Sacks",
+    "text_en": "and",
+    "text": "还有"
+  },
+  {
+    "start": 3115.994,
+    "end": 3120.244,
+    "speaker": "Jason",
+    "text_en": "enough already. Let's have a go back to paper and pen. It was a better society, Sachs.",
+    "text": "差不多得了。咱们还是回到纸和笔吧。那时候的社会更好，Sachs。"
+  },
+  {
+    "start": 3120.344,
+    "end": 3121.344,
+    "speaker": "Chamath",
+    "text_en": "Jason, what do you think?",
+    "text": "Jason，你怎么看？"
+  },
+  {
+    "start": 3121.544,
+    "end": 3134.936,
+    "speaker": "Jason",
+    "text_en": "I think there's two really interesting things I want to build on here. The first is your point, Chamath, around how do we turn around this sort of. Bad vibes around AI. I think we have to have two strategies here.",
+    "text": "我觉得这里有两点特别有意思，我想接着展开。第一点是你刚才说的，Chamath，关于我们该怎么扭转大家对 AI 的这种负面观感。我觉得这里得有两套策略。"
+  },
+  {
+    "start": 3134.986,
+    "end": 3159.676,
+    "speaker": "Jason",
+    "text_en": "One is giving what you've been working on, Brad, with your project. We should see more people giving. There's no reason why NVIDIA, SpaceX, when they go public, Anthropik, when they go public, OpenAI, if and when they go public or if they stay as a nonprofit. There's no reason those folks in an IPO couldn't give a portion of the IPO to every American citizen. So IPOK, IPO for kids, they all take.",
+    "text": "第一，就是推进你一直在做的那个项目，Brad。我们应该看到更多人站出来捐赠。NVIDIA、SpaceX 上市的时候，Anthropic 上市的时候，OpenAI 如果将来上市，或者就算它继续保持非营利组织，也没有理由不这么做。我的意思是，这些公司在 IPO 的时候，完全可以拿出一部分份额分给每一个美国公民。所以就是 IPOK，给孩子们的 IPO，大家都能分到一点。"
+  },
+  {
+    "start": 3160.148,
+    "end": 3173.748,
+    "speaker": "Jason",
+    "text_en": "you know, whatever it is, 5%, 1%, whatever they choose, and they put it into the Invest America accounts. And we should see some major giving from the people who are becoming trillionaires, 100 billionaires, whatever it happens to be. There's no reason not to.",
+    "text": "你知道，不管是多少，5%、1%，随他们自己定，然后把这部分放进 Invest America 账户里。我们也应该看到那些正在变成万亿富豪、千亿富豪的人，做出一些大规模捐赠。不管最后是谁，都没有理由不这么做。"
+  },
+  {
+    "start": 3173.898,
+    "end": 3186.998,
+    "speaker": "Jason",
+    "text_en": "But those people haven't been doing that. We had this giving pledge, which was a little bit of virtue signaling, and it wasn't real. It was just, you know, at the end of your life, you promise to give away half your money. So let's have something real. Let's have something where, you know, people say, I'm going to give away 1% of my.",
+    "text": "但这些人一直没这么干。之前那个“捐赠誓言”多少有点作秀，不算真格的。说白了就是，你临终前承诺把自己一半的钱捐出去。所以我们得来点真的。我们得要那种人们会说，我接下来要拿出我手里 1% 的——"
+  },
+  {
+    "start": 3186.932,
+    "end": 3206.116,
+    "speaker": "Jason",
+    "text_en": "For my stock over the next 20 years of my life, every year, 1% will go into Invest America, whatever it is, it won't cost anybody anything. You can't spend this money, whether it's Bezos or whoever. Second. In that same thing in terms of giving back, we have not talked about how massive this could be for health and extending people's life and reducing suffering.",
+    "text": "我未来 20 年里，每年都会把自己 1% 的股票放进 Invest America，不管具体怎么设计，这对任何人都不算什么负担。这笔钱你本来也花不掉，不管是 Bezos 还是谁。第二，同样从回馈社会这个角度讲，我们还没有讨论过，这件事对医疗健康、延长寿命、减少痛苦，可能会带来多么巨大的影响。"
+  },
+  {
+    "start": 3206.266,
+    "end": 3219.016,
+    "speaker": "Jason",
+    "text_en": "We need to work on that. That's where contributions to basic science could come in and obviously education and lowering the cost of education. And if you look at what Americans on the bottom half, you were talking about the cup half empty,",
+    "text": "我们得在这方面下功夫。这也是基础科学投入能发挥作用的地方，当然还有教育，以及降低教育成本。如果你看美国底层那一半人，你刚才说的是“杯子有一半是空的”那种视角。"
+  },
+  {
+    "start": 3219.066,
+    "end": 3231.144,
+    "speaker": "Jason",
+    "text_en": "there's really two or three things they really feel anxiety about. One of it is income and the second is health care. And on the margins, housing and their kids, you know, their kids education,",
+    "text": "他们真正焦虑的其实就两三件事。第一是收入，第二是医疗保健。再往边上说，还有住房和孩子，比如孩子的教育。"
+  },
+  {
+    "start": 3231.244,
+    "end": 3243.144,
+    "speaker": "Jason",
+    "text_en": "the cost of those things, we should really take a look deeply at and I know this is very unpopular amongst capitalists, including myself, we should really look at the minimum wage and study what happened in New Zealand, Sweden, Switzerland.",
+    "text": "这些东西的成本，我们真的应该认真深入地研究一下。我知道这在资本主义者里很不受欢迎，包括我自己在内，但我们确实应该看看最低工资，也研究一下 New Zealand、Sweden、Switzerland。"
+  },
+  {
+    "start": 3244.148,
+    "end": 3252.698,
+    "speaker": "Jason",
+    "text_en": "or Australia when they raised it. What actually happened when they raised it, and there was a lot of hand wringing about it, but when they slowly raised it, what they found was those consumers don't save money, they spend it,",
+    "text": "或者 Australia 在提高最低工资之后到底发生了什么。大家当时对此有很多担忧，但他们缓慢上调之后发现，这些消费者不会把钱存起来，他们会花掉。"
+  },
+  {
+    "start": 3252.748,
+    "end": 3266.148,
+    "speaker": "Jason",
+    "text_en": "they're always behind the eight ball in terms of their spending. We should opt in to trying to raise the minimum wage company by company by company and just give people who are at the end of the spectrum that understanding that,",
+    "text": "他们在消费上一直都很吃紧。我们应该主动去尝试，一家公司一家公司地提高最低工资，给那些处在社会光谱末端的人一种确定感，让他们知道。"
+  },
+  {
+    "start": 3266.248,
+    "end": 3277.638,
+    "speaker": "Jason",
+    "text_en": "hey, year over year, whether it's Amazon or Target, et cetera, restaurants, we're all collectively going to add a little bit to that minimum wage and try to lift the bottom third of society.",
+    "text": "嘿，不管是 Amazon 还是 Target，等等，还有餐馆，我们都可以一起每年给最低工资再往上加一点，努力把社会最底部的三分之一往上托一托。"
+  },
+  {
+    "start": 3278.038,
+    "end": 3286.438,
+    "speaker": "Jason",
+    "text_en": "That's the stuff we're not talking about. We don't talk about it here on this podcast. We don't talk about universal health care. We don't talk about the minimum wage, but that's what capitalists should be talking about.",
+    "text": "这些才是我们没有在谈的事。我们在这个播客里不谈这些。我们不谈全民医保，也不谈最低工资，但这些恰恰是资本主义者应该谈的。"
+  },
+  {
+    "start": 3286.588,
+    "end": 3295.888,
+    "speaker": "Jason",
+    "text_en": "And if we did that, if we increase the minimum wage, and I'm not a socialist, I'm a capitalist who think this is good for capitalism. If we increase the minimum wage just modestly each year.",
+    "text": "如果我们这么做，如果我们提高最低工资——我不是社会主义者，我是个资本主义者，而且我认为这对资本主义有好处——如果我们每年只是小幅提高最低工资。"
+  },
+  {
+    "start": 3296.5,
+    "end": 3306.25,
+    "speaker": "Jason",
+    "text_en": "And we opted into doing that and we figured out a way to give universal health care. Companies wouldn't have to deal with universal health care and we would have customers and we're a customer driven economy like 60,",
+    "text": "而且我们也选择去做这件事，并且想出了一个办法来提供全民医保。公司就不用再为全民医保操心了，而我们也会有更多消费者。我们的经济是由消费者驱动的，大概有 60%,"
+  },
+  {
+    "start": 3306.35,
+    "end": 3319.75,
+    "speaker": "Jason",
+    "text_en": "70, 80 percent of what happens in this country is driven by the consumer. We need consumer spending. It's great for companies if we had more people being able to buy Netflix or order on Amazon. Anyway, that's my that's my TED talk. Thanks for coming.",
+    "text": "70%、80% 的经济活动都是由消费者驱动的。我们需要消费支出。如果有更多人买得起 Netflix，或者能在 Amazon 下单，对公司来说是大好事。总之，这就是我的 TED 演讲。感谢大家来听。"
+  },
+  {
+    "start": 3319.85,
+    "end": 3323.45,
+    "speaker": "Sacks",
+    "text_en": "How do we get from AI to the minimum wage? I'm still a little because bit confused.",
+    "text": "我们怎么从 AI 讲到最低工资了？我还是有点……有点没搞明白。"
+  },
+  {
+    "start": 3323.45,
+    "end": 3330.702,
+    "speaker": "Jason",
+    "text_en": "of the black. Guy, no, the black eye we have in this country with polarization of wealth and people scared of losing their jobs. We should look",
+    "text": "是因为这个国家在财富两极分化，以及人们害怕失业这件事上，形象很差。不，我们应该看看"
+  },
+  {
+    "start": 3330.702,
+    "end": 3330.752,
+    "speaker": "Sacks",
+    "text_en": "I",
+    "text": "我"
+  },
+  {
+    "start": 3330.752,
+    "end": 3330.952,
+    "speaker": "Jason",
+    "text_en": "at why",
+    "text": "为什么"
+  },
+  {
+    "start": 3330.952,
+    "end": 3331.152,
+    "speaker": "Sacks",
+    "text_en": "agree.",
+    "text": "同意。"
+  },
+  {
+    "start": 3331.152,
+    "end": 3332.202,
+    "speaker": "Jason",
+    "text_en": "are they scared,",
+    "text": "他们会害怕，"
+  },
+  {
+    "start": 3332.202,
+    "end": 3332.252,
+    "speaker": "Sacks",
+    "text_en": "I",
+    "text": "我"
+  },
+  {
+    "start": 3332.252,
+    "end": 3332.652,
+    "speaker": "Jason",
+    "text_en": "David?",
+    "text": "David？"
+  },
+  {
+    "start": 3332.652,
+    "end": 3332.752,
+    "speaker": "Sacks",
+    "text_en": "agree.",
+    "text": "同意。"
+  },
+  {
+    "start": 3332.752,
+    "end": 3346.802,
+    "speaker": "Jason",
+    "text_en": "And I've talked to you privately and you said to me privately, you can strike this if you want, but you said to me privately, you wouldn't be against necessarily figuring out a way to do universal health care if there was a way to do it. You want to see every human have health care, yes?",
+    "text": "而且我私下也跟你聊过，你私下跟我说过，这段你要想删也可以，但你私下确实跟我说过，如果能找到办法的话，你并不一定反对想办法搞全民医保。你是希望每个人都能有医疗保障的，对吧？"
+  },
+  {
+    "start": 3348.244,
+    "end": 3353.294,
+    "speaker": "Sacks",
+    "text_en": "Sure. I mean, the issue is not the desirability of it. It's the cost. I mean, and",
+    "text": "当然。我的意思是，问题不在于这件事好不好，而在于成本。我的意思是，而且"
+  },
+  {
+    "start": 3353.294,
+    "end": 3353.744,
+    "speaker": "Jason",
+    "text_en": "So you're",
+    "text": "所以你是"
+  },
+  {
+    "start": 3353.744,
+    "end": 3353.944,
+    "speaker": "Sacks",
+    "text_en": "also,",
+    "text": "也是，"
+  },
+  {
+    "start": 3353.944,
+    "end": 3356.194,
+    "speaker": "Jason",
+    "text_en": "a great entrepreneur of our time. How would you do it?",
+    "text": "我们这个时代最伟大的企业家之一。你会怎么做？"
+  },
+  {
+    "start": 3356.194,
+    "end": 3356.294,
+    "speaker": "Sacks",
+    "text_en": "I",
+    "text": "我"
+  },
+  {
+    "start": 3356.294,
+    "end": 3357.044,
+    "speaker": "Jason",
+    "text_en": "Have you given any",
+    "text": "你有没有认真想过"
+  },
+  {
+    "start": 3357.044,
+    "end": 3357.194,
+    "speaker": "Sacks",
+    "text_en": "don't know.",
+    "text": "不知道。"
+  },
+  {
+    "start": 3357.194,
+    "end": 3357.394,
+    "speaker": "Jason",
+    "text_en": "thought to",
+    "text": "这个问题"
+  },
+  {
+    "start": 3357.394,
+    "end": 3357.544,
+    "speaker": "Sacks",
+    "text_en": "I haven't",
+    "text": "我还没"
+  },
+  {
+    "start": 3357.544,
+    "end": 3357.744,
+    "speaker": "Jason",
+    "text_en": "it?",
+    "text": "吗？"
+  },
+  {
+    "start": 3357.744,
+    "end": 3368.676,
+    "speaker": "Sacks",
+    "text_en": "studied that issue. So I don't know. I just know that like the countries. I remember what PJ O'Rourke once said, which is, if you think health care is expensive now, just wait until you make it free.",
+    "text": "研究过那个问题，所以我不知道。我只知道，就像那些国家的情况一样。我记得 PJ O'Rourke 以前说过一句话：如果你觉得现在的医疗保健已经很贵了，那就等到你把它变成免费的再看吧。"
+  },
+  {
+    "start": 3370.026,
+    "end": 3370.776,
+    "speaker": "Jason",
+    "text_en": "Yeah, more consumption.",
+    "text": "对，消费会更多。"
+  },
+  {
+    "start": 3370.776,
+    "end": 3374.976,
+    "speaker": "Sacks",
+    "text_en": "So you take away all the incentives and you have an even bigger problem. Let me what just do you think make a one.",
+    "text": "所以你把所有激励都拿掉，问题只会更大。让我先说一个点。"
+  },
+  {
+    "start": 3374.976,
+    "end": 3375.976,
+    "speaker": "Jason",
+    "text_en": "minimum wage? Yeah, go ahead.",
+    "text": "最低工资？对，你继续。"
+  },
+  {
+    "start": 3375.976,
+    "end": 3388.726,
+    "speaker": "Sacks",
+    "text_en": "Well, let me just get back to AI. Listen, you guys are right about the unpopularity of AI. We've all seen those polls, but I want to just put up this additional poll that came out about the salience of this issue,",
+    "text": "好，我还是回到 AI 这个话题。听着，你们说 AI 不受欢迎，这点没错。那些民调我们都看过了，但我还想补充一份刚出来的民调，讲的是这个议题的显著性，"
+  },
+  {
+    "start": 3388.776,
+    "end": 3403.46,
+    "speaker": "Sacks",
+    "text_en": "which is how important do people think it is? And AI ranked 29 out of 39. So although AI is not very popular, it is certainly not top of mind for voters. It's not in the top 10 issues. It's not in the top 20 issues. What is top of mind for voters?",
+    "text": "也就是人们觉得这件事到底有多重要。AI 在 39 个议题里排第 29。所以虽然 AI 确实不太受欢迎，但它显然也不是选民最关心的事。它不在前 10，也不在前 20。那选民最关心的是什么？"
+  },
+  {
+    "start": 3403.56,
+    "end": 3417.71,
+    "speaker": "Sacks",
+    "text_en": "Number one, cost of living. Number two, the economy. And we know that AI is deflationary. It helps with the cost of living and it's creating an economic boom right now. Okay. It's 75% of GDP growth in Q1.",
+    "text": "第一，生活成本。第二，经济。而我们知道，AI 是有通缩效应的。它有助于降低生活成本，而且现在正在带来一波经济繁荣。好吧，第一季度 GDP 增长里有 75% 都来自这个。"
+  },
+  {
+    "start": 3417.78,
+    "end": 3431.584,
+    "speaker": "Sacks",
+    "text_en": "By the way, that economic growth is not just limited to startups in Silicon Valley. We're seeing a construction boom. We're seeing a blue collar boom. We're seeing 25 to 30% wage increases for construction workers. And so on down the line.",
+    "text": "顺便说一句，这种经济增长不只是局限于 Silicon Valley 的创业公司。我们看到建筑业在繁荣，蓝领岗位也在繁荣。建筑工人的工资涨幅达到了 25% 到 30%。诸如此类。"
+  },
+  {
+    "start": 3431.584,
+    "end": 3434.934,
+    "speaker": "Jason",
+    "text_en": "And Brad, if you look at that chart, there's health care in there too.",
+    "text": "还有，Brad，如果你看那张图，里面也包括医疗保健。"
+  },
+  {
+    "start": 3434.934,
+    "end": 3447.134,
+    "speaker": "Sacks",
+    "text_en": "So look, my point is that AI may not be popular, but the effects of it actually are popular if the media would honestly report what was happening, which is AI is creating an economic boom right now.",
+    "text": "所以你看，我的意思是，AI 也许本身不受欢迎，但如果媒体能如实报道正在发生的事，它带来的效果其实是受欢迎的，因为 AI 现在确实正在创造一波经济繁荣。"
+  },
+  {
+    "start": 3447.134,
+    "end": 3469.708,
+    "speaker": "Jason",
+    "text_en": "It couldn't be better said, David. You know, Bernie Sanders calling for a moratorium shutting out all data centers. We'd have negative GDP growth this year. The stock market would be down 15 to 20 percent. Unemployment would be on the rise. You know, there is a consequence to the government controlling through command and control the economy. In 1929, we had 4% unemployment. Three years later,",
+    "text": "这话说得再到位不过了，David。你看，Bernie Sanders 号召搞暂停令，把所有数据中心都挡在门外。那我们今年的 GDP 增长就会变成负的。股市会跌 15% 到 20%。失业率会上升。你知道，政府用这种命令式、管控式的方式来控制经济，是会有后果的。1929 年的时候，我们的失业率是 4%。三年之后，"
+  },
+  {
+    "start": 3469.808,
+    "end": 3483.858,
+    "speaker": "Jason",
+    "text_en": "unemployment was 23% because government got involved in regulating everything and shutting down, you know, what was working. That is the greatest threat we have here. AI is delivering huge net benefits today in terms of unemployment rate,",
+    "text": "失业率到了 23%，因为政府开始介入，什么都要监管，还把原本运转良好的东西关停了。这才是我们现在面临的最大威胁。AI 现在已经带来了巨大的净收益，从失业率的角度来说，"
+  },
+  {
+    "start": 3483.908,
+    "end": 3493.308,
+    "speaker": "Jason",
+    "text_en": "in terms of economic growth and productivity growth. We need to tell the story. But to Chamath's earlier point, we also need to deliver net benefits. Jason, thanks for the shout out. Yes,",
+    "text": "从经济增长和生产率增长的角度来说都是如此。我们得把这个故事讲清楚。但就像 Chamath 前面说的，我们也得真正交付净收益。Jason，感谢你提到我。没错，"
+  },
+  {
+    "start": 3493.358,
+    "end": 3504.908,
+    "speaker": "Jason",
+    "text_en": "every American having an investment account that compounds with the upside of AI, we're going to do that, going to deliver that, and that's going to be massive. But I also think ideas like if we're going to put a data center in Abilene, Texas,",
+    "text": "让每个美国人都拥有一个能随着 AI 上行红利不断复利增长的投资账户，我们会去做这件事，会把它落地，而这会是非常巨大的。但我也觉得，像这样的一些想法——如果我们要在 Texas 的 Abilene 建一个数据中心，"
+  },
+  {
+    "start": 3505.058,
+    "end": 3514.308,
+    "speaker": "Jason",
+    "text_en": "let's make electricity in Abilene free for the households in Abilene, Texas, right? There are ideas that can deliver net benefits. We got to deliver those. I think we're.",
+    "text": "那就让 Texas 的 Abilene 当地家庭用电免费，对吧？是有一些办法能真正带来净收益的。我们必须把这些做出来。我觉得我们——"
+  },
+  {
+    "start": 3514.42,
+    "end": 3516.87,
+    "speaker": "Unknown",
+    "text_en": "optimism will be on the march i think we're in the trough right",
+    "text": "乐观情绪会一路高涨，我觉得我们现在正处在低谷，对吧"
+  },
+  {
+    "start": 3516.87,
+    "end": 3517.07,
+    "speaker": "Jason",
+    "text_en": "What's",
+    "text": "什么？"
+  },
+  {
+    "start": 3517.07,
+    "end": 3517.42,
+    "speaker": "Unknown",
+    "text_en": "now you",
+    "text": "现在你"
+  },
+  {
+    "start": 3517.42,
+    "end": 3526.97,
+    "speaker": "Jason",
+    "text_en": "your take on minimum wage and universal health care, Brad? How do you think about it as a capitalist, as an innovator and in the face of AI, which could have a dramatic impact on these issues?",
+    "text": "Brad，你怎么看最低工资和全民医保？作为一个资本主义者、一个创新者，尤其是在 AI 可能会对这些议题产生巨大影响的背景下，你是怎么思考的？"
+  },
+  {
+    "start": 3528.67,
+    "end": 3540.22,
+    "speaker": "Unknown",
+    "text_en": "know like sacks i you know to me i haven't spent a ton of time thinking about those except that as a society we're 38 trillion dollars in debt we haven't been able to afford to deliver those things i generally think the market works out those",
+    "text": "你知道，像 Sacks 一样，对我来说，我其实没花太多时间去想这些问题。只是说，作为一个社会，我们已经背了 38 万亿美元的债务，我们一直都负担不起去提供这些东西。我总体上觉得，这些问题通常还是市场比政府更能解决。"
+  },
+  {
+    "start": 3540.884,
+    "end": 3569.784,
+    "speaker": "Unknown",
+    "text_en": "issues better than the government top down trying to you know the government gets more and more involved in health care and the only thing that happens it gets more expensive so we've all seen the charts of the most expensive categories where we've had inflation education health care etc it's where the government's involved i actually think if you just let the markets work we're entering into an age of abundance a lot of these problems are going to be solved people are going to have a lot of ai coaches in health care and education etc let the market work government stay at bay keep things safe you",
+    "text": "比起政府自上而下地去干预这些事，市场处理得更好。你知道，政府在医疗保健里介入得越来越深，结果唯一发生的事就是它变得越来越贵。所以我们都看过那些图表，最贵、通胀最严重的几个类别——教育、医疗保健等等——恰恰都是政府介入的地方。我其实觉得，如果你就让市场自己运转，我们正在进入一个物资充裕的时代，这里面很多问题都会被解决。人们会在医疗、教育等领域拥有大量 AI 教练。让市场发挥作用，政府别插手太多，把安全守住就行。"
+  },
+  {
+    "start": 3569.556,
+    "end": 3570.606,
+    "speaker": "Unknown",
+    "text_en": "Hey, we're on a good march.",
+    "text": "嘿，我们现在走在一条不错的路上。"
+  },
+  {
+    "start": 3570.856,
+    "end": 3571.656,
+    "speaker": "Jason",
+    "text_en": "I think this.",
+    "text": "我觉得这——"
+  },
+  {
+    "start": 3572.5,
+    "end": 3599.9,
+    "speaker": "Jason",
+    "text_en": "proves my point perfectly if you talk to any founder they're not thinking about housing they're not thinking about higher education costs they're not thinking about minimum wage you know and they're not thinking about health care all that often some some do though there's some innovation there and it's because it's so regulated that entrepreneurs and vcs are just like that's kryptonite the government has poisoned the well we can't participate in that and that's the roadblock and that's where americans are suffering and that's where it would be great if founders actually put their minds to it in the government",
+    "text": "这恰恰完美证明了我的观点：如果你去跟任何一个创始人聊，他们不会在想住房问题，不会在想高等教育成本，不会在想最低工资，你知道的，他们也不会经常去想医疗保健。当然也有一些人在想，那里确实也有一些创新。但正因为这些领域监管太重了，创业者和 VC 都会觉得，那简直就是氪石。政府已经把这口井给毒坏了，我们根本没法参与。这就是路障，这也是美国人正在受苦的地方。而如果创始人们真的愿意把心思放到这些问题上，那就太好了；同时政府这边"
+  },
+  {
+    "start": 3600.0,
+    "end": 3626.69,
+    "speaker": "Jason",
+    "text_en": "Instruments got to get rid of all that regulation and let us cook in those specific verticals. All right. The market is in hyperdrive. Hyperscaler revenue has made the markets move up. We hit on this briefly, but we didn't have you here. Fifth best EBITDA, cloud computing, Onatare, I referenced it earlier, but AWS is now in $150 billion run rate, Azure 108 billion, GCP, Google Cloud, 80 billion.",
+    "text": "也得把那些监管工具统统清掉，让我们在这些垂直领域里放手去干。好吧。现在市场已经进入超高速状态了。超大规模云厂商的营收推动了市场上涨。我们之前简短提过这个，但当时你不在。EBITDA 排名前五，云计算，Onatare，我前面提到过，AWS 现在的年化收入已经到了 1500 亿美元，Azure 是 1080 亿美元，GCP，也就是 Google Cloud，是 800 亿美元。"
+  },
+  {
+    "start": 3626.79,
+    "end": 3638.534,
+    "speaker": "Jason",
+    "text_en": "There's a little bit of fun with numbers there because Azure and Microsoft include some of their software products in there and Google Cloud includes things like Google Office or Google Suite in there. But the growth numbers are tremendous. AWS,",
+    "text": "这里面在数字上有一点小花活，因为 Azure 和 Microsoft 把他们的一些软件产品也算进去了，而 Google Cloud 也把像 Google Office 或 Google Suite 这样的东西算在里面。但增长数字确实非常惊人。AWS，"
+  },
+  {
+    "start": 3638.634,
+    "end": 3663.184,
+    "speaker": "Jason",
+    "text_en": "which is the more pure play of the three, 28% growth on a very big number. Azure, 39%. Google Cloud stunning everybody with 63% growth. It is incredible what the ARR numbers are. Google Cloud at 10, AWS 10, Azure 9.5. So basically 30 billion collectively. Jammin Ball, who works for you, I think put out some data on the Twitter.",
+    "text": "这三家里业务最纯的一家，在很大的基数上还实现了 28% 的增长。Azure 是 39%，Google Cloud 更是以 63% 的增长震惊了所有人。它们的 ARR 数字真是惊人。Google Cloud 是 10，AWS 10，Azure 9.5。也就是说，合计基本上有 300 亿。你那边的 Jammin Ball，我记得他在 Twitter 上发过一些数据。"
+  },
+  {
+    "start": 3663.316,
+    "end": 3691.516,
+    "speaker": "Jason",
+    "text_en": "sure brad markets at all times high all-time highs max seven cooking uber blowing out growth disney blowing out growth the consumer seems absurdly strong based on those two bellwethers tech seems extremely strong based on the cloud computing what's your take on the overall market and overall economy obviously inflation up a bit people hand-wringing about the never-ending war and the cost of oil",
+    "text": "当然，Brad，市场一直在创历史新高，Max 7 表现火热，Uber 的增长大超预期，Disney 的增长也大超预期。看这两个风向标，消费者似乎强得离谱；看云计算这边，科技行业也显得极其强劲。你怎么看整体市场和整体经济？当然，通胀是有点抬头，大家也在为这场看不到尽头的战争和油价成本忧心忡忡。"
+  },
+  {
+    "start": 3692.084,
+    "end": 3706.584,
+    "speaker": "Jason",
+    "text_en": "Let's just telescope way up. The level of criticism directed to this administration, tariffs were going to cause hyperinflation, we're going to destroy GDP, conflicts in Venezuela and Iran, we're going to do the same.",
+    "text": "我们把视角拉高一点来看。针对这一届政府的批评声量很大，说关税会导致恶性通胀，会毁掉 GDP，委内瑞拉和伊朗的冲突也会带来同样的结果。"
+  },
+  {
+    "start": 3707.034,
+    "end": 3724.008,
+    "speaker": "Jason",
+    "text_en": "We've heard all of the negative stories, but what's happening? Accelerating GDP, a 10-year that's sitting at 4.3, inflation totally under control. AI, AI, AI, compute, compute, compute. We're leading the world. It's contributing massively, right,",
+    "text": "这些负面说法我们都听过了，但实际发生了什么？GDP 在加速增长，10 年期国债收益率在 4.3，通胀完全受控。AI、AI、AI，算力、算力、算力。我们正在引领世界。这显然正在对国家的 GDP 增长作出巨大贡献，对吧。"
+  },
+  {
+    "start": 3724.108,
+    "end": 3739.908,
+    "speaker": "Jason",
+    "text_en": "to GDP growth in the country. We see the S&P only up 8% this year, right? So we're not into bubble territory here. Meta's trading at 17 times fully tax gap earnings. NVIDIA at 19 times. Microsoft at 20 times. Google at 24 times.",
+    "text": "我们看到标普今年也只涨了 8%，对吧？所以现在还远没到泡沫区间。Meta 的 fully taxed GAAP earnings 倍数是 17 倍，NVIDIA 是 19 倍，Microsoft 是 20 倍，Google 是 24 倍。"
+  },
+  {
+    "start": 3740.108,
+    "end": 3755.676,
+    "speaker": "Jason",
+    "text_en": "And then the memory stocks that everybody's excited about, we have 25% of our. Kind of our portfolio in S.K. Hynek's, five times fully taxed gap earnings, Samsung six times, Micron seven times, right? This is not the stuff that bubbles are made of.",
+    "text": "然后是大家都很兴奋的存储芯片股，我们大概有 25% 的仓位在 S.K. Hynek's，fully taxed GAAP earnings 只有 5 倍，Samsung 6 倍，Micron 7 倍，对吧？这可不是泡沫会有的那种东西。"
+  },
+  {
+    "start": 3755.726,
+    "end": 3767.276,
+    "speaker": "Jason",
+    "text_en": "You know, David referenced it earlier. We started the year OpenAI and Anthropic were doing combined about 30 billion in revenue. Now combined four months later, 80 billion in revenue.",
+    "text": "你知道，David 前面提到过。年初的时候，OpenAI 和 Anthropic 合计大概是 300 亿收入。结果四个月后，两家合计已经到 800 亿收入了。"
+  },
+  {
+    "start": 3767.892,
+    "end": 3784.742,
+    "speaker": "Chamath",
+    "text_en": "The policies of this administration on the economy are working. They're working in spades. Our gap on the rest of the world in AI is growing. And so from my perspective, you know, we've been all in on the market. I talked about it earlier in the year. We're heavily tilted",
+    "text": "这一届政府的经济政策是有效的，而且是非常有效。我们在 AI 上相对世界其他地区的领先优势还在扩大。所以从我的角度看，你知道的，我们一直都是重仓市场。我在今年早些时候就说过，我们的配置明显偏向"
+  },
+  {
+    "start": 3784.742,
+    "end": 3789.044,
+    "speaker": "Jason",
+    "text_en": "When did about. you make that switch to go all in on the market? Because you were bearish. All",
+    "text": "你大概是什么时候转向、开始全面押注市场的？因为你之前是看空的。整体上。"
+  },
+  {
+    "start": 3789.044,
+    "end": 3800.994,
+    "speaker": "Chamath",
+    "text_en": "I right. would say toward the end of last year, the market had run up a lot. We had a lot of these questions. Listen, entering this year, there was a huge question hanging over the market. Would the AI revenue show up?",
+    "text": "对。我会说是在去年年底左右，当时市场已经涨了很多。我们当时也被问了很多这样的问题。你看，进入今年的时候，市场上悬着一个很大的问题：AI 的收入到底会不会兑现？"
+  },
+  {
+    "start": 3801.716,
+    "end": 3813.066,
+    "speaker": "Chamath",
+    "text_en": "If the anthropic revenues hadn't shown up and we didn't see this reacceleration out of the hyperscalers, the market would be down 10 to 15 percent because people would say there's no ROI on all So of this investment",
+    "text": "如果 Anthropic 的收入没有体现出来，而且我们也没看到这些 hyperscalers 再次加速增长，那市场现在会跌 10% 到 15%，因为大家会说，这么多投资根本没有 ROI。"
+  },
+  {
+    "start": 3813.066,
+    "end": 3813.766,
+    "speaker": "Jason",
+    "text_en": "you would have been bearish",
+    "text": "那你本来就会看空，"
+  },
+  {
+    "start": 3813.766,
+    "end": 3814.116,
+    "speaker": "Chamath",
+    "text_en": "in infrastructure.",
+    "text": "是在基础设施这块。"
+  },
+  {
+    "start": 3814.116,
+    "end": 3814.816,
+    "speaker": "Jason",
+    "text_en": "that case or whatever.",
+    "text": "在那种情况下之类的。"
+  },
+  {
+    "start": 3814.816,
+    "end": 3828.716,
+    "speaker": "Chamath",
+    "text_en": "Exactly. When I saw the numbers start showing up in December and into January, we went from medium to large in terms of our exposures and 80 percent of our exposures or more have been in compute AI, memory, et cetera.",
+    "text": "没错。当我看到 12 月到 1 月这些数据开始出来时，我们的仓位敞口就从中等加到了较大，而且我们 80% 以上的敞口都放在了算力、AI、内存这些方向。"
+  },
+  {
+    "start": 3828.756,
+    "end": 3840.106,
+    "speaker": "Jason",
+    "text_en": "And this is why it's great to operate in the private market and the public market, because you can see things in the private markets that inform the public markets. But the question remains, Brad, how much better would the economy have been doing?",
+    "text": "这也就是为什么同时做私募市场和公开市场很棒，因为你能在私募市场里看到一些东西，从而帮助判断公开市场。但问题还是在，Brad，经济本来还能表现得多好？"
+  },
+  {
+    "start": 3841.076,
+    "end": 3849.376,
+    "speaker": "Jason",
+    "text_en": "You know, as much credit as you're giving to the administration if they didn't start a hundred billion dollar war that we did not need to go into, according to all reports.",
+    "text": "你知道，虽然你把很多功劳都归给了这届政府，但如果他们当初没有发动那场根本没必要打、据各种报道花了一千亿美元的战争的话。"
+  },
+  {
+    "start": 3849.576,
+    "end": 3864.276,
+    "speaker": "Jason",
+    "text_en": "And if we didn't do a bunch of tariffs that wound up being unconstitutional by the Supreme Court, which Trump himself put in, we would have been further ahead. That's my take on it. We would be ripping even more if we didn't have those silly",
+    "text": "还有，如果我们没搞那一堆最后被最高法院判定违宪的关税——而且还是 Trump 自己加上的——我们现在本来会走得更靠前。这就是我的看法。要是没有那些愚蠢的"
+  },
+  {
+    "start": 3864.276,
+    "end": 3864.576,
+    "speaker": "Chamath",
+    "text_en": "Jason,",
+    "text": "Jason，"
+  },
+  {
+    "start": 3864.576,
+    "end": 3864.876,
+    "speaker": "Jason",
+    "text_en": "diversions.",
+    "text": "岔子。"
+  },
+  {
+    "start": 3864.876,
+    "end": 3884.25,
+    "speaker": "Chamath",
+    "text_en": "it's hard to imagine, okay, just to set up again here. It's hard to imagine a more Goldilocks situation for the United States of America. We have reset the table geopolitically. The discount rate globally is actually coming down, not going up, evidenced by markets at all time high and the bond market in control.",
+    "text": "很难想象还有比现在对 United States of America 更理想的局面了。我们已经在地缘政治上重新洗牌了。全球贴现率实际上是在下降，不是在上升，这一点从市场创历史新高以及债券市场保持稳定就能看出来。"
+  },
+  {
+    "start": 3884.35,
+    "end": 3896.084,
+    "speaker": "Chamath",
+    "text_en": "And then look at the private markets. We have multiple trillion dollar companies that have been created in the private markets that are now coming public. SpaceX coming public is going to be a multi-trillion dollar. With,",
+    "text": "再看看私募市场。我们已经在私募市场里创造出了多家万亿美元公司，现在它们正要上市。SpaceX 一旦上市，市值会是好几万亿美元级别的。再加上，"
+  },
+  {
+    "start": 3896.084,
+    "end": 3896.234,
+    "speaker": "Jason",
+    "text_en": "it's this",
+    "text": "这也太"
+  },
+  {
+    "start": 3896.234,
+    "end": 3902.634,
+    "speaker": "Chamath",
+    "text_en": "you know, open AI and throughout, it's like at some point you just have to acknowledge USA is winning. Of",
+    "text": "你知道，还有 OpenAI 等等，放眼整个市场，某个时刻你就是得承认，美国正在赢。"
+  },
+  {
+    "start": 3902.634,
+    "end": 3902.834,
+    "speaker": "Jason",
+    "text_en": "course,",
+    "text": "当然，"
+  },
+  {
+    "start": 3902.834,
+    "end": 3904.084,
+    "speaker": "Chamath",
+    "text_en": "course, there are always things",
+    "text": "当然，总是有些事情"
+  },
+  {
+    "start": 3904.084,
+    "end": 3904.234,
+    "speaker": "Jason",
+    "text_en": "100",
+    "text": "百分之百"
+  },
+  {
+    "start": 3904.234,
+    "end": 3911.634,
+    "speaker": "Chamath",
+    "text_en": "that we could be doing better, but there's not a country on the world that wouldn't trade all of its fortune for the United States fortune today.",
+    "text": "是我们本可以做得更好的，但当今世界上没有哪个国家不愿意拿自己全部的国运来换美国的国运。"
+  },
+  {
+    "start": 3911.634,
+    "end": 3927.678,
+    "speaker": "Jason",
+    "text_en": "% in agreement, American exceptionalism as embodied by the great companies in America, SpaceX, Google, et cetera, all the ones we've been talking here, that is the story. And I give. give infinite credit to this administration for being business friendly. I do think they've made two critical mistakes.",
+    "text": "我百分之百同意。美国例外主义体现在美国这些伟大的公司身上，SpaceX、Google 等等，还有我们刚才一直在聊的那些公司，这才是核心故事。而且我得给本届政府无限的肯定，因为他们对商业很友好。不过我确实觉得他们犯了两个关键错误。"
+  },
+  {
+    "start": 3927.778,
+    "end": 3937.828,
+    "speaker": "Jason",
+    "text_en": "I think the tariffs were poorly executed and I think we shouldn't have gone to this war and we should find a quick resolution to it, which the administration seems to be desperately doing. Zach, your take on the economy.",
+    "text": "我觉得关税执行得很糟，而且我觉得我们本不该打这场战争，我们应该尽快找到解决办法，而政府看起来也正在拼命这么做。Zach，你怎么看经济？"
+  },
+  {
+    "start": 3938.868,
+    "end": 3952.668,
+    "speaker": "Sacks",
+    "text_en": "Well, look, we have an AI boom going on right now, and I think that's thanks to President Trump's policies. Remember, the first week he was in office, he rescinded the Biden policies on chips and models. And what were those policies? It was the approval regime that we're talking about.",
+    "text": "你看，我们现在正处在一波 AI 繁荣之中，我认为这要归功于 Trump 总统的政策。别忘了，他上任第一周就撤销了 Biden 在芯片和模型方面的政策。那些政策是什么？就是我们刚才说的那套审批制度。"
+  },
+  {
+    "start": 3953.268,
+    "end": 3967.268,
+    "speaker": "Sacks",
+    "text_en": "Models would have to go to Washington to get approved if they were trained with some number of flops. And then every sale of a GPU worldwide would have to be licensed from Washington unless it fit into some narrow exemptions. The whole approach of the Biden administration",
+    "text": "如果模型训练用了达到某个 flops 数量级的算力，就必须去 Washington 申请批准。然后，全球范围内每一笔 GPU 销售，除非落入某些很窄的豁免范围，否则都得从 Washington 获得许可。Biden 政府的整套做法"
+  },
+  {
+    "start": 3967.618,
+    "end": 3981.868,
+    "speaker": "Sacks",
+    "text_en": "that President Trump inherited was everything approved in Washington. He rescinded that. He declared that we had to win the AI race and he unleashed our companies to do that. Now, one other really important thing is energy. Remember,",
+    "text": "Trump 总统接手时，华盛顿那套获批的东西全都还在。他把那些都撤销了。他宣布我们必须赢下 AI 竞赛，并且放开手让我们的公司去做这件事。还有另外一个非常重要的点，就是能源。记住，"
+  },
+  {
+    "start": 3982.018,
+    "end": 4001.394,
+    "speaker": "Sacks",
+    "text_en": "it was this president going back a decade who said drill baby drill. He said we have to unleash American energy. That's the basis for the American economy. It's also the basis for AI. He also has said that he wanted to allow our AI companies to become energy companies so they could bring their own power to these data centers so they're not drawing off the grid.",
+    "text": "早在十年前，这位总统就在说“drill baby drill”。他说我们必须释放美国的能源潜力。这是美国经济的基础，也是 AI 的基础。他还说过，希望允许我们的 AI 公司变成能源公司，这样它们就能给这些数据中心自带电力，而不是从电网取电。"
+  },
+  {
+    "start": 4001.544,
+    "end": 4022.114,
+    "speaker": "Sacks",
+    "text_en": "They're not competing with consumers for electricity. They're generating their own power. And it's thanks to this president that we have seen this blue collar construction boom right now, powering all this infrastructure. What would the alternative have been? We know I mean Bernie Sanders has said it would have been banned on data centers. So I think",
+    "text": "它们不是在和普通消费者争抢电力，而是在自己发电。也正是多亏了这位总统，我们现在才看到了这波蓝领建筑热潮，为所有这些基础设施提供支撑。那另一种选择会是什么？我们知道，我是说，Bernie Sanders 说过要禁止数据中心。所以我觉得"
+  },
+  {
+    "start": 4022.114,
+    "end": 4022.464,
+    "speaker": "Jason",
+    "text_en": "Raise taxes,",
+    "text": "加税，"
+  },
+  {
+    "start": 4022.464,
+    "end": 4023.314,
+    "speaker": "Sacks",
+    "text_en": "you need to give credit where",
+    "text": "该给的功劳还是得给"
+  },
+  {
+    "start": 4023.314,
+    "end": 4023.564,
+    "speaker": "Jason",
+    "text_en": "ban data",
+    "text": "禁止数据"
+  },
+  {
+    "start": 4023.564,
+    "end": 4023.714,
+    "speaker": "Sacks",
+    "text_en": "it's due",
+    "text": "到该给的人"
+  },
+  {
+    "start": 4023.714,
+    "end": 4037.114,
+    "speaker": "Jason",
+    "text_en": "centers. That would be a much worse choice. Chamath, I'll give you the last word here as we wrap on the economy generally. I think the markets are going to keep going up for a while. And then at some point they're going to go down.",
+    "text": "中心。那会是糟糕得多的选择。Chamath，关于整体经济，我们收尾前最后一句给你。我觉得市场还会继续涨一阵子。然后到了某个时候，它们也会跌下来。"
+  },
+  {
+    "start": 4038.664,
+    "end": 4049.172,
+    "speaker": "Jason",
+    "text_en": "Okay. I wrote it down, Chamath. You said markets are up. And then eventually they're going to come down. Those are the two things up and we put a U here and then a D here.",
+    "text": "好，我记下来了，Chamath。你是说市场现在在涨，然后最终还会跌下来。就这两点，一个涨，我们这儿写个 U，然后这儿写个 D。"
+  },
+  {
+    "start": 4049.422,
+    "end": 4050.122,
+    "speaker": "Sacks",
+    "text_en": "I think",
+    "text": "我觉得"
+  },
+  {
+    "start": 4050.122,
+    "end": 4050.372,
+    "speaker": "Jason",
+    "text_en": "Got it.",
+    "text": "懂了。"
+  },
+  {
+    "start": 4050.372,
+    "end": 4052.422,
+    "speaker": "Sacks",
+    "text_en": "you're doing an impression of the",
+    "text": "你这是在模仿那个"
+  },
+  {
+    "start": 4052.422,
+    "end": 4053.122,
+    "speaker": "Jason",
+    "text_en": "taking Up and notes down.",
+    "text": "记“涨”和“跌”的笔记。"
+  },
+  {
+    "start": 4053.122,
+    "end": 4054.372,
+    "speaker": "Sacks",
+    "text_en": "emoji. Is that what you're doing?",
+    "text": "emoji，是吧？你是在干这个吗？"
+  },
+  {
+    "start": 4054.572,
+    "end": 4068.172,
+    "speaker": "Jason",
+    "text_en": "Yes. Okay. Up and down. Wow. Thank you for tuning into All In, where you can get your great calls and market action advice. It's going to go up and then down, folks. Act accordingly. Come on, no seriousness. But what makes you bullish,",
+    "text": "对。好，涨和跌。哇，感谢大家收听 All In，在这里你能听到各种神准判断和市场操作建议。各位，接下来就是先涨后跌。自己看着办吧。拜托，别这么严肃。不过，是什么让你看多呢，"
+  },
+  {
+    "start": 4068.322,
+    "end": 4076.576,
+    "speaker": "Jason",
+    "text_en": "you know, let's say in the next six months, 12 months, catalysts, and then what do you think? What do you think the headwinds are as well? Let's take the, you know, the short to midterm six months to two years.",
+    "text": "比如说，未来六个月、十二个月，有哪些催化因素？另外你觉得阻力又是什么？我们就聊聊短中期吧，大概六个月到两年。"
+  },
+  {
+    "start": 4077.876,
+    "end": 4102.702,
+    "speaker": "Freeberg",
+    "text_en": "I think that in the short term, the people that makes the new thing needs to get valued and needs to demonstrate value. So who are the people making the new thing? It's the NVIDIAs, it's the memory makers, it's the anthropics, it's the SpaceXes, and it's the OpenAIs. But eventually it all comes home to roost.",
+    "text": "我觉得短期来看，创造新东西的人必须被市场认可，也必须证明自己的价值。那谁是在创造这些新东西的人？是 NVIDIA，是做存储芯片的厂商，是 Anthropic，是 SpaceX，也是 OpenAI。但最终一切都得回归现实。"
+  },
+  {
+    "start": 4104.402,
+    "end": 4120.952,
+    "speaker": "Freeberg",
+    "text_en": "And you can't just make things for a market who then doesn't have a measurable benefit themselves. To be very clear and blunt, there is literally not a scintilla of evidence that AI has helped lift the operating margins of the S&P 500.",
+    "text": "你不能只是给一个市场造东西，而这个市场本身却得不到可衡量的收益。说得再直白一点，目前根本没有哪怕一丁点证据表明，AI 帮助提升了标普 500 企业的营业利润率。"
+  },
+  {
+    "start": 4122.068,
+    "end": 4143.668,
+    "speaker": "Freeberg",
+    "text_en": "There's all kinds of bluster. There's going to be an important fork in the road. It's probably two or three years from now. One path will be OPEX shrinks, hence margins increase. And the other path is revenues grow and margins expand and OPEX stays flat, or maybe it even goes up. Those two things are very important differences because in the former...",
+    "text": "现在各种宣传和吹风都有。接下来会来到一个很关键的分岔路口，大概就在两三年后。一条路是 OPEX 缩减，因此利润率上升。另一条路是营收增长、利润率扩大，而 OPEX 保持不变，甚至可能还会上升。这两种情况差别非常大，因为前一种……"
+  },
+  {
+    "start": 4144.084,
+    "end": 4165.084,
+    "speaker": "Freeberg",
+    "text_en": "you're talking about shrinking workforce and shrinking OPEX as a percentage of operating margin and revenue. In the latter, you're actually growing through it. The answer to that question, I think, is critical about how the markets will respond and how society will respond. So I think we have kind of call it 500 days where you just got to be net long,",
+    "text": "你说的是员工规模收缩，以及 OPEX 占营业利润和营收的比例下降。而后一种，其实是靠增长穿越过去。我觉得这个问题的答案，对市场会怎么反应、社会会怎么反应，都至关重要。所以我觉得，差不多可以说接下来 500 天里，你还是得保持净多头仓位，"
+  },
+  {
+    "start": 4165.184,
+    "end": 4180.248,
+    "speaker": "Freeberg",
+    "text_en": "but I think it's literally in the hundreds of days from now. 500. You're going to have to have an important reckoning moment. The people that are paying for all these tokens need to see it in actual benefit.",
+    "text": "但我觉得真的就是从现在起几百天内，大概 500 天，你会迎来一个重要的清算时刻。那些为这些 token 买单的人，必须看到实实在在的收益。"
+  },
+  {
+    "start": 4180.648,
+    "end": 4182.398,
+    "speaker": "Jason",
+    "text_en": "Yeah, that's reasonable. Yeah.",
+    "text": "对，这很合理。对。"
+  },
+  {
+    "start": 4182.398,
+    "end": 4201.58,
+    "speaker": "Sacks",
+    "text_en": "That's a really interesting point. Let me connect a couple of dots here between something Jamal said and what Brad said, which is. At the beginning of the year, we went into this year with this massive capex, this massive investment infrastructure, but people weren't sure that the ROI was going to be there in terms of model revenue. And that was true. And then the model revenue has proven out.",
+    "text": "这个观点特别有意思。我把 Jamal 说的和 Brad 说的两件事串起来看一下。就是，今年年初的时候，我们带着巨额 capex、巨额基础设施投资进入这一年，但当时大家并不确定，从模型收入的角度看，ROI 是否真的能成立。这一点确实存在。而后来，模型收入已经被证明出来了。"
+  },
+  {
+    "start": 4201.68,
+    "end": 4222.766,
+    "speaker": "Sacks",
+    "text_en": "And now what Samantha is saying is that we're going to be at another fork in the road soon in terms of whether there's going to be ROI. On all those tokens that are being sold and generating the revenue for those model companies. And I agree with you that that is not proven out yet, but I'm optimistic that it is going to be proven out. And otherwise, you wouldn't be seeing enterprises",
+    "text": "而现在 Samantha 的意思是，很快我们又会来到另一个分岔路口：那些被卖出去、并为这些模型公司带来收入的 token，最终到底能不能产生 ROI。我同意你的看法，这一点目前还没有被证明，但我对此是乐观的，我觉得它最终会被证明出来。否则的话，你也不会看到企业客户"
+  },
+  {
+    "start": 4222.766,
+    "end": 4224.016,
+    "speaker": "Freeberg",
+    "text_en": "Look, I listen.",
+    "text": "你看，我在听。"
+  },
+  {
+    "start": 4224.016,
+    "end": 4244.608,
+    "speaker": "Sacks",
+    "text_en": "continue to buy. Hold on, let me just explain. You wouldn't be seeing enterprise continue their month-over-month spend. on coding tokens if they didn't feel like the ROI was going to be there but you make a good point which is what is the impact on the economy going to be When all of this new software, this bespoke software that's being created through, again,",
+    "text": "还会继续买。等等，让我解释一下。如果企业觉得拿不到 ROI，你就不会看到他们在 coding tokens 上的月度支出还在持续增长。不过你提了个很好的问题，就是当这些新的软件、这些定制化软件，通过——还是那句话——"
+  },
+  {
+    "start": 4244.658,
+    "end": 4261.958,
+    "speaker": "Sacks",
+    "text_en": "all these coding tokens that are being bought, it's going to power a wave of productivity like I think we've never seen before. So I think what you're seeing is the ROI is getting sort of trickling down from infrastructure to model to application to end user. And I think it's going to create an economic boom.",
+    "text": "通过购买的这些 coding tokens 被创造出来之后，它将推动一波我觉得前所未见的生产力浪潮。所以我认为你现在看到的是，ROI 正在从基础设施层传导到模型层，再到应用层，最后到终端用户。我觉得这会带来一场经济繁荣。"
+  },
+  {
+    "start": 4262.058,
+    "end": 4266.908,
+    "speaker": "Jason",
+    "text_en": "I got it. I'm with you, Sax. This is deja vu all over again. We watched this happen with the PC revolution.",
+    "text": "我懂了。我同意你，Sacks。这一幕简直似曾相识。我们在 PC 革命时就见过这种情况。"
+  },
+  {
+    "start": 4266.964,
+    "end": 4295.614,
+    "speaker": "Jason",
+    "text_en": "evolution the internet revolution cloud revolution mobile revolution we had all this hand ringing will this ever pay off should i build an app should i build a website should i not should i move to the cloud should i keep it on prem all of these questions over and over and over again and then they went from question marks to exclamation points i can tell you inside of my firm we have started we were using agents then we started building code and i've got three people on the team who are making all the interfaces and products that a 22 person investment firm should not be making internally they should be using sas software",
+    "text": "还有互联网革命、云革命、移动革命。每次大家都在焦虑：这东西到底能不能回本？我要不要做个 app？要不要建个网站？要不要迁到云上？还是继续放在本地部署？这些问题一遍又一遍地出现，最后全都从问号变成了惊叹号。我可以告诉你，在我的公司内部，我们一开始在用 agents，后来开始自己写代码。现在我团队里有三个人，正在做各种界面和产品——一个 22 人的投资机构本来根本不该内部做这些，按理说他们应该直接用 SaaS 软件。"
+  },
+  {
+    "start": 4295.604,
+    "end": 4306.104,
+    "speaker": "Jason",
+    "text_en": "and they are shipping product day in and day out the ROI is fait accompli Brad it is fait accompli I think this has been decided I think it's been decided you",
+    "text": "但他们每天都在持续交付产品。ROI 已经是既成事实了，Brad，已经是既成事实了。我觉得这件事已经定了，我觉得已经定了，你——"
+  },
+  {
+    "start": 4306.104,
+    "end": 4309.104,
+    "speaker": "Freeberg",
+    "text_en": "It has not been decided at all. It has not been decided at all.",
+    "text": "根本还没定。根本还没定。"
+  },
+  {
+    "start": 4309.304,
+    "end": 4322.604,
+    "speaker": "Jason",
+    "text_en": "have 80 90 you're working with the big enterprises I invest in 100 startups a year I work with the small ones it is fait accompli with startups they are building software they're shipping they are getting massive value from these tokens and they're getting so much value that they don't have to add",
+    "text": "你接触的是 80、90 家大企业，你是在跟大企业打交道；我一年投 100 家 startup，我接触的是小公司。对 startup 来说，这已经是既成事实了。他们在构建软件，在持续发布，从这些 tokens 里拿到了巨大的价值，而且价值大到他们根本不需要再增加"
+  },
+  {
+    "start": 4323.156,
+    "end": 4336.456,
+    "speaker": "Jason",
+    "text_en": "You know, but half the number of employees that they would with the same amount of capital, they're getting further with less money. It is working in startup land. I don't know what's happening at 80-90. You would have a better picture, obviously, of the enterprise. Tell us what you see there.",
+    "text": "你知道的，用同样多的资本，他们雇的人只有原来的一半，却能把事情推进得更远，花更少的钱做成更多事。这在创业公司那边是行得通的。至于 80-90 那些大公司现在是什么情况，我不太清楚。你显然更了解企业端。跟我们说说你看到的情况。"
+  },
+  {
+    "start": 4336.456,
+    "end": 4368.914,
+    "speaker": "Freeberg",
+    "text_en": "I mean, our business is doing well, but what I'm trying to get across to you guys is that you can't will profits to go up. Okay. So ultimately what happens is I'm just going to take a company randomly. Anheuser-Busch. They have to eventually sell more beer. Okay? Take Nike. They ultimately have to sell more shoes. Take the medical devices company. They have to sell more artificial hips and knees.",
+    "text": "我的意思是，我们的业务做得不错，但我想让你们明白的是，利润不是你想涨就能涨的。好吧。归根结底会发生什么呢，我随便举家公司，Anheuser-Busch，他们最终还是得卖出更多啤酒。好吧？再看 Nike，他们最终还是得卖出更多鞋。再看医疗器械公司，他们还是得卖出更多人工髋关节和膝关节。"
+  },
+  {
+    "start": 4369.214,
+    "end": 4396.668,
+    "speaker": "Freeberg",
+    "text_en": "So the point I'm trying to get across is right now there's an enormous amount of very constructive and creative experimentation. But I think what is also true is a lot of that has not yet proven value. I don't think that means it's going to stop. All I'm just trying to say is until a company can trace very directly, I spent X and I made Y where Y is now greater than X and it's lifted my margins.",
+    "text": "所以我想表达的重点是，现在确实有大量非常积极、非常有创造性的实验在进行。但我认为同样真实的是，其中很多还没有证明价值。我不觉得这意味着它会停止。我只是想说，在一家公司能够非常直接地追踪到：我投入了 X，赚回了 Y，而且现在 Y 大于 X，并且还提升了我的利润率之前，"
+  },
+  {
+    "start": 4398.168,
+    "end": 4421.49,
+    "speaker": "Freeberg",
+    "text_en": "That is the thing that causes the flywheel to spin faster. And right now we've started the first part of that equation. We've spent the X and we have not seen the Y. You would see it in global GDP. You haven't. You would see it in global productivity. You haven't. You would see it in the global profit margins of the S&P 500. We haven't. It doesn't mean it's not coming.",
+    "text": "真正能让飞轮转得更快的，就是这件事。而现在我们只完成了这个等式的前半部分。我们花了 X，但还没看到 Y。你本该能在全球 GDP 里看到它，但你没有。你本该能在全球生产率里看到它，但你没有。你本该能在 S&P 500 整体的全球利润率里看到它，但我们也没有看到。这不代表它不会到来。"
+  },
+  {
+    "start": 4421.49,
+    "end": 4438.14,
+    "speaker": "Jason",
+    "text_en": "Brad, you want to pick up on this? Because I'm definitely taking the other side of it because I'm seeing with a lot of these companies, massive lowering of costs, their ads are getting more effective at the same time they've stopped hiring, they're not adding positions in a lot of cases, and things like just pick the Nike example.",
+    "text": "Brad，你想接着说说吗？因为我显然是站在另一边的。我看到很多公司成本大幅下降，广告效果也在变得更好，同时他们停止招聘了，很多情况下也不再增加编制。再比如就拿 Nike 这个例子来说。"
+  },
+  {
+    "start": 4438.932,
+    "end": 4452.282,
+    "speaker": "Jason",
+    "text_en": "A lot of the photo shoots they used to do for their app, excuse me, a lot of the imagery they used to make, now they're able to make more of it without having to hire photographers and do that stuff. I know this example because we have a startup that does this specifically for brands like Nike.",
+    "text": "他们以前为了 app 做的很多拍摄，抱歉，应该说他们以前要制作的很多图片素材，现在不用雇摄影师、也不用折腾那些事，就能做出更多了。我知道这个例子，是因为我们有一家创业公司就是专门给 Nike 这类品牌做这个的。"
+  },
+  {
+    "start": 4452.432,
+    "end": 4474.022,
+    "speaker": "Jason",
+    "text_en": "They've seen a massive drop. We have one that helped DoorDash with their food pictures. All those pictures used to have to be taken by photographers. Now it's all done by AI. Massive reduction in cost. And they're using ads and ad creative now that is double-digit percentage more effective. while costing half as much. So I definitely think we're seeing it on the earnings, but is that true?",
+    "text": "他们已经看到了巨大的下降。我们还有一家帮 DoorDash 处理食物图片的公司。那些图片以前都得靠摄影师去拍，现在全都由 AI 完成。成本大幅下降。而且他们现在用的广告和广告创意，效果提升了两位数百分比，成本却只要原来的一半。所以我确实觉得我们已经能从财报里看到这种变化了，但这是真的吗？"
+  },
+  {
+    "start": 4474.122,
+    "end": 4476.472,
+    "speaker": "Jason",
+    "text_en": "Are you seeing it in the earnings of these companies yet?",
+    "text": "你现在已经能从这些公司的财报里看出来了吗？"
+  },
+  {
+    "start": 4476.472,
+    "end": 4502.818,
+    "speaker": "Chamath",
+    "text_en": "Yeah, so two data points. Number one, we just saw Azure grow 39% in the quarter. We saw Google Cloud grow 63% in the quarter. Headcount growth for those companies the last three years, Mag5 combined, is about 3%. So their operating margins are all expanding. If you look at the S&P 500 writ large. large in Q1 of 24 operating margins were about 11.8%. That was up from 11% in 23.",
+    "text": "对，所以有两个数据点。第一，我们刚看到 Azure 这个季度增长了 39%。Google Cloud 这个季度增长了 63%。而这些公司过去三年的员工人数增长，Mag5 合起来大概只有 3%。所以它们的营业利润率都在扩大。如果你看整个 S&P 500，24 年第一季度的营业利润率大概是 11.8%，高于 23 年的 11%。"
+  },
+  {
+    "start": 4503.068,
+    "end": 4512.368,
+    "speaker": "Chamath",
+    "text_en": "This year, they're 13%. So we've had a 200 basis point improvement in the operating margins of the S&P 500, which is massive,",
+    "text": "今年则到了 13%。也就是说，S&P 500 的营业利润率提升了 200 个基点，这个幅度非常大。"
+  },
+  {
+    "start": 4512.368,
+    "end": 4513.518,
+    "speaker": "Freeberg",
+    "text_en": "Do you think that's AI?",
+    "text": "你觉得这是 AI 带来的吗？"
+  },
+  {
+    "start": 4513.518,
+    "end": 4519.468,
+    "speaker": "Chamath",
+    "text_en": "Across those businesses. And Chamath, I think that that's the question where it could dovetail",
+    "text": "在这些业务里都是这样。Chamath，我觉得这正是问题所在，也就是两者可能会在这里衔接上。"
+  },
+  {
+    "start": 4519.468,
+    "end": 4520.018,
+    "speaker": "Freeberg",
+    "text_en": "I'll bet you with dollars",
+    "text": "我愿意拿钱打赌"
+  },
+  {
+    "start": 4520.018,
+    "end": 4520.268,
+    "speaker": "Chamath",
+    "text_en": "what you're",
+    "text": "你在"
+  },
+  {
+    "start": 4520.268,
+    "end": 4520.418,
+    "speaker": "Freeberg",
+    "text_en": "to",
+    "text": "说的"
+  },
+  {
+    "start": 4520.418,
+    "end": 4520.568,
+    "speaker": "Chamath",
+    "text_en": "saying.",
+    "text": "这个。"
+  },
+  {
+    "start": 4520.568,
+    "end": 4528.564,
+    "speaker": "Freeberg",
+    "text_en": "donuts it's not AI. I'll bet any amount of money it's not AI. Is it the same financial engineering that got these earnings to rise in the last decade?",
+    "text": "扯淡，这不是 AI。我敢拿多少钱赌都行，这不是 AI。是不是和过去十年里把这些盈利推高的那套金融工程是同一回事？"
+  },
+  {
+    "start": 4528.814,
+    "end": 4543.764,
+    "speaker": "Chamath",
+    "text_en": "Yeah. So I think that's the question. Or is this margin expansion durable? The forecast, the consensus forecast and estimate is that margins are going to continue to expand over the course of the next two years. You and I both know back in 22, 23,",
+    "text": "对。所以我觉得问题就在这儿。还是说，这种利润率扩张是可持续的？现在的预测、市场一致预期和估算都认为，未来两年利润率还会继续扩大。你我都知道，在 22、23 年那会儿，"
+  },
+  {
+    "start": 4544.014,
+    "end": 4565.506,
+    "speaker": "Chamath",
+    "text_en": "we went from the age of excess to the age of fitness, right? A lot of these companies were able to shed people, you know, with the excuse of AI. just because they had become, you know, too excessive during the period of COVID. So I think it's a legitimate question whether or not that's all from AI, but I will tell you anecdotally, it maps for me. I'm hearing like Jason",
+    "text": "我们是从“过度扩张时代”进入了“精益健身时代”，对吧？很多公司借着 AI 的名义裁掉了不少人，说白了就是因为它们在 COVID 那段时期膨胀得太厉害了。所以我觉得，质疑这到底是不是全都来自 AI，是个很合理的问题。但我可以凭一些亲身观察告诉你，这在我这里是对得上的。我听到的情况，像 Jason"
+  },
+  {
+    "start": 4565.606,
+    "end": 4574.256,
+    "speaker": "Chamath",
+    "text_en": "and David, a lot of these companies that are, you know, really growing their top lines at an accelerating rate without expanding headcount nearly at the same pace.",
+    "text": "和 David 说的那样，很多公司营收增长都在加速，但人头数并没有按差不多的速度扩张。"
+  },
+  {
+    "start": 4574.556,
+    "end": 4577.006,
+    "speaker": "Freeberg",
+    "text_en": "Okay. Sax, I'll give you the final word while we wrap.",
+    "text": "好。Sacks，收尾之前最后一句给你。"
+  },
+  {
+    "start": 4577.006,
+    "end": 4580.756,
+    "speaker": "Sacks",
+    "text_en": "Brad was talking about how we got all these operating efficiency improvements.",
+    "text": "Brad 刚才在讲，我们是怎么获得这些运营效率提升的。"
+  },
+  {
+    "start": 4581.428,
+    "end": 4600.628,
+    "speaker": "Sacks",
+    "text_en": "The unemployment rate stayed at historic lows during that time. I mean, the economists consider full employment to be four to five percent and we've stayed at the low four percent, four point two percent roughly during this time. So you're able to get these efficiency improvements while unemployment is still extremely low. Moreover.",
+    "text": "那段时间失业率一直维持在历史低位。我的意思是，经济学家通常认为充分就业大概是 4% 到 5%，而这段时间我们一直都在 4% 出头，大约 4.2% 左右。所以你能看到这些效率提升的同时，失业率依然极低。而且，"
+  },
+  {
+    "start": 4601.204,
+    "end": 4617.604,
+    "speaker": "Sacks",
+    "text_en": "There was just a big article saying that the unemployment rate for young college graduates has dropped. So, you know, there was this whole narrative recently that recent college graduates were going to have the hardest time finding jobs because, you know, there's going to be no work left for entry level jobs because of AI.",
+    "text": "刚有一篇很大的报道说，年轻大学毕业生的失业率已经下降了。所以，前阵子一直有一种说法，说应届大学毕业生会最难找工作，因为 AI 会让入门级岗位几乎没什么工作可做了。"
+  },
+  {
+    "start": 4617.754,
+    "end": 4637.372,
+    "speaker": "Sacks",
+    "text_en": "And in fact, it has gotten easier for recent college graduates to find work recently. Maybe that's because they're AI natives. Maybe that's because they know how to use AI better. So in any event, I mean, we're just not seeing any evidence yet of these theoretical downsides of AI around job loss and unemployment, and we are starting to see big productivity gains.",
+    "text": "事实上，最近应届大学毕业生找工作变得更容易了。也许是因为他们是 AI 原住民，也许是因为他们更会用 AI。所以不管怎么说，我的意思是，到目前为止，我们还没有看到那些关于 AI 会导致失业和就业流失的理论性负面影响的证据，反而开始看到巨大的生产力提升。"
+  },
+  {
+    "start": 4637.372,
+    "end": 4660.574,
+    "speaker": "Jason",
+    "text_en": "Yeah, this is going to be a circular discussion, but yeah, there's a lot of conflicting evidence. The last piece of conflicting evidence obviously is the labor participation rate, because if you are not even opting in to participate, then you don't get counted as unemployed. And that's been, I think, a big challenge. 61.9% in March labor participation rate back in before",
+    "text": "对，这会变成一个循环讨论，不过是的，确实有很多相互矛盾的证据。最后一个明显相互矛盾的证据就是劳动参与率，因为如果你连参与都不选择参与，那你就不会被算作失业人口。我觉得这一直是个很大的挑战。3 月份的劳动参与率是 61.9%，而在之前"
+  },
+  {
+    "start": 4660.574,
+    "end": 4660.824,
+    "speaker": "Sacks",
+    "text_en": "but yet",
+    "text": "但最近"
+  },
+  {
+    "start": 4660.824,
+    "end": 4660.874,
+    "speaker": "Jason",
+    "text_en": "COVID",
+    "text": "COVID"
+  },
+  {
+    "start": 4660.874,
+    "end": 4661.374,
+    "speaker": "Sacks",
+    "text_en": "the recent college",
+    "text": "应届大学"
+  },
+  {
+    "start": 4661.374,
+    "end": 4674.076,
+    "speaker": "Jason",
+    "text_en": "we were graduates. at 63.3. Yeah, and college graduates are hearing different stories, certain degrees, getting jobs, other ones not getting jobs. it's too early to tell i think is probably what we all agree in and it's a it's a mixed bag which",
+    "text": "我们当时毕业生是 63.3%。对，而且大学毕业生听到的情况也不一样，有些专业能找到工作，另一些专业找不到工作。我觉得现在下结论还太早了，这大概是我们都同意的一点。情况是好坏参半，这也是"
+  },
+  {
+    "start": 4674.076,
+    "end": 4676.076,
+    "speaker": "Sacks",
+    "text_en": "no, I don't agree with that. No, it's not. Look,",
+    "text": "不，我不同意。不是这样的。你看，"
+  },
+  {
+    "start": 4676.076,
+    "end": 4676.676,
+    "speaker": "Jason",
+    "text_en": "one no",
+    "text": "有一点，不"
+  },
+  {
+    "start": 4676.676,
+    "end": 4681.126,
+    "speaker": "Sacks",
+    "text_en": "whenever I have data to refute one of your narratives, you always say it's too soon to tell.",
+    "text": "每次我拿出数据来反驳你的某个说法，你总是说现在下结论还太早。"
+  },
+  {
+    "start": 4681.876,
+    "end": 4682.776,
+    "speaker": "Jason",
+    "text_en": "no no what i do is",
+    "text": "不不不，我做的是"
+  },
+  {
+    "start": 4682.776,
+    "end": 4690.062,
+    "speaker": "Sacks",
+    "text_en": "Headline, Wall Street Journal, Nick put it on the screen. College graduates are finally catching a break in this job market. JK, you should be happy about this.",
+    "text": "头条，《华尔街日报》，Nick，把它放到屏幕上。大学毕业生终于在这个就业市场里迎来了转机。JK，你应该为这事高兴。"
+  },
+  {
+    "start": 4690.062,
+    "end": 4697.312,
+    "speaker": "Jason",
+    "text_en": "I know, listen, I'm happy anybody gets a job, but what you do is then you say we don't trust the numbers and we should get rid of the Fed and we should get rid of the numbers. So",
+    "text": "我知道，听着，我当然高兴任何人能找到工作，但你的做法是，接着你又说我们不该相信这些数据，还说应该废掉 Fed，也别再看这些数据了。所以"
+  },
+  {
+    "start": 4697.312,
+    "end": 4697.362,
+    "speaker": "Sacks",
+    "text_en": "I",
+    "text": "我"
+  },
+  {
+    "start": 4697.362,
+    "end": 4697.612,
+    "speaker": "Jason",
+    "text_en": "we all know",
+    "text": "我们都知道"
+  },
+  {
+    "start": 4697.612,
+    "end": 4697.712,
+    "speaker": "Sacks",
+    "text_en": "never",
+    "text": "从没"
+  },
+  {
+    "start": 4697.712,
+    "end": 4697.762,
+    "speaker": "Jason",
+    "text_en": "the",
+    "text": "这"
+  },
+  {
+    "start": 4697.762,
+    "end": 4697.812,
+    "speaker": "Sacks",
+    "text_en": "said",
+    "text": "说过"
+  },
+  {
+    "start": 4697.812,
+    "end": 4697.912,
+    "speaker": "Jason",
+    "text_en": "debate.",
+    "text": "辩论。"
+  },
+  {
+    "start": 4697.912,
+    "end": 4699.012,
+    "speaker": "Sacks",
+    "text_en": "we should get rid of the Fed. Did",
+    "text": "我们应该废掉美联储。我有"
+  },
+  {
+    "start": 4699.012,
+    "end": 4699.112,
+    "speaker": "Jason",
+    "text_en": "that was",
+    "text": "那是"
+  },
+  {
+    "start": 4699.112,
+    "end": 4699.162,
+    "speaker": "Sacks",
+    "text_en": "I",
+    "text": "我"
+  },
+  {
+    "start": 4699.162,
+    "end": 4699.262,
+    "speaker": "Jason",
+    "text_en": "Chamath.",
+    "text": "Chamath。"
+  },
+  {
+    "start": 4699.262,
+    "end": 4699.662,
+    "speaker": "Sacks",
+    "text_en": "ever say that?",
+    "text": "说过那种话吗？"
+  },
+  {
+    "start": 4699.662,
+    "end": 4703.262,
+    "speaker": "Jason",
+    "text_en": "You chose Chamath. Let's get rid of the Fed because we don't like the numbers. Listen, it's all great.",
+    "text": "是你选了 Chamath。就因为我们不喜欢这些数字，就把美联储废掉。听着，都挺好。"
+  },
+  {
+    "start": 4703.262,
+    "end": 4703.512,
+    "speaker": "Freeberg",
+    "text_en": "Come on.",
+    "text": "得了吧。"
+  },
+  {
+    "start": 4703.512,
+    "end": 4703.812,
+    "speaker": "Jason",
+    "text_en": "Welcome",
+    "text": "欢迎来到"
+  },
+  {
+    "start": 4703.812,
+    "end": 4703.962,
+    "speaker": "Freeberg",
+    "text_en": "What",
+    "text": "什么"
+  },
+  {
+    "start": 4703.962,
+    "end": 4704.112,
+    "speaker": "Jason",
+    "text_en": "to",
+    "text": "辩论"
+  },
+  {
+    "start": 4704.112,
+    "end": 4704.162,
+    "speaker": "Freeberg",
+    "text_en": "did",
+    "text": "我说"
+  },
+  {
+    "start": 4704.162,
+    "end": 4704.262,
+    "speaker": "Jason",
+    "text_en": "the debate",
+    "text": "俱乐部"
+  },
+  {
+    "start": 4704.262,
+    "end": 4704.462,
+    "speaker": "Freeberg",
+    "text_en": "I say?",
+    "text": "什么了？"
+  },
+  {
+    "start": 4704.462,
+    "end": 4704.712,
+    "speaker": "Jason",
+    "text_en": "club.",
+    "text": "。"
+  },
+  {
+    "start": 4704.962,
+    "end": 4705.712,
+    "speaker": "Freeberg",
+    "text_en": "What did I say?",
+    "text": "我说什么了？"
+  },
+  {
+    "start": 4705.712,
+    "end": 4723.54,
+    "speaker": "Jason",
+    "text_en": "You said abolish the Fed. Abolish the Fed. What is the Fed here for? All right, listen, enough. We're getting into Trump derangement syndrome or Trump bend the knee syndrome. It's the end of the show. We had a great show, everybody. body we had some laughs we all learned we workshop some stuff let's leave it where it is great job president",
+    "text": "你说要废除美联储。废除美联储。美联储存在是干嘛的？好了，听着，差不多得了。我们这都快变成特朗普精神错乱综合征，或者特朗普下跪综合征了。节目结束了。今天这期很棒，各位。我们一起笑过，也都学到了东西，还一起推敲了一些想法。就到这儿吧。干得漂亮，总统。"
+  },
+  {
+    "start": 4723.54,
+    "end": 4723.69,
+    "speaker": "Sacks",
+    "text_en": "I",
+    "text": "我"
+  },
+  {
+    "start": 4723.69,
+    "end": 4723.84,
+    "speaker": "Jason",
+    "text_en": "trump",
+    "text": "Trump"
+  },
+  {
+    "start": 4723.84,
+    "end": 4726.34,
+    "speaker": "Sacks",
+    "text_en": "want to congratulate all",
+    "text": "想祝贺所有"
+  },
+  {
+    "start": 4726.34,
+    "end": 4728.59,
+    "speaker": "Jason",
+    "text_en": "here we go oh",
+    "text": "来了来了，哦"
+  },
+  {
+    "start": 4728.59,
+    "end": 4734.59,
+    "speaker": "Sacks",
+    "text_en": "of our innovators and I want to congratulate Elon and Dario D. Rockefeller on their recent deal.",
+    "text": "我们的创新者，我还想祝贺 Elon 和 Dario D. Rockefeller 最近达成的那笔交易。"
+  },
+  {
+    "start": 4734.84,
+    "end": 4738.09,
+    "speaker": "Jason",
+    "text_en": "shots fired i'm getting straight come on the program anytime",
+    "text": "火药味十足啊。我得认真起来了。随时欢迎来节目。"
+  },
+  {
+    "start": 4738.09,
+    "end": 4738.34,
+    "speaker": "Freeberg",
+    "text_en": "Unbelievable.",
+    "text": "难以置信。"
+  },
+  {
+    "start": 4738.34,
+    "end": 4763.776,
+    "speaker": "Jason",
+    "text_en": "daria hey you know daria well brad well get him on the program next week i want him on the program have him come on will you ask him for me I will you ask him for me? Well, I sure I'll ask him. And, you know, the fact of the matter is, I think our lucky stars that we have Elon, that we have Anthropic, that we have OpenAI, that we have Google, that we have Amazon all innovating in this country.",
+    "text": "Daria，嘿，你跟 Daria 很熟，你也认识 Brad，安排他下周来节目吧，我想让他上节目。让他来，好吗？你帮我问问他。我会的，你帮我问问他？嗯，我当然会去问他。而且说真的，我们得庆幸我们有 Elon，有 Anthropic，有 OpenAI，有 Google，有 Amazon，都在这个国家里持续创新。"
+  },
+  {
+    "start": 4764.076,
+    "end": 4772.126,
+    "speaker": "Jason",
+    "text_en": "And, you know, I know we like to, you know, kind of poke fun on the edges of these things. But the fact of the matter is, you know, I see them all.",
+    "text": "而且，你知道，我知道我们喜欢在这些事情的边边角角上开点玩笑。但事实是，我都看在眼里。"
+  },
+  {
+    "start": 4772.884,
+    "end": 4788.734,
+    "speaker": "Chamath",
+    "text_en": "showing up, sharing their models, driving as hard as they can to innovate. We have the best competitive framework in the country. David's right. It's been transformed over the course of the last 14 months. We need to stay the course. We're on the winning horse. We just had the derby last week.",
+    "text": "他们都在积极出现、分享他们的模型，拼尽全力去创新。我们国家有最好的竞争格局。David 说得对。过去 14 个月里，这一切已经彻底改变了。我们得坚持当前路线。我们押对了马。上周德比赛马刚跑完。"
+  },
+  {
+    "start": 4788.734,
+    "end": 4789.134,
+    "speaker": "Jason",
+    "text_en": "There it",
+    "text": "就是这样。"
+  },
+  {
+    "start": 4789.134,
+    "end": 4789.284,
+    "speaker": "Chamath",
+    "text_en": "We're",
+    "text": "我们"
+  },
+  {
+    "start": 4789.284,
+    "end": 4789.384,
+    "speaker": "Jason",
+    "text_en": "is.",
+    "text": "没错。"
+  },
+  {
+    "start": 4789.384,
+    "end": 4790.834,
+    "speaker": "Chamath",
+    "text_en": "on the winning horse. Stay on",
+    "text": "押对了马。继续坚持。"
+  },
+  {
+    "start": 4790.834,
+    "end": 4790.884,
+    "speaker": "Jason",
+    "text_en": "That's",
+    "text": "就是这个。"
+  },
+  {
+    "start": 4790.884,
+    "end": 4791.134,
+    "speaker": "Chamath",
+    "text_en": "the horse.",
+    "text": "关键就在这儿。"
+  },
+  {
+    "start": 4791.134,
+    "end": 4791.334,
+    "speaker": "Jason",
+    "text_en": "it.",
+    "text": "没错。"
+  },
+  {
+    "start": 4791.384,
+    "end": 4791.734,
+    "speaker": "Chamath",
+    "text_en": "America",
+    "text": "America"
+  },
+  {
+    "start": 4791.734,
+    "end": 4791.934,
+    "speaker": "Jason",
+    "text_en": "Senator",
+    "text": "参议员"
+  },
+  {
+    "start": 4791.934,
+    "end": 4793.934,
+    "speaker": "Chamath",
+    "text_en": "for the win. America for the win.",
+    "text": "稳赢了。America稳赢了。"
+  },
+  {
+    "start": 4794.034,
+    "end": 4799.634,
+    "speaker": "Jason",
+    "text_en": "There it is. Senator Brad Gerstner. I think if you're going to run, you got to get rid of the red glasses. We got to get maybe tortoise shells.",
+    "text": "就是这样。参议员 Brad Gerstner。我觉得如果你真要参选，就得把那副红框眼镜换掉。我们得给你弄一副，可能玳瑁纹的。"
+  },
+  {
+    "start": 4800.0,
+    "end": 4803.652,
+    "speaker": "Unknown",
+    "text_en": "But I think you got a serious shot, Senator. Senator",
+    "text": "不过我觉得你真有很大机会，参议员。参议员"
+  },
+  {
+    "start": 4803.652,
+    "end": 4803.802,
+    "speaker": "Jason",
+    "text_en": "I",
+    "text": "我"
+  },
+  {
+    "start": 4803.802,
+    "end": 4804.052,
+    "speaker": "Unknown",
+    "text_en": "Gershner,",
+    "text": "Gershner，"
+  },
+  {
+    "start": 4804.052,
+    "end": 4806.702,
+    "speaker": "Jason",
+    "text_en": "like Secretary better. Secretary.",
+    "text": "我觉得叫 Secretary 更好。Secretary。"
+  },
+  {
+    "start": 4806.702,
+    "end": 4819.352,
+    "speaker": "Unknown",
+    "text_en": "Secretary, who's, yes, Secretary of the Treasury, Brad Gershner, Secretary of State, David Sachs, Secretary of Cashmere and Wine, Jamal Abdel. How are you doing with",
+    "text": "Secretary，谁来着，对，财政部长 Brad Gershner，国务卿 David Sachs，羊绒与红酒部长 Jamal Abdel。你那边怎么样，"
+  },
+  {
+    "start": 4819.352,
+    "end": 4819.502,
+    "speaker": "Sacks",
+    "text_en": "there",
+    "text": "那边"
+  },
+  {
+    "start": 4819.502,
+    "end": 4819.702,
+    "speaker": "Unknown",
+    "text_en": "your,",
+    "text": "你的，"
+  },
+  {
+    "start": 4819.702,
+    "end": 4819.802,
+    "speaker": "Sacks",
+    "text_en": "there's",
+    "text": "有个"
+  },
+  {
+    "start": 4819.802,
+    "end": 4820.002,
+    "speaker": "Unknown",
+    "text_en": "of",
+    "text": "的"
+  },
+  {
+    "start": 4820.002,
+    "end": 4830.752,
+    "speaker": "Sacks",
+    "text_en": "so much fake news out there because i mean look i totally agree with everything brad said look i poke fun at some of these companies for some of the things they do but i am happy that they are american companies and that they're innovating here so of",
+    "text": "外面假新闻太多了。我的意思是，你看，Brad 说的我完全同意。你看，我会拿这些公司做的一些事开开玩笑，但我很高兴它们是 American 公司，而且它们是在这里搞创新，所以当然了。"
+  },
+  {
+    "start": 4830.752,
+    "end": 4831.202,
+    "speaker": "Unknown",
+    "text_en": "Congratulations on",
+    "text": "恭喜你啊，"
+  },
+  {
+    "start": 4831.202,
+    "end": 4831.652,
+    "speaker": "Sacks",
+    "text_en": "course and",
+    "text": "当然，还有——"
+  },
+  {
+    "start": 4831.652,
+    "end": 4832.802,
+    "speaker": "Unknown",
+    "text_en": "your monopoly, darling.",
+    "text": "你的垄断，亲爱的。"
+  },
+  {
+    "start": 4832.852,
+    "end": 4848.552,
+    "speaker": "Sacks",
+    "text_en": "And yes, and look, there's so much fake news out there. I mean, we just covered on this podcast how beneficial some of these economic trends are. You never get it from the media and they are trying to derail us from from, you know, the policies that have been so successful.",
+    "text": "对，而且你看，外面假新闻真的太多了。我的意思是，我们刚刚在这个播客里讲过，这些经济趋势里有些是多么有利。你从媒体那里永远听不到这些，他们正试图把我们从那些一直非常成功的政策上带偏。"
+  },
+  {
+    "start": 4848.552,
+    "end": 4859.202,
+    "speaker": "Jason",
+    "text_en": "yes but they did some great inspiring coverage of micro looting so get your micro looting on congratulations new york times we'll see you next time everybody bye bye love",
+    "text": "对，但他们倒是对“微型抢劫”做了很棒、很鼓舞人心的报道。所以大家都去搞点“微型抢劫”吧。恭喜你啊，New York Times。各位下次见，拜拜，爱你们。"
+  },
+  {
+    "start": 4859.202,
+    "end": 4860.152,
+    "speaker": "Sacks",
+    "text_en": "Love you, boys.",
+    "text": "爱你们，兄弟们。"
+  },
+  {
+    "start": 4860.152,
+    "end": 4861.002,
+    "speaker": "Jason",
+    "text_en": "you guys",
+    "text": "爱你们，伙计们。"
+  },
+  {
+    "start": 4866.932,
+    "end": 4867.332,
+    "speaker": "Jason",
+    "text_en": "David's out.",
+    "text": "David 不在。"
+  },
+  {
+    "start": 4870.482,
+    "end": 4870.782,
+    "speaker": "Jason",
+    "text_en": "And I said",
+    "text": "然后我说"
+  },
+  {
+    "start": 4870.782,
+    "end": 4874.132,
+    "speaker": "Sacks",
+    "text_en": "We open source it to the fans and they've just gone crazy with it.",
+    "text": "我们把它开源给粉丝们，他们直接就玩疯了。"
+  },
+  {
+    "start": 4874.282,
+    "end": 4876.432,
+    "speaker": "Jason",
+    "text_en": "Love you, Wes. I am queen of quinoa.",
+    "text": "爱你，Wes。我是藜麦女王。"
+  },
+  {
+    "start": 4883.382,
+    "end": 4884.132,
+    "speaker": "Jason",
+    "text_en": "The besties are gone.",
+    "text": "兄弟团都走了。"
+  },
+  {
+    "start": 4884.132,
+    "end": 4888.382,
+    "speaker": "Sacks",
+    "text_en": "Go it. Go 13. That's funny, a dog taking it. I wish your driveway's next.",
+    "text": "知道了。上 13。真搞笑，一只狗把它叼走了。希望下一个是你家车道。"
+  },
+  {
+    "start": 4888.782,
+    "end": 4889.532,
+    "speaker": "Jason",
+    "text_en": "Bring that on in.",
+    "text": "把那个拿进来吧。"
+  },
+  {
+    "start": 4891.182,
+    "end": 4891.232,
+    "speaker": "Sacks",
+    "text_en": "Hang",
+    "text": "等等"
+  },
+  {
+    "start": 4891.232,
+    "end": 4891.582,
+    "speaker": "Jason",
+    "text_en": "man.",
+    "text": "天哪。"
+  },
+  {
+    "start": 4891.582,
+    "end": 4891.732,
+    "speaker": "Sacks",
+    "text_en": "on.",
+    "text": "说下去。"
+  },
+  {
+    "start": 4891.732,
+    "end": 4895.832,
+    "speaker": "Jason",
+    "text_en": "My Aunt Natasha will meet me at Glitza. We should all just get a room and just have one big.",
+    "text": "我姑妈 Natasha 会在 Glitza 跟我碰面。我们干脆都开个房间，大家一起搞个大的。"
+  }
+]
