@@ -11,7 +11,7 @@
 set -euo pipefail
 
 PROJ="${1:?usage: lane_translate.sh <project_dir>}"
-REPO="$(cd "$(dirname "${BASH_SOURCE[0]}")/../../.." && pwd)"
+REPO="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # shellcheck source=../lib/meta.sh
 source "$SCRIPT_DIR/../lib/meta.sh"
