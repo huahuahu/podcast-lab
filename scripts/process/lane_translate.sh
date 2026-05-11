@@ -113,11 +113,15 @@ if [ ! -f "$PROJ/audio/podcast_zh.mp3" ]; then
     --timings "$PROJ/transcript/timings.json"
 fi
 
-# 7) 章节（仅 SSE 系列）
+# 7) 章节（SSE 系列：按 series 字段或 slug 前缀触发）
 SERIES=$(meta_get "$PROJ" series 2>/dev/null || echo "")
-if [ "$SERIES" = "softskills_engineering" ] && [ -f "$PROJ/transcript/timings.json" ] && [ ! -f "$PROJ/audio/.chapters-added" ]; then
-  echo "📑 add chapters (SSE series)..."
-  python3 -u "$REPO/scripts/add_chapters.py" "$PROJ" && touch "$PROJ/audio/.chapters-added" || echo "⚠️  add_chapters 失败"
+SLUG="$(basename "$PROJ")"
+if { [ "$SERIES" = "softskills_engineering" ] || [[ "$SLUG" == sse-* ]]; } \
+   && [ -f "$PROJ/transcript/timings.json" ] && [ ! -f "$PROJ/audio/.chapters-added" ]; then
+  echo "📑 add chapters (SSE rules)..."
+  python3 -u "$REPO/scripts/add_chapters.py" "$PROJ" --rules sse \
+    && touch "$PROJ/audio/.chapters-added" \
+    || echo "⚠️  add_chapters 失败"
 fi
 
 echo "✅ lane_translate done: $PROJ/audio/podcast_zh.mp3"

@@ -87,6 +87,18 @@ bash scripts/publish/final_acceptance.sh <slug>
 - `gh release create --title` 也要带 EP 号（release notes 正文不强制）。
 - 历史补编号：EP01-EP19 是在 EP19 之后用一段 Python 脚本按 `pubDate` 升序回填的；以后如果发现号位冲突或错位，可从 git 历史捞出来重跑。
 
+### 6. 章节（add_chapters）
+- `lane_translate.sh` 末尾根据 “meta.series == softskills_engineering” 或 **slug 前缀 `sse-`** 触发，所以本地 mp3 / direct_mp3 进来的 SSE 集也会自动分章。
+- 内置 `detect_sse` 靠 LEAD 词则（“说下一个问题” / “亲爱的 SSE”等）划分 Q1/Q2，中译本偶尔会让 LEAD 变迷路。只识出 1–2 章时：
+  1. 看 `transcript/dialog_zh.json` 手工找 Q1/Q2 入口 idx（提示词：“亲爱 / 这位听众 / Anon E. Mouse / 该不该…”）
+  2. 读 `transcript/timings.json` 拿 `start_ms`，手写 `transcript/chapters.json`（样本：sse-512）
+  3. 跑 `python3 scripts/add_chapters.py <proj>`，会读已有 chapters.json 重写 mp3。
+  4. 重传 release（`gh release upload ... --clobber`）并同步 RSS 里的 `enclosure length`（看 `curl -sIL <mp3-url> | grep content-length`）。
+
+### 7. 本地 / direct_mp3 进来的 “series=null” 坑
+- `adapter_local.sh` / `direct_mp3` 写 `meta.json` 时 `series=null`。以前会让 `lane_translate` 最后那步 add_chapters 被跳过（于是 sse-512 首发没带章节）。
+- 2026-05-12 已修：`lane_translate.sh` 识 “meta.series == softskills_engineering” **或** slug 前缀 `sse-`。以后添 adapter 时，最好同样考虑根据 slug 前缀推导 series。
+
 ---
 
 ## 常见挂法 & 自救
