@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Tue, 12 May 2026 07:35:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 09:10:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -37,6 +37,19 @@
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
 
+    <item>
+      <title>EP22 · SSE 513 · 被遗忘的员工 / AI 世界里到底该练什么技能</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-513-forgotten-employee-skills-ai-world</guid>
+      <pubDate>Wed, 20 May 2026 09:10:00 +0800</pubDate>
+      <description>SSE 第 513 期，两个问题：(1) 公司重组后我被「遗忘」整整一个月，工资照发但没人派活——多久后我在道德上有义务主动开口？Dave / Jameson：别急着自首，只要你愿意接活就没有道德问题，给前经理或 skip-level 发个低姿态的「need help finding next thing」留个痕，真正风险是绩效周期没人写考评。(2) 13 年经验的工程师在 AI 满天飞的世界里到底该深耕什么？答案不绕弯：写代码的杠杆在贬值，**系统级理解**在升值——架构怎么交互、故障点在哪、安全威胁面在哪，LLM 一个人搞不定，必须有掌握上下文的人类。判断方法：看哪些 benchmark 还没被刷满，那就是 LLM 还不行的地方。中文双男声配音（云希 Host + 云扬 Guest），Azure STT + GPT 翻译 + edge-tts，原片 36m55s。</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.23.0-sse-513-forgotten-employee-skills-ai-world/podcast_zh.mp3" length="16033509" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-513-forgotten-employee-skills-ai-world.png"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jameson Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>36:55</itunes:duration>
+    </item>
     <item>
       <title>EP21 · SSE 512 · 非工程师能不能用 AI 写生产代码 / 工具要不要分享</title>
       <link>https://huahuahu.github.io/podcast-lab/</link>
