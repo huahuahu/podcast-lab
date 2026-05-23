@@ -8,10 +8,13 @@
 
 ## TL;DR — 一集新节目的标准流程
 
-**开始之前：拿到本集的 EP 号**。查 docs/rss.xml 里最大的 `EPnn`，+1 就是本集号。
-所有对外文案（release title / RSS title）都要以 `EPnn · ` 开头。
-例：现在最新已发 `EP19 · ...`，下一集 = `EP20 · ...`。
-快查脚本：`grep -oE 'EP[0-9]+' docs/rss.xml | sort -u | tail`。
+**开始之前：拿到本集的 EP 号 + tag**。以前手算过两次，现在直接：
+```bash
+scripts/publish/next_ep.sh <slug>             # 看一眼
+eval "$(scripts/publish/next_ep.sh -e <slug>)" # 导出 $EP / $EP_NUM / $TAG
+```
+所有对外文案（release title / RSS title）都要以 `$EP · ` 开头。
+release tag 规律：`EP{n}` → `v0.{n+1}.0-<slug>`（务必走脚本，别手算。上次 EP23 手算成 v0.23.0 撞了 EP22）。
 
 假设拿到一个 YouTube 链接 `<URL>`：
 
@@ -26,17 +29,17 @@ CHUNK_SEC=1200 nohup ./scripts/pipeline.sh <slug> "<URL>" --lang en \
 跑完后（产物 `projects/<slug>/audio/podcast_zh.mp3`）：
 
 ```bash
-# 1. 写 release notes（看 dialog_zh.json 几句关键内容）
+# 1. 写 release notes
 edit projects/<slug>/release_notes.md
 
-# 2. cover（会自动镜像到 docs/assets/covers/）+ verify
+# 2. cover 镜像 + verify
 bash scripts/enrich/cover_fetch.sh projects/<slug>
 bash scripts/publish/verify_local.sh projects/<slug>
 
-# 3. release
-TAG=v0.X.0-<slug>
+# 3. release（上面 eval 过后 $TAG 已在环境里）
 gh release create "$TAG" projects/<slug>/audio/podcast_zh.mp3 \
-  --title "..." --notes-file projects/<slug>/release_notes.md
+  --title "$EP · ..." --notes-file projects/<slug>/release_notes.md
+# 撞 tag 了？`gh release edit <old> --tag <new>` 能原地 rename
 
 # 4. 改 docs/rss.xml：插一个 <item>，更新 lastBuildDate
 edit docs/rss.xml
@@ -77,14 +80,10 @@ bash scripts/publish/final_acceptance.sh <slug>
 - ⚠️ 局限：发言少 / 风格不鲜明的角色（如 Freeberg 在某些 chunk）会被标 Unknown，落到 fallback 女声
 
 ### 5. 集数编号 EPnn
-- 所有 RSS / release title 都以 `EPnn · 中文标题` 开头。
-- 两位数补零（`EP01`、`EP19`）。
-- 发一集前先查下集号：
-  ```bash
-  grep -oE 'EP[0-9]+' docs/rss.xml | sort -u | tail -n 1
-  ```
-  加 1 即本集 EP 号。
-- **release tag 编号规律：`EP{n}` 对应 `v0.{n+1}.0-<slug>`**（以下免再踩：EP22=v0.23.0，EP23=v0.24.0）。发前先看 `gh release list`。如果 tag 发错了，`gh release edit <old-tag> --tag <new-tag>` 能原地 rename。
+- 所有 RSS / release title 都以 `EPnn · 中文标题` 开头，两位数补零。
+- **拿 EP 号 + tag 走脚本**：`scripts/publish/next_ep.sh <slug>` （或 `-e` 形式给 eval）。
+  - 脚本里编码的规律：`EP{n}` → `v0.{n+1}.0-<slug>`。历史有几集不严格合规律（如 EP21=v0.22.0），但当前最新几集都是。
+  - tag 发错了：`gh release edit <old-tag> --tag <new-tag>` 能原地 rename。
 - `gh release create --title` 也要带 EP 号（release notes 正文不强制）。
 - 历史补编号：EP01-EP19 是在 EP19 之后用一段 Python 脚本按 `pubDate` 升序回填的；以后如果发现号位冲突或错位，可从 git 历史捞出来重跑。
 
