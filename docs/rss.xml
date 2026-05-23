@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Sat, 23 May 2026 20:05:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2026 20:30:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,20 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP24 · 陈尚君：中国诗歌史上的双子星座——李白和杜甫</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">chenshangjun-libai-dufu</guid>
+      <pubDate>Sat, 23 May 2026 20:30:00 +0800</pubDate>
+      <description>复旦大学陈尚君讲座，谈李白与杜甫。中文原音搬运自 B 站（UP 主 ゚端木樽者），passthrough lane 直发，未做转写。原片 24m49s。来源：https://b23.tv/WCPxSlH</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.25.0-chenshangjun-libai-dufu/audio.mp3" length="25879295" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/chenshangjun-libai-dufu.png"/>
+      <category>Society &amp; Culture</category>
+      <itunes:author>陈尚君</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>24:49</itunes:duration>
+    </item>
 
     <item>
       <title>EP23 · 冯时讲座：绝地天通（与谈人 王铭铭）</title>
