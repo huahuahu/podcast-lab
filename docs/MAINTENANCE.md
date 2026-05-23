@@ -84,6 +84,7 @@ bash scripts/publish/final_acceptance.sh <slug>
   grep -oE 'EP[0-9]+' docs/rss.xml | sort -u | tail -n 1
   ```
   加 1 即本集 EP 号。
+- **release tag 编号规律：`EP{n}` 对应 `v0.{n+1}.0-<slug>`**（以下免再踩：EP22=v0.23.0，EP23=v0.24.0）。发前先看 `gh release list`。如果 tag 发错了，`gh release edit <old-tag> --tag <new-tag>` 能原地 rename。
 - `gh release create --title` 也要带 EP 号（release notes 正文不强制）。
 - 历史补编号：EP01-EP19 是在 EP19 之后用一段 Python 脚本按 `pubDate` 升序回填的；以后如果发现号位冲突或错位，可从 git 历史捞出来重跑。
 
@@ -98,6 +99,11 @@ bash scripts/publish/final_acceptance.sh <slug>
 ### 7. 本地 / direct_mp3 进来的 “series=null” 坑
 - `adapter_local.sh` / `direct_mp3` 写 `meta.json` 时 `series=null`。以前会让 `lane_translate` 最后那步 add_chapters 被跳过（于是 sse-512 首发没带章节）。
 - 2026-05-12 已修：`lane_translate.sh` 识 “meta.series == softskills_engineering” **或** slug 前缀 `sse-`。以后添 adapter 时，最好同样考虑根据 slug 前缀推导 series。
+
+### 8. 支持的源站点（`scripts/ingest/detect.sh`）
+- `youtube` adapter 靠 yt-dlp，实际上 yt-dlp 支持的站都能复用，但 `detect.sh` 是白名单，需要在 case 里手动加路由。
+- 已路由到 youtube adapter 的源：`youtube.com` / `youtu.be` / `bilibili.com` / `b23.tv`。
+- 遇到新站（微博视频 / X / TikTok 等）先试 `yt-dlp --dump-single-json <url>`，能拿到 title/duration 就给 detect.sh 加一行路由到 youtube adapter 即可。
 
 ---
 

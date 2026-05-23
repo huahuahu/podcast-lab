@@ -15,6 +15,7 @@ case "$URL" in
   *softskills.audio*|*softskills.engineer*) echo "softskills"; exit 0;;
   *dwarkesh.com*|*dwarkeshpatel.com*)        echo "dwarkesh"; exit 0;;
   *youtube.com*|*youtu.be*)                  echo "youtube"; exit 0;;
+  *bilibili.com*|*b23.tv*)                   echo "youtube"; exit 0;;
   *.mp3|*.m4a|*.wav)                         echo "direct_mp3"; exit 0;;
   *.xml|*/rss*|*/feed*)                      echo "podcast_rss"; exit 0;;
 esac
