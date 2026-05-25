@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Sat, 23 May 2026 20:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2026 21:40:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,20 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP25 · SSE 514 · 大组织信任度倒数 / 同事因我做得更快而记恨我</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-514-trust-issues-and-faster-coworker</guid>
+      <pubDate>Mon, 25 May 2026 21:40:00 +0800</pubDate>
+      <description>SSE 第 514 期，两个问题：(1) 整个大组织在「员工对管理层的信任度」调查里垫底，30 人小团队里只有两三个人扛得住工作量，那些「需要更多情绪支持」的人有明确书面证据是真的跟不上——这是偏见吗？Dave / Jameson：被反复证伪后的判断不是偏见而是同义反复；组织级信任度低本质是契约履行率低，能改的不多，把精力花在能信的两三个人身上，别替不行的人擦屁股。(2) 同事是我朋友，沟通 / QA / 告警都很强，就是 spec-driven development 做不好，我每张 ticket 都要事无巨细讲给他听，是不是在害他？答案：这种做法既不可持续也最终会害到他；多数团队/经理并不教条绑死 SDD，可以提议「换条路达成同样结果、最后再补 spec」；让 AI 反过来当教练训练规划能力；和靠谱的经理聊聊也行，但要小心「索伦之眼」一旦看过去就是绩效问题了。中文双男声配音（云希 Host + 云扬 Guest），Azure STT + GPT 翻译 + edge-tts，原片 38m13s，中文版 48m07s。</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.26.0-sse-514-trust-issues-and-faster-coworker/podcast_zh.mp3" length="16832328" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-514-trust-issues-and-faster-coworker.png"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jameson Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>48:07</itunes:duration>
+    </item>
 
     <item>
       <title>EP24 · 陈尚君：中国诗歌史上的双子星座——李白和杜甫</title>
