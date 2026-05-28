@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Mon, 25 May 2026 21:40:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 13:40:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,20 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP26 · Anders Hejlsberg：从 Turbo Pascal 到 C# 到 TypeScript</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">hejlsberg-typescript-csharp</guid>
+      <pubDate>Thu, 28 May 2026 13:40:00 +0800</pubDate>
+      <description>Anders Hejlsberg 在 Gergely Orosz 的 Pragmatic Engineer 播客上聊自己 40 年语言设计生涯——历史上「最被广泛使用的编程语言」里有三种出自他手：Turbo Pascal、C# 和 TypeScript。三段职业生涯的幕后故事：Borland 时代用 49.99 美元 + 集成 IDE 砸碎「编译器是上千刀工业品」的格局；C# 真正的起点是 Sun 与 Microsoft 围绕 Java 的那场官司——没那场诉讼就没有 C#；TypeScript 在 Microsoft 内部开源是当年的大事，为什么选结构化类型而不是名义类型，为什么最近用 Go 重写编译器。贯穿始终的几个元观点：IDE 和编程语言密不可分，「语言」的边界一直包括工具；AI 不改变语言设计的本质，agents 越多「审代码、搭架构、把握全局」的人越重要；真正出色的技术成果几乎都来自一小撮愿意互相挑刺的小团队，而不是委员会。中文双人配音（Xiaoxiao 女声 Host + Yunyang 男声 Anders），Azure STT + GPT-5.4 翻译 + edge-tts，原片 76m01s，中文版 81m14s。</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.27.0-hejlsberg-typescript-csharp/podcast_zh.mp3" length="28749044" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/hejlsberg-typescript-csharp.png"/>
+      <category>Technology</category>
+      <itunes:author>Anders Hejlsberg × Gergely Orosz</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>81:14</itunes:duration>
+    </item>
 
     <item>
       <title>EP25 · SSE 514 · 大组织信任度倒数 / 同事因我做得更快而记恨我</title>
