@@ -104,6 +104,19 @@ bash scripts/publish/final_acceptance.sh <slug>
 - 已路由到 youtube adapter 的源：`youtube.com` / `youtu.be` / `bilibili.com` / `b23.tv`。
 - 遇到新站（微博视频 / X / TikTok 等）先试 `yt-dlp --dump-single-json <url>`，能拿到 title/duration 就给 detect.sh 加一行路由到 youtube adapter 即可。
 
+### 9. B 站多 P 视频（playlist）手工拼接
+- pipeline 默认仅拿 p1（yt-dlp 不加 `--yes-playlist` 时）。多 P 讲座（如 chenshangjun 5P 、qianliqun 2P）需要手工介入：
+  ```bash
+  cd projects/<slug>/source
+  yt-dlp -x --audio-format mp3 --audio-quality 0 \
+    -o "p%(playlist_index)s.%(ext)s" --yes-playlist "<url>"
+  printf "file 'p1.mp3'\nfile 'p2.mp3'\n" > concat.txt   # 按顺序列全
+  ffmpeg -y -f concat -safe 0 -i concat.txt -c copy audio.mp3
+  trash p*.mp3 concat.txt
+  ```
+- meta.json 手寫（参考 qianliqun-gushi-xinbian），lane=passthrough，lang=zh，duration_sec 用 `ffprobe -show_entries format=duration` 拿。
+- TODO: 以后可考虑给 youtube adapter 加 `MULTI_P=1` 开关自动走这个流程。
+
 ---
 
 ## 常见挂法 & 自救
