@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Sun, 31 May 2026 09:25:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 09:30:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,20 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP29 · 钱理群漫谈鲁迅的〈故事新编〉</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">qianliqun-gushi-xinbian</guid>
+      <pubDate>Sun, 31 May 2026 09:30:00 +0800</pubDate>
+      <description>北京大学钱理群讲座，漫谈鲁迅的《故事新编》。完整两 P 合并版，中文原音搬运自 B 站（UP 主 ゚端木樽者），passthrough lane 直发，未做转写。时长约 2h08m。来源：https://www.bilibili.com/video/BV17vTAzrESB/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.30.0-qianliqun-gushi-xinbian/audio.mp3" length="153359348" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/qianliqun-gushi-xinbian.png"/>
+      <category>Society &amp; Culture</category>
+      <itunes:author>钱理群</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>2:08:53</itunes:duration>
+    </item>
 
     <item>
       <title>EP28 · 金文京：当今“东亚汉字文化圈”的困境——论固有名词的读法</title>
