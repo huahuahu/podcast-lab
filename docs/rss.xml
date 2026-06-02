@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Sun, 31 May 2026 09:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 08:30:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,20 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP30 · SSE 515 · 新人不听我的 / 量子公司菜鸟</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-515-junior-wont-listen-quantum-company</guid>
+      <pubDate>Tue, 02 Jun 2026 08:30:00 +0800</pubDate>
+      <description>Soft Skills Engineering 第 515 期中文双人配音。两个问题：(1) 新人到岗就一副「老子最懂」的样子、固执到无视事实、拒绝承认交付不了——Dave / Jameson 建议从今天起记录贡献、跟经理沟通时说「我不开心 + 担心我离职后扛着的事会暴露」，而不是单纯抱怨「他不行」；大公司里坏员工被开掉的速度远比想象的慢，能动的层级是经理→你这一段。(2) 几个月后要去量子计算公司当云团队高级工程师，怕自己最菜——别装懂量子（他们雇你是冲云那块），保持谦逊+兴奋+愿意帮忙的姿态，这个问题本质上根本不关于量子计算，关于的是「怎么进入新领域和高级岗位」。中文双人配音（云希 Host + 云扬 Guest），Azure STT + GPT-5.4 翻译 + edge-tts，原片 35m18s，中文版 35m18s。来源：https://softskills.audio/2026/06/01/episode-515-my-junior-team-member-won't-listen-to-me-and-will-i-be-the-dumbest-employee-at-a-quantum-computer-company/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.31.0-sse-515-junior-wont-listen-quantum-company/podcast_zh.mp3" length="15756876" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-515-junior-wont-listen-quantum-company.png"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jameson Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>35:18</itunes:duration>
+    </item>
 
     <item>
       <title>EP29 · 钱理群漫谈鲁迅的〈故事新编〉</title>
