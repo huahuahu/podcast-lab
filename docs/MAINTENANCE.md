@@ -130,6 +130,7 @@ bash scripts/publish/final_acceptance.sh <slug>
 | TTS 进程突然消失（无报错） | 父进程被信号收走 | 重跑 lane_translate（cache 在） |
 | `NoAudioReceived` 单句失败 | 某句翻译只剩个 `。` 之类 | **已修**：`multivoice_robust.py` 用 200ms / 500ms 静音兜底，不再中断 |
 | Freeberg 突然变女声 | speaker 对齐落到 Unknown | 当前已知缺陷；后续要加跨片声纹比对 |
+| 成片时长 << 源时长（缺前/后段） | Azure 某个 chunk 6 次重试全挂被 skip，pipeline 继续 | **kjzzd-s10e14 踩过**：chunk_001 全挂只剩 chunk_002，成片只有后 20min。verify_local 当时没卡住（它只看 source/audio.mp3）。补救：`trash chunk_NNN.mp3` 后**只重跑 azure_transcribe_diarize.sh**（已有 segs 的 chunk 会跳过），再删 `.smart-merged / .speakers-* / dialog_zh* / audio/podcast_zh.mp3 / tts_cache` 重跑 lane_translate。TODO：verify_local 应该比对 `audio/podcast_zh.mp3 时长 vs source 时长`，差距 > 10% 直接 FAIL |
 
 ---
 
