@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Fri, 05 Jun 2026 12:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 18:25:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,20 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP32 · 陈尚君：朱东润先生的生平与学术</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">chenshangjun-zhudongrun</guid>
+      <pubDate>Fri, 05 Jun 2026 18:25:00 +0800</pubDate>
+      <description>复旦大学陈尚君教授讲座《朱东润先生的生平与学术》。完整四 P 合并版，中文原音搬运自 B 站（UP 主 ゚端木樽者），passthrough lane 直发，未做转写。时长约 1h26m。来源：https://www.bilibili.com/video/BV1LL41167UH/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.33.0-chenshangjun-zhudongrun/audio.mp3" length="93684596" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/chenshangjun-zhudongrun.png"/>
+      <category>Education</category>
+      <itunes:author>陈尚君 · 复旦大学</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:26:14</itunes:duration>
+    </item>
 
     <item>
       <title>EP31 · 鬼谷早知道 S10E14 · 一人公司的另一种可能：AI 负责经营，人类负责热爱</title>
