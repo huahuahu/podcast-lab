@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Fri, 05 Jun 2026 18:25:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 18:30:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,20 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP33 · 陈允锋：唐代诗歌中的西域情怀</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">chenyunfeng-tangshi-xiyu</guid>
+      <pubDate>Fri, 05 Jun 2026 18:30:00 +0800</pubDate>
+      <description>香港樹仁大學陈允鋒教授讲座《唐代詩歌中的西域情懷》。中文原音搬运自 B 站（UP 主 ゚端木樽者），passthrough lane 直发，未做转写。时长约 1h31m。来源：https://www.bilibili.com/video/BV1qV4y117Fo/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.34.0-chenyunfeng-tangshi-xiyu/audio.mp3" length="78565074" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/chenyunfeng-tangshi-xiyu.png"/>
+      <category>Education</category>
+      <itunes:author>陈允锋 · 香港树仁大学</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:31:21</itunes:duration>
+    </item>
 
     <item>
       <title>EP32 · 陈尚君：朱东润先生的生平与学术</title>
