@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Fri, 05 Jun 2026 18:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 17:30:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,20 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP34 · 我不是小孩 &amp; 产品经理不懂产品（SSE 516）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-516-not-baby-pm-doesnt-know-product</guid>
+      <pubDate>Tue, 09 Jun 2026 17:30:00 +0800</pubDate>
+      <description>Soft Skills Engineering 第 516 期中文双人配音。两个问题：(1) 新来一个特别教条的 Scrum master，daily 像上幼儿园——Dave / Jameson 的暴论是，真正的根本问题不是会议太长，而是「你们公司有个全职 Scrum master」，这个岗位真正的工作只占 5%，剩下 95% 是流程虚胖；听众不是无理取闹，但单靠抱怨改不了，这是组织结构问题。(2) 内部平台产品的 PM 不懂技术怎么办——内部技术产品的 PM 必须有技术背景，否则会退化成「传话项目经理」；这又是一个「表面上是人不行，实际上是组织把人放错岗位」的问题，半开玩笑的长期方案是自己升到 director 重组架构，短期实操是给 PM 设个工程师面试编码门槛。中文双人配音（云希 Host + 云扬 Guest），Azure STT + GPT 翻译 + edge-tts，原片 36m50s。来源：https://softskills.audio/2026/06/08/episode-516-not-a-baby-and-my-product-manager-doesn't-know-the-product/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.35.0-sse-516-not-baby-pm-doesnt-know-product/podcast_zh.mp3" length="15780597" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-516-not-baby-pm-doesnt-know-product.png"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jameson Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>36:50</itunes:duration>
+    </item>
 
     <item>
       <title>EP33 · 陈允锋：唐代诗歌中的西域情怀</title>
