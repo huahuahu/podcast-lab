@@ -186,6 +186,13 @@ bash scripts/publish/final_acceptance.sh <slug>
 
 ## 踩过的新坑（待整理）
 
+- **2026-06-11 EP35 查屏球**：B 站 `yt-dlp` 又开始全员 `HTTP 412 Precondition Failed`（任意 BV、任意 cookies、impersonate chrome 都救不了，2026-06-09 版本也一样）。
+  - 救场方案：**BBDown**（C# 写的 B 站专用下载器）。装法：从 `gh release view -R nilaoda/BBDown` 拿 osx-arm64 zip，解到 `/tmp/bbdown/BBDown`，chmod +x。
+  - 用法：`/tmp/bbdown/BBDown --audio-only --work-dir <proj>/source -F audio <url>` → 出 `audio.m4a` → ffmpeg 转 mp3。
+  - 元数据走 B 站官方 API：`curl -A Mozilla 'https://api.bilibili.com/x/web-interface/view?bvid=<BV>'`，title/pic/duration/owner 都在 `.data` 里，比 yt-dlp 稳。
+  - meta.json / cover_fetch.sh / verify_local.sh 走老流程；release_notes 手写；rss 手插。
+  - **TODO**：要么给 `adapter_youtube.sh` 加 BBDown fallback，要么独立写一个 `adapter_bilibili.sh`（推荐后者，B 站走专用工具更可控）。
+
 - **2026-06-02 EP515**：直接把 SSE 的 mp3 enclosure URL（`https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-515.mp3?source=rss`）喂给 pipeline，`detect.sh` 看到 `softskills.audio` 就返回 adapter=softskills，但 `adapter_softskills.sh` 还没实现，直接 `❌ adapter not implemented yet: softskills` 退出。
   - **临时绕路**：`curl -L -o /tmp/xxx.mp3 <enclosure>` 下载本地，再 `pipeline.sh <slug> /tmp/xxx.mp3 --lang en` 走 local adapter。
   - **TODO**：要么实现 `adapter_softskills.sh`（其实可以直接当 direct_mp3 处理），要么把 detect.sh 的 softskills 模式收窄到网页（`*softskills.audio/2*` 之类），让 enclosure 直链落到 direct_mp3。
