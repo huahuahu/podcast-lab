@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Tue, 09 Jun 2026 17:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 08:15:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,20 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP35 · 查屏球：由〈雁塔题名〉看李商隐及第与令狐家族关系</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">chaqiu-yishan-lingu</guid>
+      <pubDate>Thu, 11 Jun 2026 08:15:00 +0800</pubDate>
+      <description>复旦大学查屏球讲座，从《雁塔题名》考据切入，重新审视李商隐及第过程，以及他与令狐家族（令狐楚、令狐绹父子）之间纠缠半生的关系——这条线索是理解李商隐「义山情感世界」的关键参照系。中文原音搬运自 B 站（UP 主 ゚端木樽者），passthrough lane 直发，未做转写。时长约 2h00m。来源：https://www.bilibili.com/video/BV1cY4y1P71o</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.36.0-chaqiu-yishan-lingu/audio.mp3" length="119015414" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/chaqiu-yishan-lingu.png"/>
+      <category>Society &amp; Culture</category>
+      <itunes:author>查屏球</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>2:00:46</itunes:duration>
+    </item>
 
     <item>
       <title>EP34 · 我不是小孩 &amp; 产品经理不懂产品（SSE 516）</title>
