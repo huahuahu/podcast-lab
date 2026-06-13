@@ -48,12 +48,17 @@ def resolve(project_dir):
             print(f"⚠️  series.json 读失败: {e}")
 
     proj_meta = {}
-    meta_path = os.path.join(project_dir, "meta.json")
-    if os.path.exists(meta_path):
-        try:
-            proj_meta = json.load(open(meta_path))
-        except Exception as e:
-            print(f"⚠️  {meta_path} 读失败: {e}")
+    # 优先 <proj>/source/meta.json（当前模板），其次 <proj>/meta.json（历史兼容）
+    for cand in (
+        os.path.join(project_dir, "source", "meta.json"),
+        os.path.join(project_dir, "meta.json"),
+    ):
+        if os.path.exists(cand):
+            try:
+                proj_meta = json.load(open(cand))
+            except Exception as e:
+                print(f"⚠️  {cand} 读失败: {e}")
+            break
 
     merged = _deep_merge(series_cfg, proj_meta)
     if matched:
