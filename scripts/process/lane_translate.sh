@@ -92,9 +92,11 @@ if [ "$NEED_TR" = 1 ]; then
     "$PROJ/transcript/dialog_en.json" "$PROJ/transcript/dialog_zh.json" --batch-size 8
 fi
 
-# 5) Speaker audit（多人节目跳过，audit 也是 host/guest 二分模型）
+# 5) Speaker audit（多人节目跳过；官方 transcript 已带 speaker，也跳过——
+#    否则 audit 的 host/guest 二分会把正确的 speaker 名字改掉）
 AUDIT_SPEAKERS="${AUDIT_SPEAKERS:-1}"
 [ "$MULTI_SPEAKER" = "1" ] && AUDIT_SPEAKERS=0
+[ "$HAS_OFFICIAL" = "true" ] && AUDIT_SPEAKERS=0
 A="$PROJ/transcript/.speakers-audited"
 if [ "$AUDIT_SPEAKERS" = "1" ] && [ ! -f "$A" ]; then
   echo "🔍 audit speakers..."

@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Thu, 11 Jun 2026 08:15:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 21:04:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,20 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP36 · Kubernetes 与功成身退：Kelsey Hightower 的非典型工程师之路</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">hightower-kubernetes-retiring</guid>
+      <pubDate>Sat, 13 Jun 2026 21:00:00 +0800</pubDate>
+      <description>The Pragmatic Engineer 2026-06-03 期，主持 Gergely Orosz × 嘉宾 Kelsey Hightower（前 Google Distinguished Engineer、Kubernetes 早期布道者，已从 Google 退休两年）。约 3 小时 23 分的长访谈：从 19 岁辍学装宽带 → Google 杰出工程师的自学之路、Kubernetes 走到今天的设计哲学、在职业巅峰主动离开 Google 的思考、对 AI 与软件工程未来的看法。走 Substack 官方带时间戳 + speaker 标签的 transcript，跳过 Azure 转写；中译 + edge-tts 双男声（云希 / 云扬）。原视频：https://youtu.be/UlXpOGIpITM</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.37.0-hightower-kubernetes-retiring/podcast_zh.mp3" length="72716636" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/hightower-kubernetes-retiring.png"/>
+      <category>Technology</category>
+      <itunes:author>The Pragmatic Engineer / Gergely Orosz × Kelsey Hightower</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>2:52:11</itunes:duration>
+    </item>
 
     <item>
       <title>EP35 · 查屏球：由〈雁塔题名〉看李商隐及第与令狐家族关系</title>
