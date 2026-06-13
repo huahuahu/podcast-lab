@@ -104,7 +104,31 @@ bash scripts/publish/final_acceptance.sh <slug>
 - 已路由到 youtube adapter 的源：`youtube.com` / `youtu.be` / `bilibili.com` / `b23.tv`。
 - 遇到新站（微博视频 / X / TikTok 等）先试 `yt-dlp --dump-single-json <url>`，能拿到 title/duration 就给 detect.sh 加一行路由到 youtube adapter 即可。
 
-### 9. B 站多 P 视频（playlist）手工拼接
+### 9. Substack 官方 transcript
+- **触发条件**：源是 Substack 托管的播客（如 Pragmatic Engineer、Lenny's Podcast、Stratechery 等），文章顶部按钮里有 "Transcript" 标签。
+- **不要**手动找文章正文里的 transcript（很多发布人只在播放器里挂，正文里不贴）。
+- **正确姿势**：抓页面 HTML，里面有签名好的 CloudFront 直链（24 小时有效）：
+  ```bash
+  curl -sL <substack-post-url> -o /tmp/post.html
+  grep -oE 'https://substackcdn.com/video_upload/post/[0-9]+/[a-f0-9-]+/[0-9]+/(en\.vtt|transcription\.json|unaligned_transcription\.json)[^"]+' /tmp/post.html | sort -u
+  ```
+  三个文件：
+  - `en.vtt` — 标准 WebVTT，带 `<v SPEAKER_XX>` 行内 speaker 标签
+  - `transcription.json` — **最有价值**，word-level 时间戳 + 每词的 speaker（`SPEAKER_00`/`SPEAKER_01` ...）+ confidence score
+  - `unaligned_transcription.json` — 备用，没对齐的 segments
+  下载时记得带 referer：
+  ```bash
+  curl -sSL -A "Mozilla/5.0" -e "<substack-post-url>" -o transcription.json "<signed-url>"
+  ```
+- **转 dialog_en.json**：每个 segment 按 word.speaker 投票选出 segment 级 speaker，连续同 speaker 合并；SPEAKER_00/01 映射成真实人名（主持人/嘉宾）。160 段一集大概合并到 156 turns。
+- **meta.json 配套**：
+  - `has_official_transcript: true`、`transcript_kind: "substack"`
+  - `voices: { "主持人名": "zh-CN-YunxiNeural", "嘉宾名": "zh-CN-YunyangNeural" }`（放在 `source/meta.json` 里）
+- **lane_translate.sh 行为**：`has_official_transcript=true` 时自动跳过 Azure STT + reassign_speakers + audit_speakers（2026-06-13 修），直接走翻译 → TTS。
+- **省的成本**：3h 长访谈一次省 ~30 min 切片转录 + 整套 Azure 调用费，speaker 标注还更准（官方 diarize > 我们二次清洗的）。
+- **代码参考**：EP36 hightower-kubernetes-retiring，参考 `transcript/substack_*.{vtt,json}` 和当时的处理脚本片段。
+
+### 10. B 站多 P 视频（playlist）手工拼接
 - pipeline 默认仅拿 p1（yt-dlp 不加 `--yes-playlist` 时）。多 P 讲座（如 chenshangjun 5P 、qianliqun 2P）需要手工介入：
   ```bash
   cd projects/<slug>/source
