@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Sat, 13 Jun 2026 21:04:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 07:45:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,20 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP37 · Dax Raad：OpenCode 的爆炸增长与 AI 编程的真实代价</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">pe-opencode-dax-raad</guid>
+      <pubDate>Mon, 15 Jun 2026 07:45:00 +0800</pubDate>
+      <description>The Pragmatic Engineer 2026-05-27 期，主持 Gergely Orosz × 嘉宾 Dax Raad（OpenCode 联合创始人）。约 80 分钟的深度对谈，地点在迈阿密。OpenCode 是过去半年里增长最猛的开源 AI 编程 harness 之一，月活从年初的 65 万涨到接近 800 万；但 Dax 这次跑出来劝大家慢下来。主线：他的非典型路径（高中辍学创业 → DevTools/SST → OpenCode）、为什么定位「中立」让 OpenCode 起飞、推理（inference）的真实利润结构、那份引爆讨论的「我们只是感觉自己变快了」内部备忘录、AI 时代「被压低的刺痛感」（the muted prickle）如何钝化判断力、企业级 onboard 的「无聊但必须」、为什么 quality 不能装、agent 时代怎么定义程序员的好品位。走 Substack 官方带 word-level 时间戳 + speaker 标签的 transcript，跳过 Azure 转写；中译 + edge-tts 双男声（云希 Gergely / 云扬 Dax）。原视频：https://youtu.be/1VqKUrxR2C8</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.38.0-pe-opencode-dax-raad/podcast_zh.mp3" length="34972724" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/pe-opencode-dax-raad.png"/>
+      <category>Technology</category>
+      <itunes:author>The Pragmatic Engineer / Gergely Orosz × Dax Raad</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:37:46</itunes:duration>
+    </item>
 
     <item>
       <title>EP36 · Kubernetes 与功成身退：Kelsey Hightower 的非典型工程师之路</title>
