@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Mon, 15 Jun 2026 07:45:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 07:45:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,20 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP38 · 跳到 SaaS 公司更好？为什么让我同时管两个团队？（SSE 517）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-517</guid>
+      <pubDate>Mon, 22 Jun 2026 07:45:00 +0800</pubDate>
+      <description>Soft Skills Engineering 第 517 期中文双人配音。两个问题：(1) 新西兰听众 Sure 在电信公司做工程师，纠结要不要跳到 SaaS 公司——Dave / Jameson 的看法：其他条件差不多时去「软件本身就是产品」的公司更好，根本原因是软件不是收入来源时，工程团队就是成本中心，公司会持续不断地压预算压人头；但 SaaS 也不是万能药，规模大了之后大多数工程师其实也在做内部工具；Jameson 自己最满意的反例其实是定制软件外包公司，因为客户直接掏钱、公司对工程师特别上心。结论：与其纠结公司类型，不如看具体岗位离产生收入的链路有多近。(2) 入职 7 个月、单团队带得特别好的 EM「Walter」，被通知再加一个团队凑成 16 人，公司新口径是 EM 都要带 ≥2 团队，HR 标准里那条「带 ≥2 团队=senior EM」被说成「过时了」——更刺人的是，他要接手的团队原本由 senior EM 带，那位现在反而只带一个。Dave / Jameson：这就是悄悄的 scope 重新分配 + 行业扁平化趋势；必须谈涨薪，理由是 HR 自己写的标准；即使因医疗假短期内不能离职，也要留下书面痕迹；同时主动做授权别两边自抗；长期是组织红灯，回来后认真看外面机会。中文双人配音（云希 Host + 云扬 Guest），Azure STT + GPT 翻译 + edge-tts，原片 32m。来源：https://softskills.audio/2026/06/15/episode-517-is-it-good-for-my-career-to-work-at-a-saas-company-and-why-am-i-being-asked-to-manage-two-teams/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.39.0-sse-517/podcast_zh.mp3" length="14577405" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-517.png"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jameson Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>41:55</itunes:duration>
+    </item>
 
     <item>
       <title>EP37 · Dax Raad：OpenCode 的爆炸增长与 AI 编程的真实代价</title>
