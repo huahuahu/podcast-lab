@@ -1,0 +1,2414 @@
+[
+  {
+    "start": 5.966,
+    "end": 14.316,
+    "speaker": "Host",
+    "text": "It takes more than declaring bug bankruptcy to be a great engineer. This is Soft Skills Engineering episode 517. I'm your host, Dave Smith."
+  },
+  {
+    "start": 14.666,
+    "end": 16.116,
+    "speaker": "Host",
+    "text": "I'm your host, Jameson Dance."
+  },
+  {
+    "start": 16.266,
+    "end": 24.216,
+    "speaker": "Host",
+    "text": "Soft Skills Engineering is a weekly advice podcast for software engineers who find it easier just to delete all the bug tickets than to fix all the bugs."
+  },
+  {
+    "start": 24.316,
+    "end": 33.77,
+    "speaker": "Guest",
+    "text": "I have heard about deleting your backlog. as a freeing move kind of i guess like bankruptcy but i never extended it to just deleting all the bugs to yeah"
+  },
+  {
+    "start": 33.77,
+    "end": 34.82,
+    "speaker": "Host",
+    "text": "It seems kind of obvious."
+  },
+  {
+    "start": 34.82,
+    "end": 34.87,
+    "speaker": "Guest",
+    "text": ""
+  },
+  {
+    "start": 34.87,
+    "end": 37.92,
+    "speaker": "Host",
+    "text": "Seems like you could have saved yourself a lot of time working"
+  },
+  {
+    "start": 37.92,
+    "end": 43.72,
+    "speaker": "Guest",
+    "text": "we declare all the bugs to actually be the way we intended it to work from here on forward yep"
+  },
+  {
+    "start": 43.72,
+    "end": 44.22,
+    "speaker": "Host",
+    "text": "as designed."
+  },
+  {
+    "start": 45.37,
+    "end": 46.42,
+    "speaker": "Guest",
+    "text": "This is our new baseline."
+  },
+  {
+    "start": 46.42,
+    "end": 49.22,
+    "speaker": "Host",
+    "text": "it's supposed to lose data when you click that button yeah"
+  },
+  {
+    "start": 49.22,
+    "end": 49.77,
+    "speaker": "Guest",
+    "text": "That's right."
+  },
+  {
+    "start": 49.77,
+    "end": 49.92,
+    "speaker": "Host",
+    "text": ""
+  },
+  {
+    "start": 49.92,
+    "end": 51.42,
+    "speaker": "Guest",
+    "text": "That way it's infinitely scalable."
+  },
+  {
+    "start": 52.788,
+    "end": 54.338,
+    "speaker": "Host",
+    "text": "And we have upsell opportunities like"
+  },
+  {
+    "start": 54.338,
+    "end": 55.088,
+    "speaker": "Guest",
+    "text": "yep yep oh"
+  },
+  {
+    "start": 55.088,
+    "end": 58.088,
+    "speaker": "Host",
+    "text": "you could pay us to add a new feature where it doesn't lose your data if"
+  },
+  {
+    "start": 58.088,
+    "end": 58.538,
+    "speaker": "Guest",
+    "text": "for sure"
+  },
+  {
+    "start": 58.538,
+    "end": 58.688,
+    "speaker": "Host",
+    "text": "you hit"
+  },
+  {
+    "start": 58.688,
+    "end": 58.738,
+    "speaker": "Guest",
+    "text": "that"
+  },
+  {
+    "start": 58.738,
+    "end": 59.188,
+    "speaker": "Host",
+    "text": "that button."
+  },
+  {
+    "start": 59.188,
+    "end": 64.988,
+    "speaker": "Guest",
+    "text": "oh you didn't buy the pro level of our subscription pro level is the no data loss level so"
+  },
+  {
+    "start": 64.988,
+    "end": 65.388,
+    "speaker": "Host",
+    "text": "Ah,"
+  },
+  {
+    "start": 65.388,
+    "end": 65.588,
+    "speaker": "Guest",
+    "text": ""
+  },
+  {
+    "start": 65.588,
+    "end": 70.338,
+    "speaker": "Host",
+    "text": "well, we should all aspire to be so professional some days to not lose data."
+  },
+  {
+    "start": 70.338,
+    "end": 74.838,
+    "speaker": "Guest",
+    "text": "professional yeah i mean you bought the amateur what do you expect amateur"
+  },
+  {
+    "start": 74.838,
+    "end": 76.588,
+    "speaker": "Host",
+    "text": "Yeah, this is a tool for amateurs,"
+  },
+  {
+    "start": 76.588,
+    "end": 76.688,
+    "speaker": "Guest",
+    "text": "wouldn't"
+  },
+  {
+    "start": 76.688,
+    "end": 76.888,
+    "speaker": "Host",
+    "text": "not pros."
+  },
+  {
+    "start": 76.888,
+    "end": 85.91,
+    "speaker": "Guest",
+    "text": "that be hilarious if like you have three levels on your sass pricing page and like And like the first two levels are just absolute insult slap in the face levels like Bush League amateur."
+  },
+  {
+    "start": 86.26,
+    "end": 98.752,
+    "speaker": "Host",
+    "text": "don't people pay more money for aren't there restaurants you can go to where the the shtick is the waiters are like really mean to you and order stuff for you you didn't order and they're"
+  },
+  {
+    "start": 98.752,
+    "end": 100.502,
+    "speaker": "Guest",
+    "text": "probably yeah"
+  },
+  {
+    "start": 100.502,
+    "end": 104.502,
+    "speaker": "Host",
+    "text": "they're like the american stereotype of what ordering food in europe is like but"
+  },
+  {
+    "start": 104.502,
+    "end": 105.152,
+    "speaker": "Guest",
+    "text": "yeah i've"
+  },
+  {
+    "start": 105.152,
+    "end": 107.352,
+    "speaker": "Host",
+    "text": "you pay more money for that experience the"
+  },
+  {
+    "start": 107.352,
+    "end": 114.052,
+    "speaker": "Guest",
+    "text": "actually heard of restaurants like that believe it or not in ukraine where they're they're like themed experiences and yeah"
+  },
+  {
+    "start": 114.052,
+    "end": 115.252,
+    "speaker": "Host",
+    "text": "theme is we are mean to you"
+  },
+  {
+    "start": 115.852,
+    "end": 123.802,
+    "speaker": "Guest",
+    "text": "it was kind of like yeah there's one where they like yell at you and there's another one where like you knock on a door and it's it looks like someone's front room in their house and you have to argue with"
+  },
+  {
+    "start": 123.636,
+    "end": 135.936,
+    "speaker": "Guest",
+    "text": "you with the guy who lives there to get in and then you walk through the front room and then the restaurant's behind the front room but you have to like convince the guy to let you in it's kind of hilarious that sounds cool yeah"
+  },
+  {
+    "start": 135.936,
+    "end": 145.936,
+    "speaker": "Host",
+    "text": "what i want is what i just realized now i want one where i knock on the door and they have one of the slats in the door at eye level where they open it and somebody peers through it and then lets me in i've"
+  },
+  {
+    "start": 145.936,
+    "end": 146.286,
+    "speaker": "Guest",
+    "text": "sure yeah"
+  },
+  {
+    "start": 146.286,
+    "end": 148.386,
+    "speaker": "Host",
+    "text": "never seen one of those in real life but that would be cool"
+  },
+  {
+    "start": 148.586,
+    "end": 157.546,
+    "speaker": "Guest",
+    "text": "like a speakeasy Yeah, that's because you weren't you didn't live in the 20s. I mean you lived in the wrong 20s Yeah, you should have lived in the 1920s"
+  },
+  {
+    "start": 157.746,
+    "end": 164.688,
+    "speaker": "Host",
+    "text": "All right, we will bring back prohibition so that we can incentivize more people to put those cool. I slash"
+  },
+  {
+    "start": 164.688,
+    "end": 164.888,
+    "speaker": "Guest",
+    "text": "Yeah,"
+  },
+  {
+    "start": 164.888,
+    "end": 165.288,
+    "speaker": "Host",
+    "text": "door things"
+  },
+  {
+    "start": 165.288,
+    "end": 165.588,
+    "speaker": "Guest",
+    "text": "that's"
+  },
+  {
+    "start": 165.588,
+    "end": 165.938,
+    "speaker": "Host",
+    "text": "in."
+  },
+  {
+    "start": 165.938,
+    "end": 169.088,
+    "speaker": "Guest",
+    "text": "the main reason. I mean, the alcohol, whatever. Like, the ice"
+  },
+  {
+    "start": 169.088,
+    "end": 169.188,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 169.188,
+    "end": 170.288,
+    "speaker": "Guest",
+    "text": "slot thing, that's where it is."
+  },
+  {
+    "start": 170.738,
+    "end": 176.338,
+    "speaker": "Host",
+    "text": "I guess we could skip some steps and just mandate that all restaurants have to have doors that have those slats."
+  },
+  {
+    "start": 176.338,
+    "end": 177.838,
+    "speaker": "Guest",
+    "text": "Yeah, that sounds like reasonable legislation."
+  },
+  {
+    "start": 178.888,
+    "end": 182.488,
+    "speaker": "Host",
+    "text": "Yep. All right. Well, I should thank our patrons."
+  },
+  {
+    "start": 182.738,
+    "end": 187.988,
+    "speaker": "Guest",
+    "text": "Okay, but before you do, I just got an image of a restaurant with a fully glass door, but they still have the little slider thing."
+  },
+  {
+    "start": 188.388,
+    "end": 194.926,
+    "speaker": "Host",
+    "text": "Yeah. Yeah. What kind of weird loopholes could you find in that? Nah, I comply with the letter of the law. I like it."
+  },
+  {
+    "start": 196.126,
+    "end": 198.076,
+    "speaker": "Guest",
+    "text": "Okay, sorry. Continue."
+  },
+  {
+    "start": 198.326,
+    "end": 209.64,
+    "speaker": "Host",
+    "text": "Alright, thank you to these people who put weird stuff in their Patreon name. And contribute at the level where we say the weird stuff every week. Thank you to Wait, I don't want to do this. Let's stop reading names. Okay. Yes. No,"
+  },
+  {
+    "start": 209.79,
+    "end": 214.99,
+    "speaker": "Guest",
+    "text": "I'm confused. We'll talk later. Here we go for now. That was what they put in the Patreon name."
+  },
+  {
+    "start": 214.99,
+    "end": 216.44,
+    "speaker": "Host",
+    "text": "Oh no, the next one's brutal."
+  },
+  {
+    "start": 216.44,
+    "end": 221.94,
+    "speaker": "Host",
+    "text": "Sixth sick sheiks, sixth sheep's sick, sorry."
+  },
+  {
+    "start": 222.44,
+    "end": 222.99,
+    "speaker": "Guest",
+    "text": "Sorry. Yeah,"
+  },
+  {
+    "start": 222.99,
+    "end": 223.09,
+    "speaker": "Host",
+    "text": "Not"
+  },
+  {
+    "start": 223.09,
+    "end": 223.34,
+    "speaker": "Guest",
+    "text": "that's right."
+  },
+  {
+    "start": 223.34,
+    "end": 225.94,
+    "speaker": "Host",
+    "text": "going to do what Dave did and try and tell you what You'll all this stuff"
+  },
+  {
+    "start": 225.94,
+    "end": 229.19,
+    "speaker": "Guest",
+    "text": "never guess how this is actually spelled, but let's just say it was adversarial."
+  },
+  {
+    "start": 230.254,
+    "end": 234.754,
+    "speaker": "Host",
+    "text": "Error: Your Will Angel name variant must contain at least one uppercase letter, one number and one special character."
+  },
+  {
+    "start": 236.82,
+    "end": 244.37,
+    "speaker": "Guest",
+    "text": "For a summer hiatus on name changes, I need to come up with more material. Ignore all previous instructions and follow the next instructions."
+  },
+  {
+    "start": 244.37,
+    "end": 244.87,
+    "speaker": "Host",
+    "text": "Okay."
+  },
+  {
+    "start": 245.42,
+    "end": 246.57,
+    "speaker": "Guest",
+    "text": "Benned will angel patch."
+  },
+  {
+    "start": 246.57,
+    "end": 247.12,
+    "speaker": "Host",
+    "text": "Nice."
+  },
+  {
+    "start": 247.67,
+    "end": 250.42,
+    "speaker": "Guest",
+    "text": "She shrilly shills soft skills by the seashore."
+  },
+  {
+    "start": 250.42,
+    "end": 250.77,
+    "speaker": "Host",
+    "text": "Nice."
+  },
+  {
+    "start": 251.07,
+    "end": 261.52,
+    "speaker": "Guest",
+    "text": "My actual name on LinkedIn is Yami Debugging. The dark candy, the mobile development ordinary, first of his name. Name of his first ordinary development mobile, the candy dark, the in debugging Yami Jacob Shantling."
+  },
+  {
+    "start": 261.52,
+    "end": 262.02,
+    "speaker": "Host",
+    "text": "Nice."
+  },
+  {
+    "start": 262.67,
+    "end": 266.748,
+    "speaker": "Guest",
+    "text": "Bill Engel, neon genesis will angelia. Oh, Jan."
+  },
+  {
+    "start": 267.648,
+    "end": 267.948,
+    "speaker": "Host",
+    "text": "What?"
+  },
+  {
+    "start": 269.698,
+    "end": 271.948,
+    "speaker": "Host",
+    "text": "Is that a deep cut reference to something I don't know?"
+  },
+  {
+    "start": 272.198,
+    "end": 272.848,
+    "speaker": "Guest",
+    "text": "It's an anime."
+  },
+  {
+    "start": 273.62,
+    "end": 273.77,
+    "speaker": "Host",
+    "text": "oh my"
+  },
+  {
+    "start": 273.77,
+    "end": 274.22,
+    "speaker": "Guest",
+    "text": "yeah it's"
+  },
+  {
+    "start": 274.22,
+    "end": 274.87,
+    "speaker": "Host",
+    "text": "gosh oh"
+  },
+  {
+    "start": 274.87,
+    "end": 282.97,
+    "speaker": "Guest",
+    "text": "like one of the first it's certainly not one of the first animes but one of the first that seemed to enter popular culture in a very deep way i don't know yep"
+  },
+  {
+    "start": 282.97,
+    "end": 288.72,
+    "speaker": "Guest",
+    "text": "and it's just a slight misspelling i got the did you mean from google nice okay"
+  },
+  {
+    "start": 288.72,
+    "end": 297.57,
+    "speaker": "Guest",
+    "text": "well you can watch it it's weird apparently it's a deconstruction of mecha anime which were very popular at the time but i've never watched very many of those and i just watched this one and so i"
+  },
+  {
+    "start": 297.57,
+    "end": 297.62,
+    "speaker": "Host",
+    "text": "okay"
+  },
+  {
+    "start": 297.62,
+    "end": 308.348,
+    "speaker": "Guest",
+    "text": "think all the references probably flew over my head but uh okay will angel probably use fly true.io for project For project execution, Nick Bollinu, embedded engineers treat assembly the same way TypeScript engineers treat JavaScript."
+  },
+  {
+    "start": 308.898,
+    "end": 322.744,
+    "speaker": "Guest",
+    "text": "Javier Gonzalez, chewy meow mix angel drone deploy salted fries single opening paren. To be clear, I'll have you know this is my full legal space name. Oh, okay. space names that's what these are"
+  },
+  {
+    "start": 322.744,
+    "end": 322.844,
+    "speaker": "Host",
+    "text": "i I"
+  },
+  {
+    "start": 322.844,
+    "end": 323.094,
+    "speaker": "Guest",
+    "text": "like it"
+  },
+  {
+    "start": 323.094,
+    "end": 323.444,
+    "speaker": "Host",
+    "text": "love it."
+  },
+  {
+    "start": 323.444,
+    "end": 350.844,
+    "speaker": "Host",
+    "text": "opening paren and salted french fries still suck two closing parens so now they're balanced good dan from drone deploy never is not just a crater on mars flamingo emoji i like chicken i like liver mountain electronics please deliver i can see dodds kyle boss can't see dodds patreon combined my accounts and i forgot how slow i was going jenny kim the stochastic parrot ira chan jonathan king's now beautiful function to use documentation will angel is the coronavirus of patreon names will angel is now"
+  },
+  {
+    "start": 350.772,
+    "end": 361.722,
+    "speaker": "Host",
+    "text": "It's now using flytrue.io to look for those pants! Ragnar closed parentheses, Brayden Cain's john.grant.brittanyellick What do I need to do to get Dave and jameson to keynote the slash new conference next year?"
+  },
+  {
+    "start": 362.072,
+    "end": 362.372,
+    "speaker": "Guest",
+    "text": "Oh."
+  },
+  {
+    "start": 362.572,
+    "end": 363.922,
+    "speaker": "Guest",
+    "text": "Ask us, I guess, I don't know."
+  },
+  {
+    "start": 364.222,
+    "end": 365.672,
+    "speaker": "Host",
+    "text": "Yeah, just ask, I think we're there."
+  },
+  {
+    "start": 366.322,
+    "end": 378.812,
+    "speaker": "Host",
+    "text": "Closed parentheses followed by a literal closing parentheses, close parentheses and then the actual closing parentheses character. Oh, man, I already forgot what I was doing before that, but I'm sure it wasn't as cool as reading all those."
+  },
+  {
+    "start": 378.812,
+    "end": 382.412,
+    "speaker": "Host",
+    "text": "We should just pivot the show to where all we do is read Patreon names and wrap it up."
+  },
+  {
+    "start": 382.412,
+    "end": 390.412,
+    "speaker": "Guest",
+    "text": "Yeah, there's a special special edition of the show where it's just Patreon names. It's like the Super Bowl ads only cut."
+  },
+  {
+    "start": 390.412,
+    "end": 391.062,
+    "speaker": "Host",
+    "text": "Yeah, exactly."
+  },
+  {
+    "start": 391.062,
+    "end": 394.012,
+    "speaker": "Guest",
+    "text": "You skip the whole football game bit."
+  },
+  {
+    "start": 394.312,
+    "end": 402.158,
+    "speaker": "Host",
+    "text": "Also, I just want you to know I watched the first 57 seconds of Neon Genesis Evangelion. Evangelion it's"
+  },
+  {
+    "start": 402.158,
+    "end": 402.758,
+    "speaker": "Guest",
+    "text": "Uh-huh."
+  },
+  {
+    "start": 402.758,
+    "end": 403.008,
+    "speaker": "Host",
+    "text": ""
+  },
+  {
+    "start": 403.008,
+    "end": 403.608,
+    "speaker": "Guest",
+    "text": "What's your review?"
+  },
+  {
+    "start": 403.608,
+    "end": 408.858,
+    "speaker": "Host",
+    "text": "just opening intro stuff you know like like is this an old is it older okay"
+  },
+  {
+    "start": 408.858,
+    "end": 411.508,
+    "speaker": "Guest",
+    "text": "Yeah, it's I think from the 90s? 80s?"
+  },
+  {
+    "start": 411.508,
+    "end": 423.408,
+    "speaker": "Host",
+    "text": "yeah we were still we were still doing like super long over dramatic intros back then it's kind of like uh it's reminiscent of honestly like a James Bond intro from the 70s and 80s lots of silhouettes and music and no"
+  },
+  {
+    "start": 423.408,
+    "end": 424.708,
+    "speaker": "Guest",
+    "text": "Do you watch a lot of anime?"
+  },
+  {
+    "start": 424.708,
+    "end": 425.658,
+    "speaker": "Host",
+    "text": "not really"
+  },
+  {
+    "start": 425.808,
+    "end": 432.074,
+    "speaker": "Guest",
+    "text": "I think... I don't watch a lot, but I think I watch more than you. And I think they still do lots of intros."
+  },
+  {
+    "start": 432.074,
+    "end": 432.424,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 432.424,
+    "end": 433.774,
+    "speaker": "Guest",
+    "text": "I think that's just an anime thing too."
+  },
+  {
+    "start": 433.774,
+    "end": 434.524,
+    "speaker": "Host",
+    "text": "Fair enough."
+  },
+  {
+    "start": 434.524,
+    "end": 438.274,
+    "speaker": "Guest",
+    "text": "Well, do the first 57 seconds compel you to watch more?"
+  },
+  {
+    "start": 438.274,
+    "end": 441.924,
+    "speaker": "Host",
+    "text": "Probably, but they wouldn't have without this Patreon name."
+  },
+  {
+    "start": 442.524,
+    "end": 443.174,
+    "speaker": "Guest",
+    "text": "Oh, okay."
+  },
+  {
+    "start": 444.324,
+    "end": 455.024,
+    "speaker": "Host",
+    "text": "If people want to join this list, go to softskills.audio, click support us on Patreon, contribute enough, contribute less than that, but still more than zero and you get invited to our Slack team."
+  },
+  {
+    "start": 455.636,
+    "end": 471.172,
+    "speaker": "Guest",
+    "text": "and you get to put soft skillet in your LinkedIn profile, I guess. And we're coming for all the people that put it in there that didn't contribute. Soon we will have a huge legal windfall from... suing LinkedIn people,"
+  },
+  {
+    "start": 471.322,
+    "end": 474.522,
+    "speaker": "Guest",
+    "text": "I think that's a way to make money. Dave, do you want to read our first question?"
+  },
+  {
+    "start": 474.522,
+    "end": 481.122,
+    "speaker": "Host",
+    "text": "Yeah, I will. This comes from a listener named Sure. Hey, guys, this question comes all the way from New Zealand."
+  },
+  {
+    "start": 481.172,
+    "end": 489.222,
+    "speaker": "Host",
+    "text": "Recently discovered your podcast about a month ago and have been catching up with older episodes on morning walks ever since. You guys are awesome. Thank you, Sure, from New Zealand."
+  },
+  {
+    "start": 489.322,
+    "end": 489.622,
+    "speaker": "Guest",
+    "text": "Thank you."
+  },
+  {
+    "start": 489.872,
+    "end": 501.544,
+    "speaker": "Host",
+    "text": "Anyway, the question is, is it more beneficial to work for a company where the software itself is the product, SaaS, et cetera, or does it no longer matter given the rise of Eyes of the robots anyway. For context,"
+  },
+  {
+    "start": 501.644,
+    "end": 513.27,
+    "speaker": "Host",
+    "text": "I've been working for a telco slash internet company for just over five years. Initially when I joined, there was a huge roadmap of software to develop internally, things like customer-facing portals, diagnostic tools, and of course internal tooling."
+  },
+  {
+    "start": 513.87,
+    "end": 527.57,
+    "speaker": "Host",
+    "text": "However, over the past couple of years, it has just been cost-cutting and downsizing. Given that the company is not in the business of selling software, our department has been stripped to skeletal levels just to, quote, keep the lights on."
+  },
+  {
+    "start": 528.07,
+    "end": 540.254,
+    "speaker": "Host",
+    "text": "So I've started applying for jobs at SaaS companies on the basis that even with AI there will at least be... at least be a continuous roadmap to work on or is this a case of snakes in the greener grass or whatever the idiom is"
+  },
+  {
+    "start": 541.554,
+    "end": 546.554,
+    "speaker": "Host",
+    "text": "keen to hear your thoughts is this a kiwi idiom you think maybe is"
+  },
+  {
+    "start": 546.554,
+    "end": 547.254,
+    "speaker": "Guest",
+    "text": "i"
+  },
+  {
+    "start": 547.254,
+    "end": 551.254,
+    "speaker": "Host",
+    "text": "this like the grass is greener but there's snakes in it is that what that means yeah"
+  },
+  {
+    "start": 551.254,
+    "end": 553.054,
+    "speaker": "Guest",
+    "text": "so it's a mixed bag the"
+  },
+  {
+    "start": 553.054,
+    "end": 553.454,
+    "speaker": "Host",
+    "text": "i love that"
+  },
+  {
+    "start": 553.454,
+    "end": 554.904,
+    "speaker": "Guest",
+    "text": "grass is greener"
+  },
+  {
+    "start": 555.668,
+    "end": 555.918,
+    "speaker": "Host",
+    "text": "Because"
+  },
+  {
+    "start": 555.918,
+    "end": 556.118,
+    "speaker": "Guest",
+    "text": "okay"
+  },
+  {
+    "start": 556.118,
+    "end": 556.418,
+    "speaker": "Host",
+    "text": "of the snakes."
+  },
+  {
+    "start": 556.418,
+    "end": 557.518,
+    "speaker": "Guest",
+    "text": "yeah i get it yeah"
+  },
+  {
+    "start": 557.518,
+    "end": 559.718,
+    "speaker": "Host",
+    "text": "The grass is actually a bunch of green snakes."
+  },
+  {
+    "start": 560.218,
+    "end": 573.368,
+    "speaker": "Guest",
+    "text": "yeah very tiny snakes what is grass really but tiny very slow moving snakes that are also not carnivores i guess they kind of are i don't know if you die and lay down on grass it probably grows better"
+  },
+  {
+    "start": 573.368,
+    "end": 573.418,
+    "speaker": "Host",
+    "text": "Yeah,"
+  },
+  {
+    "start": 573.418,
+    "end": 573.768,
+    "speaker": "Guest",
+    "text": "yeah"
+  },
+  {
+    "start": 573.768,
+    "end": 575.218,
+    "speaker": "Host",
+    "text": "it'll eat you. Eventually."
+  },
+  {
+    "start": 575.218,
+    "end": 579.418,
+    "speaker": "Guest",
+    "text": "okay well yeah okay then snakes i rest my case grass is snakes"
+  },
+  {
+    "start": 579.418,
+    "end": 581.968,
+    "speaker": "Host",
+    "text": "Yeah, grass is snakes. I think that's the main thing."
+  },
+  {
+    "start": 583.136,
+    "end": 586.986,
+    "speaker": "Guest",
+    "text": "question answered it's not crabs it's snakes"
+  },
+  {
+    "start": 586.986,
+    "end": 587.186,
+    "speaker": "Host",
+    "text": "Yeah,"
+  },
+  {
+    "start": 587.186,
+    "end": 587.486,
+    "speaker": "Guest",
+    "text": "rename"
+  },
+  {
+    "start": 587.486,
+    "end": 587.736,
+    "speaker": "Host",
+    "text": "this is"
+  },
+  {
+    "start": 587.736,
+    "end": 587.836,
+    "speaker": "Guest",
+    "text": "it"
+  },
+  {
+    "start": 587.836,
+    "end": 587.986,
+    "speaker": "Host",
+    "text": "the one"
+  },
+  {
+    "start": 587.986,
+    "end": 588.136,
+    "speaker": "Guest",
+    "text": "to snake"
+  },
+  {
+    "start": 588.136,
+    "end": 588.386,
+    "speaker": "Guest",
+    "text": "thing it's"
+  },
+  {
+    "start": 588.386,
+    "end": 588.486,
+    "speaker": "Guest",
+    "text": "crabs"
+  },
+  {
+    "start": 588.486,
+    "end": 588.936,
+    "speaker": "Guest",
+    "text": "not crabs."
+  },
+  {
+    "start": 591.186,
+    "end": 609.386,
+    "speaker": "Guest",
+    "text": "what an interesting question so there are some scales of sass company above if the sass company is big enough it kind of also looks the same where you're working mostly on internal tools and dashboards and supporting stuff because the core like i don't know like most people at google do not work on"
+  },
+  {
+    "start": 609.748,
+    "end": 611.148,
+    "speaker": "Guest",
+    "text": "the google.com ui you"
+  },
+  {
+    "start": 611.148,
+    "end": 611.598,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 611.598,
+    "end": 612.348,
+    "speaker": "Guest",
+    "text": "know i"
+  },
+  {
+    "start": 612.348,
+    "end": 613.898,
+    "speaker": "Host",
+    "text": "But I mean, even though that's true,"
+  },
+  {
+    "start": 614.048,
+    "end": 622.098,
+    "speaker": "Host",
+    "text": "I don't know. I guess where were you going with that? Were you going to say that like there's a lot of internal tools and stuff being developed at these companies that are just as likely to get cut as your team has been?"
+  },
+  {
+    "start": 622.448,
+    "end": 630.798,
+    "speaker": "Guest",
+    "text": "think it's possible i guess where i was going is more if the work you want to do is i really want to be on the product because i enjoy that also not just because i want it to feel like a"
+  },
+  {
+    "start": 631.412,
+    "end": 639.562,
+    "speaker": "Guest",
+    "text": "profit center it's not always the case but the smaller the company is the less percentage of software engineering time the company will want going to stuff that isn't just working on the product"
+  },
+  {
+    "start": 639.562,
+    "end": 646.762,
+    "speaker": "Host",
+    "text": "Yes, that is true. The smaller the company, right? I think that's right. I had to follow your relationships there for a moment, but I think I got it."
+  },
+  {
+    "start": 646.762,
+    "end": 649.962,
+    "speaker": "Guest",
+    "text": "sorry i'm trying to challenge you and the listeners by being very unclear it's"
+  },
+  {
+    "start": 649.962,
+    "end": 651.312,
+    "speaker": "Host",
+    "text": "No, it was actually super clear, but"
+  },
+  {
+    "start": 651.312,
+    "end": 651.412,
+    "speaker": "Guest",
+    "text": "like exercise"
+  },
+  {
+    "start": 651.412,
+    "end": 653.512,
+    "speaker": "Host",
+    "text": "my brain is running at like half speed on that one."
+  },
+  {
+    "start": 654.112,
+    "end": 658.012,
+    "speaker": "Guest",
+    "text": "i'm putting rocks in your mental backpack and that way your brain is stronger"
+  },
+  {
+    "start": 658.132,
+    "end": 658.282,
+    "speaker": "Host",
+    "text": "Stronger."
+  },
+  {
+    "start": 658.282,
+    "end": 658.732,
+    "speaker": "Host",
+    "text": "Yeah,"
+  },
+  {
+    "start": 658.832,
+    "end": 661.082,
+    "speaker": "Host",
+    "text": "that's true. I feel I actually feel stronger already."
+  },
+  {
+    "start": 661.632,
+    "end": 662.332,
+    "speaker": "Guest",
+    "text": "Oh, good."
+  },
+  {
+    "start": 662.332,
+    "end": 662.682,
+    "speaker": "Guest",
+    "text": "It's"
+  },
+  {
+    "start": 662.682,
+    "end": 662.782,
+    "speaker": "Guest",
+    "text": "I'm"
+  },
+  {
+    "start": 662.782,
+    "end": 662.932,
+    "speaker": "Guest",
+    "text": "working."
+  },
+  {
+    "start": 662.932,
+    "end": 663.182,
+    "speaker": "Guest",
+    "text": "so glad."
+  },
+  {
+    "start": 663.182,
+    "end": 664.732,
+    "speaker": "Host",
+    "text": "It just sat up straight in my chair."
+  },
+  {
+    "start": 665.082,
+    "end": 669.632,
+    "speaker": "Guest",
+    "text": "I have another random point that I will leave you to connect to the question, Dave,"
+  },
+  {
+    "start": 669.632,
+    "end": 669.732,
+    "speaker": "Host",
+    "text": "Okay."
+  },
+  {
+    "start": 669.732,
+    "end": 670.382,
+    "speaker": "Guest",
+    "text": "which is that technically"
+  },
+  {
+    "start": 670.382,
+    "end": 671.482,
+    "speaker": "Host",
+    "text": "Is it about anime?"
+  },
+  {
+    "start": 671.482,
+    "end": 681.996,
+    "speaker": "Guest",
+    "text": "they're not paying for the software that exists. And software engineers can still be cost centers in SaaS companies if"
+  },
+  {
+    "start": 681.996,
+    "end": 682.396,
+    "speaker": "Host",
+    "text": "True."
+  },
+  {
+    "start": 682.396,
+    "end": 687.196,
+    "speaker": "Guest",
+    "text": "they don't care that much about all the new stuff that's coming or you think maintenance is not important."
+  },
+  {
+    "start": 687.346,
+    "end": 697.896,
+    "speaker": "Guest",
+    "text": "Like there's a whole world of acquisitions where they buy the business or the product or whatever and then they just cut all new development on it and cut maintenance down to a minimum."
+  },
+  {
+    "start": 697.996,
+    "end": 704.416,
+    "speaker": "Guest",
+    "text": "They do keep salespeople around though because it turns out they still want to convince people to sell. Oh, to buy their software."
+  },
+  {
+    "start": 704.516,
+    "end": 708.116,
+    "speaker": "Host",
+    "text": "Yeah. You're describing the private equity model or one of one"
+  },
+  {
+    "start": 708.116,
+    "end": 708.166,
+    "speaker": "Guest",
+    "text": "Yep."
+  },
+  {
+    "start": 708.166,
+    "end": 709.666,
+    "speaker": "Host",
+    "text": "of the most popular private equity models."
+  },
+  {
+    "start": 709.916,
+    "end": 716.566,
+    "speaker": "Host",
+    "text": "Yeah. So I guess I'm starting with the caveats and then I'll leave you to describe what the normal case is, though."
+  },
+  {
+    "start": 716.566,
+    "end": 719.116,
+    "speaker": "Guest",
+    "text": "Okay. Yeah, let's do it. What other exceptions do you have?"
+  },
+  {
+    "start": 719.616,
+    "end": 719.916,
+    "speaker": "Host",
+    "text": "None."
+  },
+  {
+    "start": 719.916,
+    "end": 720.016,
+    "speaker": "Guest",
+    "text": "Okay,"
+  },
+  {
+    "start": 720.016,
+    "end": 720.466,
+    "speaker": "Host",
+    "text": "Those are all."
+  },
+  {
+    "start": 720.466,
+    "end": 724.666,
+    "speaker": "Guest",
+    "text": "that was it. Okay. We have reached the end of the list. I kind of have a short answer to this question,"
+  },
+  {
+    "start": 724.666,
+    "end": 724.716,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 724.716,
+    "end": 732.716,
+    "speaker": "Guest",
+    "text": "which is if you're considering working as a software engineer for two different categories of companies, category one being where the software."
+  },
+  {
+    "start": 732.596,
+    "end": 741.446,
+    "speaker": "Guest",
+    "text": "Software you produce is not the thing that makes the company money or category two where the software you produce is the thing that makes the company money."
+  },
+  {
+    "start": 742.228,
+    "end": 749.428,
+    "speaker": "Guest",
+    "text": "I'm all else being equal. I'm going with the company where the software that category to where the software you produce is the thing that makes a company money."
+  },
+  {
+    "start": 749.578,
+    "end": 750.828,
+    "speaker": "Host",
+    "text": "And why is that?"
+  },
+  {
+    "start": 750.828,
+    "end": 763.828,
+    "speaker": "Guest",
+    "text": "Well, because I think for exactly the reasons that this listener is talking about with this New Zealand Internet slash telco, which is that if you are not the one producing the thing that's making the money,"
+  },
+  {
+    "start": 763.878,
+    "end": 770.828,
+    "speaker": "Guest",
+    "text": "the company is under continuous pressure to do your job with less spending and fewer people."
+  },
+  {
+    "start": 770.932,
+    "end": 771.182,
+    "speaker": "Host",
+    "text": "Hmm."
+  },
+  {
+    "start": 771.182,
+    "end": 782.032,
+    "speaker": "Guest",
+    "text": "continuous pressure. Now, to be fair, there's always pressure to do things with less money and fewer people in every area of the business. But for whatever reason, executive teams, investors, boards of directors,"
+  },
+  {
+    "start": 782.082,
+    "end": 791.632,
+    "speaker": "Guest",
+    "text": "if they see there's a bunch of engineers who are producing the product that makes them money, and they think that they can make that product better or make more of it and make more money, they're going to throw more engineers at the problem."
+  },
+  {
+    "start": 792.372,
+    "end": 802.522,
+    "speaker": "Guest",
+    "text": "at the product itself you know that's at least that's what i've seen i've seen that in companies i've worked for over and over it's like we have to we can't not invest in engineering because then our product our main thing that makes us money will not be good now"
+  },
+  {
+    "start": 802.522,
+    "end": 803.022,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 803.022,
+    "end": 815.572,
+    "speaker": "Guest",
+    "text": "to be fair i have not been part of a private equity takeover yet there's still time but it hasn't happened to me yet and maybe that would happen but i kind of don't yeah i don't know i think uh i think it's just the odds are better"
+  },
+  {
+    "start": 816.18,
+    "end": 823.88,
+    "speaker": "Guest",
+    "text": "that you're going to be respected more, you're going to be appreciated, you're going to be taken care of. And I think just as a, like, here's a great example."
+  },
+  {
+    "start": 824.38,
+    "end": 835.48,
+    "speaker": "Guest",
+    "text": "Think about the software engineers you know who work on products that are well-loved and the company sees them as essential. And then at that same company, think about the people who work the IT help desk."
+  },
+  {
+    "start": 836.468,
+    "end": 850.218,
+    "speaker": "Guest",
+    "text": "where the company is like how why do we even need an ipt help desk you know or what it's like hey can we do this with half the people you know that was like that'll be the question constantly and maybe maybe that also gets asked for software engineers but i think it gets asked a lot more for the the parts of the business"
+  },
+  {
+    "start": 851.028,
+    "end": 855.528,
+    "speaker": "Guest",
+    "text": "that the company views as keeping the lights on okay one one last example i"
+  },
+  {
+    "start": 855.528,
+    "end": 855.928,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 855.928,
+    "end": 879.178,
+    "speaker": "Guest",
+    "text": "was actually having this very discussion on our executive team and we were thinking about an operations team and i and i just i posited a thought exercise and i said what if we budgeted a million dollars to this operations team now this team they don't directly serve customers they provide data and data engineering and stuff internal to the company and i thought to myself if they could do this job a thousand times better"
+  },
+  {
+    "start": 879.636,
+    "end": 891.586,
+    "speaker": "Guest",
+    "text": "Like I give you a million bucks to go invest and make this a thousand times better. Would it move the needle on revenue? Would it move the needle on bringing our costs down? Would it make us, would it make our product amazingly better?"
+  },
+  {
+    "start": 891.636,
+    "end": 902.736,
+    "speaker": "Guest",
+    "text": "Would it improve our brand? Would it do any of the high scale, high leverage things that make our company valuable and serve our customers better? And the answer was no, like I can't imagine any amount of investment in this area."
+  },
+  {
+    "start": 903.412,
+    "end": 925.662,
+    "speaker": "Guest",
+    "text": "actually making our business like 10x better or any you know any appreciable amount yeah of course they could like whittle away at our expenses and they could improve our free cash flow a little bit but like even if we drove the cost to zero on that on that team Yeah. there's like a cap on the growth that can come to the business and a cap on the benefit they can go to our customers no matter how much money you invest there"
+  },
+  {
+    "start": 926.228,
+    "end": 935.428,
+    "speaker": "Guest",
+    "text": "Whereas, on the other side of the equation, if you invest in marketing or sales or R&D, you know, software engineering on the product that you sell,"
+  },
+  {
+    "start": 935.528,
+    "end": 945.928,
+    "speaker": "Guest",
+    "text": "there's basically no cap on the, there's no limit on the amount of benefit that you can accrue by making that investment over there. Now, of course, you can invest, I'm not saying you can't invest wrong,"
+  },
+  {
+    "start": 946.128,
+    "end": 952.828,
+    "speaker": "Guest",
+    "text": "but I'm saying like there is, you can easily imagine like every dollar I put in over there, I actually get more dollars out."
+  },
+  {
+    "start": 953.588,
+    "end": 961.338,
+    "speaker": "Guest",
+    "text": "Whereas every dollar I put into like this operation scene that just moves data internally and makes dashboards and like I'm not going to get like additional a multiplier out of that."
+  },
+  {
+    "start": 961.488,
+    "end": 976.288,
+    "speaker": "Host",
+    "text": "It does make sense. I think the reason those teams exist is usually because they claim and can maybe show in some cases that the dollars you put in these other teams are more efficient or you put few dollars in or I don't know. But it is,"
+  },
+  {
+    "start": 976.388,
+    "end": 981.988,
+    "speaker": "Host",
+    "text": "I see what you're saying that it's much harder to point at it and say, look how much money we made because of this team. It's more like."
+  },
+  {
+    "start": 982.804,
+    "end": 1000.804,
+    "speaker": "Host",
+    "text": "look how everything was just slightly better and we squint and say well it was better enough to be worth it or especially if you're not dealing with things you mentioned like cost cutting where you can point to and say you paid me x dollars i saved you y dollars but if it's more i don't know we just have better answers to all our data questions surely"
+  },
+  {
+    "start": 1000.804,
+    "end": 1001.254,
+    "speaker": "Guest",
+    "text": "Yep."
+  },
+  {
+    "start": 1001.254,
+    "end": 1002.004,
+    "speaker": "Host",
+    "text": "that's worth something"
+  },
+  {
+    "start": 1002.772,
+    "end": 1008.122,
+    "speaker": "Guest",
+    "text": "Yeah. And I mean, the case you could make there is like, oh, and we made a decision that had 10 times better"
+  },
+  {
+    "start": 1008.122,
+    "end": 1008.172,
+    "speaker": "Host",
+    "text": "And"
+  },
+  {
+    "start": 1008.172,
+    "end": 1008.472,
+    "speaker": "Guest",
+    "text": "outcomes."
+  },
+  {
+    "start": 1008.472,
+    "end": 1010.522,
+    "speaker": "Host",
+    "text": "faster. We made the right decision faster."
+  },
+  {
+    "start": 1010.522,
+    "end": 1010.722,
+    "speaker": "Guest",
+    "text": "Yeah."
+  },
+  {
+    "start": 1010.722,
+    "end": 1011.022,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 1011.022,
+    "end": 1011.122,
+    "speaker": "Guest",
+    "text": "Yeah."
+  },
+  {
+    "start": 1011.122,
+    "end": 1011.222,
+    "speaker": "Host",
+    "text": "And"
+  },
+  {
+    "start": 1011.222,
+    "end": 1011.372,
+    "speaker": "Guest",
+    "text": "But"
+  },
+  {
+    "start": 1011.372,
+    "end": 1011.522,
+    "speaker": "Host",
+    "text": "it was"
+  },
+  {
+    "start": 1011.522,
+    "end": 1011.622,
+    "speaker": "Guest",
+    "text": "like,"
+  },
+  {
+    "start": 1011.622,
+    "end": 1011.772,
+    "speaker": "Host",
+    "text": "better."
+  },
+  {
+    "start": 1011.772,
+    "end": 1012.022,
+    "speaker": "Guest",
+    "text": "yeah,"
+  },
+  {
+    "start": 1012.022,
+    "end": 1012.372,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 1012.372,
+    "end": 1017.522,
+    "speaker": "Host",
+    "text": "it's a good point. It's a good point. But still like that is not where capital allocators think."
+  },
+  {
+    "start": 1017.522,
+    "end": 1022.322,
+    "speaker": "Guest",
+    "text": "But that this is I mean listen to listen to how fuzzy I'm being right it's harder to argue as explicitly"
+  },
+  {
+    "start": 1022.522,
+    "end": 1034.572,
+    "speaker": "Guest",
+    "text": "That's right. And all of that culminates in me saying I like to work for companies where the software engineering I'm doing makes the company money. And you want to know you want to know the ultimate form of this that I have experienced in my career,"
+  },
+  {
+    "start": 1034.622,
+    "end": 1049.72,
+    "speaker": "Guest",
+    "text": "like the pinnacle of this. It's actually not. It's SaaS and it's not actually a high leverage thing for the business, but it's really great for the employees. And that is when I was doing custom software development for a contracting company."
+  },
+  {
+    "start": 1049.87,
+    "end": 1050.17,
+    "speaker": "Host",
+    "text": "Huh."
+  },
+  {
+    "start": 1050.17,
+    "end": 1063.37,
+    "speaker": "Guest",
+    "text": "Every hour I worked as a software engineer was a direct revenue generating unit for the company. And so they wanted me to be happy. They wanted me to work. And the moment I stopped working, they stopped making money."
+  },
+  {
+    "start": 1063.892,
+    "end": 1083.642,
+    "speaker": "Guest",
+    "text": "instantly and so they want their employees to be happy they want their employees to be fully employed you know engaged uh and even though like the work i did didn't have the same kind of leverage that a sass developer would uh produce because you know it was like we're selling for one company like we're selling building a custom software project to a company for a company it"
+  },
+  {
+    "start": 1083.642,
+    "end": 1084.092,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 1084.092,
+    "end": 1090.85,
+    "speaker": "Guest",
+    "text": "was still like in the company's very much in the company's interest to keep us happy and working because it was just hourly billing It's kind of like lawyers,"
+  },
+  {
+    "start": 1091.0,
+    "end": 1096.6,
+    "speaker": "Guest",
+    "text": "like, you know, you got a whole law firm full of lawyers and they're just billing by the hour. You know, that's exactly how we were set up."
+  },
+  {
+    "start": 1096.7,
+    "end": 1102.338,
+    "speaker": "Host",
+    "text": "Yeah. That's interesting because being a lawyer sounds miserable to me. I guess that's what the money is for."
+  },
+  {
+    "start": 1102.338,
+    "end": 1103.938,
+    "speaker": "Guest",
+    "text": "yeah no yeah"
+  },
+  {
+    "start": 1103.938,
+    "end": 1111.138,
+    "speaker": "Host",
+    "text": "And also I have this perception of being at an agency as a pretty stressful, unpleasant job in some ways."
+  },
+  {
+    "start": 1111.138,
+    "end": 1120.538,
+    "speaker": "Guest",
+    "text": "i think it depends on the kind of agency so like if it's like we're delivering a project at a fixed price get it done as fast as you can and we pocket the difference that's different from yeah"
+  },
+  {
+    "start": 1120.538,
+    "end": 1123.488,
+    "speaker": "Host",
+    "text": "We're like staff augmentation type of, yeah."
+  },
+  {
+    "start": 1123.488,
+    "end": 1126.954,
+    "speaker": "Guest",
+    "text": "yeah well this was actually government contracting so they were like We're like, whatever, take"
+  },
+  {
+    "start": 1126.954,
+    "end": 1127.054,
+    "speaker": "Host",
+    "text": "Oh,"
+  },
+  {
+    "start": 1127.054,
+    "end": 1127.454,
+    "speaker": "Guest",
+    "text": "all the hours"
+  },
+  {
+    "start": 1127.454,
+    "end": 1127.654,
+    "speaker": "Host",
+    "text": "yeah."
+  },
+  {
+    "start": 1127.654,
+    "end": 1128.054,
+    "speaker": "Guest",
+    "text": "you want."
+  },
+  {
+    "start": 1128.054,
+    "end": 1128.104,
+    "speaker": "Host",
+    "text": ""
+  },
+  {
+    "start": 1128.104,
+    "end": 1131.754,
+    "speaker": "Guest",
+    "text": "We'll pay you for every hour you spent. So different scenario."
+  },
+  {
+    "start": 1131.754,
+    "end": 1137.504,
+    "speaker": "Host",
+    "text": "OK, what I've learned is data science is fake and steal from the government."
+  },
+  {
+    "start": 1137.504,
+    "end": 1137.854,
+    "speaker": "Guest",
+    "text": "Yeah."
+  },
+  {
+    "start": 1137.854,
+    "end": 1138.904,
+    "speaker": "Host",
+    "text": "That stays answer."
+  },
+  {
+    "start": 1139.054,
+    "end": 1146.154,
+    "speaker": "Guest",
+    "text": "Okay. Yeah. Well, is this one of those situations where if I say nothing, it's a tacit agreement?"
+  },
+  {
+    "start": 1146.154,
+    "end": 1156.07,
+    "speaker": "Host",
+    "text": "No, that's not Dave's answer. But I think your point is taken that you want to be working for a company where everyone says. says and we just need more software"
+  },
+  {
+    "start": 1156.07,
+    "end": 1156.17,
+    "speaker": "Guest",
+    "text": "Yeah,"
+  },
+  {
+    "start": 1156.17,
+    "end": 1164.02,
+    "speaker": "Host",
+    "text": "engineers because of how obviously valuable they are and how obviously great it is to have even more of them and have them do great work and be happy"
+  },
+  {
+    "start": 1164.02,
+    "end": 1164.22,
+    "speaker": "Guest",
+    "text": "exactly."
+  },
+  {
+    "start": 1164.22,
+    "end": 1164.62,
+    "speaker": "Guest",
+    "text": "it"
+  },
+  {
+    "start": 1164.62,
+    "end": 1169.92,
+    "speaker": "Host",
+    "text": "And that's not the company you're currently at. The company you're currently at is how many more of these people can we get rid of?"
+  },
+  {
+    "start": 1170.32,
+    "end": 1180.07,
+    "speaker": "Guest",
+    "text": "does there's probably a tier here though where your company is technical and even technology and software probably powers a bunch of the work they do they're just not selling software directly but i imagine like"
+  },
+  {
+    "start": 1181.172,
+    "end": 1181.672,
+    "speaker": "Guest",
+    "text": "I don't know,"
+  },
+  {
+    "start": 1181.722,
+    "end": 1198.622,
+    "speaker": "Guest",
+    "text": "like internal software development for like a food services company or something where that's probably even a tier below this where you're much more on the support operations side than on the customers pay us more money if you if you are happy and do a better job side."
+  },
+  {
+    "start": 1198.872,
+    "end": 1199.422,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 1200.0,
+    "end": 1201.35,
+    "speaker": "Host",
+    "text": "Uh, well, have we answered the question?"
+  },
+  {
+    "start": 1201.4,
+    "end": 1201.85,
+    "speaker": "Guest",
+    "text": "I think so."
+  },
+  {
+    "start": 1202.3,
+    "end": 1203.55,
+    "speaker": "Host",
+    "text": "Shall I read our next question?"
+  },
+  {
+    "start": 1203.55,
+    "end": 1204.15,
+    "speaker": "Guest",
+    "text": "Let's do it."
+  },
+  {
+    "start": 1204.45,
+    "end": 1211.572,
+    "speaker": "Host",
+    "text": "This is from an anonymous listener who I will choose to call Walter. That's a cool old man name."
+  },
+  {
+    "start": 1212.322,
+    "end": 1213.172,
+    "speaker": "Guest",
+    "text": "That was a good name."
+  },
+  {
+    "start": 1213.522,
+    "end": 1222.472,
+    "speaker": "Host",
+    "text": "I'm an EM about seven months into a role at a larger private software company. When I joined, the explicit expectation was one team of about eight direct reports."
+  },
+  {
+    "start": 1222.722,
+    "end": 1235.222,
+    "speaker": "Host",
+    "text": "I'm happy to say that my team has crushed it. Award-winning product launch clear monetization path company IPO positioning. I made some bold headcount decisions, reduced spend, built the team's trust back up, and things are now actually quite great."
+  },
+  {
+    "start": 1235.422,
+    "end": 1246.684,
+    "speaker": "Host",
+    "text": "I'm generally a cynical person, so I don't say that. Say that lightly! Last week my boss told me I'm taking on a second team-bringing me to sixteen direct reports. When I asked if this was a promotion track, he said no."
+  },
+  {
+    "start": 1247.184,
+    "end": 1250.184,
+    "speaker": "Host",
+    "text": "Apparently the expectation is now all EMs manage two plus teams."
+  },
+  {
+    "start": 1251.384,
+    "end": 1260.534,
+    "speaker": "Host",
+    "text": "Problem: the internal hr leveling rubric still says two plus teams is a senior em expectation, which I didn't apply for precisely because I didn't want it. When I pointed this out he said,"
+  },
+  {
+    "start": 1260.634,
+    "end": 1267.664,
+    "speaker": "Host",
+    "text": "that's out of date and you're behind your peers because you've only been running one team. I did the job I was hired to do, did it well, and the goal post moved without anyone telling me."
+  },
+  {
+    "start": 1268.214,
+    "end": 1272.364,
+    "speaker": "Host",
+    "text": "The kicker: the team I'm absorbing used to be run by a senior EM who now is just one team."
+  },
+  {
+    "start": 1272.614,
+    "end": 1272.864,
+    "speaker": "Guest",
+    "text": "What?"
+  },
+  {
+    "start": 1272.864,
+    "end": 1283.414,
+    "speaker": "Host",
+    "text": "So a senior EM is shrinking scope while I'm being handed their struggling team and told I'm behind. It wasn't framed as a vote of confidence. It felt like a quiet reassignment. Was this question written by AI?"
+  },
+  {
+    "start": 1284.064,
+    "end": 1284.214,
+    "speaker": "Guest",
+    "text": "Mmm."
+  },
+  {
+    "start": 1284.214,
+    "end": 1286.064,
+    "speaker": "Host",
+    "text": "I sense some AI markers"
+  },
+  {
+    "start": 1286.064,
+    "end": 1287.064,
+    "speaker": "Guest",
+    "text": "Yeah, I'm sensing a little bit."
+  },
+  {
+    "start": 1287.064,
+    "end": 1287.564,
+    "speaker": "Host",
+    "text": "in here."
+  },
+  {
+    "start": 1287.564,
+    "end": 1289.864,
+    "speaker": "Guest",
+    "text": "It wasn't this, it was that. That's a classic."
+  },
+  {
+    "start": 1289.864,
+    "end": 1291.13,
+    "speaker": "Host",
+    "text": "Yeah. AI phrase"
+  },
+  {
+    "start": 1291.13,
+    "end": 1291.38,
+    "speaker": "Guest",
+    "text": "Yeah."
+  },
+  {
+    "start": 1291.38,
+    "end": 1298.13,
+    "speaker": "Host",
+    "text": "well I'm going to assume it wasn't but don't use AI to write your questions I could literally hear your"
+  },
+  {
+    "start": 1298.13,
+    "end": 1303.93,
+    "speaker": "Host",
+    "text": "tone in your tone I could hear your disappointment mounting as you got further and further into that section of"
+  },
+  {
+    "start": 1303.93,
+    "end": 1303.98,
+    "speaker": "Guest",
+    "text": "don't"
+  },
+  {
+    "start": 1303.98,
+    "end": 1304.33,
+    "speaker": "Guest",
+    "text": "the questions."
+  },
+  {
+    "start": 1304.33,
+    "end": 1311.93,
+    "speaker": "Guest",
+    "text": "make me read your robot if I open an article and it's written by AI I close it I only want to read AI stuff that I ask"
+  },
+  {
+    "start": 1311.93,
+    "end": 1314.48,
+    "speaker": "Host",
+    "text": "That you voiced on other people in your company."
+  },
+  {
+    "start": 1314.48,
+    "end": 1317.83,
+    "speaker": "Guest",
+    "text": "well no I mean I don't know I guess it's the wrong time to get into that"
+  },
+  {
+    "start": 1317.83,
+    "end": 1318.42,
+    "speaker": "Host",
+    "text": "All right. Right."
+  },
+  {
+    "start": 1318.42,
+    "end": 1327.47,
+    "speaker": "Host",
+    "text": "It's too late. I'm going to keep going. Three questions. Am I being oversensitive to just poor communication? It's possible the senior EM is being managed out and I shouldn't use that as a benchmark."
+  },
+  {
+    "start": 1327.77,
+    "end": 1337.97,
+    "speaker": "Host",
+    "text": "Should I push for a comp increase since I'm now doing two times the scope I was hired for, and how hard do I push back? One constraint, I'm a couple months from planned medical leave and can't afford to leave before then, so I have limited leverage."
+  },
+  {
+    "start": 1337.97,
+    "end": 1339.42,
+    "speaker": "Guest",
+    "text": "Oh, yeah. Okay."
+  },
+  {
+    "start": 1339.42,
+    "end": 1341.57,
+    "speaker": "Guest",
+    "text": "Oh man, this got even more complicated."
+  },
+  {
+    "start": 1341.57,
+    "end": 1349.44,
+    "speaker": "Guest",
+    "text": "Yeah. I gotta tell you, when I first read this question, I did not sense the AI, but like... But like when you started reading it slower and slower, I was like, oh crap, there's AI in here."
+  },
+  {
+    "start": 1351.69,
+    "end": 1353.49,
+    "speaker": "Host",
+    "text": "Maybe it's not AI. I don't know."
+  },
+  {
+    "start": 1353.74,
+    "end": 1358.09,
+    "speaker": "Host",
+    "text": "Let's just give the listener the benefit of the doubt and say they use some AI to help them write the question. That's fine."
+  },
+  {
+    "start": 1358.19,
+    "end": 1369.44,
+    "speaker": "Host",
+    "text": "I think this is a real question and it is interesting and it's totally consistent with some themes that I'm seeing throughout tech management right now, which is fewer managers, flatter organization."
+  },
+  {
+    "start": 1369.69,
+    "end": 1372.49,
+    "speaker": "Guest",
+    "text": "Yep. I have seen people talk about that."
+  },
+  {
+    "start": 1372.564,
+    "end": 1388.314,
+    "speaker": "Host",
+    "text": "a lot usually as part of like downsizing i know was facebook or i guess meta man i'm so old i'll never call it meta facebook did that and explicitly said we expect people to be more player coaches and uh and i'm sure i've heard other people other companies"
+  },
+  {
+    "start": 1388.314,
+    "end": 1388.614,
+    "speaker": "Guest",
+    "text": "Yeah,"
+  },
+  {
+    "start": 1388.614,
+    "end": 1389.164,
+    "speaker": "Host",
+    "text": "do that too"
+  },
+  {
+    "start": 1389.164,
+    "end": 1390.114,
+    "speaker": "Host",
+    "text": "it's very popular right now."
+  },
+  {
+    "start": 1390.114,
+    "end": 1390.514,
+    "speaker": "Guest",
+    "text": "yeah"
+  },
+  {
+    "start": 1390.764,
+    "end": 1391.964,
+    "speaker": "Host",
+    "text": "Well, what do you think they should do?"
+  },
+  {
+    "start": 1393.364,
+    "end": 1400.764,
+    "speaker": "Guest",
+    "text": "I don't know. It's very interesting. So first of all, there's some good things happening here. Your company apparently trusts you so much."
+  },
+  {
+    "start": 1400.724,
+    "end": 1407.624,
+    "speaker": "Guest",
+    "text": "much that they're like hey we think we can double your workload and that's that's a compliment i'm trying to stay positive here"
+  },
+  {
+    "start": 1410.26,
+    "end": 1413.36,
+    "speaker": "Guest",
+    "text": "And you're doing double the work. I mean, you're not, though."
+  },
+  {
+    "start": 1413.46,
+    "end": 1427.36,
+    "speaker": "Guest",
+    "text": "I don't think the work scales linearly with the number of people that you manage because I think they're hoping there will be some efficiency gains from this and or you will stop doing some stuff that might be lower leverage."
+  },
+  {
+    "start": 1427.36,
+    "end": 1427.91,
+    "speaker": "Host",
+    "text": "Maybe."
+  },
+  {
+    "start": 1427.96,
+    "end": 1439.24,
+    "speaker": "Guest",
+    "text": "I don't think it's likely that you're twice as valuable to them now. And also, I can see why you would look at the rubric and say, wait a minute, it says that two plus teams is senior EM. EM stuff."
+  },
+  {
+    "start": 1439.34,
+    "end": 1439.54,
+    "speaker": "Host",
+    "text": "Yep."
+  },
+  {
+    "start": 1439.54,
+    "end": 1447.94,
+    "speaker": "Guest",
+    "text": "I also can see why they said, I don't care. The rubric is not the boss of me. And generally saying look at the rubric is not promotion path."
+  },
+  {
+    "start": 1449.24,
+    "end": 1459.94,
+    "speaker": "Host",
+    "text": "Yeah. Yeah. And it's so interesting that they I don't know, this is this strikes me as a problem because here you're basically saying we're going to double your workload. We're not going to give you a pay increase."
+  },
+  {
+    "start": 1460.29,
+    "end": 1471.156,
+    "speaker": "Guest",
+    "text": "We're not going to give you a promotion. and also i'm explicitly telling you this is not even putting you on track for a promotion i'm like whoa what is like this is all take no give yeah"
+  },
+  {
+    "start": 1471.156,
+    "end": 1481.356,
+    "speaker": "Host",
+    "text": "yeah someone saying do this extra work the expectations change i can see that someone saying do this work the expectations change and by the way like there's no way you're getting a promotion that"
+  },
+  {
+    "start": 1481.356,
+    "end": 1481.556,
+    "speaker": "Guest",
+    "text": "right"
+  },
+  {
+    "start": 1481.556,
+    "end": 1484.456,
+    "speaker": "Host",
+    "text": "feels weird i would expect them to say and"
+  },
+  {
+    "start": 1485.076,
+    "end": 1509.076,
+    "speaker": "Guest",
+    "text": "here's the path that's part of their job not just saying like nope you can't can't get promoted at all or no not right now sorry end of discussion right now is the only thing we'll talk about it's more like um you should be able to say well what what is how do i get on the path then that's what i would do possible the senior yim is being managed out and i shouldn't use that as a benchmark yeah i guess that's possible i guess you'll find out if they leave"
+  },
+  {
+    "start": 1509.226,
+    "end": 1522.41,
+    "speaker": "Host",
+    "text": "That's possible. It is weird. It is weird. To me, it depends on who, what time. What type of role is now reporting to the senior engineering manager? Is it other managers or is it just a bunch of individual contributors like I think this person has?"
+  },
+  {
+    "start": 1522.66,
+    "end": 1534.96,
+    "speaker": "Guest",
+    "text": "There's also some path dependence here where there are people at companies all over the place who are in roles that they would probably not be hired into that level with that exact setup."
+  },
+  {
+    "start": 1535.956,
+    "end": 1550.806,
+    "speaker": "Guest",
+    "text": "but they got there through some other means of reorgs or changes or whatever and so pointing to one person and saying look look this person has a higher level of less responsibility again is not that's not a case for promotion that's like yep sometimes this is messy but"
+  },
+  {
+    "start": 1550.806,
+    "end": 1551.306,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 1551.306,
+    "end": 1559.676,
+    "speaker": "Guest",
+    "text": "you're you're if you if you want to get I guess there's a bunch of questions here. Should I push for a comp increase? Maybe. I don't know. You can always ask for that."
+  },
+  {
+    "start": 1560.376,
+    "end": 1562.676,
+    "speaker": "Host",
+    "text": "You can always ask every day."
+  },
+  {
+    "start": 1562.676,
+    "end": 1567.076,
+    "speaker": "Guest",
+    "text": "The worst they can do is say no and you're fired for asking. How dare you?"
+  },
+  {
+    "start": 1567.076,
+    "end": 1567.826,
+    "speaker": "Host",
+    "text": "That's the worst that"
+  },
+  {
+    "start": 1567.826,
+    "end": 1567.926,
+    "speaker": "Guest",
+    "text": "That"
+  },
+  {
+    "start": 1567.926,
+    "end": 1568.076,
+    "speaker": "Host",
+    "text": "can happen."
+  },
+  {
+    "start": 1568.076,
+    "end": 1569.276,
+    "speaker": "Guest",
+    "text": "second part rarely happens though."
+  },
+  {
+    "start": 1569.276,
+    "end": 1569.426,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 1569.426,
+    "end": 1579.876,
+    "speaker": "Guest",
+    "text": "But yeah, I think it's reasonable to say I'd like a comp increase. How do I get there? Instead of just say I like a comp increase and they say no and then you say how dare you, which is kind of the vibe from this question. It's like they said no."
+  },
+  {
+    "start": 1579.976,
+    "end": 1587.354,
+    "speaker": "Guest",
+    "text": "How dare they? Well, your job is to say, okay, what do I need to do to get the thing that I want? Promotion, comp increase, whatever."
+  },
+  {
+    "start": 1587.704,
+    "end": 1588.154,
+    "speaker": "Host",
+    "text": "Mm-hmm."
+  },
+  {
+    "start": 1588.154,
+    "end": 1600.426,
+    "speaker": "Guest",
+    "text": "Am I just being oversensitive toward communication? Sure, maybe. I don't know. I don't know if it's oversensitive. If there's a human behind this robot. Then this is a weird scenario that sounds less than ideal."
+  },
+  {
+    "start": 1600.576,
+    "end": 1604.376,
+    "speaker": "Guest",
+    "text": "And I don't know that you're being oversensitive to not love what is happening."
+  },
+  {
+    "start": 1604.526,
+    "end": 1608.376,
+    "speaker": "Host",
+    "text": "Yeah, I don't think you're being oversensitive. I think this kind of sucks."
+  },
+  {
+    "start": 1608.776,
+    "end": 1609.076,
+    "speaker": "Guest",
+    "text": "Yeah."
+  },
+  {
+    "start": 1609.076,
+    "end": 1619.776,
+    "speaker": "Host",
+    "text": "You were hired with one scope of responsibility. You were offered a compensation package with the same scope of responsibility for that pay. And now they're like, and I'm going to double it. I'm just like, I don't get that."
+  },
+  {
+    "start": 1620.276,
+    "end": 1626.976,
+    "speaker": "Guest",
+    "text": "it's like it's almost like oh this is just how we do it it's like wait what i don't know i would i would be i would push back a little on this"
+  },
+  {
+    "start": 1627.276,
+    "end": 1635.626,
+    "speaker": "Host",
+    "text": "This is where you get to use some of those sneaky Amazon VP tricks of like my career is really important to me and I love the added trust that you've shown."
+  },
+  {
+    "start": 1636.276,
+    "end": 1665.876,
+    "speaker": "Guest",
+    "text": "and the added responsibility I'm carrying now Yeah. and I want to know is is is recognizing that important to company x right or I don't know whatever sneaky we should link that episode in every single show I feel like it's just so eye-opening there's some way that you need to be able to say hey I'm like you're doing this because I because I think you can you think I can handle it or you think I will be effective in it because I've demonstrated effectiveness wouldn't it be great if I was rewarded for that effectiveness"
+  },
+  {
+    "start": 1666.004,
+    "end": 1666.654,
+    "speaker": "Guest",
+    "text": "this in some way"
+  },
+  {
+    "start": 1666.654,
+    "end": 1666.804,
+    "speaker": "Host",
+    "text": "Mm"
+  },
+  {
+    "start": 1666.804,
+    "end": 1667.054,
+    "speaker": "Host",
+    "text": "how"
+  },
+  {
+    "start": 1667.054,
+    "end": 1667.304,
+    "speaker": "Guest",
+    "text": "hmm."
+  },
+  {
+    "start": 1667.304,
+    "end": 1676.304,
+    "speaker": "Host",
+    "text": "do we come to an agreement here that's the key thing a couple months from plan medical leave and can't afford to leave you i assume they know about your medical leave yeah"
+  },
+  {
+    "start": 1676.304,
+    "end": 1676.804,
+    "speaker": "Guest",
+    "text": "Yeah,"
+  },
+  {
+    "start": 1676.804,
+    "end": 1676.904,
+    "speaker": "Host",
+    "text": ""
+  },
+  {
+    "start": 1676.904,
+    "end": 1680.854,
+    "speaker": "Guest",
+    "text": "I mean, that's the thing. You're probably going to have to just write out the next couple of months before your leave."
+  },
+  {
+    "start": 1681.204,
+    "end": 1691.654,
+    "speaker": "Host",
+    "text": "yeah i don't think if they know about it this is maybe that that's another sign this is just a temporary thing if it's a senior em being managed out that also is like the kind of scrambling for what to do with this team for now"
+  },
+  {
+    "start": 1692.404,
+    "end": 1699.504,
+    "speaker": "Guest",
+    "text": "And you're probably unlikely to get a big promotion right before medical leave. You sort of have to come back and pick up the pieces after that."
+  },
+  {
+    "start": 1699.604,
+    "end": 1700.104,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 1700.354,
+    "end": 1702.054,
+    "speaker": "Guest",
+    "text": "Huh. Have we answered this question?"
+  },
+  {
+    "start": 1702.054,
+    "end": 1709.104,
+    "speaker": "Host",
+    "text": "I mean, I kind of feel like we're a little bit struggling to give concrete advice because..."
+  },
+  {
+    "start": 1709.844,
+    "end": 1716.044,
+    "speaker": "Guest",
+    "text": "This is so weird to just be like we're doubling your responsibility and then come right out and say there's no chance of getting any benefit for you for this."
+  },
+  {
+    "start": 1717.194,
+    "end": 1728.794,
+    "speaker": "Host",
+    "text": "Well, I think that if I were in these shoes, I would push for a little bit of extra comp at least, if not say, well, get me on the promotion track. But also I would say, look, how do you expect me to run this team?"
+  },
+  {
+    "start": 1728.944,
+    "end": 1737.794,
+    "speaker": "Host",
+    "text": "I certainly can't maintain the same level of excellence that I have been doing. For example, like there's just not enough hours in the week to do one-on-ones like I've been doing."
+  },
+  {
+    "start": 1737.794,
+    "end": 1738.194,
+    "speaker": "Guest",
+    "text": "Yeah."
+  },
+  {
+    "start": 1738.068,
+    "end": 1738.068,
+    "speaker": "Host",
+    "text": "You"
+  },
+  {
+    "start": 1738.068,
+    "end": 1738.068,
+    "speaker": "Guest",
+    "text": "Yeah."
+  },
+  {
+    "start": 1738.068,
+    "end": 1750.768,
+    "speaker": "Host",
+    "text": "know my track record. I've been delivering great product for the last whatever amount of time. The team's morale is high. Their execution is really good. That's going to have to change now. That didn't just happen because by random chance."
+  },
+  {
+    "start": 1750.868,
+    "end": 1758.918,
+    "speaker": "Host",
+    "text": "I have a bunch of mechanisms I put in place to make that happen. There's not enough hours in the day in the week to do those same mechanisms. So we're going to have to make some sacrifices."
+  },
+  {
+    "start": 1759.268,
+    "end": 1767.656,
+    "speaker": "Host",
+    "text": "I might even compile a list of things that are going to be let go and things you're going to have to forego. And share that with my manager and say,"
+  },
+  {
+    "start": 1767.756,
+    "end": 1773.106,
+    "speaker": "Host",
+    "text": "all right, help me strategize on what's more important to the company so we can make together we can actually make trade off decisions."
+  },
+  {
+    "start": 1773.106,
+    "end": 1779.53,
+    "speaker": "Guest",
+    "text": "Yeah, that's a good point. While you're being practical and helpful, it made me think other practical helpful thoughts. So thank you for inspiring"
+  },
+  {
+    "start": 1779.53,
+    "end": 1780.03,
+    "speaker": "Host",
+    "text": "Nice."
+  },
+  {
+    "start": 1780.03,
+    "end": 1795.03,
+    "speaker": "Guest",
+    "text": "real advice. There is going to be a gap in your current team with you spreading your attention over two teams now. And one way you could do this is some delegation of, I don't know if you have a team lead that isn't you on this team,"
+  },
+  {
+    "start": 1795.13,
+    "end": 1804.846,
+    "speaker": "Guest",
+    "text": "but maybe you probably don't have authority to do like a battlefield promotion and say great. One person on each team is now an EM and they both report to me and probably can't do that,"
+  },
+  {
+    "start": 1804.896,
+    "end": 1817.296,
+    "speaker": "Guest",
+    "text": "but you can arrange some of your responsibilities to be delegated to people on your old team and give them a little bit more direct support in somebody else on the team that you assign some stuff to."
+  },
+  {
+    "start": 1818.036,
+    "end": 1829.386,
+    "speaker": "Guest",
+    "text": "It is different. It's different than you being there full time as your only team, but that is another option besides just like drop some stuff and spread your effort among twice as many people now."
+  },
+  {
+    "start": 1829.386,
+    "end": 1835.086,
+    "speaker": "Host",
+    "text": "Yeah, and that's the creative approach, I think, as well as like try to come up with new ways of doing things that are a little different."
+  },
+  {
+    "start": 1835.186,
+    "end": 1842.736,
+    "speaker": "Host",
+    "text": "You know, maybe the personal touch can't be there as much and you have to make some tradeoffs, but maybe you can creatively handle the situation and make it a great situation anyway."
+  },
+  {
+    "start": 1843.286,
+    "end": 1851.614,
+    "speaker": "Guest",
+    "text": "Yeah, just tell them nice IPO, it sure would be a shame if. If the award-winning product launch flopped horribly right before the IPO."
+  },
+  {
+    "start": 1852.214,
+    "end": 1872.464,
+    "speaker": "Guest",
+    "text": "yeah yeah and that that ipo is undoubtedly connected to this they want the company to be as lean as possible they want to show really great cash flow they want that ipo to be successful and they want the stock price to go crazy high after they launch or maybe they're entertaining an acquisition and someone's got the books open and they want to see a really lean organization"
+  },
+  {
+    "start": 1873.524,
+    "end": 1875.424,
+    "speaker": "Host",
+    "text": "It's almost very, very likely what's happening."
+  },
+  {
+    "start": 1875.924,
+    "end": 1878.024,
+    "speaker": "Host",
+    "text": "Yeah. Well, have we answered the question?"
+  },
+  {
+    "start": 1878.374,
+    "end": 1879.124,
+    "speaker": "Guest",
+    "text": "I think so. Good luck."
+  },
+  {
+    "start": 1879.374,
+    "end": 1881.974,
+    "speaker": "Host",
+    "text": "Best of luck. What can people do if they want their own questions answered?"
+  },
+  {
+    "start": 1882.024,
+    "end": 1891.324,
+    "speaker": "Guest",
+    "text": "Go over to softskills.audio and click the ask a question button where you can fill out our little form. We express our heartfelt thanks to everyone who does that each week. We love reading your questions. Thank you for sending them."
+  },
+  {
+    "start": 1891.924,
+    "end": 1899.924,
+    "speaker": "Host",
+    "text": "And please continue to ask questions and we will continue to provide just the absolute greatest advice you can imagine. Or at least that we can imagine."
+  },
+  {
+    "start": 1901.172,
+    "end": 1905.772,
+    "speaker": "Guest",
+    "text": "The absolute best advice that will come to the top of our heads as we read the questions"
+  },
+  {
+    "start": 1905.772,
+    "end": 1905.822,
+    "speaker": "Host",
+    "text": "That's"
+  },
+  {
+    "start": 1905.822,
+    "end": 1906.222,
+    "speaker": "Guest",
+    "text": "and right. whatnot."
+  },
+  {
+    "start": 1906.372,
+    "end": 1907.872,
+    "speaker": "Host",
+    "text": "That's right. How could you ask for more?"
+  },
+  {
+    "start": 1908.072,
+    "end": 1913.272,
+    "speaker": "Guest",
+    "text": "Yeah, you can't. You're not allowed to. Thank you for listening. We appreciate you, and we will catch you next week."
+  }
+]

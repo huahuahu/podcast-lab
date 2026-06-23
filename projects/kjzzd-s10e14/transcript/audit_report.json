@@ -1,0 +1,709 @@
+{
+  "summary": {
+    "OK": 114,
+    "FLIP": 1,
+    "UNSURE": 0
+  },
+  "suspicious": [
+    {
+      "idx": 6,
+      "current": "HOST",
+      "reason": "这里在总结上一段人物经历，且把人名说成 Kassandra、代词混乱，更像主持人口误式转述而非嘉宾本人发言。",
+      "text": "Kassandra 自己的创业故事其实也挺硅谷的。她很早就开始做一些自己的小项目，比如玩 Photoshop、做网站，后来又学了 iPhone 开发，在 App Store 上发布自己的应用等等。后来 Pinterest 的创始人看到她的作品，就邀请她加入团队。她应该算是 Pinterest 的第二位员工。那时候她还在上大学，只读了一个学期，就决定退学去加入 Pinterest。后来没过多久，大概一年多之后吧，她就开始创办自己的公司，叫 Gumroad。一开始她走的也是非常典型的硅谷路径：融资、扩张、招人、追求高速增长。但 Gumroad 后来的发展其实并没有符合 VC 的预期。它是一门好生意，有收入，也有用户增长，但不是那种指数级爆发的增长。",
+      "prev": "对，我大概从小时候就开始做各种东西了，一开始是用 Photoshop、做网页设计，也接触到了我当时能看到的那些工具。",
+      "next": "于是 Gumroad 后来就裁员了，团队缩得很小。又有很长一段时间，他搬到了别的城市，几乎是一个人把公司撑了下来。再后来到了疫情期间，创作者经济爆发，Gumroad 其实又迎来了一波增长。他们现在仍然是一家年收入接近 2000 万美元的公司，但团队还是相对很小。Sahil 自己在节目里也说，他们现在核心团队是 3 个工程师，再加上兼职 CFO、兼职法务，还有 1.5 个客服人员。"
+    }
+  ],
+  "all": [
+    {
+      "idx": 0,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "像节目开场口号，明显是主持人的引入语。"
+    },
+    {
+      "idx": 1,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "标准主持人开场、自我介绍和嘉宾介绍。"
+    },
+    {
+      "idx": 2,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "延续主持人对嘉宾背景和话题的铺垫总结。"
+    },
+    {
+      "idx": 3,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "继续由主持人概述本期将讨论的问题。"
+    },
+    {
+      "idx": 4,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "主持人说明节目结构和接下来会先做中文总结。"
+    },
+    {
+      "idx": 5,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "第一人称自述个人成长经历，像是被引用的嘉宾原话。"
+    },
+    {
+      "idx": 6,
+      "current": "HOST",
+      "verdict": "FLIP",
+      "reason": "这里在总结上一段人物经历，且把人名说成 Kassandra、代词混乱，更像主持人口误式转述而非嘉宾本人发言。"
+    },
+    {
+      "idx": 7,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "继续承接上一段做背景总结，符合主持人中文串讲。"
+    },
+    {
+      "idx": 8,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "仍是主持人对观点的提炼和评论，末尾像转场。"
+    },
+    {
+      "idx": 9,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接表达个人观点并举配置例子，像嘉宾原话摘录。"
+    },
+    {
+      "idx": 10,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "主持人对上一段嘉宾观点进行展开解释和总结。"
+    },
+    {
+      "idx": 11,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "简洁回答式观点输出，符合嘉宾被访谈时的原话。"
+    },
+    {
+      "idx": 12,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "明确说“我问 Sahil”，显然是主持人在复述问答。"
+    },
+    {
+      "idx": 13,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "继续主持人总结上一问答并做‘第三’的结构化串联。"
+    },
+    {
+      "idx": 14,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "像嘉宾在阐述销售比产品更重要的判断。"
+    },
+    {
+      "idx": 15,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "主持人对嘉宾观点进行延展，并加入自己的感受和案例。"
+    },
+    {
+      "idx": 16,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "延续上一段主持人总结，没有说话人切换迹象。"
+    },
+    {
+      "idx": 17,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "第一人称判断加举例，像嘉宾提出新观点的开头。"
+    },
+    {
+      "idx": 18,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "主持人明确说‘第四个讨论我觉得’，是在总结并展开嘉宾观点。"
+    },
+    {
+      "idx": 19,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "承接上一段作一句收束总结，仍是主持人口吻。"
+    },
+    {
+      "idx": 20,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "是第一人称讲自己在 IRS 的工作状态，明显是受访者自述。"
+    },
+    {
+      "idx": 21,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是主持人对前文内容做总结和转述，符合串场口吻。"
+    },
+    {
+      "idx": 22,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "继续延续主持人的概括和评论，没有问答切换迹象。"
+    },
+    {
+      "idx": 23,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "回到第一人称阐述自己对 minimalist entrepreneur 的理解，像嘉宾原话。"
+    },
+    {
+      "idx": 24,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "明显是主持人英文总结 takeaways 的收束段。"
+    },
+    {
+      "idx": 25,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "延续总结并做节目导语和预告，典型主持人口播。"
+    },
+    {
+      "idx": 26,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是节目内推广其他播客内容的口播广告，通常由主持人念。"
+    },
+    {
+      "idx": 27,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "是在追问嘉宾过往经历，明显是主持人提问。"
+    },
+    {
+      "idx": 28,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回应融资时间和金额，符合嘉宾答问。"
+    },
+    {
+      "idx": 29,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续补充 A 轮细节和个人感受，承接上一句回答自然。"
+    },
+    {
+      "idx": 30,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "仍在连续讲公司融资和团队变化，是同一段长回答。"
+    },
+    {
+      "idx": 31,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续叙述公司失败、裁员和独自运营的过程，没有切换信号。"
+    },
+    {
+      "idx": 32,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "承接上一段时间线往下讲到疫情和增长，明显还是嘉宾连续发言。"
+    },
+    {
+      "idx": 33,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续第一人称总结现状并回扣 2015 年，仍是同一回答链条。"
+    },
+    {
+      "idx": 34,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "从过去雇人转到今天用 AI 的假设，语气和内容都像嘉宾延展回答。"
+    },
+    {
+      "idx": 35,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续论证 AI 自动化与人力负担，明显未发生说话人切换。"
+    },
+    {
+      "idx": 36,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "仍在展开 AI agent 对团队工作的影响，是嘉宾连续作答。"
+    },
+    {
+      "idx": 37,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是主持人插入的新问题，起到打断并转向下一话题的作用。"
+    },
+    {
+      "idx": 38,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回答主持人关于岗位职能的问题，符合嘉宾回应。"
+    },
+    {
+      "idx": 39,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续上一句对不可替代岗位的解释，并举财务报税例子，还是同一回答。"
+    },
+    {
+      "idx": 40,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续前文举例说明 agents 的局限，像是在回答主持人的问题。"
+    },
+    {
+      "idx": 41,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "明显是主持人推进话题、继续追问的提问句。"
+    },
+    {
+      "idx": 42,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "是在回应上一句“还有别的吗”的开放式问题，继续展开个人判断。"
+    },
+    {
+      "idx": 43,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "与上一段同一论点连续展开，没有换人的迹象。"
+    },
+    {
+      "idx": 44,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "明显是上一段被切开的续句，应为同一说话人继续描述。"
+    },
+    {
+      "idx": 45,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "像是主持人对嘉宾观点做总结式复述并抛出共鸣点。"
+    },
+    {
+      "idx": 46,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "顺着主持人的总结继续举对比例子，符合嘉宾展开论证的节奏。"
+    },
+    {
+      "idx": 47,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "简短附和“嗯，嗯”很像主持人在嘉宾长段输出中的接话。"
+    },
+    {
+      "idx": 48,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "承接上一句例子继续长篇分析，明显还是同一位在主讲。"
+    },
+    {
+      "idx": 49,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续讲 Gum 与 Patreon 的经历，叙述连贯且仍是嘉宾主导。"
+    },
+    {
+      "idx": 50,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "仍在总结两家公司差异，和前后内容连续。"
+    },
+    {
+      "idx": 51,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "像主持人插入的补充性概括，帮助嘉宾明确“营销和赚钱”的含义。"
+    },
+    {
+      "idx": 52,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接接着主持人的概括继续具体化说明，符合回应关系。"
+    },
+    {
+      "idx": 53,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续对市场和商业模式的分析，没有转交话轮的信号。"
+    },
+    {
+      "idx": 54,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "明显是主持人切到新例子并发问，引导下一个话题。"
+    },
+    {
+      "idx": 55,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回答“你怎么看”，是嘉宾对 storyteller 概念的判断。"
+    },
+    {
+      "idx": 56,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续系统化展开岗位分类，和上一段同一思路。"
+    },
+    {
+      "idx": 57,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "仍在列举营销岗位的不同名称，显然是连续发言。"
+    },
+    {
+      "idx": 58,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续总结两类人的区别，句尾还留出被打断的感觉。"
+    },
+    {
+      "idx": 59,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "简短“嗯”像主持人对嘉宾长段论述的接续反馈。"
+    },
+    {
+      "idx": 60,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "像是在延续前文展开定义，符合嘉宾长篇阐述的开头。"
+    },
+    {
+      "idx": 61,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "简短的“嗯”更像主持人在听对方展开时的附和。"
+    },
+    {
+      "idx": 62,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续举例分析创始人类型，明显承接自己上一段观点。"
+    },
+    {
+      "idx": 63,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "与上一段语义连贯，仍是同一人持续输出。"
+    },
+    {
+      "idx": 64,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续解释“四个人公司”的逻辑，属于同一长段论述。"
+    },
+    {
+      "idx": 65,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "仍在展开客户体验和组织配置，连贯性很强。"
+    },
+    {
+      "idx": 66,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续上一段服务流程设想，没有说话人切换迹象。"
+    },
+    {
+      "idx": 67,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "从设想转入自我反问，仍像嘉宾自我展开。"
+    },
+    {
+      "idx": 68,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续谈个人理念与 Tim Ferriss，对应嘉宾长篇表达。"
+    },
+    {
+      "idx": 69,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "明显是在总结并转述自己的感受，像主持人接话提炼观点。"
+    },
+    {
+      "idx": 70,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "是上一句主持人观点的续接，不像新说话人插入。"
+    },
+    {
+      "idx": 71,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "以“对，我的意思是”回应主持人的总结，典型嘉宾接答。"
+    },
+    {
+      "idx": 72,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续补充行业例子，明显是同一回应的延伸。"
+    },
+    {
+      "idx": 73,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "仍在强调估值夸张，和前句连成一体。"
+    },
+    {
+      "idx": 74,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "明确转入新问题并铺垫背景，符合主持人提问角色。"
+    },
+    {
+      "idx": 75,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接承接主持人的问题作答，符合嘉宾回应。"
+    },
+    {
+      "idx": 76,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续展开 AI 代行 CEO 职能的设想，连贯自然。"
+    },
+    {
+      "idx": 77,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "与前文同一论点连续推进，没有切换信号。"
+    },
+    {
+      "idx": 78,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续描绘未来公司形态，仍是嘉宾长篇回答。"
+    },
+    {
+      "idx": 79,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "承接上一句进一步外推自动化场景，属于同一人持续发言。"
+    },
+    {
+      "idx": 80,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这一段延续前文展开设想型论述，语气像嘉宾在完整阐述观点。"
+    },
+    {
+      "idx": 81,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "虽然中间有些附和词，但整体仍是连续长篇补充说明，符合同一说话人继续展开。"
+    },
+    {
+      "idx": 82,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是对前面想法的总结性赞同，像主持人接话并提炼重点。"
+    },
+    {
+      "idx": 83,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "回到举例和解释收入控制逻辑，明显是在回应主持人的总结并继续扩展。"
+    },
+    {
+      "idx": 84,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "内容与上一段无缝衔接，仍是同一套论证链条。"
+    },
+    {
+      "idx": 85,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续列举具体做法，明显是嘉宾把前一句未说完的话补完。"
+    },
+    {
+      "idx": 86,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "从例子过渡到 Gumroad 实验，仍是嘉宾主导输出观点。"
+    },
+    {
+      "idx": 87,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是明确的新提问，典型主持人发问推进话题。"
+    },
+    {
+      "idx": 88,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回应主持人的问题，开头就是答题式表述。"
+    },
+    {
+      "idx": 89,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "承接上一句继续解释书写作时的背景和现在的变化，连贯自然。"
+    },
+    {
+      "idx": 90,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续回答同一个问题，并给出更具体的产品化例子。"
+    },
+    {
+      "idx": 91,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "仍在展开自动化销售流程的细节，明显是同一人连续说明。"
+    },
+    {
+      "idx": 92,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这是上一段句子的收尾，和前文强连接，不像换人。"
+    },
+    {
+      "idx": 93,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "简短的“嗯”更像主持人在听对方长答时的反馈。"
+    },
+    {
+      "idx": 94,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "接着自己的长回答继续讲目标和用户行为，衔接顺畅。"
+    },
+    {
+      "idx": 95,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续完成同一论点，仍是嘉宾在总结产品设计原则。"
+    },
+    {
+      "idx": 96,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是主持人插入式概括，像是在帮对方总结“除此之外本质没变”。"
+    },
+    {
+      "idx": 97,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "明显是在回应主持人的概括并补充自己若重写会改什么。"
+    },
+    {
+      "idx": 98,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续解释为何不用 community 一词，并转向受众定义，逻辑连贯。"
+    },
+    {
+      "idx": 99,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这是对上一段的自然收束，仍属于嘉宾回答同一问题的尾声。"
+    },
+    {
+      "idx": 100,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "像是主持人对嘉宾观点的简短附和与承接，语气自然。"
+    },
+    {
+      "idx": 101,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续上一段创业建议的展开说明，明显是同一位回答者在继续论述。"
+    },
+    {
+      "idx": 102,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续补充具体策略和判断标准，和前一句连贯。"
+    },
+    {
+      "idx": 103,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "明确提出“最后一个问题”，典型主持人发问转场。"
+    },
+    {
+      "idx": 104,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回应主持人的提问，符合嘉宾开始作答的节奏。"
+    },
+    {
+      "idx": 105,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "对差异进行分点展开，显然是嘉宾持续回答。"
+    },
+    {
+      "idx": 106,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续解释政府工作的激励与时间跨度，和前文同一回答链条一致。"
+    },
+    {
+      "idx": 107,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "仍在列举第三点差异，内容和语气都像嘉宾长回答。"
+    },
+    {
+      "idx": 108,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "承接上一句对政府服务对象的说明，明显未换人。"
+    },
+    {
+      "idx": 109,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续完成上一句未说完的意思，属于同一段回答。"
+    },
+    {
+      "idx": 110,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "以具体例子收束观点，仍是嘉宾在总结回答。"
+    },
+    {
+      "idx": 111,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "典型采访结束时主持人的致谢与收尾。"
+    },
+    {
+      "idx": 112,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "对主持人致谢作礼貌回应，符合嘉宾结束语。"
+    },
+    {
+      "idx": 113,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "简短回谢，放在主持人结束语位置合理。"
+    },
+    {
+      "idx": 114,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "明显是节目正式片尾口播，应由主持人完成。"
+    }
+  ]
+}

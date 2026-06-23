@@ -1,0 +1,20 @@
+{
+  "slug": "pe-opencode-dax-raad",
+  "source_url": "https://newsletter.pragmaticengineer.com/p/opencode",
+  "source_kind": "substack",
+  "title": "Building OpenCode with Dax Raad",
+  "author": "The Pragmatic Engineer",
+  "lang": "en",
+  "duration_sec": 4805,
+  "thumbnail_url": "https://i.ytimg.com/vi/1VqKUrxR2C8/maxresdefault.jpg",
+  "has_official_transcript": true,
+  "transcript_kind": "substack",
+  "transcript_source": "https://newsletter.pragmaticengineer.com/p/opencode (substack en.vtt + transcription.json)",
+  "series": null,
+  "needs_chapters": false,
+  "lane": "translate",
+  "voices": {
+    "Gergely": "zh-CN-YunxiNeural",
+    "Dax":     "zh-CN-YunyangNeural"
+  }
+}

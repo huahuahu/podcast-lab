@@ -1,0 +1,2570 @@
+[
+  {
+    "start": 5.78,
+    "end": 11.93,
+    "speaker": "Host",
+    "text": "It takes more than eight bits to be a great software engineer. This is episode 512."
+  },
+  {
+    "start": 13.38,
+    "end": 16.68,
+    "speaker": "Host",
+    "text": "The ninth bit of the software engineering podcast."
+  },
+  {
+    "start": 16.68,
+    "end": 16.98,
+    "speaker": "Guest",
+    "text": "Yes!"
+  },
+  {
+    "start": 16.98,
+    "end": 18.73,
+    "speaker": "Host",
+    "text": "I'm your host, Jameson Dance."
+  },
+  {
+    "start": 19.08,
+    "end": 20.13,
+    "speaker": "Host",
+    "text": "I'm your host, Dave Smith."
+  },
+  {
+    "start": 20.43,
+    "end": 29.88,
+    "speaker": "Host",
+    "text": "Software engineering is a weekly advice show for all of the non-technical things that go into the technical field of software development, like trying to explain."
+  },
+  {
+    "start": 30.74,
+    "end": 42.14,
+    "speaker": "Guest",
+    "text": "binary in english words i guess that's not technical actually no no that is technical the non-technical bit is the judgment to know i should not be explaining what binary is right now"
+  },
+  {
+    "start": 44.14,
+    "end": 47.19,
+    "speaker": "Host",
+    "text": "Can you believe it took us 10 years to go above eight bits?"
+  },
+  {
+    "start": 47.86,
+    "end": 51.26,
+    "speaker": "Guest",
+    "text": "I think we're moving faster than the computer industry did early on."
+  },
+  {
+    "start": 51.51,
+    "end": 55.91,
+    "speaker": "Host",
+    "text": "That's exactly what I was just wondering. Did we break out of 8 bits faster than the computer industry?"
+  },
+  {
+    "start": 56.16,
+    "end": 62.46,
+    "speaker": "Guest",
+    "text": "I think they'll catch up to us, though. I think it's going to take us a while to get to like 64 bits of podcast episodes."
+  },
+  {
+    "start": 62.46,
+    "end": 64.11,
+    "speaker": "Host",
+    "text": "It might take a little while."
+  },
+  {
+    "start": 64.66,
+    "end": 65.16,
+    "speaker": "Guest",
+    "text": "Yeah."
+  },
+  {
+    "start": 67.26,
+    "end": 73.31,
+    "speaker": "Host",
+    "text": "I don't know how many millions of trillions of years it will take us, but it's a lot. But we're committed."
+  },
+  {
+    "start": 73.61,
+    "end": 84.228,
+    "speaker": "Guest",
+    "text": "Yeah. And if the questions keep coming. we have content we don't have 64 bits of questions but we have enough to keep going for a while and"
+  },
+  {
+    "start": 84.228,
+    "end": 85.128,
+    "speaker": "Host",
+    "text": "Yeah, we do."
+  },
+  {
+    "start": 85.128,
+    "end": 89.028,
+    "speaker": "Guest",
+    "text": "they continue to grow faster than we answer them so oh"
+  },
+  {
+    "start": 89.028,
+    "end": 92.178,
+    "speaker": "Host",
+    "text": "My doctor told me that as long as the questions keep coming in, I will stay alive."
+  },
+  {
+    "start": 92.828,
+    "end": 93.078,
+    "speaker": "Guest",
+    "text": "good"
+  },
+  {
+    "start": 93.078,
+    "end": 95.228,
+    "speaker": "Host",
+    "text": "Doctor or wizard, I can't remember which one."
+  },
+  {
+    "start": 97.972,
+    "end": 101.472,
+    "speaker": "Guest",
+    "text": "Is that a witch doctor? A combo doctor and wizard?"
+  },
+  {
+    "start": 101.472,
+    "end": 104.322,
+    "speaker": "Host",
+    "text": "That's right. That's exactly what that is."
+  },
+  {
+    "start": 106.522,
+    "end": 115.972,
+    "speaker": "Host",
+    "text": "Thank you if you have stuck with us this long and welcome if you are just joining because you figured 512, that's a good number to start listening."
+  },
+  {
+    "start": 116.222,
+    "end": 119.522,
+    "speaker": "Guest",
+    "text": "Yeah, that's where I start. I usually wait until podcasts get to the ninth bit."
+  },
+  {
+    "start": 119.522,
+    "end": 122.67,
+    "speaker": "Host",
+    "text": "Yeah. filters out the wheat from the chaff"
+  },
+  {
+    "start": 122.97,
+    "end": 127.47,
+    "speaker": "Guest",
+    "text": "that eight-bit garbage yes"
+  },
+  {
+    "start": 129.32,
+    "end": 130.82,
+    "speaker": "Host",
+    "text": "Dave you want to thank our patrons"
+  },
+  {
+    "start": 131.52,
+    "end": 135.92,
+    "speaker": "Guest",
+    "text": "i do a big shout out to those that are contributing at a level where we say"
+  },
+  {
+    "start": 136.596,
+    "end": 161.646,
+    "speaker": "Guest",
+    "text": "their entire patreon name their profile name every week i'm already laughing and i haven't even started reading them actually i did Yeah. read the first two words of the first one my gosh oh every week people find new ways to make me just absolutely laugh that's why the doctor said it will make me live forever is because i keep reading these patreon names and you know what do they say about laughter and medicine or something an apple a day is the best medicine with laughter something like that i"
+  },
+  {
+    "start": 161.646,
+    "end": 161.946,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 161.946,
+    "end": 163.696,
+    "speaker": "Host",
+    "text": "think that's how it goes okay"
+  },
+  {
+    "start": 163.696,
+    "end": 165.496,
+    "speaker": "Guest",
+    "text": "Don't laugh while you eat the apples."
+  },
+  {
+    "start": 165.916,
+    "end": 167.516,
+    "speaker": "Guest",
+    "text": "And then it'll be good medicine."
+  },
+  {
+    "start": 168.016,
+    "end": 183.566,
+    "speaker": "Host",
+    "text": "Okay, the big thanks to a dinosaur full of energy tried to use a computer and telephone to understand gravity while an orchestra played softly during. Okay. Oh, gosh, another one of these. I want 4T2."
+  },
+  {
+    "start": 186.292,
+    "end": 186.692,
+    "speaker": "Guest",
+    "text": "Okay."
+  },
+  {
+    "start": 187.942,
+    "end": 192.942,
+    "speaker": "Host",
+    "text": "Oh, I wish you knew how this stuff was spelled. AI made me a top code producer. Company went bankrupt."
+  },
+  {
+    "start": 195.192,
+    "end": 203.242,
+    "speaker": "Host",
+    "text": "Error. Your Will Angel name variant must contain at least one uppercase letter, one number, and one special character. No one knows my real name is Seth Angel. Angel."
+  },
+  {
+    "start": 203.692,
+    "end": 212.692,
+    "speaker": "Host",
+    "text": "I thought this was a funny name, but you didn't laugh. Now I feel self-conscious. Will Angel, if you can hear me, please save us. I want to put no carrier on my tombstone, on my tombstone, but if I live long enough, no one will get the joke."
+  },
+  {
+    "start": 213.492,
+    "end": 224.242,
+    "speaker": "Host",
+    "text": "My actual name on LinkedIn is Yammy. Debugging in the dark candy, the mobile development ordinaire. First of his name, name his up for extraordinary development, mobile the candy, dark the in debugging, Yanny."
+  },
+  {
+    "start": 224.342,
+    "end": 230.842,
+    "speaker": "Guest",
+    "text": "Oh, you did not spell that right. Someone put in parentheses SP question mark. Nope. You didn't get it."
+  },
+  {
+    "start": 232.242,
+    "end": 233.042,
+    "speaker": "Host",
+    "text": "Jacob Shandling."
+  },
+  {
+    "start": 234.492,
+    "end": 245.85,
+    "speaker": "Host",
+    "text": "Covaluti Ofer Kvanterti, or as my mother used to say, Fitte Klethe Huznitha. The missing semicolon, Will Angel, please report to HR over your recent transformation into crab. Help?"
+  },
+  {
+    "start": 246.6,
+    "end": 254.6,
+    "speaker": "Host",
+    "text": "Nick Molyneux embedded engineer's treat assembly the same way typescript engineers treat javascript. Javier Gonzalez chewy, meow mix, angel drone deploy, salted fries."
+  },
+  {
+    "start": 257.15,
+    "end": 262.5,
+    "speaker": "Guest",
+    "text": "Ooh, that's a throwback. What happened to salted french unsalted french fries? are morally objectionable."
+  },
+  {
+    "start": 262.6,
+    "end": 265.2,
+    "speaker": "Host",
+    "text": "I think they compromised their morals."
+  },
+  {
+    "start": 265.25,
+    "end": 265.75,
+    "speaker": "Guest",
+    "text": "Yeah."
+  },
+  {
+    "start": 266.9,
+    "end": 268.85,
+    "speaker": "Host",
+    "text": "They were gotten to by big"
+  },
+  {
+    "start": 268.85,
+    "end": 268.95,
+    "speaker": "Guest",
+    "text": "Big,"
+  },
+  {
+    "start": 268.95,
+    "end": 269.6,
+    "speaker": "Host",
+    "text": "French fry big, or big"
+  },
+  {
+    "start": 269.6,
+    "end": 269.7,
+    "speaker": "Guest",
+    "text": "big"
+  },
+  {
+    "start": 269.7,
+    "end": 269.8,
+    "speaker": "Host",
+    "text": "salt."
+  },
+  {
+    "start": 269.8,
+    "end": 272.55,
+    "speaker": "Guest",
+    "text": "fry, big salt, big salt got to them. That's who it was."
+  },
+  {
+    "start": 274.3,
+    "end": 274.7,
+    "speaker": "Host",
+    "text": "Wait,"
+  },
+  {
+    "start": 274.75,
+    "end": 280.25,
+    "speaker": "Guest",
+    "text": "no, I guess it'd be big unsalt. Maybe they were big salt. They got brought down low by some plucky rebels."
+  },
+  {
+    "start": 280.95,
+    "end": 284.8,
+    "speaker": "Host",
+    "text": "Oh, that's what it is. Yes, it's the big sodium, the big low sodium."
+  },
+  {
+    "start": 285.65,
+    "end": 286.05,
+    "speaker": "Guest",
+    "text": "Yep."
+  },
+  {
+    "start": 286.05,
+    "end": 299.994,
+    "speaker": "Host",
+    "text": "Okay. Where did I leave off? Oh my goodness. Ted Tinbrel Chewy. Ted Tinbrel Chewy. Ted Tinbrel Chewy. Ted Tinbrel Chewy. Ted Tinbrel Chewy. Ted Tinbrel. A single open paren. Dan from Drone Deploy. Never is not just a crater on Mars flamingo emoji."
+  },
+  {
+    "start": 300.144,
+    "end": 306.644,
+    "speaker": "Host",
+    "text": "I like chicken. I like liver. Meow mix, meow mix. Please deliver. Swiss Python Summit on the 22nd and 23rd of October 2026. Kyle Boss, can't see it odds."
+  },
+  {
+    "start": 307.744,
+    "end": 312.594,
+    "speaker": "Host",
+    "text": "Slowing down. Jenny Kim, the sarcastic parrot. Will Angel move to... Oh no."
+  },
+  {
+    "start": 314.844,
+    "end": 315.694,
+    "speaker": "Guest",
+    "text": "Oh no."
+  },
+  {
+    "start": 315.794,
+    "end": 332.966,
+    "speaker": "Host",
+    "text": "It's back. The longest city name on Earth. Okay, here we go. I was able to say this at one point. Lanfer pwyllgwyn gyllgogerych wyrndrobwllant syllygogogoch,"
+  },
+  {
+    "start": 332.966,
+    "end": 334.016,
+    "speaker": "Host",
+    "text": "a town in North Wales."
+  },
+  {
+    "start": 333.652,
+    "end": 344.452,
+    "speaker": "Host",
+    "text": "All right, Ira Chan, Jonathan Kings, and I, beautiful functional user documentation. If I were Angel, I wouldn't. Crab now on your phone at vote.williameangel.net. Dave's serial killer name, Dave Smiles."
+  },
+  {
+    "start": 344.652,
+    "end": 354.152,
+    "speaker": "Host",
+    "text": "Adding inside jokes to your agents.md in your personal repo is still technically a team building exercise. Brayden Keynes, John Grant, Brittany Ellick, Will Will Angel go to slash new? Cough."
+  },
+  {
+    "start": 355.852,
+    "end": 372.064,
+    "speaker": "Host",
+    "text": "May 27th through 28th. Oh my gosh. Will he? Will Will Angel. And finally, closed parentheses followed by a single literal closing paren. Oh my goodness, you did it again, team. Wow, it's amazing. I normally have to pay for this kind of entertainment,"
+  },
+  {
+    "start": 372.114,
+    "end": 374.764,
+    "speaker": "Guest",
+    "text": "and you paid us to entertain us."
+  },
+  {
+    "start": 375.86,
+    "end": 378.01,
+    "speaker": "Host",
+    "text": "It doesn't work economically, but it works in my heart."
+  },
+  {
+    "start": 378.21,
+    "end": 381.66,
+    "speaker": "Guest",
+    "text": "Yeah, this is the power of friendship, which transcends economics."
+  },
+  {
+    "start": 382.66,
+    "end": 394.01,
+    "speaker": "Host",
+    "text": "It's time for me to bring back my old favorite stupid name joke, which is imagine there was a guy named Big Mac and his nickname was Big Mac and then he would be named Big Mac Mac Mac."
+  },
+  {
+    "start": 394.76,
+    "end": 400.71,
+    "speaker": "Host",
+    "text": "And I see Will Will Angel and I think, what if Will Angel's nickname was Will Angel and then it'd be Will Will Angel Angel."
+  },
+  {
+    "start": 401.01,
+    "end": 401.41,
+    "speaker": "Guest",
+    "text": "Oh."
+  },
+  {
+    "start": 401.71,
+    "end": 410.596,
+    "speaker": "Host",
+    "text": "It's pretty good. Big Big Mac Mac? I don't quite get it. Like big and then quotes Big Mac and then his last name's Mac."
+  },
+  {
+    "start": 410.946,
+    "end": 414.196,
+    "speaker": "Guest",
+    "text": "Oh, kind of like how you put your nickname between your first name and your last name?"
+  },
+  {
+    "start": 414.196,
+    "end": 418.046,
+    "speaker": "Host",
+    "text": "Yeah, like David, Dave, Smith. Big Dave or"
+  },
+  {
+    "start": 418.046,
+    "end": 418.246,
+    "speaker": "Guest",
+    "text": "Yeah."
+  },
+  {
+    "start": 418.246,
+    "end": 420.896,
+    "speaker": "Host",
+    "text": "Dave Big Mac Smith or like, you know, Dave"
+  },
+  {
+    "start": 420.896,
+    "end": 421.696,
+    "speaker": "Guest",
+    "text": "I got you."
+  },
+  {
+    "start": 421.696,
+    "end": 426.146,
+    "speaker": "Host",
+    "text": "the Destroyer Smith. Wait, am I supposed to leak your last name?"
+  },
+  {
+    "start": 426.146,
+    "end": 427.796,
+    "speaker": "Guest",
+    "text": "Oh, whoops. No, I say it every time."
+  },
+  {
+    "start": 428.532,
+    "end": 429.532,
+    "speaker": "Host",
+    "text": "Oh, yeah, that's right."
+  },
+  {
+    "start": 432.482,
+    "end": 433.382,
+    "speaker": "Guest",
+    "text": "And so do you."
+  },
+  {
+    "start": 435.932,
+    "end": 438.182,
+    "speaker": "Host",
+    "text": "You got me for a moment. I was like, wait, no,"
+  },
+  {
+    "start": 438.182,
+    "end": 438.282,
+    "speaker": "Host",
+    "text": "I"
+  },
+  {
+    "start": 438.282,
+    "end": 438.582,
+    "speaker": "Host",
+    "text": "my"
+  },
+  {
+    "start": 438.582,
+    "end": 438.782,
+    "speaker": "Host",
+    "text": "was like,"
+  },
+  {
+    "start": 438.782,
+    "end": 438.832,
+    "speaker": "Host",
+    "text": ""
+  },
+  {
+    "start": 438.832,
+    "end": 440.732,
+    "speaker": "Host",
+    "text": "oh, what have you done? We've kept our"
+  },
+  {
+    "start": 440.732,
+    "end": 440.932,
+    "speaker": "Host",
+    "text": "pseudonym."
+  },
+  {
+    "start": 440.932,
+    "end": 443.432,
+    "speaker": "Host",
+    "text": "identities secret for"
+  },
+  {
+    "start": 443.432,
+    "end": 443.632,
+    "speaker": "Host",
+    "text": "Whoever"
+  },
+  {
+    "start": 443.632,
+    "end": 444.032,
+    "speaker": "Guest",
+    "text": "10 years."
+  },
+  {
+    "start": 444.032,
+    "end": 445.482,
+    "speaker": "Guest",
+    "text": "knows my last name is Smith."
+  },
+  {
+    "start": 446.516,
+    "end": 449.016,
+    "speaker": "Guest",
+    "text": "it took nine bits to"
+  },
+  {
+    "start": 449.016,
+    "end": 449.766,
+    "speaker": "Guest",
+    "text": "my determine unique identifier"
+  },
+  {
+    "start": 449.766,
+    "end": 451.216,
+    "speaker": "Host",
+    "text": "okay"
+  },
+  {
+    "start": 453.366,
+    "end": 455.316,
+    "speaker": "Host",
+    "text": "we better get to a question"
+  },
+  {
+    "start": 455.316,
+    "end": 474.916,
+    "speaker": "Host",
+    "text": "yeah we should we've spent all the bits now let's do the questions yeah i will read it i think this is from an anonymous listener who says should i declare my struggle with this ai world we live in here nah i mean i'd like the hype to die down a lot but we keep getting new tools and i get to experiment so here we are my real struggle and this podcast is implic"
+  },
+  {
+    "start": 474.804,
+    "end": 489.404,
+    "speaker": "Host",
+    "text": "implicated in it is around non-technical people contributing to production systems why are we so obsessed with this idea cobalt tried it low code and no code tried it bdd and gherkin aspire to it yet time and time again the field demonstrates that you need people who know their stuff"
+  },
+  {
+    "start": 490.1,
+    "end": 501.8,
+    "speaker": "Guest",
+    "text": "To democratize software engineering implies that all people have the desire and ability to become software engineers. That premise is false. You democratize access to education or financial systems. The stock markets say you don't democratize skill."
+  },
+  {
+    "start": 502.0,
+    "end": 513.75,
+    "speaker": "Guest",
+    "text": "Skill is earned. We would never, I hope, democratize bridge engineering or piloting an aircraft. Software engineers are just as critical as either. When our software breaks, money goes missing, electrical grids fail, information stops flowing."
+  },
+  {
+    "start": 514.452,
+    "end": 519.652,
+    "speaker": "Guest",
+    "text": "What I do think is great, now more than ever, as long as tokens stay cheap, people have more ability to build useful tools for themselves."
+  },
+  {
+    "start": 519.952,
+    "end": 526.652,
+    "speaker": "Guest",
+    "text": "But here is how I think about it. We have done tremendous work on literacy and most people can read, but not everyone is an author. The same applies to code."
+  },
+  {
+    "start": 527.102,
+    "end": 533.202,
+    "speaker": "Host",
+    "text": "You know, I picked this question and it wasn't until you just finished reading it that I realized there's no question in this."
+  },
+  {
+    "start": 534.152,
+    "end": 535.802,
+    "speaker": "Guest",
+    "text": "Yeah, the question is, how dare you?"
+  },
+  {
+    "start": 540.556,
+    "end": 540.956,
+    "speaker": "Host",
+    "text": "Whoops."
+  },
+  {
+    "start": 540.956,
+    "end": 543.556,
+    "speaker": "Host",
+    "text": "I guess they say, why are we so obsessed with this idea?"
+  },
+  {
+    "start": 544.106,
+    "end": 545.906,
+    "speaker": "Guest",
+    "text": "Yeah. Of democratizing software engineering?"
+  },
+  {
+    "start": 546.156,
+    "end": 546.556,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 546.606,
+    "end": 554.164,
+    "speaker": "Guest",
+    "text": "Look, I actually do believe everyone can be a pilot. So, I don't know, if your premise is all that good, just get in the cockpit, how hard could it be?"
+  },
+  {
+    "start": 554.414,
+    "end": 560.564,
+    "speaker": "Host",
+    "text": "If you're not like a commercial airliner pilot, you do crash kind of a lot."
+  },
+  {
+    "start": 560.564,
+    "end": 560.914,
+    "speaker": "Guest",
+    "text": "Yeah."
+  },
+  {
+    "start": 561.014,
+    "end": 567.564,
+    "speaker": "Host",
+    "text": "Like the people who are pilots that aren't flying the big jets seem to fall out of the sky fairly often."
+  },
+  {
+    "start": 567.564,
+    "end": 569.164,
+    "speaker": "Guest",
+    "text": "Yeah, it's like way worse than driving."
+  },
+  {
+    "start": 569.164,
+    "end": 569.814,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 569.814,
+    "end": 572.764,
+    "speaker": "Guest",
+    "text": "This is like the one reason I don't have a private pilot's license."
+  },
+  {
+    "start": 573.564,
+    "end": 579.004,
+    "speaker": "Guest",
+    "text": "That and we just need a few more Patreon. supporters for"
+  },
+  {
+    "start": 579.004,
+    "end": 579.454,
+    "speaker": "Host",
+    "text": "yeah there"
+  },
+  {
+    "start": 579.454,
+    "end": 579.704,
+    "speaker": "Host",
+    "text": "Dave"
+  },
+  {
+    "start": 579.704,
+    "end": 580.504,
+    "speaker": "Guest",
+    "text": "are two reasons yeah"
+  },
+  {
+    "start": 580.504,
+    "end": 584.804,
+    "speaker": "Host",
+    "text": "wants to start at the very expensive private jet level yeah"
+  },
+  {
+    "start": 584.804,
+    "end": 586.404,
+    "speaker": "Host",
+    "text": "i want to skip all the boring stuff"
+  },
+  {
+    "start": 587.354,
+    "end": 604.004,
+    "speaker": "Guest",
+    "text": "none of this boring little prop plane thing yeah let's talk about it one of the premises of the question is we are democratizing software engineering and I don't think we are I don't think what I see when people who aren't programmers contribute to prod code base I would not call software engineering I would call it"
+  },
+  {
+    "start": 604.66,
+    "end": 606.61,
+    "speaker": "Guest",
+    "text": "changing coat with robots but"
+  },
+  {
+    "start": 606.61,
+    "end": 607.21,
+    "speaker": "Host",
+    "text": "Okay."
+  },
+  {
+    "start": 607.21,
+    "end": 607.26,
+    "speaker": "Host",
+    "text": ""
+  },
+  {
+    "start": 607.26,
+    "end": 607.66,
+    "speaker": "Host",
+    "text": "All right."
+  },
+  {
+    "start": 608.56,
+    "end": 631.46,
+    "speaker": "Guest",
+    "text": "up until now we have not made it so that this can just happen i mean even for engineers like you don't just type most people i think who are using robots to write code in work contexts don't just yolo it to prod like there's some human review and oversight and work and planning and it's not just uh"
+  },
+  {
+    "start": 632.244,
+    "end": 636.394,
+    "speaker": "Guest",
+    "text": "You dump your thoughts into an LLM and then it goes to prod that way."
+  },
+  {
+    "start": 636.394,
+    "end": 636.794,
+    "speaker": "Host",
+    "text": "Mm-hmm."
+  },
+  {
+    "start": 636.794,
+    "end": 640.294,
+    "speaker": "Guest",
+    "text": "And all that stuff is software engineering is wrapped up in all those bits."
+  },
+  {
+    "start": 640.544,
+    "end": 640.994,
+    "speaker": "Host",
+    "text": "For now."
+  },
+  {
+    "start": 641.094,
+    "end": 641.544,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 642.044,
+    "end": 646.194,
+    "speaker": "Host",
+    "text": "Until we fully democratize. Until we democratize the democratization."
+  },
+  {
+    "start": 646.194,
+    "end": 660.678,
+    "speaker": "Guest",
+    "text": "The biggest bottleneck we have around technical output at work right now is verification and quality because that stuff is hard to do with robots. We've made some attempts at fancier lint rules,"
+  },
+  {
+    "start": 660.778,
+    "end": 670.474,
+    "speaker": "Guest",
+    "text": "and we've talked about this a little bit, like making the system more self-driving, and it's helped, but it hasn't solved it yet. And what is my point of this ramble?"
+  },
+  {
+    "start": 670.524,
+    "end": 683.374,
+    "speaker": "Guest",
+    "text": "The point of the ramble is I don't expect that non-engineers contributing to code will produce the same quality of output as engineers. And I don't expect that it will make engineers jobs easier."
+  },
+  {
+    "start": 683.524,
+    "end": 689.224,
+    "speaker": "Guest",
+    "text": "I think it'll make it harder because now they have to like review and babysit code produced by non-engineers."
+  },
+  {
+    "start": 689.374,
+    "end": 697.554,
+    "speaker": "Guest",
+    "text": "In other words, like the filter that used to prevent bad code from getting here actually prevented all code from getting into in front of you and"
+  },
+  {
+    "start": 697.554,
+    "end": 698.054,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 698.054,
+    "end": 702.754,
+    "speaker": "Guest",
+    "text": "now now it doesn't prevent any code because people tell robots to do the code part"
+  },
+  {
+    "start": 703.104,
+    "end": 718.254,
+    "speaker": "Host",
+    "text": "Yeah. Yeah. But the hypothesis is it's still worth it for the business. And I guess we'll see if this pays off or not long term. But it's not everyone can do a software engineering things. It's"
+  },
+  {
+    "start": 718.772,
+    "end": 735.172,
+    "speaker": "Guest",
+    "text": "everyone can produce code somehow and then you still have to get it to prod and getting it to prod is is the tricky bit getting it verified and maintainable or deciding this is not a thing that is like we this part can be crap it's"
+  },
+  {
+    "start": 735.172,
+    "end": 735.672,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 735.672,
+    "end": 737.922,
+    "speaker": "Guest",
+    "text": "still some some judgment there yeah"
+  },
+  {
+    "start": 737.922,
+    "end": 738.322,
+    "speaker": "Host",
+    "text": "Yeah,"
+  },
+  {
+    "start": 738.322,
+    "end": 738.372,
+    "speaker": "Host",
+    "text": ""
+  },
+  {
+    "start": 738.372,
+    "end": 748.806,
+    "speaker": "Guest",
+    "text": "there's a whole world of stuff that tolerates crap code, right? And that world prior to AI generated AI coding tools. rules, that world was 0% served."
+  },
+  {
+    "start": 749.876,
+    "end": 759.376,
+    "speaker": "Guest",
+    "text": "you know like there was just no one who could actually produce anything useful for themselves to use like on their desktop and now you can but that's not really what the question asker is asking about right"
+  },
+  {
+    "start": 759.576,
+    "end": 772.376,
+    "speaker": "Host",
+    "text": "Yeah, I think the question asker is saying we should stop expecting non-software engineers to do software engineering just because they have LLMs that can help them write code. And I guess I don't think that they are. Also,"
+  },
+  {
+    "start": 772.426,
+    "end": 781.784,
+    "speaker": "Guest",
+    "text": "sometimes software engineers don't do software engineering. Like, I could write bad code way before LLMs existed. existed and not understand what it was doing and the implications and yeah"
+  },
+  {
+    "start": 781.784,
+    "end": 805.384,
+    "speaker": "Guest",
+    "text": "and even when i thought it was good code it was sometimes bad it was kind of weird like pilots when they crash the plane like none of them walk away well sometimes they don't walk away at all but when they do walk away none of them go man that was some great flying and only like years later they're like maybe that wasn't good flying when they review their own black box that's how i am i'm like i wrote code two years ago i look at it today and i'm like this is horrible"
+  },
+  {
+    "start": 806.324,
+    "end": 812.674,
+    "speaker": "Host",
+    "text": "Yeah, I can just see the last blog post I read spewing out of my fingers and"
+  },
+  {
+    "start": 812.674,
+    "end": 812.774,
+    "speaker": "Guest",
+    "text": "Exactly."
+  },
+  {
+    "start": 812.774,
+    "end": 817.774,
+    "speaker": "Host",
+    "text": "getting really excited about this random pattern that turns out to not fit."
+  },
+  {
+    "start": 817.974,
+    "end": 820.724,
+    "speaker": "Guest",
+    "text": "You're like, I am nothing but a recency bias machine."
+  },
+  {
+    "start": 821.974,
+    "end": 823.974,
+    "speaker": "Host",
+    "text": "But I'm much slower than the AI machines."
+  },
+  {
+    "start": 824.774,
+    "end": 836.304,
+    "speaker": "Host",
+    "text": "Yeah, I guess I'm... I think I agree with you in some ways that, yeah, I don't think we're trying to say software engineering is democratized, but there are people pushing for that still."
+  },
+  {
+    "start": 836.354,
+    "end": 842.004,
+    "speaker": "Host",
+    "text": "And I don't think the role of expert humans will go anytime soon."
+  },
+  {
+    "start": 842.644,
+    "end": 864.194,
+    "speaker": "Guest",
+    "text": "in this field Yeah. i mean it it clearly can't go away in some fields like the pilot thing i mean well okay let's just be super clear if the question is about democratization so i'm gonna i'm gonna take a slight detour on that question but computers can fly airplanes better than humans already today and i don't actually know why we have humans in the cockpits of of airplanes anymore"
+  },
+  {
+    "start": 864.756,
+    "end": 881.506,
+    "speaker": "Guest",
+    "text": "other than as like a backup for those super rare cases where the airplane can't get it right and i don't know maybe that's maybe that's the future of software you know the difference between pilots or airplanes and software at least one of many is the ratios are all weird you know like a a pilot like a commercial aircraft needs two pilots"
+  },
+  {
+    "start": 881.506,
+    "end": 881.806,
+    "speaker": "Host",
+    "text": "Mm"
+  },
+  {
+    "start": 881.806,
+    "end": 881.906,
+    "speaker": "Host",
+    "text": "up"
+  },
+  {
+    "start": 881.906,
+    "end": 882.056,
+    "speaker": "Host",
+    "text": "-hmm."
+  },
+  {
+    "start": 882.056,
+    "end": 893.206,
+    "speaker": "Guest",
+    "text": "in the to oversee that thing and uh you kind of have this ratio where it's like you got a few hundred people on the plane and two pilots and that ratio is never really going to go up like you two pilots can never fly a plane for 10 million people"
+  },
+  {
+    "start": 894.068,
+    "end": 895.318,
+    "speaker": "Host",
+    "text": "You know, but on the"
+  },
+  {
+    "start": 895.318,
+    "end": 895.368,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 895.368,
+    "end": 902.518,
+    "speaker": "Guest",
+    "text": "software side, like we create a you create a web application and you could easily have one engineer create a web application that gets used by millions."
+  },
+  {
+    "start": 902.918,
+    "end": 910.768,
+    "speaker": "Guest",
+    "text": "And so, you know, what what keeps those ratios where they are like in the pilot world just doesn't really apply to the software world."
+  },
+  {
+    "start": 910.868,
+    "end": 915.218,
+    "speaker": "Host",
+    "text": "Yeah, why do we have humans? Is it because like autopilot is good for"
+  },
+  {
+    "start": 916.116,
+    "end": 926.516,
+    "speaker": "Host",
+    "text": "the normal stuff and better than humans at the boring normal stuff and then sometimes you have to like land in the Hudson River and get a movie made about you and autopilot can't do that bit"
+  },
+  {
+    "start": 926.516,
+    "end": 932.366,
+    "speaker": "Host",
+    "text": "the autopilot would be like i'm gonna go crash this plane into an empty building to make sure that we minimize human death"
+  },
+  {
+    "start": 932.616,
+    "end": 934.466,
+    "speaker": "Guest",
+    "text": "yeah yeah"
+  },
+  {
+    "start": 935.124,
+    "end": 953.224,
+    "speaker": "Guest",
+    "text": "I honestly don't know but I do know that even private pilots have very good very good autopilot tools and I've sit I've sat next to them in a cockpit before and they've talked me through it and it's like really smooth and really great and he was like here I'll go off autopilot and I'm like wow this is a much worse ride when your when your hands"
+  },
+  {
+    "start": 953.224,
+    "end": 953.374,
+    "speaker": "Host",
+    "text": "You"
+  },
+  {
+    "start": 953.374,
+    "end": 953.674,
+    "speaker": "Guest",
+    "text": "are on the"
+  },
+  {
+    "start": 953.674,
+    "end": 953.724,
+    "speaker": "Host",
+    "text": "are"
+  },
+  {
+    "start": 953.724,
+    "end": 953.824,
+    "speaker": "Guest",
+    "text": "yoke"
+  },
+  {
+    "start": 953.824,
+    "end": 954.024,
+    "speaker": "Guest",
+    "text": "so"
+  },
+  {
+    "start": 954.024,
+    "end": 954.674,
+    "speaker": "Guest",
+    "text": "I think"
+  },
+  {
+    "start": 954.674,
+    "end": 955.574,
+    "speaker": "Guest",
+    "text": "much worse than this."
+  },
+  {
+    "start": 955.574,
+    "end": 962.024,
+    "speaker": "Guest",
+    "text": "it's true I mean he's kind of up and down and and kind of side to side and constantly correcting and the computer was just making my"
+  },
+  {
+    "start": 961.908,
+    "end": 973.208,
+    "speaker": "Guest",
+    "text": "keeping micro corrections a lot both faster and smaller magnitude it's just a better experience overall but i guarantee you the moment he hits some crazy turbulence the pilot will be like we're turning this autopilot off i got this and probably"
+  },
+  {
+    "start": 973.208,
+    "end": 973.558,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 973.558,
+    "end": 987.958,
+    "speaker": "Guest",
+    "text": "would do a better job but i don't really know anyway i think the point still stands of the question asker we do not ever really intend to democratize access to the cockpit you know we don't want random people walking in off the street being like well i'll pilot this plane i guess"
+  },
+  {
+    "start": 988.532,
+    "end": 1017.582,
+    "speaker": "Guest",
+    "text": "you know full of 300 passengers yeah and you're right like we want an expert up there to oversee this thing or else you're gonna freaking die now bridge Yeah. building you mentioned like civil engineering and bridge building i'm like i don't know like there's not as much demand to democratize bridge building because we just don't build that many bridges as a ratio of like humans to bridges it's like humans building bridges it's just not that many you know there's not demand like i don't need a bridge tomorrow but i do need like 50 apps to to live my life now"
+  },
+  {
+    "start": 1018.1,
+    "end": 1020.4,
+    "speaker": "Host",
+    "text": "They're also very expensive. Like,"
+  },
+  {
+    "start": 1020.4,
+    "end": 1020.85,
+    "speaker": "Guest",
+    "text": "Yeah, true."
+  },
+  {
+    "start": 1020.85,
+    "end": 1028.1,
+    "speaker": "Host",
+    "text": "say we did, say you didn't need a license to build a bridge. I would then need $700 million somehow to"
+  },
+  {
+    "start": 1028.1,
+    "end": 1028.75,
+    "speaker": "Guest",
+    "text": "Concrete"
+  },
+  {
+    "start": 1028.75,
+    "end": 1028.95,
+    "speaker": "Host",
+    "text": "pay"
+  },
+  {
+    "start": 1028.95,
+    "end": 1029.2,
+    "speaker": "Guest",
+    "text": "and labor."
+  },
+  {
+    "start": 1029.2,
+    "end": 1032.95,
+    "speaker": "Host",
+    "text": "for it. Great. Its access is democratized."
+  },
+  {
+    "start": 1034.15,
+    "end": 1047.65,
+    "speaker": "Guest",
+    "text": "Software is just so weird in so many ways. And every time we make comparisons like this, it just falls apart because the ratios don't work. The cost doesn't work. The barriers to entry don't work."
+  },
+  {
+    "start": 1047.764,
+    "end": 1066.664,
+    "speaker": "Guest",
+    "text": "like it just doesn't transfer and so i don't know i mean but i i will say like for sure one of the things that this question asker said that is like a thousand percent true is that to democratize software engineering applies that all people have the desire to build software and most people just don't want to make the products that they use they don't want to design"
+  },
+  {
+    "start": 1066.664,
+    "end": 1066.864,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 1066.864,
+    "end": 1073.614,
+    "speaker": "Guest",
+    "text": "them they don't want to manufacture them and i'll give you like the best example of this i can give is 3d printing you"
+  },
+  {
+    "start": 1073.46,
+    "end": 1084.41,
+    "speaker": "Guest",
+    "text": "like for years everyone said oh you're never going to have to go to the store because your 3d printer will make the stuff you need and i'm like that is such a pain in the butt you know like nobody like i love"
+  },
+  {
+    "start": 1084.41,
+    "end": 1084.51,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 1084.51,
+    "end": 1090.71,
+    "speaker": "Guest",
+    "text": "it for hobbyist stuff but nobody has a 3d printer in their house where they're like oh i need a new i need new silverware"
+  },
+  {
+    "start": 1091.348,
+    "end": 1106.498,
+    "speaker": "Guest",
+    "text": "you know i'll just 3d print that instead of going to like i need no here's a better one i need plastic wear if i'm holding a picnic and i want to have disposable plastic wear like i'll just 3d print the forks and knives no i'm going to go to the store and i'm going to spend three dollars on plastic and i'm going to throw it in the trash when i'm done"
+  },
+  {
+    "start": 1107.38,
+    "end": 1117.03,
+    "speaker": "Guest",
+    "text": "it is horrible too but it's just different people don't want to make they don't want to design they don't want to manufacture products for the most part like i would say not at least 90 of the population does not want to do that"
+  },
+  {
+    "start": 1117.03,
+    "end": 1130.83,
+    "speaker": "Host",
+    "text": "If you are an engineer working at a place, at a company where non-engineers are contributing to the code base, first, just your AI use and your fellow software engineer's AI use has created more code for you to review already,"
+  },
+  {
+    "start": 1130.98,
+    "end": 1133.68,
+    "speaker": "Host",
+    "text": "even without non-engineers writing code."
+  },
+  {
+    "start": 1134.228,
+    "end": 1134.428,
+    "speaker": "Guest",
+    "text": "Mm"
+  },
+  {
+    "start": 1134.428,
+    "end": 1134.528,
+    "speaker": "Guest",
+    "text": "I"
+  },
+  {
+    "start": 1134.528,
+    "end": 1134.628,
+    "speaker": "Guest",
+    "text": "-hmm."
+  },
+  {
+    "start": 1134.628,
+    "end": 1150.228,
+    "speaker": "Host",
+    "text": "sympathize with the changing balance of time spent in review and verification, and I can see it being frustrating that a lot less of your time is going to creating stuff yourself. Like you very rarely just sit down for six hours and..."
+  },
+  {
+    "start": 1150.74,
+    "end": 1154.84,
+    "speaker": "Host",
+    "text": "think deeply through a problem and type the code out to do it anymore and"
+  },
+  {
+    "start": 1154.84,
+    "end": 1155.19,
+    "speaker": "Guest",
+    "text": "Mm-hmm."
+  },
+  {
+    "start": 1155.19,
+    "end": 1177.54,
+    "speaker": "Host",
+    "text": "if you then add okay non-engineers are now contributing code also you have even more code to review that's probably done in funkier ways and then you also add this new problem of okay if we want to make it easy for non-engineers to produce air quotes good code then we have a meta problem of building the system that encourages it maybe i don't want to work on that i just want to like"
+  },
+  {
+    "start": 1177.492,
+    "end": 1181.042,
+    "speaker": "Guest",
+    "text": "like build the app so i can see why this is frustrating but"
+  },
+  {
+    "start": 1181.042,
+    "end": 1181.542,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 1181.542,
+    "end": 1196.742,
+    "speaker": "Guest",
+    "text": "i think the end goal is what is the end goal i don't know i mean the business wants more stuff done so they can make more money i guess that's that's part of why we're doing it where i work is we think it will make customers lives better and we there are trade-offs with that it's not free"
+  },
+  {
+    "start": 1197.292,
+    "end": 1199.892,
+    "speaker": "Host",
+    "text": "Yeah. It is. It's this case. Now, Jamison, you."
+  },
+  {
+    "start": 1200.0,
+    "end": 1203.95,
+    "speaker": "Host",
+    "text": "You and I have both really tried to lean into this concept at our companies"
+  },
+  {
+    "start": 1203.95,
+    "end": 1204.1,
+    "speaker": "Guest",
+    "text": "Mm"
+  },
+  {
+    "start": 1204.1,
+    "end": 1204.4,
+    "speaker": "Host",
+    "text": "to"
+  },
+  {
+    "start": 1204.4,
+    "end": 1204.6,
+    "speaker": "Guest",
+    "text": "-hmm."
+  },
+  {
+    "start": 1204.6,
+    "end": 1208.3,
+    "speaker": "Host",
+    "text": "get more people to contribute code to the code base in a sense."
+  },
+  {
+    "start": 1208.35,
+    "end": 1219.6,
+    "speaker": "Guest",
+    "text": "So I haven't in my company, I haven't fully democratized it, but I don't know what you would call it if there's a small circle of people who can do something and I want to expand that circle to like their nearest neighbors."
+  },
+  {
+    "start": 1219.75,
+    "end": 1224.8,
+    "speaker": "Guest",
+    "text": "That's kind of what I did. Like I want to expand the circle to user experience designer, product manager roles."
+  },
+  {
+    "start": 1224.8,
+    "end": 1228.624,
+    "speaker": "Host",
+    "text": "You've moved from a dictatorship. ship to an oligarchy i'm"
+  },
+  {
+    "start": 1228.624,
+    "end": 1229.124,
+    "speaker": "Guest",
+    "text": "Yeah,"
+  },
+  {
+    "start": 1229.124,
+    "end": 1229.224,
+    "speaker": "Host",
+    "text": "pretty"
+  },
+  {
+    "start": 1229.224,
+    "end": 1229.624,
+    "speaker": "Guest",
+    "text": "there you go."
+  },
+  {
+    "start": 1229.624,
+    "end": 1232.324,
+    "speaker": "Host",
+    "text": "sure yeah we're the we're the rich plutocrats that"
+  },
+  {
+    "start": 1232.324,
+    "end": 1232.624,
+    "speaker": "Guest",
+    "text": "Yeah,"
+  },
+  {
+    "start": 1232.624,
+    "end": 1232.674,
+    "speaker": "Host",
+    "text": "control"
+  },
+  {
+    "start": 1232.674,
+    "end": 1232.974,
+    "speaker": "Guest",
+    "text": "that's right."
+  },
+  {
+    "start": 1232.974,
+    "end": 1235.224,
+    "speaker": "Host",
+    "text": "everything instead of just the one person yeah"
+  },
+  {
+    "start": 1235.224,
+    "end": 1239.774,
+    "speaker": "Guest",
+    "text": "I didn't want to be an emperor. I wanted to be a plutocrat among friends."
+  },
+  {
+    "start": 1239.774,
+    "end": 1241.624,
+    "speaker": "Host",
+    "text": "yeah yeah"
+  },
+  {
+    "start": 1242.574,
+    "end": 1242.974,
+    "speaker": "Guest",
+    "text": "Perfect."
+  },
+  {
+    "start": 1244.324,
+    "end": 1251.074,
+    "speaker": "Host",
+    "text": "Plutocrat oligarch. Yeah, that's exactly what I wanted to do. And I'll tell you, I actually would like to share the results. The results have been that."
+  },
+  {
+    "start": 1251.668,
+    "end": 1264.668,
+    "speaker": "Host",
+    "text": "And I'm just talking specifically in contributing code to our product, our customer-facing production product. The results have been not great. Mostly it's because of problems getting the code deployed. So,"
+  },
+  {
+    "start": 1264.718,
+    "end": 1277.918,
+    "speaker": "Host",
+    "text": "for example, this week I had a product manager who just wanted to change a link target. There's literally just a basic hyperlink on a page in our app linking out to some help documentation. Wanted to change the URL that it was pointing at."
+  },
+  {
+    "start": 1278.708,
+    "end": 1288.308,
+    "speaker": "Host",
+    "text": "And because of some quirks in our deployment process, which admittedly could be fixed, could be improved, but because of some quirks in our deployment process, this product manager did successfully make the link change,"
+  },
+  {
+    "start": 1288.408,
+    "end": 1292.658,
+    "speaker": "Host",
+    "text": "but also deleted a feature from our web app that had previously existed,"
+  },
+  {
+    "start": 1292.658,
+    "end": 1292.958,
+    "speaker": "Guest",
+    "text": "Woo!"
+  },
+  {
+    "start": 1292.958,
+    "end": 1303.908,
+    "speaker": "Host",
+    "text": "that had just launched, and it was like right on the heels. So those of you who are savvy can piece together exactly what our deployment pipeline looks like now, based on what you just heard me say. But don't worry,"
+  },
+  {
+    "start": 1304.008,
+    "end": 1305.908,
+    "speaker": "Guest",
+    "text": "there are pros and cons to it, and actually I love it."
+  },
+  {
+    "start": 1305.78,
+    "end": 1327.23,
+    "speaker": "Guest",
+    "text": "love it even though we have this risk but he did he deleted a feature and we had just announced the feature was launched and it was live and then people were like wait i don't see it and we're like oh crap what happened so if something that basic like changing a link target can result in something that catastrophic i don't think we're anywhere near democratizing software engineering for actual products used by more than just the people who developed it yeah"
+  },
+  {
+    "start": 1327.23,
+    "end": 1328.38,
+    "speaker": "Host",
+    "text": "I'm just going to say skill issue."
+  },
+  {
+    "start": 1328.38,
+    "end": 1328.48,
+    "speaker": "Host",
+    "text": ""
+  },
+  {
+    "start": 1328.48,
+    "end": 1329.68,
+    "speaker": "Host",
+    "text": "Sounds like you guys are bad."
+  },
+  {
+    "start": 1329.68,
+    "end": 1332.78,
+    "speaker": "Guest",
+    "text": "no that's a"
+  },
+  {
+    "start": 1333.204,
+    "end": 1345.004,
+    "speaker": "Host",
+    "text": "negative result were there other changes that were made that were positive and and this just like way overshadowed those or was it pretty much the only outcome was it deleted a feature and we didn't get anything useful out of it"
+  },
+  {
+    "start": 1345.004,
+    "end": 1361.904,
+    "speaker": "Guest",
+    "text": "i mean we eventually we were able to restore the feature it wasn't like it wasn't like he like completely just wrecked everything it was a quick fix and it's things we've had happen before so it wasn't like a nightmare scenario but still it was like it should be very very easy to change link text or link a link url right and it's just it's still not"
+  },
+  {
+    "start": 1362.168,
+    "end": 1373.318,
+    "speaker": "Guest",
+    "text": "I'm sure in some scenarios and some code bases it is, but not in ours, which makes our code sound horrible. That's not actually the case. It was just now I feel like I have to defend it. Oh man, what have I done?"
+  },
+  {
+    "start": 1373.668,
+    "end": 1384.118,
+    "speaker": "Host",
+    "text": "Have we broke stuff in prod? We shipped some things. My company is a bit smaller than Dave's company. I think the circle of people who've actually made changes is still fairly small."
+  },
+  {
+    "start": 1384.168,
+    "end": 1395.468,
+    "speaker": "Host",
+    "text": "It's all people technical or technical adjacent in customer support or design or whatever. And we've shipped a bunch of features, things that never would have been prioritized or done."
+  },
+  {
+    "start": 1396.34,
+    "end": 1401.84,
+    "speaker": "Host",
+    "text": "without democratizing access some of them customers really love and use like"
+  },
+  {
+    "start": 1401.84,
+    "end": 1402.59,
+    "speaker": "Guest",
+    "text": "Oh, that's cool."
+  },
+  {
+    "start": 1402.59,
+    "end": 1414.49,
+    "speaker": "Host",
+    "text": "it like i said it hasn't been free presumably we would have had more just kind of core raw engineering work done on the the main track of stuff we pick to do but it feels like a good trade-off for us yeah"
+  },
+  {
+    "start": 1414.49,
+    "end": 1422.19,
+    "speaker": "Guest",
+    "text": "Oh, so in other words, you didn't actually democratize every part of the process, but like the code writing part, people contributed code and then engineers had to review it."
+  },
+  {
+    "start": 1422.84,
+    "end": 1429.954,
+    "speaker": "Host",
+    "text": "people submit pull requests and then the engineering team still reviews and merges or gives feedback or takes it over and yeah"
+  },
+  {
+    "start": 1429.954,
+    "end": 1433.454,
+    "speaker": "Guest",
+    "text": "Got it. So it's easier to like prototype new stuff."
+  },
+  {
+    "start": 1434.054,
+    "end": 1434.254,
+    "speaker": "Host",
+    "text": "yeah"
+  },
+  {
+    "start": 1434.254,
+    "end": 1437.954,
+    "speaker": "Guest",
+    "text": "The democratization has happened at the prototype like proof of concept layer."
+  },
+  {
+    "start": 1438.754,
+    "end": 1443.804,
+    "speaker": "Host",
+    "text": "yeah and there's some things that are easy that just yep obvious bug fix small scope thumbs"
+  },
+  {
+    "start": 1443.804,
+    "end": 1444.304,
+    "speaker": "Guest",
+    "text": "Yeah, yeah."
+  },
+  {
+    "start": 1444.304,
+    "end": 1456.516,
+    "speaker": "Host",
+    "text": "up and some things that get submitted and we say you have no idea the the fiery flood of lava that this would unleash and of course you we don't expect you to but here's why we cannot do this"
+  },
+  {
+    "start": 1456.516,
+    "end": 1456.566,
+    "speaker": "Guest",
+    "text": "yeah"
+  },
+  {
+    "start": 1456.566,
+    "end": 1458.166,
+    "speaker": "Host",
+    "text": "and then yeah some in between yeah"
+  },
+  {
+    "start": 1458.166,
+    "end": 1473.316,
+    "speaker": "Guest",
+    "text": "and there's a surprising amount of that in software i think a lot of people just don't appreciate the implications of seemingly small changes you know like oh you make that change well that's gonna that actually affects seven other workflows in our product that you did not think about and now they're all broken"
+  },
+  {
+    "start": 1474.066,
+    "end": 1476.466,
+    "speaker": "Host",
+    "text": "we some of the stuff that we have shipped has"
+  },
+  {
+    "start": 1476.468,
+    "end": 1494.318,
+    "speaker": "Host",
+    "text": "has had some bugs that required some follow-up but none of it has just been broken and I think knock on wood it hasn't broken other stuff too badly that I'm aware of up until now so I think it's been broadly positive it it just is a trade-off of the engineering team spends more time than they used to reviewing these code contributions from other people"
+  },
+  {
+    "start": 1494.518,
+    "end": 1505.468,
+    "speaker": "Guest",
+    "text": "Yeah, and what's crazy is our engineers are already spending way more time in code review than they have in the past as a ratio of their overall time spent. And so when you now expand the circle of..."
+  },
+  {
+    "start": 1505.236,
+    "end": 1514.936,
+    "speaker": "Guest",
+    "text": "of Plutarch's to contribute more code there's even that that amplifies that problem yep I say problem like only because most people don't like to spend all their time reviewing other people's code yeah"
+  },
+  {
+    "start": 1514.936,
+    "end": 1525.038,
+    "speaker": "Host",
+    "text": "It's hard. I mean, it's exhausting in a way that creating your own stuff is not. I don't know. Have we answered the question? I feel like we keep forgetting what the question even is, but"
+  },
+  {
+    "start": 1525.038,
+    "end": 1526.238,
+    "speaker": "Host",
+    "text": "that's because there's no question."
+  },
+  {
+    "start": 1527.988,
+    "end": 1537.288,
+    "speaker": "Guest",
+    "text": "yeah, I'm interested to see where it goes and like all things there'll probably be a spectrum. There are places that never ever do pair programming and places that always do pair programming."
+  },
+  {
+    "start": 1537.388,
+    "end": 1542.688,
+    "speaker": "Guest",
+    "text": "And I think this is another one of those axes on which you can place your software practices."
+  },
+  {
+    "start": 1542.738,
+    "end": 1542.888,
+    "speaker": "Host",
+    "text": "Yes."
+  },
+  {
+    "start": 1542.888,
+    "end": 1548.746,
+    "speaker": "Host",
+    "text": "Only engineers contribute to the code or literally anybody can or anything in between. between."
+  },
+  {
+    "start": 1548.796,
+    "end": 1553.196,
+    "speaker": "Guest",
+    "text": "I'll share my final thought on this, which is to answer a question that is implied in here,"
+  },
+  {
+    "start": 1553.296,
+    "end": 1563.996,
+    "speaker": "Guest",
+    "text": "which is that, well, really stated out loud, why are we so obsessed with this idea of allowing non-engineers to contribute code to these projects and democratizing the process? And I will say this,"
+  },
+  {
+    "start": 1564.046,
+    "end": 1576.146,
+    "speaker": "Guest",
+    "text": "I believe the population is starting to become unimpressed with AI output. You know, we're on that hedonic treadmill. And so when someone shows up at my door or in my email inbox or in my..."
+  },
+  {
+    "start": 1575.956,
+    "end": 1590.3,
+    "speaker": "Guest",
+    "text": "in my Slack DMs with like a 17-page PDF file containing what looks like very dense, valuable information. three years ago i would have been like wow incredible work i'm sure you poured over every word in here and you carefully wrote this this"
+  },
+  {
+    "start": 1590.3,
+    "end": 1594.15,
+    "speaker": "Host",
+    "text": "yep yeah is so long you must have thought so much about this yeah"
+  },
+  {
+    "start": 1594.15,
+    "end": 1600.9,
+    "speaker": "Guest",
+    "text": "yes and now when someone does that i'm just like next like i don't even want to read it i'm like i bet you haven't even read this ai"
+  },
+  {
+    "start": 1600.9,
+    "end": 1610.9,
+    "speaker": "Host",
+    "text": "yeah there were two options either you were schizophrenic and this is a time cube thing or you thought very deeply about it and now there's a third which is you do not value my time at all"
+  },
+  {
+    "start": 1611.092,
+    "end": 1612.192,
+    "speaker": "Host",
+    "text": "yeah you ai slopped me"
+  },
+  {
+    "start": 1612.192,
+    "end": 1612.242,
+    "speaker": "Guest",
+    "text": "Yeah,"
+  },
+  {
+    "start": 1612.242,
+    "end": 1612.692,
+    "speaker": "Guest",
+    "text": "and"
+  },
+  {
+    "start": 1612.692,
+    "end": 1613.142,
+    "speaker": "Host",
+    "text": "yeah,"
+  },
+  {
+    "start": 1613.142,
+    "end": 1626.642,
+    "speaker": "Guest",
+    "text": "and people will just pass that to me and they they i gotta say like the faces they wear when they put these documents in front of me are like they're like expecting me to be like wow great work but i'm like i know what you did to create this i know you"
+  },
+  {
+    "start": 1626.642,
+    "end": 1626.942,
+    "speaker": "Host",
+    "text": "yeah."
+  },
+  {
+    "start": 1626.942,
+    "end": 1629.192,
+    "speaker": "Guest",
+    "text": "know like this is not high quality work"
+  },
+  {
+    "start": 1629.192,
+    "end": 1631.542,
+    "speaker": "Host",
+    "text": "We are learning what this says. Together,"
+  },
+  {
+    "start": 1631.542,
+    "end": 1631.742,
+    "speaker": "Guest",
+    "text": "Yeah,"
+  },
+  {
+    "start": 1631.742,
+    "end": 1632.292,
+    "speaker": "Host",
+    "text": "right now."
+  },
+  {
+    "start": 1632.292,
+    "end": 1633.492,
+    "speaker": "Guest",
+    "text": "exactly. Exactly."
+  },
+  {
+    "start": 1635.092,
+    "end": 1652.592,
+    "speaker": "Guest",
+    "text": "So like, do you expect me to be impressed? Like I'm just not and it's not because you know, I don't know. So I don't personally I don't do that to people. But the point I'm trying to make here is that I think collectively we are approaching that level of I'm unimpressed by your high quantity of stuff you produced,"
+  },
+  {
+    "start": 1652.692,
+    "end": 1666.544,
+    "speaker": "Guest",
+    "text": "whether it's a giant PR, whether it's a really cool picture or whether it's a long PDF. You have specification or something. We're just like, I don't care anymore. Like it's, it's gone from wow to, oh no. Like I have"
+  },
+  {
+    "start": 1666.544,
+    "end": 1666.844,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 1666.844,
+    "end": 1675.494,
+    "speaker": "Guest",
+    "text": "to read this thing. So I think with that, we're also going to see this, this frenzy around democratizing software engineering also subside."
+  },
+  {
+    "start": 1675.494,
+    "end": 1684.294,
+    "speaker": "Host",
+    "text": "Yeah, you could call it gatekeeping, but also filtering. A gatekeeper is also a filter. There's some vouching for quality and yeah, interesting times."
+  },
+  {
+    "start": 1684.344,
+    "end": 1685.644,
+    "speaker": "Guest",
+    "text": "I'm going to tell one story."
+  },
+  {
+    "start": 1685.748,
+    "end": 1694.898,
+    "speaker": "Guest",
+    "text": "real quick about this and I promise I'll stop talking about this topic but it is kind of interesting and timely I'm going to go out on a limb here and I'm going to implicate let's just say someone very influential in my business"
+  },
+  {
+    "start": 1696.848,
+    "end": 1699.198,
+    "speaker": "Guest",
+    "text": "not my boss had"
+  },
+  {
+    "start": 1699.198,
+    "end": 1699.598,
+    "speaker": "Host",
+    "text": "Ah, okay."
+  },
+  {
+    "start": 1699.598,
+    "end": 1712.598,
+    "speaker": "Guest",
+    "text": "a very important question about our business which is is our business protected from an AI just cloning our software and then we go bankrupt this is the question that I think many businesses are asking themselves"
+  },
+  {
+    "start": 1712.66,
+    "end": 1720.66,
+    "speaker": "Guest",
+    "text": "themselves is what's stopping our customers from building what we already have themselves and then canceling their subscription with"
+  },
+  {
+    "start": 1720.66,
+    "end": 1720.71,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 1720.71,
+    "end": 1730.36,
+    "speaker": "Guest",
+    "text": "us we're a b2b SaaS company this is a question we're all asking ourselves and one of these people these very influential important people in my circle of I'll say plutarchs or oligarchs in the"
+  },
+  {
+    "start": 1730.36,
+    "end": 1730.46,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 1730.46,
+    "end": 1742.59,
+    "speaker": "Guest",
+    "text": "sense that they're business influential but not writing code they were like well I'm just gonna tell AI to create a clone of your company of your product and so they did and it put something on a browser screen and it had like"
+  },
+  {
+    "start": 1742.59,
+    "end": 1742.74,
+    "speaker": "Host",
+    "text": "Mm"
+  },
+  {
+    "start": 1742.74,
+    "end": 1742.89,
+    "speaker": "Guest",
+    "text": "buttons"
+  },
+  {
+    "start": 1742.89,
+    "end": 1743.04,
+    "speaker": "Host",
+    "text": "hmm."
+  },
+  {
+    "start": 1743.04,
+    "end": 1758.24,
+    "speaker": "Guest",
+    "text": "and numbers and dials and gauges and reports and stuff on it like you know it looks legit and he shows it to me like look what do you think of this and I'm like how do I freaking respond to this like that is almost less than nothing to me like it means nothing nothing on the page"
+  },
+  {
+    "start": 1758.24,
+    "end": 1758.34,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 1758.34,
+    "end": 1763.9,
+    "speaker": "Guest",
+    "text": "means anything and you don't know what it means either So it's like, did you successfully clone my company? No, you did not."
+  },
+  {
+    "start": 1764.0,
+    "end": 1776.548,
+    "speaker": "Guest",
+    "text": "Like you created a facade of something that looks sort of like our company plausibly, almost like a forgery of a company. But when you when you peel back even one layer, what you've created is like a web page with. with words"
+  },
+  {
+    "start": 1776.548,
+    "end": 1776.848,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 1776.848,
+    "end": 1789.948,
+    "speaker": "Guest",
+    "text": "on it you know like you did not create an application you did not create a platform you did not create infrastructure you did not create 10 years of accumulated bug fixes that we've learned through very hard experience interacting with actual real world data"
+  },
+  {
+    "start": 1790.74,
+    "end": 1806.89,
+    "speaker": "Guest",
+    "text": "you know an ai that an ai just doesn't know about so like that's just not that's nothing it means nothing and i think i hope that more people are having that experience where they produce a lot of stuff a lot of content that actually is nothing and they go oh i guess we don't have to democratize this like"
+  },
+  {
+    "start": 1807.69,
+    "end": 1810.59,
+    "speaker": "Host",
+    "text": "Yeah, or there's more to it than just the raw production."
+  },
+  {
+    "start": 1810.59,
+    "end": 1816.184,
+    "speaker": "Guest",
+    "text": "yeah exactly Okay. All right. All right. So I'm sorry, I had to rant on that, but I'm done now, I promise."
+  },
+  {
+    "start": 1816.484,
+    "end": 1819.084,
+    "speaker": "Host",
+    "text": "i'm gonna think about that story for a while that's very funny to me"
+  },
+  {
+    "start": 1819.634,
+    "end": 1829.684,
+    "speaker": "Guest",
+    "text": "Yeah, because that is the question everyone's asking, like, can someone just yellow clone it and it sounds like this person said, look, I did. i did it and i'm like you think you did it and I don't want to be the one to tell you you didn't because"
+  },
+  {
+    "start": 1829.684,
+    "end": 1830.634,
+    "speaker": "Host",
+    "text": "yeah that's like saying"
+  },
+  {
+    "start": 1830.634,
+    "end": 1831.134,
+    "speaker": "Guest",
+    "text": "you're very influential."
+  },
+  {
+    "start": 1831.134,
+    "end": 1837.334,
+    "speaker": "Host",
+    "text": "you you produced this impressive you know that marble statue of david well i just took a picture of it so"
+  },
+  {
+    "start": 1838.356,
+    "end": 1840.806,
+    "speaker": "Guest",
+    "text": "What is that even, what is your stupid statue even"
+  },
+  {
+    "start": 1840.806,
+    "end": 1840.906,
+    "speaker": "Host",
+    "text": "Look"
+  },
+  {
+    "start": 1840.906,
+    "end": 1841.156,
+    "speaker": "Guest",
+    "text": "worth?"
+  },
+  {
+    "start": 1841.156,
+    "end": 1845.756,
+    "speaker": "Host",
+    "text": "what's on my phone. It's Michael Angelo's David. I have it."
+  },
+  {
+    "start": 1845.756,
+    "end": 1849.206,
+    "speaker": "Guest",
+    "text": "Yeah, I have it. You've been commoditized."
+  },
+  {
+    "start": 1849.206,
+    "end": 1851.356,
+    "speaker": "Guest",
+    "text": "We democratized sculpting."
+  },
+  {
+    "start": 1851.356,
+    "end": 1851.706,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 1852.056,
+    "end": 1853.556,
+    "speaker": "Host",
+    "text": "That's a really good metaphor. Okay."
+  },
+  {
+    "start": 1853.556,
+    "end": 1853.856,
+    "speaker": "Host",
+    "text": "All right."
+  },
+  {
+    "start": 1853.856,
+    "end": 1859.856,
+    "speaker": "Host",
+    "text": "All right. We're getting long here. We're about to wear out our welcome in your earphones. So let's, yes,"
+  },
+  {
+    "start": 1859.856,
+    "end": 1861.156,
+    "speaker": "Host",
+    "text": "Yeah, do you want to read our next question?"
+  },
+  {
+    "start": 1862.106,
+    "end": 1872.342,
+    "speaker": "Guest",
+    "text": "it comes from a listener named Anon E. Mouse. asks, should I share my tools? I keep building small local software tools to better test and debug the application I'm working on."
+  },
+  {
+    "start": 1872.442,
+    "end": 1879.542,
+    "speaker": "Guest",
+    "text": "The problem is that whenever I go above and beyond the assigned and expected work and try and responsibly check it in to version control and share it with the rest of the team,"
+  },
+  {
+    "start": 1879.592,
+    "end": 1884.592,
+    "speaker": "Guest",
+    "text": "it gets bogged down in code reviews because it doesn't meet the team lead's vision because it wasn't part of the vision."
+  },
+  {
+    "start": 1885.792,
+    "end": 1896.124,
+    "speaker": "Host",
+    "text": "It doesn't meet your vision because it wasn't part of the vision. I didn't expect you to build this. So it's not part of the vision."
+  },
+  {
+    "start": 1897.34,
+    "end": 1897.94,
+    "speaker": "Guest",
+    "text": "Oh,"
+  },
+  {
+    "start": 1897.94,
+    "end": 1898.04,
+    "speaker": "Guest",
+    "text": "My"
+  },
+  {
+    "start": 1898.04,
+    "end": 1898.34,
+    "speaker": "Host",
+    "text": "okay."
+  },
+  {
+    "start": 1898.34,
+    "end": 1905.74,
+    "speaker": "Host",
+    "text": "vision is more you do what I tell you and this is not part of it. That's very funny."
+  },
+  {
+    "start": 1905.74,
+    "end": 1912.74,
+    "speaker": "Host",
+    "text": "Okay, continuing. Once I go through that process, though, it's mostly appreciated, but the team lead is under a lot of business pressure and often mentions that we need to focus."
+  },
+  {
+    "start": 1913.94,
+    "end": 1924.24,
+    "speaker": "Host",
+    "text": "Maybe I'm not focused enough, but many of these little tools are things that make verification and delivery much smoother, like local testing utilities to verify and sample API endpoints that otherwise could only be called after prod deployments due to a lack of test data."
+  },
+  {
+    "start": 1924.148,
+    "end": 1935.348,
+    "speaker": "Host",
+    "text": "data our partners like when we're able to show the output before deployment and the rest of the team usually struggles with that i feel the pressure to hide my tools but then i feel sloppy for having a bunch of useful tools outside of version control"
+  },
+  {
+    "start": 1935.796,
+    "end": 1943.646,
+    "speaker": "Host",
+    "text": "These are things like formatting output, running experiments, testing data for variations. Am I unfocused or just bad at articulating the value of these tools?"
+  },
+  {
+    "start": 1943.996,
+    "end": 1944.446,
+    "speaker": "Guest",
+    "text": "Hmm."
+  },
+  {
+    "start": 1944.746,
+    "end": 1946.846,
+    "speaker": "Host",
+    "text": "Great question. Very timely."
+  },
+  {
+    "start": 1946.946,
+    "end": 1968.482,
+    "speaker": "Guest",
+    "text": "I had this exact experience with one of my favorite engineers I've ever worked with. It was a year or two ago. And they built some local tool. The code base had a lot of strong patterns. for kind of CLI utility things and they were still fairly"
+  },
+  {
+    "start": 1969.14,
+    "end": 1994.74,
+    "speaker": "Guest",
+    "text": "knew i think to the company and had a task to do something email related and built some little script to do some email verification stuff and a completely different architecture from our existing kind of cli tool stuff and i did this i said no it must use the same patterns and we have ways of doing this already the patterns it was following to be clear all of these were not like prod"
+  },
+  {
+    "start": 1995.572,
+    "end": 1996.672,
+    "speaker": "Guest",
+    "text": "level things these are"
+  },
+  {
+    "start": 1996.672,
+    "end": 1996.722,
+    "speaker": "Host",
+    "text": "Mm"
+  },
+  {
+    "start": 1996.722,
+    "end": 1996.822,
+    "speaker": "Guest",
+    "text": "all"
+  },
+  {
+    "start": 1996.822,
+    "end": 1996.872,
+    "speaker": "Host",
+    "text": "-hmm."
+  },
+  {
+    "start": 1996.872,
+    "end": 2019.722,
+    "speaker": "Guest",
+    "text": "local dev tool things but we just had had had a way to do it didn't work the same way i said no change it um and then i can't remember if they ever did or not but i felt bad afterwards because i realized that it probably doesn't matter like the architectural purity of this script you run to validate emails that get generated is not"
+  },
+  {
+    "start": 2020.5,
+    "end": 2034.124,
+    "speaker": "Guest",
+    "text": "important and this is like throwaway code that if there's a bug in it we will just delete all of the code it's not load-bearing at all So I ended up flip-flopping and just said YOLO merge it. This is great."
+  },
+  {
+    "start": 2034.324,
+    "end": 2042.624,
+    "speaker": "Guest",
+    "text": "And then a few other things got merged in that were similar in that they were kind of local tools, workflow specific, didn't rigorously follow our existing patterns."
+  },
+  {
+    "start": 2043.124,
+    "end": 2055.224,
+    "speaker": "Guest",
+    "text": "And I decided this was fine because if it made life easier for even a couple engineers, that was worth the inventory cost of just having this code around in our repo because mostly you didn't look at it."
+  },
+  {
+    "start": 2055.224,
+    "end": 2058.058,
+    "speaker": "Host",
+    "text": "Yeah. Like it doesn't get in your way of your day-to-day work."
+  },
+  {
+    "start": 2058.058,
+    "end": 2064.458,
+    "speaker": "Guest",
+    "text": "Yeah, yeah, it's not like, it's not in the core data plane, I guess, of application use."
+  },
+  {
+    "start": 2064.458,
+    "end": 2065.908,
+    "speaker": "Host",
+    "text": "The metaphorical data plane,"
+  },
+  {
+    "start": 2065.908,
+    "end": 2066.008,
+    "speaker": "Guest",
+    "text": "Yeah."
+  },
+  {
+    "start": 2066.008,
+    "end": 2071.358,
+    "speaker": "Host",
+    "text": "which you might actually be working on a real data plane, but this is a metaphor. And not an airplane, that's different."
+  },
+  {
+    "start": 2072.116,
+    "end": 2075.566,
+    "speaker": "Guest",
+    "text": "User traffic is not flowing through anything affected by this code."
+  },
+  {
+    "start": 2075.966,
+    "end": 2088.416,
+    "speaker": "Host",
+    "text": "well to me the biggest risk here is that you just have a bunch of accumulated stuff that no one ends up using and it's just it's not like in the way per se but it's like how do we do things around here and I can't tell it's like 100 script files in here"
+  },
+  {
+    "start": 2089.492,
+    "end": 2097.542,
+    "speaker": "Guest",
+    "text": "yeah so i think you do stuff to curate it at some point and there's also a bounce here between imposing your workflow on other people like you"
+  },
+  {
+    "start": 2097.542,
+    "end": 2097.742,
+    "speaker": "Host",
+    "text": "Mm"
+  },
+  {
+    "start": 2097.742,
+    "end": 2097.992,
+    "speaker": "Guest",
+    "text": "really like"
+  },
+  {
+    "start": 2097.992,
+    "end": 2098.142,
+    "speaker": "Host",
+    "text": "-hmm."
+  },
+  {
+    "start": 2098.142,
+    "end": 2117.242,
+    "speaker": "Guest",
+    "text": "this pattern of writing a bunch of little tools and using them to verify your work and i think that's very cool and it makes me feel like i should do more of it but not everybody does that and is the repo the place to put just stuff for you i think that's kind of part of the pushback as well"
+  },
+  {
+    "start": 2117.908,
+    "end": 2130.358,
+    "speaker": "Host",
+    "text": "Right. And I'll tell you the level of effort it takes to create a tool that works not just for you, but for everyone on your team, it's got to be like 10x. You know, I Yeah. can whip out a little tool that I use no problem,"
+  },
+  {
+    "start": 2130.358,
+    "end": 2130.458,
+    "speaker": "Guest",
+    "text": "Yeah."
+  },
+  {
+    "start": 2130.458,
+    "end": 2142.458,
+    "speaker": "Host",
+    "text": "but A, getting it all documented, getting it to actually work on everyone's machines, and then getting it socialized so people even know it exists and when to use it and getting them to adopt their workflows or adapt their workflows to it."
+  },
+  {
+    "start": 2142.868,
+    "end": 2144.118,
+    "speaker": "Guest",
+    "text": "Got to have help text and"
+  },
+  {
+    "start": 2144.118,
+    "end": 2144.418,
+    "speaker": "Host",
+    "text": "Yeah,"
+  },
+  {
+    "start": 2144.418,
+    "end": 2144.718,
+    "speaker": "Guest",
+    "text": "different"
+  },
+  {
+    "start": 2144.718,
+    "end": 2145.468,
+    "speaker": "Host",
+    "text": "like, right."
+  },
+  {
+    "start": 2145.468,
+    "end": 2152.468,
+    "speaker": "Guest",
+    "text": "failure modes of, oh, you start up the app and then you initialize the database. Oh, I just never do that."
+  },
+  {
+    "start": 2153.618,
+    "end": 2159.468,
+    "speaker": "Host",
+    "text": "The tool doesn't support that. Now I got to change it. Oh, yeah, it's just so there is lost effort there."
+  },
+  {
+    "start": 2159.568,
+    "end": 2170.618,
+    "speaker": "Guest",
+    "text": "And I think that's like the one place where a tech lead would be wise to push back and say, look, I have no problem with you creating tools for yourself, because that's fine and it's low cost. But if"
+  },
+  {
+    "start": 2171.316,
+    "end": 2197.066,
+    "speaker": "Guest",
+    "text": "if you're if you want to now distribute them to the rest of the team now i know that it's going to take you a lot more time and it's going to take the team a bunch of time and it might not be good you know like i don't know they might not love it and they might not use it so there might not be like the roi on you investing all this time might be low and as an example of that actually not an example of that but i have a team member who's been working on a bunch of ai tools and um it's taken months of work"
+  },
+  {
+    "start": 2197.652,
+    "end": 2201.452,
+    "speaker": "Host",
+    "text": "even with ai to create these tools because a the landscape keeps shifting out from under"
+  },
+  {
+    "start": 2201.452,
+    "end": 2201.552,
+    "speaker": "Guest",
+    "text": "Mm"
+  },
+  {
+    "start": 2201.552,
+    "end": 2201.902,
+    "speaker": "Host",
+    "text": "him but"
+  },
+  {
+    "start": 2201.902,
+    "end": 2202.052,
+    "speaker": "Guest",
+    "text": "-hmm."
+  },
+  {
+    "start": 2202.052,
+    "end": 2217.702,
+    "speaker": "Host",
+    "text": "b it's like there's so much to integrate with and so many ways to learn how to do this or like so many different ways to do things that you know creating a general purpose tooling system like i tried installing the first few versions and it just failed you know now now he's dealing with bug reports you know from me"
+  },
+  {
+    "start": 2218.002,
+    "end": 2218.352,
+    "speaker": "Guest",
+    "text": "Yeah."
+  },
+  {
+    "start": 2218.352,
+    "end": 2218.602,
+    "speaker": "Host",
+    "text": "to"
+  },
+  {
+    "start": 2218.602,
+    "end": 2218.752,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 2218.752,
+    "end": 2226.452,
+    "speaker": "Guest",
+    "text": "fix this tool this so-called like quick tool but he's been doing like a lot of nights and weekends and stuff on it because he's he's just like super obsessed with it and his"
+  },
+  {
+    "start": 2226.388,
+    "end": 2240.888,
+    "speaker": "Guest",
+    "text": "and is really interested in it and i'm like great that's fine and Yeah. it is really cool but it does but i i think you do have to be a little bit more careful than i think some would be intuitively about this because it does have real cost"
+  },
+  {
+    "start": 2242.438,
+    "end": 2255.846,
+    "speaker": "Host",
+    "text": "Yeah, I don't have a better answer than it depends because I've been on all sides of this. When I first joined my current job, there was a ton of tooling. most of which nobody used and I just went through and deleted all the stuff nobody used but"
+  },
+  {
+    "start": 2255.846,
+    "end": 2256.396,
+    "speaker": "Guest",
+    "text": "Mm-hmm."
+  },
+  {
+    "start": 2256.396,
+    "end": 2272.696,
+    "speaker": "Host",
+    "text": "also I've added a bunch of my own tooling and some of it gets used by other people some of it doesn't and so we kind of just have different tools that some subset are unused and the earlier subset of tools that were unused we had before I joined"
+  },
+  {
+    "start": 2272.846,
+    "end": 2277.996,
+    "speaker": "Host",
+    "text": "I think there is actually a market here for developer tool management."
+  },
+  {
+    "start": 2278.72,
+    "end": 2290.47,
+    "speaker": "Host",
+    "text": "where developers can quickly create and deploy tools to their team members and it also keeps track of things like how much usage is this thing even getting and like should it be gone should this tool be deleted from our repository that could be kind of cool"
+  },
+  {
+    "start": 2291.22,
+    "end": 2296.92,
+    "speaker": "Guest",
+    "text": "Yeah, bigger orgs will have kind of internal productivity teams and they probably do some kind of."
+  },
+  {
+    "start": 2297.684,
+    "end": 2308.384,
+    "speaker": "Guest",
+    "text": "measuring around that tell your tech lead hang on no i think this is important and i actually just need to pivot to building a bunch of analytics for these tools so i can demonstrate their impact yeah"
+  },
+  {
+    "start": 2308.384,
+    "end": 2314.884,
+    "speaker": "Host",
+    "text": "Yes, I can tell the question behind your question is, I need more metrics on these tools, so I'm going to build that for you."
+  },
+  {
+    "start": 2315.084,
+    "end": 2324.084,
+    "speaker": "Host",
+    "text": "give me a couple weeks we'll be able to do a study maybe do some ab testing and within a couple months we should have enough data to know are these tools used"
+  },
+  {
+    "start": 2324.948,
+    "end": 2324.998,
+    "speaker": "Guest",
+    "text": "it's"
+  },
+  {
+    "start": 2324.998,
+    "end": 2327.348,
+    "speaker": "Guest",
+    "text": "in order to help hit the release that's next week."
+  },
+  {
+    "start": 2327.348,
+    "end": 2343.998,
+    "speaker": "Host",
+    "text": "like we're a four-person team dude like and almost every company i've been at i will usually create a git repository that's just my username plus like tools or plus you know utils or something and that's where i just put all my stuff where i develop little things like this and of course"
+  },
+  {
+    "start": 2344.532,
+    "end": 2368.832,
+    "speaker": "Host",
+    "text": "I've always done this but I think nowadays you can do it a lot more and developers want to do a lot more and so you know one of the main questions here from the question asker from a non-e mouse is I feel bad having all these tools not in version control and I'm like yeah that you got to get that stuff into version control because you're going to lose it one day when you move to a new computer or your computer stolen or upgraded and you realize oh crap I just lost all my favorite tooling so yeah I would put them in version control but I just put them in my own little git repo and then"
+  },
+  {
+    "start": 2369.396,
+    "end": 2380.996,
+    "speaker": "Host",
+    "text": "You know, let people organically find out about what you're doing. And if there's demand, then go ahead and like do the extra work to get it out there. And I think that does a nice job of marrying the two problems in the middle."
+  },
+  {
+    "start": 2381.696,
+    "end": 2395.342,
+    "speaker": "Guest",
+    "text": "That's a great idea. I like that idea a lot. Then if you kind of keep, continue to show it off and say, I think this is cool, you should try it, etc. If people don't pick it up, fine. Their mental space is not cluttered"
+  },
+  {
+    "start": 2395.342,
+    "end": 2395.592,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 2395.592,
+    "end": 2399.792,
+    "speaker": "Guest",
+    "text": "with source code that they have to look at does not have extra stuff that they could get lost in."
+  },
+  {
+    "start": 2400.0,
+    "end": 2406.5,
+    "speaker": "Host",
+    "text": "exactly but yeah i like that all right well you have actually solved i said it depends and you had a solution"
+  },
+  {
+    "start": 2406.5,
+    "end": 2406.7,
+    "speaker": "Guest",
+    "text": "it does"
+  },
+  {
+    "start": 2406.7,
+    "end": 2406.85,
+    "speaker": "Host",
+    "text": "so"
+  },
+  {
+    "start": 2406.85,
+    "end": 2419.65,
+    "speaker": "Host",
+    "text": "not depend um this is the answer just kidding i will say one last thing on this well maybe one thing in a sub thing you were joking about building like a big analytic system for all the tools but it might actually be cool to build some kind of"
+  },
+  {
+    "start": 2420.02,
+    "end": 2445.12,
+    "speaker": "Host",
+    "text": "for your team some kind of tool framework to let people plug tools in and register them so that they become discoverable by people and it might even be really cool to register some of these with your ai so the ai can recommend using them or just know about them and use them on your behalf when it makes sense you know like hey ai here's our like default prompt preamble for everything and here's a set of tools you can use to do things like check my commit afterwards against these common database problems or something like that you know like you"
+  },
+  {
+    "start": 2445.12,
+    "end": 2445.27,
+    "speaker": "Guest",
+    "text": "Yeah."
+  },
+  {
+    "start": 2445.27,
+    "end": 2446.82,
+    "speaker": "Host",
+    "text": "could you could accumulate those then the developers"
+  },
+  {
+    "start": 2446.772,
+    "end": 2472.472,
+    "speaker": "Host",
+    "text": "developers there's no developer cognitive load because ai is the only thing that consumes it number two and this is something that i've tried to do in the past is try to hook tools into places where the team already is so that they just naturally happen and this is more about like how to get your stuff adopted without making the tech lead think that you're burning tons of time on it like for example years ago 10 years ago plus you know we had a lot of git hooks that were part of our"
+  },
+  {
+    "start": 2473.3,
+    "end": 2494.35,
+    "speaker": "Host",
+    "text": "like normal day-to-day work and developers could add Git hooks and so it's like if you wanted something some kind of check to be run anytime a developer did something you could just plug it in there so you didn't have to like go and get everyone to adopt it you didn't have to go like write a bunch of help docs and go on like a marketing campaign in your team to try to get everyone to to believe in you you know and raise raise"
+  },
+  {
+    "start": 2494.35,
+    "end": 2494.65,
+    "speaker": "Guest",
+    "text": "Yeah."
+  },
+  {
+    "start": 2494.65,
+    "end": 2506.6,
+    "speaker": "Guest",
+    "text": "like social capital for it Basically, like if you can find there were ways to do that 10 years ago and there's ways to do it today that I think can get your stuff adopted without causing a bunch of extra pain and effort that your tech lead perceives."
+  },
+  {
+    "start": 2507.0,
+    "end": 2507.4,
+    "speaker": "Host",
+    "text": "Hmm."
+  },
+  {
+    "start": 2507.7,
+    "end": 2513.0,
+    "speaker": "Host",
+    "text": "I love it. All right. Have we answered the question? I hope so, because we are out of time."
+  },
+  {
+    "start": 2513.724,
+    "end": 2523.774,
+    "speaker": "Host",
+    "text": "Yep, we spent our token budget. If you want to renew your token budget, our token budget, I don't know what the metaphor is here. What can people do if they want their own questions answered?"
+  },
+  {
+    "start": 2523.774,
+    "end": 2532.624,
+    "speaker": "Guest",
+    "text": "Yeah, go to softskills.audio and click the ask a question button where you can fill out our form. You can type in as many tokens as you want there. I don't think Google charges us for the token, thankfully. Although one day I'm sure they will."
+  },
+  {
+    "start": 2533.574,
+    "end": 2533.674,
+    "speaker": "Host",
+    "text": "Yep."
+  },
+  {
+    "start": 2533.674,
+    "end": 2537.724,
+    "speaker": "Guest",
+    "text": "But thank you so much to everyone who writes in with your questions. We really appreciate them. Keep them coming."
+  },
+  {
+    "start": 2537.774,
+    "end": 2540.074,
+    "speaker": "Host",
+    "text": "Thank you so much for listening. We will catch you next week."
+  }
+]

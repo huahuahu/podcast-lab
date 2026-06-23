@@ -62,7 +62,8 @@ def call(tok, sys_p, usr):
         "messages": [{"role":"system","content":sys_p},{"role":"user","content":usr}],
         "temperature": 0.1,
     }, ensure_ascii=False).encode()
-    for attempt in range(3):
+    import time as _t
+    for attempt in range(6):
         try:
             req = urllib.request.Request(
                 ENDPOINT, data=body,
@@ -73,7 +74,8 @@ def call(tok, sys_p, usr):
                 return json.loads(r.read())["choices"][0]["message"]["content"]
         except Exception as e:
             print(f"  retry {attempt+1}: {e}", file=sys.stderr)
-    raise RuntimeError("call failed after 3 retries")
+            _t.sleep(min(60, 5 * (attempt + 1)))
+    raise RuntimeError("call failed after 6 retries")
 
 def parse_json_array(s):
     s = s.strip().strip("`")

@@ -1,0 +1,932 @@
+[
+  {
+    "start": 0.052,
+    "end": 0.302,
+    "speaker": "Host",
+    "text": "用"
+  },
+  {
+    "start": 0.302,
+    "end": 0.452,
+    "speaker": "Host",
+    "text": "Let"
+  },
+  {
+    "start": 0.452,
+    "end": 0.502,
+    "speaker": "Host",
+    "text": "声音"
+  },
+  {
+    "start": 0.502,
+    "end": 1.052,
+    "speaker": "Host",
+    "text": "the change come."
+  },
+  {
+    "start": 1.052,
+    "end": 2.052,
+    "speaker": "Host",
+    "text": "碰撞世界"
+  },
+  {
+    "start": 3.052,
+    "end": 4.002,
+    "speaker": "Host",
+    "text": "生动活泼"
+  },
+  {
+    "start": 14.2,
+    "end": 41.578,
+    "speaker": "Host",
+    "text": "Hello大家好,我是丁教,欢迎来到今天的科技早知道 那今天我们想聊一下这个 OPC 这个话题 电商时代很多人都想自己做一家 OPC,也就是 One Person Company,一人公司 一个人在家,几个 agent可以做掉过去一整个团队的工作 那今天我们的嘉宾是 Gumroad 的创始人,他是小而美这本书的作者 然后这本书的英文名字叫做 The Minimalist Entrepreneurs 然后作者叫做 Sahil Lavinia Yeah."
+  },
+  {
+    "start": 43.078,
+    "end": 74.844,
+    "speaker": "Host",
+    "text": "如果说今天大家讨论的这个O-P-C啊 是AI火了之后才出现的概念 的话 那我觉得很有可能可以算 得上是这个领域的OG了 Gumroad一开始的时候确实是一家非小而美的公司 他们 是完全走了硅谷那种标准的 融资路径啊 拿投资 招团队 然后这个追求增长 但是因为增长 的速度啊不如VC的预期 所以他们没有能够融到B轮 论 然后公司被迫大幅度裁员 从二十多人团队 然后到"
+  },
+  {
+    "start": 74.844,
+    "end": 75.194,
+    "speaker": "Host",
+    "text": "So"
+  },
+  {
+    "start": 75.194,
+    "end": 97.694,
+    "speaker": "Host",
+    "text": "几个人 甚至有一段时间其实就剩下了创始人扫修自己 那也就是在这个过程当中 Gumroad才变成了一家小并且高自动化然后持续盈利的公司 那所以对今天想要做 OPC然后独立创业或者是想用AI放大个人杠杆的这些创业者来说呢 它的经验其实还是蛮有参考价值"
+  },
+  {
+    "start": 97.492,
+    "end": 126.196,
+    "speaker": "Host",
+    "text": "价值的 比如在Agent的帮助之下 Gumroad作为一个年入两千万美元的公司 他们现在从技术到客服人员是怎么设置的 然后如果从来异变的话 他们会更加重投入市场呢 还是产品 当然啦 也有他在前些年参加马斯克的Dogecoin就是政府效率部门之后 他又加入了RS 就是美国税务局的一些他的思考 如果你想要做OPC 具体节目或许会对你有一些启发 啊"
+  },
+  {
+    "start": 128.446,
+    "end": 135.096,
+    "speaker": "Host",
+    "text": "那这期是一个英文的访谈按照惯例我还是会一开始把内容用中文跟大家先总结一下"
+  },
+  {
+    "start": 135.346,
+    "end": 143.946,
+    "speaker": "Guest",
+    "text": "So yeah, I started building stuff when I was a kid, I guess, you know, starting with Photoshop and web design and had access to those tools that I saw."
+  },
+  {
+    "start": 144.5,
+    "end": 171.3,
+    "speaker": "Host",
+    "text": "Kassandra还有自己的创业故事其实还是蛮硅谷的 她很早就开始做自己的一些小东西 比如说是玩这个PhotoShop 然后做网站然后后来学习了这个iPhone的开发然后在App Store上发布了自己的应用等等 后来Pinterest创始人看到她的作品之后就邀请她加入团队 她应该是Pinterest第二位员工 那个时候她还是在读大学 只读了一个学期 然后她就决定退学了 然后去加入了Pinterest"
+  },
+  {
+    "start": 171.22,
+    "end": 197.87,
+    "speaker": "Host",
+    "text": "后来没有过多久啊大概过了一年多之后吧他就开始创办了自己的公司叫做Gumroad一开始的时候啊他也是走的这种非常典型的硅谷的路径融资扩张招人追求高速度的这样的增长但是呢Gumroad后来的发展其实是并没有按照OBC的预期它是一个好生意然后有收入然后也有用户的增长但并不是那种指数级爆发的增长"
+  },
+  {
+    "start": 198.29,
+    "end": 235.492,
+    "speaker": "Host",
+    "text": "于是Garmin Road其实后来 就裁员了 然后团队缩到很小 在又很长一段时间 他就搬到了其他的城市 然后几乎是一个人把公司维持了下来 再后来又到了疫情期间 创作者经济爆发了 然后Garmin Road其实又迎来了一波增长 那他们现在仍然是一家年收入将近 两千万级别的这样子的一个 公司 但他的团队还是相对来说 还是蛮小的 咱们又自己在节目里面说啊 他们现在核心是三个工程师 然后加上兼职的一个CFO 然后加上兼职的法务 然后还有一点五个客服人员"
+  },
+  {
+    "start": 235.892,
+    "end": 267.946,
+    "speaker": "Host",
+    "text": "那很多的客服和运营流程啊其实都用AI agent可以完全处理掉了 这段经历对于他来说还是蛮重要的,因为萨希尔并不是说站在我要鼓吹大家全都是去做艺人公司的这个位置上讲话,他是真实地经历过这个融资扩张的这个VC模式,然后也是经历过这种非常精简,然后以盈利优先,然后自主的这种小公司的模式。所以当我们现在重新再谈OPC 的时候, 他的判断我觉得还是会有一些超越周期的借鉴意义的。 Lido."
+  },
+  {
+    "start": 268.396,
+    "end": 281.446,
+    "speaker": "Guest",
+    "text": "Like people say one person company, I would say four people. And the reason is you want one engineer who's awake 12 hours a day and then you need another engineer who's awake the other 12 hours a day and then you need the same for customer support."
+  },
+  {
+    "start": 282.42,
+    "end": 308.72,
+    "speaker": "Host",
+    "text": "这些里面我觉得有一个非常有意思点就是它并不认为一人公司就真的只能有一个人大家现在说的OPC很容易想象就是一个人加几个AI agent然后就可以不需要团队了但享秀说如果真想要给你的用户提供很好的体验的话可能最后不是一个人而是四个人那四个人呢产品客服各两个然后他们两班倒"
+  },
+  {
+    "start": 309.172,
+    "end": 350.144,
+    "speaker": "Host",
+    "text": "那为什么呢那比如说是 Gumroad 现在大量的客服已经是由 AI 来处理了他们说当然可能后面完全是可以用 AI 来代替但是呢如果用户发来问题然后需要一个非常好的用户体验的时候还是需要人在最后处理一些比较复杂的问题特别是当 AI 可能解决不了的一些问题的时候用户不应该等很长的时间而是应该有一个非常厉害的人类然后马上进来接手把问题处理掉 比较所以它想象的这个极简的公司里面并不是完全没有人而是有一个非常小的团队然后负责产品工程研发等等然后有人负责这个用户和支持第二个"
+  },
+  {
+    "start": 350.144,
+    "end": 360.344,
+    "speaker": "Guest",
+    "text": "The building stuff is not even a differentiator at this point. So it's even more about who are you building for? And then what problem are you solving for them? And then how are you solving them?"
+  },
+  {
+    "start": 361.094,
+    "end": 391.378,
+    "speaker": "Host",
+    "text": "我觉得他讲的一个比较重要的点就是AI可以帮你写 你写代码但是不能够帮你找到客户 我问撒秀 现在其实coding的门槛越来越低 大家都可以外部code的 那让AI写一个应用那是不是小产品其实是反而更难推广更难卖了 那以前可能写软件是一种门槛 现在每个人都可以让自己的agent去写一款健身追踪 比如说是日程管理各种小工具的 那用户为什么还需要买你"
+  },
+  {
+    "start": 391.252,
+    "end": 418.002,
+    "speaker": "Host",
+    "text": "按你的那算她自己的回答也很直接她说啊你当然不可能只花十五分钟然后让 agent做一个 AI 的 app 然后就指望它能赚很多的钱这个有点太天真了如果你真的是懂这个领域懂这个赛道然后花一个周末能够做出一个很完整能够真正解决用户实际问题的这个软件比如说是给承包商管理排期发票库存合同的工具稍微复杂一些的"
+  },
+  {
+    "start": 418.45,
+    "end": 445.04,
+    "speaker": "Host",
+    "text": "它是仍然可以卖钱的 在过去你可能需要花六个月的时间才能把这样的一款软件做出来 那现在可能一个周末就能做出一版 进行迭代 所以AIA真正改变的其实不是产品自动帮你赚钱 而是它的试错成本变得更低了 但是最核心的问题始终都没有变化 你到底为谁在做这样的一个产品 这样的一个产品是否真正解决了用户的痛点 这也是"
+  },
+  {
+    "start": 445.24,
+    "end": 474.794,
+    "speaker": "Host",
+    "text": "Sachio在回看小而美这本书 的写作的时候说到的一个变化 我问他如果今天要重写这本书的话他会做出一些什么改动 他回答就是说他可能会少用 community这一个词 因为这个词现在已经被说得有点太多了 太模糊了 可能更直接的说法就是 谁是你的客户 然后 你想让谁的生活变得更加 加美好那AI时代呢build变得越来越便宜那真正稀缺的可能就是这样子的一个判断第三"
+  },
+  {
+    "start": 474.794,
+    "end": 484.494,
+    "speaker": "Guest",
+    "text": "At the end of the day, let's say you have a product that you've built and it's amazing, and someone else has a product and it's not even as good as your product, but they have humans selling it."
+  },
+  {
+    "start": 485.194,
+    "end": 521.464,
+    "speaker": "Host",
+    "text": "点我觉得对很多创业者产品人或者是像我们这种的内容创作者都会有启发就是最好的软件不一定是当赢的 像是我啊 故事啊 还有这个产品的人味非常的重要 早就很坦诚地聊到了当时这个他和他的竞争对手Patreon的对比那Gumroad很长的一段时间都非常注重产品 注重设计他自己也承认他自己更加喜欢去做产品不是很喜欢做市场和推销但 Patreon在创作者市场里面其实后面做得更大一个很重要原因就是他们"
+  },
+  {
+    "start": 521.812,
+    "end": 549.662,
+    "speaker": "Host",
+    "text": "更擅长做市场营销 更擅长讲故事 然后更懂一些创作者的群体尤其适合这个YouTube 音乐人啊 粉丝经济的那一套 那这点在AI时代其实也蛮重要的因为当工具越来越容易做的话 那软件本身也越来越容易被复制真正能拉开差距的其实不是 我也能做一样的功能而是你是不是理解这一群 你的受众的这一群人 你是不是真的懂他们的痛点 然后是不是能够"
+  },
+  {
+    "start": 549.888,
+    "end": 580.86,
+    "speaker": "Host",
+    "text": "用他们懂得的语言把产品真正的讲给他们听是不是能跟这一群人建立信任所以早又说如果是一个技术创始人今天要招一个人的话他觉得应该是销售因为有的时候用户不是在理性的比较两个产品的功能一个AI自动生成的邮件也许挺好的但如果有一个真人在认真地听你讲然后理解你的问题给你 建立人和人之间的连接的话仍然可能会影响这个客户"
+  },
+  {
+    "start": 581.11,
+    "end": 590.36,
+    "speaker": "Guest",
+    "text": "I think that actually more people want to be entrepreneurs. They just don't want to run the business, right? So like, let's say you have an amazing barista."
+  },
+  {
+    "start": 591.252,
+    "end": 617.752,
+    "speaker": "Host",
+    "text": "第四个讨论我觉得是非常有意思的我自己觉得也是蛮开脑洞的就是官员会不会接受CEO的这个工作萨希尔提到了一个还蛮有意思的想象就是很多人创业其实他们不想经营公司比如说是很厉害的一个咖啡师他可能只是享受做咖啡这件事情而已那比如说是财务税务供应链法律工资库存等等这些很繁琐的事情"
+  },
+  {
+    "start": 618.164,
+    "end": 664.028,
+    "speaker": "Host",
+    "text": "他实际上是不想自己做的未来有没有可能AI变成了CEO大量处理这种公司运营的功能而人类可以专注于自己做最擅长的最有创造力然后最享受的那一部分工作过去 的创业其实意味着你不仅仅只需要做产品然后包括变成老板之后要处理的很多鸡毛蒜皮的事情你要变成管理员HR财务负责人法务接口等等等等 等等那未来可能会有这样的一种新的形态的出现就是说你仍然拥有这家公司但是AI会替你处理大量的这种机器运转的部分你更像是这一个事业里面最核心的创作者或者就是手艺人对那虽然今天还不能完全实现但是我觉得它提供了一个蛮有意思的方向吧"
+  },
+  {
+    "start": 664.378,
+    "end": 670.628,
+    "speaker": "Host",
+    "text": "就是AI不会让每个人都变成CEO而是让更多人不被CEO的这些杂物给困住"
+  },
+  {
+    "start": 671.668,
+    "end": 678.64,
+    "speaker": "Guest",
+    "text": "I still work 40 hours for the IRS currently. But four days a week and weekends and I think about it a lot"
+  },
+  {
+    "start": 678.99,
+    "end": 702.44,
+    "speaker": "Host",
+    "text": "那第五个有意思的部分是微软最近进入美国政府系统之后的一些观察它曾经短暂参加过这个DoDGE就是政府效率部门就是马斯克做的那个项目它后来又加入了IRS然后也就是美国的税务局继续做它的政府数字化服务的相关的工作这一段经历挺特别的因为它一边在运营"
+  },
+  {
+    "start": 702.388,
+    "end": 738.644,
+    "speaker": "Host",
+    "text": "迎个门然后一边在做这个机器庞大复杂非常缓慢的服务所有人的公共系统的这个数字化那他在节目里面其实也提到啊那创业公司和政府最大的区别就是创业公司可以选择客户但是政府不行政府必须服务所有人政府软件难做的地方就是它不仅仅只是要把这个界面做得好看而是要想怎么样能够把原本要打电话呀寄信 现在排队填纸质表格的这些流程变成普通人可以在线完成 的服务而且还得这个男女老少 都能用得上手"
+  },
+  {
+    "start": 739.294,
+    "end": 773.704,
+    "speaker": "Host",
+    "text": "她举了一个例子 在美国过去的这个DNV 也就是美国的这个交管部门吧 过去她的这个线上的体验非常非常的差 但是这几年很多州通过线上的这个自助服务然后 已经得到了明显的改善 所以她希望IRS然后也能够完成 类似的转变 那这部分让我其实感觉 到小而美的讨论其实 其实不仅仅只是聊创业公司效率问题 AI和软件当然可以让小团队更加有杠杆 但他们也可以让那些庞大的 低效的 影响很多人的公共的系统变得更加好用一些"
+  },
+  {
+    "start": 774.324,
+    "end": 788.524,
+    "speaker": "Guest",
+    "text": "like i would be thinking the minimalist entrepreneur like it is minimalist but it's the goal isn't like reduction to zero you know like i enjoy i i want to have a company that i actually enjoy working on i don't want to go to zero because then i have to do something else"
+  },
+  {
+    "start": 792.66,
+    "end": 820.81,
+    "speaker": "Host",
+    "text": "总结一下 这些并不是一个简单 的AI时代遗言公司OPC要怎么做的一期节目 我 觉得我可能有三个take away吧 就是AI让创作者的这个门槛 执行门槛降低了 但是没有降低判断门槛 还是要知道你的客户是谁 然后谁会为你买单 那这个其实没有变的 那第二个就是AI可以让公司变小 但是人还是非常的重要 特别是销售啊"
+  },
+  {
+    "start": 820.692,
+    "end": 860.572,
+    "speaker": "Host",
+    "text": "哇故事啊 现任用户理解这些东西暂时还是没有办法能够用AI直接去替代 甚至是可能如果有人来去做的话 会让你的产品更加这个优于竞争对手的产品 然后第三就是小而美不是越小越好 也不是最好就是公司里没人 它反而像是一种选择权 创始人可以决定自己想要多大的公司 然后想要承担多少的管理 你然后想要把时间花在什么事情上面 I觉得SoundHound不是在鼓吹大家去创业也不是说AI会让创业变 得更加的轻松它更像是说呃当工具变得足够强 的时候"
+  },
+  {
+    "start": 861.524,
+    "end": 880.524,
+    "speaker": "Host",
+    "text": "大家终于有机会去重新选择一种属于自己的工作方式不是每个人都需要加入这个大公司然后不是每个公司都需要融资扩张你可以从一个真 实的客户开始从一个能收费的小产品开始可能这才是小而美在AI时代变得更加重要的原因"
+  },
+  {
+    "start": 881.71,
+    "end": 899.71,
+    "speaker": "Host",
+    "text": "如果你正在思考AI时代的创业然后个人杠杆然后自由职业或者只想知道这个小而美这一套东西在今天还有没有意义我觉得这些可能会对你有一些启发欢迎大家继续收听节目的这个完整版嘉宾是Gumroad创始人小而美的作者Sahil Lavinia"
+  },
+  {
+    "start": 911.22,
+    "end": 924.62,
+    "speaker": "Host",
+    "text": "节目开始前想和大家分享一个消息 研究显示到2050 年全球将有一半人会近视 十分之一会高度近视 现在几乎所有国家都在谈论近视率的上升"
+  },
+  {
+    "start": 925.72,
+    "end": 939.37,
+    "speaker": "Host",
+    "text": "我们的青少年播客Knock Knock世界本周就聊到这个话题 那节目除了从科学层面解释近视还解读了是什么因素让近视变成了一个全世界都重视的公共医疗问题"
+  },
+  {
+    "start": 940.372,
+    "end": 944.172,
+    "speaker": "Host",
+    "text": "感兴趣的朋友可以点击单击简介中的链接收听"
+  },
+  {
+    "start": 951.348,
+    "end": 965.148,
+    "speaker": "Host",
+    "text": "Yeah, back to your previous experience. So you worked at Pinterest for a year or so and then you went straight to start your own business. So you were 20 and then you raised tons of VC funding."
+  },
+  {
+    "start": 965.348,
+    "end": 972.148,
+    "speaker": "Guest",
+    "text": "Yeah, I raised a million, $1.1 million seed round February or May or something of the next year."
+  },
+  {
+    "start": 972.628,
+    "end": 994.478,
+    "speaker": "Guest",
+    "text": "um i raised a series a which was like a seven million dollar i think round from planet perkins led that round that was like the first time i was like oh this is really like serious before it was kind of like i'm doing this thing and it's kind of weird but it feels like a reality tv show but then i was like oh wow i have a board and a series a and like seven million dollars and a team and an office"
+  },
+  {
+    "start": 995.316,
+    "end": 1021.066,
+    "speaker": "Guest",
+    "text": "okay now i'm like locked in like four years or five years or whatnot and this is working on all the time you know live work and you know kind of experience we still do that today we just do it with a very small team of about five back then we grew to about 25 at peak we were about to run out of money we got a bridge from klein of perkins two million dollars and so at this point we'd raised about 10 total"
+  },
+  {
+    "start": 1021.812,
+    "end": 1041.812,
+    "speaker": "Guest",
+    "text": "and we basically had about a year to like get to profitability we failed we failed to raise a series b around the funding so we basically downsized we laid everyone off we went down to three employees and then just down to me and then i basically just ran the business myself we got rid of the office uh for about uh"
+  },
+  {
+    "start": 1041.812,
+    "end": 1042.412,
+    "speaker": "Host",
+    "text": "Mm-hmm."
+  },
+  {
+    "start": 1042.412,
+    "end": 1044.862,
+    "speaker": "Guest",
+    "text": "five years from like"
+  },
+  {
+    "start": 1045.492,
+    "end": 1072.442,
+    "speaker": "Guest",
+    "text": "2015 covid basically happening and just kind of break even skeleton grew profitable a couple contractors helping out here and there and then covid happened and that was our moment of like well we're like growing like super fast that was really working like again like all the time for like two years three years it wasn't planned for um it was fully remote and then that ended in like 2023 2024 interest"
+  },
+  {
+    "start": 1072.442,
+    "end": 1072.942,
+    "speaker": "Host",
+    "text": "Right."
+  },
+  {
+    "start": 1072.942,
+    "end": 1074.442,
+    "speaker": "Guest",
+    "text": "rates went up"
+  },
+  {
+    "start": 1075.156,
+    "end": 1100.456,
+    "speaker": "Guest",
+    "text": "we increased our pricing now we're like a very nicely profitable business we have great finance function legal function all all you need to run a business you know i can basically run it a day a week and then i work at the irs i still work 40 hours for the irs currently but four days a week now like if you go back to 2015 right when i laid everyone off we got to profitable"
+  },
+  {
+    "start": 1101.396,
+    "end": 1113.196,
+    "speaker": "Guest",
+    "text": "We had three people. After that, we have like two or three contractors to do support and bug fixes. If that happened today, I would probably not hire those humans, right?"
+  },
+  {
+    "start": 1113.296,
+    "end": 1123.646,
+    "speaker": "Guest",
+    "text": "I would spend more time being like, how can we just have an AI agent automate these processes that someone has to do?"
+  },
+  {
+    "start": 1124.532,
+    "end": 1146.882,
+    "speaker": "Guest",
+    "text": "whether it's customer support and you can't do it 100 but i think back then you could automate basically 20 of the work and so you had a human do 80 of the work uh and required like four to five hours a day not eight hours a day but each of these jobs was like enough where i would not do be able to do it sustainably i would just get burned out"
+  },
+  {
+    "start": 1148.532,
+    "end": 1158.582,
+    "speaker": "Guest",
+    "text": "And I would have a job that I would not be able to get away from. And but today now, you know, AI agents would allow for basically probably something like."
+  },
+  {
+    "start": 1159.412,
+    "end": 1171.112,
+    "speaker": "Guest",
+    "text": "an hour a day or 15 minutes a day and i still have a team right so you can kind of but they're they're like a lot of the work they do is observing the ai and doing additional product development work and things like that"
+  },
+  {
+    "start": 1171.812,
+    "end": 1178.812,
+    "speaker": "Host",
+    "text": "So for a first-time founder who want to start a tech company as for now, so do you think any..."
+  },
+  {
+    "start": 1179.38,
+    "end": 1193.98,
+    "speaker": "Guest",
+    "text": "Job functions are hard to replace these days or just not existent. As long as you know how to code, you know how to use agents, how you know how to deploy, you know architecture works and then you can just basically build everything by yourself."
+  },
+  {
+    "start": 1194.13,
+    "end": 1199.73,
+    "speaker": "Guest",
+    "text": "I mean, I think there's nothing that you can't have an agent do. It's more that there are just certain things that."
+  },
+  {
+    "start": 1200.0,
+    "end": 1224.6,
+    "speaker": "Guest",
+    "text": "are still time consuming even if you have an agent do the work and so if you just have a limited amount of time you're going to need to hire other humans right so for example even if we made a lot of like the monthly clothes financial book function bookkeeping functions at the company with ai we still have to pay taxes to a bunch of different countries and states every month every quarter every year"
+  },
+  {
+    "start": 1225.204,
+    "end": 1244.004,
+    "speaker": "Guest",
+    "text": "sales tax and if those government websites are annoying to work with it doesn't matter how good your ai tool is that like you're still gonna have to have like a human like you know type in their name and like check their phone and whatever and uh and they'll have a captcha that you know a robot won't be able to solve"
+  },
+  {
+    "start": 1244.66,
+    "end": 1247.51,
+    "speaker": "Guest",
+    "text": "or you'll have to call a human or who knows what right"
+  },
+  {
+    "start": 1247.51,
+    "end": 1252.56,
+    "speaker": "Host",
+    "text": "And anything else that you think that maybe short-term cannot be replaced by agents fully?"
+  },
+  {
+    "start": 1252.76,
+    "end": 1264.46,
+    "speaker": "Guest",
+    "text": "I mean if if you're doing something purely with software I would say the first person you should probably hire would be a salesperson because presumably you're building the product"
+  },
+  {
+    "start": 1265.524,
+    "end": 1293.024,
+    "speaker": "Guest",
+    "text": "you're probably doing sales in the beginning but eventually you're gonna want even with an infinite amount of agents you're still going to be wanting to spend all your time shipping product and bugs and thinking at least that's my from my bias or my perspective so i would probably want to bring in at gum right we brought in this guy ryan delk uh but similarly i would bring in somebody who just would focus purely you know some super young"
+  },
+  {
+    "start": 1293.94,
+    "end": 1299.99,
+    "speaker": "Guest",
+    "text": "kid who can just email creators talk to them all day long get them to use the product at"
+  },
+  {
+    "start": 1299.99,
+    "end": 1307.94,
+    "speaker": "Host",
+    "text": "So sometimes the users still want some like human touch. They don't want to be like, oh, I'm talking to an agent again. I want some like a human."
+  },
+  {
+    "start": 1308.34,
+    "end": 1318.94,
+    "speaker": "Guest",
+    "text": "the end of the day let's say you have a product that you've built and it's amazing and someone else has a product and it's not even as good as your product but they have humans selling it"
+  },
+  {
+    "start": 1319.316,
+    "end": 1319.416,
+    "speaker": "Host",
+    "text": "Mm"
+  },
+  {
+    "start": 1319.416,
+    "end": 1319.666,
+    "speaker": "Host",
+    "text": "and"
+  },
+  {
+    "start": 1319.666,
+    "end": 1319.816,
+    "speaker": "Host",
+    "text": "-hmm."
+  },
+  {
+    "start": 1319.816,
+    "end": 1346.616,
+    "speaker": "Guest",
+    "text": "you're business and you've got two emails one is like ai written it's very good it solves your problem but what is human i do think that like that person that may win the deal it's almost irrational in a way right like an engineer you may have a hard time justifying like this doesn't make sense but this is a hard lesson i've learned i don't even think i've learned it to be honest like this the best software does not win right like so i focused on building the best software"
+  },
+  {
+    "start": 1347.444,
+    "end": 1370.444,
+    "speaker": "Guest",
+    "text": "but patreon you know is a much larger company i don't think they're that good but they've nailed the sales marketing aspect i think uh and now they're good because they've been able to hire a lot of great people and they've been able to improve the product and they have ai and all this stuff so now it's like a pretty good product but like when we were competing i remember being like why are we losing what's on"
+  },
+  {
+    "start": 1371.06,
+    "end": 1379.86,
+    "speaker": "Guest",
+    "text": "fundamentally different products as well but but i do think like you know just like leadership wise and stuff we're very focused on product engineering design they're"
+  },
+  {
+    "start": 1379.86,
+    "end": 1380.41,
+    "speaker": "Host",
+    "text": "Right."
+  },
+  {
+    "start": 1380.41,
+    "end": 1384.56,
+    "speaker": "Guest",
+    "text": "very focused on basically marketing and making money yeah"
+  },
+  {
+    "start": 1384.56,
+    "end": 1387.71,
+    "speaker": "Host",
+    "text": "Created campaigns like customer outreach and stuff."
+  },
+  {
+    "start": 1388.11,
+    "end": 1398.91,
+    "speaker": "Guest",
+    "text": "i i think they were way more connected in the youtube they knew that audience and they went after that audience we didn't go after that we didn't even think of that audience as a potential target"
+  },
+  {
+    "start": 1398.868,
+    "end": 1421.168,
+    "speaker": "Guest",
+    "text": "i think that business model was more aligned with what you know ultimately worked in the market uh like a sort of more patronage based model of supporting creators and selling digital products like selling digital products is also kind of like a millennial thing to do in a way right like it's like a it's a timely thing and"
+  },
+  {
+    "start": 1421.62,
+    "end": 1424.72,
+    "speaker": "Guest",
+    "text": "people are not as much selling selling digital products as much anymore"
+  },
+  {
+    "start": 1425.02,
+    "end": 1440.22,
+    "speaker": "Host",
+    "text": "I think last year a lot of a company they're hiring this role like storytellers I think for like VC fund like some tech companies they want this kind of storyteller I don't know what do you think about that is that like kind of related to marketing and like creative stuff"
+  },
+  {
+    "start": 1440.57,
+    "end": 1448.62,
+    "speaker": "Guest",
+    "text": "it is another way of saying content creator right it's funny there's only so many roles in software businesses right you could even say vc"
+  },
+  {
+    "start": 1448.628,
+    "end": 1469.378,
+    "speaker": "Guest",
+    "text": "the first software businesses media businesses are also software businesses like there's the people who build the product software engineers designers then there's the people who sell the product and then there's people who like market the product and in my opinion the people who market the product we just keep changing their name in order to hire them"
+  },
+  {
+    "start": 1470.068,
+    "end": 1485.168,
+    "speaker": "Guest",
+    "text": "but it used to be called marketers, communicationist people, PR, influencers, content creators, social media, you're just hiring people to generate impressions. And it really is like doesn't even really matter what they do."
+  },
+  {
+    "start": 1485.468,
+    "end": 1496.628,
+    "speaker": "Guest",
+    "text": "But the truth is, there are two at least two kinds of people. there's the people who want to talk to the customer and then the people who want to build the product and they almost never overlap right like"
+  },
+  {
+    "start": 1496.628,
+    "end": 1496.728,
+    "speaker": "Host",
+    "text": "Mm"
+  },
+  {
+    "start": 1496.728,
+    "end": 1496.928,
+    "speaker": "Guest",
+    "text": "founders"
+  },
+  {
+    "start": 1496.928,
+    "end": 1497.078,
+    "speaker": "Host",
+    "text": "-hmm."
+  },
+  {
+    "start": 1497.078,
+    "end": 1512.578,
+    "speaker": "Guest",
+    "text": "happen to overlap a little bit but there's almost always going to be a strong preference one way or the other i would say like steve jobs my guess is he enjoyed building product he didn't enjoy talking to customers you know then you have someone like larry ellison who probably liked talking to customers and didn't really"
+  },
+  {
+    "start": 1513.268,
+    "end": 1538.218,
+    "speaker": "Guest",
+    "text": "care that much about the product you can use that you can even use the products and kind of tell like okay this got this works but it was because they just were really good at sales but like microsoft right is a classic probably example of this i care way more about design and product right so um so anyway i you know i think you're always going to have like gun world could shrink even more in size but i think i think maximally we could shrink to effectively effectively four people"
+  },
+  {
+    "start": 1538.772,
+    "end": 1558.422,
+    "speaker": "Guest",
+    "text": "i would say that's like the like people say one person company uh i would say four people and the reason is uh uh you want one engineer who's awake you know 12 hours a day and then you need another engineer who's awake the other 12 hours of the day and then you need the same for customer support"
+  },
+  {
+    "start": 1559.028,
+    "end": 1575.928,
+    "speaker": "Guest",
+    "text": "So if you want like to offer it the best possible customer experience, which is like effectively almost like an effectively an instant reply from an AI, if that doesn't solve the issue, a 15 minute really, really diligent, you know, 10,"
+  },
+  {
+    "start": 1576.028,
+    "end": 1584.178,
+    "speaker": "Guest",
+    "text": "10 times the compute sort of response, if that doesn't solve the problem in 15 minutes, in an hour, you get a human who's getting paid."
+  },
+  {
+    "start": 1585.012,
+    "end": 1602.712,
+    "speaker": "Guest",
+    "text": "a significant amount of money who effectively has nothing else to do because everything's been automated who can just work on your issue solve the issue solve the bug this bug would normally take two weeks to solve but they could literally work on it and if they can't finish it they they structure it so they can hand it off to the person who then works on it that to me is like"
+  },
+  {
+    "start": 1603.38,
+    "end": 1628.03,
+    "speaker": "Guest",
+    "text": "yes i could choose to fire everybody again and just run gumroad myself right and i would just have to come into the office which i have it's five minute walk from my house uh it has water and food and people clean it weekly i could come in has internet i can come in i can work for like 15 minutes a day do minimal support do but but is that that like the right energy right to like minimize"
+  },
+  {
+    "start": 1629.236,
+    "end": 1641.636,
+    "speaker": "Guest",
+    "text": "Like I've been thinking the minimalist entrepreneur. I want to have a company that I actually enjoy working on. I don't want to go to zero because then I have to do something else that I haven't"
+  },
+  {
+    "start": 1641.636,
+    "end": 1649.386,
+    "speaker": "Guest",
+    "text": "I think Tim Ferriss is like the four hours work week and his goal is not work."
+  },
+  {
+    "start": 1650.69,
+    "end": 1651.19,
+    "speaker": "Guest",
+    "text": "I think"
+  },
+  {
+    "start": 1651.19,
+    "end": 1651.24,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 1651.24,
+    "end": 1676.79,
+    "speaker": "Host",
+    "text": "the core takeaway for me is you can't choose you can decide whether you want to pick this way or not I think for a lot of my Chinese friends who work for like Bidens or Red Nose they're like feeling they're kind of they have to keep running if I stop everything will be ruined they're like so afraid to like not responding to calls or emails at 10 p.m they always go back to to bed go back to their apartment at"
+  },
+  {
+    "start": 1676.756,
+    "end": 1682.106,
+    "speaker": "Host",
+    "text": "At 12, they look horrible and they feel like they're not healthy. I just feel like they don't have a choice."
+  },
+  {
+    "start": 1683.306,
+    "end": 1703.056,
+    "speaker": "Guest",
+    "text": "yeah i mean the truth is like it feels like you don't have a choice because if you get off the train it'll continue right and even if you cash out with five million dollars if you waited one more year you'd have ten million dollars right it's sort of a human psychological condition that like is unresolvable it's it's"
+  },
+  {
+    "start": 1703.668,
+    "end": 1728.118,
+    "speaker": "Guest",
+    "text": "like it's it is the nature of the industry like sorry you picked an industry in which it does have these crazy multipliers and you know like i saw yesterday like cognition raised a billion dollars and a 26 billion dollar valuation i was like wow that's crazy a billion dollars raised that's insane but then anthropic just raised 65 billion you know it's like incomprehensibly large"
+  },
+  {
+    "start": 1728.884,
+    "end": 1735.674,
+    "speaker": "Guest",
+    "text": "It's twice as large as the largest IPO in history, and it's still private. It's like hard to comprehend, right?"
+  },
+  {
+    "start": 1736.224,
+    "end": 1748.774,
+    "speaker": "Host",
+    "text": "Yeah, so I was just trying to get to the point that you said that a lot of people got laid off and some of them might choose to become entrepreneur, but entrepreneur life seems like very scary for a lot of people."
+  },
+  {
+    "start": 1749.174,
+    "end": 1756.124,
+    "speaker": "Host",
+    "text": "There's not a lot of place to learn how to be entrepreneurs, but do you think things will be different by now?"
+  },
+  {
+    "start": 1756.224,
+    "end": 1757.924,
+    "speaker": "Host",
+    "text": "I could imagine that the AI."
+  },
+  {
+    "start": 1759.22,
+    "end": 1782.77,
+    "speaker": "Guest",
+    "text": "takes over the role of the ceo i think that actually more people want to be entrepreneurs they just don't want to run the business right so like let's say you have an amazing barista like they may want their own coffee shop right they may want their own design their own name their own location uh their own hours they want all the money that they they would make from that"
+  },
+  {
+    "start": 1783.284,
+    "end": 1808.084,
+    "speaker": "Guest",
+    "text": "but they don't want to deal with the distribution stuff they don't want to deal maybe they'll even do the marketing stuff but they don't want to deal with uh you know sourcing they don't want to deal with supply chain management they don't want to deal with payroll they don't want to deal with taxes they don't want to deal with finance uh they don't want to deal with legal you could imagine that they use an agent that agent does all is effectively the ceo of the company"
+  },
+  {
+    "start": 1808.82,
+    "end": 1819.97,
+    "speaker": "Guest",
+    "text": "they run the business and they effectively almost employ the human the human is still the owner of the business right like legally that's the case but it's like almost like"
+  },
+  {
+    "start": 1820.66,
+    "end": 1845.16,
+    "speaker": "Guest",
+    "text": "i just am the employee i am the software engineer of gumroad i just work on gumroad ai runs the company ai does the finance the legal this executive function the hiring the firing all of that stuff so you know i could see a world you could sort of have an app on your phone that kind of like runs your business and you get to basically unlock"
+  },
+  {
+    "start": 1845.844,
+    "end": 1867.244,
+    "speaker": "Guest",
+    "text": "do the stuff block even as things get more futuristic you could imagine a world in which like even other business partners become automated so for example you could imagine that like right now you would still have to then like unlock take all the deliveries you know do all that stuff"
+  },
+  {
+    "start": 1867.668,
+    "end": 1884.018,
+    "speaker": "Guest",
+    "text": "But eventually you could imagine a service. If there's enough demand by this new kind of market, you could imagine a service that comes in, they unlock, they have a key code that unlocks the door, they've, they for, you know, your inventory for you."
+  },
+  {
+    "start": 1884.724,
+    "end": 1912.424,
+    "speaker": "Guest",
+    "text": "and then uh you know they take a photo and then ai like confirms it uh and updates your inventory right or you do a sub sync on your side when you come into the office and you just take a photo with your app and it just syncs your inventory and it just confirms it just makes sure like this is this here is this here yep yep yep good good good awesome and you just do your like you know your pre-work checklist and then you start your job and then you have your post-work checklist and then ai is just kind of running the business you know"
+  },
+  {
+    "start": 1912.564,
+    "end": 1919.614,
+    "speaker": "Host",
+    "text": "It's such an interesting idea. Yeah, yeah. You can just do the work that's most interesting and then AI can take care of all the rest."
+  },
+  {
+    "start": 1919.764,
+    "end": 1941.414,
+    "speaker": "Guest",
+    "text": "yeah like let's say you want to make 20 more money right you can just do it you can just tell your ai hey i want to make 20 more money it's like cool do you want to be open more hours do you want to do a sale do you want to do a like like these are the ways that at coffee shops make more money when they want like there's some degree of control you have"
+  },
+  {
+    "start": 1942.1,
+    "end": 1953.5,
+    "speaker": "Guest",
+    "text": "over your income right uh it's not infinite like you don't you can't make but like there's some degree of of control here like an uber driver you can choose to make more money uh you can spend"
+  },
+  {
+    "start": 1953.5,
+    "end": 1953.6,
+    "speaker": "Host",
+    "text": "Right."
+  },
+  {
+    "start": 1953.6,
+    "end": 1966.874,
+    "speaker": "Guest",
+    "text": "money on instagram ads right like there's all sorts of stuff you could choose to do you could record a tiktok like you could you could you could uh do a loyal add a loyalty program you could do uh all sorts of stuff And so, yeah,"
+  },
+  {
+    "start": 1966.924,
+    "end": 1980.29,
+    "speaker": "Guest",
+    "text": "I could totally see a world in which, you know, there's an AI that kind of motivates you. I think we'll experiment at Gumroad with these ideas within the context of Gumroad. at helping creators sort of like automate sale part i"
+  },
+  {
+    "start": 1980.29,
+    "end": 1990.19,
+    "speaker": "Host",
+    "text": "So anything changed in this AI agent era than what you wrote in the books? Do you think anything is different these days that you would change if you were to write a book?"
+  },
+  {
+    "start": 1991.04,
+    "end": 2000.72,
+    "speaker": "Guest",
+    "text": "mean i would say i mean philosophically that it's it's similar i would say the biggest thing is that i would focus more on building earlier so i think that"
+  },
+  {
+    "start": 2000.72,
+    "end": 2000.82,
+    "speaker": "Host",
+    "text": "Hmm."
+  },
+  {
+    "start": 2000.82,
+    "end": 2023.57,
+    "speaker": "Guest",
+    "text": "when i wrote the book it was still like high cost to building stuff so there was a lot of emphasis on like what you wanted to do before you built things not that much but like the manual valuable process for example i would still say it's valid but you would do that in the context of ai right when you're trying to do the manual valuable process to like eventually automate some problem"
+  },
+  {
+    "start": 2024.468,
+    "end": 2047.068,
+    "speaker": "Guest",
+    "text": "now you just basically have your ai do it so for example like this if we built the thing that automates creator sales we work on it until we found that there was a creator that was starting to make money completely automatically in an autonomous way you know basically generating you know landing pages products a combination of products landing pages"
+  },
+  {
+    "start": 2047.764,
+    "end": 2074.264,
+    "speaker": "Guest",
+    "text": "and uh emails sent out because that's like the way that they reach out to their audience typically proactively and we just mess around with that until you know in a very manual way like just humans like trying stuff shipping features messing around with prompts until it's like oh this worked this email in this way to this subset of the audience framed in this way which is you know and you just kind of have to build that mental map and then you can you"
+  },
+  {
+    "start": 2074.452,
+    "end": 2077.002,
+    "speaker": "Guest",
+    "text": "turn it into a product feature that's fully automated right"
+  },
+  {
+    "start": 2077.002,
+    "end": 2077.152,
+    "speaker": "Host",
+    "text": "Mm"
+  },
+  {
+    "start": 2077.152,
+    "end": 2083.902,
+    "speaker": "Guest",
+    "text": "where they just have a toggle and they're done that's the goal they shouldn't have to do anything else because once there's more than that"
+  },
+  {
+    "start": 2084.532,
+    "end": 2100.132,
+    "speaker": "Guest",
+    "text": "the conversion rate the usage is like zero percent right like it has to be like oh yeah i'll just turn that on and eventually it's so good that it's like default on and they have to turn it off that would be you know that's kind of the ultimate kind of goal um i"
+  },
+  {
+    "start": 2100.132,
+    "end": 2104.232,
+    "speaker": "Host",
+    "text": "But otherwise, like building community and those parts stay the same."
+  },
+  {
+    "start": 2104.482,
+    "end": 2111.132,
+    "speaker": "Guest",
+    "text": "i to be honest i think if i were to rewrite it i would not use the word community because i just think the word community is like loaded people"
+  },
+  {
+    "start": 2111.284,
+    "end": 2140.434,
+    "speaker": "Guest",
+    "text": "think too much about it like if you if you want to be a musician who is your audience who is your listenership but this as soon as you are doing a business you need an audience so that's really what it's about who is who is life you want to make better because once once you know who that person is then you can actually do stuff like who's giving you money for your software you know and that it really is who are you building for and then what problem are you solving for them and then what how are you solving them and is that the right problem is that the right solution to the problem"
+  },
+  {
+    "start": 2140.34,
+    "end": 2147.24,
+    "speaker": "Guest",
+    "text": "the problem and the cool thing is now because building can happen so quickly you should be able to iterate on that fast"
+  },
+  {
+    "start": 2147.24,
+    "end": 2149.79,
+    "speaker": "Host",
+    "text": "Yeah, you can test constantly, yes."
+  },
+  {
+    "start": 2149.79,
+    "end": 2162.024,
+    "speaker": "Guest",
+    "text": "instead of like oh okay i'm going to spend six months or a year trying this one thing this one use case you know it's like two weeks two weeks two weeks two weeks you know like you should be able to go much faster uh you"
+  },
+  {
+    "start": 2162.024,
+    "end": 2162.424,
+    "speaker": "Host",
+    "text": "Yeah,"
+  },
+  {
+    "start": 2162.424,
+    "end": 2175.224,
+    "speaker": "Guest",
+    "text": "don't have revenue in two weeks new customer new problem new solution every two weeks until you have revenue once you have revenue then you have a 10 chance this becomes a real business i"
+  },
+  {
+    "start": 2175.224,
+    "end": 2183.874,
+    "speaker": "Host",
+    "text": "one last question, just my curiosity. So how is it different from working in Silicon Valley and for government, for RSA?"
+  },
+  {
+    "start": 2184.924,
+    "end": 2188.024,
+    "speaker": "Guest",
+    "text": "mean very different i would say there's two big differences or let's say three"
+  },
+  {
+    "start": 2188.436,
+    "end": 2211.786,
+    "speaker": "Guest",
+    "text": "one is incentives like so in startups you're it's kind of selfish in a way right like you're gonna get rich it's a very pure in a way incentive that works very well you don't have that in government in government the incentive it's hard to explain even honestly like it doesn't really make sense uh you don't want to think about it too hard honestly like uh"
+  },
+  {
+    "start": 2212.66,
+    "end": 2241.06,
+    "speaker": "Guest",
+    "text": "it just feels good it's status i don't know like impact more positive impact than i would have private sector and it is i would say it's more fun personally because it is more challenging for that maybe that's why i'm doing it but then the other big one is is is time duration so startups you do have a lot of time duration but i think with government it's much more like everyone is thinking about it and it's just it's like everything you build is going to exist for 50 years whether you like it or not or 100 years"
+  },
+  {
+    "start": 2241.684,
+    "end": 2270.434,
+    "speaker": "Guest",
+    "text": "uh i mean you could see with the stamps right like things will exist for a long time so you when you make these decisions you really want to make the right decisions i think that's in startups it's more like move fast break things iterate it's a little harder to do that in the government uh and then the last thing i would say is that startups get to pick their customer and so you just get to focus on like rich people who have a problem and you want to solve it and they give you money and you're off to the races"
+  },
+  {
+    "start": 2271.252,
+    "end": 2289.352,
+    "speaker": "Guest",
+    "text": "with government it's like you have to serve 100 of people and it's not about making money it's just about service it's just about delivering the good typically they need to do it they don't want to do it uh and so it's just about and it's like 100 product market fit right like everything i build"
+  },
+  {
+    "start": 2290.068,
+    "end": 2316.218,
+    "speaker": "Guest",
+    "text": "gets 100 usage every single person who uses it or wants needs to use it will use it because they need to the customer satisfaction is like 100 because it's like oh i was able to automate this was automated or like this was self-serve it's a it's a it's a great way of and i would like to believe that by doing this and the real impact is if i could do this successfully then people will have a better image of the government"
+  },
+  {
+    "start": 2316.948,
+    "end": 2323.998,
+    "speaker": "Guest",
+    "text": "Because their experience with the government has improved. Many, many people's experience with the federal government is taxes typically."
+  },
+  {
+    "start": 2326.248,
+    "end": 2331.148,
+    "speaker": "Host",
+    "text": "Thank you so much. Yeah, hopefully we can chat again. Yeah, thank you for your time."
+  },
+  {
+    "start": 2331.148,
+    "end": 2333.598,
+    "speaker": "Guest",
+    "text": "That's good. Thanks so much. Have a good rest of your day."
+  },
+  {
+    "start": 2333.598,
+    "end": 2334.198,
+    "speaker": "Host",
+    "text": "Thank you."
+  },
+  {
+    "start": 2341.14,
+    "end": 2356.74,
+    "speaker": "Host",
+    "text": "今天的科技早知道 就到这里了 听完之后 如果你有任何的想法 欢迎在评论区和我们交流 如果有任何想听的话题也请告诉我们 如果你喜欢我们的节目 请记得分享给更多的朋友 那我们下期再见 下期再见"
+  }
+]

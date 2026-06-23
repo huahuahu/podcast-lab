@@ -1,0 +1,2762 @@
+[
+  {
+    "start": 6.9,
+    "end": 14.5,
+    "speaker": "Host",
+    "text": "It takes more than threatening the AI with a PIP to be a great engineer. This is Soft Skills Engineering episode 513. I'm your host, Dave Smith."
+  },
+  {
+    "start": 14.75,
+    "end": 16.25,
+    "speaker": "Host",
+    "text": "I'm your host, Jamison Dance."
+  },
+  {
+    "start": 16.25,
+    "end": 24.8,
+    "speaker": "Host",
+    "text": "Soft Skills Engineering is a weekly advice podcast for engineers who have turned into computer managers instead of computer code writers."
+  },
+  {
+    "start": 25.1,
+    "end": 39.446,
+    "speaker": "Host",
+    "text": "Yeah, robot managers. I wonder if the overall level of understanding... of what it's like to manage a team of engineers has risen among software engineers? Or is it just different?"
+  },
+  {
+    "start": 39.746,
+    "end": 40.196,
+    "speaker": "Host",
+    "text": "Hmm."
+  },
+  {
+    "start": 40.396,
+    "end": 49.896,
+    "speaker": "Host",
+    "text": "I don't know. Also, I wonder if threatening it with a pip is threatening it to use Python instead of a performance improvement plan."
+  },
+  {
+    "start": 52.084,
+    "end": 58.184,
+    "speaker": "Host",
+    "text": "The AI is like, yeah, I really hate Python. I really hate the package index. I think I'd"
+  },
+  {
+    "start": 58.184,
+    "end": 58.684,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 58.684,
+    "end": 59.784,
+    "speaker": "Host",
+    "text": "do what you say."
+  },
+  {
+    "start": 59.934,
+    "end": 64.534,
+    "speaker": "Host",
+    "text": "What does PIP even stand for? Python is pretty."
+  },
+  {
+    "start": 65.534,
+    "end": 68.384,
+    "speaker": "Host",
+    "text": "It's yeah, that is correct. I looked it up."
+  },
+  {
+    "start": 70.334,
+    "end": 71.384,
+    "speaker": "Host",
+    "text": "Package index Python."
+  },
+  {
+    "start": 71.934,
+    "end": 73.134,
+    "speaker": "Host",
+    "text": "What? Seriously?"
+  },
+  {
+    "start": 73.748,
+    "end": 75.148,
+    "speaker": "Host",
+    "text": "python index package yeah"
+  },
+  {
+    "start": 75.148,
+    "end": 78.948,
+    "speaker": "Host",
+    "text": "I know there's the PyPI, the Python Package Index. What"
+  },
+  {
+    "start": 78.948,
+    "end": 79.248,
+    "speaker": "Host",
+    "text": "but maybe"
+  },
+  {
+    "start": 79.248,
+    "end": 79.898,
+    "speaker": "Host",
+    "text": "does PIP stand for?"
+  },
+  {
+    "start": 79.898,
+    "end": 80.798,
+    "speaker": "Host",
+    "text": "it doesn't stand for anything"
+  },
+  {
+    "start": 81.098,
+    "end": 83.348,
+    "speaker": "Host",
+    "text": "PIP stands for Install My Package."
+  },
+  {
+    "start": 85.748,
+    "end": 88.698,
+    "speaker": "Host",
+    "text": "all right dave should i thank your patrons thank"
+  },
+  {
+    "start": 88.698,
+    "end": 89.998,
+    "speaker": "Host",
+    "text": "Yes, go for it."
+  },
+  {
+    "start": 89.998,
+    "end": 100.738,
+    "speaker": "Host",
+    "text": "you to these folks that we shout out every single week for their prodigious contributions thank you to giant panda is best panda 4T2 is the best school?"
+  },
+  {
+    "start": 100.738,
+    "end": 101.338,
+    "speaker": "Host",
+    "text": "Mm hmm."
+  },
+  {
+    "start": 101.338,
+    "end": 114.438,
+    "speaker": "Host",
+    "text": "AI made me top code producer. Company went bankrupt. Error your Will Angel name variant must contain at least one uppercase letter, one number, and one special character. I'm starting to believe these aren't all actually Will Angel."
+  },
+  {
+    "start": 115.888,
+    "end": 118.338,
+    "speaker": "Host",
+    "text": "Happy birthday from episode 400."
+  },
+  {
+    "start": 119.788,
+    "end": 120.388,
+    "speaker": "Host",
+    "text": "That's funny."
+  },
+  {
+    "start": 120.388,
+    "end": 126.914,
+    "speaker": "Host",
+    "text": "Will Angel, if you can hear me, please save us. I start every prompt by thanking my LLM in advance. Advance. It's"
+  },
+  {
+    "start": 126.914,
+    "end": 127.014,
+    "speaker": "Host",
+    "text": "Oh,"
+  },
+  {
+    "start": 127.014,
+    "end": 127.464,
+    "speaker": "Host",
+    "text": "a token gesture."
+  },
+  {
+    "start": 127.464,
+    "end": 128.964,
+    "speaker": "Host",
+    "text": "boom. Got it."
+  },
+  {
+    "start": 130.164,
+    "end": 141.12,
+    "speaker": "Guest",
+    "text": "My actual name on LinkedIn is Yammy Debugging in the Dark Candy, the mobile development ordinary first of his name. name of his ordinary development mobile the canny dark in the debugging yummy Jacob Shandling"
+  },
+  {
+    "start": 142.47,
+    "end": 152.02,
+    "speaker": "Guest",
+    "text": "Cavolte o'fer Quantirti or as my mother used to say Fyethkleth who's Nyath? I don't get how the person who called others out for not changing their name could have changed theirs"
+  },
+  {
+    "start": 152.17,
+    "end": 152.77,
+    "speaker": "Host",
+    "text": "Okay."
+  },
+  {
+    "start": 153.22,
+    "end": 162.32,
+    "speaker": "Guest",
+    "text": "what are were they even doing and then they cut off I'm pretty sure that meant doing when are you changing your podcast name to Will Angel Engineering"
+  },
+  {
+    "start": 162.58,
+    "end": 181.13,
+    "speaker": "Host",
+    "text": "an enthusiastic slice of bread nick malanu javier gonzalez chewy meow mix angel drone deploy salted fries single open parentheses ted timbrell i've tried every tts service on the market this is the slowest one this is the most expensive one this is my favorite one"
+  },
+  {
+    "start": 183.68,
+    "end": 187.588,
+    "speaker": "Guest",
+    "text": "it's not the most expensive for only what 20 bucks a month It's great."
+  },
+  {
+    "start": 187.688,
+    "end": 188.138,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 188.138,
+    "end": 191.038,
+    "speaker": "Guest",
+    "text": "And you can do like, you can do like 20 words."
+  },
+  {
+    "start": 192.088,
+    "end": 192.638,
+    "speaker": "Host",
+    "text": "Dozens of"
+  },
+  {
+    "start": 192.638,
+    "end": 193.338,
+    "speaker": "Guest",
+    "text": "You characters, can change it"
+  },
+  {
+    "start": 193.338,
+    "end": 193.488,
+    "speaker": "Host",
+    "text": "yeah."
+  },
+  {
+    "start": 193.488,
+    "end": 193.988,
+    "speaker": "Guest",
+    "text": "once a week."
+  },
+  {
+    "start": 195.038,
+    "end": 195.488,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 197.138,
+    "end": 210.488,
+    "speaker": "Guest",
+    "text": "A single opening parenthesis. Dan from DroneDeploy. Never is not just a crater on Mars flamingo emoji. I like chicken. I like liver. Meow mix meow mix. Please deliver. Kyle Boss. Kent C. Dodds slowing down. Jenny Kim the stochastic parrot. Ira Chan."
+  },
+  {
+    "start": 210.588,
+    "end": 222.314,
+    "speaker": "Guest",
+    "text": "Jonathan King. Is an AI beautiful function a user documentation? Ask your doctor whether this Patreon name is right for you. Will Angel Official has heard your call and will save you. I think that's supposed to be officially."
+  },
+  {
+    "start": 223.714,
+    "end": 236.714,
+    "speaker": "Guest",
+    "text": "Dashdashf. Brayden Keynes, John Grant, Brittany Ellick, Will Angel won't go to slash new conference May 27th, 28th in Newcastle, Australia, but will you? Closing parentheses followed by a literal closing parenthesis, closed parenthesis,"
+  },
+  {
+    "start": 236.764,
+    "end": 238.464,
+    "speaker": "Host",
+    "text": "and then closed."
+  },
+  {
+    "start": 239.796,
+    "end": 239.796,
+    "speaker": "Guest",
+    "text": "press"
+  },
+  {
+    "start": 239.796,
+    "end": 239.896,
+    "speaker": "Host",
+    "text": "that's"
+  },
+  {
+    "start": 239.896,
+    "end": 240.646,
+    "speaker": "Guest",
+    "text": "this yeah"
+  },
+  {
+    "start": 240.646,
+    "end": 242.746,
+    "speaker": "Host",
+    "text": "a killer one oh man"
+  },
+  {
+    "start": 242.746,
+    "end": 242.846,
+    "speaker": "Guest",
+    "text": "thank"
+  },
+  {
+    "start": 242.846,
+    "end": 243.596,
+    "speaker": "Host",
+    "text": "oh"
+  },
+  {
+    "start": 243.596,
+    "end": 259.346,
+    "speaker": "Guest",
+    "text": "you thank you for your support thank you if you want to join them go to soft skills audio click support us on patreon any amount will get you an invite to our slack team enough of an amount will get access to the slowest most expensive and best text to speech service out there yeah"
+  },
+  {
+    "start": 259.346,
+    "end": 264.146,
+    "speaker": "Host",
+    "text": "that's actually hilarious i love that it's all we are"
+  },
+  {
+    "start": 265.546,
+    "end": 270.394,
+    "speaker": "Host",
+    "text": "dave do you want to keep going with your text speech service by I reading this question out loud."
+  },
+  {
+    "start": 270.644,
+    "end": 279.094,
+    "speaker": "Guest",
+    "text": "Yeah, this part of the text-to-speech service is kind of a Monte Carlo. You can type in a lot of text, but the chances we read it, it's low."
+  },
+  {
+    "start": 280.344,
+    "end": 280.794,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 281.294,
+    "end": 284.744,
+    "speaker": "Guest",
+    "text": "But it's the free tier, so you get what you pay for. All right."
+  },
+  {
+    "start": 285.044,
+    "end": 285.344,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 285.344,
+    "end": 292.294,
+    "speaker": "Host",
+    "text": "This comes from an anonymous listener who says, how long until I am ethically obligated to let my company know that I'm doing no work?"
+  },
+  {
+    "start": 294.346,
+    "end": 303.546,
+    "speaker": "Host",
+    "text": "There was a big reorg at the company I recently joined. It's a huge financial company, so there's a lot of bureaucracy. Somehow in the mess, I was kicked off the first team I joined so that I was pending reassignment."
+  },
+  {
+    "start": 303.946,
+    "end": 317.396,
+    "speaker": "Host",
+    "text": "It's been a month and I haven't been reassigned. Instead of being in between jobs not working, I am currently in between teams but still getting paid. This feels unintentional on the part of the company as no one has followed up with me."
+  },
+  {
+    "start": 317.646,
+    "end": 320.496,
+    "speaker": "Host",
+    "text": "I've been happily using the time to catch up on hobbies."
+  },
+  {
+    "start": 322.388,
+    "end": 333.338,
+    "speaker": "Host",
+    "text": "But I'm starting to get concerned about what will happen when the other shoe drops. At what point do I start to venture into irreversible reputational harm? For some added context,"
+  },
+  {
+    "start": 333.488,
+    "end": 339.888,
+    "speaker": "Host",
+    "text": "teams at this company are about six people and the manager handles several teams, so I've never talked to my manager since I joined."
+  },
+  {
+    "start": 340.038,
+    "end": 349.338,
+    "speaker": "Host",
+    "text": "I got the message about the reorg from a screenshot of an email that my Scrum Master shared in my last stand-up. Oh, Mike."
+  },
+  {
+    "start": 349.844,
+    "end": 353.044,
+    "speaker": "Guest",
+    "text": "This is crazy."
+  },
+  {
+    "start": 355.094,
+    "end": 374.744,
+    "speaker": "Guest",
+    "text": "Some executive spent like weeks and months of their life carefully planning this and writing out these communication guidelines and all these processes and procedures and it's yeah it's funny to see how the best laid plans and intentions devolve into a screenshot of an email."
+  },
+  {
+    "start": 375.444,
+    "end": 378.544,
+    "speaker": "Host",
+    "text": "That you see in Slack in a stand-up"
+  },
+  {
+    "start": 378.544,
+    "end": 381.194,
+    "speaker": "Guest",
+    "text": "That is so funny. Oh, my gosh."
+  },
+  {
+    "start": 381.194,
+    "end": 381.644,
+    "speaker": "Host",
+    "text": "Yeah"
+  },
+  {
+    "start": 381.844,
+    "end": 390.144,
+    "speaker": "Guest",
+    "text": "Oh, wow. You know, I've actually been – okay, I'll tell you. I used to think that capitalism would not let this happen."
+  },
+  {
+    "start": 391.244,
+    "end": 393.044,
+    "speaker": "Guest",
+    "text": "You know, like the free market."
+  },
+  {
+    "start": 393.044,
+    "end": 393.144,
+    "speaker": "Host",
+    "text": "Yeah"
+  },
+  {
+    "start": 393.144,
+    "end": 403.694,
+    "speaker": "Guest",
+    "text": "But I have been interviewing people, and I got to tell you, the number of people who are basically unable to describe the software product that they work on in a way that makes sense."
+  },
+  {
+    "start": 404.468,
+    "end": 428.768,
+    "speaker": "Guest",
+    "text": "is kind of high you know i talk to people and i'm like these are like product managers so your job is to manage the product design the product market the product you know like tell engineers how to build the product but when i ask you what does your product do and after a 10 minute explanation i still don't get it i'm like wow there's a lot of people kind of just coasting between i don't know what the right word is"
+  },
+  {
+    "start": 429.236,
+    "end": 437.136,
+    "speaker": "Guest",
+    "text": "But here you have someone who is explicitly being paid to do nothing, whereas most people are just implicitly paid to do nothing."
+  },
+  {
+    "start": 438.486,
+    "end": 441.486,
+    "speaker": "Host",
+    "text": "they're being paid and they don't think they're doing nothing but they"
+  },
+  {
+    "start": 441.486,
+    "end": 441.536,
+    "speaker": "Guest",
+    "text": "Yeah,"
+  },
+  {
+    "start": 441.536,
+    "end": 441.936,
+    "speaker": "Host",
+    "text": "are doing nothing"
+  },
+  {
+    "start": 441.936,
+    "end": 442.136,
+    "speaker": "Guest",
+    "text": "I think"
+  },
+  {
+    "start": 442.136,
+    "end": 442.236,
+    "speaker": "Host",
+    "text": "is"
+  },
+  {
+    "start": 442.236,
+    "end": 442.336,
+    "speaker": "Host",
+    "text": "so."
+  },
+  {
+    "start": 442.336,
+    "end": 456.686,
+    "speaker": "Guest",
+    "text": "that what you're saying I've been thinking about this recently I guess this isn't a new thought but there are definitely people who do stuff they work but their work creates more work for other people you"
+  },
+  {
+    "start": 456.404,
+    "end": 466.282,
+    "speaker": "Guest",
+    "text": "or it's just work that doesn't need to get done like they're busy but them not doing anything might leave people better off i"
+  },
+  {
+    "start": 466.282,
+    "end": 466.782,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 466.782,
+    "end": 470.732,
+    "speaker": "Guest",
+    "text": "don't know that's a spot you don't want to be in this is also a spot you don't want to be in"
+  },
+  {
+    "start": 470.832,
+    "end": 483.782,
+    "speaker": "Host",
+    "text": "No, this is not good. And but I got to say, like, OK, I'm going to mention capitalism again. But, you know, it's so funny that the capitalism gets a bad rap for being super hostile, aggressive,"
+  },
+  {
+    "start": 483.882,
+    "end": 493.164,
+    "speaker": "Host",
+    "text": "like we will cut your job so fast and put you on the street. We don't care about you. But then also this happens. it's like whoops we kept"
+  },
+  {
+    "start": 493.164,
+    "end": 493.314,
+    "speaker": "Guest",
+    "text": "Yeah."
+  },
+  {
+    "start": 493.314,
+    "end": 508.314,
+    "speaker": "Host",
+    "text": "paying you and you didn't we didn't know it's like how is this the same system that is so ruthless and efficiency driven and also we're paying i mean this is an engineer it's not like they're it's not like minimum wage this is real money you know yeah"
+  },
+  {
+    "start": 508.314,
+    "end": 508.814,
+    "speaker": "Guest",
+    "text": "Yeah."
+  },
+  {
+    "start": 508.814,
+    "end": 508.864,
+    "speaker": "Host",
+    "text": ""
+  },
+  {
+    "start": 508.864,
+    "end": 513.614,
+    "speaker": "Guest",
+    "text": "I mean, maybe it's the intersection of bureaucracy and capitalism that are."
+  },
+  {
+    "start": 513.614,
+    "end": 514.264,
+    "speaker": "Host",
+    "text": "maybe"
+  },
+  {
+    "start": 515.156,
+    "end": 516.956,
+    "speaker": "Guest",
+    "text": "doing some some funky stuff i"
+  },
+  {
+    "start": 516.956,
+    "end": 517.606,
+    "speaker": "Host",
+    "text": "Okay."
+  },
+  {
+    "start": 517.606,
+    "end": 539.006,
+    "speaker": "Host",
+    "text": "guess what you're saying is if you tell us the name of this company we will go short the stock and then that will provide signal to the market that bad stuff is happening and then eventually that will flow down to your manager who will look at their team and say wait a minute there's one engineer here who isn't doing anything and then that will get resolved well"
+  },
+  {
+    "start": 540.256,
+    "end": 542.606,
+    "speaker": "Guest",
+    "text": "And then our short positions will be worthless."
+  },
+  {
+    "start": 543.206,
+    "end": 545.74,
+    "speaker": "Host",
+    "text": "that we'll have to close them first"
+  },
+  {
+    "start": 545.74,
+    "end": 545.79,
+    "speaker": "Guest",
+    "text": "Right,"
+  },
+  {
+    "start": 545.79,
+    "end": 546.29,
+    "speaker": "Host",
+    "text": "so yeah"
+  },
+  {
+    "start": 546.29,
+    "end": 546.64,
+    "speaker": "Guest",
+    "text": "of course."
+  },
+  {
+    "start": 546.64,
+    "end": 554.99,
+    "speaker": "Host",
+    "text": "we'll have to time time this insider trading carefully although is it non non-public material information if it's shared on a podcast it's"
+  },
+  {
+    "start": 554.99,
+    "end": 555.24,
+    "speaker": "Guest",
+    "text": "public Yeah."
+  },
+  {
+    "start": 555.24,
+    "end": 556.14,
+    "speaker": "Host",
+    "text": "now so it's fine"
+  },
+  {
+    "start": 556.14,
+    "end": 556.94,
+    "speaker": "Guest",
+    "text": "It's public."
+  },
+  {
+    "start": 558.04,
+    "end": 559.14,
+    "speaker": "Host",
+    "text": "We're not insiders."
+  },
+  {
+    "start": 559.14,
+    "end": 562.24,
+    "speaker": "Host",
+    "text": "we don't know what the company is this is all a joke and also"
+  },
+  {
+    "start": 562.24,
+    "end": 562.74,
+    "speaker": "Guest",
+    "text": "Yeah,"
+  },
+  {
+    "start": 562.74,
+    "end": 566.09,
+    "speaker": "Host",
+    "text": "space financial advice but not earth financial advice i"
+  },
+  {
+    "start": 566.09,
+    "end": 566.64,
+    "speaker": "Guest",
+    "text": "that's right."
+  },
+  {
+    "start": 568.24,
+    "end": 574.278,
+    "speaker": "Host",
+    "text": "think you should say hey i am not on a team and I need to get on Who a team because"
+  },
+  {
+    "start": 574.278,
+    "end": 577.178,
+    "speaker": "Guest",
+    "text": "do you even talk to about this? You don't have a manager."
+  },
+  {
+    "start": 577.178,
+    "end": 588.086,
+    "speaker": "Host",
+    "text": "I think it sounds like they have a manager. I've never talked to my manager since I joined, but they did say my manager. So I assume that means they do have a manager. They just don't talk to them. Like, yeah, they're busy."
+  },
+  {
+    "start": 588.186,
+    "end": 594.486,
+    "speaker": "Guest",
+    "text": "They've got a bunch of teams. It sounds like they're not doing much management if they're spread across several teams,"
+  },
+  {
+    "start": 594.486,
+    "end": 594.636,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 594.636,
+    "end": 595.186,
+    "speaker": "Guest",
+    "text": "but whatever."
+  },
+  {
+    "start": 595.186,
+    "end": 595.336,
+    "speaker": "Host",
+    "text": ""
+  },
+  {
+    "start": 595.336,
+    "end": 606.45,
+    "speaker": "Guest",
+    "text": "But I would like to think that they at least have the time to hear someone say, hey, I'm being paid hundreds of thousands of dollars in kind of total. carrying costs maybe"
+  },
+  {
+    "start": 606.45,
+    "end": 607.0,
+    "speaker": "Host",
+    "text": "Right."
+  },
+  {
+    "start": 607.0,
+    "end": 618.5,
+    "speaker": "Guest",
+    "text": "that's not even your take-home comp but whatever and I'm doing nothing and every every manager would like more stuff done it feels like an easy conversation hey I got lost in the shuffle give me something to do"
+  },
+  {
+    "start": 618.5,
+    "end": 625.8,
+    "speaker": "Host",
+    "text": "The instinct in this question that was kind of implicit was how long do I go before I do irreversible reputational harm? That is exactly the right instinct,"
+  },
+  {
+    "start": 625.9,
+    "end": 635.17,
+    "speaker": "Guest",
+    "text": "because if you show up six months from now and you talk to your manager and be like, hey, look, I have been unassigned for six months and I've been. Then let me just tell you I've shaved five points off my golf handicap."
+  },
+  {
+    "start": 635.67,
+    "end": 636.82,
+    "speaker": "Host",
+    "text": "That's not going to look very good."
+  },
+  {
+    "start": 637.07,
+    "end": 647.92,
+    "speaker": "Guest",
+    "text": "Yeah, I've played a lot of Belotro and I think it's close enough to real poker that I'm ready to dip into real poker."
+  },
+  {
+    "start": 649.684,
+    "end": 649.784,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 649.784,
+    "end": 650.134,
+    "speaker": "Host",
+    "text": "uh you're"
+  },
+  {
+    "start": 650.134,
+    "end": 654.584,
+    "speaker": "Guest",
+    "text": "At what point do I start to venture into irreversible reputational harm? I mean, probably"
+  },
+  {
+    "start": 654.584,
+    "end": 655.134,
+    "speaker": "Host",
+    "text": "close yeah"
+  },
+  {
+    "start": 655.134,
+    "end": 656.134,
+    "speaker": "Guest",
+    "text": "already,"
+  },
+  {
+    "start": 656.134,
+    "end": 656.384,
+    "speaker": "Guest",
+    "text": "you're"
+  },
+  {
+    "start": 656.384,
+    "end": 656.684,
+    "speaker": "Guest",
+    "text": "like"
+  },
+  {
+    "start": 656.684,
+    "end": 658.934,
+    "speaker": "Guest",
+    "text": "already there although in this company maybe not maybe"
+  },
+  {
+    "start": 658.934,
+    "end": 659.434,
+    "speaker": "Guest",
+    "text": "the longer you"
+  },
+  {
+    "start": 659.434,
+    "end": 659.584,
+    "speaker": "Guest",
+    "text": "your"
+  },
+  {
+    "start": 659.584,
+    "end": 659.834,
+    "speaker": "Guest",
+    "text": "manager wait,"
+  },
+  {
+    "start": 659.834,
+    "end": 659.934,
+    "speaker": "Guest",
+    "text": "is"
+  },
+  {
+    "start": 659.934,
+    "end": 659.984,
+    "speaker": "Guest",
+    "text": "the"
+  },
+  {
+    "start": 659.984,
+    "end": 660.584,
+    "speaker": "Guest",
+    "text": "going to be like wow"
+  },
+  {
+    "start": 660.584,
+    "end": 660.934,
+    "speaker": "Guest",
+    "text": "worse it"
+  },
+  {
+    "start": 660.934,
+    "end": 661.384,
+    "speaker": "Guest",
+    "text": "you will. too"
+  },
+  {
+    "start": 664.384,
+    "end": 666.984,
+    "speaker": "Host",
+    "text": "Yeah, if they have several teams."
+  },
+  {
+    "start": 668.148,
+    "end": 673.348,
+    "speaker": "Guest",
+    "text": "Maybe they are doing nothing and counting on each team thinking, wow, they're really focused on the other teams."
+  },
+  {
+    "start": 673.348,
+    "end": 673.798,
+    "speaker": "Host",
+    "text": "Yeah,"
+  },
+  {
+    "start": 673.798,
+    "end": 682.098,
+    "speaker": "Guest",
+    "text": "They're just so busy with these other teams that I guess it makes sense that I never talk to my manager. So it could be shell games. It could be turtles all the way down."
+  },
+  {
+    "start": 682.248,
+    "end": 686.098,
+    "speaker": "Host",
+    "text": "but I think we both are in agreement here. You are..."
+  },
+  {
+    "start": 686.644,
+    "end": 693.544,
+    "speaker": "Guest",
+    "text": "If not already in the reputational harm camp, you are minutes away from it. Like, you got to get this resolved right away."
+  },
+  {
+    "start": 693.544,
+    "end": 707.094,
+    "speaker": "Host",
+    "text": "Yeah, outcomes here are you hide as long as possible and then get fired or laid off. But I feel like you're just kind of always waiting to get found out. That's stressful. It feels I would be unhappy because I would feel dishonest."
+  },
+  {
+    "start": 707.094,
+    "end": 707.444,
+    "speaker": "Host",
+    "text": "Oh,"
+  },
+  {
+    "start": 707.444,
+    "end": 707.544,
+    "speaker": "Host",
+    "text": "I"
+  },
+  {
+    "start": 707.544,
+    "end": 707.694,
+    "speaker": "Host",
+    "text": "yeah."
+  },
+  {
+    "start": 707.694,
+    "end": 707.844,
+    "speaker": "Host",
+    "text": "feel"
+  },
+  {
+    "start": 707.844,
+    "end": 707.944,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 707.944,
+    "end": 714.994,
+    "speaker": "Host",
+    "text": "like I was ripping off the company and would be found out and the anticipation of being discovered."
+  },
+  {
+    "start": 715.092,
+    "end": 729.792,
+    "speaker": "Host",
+    "text": "as as someone who kind of was dishonest that just always weighs on me even when I feel like I'm not being dishonest so if I felt like I actually was then it would crush me so I would not be able to just like chill and enjoy hobbies until someone found out a year or two later"
+  },
+  {
+    "start": 730.452,
+    "end": 742.052,
+    "speaker": "Host",
+    "text": "But I think there is some threshold at which it goes from like, oh, you get a bad rap to, oh, you get fired for you're probably not there already if they just have all this chaos of a reorg like, yeah, you're brand new."
+  },
+  {
+    "start": 742.152,
+    "end": 748.802,
+    "speaker": "Guest",
+    "text": "In my opinion, it depends a little bit on why you got unassigned. Were you intended to be laid off?"
+  },
+  {
+    "start": 749.332,
+    "end": 751.332,
+    "speaker": "Guest",
+    "text": "But they just, you"
+  },
+  {
+    "start": 751.332,
+    "end": 751.682,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 751.682,
+    "end": 752.132,
+    "speaker": "Guest",
+    "text": "know what I mean?"
+  },
+  {
+    "start": 752.132,
+    "end": 753.082,
+    "speaker": "Host",
+    "text": ""
+  },
+  {
+    "start": 753.082,
+    "end": 766.332,
+    "speaker": "Guest",
+    "text": "Like maybe they missed you somehow and they intended to let you off. In that case, you probably don't want to raise your head up too high. You want to go find a new job while you're still getting paid and then quit this job."
+  },
+  {
+    "start": 767.028,
+    "end": 768.428,
+    "speaker": "Guest",
+    "text": "Once you've found a new one."
+  },
+  {
+    "start": 768.578,
+    "end": 776.878,
+    "speaker": "Host",
+    "text": "It says reorg though. I feel like reorgs do involve laying people off at times, but if it was an actual layoff, I'm assuming it would just say a layoff."
+  },
+  {
+    "start": 776.878,
+    "end": 777.228,
+    "speaker": "Guest",
+    "text": "Yeah."
+  },
+  {
+    "start": 777.228,
+    "end": 781.728,
+    "speaker": "Host",
+    "text": "So I'm assuming this is a, they've just been lost in the shuffle and great."
+  },
+  {
+    "start": 781.728,
+    "end": 781.828,
+    "speaker": "Guest",
+    "text": "Yeah."
+  },
+  {
+    "start": 781.828,
+    "end": 785.778,
+    "speaker": "Host",
+    "text": "Company has one extra engineer now. That seems like a positive"
+  },
+  {
+    "start": 785.778,
+    "end": 785.978,
+    "speaker": "Guest",
+    "text": "Right."
+  },
+  {
+    "start": 785.978,
+    "end": 786.278,
+    "speaker": "Host",
+    "text": "to me."
+  },
+  {
+    "start": 786.278,
+    "end": 794.778,
+    "speaker": "Guest",
+    "text": "That being the case, I would definitely go to my manager right away. And if you can't figure out who your manager is, which is a real possibility, go to your scrum master. That person seems really informed."
+  },
+  {
+    "start": 794.644,
+    "end": 795.044,
+    "speaker": "Host",
+    "text": "Really informed."
+  },
+  {
+    "start": 795.994,
+    "end": 796.994,
+    "speaker": "Guest",
+    "text": "Yeah, they know what's"
+  },
+  {
+    "start": 796.994,
+    "end": 797.194,
+    "speaker": "Host",
+    "text": "They"
+  },
+  {
+    "start": 797.194,
+    "end": 797.394,
+    "speaker": "Guest",
+    "text": "going on."
+  },
+  {
+    "start": 797.394,
+    "end": 799.094,
+    "speaker": "Host",
+    "text": "had a screenshot of the reorg list."
+  },
+  {
+    "start": 799.344,
+    "end": 804.544,
+    "speaker": "Guest",
+    "text": "If that doesn't work, go to your company's website, find a name, email that name."
+  },
+  {
+    "start": 804.544,
+    "end": 804.844,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 804.844,
+    "end": 808.444,
+    "speaker": "Host",
+    "text": "Say, hey, I've been doing nothing. You're on the board."
+  },
+  {
+    "start": 809.644,
+    "end": 814.194,
+    "speaker": "Host",
+    "text": "Find somebody I can tell that I don't have a manager or any work to do."
+  },
+  {
+    "start": 816.532,
+    "end": 841.632,
+    "speaker": "Guest",
+    "text": "and then you're going to have to come up with a story for why you didn't say this a month ago Yeah. you know i think the story is look i've been navigating the org chart trying to figure out where i belong i've talked to a bunch of people i'm bringing this now to your attention yeah i probably should have done this earlier i apologize it's been tricky trying to figure out where we all landed but you need some story like that because otherwise if the story is i used this time to catch up on hobbies that's so bad"
+  },
+  {
+    "start": 841.632,
+    "end": 842.232,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 845.012,
+    "end": 849.162,
+    "speaker": "Host",
+    "text": "i mean this is uh this rhymes with office space a little bit i guess you haven't been"
+  },
+  {
+    "start": 849.162,
+    "end": 851.862,
+    "speaker": "Guest",
+    "text": "Oh my gosh, it so does. This is like Office Space 2."
+  },
+  {
+    "start": 852.312,
+    "end": 857.912,
+    "speaker": "Host",
+    "text": "fired and are still working but wasn't there a guy who just decided not to do work wasn't he the main character he"
+  },
+  {
+    "start": 857.912,
+    "end": 858.062,
+    "speaker": "Guest",
+    "text": "Pretty"
+  },
+  {
+    "start": 858.062,
+    "end": 858.262,
+    "speaker": "Host",
+    "text": "just said"
+  },
+  {
+    "start": 858.262,
+    "end": 858.562,
+    "speaker": "Guest",
+    "text": "much, yeah."
+  },
+  {
+    "start": 858.562,
+    "end": 858.712,
+    "speaker": "Host",
+    "text": "i'm"
+  },
+  {
+    "start": 858.712,
+    "end": 859.162,
+    "speaker": "Guest",
+    "text": "That was him."
+  },
+  {
+    "start": 859.162,
+    "end": 865.312,
+    "speaker": "Host",
+    "text": "not going to do anything and see what they do to me and what they do is like give me a promotion and trust me more"
+  },
+  {
+    "start": 866.612,
+    "end": 870.712,
+    "speaker": "Guest",
+    "text": "Maybe you could go found a new team. Like write a charter document."
+  },
+  {
+    "start": 871.316,
+    "end": 873.816,
+    "speaker": "Guest",
+    "text": "and get this thing going. Go hire some people."
+  },
+  {
+    "start": 873.866,
+    "end": 885.216,
+    "speaker": "Host",
+    "text": "I wonder if there's a secret underground. I guess this is a Silicon Valley plot point also. There's this secret club of people who are abandoned like you and can you, yeah, start a Skunk Works project."
+  },
+  {
+    "start": 886.016,
+    "end": 888.916,
+    "speaker": "Guest",
+    "text": "Yeah. Go find all the other ones. That'd be awesome."
+  },
+  {
+    "start": 889.116,
+    "end": 891.76,
+    "speaker": "Host",
+    "text": "Yeah. Well, have we answered the question?"
+  },
+  {
+    "start": 892.06,
+    "end": 893.31,
+    "speaker": "Guest",
+    "text": "I think so. Good luck."
+  },
+  {
+    "start": 893.71,
+    "end": 900.86,
+    "speaker": "Host",
+    "text": "Don't get forgotten. That's the message for y'all who are listening to this question. Yeah, yeah. Should I read our next question?"
+  },
+  {
+    "start": 900.86,
+    "end": 910.01,
+    "speaker": "Guest",
+    "text": "Yes, please. I have not just just the reason you're allowed to do this is because even though we had a massive reorg here at the podcast, you did not get left behind. You're unforgettable."
+  },
+  {
+    "start": 910.01,
+    "end": 921.796,
+    "speaker": "Host",
+    "text": "Oh. Good. Thank you. I've contributed enough. This is from an anonymous listener who says, AI changes how software is built. Actual coding is mostly done by LLMs now. I hate it, but it is what it is."
+  },
+  {
+    "start": 922.096,
+    "end": 933.096,
+    "speaker": "Host",
+    "text": "What do you think I should focus on learning now to not become obsolete in one to two years? I am a senior dev with 13 years of experience and loved coding, but now I find it hard what my role will be in the next few years."
+  },
+  {
+    "start": 933.246,
+    "end": 944.666,
+    "speaker": "Host",
+    "text": "I still have about 30 plus years before retirement. I do not want to go to the engineering management. Management track, at least not in the near future. So is it more architectural knowledge, security, AI internals? What do you think?"
+  },
+  {
+    "start": 945.524,
+    "end": 954.874,
+    "speaker": "Guest",
+    "text": "hmm actual coding is mostly done by llms now yeah depends on what you mean by coding if it's like generating the characters in the source code files then maybe"
+  },
+  {
+    "start": 954.874,
+    "end": 955.924,
+    "speaker": "Host",
+    "text": "Yeah, like typing."
+  },
+  {
+    "start": 955.924,
+    "end": 971.224,
+    "speaker": "Guest",
+    "text": "i think that probably describes yeah the the state yeah i think most of the characters created that go into new code written at my company are created by llms a lot of editing happens by humans obviously a lot of guidance goes into those characters"
+  },
+  {
+    "start": 972.5,
+    "end": 972.7,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 972.7,
+    "end": 975.3,
+    "speaker": "Guest",
+    "text": "But there's a lot of reading code."
+  },
+  {
+    "start": 975.5,
+    "end": 975.95,
+    "speaker": "Host",
+    "text": "Yep."
+  },
+  {
+    "start": 975.95,
+    "end": 977.55,
+    "speaker": "Host",
+    "text": "Boy, is there a lot of reading code."
+  },
+  {
+    "start": 977.6,
+    "end": 978.5,
+    "speaker": "Guest",
+    "text": "A lot more than ever."
+  },
+  {
+    "start": 978.6,
+    "end": 979.1,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 979.4,
+    "end": 981.3,
+    "speaker": "Host",
+    "text": "How do I not become obsolete in one to two years?"
+  },
+  {
+    "start": 981.65,
+    "end": 992.7,
+    "speaker": "Guest",
+    "text": "Okay, there's a bunch of different takes here. I think you can become more important than ever in the next one to two years. I don't think software engineering is becoming obsolete."
+  },
+  {
+    "start": 993.46,
+    "end": 1000.36,
+    "speaker": "Guest",
+    "text": "There is a camp that says LLMs are producing so much slop that they'll need intrepid heroes to come in and rescue them."
+  },
+  {
+    "start": 1000.36,
+    "end": 1001.96,
+    "speaker": "Host",
+    "text": "Or the next generation of LLMs."
+  },
+  {
+    "start": 1001.96,
+    "end": 1014.06,
+    "speaker": "Guest",
+    "text": "Yeah, I think I don't think I fully agree with that, but I do think there's a lot more room for software engineering where the the small scale of like write the function that does this thing."
+  },
+  {
+    "start": 1014.708,
+    "end": 1039.208,
+    "speaker": "Guest",
+    "text": "is becoming less a part of the work but architecture and identifying broad patterns and and kind of like we've talked about this a lot but making the system steer itself in a good direction is higher leverage than ever because you have a lot more capacity to just like what's a good metaphor here you've got a rocket that you can strap to the back of a boat and so you better have a really good"
+  },
+  {
+    "start": 1039.956,
+    "end": 1040.506,
+    "speaker": "Host",
+    "text": "Rudder?"
+  },
+  {
+    "start": 1040.606,
+    "end": 1040.956,
+    "speaker": "Guest",
+    "text": "Yeah,"
+  },
+  {
+    "start": 1040.956,
+    "end": 1041.206,
+    "speaker": "Host",
+    "text": "Is that"
+  },
+  {
+    "start": 1041.206,
+    "end": 1041.406,
+    "speaker": "Guest",
+    "text": "I"
+  },
+  {
+    "start": 1041.406,
+    "end": 1041.906,
+    "speaker": "Host",
+    "text": "how boats work?"
+  },
+  {
+    "start": 1041.906,
+    "end": 1042.406,
+    "speaker": "Guest",
+    "text": "think so."
+  },
+  {
+    "start": 1042.406,
+    "end": 1046.856,
+    "speaker": "Host",
+    "text": "Yeah, you attach a rocket and there's a rudder to steer. I'm pretty sure that's how boats work."
+  },
+  {
+    "start": 1048.606,
+    "end": 1054.506,
+    "speaker": "Guest",
+    "text": "Taking what I know about space and applying it to water, I believe that's correct."
+  },
+  {
+    "start": 1054.506,
+    "end": 1055.356,
+    "speaker": "Host",
+    "text": "Yeah, the space rudder"
+  },
+  {
+    "start": 1055.356,
+    "end": 1055.606,
+    "speaker": "Guest",
+    "text": "Yes,"
+  },
+  {
+    "start": 1055.606,
+    "end": 1055.706,
+    "speaker": "Host",
+    "text": "also"
+  },
+  {
+    "start": 1055.706,
+    "end": 1056.006,
+    "speaker": "Guest",
+    "text": "yes."
+  },
+  {
+    "start": 1056.006,
+    "end": 1057.506,
+    "speaker": "Host",
+    "text": "works that way."
+  },
+  {
+    "start": 1057.506,
+    "end": 1058.606,
+    "speaker": "Guest",
+    "text": "Yes, exactly."
+  },
+  {
+    "start": 1058.606,
+    "end": 1058.806,
+    "speaker": "Host",
+    "text": "Rocket"
+  },
+  {
+    "start": 1058.806,
+    "end": 1059.006,
+    "speaker": "Guest",
+    "text": "Yeah."
+  },
+  {
+    "start": 1059.006,
+    "end": 1060.206,
+    "speaker": "Host",
+    "text": "plus rudder."
+  },
+  {
+    "start": 1060.356,
+    "end": 1064.206,
+    "speaker": "Guest",
+    "text": "Yeah, the rudder is what grabs onto the vacuum and steers the spaceship."
+  },
+  {
+    "start": 1064.206,
+    "end": 1069.6,
+    "speaker": "Host",
+    "text": "Exactly, exactly. You deflect- Flick the vacuum left and right and you get equal and opposite forces."
+  },
+  {
+    "start": 1070.85,
+    "end": 1095.4,
+    "speaker": "Guest",
+    "text": "yeah solar sails i think are thing yeah anyways so what is my point my point is you can invest a lot in steering the system so that this added capacity to generate code takes you in the direction you want which i think was some people's dream right they don't want to sit down and like implement the tickets they want to build these abstractions and architecture and broad direction and that's always been a thing you had to"
+  },
+  {
+    "start": 1095.316,
+    "end": 1103.316,
+    "speaker": "Guest",
+    "text": "To fight engineers to say like stop go write the feature or some engineers anyways Yeah. But that can become more the job now"
+  },
+  {
+    "start": 1103.666,
+    "end": 1114.016,
+    "speaker": "Guest",
+    "text": "Yeah, it totally can. And I think there's kind of a couple of ways to answer this question. One is how can I be happy at work? And how can I not be obsolete? And the not be obsolete is the one."
+  },
+  {
+    "start": 1114.484,
+    "end": 1127.084,
+    "speaker": "Guest",
+    "text": "actually explicitly stated in the question, but I think the kind of be happy at work question is very much relevant to that. Like the more excited you are to do the job, the less obsolete you'll become, assuming the job is actually useful."
+  },
+  {
+    "start": 1127.434,
+    "end": 1137.384,
+    "speaker": "Guest",
+    "text": "And so, yeah, like I, you know, some of the things I like to focus on now are more systems focused, like architecturally, how do these components interact with each other? What are the layers? What are the interface points?"
+  },
+  {
+    "start": 1137.534,
+    "end": 1147.844,
+    "speaker": "Guest",
+    "text": "What are the failure points? This makes you really valuable in situations like like outages, like you can be the person who figures out how to resolve them, very valuable also in like security review,"
+  },
+  {
+    "start": 1148.444,
+    "end": 1162.894,
+    "speaker": "Guest",
+    "text": "you can be the person that understands the threat surface area of your of your software and these are things that an L_L_M_ can sort of do, but they usually don't have enough context to do it well without a human who understands more than just the text on the screen."
+  },
+  {
+    "start": 1163.244,
+    "end": 1169.692,
+    "speaker": "Guest",
+    "text": "Ooh, I had a thought. This is maybe a short term answer to your question, but you can look at where the benchmarks aren't aren't saturated yet"
+  },
+  {
+    "start": 1169.692,
+    "end": 1169.742,
+    "speaker": "Host",
+    "text": "Hmm."
+  },
+  {
+    "start": 1169.742,
+    "end": 1197.642,
+    "speaker": "Guest",
+    "text": "and there's a big debate about why are they saturated because they're just in the training data or do they actually reflect real capability but the general like software engineering benchmarks i think are getting we keep having to invent new ones because the llms just solve them all but last i checked the more ops focused ones like you said resolving outages or incidents or kind of dealing with prod things were not very saturated and that is an area where knowing the system really"
+  },
+  {
+    "start": 1197.556,
+    "end": 1198.656,
+    "speaker": "Guest",
+    "text": "really well helps a lot too."
+  },
+  {
+    "start": 1198.656,
+    "end": 1199.206,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 1199.206,
+    "end": 1199.656,
+    "speaker": "Host",
+    "text": "So"
+  },
+  {
+    "start": 1200.0,
+    "end": 1206.7,
+    "speaker": "Host",
+    "text": "Maybe that's an answer is know the system well enough to be really good at firefighting or to help LLMs get better at firefighting. This"
+  },
+  {
+    "start": 1206.7,
+    "end": 1207.2,
+    "speaker": "Guest",
+    "text": "Yeah."
+  },
+  {
+    "start": 1207.2,
+    "end": 1218.52,
+    "speaker": "Host",
+    "text": "is also the LLM output I've seen from engineers that know the existing system really well is so much better. than the output from engineers that don't"
+  },
+  {
+    "start": 1218.52,
+    "end": 1219.27,
+    "speaker": "Guest",
+    "text": "Yeah, true."
+  },
+  {
+    "start": 1219.27,
+    "end": 1228.27,
+    "speaker": "Host",
+    "text": "so i do think like knowing and or creating a good theory of your program is more important than it has ever been and"
+  },
+  {
+    "start": 1228.27,
+    "end": 1228.97,
+    "speaker": "Guest",
+    "text": "Yeah, totally."
+  },
+  {
+    "start": 1228.97,
+    "end": 1242.87,
+    "speaker": "Host",
+    "text": "lm's can kind of help you with that they miss some stuff but they're really great to talk to about existing code bases if it's just a spaghetti mess then there's not a clear theory to form right away but even just knowing knowing the code base better is"
+  },
+  {
+    "start": 1242.9,
+    "end": 1244.55,
+    "speaker": "Host",
+    "text": "is higher leverage than before, I think."
+  },
+  {
+    "start": 1244.55,
+    "end": 1253.2,
+    "speaker": "Guest",
+    "text": "Yeah, I totally agree with that. And you know, it's interesting, what I've noticed is that engineers who are more experienced like this question asker, 13 years of experience,"
+  },
+  {
+    "start": 1253.35,
+    "end": 1264.9,
+    "speaker": "Guest",
+    "text": "it's possible that you've already started to get into this world a little bit, maybe a little bit more leadership, where you're giving instruction to other engineers, maybe a little bit more systems thinking, maybe a little bit more architecture."
+  },
+  {
+    "start": 1265.2,
+    "end": 1269.6,
+    "speaker": "Guest",
+    "text": "And I think LLMs are only going to make you more powerful because you..."
+  },
+  {
+    "start": 1270.036,
+    "end": 1298.036,
+    "speaker": "Guest",
+    "text": "Especially if this is true, but you've probably already gotten accustomed to writing code a smaller percentage of your time compared to your first year. You know when your first year it's kinda like take ticket, write code, you know, get code reviewed, ship to production. Okay, next ticket, write code. But you know, as you as you gain experience, you are often expected to do more of these architectural things, more of these direction um giving things. And I found that L_L_M_s takes people like that and turns them into just super powerful team members."
+  },
+  {
+    "start": 1298.26,
+    "end": 1309.16,
+    "speaker": "Guest",
+    "text": "And the last thing I would consider them is obsolete, because they know, like you were saying, Jameson, how to direct the LLMs, because they're used to directing people the same way, and LLMs are actually very, very similar to that,"
+  },
+  {
+    "start": 1309.21,
+    "end": 1319.56,
+    "speaker": "Guest",
+    "text": "and they're also used to making architectural level decisions, and LLMs are just not great at that yet. So that's where I would focus, is how to give great instruction, how to design great architecture,"
+  },
+  {
+    "start": 1319.71,
+    "end": 1324.76,
+    "speaker": "Guest",
+    "text": "how to really understand like how systems work, what are the choke points, what are the failure points."
+  },
+  {
+    "start": 1325.076,
+    "end": 1332.276,
+    "speaker": "Guest",
+    "text": "where the security problems like we were saying before and double down on that and I think you'll be definitely not obsolete at least for the foreseeable future"
+  },
+  {
+    "start": 1332.526,
+    "end": 1352.276,
+    "speaker": "Host",
+    "text": "security is an interesting one because i don't know a month or two ago by the time this episode comes out there was the big kerfuffle about mythos and anthropics new model that oh we we can't possibly release it because it's too good it's so good that it'll destroy the world with finding vulnerabilities and we've seen both a bunch of fixes flow into popular open source"
+  },
+  {
+    "start": 1352.18,
+    "end": 1357.73,
+    "speaker": "Host",
+    "text": "open source products and some people come out i read a blog post by the curl guy who"
+  },
+  {
+    "start": 1357.73,
+    "end": 1357.98,
+    "speaker": "Guest",
+    "text": "Mm-hmm."
+  },
+  {
+    "start": 1357.98,
+    "end": 1379.48,
+    "speaker": "Guest",
+    "text": "said yeah it's pretty good i don't know it found some stuff it found one bug one security bug that was pretty small i've been using frontier models for a while to look for security stuff and i don't know it's not that different so i think security is interesting because llms are both really good in some ways at finding security issues"
+  },
+  {
+    "start": 1380.212,
+    "end": 1392.112,
+    "speaker": "Guest",
+    "text": "But also, I think it does require a deep understanding of the project you're looking at to differentiate the noise from the signal. I've played around with them quite a bit. Well, not quite a bit. A moderate amount."
+  },
+  {
+    "start": 1392.724,
+    "end": 1395.424,
+    "speaker": "Guest",
+    "text": "on my work code base to look for security issues"
+  },
+  {
+    "start": 1395.424,
+    "end": 1395.674,
+    "speaker": "Host",
+    "text": "Yeah,"
+  },
+  {
+    "start": 1395.674,
+    "end": 1399.924,
+    "speaker": "Guest",
+    "text": "and was astonished at some of the stuff it found and had to wade through a bunch"
+  },
+  {
+    "start": 1399.924,
+    "end": 1399.974,
+    "speaker": "Host",
+    "text": "right,"
+  },
+  {
+    "start": 1399.974,
+    "end": 1400.524,
+    "speaker": "Guest",
+    "text": "of garbage to"
+  },
+  {
+    "start": 1400.524,
+    "end": 1400.824,
+    "speaker": "Host",
+    "text": "a lot of noise."
+  },
+  {
+    "start": 1400.824,
+    "end": 1419.674,
+    "speaker": "Guest",
+    "text": "identify what yeah what the noise was and i don't think i could have just like harnessed my way through to get just pure signal out of it i don't think i could have like arranged the prompts enough to only get the good stuff and none of the bad stuff so like you can go deep into security you"
+  },
+  {
+    "start": 1419.892,
+    "end": 1425.578,
+    "speaker": "Guest",
+    "text": "Also, LLMs are good at security. Also, I think you need good context to be good"
+  },
+  {
+    "start": 1425.578,
+    "end": 1425.628,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 1425.628,
+    "end": 1426.028,
+    "speaker": "Guest",
+    "text": "at it."
+  },
+  {
+    "start": 1426.028,
+    "end": 1426.178,
+    "speaker": "Host",
+    "text": ""
+  },
+  {
+    "start": 1426.178,
+    "end": 1426.728,
+    "speaker": "Guest",
+    "text": "I don't"
+  },
+  {
+    "start": 1426.728,
+    "end": 1426.878,
+    "speaker": "Host",
+    "text": "Also,"
+  },
+  {
+    "start": 1426.878,
+    "end": 1426.978,
+    "speaker": "Guest",
+    "text": "know."
+  },
+  {
+    "start": 1426.978,
+    "end": 1427.228,
+    "speaker": "Host",
+    "text": ""
+  },
+  {
+    "start": 1427.228,
+    "end": 1427.278,
+    "speaker": "Host",
+    "text": "Third"
+  },
+  {
+    "start": 1427.278,
+    "end": 1427.528,
+    "speaker": "Guest",
+    "text": "there's"
+  },
+  {
+    "start": 1427.528,
+    "end": 1427.728,
+    "speaker": "Host",
+    "text": "world."
+  },
+  {
+    "start": 1427.728,
+    "end": 1444.228,
+    "speaker": "Guest",
+    "text": "a difference in scope. Well, maybe scope isn't the right word. Maybe level of abstraction. There's a very big difference between finding security bugs in code and understanding the threat model of a system. It's like, oh, that's a buffer overflows,"
+  },
+  {
+    "start": 1444.228,
+    "end": 1444.578,
+    "speaker": "Host",
+    "text": "Like black"
+  },
+  {
+    "start": 1444.578,
+    "end": 1444.728,
+    "speaker": "Guest",
+    "text": "that's"
+  },
+  {
+    "start": 1444.728,
+    "end": 1444.828,
+    "speaker": "Host",
+    "text": "box,"
+  },
+  {
+    "start": 1444.828,
+    "end": 1445.228,
+    "speaker": "Guest",
+    "text": "a SQL injection."
+  },
+  {
+    "start": 1445.228,
+    "end": 1445.628,
+    "speaker": "Host",
+    "text": "white box."
+  },
+  {
+    "start": 1445.828,
+    "end": 1457.096,
+    "speaker": "Guest",
+    "text": "Or, oh, we have a problem over here where this authentication token that we use on this service is... this is also used over here and so if an attacker gets that one they get this one you know it's like that's a very different kind"
+  },
+  {
+    "start": 1457.096,
+    "end": 1457.196,
+    "speaker": "Host",
+    "text": "oh"
+  },
+  {
+    "start": 1457.196,
+    "end": 1457.496,
+    "speaker": "Guest",
+    "text": "of a very different"
+  },
+  {
+    "start": 1457.496,
+    "end": 1457.696,
+    "speaker": "Host",
+    "text": "sure"
+  },
+  {
+    "start": 1457.696,
+    "end": 1458.946,
+    "speaker": "Host",
+    "text": "level of analysis yeah"
+  },
+  {
+    "start": 1458.946,
+    "end": 1470.196,
+    "speaker": "Host",
+    "text": "yeah that's pretty timely there was a yet another tap to sign there was another npm ecosystem vulnerability or somebody got pwned and then someone used their credentials to publish a bunch of"
+  },
+  {
+    "start": 1470.196,
+    "end": 1471.346,
+    "speaker": "Host",
+    "text": "malicious packages"
+  },
+  {
+    "start": 1472.446,
+    "end": 1477.996,
+    "speaker": "Host",
+    "text": "malicious versions of popular packages and it was all around like system boundaries"
+  },
+  {
+    "start": 1478.004,
+    "end": 1487.704,
+    "speaker": "Host",
+    "text": "stuff of this github action runs in this context with this credentials that poisons the cache that then runs in another context with secure credentials and etc etc and it's"
+  },
+  {
+    "start": 1487.704,
+    "end": 1488.154,
+    "speaker": "Guest",
+    "text": "Yeah,"
+  },
+  {
+    "start": 1488.154,
+    "end": 1488.204,
+    "speaker": "Guest",
+    "text": ""
+  },
+  {
+    "start": 1488.204,
+    "end": 1488.504,
+    "speaker": "Guest",
+    "text": "it kind is."
+  },
+  {
+    "start": 1488.504,
+    "end": 1488.604,
+    "speaker": "Guest",
+    "text": "of mind"
+  },
+  {
+    "start": 1488.604,
+    "end": 1488.704,
+    "speaker": "Guest",
+    "text": "It's crazy."
+  },
+  {
+    "start": 1488.704,
+    "end": 1488.954,
+    "speaker": "Guest",
+    "text": "-bending"
+  },
+  {
+    "start": 1489.404,
+    "end": 1501.004,
+    "speaker": "Guest",
+    "text": "I think we're going to see a lot more of that. In fact, security might be, I don't know, this is a little crystal ball-y, but security might be an interesting area to specialize in for the coming years because I think"
+  },
+  {
+    "start": 1501.492,
+    "end": 1510.442,
+    "speaker": "Host",
+    "text": "We are I mean, we are I don't know. I've seen a lot more security incidents lately. There was the crazy structure hack that happened this week. The one you're talking about the tan stack hack."
+  },
+  {
+    "start": 1510.442,
+    "end": 1526.092,
+    "speaker": "Guest",
+    "text": "Yeah, there was a gigantic mega GitHub vulnerability that was not exploited, I think, but was insane where I think it gave you just access to everyone's private source code, as far as I can tell."
+  },
+  {
+    "start": 1526.692,
+    "end": 1531.956,
+    "speaker": "Guest",
+    "text": "And I think we're gonna see a lot more of that stuff and so And so hardening these systems against an adversary that is."
+  },
+  {
+    "start": 1532.564,
+    "end": 1557.364,
+    "speaker": "Guest",
+    "text": "just more powerful than ever is going to require a lot of human attention i think so that's an area you could focus on that i think won't become obsolete but who knows man that one of the one of the challenges with this question although the question asker was generous enough to say how do i focus on becoming not obsolete in the next one to two years i'm like yeah that's about the horizon right like one to two years i don't think anyone can see past that right now"
+  },
+  {
+    "start": 1557.364,
+    "end": 1557.464,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 1557.464,
+    "end": 1565.526,
+    "speaker": "Guest",
+    "text": "you know a few years ago i actually wrote i literally wrote a blog blog post. This is almost 10 years ago now, but I wrote a blog post. That wasn't 10 years ago, it was less. Anyway,"
+  },
+  {
+    "start": 1565.576,
+    "end": 1571.826,
+    "speaker": "Guest",
+    "text": "I wrote a blog post that said, here are the skills in software engineering that have served me continuously for 20 years. And I listed them out,"
+  },
+  {
+    "start": 1571.876,
+    "end": 1581.426,
+    "speaker": "Guest",
+    "text": "and I realized in the advent of LLMs, I think maybe all three of them, two of the three for sure, are basically you don't need them anymore. Like overnight,"
+  },
+  {
+    "start": 1581.626,
+    "end": 1591.844,
+    "speaker": "Guest",
+    "text": "they served me every day in my career for 20 years, and then LLMs have made them basically obsolete. So it is very hard. To anticipate which skills are going to be valuable and which skills are going to be obsolete."
+  },
+  {
+    "start": 1592.294,
+    "end": 1593.944,
+    "speaker": "Host",
+    "text": "Now I'm looking for your blog post."
+  },
+  {
+    "start": 1594.144,
+    "end": 1594.944,
+    "speaker": "Guest",
+    "text": "I'll have to dig that up."
+  },
+  {
+    "start": 1594.944,
+    "end": 1597.894,
+    "speaker": "Host",
+    "text": "See a bunch of Python stuff from twenty thirteen."
+  },
+  {
+    "start": 1597.944,
+    "end": 1598.344,
+    "speaker": "Guest",
+    "text": "That's old."
+  },
+  {
+    "start": 1598.594,
+    "end": 1601.494,
+    "speaker": "Host",
+    "text": "This is you, right? I found it. Yeah, maybe it maybe this is your old blog,"
+  },
+  {
+    "start": 1601.494,
+    "end": 1601.694,
+    "speaker": "Guest",
+    "text": "Oh,"
+  },
+  {
+    "start": 1601.694,
+    "end": 1601.744,
+    "speaker": "Host",
+    "text": "because I"
+  },
+  {
+    "start": 1601.744,
+    "end": 1601.944,
+    "speaker": "Guest",
+    "text": "it's have on"
+  },
+  {
+    "start": 1601.944,
+    "end": 1602.044,
+    "speaker": "Host",
+    "text": "seen"
+  },
+  {
+    "start": 1602.044,
+    "end": 1602.194,
+    "speaker": "Guest",
+    "text": "medium."
+  },
+  {
+    "start": 1602.194,
+    "end": 1602.644,
+    "speaker": "Guest",
+    "text": "anything from"
+  },
+  {
+    "start": 1602.644,
+    "end": 1602.744,
+    "speaker": "Host",
+    "text": "Yeah,"
+  },
+  {
+    "start": 1602.744,
+    "end": 1603.344,
+    "speaker": "Host",
+    "text": "you in in case the last that thirteen."
+  },
+  {
+    "start": 1603.344,
+    "end": 1603.544,
+    "speaker": "Guest",
+    "text": "helps."
+  },
+  {
+    "start": 1603.544,
+    "end": 1604.444,
+    "speaker": "Host",
+    "text": "Oh."
+  },
+  {
+    "start": 1605.236,
+    "end": 1607.086,
+    "speaker": "Host",
+    "text": "Okay. The title is The Three Highest"
+  },
+  {
+    "start": 1607.086,
+    "end": 1607.236,
+    "speaker": "Guest",
+    "text": "Well,"
+  },
+  {
+    "start": 1607.236,
+    "end": 1607.336,
+    "speaker": "Host",
+    "text": "oh"
+  },
+  {
+    "start": 1607.336,
+    "end": 1607.736,
+    "speaker": "Guest",
+    "text": "medium is"
+  },
+  {
+    "start": 1607.736,
+    "end": 1607.836,
+    "speaker": "Host",
+    "text": "yeah."
+  },
+  {
+    "start": 1607.836,
+    "end": 1608.786,
+    "speaker": "Guest",
+    "text": "also old now."
+  },
+  {
+    "start": 1608.786,
+    "end": 1610.386,
+    "speaker": "Host",
+    "text": "Oh, you're saying I've used"
+  },
+  {
+    "start": 1610.386,
+    "end": 1610.536,
+    "speaker": "Guest",
+    "text": "Now"
+  },
+  {
+    "start": 1610.536,
+    "end": 1610.686,
+    "speaker": "Guest",
+    "text": "two"
+  },
+  {
+    "start": 1610.686,
+    "end": 1610.836,
+    "speaker": "Host",
+    "text": "you've got"
+  },
+  {
+    "start": 1610.836,
+    "end": 1611.036,
+    "speaker": "Host",
+    "text": "different"
+  },
+  {
+    "start": 1611.036,
+    "end": 1611.336,
+    "speaker": "Host",
+    "text": "to be on substack."
+  },
+  {
+    "start": 1611.336,
+    "end": 1613.286,
+    "speaker": "Host",
+    "text": "fully deprecated blog platforms?"
+  },
+  {
+    "start": 1613.736,
+    "end": 1623.786,
+    "speaker": "Guest",
+    "text": "Well, no, you got to s- well, I don't like going to blog platforms because I feel like they're all going to go away eventually and I'd rather just have my stuff on my own website."
+  },
+  {
+    "start": 1623.786,
+    "end": 1624.436,
+    "speaker": "Host",
+    "text": "Anyway."
+  },
+  {
+    "start": 1625.786,
+    "end": 1626.036,
+    "speaker": "Guest",
+    "text": "Anyways."
+  },
+  {
+    "start": 1626.036,
+    "end": 1632.636,
+    "speaker": "Guest",
+    "text": "But it's hard. It's hard to anticipate, but right now what I can see is that developers who are"
+  },
+  {
+    "start": 1632.596,
+    "end": 1656.896,
+    "speaker": "Guest",
+    "text": "are crazy skilled at understanding complex systems holding lots of context in their mind and going way beyond just like this source file behaves this way on this line like who go outside of that purview some of them are very happy and they're also extremely valuable maybe even more valuable than ever in fact i would say the Yeah, gulf is widening you know it's always been the case for at least for the last 10 or 15 years"
+  },
+  {
+    "start": 1656.896,
+    "end": 1657.096,
+    "speaker": "Host",
+    "text": "yeah,"
+  },
+  {
+    "start": 1657.096,
+    "end": 1657.596,
+    "speaker": "Host",
+    "text": "yeah"
+  },
+  {
+    "start": 1657.596,
+    "end": 1670.632,
+    "speaker": "Guest",
+    "text": "the floor is much higher. Now, because LLMs are much better than like, I don't know how to say this without sounding callous, but very bad software developers. LLMs are just way better than very bad software developers."
+  },
+  {
+    "start": 1671.082,
+    "end": 1678.332,
+    "speaker": "Guest",
+    "text": "And I'll say like, again, how do I say this without sounding kind of arrogant or callous, but there are so many things that I"
+  },
+  {
+    "start": 1678.332,
+    "end": 1678.382,
+    "speaker": "Host",
+    "text": "You"
+  },
+  {
+    "start": 1678.382,
+    "end": 1678.582,
+    "speaker": "Guest",
+    "text": "can now."
+  },
+  {
+    "start": 1678.582,
+    "end": 1681.382,
+    "speaker": "Guest",
+    "text": "just own it. You know what? We are arrogant and callous."
+  },
+  {
+    "start": 1681.382,
+    "end": 1682.332,
+    "speaker": "Host",
+    "text": "Okay, there you go."
+  },
+  {
+    "start": 1682.332,
+    "end": 1687.69,
+    "speaker": "Host",
+    "text": "You've listened to 513 episodes. It's time to reveal. Ha ha ha ha ha!"
+  },
+  {
+    "start": 1687.69,
+    "end": 1688.59,
+    "speaker": "Guest",
+    "text": "The truth comes out."
+  },
+  {
+    "start": 1688.59,
+    "end": 1691.54,
+    "speaker": "Guest",
+    "text": "I'm twirling my very short mustache hairs."
+  },
+  {
+    "start": 1691.74,
+    "end": 1701.14,
+    "speaker": "Guest",
+    "text": "You know, for many, many years as a software engineer, I've had more ideas of things I can do on my code or in for my team than I could possibly ever actually do."
+  },
+  {
+    "start": 1701.34,
+    "end": 1716.64,
+    "speaker": "Guest",
+    "text": "And now I can just do them. And this makes me more valuable to the company because there's like there's information I can find. There's there are tools I can build. There are little scripts that just are not worth the time to create in the past. Like I don't have three."
+  },
+  {
+    "start": 1716.468,
+    "end": 1722.718,
+    "speaker": "Guest",
+    "text": "I have three days to create this thing and iterate on it. But I do have three minutes to prompt an LLM and get it and it'll probably work in another three minutes."
+  },
+  {
+    "start": 1722.818,
+    "end": 1735.268,
+    "speaker": "Guest",
+    "text": "And so for me, this has made me a lot more valuable. Not because I'm good at using the LLM, which I'm like okay at it, but because I have these ideas and the ideas only come because I have a deep and broad understanding of the systems I work on at work."
+  },
+  {
+    "start": 1736.468,
+    "end": 1745.26,
+    "speaker": "Host",
+    "text": "I'm glad you called that out. I felt that a lot and haven't really explicitly said it. But the amount of times 10 years ago I've said. and will probably never do this is"
+  },
+  {
+    "start": 1745.26,
+    "end": 1745.81,
+    "speaker": "Guest",
+    "text": "Right."
+  },
+  {
+    "start": 1745.81,
+    "end": 1747.06,
+    "speaker": "Host",
+    "text": "much lower than the amount"
+  },
+  {
+    "start": 1747.06,
+    "end": 1747.11,
+    "speaker": "Guest",
+    "text": "Yeah."
+  },
+  {
+    "start": 1747.11,
+    "end": 1756.86,
+    "speaker": "Host",
+    "text": "of times I say it now because yeah here's this great thing that would that would improve the developer workflow or fix this nagging bug in this area of the code base that isn't that used"
+  },
+  {
+    "start": 1757.652,
+    "end": 1764.652,
+    "speaker": "Guest",
+    "text": "And here's the PR for it is it's easier to say one other idea is you can move more into product facing"
+  },
+  {
+    "start": 1764.652,
+    "end": 1765.152,
+    "speaker": "Host",
+    "text": "Mm-hmm."
+  },
+  {
+    "start": 1765.152,
+    "end": 1775.752,
+    "speaker": "Guest",
+    "text": "work. Probably the engineer I know who's the best at LLM use or maybe the most AI pilled told me a while ago, I think I'm just going to."
+  },
+  {
+    "start": 1776.148,
+    "end": 1803.148,
+    "speaker": "Guest",
+    "text": "go be a product person like i'll still sort of now i'm paraphrasing but my reading of that was he's still gonna maybe poke at the code a little bit but he's just gonna work at the level of abstraction not at kind of the architecture and system level but at the like build these features for this user set level which is another interesting direction not everyone likes that or could be good at it but there's always been that shape of engineer that's really product"
+  },
+  {
+    "start": 1803.028,
+    "end": 1818.978,
+    "speaker": "Guest",
+    "text": "product focused and they kind of do the technical work because they want to get the satisfaction of like shipping the feature that they think should exist and you could go really far in that direction now and i think you are much more empowered than you were before if you had to write all the code by yourself i"
+  },
+  {
+    "start": 1818.978,
+    "end": 1819.478,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 1819.478,
+    "end": 1829.628,
+    "speaker": "Guest",
+    "text": "think in a way it's maybe maybe your product skills are a little bit weaker than if you are a product person trying to use an llm to ship code and you don't have the technical stuff but"
+  },
+  {
+    "start": 1829.972,
+    "end": 1834.922,
+    "speaker": "Guest",
+    "text": "I think you could probably go a lot farther coming from the engineering side with an LLM than from"
+  },
+  {
+    "start": 1834.922,
+    "end": 1835.222,
+    "speaker": "Host",
+    "text": "Yes,"
+  },
+  {
+    "start": 1835.222,
+    "end": 1835.622,
+    "speaker": "Guest",
+    "text": "the product side"
+  },
+  {
+    "start": 1835.622,
+    "end": 1835.872,
+    "speaker": "Host",
+    "text": "that is"
+  },
+  {
+    "start": 1835.872,
+    "end": 1836.022,
+    "speaker": "Guest",
+    "text": "with"
+  },
+  {
+    "start": 1836.022,
+    "end": 1836.122,
+    "speaker": "Host",
+    "text": "definitely"
+  },
+  {
+    "start": 1836.122,
+    "end": 1839.772,
+    "speaker": "Guest",
+    "text": "an LLM if you just want to like deliver excellent products to users."
+  },
+  {
+    "start": 1839.772,
+    "end": 1847.572,
+    "speaker": "Host",
+    "text": "Yeah, that definitely makes sense to me, especially if you're in a more technical domain, like if your product space is in a more technical domain. I want to talk about fundamentals for a minute."
+  },
+  {
+    "start": 1847.622,
+    "end": 1857.822,
+    "speaker": "Host",
+    "text": "I've been a strong proponent over the last 20 years of everyone learning computer science fundamentals, things like runtime complexity, things like different data structures and algorithms."
+  },
+  {
+    "start": 1857.972,
+    "end": 1873.272,
+    "speaker": "Guest",
+    "text": "things like how database indexes work under the hood you know things like that i've always been a big proponent of that and i don't think i am as big of a proponent of that anymore because it's so much easier to learn just-in-time fundamentals now"
+  },
+  {
+    "start": 1873.94,
+    "end": 1884.49,
+    "speaker": "Guest",
+    "text": "So I think I think what I would pivot to say, so and directly answering the question, what should I focus on learning now, I would directly pivot to breadth over depth and then just in time depth."
+  },
+  {
+    "start": 1884.79,
+    "end": 1890.24,
+    "speaker": "Guest",
+    "text": "Here's what I mean by that. You need to know that something exists in order to know that"
+  },
+  {
+    "start": 1890.708,
+    "end": 1918.108,
+    "speaker": "Guest",
+    "text": "it's time to look into it to go deeper but you don't need to go super deep into it right like before you need it because now llms can teach that stuff to you you know if you're like oh i think this is a case for a red black binary tree i've heard about red black binary trees i don't remember how they work but i think this might be one of those things hey llm teach me everything about this and show me sample code and and help me like and then quiz me make sure i understand it right it's like that is so much more efficient now for learning these things"
+  },
+  {
+    "start": 1918.388,
+    "end": 1923.838,
+    "speaker": "Guest",
+    "text": "But if you don't know to ask the question, the LLM won't necessarily tell you to ask it."
+  },
+  {
+    "start": 1923.888,
+    "end": 1940.688,
+    "speaker": "Guest",
+    "text": "I had a memory leak in production. I think it'd been happening for a long time, but I didn't notice it until some parameters got tweaked that then exposed it a lot more. And I have idly read a bunch of blog posts about working,"
+  },
+  {
+    "start": 1940.788,
+    "end": 1947.71,
+    "speaker": "Guest",
+    "text": "I don't know, debugging memory leaks in Node. And I think I've given a talk about memory leaks in JavaScript. script like a decade or two ago"
+  },
+  {
+    "start": 1947.71,
+    "end": 1947.96,
+    "speaker": "Host",
+    "text": "Mm"
+  },
+  {
+    "start": 1947.96,
+    "end": 1948.11,
+    "speaker": "Guest",
+    "text": "but"
+  },
+  {
+    "start": 1948.11,
+    "end": 1948.26,
+    "speaker": "Host",
+    "text": "-hmm,"
+  },
+  {
+    "start": 1948.26,
+    "end": 1953.61,
+    "speaker": "Guest",
+    "text": "i had never gone into like a prod service that was failing live with memory leak"
+  },
+  {
+    "start": 1953.61,
+    "end": 1953.96,
+    "speaker": "Host",
+    "text": "mm-hmm."
+  },
+  {
+    "start": 1953.96,
+    "end": 1964.86,
+    "speaker": "Guest",
+    "text": "issues so i had this vague awareness of all these tools and techniques i didn't remember them all i hadn't used them all deeply and with the help of llms i built a pretty"
+  },
+  {
+    "start": 1965.556,
+    "end": 1984.606,
+    "speaker": "Guest",
+    "text": "useful and convenient and powerful workflow out of all these different tools because people have spent a ton of time investing in heap dumps and profiling and like there's a huge ecosystem out there that i don't know very well but kind of vaguely knowing of it enough helped me dig really deeply into this problem and solve it yeah"
+  },
+  {
+    "start": 1984.606,
+    "end": 1988.456,
+    "speaker": "Host",
+    "text": "Knowing that the ecosystem exists, right? And like knowing that there are mature tools."
+  },
+  {
+    "start": 1988.906,
+    "end": 1989.156,
+    "speaker": "Guest",
+    "text": "yeah"
+  },
+  {
+    "start": 1989.156,
+    "end": 1990.156,
+    "speaker": "Host",
+    "text": "Now you know what to ask."
+  },
+  {
+    "start": 1990.156,
+    "end": 2001.256,
+    "speaker": "Guest",
+    "text": "heap snapshots sure yeah and i can I can then analyze them somehow, I'm sure, with some tools that I can Google for or ask the LM about. And then it helped me solve this problem that I..."
+  },
+  {
+    "start": 2001.652,
+    "end": 2005.252,
+    "speaker": "Guest",
+    "text": "probably would not have certainly would not have solved this quickly"
+  },
+  {
+    "start": 2005.252,
+    "end": 2005.452,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 2005.452,
+    "end": 2014.802,
+    "speaker": "Guest",
+    "text": "and possibly would not have solved at all and would have just said i guess our server restarts every once in a while like we're back to ruby 2007"
+  },
+  {
+    "start": 2014.802,
+    "end": 2015.202,
+    "speaker": "Host",
+    "text": "Yep."
+  },
+  {
+    "start": 2015.202,
+    "end": 2017.752,
+    "speaker": "Guest",
+    "text": "where you just restart every few hours"
+  },
+  {
+    "start": 2017.752,
+    "end": 2017.902,
+    "speaker": "Host",
+    "text": "Every"
+  },
+  {
+    "start": 2017.902,
+    "end": 2018.152,
+    "speaker": "Guest",
+    "text": "that's"
+  },
+  {
+    "start": 2018.152,
+    "end": 2018.652,
+    "speaker": "Host",
+    "text": "300 requests,"
+  },
+  {
+    "start": 2018.652,
+    "end": 2018.952,
+    "speaker": "Guest",
+    "text": "how it goes"
+  },
+  {
+    "start": 2018.952,
+    "end": 2031.872,
+    "speaker": "Host",
+    "text": "you must restart. Yeah, that's a really good point. So but why it's interesting. You knew keywords. And you knew about like fields of study that existed, even though you weren't necessarily an expert in those things. And that's all you need now."
+  },
+  {
+    "start": 2032.272,
+    "end": 2039.272,
+    "speaker": "Host",
+    "text": "And then you just in time dive in. And I thought keyword knowledge has always been valuable, like knowing, for example, just knowing that that's called a memory leak."
+  },
+  {
+    "start": 2039.86,
+    "end": 2048.96,
+    "speaker": "Host",
+    "text": "You know, just knowing that term at all helps you to now go and in the past search Stack Overflow or Google for like memory leak tools in Node.js, right? Like things like that."
+  },
+  {
+    "start": 2049.41,
+    "end": 2059.41,
+    "speaker": "Guest",
+    "text": "But now it's like probably 10 times more valuable to know those keywords because you can tell an LLM, I have a memory leak. I need to investigate it. I can give you a heap dump because I know that keyword too."
+  },
+  {
+    "start": 2059.86,
+    "end": 2068.612,
+    "speaker": "Guest",
+    "text": "Show me how to do it, you know, and then it'll be like, oh, sure, I can walk you through that. But if you were just like, hey, my server. It dies every once in a while. I don't know why."
+  },
+  {
+    "start": 2068.962,
+    "end": 2074.162,
+    "speaker": "Guest",
+    "text": "You know, the LLM is going to be like, well, here's 25 possibilities that you might look into, and none of them are going to be right."
+  },
+  {
+    "start": 2074.362,
+    "end": 2079.462,
+    "speaker": "Host",
+    "text": "Yeah. Exciting times to know a little bit about a lot of things."
+  },
+  {
+    "start": 2079.912,
+    "end": 2081.012,
+    "speaker": "Guest",
+    "text": "Yes, very true."
+  },
+  {
+    "start": 2081.162,
+    "end": 2092.478,
+    "speaker": "Host",
+    "text": "One last thing you could do is go where there's no training data or little training data. So it's time to write your own programming language that's not in the corpus and"
+  },
+  {
+    "start": 2094.278,
+    "end": 2105.728,
+    "speaker": "Host",
+    "text": "make it different enough that it cannot be easily figured out by an LLM, although I think I've seen some posts about it writing brand new languages, so maybe that doesn't work, but I don't know, I bet,"
+  },
+  {
+    "start": 2105.828,
+    "end": 2112.608,
+    "speaker": "Host",
+    "text": "I'm trying to think of what domains would not be well covered by LLMs. By default it means they're sort"
+  },
+  {
+    "start": 2112.608,
+    "end": 2112.658,
+    "speaker": "Guest",
+    "text": "Yeah."
+  },
+  {
+    "start": 2112.658,
+    "end": 2130.158,
+    "speaker": "Host",
+    "text": "of out of the mainstream but maybe it's time to get into radar analysis signal data i don't know whatever like web dev pretty well covered by lm's so if you want to do a lot by hand go somewhere where it can't easily do that by hand all right have we answered the"
+  },
+  {
+    "start": 2130.158,
+    "end": 2130.208,
+    "speaker": "Guest",
+    "text": "I"
+  },
+  {
+    "start": 2130.208,
+    "end": 2130.458,
+    "speaker": "Host",
+    "text": "question best"
+  },
+  {
+    "start": 2130.458,
+    "end": 2130.758,
+    "speaker": "Guest",
+    "text": "think so."
+  },
+  {
+    "start": 2130.758,
+    "end": 2130.858,
+    "speaker": "Host",
+    "text": ""
+  },
+  {
+    "start": 2130.858,
+    "end": 2131.308,
+    "speaker": "Host",
+    "text": "Good luck."
+  },
+  {
+    "start": 2131.308,
+    "end": 2137.908,
+    "speaker": "Guest",
+    "text": "of luck to you best of luck to us all i do not know what i'll be doing a year or two from now but i believe"
+  },
+  {
+    "start": 2137.908,
+    "end": 2138.058,
+    "speaker": "Host",
+    "text": "It's"
+  },
+  {
+    "start": 2138.058,
+    "end": 2138.258,
+    "speaker": "Guest",
+    "text": "it'll so be"
+  },
+  {
+    "start": 2138.258,
+    "end": 2138.308,
+    "speaker": "Host",
+    "text": "true."
+  },
+  {
+    "start": 2138.308,
+    "end": 2142.48,
+    "speaker": "Guest",
+    "text": "more different than it has been you after a year or two passes."
+  },
+  {
+    "start": 2142.48,
+    "end": 2143.03,
+    "speaker": "Host",
+    "text": "That's right"
+  },
+  {
+    "start": 2143.956,
+    "end": 2147.056,
+    "speaker": "Host",
+    "text": "That makes sense. What can people do if they want their own questions answered?"
+  },
+  {
+    "start": 2147.206,
+    "end": 2157.606,
+    "speaker": "Guest",
+    "text": "Yes, if they want their own questions answered, go to softskills to audio and click the ask a question button where you can fill out our little form. We express our deepest heartfelt thanks to all of those of you who submit those questions."
+  },
+  {
+    "start": 2157.956,
+    "end": 2166.156,
+    "speaker": "Guest",
+    "text": "As you know, this is an unreliable free-tiered TTS service, and we stand behind that. And I think we do a pretty good job of reading the words that you say."
+  },
+  {
+    "start": 2166.456,
+    "end": 2168.056,
+    "speaker": "Guest",
+    "text": "Sometimes it is lossy. Sometimes the"
+  },
+  {
+    "start": 2168.056,
+    "end": 2168.256,
+    "speaker": "Host",
+    "text": "Yeah, a"
+  },
+  {
+    "start": 2168.256,
+    "end": 2168.306,
+    "speaker": "Guest",
+    "text": "words"
+  },
+  {
+    "start": 2168.306,
+    "end": 2168.506,
+    "speaker": "Host",
+    "text": "little bit."
+  },
+  {
+    "start": 2168.506,
+    "end": 2169.206,
+    "speaker": "Guest",
+    "text": "get tweaked."
+  },
+  {
+    "start": 2169.206,
+    "end": 2170.706,
+    "speaker": "Host",
+    "text": "A little bit. But that's why it's a free tier."
+  },
+  {
+    "start": 2170.706,
+    "end": 2171.506,
+    "speaker": "Host",
+    "text": "But we read them all."
+  },
+  {
+    "start": 2171.732,
+    "end": 2172.432,
+    "speaker": "Host",
+    "text": "Yes, if"
+  },
+  {
+    "start": 2172.432,
+    "end": 2172.582,
+    "speaker": "Guest",
+    "text": "Yes."
+  },
+  {
+    "start": 2172.582,
+    "end": 2185.632,
+    "speaker": "Host",
+    "text": "you want the actual legitimately red TTS, go to softskills.audio and click the Support Us on Patreon button and submit the dollar amount that will get you a weekly shout out on the show, and we will say your entire Patreon profile name every week."
+  },
+  {
+    "start": 2186.082,
+    "end": 2194.182,
+    "speaker": "Guest",
+    "text": "Yep. And someday they're going to bump it up and a big post will come out saying, good news, you can now post megabytes of text as your Patreon profile name and then maybe"
+  },
+  {
+    "start": 2194.182,
+    "end": 2195.482,
+    "speaker": "Host",
+    "text": "Oh, we're in so much trouble."
+  },
+  {
+    "start": 2195.482,
+    "end": 2196.482,
+    "speaker": "Guest",
+    "text": "that will kill the podcast."
+  },
+  {
+    "start": 2196.482,
+    "end": 2198.982,
+    "speaker": "Host",
+    "text": "Yes, exactly. It's just hours and hours."
+  },
+  {
+    "start": 2199.028,
+    "end": 2199.078,
+    "speaker": "Guest",
+    "text": "Or is it?"
+  },
+  {
+    "start": 2199.078,
+    "end": 2207.178,
+    "speaker": "Host",
+    "text": "But until then, we remain diligent and dedicated to answering every single question. Thank you. We'll catch you next week."
+  }
+]

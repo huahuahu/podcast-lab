@@ -1,0 +1,495 @@
+{
+  "summary": {
+    "OK": 68,
+    "FLIP": 2,
+    "UNSURE": 8
+  },
+  "suspicious": [
+    {
+      "idx": 34,
+      "current": "HOST",
+      "reason": "前半句还是主持人广告收尾，但后半句“嗯，Timescript...”明显是在开始回答问题，更像嘉宾。",
+      "text": "设置一次，全年都能保持掌控。今天就通过我的链接注册 Superhuman Mail，可免费试用一个月。如果你想连接 Claw、ChatGPT 和其他 AI 工具，记得注册 business plan。现在回到视频。嗯，Timescript，这个故事大概得从 50……",
+      "prev": "每次都会自动套用，不用你每次都手动改成符合自己声音和语气的版本。对我来说，最大的改变是 AI 能真正帮我准备一天的工作。它可以把我的所有任务和洞察整理起来，帮我生成一份待办清单。",
+      "next": "15 年前说起，当时 Microsoft 的 Outlook 团队来找我们，那时候我在做 C sharp。他们来问我们，嘿，你们能不能把一个叫 script shop 的东西产品化？我当时想，什么是 script shop？他们说，就是一个能把 C sharp 交叉编译成 JavaScript 的东西。我说，好吧，那为什么会有人想这么做？他们说，因为这是我们唯一能在大型项目上获得优秀工具支持和可扩展性的办法，而我们正在用 javascript 写一个超大型应用，因为那时候大家都在往浏览器迁移，而 javascript 是真正的跨平台方案。你知道，当时出现了各种各样的设备形态，比如手机和平板。"
+    },
+    {
+      "idx": 53,
+      "current": "GUEST",
+      "reason": "单字“写”更像上一句或下一句的转写残留，不像嘉宾独立发言，且紧接主持人提问前更可能属于主持人串句。",
+      "text": "写。",
+      "prev": "有意思。",
+      "next": "如果我是一个刚入行的技术新人，想进 Microsoft 这样的大型科技公司，你最重要的一条建议是什么？"
+    }
+  ],
+  "all": [
+    {
+      "idx": 0,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "像是主持人抛出的开场问题，后面紧接嘉宾完整回答。"
+    },
+    {
+      "idx": 1,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "内容是对上一句提问的展开回应，符合嘉宾角色。"
+    },
+    {
+      "idx": 2,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "继续追问具体话题，符合主持人推进访谈节奏。"
+    },
+    {
+      "idx": 3,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "明显是在回答对 vibe coding 的看法，承接自然。"
+    },
+    {
+      "idx": 4,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是新的采访问题，符合主持人发问。"
+    },
+    {
+      "idx": 5,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "虽简短但仍是对常见错误的回答，像嘉宾观点输出。"
+    },
+    {
+      "idx": 6,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "提问嘉宾个人经历，典型主持人发问。"
+    },
+    {
+      "idx": 7,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "以“这个故事得从…”开头，明显是嘉宾开始讲述。"
+    },
+    {
+      "idx": 8,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是节目式介绍和铺垫，明显是主持人口播。"
+    },
+    {
+      "idx": 9,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "延续上一段介绍和渲染，仍是主持人口吻。"
+    },
+    {
+      "idx": 10,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "先做节目导语再抛出问题，符合主持人长段开场。"
+    },
+    {
+      "idx": 11,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回应“还有必要学编程吗”，是嘉宾立场表达。"
+    },
+    {
+      "idx": 12,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "继续追问 AI 是否取代程序员，符合主持人提问。"
+    },
+    {
+      "idx": 13,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "完整回答上一问，并展开论证，符合嘉宾。"
+    },
+    {
+      "idx": 14,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "主持人举例补充并引用他人观点，为下个问题铺垫。"
+    },
+    {
+      "idx": 15,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "延续上一段总结后转入个人经历提问，仍是主持人。"
+    },
+    {
+      "idx": 16,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "开始讲自己的职业经历，明显是嘉宾叙述。"
+    },
+    {
+      "idx": 17,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续上一段故事，没有切换迹象，仍应是嘉宾。"
+    },
+    {
+      "idx": 18,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "短促插话“对吧”式接梗，符合主持人中途接话。"
+    },
+    {
+      "idx": 19,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "接住主持人的补充并继续讲述项目初衷，衔接自然。"
+    },
+    {
+      "idx": 20,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是典型主持人追问举例的问题句，衔接前文自然。"
+    },
+    {
+      "idx": 21,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回答上一句关于语言特性的提问，内容展开也符合嘉宾角色。"
+    },
+    {
+      "idx": 22,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "再次由主持人发问切换到应用场景，结构合理。"
+    },
+    {
+      "idx": 23,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这是对上一问的具体回答，明显是嘉宾在举例说明。"
+    },
+    {
+      "idx": 24,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续上一段的回答继续展开学习建议，没有说话人切换迹象。"
+    },
+    {
+      "idx": 25,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "用“对”收束后抛出新问题，符合主持人推进话题的节奏。"
+    },
+    {
+      "idx": 26,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "回应关于C#发展规模的提问，并加入个人感受与历史回顾，符合嘉宾。"
+    },
+    {
+      "idx": 27,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "主持人明确快进到下一话题并提问 TypeScript，转场很典型。"
+    },
+    {
+      "idx": 28,
+      "current": "GUEST",
+      "verdict": "UNSURE",
+      "reason": "只有“结果”一词，像转写残片，无法可靠判断说话人。"
+    },
+    {
+      "idx": 29,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "明显是主持人口播赞助广告的开场语气，与上下文转场一致。"
+    },
+    {
+      "idx": 30,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "持续广告演示内容，第一人称体验分享也符合主持人口播。"
+    },
+    {
+      "idx": 31,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "仍在延续广告功能介绍，没有对话互动迹象。"
+    },
+    {
+      "idx": 32,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "继续讲产品使用细节和卖点，显然还是广告段落。"
+    },
+    {
+      "idx": 33,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "延续赞助口播，语气和内容都保持一致。"
+    },
+    {
+      "idx": 34,
+      "current": "HOST",
+      "verdict": "FLIP",
+      "reason": "前半句还是主持人广告收尾，但后半句“嗯，Timescript...”明显是在开始回答问题，更像嘉宾。"
+    },
+    {
+      "idx": 35,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "承接上一句开始讲 TypeScript 起源的长段叙述，符合嘉宾回答。"
+    },
+    {
+      "idx": 36,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续补充当时浏览器和平台背景，明显是同一回答延续。"
+    },
+    {
+      "idx": 37,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "仍在展开 TypeScript 诞生背景与个人判断，符合嘉宾长答。"
+    },
+    {
+      "idx": 38,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "总结 TypeScript 起源并点题，和前文连贯一致。"
+    },
+    {
+      "idx": 39,
+      "current": "GUEST",
+      "verdict": "UNSURE",
+      "reason": "内容与上一段几乎完全重复，像重复转写片段，无法据此判断标注是否有效。"
+    },
+    {
+      "idx": 40,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续前文长篇解释语言设计与静态类型系统，明显是嘉宾在展开论述。"
+    },
+    {
+      "idx": 41,
+      "current": "HOST",
+      "verdict": "UNSURE",
+      "reason": "单字“更”像打断接话或转写残片，无法仅凭文本稳定判断说话人。"
+    },
+    {
+      "idx": 42,
+      "current": "GUEST",
+      "verdict": "UNSURE",
+      "reason": "短语“还有我们的语言”像被拆碎的同一句话片段，缺少足够上下文判断。"
+    },
+    {
+      "idx": 43,
+      "current": "HOST",
+      "verdict": "UNSURE",
+      "reason": "单字“像”明显是残句片段，无法可靠判断归属。"
+    },
+    {
+      "idx": 44,
+      "current": "GUEST",
+      "verdict": "UNSURE",
+      "reason": "单词“服务”与前后拼接感很强，单独看无法判断说话人。"
+    },
+    {
+      "idx": 45,
+      "current": "HOST",
+      "verdict": "UNSURE",
+      "reason": "“开发者体验方面的”像一句被切碎的话中段，证据不足。"
+    },
+    {
+      "idx": 46,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这是对开发者体验价值的完整展开，语气和内容都像嘉宾继续解释。"
+    },
+    {
+      "idx": 47,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "带轻微调侃和补充异议，符合主持人插话回应的节奏。"
+    },
+    {
+      "idx": 48,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回应主持人的 Python 例子并继续阐述观点，嘉宾标注合理。"
+    },
+    {
+      "idx": 49,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "前半句总结，后半句明确发问，典型主持人转场提问。"
+    },
+    {
+      "idx": 50,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这是对“常犯错误”问题的系统回答，明显属于嘉宾。"
+    },
+    {
+      "idx": 51,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续上一段同一论点的延伸，没有换人迹象。"
+    },
+    {
+      "idx": 52,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "简短反馈“有意思”很像主持人在听完后接话。"
+    },
+    {
+      "idx": 53,
+      "current": "GUEST",
+      "verdict": "FLIP",
+      "reason": "单字“写”更像上一句或下一句的转写残留，不像嘉宾独立发言，且紧接主持人提问前更可能属于主持人串句。"
+    },
+    {
+      "idx": 54,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "明确以“如果我是...”提出新问题，典型主持人发问。"
+    },
+    {
+      "idx": 55,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接给出求职建议并展开说明，符合嘉宾回答。"
+    },
+    {
+      "idx": 56,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "再次抛出开放式问题，引导嘉宾谈 AI 时代建议，主持人标注合理。"
+    },
+    {
+      "idx": 57,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "先限定问题条件再分类展开，明显是嘉宾作答。"
+    },
+    {
+      "idx": 58,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续上一段从个人兴趣角度深入说明，没有换人信号。"
+    },
+    {
+      "idx": 59,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是对嘉宾观点的总结式回应，符合主持人接话风格。"
+    },
+    {
+      "idx": 60,
+      "current": "GUEST",
+      "verdict": "UNSURE",
+      "reason": "单独一个“对”过短，缺少足够上下文判断说话人。"
+    },
+    {
+      "idx": 61,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "明显是主持人承接并抛出新问题，符合访谈推进节奏。"
+    },
+    {
+      "idx": 62,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回答上一句提问并展开个人经历，符合嘉宾长回应。"
+    },
+    {
+      "idx": 63,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续上一段自述内容，没有换人迹象。"
+    },
+    {
+      "idx": 64,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续补充观点，仍是对学位是否值得的完整回答。"
+    },
+    {
+      "idx": 65,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "简短“嗯哼”像主持人的倾听反馈，用来鼓励嘉宾继续说。"
+    },
+    {
+      "idx": 66,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "顺着主持人的反馈继续延展个人看法，符合嘉宾发言。"
+    },
+    {
+      "idx": 67,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "“最后一个问题”是典型主持人收束并提问的话术。"
+    },
+    {
+      "idx": 68,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回应AI是否取代工程师的问题，符合嘉宾作答。"
+    },
+    {
+      "idx": 69,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "与上一段同一论点连续展开，明显还是嘉宾在回答。"
+    },
+    {
+      "idx": 70,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "基于嘉宾回答继续追问未来角色变化，符合主持人提问。"
+    },
+    {
+      "idx": 71,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "完整回答五年后工程师做什么，符合嘉宾长段输出。"
+    },
+    {
+      "idx": 72,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "单个“呃”像主持人插入式接话，准备承接嘉宾未完的话。"
+    },
+    {
+      "idx": 73,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "与下一句连起来像嘉宾被轻微打断后继续说“AI它不会做那个”。"
+    },
+    {
+      "idx": 74,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "“嗯，对”是主持人的附和性反馈，节奏上合理。"
+    },
+    {
+      "idx": 75,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "承接上一词“AI”继续完成句子并收束观点，明显是嘉宾。"
+    },
+    {
+      "idx": 76,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "进入结尾、点赞订阅和newsletter导流，典型主持人口播。"
+    },
+    {
+      "idx": 77,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "延续上一段结尾导流话术，显然仍是主持人。"
+    }
+  ]
+}

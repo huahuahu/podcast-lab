@@ -1,0 +1,1466 @@
+[
+  {
+    "start": 0.691,
+    "end": 17.825,
+    "speaker": "Host",
+    "text": "Anders Hegelberg is one of the biggest loving legends in the tech industry. He created Turbo Pascal, Delphi, C Sharp, and TypeScript. The impact he has had on programming languages and developer tools is immense. Today with Anders we discuss how C Sharp might have not been born if it was not for the Sun versus Microsoft lawsuit over Java."
+  },
+  {
+    "start": 18.046,
+    "end": 33.545,
+    "speaker": "Host",
+    "text": "The behind the scenes story of TypeScript and why open sourcing it was a huge deal inside of Microsoft. What he's learned from 40 years of designing languages, including why IDs and programming languages go hand in hand, and many more. If you want a behind the scenes look at how three of the most used programming languages in history got built,"
+  },
+  {
+    "start": 33.926,
+    "end": 52.474,
+    "speaker": "Host",
+    "text": "and how AI might change our usage of programming languages, this episode is for you. Before we start, I'd like to introduce our presenting sponsor for the season, Antisysys. A definite trend that I'm seeing across the industry is a lot more focused on testing, unsurprisingly, thanks to AI. We know that software is hard to test, and we also know that AI is making it worse,"
+  },
+  {
+    "start": 52.815,
+    "end": 73.35,
+    "speaker": "Host",
+    "text": "thanks to producing increasingly more code and more complex code. The bottleneck is becoming reviewing the code, testing it, and trusting it. Or is it? We tend to think that code reviews are the bottleneck because you cannot scale human reviewers with token spend. But the problem actually goes beyond code review. Really, it's about verification. We know that AI cannot verify itself."
+  },
+  {
+    "start": 73.611,
+    "end": 94.15,
+    "speaker": "Host",
+    "text": "To verify the correctness of AI-generated software, we would need to cache issues that traditional tests miss, including issues that we did not even think of in a code base that is changing at superhuman speed. Oh, and we need to do all of this before deploying to production. The only way to verify that software works is to run it with realistic faults. And this is exactly what Antithesis does."
+  },
+  {
+    "start": 94.37,
+    "end": 115.979,
+    "speaker": "Host",
+    "text": "You can bring the system you work on under test and verify that it works as it should. Teams at etcd and jainstreet are doing justice and I'm also starting to use Antithesis to test real-world systems. Over the season I'll be sharing a lot more on how it works and how it can help verify that a system is bug-free. In the meantime, check out antithesis.com slash pragmatic to learn more Anders,"
+  },
+  {
+    "start": 116.3,
+    "end": 131.456,
+    "speaker": "Host",
+    "text": "welcome to the podcast Thank you It's brilliant to meet you. You've created so many widely used programming languages, including the one that I learned first to program with Turbo Pascal. How did you get into programming?"
+  },
+  {
+    "start": 132.297,
+    "end": 153.577,
+    "speaker": "Guest",
+    "text": "I was lucky enough to attend a high school that, this is back in Copenhagen, that offered students access to a computer. It was one of the first high schools in Denmark to do so. And we're talking, you know, mid to late seventies now. And I sort of got bitten by it then, you know, just this idea that you could program this machine and make it do things, you know,"
+  },
+  {
+    "start": 153.597,
+    "end": 179.093,
+    "speaker": "Guest",
+    "text": "the wonder of figuring out how it was put together. Of course, it was like completely ancient by modern standards. It was like this HP 2100 with 32K of ferrite core memory. You could literally open it up and see the ferrite cores. I mean, it was amazing. You know, paper tape reader and, you know, and then we got up. 1MB 14-inch hard drive, and that was just state-of-the-art."
+  },
+  {
+    "start": 179.273,
+    "end": 193.446,
+    "speaker": "Guest",
+    "text": "The bootloader was on paper tape because there was no ROM in the machine, so it started up and knew nothing, and so you had to type in the instruction sequence to load the bootloader that would then load the OS off of the hard drive."
+  },
+  {
+    "start": 193.762,
+    "end": 197.445,
+    "speaker": "Host",
+    "text": "And as a kid, what did you start to program on it? What captured your imagination?"
+  },
+  {
+    "start": 197.645,
+    "end": 219.264,
+    "speaker": "Guest",
+    "text": "Well, this was a Hewlett-Packard. So it had Fortran, which I found to be very quirky. It had a very slow, basic interpreter. But then it had Algol, Hewlett-Packard's version of Algol, which was an interesting compiler implementation because it didn't support recursion. which is kind of bizarre you know the call instruction of that machine would store"
+  },
+  {
+    "start": 219.304,
+    "end": 238.322,
+    "speaker": "Guest",
+    "text": "the return address in the first word of the subroutine and then just execute and then to return you would jump to that indirect through that word so if you called yourself you'd just be gone forever you know so and of course there were no debuggers or anything to help you figure this out so you just had to be real careful about which algorithms you use but"
+  },
+  {
+    "start": 238.862,
+    "end": 260.149,
+    "speaker": "Guest",
+    "text": "But it was compiled to machine code and they ran, you know, and it was like you could build games, which is what we mostly did, like lunar landers and what have you kind of thing, And so, yeah, it was fun. Back then, things were so simple, right? You could see all the way to the bottom. I mean, there was just no layering and nothing. It was right on top of the hardware."
+  },
+  {
+    "start": 260.63,
+    "end": 264.531,
+    "speaker": "Host",
+    "text": "I guess you needed to see all the way to the bottom as well, pretty much, right? Back then."
+  },
+  {
+    "start": 265.119,
+    "end": 282.61,
+    "speaker": "Guest",
+    "text": "Well, I mean, it was just so simple that you could, right? And that was the beauty of those earlier. That was true with the 8-bit micros and even, you know, the early PCs and whatever, right? And then we've just added more and more layers over time. We have a lot of layers right now, that's for sure. We do."
+  },
+  {
+    "start": 283.742,
+    "end": 294.205,
+    "speaker": "Host",
+    "text": "And how did you go from building games to actually building your first ever compiler? And what was that compiler? I started in 79 at the Danish Technical University."
+  },
+  {
+    "start": 294.425,
+    "end": 301.568,
+    "speaker": "Guest",
+    "text": "At that time also, you know, this was right when 8-bit micros were starting to become available."
+  },
+  {
+    "start": 301.648,
+    "end": 302.908,
+    "speaker": "Host",
+    "text": "8-bit microprocessors, right?"
+  },
+  {
+    "start": 304.33,
+    "end": 324.844,
+    "speaker": "Guest",
+    "text": "And it was usually these kits that you bought that you had to solder together yourself. And then of course they didn't work and then you have to figure out why they didn't work. So you learned a lot about the hardware too. And I bought a British Z80 based kit computer called a NASCOM and started learning assembly programming on that one."
+  },
+  {
+    "start": 325.204,
+    "end": 345.612,
+    "speaker": "Guest",
+    "text": "And then I also met with some college buddies and we ended up founding a company and we had the first computer store in Copenhagen, where you could walk in and buy a computer, one of these kid computers. And later we sold Apple IIs and VIC-20s and Commodore 64s and blah, blah, blah, you know, all of those different ones, TRS-80s."
+  },
+  {
+    "start": 345.832,
+    "end": 369.728,
+    "speaker": "Guest",
+    "text": "So I did a lot of programming on those and found that programming was really the thing that I enjoyed. And of course they all came with Microsoft's ROM BASIC. and which was slow, but it allowed you to write programs. Um, but I always like missed having a real programming language. something like Algol or that I had been taught, right? And then my buddy, the guy that I founded the company,"
+  },
+  {
+    "start": 369.748,
+    "end": 392.359,
+    "speaker": "Guest",
+    "text": "he was like, there's this new thing called Pascal. You ought to check it out. And it's even supposed to be simpler than Algol, which was actually true of every language we had created. They got increasingly simpler as time went on. And Pascal was not that hard to implement. And so I got interested in trying to do that and then wrote a little compiler that fit into a 12K ROM"
+  },
+  {
+    "start": 393.863,
+    "end": 410.559,
+    "speaker": "Guest",
+    "text": "that would compile a subset of Pascal. And you could then yank out the Microsoft ROM basic and stick in our ROM instead. And then when you booted your machine, you were in this little environment where you could type in Pascal programs and run them. And that was sort of the early precursor of Turbo Pascal, if you will."
+  },
+  {
+    "start": 410.86,
+    "end": 421.333,
+    "speaker": "Host",
+    "text": "Many years later, you joined... Borland. And I think it was in 1989. And there you created Turbo Pascal, the programming language, but also the IDE, right?"
+  },
+  {
+    "start": 421.453,
+    "end": 447.75,
+    "speaker": "Guest",
+    "text": "Well, there's a little more to that story. In that company that we had back in Denmark, I ended up writing eventually a full implementation of Pascal for 8-bit CPM80. And then we ended up doing a joint venture with Borland, which was also a Danish company. It was originally founded in Denmark. And we We made a royalty contract where they would sell our compiler on a royalty."
+  },
+  {
+    "start": 448.27,
+    "end": 464.772,
+    "speaker": "Guest",
+    "text": "And that's how I got involved in Borland. And we shipped that first product in 83, the first version of Turbo Pascal. And then that took off. more than any of us had expected. And eventually that ended up being the thing that I did full time."
+  },
+  {
+    "start": 465.012,
+    "end": 470.253,
+    "speaker": "Host",
+    "text": "Why was it called Turbo Pascal? I understand you added things on top of Pascal that was there."
+  },
+  {
+    "start": 470.633,
+    "end": 488.138,
+    "speaker": "Guest",
+    "text": "Well, I mean, it was called Turbo Pascal because it was fast. Back then, Turbo was like, this was like when Audi had their Quattros and their Turbos and whatever, you know, and Turbo just meant fast, And this thing was fast and super interactive, right? And so Turbo Pascal it was."
+  },
+  {
+    "start": 488.432,
+    "end": 497.116,
+    "speaker": "Host",
+    "text": "When Turbo Pascal became big, was it big just because of the compiler? Or also there was an ID, a dedicated ID for Turbo Pascal, right?"
+  },
+  {
+    "start": 498.717,
+    "end": 518.64,
+    "speaker": "Guest",
+    "text": "That was always the idea, and that goes back even to the predecessor of Turbo Pascal, this idea that it's not just a compiler. It's an experience, right? I mean, you don't just compile your programs. You also edit them. You also run them. You also debug them. You also have a runtime library. It all has to, like, fit together. You know what I mean?"
+  },
+  {
+    "start": 519.36,
+    "end": 544.39,
+    "speaker": "Guest",
+    "text": "And so Turbo Pascal was always about building that whole cycle and try to make it as interactive as Basic was, as an interpreted language, But giving you the performance of a compiled language and the better, you know, semantics and syntax of Pascal versus Basic. And so that was sort of the idea from day one, you know, focus on the whole cycle."
+  },
+  {
+    "start": 544.744,
+    "end": 555.828,
+    "speaker": "Host",
+    "text": "And so when you were building the compiler, you were already thinking of ways that the IDE, for example, could make sense or could have helpful features for maybe editing or debugging, for example."
+  },
+  {
+    "start": 557.949,
+    "end": 579.561,
+    "speaker": "Guest",
+    "text": "You know, the first versions of Turbo Pascal didn't have a debugger. You know, you would just use write-land statements and then you'd just see what happened, right? But often if you had some error and it blew up, you know, with a runtime error, We would print out the address of the runtime error, which is where was the program counter at that point."
+  },
+  {
+    "start": 579.661,
+    "end": 600.038,
+    "speaker": "Guest",
+    "text": "And then we had a mode in the compiler where we would say, compile, but stop at this address. And so the compiler was real simple. It would just produce object code. And then once it hit that address, it would just say, whatever I'm syntactically looking at right now, that must have been around where the error was. So that was like how you could go to the line where the error had occurred."
+  },
+  {
+    "start": 600.534,
+    "end": 614.177,
+    "speaker": "Guest",
+    "text": "You know what I mean? It's not like we had like line maps or debuggers or any of that stuff. We just had the compiler and it was just easy to make it stop at a certain address, you know, in the object output and then show you where it was in the source code."
+  },
+  {
+    "start": 614.197,
+    "end": 625.599,
+    "speaker": "Host",
+    "text": "Why do you think Turbo Pascal was so popular? I remember back again, this was my first programming experience. It was at schools. It was outside of schools for production software. And you said yourself that it spread like wildfire."
+  },
+  {
+    "start": 626.059,
+    "end": 647.554,
+    "speaker": "Guest",
+    "text": "It was just better than all the competition. It was faster. It was slower. smaller. Um, it was more interactive and it was also cheaper. So it was like 10 times better at a 10th of the price of the, of the competition, right? Compilers back then used to cost $500 and they were just compilers. And then you have to have an editor and blah, blah, blah."
+  },
+  {
+    "start": 647.574,
+    "end": 669.149,
+    "speaker": "Guest",
+    "text": "And it was like this whole long winded cycle of inserting different disks with compiler pass one and two and what have you. And here was this thing that just like made it all go away and you could get it for $49.95 and for $49.95 I mean heck that was worth it just to get the manuals that came with it right I mean so so there was"
+  },
+  {
+    "start": 669.189,
+    "end": 680.677,
+    "speaker": "Guest",
+    "text": "very little piracy because it was so cheap although speaking of piracy we always had the joke about the the Russian site license how we sold one copy to Russia"
+  },
+  {
+    "start": 683.133,
+    "end": 698.596,
+    "speaker": "Host",
+    "text": "and then that got copied everywhere. But after Turbo Pascal, you built Delphi, which was an even bigger setup in many ways. This was now an integrated environment for Windows development. How did you evolve ideas from Turbo Pascal and Delphi?"
+  },
+  {
+    "start": 698.796,
+    "end": 724.253,
+    "speaker": "Guest",
+    "text": "The big thing that happened there between Turbo Pascal and Delphi was the advent of the graphical user interface, We switched from running DOS in text mode to running Windows in a GUI, and that meant a new kind of application, right, that you had to create. And at the same time, competitively, Microsoft had created Visual Basic, which was a very impressive product,"
+  },
+  {
+    "start": 724.693,
+    "end": 747.926,
+    "speaker": "Guest",
+    "text": "but still had some of the very same flaws that we knew how to compete with, in terms of interpreted versus compiled and extensible versus not or not extensible versus ours that had classes and object orientation and blah, blah, blah. First, we set out to build a Visual Basic competitor. But then we also realized that, well, that's not really enough of an angle."
+  },
+  {
+    "start": 748.207,
+    "end": 771.177,
+    "speaker": "Guest",
+    "text": "And then there was this other phenomenon that was happening at the time, which was called client-server applications. and there were a whole bunch of 4GL application development tools for database connected client server apps. And so we set out to build a tool that was like as interactive and rapid application development as Visual Basic,"
+  },
+  {
+    "start": 771.317,
+    "end": 788.725,
+    "speaker": "Guest",
+    "text": "but with a compiler behind it targeted also at client server enterprise apps. And that was what Delphi sort of was about, right? It worked out really well. I mean, that product to this day is still being used actively by a whole number of programmers."
+  },
+  {
+    "start": 789.305,
+    "end": 815.159,
+    "speaker": "Host",
+    "text": "I was very surprised when I worked at Skype right after Microsoft bought it. The Skype application, you probably know this, it was built in Delphi. In 2012 or 2013, there was a plan to rewrite it and move it onto something else. that rewrite midway or year in stopped. So I'm guessing that until the end of that Skype application, which was decommissioned maybe a year ago. It's amazing, isn't it?"
+  },
+  {
+    "start": 815.679,
+    "end": 836.291,
+    "speaker": "Guest",
+    "text": "I mean, the Delphi was and is, in some ways, a wonderful way of building Windows desktop apps. I mean, they had a great, you know, the VCL, the Visual Class Library that allowed you to inherit components and install them on the palette and make drag and drop work for your forms designers with components that you had built and whatever. It was pretty cool."
+  },
+  {
+    "start": 836.931,
+    "end": 850.115,
+    "speaker": "Host",
+    "text": "And we already heard the Microsoft link with Visual Basic. So you joined Microsoft in 1996. You worked on J++ and then later C Sharp. But can you take us back to that moment in time? What was the kind of programming environment like?"
+  },
+  {
+    "start": 850.615,
+    "end": 869.668,
+    "speaker": "Guest",
+    "text": "the environment, particularly around the time where I joined Microsoft, the mid nineties, Java had happened. Well, the browser had happened, first of all, and JavaScript. But no one really paid attention to JavaScript because that was just this little whatever thingy that was in the browser, you know, and it was slow and it was like, eh, no one uses that."
+  },
+  {
+    "start": 870.586,
+    "end": 890.782,
+    "speaker": "Guest",
+    "text": "But then there was this Java thing that allowed you to create applets. Oh, my God. Applets. Fantastic. And right ones run everywhere. Yep. Yep. Everywhere. Which ran in the browser and everywhere, supposedly. And this language that was, like, simple, yet had object orientation and bytecodes and, like, was platform independent. I mean, it was, like..."
+  },
+  {
+    "start": 891.182,
+    "end": 913.674,
+    "speaker": "Guest",
+    "text": "Everyone was running around with their heads cut off thinking this was the end of languages. You know, Java is going to flatten the universe and we're all just going to be writing Java and Java applets and that's it. You know, and I actually came to Microsoft ostensibly to be the architect of Microsoft's Java development tool."
+  },
+  {
+    "start": 915.224,
+    "end": 940.355,
+    "speaker": "Guest",
+    "text": "and worked on Visual J++ 6.0 was the version that they had Visual J++ 1.1 at the time I joined, which was basically take Visual C++, yank out the C++ compilers, dig in a Java compiler and call it good. But it wasn't interactive. It wasn't rapid application development and whatever. And I came sort of with a whole host of knowledge of how to build interactive development tools."
+  },
+  {
+    "start": 940.596,
+    "end": 963.118,
+    "speaker": "Guest",
+    "text": "And that's what we set out to do with Visual J++ 6.0. And we also, of course, knew that, hey, you know, I mean, people are going to be running on Windows and they're going to want to be able to build Windows desktop apps. And so we built a class library that allowed you to do that. This was the precursor, WFC, I think it was called, but it was the precursor of WinForms,"
+  },
+  {
+    "start": 963.918,
+    "end": 973.122,
+    "speaker": "Host",
+    "text": "you know, in some ways. How did the development of J++ go and eventually how did it lead to the idea of like, let's do something else, completely different?"
+  },
+  {
+    "start": 974.002,
+    "end": 1002.062,
+    "speaker": "Guest",
+    "text": "you know, development of J++ went great until the big Sun Microsoft lawsuit got in the way. and there was, you know, and that is like, I mean, now we're talking like business and whatever. It had nothing to do with technical, but it effectively meant that Visual J++ was never going to be a product that companies would make a bet on because they full well knew that, you know, you, you're not gonna,"
+  },
+  {
+    "start": 1002.262,
+    "end": 1021.571,
+    "speaker": "Guest",
+    "text": "you're not gonna write your app in a, in a language that has been enjoined by a judge in San Jose, you know, or, or whatever. And so we kind of realized at that point too, that maybe it's not a great strategy to, to place your, your development platform bet on, on technology that's licensed from a competitor."
+  },
+  {
+    "start": 1022.037,
+    "end": 1023.238,
+    "speaker": "Host",
+    "text": "And that, in turn,"
+  },
+  {
+    "start": 1023.678,
+    "end": 1049.9,
+    "speaker": "Guest",
+    "text": "along with the sort of dev situation at the time, I mean, Microsoft's main development products at the time were in two camps. There was Visual Basic, rapid application development loved by everybody, you know, because it was so easy to build apps, But performance-wise, had problems. Extensibility-wise, wasn't so great. To write new components, you had to write them in C++ and whatever, and"
+  },
+  {
+    "start": 1050.708,
+    "end": 1074.305,
+    "speaker": "Guest",
+    "text": "And then we had C++ with MFC and power and expressiveness, but really what people wanted was both. They wanted something that rolled both of those up, right? And then they also wanted modern things like garbage collection that, say, Java had, for example, an exception handling and a more object-oriented, component-oriented way of building your apps."
+  },
+  {
+    "start": 1075.392,
+    "end": 1088.481,
+    "speaker": "Host",
+    "text": "And all of that was part of the genesis that led to .NET and to the C Sharp language. So which one was first, .NET or C Sharp inside of Microsoft? they were simultaneous,"
+  },
+  {
+    "start": 1089.062,
+    "end": 1114.994,
+    "speaker": "Guest",
+    "text": "I would say, because we knew we wanted to build a runtime that was language independent. because we knew that we wanted to run Visual Basic on it, and we wanted a way of running C++ on it, and we wanted the ability for other languages to host themselves on this runtime. But we also knew that we needed to build a language that would appeal to both"
+  },
+  {
+    "start": 1115.594,
+    "end": 1127.063,
+    "speaker": "Guest",
+    "text": "Visual Basic and C++ users and give you sort of that golden thing in the middle, And to be frank, something that could compete with Java, right? And so that's why we..."
+  },
+  {
+    "start": 1127.617,
+    "end": 1139.022,
+    "speaker": "Host",
+    "text": "we started out building C-sharp. And then when you started out building C-sharp, what were your design goals? You mentioned a few things with garbage collection or exception handling, but how did you come up with like, what would this language be?"
+  },
+  {
+    "start": 1139.583,
+    "end": 1161.995,
+    "speaker": "Guest",
+    "text": "like I said, I mean, the overarching thing was this power and productivity of C++ with the ease of use of visual basic, in a sense, But what it also meant was we knew we wanted to build an object-oriented language. We wanted managed code or bytecode so we could target different runtime environments. We wanted garbage collection and exception handling,"
+  },
+  {
+    "start": 1162.596,
+    "end": 1188.446,
+    "speaker": "Guest",
+    "text": "but also things like a unified object system where And that's true in C-sharp. Anything can be assigned to an object. And if it's a value type, we box it. And it's a self-describing object. So reflection, you can ask an object, what are you? And you can get all of the facts about it at runtime. And you can dynamically manipulate it in ways that just don't exist in a lot of other environments."
+  },
+  {
+    "start": 1188.486,
+    "end": 1211.021,
+    "speaker": "Guest",
+    "text": "And we knew we wanted to go there with that. We wanted a language that made this new model of properties, methods, and events first class because that was how components were built as opposed to just sort of functions and procedures and even objects, And then we actually also wanted to create a language that was standardized."
+  },
+  {
+    "start": 1211.061,
+    "end": 1222.221,
+    "speaker": "Guest",
+    "text": "We wanted to give this language to a standardization committee and try to level the playing field there. And all of those things were sort of like what was rolled up in C-Sharp."
+  },
+  {
+    "start": 1222.661,
+    "end": 1242.754,
+    "speaker": "Host",
+    "text": "You definitely did. C-Sharp was my first professional language where I worked with it, I think, for about five years. And I've seen both the tooling, the capabilities of language. And I still think to this date, in many ways, that old version of C-Sharp was ahead of some languages today in some ways. So it's very interesting to see how rich that language was when it came out."
+  },
+  {
+    "start": 1242.794,
+    "end": 1260.553,
+    "speaker": "Host",
+    "text": "And of course, the developer love that followed. But can you take us back? What did it take to build a language like this? Just in the more, again, software engineers, people were listening. They're used to building the SaaS apps, backend services, you know, like certain projects. but we are not familiar with what it takes to build a language,"
+  },
+  {
+    "start": 1260.573,
+    "end": 1273.663,
+    "speaker": "Host",
+    "text": "especially something with such large ambitions inside Microsoft. We knew millions of developers ideally would be using it. How did you get to this? How did you come up with the roadmap? How big or large or small team needs to work on this?"
+  },
+  {
+    "start": 1273.863,
+    "end": 1302.136,
+    "speaker": "Guest",
+    "text": "I think early on, we decided that we want to have a team of people design this language, not just one. I was sort of the guy who ran the group of designers. But we put together a group of six people or so, six, seven people. And we got in a room three times a week for two hours and just started the design, you know, like literally let's start from the top. What is the, we all knew what, I mean,"
+  },
+  {
+    "start": 1302.157,
+    "end": 1324.158,
+    "speaker": "Guest",
+    "text": "these were all people who had built or worked on programming languages before. And, and had seen all of the things you're supposed to do and all the things you're not supposed to do. And quite honestly, language design is. 90% the same and 10% new for pretty much every language. Every language you build still has to have a compiler. Compiler is still built pretty much the same way."
+  },
+  {
+    "start": 1324.779,
+    "end": 1345.844,
+    "speaker": "Guest",
+    "text": "And of course, as time marched on, people demand more and more. You have to have IDEs, you have to have frameworks, you have to blah, blah, blah, blah, blah. So there's a lot of experience you want to pull in. And there's a lot of work that you're doing that isn't really per se new. But every time around you try to fix the problems that you've been exposed to This"
+  },
+  {
+    "start": 1345.924,
+    "end": 1368.771,
+    "speaker": "Guest",
+    "text": "language design group worked together for years on end And it was lovely to come in to work with a new idea And then immediately have five or six people that you could sit down and have a deep discussion with Without first having to spend an hour level setting Do you know what I mean? Yeah, yeah And that worked really, really well Because we could just jump right in"
+  },
+  {
+    "start": 1369.355,
+    "end": 1394.275,
+    "speaker": "Guest",
+    "text": "and have two hours of technical discussion. And everyone was cognizant of, if someone comes up with a new idea, now it's our job to try to shoot it down. What's wrong with this idea? Do you know what I mean? And if it could go, if it could stand the test of that, then it was probably a decent idea. And so that was kind of how we ran the design. And then I wrote"
+  },
+  {
+    "start": 1394.823,
+    "end": 1418.814,
+    "speaker": "Guest",
+    "text": "the specification of the language in parallel with our design meetings. And then we had a group that was in parallel implementing the compiler in actually implementing it in C++ or rather C++ because we didn't use all of the C++ features, you know, in that compiler implementation. But it wasn't until the Rosslyn project that we self-hosted the C-sharp compiler."
+  },
+  {
+    "start": 1418.994,
+    "end": 1422.676,
+    "speaker": "Host",
+    "text": "And Rosslyn meaning that the compiler is in C-sharp, right?"
+  },
+  {
+    "start": 1425.66,
+    "end": 1430.801,
+    "speaker": "Guest",
+    "text": "a project that came later to build the compiler in itself. And also early on,"
+  },
+  {
+    "start": 1430.961,
+    "end": 1431.541,
+    "speaker": "Host",
+    "text": "you know, this is,"
+  },
+  {
+    "start": 1432.121,
+    "end": 1456.244,
+    "speaker": "Guest",
+    "text": "you got to remember back then, IDEs were not really all that fancy. You know, I mean, we have syntax colorization. Statement completion was kind of like, some IDEs were starting to dabble in it, but it wasn't really a norm. So we built like, in a sense, a classic compiler. But then we also built this like mini language servicey thing that sort of cut some corners and whatever,"
+  },
+  {
+    "start": 1456.284,
+    "end": 1477.73,
+    "speaker": "Guest",
+    "text": "but could do some rudimentary statement completion and syntax coloring. But in a sense, we had two implementations that we had to evolve in parallel. And over time, that became quite a drag, right? Because as we added generics and added other features and link and whatever, and it was like, oh my God, now this is like, we got to go implement all of these features twice."
+  },
+  {
+    "start": 1478.708,
+    "end": 1499.98,
+    "speaker": "Guest",
+    "text": "in the real compiler and in the language service, right? And so that ultimately led us to this project called Roslyn, where we built a single compiler that really is both, it's a compiler that can both function as a command line compiler and as an interactive service inside the IDE. TypeScript is built that same way also,"
+  },
+  {
+    "start": 1500.06,
+    "end": 1504.723,
+    "speaker": "Guest",
+    "text": "and there's a lot of learnings from doing it that way that are still not being taught in school."
+  },
+  {
+    "start": 1505.738,
+    "end": 1519.792,
+    "speaker": "Host",
+    "text": "There are many useful things not being taught in school, even when they are useful to learn about. One of these really useful tools that I must mention is our seasonal sponsor, TurboPuffer. TurboPuffer is a ridiculously scalable, fast and cheap vector and full-text search engine built by an engineering team that I really like."
+  },
+  {
+    "start": 1520.132,
+    "end": 1537.312,
+    "speaker": "Host",
+    "text": "The first time I heard about them was when I was talking with one of Cursor's co-founders about how their vector database could not keep up with the number of code bases that they were adding. This was back in 2023. Cursor did something seemingly risky. They took a bet on what was little known and relative to the new product at the time, Turbo Puffer. But it paid off."
+  },
+  {
+    "start": 1537.593,
+    "end": 1558.473,
+    "speaker": "Host",
+    "text": "Cursor moved their semantic search workload over and Turbo Puffer was indeed able to handle Cursor's massive, ever-increasing load. The reason has everything to do with smart engineering. Turbo Puffer is built on top of object storage with smart caching on NVMe SSDs. Cursor's active code bases get loaded into the cache so searches are fast and inactive code bases fade into object storage."
+  },
+  {
+    "start": 1558.714,
+    "end": 1574.016,
+    "speaker": "Host",
+    "text": "Cursor has so many There are many good things to say about TurboPuffer. They cut their semantic search costs by 95% when they switched, they think of TurboPuffer engineers as an immediate extension of their team in Slack, and TurboPuffer is one of the few pieces of infrastructure that they have not had to worry about as they scaled."
+  },
+  {
+    "start": 1574.677,
+    "end": 1591.603,
+    "speaker": "Host",
+    "text": "TurboPuffer indexes over 4 trillion documents for vector and full-text search and is used by the likes of Antrophic, Notion, Linear, Ramp, and many others. I'm getting to know the TurboPuffer team and will share more about some of the cool things that they do behind the scenes throughout the season. If you need vector search or full-text search at scale, think TurboPuffer."
+  },
+  {
+    "start": 1592.203,
+    "end": 1614.629,
+    "speaker": "Host",
+    "text": "Check it out at turbopuffer.com slash pragmatic. When it comes to useful tools, I need to also mention our season sponsor, WorkOS. One theme of today's episode with Anders is how he has spent a timeframe thinking about developer productivity on a scale that most of us do not. Decades, not months or quarters. WorkOS takes the same kind of long-term view on enterprise infrastructure. SSO, SCIM,"
+  },
+  {
+    "start": 1614.929,
+    "end": 1636.218,
+    "speaker": "Host",
+    "text": "RBAC, audit logs, they've spent years getting these right so you do not have to spend weeks implementing them. That's why the fastest growing AI companies trust WorkOS. Visit WorkOS.com to learn more. And with this, let's get back to building languages with Anders. And when you're building a language as your product was, I guess, the language itself, how did you get feedback?"
+  },
+  {
+    "start": 1636.238,
+    "end": 1652.285,
+    "speaker": "Host",
+    "text": "Of course, you had the, you already said the group criticized it. Did you have an internal beta testers? Because again, for like a backend service, you would typically have dogfooding, alpha testing, beta testing, and then you go public at some point. But this is not your average software service for sure."
+  },
+  {
+    "start": 1652.625,
+    "end": 1678.422,
+    "speaker": "Guest",
+    "text": "Yeah, I mean, luckily we had internal clients. The .NET framework very quickly started implementing in C Sharp. They had sort of used a hacked up version of C++ to implement, which was kind of odd because, I mean, it was like targeting bytecodes, but not really. And so they switched to C Sharp and that helped a lot. And then we had other internal teams using it."
+  },
+  {
+    "start": 1678.562,
+    "end": 1687.615,
+    "speaker": "Guest",
+    "text": "And so we got a bunch of feedback that way. And then we had, you know, the cycle was not that long, right? I mean, I think we started in late 98 and by the PDC of 2000, we had, we"
+  },
+  {
+    "start": 1691.06,
+    "end": 1697.706,
+    "speaker": "Guest",
+    "text": "We basically gave away beta copies and got tons of users onto it. Now,"
+  },
+  {
+    "start": 1697.726,
+    "end": 1719.427,
+    "speaker": "Host",
+    "text": "C Sharp introduced a lot of new features that were net new, I think, to programming languages. Link is certainly one of them. But one thing that might have been maybe one of the most influential parts that other languages adopted as inspiration was the async await. setup. Looking back, what do you think you got right with this design and why did it become so copyable"
+  },
+  {
+    "start": 1719.467,
+    "end": 1722.39,
+    "speaker": "Host",
+    "text": "across languages like JavaScript, Python, Rust, and others?"
+  },
+  {
+    "start": 1723.21,
+    "end": 1748.726,
+    "speaker": "Guest",
+    "text": "a lot of languages are built around cooperative multitasking in the sense that they have an event loop that sits and dispatches events and then, you know, you handle the event and then you yield back to event handler loop, and it all runs in a single thread cooperatively, right? The problem with that is if you then want to do some long-running work,"
+  },
+  {
+    "start": 1748.826,
+    "end": 1771.673,
+    "speaker": "Guest",
+    "text": "how do I stop in the middle of this piece of long-running work and yield back to the event loop cooperatively, And then when my result is ready, then I can come back and continue executing here. Well, in order to do that in in an inverted architecture like that, you have to build a state machine. And state machines are notoriously hard for people to implement because you've got"
+  },
+  {
+    "start": 1771.693,
+    "end": 1792.971,
+    "speaker": "Guest",
+    "text": "to move all of your state off of the stack into objects. You've got to remember where, and then you have this big case statement that envelopes your entire logic. And it's like, it's a nightmare to figure out, right? But the transformation from serially executing code into a state machine that's this continuation processing"
+  },
+  {
+    "start": 1793.012,
+    "end": 1814.933,
+    "speaker": "Guest",
+    "text": "style translation is actually one that you can do in a machine-based fashion. You can have the compiler write the state machine if you introduce syntax that allows you to indicate where you want to yield. And that's what await is. Await is basically, I'm saying, I want to yield here, and I want to yield this promise."
+  },
+  {
+    "start": 1815.173,
+    "end": 1839.364,
+    "speaker": "Guest",
+    "text": "And then when the promise completes, I want you to come back here and continue executing. And then the compiler writes a state machine around it, and it actually turns it into this big switch statement. and moves all of the state that survives across the await into something that's heap allocated so it can be brought back. And doing all of that work is something that compilers are great at."
+  },
+  {
+    "start": 1839.764,
+    "end": 1862.192,
+    "speaker": "Guest",
+    "text": "And so that was sort of the idea that We have this new style of programming where we're using promises or the equivalent of promises and the ability to yield. And then we have callbacks. But trying to write your program in that style, that's also what JavaScript suffer from a lot, It's like all this callback style stuff. And with async await,"
+  },
+  {
+    "start": 1862.212,
+    "end": 1886.658,
+    "speaker": "Guest",
+    "text": "you get sort of the illusion that you're just writing normal sequential code. And then the compiler does the painful transformation for you. And that turns out to be really useful. Now, arguably an alternative way of doing this is to use threads in the OS. But the problem with threads is that they come with preemptiveness and the OS has the ability to preempt you at any point in time."
+  },
+  {
+    "start": 1886.678,
+    "end": 1909.422,
+    "speaker": "Guest",
+    "text": "And that's not necessarily what you want. And your UI, now you have to be multi-threaded in your UI and all sorts of other problems come along with it. Plus threads are heavyweight. and typically not well-suited for lightweight tasks like you could do with async functions. So there are pros and cons. Async and wait introduces this notion of function coloring, which is unfortunate,"
+  },
+  {
+    "start": 1909.562,
+    "end": 1926.93,
+    "speaker": "Guest",
+    "text": "where you have two kinds of functions, async functions and regular functions. And all the red functions can call the blue functions, but the blue functions can't call the red functions. And so that means once you want a red function, Now everything above it has to be red. If you want from a sync function to call something async,"
+  },
+  {
+    "start": 1927.21,
+    "end": 1953.052,
+    "speaker": "Guest",
+    "text": "then you've got to turn this function into an async function and its caller has to be, etc., etc., So that's unfortunate. And that's why some environments like Go, for example, has Go routines and green threads, which are really language-emulated lightweight threads. that kind of do what I'm talking about, but at a much lower cost. But you avoid the function coloring."
+  },
+  {
+    "start": 1953.352,
+    "end": 1964.348,
+    "speaker": "Guest",
+    "text": "So there is a bunch of different But for an environment that already exists like JavaScript or like C Sharp and the Windows event loop and whatever,"
+  },
+  {
+    "start": 1964.448,
+    "end": 1992.114,
+    "speaker": "Host",
+    "text": "this was the right solution. Speaking of JavaScript, as C Sharp was becoming really popular across startups, enterprises, and so on, it was exploding in popular games as well. To this day, it's very popular with games development. But JavaScript was starting to become more popular. Can you take us back to... your observations on how JavaScript went from the mid-90s to this script language"
+  },
+  {
+    "start": 1992.174,
+    "end": 1996.097,
+    "speaker": "Host",
+    "text": "no one really took seriously to just exploding in popularity."
+  },
+  {
+    "start": 1996.277,
+    "end": 2025.065,
+    "speaker": "Guest",
+    "text": "I think it was sort of a confluence of a number of things that happened in the early 2000s, First of all, the JavaScript platform, execution platform, matured a lot. Like Google did their excellent work on V8 and all of a sudden make JavaScript a fairly performant programming language. HTML5 got ratified and we were getting to a point now where you could actually build real UIs in JavaScript."
+  },
+  {
+    "start": 2025.706,
+    "end": 2048.96,
+    "speaker": "Guest",
+    "text": "And there was this device revolution that the iPhone set off and And all of a sudden, we have all of these different form factors. It's not just Windows PCs on the desktop anymore. It's all sorts of diverse devices. But lo and behold, they all run browsers with JavaScript in. Lo and behold, the real cross-platform language isn't Java. It's JavaScript."
+  },
+  {
+    "start": 2050.262,
+    "end": 2051.063,
+    "speaker": "Host",
+    "text": "Who would have thought?"
+  },
+  {
+    "start": 2052.563,
+    "end": 2080.29,
+    "speaker": "Guest",
+    "text": "And so the world started opening its eyes to that and started building larger and larger applications in JavaScript. And we saw that externally, but also internally. And one of the trigger events was when the Outlook.com team came to the C Sharp team and asked us whether we would pretty please productize this thing called ScriptSharp. And we go, well, what is ScriptSharp?"
+  },
+  {
+    "start": 2081.122,
+    "end": 2106.027,
+    "speaker": "Guest",
+    "text": "It's this cross-compiler that allows you to cross-compile C-sharp into JavaScript, such that you can basically treat JavaScript as an instruction language and run your C-sharp apps in a browser. And I'm like, well, why would anyone want to do that? Well, because then you can get a grown-up programming language with grown-up tooling. You can use Visual Studio. You can have projects."
+  },
+  {
+    "start": 2106.047,
+    "end": 2128.314,
+    "speaker": "Guest",
+    "text": "You can do all of these wonderful things, you know, that you can't do with JavaScript because JavaScript is just a scripting language with shitty tooling. And we were like, wow, really? Well, gosh, well, perhaps a better approach would be to fix JavaScript. I mean, surely you're not going to be best of breed in the JavaScript ecosystem by telling"
+  },
+  {
+    "start": 2128.354,
+    "end": 2136.723,
+    "speaker": "Guest",
+    "text": "people to write in a different programming language. Although plenty of people were like, remember CoffeeScript and all of these other like languages that targeted JavaScript,"
+  },
+  {
+    "start": 2137.464,
+    "end": 2142.489,
+    "speaker": "Host",
+    "text": "So they were a programming language, right? Which generated JavaScript, but it wasn't JavaScript itself."
+  },
+  {
+    "start": 2143.09,
+    "end": 2162.717,
+    "speaker": "Guest",
+    "text": "Yes, they were super popular. I mean, like so many different things did that. But JavaScript is actually a pretty decent little language. There are just some things missing. You got to give credit there to Brendan Eich. I mean, he understood functional programming. And Brendan Eich, the creator of JavaScript. And he got functions as first class objects right in JavaScript,"
+  },
+  {
+    "start": 2162.857,
+    "end": 2185.924,
+    "speaker": "Guest",
+    "text": "which is godsend and beautiful, but it doesn't have a type system. And we knew from experience that you cannot build good tooling without a type system. You can build decent tooling, but it's never going to scale. It's never going to scale to large teams because you can't describe your intents in the code. There's no way of formalizing any of this stuff and there's no way of analyzing it"
+  },
+  {
+    "start": 2186.004,
+    "end": 2207.121,
+    "speaker": "Guest",
+    "text": "and there's no way of using it. in an IDE to give you statement completion and refactoring and go to definition and find all references and blah, blah, blah, blah, all of that stuff, That germinated the idea of, hey, it's, we can, we could create a superset of JavaScript that adds a type system and then we could just compile it away. But then we have,"
+  },
+  {
+    "start": 2207.381,
+    "end": 2217.388,
+    "speaker": "Guest",
+    "text": "now we have the foundation for great tooling and then we could build a great tooling on top and actually create a wonderful development experience, right?"
+  },
+  {
+    "start": 2217.628,
+    "end": 2239.535,
+    "speaker": "Host",
+    "text": "That was sort of like what we set out to do. When you set out to do this, you not only set out to do this, but you set out for some reason to do it as open source, which took everyone outside of Microsoft as a surprise because old Microsoft under Steve Ballmer was notoriously perceived as anti-open source back then with Windows and C Sharp back in the day, of course, I'm talking about."
+  },
+  {
+    "start": 2239.895,
+    "end": 2263.782,
+    "speaker": "Guest",
+    "text": "You know, Microsoft was slowly waking up to the fact that open source was not going to go away, and open source was where developers wanted to be, and they were voting with their feet. Yet, there's a collective DNA, you know, that has been trained to pull you in the other direction, And so that battle was, we were right in the center of that."
+  },
+  {
+    "start": 2263.922,
+    "end": 2286.743,
+    "speaker": "Guest",
+    "text": "And we full well knew that there was absolutely zero chance that we would appeal to the JavaScript ecosystem with a proprietary programming language license from Microsoft. No, no one was going to come. It had to be open source. There was just no two ways about it, right? But getting that off the ground inside Microsoft, it took some pulling."
+  },
+  {
+    "start": 2289.077,
+    "end": 2312.555,
+    "speaker": "Guest",
+    "text": "and we paid some taxes. We did eventually get the okay to do open source because we had two technical fellows, myself and Steve Luco, who was the other co-inventor of TypeScript, insisting that that was what we had to do. And so, okay, people weren't going to debate that, but But of course you have to pay the tax and be on Microsoft's open source repository called CodePlex,"
+  },
+  {
+    "start": 2312.795,
+    "end": 2333.328,
+    "speaker": "Guest",
+    "text": "where exactly no one was. And so we were there for the first two years and it kind of was crickets, you know. And it wasn't until 2014 when we moved on to GitHub that things really started to get moving. with adoption. And also, honestly, it totally changed our workflow. You know, there's open source and there's open development."
+  },
+  {
+    "start": 2334.209,
+    "end": 2353.457,
+    "speaker": "Guest",
+    "text": "And we were technically open source in the beginning, but it was not open development. We would sort of lop the source code out in its repository and scrape the issues off of that and put it into our internal issue tracker and then, you know. But once we switched to GitHub, the entire workflow moved to open development also."
+  },
+  {
+    "start": 2353.985,
+    "end": 2364.809,
+    "speaker": "Guest",
+    "text": "and that I love that workflow and that's we've been there now for over a decade and it's been fantastic and it's what made the product as good as it is just over a"
+  },
+  {
+    "start": 2364.909,
+    "end": 2390.443,
+    "speaker": "Host",
+    "text": "decade later so the language moves to GitHub in 2014 and in November 2025 The GitHub Octoverse report revealed that TypeScript became the most popular language across GitHub. Outside of the type system, what do you think made TypeScript this popular? And of course, we've had other languages, Python being the other very popular one, but what captures developers' preferences this well?"
+  },
+  {
+    "start": 2390.684,
+    "end": 2414.297,
+    "speaker": "Guest",
+    "text": "Well, I think it didn't just happen overnight. And if you look back at that, all of a sudden we surfaced as number 10, and then we climbed slowly over the years up and sat next to JavaScript, right? And of course, if you added JavaScript and TypeScript together, then we were already number one. It's just, which syntax? Were you using type annotations or not?"
+  },
+  {
+    "start": 2414.917,
+    "end": 2439.259,
+    "speaker": "Guest",
+    "text": "And more and more people over time just decided to adopt that. I mean, some early on were using JS doc or whatever, you know, like these types in comments or that we also supported. But gradually, I think people just realized, hey, this is this is the right way to do it. And the reason they came, I think, is absolutely because of the better tooling."
+  },
+  {
+    "start": 2439.579,
+    "end": 2452.743,
+    "speaker": "Guest",
+    "text": "And I think we were totally right there that like adding an erasable type system and then using that to enable great tooling. is really where the programmer productivity boost is realized."
+  },
+  {
+    "start": 2452.943,
+    "end": 2465.672,
+    "speaker": "Host",
+    "text": "And I guess this is where we cannot not mention VS Code, which shipped that great tooling also as a free to use for most people, or at least initially for most people, which also made a big difference."
+  },
+  {
+    "start": 2466.685,
+    "end": 2491.93,
+    "speaker": "Guest",
+    "text": "Yeah, that's our sister project, which is written in TypeScript. And so they were one of our earliest adopters, and we work pretty closely with them to this day. That whole interplay, that in turn is also what led to the invention of LSP, the language server protocol that now pretty much every tool vendor uses to enable interactive services in the IDE. Oddly,"
+  },
+  {
+    "start": 2492.011,
+    "end": 2514.229,
+    "speaker": "Guest",
+    "text": "it isn't until this port to go now that we're switching to LSP, we had our own precursor of LSP because LSP didn't exist when we first integrated TypeScript into Visual Studio Code. But there were a lot of learnings from that. So it's been an incredibly symbiotic and fulfilling experience to build these two projects in parallel in open source."
+  },
+  {
+    "start": 2514.925,
+    "end": 2519.869,
+    "speaker": "Guest",
+    "text": "And I think it has totally changed people's view of Microsoft in the developer ecosystem."
+  },
+  {
+    "start": 2519.909,
+    "end": 2536.461,
+    "speaker": "Host",
+    "text": "For us developers who, again, are not as familiar with compilers themselves. Of course, I use TypeScript and I'm aware that there's some compilation going. Could you give us a brief overview of what the types of compiler pipeline looks like in terms of parts and what parts you specifically focus on more?"
+  },
+  {
+    "start": 2538.183,
+    "end": 2558.726,
+    "speaker": "Guest",
+    "text": "It's in many ways a fairly typical compiler and in many ways not. Pretty much every compiler has you know, what's known as a lexer or a scanner that takes text and turns it into tokens. And then typically on top of that, you have a parser that takes the tokens, checks their sequencing, and then makes abstract syntax trees, which is a, you know,"
+  },
+  {
+    "start": 2558.746,
+    "end": 2582.731,
+    "speaker": "Guest",
+    "text": "a tree that you can navigate that effectively is a map of the source code, you know, but broken into syntactic primitives and checked that, you know, like syntactically everything is, or grammatically that everything is correct. So those are the first two stages of the pipeline. Then we have, we have one extra pass that we call the binder, which is, you know, once we have the parse trees,"
+  },
+  {
+    "start": 2583.451,
+    "end": 2603.723,
+    "speaker": "Guest",
+    "text": "then we bind symbol information to them where we find all of the declarations of variables and whatever, and build symbol tables and attach them to their functions such that we can then later look up names effectively. And we also build in the binder, we build a control flow graph, and I can talk about what that helps us do. And then we have the type checker."
+  },
+  {
+    "start": 2604.39,
+    "end": 2624.387,
+    "speaker": "Guest",
+    "text": "which is the largest part of our pipeline. And that's the thing that checks semantically that your program is correct. It's the thing that figures out types and checks that the types relate correctly and that you're assigning the right thing to the right thing. And then that, you know, that you're calling something that actually exists and so forth."
+  },
+  {
+    "start": 2624.747,
+    "end": 2628.75,
+    "speaker": "Host",
+    "text": "And then we have an optional stage at the end called our emitter."
+  },
+  {
+    "start": 2629.451,
+    "end": 2655.482,
+    "speaker": "Guest",
+    "text": "And normally the emitter infrastructure in a compiler is also quite big because that's where you go from intermediate representation to machine code or bytecode. Now, in our case, we just erase types, if you will. Well, we kind of do two things in our compiler. Actually, early on, it was very much about A erasing the types, but B also down leveling your code."
+  },
+  {
+    "start": 2655.662,
+    "end": 2678.564,
+    "speaker": "Guest",
+    "text": "So we would take newer ECMAScript features that weren't yet supported by the runtimes, for example, classes, and then we would down level them to constructor functions and whatever. And so we would rewrite the code. And that was a very popular feature early on. Now, pretty much every browser is evergreen and, you know, like ECMAScript features are caught up. And so that's not as important anymore."
+  },
+  {
+    "start": 2678.744,
+    "end": 2697.46,
+    "speaker": "Guest",
+    "text": "So our emitter is effectively, you know, a thing that just erases type annotations and spits out the JavaScript code that can run unannotated and also can spit out declaration files, which are summaries of your modules and so forth. But those are sort of the stages. Now, the thing that's interesting about the compiler, though,"
+  },
+  {
+    "start": 2697.78,
+    "end": 2722.36,
+    "speaker": "Guest",
+    "text": "is that it's built in a manner that where it can function in a highly interactive mode, which is what the IDE uses. Normally, you know, command line compilers, they just run through these stages and, you know, the output is just whatever gets emitted or some error messages, But in an IDE, you know, the compiler is a service. And what we do in that service is"
+  },
+  {
+    "start": 2723.263,
+    "end": 2741.769,
+    "speaker": "Guest",
+    "text": "We basically take a program that is perpetually broken because you're typing. And yet we try to syntactically or semantically analyze it. And because we need to know when you press dot here, what could come next? Well, that means we need to know what is the type of the thing you dotted on. In order to figure that out, we may have to resolve stuff."
+  },
+  {
+    "start": 2741.829,
+    "end": 2765.638,
+    "speaker": "Guest",
+    "text": "We may have to look at ASTs over here and whatever. And all of that has to happen within 200 milliseconds or else people think the IDE is slow, Well, what if you have 500,000 lines of code You can't compile all of those in 200 milliseconds. So you got to be super, super deferred and interactive. And so you got to do minimal amounts of work."
+  },
+  {
+    "start": 2765.818,
+    "end": 2787.321,
+    "speaker": "Guest",
+    "text": "And that's how our compiler is built is it tries to front load. Like, for example, like you have 500,000 lines of code. Well, let's say in 500 files. Well, we could build the ASTs for 499 of the files and just sit on them. We don't have to rebuild those because you're not editing in those files. We just have to update the AST of the current file you're in."
+  },
+  {
+    "start": 2788.002,
+    "end": 2812.709,
+    "speaker": "Guest",
+    "text": "So that goes 500 times faster than if we had to do all of it. And then we don't actually have to figure out all of the types in here either. We can just start where you're at and then just resolve just enough to answer the question that you're needing an answer for right now. And so everything is lazy and deferred and functional and reusable. inside the compiler."
+  },
+  {
+    "start": 2812.929,
+    "end": 2818.354,
+    "speaker": "Guest",
+    "text": "And it's a very different way of writing compilers than what the textbooks will traditionally teach you."
+  },
+  {
+    "start": 2818.374,
+    "end": 2826.08,
+    "speaker": "Host",
+    "text": "Yeah, because I guess this is now, these are interactive compilers, if you will, right? It sounds like it's more than a compiler or a lot more difficult problem to solve."
+  },
+  {
+    "start": 2826.22,
+    "end": 2839.273,
+    "speaker": "Guest",
+    "text": "The same engine is there, but you got to build it in a manner where it can be very interactive. And that was not typically important for compilers, you know."
+  },
+  {
+    "start": 2839.794,
+    "end": 2857.245,
+    "speaker": "Host",
+    "text": "And so TypeScript is a superset of JavaScript. What are some features you would try to add if only JavaScript would allow it or if you were able to influence JavaScript's roadmap? What is something that you feel could make TypeScript a lot better? But of course, there's a constraint there."
+  },
+  {
+    "start": 2857.646,
+    "end": 2878.369,
+    "speaker": "Guest",
+    "text": "We track the ECMAScript committee and and new language features that get developed in ECMAScript, we implement once they reach stage three or four in the standardization committee. And then we've sort of been on that train ever since the beginning. So there is a pipeline that supplies new language features in a standardized manner."
+  },
+  {
+    "start": 2878.91,
+    "end": 2902.98,
+    "speaker": "Guest",
+    "text": "We sort of see it as our purview to define the type system on top, right? So that is, if you will, our playground. Now, I still have things that I wish I could have in the language itself. I mean, I like functional programming. I like functional programming languages. And key to them is that everything is an expression. There's really no distinction between statements and expressions."
+  },
+  {
+    "start": 2903.661,
+    "end": 2928.593,
+    "speaker": "Guest",
+    "text": "And so one of the features that JavaScript lacks in my estimate is the ability to give symbolic names to temporary results and expressions and then reuse them. This is the let let blah equals whatever in some expression that functional programming languages, you know, like camel and whatever all have. And it's nice because you could just stay in an expression context and you can just"
+  },
+  {
+    "start": 2928.633,
+    "end": 2946.333,
+    "speaker": "Guest",
+    "text": "dot things together and whatever, and sort of do this more fluent style of programming. But then all of a sudden you need a name for something you want to reuse. And now you've got to pop out and declare a variable or turn it into state. Anyway. You know, that's one thing that I would like to fix. There's, there's something called do expressions that may or may not happen at some point,"
+  },
+  {
+    "start": 2946.373,
+    "end": 2970.447,
+    "speaker": "Guest",
+    "text": "but it's taken a long time. So anyway, but I mean, generally speaking, I think JavaScript is a, it's a nice little language. It just has some issues, you know, and then, and I think we're very good at teasing them out with our type checker. And so, so once you have a checker that can warn you, Hey, you about to do something stupid here, then It's not so bad. The thing that makes it interesting,"
+  },
+  {
+    "start": 2970.527,
+    "end": 2994.307,
+    "speaker": "Guest",
+    "text": "I think, and unlike pretty much any other programming language, is the gradual typing. This notion that you can have types, but you don't have to have types. Other languages force you to type everything, right? Because they in turn use that information to generate machine code, you know, based on what the type is, you know, different instructions for float versus int versus whatever,"
+  },
+  {
+    "start": 2994.367,
+    "end": 3017.0,
+    "speaker": "Guest",
+    "text": "where in JavaScript, The types are there purely for the development experience and the checking. When the program runs, they're all gone. Now, of course, there are still types, but they're all dynamically computed. But that's kind of interesting because that means in the language, we don't necessarily have to prove 100% correctness."
+  },
+  {
+    "start": 3017.5,
+    "end": 3037.697,
+    "speaker": "Guest",
+    "text": "And a lot of language features that we have, we can't 100% prove correctness. Like in a structural type system with recursive types, there are just cases that you can't analyze because the types are infinitely recurring. The more you try to relate to types, the deeper you go and you're just staring into the recursive abyss. You know what I mean?"
+  },
+  {
+    "start": 3038.438,
+    "end": 3059.912,
+    "speaker": "Guest",
+    "text": "But you can kind of go, well, we've proven it to four levels. That's probably good enough. We're just going to say it's good enough. And then, you know, if everything else works out, we're going to go, sure. That you can't do if you were to go generate machine code that then would have indeterminate behavior, But if JavaScript has a runtime where everything is well-defined already,"
+  },
+  {
+    "start": 3060.648,
+    "end": 3073.336,
+    "speaker": "Guest",
+    "text": "So if we're checking 99% instead of 100%, heck, that's better than the 0% that JavaScript checked, And it gives you language features that no other languages can provide because they can't get to 100%."
+  },
+  {
+    "start": 3074.807,
+    "end": 3096.573,
+    "speaker": "Host",
+    "text": "It's interesting how constraints lead to innovation or even limitations can lead to more innovation. Speaking of innovation, one of the biggest innovations that is everywhere is the AI agents, AI coding tools that us software engineers, most software engineers are using, increasingly using AI agents as well. As you're developing languages on a more, I guess, niche team."
+  },
+  {
+    "start": 3097.154,
+    "end": 3105.32,
+    "speaker": "Host",
+    "text": "What kinds of AI tools are you using or how is AI helping your language development work? May that be TypeScript or C Sharp?"
+  },
+  {
+    "start": 3105.661,
+    "end": 3129.209,
+    "speaker": "Guest",
+    "text": "Day-to-day, I work on TypeScript and I can certainly talk about how we've been in the process of moving TypeScript to native code for the last year and a half or so. In the beginning of that project, AI was nowhere near as capable as it is now, and therefore we could not really use much of it in the beginning. At this point, though, I'd say we're using AI fairly well. Obviously, we're on GitHub."
+  },
+  {
+    "start": 3129.409,
+    "end": 3155.559,
+    "speaker": "Guest",
+    "text": "We use AI to code review, pull requests. That in the beginning was not all that great, but now it's actually getting a lot better. We use AI to implement issues or fix issues, simple issues. And then it succeeds some of the time in this port that we're doing, you know, because we snapped a copy of the source code from a year and a half ago and then ported it."
+  },
+  {
+    "start": 3156.379,
+    "end": 3179.467,
+    "speaker": "Guest",
+    "text": "We have a backlog of PRs that need to be moved on to the new native compiler. And so we're using AI to help us move those pull requests. And that's actually going fairly well at this point. And then we use it for a bunch of grudgery, drudgery work. Like, okay, here's this feature. Please write me some tests in the same style as these other tests, right? And kaboom."
+  },
+  {
+    "start": 3179.607,
+    "end": 3201.201,
+    "speaker": "Guest",
+    "text": "It's like no one likes writing tests. AI loves writing tests and it'll just pump out more tests and great, you know. So we're trying to use it to get rid of all the toil that otherwise we would spend our time on. But I would say we're not at a point where it absolves us from understanding what we're doing. Not at all."
+  },
+  {
+    "start": 3202.542,
+    "end": 3215.191,
+    "speaker": "Host",
+    "text": "plus your level at the stack, if you will, because you're building a language, it might argue that someone really needs to understand at least one person. Ideally, the whole team needs to understand those fundamental parts, right?"
+  },
+  {
+    "start": 3218.733,
+    "end": 3243.118,
+    "speaker": "Guest",
+    "text": "Language is interesting in the world of AI because AI... We wouldn't have this conversation if it wasn't for languages, because how would AI get to determinism without programming languages, I mean, AI is by design stochastic and indeterminate. It might give you a different answer the next time you ask it the same question,"
+  },
+  {
+    "start": 3243.518,
+    "end": 3248.602,
+    "speaker": "Guest",
+    "text": "either just because random or because there's a new model or there's a whatever. There's no determinism."
+  },
+  {
+    "start": 3252.325,
+    "end": 3273.758,
+    "speaker": "Guest",
+    "text": "We can't build applications if they have non-deterministic behavior. I mean, what would a banking app look like if it decided to hallucinate or whatever, right? So you have to have something where the rubber reads the road and where you can reason about and where you can replicate the behavior. Every time you run the app, the same thing happens."
+  },
+  {
+    "start": 3274.979,
+    "end": 3299.244,
+    "speaker": "Host",
+    "text": "I mean, I even see it in, I think, almost all AI agents or tools these days when you ask it, something to do with data. Oftentimes they will start writing a Python program because I think the AI designers figured out that you at some point want to turn some non-deterministic into a deterministic and what is the thing that we know most efficient? Don't ask it for the answer."
+  },
+  {
+    "start": 3299.384,
+    "end": 3301.625,
+    "speaker": "Guest",
+    "text": "Ask it to write a program that computes the answer."
+  },
+  {
+    "start": 3302.706,
+    "end": 3305.207,
+    "speaker": "Host",
+    "text": "And you will know that that will be deterministic."
+  },
+  {
+    "start": 3307.398,
+    "end": 3331.235,
+    "speaker": "Host",
+    "text": "It's very interesting. But speaking of languages for AI, a question that comes up, of course, because AI is everywhere is generating a lot more code. What is your take on either modifying existing languages for AI usage based on what you're seeing, the patterns, or potentially coming up with, would it make any sense to come up with a language that is more suited for AI agents to use?"
+  },
+  {
+    "start": 3331.555,
+    "end": 3355.396,
+    "speaker": "Guest",
+    "text": "Well, my flippant answer there is, you know, that The language that's most suited for AI is the language that AI has seen the most of in its training set, And that's why you could argue AI does really well on JavaScript and TypeScript and Python, because it's seen an awful lot of it. And there's an awful lot of that still. And then, and so, and that just reinforces itself, right?"
+  },
+  {
+    "start": 3355.982,
+    "end": 3382.553,
+    "speaker": "Guest",
+    "text": "And you could argue, the reason TypeScript and JavaScript are popular, that's mostly to do with the browser and not so much to do with AI, But it's interesting to look at why is AI targeting TypeScript versus just JavaScript? And there, I think the types actually help guide the AI to producing better programs. And I think our combination of the ability to type something when there's no context"
+  },
+  {
+    "start": 3383.397,
+    "end": 3408.776,
+    "speaker": "Guest",
+    "text": "but also our ability to infer it when there is context is just the right combination because if you were to force AI to write a type annotation on everything, then it would probably get it wrong more often because now it has to keep track of all these types and it has to just repeat itself over and over and over, And so types are important where there's no context,"
+  },
+  {
+    "start": 3409.376,
+    "end": 3430.384,
+    "speaker": "Guest",
+    "text": "but inference is super important for the dry or do not repeat yourself principle, And fewer tokens generally makes AI more efficient. And so I think we have a very nice combo there in how you can just sort of type the outermost parameter and then everything flows. from there on in."
+  },
+  {
+    "start": 3431.645,
+    "end": 3453.339,
+    "speaker": "Host",
+    "text": "Now, one thing that AI is already revolting in, again, for the GitHub Team Share stats, so this is also open data, that AI agents are generating a lot more code. I mean, they're both quick to generate. They also like to be sometimes verbose. Knowing that we are already seeing a lot more code pushed everywhere at a project level, at an aggregate level."
+  },
+  {
+    "start": 3453.799,
+    "end": 3462.182,
+    "speaker": "Host",
+    "text": "What do you think language characteristics could become more important in this world of just a lot more code, oftentimes generated by machines?"
+  },
+  {
+    "start": 3462.582,
+    "end": 3488.091,
+    "speaker": "Guest",
+    "text": "I mean, you could argue that we're already past peak truth on the internet, right? And now there's just more and more garbage every day. It gets harder and harder to suss out the stuff that you do want to include in the training set in order to actually make something more intelligent. So I think that gradual, I mean, I'm sure people are working on it. I could see that as becoming problematic."
+  },
+  {
+    "start": 3488.311,
+    "end": 3510.583,
+    "speaker": "Guest",
+    "text": "Languages that are suitable for AI, I think like I talked about types and inference. I think both of those are important. I think also locality is important. Locality? Well, what I mean by that is like don't have a bunch of global stuff. where AI has to grok the entire product. these pound include files that are, oh my God,"
+  },
+  {
+    "start": 3510.903,
+    "end": 3535.652,
+    "speaker": "Guest",
+    "text": "who knows where they're in scope and how do I put that in the context window or not? And then do I burn like a gazillion tokens on trying to include, but But if you have good locality where you're clearly stating what you're importing and whatever and you can analyze just a single source file and from that extract its protocol to the outside world without having to know anything deeper."
+  },
+  {
+    "start": 3535.733,
+    "end": 3549.484,
+    "speaker": "Guest",
+    "text": "Do you know what I mean? I think those are important aspects just simply to reduce the size of the of the context window and also make it easier to summarize each module in a program."
+  },
+  {
+    "start": 3550.105,
+    "end": 3571.53,
+    "speaker": "Host",
+    "text": "This is so fascinating because I remember this was probably 15 years ago where PHP was very much critiqued for its globals. and early on I didn't understand as a young developer why that was a big deal I was just hacking around in PHP until I had the issue of something was not working and turns out that something imported over with a global and suddenly you realize that"
+  },
+  {
+    "start": 3571.61,
+    "end": 3581.861,
+    "speaker": "Host",
+    "text": "when things are defined across the code base a global could be anywhere and there's no way for you to to know when someone else is doing your now back to the state problem which you just"
+  },
+  {
+    "start": 3582.718,
+    "end": 3604.354,
+    "speaker": "Guest",
+    "text": "talked about. Original JavaScript suffered from this problem. There were no modules, right? Everything was global and anyone could just like monkey patch anything else. And it was impossible to know really, what am I sitting on top of here? But now with ECMAScript modules and whatever, we're moving towards sanity and more and more the world is written that way in the JavaScript ecosystem."
+  },
+  {
+    "start": 3604.394,
+    "end": 3607.997,
+    "speaker": "Guest",
+    "text": "And that's a good thing. And I think that will help us down the line with AI."
+  },
+  {
+    "start": 3611.06,
+    "end": 3638.831,
+    "speaker": "Guest",
+    "text": "it's just starting to become aware of, you know, the existence of language services. And agents today like to use grep and awk and whatever, you know, to find all the places where you reference a certain thing, but it's not semantic search, And so if you have a common name for this property, like count or address or whatever, right? it's going to find a whole bunch of properties named address,"
+  },
+  {
+    "start": 3638.931,
+    "end": 3657.095,
+    "speaker": "Guest",
+    "text": "and then that's not going to work so well because now you don't know that you're renaming the right one, But this is where language services come in and semantic search. And I think that's going to increasingly become more important with AI. And really, these are services that are already provided by LSP implementations."
+  },
+  {
+    "start": 3657.899,
+    "end": 3666.585,
+    "speaker": "Guest",
+    "text": "but they may need some tweaking in order for them to be more accessible to AI. AI likes command line tools, you know, and they're not really command line tools."
+  },
+  {
+    "start": 3666.945,
+    "end": 3681.536,
+    "speaker": "Host",
+    "text": "And I also wonder if, for example, performance will be interesting because we know that these things can run faster, so faster feedback loops will be helpful, which we're now going back to one of the reasons that TypeScript was so popular, you said the 200 milliseconds of getting you feedback,"
+  },
+  {
+    "start": 3682.036,
+    "end": 3705.754,
+    "speaker": "Guest",
+    "text": "But there are ways of, you know, where you could imagine, you know, like a server, keeping a project hot and giving your LSP services, you know, that AI can ask semantic questions and whatever. And then once AI stops asking after 10 minutes, the server just dumps it, you know, and whatever. There are ways of putting this together, I think, where we can make some progress on it. Because, like,"
+  },
+  {
+    "start": 3706.314,
+    "end": 3714.758,
+    "speaker": "Guest",
+    "text": "the ability for AI to semantically validate the code that it's generating as it's generating it will increasingly become important."
+  },
+  {
+    "start": 3715.227,
+    "end": 3739.44,
+    "speaker": "Host",
+    "text": "What about the software craft? You've been in this industry for many decades, but it's hard to unsee that these tools are just coming to everyday use, similar to how at some point graphical IDs came before that, I guess higher level languages came. Knowing that AI agents and AI tools will be part of the craft, what do you think parts of software engineering craft will become less important"
+  },
+  {
+    "start": 3739.64,
+    "end": 3743.162,
+    "speaker": "Host",
+    "text": "and what might become more important? In a sense, we're all turning into"
+  },
+  {
+    "start": 3743.843,
+    "end": 3774.0,
+    "speaker": "Guest",
+    "text": "project managers, right? And we can have an army of junior programmers called agents that will just spit out reams of code, but someone's got to have the big picture and review all of that. And so increasingly our craft is going from one of writing the code to one of reviewing the code and building the architecture of the code and overseeing the work. if you will. It's a different kind of craft."
+  },
+  {
+    "start": 3774.06,
+    "end": 3791.818,
+    "speaker": "Guest",
+    "text": "It's a different kind of enjoyment. I've always liked writing the code. To me, that was the fulfilling part, seeing it work. Do you know what I mean? And in a way, AI robs a little bit of that, right? I mean, because I am less interested in reviewing code,"
+  },
+  {
+    "start": 3792.078,
+    "end": 3796.782,
+    "speaker": "Host",
+    "text": "but I think we could also make the process of reviewing code much more interesting"
+  },
+  {
+    "start": 3796.922,
+    "end": 3820.719,
+    "speaker": "Guest",
+    "text": "than it is today, I mean, today you see a list of diffs in alphabetical order, and now it's up to you to make heads or tails of it. There are more pedagogical ways of presenting that. And you could have commentary generated by the AI that tells you what the changes are and whatever, and then tries to guide you along. Do you know what I mean? So that symbiotic relationship,"
+  },
+  {
+    "start": 3820.799,
+    "end": 3844.844,
+    "speaker": "Guest",
+    "text": "I think we need to work on that more and sort of to keep the enjoyment in there. But I think it's foolish to think that AI will just eliminate programmers because ultimately that's great. You know, like vibe coding is wonderful as long as it works. And then the minute it goes off track, then you're like, you have no idea what's going on and you can't convince the AI to fix it. So what do you do?"
+  },
+  {
+    "start": 3845.583,
+    "end": 3871.552,
+    "speaker": "Guest",
+    "text": "You can't absolve yourself from understanding what's going on. That's not programming. And ultimately also, the responsibility for a program does not lie with the AI. It lies with the programmer. You're not going to go back to the AI and say, shame on you. I'm going to fire you. What does that even mean, right? I mean, now you have nothing. No, you need someone to have that."
+  },
+  {
+    "start": 3872.81,
+    "end": 3891.364,
+    "speaker": "Guest",
+    "text": "that function of being responsible. And so, so that's, you know, so ultimately AI is a tool to enable us to become more productive, I think, but it will change the way that we write our programs for sure. I mean, there's no point in, in, in, in sitting there and typing in stuff that AI could type a hundred times faster, you know,"
+  },
+  {
+    "start": 3891.79,
+    "end": 3906.367,
+    "speaker": "Host",
+    "text": "Having created three very widely used programming languages, what have you learned about developers, about what they care about when it comes to programming languages and stuff that maybe they don't care too much about and don't even think about it, but you might have to think a lot about?"
+  },
+  {
+    "start": 3906.727,
+    "end": 3925.98,
+    "speaker": "Guest",
+    "text": "You know, I think at the end of the day, developers care about being productive. They care about being in the zone. where they feel like, oh yeah, this thing is just clicking for me. It's doing just the right thing. And it's like answering me, but it's right there. It's an extension of my fingertips, right? So for me as a language designer, I'm never just looking at the language."
+  },
+  {
+    "start": 3926.18,
+    "end": 3949.064,
+    "speaker": "Guest",
+    "text": "It's you're looking, you got to look at the whole picture, the whole experience, because really what you're doing is you're creating an experience, an experience that programmers will spend the majority of their working life in. Which is why programmers become so attached to their tools, you know, and their languages, I mean, it's almost a religious thing, which language you're in,"
+  },
+  {
+    "start": 3949.104,
+    "end": 3966.706,
+    "speaker": "Guest",
+    "text": "which tool you're using, because it's so ingrained in your workflow and it so enables you to be in the zone, So that, I think, is the That's the key to focus on, and that's what I've tried to do with the work that I've done over the years."
+  },
+  {
+    "start": 3966.946,
+    "end": 3973.735,
+    "speaker": "Host",
+    "text": "And it sounds like this is why, from the very beginning, you also focus on the IDE, the tool where developers spend their time in."
+  },
+  {
+    "start": 3973.995,
+    "end": 3975.918,
+    "speaker": "Guest",
+    "text": "Yeah, you can't have one without the other."
+  },
+  {
+    "start": 3975.998,
+    "end": 3997.428,
+    "speaker": "Host",
+    "text": "Well, you can, but but it's just not nearly as effective. One question we're starting to see or it's more of a question mark is well how much are we going to be in the IDE all day versus these new interfaces which might be agents where you can manage multiple things or command line which is again just something where we found that agents can work asynchronously but I think we're"
+  },
+  {
+    "start": 3997.448,
+    "end": 4001.421,
+    "speaker": "Host",
+    "text": "still figuring out as an industry of like what what will come next?"
+  },
+  {
+    "start": 4001.781,
+    "end": 4015.952,
+    "speaker": "Guest",
+    "text": "Yeah, I don't know that we can see the steady state at this point because it's evolving so much. But I still believe that programmers are going to be relevant in this equation. You know, I fundamentally believe that."
+  },
+  {
+    "start": 4016.404,
+    "end": 4037.016,
+    "speaker": "Host",
+    "text": "What about performance and efficiency? Early on in your career, you just mentioned that your first computer you had on how many kilobytes it had and how you fit your compiler into 12 kilobytes, which these days I cannot even create a text file that's smaller than that. Or it's very hard to do, right? But it seems in those in the, you know, like a few decades ago,"
+  },
+  {
+    "start": 4037.616,
+    "end": 4055.2,
+    "speaker": "Host",
+    "text": "writing efficient programs was important. And over time, my perception is that it's becoming less of a focus. What is your take on that? And do you think it's kind of fine for us developers to forget about efficiency or we're just allowed to do that because of we have more resources or maybe this will change?"
+  },
+  {
+    "start": 4056.1,
+    "end": 4081.719,
+    "speaker": "Guest",
+    "text": "I think it's a case of it depends. There are certain classes of apps for which efficiency is Absolutely key. I mean, the kind of program that my group works on, like compilers, tooling and whatever. Yeah, people do care. That's why we're spending a year and a half moving to native code. Inference in the cloud or up against that. I mean, oh my God, you know, like financial, fast trading, whatever."
+  },
+  {
+    "start": 4081.839,
+    "end": 4103.654,
+    "speaker": "Guest",
+    "text": "It's all about perf, right? I mean, and the speed of light and like trying to move your trade faster than the other guys. So there are lots of places where perf is king. But there's increasingly also places where perf doesn't really matter because, you know, it's so fast anyway that even if it's 10 times slower, you still can't detect a difference."
+  },
+  {
+    "start": 4104.494,
+    "end": 4110.299,
+    "speaker": "Guest",
+    "text": "And so it's just not worth optimizing there anymore. It depends, I think, on the kind I app you're building."
+  },
+  {
+    "start": 4110.999,
+    "end": 4117.644,
+    "speaker": "Host",
+    "text": "It's a good reminder that not all use cases are born equal. I'm interested, what is your personal development setup like these days?"
+  },
+  {
+    "start": 4118.005,
+    "end": 4143.275,
+    "speaker": "Guest",
+    "text": "Well, I'm an old Windows guy. I still... Windows is my desktop. I have a Lenovo P1. You know, I like, I like just keeping everything portable. So I don't have a big screen or whatever. I just, but this is like, you know, what, 15, 16 inch laptop with a nice OLED screen and a nice keyboard. And that's, that's what I do my coding on, you know, pretty much exclusively. And what tools do you use?"
+  },
+  {
+    "start": 4143.776,
+    "end": 4149.177,
+    "speaker": "Guest",
+    "text": "Oh, I use VS Code. VS Code all day, every day? VS Code and GitHub all the time."
+  },
+  {
+    "start": 4150.778,
+    "end": 4154.439,
+    "speaker": "Host",
+    "text": "And for AI coding assistants? It's mostly the GitHub"
+  },
+  {
+    "start": 4155.16,
+    "end": 4181.462,
+    "speaker": "Guest",
+    "text": "and VS Code stuff, which means, well, you get to choose your LLM there, right? But it's that workflow, I think, generally speaking. It's limited how much we've been able to use LLMs in implementing our compiler and implementing new language features. It's good at surface-y stuff, but when it comes to getting the big picture and how to"
+  },
+  {
+    "start": 4182.33,
+    "end": 4191.696,
+    "speaker": "Guest",
+    "text": "types and symbols and binding and parsing and all relate then where's what's the most efficient data structure here and whatever it's yeah it's not quite to that"
+  },
+  {
+    "start": 4191.777,
+    "end": 4212.544,
+    "speaker": "Host",
+    "text": "level I'm also wondering if the lower you go into the stack may that be very high performance code or a very concise code where all these things matter maybe the applicability starts to drop because again we know we already see this with LLMs they're amazing for greenfield work when you have an existing large application. It's useful, don't get me wrong, but it's not nearly as useful."
+  },
+  {
+    "start": 4212.824,
+    "end": 4234.83,
+    "speaker": "Guest",
+    "text": "Yeah, and we are one big brown field because, you know, we already have a huge code base, right? And it's got to fit in there. Plus, I mean, to be honest, I mean, there are only so many compilers in the training sets of AI where there's a gazillion GUI apps written in React and whatever, So no wonder it's good at those, right?"
+  },
+  {
+    "start": 4235.33,
+    "end": 4258.068,
+    "speaker": "Host",
+    "text": "I was interested in Reflecting a little bit on your career, you've now been at Microsoft for 30 years and you've been working on programming languages for 40. That's even a lot to say. But in this industry, it's pretty common for people to change jobs every three to five years or so. What has kept you at a company for so long and also in a similar area for even longer?"
+  },
+  {
+    "start": 4258.408,
+    "end": 4281.019,
+    "speaker": "Guest",
+    "text": "Well, there's just something about developer tools that is just what I love to do on programming languages. They're complex, algorithmically complex problems to solve, and I, for some reason, like that. They have fewer dependencies on other things, so you're building from the bottom yourself. Do you know what I mean?"
+  },
+  {
+    "start": 4281.039,
+    "end": 4302.717,
+    "speaker": "Guest",
+    "text": "You don't have to sit on top of someone else's framework and swear at them when it doesn't do what you want it to do, So that kind of works for me, right? But the thing is, like, dual programming languages, you come to realize, it's a long play. I mean, if you look back at the stuff I worked on, it goes in 10-year cycles at least."
+  },
+  {
+    "start": 4303.337,
+    "end": 4324.364,
+    "speaker": "Guest",
+    "text": "And TypeScript didn't really, for example, or C-sharp for that matter. I mean, it took, it takes 10 years to get to, you know, version one is great, but it has all sorts of issues and you got to do version two. And then it's not until version three that it really starts to be great. But then now you got to convince people to actually adopt it. And, and it's just, it's a long play."
+  },
+  {
+    "start": 4324.544,
+    "end": 4344.166,
+    "speaker": "Guest",
+    "text": "You got to be willing to do the long play. And I think having been at a company like Microsoft, it's been great because to be put in a position where a company like Microsoft is putting their might behind your efforts on creating a program release, that's not an opportunity you get in a lot of places, And that has been fantastic."
+  },
+  {
+    "start": 4344.186,
+    "end": 4350.05,
+    "speaker": "Guest",
+    "text": "But also, you know, the fact that Microsoft is fundamentally a developer-focused company. They always have been."
+  },
+  {
+    "start": 4350.17,
+    "end": 4350.87,
+    "speaker": "Host",
+    "text": "That's how they started."
+  },
+  {
+    "start": 4350.89,
+    "end": 4373.341,
+    "speaker": "Guest",
+    "text": "Developers matter. It's not advertisers who are paying the bills. It's developers and enterprises that, you know, and I like that, like where you feel like you're doing an artist's work and people are paying you for it and it's good stuff, you know. As closing, what is a book that you would recommend and why? I always recommend the same book, which is Niklaus Wietz, Programs Plus Data Structures."
+  },
+  {
+    "start": 4375.214,
+    "end": 4400.242,
+    "speaker": "Guest",
+    "text": "equals algorithms. It's actually like available online now. It was written in the seventies, but that was the book that it was a revelation for me to read this book. This is how I, how I learned about hash tables and how to construct a small compiler and whatever. And it was just wonderful. It's very light on symbolism and very rich on examples. And I was always an engineer."
+  },
+  {
+    "start": 4400.322,
+    "end": 4420.087,
+    "speaker": "Guest",
+    "text": "And so that book just appealed to me. And I think it's still, in a lot of ways, super relevant today. The basics have not changed, have they, too much? No, certainly. And particularly when it comes to programming languages, heck, it's a well-established discipline, quite honestly. Yeah, it's been around for 50 plus years."
+  },
+  {
+    "start": 4420.627,
+    "end": 4440.653,
+    "speaker": "Host",
+    "text": "Well, Anders, thank you so much for this in-depth conversation. Oh, my pleasure. This was a lot of fun. I hope you enjoyed this rare conversation with Anders as much as I did. An interesting part I keep thinking back to is how Anders said that programming language design is a 10-year cycle at minimum. Version 1 has issues, version 2 fixes them, version 3 is finally great, and then you"
+  },
+  {
+    "start": 4440.653,
+    "end": 4458.757,
+    "speaker": "Host",
+    "text": "you have to convince people to actually adopt it. Most of us devs are used to thinking in quarters and sprints. This is certainly a different timeframe. I also found it surprising to hear how small the C-sharp language design team was and how lean that they worked. Six to seven people, three meetings per week, powers each. All of them were people who had built languages before,"
+  },
+  {
+    "start": 4459.118,
+    "end": 4477.532,
+    "speaker": "Host",
+    "text": "and they were criticizing each other's ideas. And ideas that survived the criticism were the ones considered good enough to work. Just a good reminder that standout technical work more often comes from small teams than it does from committees. Finally, I really like how Anders said that IDEs are the language. From Turbo Pascal in the 1990s to TypeScript and VS Code today,"
+  },
+  {
+    "start": 4477.972,
+    "end": 4496.819,
+    "speaker": "Host",
+    "text": "Anders says that the compiler is not the product. The product is the whole edit, compile, run, debug cycle. This is a good reminder to any and all of us building software. The product is the complete way that your customers use the product, not just the screens or parts that you are responsible for. If you'd like to go deeper on Microsoft's developer tool routes and operating systems,"
+  },
+  {
+    "start": 4496.879,
+    "end": 4508.943,
+    "speaker": "Host",
+    "text": "check out the related Pragmatic Engineer deep dives linked in the show notes below. If you've enjoyed this podcast, please do subscribe on your favorite podcast platform and on YouTube. A special thank you if you also leave a rating on the show. Thanks and see you in the next one."
+  }
+]

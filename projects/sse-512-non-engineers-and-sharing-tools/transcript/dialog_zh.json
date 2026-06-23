@@ -1,0 +1,1836 @@
+[
+  {
+    "start": 5.78,
+    "end": 29.88,
+    "speaker": "Host",
+    "text_en": "It takes more than eight bits to be a great software engineer. This is episode 512. The ninth bit of the software engineering podcast. I'm your host, Jameson Dance. I'm your host, Dave Smith. Software engineering is a weekly advice show for all of the non-technical things that go into the technical field of software development, like trying to explain.",
+    "text": "要成为一名优秀的软件工程师，光靠八个比特可不够。这里是第 512 期，《软件工程播客》的第九个比特。我是你们的主持人 Jameson Dance。我是你们的主持人 Dave Smith。《软件工程》是一档每周更新的建议类节目，聊的是软件开发这个技术领域里那些非技术性的事，比如试着去解释——"
+  },
+  {
+    "start": 30.74,
+    "end": 42.14,
+    "speaker": "Guest",
+    "text_en": "binary in english words i guess that's not technical actually no no that is technical the non-technical bit is the judgment to know i should not be explaining what binary is right now",
+    "text": "怎么用英文来解释二进制，我猜这其实不算非技术内容——不不，那确实是技术内容。非技术的部分是这种判断力：知道我现在不该去解释什么是二进制。"
+  },
+  {
+    "start": 44.14,
+    "end": 47.19,
+    "speaker": "Host",
+    "text_en": "Can you believe it took us 10 years to go above eight bits?",
+    "text": "你敢信吗？我们居然花了 10 年才超过八个比特。"
+  },
+  {
+    "start": 47.86,
+    "end": 51.26,
+    "speaker": "Guest",
+    "text_en": "I think we're moving faster than the computer industry did early on.",
+    "text": "我觉得我们前进的速度已经比早期的计算机行业还快了。"
+  },
+  {
+    "start": 51.51,
+    "end": 55.91,
+    "speaker": "Host",
+    "text_en": "That's exactly what I was just wondering. Did we break out of 8 bits faster than the computer industry?",
+    "text": "这正是我刚刚在想的。我们突破 8 比特是不是比计算机行业还快？"
+  },
+  {
+    "start": 56.16,
+    "end": 62.46,
+    "speaker": "Guest",
+    "text_en": "I think they'll catch up to us, though. I think it's going to take us a while to get to like 64 bits of podcast episodes.",
+    "text": "不过我觉得他们迟早会追上我们的。我觉得我们要做到像 64 比特那么多期播客，还得花上一阵子。"
+  },
+  {
+    "start": 62.46,
+    "end": 64.11,
+    "speaker": "Host",
+    "text_en": "It might take a little while.",
+    "text": "可能确实得等一段时间。"
+  },
+  {
+    "start": 67.26,
+    "end": 73.31,
+    "speaker": "Host",
+    "text_en": "I don't know how many millions of trillions of years it will take us, but it's a lot. But we're committed.",
+    "text": "我不知道得花几百万亿年，但肯定会很久。不过我们会坚持下去。"
+  },
+  {
+    "start": 73.61,
+    "end": 84.228,
+    "speaker": "Guest",
+    "text_en": "Yeah. And if the questions keep coming. we have content we don't have 64 bits of questions but we have enough to keep going for a while and",
+    "text": "对。只要问题还不断冒出来。我们手头就有内容，虽然没有 64 比特那么多的问题，但也够我们继续聊上一阵子了，而且"
+  },
+  {
+    "start": 84.228,
+    "end": 85.128,
+    "speaker": "Host",
+    "text_en": "Yeah, we do.",
+    "text": "对，确实。"
+  },
+  {
+    "start": 85.128,
+    "end": 89.028,
+    "speaker": "Guest",
+    "text_en": "they continue to grow faster than we answer them so oh",
+    "text": "问题增长的速度还是比我们回答得快，所以，哦"
+  },
+  {
+    "start": 89.028,
+    "end": 92.178,
+    "speaker": "Host",
+    "text_en": "My doctor told me that as long as the questions keep coming in, I will stay alive.",
+    "text": "我医生跟我说，只要问题还不断进来，我就还能活着。"
+  },
+  {
+    "start": 92.828,
+    "end": 93.078,
+    "speaker": "Guest",
+    "text_en": "good",
+    "text": "好"
+  },
+  {
+    "start": 93.078,
+    "end": 95.228,
+    "speaker": "Host",
+    "text_en": "Doctor or wizard, I can't remember which one.",
+    "text": "是医生还是巫师来着，我记不清了。"
+  },
+  {
+    "start": 97.972,
+    "end": 101.472,
+    "speaker": "Guest",
+    "text_en": "Is that a witch doctor? A combo doctor and wizard?",
+    "text": "那是巫医吗？医生和巫师二合一？"
+  },
+  {
+    "start": 101.472,
+    "end": 104.322,
+    "speaker": "Host",
+    "text_en": "That's right. That's exactly what that is.",
+    "text": "没错。就是这么个意思。"
+  },
+  {
+    "start": 106.522,
+    "end": 115.972,
+    "speaker": "Host",
+    "text_en": "Thank you if you have stuck with us this long and welcome if you are just joining because you figured 512, that's a good number to start listening.",
+    "text": "如果你一路听到这里，先谢谢你；如果你是因为觉得 512 这个数字不错，决定从这期开始听，也欢迎你。"
+  },
+  {
+    "start": 116.222,
+    "end": 119.522,
+    "speaker": "Guest",
+    "text_en": "Yeah, that's where I start. I usually wait until podcasts get to the ninth bit.",
+    "text": "对，我就是从这开始听的。我一般都等播客做到第九位才开始听。"
+  },
+  {
+    "start": 119.522,
+    "end": 122.67,
+    "speaker": "Host",
+    "text_en": "Yeah. filters out the wheat from the chaff",
+    "text": "对，这样就能筛掉糟粕，留下精华。"
+  },
+  {
+    "start": 122.97,
+    "end": 127.47,
+    "speaker": "Guest",
+    "text_en": "that eight-bit garbage yes",
+    "text": "对，那些八位的垃圾就可以过滤掉了。"
+  },
+  {
+    "start": 129.32,
+    "end": 130.82,
+    "speaker": "Guest",
+    "text_en": "Dave you want to thank our patrons",
+    "text": "Dave，你要不要感谢一下我们的 patrons？"
+  },
+  {
+    "start": 131.52,
+    "end": 135.92,
+    "speaker": "Host",
+    "text_en": "i do a big shout out to those that are contributing at a level where we say",
+    "text": "要，得隆重感谢一下那些支持到我们每周都会把他们整个 Patreon 名字、个人资料名都念出来的朋友。"
+  },
+  {
+    "start": 136.596,
+    "end": 161.646,
+    "speaker": "Host",
+    "text_en": "their entire patreon name their profile name every week i'm already laughing and i haven't even started reading them actually i did Yeah. read the first two words of the first one my gosh oh every week people find new ways to make me just absolutely laugh that's why the doctor said it will make me live forever is because i keep reading these patreon names and you know what do they say about laughter and medicine or something an apple a day is the best medicine with laughter something like that i",
+    "text": "我现在还没开始念就已经笑了。其实我已经开始了，对，我读了第一个名字的前两个词。我的天啊。每周大家都会想出新花样，让我笑到不行。这就是为什么医生说这样我能长生不老，因为我一直在读这些 Patreon 名字。你也知道，人家不是总说笑声和药什么的嘛，还是一天一苹果就是最好的药，再加上笑声之类的，差不多那个意思。我——"
+  },
+  {
+    "start": 161.946,
+    "end": 163.696,
+    "speaker": "Guest",
+    "text_en": "think that's how it goes okay",
+    "text": "我觉得大概就是这么说的，好吧。"
+  },
+  {
+    "start": 163.696,
+    "end": 167.516,
+    "speaker": "Host",
+    "text_en": "Don't laugh while you eat the apples. And then it'll be good medicine.",
+    "text": "吃苹果的时候别笑。这样它就会是很好的药。"
+  },
+  {
+    "start": 168.016,
+    "end": 183.566,
+    "speaker": "Host",
+    "text_en": "Okay, the big thanks to a dinosaur full of energy tried to use a computer and telephone to understand gravity while an orchestra played softly during. Okay. Oh, gosh, another one of these. I want 4T2.",
+    "text": "好，一个精力充沛的恐龙在管弦乐轻柔演奏的时候，试着用电脑和电话去理解重力。好。哦天哪，又来这种。我想要 4T2。"
+  },
+  {
+    "start": 187.942,
+    "end": 192.942,
+    "speaker": "Host",
+    "text_en": "Oh, I wish you knew how this stuff was spelled. AI made me a top code producer. Company went bankrupt.",
+    "text": "哦，我真希望你知道这些东西是怎么拼的。AI 让我成了顶级代码产出者。公司倒闭了。"
+  },
+  {
+    "start": 195.192,
+    "end": 203.242,
+    "speaker": "Host",
+    "text_en": "Error. Your Will Angel name variant must contain at least one uppercase letter, one number, and one special character. No one knows my real name is Seth Angel. Angel.",
+    "text": "错误。你的 Will Angel 名字变体必须至少包含一个大写字母、一个数字和一个特殊字符。没人知道我的真名其实是 Seth Angel。Angel。"
+  },
+  {
+    "start": 203.692,
+    "end": 212.692,
+    "speaker": "Host",
+    "text_en": "I thought this was a funny name, but you didn't laugh. Now I feel self-conscious. Will Angel, if you can hear me, please save us. I want to put no carrier on my tombstone, on my tombstone, but if I live long enough, no one will get the joke.",
+    "text": "我本来觉得这是个很好笑的名字，但你没笑。现在我有点不好意思了。Will Angel，如果你能听见我，请救救我们。我想在我的墓碑上写“no carrier”，写在我的墓碑上，但如果我活得够久，就没人能懂这个梗了。"
+  },
+  {
+    "start": 213.492,
+    "end": 224.242,
+    "speaker": "Host",
+    "text_en": "My actual name on LinkedIn is Yammy. Debugging in the dark candy, the mobile development ordinaire. First of his name, name his up for extraordinary development, mobile the candy, dark the in debugging, Yanny.",
+    "text": "我 LinkedIn 上的真名是 Yammy。黑暗中的调试糖果，普通版移动开发。初代其名，为非凡开发而生，移动的是糖果，黑暗中的调试，Yanny。"
+  },
+  {
+    "start": 224.342,
+    "end": 230.842,
+    "speaker": "Guest",
+    "text_en": "Oh, you did not spell that right. Someone put in parentheses SP question mark. Nope. You didn't get it.",
+    "text": "哦，你那个没拼对。有人还在括号里写了 SP 问号。不是。你没答对。"
+  },
+  {
+    "start": 232.242,
+    "end": 254.6,
+    "speaker": "Host",
+    "text_en": "Jacob Shandling. Covaluti Ofer Kvanterti, or as my mother used to say, Fitte Klethe Huznitha. The missing semicolon, Will Angel, please report to HR over your recent transformation into crab. Help? Nick Molyneux embedded engineer's treat assembly the same way typescript engineers treat javascript. Javier Gonzalez chewy, meow mix, angel drone deploy, salted fries.",
+    "text": "Jacob Shandling。Covaluti Ofer Kvanterti，或者像我妈以前常说的那样，Fitte Klethe Huznitha。丢失的分号，Will Angel，请因你最近变成螃蟹一事去 HR 报到。救命？Nick Molyneux，嵌入式工程师对待汇编，就像 TypeScript 工程师对待 JavaScript 一样。Javier Gonzalez，chewy，meow mix，angel drone deploy，咸薯条。"
+  },
+  {
+    "start": 257.15,
+    "end": 262.5,
+    "speaker": "Guest",
+    "text_en": "Ooh, that's a throwback. What happened to salted french unsalted french fries? are morally objectionable.",
+    "text": "哦，这可真是回忆杀。那个“加盐薯条、无盐薯条在道德上令人无法接受”的说法后来怎么没了？"
+  },
+  {
+    "start": 262.6,
+    "end": 268.85,
+    "speaker": "Host",
+    "text_en": "I think they compromised their morals. They were gotten to by big",
+    "text": "我觉得他们是在道德上妥协了。他们被大"
+  },
+  {
+    "start": 268.85,
+    "end": 268.95,
+    "speaker": "Guest",
+    "text_en": "Big,",
+    "text": "大"
+  },
+  {
+    "start": 268.95,
+    "end": 269.6,
+    "speaker": "Host",
+    "text_en": "French fry big, or big",
+    "text": "薯条集团影响了，还是大"
+  },
+  {
+    "start": 269.6,
+    "end": 269.7,
+    "speaker": "Guest",
+    "text_en": "big",
+    "text": "大"
+  },
+  {
+    "start": 269.7,
+    "end": 269.8,
+    "speaker": "Host",
+    "text_en": "salt.",
+    "text": "盐业。"
+  },
+  {
+    "start": 269.8,
+    "end": 272.55,
+    "speaker": "Guest",
+    "text_en": "fry, big salt, big salt got to them. That's who it was.",
+    "text": "薯条集团，大盐业，大盐业把他们搞定了。就是这么回事。"
+  },
+  {
+    "start": 274.3,
+    "end": 274.7,
+    "speaker": "Host",
+    "text_en": "Wait,",
+    "text": "等等，"
+  },
+  {
+    "start": 274.75,
+    "end": 280.25,
+    "speaker": "Guest",
+    "text_en": "no, I guess it'd be big unsalt. Maybe they were big salt. They got brought down low by some plucky rebels.",
+    "text": "不，我猜应该是大型无盐势力。也可能是大型盐业集团。后来被一群勇敢的反抗者狠狠干趴下了。"
+  },
+  {
+    "start": 280.95,
+    "end": 284.8,
+    "speaker": "Host",
+    "text_en": "Oh, that's what it is. Yes, it's the big sodium, the big low sodium.",
+    "text": "哦，原来是这个意思。对，就是大钠业，大低钠。"
+  },
+  {
+    "start": 285.65,
+    "end": 286.05,
+    "speaker": "Guest",
+    "text_en": "Yep.",
+    "text": "对。"
+  },
+  {
+    "start": 286.05,
+    "end": 299.994,
+    "speaker": "Host",
+    "text_en": "Okay. Where did I leave off? Oh my goodness. Ted Tinbrel Chewy. Ted Tinbrel Chewy. Ted Tinbrel Chewy. Ted Tinbrel Chewy. Ted Tinbrel Chewy. Ted Tinbrel. A single open paren. Dan from Drone Deploy. Never is not just a crater on Mars flamingo emoji.",
+    "text": "好，我刚才念到哪儿了？我的天。Ted Tinbrel Chewy。Ted Tinbrel Chewy。Ted Tinbrel Chewy。Ted Tinbrel Chewy。Ted Tinbrel Chewy。Ted Tinbrel。一个单独的左括号。来自 Drone Deploy 的 Dan。Never 不只是火星上的一个陨石坑 flamingo emoji。"
+  },
+  {
+    "start": 300.144,
+    "end": 312.594,
+    "speaker": "Host",
+    "text_en": "I like chicken. I like liver. Meow mix, meow mix. Please deliver. Swiss Python Summit on the 22nd and 23rd of October 2026. Kyle Boss, can't see it odds. Slowing down. Jenny Kim, the sarcastic parrot. Will Angel move to... Oh no.",
+    "text": "我喜欢鸡肉。我喜欢肝。Meow Mix，Meow Mix。请送上门。Swiss Python Summit，2026 年 10 月 22 日和 23 日。Kyle Boss，看不见那个赔率。慢下来了。Jenny Kim，那只爱挖苦人的鹦鹉。Will Angel 会搬去……哦不。"
+  },
+  {
+    "start": 315.794,
+    "end": 344.452,
+    "speaker": "Host",
+    "text_en": "It's back. The longest city name on Earth. Okay, here we go. I was able to say this at one point. Lanfer pwyllgwyn gyllgogerych wyrndrobwllant syllygogogoch, a town in North Wales. All right, Ira Chan, Jonathan Kings, and I, beautiful functional user documentation. If I were Angel, I wouldn't. Crab now on your phone at vote.williameangel.net. Dave's serial killer name, Dave Smiles.",
+    "text": "它又来了。地球上最长的城市名。好，开始吧。我以前有一次是能念出来的。Llanfair­pwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch，威尔士北部的一个小镇。好，Ira Chan、Jonathan Kings，还有我，漂亮的函数式用户文档。如果我是 Angel，我就不会。现在就在你的手机上到 vote.williameangel.net 给 Crab 投票。Dave 的连环杀手名字，Dave Smiles。"
+  },
+  {
+    "start": 344.652,
+    "end": 354.152,
+    "speaker": "Host",
+    "text_en": "Adding inside jokes to your agents.md in your personal repo is still technically a team building exercise. Brayden Keynes, John Grant, Brittany Ellick, Will Will Angel go to slash new? Cough.",
+    "text": "把内部梗加到你个人仓库的 agents.md 里，从技术上说依然算是一种团队建设活动。Brayden Keynes、John Grant、Brittany Ellick，Will Will Angel 会去 slash new 吗？咳。"
+  },
+  {
+    "start": 355.852,
+    "end": 372.064,
+    "speaker": "Host",
+    "text_en": "May 27th through 28th. Oh my gosh. Will he? Will Will Angel. And finally, closed parentheses followed by a single literal closing paren. Oh my goodness, you did it again, team. Wow, it's amazing. I normally have to pay for this kind of entertainment,",
+    "text": "5 月 27 日到 28 日。我的天啊。他会吗？Will Will Angel。最后，右括号复数，后面再跟一个字面的右括号。我的天，你们这帮人又来了一次。哇，太神了。这种级别的娱乐我平时可是得花钱买的。"
+  },
+  {
+    "start": 372.114,
+    "end": 374.764,
+    "speaker": "Guest",
+    "text_en": "and you paid us to entertain us.",
+    "text": "而且你还花钱请我们来逗你开心。"
+  },
+  {
+    "start": 375.86,
+    "end": 378.01,
+    "speaker": "Host",
+    "text_en": "It doesn't work economically, but it works in my heart.",
+    "text": "这在经济上说不通，但在我心里说得通。"
+  },
+  {
+    "start": 378.21,
+    "end": 381.66,
+    "speaker": "Guest",
+    "text_en": "Yeah, this is the power of friendship, which transcends economics.",
+    "text": "对，这就是友情的力量，能超越经济规律。"
+  },
+  {
+    "start": 382.66,
+    "end": 400.71,
+    "speaker": "Host",
+    "text_en": "It's time for me to bring back my old favorite stupid name joke, which is imagine there was a guy named Big Mac and his nickname was Big Mac and then he would be named Big Mac Mac Mac. And I see Will Will Angel and I think, what if Will Angel's nickname was Will Angel and then it'd be Will Will Angel Angel.",
+    "text": "现在该把我以前最喜欢的那个蠢名字笑话拿出来了。就是你想象有个人叫 Big Mac，他的昵称也叫 Big Mac，那他名字就会变成 Big Mac Mac Mac。然后我看到 Will Will Angel，我就在想，如果 Will Angel 的昵称也叫 Will Angel，那就会变成 Will Will Angel Angel。"
+  },
+  {
+    "start": 401.71,
+    "end": 410.596,
+    "speaker": "Guest",
+    "text_en": "It's pretty good. Big Big Mac Mac? I don't quite get it. Like big and then quotes Big Mac and then his last name's Mac.",
+    "text": "还挺不错的。Big Big Mac Mac？我有点没听懂。就是 big，然后中间引号里是 Big Mac，接着他的姓是 Mac。"
+  },
+  {
+    "start": 410.946,
+    "end": 414.196,
+    "speaker": "Guest",
+    "text_en": "Oh, kind of like how you put your nickname between your first name and your last name?",
+    "text": "哦，有点像把昵称放在名和姓中间那种？"
+  },
+  {
+    "start": 414.196,
+    "end": 420.896,
+    "speaker": "Host",
+    "text_en": "Yeah, like David, Dave, Smith. Big Dave or Dave Big Mac Smith or like, you know, Dave",
+    "text": "对，就像 David，Dave，Smith。或者 Big，Big Mac，Mac。又或者，你懂的，Dave。"
+  },
+  {
+    "start": 420.896,
+    "end": 421.696,
+    "speaker": "Guest",
+    "text_en": "I got you.",
+    "text": "懂你意思了。"
+  },
+  {
+    "start": 421.696,
+    "end": 426.146,
+    "speaker": "Host",
+    "text_en": "the Destroyer Smith. Wait, am I supposed to leak your last name?",
+    "text": "毁灭者 Smith。等等，我是不是不该把你的姓说出来？"
+  },
+  {
+    "start": 426.146,
+    "end": 427.796,
+    "speaker": "Guest",
+    "text_en": "Oh, whoops. No, I say it every time.",
+    "text": "哦，糟了。不，我每次都会说。"
+  },
+  {
+    "start": 428.532,
+    "end": 429.532,
+    "speaker": "Host",
+    "text_en": "Oh, yeah, that's right.",
+    "text": "哦，对，也是。"
+  },
+  {
+    "start": 432.482,
+    "end": 433.382,
+    "speaker": "Guest",
+    "text_en": "And so do you.",
+    "text": "你也是。"
+  },
+  {
+    "start": 435.932,
+    "end": 443.632,
+    "speaker": "Host",
+    "text_en": "You got me for a moment. I was like, wait, no, I my was like, oh, what have you done? We've kept our pseudonym. identities secret for Whoever",
+    "text": "你刚刚真把我唬住了一下。我当时还想，等等，不对，我脑子里就在想，哦，你都干了什么？我们这么多年一直都把自己的化名身份保密来着。"
+  },
+  {
+    "start": 443.632,
+    "end": 449.766,
+    "speaker": "Guest",
+    "text_en": "10 years. knows my last name is Smith. it took nine bits to my determine unique identifier",
+    "text": "10 年了。大家都知道我姓 Smith。要确定我的唯一标识，只需要 9 个比特。"
+  },
+  {
+    "start": 453.366,
+    "end": 474.916,
+    "speaker": "Host",
+    "text_en": "we better get to a question yeah we should we've spent all the bits now let's do the questions yeah i will read it i think this is from an anonymous listener who says should i declare my struggle with this ai world we live in here nah i mean i'd like the hype to die down a lot but we keep getting new tools and i get to experiment so here we are my real struggle and this podcast is implic",
+    "text": "我们最好还是进入问题环节。对，应该这样。我们已经把比特都用光了。那就开始回答问题吧。对，我来读。我觉得这是一位匿名听众发来的，他说：我是不是该坦白说，我对我们现在这个 AI 世界里的挣扎？嗯，也不是啦，我只是希望这波炒作能赶紧降温一点，但新工具又一直在冒出来，我也确实能拿来做实验，所以事情就变成这样了。我的真正挣扎——而且这个播客也牵涉其中——在于："
+  },
+  {
+    "start": 474.804,
+    "end": 489.404,
+    "speaker": "Host",
+    "text_en": "implicated in it is around non-technical people contributing to production systems why are we so obsessed with this idea cobalt tried it low code and no code tried it bdd and gherkin aspire to it yet time and time again the field demonstrates that you need people who know their stuff",
+    "text": "让非技术人员参与生产系统。为什么我们对这个想法这么执着？COBOL 试过，low code 和 no code 试过，BDD 和 Gherkin 也在朝这个方向努力；可一次又一次，这个领域都证明了，你还是需要真正懂行的人。"
+  },
+  {
+    "start": 490.1,
+    "end": 501.8,
+    "speaker": "Guest",
+    "text_en": "To democratize software engineering implies that all people have the desire and ability to become software engineers. That premise is false. You democratize access to education or financial systems. The stock markets say you don't democratize skill.",
+    "text": "把软件工程民主化，等于默认所有人都既想成为软件工程师，也有能力成为软件工程师。这个前提是错的。你可以把教育资源或金融体系的获取变得更普及、更平等。但技能这件事，股市早就说明了，它不是能被“民主化”的。"
+  },
+  {
+    "start": 502.0,
+    "end": 519.652,
+    "speaker": "Guest",
+    "text_en": "Skill is earned. We would never, I hope, democratize bridge engineering or piloting an aircraft. Software engineers are just as critical as either. When our software breaks, money goes missing, electrical grids fail, information stops flowing. What I do think is great, now more than ever, as long as tokens stay cheap, people have more ability to build useful tools for themselves.",
+    "text": "技能是靠自己练出来的。我希望我们永远不会去“民主化”桥梁工程，或者开飞机。软件工程师的重要性一点不比这两者低。软件一出问题，钱会消失，电网会瘫痪，信息会停止流动。不过我确实觉得，现在有一点特别好，而且比以往任何时候都更明显：只要 token 还便宜，人们就更有能力给自己做出有用的工具。"
+  },
+  {
+    "start": 519.952,
+    "end": 526.652,
+    "speaker": "Guest",
+    "text_en": "But here is how I think about it. We have done tremendous work on literacy and most people can read, but not everyone is an author. The same applies to code.",
+    "text": "但我是这么看的。我们在识字教育上已经做了大量工作，所以大多数人都会读书认字了，但不是每个人都会成为作者。写代码也是一样。"
+  },
+  {
+    "start": 527.102,
+    "end": 533.202,
+    "speaker": "Guest",
+    "text_en": "You know, I picked this question and it wasn't until you just finished reading it that I realized there's no question in this.",
+    "text": "你知道吗，我选了这个问题，结果直到你刚把它读完我才意识到，这里面根本没有问题。"
+  },
+  {
+    "start": 534.152,
+    "end": 535.802,
+    "speaker": "Host",
+    "text_en": "Yeah, the question is, how dare you?",
+    "text": "对，问题是：你怎么敢的？"
+  },
+  {
+    "start": 540.556,
+    "end": 543.556,
+    "speaker": "Host",
+    "text_en": "Whoops. I guess they say, why are we so obsessed with this idea?",
+    "text": "哎呀。那我猜他们想问的是，为什么我们会这么痴迷这个想法？"
+  },
+  {
+    "start": 544.106,
+    "end": 554.164,
+    "speaker": "Guest",
+    "text_en": "Yeah. Of democratizing software engineering? Look, I actually do believe everyone can be a pilot. So, I don't know, if your premise is all that good, just get in the cockpit, how hard could it be?",
+    "text": "对。你是说把软件工程民主化这件事？你看，其实我还真相信每个人都能当飞行员。所以我也不知道，如果按你的前提，那就直接进驾驶舱呗，能有多难？"
+  },
+  {
+    "start": 554.414,
+    "end": 567.564,
+    "speaker": "Host",
+    "text_en": "If you're not like a commercial airliner pilot, you do crash kind of a lot. Like the people who are pilots that aren't flying the big jets seem to fall out of the sky fairly often.",
+    "text": "如果你不是那种商业航班的飞行员，你坠机的概率其实还挺高的。那些不开大型喷气式客机的飞行员，好像经常会从天上掉下来。"
+  },
+  {
+    "start": 567.564,
+    "end": 579.004,
+    "speaker": "Guest",
+    "text_en": "Yeah, it's like way worse than driving. This is like the one reason I don't have a private pilot's license. That and we just need a few more Patreon. supporters for",
+    "text": "对啊，这可比开车糟糕多了。这差不多就是我没去考私人飞行执照的一个原因。再加上我们还得再多几个 Patreon 支持者，才能——"
+  },
+  {
+    "start": 579.004,
+    "end": 579.704,
+    "speaker": "Host",
+    "text_en": "yeah there Dave",
+    "text": "对，Dave 在这儿——"
+  },
+  {
+    "start": 579.704,
+    "end": 580.504,
+    "speaker": "Guest",
+    "text_en": "are two reasons yeah",
+    "text": "对，是两个原因，没错。"
+  },
+  {
+    "start": 580.504,
+    "end": 586.404,
+    "speaker": "Host",
+    "text_en": "wants to start at the very expensive private jet level yeah i want to skip all the boring stuff",
+    "text": "Dave 想直接从贵得离谱的私人飞机那个级别开始。对，我想把前面那些无聊的东西全跳过。"
+  },
+  {
+    "start": 587.354,
+    "end": 606.61,
+    "speaker": "Guest",
+    "text_en": "none of this boring little prop plane thing yeah let's talk about it one of the premises of the question is we are democratizing software engineering and I don't think we are I don't think what I see when people who aren't programmers contribute to prod code base I would not call software engineering I would call it changing coat with robots but",
+    "text": "别搞这些无聊的小型螺旋桨飞机了。对，我们来说说这个。这个问题有个前提是：我们正在让软件工程民主化，但我不这么认为。我觉得，当那些不是程序员的人开始给生产代码库贡献代码时，我不会把那叫软件工程，我会把它叫做用机器人改代码，不过——"
+  },
+  {
+    "start": 607.26,
+    "end": 607.66,
+    "speaker": "Host",
+    "text_en": "All right.",
+    "text": "好。"
+  },
+  {
+    "start": 608.56,
+    "end": 636.394,
+    "speaker": "Guest",
+    "text_en": "up until now we have not made it so that this can just happen i mean even for engineers like you don't just type most people i think who are using robots to write code in work contexts don't just yolo it to prod like there's some human review and oversight and work and planning and it's not just uh You dump your thoughts into an LLM and then it goes to prod that way.",
+    "text": "但直到现在，我们还没把这件事变成可以随便发生的程度。哪怕对工程师来说也是这样——你也不是随便打几个字就完事了。我觉得，大多数在工作场景里用机器人写代码的人，也不会直接 YOLO 到生产环境里；这里面还是有人类评审、监督、实际工作和规划的，不是说你把自己的想法一股脑丢进 LLM，然后它就那样直接上生产了。"
+  },
+  {
+    "start": 636.794,
+    "end": 640.294,
+    "speaker": "Guest",
+    "text_en": "And all that stuff is software engineering is wrapped up in all those bits.",
+    "text": "而所有这些东西，才是软件工程；软件工程就包含在这些环节里。"
+  },
+  {
+    "start": 640.544,
+    "end": 646.194,
+    "speaker": "Host",
+    "text_en": "For now. Until we fully democratize. Until we democratize the democratization.",
+    "text": "暂时是这样。直到我们彻底实现民主化。直到我们把“民主化”本身也民主化。"
+  },
+  {
+    "start": 646.194,
+    "end": 670.474,
+    "speaker": "Guest",
+    "text_en": "The biggest bottleneck we have around technical output at work right now is verification and quality because that stuff is hard to do with robots. We've made some attempts at fancier lint rules, and we've talked about this a little bit, like making the system more self-driving, and it's helped, but it hasn't solved it yet. And what is my point of this ramble?",
+    "text": "现在我们在工作里技术产出的最大瓶颈，其实是验证和质量，因为这些东西很难交给机器人来做。我们也试过一些更高级的 lint 规则，也稍微聊过这个，比如让系统变得更自动驾驶一点。确实有帮助，但还没真正解决问题。那我这一通东拉西扯到底想说什么？"
+  },
+  {
+    "start": 670.524,
+    "end": 689.224,
+    "speaker": "Guest",
+    "text_en": "The point of the ramble is I don't expect that non-engineers contributing to code will produce the same quality of output as engineers. And I don't expect that it will make engineers jobs easier. I think it'll make it harder because now they have to like review and babysit code produced by non-engineers.",
+    "text": "我想说的是，我不觉得非工程师参与写代码，能产出和工程师同样质量的结果。我也不觉得这会让工程师的工作更轻松。我觉得反而会更难，因为现在他们还得去审查、盯着那些非工程师产出的代码。"
+  },
+  {
+    "start": 689.374,
+    "end": 702.754,
+    "speaker": "Guest",
+    "text_en": "In other words, like the filter that used to prevent bad code from getting here actually prevented all code from getting into in front of you and now now it doesn't prevent any code because people tell robots to do the code part",
+    "text": "换句话说，以前那个能防止烂代码流到这里的过滤器，其实也顺带把所有代码都挡在你面前之外了。而现在它基本挡不住任何代码了，因为大家会让机器人把写代码这部分做掉。"
+  },
+  {
+    "start": 703.104,
+    "end": 718.254,
+    "speaker": "Host",
+    "text_en": "Yeah. Yeah. But the hypothesis is it's still worth it for the business. And I guess we'll see if this pays off or not long term. But it's not everyone can do a software engineering things. It's",
+    "text": "对，对。但这个假设是，从业务角度看这依然值得。我想长期来看到底值不值，还是得再观察。不过也不是说每个人都能做软件工程这件事。它是——"
+  },
+  {
+    "start": 718.772,
+    "end": 737.922,
+    "speaker": "Guest",
+    "text_en": "everyone can produce code somehow and then you still have to get it to prod and getting it to prod is is the tricky bit getting it verified and maintainable or deciding this is not a thing that is like we this part can be crap it's still some some judgment there yeah",
+    "text": "是每个人都能以某种方式产出代码，但你还是得把它上线，而上线才是真正棘手的部分——怎么验证它、怎么让它可维护，或者判断这东西其实不重要，这一部分写得烂一点也没关系。这里面还是有不少判断要做，对。"
+  },
+  {
+    "start": 738.372,
+    "end": 759.376,
+    "speaker": "Guest",
+    "text_en": "there's a whole world of stuff that tolerates crap code, right? And that world prior to AI generated AI coding tools. rules, that world was 0% served. you know like there was just no one who could actually produce anything useful for themselves to use like on their desktop and now you can but that's not really what the question asker is asking about right",
+    "text": "有一整个世界的东西，其实是能容忍烂代码的，对吧？而在 AI 生成式编程工具出现之前，那个世界的需求基本是 0% 被满足的。你知道吧，以前根本没人能真正给自己做出点有用的东西，哪怕只是自己桌面上用的。现在可以了。但这其实不是提问的人在问的那个问题，对吧。"
+  },
+  {
+    "start": 759.576,
+    "end": 772.376,
+    "speaker": "Host",
+    "text_en": "Yeah, I think the question asker is saying we should stop expecting non-software engineers to do software engineering just because they have LLMs that can help them write code. And I guess I don't think that they are. Also,",
+    "text": "对，我觉得提问的人是在说，我们不该因为非软件工程师现在有了能帮他们写代码的 LLM，就开始期待他们去做软件工程。我想我的看法是，他们其实也并没有被这样期待。另外，"
+  },
+  {
+    "start": 772.426,
+    "end": 781.784,
+    "speaker": "Guest",
+    "text_en": "sometimes software engineers don't do software engineering. Like, I could write bad code way before LLMs existed. existed and not understand what it was doing and the implications and yeah",
+    "text": "有时候软件工程师其实并不在做软件工程。比如说，早在 LLM 出现之前，我就能写出烂代码了。写出来还不明白它到底在干嘛、会有什么影响，嗯，对。"
+  },
+  {
+    "start": 781.784,
+    "end": 805.384,
+    "speaker": "Guest",
+    "text_en": "and even when i thought it was good code it was sometimes bad it was kind of weird like pilots when they crash the plane like none of them walk away well sometimes they don't walk away at all but when they do walk away none of them go man that was some great flying and only like years later they're like maybe that wasn't good flying when they review their own black box that's how i am i'm like i wrote code two years ago i look at it today and i'm like this is horrible",
+    "text": "而且就算我当时觉得那是好代码，它有时候其实也很烂。这有点像飞行员把飞机开坠机了——当然，他们也不一定都能活着走出来，不过就算走出来了，也没人会说，哇，我刚才飞得真棒。往往都是很多年以后，他们回头看自己的黑匣子记录时，才会说，也许那次飞得并不好。我就是这样，我看两年前自己写的代码，今天再看就会想：这也太糟糕了。"
+  },
+  {
+    "start": 806.324,
+    "end": 817.774,
+    "speaker": "Host",
+    "text_en": "Yeah, I can just see the last blog post I read spewing out of my fingers and getting really excited about this random pattern that turns out to not fit.",
+    "text": "对，我完全能想象，就是我刚读完的上一篇博客文章直接从我手指里喷出来，然后我还会对某个莫名其妙的模式特别兴奋，结果后来发现根本不适用。"
+  },
+  {
+    "start": 817.974,
+    "end": 820.724,
+    "speaker": "Guest",
+    "text_en": "You're like, I am nothing but a recency bias machine.",
+    "text": "你就会想，我根本就是一台“近因偏差”机器。"
+  },
+  {
+    "start": 821.974,
+    "end": 842.004,
+    "speaker": "Host",
+    "text_en": "But I'm much slower than the AI machines. Yeah, I guess I'm... I think I agree with you in some ways that, yeah, I don't think we're trying to say software engineering is democratized, but there are people pushing for that still. And I don't think the role of expert humans will go anytime soon.",
+    "text": "但我可比 AI 机器慢多了。对，我想我是……我觉得在某种程度上我同意你的看法。是的，我不觉得我们是在说软件工程已经被民主化了，不过现在确实还有人在推动这个说法。而且我也不认为专家级的人类这个角色短期内会消失。"
+  },
+  {
+    "start": 842.644,
+    "end": 864.194,
+    "speaker": "Guest",
+    "text_en": "in this field Yeah. i mean it it clearly can't go away in some fields like the pilot thing i mean well okay let's just be super clear if the question is about democratization so i'm gonna i'm gonna take a slight detour on that question but computers can fly airplanes better than humans already today and i don't actually know why we have humans in the cockpits of of airplanes anymore",
+    "text": "在这个领域里，嗯，是啊。我的意思是，在有些领域这显然不可能消失，比如飞行员这个例子。好吧，我们先说得非常明确一点：如果问题是在谈“民主化”，那我先稍微岔开一下这个问题。不过，今天的计算机其实已经能比人类更好地驾驶飞机了，我实际上也不知道为什么我们现在还要让人类坐在飞机驾驶舱里。"
+  },
+  {
+    "start": 864.756,
+    "end": 881.506,
+    "speaker": "Guest",
+    "text_en": "other than as like a backup for those super rare cases where the airplane can't get it right and i don't know maybe that's maybe that's the future of software you know the difference between pilots or airplanes and software at least one of many is the ratios are all weird you know like a a pilot like a commercial aircraft needs two pilots",
+    "text": "除了把他们当作一种后备方案，用来应对那些极其罕见、飞机系统搞不定的情况。我不知道，也许那就是软件的未来。你知道，飞行员或者说飞机和软件之间的区别——至少区别之一——在于它们的比例关系很奇怪。比如一架商业客机需要两名飞行员。"
+  },
+  {
+    "start": 881.506,
+    "end": 882.056,
+    "speaker": "Host",
+    "text_en": "Mm up -hmm.",
+    "text": "嗯，嗯。"
+  },
+  {
+    "start": 882.056,
+    "end": 893.206,
+    "speaker": "Guest",
+    "text_en": "in the to oversee that thing and uh you kind of have this ratio where it's like you got a few hundred people on the plane and two pilots and that ratio is never really going to go up like you two pilots can never fly a plane for 10 million people",
+    "text": "来负责监管那件事，而且你会发现有这么一种比例：一架飞机上有几百名乘客，但只有两名飞行员，而且这个比例基本不可能再往上提了——你不可能靠两名飞行员去为一千万人开飞机。"
+  },
+  {
+    "start": 894.068,
+    "end": 895.318,
+    "speaker": "Host",
+    "text_en": "You know, but on the",
+    "text": "你知道，但在——"
+  },
+  {
+    "start": 895.368,
+    "end": 910.768,
+    "speaker": "Guest",
+    "text_en": "software side, like we create a you create a web application and you could easily have one engineer create a web application that gets used by millions. And so, you know, what what keeps those ratios where they are like in the pilot world just doesn't really apply to the software world.",
+    "text": "软件这边就不一样了。比如我们做一个——你做一个 web application，很可能一个工程师就能做出一个被几百万人使用的 web application。所以你知道，在飞行员那个世界里维持这种比例的那些因素，放到软件世界里其实并不适用。"
+  },
+  {
+    "start": 910.868,
+    "end": 932.366,
+    "speaker": "Host",
+    "text_en": "Yeah, why do we have humans? Is it because like autopilot is good for the normal stuff and better than humans at the boring normal stuff and then sometimes you have to like land in the Hudson River and get a movie made about you and autopilot can't do that bit the autopilot would be like i'm gonna go crash this plane into an empty building to make sure that we minimize human death",
+    "text": "对，那为什么还需要人类呢？是不是因为 autopilot 处理常规情况很好，在那些无聊、标准化的事情上甚至比人更强，但有时候你得像那样把飞机迫降在 Hudson River 上，然后还被拍成电影，autopilot 就做不了这部分。autopilot 可能会想：我要把这架飞机撞进一栋空楼里，好把人员伤亡降到最低。"
+  },
+  {
+    "start": 935.124,
+    "end": 953.224,
+    "speaker": "Guest",
+    "text_en": "I honestly don't know but I do know that even private pilots have very good very good autopilot tools and I've sit I've sat next to them in a cockpit before and they've talked me through it and it's like really smooth and really great and he was like here I'll go off autopilot and I'm like wow this is a much worse ride when your when your hands",
+    "text": "老实说我也不知道，但我确实知道，就连私人飞行员也有非常非常好的 autopilot 工具。我以前坐在驾驶舱里挨着他们，他们还给我一路讲解过，整个过程特别平稳、特别棒。然后他说，来，我现在关掉 autopilot，我当时就想，哇，你手一放到操纵杆上，这趟飞行立刻就差多了。"
+  },
+  {
+    "start": 953.224,
+    "end": 953.374,
+    "speaker": "Host",
+    "text_en": "You",
+    "text": "你"
+  },
+  {
+    "start": 953.374,
+    "end": 953.674,
+    "speaker": "Host",
+    "text_en": "are on the",
+    "text": "一放到"
+  },
+  {
+    "start": 953.674,
+    "end": 953.724,
+    "speaker": "Host",
+    "text_en": "are",
+    "text": "就"
+  },
+  {
+    "start": 953.724,
+    "end": 962.024,
+    "speaker": "Guest",
+    "text_en": "yoke I think much worse than this. it's true I mean he's kind of up and down and and kind of side to side and constantly correcting and the computer was just making my",
+    "text": "我觉得方向盘那样其实糟糕得多。确实，我是说，他有点上下晃、左右摆，还得不停修正，而电脑只是一直在帮我做那些"
+  },
+  {
+    "start": 961.908,
+    "end": 973.208,
+    "speaker": "Guest",
+    "text_en": "keeping micro corrections a lot both faster and smaller magnitude it's just a better experience overall but i guarantee you the moment he hits some crazy turbulence the pilot will be like we're turning this autopilot off i got this and probably",
+    "text": "微调，修正得更多，而且又更快、幅度也更小，整体体验就是更好。但我敢保证，一旦他遇到什么特别夸张的乱流，飞行员肯定会说：我们把自动驾驶关了，我来。然后大概率"
+  },
+  {
+    "start": 973.558,
+    "end": 987.958,
+    "speaker": "Guest",
+    "text_en": "would do a better job but i don't really know anyway i think the point still stands of the question asker we do not ever really intend to democratize access to the cockpit you know we don't want random people walking in off the street being like well i'll pilot this plane i guess",
+    "text": "也确实会做得更好，不过我其实也不太确定。总之，我觉得提问者的核心观点还是成立的：我们从来没真的打算把驾驶舱的使用权民主化。你知道，我们不希望街上随便什么人走进来就说，哦，那这飞机我来开吧"
+  },
+  {
+    "start": 988.532,
+    "end": 1017.582,
+    "speaker": "Guest",
+    "text_en": "you know full of 300 passengers yeah and you're right like we want an expert up there to oversee this thing or else you're gonna freaking die now bridge Yeah. building you mentioned like civil engineering and bridge building i'm like i don't know like there's not as much demand to democratize bridge building because we just don't build that many bridges as a ratio of like humans to bridges it's like humans building bridges it's just not that many you know there's not demand like i don't need a bridge tomorrow but i do need like 50 apps to to live my life now",
+    "text": "机上还坐着300名乘客呢。对，你说得没错，我们希望上面有个专家来盯着这件事，不然你真的会死。至于桥梁——对，造桥。你刚提到土木工程和造桥，我就在想，我也不知道，大家好像没那么强烈地想把造桥这件事民主化，因为桥本来就没建那么多。按人与桥的比例来看，就是人造桥，但桥的数量没那么多，你懂吧。没有那种需求，比如我明天不需要一座桥，但我现在为了生活确实需要大概50个 app"
+  },
+  {
+    "start": 1018.1,
+    "end": 1028.1,
+    "speaker": "Host",
+    "text_en": "They're also very expensive. Like, say we did, say you didn't need a license to build a bridge. I would then need $700 million somehow to",
+    "text": "而且桥也非常贵。比如说，假设我们真这么干，假设你造桥不需要执照，那我还是得想办法弄到7亿美元来"
+  },
+  {
+    "start": 1028.1,
+    "end": 1028.75,
+    "speaker": "Guest",
+    "text_en": "Concrete",
+    "text": "买混凝土"
+  },
+  {
+    "start": 1028.75,
+    "end": 1028.95,
+    "speaker": "Host",
+    "text_en": "pay",
+    "text": "支付"
+  },
+  {
+    "start": 1028.95,
+    "end": 1029.2,
+    "speaker": "Guest",
+    "text_en": "and labor.",
+    "text": "还有人工。"
+  },
+  {
+    "start": 1029.2,
+    "end": 1032.95,
+    "speaker": "Host",
+    "text_en": "for it. Great. Its access is democratized.",
+    "text": "没错。很好。它的获取门槛被降低了。"
+  },
+  {
+    "start": 1034.15,
+    "end": 1047.65,
+    "speaker": "Guest",
+    "text_en": "Software is just so weird in so many ways. And every time we make comparisons like this, it just falls apart because the ratios don't work. The cost doesn't work. The barriers to entry don't work.",
+    "text": "软件这东西在很多方面都特别奇怪。每次我们拿它去做这种类比，最后都会崩掉，因为比例不对，成本不对，进入门槛也不对。"
+  },
+  {
+    "start": 1047.764,
+    "end": 1066.664,
+    "speaker": "Guest",
+    "text_en": "like it just doesn't transfer and so i don't know i mean but i i will say like for sure one of the things that this question asker said that is like a thousand percent true is that to democratize software engineering applies that all people have the desire to build software and most people just don't want to make the products that they use they don't want to design",
+    "text": "就是没法直接套用。所以我也不知道。不过我得说，提这个问题的人有一点是百分之一千正确的：所谓让软件工程民主化，隐含的前提是所有人都想做软件，但大多数人根本不想亲手做自己用的产品，他们不想去设计"
+  },
+  {
+    "start": 1066.864,
+    "end": 1084.41,
+    "speaker": "Guest",
+    "text_en": "them they don't want to manufacture them and i'll give you like the best example of this i can give is 3d printing you like for years everyone said oh you're never going to have to go to the store because your 3d printer will make the stuff you need and i'm like that is such a pain in the butt you know like nobody like i love",
+    "text": "这些产品，也不想去制造它们。我能给的最好例子就是 3D 打印。很多年来大家都在说，哦，以后你都不用去商店了，因为你的 3D 打印机会把你需要的东西做出来。我就想，这也太折腾人了吧。你知道吗，没人会——我很喜欢"
+  },
+  {
+    "start": 1084.51,
+    "end": 1090.71,
+    "speaker": "Guest",
+    "text_en": "it for hobbyist stuff but nobody has a 3d printer in their house where they're like oh i need a new i need new silverware",
+    "text": "它拿来做点爱好者的东西，但没人会在家里放一台 3D 打印机，然后说，哦，我需要一套新餐具"
+  },
+  {
+    "start": 1091.348,
+    "end": 1106.498,
+    "speaker": "Guest",
+    "text_en": "you know i'll just 3d print that instead of going to like i need no here's a better one i need plastic wear if i'm holding a picnic and i want to have disposable plastic wear like i'll just 3d print the forks and knives no i'm going to go to the store and i'm going to spend three dollars on plastic and i'm going to throw it in the trash when i'm done",
+    "text": "那我就直接 3D 打印一套吧，而不是出去买。或者这么说更合适：我要办个野餐，需要一次性塑料餐具，那我就自己 3D 打印叉子和刀子。不会的，我会直接去商店，花三美元买一包塑料餐具，用完就扔垃圾桶。"
+  },
+  {
+    "start": 1107.38,
+    "end": 1117.03,
+    "speaker": "Guest",
+    "text_en": "it is horrible too but it's just different people don't want to make they don't want to design they don't want to manufacture products for the most part like i would say not at least 90 of the population does not want to do that",
+    "text": "这当然也很糟糕，但重点是两回事。大多数人并不想自己做产品，不想设计，也不想制造。至少我会说，90% 以上的人都不想干这个。"
+  },
+  {
+    "start": 1117.03,
+    "end": 1133.68,
+    "speaker": "Host",
+    "text_en": "If you are an engineer working at a place, at a company where non-engineers are contributing to the code base, first, just your AI use and your fellow software engineer's AI use has created more code for you to review already, even without non-engineers writing code.",
+    "text": "如果你是一名工程师，在一家让非工程师也参与代码库贡献的公司工作，首先，哪怕还没有非工程师开始写代码，光是你自己和其他软件工程师使用 AI，就已经给你增加了更多需要 review 的代码。"
+  },
+  {
+    "start": 1134.228,
+    "end": 1134.628,
+    "speaker": "Guest",
+    "text_en": "Mm I -hmm.",
+    "text": "嗯，嗯。"
+  },
+  {
+    "start": 1134.628,
+    "end": 1154.84,
+    "speaker": "Host",
+    "text_en": "sympathize with the changing balance of time spent in review and verification, and I can see it being frustrating that a lot less of your time is going to creating stuff yourself. Like you very rarely just sit down for six hours and... think deeply through a problem and type the code out to do it anymore and",
+    "text": "我能理解，把时间越来越多花在评审和验证上，这种时间分配的变化确实让人挺有共鸣的；而且你会觉得很挫败，因为你自己真正动手创造东西的时间少了很多。比如说，你现在已经很少会单纯坐下来六个小时，深入思考一个问题，然后把实现它的代码一行行敲出来了。"
+  },
+  {
+    "start": 1155.19,
+    "end": 1177.54,
+    "speaker": "Host",
+    "text_en": "if you then add okay non-engineers are now contributing code also you have even more code to review that's probably done in funkier ways and then you also add this new problem of okay if we want to make it easy for non-engineers to produce air quotes good code then we have a meta problem of building the system that encourages it maybe i don't want to work on that i just want to like",
+    "text": "如果再加上一层：现在连非工程人员也开始贡献代码了，那你要评审的代码就更多了，而且很可能写法还更野路子。再加上一个新问题：如果我们想让非工程人员也能轻松产出引号意义上的“好代码”，那我们又会面临一个更上层的问题——要去搭建一套能鼓励这种行为的系统。可我也许根本不想做这个，我只是想……"
+  },
+  {
+    "start": 1177.492,
+    "end": 1196.742,
+    "speaker": "Guest",
+    "text_en": "like build the app so i can see why this is frustrating but i think the end goal is what is the end goal i don't know i mean the business wants more stuff done so they can make more money i guess that's that's part of why we're doing it where i work is we think it will make customers lives better and we there are trade-offs with that it's not free",
+    "text": "就是想把 app 做出来。所以我能理解为什么这会让人沮丧。但我觉得关键还是最终目标是什么。最终目标是什么呢？我也不知道。我的意思是，业务方想让更多事情被做成，这样他们就能赚更多钱，我猜这也是一部分原因。至于我们公司在做这件事，是因为我们觉得这会让客户的生活变得更好。当然这里面也有取舍，不是没有成本的。"
+  },
+  {
+    "start": 1197.292,
+    "end": 1203.95,
+    "speaker": "Host",
+    "text_en": "Yeah. It is. It's this case. Now, Jamison, you. You and I have both really tried to lean into this concept at our companies",
+    "text": "对，确实是这样。就是这个情况。Jamison，你和我其实都在各自公司里，真的很努力地去拥抱这个理念。"
+  },
+  {
+    "start": 1203.95,
+    "end": 1204.1,
+    "speaker": "Guest",
+    "text_en": "Mm",
+    "text": "嗯。"
+  },
+  {
+    "start": 1204.1,
+    "end": 1204.4,
+    "speaker": "Host",
+    "text_en": "to",
+    "text": "去"
+  },
+  {
+    "start": 1204.4,
+    "end": 1204.6,
+    "speaker": "Guest",
+    "text_en": "-hmm.",
+    "text": "嗯。"
+  },
+  {
+    "start": 1204.6,
+    "end": 1208.3,
+    "speaker": "Host",
+    "text_en": "get more people to contribute code to the code base in a sense.",
+    "text": "某种意义上，就是让更多人能给代码库贡献代码。"
+  },
+  {
+    "start": 1208.35,
+    "end": 1224.8,
+    "speaker": "Guest",
+    "text_en": "So I haven't in my company, I haven't fully democratized it, but I don't know what you would call it if there's a small circle of people who can do something and I want to expand that circle to like their nearest neighbors. That's kind of what I did. Like I want to expand the circle to user experience designer, product manager roles.",
+    "text": "所以在我公司里，我还没有把这件事完全民主化，但如果有一小圈人能做某件事，而我想把这个圈子扩大到他们身边最近的一圈人，我也不知道这该叫什么。反正我做的大概就是这个。比如我想把这个圈子扩展到用户体验设计师、产品经理这些角色。"
+  },
+  {
+    "start": 1224.8,
+    "end": 1229.224,
+    "speaker": "Host",
+    "text_en": "You've moved from a dictatorship. ship to an oligarchy i'm pretty",
+    "text": "你这是从独裁制变成寡头制了，我挺"
+  },
+  {
+    "start": 1229.224,
+    "end": 1229.624,
+    "speaker": "Guest",
+    "text_en": "there you go.",
+    "text": "对，就是这个。"
+  },
+  {
+    "start": 1229.624,
+    "end": 1232.674,
+    "speaker": "Host",
+    "text_en": "sure yeah we're the we're the rich plutocrats that control",
+    "text": "确定的，没错，我们就是那种掌控一切的有钱寡头"
+  },
+  {
+    "start": 1232.674,
+    "end": 1232.974,
+    "speaker": "Guest",
+    "text_en": "that's right.",
+    "text": "没错。"
+  },
+  {
+    "start": 1232.974,
+    "end": 1235.224,
+    "speaker": "Host",
+    "text_en": "everything instead of just the one person yeah",
+    "text": "而不是只有一个人说了算，对吧"
+  },
+  {
+    "start": 1235.224,
+    "end": 1239.774,
+    "speaker": "Guest",
+    "text_en": "I didn't want to be an emperor. I wanted to be a plutocrat among friends.",
+    "text": "我不想当皇帝。我想当朋友们中的一个有钱寡头。"
+  },
+  {
+    "start": 1242.574,
+    "end": 1242.974,
+    "speaker": "Host",
+    "text_en": "Perfect.",
+    "text": "太好了。"
+  },
+  {
+    "start": 1244.324,
+    "end": 1264.668,
+    "speaker": "Host",
+    "text_en": "Plutocrat oligarch. Yeah, that's exactly what I wanted to do. And I'll tell you, I actually would like to share the results. The results have been that. And I'm just talking specifically in contributing code to our product, our customer-facing production product. The results have been not great. Mostly it's because of problems getting the code deployed. So,",
+    "text": "财阀寡头。对，这正是我想做的事。而且我跟你说，我其实还挺想分享一下结果的。结果就是——我这里只是特指给我们的产品、也就是面向客户的线上生产环境产品提交代码——结果不太理想。主要还是因为代码部署这块出了问题。所以，"
+  },
+  {
+    "start": 1264.718,
+    "end": 1277.918,
+    "speaker": "Host",
+    "text_en": "for example, this week I had a product manager who just wanted to change a link target. There's literally just a basic hyperlink on a page in our app linking out to some help documentation. Wanted to change the URL that it was pointing at.",
+    "text": "比如这周，我有个产品经理只是想改一下链接的目标地址。就是我们 app 某个页面上一个很基础的超链接，点出去会跳到帮助文档。他只是想把它指向的 URL 改一下。"
+  },
+  {
+    "start": 1278.708,
+    "end": 1292.658,
+    "speaker": "Host",
+    "text_en": "And because of some quirks in our deployment process, which admittedly could be fixed, could be improved, but because of some quirks in our deployment process, this product manager did successfully make the link change, but also deleted a feature from our web app that had previously existed,",
+    "text": "结果因为我们部署流程里的一些小毛病——当然这些问题是可以修、可以改进的——但就是因为部署流程里这些小毛病，这位产品经理虽然确实成功改了链接，但同时也把我们 web app 里一个原本就有的功能给删掉了，"
+  },
+  {
+    "start": 1292.658,
+    "end": 1292.958,
+    "speaker": "Guest",
+    "text_en": "Woo!",
+    "text": "哇哦！"
+  },
+  {
+    "start": 1292.958,
+    "end": 1303.908,
+    "speaker": "Host",
+    "text_en": "that had just launched, and it was like right on the heels. So those of you who are savvy can piece together exactly what our deployment pipeline looks like now, based on what you just heard me say. But don't worry,",
+    "text": "而且那个功能才刚上线没多久，几乎就是前后脚的事。所以你们要是够懂行，光听我刚才那段描述，大概就能拼出来我们现在的部署流水线长什么样了。不过别担心，"
+  },
+  {
+    "start": 1304.008,
+    "end": 1305.908,
+    "speaker": "Guest",
+    "text_en": "there are pros and cons to it, and actually I love it.",
+    "text": "这事有利有弊，但说真的，我还挺喜欢这种方式的。"
+  },
+  {
+    "start": 1305.78,
+    "end": 1327.23,
+    "speaker": "Guest",
+    "text_en": "love it even though we have this risk but he did he deleted a feature and we had just announced the feature was launched and it was live and then people were like wait i don't see it and we're like oh crap what happened so if something that basic like changing a link target can result in something that catastrophic i don't think we're anywhere near democratizing software engineering for actual products used by more than just the people who developed it yeah",
+    "text": "我确实挺喜欢，虽然这里面有这种风险，但他真的把一个功能删掉了。而且我们才刚宣布这个功能上线了，也已经是 live 状态了，然后大家就说，等等，我怎么没看到？我们就只能说，靠，出什么事了？所以如果像改个链接目标地址这么基础的操作，都可能导致这么灾难性的结果，那我觉得我们离“让软件工程民主化”还差得远，至少对于那种真正给产品用户用、而不只是开发它的人自己用的产品来说，完全还没到那一步。对。"
+  },
+  {
+    "start": 1327.23,
+    "end": 1329.68,
+    "speaker": "Host",
+    "text_en": "I'm just going to say skill issue. Sounds like you guys are bad.",
+    "text": "我只能说，这是能力问题。听起来你们不太行。"
+  },
+  {
+    "start": 1329.68,
+    "end": 1332.78,
+    "speaker": "Guest",
+    "text_en": "no that's a",
+    "text": "不，那是个"
+  },
+  {
+    "start": 1333.204,
+    "end": 1345.004,
+    "speaker": "Host",
+    "text_en": "negative result were there other changes that were made that were positive and and this just like way overshadowed those or was it pretty much the only outcome was it deleted a feature and we didn't get anything useful out of it",
+    "text": "负面结果。那还有没有别的改动是正面的，只是被这件事彻底盖过去了？还是说基本上唯一的结果就是删掉了一个功能，而且我们也没从中得到任何有用的东西？"
+  },
+  {
+    "start": 1345.004,
+    "end": 1361.904,
+    "speaker": "Guest",
+    "text_en": "i mean we eventually we were able to restore the feature it wasn't like it wasn't like he like completely just wrecked everything it was a quick fix and it's things we've had happen before so it wasn't like a nightmare scenario but still it was like it should be very very easy to change link text or link a link url right and it's just it's still not",
+    "text": "我的意思是，最后我们还是把那个功能恢复了。也不是说他把一切都彻底搞砸了，修起来很快，这种事我们以前也遇到过，所以不算什么噩梦场景。但问题还是在于，改个链接文字或者链接 URL 这种事，按理说应该非常非常容易，对吧？可实际上还是没那么容易。"
+  },
+  {
+    "start": 1362.168,
+    "end": 1373.318,
+    "speaker": "Guest",
+    "text_en": "I'm sure in some scenarios and some code bases it is, but not in ours, which makes our code sound horrible. That's not actually the case. It was just now I feel like I have to defend it. Oh man, what have I done?",
+    "text": "我相信在某些场景、某些代码库里，这确实很容易，但在我们这儿不是。这样说得好像我们的代码特别烂，其实也不是。现在我都觉得我得替它辩护了。天啊，我都说了些什么？"
+  },
+  {
+    "start": 1373.668,
+    "end": 1395.468,
+    "speaker": "Guest",
+    "text_en": "Have we broke stuff in prod? We shipped some things. My company is a bit smaller than Dave's company. I think the circle of people who've actually made changes is still fairly small. It's all people technical or technical adjacent in customer support or design or whatever. And we've shipped a bunch of features, things that never would have been prioritized or done.",
+    "text": "我们有在生产环境里搞坏过东西吗？有。我们也上线过一些东西。我的公司比 Dave 的公司小一点。我觉得真正动手改过东西的人，范围还是相当小的。基本都是技术人员，或者和技术比较相关的人，比如客服、设计之类的。我们也上线了不少功能，很多如果不把访问权限民主化，根本不会被排上优先级，更别说做出来了。"
+  },
+  {
+    "start": 1396.34,
+    "end": 1401.84,
+    "speaker": "Host",
+    "text_en": "without democratizing access some of them customers really love and use like",
+    "text": "其中有些客户真的很喜欢，也确实在用，比如——"
+  },
+  {
+    "start": 1401.84,
+    "end": 1402.59,
+    "speaker": "Guest",
+    "text_en": "Oh, that's cool.",
+    "text": "哦，那很酷。"
+  },
+  {
+    "start": 1402.59,
+    "end": 1414.49,
+    "speaker": "Host",
+    "text_en": "it like i said it hasn't been free presumably we would have had more just kind of core raw engineering work done on the the main track of stuff we pick to do but it feels like a good trade-off for us yeah",
+    "text": "就像我说的，这也不是没有成本的。按理说，如果不做这个，我们本来可能会在主线项目上多完成一些更核心、更底层的工程工作。但对我们来说，这感觉是个不错的权衡，嗯。"
+  },
+  {
+    "start": 1414.49,
+    "end": 1422.19,
+    "speaker": "Guest",
+    "text_en": "Oh, so in other words, you didn't actually democratize every part of the process, but like the code writing part, people contributed code and then engineers had to review it.",
+    "text": "哦，所以换句话说，你们其实并没有把流程的每个环节都民主化，只是在写代码这部分，大家可以贡献代码，然后还是得由工程师来审核。"
+  },
+  {
+    "start": 1422.84,
+    "end": 1429.954,
+    "speaker": "Host",
+    "text_en": "people submit pull requests and then the engineering team still reviews and merges or gives feedback or takes it over and yeah",
+    "text": "大家会提交 pull request，然后工程团队还是会负责 review、合并，或者给反馈，或者直接接手处理，对。"
+  },
+  {
+    "start": 1429.954,
+    "end": 1437.954,
+    "speaker": "Guest",
+    "text_en": "Got it. So it's easier to like prototype new stuff. The democratization has happened at the prototype like proof of concept layer.",
+    "text": "明白了。所以这样会更容易去做新东西的原型。也就是说，民主化主要发生在原型、概念验证这一层。"
+  },
+  {
+    "start": 1438.754,
+    "end": 1458.166,
+    "speaker": "Host",
+    "text_en": "yeah and there's some things that are easy that just yep obvious bug fix small scope thumbs up and some things that get submitted and we say you have no idea the the fiery flood of lava that this would unleash and of course you we don't expect you to but here's why we cannot do this and then yeah some in between yeah",
+    "text": "对，有些东西很简单，就是那种一看就知道的 bug 修复、范围很小，没问题，直接通过。也有些提交上来后，我们会说，你根本不知道这会引发怎样一场熔岩洪流般的连锁反应。当然，我们也不指望你知道，但这就是为什么我们不能这么做。然后还有一些介于两者之间的情况。"
+  },
+  {
+    "start": 1458.166,
+    "end": 1473.316,
+    "speaker": "Guest",
+    "text_en": "and there's a surprising amount of that in software i think a lot of people just don't appreciate the implications of seemingly small changes you know like oh you make that change well that's gonna that actually affects seven other workflows in our product that you did not think about and now they're all broken",
+    "text": "而且软件里这种情况其实多得出人意料。我觉得很多人就是没有意识到，看起来很小的改动背后会有什么影响。比如说，哦，你改了这个——但实际上这会影响我们产品里另外七个你根本没想到的工作流，然后它们现在全坏了。"
+  },
+  {
+    "start": 1474.066,
+    "end": 1494.318,
+    "speaker": "Host",
+    "text_en": "we some of the stuff that we have shipped has has had some bugs that required some follow-up but none of it has just been broken and I think knock on wood it hasn't broken other stuff too badly that I'm aware of up until now so I think it's been broadly positive it it just is a trade-off of the engineering team spends more time than they used to reviewing these code contributions from other people",
+    "text": "我们已经上线的一些东西，确实有过一些 bug，后续需要再跟进处理，但没有哪一个是彻底坏掉的。而且我想，敲木头保佑，据我目前所知，它们也没有把别的东西搞得太严重。所以总体来说，我觉得还是正面的。只是这里面的权衡在于，工程团队现在比以前要花更多时间去 review 其他人提交的这些代码贡献。"
+  },
+  {
+    "start": 1494.518,
+    "end": 1505.468,
+    "speaker": "Host",
+    "text_en": "Yeah, and what's crazy is our engineers are already spending way more time in code review than they have in the past as a ratio of their overall time spent. And so when you now expand the circle of...",
+    "text": "对，而且夸张的是，我们的工程师现在花在 code review 上的时间，占整体工作时间的比例，已经比以前高太多了。所以当你现在再把这个圈子扩大到……"
+  },
+  {
+    "start": 1505.236,
+    "end": 1514.936,
+    "speaker": "Guest",
+    "text_en": "of Plutarch's to contribute more code there's even that that amplifies that problem yep I say problem like only because most people don't like to spend all their time reviewing other people's code yeah",
+    "text": "让 Plutarch 的更多人去贡献代码，甚至还有些东西会把这个问题进一步放大。对，我说这是个“问题”，只是因为大多数人都不喜欢把所有时间花在审别人代码上。对。"
+  },
+  {
+    "start": 1514.936,
+    "end": 1526.238,
+    "speaker": "Host",
+    "text_en": "It's hard. I mean, it's exhausting in a way that creating your own stuff is not. I don't know. Have we answered the question? I feel like we keep forgetting what the question even is, but that's because there's no question.",
+    "text": "这很难。我是说，这种累和自己做东西不一样，是另一种消耗。我也说不好。我们回答这个问题了吗？我感觉我们一直在忘记问题到底是什么，不过那是因为其实根本没有问题。"
+  },
+  {
+    "start": 1527.988,
+    "end": 1542.688,
+    "speaker": "Guest",
+    "text_en": "yeah, I'm interested to see where it goes and like all things there'll probably be a spectrum. There are places that never ever do pair programming and places that always do pair programming. And I think this is another one of those axes on which you can place your software practices.",
+    "text": "对，我挺想看看这会怎么发展，而且跟很多事情一样，最后大概会形成一个光谱。有些地方从来完全不做结对编程，也有些地方一直都做结对编程。我觉得这也是你可以用来摆放软件实践的另一个维度。"
+  },
+  {
+    "start": 1542.888,
+    "end": 1548.746,
+    "speaker": "Host",
+    "text_en": "Only engineers contribute to the code or literally anybody can or anything in between. between.",
+    "text": "是只有工程师能给代码做贡献，还是说任何人都可以，或者介于两者之间的任何状态。"
+  },
+  {
+    "start": 1548.796,
+    "end": 1563.996,
+    "speaker": "Guest",
+    "text_en": "I'll share my final thought on this, which is to answer a question that is implied in here, which is that, well, really stated out loud, why are we so obsessed with this idea of allowing non-engineers to contribute code to these projects and democratizing the process? And I will say this,",
+    "text": "我最后分享一个想法，算是回答这里面隐含的一个问题，或者说其实已经直接说出来了：为什么我们这么执着于让非工程师也能给这些项目贡献代码、把这个流程民主化？我想说的是，"
+  },
+  {
+    "start": 1564.046,
+    "end": 1576.146,
+    "speaker": "Guest",
+    "text_en": "I believe the population is starting to become unimpressed with AI output. You know, we're on that hedonic treadmill. And so when someone shows up at my door or in my email inbox or in my...",
+    "text": "我觉得，人们已经开始对 AI 产出没那么惊艳了。你知道，我们都在那种享乐跑步机上。所以当有人出现在我家门口，或者我的邮箱里，或者我的……"
+  },
+  {
+    "start": 1575.956,
+    "end": 1590.3,
+    "speaker": "Guest",
+    "text_en": "in my Slack DMs with like a 17-page PDF file containing what looks like very dense, valuable information. three years ago i would have been like wow incredible work i'm sure you poured over every word in here and you carefully wrote this this",
+    "text": "或者我的 Slack 私信里，甩给我一个 17 页的 PDF，看起来像是信息量很大、很有价值的内容。要是三年前，我会觉得，哇，太厉害了，我敢肯定你逐字逐句都认真推敲过，而且你是非常用心写出来的，这个……"
+  },
+  {
+    "start": 1590.3,
+    "end": 1594.15,
+    "speaker": "Host",
+    "text_en": "yep yeah is so long you must have thought so much about this yeah",
+    "text": "对，对，这么长，你肯定为这事想了特别多。"
+  },
+  {
+    "start": 1594.15,
+    "end": 1600.9,
+    "speaker": "Guest",
+    "text_en": "yes and now when someone does that i'm just like next like i don't even want to read it i'm like i bet you haven't even read this ai",
+    "text": "对，现在要是有人这么干，我就会想：下一个。我连看都不想看，我就觉得你八成都没认真读过这份 AI 生成的东西。"
+  },
+  {
+    "start": 1600.9,
+    "end": 1612.192,
+    "speaker": "Host",
+    "text_en": "yeah there were two options either you were schizophrenic and this is a time cube thing or you thought very deeply about it and now there's a third which is you do not value my time at all yeah you ai slopped me",
+    "text": "对，以前只有两种可能：要么你精神错乱了，在搞什么 time cube 那一套；要么你真的想得特别深。现在有第三种了，就是你根本不尊重我的时间。对，你就是拿 AI 糊弄我。"
+  },
+  {
+    "start": 1612.242,
+    "end": 1629.192,
+    "speaker": "Guest",
+    "text_en": "and and people will just pass that to me and they they i gotta say like the faces they wear when they put these documents in front of me are like they're like expecting me to be like wow great work but i'm like i know what you did to create this i know you know like this is not high quality work",
+    "text": "而且人们就会把那种东西递给我。我得说，他们把这些文档摆到我面前时脸上的表情，就像是在期待我说“哇，干得真棒”。但我心里想的是，我知道你是怎么弄出这玩意儿的，我知道，你懂吧，这根本不是什么高质量的工作。"
+  },
+  {
+    "start": 1629.192,
+    "end": 1632.292,
+    "speaker": "Host",
+    "text_en": "We are learning what this says. Together, right now.",
+    "text": "我们现在是在一起现场搞明白这东西到底写了什么，对吧。"
+  },
+  {
+    "start": 1635.092,
+    "end": 1652.592,
+    "speaker": "Guest",
+    "text_en": "So like, do you expect me to be impressed? Like I'm just not and it's not because you know, I don't know. So I don't personally I don't do that to people. But the point I'm trying to make here is that I think collectively we are approaching that level of I'm unimpressed by your high quantity of stuff you produced,",
+    "text": "所以，你是指望我被打动吗？我就是不会。而且也不是因为，怎么说呢，我个人反正不会这样对别人。但我想表达的是，我觉得大家整体上都快到那个阶段了：你产出了一大堆东西，我也不会因此 impressed。"
+  },
+  {
+    "start": 1652.692,
+    "end": 1675.494,
+    "speaker": "Guest",
+    "text_en": "whether it's a giant PR, whether it's a really cool picture or whether it's a long PDF. You have specification or something. We're just like, I don't care anymore. Like it's, it's gone from wow to, oh no. Like I have to read this thing. So I think with that, we're also going to see this, this frenzy around democratizing software engineering also subside.",
+    "text": "不管是一个巨大的 PR，一张特别酷的图片，还是一份很长的 PDF，或者什么规格说明之类的。大家现在的反应就是：我已经不在乎了。它已经从“哇”变成“哦不”。就像，唉，我还得把这玩意儿看完。所以我觉得，伴随着这个变化，围绕“让软件工程民主化”的这股狂热也会慢慢退下去。"
+  },
+  {
+    "start": 1675.494,
+    "end": 1684.294,
+    "speaker": "Host",
+    "text_en": "Yeah, you could call it gatekeeping, but also filtering. A gatekeeper is also a filter. There's some vouching for quality and yeah, interesting times.",
+    "text": "对，你可以说这叫把门，但也可以说是筛选。把门的人本身也是过滤器。这里面确实有一种对质量的背书。是啊，挺有意思的时代。"
+  },
+  {
+    "start": 1684.344,
+    "end": 1699.198,
+    "speaker": "Guest",
+    "text_en": "I'm going to tell one story. real quick about this and I promise I'll stop talking about this topic but it is kind of interesting and timely I'm going to go out on a limb here and I'm going to implicate let's just say someone very influential in my business not my boss had",
+    "text": "我想很快讲个和这事有关的小故事，我保证讲完这个我就不继续聊这个话题了，不过这事确实挺有意思，也挺应景的。我这里大胆说一句，可能会牵扯到我这个行业里一个很有影响力的人，不是我老板，曾经"
+  },
+  {
+    "start": 1699.598,
+    "end": 1720.66,
+    "speaker": "Guest",
+    "text_en": "a very important question about our business which is is our business protected from an AI just cloning our software and then we go bankrupt this is the question that I think many businesses are asking themselves themselves is what's stopping our customers from building what we already have themselves and then canceling their subscription with",
+    "text": "一个关于我们业务的非常重要的问题是：我们的业务能不能防得住 AI 直接克隆我们的软件，然后我们就破产？我觉得很多公司都在问自己这个问题：到底是什么阻止了客户自己把我们现有的东西做出来，然后取消他们跟我们的订阅？"
+  },
+  {
+    "start": 1720.71,
+    "end": 1730.36,
+    "speaker": "Guest",
+    "text_en": "us we're a b2b SaaS company this is a question we're all asking ourselves and one of these people these very influential important people in my circle of I'll say plutarchs or oligarchs in the",
+    "text": "我们是一家 B2B SaaS 公司，这是我们都在问自己的问题。而我圈子里有这么一个人，这种很有影响力、很重要的人物，我姑且称他们为权贵或者寡头吧，意思是他们在商业上很有影响力，但并不写代码。他当时就说，"
+  },
+  {
+    "start": 1730.46,
+    "end": 1742.59,
+    "speaker": "Guest",
+    "text_en": "sense that they're business influential but not writing code they were like well I'm just gonna tell AI to create a clone of your company of your product and so they did and it put something on a browser screen and it had like",
+    "text": "“那我就直接让 AI 做一个你们公司、你们产品的克隆版。”然后他还真这么干了，结果在浏览器里弄出了个东西，上面有那种"
+  },
+  {
+    "start": 1742.59,
+    "end": 1742.74,
+    "speaker": "Host",
+    "text_en": "Mm",
+    "text": "嗯"
+  },
+  {
+    "start": 1742.74,
+    "end": 1758.24,
+    "speaker": "Guest",
+    "text_en": "buttons and numbers and dials and gauges and reports and stuff on it like you know it looks legit and he shows it to me like look what do you think of this and I'm like how do I freaking respond to this like that is almost less than nothing to me like it means nothing nothing on the page",
+    "text": "按钮、数字、旋钮、仪表盘、报表之类的东西，你知道的，看起来还挺像那么回事。然后他拿给我看，说“你觉得这个怎么样？”我当时心想，我他妈该怎么回应这个？这对我来说几乎比一无所有还不如，基本毫无意义，页面上的东西"
+  },
+  {
+    "start": 1758.34,
+    "end": 1776.548,
+    "speaker": "Guest",
+    "text_en": "means anything and you don't know what it means either So it's like, did you successfully clone my company? No, you did not. Like you created a facade of something that looks sort of like our company plausibly, almost like a forgery of a company. But when you when you peel back even one layer, what you've created is like a web page with. with words",
+    "text": "没有任何一样是真有意义的，而且你自己也不知道那些东西到底是什么意思。所以说，你成功克隆了我的公司吗？没有，你根本没有。你只是做出了一个看起来大概像我们公司的外壳，勉强说得过去，几乎像是一个公司的赝品。但你只要往下扒开哪怕一层，你做出来的其实就只是一个写着字的网页。"
+  },
+  {
+    "start": 1776.848,
+    "end": 1789.948,
+    "speaker": "Guest",
+    "text_en": "on it you know like you did not create an application you did not create a platform you did not create infrastructure you did not create 10 years of accumulated bug fixes that we've learned through very hard experience interacting with actual real world data",
+    "text": "你知道吗，你并没有做出一个应用，你没有做出一个平台，你没有做出基础设施，你也没有做出我们通过和真实世界数据打交道、靠非常艰难的经验一点点积累下来的 10 年 bug 修复。"
+  },
+  {
+    "start": 1790.74,
+    "end": 1806.89,
+    "speaker": "Guest",
+    "text_en": "you know an ai that an ai just doesn't know about so like that's just not that's nothing it means nothing and i think i hope that more people are having that experience where they produce a lot of stuff a lot of content that actually is nothing and they go oh i guess we don't have to democratize this like",
+    "text": "这些东西 AI 根本不知道。所以说，那根本不算什么，毫无意义。我也希望越来越多人会有这种体验：他们产出了一大堆东西、一大堆内容，结果其实什么都不是，然后他们会想，哦，看来我们也没必要把这个民主化到这种程度，比如说"
+  },
+  {
+    "start": 1807.69,
+    "end": 1810.59,
+    "speaker": "Host",
+    "text_en": "Yeah, or there's more to it than just the raw production.",
+    "text": "对，或者说这事不只是看最原始的产出。"
+  },
+  {
+    "start": 1810.59,
+    "end": 1816.184,
+    "speaker": "Guest",
+    "text_en": "yeah exactly Okay. All right. All right. So I'm sorry, I had to rant on that, but I'm done now, I promise.",
+    "text": "对，没错。好吧。行。行。我得为刚才那通吐槽道个歉，不过我现在说完了，我保证。"
+  },
+  {
+    "start": 1816.484,
+    "end": 1819.084,
+    "speaker": "Host",
+    "text_en": "i'm gonna think about that story for a while that's very funny to me",
+    "text": "我得琢磨这个故事好一阵子了，这对我来说太好笑了"
+  },
+  {
+    "start": 1819.634,
+    "end": 1829.684,
+    "speaker": "Guest",
+    "text_en": "Yeah, because that is the question everyone's asking, like, can someone just yellow clone it and it sounds like this person said, look, I did. i did it and i'm like you think you did it and I don't want to be the one to tell you you didn't because",
+    "text": "对，因为这就是所有人都在问的问题，比如，有人是不是随便 yellow clone 一下，就能听起来像这个人说了这些话。你看，我做了，我真做了。然后我心里就想，你以为你做到了，我又不太想当那个告诉你其实你没做到的人，因为——"
+  },
+  {
+    "start": 1829.684,
+    "end": 1830.634,
+    "speaker": "Host",
+    "text_en": "yeah that's like saying",
+    "text": "对，这就像是在说——"
+  },
+  {
+    "start": 1830.634,
+    "end": 1831.134,
+    "speaker": "Guest",
+    "text_en": "you're very influential.",
+    "text": "你可太有影响力了。"
+  },
+  {
+    "start": 1831.134,
+    "end": 1837.334,
+    "speaker": "Host",
+    "text_en": "you you produced this impressive you know that marble statue of david well i just took a picture of it so",
+    "text": "你创作出了这个很厉害的、你知道的那个大卫石像，那我不过就是给它拍了张照片，所以——"
+  },
+  {
+    "start": 1838.356,
+    "end": 1840.806,
+    "speaker": "Guest",
+    "text_en": "What is that even, what is your stupid statue even",
+    "text": "那到底算什么，你那破雕像又算什么"
+  },
+  {
+    "start": 1840.806,
+    "end": 1840.906,
+    "speaker": "Host",
+    "text_en": "Look",
+    "text": "你看"
+  },
+  {
+    "start": 1840.906,
+    "end": 1841.156,
+    "speaker": "Guest",
+    "text_en": "worth?",
+    "text": "值吗？"
+  },
+  {
+    "start": 1841.156,
+    "end": 1845.756,
+    "speaker": "Host",
+    "text_en": "what's on my phone. It's Michael Angelo's David. I have it.",
+    "text": "我手机上的东西。这是 Michael Angelo 的 David。我有。"
+  },
+  {
+    "start": 1845.756,
+    "end": 1851.356,
+    "speaker": "Guest",
+    "text_en": "Yeah, I have it. You've been commoditized. We democratized sculpting.",
+    "text": "对，我也有。你已经被商品化了。我们把雕塑民主化了。"
+  },
+  {
+    "start": 1852.056,
+    "end": 1861.156,
+    "speaker": "Host",
+    "text_en": "That's a really good metaphor. Okay. All right. All right. We're getting long here. We're about to wear out our welcome in your earphones. So let's, yes, Yeah, do you want to read our next question?",
+    "text": "这个比喻真不错。好吧。行吧。行吧。我们这段有点太长了。再说下去，你耳机里的我们都要让人听烦了。所以，来吧，对，你想读下一个问题吗？"
+  },
+  {
+    "start": 1862.106,
+    "end": 1879.542,
+    "speaker": "Guest",
+    "text_en": "it comes from a listener named Anon E. Mouse. asks, should I share my tools? I keep building small local software tools to better test and debug the application I'm working on. The problem is that whenever I go above and beyond the assigned and expected work and try and responsibly check it in to version control and share it with the rest of the team,",
+    "text": "这个问题来自一位叫 Anon E. Mouse 的听众。他问：我该分享我的工具吗？我一直在做一些本地的小软件工具，好更好地测试和调试我正在开发的应用。问题是，每当我做了超出分配和预期工作的事情，并且想负责任地把它提交进版本控制、分享给团队其他人时，"
+  },
+  {
+    "start": 1879.592,
+    "end": 1884.592,
+    "speaker": "Guest",
+    "text_en": "it gets bogged down in code reviews because it doesn't meet the team lead's vision because it wasn't part of the vision.",
+    "text": "它就会卡死在代码评审里，因为它不符合 team lead 的愿景，因为它本来就不在那个愿景里。"
+  },
+  {
+    "start": 1885.792,
+    "end": 1896.124,
+    "speaker": "Host",
+    "text_en": "It doesn't meet your vision because it wasn't part of the vision. I didn't expect you to build this. So it's not part of the vision.",
+    "text": "它不符合你的愿景，因为它本来就不在那个愿景里。我没指望你做这个。所以它不属于这个愿景。"
+  },
+  {
+    "start": 1897.94,
+    "end": 1898.04,
+    "speaker": "Guest",
+    "text_en": "My",
+    "text": "我的"
+  },
+  {
+    "start": 1898.34,
+    "end": 1912.74,
+    "speaker": "Host",
+    "text_en": "vision is more you do what I tell you and this is not part of it. That's very funny. Okay, continuing. Once I go through that process, though, it's mostly appreciated, but the team lead is under a lot of business pressure and often mentions that we need to focus.",
+    "text": "我的想法更像是，你照我说的做，这不属于其中一部分。这个很好笑。好，继续。 不过，一旦我走完那个流程，大家大多还是认可的，但 team lead 承受着很大的业务压力，也经常提到我们需要更聚焦。"
+  },
+  {
+    "start": 1913.94,
+    "end": 1924.24,
+    "speaker": "Host",
+    "text_en": "Maybe I'm not focused enough, but many of these little tools are things that make verification and delivery much smoother, like local testing utilities to verify and sample API endpoints that otherwise could only be called after prod deployments due to a lack of test data.",
+    "text": "也许是我不够聚焦，但很多这种小工具确实能让验证和交付顺畅很多，比如一些本地测试工具，可以用来验证和采样 API endpoint；不然的话，因为缺少测试数据，这些接口往往只有在部署到 prod 之后才能调用。"
+  },
+  {
+    "start": 1924.148,
+    "end": 1935.348,
+    "speaker": "Host",
+    "text_en": "data our partners like when we're able to show the output before deployment and the rest of the team usually struggles with that i feel the pressure to hide my tools but then i feel sloppy for having a bunch of useful tools outside of version control",
+    "text": "我们的合作方也很喜欢我们能在部署前先展示输出结果，而团队里其他人通常做不到这一点。我会感觉有压力，想把我的工具藏起来；但同时，想到一堆有用的工具游离在 version control 之外，我又会觉得很不规范。"
+  },
+  {
+    "start": 1935.796,
+    "end": 1946.846,
+    "speaker": "Host",
+    "text_en": "These are things like formatting output, running experiments, testing data for variations. Am I unfocused or just bad at articulating the value of these tools? Great question. Very timely.",
+    "text": "这些工具包括格式化输出、跑实验、测试数据的各种变化情况。到底是我不够聚焦，还是我不太会把这些工具的价值讲清楚？这个问题问得太好了，也很应景。"
+  },
+  {
+    "start": 1946.946,
+    "end": 1968.482,
+    "speaker": "Guest",
+    "text_en": "I had this exact experience with one of my favorite engineers I've ever worked with. It was a year or two ago. And they built some local tool. The code base had a lot of strong patterns. for kind of CLI utility things and they were still fairly",
+    "text": "我和我合作过的一位我最喜欢的工程师之一，真的有过一模一样的经历。那是一两年前的事了。对方做了一个本地工具。我们的代码库里其实已经有很多很成熟的模式，专门用来处理这类 CLI 工具的，而且他们当时还算比较"
+  },
+  {
+    "start": 1969.14,
+    "end": 1994.74,
+    "speaker": "Guest",
+    "text_en": "knew i think to the company and had a task to do something email related and built some little script to do some email verification stuff and a completely different architecture from our existing kind of cli tool stuff and i did this i said no it must use the same patterns and we have ways of doing this already the patterns it was following to be clear all of these were not like prod",
+    "text": "新加入公司。我记得他们当时接了一个和邮件相关的任务，于是写了个小脚本来做一些邮件校验的事情，但它的架构和我们现有那套 CLI 工具的做法完全不同。我当时就说，不行，必须用同样的模式，我们已经有现成的做法了。先说明一下，他们当时遵循的那些模式，并不是那种像 prod"
+  },
+  {
+    "start": 1995.572,
+    "end": 1996.672,
+    "speaker": "Guest",
+    "text_en": "level things these are",
+    "text": "级别的东西，这些是"
+  },
+  {
+    "start": 1996.672,
+    "end": 1996.722,
+    "speaker": "Host",
+    "text_en": "Mm",
+    "text": "嗯"
+  },
+  {
+    "start": 1996.722,
+    "end": 1996.822,
+    "speaker": "Guest",
+    "text_en": "all",
+    "text": "所有这些"
+  },
+  {
+    "start": 1996.822,
+    "end": 1996.872,
+    "speaker": "Host",
+    "text_en": "-hmm.",
+    "text": "嗯。"
+  },
+  {
+    "start": 1996.872,
+    "end": 2019.722,
+    "speaker": "Guest",
+    "text_en": "local dev tool things but we just had had had a way to do it didn't work the same way i said no change it um and then i can't remember if they ever did or not but i felt bad afterwards because i realized that it probably doesn't matter like the architectural purity of this script you run to validate emails that get generated is not",
+    "text": "本地开发工具之类的东西，但我们当时就是已经有一种做法了，只是它实现方式不一样。我就说不，改掉它。然后我也不记得他们后来到底有没有改，但我事后觉得有点不好意思，因为我意识到这可能根本不重要。比如你跑的这个用来校验生成出来的邮件的脚本，它在架构上的纯粹性其实并不"
+  },
+  {
+    "start": 2020.5,
+    "end": 2042.624,
+    "speaker": "Guest",
+    "text_en": "important and this is like throwaway code that if there's a bug in it we will just delete all of the code it's not load-bearing at all So I ended up flip-flopping and just said YOLO merge it. This is great. And then a few other things got merged in that were similar in that they were kind of local tools, workflow specific, didn't rigorously follow our existing patterns.",
+    "text": "重要，而且这就像是一次性的代码，就算里面有 bug，我们也会直接把整段代码删掉。它根本不是什么关键路径上的东西。所以最后我又改主意了，直接说 YOLO，合并吧，挺好的。后来还有几个类似的东西也被合进来了，本质上都是本地工具、特定工作流用的，没有严格遵循我们现有的模式。"
+  },
+  {
+    "start": 2043.124,
+    "end": 2055.224,
+    "speaker": "Guest",
+    "text_en": "And I decided this was fine because if it made life easier for even a couple engineers, that was worth the inventory cost of just having this code around in our repo because mostly you didn't look at it.",
+    "text": "我决定这样也没问题，因为哪怕只是让一两个工程师的工作更轻松一点，也值得为此承担把这些代码放在 repo 里的那点库存成本，反正大多数时候你也不会去看它。"
+  },
+  {
+    "start": 2055.224,
+    "end": 2058.058,
+    "speaker": "Host",
+    "text_en": "Yeah. Like it doesn't get in your way of your day-to-day work.",
+    "text": "对，就像它不会妨碍你日常工作。"
+  },
+  {
+    "start": 2058.058,
+    "end": 2064.458,
+    "speaker": "Guest",
+    "text_en": "Yeah, yeah, it's not like, it's not in the core data plane, I guess, of application use.",
+    "text": "对，对，它又不在应用使用的核心数据平面里，大概可以这么说。"
+  },
+  {
+    "start": 2064.458,
+    "end": 2071.358,
+    "speaker": "Host",
+    "text_en": "The metaphorical data plane, which you might actually be working on a real data plane, but this is a metaphor. And not an airplane, that's different.",
+    "text": "这个算是比喻意义上的 data plane。你也可能真的就在做一个真实的 data plane，但这里说的是个比喻。还有，不是 airplane，那是另一回事。"
+  },
+  {
+    "start": 2072.116,
+    "end": 2075.566,
+    "speaker": "Guest",
+    "text_en": "User traffic is not flowing through anything affected by this code.",
+    "text": "用户流量不会经过任何受这段代码影响的东西。"
+  },
+  {
+    "start": 2075.966,
+    "end": 2088.416,
+    "speaker": "Host",
+    "text_en": "well to me the biggest risk here is that you just have a bunch of accumulated stuff that no one ends up using and it's just it's not like in the way per se but it's like how do we do things around here and I can't tell it's like 100 script files in here",
+    "text": "不过在我看来，这里最大的风险是你会积累一大堆最后根本没人用的东西。倒不是说它们真的挡路，但会变成一种“我们这里做事就是这样的”氛围，可我根本看不出来啊，这里面像是塞了 100 个脚本文件。"
+  },
+  {
+    "start": 2089.492,
+    "end": 2097.542,
+    "speaker": "Guest",
+    "text_en": "yeah so i think you do stuff to curate it at some point and there's also a bounce here between imposing your workflow on other people like you",
+    "text": "对，所以我觉得到了某个阶段，你还是得做一些整理筛选。而且这里还有个拉扯，就是你会不会把自己的工作流强加给别人，比如你"
+  },
+  {
+    "start": 2097.542,
+    "end": 2097.742,
+    "speaker": "Host",
+    "text_en": "Mm",
+    "text": "嗯"
+  },
+  {
+    "start": 2097.742,
+    "end": 2097.992,
+    "speaker": "Guest",
+    "text_en": "really like",
+    "text": "特别喜欢"
+  },
+  {
+    "start": 2097.992,
+    "end": 2098.142,
+    "speaker": "Host",
+    "text_en": "-hmm.",
+    "text": "嗯。"
+  },
+  {
+    "start": 2098.142,
+    "end": 2117.242,
+    "speaker": "Guest",
+    "text_en": "this pattern of writing a bunch of little tools and using them to verify your work and i think that's very cool and it makes me feel like i should do more of it but not everybody does that and is the repo the place to put just stuff for you i think that's kind of part of the pushback as well",
+    "text": "这种写一堆小工具、再用它们来验证自己工作的模式。我觉得这很酷，也会让我觉得自己是不是也该多这么做一点。但不是每个人都这样，所以 repo 到底是不是一个适合放那些只对你自己有用的东西的地方，我觉得这也是大家会有抵触的一部分原因。"
+  },
+  {
+    "start": 2117.908,
+    "end": 2130.358,
+    "speaker": "Host",
+    "text_en": "Right. And I'll tell you the level of effort it takes to create a tool that works not just for you, but for everyone on your team, it's got to be like 10x. You know, I Yeah. can whip out a little tool that I use no problem,",
+    "text": "对。而且我跟你说，要做一个不只是你自己能用、而是整个团队都能用的工具，投入的精力大概要高 10 倍。你知道，我自己随手搞个小工具自己用，完全没问题。"
+  },
+  {
+    "start": 2130.458,
+    "end": 2142.458,
+    "speaker": "Host",
+    "text_en": "but A, getting it all documented, getting it to actually work on everyone's machines, and then getting it socialized so people even know it exists and when to use it and getting them to adopt their workflows or adapt their workflows to it.",
+    "text": "但首先，得把文档都写好；还得让它真的能在每个人的机器上跑起来；然后还得把它推广出去，让大家知道它的存在、知道什么时候该用，还得让他们采用这个工具，或者调整自己的工作流去适配它。"
+  },
+  {
+    "start": 2142.868,
+    "end": 2144.718,
+    "speaker": "Guest",
+    "text_en": "Got to have help text and different",
+    "text": "还得有帮助文本，还有各种不同的"
+  },
+  {
+    "start": 2144.718,
+    "end": 2145.468,
+    "speaker": "Host",
+    "text_en": "like, right.",
+    "text": "对，就是这样。"
+  },
+  {
+    "start": 2145.468,
+    "end": 2152.468,
+    "speaker": "Guest",
+    "text_en": "failure modes of, oh, you start up the app and then you initialize the database. Oh, I just never do that.",
+    "text": "失败场景。比如，哦，你启动应用之后还得初始化数据库。哦，我自己就从来不会这么干。"
+  },
+  {
+    "start": 2153.618,
+    "end": 2159.468,
+    "speaker": "Host",
+    "text_en": "The tool doesn't support that. Now I got to change it. Oh, yeah, it's just so there is lost effort there.",
+    "text": "这个工具不支持那种情况。那我现在又得去改它。对啊，所以这里面确实有很多额外浪费掉的精力。"
+  },
+  {
+    "start": 2159.568,
+    "end": 2170.618,
+    "speaker": "Guest",
+    "text_en": "And I think that's like the one place where a tech lead would be wise to push back and say, look, I have no problem with you creating tools for yourself, because that's fine and it's low cost. But if",
+    "text": "我觉得这大概就是技术负责人应该明智地提出异议的一个地方。可以说，你给自己做工具，我完全没意见，因为那没问题，成本也低。但如果"
+  },
+  {
+    "start": 2171.316,
+    "end": 2197.066,
+    "speaker": "Guest",
+    "text_en": "if you're if you want to now distribute them to the rest of the team now i know that it's going to take you a lot more time and it's going to take the team a bunch of time and it might not be good you know like i don't know they might not love it and they might not use it so there might not be like the roi on you investing all this time might be low and as an example of that actually not an example of that but i have a team member who's been working on a bunch of ai tools and um it's taken months of work",
+    "text": "如果你现在想把这些工具分发给团队其他人用，那我就知道这会花掉你更多时间，也会占用团队不少时间，而且效果还未必好。你知道的，我也说不好，大家可能并不会喜欢，也可能根本不会用。所以你投入这么多时间，ROI 可能其实很低。说到这个，举个例子——其实也不算完全是这个例子——我团队里有个人一直在做一堆 AI 工具，已经花了好几个月时间了。"
+  },
+  {
+    "start": 2197.652,
+    "end": 2201.452,
+    "speaker": "Host",
+    "text_en": "even with ai to create these tools because a the landscape keeps shifting out from under",
+    "text": "即使用 AI 来做这些工具也一样，因为整个环境一直在不断变化，脚下的地都在动。"
+  },
+  {
+    "start": 2201.452,
+    "end": 2201.552,
+    "speaker": "Guest",
+    "text_en": "Mm",
+    "text": "嗯。"
+  },
+  {
+    "start": 2201.552,
+    "end": 2201.902,
+    "speaker": "Host",
+    "text_en": "him but",
+    "text": "他这边也是，"
+  },
+  {
+    "start": 2201.902,
+    "end": 2202.052,
+    "speaker": "Guest",
+    "text_en": "-hmm.",
+    "text": "嗯。"
+  },
+  {
+    "start": 2202.052,
+    "end": 2218.602,
+    "speaker": "Host",
+    "text_en": "b it's like there's so much to integrate with and so many ways to learn how to do this or like so many different ways to do things that you know creating a general purpose tooling system like i tried installing the first few versions and it just failed you know now now he's dealing with bug reports you know from me to",
+    "text": "但问题是，要集成的东西太多了，学习怎么做这件事的方法也太多，或者说做事的路径本来就五花八门。所以你想做一个通用型的工具系统——我之前试着装过最早那几个版本，结果就是装不上。你知道的，现在他还得处理我提的 bug 反馈，去"
+  },
+  {
+    "start": 2218.752,
+    "end": 2226.452,
+    "speaker": "Host",
+    "text_en": "fix this tool this so-called like quick tool but he's been doing like a lot of nights and weekends and stuff on it because he's he's just like super obsessed with it and his",
+    "text": "修这个工具，这个所谓的快捷工具。但他确实在这上面投入了很多晚上的时间和周末时间，因为他就是对这个东西特别着迷，而且他"
+  },
+  {
+    "start": 2226.388,
+    "end": 2240.888,
+    "speaker": "Guest",
+    "text_en": "and is really interested in it and i'm like great that's fine and Yeah. it is really cool but it does but i i think you do have to be a little bit more careful than i think some would be intuitively about this because it does have real cost",
+    "text": "也真的很感兴趣。我就觉得，挺好，这没问题。对，它确实很酷，但我觉得在这件事上，你确实得比有些人直觉上认为的更谨慎一点，因为它确实是有真实成本的。"
+  },
+  {
+    "start": 2242.438,
+    "end": 2255.846,
+    "speaker": "Host",
+    "text_en": "Yeah, I don't have a better answer than it depends because I've been on all sides of this. When I first joined my current job, there was a ton of tooling. most of which nobody used and I just went through and deleted all the stuff nobody used but",
+    "text": "对，除了“这得看情况”之外，我也没有更好的答案了，因为这几种情况我都经历过。我刚加入现在这份工作的时候，内部有一大堆工具，绝大多数根本没人用，我就一路把那些没人用的东西都删掉了，不过"
+  },
+  {
+    "start": 2256.396,
+    "end": 2277.996,
+    "speaker": "Host",
+    "text_en": "also I've added a bunch of my own tooling and some of it gets used by other people some of it doesn't and so we kind of just have different tools that some subset are unused and the earlier subset of tools that were unused we had before I joined I think there is actually a market here for developer tool management.",
+    "text": "还有，我自己也加了不少工具，其中有些别人会用，有些不会。所以我们手上其实就有一堆不同的工具，其中一部分根本没人用。那些更早就闲置的工具，还是我加入之前就有的。我觉得这里其实是有开发者工具管理市场的。"
+  },
+  {
+    "start": 2278.72,
+    "end": 2290.47,
+    "speaker": "Host",
+    "text_en": "where developers can quickly create and deploy tools to their team members and it also keeps track of things like how much usage is this thing even getting and like should it be gone should this tool be deleted from our repository that could be kind of cool",
+    "text": "开发者可以很快地创建工具并部署给团队成员，同时还能追踪一些事情，比如这东西到底有多少使用量，像这种工具是不是该下线了，是不是该从我们的代码仓库里删掉了，这感觉还挺酷的。"
+  },
+  {
+    "start": 2291.22,
+    "end": 2308.384,
+    "speaker": "Guest",
+    "text_en": "Yeah, bigger orgs will have kind of internal productivity teams and they probably do some kind of. measuring around that tell your tech lead hang on no i think this is important and i actually just need to pivot to building a bunch of analytics for these tools so i can demonstrate their impact yeah",
+    "text": "对，大一点的组织一般会有内部效率团队，他们大概会做一些这方面的度量。你就跟你的 tech lead 说，等一下，不，我觉得这很重要，我现在其实需要转去给这些工具做一堆分析能力，这样我才能证明它们的影响，对。"
+  },
+  {
+    "start": 2308.384,
+    "end": 2324.084,
+    "speaker": "Host",
+    "text_en": "Yes, I can tell the question behind your question is, I need more metrics on these tools, so I'm going to build that for you. give me a couple weeks we'll be able to do a study maybe do some ab testing and within a couple months we should have enough data to know are these tools used",
+    "text": "对，我能听出来你问题背后的问题其实是：我需要这些工具更多的指标，所以我准备替你把这个做出来。给我几周时间，我们就能做个研究，也许再做点 A/B 测试，几个月内我们应该就会有足够的数据来判断这些工具到底有没有人在用。"
+  },
+  {
+    "start": 2324.948,
+    "end": 2327.348,
+    "speaker": "Guest",
+    "text_en": "it's in order to help hit the release that's next week.",
+    "text": "而这一切是为了帮助赶上下周的发布。"
+  },
+  {
+    "start": 2327.348,
+    "end": 2343.998,
+    "speaker": "Host",
+    "text_en": "like we're a four-person team dude like and almost every company i've been at i will usually create a git repository that's just my username plus like tools or plus you know utils or something and that's where i just put all my stuff where i develop little things like this and of course",
+    "text": "但我们是个四人团队啊，老兄。而且我待过的几乎每家公司里，我通常都会建一个 git 仓库，名字就是我的用户名加上 tools，或者你知道的，utils 之类的。然后我就把我所有这些东西都放进去，在里面开发这种小玩意儿。当然了，"
+  },
+  {
+    "start": 2344.532,
+    "end": 2368.832,
+    "speaker": "Host",
+    "text_en": "I've always done this but I think nowadays you can do it a lot more and developers want to do a lot more and so you know one of the main questions here from the question asker from a non-e mouse is I feel bad having all these tools not in version control and I'm like yeah that you got to get that stuff into version control because you're going to lose it one day when you move to a new computer or your computer stolen or upgraded and you realize oh crap I just lost all my favorite tooling so yeah I would put them in version control but I just put them in my own little git repo and then",
+    "text": "我一直都是这么干的，但我觉得现在你能做的事情更多了，开发者也更想多做一些。所以你知道，这位提问者——来自 non-e mouse——的一个核心问题是：我觉得这些工具都没放进版本控制里，心里很不踏实。我的想法是，对，这些东西你一定得放进版本控制，因为总有一天你会把它们弄丢——比如你换了新电脑，或者电脑被偷了、升级了，然后你才发现，靠，我最喜欢的那些工具全没了。所以对，我会把它们放进版本控制里，但我一般就是放在我自己的小 git 仓库里，然后"
+  },
+  {
+    "start": 2369.396,
+    "end": 2380.996,
+    "speaker": "Host",
+    "text_en": "You know, let people organically find out about what you're doing. And if there's demand, then go ahead and like do the extra work to get it out there. And I think that does a nice job of marrying the two problems in the middle.",
+    "text": "你知道，让大家自然而然地发现你在做什么。如果真的有需求，那你再去做额外的工作把它正式推出去。我觉得这样能挺好地把这两个问题在中间平衡起来。"
+  },
+  {
+    "start": 2381.696,
+    "end": 2399.792,
+    "speaker": "Guest",
+    "text_en": "That's a great idea. I like that idea a lot. Then if you kind of keep, continue to show it off and say, I think this is cool, you should try it, etc. If people don't pick it up, fine. Their mental space is not cluttered with source code that they have to look at does not have extra stuff that they could get lost in.",
+    "text": "这主意很棒。我非常喜欢这个想法。然后如果你持续展示它、继续说“我觉得这个很酷，你应该试试”之类的，要是大家没用起来，也没关系。他们的脑子里不会被那些不得不去看的源代码搞得很乱，代码里也不会多出一些可能让人迷失的额外东西。"
+  },
+  {
+    "start": 2400.0,
+    "end": 2406.5,
+    "speaker": "Host",
+    "text_en": "exactly but yeah i like that all right well you have actually solved i said it depends and you had a solution",
+    "text": "没错，不过是啊，我喜欢这个。好吧，你其实已经把我那句“这得看情况”给解决了，而且你还给出了一个方案。"
+  },
+  {
+    "start": 2406.5,
+    "end": 2406.7,
+    "speaker": "Guest",
+    "text_en": "it does",
+    "text": "确实。"
+  },
+  {
+    "start": 2406.85,
+    "end": 2419.65,
+    "speaker": "Host",
+    "text_en": "not depend um this is the answer just kidding i will say one last thing on this well maybe one thing in a sub thing you were joking about building like a big analytic system for all the tools but it might actually be cool to build some kind of",
+    "text": "不是“看情况”了，嗯，这就是答案。开玩笑的。关于这个我最后再说一点吧，嗯，也许是一点外加一个子话题。你刚才开玩笑说要给所有工具做一个大型分析系统，但其实做某种"
+  },
+  {
+    "start": 2420.02,
+    "end": 2445.12,
+    "speaker": "Host",
+    "text_en": "for your team some kind of tool framework to let people plug tools in and register them so that they become discoverable by people and it might even be really cool to register some of these with your ai so the ai can recommend using them or just know about them and use them on your behalf when it makes sense you know like hey ai here's our like default prompt preamble for everything and here's a set of tools you can use to do things like check my commit afterwards against these common database problems or something like that you know like you",
+    "text": "给你们团队做一种工具框架，让大家可以把工具接进去并注册，这样别人就能发现它们，这其实可能挺酷的。甚至把其中一些工具注册到你们的 AI 里也会很酷，这样 AI 就能推荐使用它们，或者至少知道它们的存在，并在合适的时候替你使用。比如说，“嘿，AI，这是我们所有场景默认用的 prompt 前导词，这是你可以调用的一组工具，可以用来做一些事，比如在我提交之后帮我检查一下有没有这些常见的数据库问题”之类的。你知道，就是你"
+  },
+  {
+    "start": 2445.27,
+    "end": 2446.82,
+    "speaker": "Host",
+    "text_en": "could you could accumulate those then the developers",
+    "text": "可以，你可以把这些慢慢积累起来，然后开发者"
+  },
+  {
+    "start": 2446.772,
+    "end": 2472.472,
+    "speaker": "Host",
+    "text_en": "developers there's no developer cognitive load because ai is the only thing that consumes it number two and this is something that i've tried to do in the past is try to hook tools into places where the team already is so that they just naturally happen and this is more about like how to get your stuff adopted without making the tech lead think that you're burning tons of time on it like for example years ago 10 years ago plus you know we had a lot of git hooks that were part of our",
+    "text": "开发者这边就没有认知负担了，因为唯一会消费这些东西的是 AI。第二点，这也是我过去试着做过的事，就是尽量把工具接到团队本来就在用的地方，让它们自然而然地发生。这更多是在说，怎么让你的东西被采纳，同时又不让 tech lead 觉得你在这上面烧了大量时间。比如说很多年前，十多年前吧，你知道，我们有很多 Git hooks，是日常工作流程的一部分。"
+  },
+  {
+    "start": 2473.3,
+    "end": 2494.35,
+    "speaker": "Host",
+    "text_en": "like normal day-to-day work and developers could add Git hooks and so it's like if you wanted something some kind of check to be run anytime a developer did something you could just plug it in there so you didn't have to like go and get everyone to adopt it you didn't have to go like write a bunch of help docs and go on like a marketing campaign in your team to try to get everyone to to believe in you you know and raise raise",
+    "text": "就是那种很正常的日常工作，开发者可以添加 Git hooks。所以如果你想让某种检查在开发者每次做某个操作时都自动运行，你就可以直接把它接进去。这样你就不用到处推动大家采用它，也不用去写一堆帮助文档，再在团队里搞一场“营销活动”，试图让所有人都相信你、支持你，你懂的，然后把声势越搞越大。"
+  },
+  {
+    "start": 2494.65,
+    "end": 2506.6,
+    "speaker": "Guest",
+    "text_en": "like social capital for it Basically, like if you can find there were ways to do that 10 years ago and there's ways to do it today that I think can get your stuff adopted without causing a bunch of extra pain and effort that your tech lead perceives.",
+    "text": "这事有点像社交资本。基本上，如果你能找到办法——10 年前有那样的办法，今天也有——我觉得你就能让自己的东西被采纳，同时又不会带来一堆额外的麻烦和工作量，让你的 tech lead 觉得很头疼。"
+  },
+  {
+    "start": 2507.7,
+    "end": 2523.774,
+    "speaker": "Host",
+    "text_en": "I love it. All right. Have we answered the question? I hope so, because we are out of time. Yep, we spent our token budget. If you want to renew your token budget, our token budget, I don't know what the metaphor is here. What can people do if they want their own questions answered?",
+    "text": "我喜欢这个回答。好，那我们算是回答完这个问题了吗？希望回答到了，因为我们的时间到了。对，我们把 token 预算都花完了。如果你想续一下你的 token 预算，或者我们的 token 预算，我也不知道这里该怎么打这个比方。要是大家想让自己的问题也得到解答，可以怎么做呢？"
+  },
+  {
+    "start": 2523.774,
+    "end": 2532.624,
+    "speaker": "Guest",
+    "text_en": "Yeah, go to softskills.audio and click the ask a question button where you can fill out our form. You can type in as many tokens as you want there. I don't think Google charges us for the token, thankfully. Although one day I'm sure they will.",
+    "text": "可以去 softskills.audio，点击“ask a question”按钮，在那里填写我们的表单。你想输入多少 token 都行。好在 Google 现在应该还不会按 token 向我们收费。虽然我敢肯定，总有一天他们会的。"
+  },
+  {
+    "start": 2533.574,
+    "end": 2533.674,
+    "speaker": "Host",
+    "text_en": "Yep.",
+    "text": "对。"
+  },
+  {
+    "start": 2533.674,
+    "end": 2537.724,
+    "speaker": "Guest",
+    "text_en": "But thank you so much to everyone who writes in with your questions. We really appreciate them. Keep them coming.",
+    "text": "不过，真的非常感谢每一位给我们来信提问的人。我们特别感激。请继续多多来问。"
+  },
+  {
+    "start": 2537.774,
+    "end": 2540.074,
+    "speaker": "Host",
+    "text_en": "Thank you so much for listening. We will catch you next week.",
+    "text": "非常感谢大家收听。我们下周再见。"
+  }
+]

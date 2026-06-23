@@ -1,0 +1,1687 @@
+{
+  "summary": {
+    "OK": 238,
+    "FLIP": 13,
+    "UNSURE": 11
+  },
+  "suspicious": [
+    {
+      "idx": 20,
+      "current": "HOST",
+      "reason": "这句是在点名让Dave去感谢patrons，更像是Jameson抛给Dave的引子。",
+      "text": "Dave，你要不要感谢一下我们的 patrons？",
+      "prev": "对，那些八位的垃圾就可以过滤掉了。",
+      "next": "要，得隆重感谢一下那些支持到我们每周都会把他们整个 Patreon 名字、个人资料名都念出来的朋友。"
+    },
+    {
+      "idx": 21,
+      "current": "GUEST",
+      "reason": "既然上一句是在叫Dave来感谢，这里开始正式致谢并铺垫念名字，应是Dave在说。",
+      "text": "要，得隆重感谢一下那些支持到我们每周都会把他们整个 Patreon 名字、个人资料名都念出来的朋友。",
+      "prev": "Dave，你要不要感谢一下我们的 patrons？",
+      "next": "我现在还没开始念就已经笑了。其实我已经开始了，对，我读了第一个名字的前两个词。我的天啊。每周大家都会想出新花样，让我笑到不行。这就是为什么医生说这样我能长生不老，因为我一直在读这些 Patreon 名字。你也知道，人家不是总说笑声和药什么的嘛，还是一天一苹果就是最好的药，再加上笑声之类的，差不多那个意思。我——"
+    },
+    {
+      "idx": 22,
+      "current": "GUEST",
+      "reason": "延续念Patreon名字时Dave笑场的自述，和前后内容连贯，应还是Dave。",
+      "text": "我现在还没开始念就已经笑了。其实我已经开始了，对，我读了第一个名字的前两个词。我的天啊。每周大家都会想出新花样，让我笑到不行。这就是为什么医生说这样我能长生不老，因为我一直在读这些 Patreon 名字。你也知道，人家不是总说笑声和药什么的嘛，还是一天一苹果就是最好的药，再加上笑声之类的，差不多那个意思。我——",
+      "prev": "要，得隆重感谢一下那些支持到我们每周都会把他们整个 Patreon 名字、个人资料名都念出来的朋友。",
+      "next": "我觉得大概就是这么说的，好吧。"
+    },
+    {
+      "idx": 23,
+      "current": "HOST",
+      "reason": "这是对上一段笑声与俗语混乱的简短吐槽，更像Jameson插话接梗。",
+      "text": "我觉得大概就是这么说的，好吧。",
+      "prev": "我现在还没开始念就已经笑了。其实我已经开始了，对，我读了第一个名字的前两个词。我的天啊。每周大家都会想出新花样，让我笑到不行。这就是为什么医生说这样我能长生不老，因为我一直在读这些 Patreon 名字。你也知道，人家不是总说笑声和药什么的嘛，还是一天一苹果就是最好的药，再加上笑声之类的，差不多那个意思。我——",
+      "next": "吃苹果的时候别笑。这样它就会是很好的药。"
+    },
+    {
+      "idx": 24,
+      "current": "GUEST",
+      "reason": "继续把苹果和笑声的梗补成一句俏皮话，像Dave顺着Jameson的吐槽再接一句。",
+      "text": "吃苹果的时候别笑。这样它就会是很好的药。",
+      "prev": "我觉得大概就是这么说的，好吧。",
+      "next": "好，一个精力充沛的恐龙在管弦乐轻柔演奏的时候，试着用电脑和电话去理解重力。好。哦天哪，又来这种。我想要 4T2。"
+    },
+    {
+      "idx": 52,
+      "current": "HOST",
+      "reason": "前半句像对上一段笑话的困惑提问，后半句才是解释，整体更像 Jameson 先问后被 Dave 接答，当前整段标成 HOST 不顺。",
+      "text": "还挺不错的。Big Big Mac Mac？我有点没听懂。就是 big，然后中间引号里是 Big Mac，接着他的姓是 Mac。",
+      "prev": "现在该把我以前最喜欢的那个蠢名字笑话拿出来了。就是你想象有个人叫 Big Mac，他的昵称也叫 Big Mac，那他名字就会变成 Big Mac Mac Mac。然后我看到 Will Will Angel，我就在想，如果 Will Angel 的昵称也叫 Will Angel，那就会变成 Will Will Angel Angel。",
+      "next": "哦，有点像把昵称放在名和姓中间那种？"
+    },
+    {
+      "idx": 67,
+      "current": "HOST",
+      "reason": "这句说“直到你刚把它读完”说明说话人不是读信的人，应是另一位在吐槽主持人读的信。",
+      "text": "你知道吗，我选了这个问题，结果直到你刚把它读完我才意识到，这里面根本没有问题。",
+      "prev": "但我是这么看的。我们在识字教育上已经做了大量工作，所以大多数人都会读书认字了，但不是每个人都会成为作者。写代码也是一样。",
+      "next": "对，问题是：你怎么敢的？"
+    },
+    {
+      "idx": 68,
+      "current": "GUEST",
+      "reason": "这是对上一句吐槽的接梗补刀，更像主持人顺势自嘲回应。",
+      "text": "对，问题是：你怎么敢的？",
+      "prev": "你知道吗，我选了这个问题，结果直到你刚把它读完我才意识到，这里面根本没有问题。",
+      "next": "哎呀。那我猜他们想问的是，为什么我们会这么痴迷这个想法？"
+    },
+    {
+      "idx": 102,
+      "current": "GUEST",
+      "reason": "101到104明显是在一人打断式复述同一句，102更像延续 HOST 的拆句插话。",
+      "text": "一放到",
+      "prev": "你",
+      "next": "就"
+    },
+    {
+      "idx": 136,
+      "current": "GUEST",
+      "reason": "“太好了”更像另一方对 135 的包袱作出即时回应，不像同一人自接。",
+      "text": "太好了。",
+      "prev": "我不想当皇帝。我想当朋友们中的一个有钱寡头。",
+      "next": "财阀寡头。对，这正是我想做的事。而且我跟你说，我其实还挺想分享一下结果的。结果就是——我这里只是特指给我们的产品、也就是面向客户的线上生产环境产品提交代码——结果不太理想。主要还是因为代码部署这块出了问题。所以，"
+    },
+    {
+      "idx": 149,
+      "current": "HOST",
+      "reason": "这里突然提到“我的公司比 Dave 的公司小一点”，说话人应是 Jameson 而不是 Dave。",
+      "text": "我们有在生产环境里搞坏过东西吗？有。我们也上线过一些东西。我的公司比 Dave 的公司小一点。我觉得真正动手改过东西的人，范围还是相当小的。基本都是技术人员，或者和技术比较相关的人，比如客服、设计之类的。我们也上线了不少功能，很多如果不把访问权限民主化，根本不会被排上优先级，更别说做出来了。",
+      "prev": "我相信在某些场景、某些代码库里，这确实很容易，但在我们这儿不是。这样说得好像我们的代码特别烂，其实也不是。现在我都觉得我得替它辩护了。天啊，我都说了些什么？",
+      "next": "其中有些客户真的很喜欢，也确实在用，比如——"
+    },
+    {
+      "idx": 159,
+      "current": "GUEST",
+      "reason": "这里说“我们的工程师现在花在 code review 上的时间”是在延续 Dave 刚讲自己团队的情况，更像 Dave 继续说。",
+      "text": "对，而且夸张的是，我们的工程师现在花在 code review 上的时间，占整体工作时间的比例，已经比以前高太多了。所以当你现在再把这个圈子扩大到……",
+      "prev": "我们已经上线的一些东西，确实有过一些 bug，后续需要再跟进处理，但没有哪一个是彻底坏掉的。而且我想，敲木头保佑，据我目前所知，它们也没有把别的东西搞得太严重。所以总体来说，我觉得还是正面的。只是这里面的权衡在于，工程团队现在比以前要花更多时间去 review 其他人提交的这些代码贡献。",
+      "next": "让 Plutarch 的更多人去贡献代码，甚至还有些东西会把这个问题进一步放大。对，我说这是个“问题”，只是因为大多数人都不喜欢把所有时间花在审别人代码上。对。"
+    },
+    {
+      "idx": 237,
+      "current": "GUEST",
+      "reason": "这句语义上明显是在续讲 236 中同一个“他”的故事，应还是 HOST 而不是 GUEST。",
+      "text": "修这个工具，这个所谓的快捷工具。但他确实在这上面投入了很多晚上的时间和周末时间，因为他就是对这个东西特别着迷，而且他",
+      "prev": "但问题是，要集成的东西太多了，学习怎么做这件事的方法也太多，或者说做事的路径本来就五花八门。所以你想做一个通用型的工具系统——我之前试着装过最早那几个版本，结果就是装不上。你知道的，现在他还得处理我提的 bug 反馈，去",
+      "next": "也真的很感兴趣。我就觉得，挺好，这没问题。对，它确实很酷，但我觉得在这件事上，你确实得比有些人直觉上认为的更谨慎一点，因为它确实是有真实成本的。"
+    }
+  ],
+  "all": [
+    {
+      "idx": 0,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "开场白和节目介绍通常由 Dave 主导，虽然台词里串了两人的自我介绍，但整体仍像主持人开场。"
+    },
+    {
+      "idx": 1,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这是接着开场做吐槽和补包袱的回应，符合 Jameson 的插科打诨节奏。"
+    },
+    {
+      "idx": 2,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "由主持人把话题拉回 512 期里程碑并抛出感叹，衔接自然。"
+    },
+    {
+      "idx": 3,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这是对上一句感叹的顺势接梗，像 Jameson 的轻松回应。"
+    },
+    {
+      "idx": 4,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "主持人接住对方的笑点并重新表述问题，符合来回捧哏。"
+    },
+    {
+      "idx": 5,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续把比特梗扩展到 64 比特，明显是搭话式延伸。"
+    },
+    {
+      "idx": 6,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "简短承接上一句，像主持人的顺口回应。"
+    },
+    {
+      "idx": 7,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "同一人继续补充夸张笑话很常见，这里没有明显需要换人的信号。"
+    },
+    {
+      "idx": 8,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "接着上一句继续往‘问题够不够多’这个方向发挥，像另一位接话。"
+    },
+    {
+      "idx": 9,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "短促的认同插入，用来给对方继续说下去，符合主持人捧场。"
+    },
+    {
+      "idx": 10,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这是对 idx 8 的续句，被 idx 9 的附和打断后继续说，仍应是同一说话人。"
+    },
+    {
+      "idx": 11,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "主持人突然转成自嘲式笑话，作为接梗很自然。"
+    },
+    {
+      "idx": 12,
+      "current": "GUEST",
+      "verdict": "UNSURE",
+      "reason": "只有一个“好”，过短，无法仅凭文本稳定判断说话人。"
+    },
+    {
+      "idx": 13,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "延续 idx 11 的笑话自我修正，明显还是同一人在补包袱。"
+    },
+    {
+      "idx": 14,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "对‘医生还是巫师’做二次加工提问，像 Jameson 的跟进玩笑。"
+    },
+    {
+      "idx": 15,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "简短确认对方的梗，回合关系清晰。"
+    },
+    {
+      "idx": 16,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是典型主持人口播式过渡，感谢老听众并欢迎新听众。"
+    },
+    {
+      "idx": 17,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "拿主持人的欢迎词反讽成自我代入笑话，符合副主持接梗。"
+    },
+    {
+      "idx": 18,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "顺着对方的‘第九位才开始听’继续完成笑点，衔接自然。"
+    },
+    {
+      "idx": 19,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续把八位/九位的梗推到夸张结尾，像 Jameson 的收尾吐槽。"
+    },
+    {
+      "idx": 20,
+      "current": "HOST",
+      "verdict": "FLIP",
+      "reason": "这句是在点名让Dave去感谢patrons，更像是Jameson抛给Dave的引子。"
+    },
+    {
+      "idx": 21,
+      "current": "GUEST",
+      "verdict": "FLIP",
+      "reason": "既然上一句是在叫Dave来感谢，这里开始正式致谢并铺垫念名字，应是Dave在说。"
+    },
+    {
+      "idx": 22,
+      "current": "GUEST",
+      "verdict": "FLIP",
+      "reason": "延续念Patreon名字时Dave笑场的自述，和前后内容连贯，应还是Dave。"
+    },
+    {
+      "idx": 23,
+      "current": "HOST",
+      "verdict": "FLIP",
+      "reason": "这是对上一段笑声与俗语混乱的简短吐槽，更像Jameson插话接梗。"
+    },
+    {
+      "idx": 24,
+      "current": "GUEST",
+      "verdict": "FLIP",
+      "reason": "继续把苹果和笑声的梗补成一句俏皮话，像Dave顺着Jameson的吐槽再接一句。"
+    },
+    {
+      "idx": 25,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这里明显回到念Patreon名字的长串内容，通常由Dave主导。"
+    },
+    {
+      "idx": 26,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "仍是连续念名字并即时吐槽拼写，和前段同一人连贯。"
+    },
+    {
+      "idx": 27,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "继续读名字和发挥笑点，符合Dave在致谢环节的节奏。"
+    },
+    {
+      "idx": 28,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "还是围绕某个名字自我吐槽和求救，明显是同一段长串朗读。"
+    },
+    {
+      "idx": 29,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "继续读Patreon名并即兴发挥，没有换人的迹象。"
+    },
+    {
+      "idx": 30,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这是对Dave读错拼写的纠正和打断，像Jameson的插话。"
+    },
+    {
+      "idx": 31,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "被纠正后继续往下念一长串名字，符合Dave。"
+    },
+    {
+      "idx": 32,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这是Jameson听到旧梗后的回忆式评论，像典型回应。"
+    },
+    {
+      "idx": 33,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "Dave开始回答并铺垫一个被打断的笑点。"
+    },
+    {
+      "idx": 34,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "单独重复‘大’是在配合对方完成笑点，像Jameson接话。"
+    },
+    {
+      "idx": 35,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "继续前一句被接龙的梗，仍是Dave主导。"
+    },
+    {
+      "idx": 36,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "再次重复‘大’配合节奏，符合Jameson的捧哏式插入。"
+    },
+    {
+      "idx": 37,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "完成前面铺垫的‘大盐业’包袱，应还是Dave收尾。"
+    },
+    {
+      "idx": 38,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这是Jameson总结并重复笑点的典型反应。"
+    },
+    {
+      "idx": 39,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "简短的‘等等’像Dave准备继续或纠正话题，接在Jameson总结后合理。"
+    },
+    {
+      "idx": 40,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续前面的玩笑设定抛梗，更像 Jameson 的接话风格。"
+    },
+    {
+      "idx": 41,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "是在接住笑点并往下推进，符合 Dave 主导串场的节奏。"
+    },
+    {
+      "idx": 42,
+      "current": "GUEST",
+      "verdict": "UNSURE",
+      "reason": "只有一个简短“对”，单看文本无法稳判断归属。"
+    },
+    {
+      "idx": 43,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "明显是在继续长串念名字和梗，属于 Dave 常见的读名单段落。"
+    },
+    {
+      "idx": 44,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "仍是连续念赞助/用户名单的独白，没有换人迹象。"
+    },
+    {
+      "idx": 45,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "继续同一段名单与吐槽，语气和结构都像主持人单口。"
+    },
+    {
+      "idx": 46,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "还是同一波读梗名和即兴反应，衔接自然。"
+    },
+    {
+      "idx": 47,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "以主持人读完名单后的感叹收尾，非常合理。"
+    },
+    {
+      "idx": 48,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这是对主持人感叹的补刀式回应，像 Jameson 的插科打诨。"
+    },
+    {
+      "idx": 49,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "接住对方玩笑并作总结式回应，符合 Dave。"
+    },
+    {
+      "idx": 50,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "顺着友情与花钱的梗再补一句，典型搭话节奏。"
+    },
+    {
+      "idx": 51,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "开始展开一个较长的个人笑话解释，更像主持人主导发散。"
+    },
+    {
+      "idx": 52,
+      "current": "HOST",
+      "verdict": "FLIP",
+      "reason": "前半句像对上一段笑话的困惑提问，后半句才是解释，整体更像 Jameson 先问后被 Dave 接答，当前整段标成 HOST 不顺。"
+    },
+    {
+      "idx": 53,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这是对笑话结构的确认性提问，放在 Jameson 这里很自然。"
+    },
+    {
+      "idx": 54,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "明确是在回答上一句的理解问题，并举例说明。"
+    },
+    {
+      "idx": 55,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "简短确认自己听懂了，作为回应位置合理。"
+    },
+    {
+      "idx": 56,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "继续拿自己的名字做梗并自我打断，符合 Dave 的说话方式。"
+    },
+    {
+      "idx": 57,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "是在回应对方关于姓氏的顾虑，像 Jameson 的轻松接话。"
+    },
+    {
+      "idx": 58,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "对上一句作简短认同，位置和衔接都对。"
+    },
+    {
+      "idx": 59,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "补充一句‘你也是’形成收尾，符合对话节奏。"
+    },
+    {
+      "idx": 60,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这段像 Dave 接着前面玩笑往下收，语气更像主持人主导过渡。"
+    },
+    {
+      "idx": 61,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这是顺着上一句抖机灵补充笑点的回应，符合 Jameson 的插科打诨风格。"
+    },
+    {
+      "idx": 62,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "明显是主持人把闲聊切回读信环节，并开始朗读来信。"
+    },
+    {
+      "idx": 63,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "仍然是在连续读听众来信内容，和上一段衔接自然。"
+    },
+    {
+      "idx": 64,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这里从读信转入评论，像 Jameson 先接题发表观点。"
+    },
+    {
+      "idx": 65,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续上一段同一论点展开，没有换人迹象。"
+    },
+    {
+      "idx": 66,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "还是同一发言链条中的总结类比，符合连续发言。"
+    },
+    {
+      "idx": 67,
+      "current": "HOST",
+      "verdict": "FLIP",
+      "reason": "这句说“直到你刚把它读完”说明说话人不是读信的人，应是另一位在吐槽主持人读的信。"
+    },
+    {
+      "idx": 68,
+      "current": "GUEST",
+      "verdict": "FLIP",
+      "reason": "这是对上一句吐槽的接梗补刀，更像主持人顺势自嘲回应。"
+    },
+    {
+      "idx": 69,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这句像主持人重新框定听众真正想问什么，承接玩笑后回到正题。"
+    },
+    {
+      "idx": 70,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "明显是 Jameson 式夸张反讽，把飞行员类比推到荒谬处。"
+    },
+    {
+      "idx": 71,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是对上一句飞行员玩笑的认真补充，像 Dave 接着展开。"
+    },
+    {
+      "idx": 72,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "先附和再转 Patreon 玩笑，节奏上很像 Jameson。"
+    },
+    {
+      "idx": 73,
+      "current": "HOST",
+      "verdict": "UNSURE",
+      "reason": "这句过短且像打断式接话，仅凭文本难稳判是谁。"
+    },
+    {
+      "idx": 74,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这是对上一句插话的简短确认，作为 Jameson 的收尾回应合理。"
+    },
+    {
+      "idx": 75,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "前半句像替 Dave 总结笑点，后半句直接第一人称自嘲，符合主持人。"
+    },
+    {
+      "idx": 76,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "从玩笑切回问题分析并长篇展开，像 Jameson 进入正式回答。"
+    },
+    {
+      "idx": 77,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "简短的认可性插入语，适合作为 Dave 在对方长答中的捧哏。"
+    },
+    {
+      "idx": 78,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "明显是承接自己上一段观点继续展开，没有换人信号。"
+    },
+    {
+      "idx": 79,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这是对前述论证的总结句，继续由同一人说最自然。"
+    },
+    {
+      "idx": 80,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "像是 Dave 延续前文做夸张收尾的吐槽句，符合主持人接话节奏。"
+    },
+    {
+      "idx": 81,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这里开始长篇展开技术观点，更像 Jameson 接过话头系统阐述。"
+    },
+    {
+      "idx": 82,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续上一段同一论点，没有明显换人迹象。"
+    },
+    {
+      "idx": 83,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "仍在补充前述过滤器比喻，连续性很强。"
+    },
+    {
+      "idx": 84,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "以“对，对”回应并试图总结反驳，像 Dave 插入自己的框架。"
+    },
+    {
+      "idx": 85,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "像是在接 HOST 那句未完的“它是——”并替他补完观点。"
+    },
+    {
+      "idx": 86,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续扩展同一思路并把话题拉回提问者，明显还是同一说话人。"
+    },
+    {
+      "idx": 87,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "以“对，我觉得提问的人是在说”重新框定来信问题，很像主持人总结。"
+    },
+    {
+      "idx": 88,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "用自嘲例子接 HOST 的泛化判断，符合 Jameson 的插科打诨风格。"
+    },
+    {
+      "idx": 89,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续自嘲并展开荒诞比喻，笑点节奏上像 Jameson 长段发挥。"
+    },
+    {
+      "idx": 90,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是对上一段的认同和自我类比，像 Dave 接自己的写作经验。"
+    },
+    {
+      "idx": 91,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "短促抛梗式总结句，像另一位顺手接住并升华笑点。"
+    },
+    {
+      "idx": 92,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "重新回到主论点做立场陈述，符合主持人收束讨论的角色。"
+    },
+    {
+      "idx": 93,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "先认同再岔开到飞行员类比，是 Jameson 常见的展开方式。"
+    },
+    {
+      "idx": 94,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "明显承接上一段继续讲飞行员/软件比例，没有换人信号。"
+    },
+    {
+      "idx": 95,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "只是简短附和，放在 HOST 身上合理。"
+    },
+    {
+      "idx": 96,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "接着 94 的句法继续说完比例论证，显然还是同一人。"
+    },
+    {
+      "idx": 97,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "像主持人试图插话转向新问题的半截起手。"
+    },
+    {
+      "idx": 98,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接压过 97 继续把自己的类比讲完，符合对话打断节奏。"
+    },
+    {
+      "idx": 99,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是基于飞行员类比提出追问并加电影梗，像 Dave 的接球方式。"
+    },
+    {
+      "idx": 100,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这段是延展类比和个人经历的长篇发挥，风格上很像 Jameson。"
+    },
+    {
+      "idx": 101,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这里像是 Dave 插入式重复对方措辞来接梗，和后面拆句衔接自然。"
+    },
+    {
+      "idx": 102,
+      "current": "GUEST",
+      "verdict": "FLIP",
+      "reason": "101到104明显是在一人打断式复述同一句，102更像延续 HOST 的拆句插话。"
+    },
+    {
+      "idx": 103,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "继续承接 101 的拆句补充，作为 HOST 的插科打诨合理。"
+    },
+    {
+      "idx": 104,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "从这里开始回到完整论述，明显是原先长篇发言者继续展开。"
+    },
+    {
+      "idx": 105,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续上一段关于自动驾驶与人工控制的分析，没有换人迹象。"
+    },
+    {
+      "idx": 106,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续把飞行类比转回提问者观点，逻辑连贯且仍是同一人长答。"
+    },
+    {
+      "idx": 107,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这段仍在同一条思路上扩展到桥梁类比，像是同一说话人不停展开。"
+    },
+    {
+      "idx": 108,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这里像 Dave 接过桥梁话题补一个实际成本角度的笑点。"
+    },
+    {
+      "idx": 109,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "短促补充‘买混凝土’很像另一人接梗，作为 GUEST 合理。"
+    },
+    {
+      "idx": 110,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "承接 108 的句式继续列成本项，仍像 HOST 在主导这个小段子。"
+    },
+    {
+      "idx": 111,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续补充‘还有人工’是典型捧哏式插入，符合 GUEST。"
+    },
+    {
+      "idx": 112,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "用总结句收束刚才的玩笑并转回观点，像 HOST 的主持推进。"
+    },
+    {
+      "idx": 113,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这里重新拉回抽象总结，语气像 Jameson 做概括。"
+    },
+    {
+      "idx": 114,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续同一论点，强调‘民主化软件’的隐含前提，明显未换人。"
+    },
+    {
+      "idx": 115,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "从观点自然过渡到 3D 打印例子，仍是同一人长篇举例。"
+    },
+    {
+      "idx": 116,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续 3D 打印例子，没有任何问答切换信号。"
+    },
+    {
+      "idx": 117,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续把例子讲完整并落到日常选择，连贯性很强。"
+    },
+    {
+      "idx": 118,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这是对前面例子的总结收束，仍像同一位发言者结束观点。"
+    },
+    {
+      "idx": 119,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这里明显是主持人切入新的实际建议段落，像 Dave 读者来信式总结。"
+    },
+    {
+      "idx": 120,
+      "current": "GUEST",
+      "verdict": "UNSURE",
+      "reason": "只是简短附和“嗯，嗯”，单看文本无法可靠判断说话人。"
+    },
+    {
+      "idx": 121,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这段是对来信处境的长篇总结和展开，符合 Dave 主导分析的节奏。"
+    },
+    {
+      "idx": 122,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "延续上一段继续铺陈问题并把话题推向更高层次，衔接自然。"
+    },
+    {
+      "idx": 123,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "开头接住前句“我只是想……”补全为“把 app 做出来”，很像 Jamison 的插话式回应。"
+    },
+    {
+      "idx": 124,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "点名“Jamison”并把讨论拉回两人自身经验，明显是 Dave 在主持推进。"
+    },
+    {
+      "idx": 125,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "简短应和上一句被点名的内容，作为 Jamison 的回应合理。"
+    },
+    {
+      "idx": 126,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是上一句被停顿打断后的续接词，仍应属于同一位正在展开观点的人。"
+    },
+    {
+      "idx": 127,
+      "current": "GUEST",
+      "verdict": "UNSURE",
+      "reason": "只有一个“嗯”，既可能是附和也可能是转接，信息不足。"
+    },
+    {
+      "idx": 128,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "承接 124/126 把句子说完整，仍是同一条主持人论述线。"
+    },
+    {
+      "idx": 129,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这里转为第一人称讲自己公司实践，像 Jamison 接过话头举自身例子。"
+    },
+    {
+      "idx": 130,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是对上一段“扩大圈子”的打趣总结，符合 Dave 抛梗的节奏。"
+    },
+    {
+      "idx": 131,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "简短认同笑点，像 Jamison 接梗。"
+    },
+    {
+      "idx": 132,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "继续把“寡头制”笑话往下延展，明显是同一人加码包袱。"
+    },
+    {
+      "idx": 133,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "再次短促附和，符合被调侃后顺势接笑点的反应。"
+    },
+    {
+      "idx": 134,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "延续上一句的玩笑并以反问收尾，仍是同一说话人。"
+    },
+    {
+      "idx": 135,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "用第一人称继续“皇帝/寡头”梗，像 Jamison 的自嘲式补充。"
+    },
+    {
+      "idx": 136,
+      "current": "GUEST",
+      "verdict": "FLIP",
+      "reason": "“太好了”更像另一方对 135 的包袱作出即时回应，不像同一人自接。"
+    },
+    {
+      "idx": 137,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "从玩笑切回正题并开始分享实际结果，符合 Dave 主导转场。"
+    },
+    {
+      "idx": 138,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "继续举具体案例说明问题，明显是同一叙述者在展开。"
+    },
+    {
+      "idx": 139,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "承接 138 讲案例后果，叙事连续且没有换人迹象。"
+    },
+    {
+      "idx": 140,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "短促惊叹句更像 Jameson 在对 Dave 的铺垫做反应。"
+    },
+    {
+      "idx": 141,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "延续前文长篇叙述和解释语气，明显像 Dave 主导讲背景。"
+    },
+    {
+      "idx": 142,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这是对前段观点的个人态度回应，符合 Jameson 接话评论的节奏。"
+    },
+    {
+      "idx": 143,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续展开上一句的个人经历和总结，没有换人迹象。"
+    },
+    {
+      "idx": 144,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这句带调侃和打断感，像 Dave 插科打诨接住 Jameson 的抱怨。"
+    },
+    {
+      "idx": 145,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "明显是在接着反驳上一句玩笑话，短打断很合理。"
+    },
+    {
+      "idx": 146,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "先补完上一句再抛出追问，符合 Dave 主持式推进话题。"
+    },
+    {
+      "idx": 147,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回答上一段问题，内容也延续自己公司的案例。"
+    },
+    {
+      "idx": 148,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "仍在补充和自我吐槽，和前段连成一体。"
+    },
+    {
+      "idx": 149,
+      "current": "HOST",
+      "verdict": "FLIP",
+      "reason": "这里突然提到“我的公司比 Dave 的公司小一点”，说话人应是 Jameson 而不是 Dave。"
+    },
+    {
+      "idx": 150,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "承接上一段继续举自己公司的例子，若 149 翻转后这里由 Dave 接话举例也合理。"
+    },
+    {
+      "idx": 151,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "简短捧哏式回应，像 Jameson 对 Dave 举例的反馈。"
+    },
+    {
+      "idx": 152,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "继续总结权衡取舍，仍是 Dave 在解释自己团队做法。"
+    },
+    {
+      "idx": 153,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这是对前文的归纳确认和追问，符合 Jameson 的回应角色。"
+    },
+    {
+      "idx": 154,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "直接回答上一句关于流程的问题，主持人语气明显。"
+    },
+    {
+      "idx": 155,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续复述理解并总结，像 Jameson 在帮忙抽象观点。"
+    },
+    {
+      "idx": 156,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "详细分类说明不同提交情形，明显是回答者在展开。"
+    },
+    {
+      "idx": 157,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "顺着上一段补充一般性观察，符合 Jameson 的评论节奏。"
+    },
+    {
+      "idx": 158,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "回到自己团队的实际结果与代价，像 Dave 做总结。"
+    },
+    {
+      "idx": 159,
+      "current": "GUEST",
+      "verdict": "FLIP",
+      "reason": "这里说“我们的工程师现在花在 code review 上的时间”是在延续 Dave 刚讲自己团队的情况，更像 Dave 继续说。"
+    },
+    {
+      "idx": 160,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续前文展开观点并自我补充，像 Jameson 的长段分析。"
+    },
+    {
+      "idx": 161,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "带总结和自嘲式回收问题的口吻，很像 Dave 在串场。"
+    },
+    {
+      "idx": 162,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续抽象化成光谱和维度的分析，承接自然。"
+    },
+    {
+      "idx": 163,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "像是 HOST 把 GUEST 的抽象观点压缩成一句更清晰的总结。"
+    },
+    {
+      "idx": 164,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "明确说‘我最后分享一个想法’，是典型接过话头继续展开。"
+    },
+    {
+      "idx": 165,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "与上一段同一思路连续铺陈，没有换人迹象。"
+    },
+    {
+      "idx": 166,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "仍在讲同一个例子，长句未完，明显是同一说话人继续。"
+    },
+    {
+      "idx": 167,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "短促附和并替对方补一句，符合 HOST 的插话节奏。"
+    },
+    {
+      "idx": 168,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "顺着 HOST 的附和继续推进自己的核心观点。"
+    },
+    {
+      "idx": 169,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "接梗做三分法总结并加笑点，像 Dave 的发挥。"
+    },
+    {
+      "idx": 170,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "回到个人经历和情绪判断，延续前面 AI 文档的话题。"
+    },
+    {
+      "idx": 171,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "一句提炼式吐槽，像 HOST 在帮忙概括荒谬之处。"
+    },
+    {
+      "idx": 172,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回应上一句并继续阐明态度，衔接顺畅。"
+    },
+    {
+      "idx": 173,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "同一论点的延长收束，明显还是同一人。"
+    },
+    {
+      "idx": 174,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "把前述观点重新框成‘把门/筛选’，是 HOST 常见总结方式。"
+    },
+    {
+      "idx": 175,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "主动引入一个相关故事，像 GUEST 开新例子前的铺垫。"
+    },
+    {
+      "idx": 176,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "故事背景说明连续展开，没有切换说话人的信号。"
+    },
+    {
+      "idx": 177,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续交代人物和场景，仍是同一叙事段落。"
+    },
+    {
+      "idx": 178,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "故事推进到关键动作，明显还是 GUEST 在讲述。"
+    },
+    {
+      "idx": 179,
+      "current": "HOST",
+      "verdict": "UNSURE",
+      "reason": "只有一个‘嗯’，作为短回应无法仅凭文本稳定判断说话人。"
+    },
+    {
+      "idx": 180,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续长篇个人吐槽叙事，语气和内容都像 Jameson 在展开观点。"
+    },
+    {
+      "idx": 181,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续上一段的同一论证链条，没有说话人切换迹象。"
+    },
+    {
+      "idx": 182,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "仍是连续列举和强化论点的长句，符合同一人持续输出。"
+    },
+    {
+      "idx": 183,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "以总结式收束吐槽并引出更泛化观点，和前文衔接自然。"
+    },
+    {
+      "idx": 184,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是对长篇发言的简短接话和提炼，像 Dave 插入总结。"
+    },
+    {
+      "idx": 185,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "先认同再为自己的 rant 道歉，明显是前面长篇吐槽者本人在收尾。"
+    },
+    {
+      "idx": 186,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "回应对方故事并评价其好笑，像主持人接住笑点。"
+    },
+    {
+      "idx": 187,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续解释刚才故事背后的普遍误解，仍是同一位吐槽者在展开。"
+    },
+    {
+      "idx": 188,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "短促插话‘这就像’是在帮对方搭比喻，符合主持人接梗节奏。"
+    },
+    {
+      "idx": 189,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这句像是顺着对方起头接出的夸张反话，作为另一人补梗合理。"
+    },
+    {
+      "idx": 190,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "完整展开雕像比喻，承接 188 的起头，明显是同一插话者继续说。"
+    },
+    {
+      "idx": 191,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这是对比喻的夸张反击式补充，像另一位接着抖包袱。"
+    },
+    {
+      "idx": 192,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "简短‘你看’像是在继续自己的比喻铺垫，接 194 很顺。"
+    },
+    {
+      "idx": 193,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "单独一个‘值吗’像是插入式捧哏，虽短但和前后笑点配合合理。"
+    },
+    {
+      "idx": 194,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "继续完成手机里有 David 的比喻句子，和 192 连成一体。"
+    },
+    {
+      "idx": 195,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "顺着比喻做总结性笑点‘商品化/民主化’，很像 Jameson 的收束。"
+    },
+    {
+      "idx": 196,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "主持人负责控时并转场到下一个问题，这非常符合 Dave 的角色。"
+    },
+    {
+      "idx": 197,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "被点名读下一个问题后开始念来信，衔接自然。"
+    },
+    {
+      "idx": 198,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续同一封来信内容，没有切换迹象。"
+    },
+    {
+      "idx": 199,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "像主持人打断并模仿 team lead 口吻复述吐槽，作为即时评论很合理。"
+    },
+    {
+      "idx": 200,
+      "current": "GUEST",
+      "verdict": "UNSURE",
+      "reason": "只有“我的”一个词，脱离上下文无法判断是谁在接话。"
+    },
+    {
+      "idx": 201,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "像是 Dave 读信时夹带评论和推进节奏的说法，衔接自然。"
+    },
+    {
+      "idx": 202,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "继续第一人称展开来信内容，明显还是同一封信的延续。"
+    },
+    {
+      "idx": 203,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "仍在完整叙述提问者处境，符合 HOST 持续读信。"
+    },
+    {
+      "idx": 204,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "以总结式提问收束信件，也很像 HOST 读完后准备转入讨论。"
+    },
+    {
+      "idx": 205,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这里开始用个人经历回应问题，像 Jameson 接过来讲自己的故事。"
+    },
+    {
+      "idx": 206,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续同一 anecdote，没有说话人切换迹象。"
+    },
+    {
+      "idx": 207,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "是上一句被切开的残句，仍应属于同一说话人。"
+    },
+    {
+      "idx": 208,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "简短“嗯”作为倾听反馈，符合另一位主持人插入。"
+    },
+    {
+      "idx": 209,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "接着 207 的残句继续说，明显回到讲故事的人。"
+    },
+    {
+      "idx": 210,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "再次是短促附和声，作为 HOST 的 backchannel 很合理。"
+    },
+    {
+      "idx": 211,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续完整展开观点，和前面的个人经历一脉相承。"
+    },
+    {
+      "idx": 212,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "仍在总结自己态度转变，连续性很强。"
+    },
+    {
+      "idx": 213,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "对前述故事做结论，像 Jameson 的总结句。"
+    },
+    {
+      "idx": 214,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "简短概括式回应，像 Dave 接一句确认理解。"
+    },
+    {
+      "idx": 215,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "顺着 HOST 的概括继续补充解释，切换合理。"
+    },
+    {
+      "idx": 216,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是典型 Dave 式的跑题小笑话和术语澄清。"
+    },
+    {
+      "idx": 217,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "把话题从玩笑拉回原意，像 Jameson 接着完成论点。"
+    },
+    {
+      "idx": 218,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这里转入新的风险分析，像 HOST 接棒提出另一面。"
+    },
+    {
+      "idx": 219,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "先认同再补充张力点，符合 GUEST 对 HOST 观点的延展。"
+    },
+    {
+      "idx": 220,
+      "current": "HOST",
+      "verdict": "UNSURE",
+      "reason": "只有一个简短的“嗯”，单独看无法判断是谁在接话。"
+    },
+    {
+      "idx": 221,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "像是在顺着前文表达个人态度，符合 Jameson 常见的轻快回应节奏。"
+    },
+    {
+      "idx": 222,
+      "current": "HOST",
+      "verdict": "UNSURE",
+      "reason": "也是极短附和语，缺少足够上下文来确认说话人。"
+    },
+    {
+      "idx": 223,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这段是在展开个人观点和感受，承接前面的喜欢，作为 Jameson 的延伸评论很自然。"
+    },
+    {
+      "idx": 224,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "以“而且我跟你说”切入并开始系统化补充论点，很像 Dave 接过话头做分析。"
+    },
+    {
+      "idx": 225,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "明显是对上一段同一论点的继续列举，保持 HOST 合理。"
+    },
+    {
+      "idx": 226,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这是典型的插话补充清单项，像 Jameson 在 Dave 列举时加一句。"
+    },
+    {
+      "idx": 227,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "对插话进行确认并把节奏接回主述者，符合 HOST。"
+    },
+    {
+      "idx": 228,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续沿着 226 的补充举失败场景例子，作为 GUEST 的接续很顺。"
+    },
+    {
+      "idx": 229,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "先接住对方例子再总结为“额外浪费的精力”，像 Dave 做归纳。"
+    },
+    {
+      "idx": 230,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这里明显转入 Jameson 的管理视角判断，开启新一层观点。"
+    },
+    {
+      "idx": 231,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "是上一段同一思路的延续，并自然过渡到个人团队案例，保持 GUEST 合理。"
+    },
+    {
+      "idx": 232,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是对对方案例的即时插入式总结评论，符合 Dave 常见的接话方式。"
+    },
+    {
+      "idx": 233,
+      "current": "GUEST",
+      "verdict": "UNSURE",
+      "reason": "只有“嗯”，更像附和但无法仅凭文本确定。"
+    },
+    {
+      "idx": 234,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "承接自己刚才的插话继续展开“他这边也是”，像 Dave 把例子接过去。"
+    },
+    {
+      "idx": 235,
+      "current": "GUEST",
+      "verdict": "UNSURE",
+      "reason": "同样只是简短附和，信息不足。"
+    },
+    {
+      "idx": 236,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "整段是在详细讲述自己试装工具和反馈 bug 的经历，明显是 HOST 在主讲。"
+    },
+    {
+      "idx": 237,
+      "current": "GUEST",
+      "verdict": "FLIP",
+      "reason": "这句语义上明显是在续讲 236 中同一个“他”的故事，应还是 HOST 而不是 GUEST。"
+    },
+    {
+      "idx": 238,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "从具体故事回到价值判断和总结口吻，像 Jameson 接过来做抽象归纳。"
+    },
+    {
+      "idx": 239,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "以“我也没有更好的答案”收束并引入自己经历，符合 Dave 的总结推进角色。"
+    },
+    {
+      "idx": 240,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这段明显还在延续来信内容的长篇铺陈，通常由 Dave 主导朗读和总结。"
+    },
+    {
+      "idx": 241,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "继续同一思路展开具体设想，和前段连贯，像是同一人把问题背景讲完。"
+    },
+    {
+      "idx": 242,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这是对前面设想的接球补充，还带点调侃式建议，符合 Jameson 的回应风格。"
+    },
+    {
+      "idx": 243,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这段像 Dave 顺着 Jameson 的玩笑继续夸张展开，承接自然。"
+    },
+    {
+      "idx": 244,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "一句短促吐槽作为 punchline，节奏上很像 Jameson 插一句收笑点。"
+    },
+    {
+      "idx": 245,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "从玩笑切回个人经验长篇回答，明显是主持人重新掌控主线。"
+    },
+    {
+      "idx": 246,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "继续上一段的个人实践和对提问者问题的正式回答，连贯且像 Dave。"
+    },
+    {
+      "idx": 247,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "仍是同一回答的收束句，没有说话人切换迹象。"
+    },
+    {
+      "idx": 248,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这是对 Dave 方案的明确赞同和补充，典型搭档回应。"
+    },
+    {
+      "idx": 249,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "直接回应‘我喜欢这个’，并点评对方解决了自己的模糊答案，像 Dave。"
+    },
+    {
+      "idx": 250,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "简短确认句放在这里很自然，像 Jameson 的轻回应。"
+    },
+    {
+      "idx": 251,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "主持人重新展开‘最后再说一点’，明显是 Dave 继续加码总结。"
+    },
+    {
+      "idx": 252,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "长段具体设想延续上一句未完的话头，显然还是同一人。"
+    },
+    {
+      "idx": 253,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是上一段中途断开的续句，不存在切换说话人的感觉。"
+    },
+    {
+      "idx": 254,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "继续完成第二点并举个人经历例子，仍是同一长段论述。"
+    },
+    {
+      "idx": 255,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "承接 Git hooks 例子继续解释采纳策略，明显没换人。"
+    },
+    {
+      "idx": 256,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这是对前述观点的抽象总结，像 Jameson 常做的提炼式回应。"
+    },
+    {
+      "idx": 257,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "主持人收尾、转场到节目 CTA，典型 Dave 的结束语气。"
+    },
+    {
+      "idx": 258,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "回答‘可以怎么做呢’这种固定搭档配合很自然，也带了 Jameson 式玩笑。"
+    },
+    {
+      "idx": 259,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "最后一个简短附和作为收尾完全合理，像 Dave 接住结束。"
+    },
+    {
+      "idx": 260,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这类在结尾补充感谢来信者的话很像 Jameson 的收束式回应，接到最终告别前也很自然。"
+    },
+    {
+      "idx": 261,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "正式的节目结束语通常由 Dave 来说，作为最后一句收尾非常合理。"
+    }
+  ]
+}

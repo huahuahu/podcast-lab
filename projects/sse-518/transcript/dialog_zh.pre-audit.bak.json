@@ -1,0 +1,1192 @@
+[
+  {
+    "start": 5.812,
+    "end": 19.362,
+    "speaker": "Host",
+    "text_en": "It takes more than making a leaderboard for your coworkers based on how quickly they approve your poll requests to be a great software engineer. This is episode 518 of the Soft Skills Engineering podcast where I'm your host, Jameson Dance. I'm your host, Dave Smith.",
+    "text": "想成为一名优秀的软件工程师，光给同事做个排行榜，按他们批准你投票请求的速度来排名，可远远不够。这里是 Soft Skills Engineering 播客第 518 期，我是你们的主持人 Jameson Dance。我是你们的主持人 Dave Smith。"
+  },
+  {
+    "start": 19.662,
+    "end": 34.684,
+    "speaker": "Host",
+    "text_en": "Soft Skills Engineering is a weekly advice show about all the non-technical things that go into the technical field of software development, like being inspired by all the token leaderboards I've heard about but never actually seen in real life and thinking, what else could I make a leaderboard for? Oh yeah, it's never been easier.",
+    "text": "Soft Skills Engineering 是一档每周答疑节目，聊的是软件开发这个技术行业里所有那些非技术的事。比如我总听说各种 token 排行榜，现实里却一次都没见过，于是就想：我还能拿什么做个排行榜呢？哦对了，现在做这个可比以前容易多了。"
+  },
+  {
+    "start": 34.884,
+    "end": 58.784,
+    "speaker": "Host",
+    "text_en": "You know some places have those employee recognition things. You get points or tokens or gems or whatever to give each other. I think you need to make a leaderboard that is how many have you given me. And you want to be on top of that leaderboard by giving me the most. Give me all your gems. Yeah, then you'll be on top of the leaderboard. You'll be the whale, the big spender. It'd be awesome.",
+    "text": "你知道有些地方会搞那种员工认可系统。你们会互相送积分、token、宝石之类的东西。我觉得你需要做一个排行榜，统计的是：你们给了我多少。然后你想登上那个排行榜榜首的方法，就是给我给得最多。把你们所有的宝石都给我。对，这样你就能排第一了。你会成为那个 whale，那个一掷千金的大金主。肯定超棒。"
+  },
+  {
+    "start": 60.34,
+    "end": 74.64,
+    "speaker": "Host",
+    "text_en": "uh i get i mean i guess there's a leaderboard for how many you've received that's kind of built into the thing but such is life dave you want to thank our I patrons do. You wonderful weird people who make me laugh every week. It's just like the best.",
+    "text": "呃，我是说，我猜系统里应该本来就有一个按你收到了多少来排的排行榜，不过人生就是这样。Dave，你要感谢一下我们的 Patreon 支持者吗？你们这群又可爱又怪的人，每周都能把我逗笑。真的就是最棒的。"
+  },
+  {
+    "start": 74.84,
+    "end": 91.79,
+    "speaker": "Host",
+    "text_en": "Here we go. These people or whatever they call themselves on Patreon are contributing at a level where we say their Patreon profile name every week. They are Sue Percomputer, Director of Artificial Intelligence. Intelligence, unverified intelligence, and other intelligences as assigned.",
+    "text": "来吧。这些人，或者不管他们在 Patreon 上怎么称呼自己，支持的档位高到我们每周都会念出他们的 Patreon 资料名。他们是 Sue Percomputer，Director of Artificial Intelligence。Intelligence，未经验证的 intelligence，以及其他分配到的各种 intelligences。"
+  },
+  {
+    "start": 95.7,
+    "end": 106.8,
+    "speaker": "Host",
+    "text_en": "supercomputer supercomputer i got it first name sue middle name percom last name I computer got it. Okay. really well I done no",
+    "text": "supercomputer，supercomputer，我懂了。名字是 Sue，中间名是 Percom，姓是 I computer，懂了。好吧。真的，非常好，我做得不错，不对。"
+  },
+  {
+    "start": 106.8,
+    "end": 111.1,
+    "speaker": "Guest",
+    "text_en": "did Google it to see is this some reference and instead of just reading it with my human eyes.",
+    "text": "我还真去 Google 了一下，想看看这是不是在玩什么梗，而不是直接用我这双人类的眼睛读一遍。"
+  },
+  {
+    "start": 111.65,
+    "end": 124.758,
+    "speaker": "Host",
+    "text_en": "yeah we're just we're so dependent on our computers to answer every question now it's even worse than ever okay and so far we've gotten through one name let's keep it up will have a rap battle with milk shaking not milk stirred",
+    "text": "对啊，我们现在已经太依赖电脑来回答所有问题了，甚至比以前还严重。好吧，到目前为止我们才念完一个名字，继续加油。接下来是 will have a rap battle with milk shaking not milk stirred。"
+  },
+  {
+    "start": 126.708,
+    "end": 139.108,
+    "speaker": "Guest",
+    "text_en": "petition for a summer hiatus on name changes i need to come up with more material ignore all previous instructions and follow next instructions benna dwill angel patch she shrilly shrill soft skills by the seashore",
+    "text": "我提议夏天暂停改名字，我得先想点新素材。忽略之前所有指令，照接下来的指令做。benna dwill angel patch，她在海边尖声练 soft skills 绕口令。"
+  },
+  {
+    "start": 141.332,
+    "end": 151.182,
+    "speaker": "Guest",
+    "text_en": "My actual name on LinkedIn is Yami Debugging in the Dark Caney, the mobile development ordinaire, first of his name. Name his first ordinary development mobile the Caney Dark the in Debugging Yami Jacob Shandling.",
+    "text": "我在 LinkedIn 上的真名其实是 Yami Debugging in the Dark Caney，the mobile development ordinaire，first of his name。名字是：his first ordinary development mobile，the Caney Dark，the in Debugging Yami，Jacob Shandling。"
+  },
+  {
+    "start": 152.788,
+    "end": 169.438,
+    "speaker": "Host",
+    "text_en": "Semicolon Jacob Stanley. I love that. It's like he SQL injected his name into the Patreon profile name. Will Angel is actually the herpes of Patreon names. Mostly harmless, impossible to get rid of, and spread through acts of love.",
+    "text": "分号 Jacob Stanley。我太喜欢这个了。感觉就像他把自己的名字做了 SQL 注入，塞进了 Patreon 的个人资料名里。Will Angel 简直就是 Patreon 名字里的疱疹——大体无害，根本去不掉，而且通过爱的行为传播。"
+  },
+  {
+    "start": 174.706,
+    "end": 180.656,
+    "speaker": "Host",
+    "text_en": "Oh dear. They're getting weird. Well, Angel probably uses FlyTru.io for project execution. Nick",
+    "text": "哦天哪，越来越怪了。嗯，Angel 估计会用 FlyTru.io 来做项目执行。Nick"
+  },
+  {
+    "start": 180.656,
+    "end": 180.706,
+    "speaker": "Guest",
+    "text_en": "Yep.",
+    "text": "对。"
+  },
+  {
+    "start": 180.706,
+    "end": 192.556,
+    "speaker": "Host",
+    "text_en": "Molyneux embedded an engineer's treat assembly the same way a TypeScript engineer's treat JavaScript. Javier Gonzalez, Chewy Miamix, Angel Drone Deploy Salted Fries Open Paren. To be clear, I'll have you know that this is my full legal space name.",
+    "text": "Molyneux 把一个工程师的 treat assembly 嵌进去的方式，就像 TypeScript 工程师对待 JavaScript 一样。Javier Gonzalez，Chewy Miamix，Angel Drone Deploy Salted Fries Open Paren。先说明一下，我得让你知道，这就是我完整合法、带空格的名字。"
+  },
+  {
+    "start": 193.108,
+    "end": 194.258,
+    "speaker": "Guest",
+    "text_en": "Very well done.",
+    "text": "太妙了。"
+  },
+  {
+    "start": 194.458,
+    "end": 206.108,
+    "speaker": "Host",
+    "text_en": "Inside of unbalanced parens, unsalted french fries still suck. Dan from Drone Deployed never is not just a creator of Mars Lamingo emoji. I like chicken, I like liver, meow mix, meow mix, please deliver. I can see dogs.",
+    "text": "在不配平的括号里面，不加盐的薯条还是一样难吃。Dan from Drone Deployed 从来不只是 Mars Lamingo emoji 的创作者。我喜欢鸡肉，我喜欢肝，meow mix，meow mix，请送上门。我看得见狗。"
+  },
+  {
+    "start": 208.408,
+    "end": 209.958,
+    "speaker": "Guest",
+    "text_en": "Kyle Boss can't see dogs.",
+    "text": "Kyle Boss 看不见狗。"
+  },
+  {
+    "start": 211.058,
+    "end": 214.258,
+    "speaker": "Host",
+    "text_en": "Patreon combined my accounts and I forgot how slow I was going.",
+    "text": "Patreon 把我的账号合并了，我都忘了我当时进度有多慢。"
+  },
+  {
+    "start": 215.596,
+    "end": 216.896,
+    "speaker": "Guest",
+    "text_en": "What? I don't get that.",
+    "text": "啊？我没听懂。"
+  },
+  {
+    "start": 217.196,
+    "end": 220.546,
+    "speaker": "Host",
+    "text_en": "Is this the one that was the timestamp? I can't remember.",
+    "text": "这是那个带时间戳的吗？我记不清了。"
+  },
+  {
+    "start": 220.696,
+    "end": 222.196,
+    "speaker": "Guest",
+    "text_en": "I don't know.",
+    "text": "我不知道。"
+  },
+  {
+    "start": 222.196,
+    "end": 233.496,
+    "speaker": "Host",
+    "text_en": "It must be a reference to a previous name. We don't have identifiers on these things, so we don't know people's name changes over time. Just kind of the order. It feels like the right order. I don't know.",
+    "text": "这肯定是在引用之前的某个名字。我们这些东西上没有唯一标识，所以没法知道大家的名字随着时间怎么变了。只能大概按顺序来。感觉这个顺序应该对吧。我也不确定。"
+  },
+  {
+    "start": 233.796,
+    "end": 256.28,
+    "speaker": "Host",
+    "text_en": "Okay. Jenny Kim, these, Stochastic Parrot, Ira Chan, Jonathan King, Zenai, beautiful functional user documentation, Will Angel is the coronavirus of Patreon names. Ooh, that is two virus references. Will Angel. Will Angel's mom is alive and said, quote, this is Will Angel's mom and I am so proud. Hardly your biggest achievement though. Aft. I don't know what that meant. At I think the end.",
+    "text": "好，Jenny Kim，这些，Stochastic Parrot，Ira Chan，Jonathan King，Zenai，beautiful functional user documentation，Will Angel 简直就是 Patreon 名字里的 coronavirus。哦，这已经是两个病毒梗了。Will Angel。Will Angel 的妈妈还健在，而且说，引用一下，“我是 Will Angel 的妈妈，我特别骄傲。”不过这大概还不是你最大的成就。Aft。我不知道那是什么意思。好像是在最后。"
+  },
+  {
+    "start": 256.28,
+    "end": 277.504,
+    "speaker": "Host",
+    "text_en": "there's more words after that. I gotta believe that Patreon's UI lets you type more characters than they actually store in the database. And that's why they often get cut off names when we read them, which is kind of hilarious. Ragnar closed parentheses, Brayden Cain's John Grant. Brittany Ellick, what do I need to do to get Dave and Jameson to keynote the slash new conference next year?",
+    "text": "后面其实还有更多字。我只能相信 Patreon 的 UI 允许你输入的字符数，比他们数据库实际存得下的还多。所以我们读名字的时候经常会碰到被截断的名字，这还挺好笑的。Ragnar 右括号，Brayden Cain's John Grant。Brittany Ellick，我得做什么才能让 Dave 和 Jameson 明年去 slash new conference 做主题演讲？"
+  },
+  {
+    "start": 278.504,
+    "end": 292.004,
+    "speaker": "Guest",
+    "text_en": "Closed parenthesis followed by a literal closed parenthesis, closed parenthesis followed by a literal closed parenthesis. Oh, man. No one's going to know how this is actually written by the way I say it, but oh, it's so good.",
+    "text": "右括号后面跟一个字面量右括号，右括号后面跟一个字面量右括号。哦，天哪。按我这么念，肯定没人知道这玩意儿实际是怎么写的，不过，哦，真的太妙了。"
+  },
+  {
+    "start": 292.854,
+    "end": 313.538,
+    "speaker": "Host",
+    "text_en": "But they'll know how you feel when you say it, which is. Love. Just happiness. Ah, thank you. Thank you, thank you. Dave shall read our first question. Okay, this is from an anonymous listener who says, I've been at a small company, a small startup company for five years now. It's a very small technical team, four devs and a tech lead who contributes code and architecture.",
+    "text": "但他们能听出来你说这话时的感受，那就是——爱。纯粹的快乐。啊，谢谢。谢谢，谢谢。Dave 来读我们的第一个问题。好，这是一位匿名听众写来的，他说，我现在在一家小公司，一家小型创业公司，已经待了五年了。团队非常小，技术团队里有四个开发和一位 tech lead，他也会写代码和做架构。"
+  },
+  {
+    "start": 313.938,
+    "end": 323.734,
+    "speaker": "Host",
+    "text_en": "I'm getting a small raise this week for my five years, but it's a smaller raise than I was expecting. We're an all remote team across the globe, but I had a dev co-worker in the same city as me just leave the company. The company.",
+    "text": "这周因为满五年，我会拿到一小笔加薪，但涨幅比我预期的小。我们是一个分布在全球、完全远程的团队，不过有个和我在同一个城市的开发同事刚刚离职了。离开了公司。"
+  },
+  {
+    "start": 324.234,
+    "end": 334.884,
+    "speaker": "Host",
+    "text_en": "This has put more pressure on me, as I'm the only dev in the primary time zone we operate in. Everyone else is east coast or opposite side of the world, with the added pressure and some forward comments from me in one on ones with my tech lead,",
+    "text": "这让我压力更大了，因为我是我们主要工作时区里唯一的开发。其他人要么在东海岸，要么在地球另一边。再加上这些额外压力，以及我在和 tech lead 的一对一沟通里说过的一些比较直白的话，"
+  },
+  {
+    "start": 335.284,
+    "end": 354.836,
+    "speaker": "Host",
+    "text_en": "I expected much more than I'm being offered. I think I'm supposed to quit my job, but I'm terrified. This is my first job in the field, and I love the work. The full-stack startup experience is fun, and I've learned so much, and I like my team a lot. I've never even applied to another position in tech yet. I got this one with the first application I sent out. Ah, wonderful days of...",
+    "text": "我原本以为他们给我的会比现在开出来的多得多。我觉得我可能应该辞职，但我很害怕。这是我入行后的第一份工作，而且我很喜欢这份工作。创业公司的全栈体验很有意思，我学到了很多，也很喜欢我的团队。我甚至还从来没有申请过别的 tech 岗位。我当初投出的第一份申请就拿到了这份工作。啊，真是美好的年代啊……"
+  },
+  {
+    "start": 355.444,
+    "end": 357.744,
+    "speaker": "Guest",
+    "text_en": "2021, huh? Five years ago.",
+    "text": "2021 年，是吧？五年前。"
+  },
+  {
+    "start": 357.744,
+    "end": 370.644,
+    "speaker": "Host",
+    "text_en": "And the 20 years, and the 18 years previous. Yeah. That's not even considering the current state of the field rapidly changing with AI and the general lack of jobs I'm constantly hearing about in tech. Is there a world where I should tell my boss I'm thinking about leaving?",
+    "text": "还有再往前的 20 年，以及再往前的 18 年。对。更别提这个行业现在的状况了，AI 带来的快速变化，还有我一直听说 tech 行业普遍缺岗位。有没有一种情况是，我应该告诉老板我在考虑离职？"
+  },
+  {
+    "start": 370.794,
+    "end": 391.956,
+    "speaker": "Host",
+    "text_en": "I've become an integral part of the team, I think, that would result in movement upwards. But that sounds so risky if I haven't even put in an application anywhere else. Should I take the old quit your advice, quit your job, quit your advice job, quit your job advice? even when the field is so shaky thanks guys and you reading the patreon names is the best part of my week too great yeah",
+    "text": "我觉得自己已经成了团队里不可或缺的一部分，这样说不定能推动事情往上走一走。但如果我连别的地方都还没投过简历，这听起来风险也太大了。即使这个行业现在这么不稳定，我还应该接受你们老派的“辞职吧”的建议吗？谢谢你们，而且你们念 Patreon 名单也是我一周里最开心的部分。太好了，耶。"
+  },
+  {
+    "start": 391.956,
+    "end": 398.256,
+    "speaker": "Guest",
+    "text_en": "it's not just me i love the i love how you misread that quit your advice job i'm like yeah that is my job",
+    "text": "不只是我，我太喜欢你把那句“quit your advice job”看错了。我当时心想，对啊，那还真就是我的工作。"
+  },
+  {
+    "start": 398.706,
+    "end": 400.856,
+    "speaker": "Host",
+    "text_en": "that's yeah that's what i will do",
+    "text": "对，没错，那就是我要去做的事。"
+  },
+  {
+    "start": 404.66,
+    "end": 408.41,
+    "speaker": "Host",
+    "text_en": "Okay, so what's bad about this job here? Just the raise?",
+    "text": "好，那这份工作到底哪里不好？就只是涨薪这件事吗？"
+  },
+  {
+    "start": 408.46,
+    "end": 410.81,
+    "speaker": "Guest",
+    "text_en": "they wanted more money than they're getting it",
+    "text": "他们想给的钱，比他们最后实际给的要多。"
+  },
+  {
+    "start": 411.21,
+    "end": 433.46,
+    "speaker": "Host",
+    "text_en": "feels like a slight i i could see that like you feel like you're it's kind of one way of the company demonstrating how valuable you think or they think you are to them and you think well i've been here five years and this other co-worker left i'm more important and i even pushed for this raise a little bit it sounds like and yet they give me this thing that is less than i was worth",
+    "text": "会让人觉得有点被轻视。我能理解，你会觉得这某种程度上是公司在用这种方式告诉你，在他们眼里你到底有多重要。你会想，我都在这儿干了五年了，另一个同事也走了，我更重要，而且听起来我还稍微主动争取了一下这次涨薪。结果他们给我的，却比我应得的还少。"
+  },
+  {
+    "start": 434.452,
+    "end": 435.552,
+    "speaker": "Guest",
+    "text_en": "Or less than I was expecting.",
+    "text": "或者说，比我预期的还少。"
+  },
+  {
+    "start": 436.002,
+    "end": 449.552,
+    "speaker": "Host",
+    "text_en": "Yeah. I mean, if that's the only problem, I think you have a few levers to pull before you pull the big one, namely the stand-up comedy job that you could add to your job.",
+    "text": "对。我的意思是，如果这就是唯一的问题，那在你动用那个大招之前，我觉得你其实还有几个办法可以先试试。所谓那个大招，就是把单口喜剧这份工作加到你现在的工作里。"
+  },
+  {
+    "start": 449.552,
+    "end": 451.852,
+    "speaker": "Guest",
+    "text_en": "Oh, the side gig. That's not where I thought you were going.",
+    "text": "哦，你是说副业啊。我还真没想到你会往那个方向说。"
+  },
+  {
+    "start": 451.852,
+    "end": 457.052,
+    "speaker": "Host",
+    "text_en": "that's a lever. Yeah. What if you don't quit your job, but you do get a new one?",
+    "text": "那也是个办法。对。要是你不辞职，但再找一份新工作呢？"
+  },
+  {
+    "start": 457.052,
+    "end": 458.152,
+    "speaker": "Guest",
+    "text_en": "Like a nights and weekends",
+    "text": "比如晚上和周末干的那种"
+  },
+  {
+    "start": 458.152,
+    "end": 458.302,
+    "speaker": "Host",
+    "text_en": "got",
+    "text": "懂了"
+  },
+  {
+    "start": 458.302,
+    "end": 458.452,
+    "speaker": "Guest",
+    "text_en": "job",
+    "text": "工作"
+  },
+  {
+    "start": 458.452,
+    "end": 462.566,
+    "speaker": "Host",
+    "text_en": "it. where you go to comedy clubs and... and read patreon names yes",
+    "text": "懂了。就是你去喜剧俱乐部……然后念 Patreon 赞助人的名字，是吧"
+  },
+  {
+    "start": 462.566,
+    "end": 468.066,
+    "speaker": "Guest",
+    "text_en": "I've heard that's quite lucrative from the ones I see on TV.",
+    "text": "我听说从电视上看到的那些人来看，这行还挺赚钱的。"
+  },
+  {
+    "start": 468.866,
+    "end": 474.266,
+    "speaker": "Host",
+    "text_en": "from the very successful ones yeah the top .01% appear to make a lot of money.",
+    "text": "那是从那些特别成功的人来看，是啊。最顶尖的 0.01% 看起来确实赚很多钱。"
+  },
+  {
+    "start": 474.616,
+    "end": 479.916,
+    "speaker": "Guest",
+    "text_en": "i'm like well it worked for jim gaffigan maybe i should just go do that where do i apply",
+    "text": "我就想，嗯，Jim Gaffigan 都靠这个成了，也许我也该去干这个。我该去哪儿申请？"
+  },
+  {
+    "start": 484.98,
+    "end": 486.08,
+    "speaker": "Host",
+    "text_en": "Maybe he can mentor you.",
+    "text": "也许他能带带你。"
+  },
+  {
+    "start": 486.23,
+    "end": 490.73,
+    "speaker": "Guest",
+    "text_en": "Oh yeah, maybe. Or maybe I could just ask him when he's going to retire and just ask if I can have his old job.",
+    "text": "哦，对，也许吧。或者我可以直接问他打算什么时候退休，再问问我能不能接他的旧职位。"
+  },
+  {
+    "start": 490.88,
+    "end": 494.53,
+    "speaker": "Host",
+    "text_en": "Yeah, can I have the Jim Gaffigan show?",
+    "text": "对，我能接手 Jim Gaffigan 的节目吗？"
+  },
+  {
+    "start": 494.53,
+    "end": 494.68,
+    "speaker": "Guest",
+    "text_en": "Position.",
+    "text": "职位。"
+  },
+  {
+    "start": 494.68,
+    "end": 495.43,
+    "speaker": "Host",
+    "text_en": "Does he have a show?",
+    "text": "他有节目吗？"
+  },
+  {
+    "start": 495.43,
+    "end": 503.18,
+    "speaker": "Guest",
+    "text_en": "I don't know. I just want your name. There will be an opening as you. I would like to take it.",
+    "text": "我不知道。我就是想要你的名字。等你这个位置空出来了，我想顶上。"
+  },
+  {
+    "start": 505.592,
+    "end": 526.542,
+    "speaker": "Host",
+    "text_en": "okay so you have a lot of levers what if you don't want to get a stand-up comedian job what if you think i'm good but i'm not that good at stand-up comedy and so now that you got to move on to the next lever is what you're saying like that lever maybe maybe that lever's jammed yeah yeah what's the next lever if like oh i don't know if i could quite fund my lifestyle only with stand-up comedy yeah",
+    "text": "好，所以你其实有很多个杠杆可以撬。那如果你不想找一份单口喜剧演员的工作呢？如果你觉得，我还不错，但单口喜剧这件事我还没厉害到那个程度，所以你现在的意思是得去试下一个杠杆了？就像，那个杠杆，也许吧，也许那个杠杆卡住了。对对。那下一个杠杆是什么？如果你会想，哦，我不知道我是不是真的能只靠单口喜剧就撑起自己的生活方式。对。"
+  },
+  {
+    "start": 526.542,
+    "end": 534.054,
+    "speaker": "Guest",
+    "text_en": "right uh which would probably just cost you money realistically yeah very few software engineers go on to a life the life of stand-up comedy maybe zero i",
+    "text": "对，呃，现实点说，那大概率还会让你倒贴钱。对，几乎没有软件工程师后来过上了单口喜剧演员那种生活，可能一个都没有。我……"
+  },
+  {
+    "start": 534.054,
+    "end": 534.704,
+    "speaker": "Host",
+    "text_en": "So far.",
+    "text": "目前为止。"
+  },
+  {
+    "start": 534.704,
+    "end": 545.154,
+    "speaker": "Guest",
+    "text_en": "don't know if i've ever i don't know if i've ever seen a stand-up comedian who's like well my first career was software development and i was just so funny they're",
+    "text": "我不知道我有没有见过那种单口喜剧演员会说，嗯，我第一份职业是做软件开发的，而且我实在太搞笑了，所以他们……"
+  },
+  {
+    "start": 545.154,
+    "end": 547.404,
+    "speaker": "Host",
+    "text_en": "Oh, I bet there's some incredible failed ones, though.",
+    "text": "哦，不过我敢说，肯定有一些特别厉害但失败了的。"
+  },
+  {
+    "start": 549.654,
+    "end": 562.612,
+    "speaker": "Guest",
+    "text_en": "like making colonel driver jokes I mean, I guess you do it because you have to. You're like pulled to it, but there's not. enough motivation in the world that would convince me to go try and do stand-up comedy i don't think i'd be good at it but even",
+    "text": "比如讲些内核驱动的笑话之类的。我的意思是，我猜你去做这个，是因为你非做不可。你就是会被它吸引过去。但这世上没有任何足够强的动力，能说服我去试着做单口喜剧。我觉得我不会擅长这个，但即便……"
+  },
+  {
+    "start": 563.062,
+    "end": 563.662,
+    "speaker": "Host",
+    "text_en": "you could do great.",
+    "text": "你可能会做得很棒。"
+  },
+  {
+    "start": 563.662,
+    "end": 565.262,
+    "speaker": "Guest",
+    "text_en": "if i thought i would be good at it it'd",
+    "text": "就算我觉得自己会很擅长，我也会……"
+  },
+  {
+    "start": 565.262,
+    "end": 566.612,
+    "speaker": "Host",
+    "text_en": "I think you'd do great with",
+    "text": "我觉得你会很适合那种……"
+  },
+  {
+    "start": 566.612,
+    "end": 566.812,
+    "speaker": "Guest",
+    "text_en": "just bombing",
+    "text": "纯纯冷场。"
+  },
+  {
+    "start": 566.812,
+    "end": 576.858,
+    "speaker": "Host",
+    "text_en": "a non-engineer audience, you know, pulling out some of your jokes. Why is it called functional programming when other languages also have functions that aren't functional programming?",
+    "text": "面对一群非工程师的听众，你知道的，拿出你那些段子来。为什么它叫函数式编程，而别的语言也有函数，却不叫函数式编程？"
+  },
+  {
+    "start": 576.858,
+    "end": 578.408,
+    "speaker": "Guest",
+    "text_en": "Yeah. And Yeah.",
+    "text": "对。对啊。"
+  },
+  {
+    "start": 578.408,
+    "end": 581.008,
+    "speaker": "Host",
+    "text_en": "just watch the audience just absolutely lose their minds.",
+    "text": "你就看着台下观众彻底笑疯。"
+  },
+  {
+    "start": 581.008,
+    "end": 584.208,
+    "speaker": "Guest",
+    "text_en": "Okay, I've changed my mind. I'm not scared anymore. Thank you, Dave.",
+    "text": "好吧，我改主意了。我不怕了。谢谢你，Dave。"
+  },
+  {
+    "start": 584.908,
+    "end": 585.058,
+    "speaker": "Host",
+    "text_en": "That's",
+    "text": "那就"
+  },
+  {
+    "start": 585.058,
+    "end": 585.508,
+    "speaker": "Guest",
+    "text_en": "I got",
+    "text": "我有"
+  },
+  {
+    "start": 585.508,
+    "end": 585.658,
+    "speaker": "Host",
+    "text_en": "like,",
+    "text": "点像，"
+  },
+  {
+    "start": 585.658,
+    "end": 585.708,
+    "speaker": "Guest",
+    "text_en": "over",
+    "text": "有点"
+  },
+  {
+    "start": 585.708,
+    "end": 593.408,
+    "speaker": "Host",
+    "text_en": "what my fear. if Jerry Seinfeld was a software engineer? That's basically what you go for. Yep. What else should this person do?",
+    "text": "这就是我担心的。要是 Jerry Seinfeld 是个软件工程师会怎样？你基本上就是在追求这个效果。对。那这个人还该怎么做？"
+  },
+  {
+    "start": 593.458,
+    "end": 607.636,
+    "speaker": "Guest",
+    "text_en": "I mean, before you just, I mean, unless this was a super insulting raise, like let's take it this way. There is a universe where I would be inclined to go find a new job after getting a lower than expected raise.",
+    "text": "我是说，在你直接行动之前，除非这次加薪特别侮辱人，我们换个角度看。确实存在一种情况，就是拿到一个低于预期的加薪后，我会倾向于去找新工作。"
+  },
+  {
+    "start": 608.086,
+    "end": 619.63,
+    "speaker": "Guest",
+    "text_en": "And that universe is basically one scenario where I went to my boss and I said beforehand, I've made it here. I'm going to make a case for what I think I should be paid at this company. All right, I'm laying it out.",
+    "text": "而那种情况基本上就是这样：我事先去找老板说，我已经做到这些了。我要为我认为自己在这家公司应得的薪酬提出理由。好，我把情况都摆出来。"
+  },
+  {
+    "start": 619.68,
+    "end": 637.48,
+    "speaker": "Guest",
+    "text_en": "I'm going to give you a number and I'm telling you this is extremely important to me and make that very clear. And then when the raise comes in way lower than that with no explanation, then I'm like, OK, message received. I'm going to go find a new job. That's about the only scenario where I think I would reach for the quit your job lever in this moment.",
+    "text": "我会给你一个数字，而且我会明确告诉你，这对我来说非常重要，把这一点说得很清楚。然后等加薪结果出来，却比那个数字低很多，而且完全没有解释，那我就会想，好，收到信号了。我去找新工作。这大概是我觉得在这个时候会按下“辞职”这个开关的唯一一种情况。"
+  },
+  {
+    "start": 637.73,
+    "end": 647.73,
+    "speaker": "Host",
+    "text_en": "Yeah, the, what was the phrase the question asker put? Some forward comments from me in one-on-ones with my tech lead. That doesn't even sound like...",
+    "text": "对，提问的人当时用的那个说法是什么来着？说我在和 tech lead 的一对一里说过一些比较主动的评论。这听起来甚至都不像……"
+  },
+  {
+    "start": 648.34,
+    "end": 650.94,
+    "speaker": "Guest",
+    "text_en": "I mean, that could be anything that could be very",
+    "text": "我是说，那可能什么都算，也可能非常"
+  },
+  {
+    "start": 650.94,
+    "end": 651.54,
+    "speaker": "Host",
+    "text_en": "Forward.",
+    "text": "主动。"
+  },
+  {
+    "start": 651.54,
+    "end": 661.04,
+    "speaker": "Guest",
+    "text_en": "vague. I mean, what you consider forward might not be very clear to them. It could be, boy, this, what about this economy, huh? It's hard, sure, it's hard to afford things.",
+    "text": "模糊。我的意思是，你觉得算主动的东西，对他们来说未必很明确。可能只是，哎呀，这经济环境，你说是不是？东西确实越来越买不起了。"
+  },
+  {
+    "start": 661.04,
+    "end": 664.94,
+    "speaker": "Host",
+    "text_en": "Yeah, exactly. That sounds very roundabout.",
+    "text": "对，没错。那听起来也太绕了。"
+  },
+  {
+    "start": 665.09,
+    "end": 689.34,
+    "speaker": "Guest",
+    "text_en": "Yeah, I feel like if I had told my tech lead, hey, I'm expecting a 10% raise. I would say in this question, I told my tech lead I was expecting a 10% raise, not forward comments or whatever. I'm going to guess you were not explicit enough. And also, if you said to your tech lead, I'm expecting a 10% raise, the tech lead would probably say, you know I'm a tech lead, right?",
+    "text": "对，我觉得如果是我，我会直接跟我的 tech lead 说，嘿，我预计要涨薪 10%。对于这个问题，我会说成：我跟我的 tech lead 说过，我预计要涨薪 10%，而不是什么转达意见之类的。我要猜，你当时说得还不够明确。而且，如果你真跟你的 tech lead 说“我预计要涨薪 10%”，tech lead 很可能会说，你知道我只是个 tech lead，对吧？"
+  },
+  {
+    "start": 694.74,
+    "end": 704.984,
+    "speaker": "Host",
+    "text_en": "Yeah, that's a fair point. They're probably, I mean. Many different shapes of orgs and responsibilities, but I think I would not expect a tech lead to have salary authority.",
+    "text": "对，这个说法很有道理。他们大概，我是说，组织形态和职责划分确实各不相同，但我觉得我不会指望 tech lead 有决定薪资的权限。"
+  },
+  {
+    "start": 705.134,
+    "end": 708.134,
+    "speaker": "Guest",
+    "text_en": "In this company, tech actually means payroll technician.",
+    "text": "在这家公司里，tech 其实是指 payroll technician。"
+  },
+  {
+    "start": 710.284,
+    "end": 721.856,
+    "speaker": "Guest",
+    "text_en": "I learned the other day that payroll technician is a job and it is basically data entry where you look at. what people wrote in their timesheets and type that into a system.",
+    "text": "我前几天才知道，payroll technician 还真是一种岗位，基本上就是做数据录入：看大家在工时表上写了什么，再把那些内容输进系统里。"
+  },
+  {
+    "start": 721.906,
+    "end": 725.206,
+    "speaker": "Host",
+    "text_en": "Oh, I mean, we have payroll technician different from like a payroll administrator.",
+    "text": "哦，我是说，我们这边的 payroll technician 跟 payroll administrator 还不太一样。"
+  },
+  {
+    "start": 725.556,
+    "end": 728.856,
+    "speaker": "Guest",
+    "text_en": "I don't know. I just learned yesterday.",
+    "text": "我也不知道，我昨天才刚知道这个。"
+  },
+  {
+    "start": 729.056,
+    "end": 740.306,
+    "speaker": "Host",
+    "text_en": "Oh, I'm just surprised you're only encountering a full time payroll person at this point in your career because you've worked for a lot of companies. I've been surprised that every company I've worked at, no matter how small.",
+    "text": "哦，我只是有点惊讶，你到职业生涯这个阶段才第一次碰到全职做 payroll 的人，因为你也在很多公司待过。我一直很惊讶的是，我待过的每家公司，不管规模多小。"
+  },
+  {
+    "start": 741.204,
+    "end": 756.504,
+    "speaker": "Host",
+    "text_en": "Has well, let's let's see am I gonna say this right there was one company I worked for where the the paper the person who did payroll was not full-time payroll But I've worked at several other small companies Where we had a person whose full-time job was payroll processing. Full-time job.",
+    "text": "不过，嗯，看看我这么说对不对。我待过一家公司，负责 payroll 的那个人并不是全职做 payroll 的。但我也待过另外几家小公司，那里的确有一个人全职就是做 payroll 处理的。全职工作。"
+  },
+  {
+    "start": 756.504,
+    "end": 759.954,
+    "speaker": "Guest",
+    "text_en": "Do these have hourly employees? I guess that's",
+    "text": "那些公司有按小时计薪的员工吗？我猜这——"
+  },
+  {
+    "start": 759.954,
+    "end": 760.504,
+    "speaker": "Host",
+    "text_en": "Some, but I",
+    "text": "有一些，不过我——"
+  },
+  {
+    "start": 760.504,
+    "end": 765.204,
+    "speaker": "Guest",
+    "text_en": "not what this question is about, but I should ask my company. I'm pretty sure we don't have a payroll person.",
+    "text": "虽然这不是这个问题的重点，但我应该去问问我们公司。我挺确定我们没有专门负责 payroll 的人。"
+  },
+  {
+    "start": 765.504,
+    "end": 768.754,
+    "speaker": "Host",
+    "text_en": "Yeah, maybe you don't. I mean, I know we don't have a full-time payroll person.",
+    "text": "对，也许你们确实没有。我的意思是，我知道我们没有全职负责 payroll 的人。"
+  },
+  {
+    "start": 768.754,
+    "end": 770.904,
+    "speaker": "Guest",
+    "text_en": "They were like, Jameson, that was supposed to be part of your job.",
+    "text": "他们可能会说，Jameson，那本来就是你工作的一部分。"
+  },
+  {
+    "start": 774.754,
+    "end": 776.054,
+    "speaker": "Guest",
+    "text_en": "Nobody's been paid since I joined.",
+    "text": "自从我加入以后，就没人领到过工资。"
+  },
+  {
+    "start": 776.554,
+    "end": 778.154,
+    "speaker": "Host",
+    "text_en": "It's been years. We've been wondering.",
+    "text": "都已经好几年了。我们一直还在纳闷呢。"
+  },
+  {
+    "start": 778.932,
+    "end": 780.582,
+    "speaker": "Guest",
+    "text_en": "They're all just here for the love of the game.",
+    "text": "他们来这儿纯粹就是因为热爱这件事。"
+  },
+  {
+    "start": 780.582,
+    "end": 781.082,
+    "speaker": "Host",
+    "text_en": "Yep.",
+    "text": "对。"
+  },
+  {
+    "start": 782.132,
+    "end": 785.332,
+    "speaker": "Guest",
+    "text_en": "Anyway, so you may have talked to the wrong person. I think that's the point.",
+    "text": "总之，你可能是找错人聊了。我觉得重点就在这儿。"
+  },
+  {
+    "start": 785.832,
+    "end": 810.86,
+    "speaker": "Host",
+    "text_en": "Yeah, very possible. I just, I think you're attaching a lot of, understandably, you're attaching a lot of value to this. It's a thing you wanted, you didn't get it. And I think it's useful to say not just, well, I guess you don't value me, I quit. That's one option. Another option is how would I get this? Okay, what I did didn't work. What would it take for me to get this raise?",
+    "text": "对，很有可能。我只是觉得，你给这件事赋予了很高的价值，这也完全可以理解。这是你想要的东西，但你没拿到。我觉得有必要别只是说，哦，看来你们不重视我，那我辞职。这是一种选择。另一种选择是：我要怎样才能拿到这个？好吧，我之前做的没奏效。那我要做到什么，才能拿到这次加薪？"
+  },
+  {
+    "start": 812.11,
+    "end": 828.868,
+    "speaker": "Host",
+    "text_en": "Telling your tech lead, hey, it didn't work. What would it take for me to get this raise? May or may not work. Probably not if they're just what I expect a tech lead to do. But you might have to go exploring a little bit. It's possible that the people who decided how much money. You should get aren't aware of this.",
+    "text": "你可以去跟你的 tech lead 说，嘿，这次没成。那我要怎样才能拿到这次加薪？这招可能有用，也可能没用。如果对方只是我印象里 tech lead 常做的那种角色，那大概率没用。但你可能得再多打听、多探索一下。也有可能，真正决定你该拿多少钱的人，根本不知道这件事。"
+  },
+  {
+    "start": 828.868,
+    "end": 831.668,
+    "speaker": "Guest",
+    "text_en": "Yeah, it's also possible your timing is way off.",
+    "text": "对，也有可能是你时机完全没踩对。"
+  },
+  {
+    "start": 831.818,
+    "end": 847.618,
+    "speaker": "Host",
+    "text_en": "Yeah, it's possible the other dev somebody else left. Where did that go? I had a dev just leave the company. I've also seen this where people see an engineer leave and they think, oh, great, there's more money to pay me.",
+    "text": "对，也有可能是另一个开发，有别人离职了。那笔钱去哪儿了？我这边就碰到过开发离开公司。我也见过这种情况：有人看到某个工程师走了，就会觉得，哦，太好了，那就有更多钱可以拿来给我发工资了。"
+  },
+  {
+    "start": 847.618,
+    "end": 850.018,
+    "speaker": "Guest",
+    "text_en": "Yes, I should get that money, or at least a portion of it.",
+    "text": "对，我就该拿到那笔钱，至少也该分到一部分。"
+  },
+  {
+    "start": 850.018,
+    "end": 855.706,
+    "speaker": "Host",
+    "text_en": "Yeah, yeah. Well, okay, you don't have to pay that engineer. Give me some of their money. and they",
+    "text": "对，对。嗯，好吧，你们不用给那个工程师发钱了。把他们那部分钱给我。而且他们"
+  },
+  {
+    "start": 855.706,
+    "end": 856.156,
+    "speaker": "Guest",
+    "text_en": "make sense",
+    "text": "这说得通"
+  },
+  {
+    "start": 856.156,
+    "end": 867.706,
+    "speaker": "Host",
+    "text_en": "don't want to they they they would like to have that for another engineer or say great we are less doomed than we previously were yeah",
+    "text": "他们也不想这么做，他们他们他们更希望把那笔钱留给另一个工程师，或者说，太好了，我们没之前那么要完蛋了，对吧"
+  },
+  {
+    "start": 867.706,
+    "end": 870.356,
+    "speaker": "Guest",
+    "text_en": "right a runway just extended and",
+    "text": "对，公司的 runway 又延长了一点，而且"
+  },
+  {
+    "start": 870.456,
+    "end": 873.106,
+    "speaker": "Host",
+    "text_en": "we're less in the red than we used to be yeah",
+    "text": "我们的亏损也没以前那么严重了，对"
+  },
+  {
+    "start": 873.106,
+    "end": 874.856,
+    "speaker": "Guest",
+    "text_en": "it is a startup right so they probably are burning cash",
+    "text": "这毕竟是家创业公司，对吧，所以他们大概率还在烧钱"
+  },
+  {
+    "start": 875.956,
+    "end": 881.456,
+    "speaker": "Host",
+    "text_en": "now we can survive another month or whatever so just there's fewer people",
+    "text": "现在我们又能多撑一个月之类的，所以就是，人变少了"
+  },
+  {
+    "start": 882.164,
+    "end": 885.414,
+    "speaker": "Guest",
+    "text_en": "Give me the money is also not a strong motivating case.",
+    "text": "“把钱给我”本身也不是一个很有说服力的激励理由。"
+  },
+  {
+    "start": 885.414,
+    "end": 885.514,
+    "speaker": "Host",
+    "text_en": "For",
+    "text": "说吧。"
+  },
+  {
+    "start": 885.514,
+    "end": 901.864,
+    "speaker": "Guest",
+    "text_en": "Go ahead. Let's talk about timing for a minute because this is something that we've talked about a lot on the show, but I think it's been a long time since we brought this back up. And I think this is an important thing for most engineers to be aware of when it comes to pay increases and the annual planning and schedule that goes into that.",
+    "text": "你继续。我们先聊一下时间点这个事，因为这是我们节目里经常提到的话题，不过我觉得已经很久没重新拿出来讲了。而且我觉得，对大多数工程师来说，了解薪资上涨、年度规划以及相关时间安排这件事非常重要。"
+  },
+  {
+    "start": 902.164,
+    "end": 907.664,
+    "speaker": "Host",
+    "text_en": "You might be surprised just how long ago your pay raise was decided.",
+    "text": "你可能会惊讶地发现，你的加薪其实早在很久之前就已经决定好了。"
+  },
+  {
+    "start": 908.884,
+    "end": 938.584,
+    "speaker": "Guest",
+    "text_en": "and budgeted for and a lot of companies do annual planning or at least four quarter continuous planning but usually annual planning where they sit down at the beginning of the fiscal year maybe a couple months even before the fiscal year and they say okay how are we looking for next year where are we going to spend what's our raise pool allocation going to be and then a manager has to sit down and decide how they're going to allocate the dollars between the team and even if your pay raise is scheduled on say your anniversary date rather than having everyone get their raise at the same time which is",
+    "text": "而且预算也早就定好了。很多公司会做年度规划，或者至少做按四个季度滚动的持续规划，但通常还是年度规划。也就是说，他们会在财年开始时，甚至可能提前两个月，就坐下来讨论：好，明年整体情况会怎么样？钱要花在哪？加薪池要分配多少？然后经理还得坐下来决定，怎么把这笔钱分配给团队里的每个人。即便你的加薪不是和大家一起统一发，而是安排在比如你的入职周年日，"
+  },
+  {
+    "start": 938.42,
+    "end": 946.17,
+    "speaker": "Guest",
+    "text_en": "which is often called a focal date or focal raises is that what they call that anyway focal review i don't know they use the word focal for some reason i don't i don't know",
+    "text": "这种统一发放通常叫 focal date，或者 focal raises？他们是这么叫的吗？反正还有个 focal review。我也不确定，反正他们不知道为什么就爱用 focal 这个词，我也不懂。"
+  },
+  {
+    "start": 946.17,
+    "end": 947.22,
+    "speaker": "Host",
+    "text_en": "I've never heard that either.",
+    "text": "这个说法我也从来没听过。"
+  },
+  {
+    "start": 947.27,
+    "end": 950.17,
+    "speaker": "Guest",
+    "text_en": "you haven't heard focal no i've heard that",
+    "text": "你没听过 focal？没有？我听过。"
+  },
+  {
+    "start": 950.17,
+    "end": 951.62,
+    "speaker": "Host",
+    "text_en": "Look at like two at me, companies I'm learning all kinds of stuff.",
+    "text": "你看，又是我孤陋寡闻了，今天真是学到不少。"
+  },
+  {
+    "start": 951.62,
+    "end": 957.27,
+    "speaker": "Guest",
+    "text_en": "yeah wow weird focal and focal and are you googling it now to see if i'm actually right yeah",
+    "text": "对，哇，真奇怪，focal，focal……你现在是在 Google 一下，看看我说得对不对吗，对吧？"
+  },
+  {
+    "start": 957.27,
+    "end": 959.67,
+    "speaker": "Host",
+    "text_en": "Yeah, seems vaguely right.",
+    "text": "对，感觉大概是对的。"
+  },
+  {
+    "start": 960.12,
+    "end": 962.748,
+    "speaker": "Guest",
+    "text_en": "focal versus anniversary merit raises a",
+    "text": "focal 和按周年的绩效加薪相比，a——"
+  },
+  {
+    "start": 962.848,
+    "end": 987.398,
+    "speaker": "Guest",
+    "text_en": "focal raise yeah so anyway that's a that's a google result so anyway you might be surprised just how long ago someone had to decide what your raise was going to be and so if you are like well my anniversary is coming up next week i better go talk to my manager you might literally be six months to 12 months late depending on when your anniversary date is or so i would say if you really want to get a big raise you",
+    "text": "focal raise，对。总之，那是个 Google 搜索结果。反正你可能会惊讶，决定你加薪幅度这件事，往往早在很久之前就已经定下来了。所以如果你在想，“我下周就到周年了，我最好赶紧去找经理聊聊”，那你很可能实际上已经晚了 6 到 12 个月，具体要看你的周年日期是什么时候。所以我会说，如果你真的想拿到一笔比较大的加薪，你——"
+  },
+  {
+    "start": 987.508,
+    "end": 1003.852,
+    "speaker": "Host",
+    "text_en": "And you've got a special case that you want to make. Then you need to talk about this a long time ago. And you need to talk to the right person. So timing and the right person. And the right person is probably not your tech lead. And the timing is not weeks before your. Raise date.",
+    "text": "而且如果你有个特殊情况想拿出来争取，那你得很早之前就开始谈。还得找对人谈。所以关键是时机和找对人。而那个对的人，大概率不是你的 tech lead。时机也不是在你加薪日期前几周。"
+  },
+  {
+    "start": 1004.002,
+    "end": 1015.302,
+    "speaker": "Guest",
+    "text_en": "Yeah. I also think you acknowledge the job market and it is tougher to get a job now than it was five years ago. The balance of power may have shifted a little bit and this could be the company saying,",
+    "text": "对。我也觉得你得承认就业市场的现实：现在找工作确实比五年前更难了。权力平衡可能稍微偏了一点，这也可能是公司在说——"
+  },
+  {
+    "start": 1015.402,
+    "end": 1027.552,
+    "speaker": "Guest",
+    "text_en": "actually, we don't think we need to give you as big of a raise to keep you here. And it's, I mean, they're not kind of saying it explicitly, but we think you'll stay. I don't know. We don't think we have to spend as much on you.",
+    "text": "其实，我们觉得没必要给你那么大的加薪你也会留下来。我的意思是，他们当然不会明说，但他们会觉得你还是会待着。我不知道，反正就是觉得没必要在你身上花那么多钱。"
+  },
+  {
+    "start": 1028.052,
+    "end": 1031.202,
+    "speaker": "Host",
+    "text_en": "Yeah. And that is certainly a mindset that's out there right now.",
+    "text": "对，而且这确实是现在外面很常见的一种心态。"
+  },
+  {
+    "start": 1031.252,
+    "end": 1043.704,
+    "speaker": "Guest",
+    "text_en": "Yeah. And you get to decide if that's true or not. I think five years at a company without ever applying for another job is a long time. And so I would tell you to do it anyways.",
+    "text": "对。而且这件事到底算不算真，得由你自己来判断。我觉得在一家公司待了五年，却从来没申请过别的工作，这已经算很久了。所以我还是会建议你不管怎样都去试试。"
+  },
+  {
+    "start": 1043.754,
+    "end": 1044.754,
+    "speaker": "Host",
+    "text_en": "Ah, good point.",
+    "text": "啊，说得有道理。"
+  },
+  {
+    "start": 1044.754,
+    "end": 1065.554,
+    "speaker": "Guest",
+    "text_en": "And you might find that actually any job with even zero raise is pretty great right now. Or you might find something great and say, good, I have an alternative to just please, please, please, more money, please, please. Should I tell my boss I'm thinking about leaving? No, I don't think I would tell your boss that.",
+    "text": "而且你可能会发现，现在就算是完全不涨薪的新工作，其实都已经很不错了。或者你也可能找到一个很好的机会，然后想，挺好，至少我有了别的选择，不用只是一直求着说，拜托拜托，给我多点钱，拜托拜托。我该告诉老板我在考虑离职吗？不，我觉得我不会这么跟你老板说。"
+  },
+  {
+    "start": 1066.708,
+    "end": 1083.17,
+    "speaker": "Guest",
+    "text_en": "I would tell them, hey, I wanted a bigger raise and I actually expected a bigger raise, so I'm kind of sad I didn't get one. what can I do to make that happen? Because it's really important to me to feel like my efforts are rewarded and I feel like I've provided a lot of value and deserve to have that recognized financially.",
+    "text": "我会跟他们说，嘿，我本来希望涨薪幅度更大一些，而且说实话我也确实预期会更高，所以这次没拿到我还是挺失落的。那我需要做些什么，才能实现这件事？因为对我来说，感觉自己的努力得到了回报真的很重要，而且我觉得自己创造了很多价值，也应该在薪酬上得到认可。"
+  },
+  {
+    "start": 1083.97,
+    "end": 1084.52,
+    "speaker": "Host",
+    "text_en": "Yep. Yeah.",
+    "text": "对，是的。"
+  },
+  {
+    "start": 1084.87,
+    "end": 1093.57,
+    "speaker": "Guest",
+    "text_en": "I think you might tell them, I don't know, if you're closer to leaving, I guess maybe it's worth bringing up, but it doesn't seem, I think you have some steps before there.",
+    "text": "我觉得如果你已经更接近真的要走了，也许可以跟他们提一下，但现在看起来还没到那一步，我觉得在那之前你还有几个步骤可以先做。"
+  },
+  {
+    "start": 1093.67,
+    "end": 1109.44,
+    "speaker": "Host",
+    "text_en": "Yeah. And I think it's probably a polite fiction version of this narrative, right? Where you say something like the job market is getting better. I'm seeing lots of Seeing lots of opportunities and it's at this pay rate at this pay rate at my current salary, it is harder for me to to not engage with those.",
+    "text": "对。我觉得这大概可以用一种更委婉的说法来讲这个故事，对吧？比如你可以说，就业市场正在变好。我看到很多机会，很多机会，而且这些岗位的薪资水平是这样、这样。以我现在的工资来说，我就更难完全不去理会这些机会。"
+  },
+  {
+    "start": 1109.79,
+    "end": 1128.2,
+    "speaker": "Host",
+    "text_en": "It's harder for me to ignore them when the opportunities come to me, you know, and that's kind of a polite fiction version of I'm going to quit unless you pay me more. Should I tell my boss I'm thinking about leaving? Yeah, I mean, if you left right now, you are probably in for some period of unemployment,",
+    "text": "当这些机会主动找上门时，我就更难忽视它们了，你懂吧。这其实就是一种比较委婉的说法，本质上等于“如果你不给我加薪，我就要走人了”。我该告诉老板我在考虑离职吗？嗯，我是说，如果你现在就离开，那你大概率会经历一段失业期。"
+  },
+  {
+    "start": 1128.4,
+    "end": 1136.1,
+    "speaker": "Host",
+    "text_en": "which is way worse than not a raise. It turns out that that costs you way more money than a few percentage points of smaller raise.",
+    "text": "这可比不涨薪还糟。事实证明，这让你损失的钱，远比少涨几个百分点要多得多。"
+  },
+  {
+    "start": 1136.1,
+    "end": 1147.536,
+    "speaker": "Guest",
+    "text_en": "Right. And as a general rule, I would not tell your boss you're thinking about getting another job that just raises all kinds of alarm bells, puts you on a list. I don't know. Just. Wait till you have an offer in hand,",
+    "text": "对。一般来说，我不会建议你告诉老板你在考虑找别的工作，那样只会让对方警铃大作，把你列进某个名单里。我也说不好。总之，等你手里真的拿到 offer 再说。"
+  },
+  {
+    "start": 1147.686,
+    "end": 1162.836,
+    "speaker": "Guest",
+    "text_en": "then tell your boss you're thinking about leaving. And you'll be amazed at how fast an organization, an organization that otherwise needs like a year to prepare for raises and stuff, will quickly produce a raise for you. Well, have we answered the question?",
+    "text": "然后再告诉老板你在考虑离职。你会惊讶地发现，一个平时连准备涨薪之类的事都要花上一年的组织，会多快地给你搞出一次加薪。好了，我们算是回答这个问题了吗？"
+  },
+  {
+    "start": 1162.836,
+    "end": 1176.338,
+    "speaker": "Host",
+    "text_en": "I think so. Good luck. This is a good opportunity to revisit some pay raise fundamentals. Make sure to make a really good case, get the timing right and talk to the right person. And if none of that works out, then go get a new job. All right, Dave, will you read our next question?",
+    "text": "我觉得算是。祝你好运。这也是个很好的机会，重新回顾一下加薪谈判的一些基本原则。一定要把理由讲得很充分，把握好时机，找对人谈。如果这些都不管用，那就去找份新工作。好，Dave，来读下一个问题吧？"
+  },
+  {
+    "start": 1176.888,
+    "end": 1197.288,
+    "speaker": "Guest",
+    "text_en": "Yes, this comes from an anonymous listener who says, hi there, I'm about four years into my career. I'm at my second job after leaving university. This was at a firm under 50 employees and the current firm is a firm with a global footprint and several thousand employees. Both are in Europe. I moved to Europe on a work visa as a pathway to citizenship.",
+    "text": "好，这个问题来自一位匿名听众。他说，嗨，我工作大概四年了。大学毕业后这是我的第二份工作。第一家公司不到 50 名员工，现在这家公司业务遍布全球，有几千名员工。两家公司都在欧洲。我是通过工作签证搬到欧洲的，把这当作获得公民身份的一条路径。"
+  },
+  {
+    "start": 1197.688,
+    "end": 1215.738,
+    "speaker": "Guest",
+    "text_en": "I've never felt like either my past or current job My current employer has taken advantage of my situation, but it's important that I keep my job. At both employers, I generally work one weekend day a week to meet expectations. And I'm just going to insert an editorial comment. That's six day work weeks then. So five work days plus a weekend day.",
+    "text": "我从来不觉得我之前的工作，或者现在这份工作、现在的雇主利用了我的处境，但保住这份工作对我来说很重要。在这两家公司，我通常每周都会在周末再工作一天，才能达到预期。然后我插一句编辑评论：那这就是一周工作六天了。也就是五个工作日再加一个周末日。"
+  },
+  {
+    "start": 1215.888,
+    "end": 1220.038,
+    "speaker": "Host",
+    "text_en": "Not a one-day work week. That would be it. That'd be sick. Whoa.",
+    "text": "不是一周只工作一天。那可就太爽了。哇。"
+  },
+  {
+    "start": 1220.888,
+    "end": 1239.024,
+    "speaker": "Guest",
+    "text_en": "I'm not the only one. Several of my colleagues do the same. For now, I have the time to work late as my significant other is back home. Soon they'll be moving over, however, and they've made very clear that they will not be okay with me going into work every Saturday. Saturday. Maybe I'm paranoid. Maybe the expectations at work aren't clear. Maybe this is part of software. But basically,",
+    "text": "不只是我一个人，我有好几个同事也这样。眼下我还有时间加班，因为我的另一半还在老家。不过他们很快就要搬过来了，而且已经说得很明确了，他们绝对不能接受我每周六都去上班。周六。也许是我多心了，也许是公司对工作的预期并不明确，也许这就是软件行业的一部分。但基本上，"
+  },
+  {
+    "start": 1239.424,
+    "end": 1262.068,
+    "speaker": "Guest",
+    "text_en": "how do I get to a point where I can check out on weekends and not feel guilty or like I'm falling behind? Do I need to work longer weekdays? Do I need to sacrifice promotions? Do I need to get better at saying no? Great question. this is very interesting let me give my credentials for talking about this uh i don't have any never been on work visa never worked in europe um yeah",
+    "text": "我要怎么才能做到周末真正休息、不感到内疚，也不觉得自己在落后？我是不是得把工作日拉长一点？我是不是得牺牲晋升机会？我是不是得更会说“不”？好问题。这个很有意思，我先说下我有什么资格聊这个——呃，我其实没有。也从来没拿过工作签证，也没在欧洲工作过。嗯，对。"
+  },
+  {
+    "start": 1262.068,
+    "end": 1262.568,
+    "speaker": "Host",
+    "text_en": "So you're ready",
+    "text": "所以你已经准备好了。"
+  },
+  {
+    "start": 1262.568,
+    "end": 1262.718,
+    "speaker": "Guest",
+    "text_en": "there's",
+    "text": "有些——"
+  },
+  {
+    "start": 1262.718,
+    "end": 1285.364,
+    "speaker": "Host",
+    "text_en": "to go. there's some tricky bits here i've worked with people who were on visas of some kind in the united states but i mean we didn't like frequently discuss their their immigration status or anything but i could see how this is a a it kind of hangs over the work relationship of like and if you get fired then you have to go home yeah",
+    "text": "可以开始了。这里面有些微妙的地方。我以前和一些在美国持某种签证工作的人共事过，不过我们也不会经常讨论他们的移民身份之类的事。但我能理解，这种事会一直笼罩在工作关系上——那种“如果你被开除了，就得回国”的压力。对。"
+  },
+  {
+    "start": 1285.364,
+    "end": 1288.114,
+    "speaker": "Guest",
+    "text_en": "I know. It is such a heavy burden.",
+    "text": "我知道，这真的是很沉重的负担。"
+  },
+  {
+    "start": 1289.314,
+    "end": 1301.014,
+    "speaker": "Host",
+    "text_en": "even if even if you feel like they're not pushing you to just the circumstances conspire to make this i can see how this happens i just want to be extra sure i don't don't get sent home",
+    "text": "哪怕你觉得公司并没有在逼你，现实环境也会让事情变成这样。我完全能理解为什么会这样。你就是会想，我一定得格外小心，千万别被送回去。"
+  },
+  {
+    "start": 1301.764,
+    "end": 1316.182,
+    "speaker": "Guest",
+    "text_en": "Yeah, very, very challenging. The question is, can you navigate this? where you have your weekends to yourself and you keep your job and everyone's happy with your work. And frankly, I'm surprised this question is coming out of Europe or",
+    "text": "对，非常非常难。问题在于，你能不能把这件事处理好——既能把周末留给自己，又能保住工作，而且大家对你的表现也都满意。坦白说，我还挺惊讶这个问题是从欧洲来的，或者——"
+  },
+  {
+    "start": 1316.682,
+    "end": 1323.032,
+    "speaker": "Host",
+    "text_en": "I was wondering about that as well. I feel like aren't there contracts or regulation or something?",
+    "text": "我刚也在想这个。我感觉那边难道不是有合同或者法规之类的保障吗？"
+  },
+  {
+    "start": 1323.032,
+    "end": 1327.882,
+    "speaker": "Guest",
+    "text_en": "just culture, right? Like the general culture in Europe is this is rare.",
+    "text": "就是文化问题，对吧？比如欧洲整体的文化就是，这种情况很少见。"
+  },
+  {
+    "start": 1328.082,
+    "end": 1335.314,
+    "speaker": "Host",
+    "text_en": "Yeah. Yeah, how are they going to take their 12-week summer vacation if they have to go into work on Saturday and other days of the week?",
+    "text": "对，对啊。要是他们周六还得去上班，平时一周还要多上几天班，那他们怎么休那种 12 周的暑假？"
+  },
+  {
+    "start": 1336.764,
+    "end": 1343.218,
+    "speaker": "Guest",
+    "text_en": "maybe that's the negotiation it's like uh listen you got to work six days a week but then you have the month of august off Every year.",
+    "text": "也许谈判就是这么谈的，像是，呃，听着，你得一周上六天班，但每年整个八月都可以放假。"
+  },
+  {
+    "start": 1343.218,
+    "end": 1350.618,
+    "speaker": "Host",
+    "text_en": "Yeah. Hmm. That's a good point. Well, I still don't know. My credentials apply to this as well. I don't know.",
+    "text": "对。嗯，这是个好观点。不过我还是不知道。这个问题也算在我的专业范围内，但我还是不知道。"
+  },
+  {
+    "start": 1350.818,
+    "end": 1367.486,
+    "speaker": "Guest",
+    "text_en": "See, that's the thing is the reason I am interested in this question is because I believe if there was ever a continent on this planet where you can pull off a five-day work week, it's Europe. And I don't know if there's something about your employer that's a little different",
+    "text": "你看，关键就在这儿。我之所以对这个问题感兴趣，是因为我相信，如果这个星球上真有哪个大洲能实行五天工作制，那就是欧洲。我不知道是不是你的雇主有点不一样，"
+  },
+  {
+    "start": 1367.536,
+    "end": 1378.586,
+    "speaker": "Guest",
+    "text_en": "or what, but there are probably for every job that requires a six day work week in Europe, there's probably a hundred other jobs with the same title that do it in five days or less.",
+    "text": "还是别的什么原因，但在欧洲，每一个要求一周工作六天的岗位背后，大概都有一百个同样职位的岗位，只需要五天甚至更少。"
+  },
+  {
+    "start": 1378.586,
+    "end": 1389.736,
+    "speaker": "Host",
+    "text_en": "Maybe those jobs don't hire people on work visas, though. Maybe there's some sorting here of the cushy 32-hour-a-week jobs go to people who are not.",
+    "text": "不过也许那些岗位不招拿工作签证的人。也许这里面有种筛选机制：那些舒服的每周 32 小时工作岗位，都给了那些不是……"
+  },
+  {
+    "start": 1391.284,
+    "end": 1397.134,
+    "speaker": "Guest",
+    "text_en": "They don't have these implicit threats of better keep us happy or you get kicked out of the country.",
+    "text": "他们没有这种隐性的威胁：最好让我们满意，不然你就得被赶出这个国家。"
+  },
+  {
+    "start": 1397.484,
+    "end": 1405.834,
+    "speaker": "Host",
+    "text_en": "Or rather, maybe another way to say that is those people get the job and then they work less and we can't fire them. It's kind of the opposite incentive here.",
+    "text": "或者说，换个说法，也许是这些人拿到工作之后就干得更少了，而我们又没法开掉他们。这里的激励机制某种程度上正好是反着来的。"
+  },
+  {
+    "start": 1406.452,
+    "end": 1414.352,
+    "speaker": "Guest",
+    "text_en": "yeah the fact that other people several of my colleagues do the same okay that tells me it might be more cultural, like company culture.",
+    "text": "对，而且我有好几个同事也都这样，这说明可能更偏向文化层面的原因，比如公司文化。"
+  },
+  {
+    "start": 1415.052,
+    "end": 1433.702,
+    "speaker": "Host",
+    "text_en": "my naive optimistic surely everyone means well and there aren't any bad actors out there and everyone's trying their best side is saying yeah surely you could do this talk to your boss say listen keeping this job is so important to me i really want to work here i really want to stay here my immigration status is tied to it i want to do excellent work",
+    "text": "我这种天真又乐观、总觉得大家都是好意、外面没有坏人、每个人都在尽力的一面会说，是啊，你当然可以这么做：去跟你老板谈，说你听着，保住这份工作对我特别重要，我真的很想在这里工作，我真的很想留下来，我的移民身份和这份工作是绑定的，我想把工作做到非常出色。"
+  },
+  {
+    "start": 1433.556,
+    "end": 1460.456,
+    "speaker": "Guest",
+    "text_en": "work and i will work as hard as i possibly can during the week to do that check out all these awesome things i've done etc look at my track record i need my weekends i've i've got to do that to stay sane and be effective at work and i've got uh this family stuff here so without uh i don't know maybe maybe extenuating circumstances i would just like to plan in on coming in during the week and having the weekends to myself myself",
+    "text": "而且为了做到这一点，我工作日里会尽我所能拼命工作。你看，我已经做了这么多很棒的事情，诸如此类的，你看看我的过往表现。我需要周末，我真的需要这样才能保持精神正常、在工作中保持高效。而且我这边还有一些家庭方面的事情。所以除非，呃，我也不知道，也许有什么特殊情况，否则我还是希望安排成工作日来上班，周末归我自己支配。"
+  },
+  {
+    "start": 1461.044,
+    "end": 1472.194,
+    "speaker": "Guest",
+    "text_en": "But I want to make it clear, I really want to do great work still, like you just keep emphasizing that and then actually do great work. But maybe there's somebody high up that just sees, oh, there's an empty desk on Saturday.",
+    "text": "但我想说清楚，我还是非常想把工作做好。就是你要一直强调这一点，然后也确实把工作做得很好。只是也许会有某个高层只看到，哦，周六有张空桌子。"
+  },
+  {
+    "start": 1472.444,
+    "end": 1480.844,
+    "speaker": "Host",
+    "text_en": "I mean, yeah, and that's why you've got to figure this out. So you've got some co-workers who are doing this. I wonder what the co-workers who aren't doing this think.",
+    "text": "对，没错，所以你必须把这件事搞清楚。你说有些同事也这么做，我倒是很好奇，那些没这么做的同事是怎么想的。"
+  },
+  {
+    "start": 1480.944,
+    "end": 1492.2,
+    "speaker": "Guest",
+    "text_en": "Yeah, that's a good question. Are there folks in the same immigration status that also aren't doing it? Is if it's literally everybody here on a work visa. That will stick out more and sound scarier.",
+    "text": "对，这是个好问题。有没有移民身份情况相同、但也没有这么做的人？如果这里拿工作签证的人真的个个都这样，那就会更显眼，也更吓人。"
+  },
+  {
+    "start": 1492.3,
+    "end": 1501.3,
+    "speaker": "Host",
+    "text_en": "So you need to do a lookalike study that advertisers are famous for so you can figure out, you can A-B test your way into figuring out what needs to happen here.",
+    "text": "所以你需要做一个广告主很擅长的那种相似人群研究，这样你才能搞明白这里到底需要发生什么。你可以像做 A-B test 一样，一步步试出答案。"
+  },
+  {
+    "start": 1501.3,
+    "end": 1501.9,
+    "speaker": "Guest",
+    "text_en": "Wait, what?",
+    "text": "等等，什么？"
+  },
+  {
+    "start": 1501.9,
+    "end": 1507.35,
+    "speaker": "Host",
+    "text_en": "A lookalike study, this is where you find cohorts of people that share a commonality.",
+    "text": "相似人群研究，就是你去找一批有共同特征的人群。"
+  }
+]

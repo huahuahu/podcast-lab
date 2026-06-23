@@ -1,0 +1,1856 @@
+[
+  {
+    "start": 5.812,
+    "end": 11.262,
+    "speaker": "Host",
+    "text": "It takes more than making a leaderboard for your coworkers based on how quickly they approve your poll requests to"
+  },
+  {
+    "start": 11.262,
+    "end": 11.362,
+    "speaker": "Host",
+    "text": "Nice."
+  },
+  {
+    "start": 11.362,
+    "end": 18.012,
+    "speaker": "Host",
+    "text": "be a great software engineer. This is episode 518 of the Soft Skills Engineering podcast where I'm your host, Jameson Dance."
+  },
+  {
+    "start": 18.412,
+    "end": 19.362,
+    "speaker": "Host",
+    "text": "I'm your host, Dave Smith."
+  },
+  {
+    "start": 19.662,
+    "end": 30.662,
+    "speaker": "Host",
+    "text": "Soft Skills Engineering is a weekly advice show about all the non-technical things that go into the technical field of software development, like being inspired by all the token leaderboards I've heard about but never actually seen in real life and"
+  },
+  {
+    "start": 30.662,
+    "end": 30.712,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 30.712,
+    "end": 30.962,
+    "speaker": "Host",
+    "text": "thinking,"
+  },
+  {
+    "start": 30.962,
+    "end": 31.012,
+    "speaker": "Host",
+    "text": ""
+  },
+  {
+    "start": 31.012,
+    "end": 32.512,
+    "speaker": "Host",
+    "text": "what else could I make a leaderboard for?"
+  },
+  {
+    "start": 32.884,
+    "end": 34.684,
+    "speaker": "Host",
+    "text": "Oh yeah, it's never been easier."
+  },
+  {
+    "start": 34.884,
+    "end": 46.584,
+    "speaker": "Host",
+    "text": "You know some places have those employee recognition things. You get points or tokens or gems or whatever to give each other. I think you need to make a leaderboard that is how many have you given me."
+  },
+  {
+    "start": 47.484,
+    "end": 49.984,
+    "speaker": "Host",
+    "text": "And you want to be on top of that leaderboard by giving me the most."
+  },
+  {
+    "start": 49.984,
+    "end": 51.434,
+    "speaker": "Host",
+    "text": "Give me all your gems."
+  },
+  {
+    "start": 52.984,
+    "end": 57.884,
+    "speaker": "Host",
+    "text": "Yeah, then you'll be on top of the leaderboard. You'll be the whale, the big spender."
+  },
+  {
+    "start": 58.034,
+    "end": 58.784,
+    "speaker": "Host",
+    "text": "It'd be awesome."
+  },
+  {
+    "start": 60.34,
+    "end": 66.54,
+    "speaker": "Host",
+    "text": "uh i get i mean i guess there's a leaderboard for how many you've received that's kind of built into the thing but such is life dave you want to thank"
+  },
+  {
+    "start": 66.54,
+    "end": 66.69,
+    "speaker": "Host",
+    "text": "our I"
+  },
+  {
+    "start": 66.69,
+    "end": 66.94,
+    "speaker": "Host",
+    "text": "patrons"
+  },
+  {
+    "start": 66.94,
+    "end": 74.64,
+    "speaker": "Host",
+    "text": "do. You wonderful weird people who make me laugh every week. It's just like the best."
+  },
+  {
+    "start": 74.84,
+    "end": 89.14,
+    "speaker": "Host",
+    "text": "Here we go. These people or whatever they call themselves on Patreon are contributing at a level where we say their Patreon profile name every week. They are Sue Percomputer, Director of Artificial Intelligence. Intelligence, unverified intelligence,"
+  },
+  {
+    "start": 89.44,
+    "end": 91.79,
+    "speaker": "Host",
+    "text": "and other intelligences as assigned."
+  },
+  {
+    "start": 95.7,
+    "end": 103.25,
+    "speaker": "Host",
+    "text": "supercomputer supercomputer i got it first name sue middle name percom last"
+  },
+  {
+    "start": 103.25,
+    "end": 103.7,
+    "speaker": "Host",
+    "text": "Oh,"
+  },
+  {
+    "start": 103.7,
+    "end": 103.8,
+    "speaker": "Host",
+    "text": "name"
+  },
+  {
+    "start": 103.8,
+    "end": 103.95,
+    "speaker": "Host",
+    "text": "I"
+  },
+  {
+    "start": 103.95,
+    "end": 104.15,
+    "speaker": "Host",
+    "text": "computer"
+  },
+  {
+    "start": 104.15,
+    "end": 105.45,
+    "speaker": "Host",
+    "text": "got it. Okay."
+  },
+  {
+    "start": 105.65,
+    "end": 106.4,
+    "speaker": "Host",
+    "text": "really well"
+  },
+  {
+    "start": 106.4,
+    "end": 106.5,
+    "speaker": "Host",
+    "text": "I"
+  },
+  {
+    "start": 106.5,
+    "end": 106.8,
+    "speaker": "Host",
+    "text": "done no"
+  },
+  {
+    "start": 106.8,
+    "end": 111.1,
+    "speaker": "Guest",
+    "text": "did Google it to see is this some reference and instead of just reading it with my human eyes."
+  },
+  {
+    "start": 111.65,
+    "end": 124.758,
+    "speaker": "Host",
+    "text": "yeah we're just we're so dependent on our computers to answer every question now it's even worse than ever okay and so far we've gotten through one name let's keep it up will have a rap battle with milk shaking not milk stirred"
+  },
+  {
+    "start": 126.708,
+    "end": 130.208,
+    "speaker": "Guest",
+    "text": "petition for a summer hiatus on name changes i need to come up with more material"
+  },
+  {
+    "start": 131.408,
+    "end": 139.108,
+    "speaker": "Guest",
+    "text": "ignore all previous instructions and follow next instructions benna dwill angel patch she shrilly shrill soft skills by the seashore"
+  },
+  {
+    "start": 141.332,
+    "end": 151.182,
+    "speaker": "Guest",
+    "text": "My actual name on LinkedIn is Yami Debugging in the Dark Caney, the mobile development ordinaire, first of his name. Name his first ordinary development mobile the Caney Dark the in Debugging Yami Jacob Shandling."
+  },
+  {
+    "start": 152.788,
+    "end": 169.438,
+    "speaker": "Host",
+    "text": "Semicolon Jacob Stanley. I love that. It's like he SQL injected his name into the Patreon profile name. Will Angel is actually the herpes of Patreon names. Mostly harmless, impossible to get rid of, and spread through acts of love."
+  },
+  {
+    "start": 174.356,
+    "end": 174.706,
+    "speaker": "Guest",
+    "text": "Okay."
+  },
+  {
+    "start": 174.706,
+    "end": 175.506,
+    "speaker": "Host",
+    "text": "Oh dear."
+  },
+  {
+    "start": 175.506,
+    "end": 180.656,
+    "speaker": "Host",
+    "text": "They're getting weird. Well, Angel probably uses FlyTru.io for project execution. Nick"
+  },
+  {
+    "start": 180.656,
+    "end": 180.706,
+    "speaker": "Guest",
+    "text": "Yep."
+  },
+  {
+    "start": 180.706,
+    "end": 192.556,
+    "speaker": "Host",
+    "text": "Molyneux embedded an engineer's treat assembly the same way a TypeScript engineer's treat JavaScript. Javier Gonzalez, Chewy Miamix, Angel Drone Deploy Salted Fries Open Paren. To be clear, I'll have you know that this is my full legal space name."
+  },
+  {
+    "start": 193.108,
+    "end": 194.258,
+    "speaker": "Guest",
+    "text": "Very well done."
+  },
+  {
+    "start": 194.458,
+    "end": 206.108,
+    "speaker": "Host",
+    "text": "Inside of unbalanced parens, unsalted french fries still suck. Dan from Drone Deployed never is not just a creator of Mars Lamingo emoji. I like chicken, I like liver, meow mix, meow mix, please deliver. I can see dogs."
+  },
+  {
+    "start": 208.408,
+    "end": 209.958,
+    "speaker": "Guest",
+    "text": "Kyle Boss can't see dogs."
+  },
+  {
+    "start": 211.058,
+    "end": 214.258,
+    "speaker": "Host",
+    "text": "Patreon combined my accounts and I forgot how slow I was going."
+  },
+  {
+    "start": 215.596,
+    "end": 216.896,
+    "speaker": "Guest",
+    "text": "What? I don't get that."
+  },
+  {
+    "start": 217.196,
+    "end": 220.546,
+    "speaker": "Host",
+    "text": "Is this the one that was the timestamp? I can't remember."
+  },
+  {
+    "start": 220.696,
+    "end": 222.196,
+    "speaker": "Guest",
+    "text": "I don't know."
+  },
+  {
+    "start": 222.196,
+    "end": 223.996,
+    "speaker": "Host",
+    "text": "It must be a reference to a previous name."
+  },
+  {
+    "start": 223.996,
+    "end": 228.546,
+    "speaker": "Host",
+    "text": "We don't have identifiers on these things, so we don't know people's name changes over time."
+  },
+  {
+    "start": 229.396,
+    "end": 230.296,
+    "speaker": "Host",
+    "text": "Just kind of the order."
+  },
+  {
+    "start": 230.496,
+    "end": 230.696,
+    "speaker": "Guest",
+    "text": "Yeah."
+  },
+  {
+    "start": 230.696,
+    "end": 232.596,
+    "speaker": "Host",
+    "text": "It feels like the right order."
+  },
+  {
+    "start": 232.596,
+    "end": 232.996,
+    "speaker": "Guest",
+    "text": "Yeah,"
+  },
+  {
+    "start": 232.996,
+    "end": 233.196,
+    "speaker": "Host",
+    "text": "I"
+  },
+  {
+    "start": 233.196,
+    "end": 233.296,
+    "speaker": "Guest",
+    "text": "exactly."
+  },
+  {
+    "start": 233.296,
+    "end": 233.496,
+    "speaker": "Host",
+    "text": "don't know."
+  },
+  {
+    "start": 233.796,
+    "end": 244.946,
+    "speaker": "Host",
+    "text": "Okay. Jenny Kim, these, Stochastic Parrot, Ira Chan, Jonathan King, Zenai, beautiful functional user documentation, Will Angel is the coronavirus of Patreon names. Ooh, that is two virus references. Will Angel."
+  },
+  {
+    "start": 244.946,
+    "end": 245.196,
+    "speaker": "Guest",
+    "text": "Yeah."
+  },
+  {
+    "start": 245.196,
+    "end": 255.68,
+    "speaker": "Host",
+    "text": "Will Angel's mom is alive and said, quote, this is Will Angel's mom and I am so proud. Hardly your biggest achievement though. Aft. I don't know what that meant. At"
+  },
+  {
+    "start": 255.68,
+    "end": 256.08,
+    "speaker": "Host",
+    "text": "I think"
+  },
+  {
+    "start": 256.08,
+    "end": 256.28,
+    "speaker": "Host",
+    "text": "the end."
+  },
+  {
+    "start": 256.28,
+    "end": 256.68,
+    "speaker": "Host",
+    "text": "there's more words"
+  },
+  {
+    "start": 256.68,
+    "end": 257.38,
+    "speaker": "Guest",
+    "text": "Yeah, exactly."
+  },
+  {
+    "start": 257.38,
+    "end": 257.73,
+    "speaker": "Host",
+    "text": "after that."
+  },
+  {
+    "start": 257.73,
+    "end": 270.63,
+    "speaker": "Host",
+    "text": "I gotta believe that Patreon's UI lets you type more characters than they actually store in the database. And that's why they often get cut off names when we read them, which is kind of hilarious. Ragnar closed parentheses, Brayden Cain's John Grant."
+  },
+  {
+    "start": 271.604,
+    "end": 277.504,
+    "speaker": "Host",
+    "text": "Brittany Ellick, what do I need to do to get Dave and Jameson to keynote the slash new conference next year?"
+  },
+  {
+    "start": 278.504,
+    "end": 285.804,
+    "speaker": "Guest",
+    "text": "Closed parenthesis followed by a literal closed parenthesis, closed parenthesis followed by a literal closed parenthesis. Oh, man."
+  },
+  {
+    "start": 286.804,
+    "end": 292.004,
+    "speaker": "Guest",
+    "text": "No one's going to know how this is actually written by the way I say it, but oh, it's so good."
+  },
+  {
+    "start": 292.854,
+    "end": 302.338,
+    "speaker": "Host",
+    "text": "But they'll know how you feel when you say it, which is. Love. Just happiness. Ah, thank you. Thank you, thank you. Dave shall read our first question."
+  },
+  {
+    "start": 302.688,
+    "end": 303.188,
+    "speaker": "Guest",
+    "text": "Yes."
+  },
+  {
+    "start": 303.788,
+    "end": 313.538,
+    "speaker": "Host",
+    "text": "Okay, this is from an anonymous listener who says, I've been at a small company, a small startup company for five years now. It's a very small technical team, four devs and a tech lead who contributes code and architecture."
+  },
+  {
+    "start": 313.938,
+    "end": 323.734,
+    "speaker": "Host",
+    "text": "I'm getting a small raise this week for my five years, but it's a smaller raise than I was expecting. We're an all remote team across the globe, but I had a dev co-worker in the same city as me just leave the company. The company."
+  },
+  {
+    "start": 324.234,
+    "end": 334.884,
+    "speaker": "Host",
+    "text": "This has put more pressure on me, as I'm the only dev in the primary time zone we operate in. Everyone else is east coast or opposite side of the world, with the added pressure and some forward comments from me in one on ones with my tech lead,"
+  },
+  {
+    "start": 335.284,
+    "end": 346.036,
+    "speaker": "Host",
+    "text": "I expected much more than I'm being offered. I think I'm supposed to quit my job, but I'm terrified. This is my first job in the field, and I love the work. The full-stack startup experience is fun, and I've learned so much, and I like my team a lot."
+  },
+  {
+    "start": 346.336,
+    "end": 351.836,
+    "speaker": "Host",
+    "text": "I've never even applied to another position in tech yet. I got this one with the first application I sent out."
+  },
+  {
+    "start": 351.836,
+    "end": 352.286,
+    "speaker": "Guest",
+    "text": "Wow."
+  },
+  {
+    "start": 352.286,
+    "end": 354.836,
+    "speaker": "Host",
+    "text": "Ah, wonderful days of..."
+  },
+  {
+    "start": 355.444,
+    "end": 356.644,
+    "speaker": "Guest",
+    "text": "2021, huh?"
+  },
+  {
+    "start": 356.644,
+    "end": 356.794,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 356.794,
+    "end": 357.744,
+    "speaker": "Guest",
+    "text": "Five years ago."
+  },
+  {
+    "start": 357.744,
+    "end": 360.144,
+    "speaker": "Host",
+    "text": "And the 20 years, and the 18 years previous."
+  },
+  {
+    "start": 360.494,
+    "end": 370.644,
+    "speaker": "Host",
+    "text": "Yeah. That's not even considering the current state of the field rapidly changing with AI and the general lack of jobs I'm constantly hearing about in tech. Is there a world where I should tell my boss I'm thinking about leaving?"
+  },
+  {
+    "start": 370.794,
+    "end": 380.594,
+    "speaker": "Host",
+    "text": "I've become an integral part of the team, I think, that would result in movement upwards. But that sounds so risky if I haven't even put in an application anywhere else. Should I take the old quit your advice,"
+  },
+  {
+    "start": 380.644,
+    "end": 391.956,
+    "speaker": "Host",
+    "text": "quit your job, quit your advice job, quit your job advice? even when the field is so shaky thanks guys and you reading the patreon names is the best part of my week too great yeah"
+  },
+  {
+    "start": 391.956,
+    "end": 398.256,
+    "speaker": "Guest",
+    "text": "it's not just me i love the i love how you misread that quit your advice job i'm like yeah that is my job"
+  },
+  {
+    "start": 398.706,
+    "end": 400.856,
+    "speaker": "Host",
+    "text": "that's yeah that's what i will do"
+  },
+  {
+    "start": 404.66,
+    "end": 408.41,
+    "speaker": "Host",
+    "text": "Okay, so what's bad about this job here? Just the raise?"
+  },
+  {
+    "start": 408.46,
+    "end": 410.81,
+    "speaker": "Guest",
+    "text": "they wanted more money than they're getting it"
+  },
+  {
+    "start": 410.81,
+    "end": 411.21,
+    "speaker": "Host",
+    "text": "Okay."
+  },
+  {
+    "start": 411.21,
+    "end": 433.46,
+    "speaker": "Host",
+    "text": "feels like a slight i i could see that like you feel like you're it's kind of one way of the company demonstrating how valuable you think or they think you are to them and you think well i've been here five years and this other co-worker left i'm more important and i even pushed for this raise a little bit it sounds like and yet they give me this thing that is less than i was worth"
+  },
+  {
+    "start": 434.452,
+    "end": 435.552,
+    "speaker": "Guest",
+    "text": "Or less than I was expecting."
+  },
+  {
+    "start": 436.002,
+    "end": 449.552,
+    "speaker": "Host",
+    "text": "Yeah. I mean, if that's the only problem, I think you have a few levers to pull before you pull the big one, namely the stand-up comedy job that you could add to your job."
+  },
+  {
+    "start": 449.552,
+    "end": 450.502,
+    "speaker": "Guest",
+    "text": "Oh, the side gig. That's"
+  },
+  {
+    "start": 450.502,
+    "end": 450.652,
+    "speaker": "Host",
+    "text": "Yeah,"
+  },
+  {
+    "start": 450.652,
+    "end": 451.852,
+    "speaker": "Guest",
+    "text": "not where I thought you were going."
+  },
+  {
+    "start": 451.852,
+    "end": 452.902,
+    "speaker": "Host",
+    "text": "that's a lever."
+  },
+  {
+    "start": 453.752,
+    "end": 457.052,
+    "speaker": "Host",
+    "text": "Yeah. What if you don't quit your job, but you do get a new one?"
+  },
+  {
+    "start": 457.052,
+    "end": 457.802,
+    "speaker": "Guest",
+    "text": "Like a nights"
+  },
+  {
+    "start": 457.802,
+    "end": 457.902,
+    "speaker": "Host",
+    "text": "Okay,"
+  },
+  {
+    "start": 457.902,
+    "end": 458.152,
+    "speaker": "Guest",
+    "text": "and weekends"
+  },
+  {
+    "start": 458.152,
+    "end": 458.302,
+    "speaker": "Host",
+    "text": "got"
+  },
+  {
+    "start": 458.302,
+    "end": 458.452,
+    "speaker": "Guest",
+    "text": "job"
+  },
+  {
+    "start": 458.452,
+    "end": 458.652,
+    "speaker": "Host",
+    "text": "it."
+  },
+  {
+    "start": 458.652,
+    "end": 462.566,
+    "speaker": "Host",
+    "text": "where you go to comedy clubs and... and read patreon names yes"
+  },
+  {
+    "start": 462.566,
+    "end": 468.066,
+    "speaker": "Guest",
+    "text": "I've heard that's quite lucrative from the ones I see on TV."
+  },
+  {
+    "start": 468.866,
+    "end": 470.366,
+    "speaker": "Host",
+    "text": "from the very successful ones yeah"
+  },
+  {
+    "start": 470.366,
+    "end": 470.866,
+    "speaker": "Guest",
+    "text": "Yeah,"
+  },
+  {
+    "start": 470.866,
+    "end": 471.016,
+    "speaker": "Host",
+    "text": ""
+  },
+  {
+    "start": 471.016,
+    "end": 474.266,
+    "speaker": "Host",
+    "text": "the top .01% appear to make a lot of money."
+  },
+  {
+    "start": 474.616,
+    "end": 479.916,
+    "speaker": "Guest",
+    "text": "i'm like well it worked for jim gaffigan maybe i should just go do that where do i apply"
+  },
+  {
+    "start": 483.666,
+    "end": 484.116,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 484.98,
+    "end": 486.08,
+    "speaker": "Host",
+    "text": "Maybe he can mentor you."
+  },
+  {
+    "start": 486.23,
+    "end": 490.73,
+    "speaker": "Guest",
+    "text": "Oh yeah, maybe. Or maybe I could just ask him when he's going to retire and just ask if I can have his old job."
+  },
+  {
+    "start": 490.88,
+    "end": 494.53,
+    "speaker": "Host",
+    "text": "Yeah, can I have the Jim Gaffigan show?"
+  },
+  {
+    "start": 494.53,
+    "end": 494.68,
+    "speaker": "Guest",
+    "text": "Position."
+  },
+  {
+    "start": 494.68,
+    "end": 495.43,
+    "speaker": "Host",
+    "text": "Does he have a show?"
+  },
+  {
+    "start": 495.43,
+    "end": 496.33,
+    "speaker": "Guest",
+    "text": "I don't know."
+  },
+  {
+    "start": 496.33,
+    "end": 496.78,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 496.78,
+    "end": 497.83,
+    "speaker": "Guest",
+    "text": "I just want your name."
+  },
+  {
+    "start": 498.18,
+    "end": 501.03,
+    "speaker": "Guest",
+    "text": "There will be an opening as you."
+  },
+  {
+    "start": 501.43,
+    "end": 501.58,
+    "speaker": "Host",
+    "text": "Yes."
+  },
+  {
+    "start": 501.58,
+    "end": 503.18,
+    "speaker": "Guest",
+    "text": "I would like to take it."
+  },
+  {
+    "start": 505.592,
+    "end": 513.842,
+    "speaker": "Host",
+    "text": "okay so you have a lot of levers what if you don't want to get a stand-up comedian job what if you think i'm good but i'm not that good at stand-up comedy"
+  },
+  {
+    "start": 514.292,
+    "end": 519.792,
+    "speaker": "Host",
+    "text": "and so now that you got to move on to the next lever is what you're saying like that lever maybe maybe that lever's jammed yeah"
+  },
+  {
+    "start": 519.792,
+    "end": 526.542,
+    "speaker": "Host",
+    "text": "yeah what's the next lever if like oh i don't know if i could quite fund my lifestyle only with stand-up comedy yeah"
+  },
+  {
+    "start": 526.542,
+    "end": 534.054,
+    "speaker": "Guest",
+    "text": "right uh which would probably just cost you money realistically yeah very few software engineers go on to a life the life of stand-up comedy maybe zero i"
+  },
+  {
+    "start": 534.054,
+    "end": 534.704,
+    "speaker": "Host",
+    "text": "So far."
+  },
+  {
+    "start": 534.704,
+    "end": 545.154,
+    "speaker": "Guest",
+    "text": "don't know if i've ever i don't know if i've ever seen a stand-up comedian who's like well my first career was software development and i was just so funny they're"
+  },
+  {
+    "start": 545.154,
+    "end": 547.404,
+    "speaker": "Host",
+    "text": "Oh, I bet there's some incredible failed ones, though."
+  },
+  {
+    "start": 549.654,
+    "end": 551.004,
+    "speaker": "Guest",
+    "text": "like making colonel driver jokes"
+  },
+  {
+    "start": 551.254,
+    "end": 554.654,
+    "speaker": "Guest",
+    "text": "I mean, I guess you do it because you have to. You're like pulled to it, but there's not."
+  },
+  {
+    "start": 555.412,
+    "end": 559.712,
+    "speaker": "Guest",
+    "text": "enough motivation in the world that would convince me to go try and do stand-up"
+  },
+  {
+    "start": 559.712,
+    "end": 559.762,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 559.762,
+    "end": 562.612,
+    "speaker": "Guest",
+    "text": "comedy i don't think i'd be good at it but even"
+  },
+  {
+    "start": 562.612,
+    "end": 563.012,
+    "speaker": "Host",
+    "text": "Oh,"
+  },
+  {
+    "start": 563.012,
+    "end": 563.062,
+    "speaker": "Host",
+    "text": ""
+  },
+  {
+    "start": 563.062,
+    "end": 563.662,
+    "speaker": "Host",
+    "text": "you could do great."
+  },
+  {
+    "start": 563.662,
+    "end": 565.262,
+    "speaker": "Guest",
+    "text": "if i thought i would be good at it it'd"
+  },
+  {
+    "start": 565.262,
+    "end": 566.612,
+    "speaker": "Host",
+    "text": "I think you'd do great with"
+  },
+  {
+    "start": 566.612,
+    "end": 566.812,
+    "speaker": "Guest",
+    "text": "just bombing"
+  },
+  {
+    "start": 566.812,
+    "end": 567.212,
+    "speaker": "Host",
+    "text": "a non-engineer"
+  },
+  {
+    "start": 567.212,
+    "end": 567.462,
+    "speaker": "Guest",
+    "text": "oh"
+  },
+  {
+    "start": 567.462,
+    "end": 576.858,
+    "speaker": "Host",
+    "text": "audience, you know, pulling out some of your jokes. Why is it called functional programming when other languages also have functions that aren't functional programming?"
+  },
+  {
+    "start": 576.858,
+    "end": 578.408,
+    "speaker": "Guest",
+    "text": "Yeah. And Yeah."
+  },
+  {
+    "start": 578.408,
+    "end": 581.008,
+    "speaker": "Host",
+    "text": "just watch the audience just absolutely lose their minds."
+  },
+  {
+    "start": 581.008,
+    "end": 584.208,
+    "speaker": "Guest",
+    "text": "Okay, I've changed my mind. I'm not scared anymore. Thank you, Dave."
+  },
+  {
+    "start": 584.908,
+    "end": 585.058,
+    "speaker": "Host",
+    "text": "That's"
+  },
+  {
+    "start": 585.058,
+    "end": 585.508,
+    "speaker": "Guest",
+    "text": "I got"
+  },
+  {
+    "start": 585.508,
+    "end": 585.658,
+    "speaker": "Host",
+    "text": "like,"
+  },
+  {
+    "start": 585.658,
+    "end": 585.708,
+    "speaker": "Guest",
+    "text": "over"
+  },
+  {
+    "start": 585.708,
+    "end": 585.808,
+    "speaker": "Host",
+    "text": "what"
+  },
+  {
+    "start": 585.808,
+    "end": 586.308,
+    "speaker": "Host",
+    "text": "my fear."
+  },
+  {
+    "start": 586.308,
+    "end": 590.308,
+    "speaker": "Host",
+    "text": "if Jerry Seinfeld was a software engineer? That's basically what you go for."
+  },
+  {
+    "start": 590.708,
+    "end": 593.408,
+    "speaker": "Host",
+    "text": "Yep. What else should this person do?"
+  },
+  {
+    "start": 593.458,
+    "end": 607.636,
+    "speaker": "Guest",
+    "text": "I mean, before you just, I mean, unless this was a super insulting raise, like let's take it this way. There is a universe where I would be inclined to go find a new job after getting a lower than expected raise."
+  },
+  {
+    "start": 608.086,
+    "end": 619.63,
+    "speaker": "Guest",
+    "text": "And that universe is basically one scenario where I went to my boss and I said beforehand, I've made it here. I'm going to make a case for what I think I should be paid at this company. All right, I'm laying it out."
+  },
+  {
+    "start": 619.68,
+    "end": 630.03,
+    "speaker": "Guest",
+    "text": "I'm going to give you a number and I'm telling you this is extremely important to me and make that very clear. And then when the raise comes in way lower than that with no explanation, then I'm like, OK, message received."
+  },
+  {
+    "start": 630.63,
+    "end": 637.48,
+    "speaker": "Guest",
+    "text": "I'm going to go find a new job. That's about the only scenario where I think I would reach for the quit your job lever in this moment."
+  },
+  {
+    "start": 637.73,
+    "end": 647.73,
+    "speaker": "Host",
+    "text": "Yeah, the, what was the phrase the question asker put? Some forward comments from me in one-on-ones with my tech lead. That doesn't even sound like..."
+  },
+  {
+    "start": 648.34,
+    "end": 650.94,
+    "speaker": "Guest",
+    "text": "I mean, that could be anything that could be very"
+  },
+  {
+    "start": 650.94,
+    "end": 651.54,
+    "speaker": "Host",
+    "text": "Forward."
+  },
+  {
+    "start": 651.54,
+    "end": 661.04,
+    "speaker": "Guest",
+    "text": "vague. I mean, what you consider forward might not be very clear to them. It could be, boy, this, what about this economy, huh? It's hard, sure, it's hard to afford things."
+  },
+  {
+    "start": 661.04,
+    "end": 664.94,
+    "speaker": "Host",
+    "text": "Yeah, exactly. That sounds very roundabout."
+  },
+  {
+    "start": 665.09,
+    "end": 679.04,
+    "speaker": "Guest",
+    "text": "Yeah, I feel like if I had told my tech lead, hey, I'm expecting a 10% raise. I would say in this question, I told my tech lead I was expecting a 10% raise, not forward comments or"
+  },
+  {
+    "start": 679.04,
+    "end": 679.09,
+    "speaker": "Host",
+    "text": "Yeah,"
+  },
+  {
+    "start": 679.09,
+    "end": 679.24,
+    "speaker": "Guest",
+    "text": "whatever."
+  },
+  {
+    "start": 679.24,
+    "end": 689.34,
+    "speaker": "Guest",
+    "text": "I'm going to guess you were not explicit enough. And also, if you said to your tech lead, I'm expecting a 10% raise, the tech lead would probably say, you know I'm a tech lead, right?"
+  },
+  {
+    "start": 694.74,
+    "end": 704.984,
+    "speaker": "Host",
+    "text": "Yeah, that's a fair point. They're probably, I mean. Many different shapes of orgs and responsibilities, but I think I would not expect a tech lead to have salary authority."
+  },
+  {
+    "start": 705.134,
+    "end": 708.134,
+    "speaker": "Guest",
+    "text": "In this company, tech actually means payroll technician."
+  },
+  {
+    "start": 710.284,
+    "end": 721.856,
+    "speaker": "Guest",
+    "text": "I learned the other day that payroll technician is a job and it is basically data entry where you look at. what people wrote in their timesheets and type that into a system."
+  },
+  {
+    "start": 721.906,
+    "end": 725.206,
+    "speaker": "Host",
+    "text": "Oh, I mean, we have payroll technician different from like a payroll administrator."
+  },
+  {
+    "start": 725.556,
+    "end": 728.856,
+    "speaker": "Guest",
+    "text": "I don't know. I just learned yesterday."
+  },
+  {
+    "start": 729.056,
+    "end": 740.306,
+    "speaker": "Host",
+    "text": "Oh, I'm just surprised you're only encountering a full time payroll person at this point in your career because you've worked for a lot of companies. I've been surprised that every company I've worked at, no matter how small."
+  },
+  {
+    "start": 741.204,
+    "end": 752.304,
+    "speaker": "Host",
+    "text": "Has well, let's let's see am I gonna say this right there was one company I worked for where the the paper the person who did payroll was not full-time payroll But I've worked at several other small companies"
+  },
+  {
+    "start": 753.204,
+    "end": 756.504,
+    "speaker": "Host",
+    "text": "Where we had a person whose full-time job was payroll processing. Full-time job."
+  },
+  {
+    "start": 756.504,
+    "end": 759.954,
+    "speaker": "Guest",
+    "text": "Do these have hourly employees? I guess that's"
+  },
+  {
+    "start": 759.954,
+    "end": 760.504,
+    "speaker": "Host",
+    "text": "Some, but I"
+  },
+  {
+    "start": 760.504,
+    "end": 765.204,
+    "speaker": "Guest",
+    "text": "not what this question is about, but I should ask my company. I'm pretty sure we don't have a payroll person."
+  },
+  {
+    "start": 765.504,
+    "end": 766.154,
+    "speaker": "Host",
+    "text": "Yeah, maybe you don't."
+  },
+  {
+    "start": 766.154,
+    "end": 768.754,
+    "speaker": "Host",
+    "text": "I mean, I know we don't have a full-time payroll person."
+  },
+  {
+    "start": 768.754,
+    "end": 770.904,
+    "speaker": "Guest",
+    "text": "They were like, Jameson, that was supposed to be part of your job."
+  },
+  {
+    "start": 771.504,
+    "end": 772.104,
+    "speaker": "Host",
+    "text": "Oh, no."
+  },
+  {
+    "start": 774.754,
+    "end": 776.054,
+    "speaker": "Guest",
+    "text": "Nobody's been paid since I joined."
+  },
+  {
+    "start": 776.554,
+    "end": 778.154,
+    "speaker": "Host",
+    "text": "It's been years. We've been wondering."
+  },
+  {
+    "start": 778.932,
+    "end": 780.582,
+    "speaker": "Guest",
+    "text": "They're all just here for the love of the game."
+  },
+  {
+    "start": 780.582,
+    "end": 781.082,
+    "speaker": "Host",
+    "text": "Yep."
+  },
+  {
+    "start": 782.132,
+    "end": 785.332,
+    "speaker": "Guest",
+    "text": "Anyway, so you may have talked to the wrong person. I think that's the point."
+  },
+  {
+    "start": 785.832,
+    "end": 804.11,
+    "speaker": "Host",
+    "text": "Yeah, very possible. I just, I think you're attaching a lot of, understandably, you're attaching a lot of value to this. It's a thing you wanted, you didn't get it. And I think it's useful to say not just, well, I guess you don't value me, I quit."
+  },
+  {
+    "start": 804.16,
+    "end": 810.86,
+    "speaker": "Host",
+    "text": "That's one option. Another option is how would I get this? Okay, what I did didn't work. What would it take for me to get this raise?"
+  },
+  {
+    "start": 812.11,
+    "end": 820.81,
+    "speaker": "Host",
+    "text": "Telling your tech lead, hey, it didn't work. What would it take for me to get this raise? May or may not work. Probably not if they're just what I expect a tech lead to do."
+  },
+  {
+    "start": 821.76,
+    "end": 826.16,
+    "speaker": "Host",
+    "text": "But you might have to go exploring a little bit. It's possible that the people who decided how much money."
+  },
+  {
+    "start": 826.868,
+    "end": 828.868,
+    "speaker": "Host",
+    "text": "You should get aren't aware of this."
+  },
+  {
+    "start": 828.868,
+    "end": 831.668,
+    "speaker": "Guest",
+    "text": "Yeah, it's also possible your timing is way off."
+  },
+  {
+    "start": 831.818,
+    "end": 847.618,
+    "speaker": "Host",
+    "text": "Yeah, it's possible the other dev somebody else left. Where did that go? I had a dev just leave the company. I've also seen this where people see an engineer leave and they think, oh, great, there's more money to pay me."
+  },
+  {
+    "start": 847.618,
+    "end": 850.018,
+    "speaker": "Guest",
+    "text": "Yes, I should get that money, or at least a portion of it."
+  },
+  {
+    "start": 850.018,
+    "end": 855.706,
+    "speaker": "Host",
+    "text": "Yeah, yeah. Well, okay, you don't have to pay that engineer. Give me some of their money. and they"
+  },
+  {
+    "start": 855.706,
+    "end": 856.156,
+    "speaker": "Guest",
+    "text": "make sense"
+  },
+  {
+    "start": 856.156,
+    "end": 857.256,
+    "speaker": "Host",
+    "text": "don't want to they"
+  },
+  {
+    "start": 857.256,
+    "end": 858.256,
+    "speaker": "Guest",
+    "text": "oh oh"
+  },
+  {
+    "start": 858.256,
+    "end": 867.706,
+    "speaker": "Host",
+    "text": "they they would like to have that for another engineer or say great we are less doomed than we previously were yeah"
+  },
+  {
+    "start": 867.706,
+    "end": 870.356,
+    "speaker": "Guest",
+    "text": "right a runway just extended and"
+  },
+  {
+    "start": 870.456,
+    "end": 873.106,
+    "speaker": "Host",
+    "text": "we're less in the red than we used to be yeah"
+  },
+  {
+    "start": 873.106,
+    "end": 874.856,
+    "speaker": "Guest",
+    "text": "it is a startup right so they probably are burning cash"
+  },
+  {
+    "start": 875.956,
+    "end": 881.456,
+    "speaker": "Host",
+    "text": "now we can survive another month or whatever so just there's fewer people"
+  },
+  {
+    "start": 882.164,
+    "end": 885.414,
+    "speaker": "Guest",
+    "text": "Give me the money is also not a strong motivating case."
+  },
+  {
+    "start": 885.414,
+    "end": 885.514,
+    "speaker": "Host",
+    "text": "For"
+  },
+  {
+    "start": 885.514,
+    "end": 885.814,
+    "speaker": "Guest",
+    "text": "Go ahead."
+  },
+  {
+    "start": 885.814,
+    "end": 886.064,
+    "speaker": "Host",
+    "text": "sure."
+  },
+  {
+    "start": 886.164,
+    "end": 901.864,
+    "speaker": "Guest",
+    "text": "Let's talk about timing for a minute because this is something that we've talked about a lot on the show, but I think it's been a long time since we brought this back up. And I think this is an important thing for most engineers to be aware of when it comes to pay increases and the annual planning and schedule that goes into that."
+  },
+  {
+    "start": 902.164,
+    "end": 907.664,
+    "speaker": "Host",
+    "text": "You might be surprised just how long ago your pay raise was decided."
+  },
+  {
+    "start": 907.764,
+    "end": 908.164,
+    "speaker": "Guest",
+    "text": "Yeah."
+  },
+  {
+    "start": 908.884,
+    "end": 938.584,
+    "speaker": "Guest",
+    "text": "and budgeted for and a lot of companies do annual planning or at least four quarter continuous planning but usually annual planning where they sit down at the beginning of the fiscal year maybe a couple months even before the fiscal year and they say okay how are we looking for next year where are we going to spend what's our raise pool allocation going to be and then a manager has to sit down and decide how they're going to allocate the dollars between the team and even if your pay raise is scheduled on say your anniversary date rather than having everyone get their raise at the same time which is"
+  },
+  {
+    "start": 938.42,
+    "end": 946.17,
+    "speaker": "Guest",
+    "text": "which is often called a focal date or focal raises is that what they call that anyway focal review i don't know they use the word focal for some reason i don't i don't know"
+  },
+  {
+    "start": 946.17,
+    "end": 947.22,
+    "speaker": "Host",
+    "text": "I've never heard that either."
+  },
+  {
+    "start": 947.27,
+    "end": 950.17,
+    "speaker": "Guest",
+    "text": "you haven't heard focal no i've heard that"
+  },
+  {
+    "start": 950.17,
+    "end": 950.22,
+    "speaker": "Host",
+    "text": "Look"
+  },
+  {
+    "start": 950.22,
+    "end": 950.52,
+    "speaker": "Host",
+    "text": "at like two"
+  },
+  {
+    "start": 950.52,
+    "end": 950.67,
+    "speaker": "Host",
+    "text": "at me,"
+  },
+  {
+    "start": 950.67,
+    "end": 950.77,
+    "speaker": "Host",
+    "text": "companies"
+  },
+  {
+    "start": 950.77,
+    "end": 951.62,
+    "speaker": "Host",
+    "text": "I'm learning all kinds of stuff."
+  },
+  {
+    "start": 951.62,
+    "end": 957.27,
+    "speaker": "Guest",
+    "text": "yeah wow weird focal and focal and are you googling it now to see if i'm actually right yeah"
+  },
+  {
+    "start": 957.27,
+    "end": 959.67,
+    "speaker": "Host",
+    "text": "Yeah, seems vaguely right."
+  },
+  {
+    "start": 960.12,
+    "end": 962.748,
+    "speaker": "Guest",
+    "text": "focal versus anniversary merit raises a"
+  },
+  {
+    "start": 962.748,
+    "end": 962.848,
+    "speaker": "Host",
+    "text": "Okay."
+  },
+  {
+    "start": 962.848,
+    "end": 987.398,
+    "speaker": "Guest",
+    "text": "focal raise yeah so anyway that's a that's a google result so anyway you might be surprised just how long ago someone had to decide what your raise was going to be and so if you are like well my anniversary is coming up next week i better go talk to my manager you might literally be six months to 12 months late depending on when your anniversary date is or so i would say if you really want to get a big raise you"
+  },
+  {
+    "start": 987.508,
+    "end": 1000.558,
+    "speaker": "Host",
+    "text": "And you've got a special case that you want to make. Then you need to talk about this a long time ago. And you need to talk to the right person. So timing and the right person. And the right person is probably not your tech lead."
+  },
+  {
+    "start": 1000.708,
+    "end": 1002.708,
+    "speaker": "Host",
+    "text": "And the timing is not weeks before your."
+  },
+  {
+    "start": 1003.252,
+    "end": 1003.852,
+    "speaker": "Host",
+    "text": "Raise date."
+  },
+  {
+    "start": 1004.002,
+    "end": 1015.302,
+    "speaker": "Guest",
+    "text": "Yeah. I also think you acknowledge the job market and it is tougher to get a job now than it was five years ago. The balance of power may have shifted a little bit and this could be the company saying,"
+  },
+  {
+    "start": 1015.402,
+    "end": 1027.552,
+    "speaker": "Guest",
+    "text": "actually, we don't think we need to give you as big of a raise to keep you here. And it's, I mean, they're not kind of saying it explicitly, but we think you'll stay. I don't know. We don't think we have to spend as much on you."
+  },
+  {
+    "start": 1028.052,
+    "end": 1031.202,
+    "speaker": "Host",
+    "text": "Yeah. And that is certainly a mindset that's out there right now."
+  },
+  {
+    "start": 1031.252,
+    "end": 1043.704,
+    "speaker": "Guest",
+    "text": "Yeah. And you get to decide if that's true or not. I think five years at a company without ever applying for another job is a long time. And so I would tell you to do it anyways."
+  },
+  {
+    "start": 1043.754,
+    "end": 1044.754,
+    "speaker": "Host",
+    "text": "Ah, good point."
+  },
+  {
+    "start": 1044.754,
+    "end": 1058.954,
+    "speaker": "Guest",
+    "text": "And you might find that actually any job with even zero raise is pretty great right now. Or you might find something great and say, good, I have an alternative to just please, please, please, more money, please, please."
+  },
+  {
+    "start": 1059.604,
+    "end": 1060.054,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 1060.404,
+    "end": 1065.554,
+    "speaker": "Guest",
+    "text": "Should I tell my boss I'm thinking about leaving? No, I don't think I would tell your boss that."
+  },
+  {
+    "start": 1066.708,
+    "end": 1072.858,
+    "speaker": "Guest",
+    "text": "I would tell them, hey, I wanted a bigger raise and I actually expected a bigger raise, so I'm kind of sad I didn't get one."
+  },
+  {
+    "start": 1073.62,
+    "end": 1083.17,
+    "speaker": "Guest",
+    "text": "what can I do to make that happen? Because it's really important to me to feel like my efforts are rewarded and I feel like I've provided a lot of value and deserve to have that recognized financially."
+  },
+  {
+    "start": 1083.97,
+    "end": 1084.52,
+    "speaker": "Host",
+    "text": "Yep. Yeah."
+  },
+  {
+    "start": 1084.87,
+    "end": 1093.57,
+    "speaker": "Guest",
+    "text": "I think you might tell them, I don't know, if you're closer to leaving, I guess maybe it's worth bringing up, but it doesn't seem, I think you have some steps before there."
+  },
+  {
+    "start": 1093.67,
+    "end": 1100.62,
+    "speaker": "Host",
+    "text": "Yeah. And I think it's probably a polite fiction version of this narrative, right? Where you say something like the job market is getting better. I'm seeing lots of"
+  },
+  {
+    "start": 1100.34,
+    "end": 1109.44,
+    "speaker": "Host",
+    "text": "Seeing lots of opportunities and it's at this pay rate at this pay rate at my current salary, it is harder for me to to not engage with those."
+  },
+  {
+    "start": 1109.79,
+    "end": 1118.54,
+    "speaker": "Host",
+    "text": "It's harder for me to ignore them when the opportunities come to me, you know, and that's kind of a polite fiction version of I'm going to quit unless you pay me more."
+  },
+  {
+    "start": 1119.29,
+    "end": 1119.74,
+    "speaker": "Guest",
+    "text": "Yeah."
+  },
+  {
+    "start": 1120.5,
+    "end": 1128.2,
+    "speaker": "Host",
+    "text": "Should I tell my boss I'm thinking about leaving? Yeah, I mean, if you left right now, you are probably in for some period of unemployment,"
+  },
+  {
+    "start": 1128.4,
+    "end": 1136.1,
+    "speaker": "Host",
+    "text": "which is way worse than not a raise. It turns out that that costs you way more money than a few percentage points of smaller raise."
+  },
+  {
+    "start": 1136.1,
+    "end": 1147.536,
+    "speaker": "Guest",
+    "text": "Right. And as a general rule, I would not tell your boss you're thinking about getting another job that just raises all kinds of alarm bells, puts you on a list. I don't know. Just. Wait till you have an offer in hand,"
+  },
+  {
+    "start": 1147.686,
+    "end": 1159.986,
+    "speaker": "Guest",
+    "text": "then tell your boss you're thinking about leaving. And you'll be amazed at how fast an organization, an organization that otherwise needs like a year to prepare for raises and stuff, will quickly produce a raise for you."
+  },
+  {
+    "start": 1160.086,
+    "end": 1160.686,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 1161.636,
+    "end": 1162.836,
+    "speaker": "Guest",
+    "text": "Well, have we answered the question?"
+  },
+  {
+    "start": 1162.836,
+    "end": 1174.138,
+    "speaker": "Host",
+    "text": "I think so. Good luck. This is a good opportunity to revisit some pay raise fundamentals. Make sure to make a really good case, get the timing right and talk to the right person. And if none of that works out, then go get a new job."
+  },
+  {
+    "start": 1174.138,
+    "end": 1176.338,
+    "speaker": "Host",
+    "text": "All right, Dave, will you read our next question?"
+  },
+  {
+    "start": 1176.888,
+    "end": 1183.788,
+    "speaker": "Guest",
+    "text": "Yes, this comes from an anonymous listener who says, hi there, I'm about four years into my career. I'm at my second job after leaving university."
+  },
+  {
+    "start": 1183.988,
+    "end": 1197.288,
+    "speaker": "Guest",
+    "text": "This was at a firm under 50 employees and the current firm is a firm with a global footprint and several thousand employees. Both are in Europe. I moved to Europe on a work visa as a pathway to citizenship."
+  },
+  {
+    "start": 1197.688,
+    "end": 1199.988,
+    "speaker": "Guest",
+    "text": "I've never felt like either my past or current job"
+  },
+  {
+    "start": 1200.0,
+    "end": 1204.5,
+    "speaker": "Guest",
+    "text": "My current employer has taken advantage of my situation, but it's important that I keep my job."
+  },
+  {
+    "start": 1205.788,
+    "end": 1215.738,
+    "speaker": "Guest",
+    "text": "At both employers, I generally work one weekend day a week to meet expectations. And I'm just going to insert an editorial comment. That's six day work weeks then. So five work days plus a weekend day."
+  },
+  {
+    "start": 1215.888,
+    "end": 1218.988,
+    "speaker": "Host",
+    "text": "Not a one-day work week. That would be it. That'd be sick."
+  },
+  {
+    "start": 1219.388,
+    "end": 1219.588,
+    "speaker": "Guest",
+    "text": "Yeah."
+  },
+  {
+    "start": 1219.588,
+    "end": 1220.038,
+    "speaker": "Host",
+    "text": "Whoa."
+  },
+  {
+    "start": 1220.888,
+    "end": 1228.288,
+    "speaker": "Guest",
+    "text": "I'm not the only one. Several of my colleagues do the same. For now, I have the time to work late as my significant other is back home. Soon they'll be moving over, however,"
+  },
+  {
+    "start": 1228.438,
+    "end": 1239.024,
+    "speaker": "Guest",
+    "text": "and they've made very clear that they will not be okay with me going into work every Saturday. Saturday. Maybe I'm paranoid. Maybe the expectations at work aren't clear. Maybe this is part of software. But basically,"
+  },
+  {
+    "start": 1239.424,
+    "end": 1249.474,
+    "speaker": "Guest",
+    "text": "how do I get to a point where I can check out on weekends and not feel guilty or like I'm falling behind? Do I need to work longer weekdays? Do I need to sacrifice promotions? Do I need to get better at saying no?"
+  },
+  {
+    "start": 1250.068,
+    "end": 1251.368,
+    "speaker": "Host",
+    "text": "hmm yeah"
+  },
+  {
+    "start": 1251.368,
+    "end": 1252.168,
+    "speaker": "Guest",
+    "text": "Great question."
+  },
+  {
+    "start": 1252.168,
+    "end": 1262.068,
+    "speaker": "Guest",
+    "text": "this is very interesting let me give my credentials for talking about this uh i don't have any never been on work visa never worked in europe um yeah"
+  },
+  {
+    "start": 1262.068,
+    "end": 1262.568,
+    "speaker": "Host",
+    "text": "So you're ready"
+  },
+  {
+    "start": 1262.568,
+    "end": 1262.718,
+    "speaker": "Guest",
+    "text": "there's"
+  },
+  {
+    "start": 1262.718,
+    "end": 1262.868,
+    "speaker": "Host",
+    "text": "to go."
+  },
+  {
+    "start": 1262.868,
+    "end": 1277.918,
+    "speaker": "Host",
+    "text": "there's some tricky bits here i've worked with people who were on visas of some kind in the united states but i mean we didn't like frequently discuss their their immigration status or anything but i could see how this is a"
+  },
+  {
+    "start": 1278.164,
+    "end": 1285.364,
+    "speaker": "Host",
+    "text": "a it kind of hangs over the work relationship of like and if you get fired then you have to go home yeah"
+  },
+  {
+    "start": 1285.364,
+    "end": 1285.964,
+    "speaker": "Guest",
+    "text": "I know."
+  },
+  {
+    "start": 1285.964,
+    "end": 1286.064,
+    "speaker": "Host",
+    "text": ""
+  },
+  {
+    "start": 1286.064,
+    "end": 1288.114,
+    "speaker": "Guest",
+    "text": "It is such a heavy burden."
+  },
+  {
+    "start": 1289.314,
+    "end": 1301.014,
+    "speaker": "Host",
+    "text": "even if even if you feel like they're not pushing you to just the circumstances conspire to make this i can see how this happens i just want to be extra sure i don't don't get sent home"
+  },
+  {
+    "start": 1301.764,
+    "end": 1311.832,
+    "speaker": "Guest",
+    "text": "Yeah, very, very challenging. The question is, can you navigate this? where you have your weekends to yourself and you keep your job and everyone's happy with your work."
+  },
+  {
+    "start": 1311.832,
+    "end": 1312.382,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 1312.782,
+    "end": 1316.182,
+    "speaker": "Guest",
+    "text": "And frankly, I'm surprised this question is coming out of Europe or"
+  },
+  {
+    "start": 1316.182,
+    "end": 1316.582,
+    "speaker": "Host",
+    "text": "Yeah,"
+  },
+  {
+    "start": 1316.582,
+    "end": 1316.682,
+    "speaker": "Guest",
+    "text": ""
+  },
+  {
+    "start": 1316.682,
+    "end": 1323.032,
+    "speaker": "Host",
+    "text": "I was wondering about that as well. I feel like aren't there contracts or regulation or something?"
+  },
+  {
+    "start": 1323.032,
+    "end": 1327.882,
+    "speaker": "Guest",
+    "text": "just culture, right? Like the general culture in Europe is this is rare."
+  },
+  {
+    "start": 1328.082,
+    "end": 1335.314,
+    "speaker": "Host",
+    "text": "Yeah. Yeah, how are they going to take their 12-week summer vacation if they have to go into work on Saturday and other days of the week?"
+  },
+  {
+    "start": 1336.764,
+    "end": 1343.218,
+    "speaker": "Guest",
+    "text": "maybe that's the negotiation it's like uh listen you got to work six days a week but then you have the month of august off Every year."
+  },
+  {
+    "start": 1343.218,
+    "end": 1350.618,
+    "speaker": "Host",
+    "text": "Yeah. Hmm. That's a good point. Well, I still don't know. My credentials apply to this as well. I don't know."
+  },
+  {
+    "start": 1350.818,
+    "end": 1363.418,
+    "speaker": "Guest",
+    "text": "See, that's the thing is the reason I am interested in this question is because I believe if there was ever a continent on this planet where you can pull off a five-day work week, it's Europe."
+  },
+  {
+    "start": 1364.436,
+    "end": 1367.486,
+    "speaker": "Guest",
+    "text": "And I don't know if there's something about your employer that's a little different"
+  },
+  {
+    "start": 1367.486,
+    "end": 1367.536,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 1367.536,
+    "end": 1378.586,
+    "speaker": "Guest",
+    "text": "or what, but there are probably for every job that requires a six day work week in Europe, there's probably a hundred other jobs with the same title that do it in five days or less."
+  },
+  {
+    "start": 1378.586,
+    "end": 1389.736,
+    "speaker": "Host",
+    "text": "Maybe those jobs don't hire people on work visas, though. Maybe there's some sorting here of the cushy 32-hour-a-week jobs go to people who are not."
+  },
+  {
+    "start": 1391.284,
+    "end": 1392.034,
+    "speaker": "Guest",
+    "text": "They don't have these"
+  },
+  {
+    "start": 1392.034,
+    "end": 1392.184,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 1392.184,
+    "end": 1397.134,
+    "speaker": "Guest",
+    "text": "implicit threats of better keep us happy or you get kicked out of the country."
+  },
+  {
+    "start": 1397.484,
+    "end": 1405.834,
+    "speaker": "Host",
+    "text": "Or rather, maybe another way to say that is those people get the job and then they work less and we can't fire them. It's kind of the opposite incentive here."
+  },
+  {
+    "start": 1406.452,
+    "end": 1411.302,
+    "speaker": "Guest",
+    "text": "yeah the fact that other people several of my colleagues do the same okay"
+  },
+  {
+    "start": 1411.302,
+    "end": 1411.752,
+    "speaker": "Host",
+    "text": "Yeah,"
+  },
+  {
+    "start": 1411.752,
+    "end": 1411.802,
+    "speaker": "Guest",
+    "text": ""
+  },
+  {
+    "start": 1411.802,
+    "end": 1414.352,
+    "speaker": "Guest",
+    "text": "that tells me it might be more cultural, like company culture."
+  },
+  {
+    "start": 1415.052,
+    "end": 1433.702,
+    "speaker": "Host",
+    "text": "my naive optimistic surely everyone means well and there aren't any bad actors out there and everyone's trying their best side is saying yeah surely you could do this talk to your boss say listen keeping this job is so important to me i really want to work here i really want to stay here my immigration status is tied to it i want to do excellent work"
+  },
+  {
+    "start": 1433.556,
+    "end": 1460.456,
+    "speaker": "Guest",
+    "text": "work and i will work as hard as i possibly can during the week to do that check out all these awesome things i've done etc look at my track record i need my weekends i've i've got to do that to stay sane and be effective at work and i've got uh this family stuff here so without uh i don't know maybe maybe extenuating circumstances i would just like to plan in on coming in during the week and having the weekends to myself myself"
+  },
+  {
+    "start": 1461.044,
+    "end": 1464.794,
+    "speaker": "Guest",
+    "text": "But I want to make it clear, I really want to do great work still, like you just keep emphasizing"
+  },
+  {
+    "start": 1464.794,
+    "end": 1464.994,
+    "speaker": "Host",
+    "text": "Yeah."
+  },
+  {
+    "start": 1464.994,
+    "end": 1472.194,
+    "speaker": "Guest",
+    "text": "that and then actually do great work. But maybe there's somebody high up that just sees, oh, there's an empty desk on Saturday."
+  },
+  {
+    "start": 1472.444,
+    "end": 1480.844,
+    "speaker": "Host",
+    "text": "I mean, yeah, and that's why you've got to figure this out. So you've got some co-workers who are doing this. I wonder what the co-workers who aren't doing this think."
+  },
+  {
+    "start": 1480.944,
+    "end": 1492.2,
+    "speaker": "Guest",
+    "text": "Yeah, that's a good question. Are there folks in the same immigration status that also aren't doing it? Is if it's literally everybody here on a work visa. That will stick out more and sound scarier."
+  },
+  {
+    "start": 1492.3,
+    "end": 1501.3,
+    "speaker": "Host",
+    "text": "So you need to do a lookalike study that advertisers are famous for so you can figure out, you can A-B test your way into figuring out what needs to happen here."
+  },
+  {
+    "start": 1501.3,
+    "end": 1501.9,
+    "speaker": "Guest",
+    "text": "Wait, what?"
+  },
+  {
+    "start": 1501.9,
+    "end": 1507.35,
+    "speaker": "Host",
+    "text": "A lookalike study, this is where you find cohorts of people that share a commonality."
+  }
+]

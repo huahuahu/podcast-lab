@@ -1,0 +1,807 @@
+[
+  {
+    "start": 0.052,
+    "end": 4.002,
+    "speaker": "Host",
+    "text_en": "用 Let 声音 the change come. 碰撞世界 生动活泼",
+    "text": "让变化到来。碰撞世界，生动活泼。"
+  },
+  {
+    "start": 14.2,
+    "end": 41.578,
+    "speaker": "Host",
+    "text_en": "Hello大家好,我是丁教,欢迎来到今天的科技早知道 那今天我们想聊一下这个 OPC 这个话题 电商时代很多人都想自己做一家 OPC,也就是 One Person Company,一人公司 一个人在家,几个 agent可以做掉过去一整个团队的工作 那今天我们的嘉宾是 Gumroad 的创始人,他是小而美这本书的作者 然后这本书的英文名字叫做 The Minimalist Entrepreneurs 然后作者叫做 Sahil Lavinia Yeah.",
+    "text": "Hello 大家好，我是丁教，欢迎来到今天的《科技早知道》。今天我们想聊聊 OPC 这个话题。AI 时代，很多人都想自己做一家 OPC，也就是 One Person Company，一人公司。一个人在家，配上几个 agent，就能干掉过去一整个团队的工作。今天我们的嘉宾是 Gumroad 的创始人，他也是《小而美》这本书的作者。这本书的英文名叫 The Minimalist Entrepreneur，作者是 Sahil Lavingia。"
+  },
+  {
+    "start": 43.078,
+    "end": 97.694,
+    "speaker": "Host",
+    "text_en": "如果说今天大家讨论的这个O-P-C啊 是AI火了之后才出现的概念 的话 那我觉得很有可能可以算 得上是这个领域的OG了 Gumroad一开始的时候确实是一家非小而美的公司 他们 是完全走了硅谷那种标准的 融资路径啊 拿投资 招团队 然后这个追求增长 但是因为增长 的速度啊不如VC的预期 所以他们没有能够融到B轮 论 然后公司被迫大幅度裁员 从二十多人团队 然后到 几个人 甚至有一段时间其实就剩下了创始人扫修自己 那也就是在这个过程当中 Gumroad才变成了一家小并且高自动化然后持续盈利的公司 那所以对今天想要做 OPC然后独立创业或者是想用AI放大个人杠杆的这些创业者来说呢 它的经验其实还是蛮有参考价值",
+    "text": "如果说今天大家讨论的这个 OPC，是在 AI 火了之后才出现的概念，那我觉得 Sahil 很可能算得上这个领域的 OG 了。Gumroad 一开始确实不是一家小而美的公司，他们完全走的是硅谷那种标准融资路径：拿投资、招团队、追求增长。但因为增长速度不如 VC 的预期，所以他们没能融到 B 轮，公司也被迫大幅裁员，从二十多人的团队缩到几个人，甚至有一段时间其实就只剩下创始人 Sahil 自己。也正是在这个过程中，Gumroad 才变成了一家小而高度自动化、而且持续盈利的公司。所以对于今天想做 OPC、独立创业，或者想用 AI 放大个人杠杆的创业者来说，它的经验其实还是很有参考价值的。"
+  },
+  {
+    "start": 97.492,
+    "end": 126.196,
+    "speaker": "Host",
+    "text_en": "价值的 比如在Agent的帮助之下 Gumroad作为一个年入两千万美元的公司 他们现在从技术到客服人员是怎么设置的 然后如果从来异变的话 他们会更加重投入市场呢 还是产品 当然啦 也有他在前些年参加马斯克的Dogecoin就是政府效率部门之后 他又加入了RS 就是美国税务局的一些他的思考 如果你想要做OPC 具体节目或许会对你有一些启发 啊",
+    "text": "比如说，在 agent 的帮助之下，Gumroad 作为一家年收入 2000 万美元的公司，他们现在从技术到客服人员是怎么配置的？如果重来一遍的话，他们会更愿意把投入放在市场还是产品上？当然，还有他前些年参加马斯克的 DOGE，也就是政府效率部门之后，又加入 IRS，也就是美国国税局的一些思考。如果你想做 OPC，这期节目或许会给你一些启发。"
+  },
+  {
+    "start": 128.446,
+    "end": 135.096,
+    "speaker": "Host",
+    "text_en": "那这期是一个英文的访谈按照惯例我还是会一开始把内容用中文跟大家先总结一下",
+    "text": "这期是一次英文访谈，按照惯例，我还是会先用中文给大家做个总结。"
+  },
+  {
+    "start": 135.346,
+    "end": 143.946,
+    "speaker": "Guest",
+    "text_en": "So yeah, I started building stuff when I was a kid, I guess, you know, starting with Photoshop and web design and had access to those tools that I saw.",
+    "text": "对，我大概从小时候就开始做各种东西了，一开始是用 Photoshop、做网页设计，也接触到了我当时能看到的那些工具。"
+  },
+  {
+    "start": 144.5,
+    "end": 197.87,
+    "speaker": "Guest",
+    "text_en": "Kassandra还有自己的创业故事其实还是蛮硅谷的 她很早就开始做自己的一些小东西 比如说是玩这个PhotoShop 然后做网站然后后来学习了这个iPhone的开发然后在App Store上发布了自己的应用等等 后来Pinterest创始人看到她的作品之后就邀请她加入团队 她应该是Pinterest第二位员工 那个时候她还是在读大学 只读了一个学期 然后她就决定退学了 然后去加入了Pinterest 后来没有过多久啊大概过了一年多之后吧他就开始创办了自己的公司叫做Gumroad一开始的时候啊他也是走的这种非常典型的硅谷的路径融资扩张招人追求高速度的这样的增长但是呢Gumroad后来的发展其实是并没有按照OBC的预期它是一个好生意然后有收入然后也有用户的增长但并不是那种指数级爆发的增长",
+    "text": "Kassandra 自己的创业故事其实也挺硅谷的。她很早就开始做一些自己的小项目，比如玩 Photoshop、做网站，后来又学了 iPhone 开发，在 App Store 上发布自己的应用等等。后来 Pinterest 的创始人看到她的作品，就邀请她加入团队。她应该算是 Pinterest 的第二位员工。那时候她还在上大学，只读了一个学期，就决定退学去加入 Pinterest。后来没过多久，大概一年多之后吧，她就开始创办自己的公司，叫 Gumroad。一开始她走的也是非常典型的硅谷路径：融资、扩张、招人、追求高速增长。但 Gumroad 后来的发展其实并没有符合 VC 的预期。它是一门好生意，有收入，也有用户增长，但不是那种指数级爆发的增长。"
+  },
+  {
+    "start": 198.29,
+    "end": 235.492,
+    "speaker": "Host",
+    "text_en": "于是Garmin Road其实后来 就裁员了 然后团队缩到很小 在又很长一段时间 他就搬到了其他的城市 然后几乎是一个人把公司维持了下来 再后来又到了疫情期间 创作者经济爆发了 然后Garmin Road其实又迎来了一波增长 那他们现在仍然是一家年收入将近 两千万级别的这样子的一个 公司 但他的团队还是相对来说 还是蛮小的 咱们又自己在节目里面说啊 他们现在核心是三个工程师 然后加上兼职的一个CFO 然后加上兼职的法务 然后还有一点五个客服人员",
+    "text": "于是 Gumroad 后来就裁员了，团队缩得很小。又有很长一段时间，他搬到了别的城市，几乎是一个人把公司撑了下来。再后来到了疫情期间，创作者经济爆发，Gumroad 其实又迎来了一波增长。他们现在仍然是一家年收入接近 2000 万美元的公司，但团队还是相对很小。Sahil 自己在节目里也说，他们现在核心团队是 3 个工程师，再加上兼职 CFO、兼职法务，还有 1.5 个客服人员。"
+  },
+  {
+    "start": 235.892,
+    "end": 267.946,
+    "speaker": "Host",
+    "text_en": "那很多的客服和运营流程啊其实都用AI agent可以完全处理掉了 这段经历对于他来说还是蛮重要的,因为萨希尔并不是说站在我要鼓吹大家全都是去做艺人公司的这个位置上讲话,他是真实地经历过这个融资扩张的这个VC模式,然后也是经历过这种非常精简,然后以盈利优先,然后自主的这种小公司的模式。所以当我们现在重新再谈OPC 的时候, 他的判断我觉得还是会有一些超越周期的借鉴意义的。 Lido.",
+    "text": "其实很多客服和运营流程，现在用 AI agent 都已经可以完全处理掉了。这段经历对他来说还是挺重要的，因为 Sahil 并不是站在“我要鼓吹大家都去做艺人公司”这个立场上讲话，他是真实经历过那种融资、扩张的 VC 模式，也经历过那种非常精简、以盈利优先、更加自主的小公司模式。所以我们现在重新来谈 OPC 的时候，我觉得他的判断还是有一些能穿越周期的参考价值。Lido。"
+  },
+  {
+    "start": 268.396,
+    "end": 281.446,
+    "speaker": "Guest",
+    "text_en": "Like people say one person company, I would say four people. And the reason is you want one engineer who's awake 12 hours a day and then you need another engineer who's awake the other 12 hours a day and then you need the same for customer support.",
+    "text": "大家都在说 one person company，但我会说，应该是四个人。原因是，你需要一个工程师每天清醒 12 个小时，然后还需要另一个工程师负责另外 12 个小时，客服支持也是一样。"
+  },
+  {
+    "start": 282.42,
+    "end": 350.144,
+    "speaker": "Host",
+    "text_en": "这些里面我觉得有一个非常有意思点就是它并不认为一人公司就真的只能有一个人大家现在说的OPC很容易想象就是一个人加几个AI agent然后就可以不需要团队了但享秀说如果真想要给你的用户提供很好的体验的话可能最后不是一个人而是四个人那四个人呢产品客服各两个然后他们两班倒 那为什么呢那比如说是 Gumroad 现在大量的客服已经是由 AI 来处理了他们说当然可能后面完全是可以用 AI 来代替但是呢如果用户发来问题然后需要一个非常好的用户体验的时候还是需要人在最后处理一些比较复杂的问题特别是当 AI 可能解决不了的一些问题的时候用户不应该等很长的时间而是应该有一个非常厉害的人类然后马上进来接手把问题处理掉 比较所以它想象的这个极简的公司里面并不是完全没有人而是有一个非常小的团队然后负责产品工程研发等等然后有人负责这个用户和支持第二个",
+    "text": "这里面我觉得有一个特别有意思的点，就是他并不认为一人公司就真的只能有一个人。现在大家说 OPC，很容易想象成一个人加几个 AI agent，然后就完全不需要团队了。但 Sahil 说，如果你真的想给用户提供很好的体验，最后可能不是一个人，而是四个人。这四个人里，产品和客服各两个人，两班倒。为什么呢？比如 Gumroad 现在大量客服已经是由 AI 在处理了，他们也说，当然未来可能完全可以由 AI 替代。但是如果用户发来问题，而你又想提供非常好的用户体验，那最后还是需要人来处理一些更复杂的问题。特别是当 AI 解决不了的时候，用户不应该等很长时间，而是应该有一个很厉害的人类立刻接手，把问题处理掉。所以他想象中的这种极简公司，并不是完全没有人，而是有一个非常小的团队，负责产品、工程、研发等等，同时也有人负责用户和支持。第二个。"
+  },
+  {
+    "start": 350.144,
+    "end": 360.344,
+    "speaker": "Guest",
+    "text_en": "The building stuff is not even a differentiator at this point. So it's even more about who are you building for? And then what problem are you solving for them? And then how are you solving them?",
+    "text": "到了现在这个阶段，光是把东西做出来，甚至都不算差异化优势了。所以更重要的是，你到底是在为谁做？你在帮他们解决什么问题？以及你是怎么解决的？"
+  },
+  {
+    "start": 361.094,
+    "end": 418.002,
+    "speaker": "Host",
+    "text_en": "我觉得他讲的一个比较重要的点就是AI可以帮你写 你写代码但是不能够帮你找到客户 我问撒秀 现在其实coding的门槛越来越低 大家都可以外部code的 那让AI写一个应用那是不是小产品其实是反而更难推广更难卖了 那以前可能写软件是一种门槛 现在每个人都可以让自己的agent去写一款健身追踪 比如说是日程管理各种小工具的 那用户为什么还需要买你 按你的那算她自己的回答也很直接她说啊你当然不可能只花十五分钟然后让 agent做一个 AI 的 app 然后就指望它能赚很多的钱这个有点太天真了如果你真的是懂这个领域懂这个赛道然后花一个周末能够做出一个很完整能够真正解决用户实际问题的这个软件比如说是给承包商管理排期发票库存合同的工具稍微复杂一些的",
+    "text": "我觉得他说的一个很重要的点就是，AI 可以帮你写代码，但不能帮你找到客户。我问 Sahil，现在 coding 的门槛其实越来越低了，大家都可以让外部工具去 code，让 AI 写一个应用。那是不是小产品反而更难推广、更难卖了？以前写软件本身可能是一种门槛，现在每个人都可以让自己的 agent 去做一个健身追踪、日程管理之类的各种小工具，那用户为什么还要买你的？他的回答也很直接，他说你当然不可能只花 15 分钟，让 agent 做一个 AI app，然后就指望它赚很多钱，这就有点太天真了。如果你真的懂这个领域、懂这个赛道，然后花一个周末做出一个很完整、能够真正解决用户实际问题的软件，比如给承包商管理排期、发票、库存、合同的工具，这种稍微复杂一点的。"
+  },
+  {
+    "start": 418.45,
+    "end": 474.794,
+    "speaker": "Host",
+    "text_en": "它是仍然可以卖钱的 在过去你可能需要花六个月的时间才能把这样的一款软件做出来 那现在可能一个周末就能做出一版 进行迭代 所以AIA真正改变的其实不是产品自动帮你赚钱 而是它的试错成本变得更低了 但是最核心的问题始终都没有变化 你到底为谁在做这样的一个产品 这样的一个产品是否真正解决了用户的痛点 这也是 Sachio在回看小而美这本书 的写作的时候说到的一个变化 我问他如果今天要重写这本书的话他会做出一些什么改动 他回答就是说他可能会少用 community这一个词 因为这个词现在已经被说得有点太多了 太模糊了 可能更直接的说法就是 谁是你的客户 然后 你想让谁的生活变得更加 加美好那AI时代呢build变得越来越便宜那真正稀缺的可能就是这样子的一个判断第三",
+    "text": "它还是可以卖钱的。过去你可能需要花六个月才能把这样一款软件做出来，现在可能一个周末就能先做出一个版本，再继续迭代。所以 AI 真正改变的，其实不是产品会自动帮你赚钱，而是你的试错成本变得更低了。但最核心的问题始终没有变：你到底是在为谁做这个产品？这个产品是不是真的解决了用户的痛点？这也是 Sahil 在回看《小而美》这本书写作时提到的一个变化。我问他，如果今天重写这本书，他会做哪些改动？他的回答是，他可能会少用 community 这个词，因为这个词现在已经被说得太多了，也太模糊了。可能更直接的说法就是：谁是你的客户？你想让谁的生活变得更美好？在 AI 时代，build 变得越来越便宜，真正稀缺的可能就是这样的判断力。第三。"
+  },
+  {
+    "start": 474.794,
+    "end": 484.494,
+    "speaker": "Guest",
+    "text_en": "At the end of the day, let's say you have a product that you've built and it's amazing, and someone else has a product and it's not even as good as your product, but they have humans selling it.",
+    "text": "说到底，假设你做出了一个产品，而且非常棒；另一个人也有一个产品，甚至还没你的产品好，但他们有人在卖。"
+  },
+  {
+    "start": 485.194,
+    "end": 549.662,
+    "speaker": "Host",
+    "text_en": "点我觉得对很多创业者产品人或者是像我们这种的内容创作者都会有启发就是最好的软件不一定是当赢的 像是我啊 故事啊 还有这个产品的人味非常的重要 早就很坦诚地聊到了当时这个他和他的竞争对手Patreon的对比那Gumroad很长的一段时间都非常注重产品 注重设计他自己也承认他自己更加喜欢去做产品不是很喜欢做市场和推销但 Patreon在创作者市场里面其实后面做得更大一个很重要原因就是他们 更擅长做市场营销 更擅长讲故事 然后更懂一些创作者的群体尤其适合这个YouTube 音乐人啊 粉丝经济的那一套 那这点在AI时代其实也蛮重要的因为当工具越来越容易做的话 那软件本身也越来越容易被复制真正能拉开差距的其实不是 我也能做一样的功能而是你是不是理解这一群 你的受众的这一群人 你是不是真的懂他们的痛点 然后是不是能够",
+    "text": "这一点我觉得对很多创业者、产品人，或者像我们这样的内容创作者，都会很有启发：最好的软件不一定就会赢。像故事、像产品里的人味，其实都非常重要。Sahil 也很坦诚地聊到了当年他和竞争对手 Patreon 的对比。Gumroad 在很长一段时间里都非常注重产品、注重设计，他自己也承认，他更喜欢做产品，不是那么喜欢做市场和销售。但 Patreon 后来在创作者市场里做得更大，一个很重要的原因就是他们更擅长做市场营销，更擅长讲故事，也更懂创作者群体，尤其更适合 YouTube、音乐人、粉丝经济那一套。这一点在 AI 时代其实也很重要，因为当工具越来越容易做，软件本身也越来越容易被复制，真正能拉开差距的，其实不是“我也能做一样的功能”，而是你是不是真的理解你的受众，真的懂他们的痛点，然后是不是能够。"
+  },
+  {
+    "start": 549.888,
+    "end": 580.86,
+    "speaker": "Host",
+    "text_en": "用他们懂得的语言把产品真正的讲给他们听是不是能跟这一群人建立信任所以早又说如果是一个技术创始人今天要招一个人的话他觉得应该是销售因为有的时候用户不是在理性的比较两个产品的功能一个AI自动生成的邮件也许挺好的但如果有一个真人在认真地听你讲然后理解你的问题给你 建立人和人之间的连接的话仍然可能会影响这个客户",
+    "text": "用他们听得懂的语言，真正把产品讲给他们听，是不是就能跟这群人建立信任。所以Sahil也说，如果一个技术创始人今天要招第一个人，他觉得应该招销售。因为很多时候，用户并不是在理性比较两个产品的功能。一个AI自动生成的邮件也许也不错，但如果有一个真人认真听你讲，理解你的问题，帮你建立人与人之间的连接，还是有可能影响这个客户的决定。"
+  },
+  {
+    "start": 581.11,
+    "end": 590.36,
+    "speaker": "Guest",
+    "text_en": "I think that actually more people want to be entrepreneurs. They just don't want to run the business, right? So like, let's say you have an amazing barista.",
+    "text": "我觉得其实更多人是想当创业者的，他们只是不想经营公司，对吧？比如说，你有一个特别厉害的 barista。"
+  },
+  {
+    "start": 591.252,
+    "end": 664.028,
+    "speaker": "Host",
+    "text_en": "第四个讨论我觉得是非常有意思的我自己觉得也是蛮开脑洞的就是官员会不会接受CEO的这个工作萨希尔提到了一个还蛮有意思的想象就是很多人创业其实他们不想经营公司比如说是很厉害的一个咖啡师他可能只是享受做咖啡这件事情而已那比如说是财务税务供应链法律工资库存等等这些很繁琐的事情 他实际上是不想自己做的未来有没有可能AI变成了CEO大量处理这种公司运营的功能而人类可以专注于自己做最擅长的最有创造力然后最享受的那一部分工作过去 的创业其实意味着你不仅仅只需要做产品然后包括变成老板之后要处理的很多鸡毛蒜皮的事情你要变成管理员HR财务负责人法务接口等等等等 等等那未来可能会有这样的一种新的形态的出现就是说你仍然拥有这家公司但是AI会替你处理大量的这种机器运转的部分你更像是这一个事业里面最核心的创作者或者就是手艺人对那虽然今天还不能完全实现但是我觉得它提供了一个蛮有意思的方向吧",
+    "text": "第四个讨论我觉得非常有意思，我自己也觉得挺开脑洞的，就是官员会不会接受 CEO 这份工作。Sahil 提到了一个还蛮有意思的设想：很多人创业，其实并不想经营公司。比如一个很厉害的咖啡师，他可能只是享受做咖啡这件事本身而已。像财务、税务、供应链、法律、工资、库存这些很繁琐的事情，他其实并不想自己做。未来有没有可能是 AI 变成 CEO，大量处理这种公司运营的工作，而人类可以专注在自己最擅长、最有创造力、也最享受的那部分？过去创业其实意味着，你不只是要做产品，等你成了老板之后，还要处理很多鸡毛蒜皮的事。你得变成管理员、HR、财务负责人、法务接口等等等等。未来也许会出现一种新的形态：你仍然拥有这家公司，但 AI 会替你处理大量这种机器运转的部分，你更像是这份事业里最核心的创作者，或者就是那个手艺人。虽然今天还不能完全实现，但我觉得它确实提供了一个很有意思的方向。"
+  },
+  {
+    "start": 664.378,
+    "end": 670.628,
+    "speaker": "Host",
+    "text_en": "就是AI不会让每个人都变成CEO而是让更多人不被CEO的这些杂物给困住",
+    "text": "也就是说，AI 不会让每个人都变成 CEO，而是让更多人不再被 CEO 的这些杂务困住。"
+  },
+  {
+    "start": 671.668,
+    "end": 678.64,
+    "speaker": "Guest",
+    "text_en": "I still work 40 hours for the IRS currently. But four days a week and weekends and I think about it a lot",
+    "text": "我现在仍然每周为 IRS 工作 40 个小时。不过是一周四天，再加上周末，我会经常想这件事。"
+  },
+  {
+    "start": 678.99,
+    "end": 738.644,
+    "speaker": "Host",
+    "text_en": "那第五个有意思的部分是微软最近进入美国政府系统之后的一些观察它曾经短暂参加过这个DoDGE就是政府效率部门就是马斯克做的那个项目它后来又加入了IRS然后也就是美国的税务局继续做它的政府数字化服务的相关的工作这一段经历挺特别的因为它一边在运营 迎个门然后一边在做这个机器庞大复杂非常缓慢的服务所有人的公共系统的这个数字化那他在节目里面其实也提到啊那创业公司和政府最大的区别就是创业公司可以选择客户但是政府不行政府必须服务所有人政府软件难做的地方就是它不仅仅只是要把这个界面做得好看而是要想怎么样能够把原本要打电话呀寄信 现在排队填纸质表格的这些流程变成普通人可以在线完成 的服务而且还得这个男女老少 都能用得上手",
+    "text": "第五个有意思的部分，是她最近进入美国政府系统之后的一些观察。她之前短暂参与过 DoDGE，也就是政府效率部门，就是马斯克做的那个项目。后来她又加入了 IRS，也就是美国税务局，继续做政府数字化服务相关的工作。这段经历挺特别的，因为她一边在运营创业公司，一边又在做这个庞大、复杂、非常缓慢、但要服务所有人的公共系统的数字化。她在节目里也提到，创业公司和政府最大的区别就是，创业公司可以选择客户，但政府不行，政府必须服务所有人。政府软件难做的地方，不只是把界面做得好看，而是要想办法把原本需要打电话、寄信、排队、填纸质表格的流程，变成普通人可以在线完成的服务，而且还得男女老少都能上手。"
+  },
+  {
+    "start": 739.294,
+    "end": 773.704,
+    "speaker": "Host",
+    "text_en": "她举了一个例子 在美国过去的这个DNV 也就是美国的这个交管部门吧 过去她的这个线上的体验非常非常的差 但是这几年很多州通过线上的这个自助服务然后 已经得到了明显的改善 所以她希望IRS然后也能够完成 类似的转变 那这部分让我其实感觉 到小而美的讨论其实 其实不仅仅只是聊创业公司效率问题 AI和软件当然可以让小团队更加有杠杆 但他们也可以让那些庞大的 低效的 影响很多人的公共的系统变得更加好用一些",
+    "text": "她举了一个例子。在美国，过去的 DMV，也就是车管部门，线上体验一直非常非常差。但这几年，很多州通过线上自助服务，已经有了明显改善。所以她也希望 IRS 能完成类似的转变。这部分其实让我感觉到，“小而美”的讨论不只是创业公司效率的问题。AI 和软件当然可以让小团队更有杠杆，但它们也可以让那些庞大、低效、却影响很多人的公共系统变得更好用一些。"
+  },
+  {
+    "start": 774.324,
+    "end": 788.524,
+    "speaker": "Guest",
+    "text_en": "like i would be thinking the minimalist entrepreneur like it is minimalist but it's the goal isn't like reduction to zero you know like i enjoy i i want to have a company that i actually enjoy working on i don't want to go to zero because then i have to do something else",
+    "text": "我会这样理解 minimalist entrepreneur：它确实是“极简”的，但目标并不是把一切都降到零。你知道吗，我还是想拥有一家我自己真的享受去经营的公司。我不想降到零，因为那样我就得去做别的事情了。"
+  },
+  {
+    "start": 792.66,
+    "end": 860.572,
+    "speaker": "Host",
+    "text_en": "总结一下 这些并不是一个简单 的AI时代遗言公司OPC要怎么做的一期节目 我 觉得我可能有三个take away吧 就是AI让创作者的这个门槛 执行门槛降低了 但是没有降低判断门槛 还是要知道你的客户是谁 然后谁会为你买单 那这个其实没有变的 那第二个就是AI可以让公司变小 但是人还是非常的重要 特别是销售啊 哇故事啊 现任用户理解这些东西暂时还是没有办法能够用AI直接去替代 甚至是可能如果有人来去做的话 会让你的产品更加这个优于竞争对手的产品 然后第三就是小而美不是越小越好 也不是最好就是公司里没人 它反而像是一种选择权 创始人可以决定自己想要多大的公司 然后想要承担多少的管理 你然后想要把时间花在什么事情上面 I觉得SoundHound不是在鼓吹大家去创业也不是说AI会让创业变 得更加的轻松它更像是说呃当工具变得足够强 的时候",
+    "text": "To sum it up, this isn’t just a simple episode about what an AI-era last-word company or OPC should do. I think I probably have three takeaways. First, AI has lowered the execution barrier for creators, but it hasn’t lowered the judgment barrier. You still need to know who your customers are and who will actually pay you. That part hasn’t changed. Second, AI can make companies smaller, but people are still extremely important—especially in sales, storytelling, and understanding existing users. For now, those things still can’t be directly replaced by AI. In fact, if someone does them well, it can make your product better than competitors’. Third, small and beautiful doesn’t mean the smaller the better, and it’s not ideal for a company to have no one in it. It’s more like a matter of choice. Founders can decide how big they want their company to be, how much management they want to take on, and what they want to spend their time on. I think Sahil isn’t encouraging everyone to start a business, nor is he saying AI will make entrepreneurship easier. It’s more that when tools become powerful enough,"
+  },
+  {
+    "start": 861.524,
+    "end": 899.71,
+    "speaker": "Host",
+    "text_en": "大家终于有机会去重新选择一种属于自己的工作方式不是每个人都需要加入这个大公司然后不是每个公司都需要融资扩张你可以从一个真 实的客户开始从一个能收费的小产品开始可能这才是小而美在AI时代变得更加重要的原因 如果你正在思考AI时代的创业然后个人杠杆然后自由职业或者只想知道这个小而美这一套东西在今天还有没有意义我觉得这些可能会对你有一些启发欢迎大家继续收听节目的这个完整版嘉宾是Gumroad创始人小而美的作者Sahil Lavinia",
+    "text": "people finally get a chance to choose a way of working that truly suits them. Not everyone needs to join a big company, and not every company needs to raise money and scale. You can start with one real customer, with a small product people are willing to pay for. Maybe that’s why the idea of small and beautiful matters even more in the AI era. If you’re thinking about building a business in the AI era, personal leverage, freelancing, or just wondering whether this whole small-and-beautiful philosophy still means anything today, I think this episode may give you some inspiration. Stay tuned for the full episode. Our guest is Gumroad founder and the author of Small and Beautiful, Sahil Lavinia."
+  },
+  {
+    "start": 911.22,
+    "end": 944.172,
+    "speaker": "Host",
+    "text_en": "节目开始前想和大家分享一个消息 研究显示到2050 年全球将有一半人会近视 十分之一会高度近视 现在几乎所有国家都在谈论近视率的上升 我们的青少年播客Knock Knock世界本周就聊到这个话题 那节目除了从科学层面解释近视还解读了是什么因素让近视变成了一个全世界都重视的公共医疗问题 感兴趣的朋友可以点击单击简介中的链接收听",
+    "text": "Before we start, I want to share a quick update. Research shows that by 2050, half the world’s population will be nearsighted, and one in ten will have high myopia. Right now, almost every country is talking about rising myopia rates. Our youth podcast Knock Knock世界 covered this topic this week. The episode not only explains myopia from a scientific perspective, but also looks at what factors have turned it into a global public health issue. If you’re interested, you can click the link in the show notes to listen."
+  },
+  {
+    "start": 951.348,
+    "end": 965.148,
+    "speaker": "Host",
+    "text_en": "Yeah, back to your previous experience. So you worked at Pinterest for a year or so and then you went straight to start your own business. So you were 20 and then you raised tons of VC funding.",
+    "text": "对，说回你之前的经历。你在 Pinterest 工作了一年左右，然后就直接开始自己创业了。所以你当时 20 岁，然后还拿到了很多 VC 融资。"
+  },
+  {
+    "start": 965.348,
+    "end": 972.148,
+    "speaker": "Guest",
+    "text_en": "Yeah, I raised a million, $1.1 million seed round February or May or something of the next year.",
+    "text": "对，我在第二年大概 2 月或者 5 月的时候，拿到了一笔 110 万美元的种子轮融资。"
+  },
+  {
+    "start": 972.628,
+    "end": 994.478,
+    "speaker": "Guest",
+    "text_en": "um i raised a series a which was like a seven million dollar i think round from planet perkins led that round that was like the first time i was like oh this is really like serious before it was kind of like i'm doing this thing and it's kind of weird but it feels like a reality tv show but then i was like oh wow i have a board and a series a and like seven million dollars and a team and an office",
+    "text": "嗯，后来我又融了 A 轮，我记得大概是 700 万美元，由 Kleiner Perkins 领投。那是我第一次觉得，哦，这事真的开始变得严肃了。在那之前更像是，我在做这么一件事，感觉有点奇怪，甚至有点像真人秀。但到了那时候，我就觉得，哇，我有董事会了，有 A 轮融资，有 700 万美元，还有团队和办公室。"
+  },
+  {
+    "start": 995.316,
+    "end": 1021.066,
+    "speaker": "Guest",
+    "text_en": "okay now i'm like locked in like four years or five years or whatnot and this is working on all the time you know live work and you know kind of experience we still do that today we just do it with a very small team of about five back then we grew to about 25 at peak we were about to run out of money we got a bridge from klein of perkins two million dollars and so at this point we'd raised about 10 total",
+    "text": "好吧，那时候我就感觉自己被彻底绑进来了，接下来四五年都得全力投入这件事。你知道，就是那种工作和生活完全混在一起的状态。其实我们今天还是这样，只不过现在团队非常小，大概只有 5 个人。那时候我们最高峰涨到大概 25 个人。后来我们快没钱了，Kleiner Perkins 又给了我们一笔 200 万美元的过桥融资。所以到那个时候，我们总共大概融了 1000 万美元。"
+  },
+  {
+    "start": 1021.812,
+    "end": 1044.862,
+    "speaker": "Guest",
+    "text_en": "and we basically had about a year to like get to profitability we failed we failed to raise a series b around the funding so we basically downsized we laid everyone off we went down to three employees and then just down to me and then i basically just ran the business myself we got rid of the office uh for about uh five years from like",
+    "text": "然后我们基本上只有大概一年的时间去做到盈利。结果我们失败了，也没能融到 B 轮。所以我们就开始缩编，把所有人都裁掉了，先缩到 3 个员工，最后只剩我一个人。之后基本上就是我自己一个人在运营这家公司。我们也把办公室退掉了。大概有 5 年时间，差不多从"
+  },
+  {
+    "start": 1045.492,
+    "end": 1072.442,
+    "speaker": "Guest",
+    "text_en": "2015 covid basically happening and just kind of break even skeleton grew profitable a couple contractors helping out here and there and then covid happened and that was our moment of like well we're like growing like super fast that was really working like again like all the time for like two years three years it wasn't planned for um it was fully remote and then that ended in like 2023 2024 interest",
+    "text": "2015 年的时候，基本上就是勉强收支平衡，靠一个精简到骨架的团队慢慢做到了盈利，再找几个合同工零零散散帮点忙。后来 covid 来了，那就是我们的关键时刻，我们的增长速度一下子变得特别快。那段时间真的又回到了那种一直不停工作的状态，持续了差不多两三年，也不是提前计划好的。公司当时是完全远程办公，后来大概到 2023、2024 年那阵子就结束了，利率也开始上升。"
+  },
+  {
+    "start": 1072.942,
+    "end": 1100.456,
+    "speaker": "Guest",
+    "text_en": "rates went up we increased our pricing now we're like a very nicely profitable business we have great finance function legal function all all you need to run a business you know i can basically run it a day a week and then i work at the irs i still work 40 hours for the irs currently but four days a week now like if you go back to 2015 right when i laid everyone off we got to profitable",
+    "text": "利率涨上去了，我们也提高了价格。现在我们已经是一家盈利状况很不错的公司了，财务职能、法务职能这些经营公司需要的东西都很完善。你知道的，我现在基本上一周花一天就能把公司运转起来。然后我还在 IRS 工作，我现在仍然每周给 IRS 工作 40 个小时，不过现在是四天工作制。你如果回到 2015 年看，当时我把所有人都裁掉之后，我们做到了盈利。"
+  },
+  {
+    "start": 1101.396,
+    "end": 1123.646,
+    "speaker": "Guest",
+    "text_en": "We had three people. After that, we have like two or three contractors to do support and bug fixes. If that happened today, I would probably not hire those humans, right? I would spend more time being like, how can we just have an AI agent automate these processes that someone has to do?",
+    "text": "当时我们有三个人。之后我们又找了两三个合同工来做客服支持和 bug 修复。如果这事发生在今天，我大概率不会去雇这些人了，对吧？我会花更多时间去想，怎么用 AI agent 把这些原本需要人来做的流程自动化。"
+  },
+  {
+    "start": 1124.532,
+    "end": 1146.882,
+    "speaker": "Guest",
+    "text_en": "whether it's customer support and you can't do it 100 but i think back then you could automate basically 20 of the work and so you had a human do 80 of the work uh and required like four to five hours a day not eight hours a day but each of these jobs was like enough where i would not do be able to do it sustainably i would just get burned out",
+    "text": "不管是客服支持还是什么，当然你做不到 100% 自动化，但我觉得放在当年，其实大概也能自动化掉 20% 的工作，然后让人来做剩下 80%。这样每个岗位可能每天只需要四到五个小时，而不是八个小时。但这些工作加起来已经够多了，多到我自己没法长期扛下来，不然我肯定会被累垮。"
+  },
+  {
+    "start": 1148.532,
+    "end": 1171.112,
+    "speaker": "Guest",
+    "text_en": "And I would have a job that I would not be able to get away from. And but today now, you know, AI agents would allow for basically probably something like. an hour a day or 15 minutes a day and i still have a team right so you can kind of but they're they're like a lot of the work they do is observing the ai and doing additional product development work and things like that",
+    "text": "而且我还会被这些工作绑住，根本脱不开身。但放到今天，AI agent 基本上可能能把这些工作压缩到一天一小时，甚至 15 分钟。而且我现在还是有团队的，所以你可以这么理解：他们现在做的很多工作，其实是在观察 AI 的运行情况，再加上一些额外的产品开发之类的事情。"
+  },
+  {
+    "start": 1171.812,
+    "end": 1178.812,
+    "speaker": "Host",
+    "text_en": "So for a first-time founder who want to start a tech company as for now, so do you think any...",
+    "text": "所以如果是一个第一次创业、现在想做一家科技公司的创始人，你觉得现在还有哪些……"
+  },
+  {
+    "start": 1179.38,
+    "end": 1199.73,
+    "speaker": "Guest",
+    "text_en": "Job functions are hard to replace these days or just not existent. As long as you know how to code, you know how to use agents, how you know how to deploy, you know architecture works and then you can just basically build everything by yourself. I mean, I think there's nothing that you can't have an agent do. It's more that there are just certain things that.",
+    "text": "现在很难被替代的岗位职能，其实已经不多了，甚至可以说几乎没有。只要你会写代码，知道怎么用 agent，知道怎么部署，懂架构是怎么运作的，那你基本上就能一个人把所有东西都做出来。我的意思是，我觉得几乎没有什么事情是 agent 做不了的。更多是有些事情……"
+  },
+  {
+    "start": 1200.0,
+    "end": 1224.6,
+    "speaker": "Guest",
+    "text_en": "are still time consuming even if you have an agent do the work and so if you just have a limited amount of time you're going to need to hire other humans right so for example even if we made a lot of like the monthly clothes financial book function bookkeeping functions at the company with ai we still have to pay taxes to a bunch of different countries and states every month every quarter every year",
+    "text": "即便交给 agent 去做，还是很耗时间。所以如果你的时间有限，你还是得雇其他人。比如说，就算我们已经用 AI 把公司每月结账、财务记账这类职能自动化了很多，我们每个月、每个季度、每年还是得给很多不同的国家和州报税、缴税。"
+  },
+  {
+    "start": 1225.204,
+    "end": 1247.51,
+    "speaker": "Guest",
+    "text_en": "sales tax and if those government websites are annoying to work with it doesn't matter how good your ai tool is that like you're still gonna have to have like a human like you know type in their name and like check their phone and whatever and uh and they'll have a captcha that you know a robot won't be able to solve or you'll have to call a human or who knows what right",
+    "text": "像 sales tax 这种事，如果那些政府网站本身就很难用，那你的 AI 工具再好也没用。因为最后还是得有人类去输入姓名、查看手机之类的，反正就是这些操作。而且他们可能还会有 captcha，机器人没法解，或者你还得打电话找真人，谁知道呢，对吧。"
+  },
+  {
+    "start": 1247.51,
+    "end": 1252.56,
+    "speaker": "Host",
+    "text_en": "And anything else that you think that maybe short-term cannot be replaced by agents fully?",
+    "text": "还有别的吗？你觉得短期内哪些事情可能还没法被 agents 完全取代？"
+  },
+  {
+    "start": 1252.76,
+    "end": 1264.46,
+    "speaker": "Guest",
+    "text_en": "I mean if if you're doing something purely with software I would say the first person you should probably hire would be a salesperson because presumably you're building the product",
+    "text": "我的意思是，如果你做的是纯软件的事情，我会说你大概第一个该招的人应该是销售，因为按理说产品是你在做。"
+  },
+  {
+    "start": 1265.524,
+    "end": 1293.024,
+    "speaker": "Guest",
+    "text_en": "you're probably doing sales in the beginning but eventually you're gonna want even with an infinite amount of agents you're still going to be wanting to spend all your time shipping product and bugs and thinking at least that's my from my bias or my perspective so i would probably want to bring in at gum right we brought in this guy ryan delk uh but similarly i would bring in somebody who just would focus purely you know some super young",
+    "text": "一开始你大概率会自己做销售，但最终你还是会想——哪怕你有无限多的 agents——你依然会希望把所有时间都花在发产品、修 bug 和思考上。至少这是我的偏见，或者说我的视角。所以我大概会想引入一个人。在 Gum，我们当时就招了这个叫 Ryan Delk 的人。类似地，我也会找一个只专注做这件事的人，比如那种特别年轻的"
+  },
+  {
+    "start": 1293.94,
+    "end": 1299.99,
+    "speaker": "Guest",
+    "text_en": "kid who can just email creators talk to them all day long get them to use the product at",
+    "text": "小伙子，整天给创作者发邮件、跟他们聊天，说服他们来用这个产品。"
+  },
+  {
+    "start": 1299.99,
+    "end": 1307.94,
+    "speaker": "Host",
+    "text_en": "So sometimes the users still want some like human touch. They don't want to be like, oh, I'm talking to an agent again. I want some like a human.",
+    "text": "所以有时候用户还是想要一点人情味。他们不想总觉得，哦，我又在跟一个 agent 说话了。我还是想要一点真人的感觉。"
+  },
+  {
+    "start": 1308.34,
+    "end": 1318.94,
+    "speaker": "Guest",
+    "text_en": "the end of the day let's say you have a product that you've built and it's amazing and someone else has a product and it's not even as good as your product but they have humans selling it",
+    "text": "说到底，假设你做了一个产品，而且非常棒；另一个人也有个产品，甚至还没你的好，但他们有人类在卖这个产品。"
+  },
+  {
+    "start": 1319.316,
+    "end": 1319.816,
+    "speaker": "Host",
+    "text_en": "Mm and -hmm.",
+    "text": "嗯，嗯。"
+  },
+  {
+    "start": 1319.816,
+    "end": 1346.616,
+    "speaker": "Guest",
+    "text_en": "you're business and you've got two emails one is like ai written it's very good it solves your problem but what is human i do think that like that person that may win the deal it's almost irrational in a way right like an engineer you may have a hard time justifying like this doesn't make sense but this is a hard lesson i've learned i don't even think i've learned it to be honest like this the best software does not win right like so i focused on building the best software",
+    "text": "你是做生意的，面前有两封邮件，一封明显像是 AI 写的，写得很好，也确实解决你的问题，但另一封是人写的。我确实觉得，最后拿下这单的可能就是那个人，这在某种程度上几乎有点不理性，对吧。像工程师可能会很难接受，会觉得这说不通。但这是我学到的一个很深的教训，老实说我甚至不确定自己是不是真的学会了：最好的软件并不会赢，对吧。所以我以前一直专注于打造最好的软件。"
+  },
+  {
+    "start": 1347.444,
+    "end": 1370.444,
+    "speaker": "Guest",
+    "text_en": "but patreon you know is a much larger company i don't think they're that good but they've nailed the sales marketing aspect i think uh and now they're good because they've been able to hire a lot of great people and they've been able to improve the product and they have ai and all this stuff so now it's like a pretty good product but like when we were competing i remember being like why are we losing what's on",
+    "text": "但 Patreon 你知道，是一家大得多的公司。我不觉得他们做得有多好，但我觉得他们把销售和营销这块做得很到位。现在他们之所以也变好了，是因为他们能招到很多很厉害的人，也能持续改进产品，还加上了 AI 这些东西。所以现在它已经算是个相当不错的产品了。但当年我们竞争的时候，我记得我一直在想，我们为什么会输？到底发生了什么？"
+  },
+  {
+    "start": 1371.06,
+    "end": 1384.56,
+    "speaker": "Guest",
+    "text_en": "fundamentally different products as well but but i do think like you know just like leadership wise and stuff we're very focused on product engineering design they're very focused on basically marketing and making money yeah",
+    "text": "当然，从根本上说产品也不一样，但我确实觉得，在领导层思路这些方面，我们非常专注于产品、工程和设计，而他们基本上非常专注于营销和赚钱。对。"
+  },
+  {
+    "start": 1384.56,
+    "end": 1387.71,
+    "speaker": "Host",
+    "text_en": "Created campaigns like customer outreach and stuff.",
+    "text": "比如做各种 campaign、客户触达之类的。"
+  },
+  {
+    "start": 1388.11,
+    "end": 1398.91,
+    "speaker": "Guest",
+    "text_en": "i i think they were way more connected in the youtube they knew that audience and they went after that audience we didn't go after that we didn't even think of that audience as a potential target",
+    "text": "我觉得他们和 YouTube 那个圈子连接得更紧密，他们了解那批受众，也主动去争取那批人。我们没有去做这个，我们甚至都没把那批受众当成潜在目标。"
+  },
+  {
+    "start": 1398.868,
+    "end": 1424.72,
+    "speaker": "Guest",
+    "text_en": "i think that business model was more aligned with what you know ultimately worked in the market uh like a sort of more patronage based model of supporting creators and selling digital products like selling digital products is also kind of like a millennial thing to do in a way right like it's like a it's a timely thing and people are not as much selling selling digital products as much anymore",
+    "text": "我觉得那种商业模式和最终市场验证有效的方向更一致。就是一种更偏赞助型、支持创作者，再加上卖数字产品的模式。而卖数字产品这件事，从某种意义上说也挺像 millennial 会做的事，对吧，就是很符合那个时代的东西。现在人们也没有以前那么热衷于卖数字产品了。"
+  },
+  {
+    "start": 1425.02,
+    "end": 1440.22,
+    "speaker": "Host",
+    "text_en": "I think last year a lot of a company they're hiring this role like storytellers I think for like VC fund like some tech companies they want this kind of storyteller I don't know what do you think about that is that like kind of related to marketing and like creative stuff",
+    "text": "我觉得去年很多公司都在招一种角色，叫 storyteller。像一些 VC fund，还有一些科技公司，都想要这种 storyteller。我不太确定，你怎么看？这是不是某种程度上和营销、还有创意类的工作有关？"
+  },
+  {
+    "start": 1440.57,
+    "end": 1448.62,
+    "speaker": "Guest",
+    "text_en": "it is another way of saying content creator right it's funny there's only so many roles in software businesses right you could even say vc",
+    "text": "对，这其实就是 content creator 的另一种说法，对吧。挺有意思的，软件公司里的岗位其实就那么几种。甚至你也可以说 VC 也是这样。"
+  },
+  {
+    "start": 1448.628,
+    "end": 1469.378,
+    "speaker": "Guest",
+    "text_en": "the first software businesses media businesses are also software businesses like there's the people who build the product software engineers designers then there's the people who sell the product and then there's people who like market the product and in my opinion the people who market the product we just keep changing their name in order to hire them",
+    "text": "最早的软件公司，媒体公司其实也都是软件公司。就是有一类人负责做产品，也就是软件工程师、设计师；然后有一类人负责卖产品；再然后还有一类人负责营销产品。在我看来，负责营销产品的这帮人，我们只是不断给他们换名字，好方便把他们招进来。"
+  },
+  {
+    "start": 1470.068,
+    "end": 1485.168,
+    "speaker": "Guest",
+    "text_en": "but it used to be called marketers, communicationist people, PR, influencers, content creators, social media, you're just hiring people to generate impressions. And it really is like doesn't even really matter what they do.",
+    "text": "以前他们叫 marketer、传播人员、PR、influencer、内容创作者、社交媒体运营，本质上你就是在招人来制造曝光。说真的，他们具体做什么，甚至都没那么重要。"
+  },
+  {
+    "start": 1485.468,
+    "end": 1496.628,
+    "speaker": "Guest",
+    "text_en": "But the truth is, there are two at least two kinds of people. there's the people who want to talk to the customer and then the people who want to build the product and they almost never overlap right like",
+    "text": "但事实是，至少有两类人。第一类是想跟客户交流的人，第二类是想做产品的人，而这两类人几乎从来都不重叠，对吧，就像——"
+  },
+  {
+    "start": 1496.628,
+    "end": 1496.728,
+    "speaker": "Host",
+    "text_en": "Mm",
+    "text": "嗯。"
+  },
+  {
+    "start": 1496.728,
+    "end": 1496.928,
+    "speaker": "Guest",
+    "text_en": "founders",
+    "text": "创始人——"
+  },
+  {
+    "start": 1496.928,
+    "end": 1497.078,
+    "speaker": "Host",
+    "text_en": "-hmm.",
+    "text": "嗯。"
+  },
+  {
+    "start": 1497.078,
+    "end": 1512.578,
+    "speaker": "Guest",
+    "text_en": "happen to overlap a little bit but there's almost always going to be a strong preference one way or the other i would say like steve jobs my guess is he enjoyed building product he didn't enjoy talking to customers you know then you have someone like larry ellison who probably liked talking to customers and didn't really",
+    "text": "会稍微有一点重叠，但几乎总会明显偏向其中一边。比如我会说，Steve Jobs 我猜他更享受做产品，他并不享受跟客户交流；然后像 Larry Ellison 这种人，可能就更喜欢跟客户打交道，而不太"
+  },
+  {
+    "start": 1513.268,
+    "end": 1538.218,
+    "speaker": "Guest",
+    "text_en": "care that much about the product you can use that you can even use the products and kind of tell like okay this got this works but it was because they just were really good at sales but like microsoft right is a classic probably example of this i care way more about design and product right so um so anyway i you know i think you're always going to have like gun world could shrink even more in size but i think i think maximally we could shrink to effectively effectively four people",
+    "text": "那么在意产品本身。你甚至可以从产品里看出来：哦，这个能用，这个也能跑，但之所以能成，更多是因为他们销售真的很强。比如 Microsoft，对吧，就是这类情况的一个很典型的例子。我自己会更在意设计和产品。所以总之，我觉得团队规模还会继续缩小，甚至 gun world 的规模还能再缩一点，但我觉得理论上最极限，可能会缩到实际上就四个人。"
+  },
+  {
+    "start": 1538.772,
+    "end": 1558.422,
+    "speaker": "Guest",
+    "text_en": "i would say that's like the like people say one person company uh i would say four people and the reason is uh uh you want one engineer who's awake you know 12 hours a day and then you need another engineer who's awake the other 12 hours of the day and then you need the same for customer support",
+    "text": "我会说，这有点像大家说的那种“一人公司”，但我会说其实得四个人。原因是，你得有一个工程师每天清醒着工作 12 个小时，然后还得有另一个工程师负责另外 12 个小时，客服也一样需要这样配。"
+  },
+  {
+    "start": 1559.028,
+    "end": 1584.178,
+    "speaker": "Guest",
+    "text_en": "So if you want like to offer it the best possible customer experience, which is like effectively almost like an effectively an instant reply from an AI, if that doesn't solve the issue, a 15 minute really, really diligent, you know, 10, 10 times the compute sort of response, if that doesn't solve the problem in 15 minutes, in an hour, you get a human who's getting paid.",
+    "text": "所以如果你想提供尽可能好的客户体验，基本上就是先由 AI 几乎即时回复；如果这还解决不了问题，那就在 15 分钟内给出一个非常非常认真、算力大概高 10 倍的回复；如果 15 分钟还解决不了，那一小时内就得有一个拿薪水的人类来接手。"
+  },
+  {
+    "start": 1585.012,
+    "end": 1602.712,
+    "speaker": "Guest",
+    "text_en": "a significant amount of money who effectively has nothing else to do because everything's been automated who can just work on your issue solve the issue solve the bug this bug would normally take two weeks to solve but they could literally work on it and if they can't finish it they they structure it so they can hand it off to the person who then works on it that to me is like",
+    "text": "而且这个人拿的是一笔相当可观的钱，基本上也没别的事可做，因为其他事情都自动化了，所以他可以专心处理你的问题、解决这个 issue、修掉这个 bug。这个 bug 平时可能要两周才能解决，但他真的可以一直盯着做；如果他做不完，也会把事情整理好，方便交接给下一个人继续做。对我来说，这才像是——"
+  },
+  {
+    "start": 1603.38,
+    "end": 1628.03,
+    "speaker": "Guest",
+    "text_en": "yes i could choose to fire everybody again and just run gumroad myself right and i would just have to come into the office which i have it's five minute walk from my house uh it has water and food and people clean it weekly i could come in has internet i can come in i can work for like 15 minutes a day do minimal support do but but is that that like the right energy right to like minimize",
+    "text": "对，我当然也可以选择把所有人再裁掉，然后自己一个人运营 Gumroad，对吧？我只需要来办公室就行，反正离我家走路 5 分钟。办公室有水、有吃的，还有人每周来打扫，也有网络。我可以过来，每天工作个 15 分钟，做最基本的客服。但那真的是对的吗？就是把一切都压到最低，这真的是对的状态吗？"
+  },
+  {
+    "start": 1629.236,
+    "end": 1651.19,
+    "speaker": "Guest",
+    "text_en": "Like I've been thinking the minimalist entrepreneur. I want to have a company that I actually enjoy working on. I don't want to go to zero because then I have to do something else that I haven't I think Tim Ferriss is like the four hours work week and his goal is not work. I think",
+    "text": "我一直在想《The Minimalist Entrepreneur》这件事。我想要的是一家我自己真的喜欢投入去做的公司。我不想把它做到归零，因为那样我就得去做别的事，而那并不是我想要的。我觉得 Tim Ferriss 推崇的是《每周工作四小时》，而他的目标其实是不工作。我觉得——"
+  },
+  {
+    "start": 1651.24,
+    "end": 1676.79,
+    "speaker": "Host",
+    "text_en": "the core takeaway for me is you can't choose you can decide whether you want to pick this way or not I think for a lot of my Chinese friends who work for like Bidens or Red Nose they're like feeling they're kind of they have to keep running if I stop everything will be ruined they're like so afraid to like not responding to calls or emails at 10 p.m they always go back to to bed go back to their apartment at",
+    "text": "我对这段最核心的感受是，你其实没法真正选择。你可以决定自己要不要走这条路，但我觉得对很多在 Bidens 或 Red Nose 这类公司工作的中国朋友来说，他们会觉得自己必须一直跑下去，好像我一停下来，一切就完了。他们非常害怕晚上 10 点不接电话、不回邮件，总是到很晚才回家——"
+  },
+  {
+    "start": 1676.756,
+    "end": 1682.106,
+    "speaker": "Host",
+    "text_en": "At 12, they look horrible and they feel like they're not healthy. I just feel like they don't have a choice.",
+    "text": "到 12 点才回去。他们看起来状态很差，也觉得自己不健康。我只是觉得，他们好像根本没有选择。"
+  },
+  {
+    "start": 1683.306,
+    "end": 1703.056,
+    "speaker": "Guest",
+    "text_en": "yeah i mean the truth is like it feels like you don't have a choice because if you get off the train it'll continue right and even if you cash out with five million dollars if you waited one more year you'd have ten million dollars right it's sort of a human psychological condition that like is unresolvable it's it's",
+    "text": "对，我的意思是，现实就是你会觉得自己没有选择，因为就算你下了这趟列车，它还是会继续往前开，对吧？哪怕你现在套现拿到 500 万美元，如果你再多等一年，也许就能拿到 1000 万美元。某种程度上，这就是一种人类心理状态，几乎无解，就是——"
+  },
+  {
+    "start": 1703.668,
+    "end": 1728.118,
+    "speaker": "Guest",
+    "text_en": "like it's it is the nature of the industry like sorry you picked an industry in which it does have these crazy multipliers and you know like i saw yesterday like cognition raised a billion dollars and a 26 billion dollar valuation i was like wow that's crazy a billion dollars raised that's insane but then anthropic just raised 65 billion you know it's like incomprehensibly large",
+    "text": "这就是这个行业的本质。不好意思，是你自己选了一个有这种夸张倍数效应的行业。比如我昨天看到，Cognition 融了 10 亿美元，估值 260 亿美元，我当时想，哇，这也太夸张了，融了 10 亿，太离谱了。但接着 Anthropic 又融了 650 亿，你知道吧，这规模大到让人根本无法理解。"
+  },
+  {
+    "start": 1728.884,
+    "end": 1735.674,
+    "speaker": "Guest",
+    "text_en": "It's twice as large as the largest IPO in history, and it's still private. It's like hard to comprehend, right?",
+    "text": "这比历史上最大的 IPO 还大两倍，而且它现在都还没上市。真的很难理解，对吧？"
+  },
+  {
+    "start": 1736.224,
+    "end": 1757.924,
+    "speaker": "Host",
+    "text_en": "Yeah, so I was just trying to get to the point that you said that a lot of people got laid off and some of them might choose to become entrepreneur, but entrepreneur life seems like very scary for a lot of people. There's not a lot of place to learn how to be entrepreneurs, but do you think things will be different by now? I could imagine that the AI.",
+    "text": "对，所以我刚刚其实是想接着你说的那个点：很多人被裁员了，其中一些人可能会选择去创业。但对很多人来说，创业生活看起来还是很可怕。也没有太多地方能系统地学怎么当创业者。不过你觉得现在情况会不会已经不一样了？我能想象 AI 可能会……"
+  },
+  {
+    "start": 1759.22,
+    "end": 1782.77,
+    "speaker": "Guest",
+    "text_en": "takes over the role of the ceo i think that actually more people want to be entrepreneurs they just don't want to run the business right so like let's say you have an amazing barista like they may want their own coffee shop right they may want their own design their own name their own location uh their own hours they want all the money that they they would make from that",
+    "text": "接管 CEO 的角色。我觉得其实想创业的人更多了，他们只是不想经营公司而已。比如说，你有一个特别厉害的 barista，他们可能想开自己的咖啡店，对吧？想要自己的设计、自己的名字、自己的店址、自己的营业时间，也想拿到这件事本来能赚到的全部收入。"
+  },
+  {
+    "start": 1783.284,
+    "end": 1808.084,
+    "speaker": "Guest",
+    "text_en": "but they don't want to deal with the distribution stuff they don't want to deal maybe they'll even do the marketing stuff but they don't want to deal with uh you know sourcing they don't want to deal with supply chain management they don't want to deal with payroll they don't want to deal with taxes they don't want to deal with finance uh they don't want to deal with legal you could imagine that they use an agent that agent does all is effectively the ceo of the company",
+    "text": "但他们不想处理分销这些事，可能连营销他们都愿意做，但他们不想管采购，不想管供应链管理，不想管发工资，不想管税务，不想管财务，也不想管法务。你可以想象他们会用一个 agent，这个 agent 把这些全做了，本质上它就是这家公司的 CEO。"
+  },
+  {
+    "start": 1808.82,
+    "end": 1819.97,
+    "speaker": "Guest",
+    "text_en": "they run the business and they effectively almost employ the human the human is still the owner of the business right like legally that's the case but it's like almost like",
+    "text": "它来经营这家公司，某种意义上几乎像是它在雇这个人。人类当然仍然是这家公司的所有者，对吧，法律上还是这样，但感觉上几乎就像……"
+  },
+  {
+    "start": 1820.66,
+    "end": 1845.16,
+    "speaker": "Guest",
+    "text_en": "i just am the employee i am the software engineer of gumroad i just work on gumroad ai runs the company ai does the finance the legal this executive function the hiring the firing all of that stuff so you know i could see a world you could sort of have an app on your phone that kind of like runs your business and you get to basically unlock",
+    "text": "我只是个员工，我就是 Gumroad 的软件工程师，我只是在给 Gumroad 干活。AI 在运营公司，AI 负责财务、法务、这些高管职能、招聘、解雇，所有这些事。所以你知道，我能想象这样一个世界：你手机上有个 app，基本上就在帮你经营公司，而你实际上只需要去解锁……"
+  },
+  {
+    "start": 1845.844,
+    "end": 1867.244,
+    "speaker": "Guest",
+    "text_en": "do the stuff block even as things get more futuristic you could imagine a world in which like even other business partners become automated so for example you could imagine that like right now you would still have to then like unlock take all the deliveries you know do all that stuff",
+    "text": "去做那些实体层面的事。甚至如果再更未来一点，你还可以想象一个世界，连其他业务伙伴都会被自动化。比如说，你可以想象，现在你可能还是得自己去接收所有送货、处理这些事情。"
+  },
+  {
+    "start": 1867.668,
+    "end": 1884.018,
+    "speaker": "Guest",
+    "text_en": "But eventually you could imagine a service. If there's enough demand by this new kind of market, you could imagine a service that comes in, they unlock, they have a key code that unlocks the door, they've, they for, you know, your inventory for you.",
+    "text": "但最终你可以想象出一种服务。如果这种新型市场的需求足够大，你完全可以设想有这么一项服务会上门，他们有门禁密码可以开门，然后，嗯，帮你盘点库存之类的。"
+  },
+  {
+    "start": 1884.724,
+    "end": 1912.424,
+    "speaker": "Guest",
+    "text_en": "and then uh you know they take a photo and then ai like confirms it uh and updates your inventory right or you do a sub sync on your side when you come into the office and you just take a photo with your app and it just syncs your inventory and it just confirms it just makes sure like this is this here is this here yep yep yep good good good awesome and you just do your like you know your pre-work checklist and then you start your job and then you have your post-work checklist and then ai is just kind of running the business you know",
+    "text": "然后，呃，你知道，他们拍张照片，接着 AI 来确认，并更新你的库存，对吧。或者你自己这边做个同步，你到办公室的时候，用 app 拍张照，它就会把库存同步好，顺便确认一下，比如这个在不在、那个在不在，对对对，好好好，太棒了。然后你就做自己的开工前检查清单，接着开始工作，之后再做收工后的检查清单，AI 基本上就在帮你运营整个生意。"
+  },
+  {
+    "start": 1912.564,
+    "end": 1919.614,
+    "speaker": "Host",
+    "text_en": "It's such an interesting idea. Yeah, yeah. You can just do the work that's most interesting and then AI can take care of all the rest.",
+    "text": "这想法太有意思了。对，对。你就只需要做最有意思的那部分工作，剩下的都可以交给 AI 处理。"
+  },
+  {
+    "start": 1919.764,
+    "end": 1941.414,
+    "speaker": "Guest",
+    "text_en": "yeah like let's say you want to make 20 more money right you can just do it you can just tell your ai hey i want to make 20 more money it's like cool do you want to be open more hours do you want to do a sale do you want to do a like like these are the ways that at coffee shops make more money when they want like there's some degree of control you have",
+    "text": "对，比如说你想多赚 20% 的钱，对吧，你就直接去做。你只要跟你的 AI 说，嘿，我想多赚 20%。它就会说，行啊，你是想延长营业时间？想做促销？还是想做个什么活动？像这些，都是咖啡店想多赚钱时会用的方法。也就是说，你对收入其实是有一定控制力的。"
+  },
+  {
+    "start": 1942.1,
+    "end": 1953.5,
+    "speaker": "Guest",
+    "text_en": "over your income right uh it's not infinite like you don't you can't make but like there's some degree of of control here like an uber driver you can choose to make more money uh you can spend",
+    "text": "对你的收入是有一定掌控空间的，呃，当然不是无限的，不是说你想赚多少就赚多少，但这里面确实有一定的可控性。就像 Uber 司机一样，你可以选择多赚一点钱，你也可以花钱去——"
+  },
+  {
+    "start": 1953.6,
+    "end": 1966.874,
+    "speaker": "Guest",
+    "text_en": "money on instagram ads right like there's all sorts of stuff you could choose to do you could record a tiktok like you could you could you could uh do a loyal add a loyalty program you could do uh all sorts of stuff And so, yeah,",
+    "text": "比如投 Instagram 广告，对吧，能做的事情其实很多。你可以拍个 TikTok，你可以，你可以，呃，做个会员忠诚计划，你还可以做各种各样的事。所以，嗯，没错。"
+  },
+  {
+    "start": 1966.924,
+    "end": 1980.29,
+    "speaker": "Guest",
+    "text_en": "I could totally see a world in which, you know, there's an AI that kind of motivates you. I think we'll experiment at Gumroad with these ideas within the context of Gumroad. at helping creators sort of like automate sale part i",
+    "text": "我完全能想象这样一个世界：有个 AI 会在某种程度上激励你。我觉得我们会在 Gumroad 里试验这些想法，在 Gumroad 的场景下，帮助创作者把销售这部分自动化。"
+  },
+  {
+    "start": 1980.29,
+    "end": 1990.19,
+    "speaker": "Host",
+    "text_en": "So anything changed in this AI agent era than what you wrote in the books? Do you think anything is different these days that you would change if you were to write a book?",
+    "text": "所以在这个 AI agent 时代，和你书里写的相比，有什么变化吗？你觉得现在有什么不一样的地方，是如果你现在再写一本书会想改的？"
+  },
+  {
+    "start": 1991.04,
+    "end": 2000.72,
+    "speaker": "Guest",
+    "text_en": "mean i would say i mean philosophically that it's it's similar i would say the biggest thing is that i would focus more on building earlier so i think that",
+    "text": "我的意思是，我会说，从理念上讲，这其实是类似的。我觉得最大的区别是，我会更早开始做构建，所以我认为"
+  },
+  {
+    "start": 2000.82,
+    "end": 2023.57,
+    "speaker": "Guest",
+    "text_en": "when i wrote the book it was still like high cost to building stuff so there was a lot of emphasis on like what you wanted to do before you built things not that much but like the manual valuable process for example i would still say it's valid but you would do that in the context of ai right when you're trying to do the manual valuable process to like eventually automate some problem",
+    "text": "我写那本书的时候，做东西的成本还是很高，所以重点更多放在你动手做之前先想清楚自己要做什么。倒也不是说完全如此，但像那种手动、但有价值的流程，我现在还是觉得有效，只不过你会把它放在 AI 的语境里。比如你在做这种手动但有价值的流程时，目标是最终把某个问题自动化。"
+  },
+  {
+    "start": 2024.468,
+    "end": 2047.068,
+    "speaker": "Guest",
+    "text_en": "now you just basically have your ai do it so for example like this if we built the thing that automates creator sales we work on it until we found that there was a creator that was starting to make money completely automatically in an autonomous way you know basically generating you know landing pages products a combination of products landing pages",
+    "text": "现在基本上就是直接让 AI 去做。比如说，如果我们做了一个能自动化创作者销售的东西，我们就会一直打磨它，直到发现有创作者开始以一种完全自动、自治的方式赚到钱。你知道的，基本上就是自动生成落地页、产品，或者产品和落地页的组合。"
+  },
+  {
+    "start": 2047.764,
+    "end": 2074.264,
+    "speaker": "Guest",
+    "text_en": "and uh emails sent out because that's like the way that they reach out to their audience typically proactively and we just mess around with that until you know in a very manual way like just humans like trying stuff shipping features messing around with prompts until it's like oh this worked this email in this way to this subset of the audience framed in this way which is you know and you just kind of have to build that mental map and then you can you",
+    "text": "还有发出去的邮件，因为这通常是他们主动触达受众的方式。然后我们就不断试，不断折腾，用一种很手动的方式——就是人来不断尝试、上线功能、调整 prompts，直到变成“哦，这样就行了”：这封邮件，用这种方式，发给这部分受众，用这种角度去包装，效果最好。你基本上就是得先建立起这样一张心智地图，然后你就可以把它"
+  },
+  {
+    "start": 2074.452,
+    "end": 2077.002,
+    "speaker": "Guest",
+    "text_en": "turn it into a product feature that's fully automated right",
+    "text": "变成一个完全自动化的产品功能，对吧。"
+  },
+  {
+    "start": 2077.002,
+    "end": 2077.152,
+    "speaker": "Host",
+    "text_en": "Mm",
+    "text": "嗯。"
+  },
+  {
+    "start": 2077.152,
+    "end": 2083.902,
+    "speaker": "Guest",
+    "text_en": "where they just have a toggle and they're done that's the goal they shouldn't have to do anything else because once there's more than that",
+    "text": "让他们只需要点一个开关就搞定，这才是目标。他们不应该还要做别的，因为一旦步骤比这更多，"
+  },
+  {
+    "start": 2084.532,
+    "end": 2100.132,
+    "speaker": "Guest",
+    "text_en": "the conversion rate the usage is like zero percent right like it has to be like oh yeah i'll just turn that on and eventually it's so good that it's like default on and they have to turn it off that would be you know that's kind of the ultimate kind of goal um i",
+    "text": "转化率、使用率基本就接近零了，对吧。所以它必须得是那种“哦，好，我打开就行了”。最终它甚至要好到默认就是开启的，用户反而得手动把它关掉。那才算是某种终极目标。嗯，我"
+  },
+  {
+    "start": 2100.132,
+    "end": 2104.232,
+    "speaker": "Host",
+    "text_en": "But otherwise, like building community and those parts stay the same.",
+    "text": "但除此之外，比如建立受众、做这些事情，本质上还是一样的。"
+  },
+  {
+    "start": 2104.482,
+    "end": 2111.132,
+    "speaker": "Guest",
+    "text_en": "i to be honest i think if i were to rewrite it i would not use the word community because i just think the word community is like loaded people",
+    "text": "说实话，我觉得如果让我重写一遍，我不会用“community”这个词，因为我觉得这个词有点太有包袱了，大家会想太多。"
+  },
+  {
+    "start": 2111.284,
+    "end": 2140.434,
+    "speaker": "Guest",
+    "text_en": "think too much about it like if you if you want to be a musician who is your audience who is your listenership but this as soon as you are doing a business you need an audience so that's really what it's about who is who is life you want to make better because once once you know who that person is then you can actually do stuff like who's giving you money for your software you know and that it really is who are you building for and then what problem are you solving for them and then what how are you solving them and is that the right problem is that the right solution to the problem",
+    "text": "比如说，如果你想当音乐人，那你的受众是谁，谁在听你；但只要你是在做一门生意，你就必须有受众。所以核心其实就是：你想让谁的生活变得更好？一旦你知道那个人是谁，你就真的能开始做事了。比如，谁会为你的软件付钱？归根结底就是，你到底是在为谁而做？你在帮他们解决什么问题？你是怎么解决的？而且这是不是对的问题？这是不是解决这个问题的正确方案？"
+  },
+  {
+    "start": 2140.34,
+    "end": 2147.24,
+    "speaker": "Guest",
+    "text_en": "the problem and the cool thing is now because building can happen so quickly you should be able to iterate on that fast",
+    "text": "而且很棒的一点是，现在做产品的速度可以非常快，所以你应该能很快在这件事上迭代。"
+  },
+  {
+    "start": 2147.24,
+    "end": 2149.79,
+    "speaker": "Host",
+    "text_en": "Yeah, you can test constantly, yes.",
+    "text": "对，你可以持续不断地测试，是的。"
+  },
+  {
+    "start": 2149.79,
+    "end": 2162.024,
+    "speaker": "Guest",
+    "text_en": "instead of like oh okay i'm going to spend six months or a year trying this one thing this one use case you know it's like two weeks two weeks two weeks two weeks you know like you should be able to go much faster uh you",
+    "text": "而不是那种“哦，好吧，我要花六个月或者一年去试这一件事、这一个 use case”。现在应该是两周、两周、两周、两周这样推进，你应该能快得多。"
+  },
+  {
+    "start": 2162.424,
+    "end": 2175.224,
+    "speaker": "Guest",
+    "text_en": "don't have revenue in two weeks new customer new problem new solution every two weeks until you have revenue once you have revenue then you have a 10 chance this becomes a real business i",
+    "text": "如果两周内没有收入，那就换新客户、新问题、新方案；每两周换一次，直到你开始有收入。等你有了收入，你才有 10% 的机会把这变成一门真正的生意。"
+  },
+  {
+    "start": 2175.224,
+    "end": 2183.874,
+    "speaker": "Host",
+    "text_en": "one last question, just my curiosity. So how is it different from working in Silicon Valley and for government, for RSA?",
+    "text": "最后一个问题，纯粹是我好奇。所以在 Silicon Valley 工作，和在政府部门、在 RSA 工作，有什么不同？"
+  },
+  {
+    "start": 2184.924,
+    "end": 2188.024,
+    "speaker": "Guest",
+    "text_en": "mean very different i would say there's two big differences or let's say three",
+    "text": "差别非常大。我会说有两个很大的区别，或者说三个。"
+  },
+  {
+    "start": 2188.436,
+    "end": 2211.786,
+    "speaker": "Guest",
+    "text_en": "one is incentives like so in startups you're it's kind of selfish in a way right like you're gonna get rich it's a very pure in a way incentive that works very well you don't have that in government in government the incentive it's hard to explain even honestly like it doesn't really make sense uh you don't want to think about it too hard honestly like uh",
+    "text": "一个是激励机制。创业公司某种程度上挺“自私”的，对吧？因为你有机会变得很有钱。这是一种某种意义上非常纯粹、而且很有效的激励。政府里没有这个。政府里的激励很难解释，说实话，甚至有点说不通。老实讲，你也别太认真去琢磨这个。"
+  },
+  {
+    "start": 2212.66,
+    "end": 2241.06,
+    "speaker": "Guest",
+    "text_en": "it just feels good it's status i don't know like impact more positive impact than i would have private sector and it is i would say it's more fun personally because it is more challenging for that maybe that's why i'm doing it but then the other big one is is is time duration so startups you do have a lot of time duration but i think with government it's much more like everyone is thinking about it and it's just it's like everything you build is going to exist for 50 years whether you like it or not or 100 years",
+    "text": "它就是会让人感觉很好，是一种地位，我也不知道，或者说是一种影响力——比我在私营部门能产生的更正面的影响。而且我个人觉得这更有意思，因为它更有挑战性，也许这就是我在做这件事的原因。然后另一个很大的区别是时间跨度。创业公司当然也会考虑长期，但在政府里，这种感觉要强得多：每个人都在想着这件事。你做出来的每一样东西，不管你愿不愿意，都会存在 50 年，甚至 100 年。"
+  },
+  {
+    "start": 2241.684,
+    "end": 2270.434,
+    "speaker": "Guest",
+    "text_en": "uh i mean you could see with the stamps right like things will exist for a long time so you when you make these decisions you really want to make the right decisions i think that's in startups it's more like move fast break things iterate it's a little harder to do that in the government uh and then the last thing i would say is that startups get to pick their customer and so you just get to focus on like rich people who have a problem and you want to solve it and they give you money and you're off to the races",
+    "text": "我的意思是，你从邮票这件事上就能看出来，很多东西会存在很久。所以当你做这些决定时，你真的会很想把决定做对。我觉得创业公司更像是“快速行动，打破常规，不断迭代”。在政府里，这么做会更难一点。然后最后一点我想说的是，创业公司可以选择自己的客户。所以你基本上只需要专注于那些有问题、也有钱的用户，你帮他们解决问题，他们给你钱，然后事情就快速推进了。"
+  },
+  {
+    "start": 2271.252,
+    "end": 2289.352,
+    "speaker": "Guest",
+    "text_en": "with government it's like you have to serve 100 of people and it's not about making money it's just about service it's just about delivering the good typically they need to do it they don't want to do it uh and so it's just about and it's like 100 product market fit right like everything i build",
+    "text": "但在政府里，你得服务 100% 的人，而且不是为了赚钱，纯粹是为了服务，纯粹是为了把大家通常需要的公共服务交付到位。他们必须把这件事做好，不做不行。所以这其实就是，而且可以说是 100% 的产品市场匹配，对吧？我做的每一个东西，"
+  },
+  {
+    "start": 2290.068,
+    "end": 2316.218,
+    "speaker": "Guest",
+    "text_en": "gets 100 usage every single person who uses it or wants needs to use it will use it because they need to the customer satisfaction is like 100 because it's like oh i was able to automate this was automated or like this was self-serve it's a it's a it's a great way of and i would like to believe that by doing this and the real impact is if i could do this successfully then people will have a better image of the government",
+    "text": "都会有 100% 的使用率。每一个会用到它、或者必须用到它的人，都会去用，因为他们必须用。客户满意度也几乎是 100%，因为他们会觉得：哦，这个流程被自动化了，或者这个可以自助完成了。这真的是一种很棒的方式。我也愿意相信，做这些事情真正的影响在于，如果我能把它做好，人们会对政府有更好的印象。"
+  },
+  {
+    "start": 2316.948,
+    "end": 2323.998,
+    "speaker": "Guest",
+    "text_en": "Because their experience with the government has improved. Many, many people's experience with the federal government is taxes typically.",
+    "text": "因为他们和政府打交道的体验变好了。很多很多人对联邦政府的体验，通常就是报税。"
+  },
+  {
+    "start": 2326.248,
+    "end": 2331.148,
+    "speaker": "Host",
+    "text_en": "Thank you so much. Yeah, hopefully we can chat again. Yeah, thank you for your time.",
+    "text": "非常感谢你。对，希望我们之后还能再聊。谢谢你抽时间。"
+  },
+  {
+    "start": 2331.148,
+    "end": 2333.598,
+    "speaker": "Guest",
+    "text_en": "That's good. Thanks so much. Have a good rest of your day.",
+    "text": "那很好。非常感谢。祝你今天接下来一切顺利。"
+  },
+  {
+    "start": 2333.598,
+    "end": 2334.198,
+    "speaker": "Host",
+    "text_en": "Thank you.",
+    "text": "谢谢。"
+  },
+  {
+    "start": 2341.14,
+    "end": 2356.74,
+    "speaker": "Host",
+    "text_en": "今天的科技早知道 就到这里了 听完之后 如果你有任何的想法 欢迎在评论区和我们交流 如果有任何想听的话题也请告诉我们 如果你喜欢我们的节目 请记得分享给更多的朋友 那我们下期再见 下期再见",
+    "text": "今天的《科技早知道》就到这里了。听完之后，如果你有任何想法，欢迎在评论区和我们交流。如果有任何想听的话题，也请告诉我们。如果你喜欢我们的节目，请记得分享给更多朋友。那我们下期再见，下期再见。"
+  }
+]

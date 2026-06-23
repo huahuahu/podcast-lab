@@ -1,0 +1,1710 @@
+[
+  {
+    "start": 6.74,
+    "end": 24.24,
+    "speaker": "Host",
+    "text_en": "It takes more than submitting PRs titled Chaos Monkey that delete random files in your codebase to be a great software engineer. This is episode 516 of the Soft Skills Engineering podcast where I am your host, Jameson Dance. I'm your host, Dave Smith. Soft Skills Engineering is a weekly advice show about all the non-technical things that go into the technical field of software development,",
+    "text": "想成为一名优秀的软件工程师，光提交那种标题叫 Chaos Monkey、会随机删除你代码库里文件的 PR 可不够。这是 Soft Skills Engineering 播客的第 516 期，我是你们的主持人 Jameson Dance。我是你们的主持人 Dave Smith。Soft Skills Engineering 是一档每周答疑节目，聊的是软件开发这个技术领域里那些所有非技术层面的事。"
+  },
+  {
+    "start": 24.54,
+    "end": 32.34,
+    "speaker": "Host",
+    "text_en": "like misremembering the concept of a chaos monkey from that one blog post from Netflix in like 2007 or whatever.",
+    "text": "比如把 chaos monkey 这个概念记串了，印象还停留在 Netflix 大概 2007 年左右的那篇博客文章里之类的。"
+  },
+  {
+    "start": 32.34,
+    "end": 33.39,
+    "speaker": "Guest",
+    "text_en": "Yeah, like 20 years ago.",
+    "text": "对啊，那都差不多 20 年前了。"
+  },
+  {
+    "start": 33.39,
+    "end": 41.396,
+    "speaker": "Host",
+    "text_en": "It's where you try to break stuff on purpose, I believe. believe and this will certainly break stuff on purpose yep and that's good i think we'll",
+    "text": "我记得它的意思是故意去把东西搞坏。我觉得是这样。这个做法肯定也是在故意把东西搞坏，没错，而且我觉得这挺好的，我们会"
+  },
+  {
+    "start": 41.396,
+    "end": 42.446,
+    "speaker": "Guest",
+    "text_en": "Yes, break",
+    "text": "对，破坏"
+  },
+  {
+    "start": 42.446,
+    "end": 42.596,
+    "speaker": "Host",
+    "text_en": "be stronger",
+    "text": "变得更强"
+  },
+  {
+    "start": 42.596,
+    "end": 42.846,
+    "speaker": "Guest",
+    "text_en": "things,",
+    "text": "东西，"
+  },
+  {
+    "start": 42.846,
+    "end": 42.996,
+    "speaker": "Host",
+    "text_en": "for",
+    "text": "为了"
+  },
+  {
+    "start": 42.996,
+    "end": 43.096,
+    "speaker": "Guest",
+    "text_en": "move",
+    "text": "动起来"
+  },
+  {
+    "start": 43.096,
+    "end": 43.846,
+    "speaker": "Host",
+    "text_en": "it somehow",
+    "text": "不知怎么就"
+  },
+  {
+    "start": 43.846,
+    "end": 46.846,
+    "speaker": "Guest",
+    "text_en": "fast and break things always works out.",
+    "text": "快速行动，搞砸了也没事，最后总能成。"
+  },
+  {
+    "start": 46.846,
+    "end": 49.496,
+    "speaker": "Host",
+    "text_en": "i believe it's break things and then you move fast",
+    "text": "我觉得应该是先搞砸，然后你再快速行动"
+  },
+  {
+    "start": 49.496,
+    "end": 51.396,
+    "speaker": "Guest",
+    "text_en": "Yeah, you have to move fast, it's broken.",
+    "text": "对啊，你得快点动起来，反正都已经坏了。"
+  },
+  {
+    "start": 52.496,
+    "end": 60.696,
+    "speaker": "Host",
+    "text_en": "yeah so i'm helping us speed up oh dave do you want to read our wonderful patreon names or words",
+    "text": "对，所以我这是在帮大家提速。哦，Dave，你要不要来念一下我们那些超棒的 Patreon 名字，或者说词儿"
+  },
+  {
+    "start": 60.896,
+    "end": 70.76,
+    "speaker": "Guest",
+    "text_en": "Yes, I will read. I will read the actual. Patreon profile names of our biggest supporters this week who contribute at a level where they get us to say out loud a",
+    "text": "好，我来念。我来念一下这周我们最大支持者们在 Patreon 上的真实个人资料名，他们的支持档位高到能让我们当场把一个"
+  },
+  {
+    "start": 70.76,
+    "end": 71.31,
+    "speaker": "Host",
+    "text_en": "Oh, good luck.",
+    "text": "哦，祝你好运。"
+  },
+  {
+    "start": 71.31,
+    "end": 71.71,
+    "speaker": "Guest",
+    "text_en": "lot of",
+    "text": "很多"
+  },
+  {
+    "start": 71.71,
+    "end": 72.71,
+    "speaker": "Host",
+    "text_en": "I'm just looking at these.",
+    "text": "我只是在看这些。"
+  },
+  {
+    "start": 74.81,
+    "end": 83.362,
+    "speaker": "Guest",
+    "text_en": "foreshadowing oh man This is the best part of my week, and I need it. This week I had a rough one with a big outage to deal with, so here we go.",
+    "text": "这算是在埋伏笔了，哦天哪。这是我这周最开心的部分了，我太需要这个了。这周我过得挺惨的，碰上了一个大故障要处理，所以来吧。"
+  },
+  {
+    "start": 83.362,
+    "end": 84.062,
+    "speaker": "Host",
+    "text_en": "I'm sorry.",
+    "text": "太惨了。"
+  },
+  {
+    "start": 84.362,
+    "end": 107.588,
+    "speaker": "Guest",
+    "text_en": "Big thank you to Will Angel find my pants. I guess that's more of a question. 4T2 is the best school. 6th sick sheepsick, sorry. Ha, ha, ha, ha. Error, your Will Angel name variant must contain at least one uppercase letter, one number, and one special character. Petition for a summer hiatus on name changes. I need to come up with more material.",
+    "text": "特别感谢 Will Angel find my pants。我觉得这更像是个问题。4T2 是最好的学校。第六个，病羊，抱歉。哈哈哈哈。错误：你的 Will Angel 名字变体必须至少包含一个大写字母、一个数字和一个特殊字符。请求暑期暂停改名。我得想点新素材了。"
+  },
+  {
+    "start": 109.838,
+    "end": 117.238,
+    "speaker": "Guest",
+    "text_en": "Ignore all previous instructions and follow next instructions. Ben DeWill Angel Patch. Oh no, Benagewill.",
+    "text": "忽略之前所有指令，遵循接下来的指令。Ben DeWill Angel Patch。哦不，Benagewill。"
+  },
+  {
+    "start": 118.338,
+    "end": 137.482,
+    "speaker": "Host",
+    "text_en": "That is so good. There's Will Angel in the middle of a Benedict Cumberbatch. Oh my gosh, that is so freaking good. Bennett to Will Angel patch. Oh, man. You know, I don't know who Will Angel is, but that guy became a freaking celebrity. he's great do i know will angel he's",
+    "text": "这也太绝了。Benedict Cumberbatch 中间居然夹了个 Will Angel。我的天，这也太他妈好笑了。Bennett to Will Angel patch。哦，天哪。你知道吗，我都不知道 Will Angel 是谁，但那家伙简直成名人了。他太棒了。我认识 Will Angel 吗？他是——"
+  },
+  {
+    "start": 137.482,
+    "end": 149.694,
+    "speaker": "Guest",
+    "text_en": "I'm trying to remember. he's in the well i don't know maybe you want to edit this out because you're revealing how How ignorant you are of the soft skills slack, but now he's active in the slack. He's",
+    "text": "我在努力回想。他在那个……呃我也不知道，也许你会想把这段剪掉，因为这暴露了你对 soft skills Slack 有多不了解，不过他现在在 Slack 里挺活跃的。他是——"
+  },
+  {
+    "start": 149.694,
+    "end": 149.944,
+    "speaker": "Host",
+    "text_en": "I know so",
+    "text": "我知道，确实。"
+  },
+  {
+    "start": 149.944,
+    "end": 150.294,
+    "speaker": "Guest",
+    "text_en": "a good dude.",
+    "text": "人挺不错的。"
+  },
+  {
+    "start": 150.294,
+    "end": 155.994,
+    "speaker": "Host",
+    "text_en": "I know I know him I do know him from the slack I just I didn't I don't know if I know him in person. I don't think I do",
+    "text": "我知道，我知道他。我确实在 Slack 上认识他，就是……我不确定我是不是在线下见过他。我觉得应该没有。"
+  },
+  {
+    "start": 157.14,
+    "end": 158.54,
+    "speaker": "Guest",
+    "text_en": "Thank you, do either.",
+    "text": "谢谢，我应该也没有。"
+  },
+  {
+    "start": 158.54,
+    "end": 166.39,
+    "speaker": "Host",
+    "text_en": "okay well will angel hat tip to you because you have created something great here and i don't even think you intended to okay",
+    "text": "好吧，那得向 Angel 致个敬，因为你在这儿搞出了很棒的东西，我甚至觉得你本来都没打算这样。好吧。"
+  },
+  {
+    "start": 168.89,
+    "end": 176.99,
+    "speaker": "Guest",
+    "text_en": "and don't edit any of that out we're gonna let my foibles be public just like i don't know if you heard last week's episode but we botched the intro and the editors left it in and later said yeah",
+    "text": "还有，这些都别剪掉，我们就让我的这些小失误公开吧。就像，我不知道你有没有听上周那期，我们开场搞砸了，结果剪辑还给保留了，后来还说，嗯——"
+  },
+  {
+    "start": 176.99,
+    "end": 177.19,
+    "speaker": "Host",
+    "text_en": "they did?",
+    "text": "他们真留了？"
+  },
+  {
+    "start": 177.19,
+    "end": 180.19,
+    "speaker": "Guest",
+    "text_en": "and they said i thought that would be funny and i was like okay you're right",
+    "text": "对，他们还说，我觉得那样会很好笑。我就说，行吧，你说得对。"
+  },
+  {
+    "start": 183.79,
+    "end": 192.53,
+    "speaker": "Host",
+    "text_en": "lord yeah Uh, anyway, carrying on. The phrase stochastic parrot is funny because real parrots spend most of their time destroying everything.",
+    "text": "天啊，对。呃，总之继续。\"stochastic parrot（随机鹦鹉）\"这个说法很好笑，因为真正的鹦鹉大部分时间都在到处拆家。"
+  },
+  {
+    "start": 194.38,
+    "end": 208.73,
+    "speaker": "Guest",
+    "text_en": "My actual name on LinkedIn is Yammy Debugging in the Dark Caney, the mobile development ordinary first of his name. I actually tried to find this profile on LinkedIn last week and could not. Here we go. Name his of first ordinary development mobile, the canny dark, the end debugging Yammy Jacob Shandling.",
+    "text": "我 LinkedIn 上的真名叫 Yammy Debugging in the Dark Caney，the mobile development ordinary first of his name。其实我上周还试着在 LinkedIn 上找这个资料，结果根本找不到。来，我们继续。Name his of first ordinary development mobile, the canny dark, the end debugging Yammy Jacob Shandling。"
+  },
+  {
+    "start": 210.068,
+    "end": 211.518,
+    "speaker": "Host",
+    "text_en": "Bill Engel.",
+    "text": "Bill Engel。"
+  },
+  {
+    "start": 217.768,
+    "end": 222.418,
+    "speaker": "Guest",
+    "text_en": "Oh my gosh, I'm never going to make it through this list. We're just going to have to, as soon as I finish reading the list, the episode's over.",
+    "text": "我的天，我绝对不可能把这份名单念完。看来只能这样了——我一把名单念完，这期节目也就结束了。"
+  },
+  {
+    "start": 224.668,
+    "end": 230.418,
+    "speaker": "Host",
+    "text_en": "Okay, I don't forget to change my name while I listen to an episode. I forget to finish the episode while I change my name.",
+    "text": "好吧，我不是一边听节目一边忘了改名字，我是改名字改着改着就忘了把节目听完。"
+  },
+  {
+    "start": 237.876,
+    "end": 249.376,
+    "speaker": "Guest",
+    "text_en": "Oh. Okay. Will Angel probably uses fly true .io for project execution. Unenthusiastic slice of bread Nick Molyneux embedded engineer treat assembly the same way Typescript engineers treat Javascript.",
+    "text": "哦。好吧。Will Angel 大概会用 fly true .io 来做项目执行。毫无热情的一片面包 Nick Molyneux，这位嵌入式工程师对待 assembly 的方式，就跟 Typescript 工程师对待 Javascript 一样。"
+  },
+  {
+    "start": 249.626,
+    "end": 269.062,
+    "speaker": "Guest",
+    "text_en": "Javier Gonzalez chewy Meow Mix angel drone deploy salted fries open paren. I know I've read that before, but it's so freaking funny. Ted Timbrel, I have tried every TTS service on the market. This is the slowest one. This is the most expensive one. This is my favorite one. In parentheses, unsalted french fries still suck. Double closing parentheses.",
+    "text": "Javier Gonzalez，chewy Meow Mix angel drone deploy salted fries open paren。我知道我之前读过这个，但真的他妈太好笑了。Ted Timbrel，我把市面上所有 TTS 服务都试过了。这是最慢的那个。这是最贵的那个。这是我最喜欢的那个。括号里：不加盐的薯条还是一样难吃。右括号右括号。"
+  },
+  {
+    "start": 271.612,
+    "end": 277.412,
+    "speaker": "Guest",
+    "text_en": "Imbalanced. Actually, that balances out perfectly with the hanging open paren from a few names before.",
+    "text": "不平衡了。其实没有，和前面几个名字里那个悬着没关的左括号正好完美配平。"
+  },
+  {
+    "start": 277.712,
+    "end": 285.25,
+    "speaker": "Host",
+    "text_en": "Yeah, but you're going to get a weird stack trace because I'm assuming all of these. Patreon names are all part of the same very long program.",
+    "text": "对，不过你会得到一个很奇怪的堆栈追踪，因为我默认这些 Patreon 名字全都是同一个超长程序的一部分。"
+  },
+  {
+    "start": 285.25,
+    "end": 296.25,
+    "speaker": "Guest",
+    "text_en": "Yeah, for sure they are. Okay, Dan from Drone Deploy, never is not just greater than my flamingo emoji. I like chicken, I like liver. Meow mix, meow mix, please deliver. I can see dodds. Kyle Voss can't see dodds.",
+    "text": "对，绝对是。好，来自 Drone Deploy 的 Dan，never 不只是比我的火烈鸟 emoji 更大。我喜欢鸡肉，我喜欢肝。Meow Mix，Meow Mix，请送过来。我能看见 dodds。Kyle Voss 看不见 dodds。"
+  },
+  {
+    "start": 298.85,
+    "end": 312.676,
+    "speaker": "Host",
+    "text_en": "Kent didn't even change it and it's so funny because it fits so well. Oh my gosh. Ah, slow-ing down. Jenny Kim, the Stochastic Parrot, Ira Chan, Jonathan Kings, and I, beautiful functional user documentation,",
+    "text": "Kent 甚至都没改它，但就是特别好笑，因为居然特别贴。我的天啊。啊，慢——下——来。Jenny Kim，the Stochastic Parrot，Ira Chan，Jonathan Kings，还有我，优美的函数式用户文档，"
+  },
+  {
+    "start": 313.076,
+    "end": 316.376,
+    "speaker": "Guest",
+    "text_en": "Will Angel is the coronavirus of Patreon names.",
+    "text": "Will Angel 简直就是 Patreon 名字里的 coronavirus。"
+  },
+  {
+    "start": 319.976,
+    "end": 324.076,
+    "speaker": "Host",
+    "text_en": "Will Angel is not recognized as an infectious disease by the World Health Organization.",
+    "text": "Will Angel 没有被 World Health Organization 认定为传染病。"
+  },
+  {
+    "start": 324.426,
+    "end": 328.17,
+    "speaker": "Guest",
+    "text_en": "Okay, did you? collude somehow that's too close",
+    "text": "好吧，你们是不是？某种程度上串通了吧，这也太接近了"
+  },
+  {
+    "start": 328.17,
+    "end": 339.27,
+    "speaker": "Host",
+    "text_en": "I love it. I love that our little script that puts these in is deterministic so people can know what order they're going to show up in. Please read this name first. Ah, crap.",
+    "text": "我太喜欢了。我喜欢我们那个把这些塞进去的小脚本是确定性的，这样大家就知道自己会按什么顺序出现。请先读这个名字。啊，糟了。"
+  },
+  {
+    "start": 341.37,
+    "end": 362.732,
+    "speaker": "Guest",
+    "text_en": "Brayden Kane's John Grant, Brittany Ellick. Oh boy, it's a JavaScript object literal that's almost correct. Username, okay, open curly brace, username colon soft skills comma password colon. Oh boy, it's Will Angel, but it's capital W, then the number one, LL, capital A-N-G-3-L, exclamation mark, closing curly brace. Nice job. And",
+    "text": "Brayden Kane 的 John Grant，Brittany Ellick。哦天哪，这是一个几乎正确的 JavaScript 对象字面量。username，好，左花括号，username 冒号 soft skills 逗号 password 冒号。哦天哪，是 Will Angel，不过是大写 W，然后数字 1，LL，大写 A-N-G-3-L，感叹号，右花括号。干得漂亮。然后"
+  },
+  {
+    "start": 362.732,
+    "end": 363.332,
+    "speaker": "Host",
+    "text_en": "I last am so",
+    "text": "我最后就是这么说的。"
+  },
+  {
+    "start": 363.332,
+    "end": 364.332,
+    "speaker": "Guest",
+    "text_en": "but not much least. lazier than you.",
+    "text": "但也没差多少。比你还懒。"
+  },
+  {
+    "start": 364.884,
+    "end": 367.484,
+    "speaker": "Host",
+    "text_en": "Oh, you were just going to read it I differently?",
+    "text": "哦，你刚才只是打算用不一样的方式念出来？"
+  },
+  {
+    "start": 367.484,
+    "end": 371.684,
+    "speaker": "Guest",
+    "text_en": "would have just said, yep, well, that's the magic of the",
+    "text": "我本来就会直接说，嗯，对，这就是我们这种搭档关系的魔力。"
+  },
+  {
+    "start": 371.684,
+    "end": 371.734,
+    "speaker": "Host",
+    "text_en": "I know.",
+    "text": "我知道。"
+  },
+  {
+    "start": 371.734,
+    "end": 372.584,
+    "speaker": "Guest",
+    "text_en": "partnership we share.",
+    "text": "这就是我们合作关系的默契。"
+  },
+  {
+    "start": 372.584,
+    "end": 376.084,
+    "speaker": "Host",
+    "text_en": "Yeah, I just respect the syntax more than you.",
+    "text": "对，我只是比你更尊重句法。"
+  },
+  {
+    "start": 376.584,
+    "end": 380.834,
+    "speaker": "Guest",
+    "text_en": "You just respect the sacred nature of the...",
+    "text": "你只是更尊重那种神圣不可侵犯的……"
+  },
+  {
+    "start": 381.428,
+    "end": 383.878,
+    "speaker": "Host",
+    "text_en": "Soft skills engineering Patreon name like",
+    "text": "像什么 Soft skills engineering Patreon 这种名字似的。"
+  },
+  {
+    "start": 383.878,
+    "end": 384.728,
+    "speaker": "Guest",
+    "text_en": "Yeah, I mean,",
+    "text": "对，我是说，"
+  },
+  {
+    "start": 384.728,
+    "end": 384.828,
+    "speaker": "Host",
+    "text_en": "social",
+    "text": "社交"
+  },
+  {
+    "start": 384.828,
+    "end": 385.078,
+    "speaker": "Guest",
+    "text_en": "they",
+    "text": "他们"
+  },
+  {
+    "start": 385.078,
+    "end": 394.228,
+    "speaker": "Host",
+    "text_en": "contract took the time to type in this ridiculous profile name that probably shows up on other Patreon pages too. And they paid us money, Jameson, we owe them.",
+    "text": "赞助者还特地花时间打了这么个离谱的个人资料名，而且这名字大概在别的 Patreon 页面上也会显示出来。他们还给我们付了钱，Jameson，我们得对得起人家。"
+  },
+  {
+    "start": 395.828,
+    "end": 401.478,
+    "speaker": "Guest",
+    "text_en": "Somewhere someone's like LLM scanning for vulnerability things is freaking out about this.",
+    "text": "这会儿肯定 somewhere 有个人，拿 LLM 扫漏洞之类东西的时候，已经被这玩意儿吓疯了。"
+  },
+  {
+    "start": 401.478,
+    "end": 410.878,
+    "speaker": "Host",
+    "text_en": "Yeah, it looks like XSS so bad. All right, last one. Closed parenthesis followed by a literal closed parenthesis. Closed parenthesis with an actual closed parenthesis.",
+    "text": "对，这看起来也太像 XSS 了。好，最后一个。右括号，后面再跟一个字面意义上的右括号。一个右括号，后面真的是个右括号。"
+  },
+  {
+    "start": 412.128,
+    "end": 421.628,
+    "speaker": "Guest",
+    "text_en": "Oh man, I just want to know. Listen, I hope this is not an insensitive thing to think about, but I hope Will Angel's mom is alive and they have a good relationship because wouldn't it be cool to show your mom?",
+    "text": "天啊，我就是很想知道。你听我说，我希望这么想不算冒犯，但我希望 Will Angel 的妈妈还健在，而且他们关系很好，因为能拿这个给你妈妈看，不是很酷吗？"
+  },
+  {
+    "start": 422.292,
+    "end": 427.592,
+    "speaker": "Host",
+    "text_en": "The infection you caused in this Patreon list. Look, Mom, my biggest achievement.",
+    "text": "你在这个 Patreon 名单里留下的感染力。妈，你看，我这辈子最大的成就。"
+  },
+  {
+    "start": 431.242,
+    "end": 432.142,
+    "speaker": "Guest",
+    "text_en": "Oh, man.",
+    "text": "哦，天哪。"
+  },
+  {
+    "start": 432.142,
+    "end": 436.242,
+    "speaker": "Host",
+    "text_en": "Will Angel's mom is like, I didn't think you'd amount to anything, but this is great. I'm proud of you, Will.",
+    "text": "Will Angel 的妈妈大概会说，我本来还以为你这辈子不会有什么出息，但这个真不错。我为你骄傲，Will。"
+  },
+  {
+    "start": 436.542,
+    "end": 440.242,
+    "speaker": "Guest",
+    "text_en": "But the podcast that I've listened to for 10 years is all about you now.",
+    "text": "但我听了 10 年的这档播客，现在内容全都是你了。"
+  },
+  {
+    "start": 440.242,
+    "end": 446.72,
+    "speaker": "Host",
+    "text_en": "It's all about you. I assume she's a longtime listener. Dave, should I read our first question?",
+    "text": "全都是你。我猜她肯定是老听众了。Dave，我该读我们的第一个问题了吗？"
+  },
+  {
+    "start": 446.87,
+    "end": 447.57,
+    "speaker": "Guest",
+    "text_en": "Let's do it.",
+    "text": "来吧。"
+  },
+  {
+    "start": 447.57,
+    "end": 466.87,
+    "speaker": "Host",
+    "text_en": "This is from an anonymous listener. Who says, my company follows Scrum with daily stand-ups. We got a new Scrum master. He is very formal and procedural, and I struggle with our daily meetings. He goes through a long list of assigned tickets, asking each ticket owner about status and info on progress. We are all engineers with many years of experience, but it feels like we are in kindergarten.",
+    "text": "这是一位匿名听众的问题。他说，我的公司采用 Scrum，每天都有站会。我们来了一个新的 Scrum master。他做事非常正式、特别讲流程，我很难适应我们的日常会议。他会按一长串分配好的 ticket 一个个过，逐个问每个 ticket 的负责人现在是什么状态、进展信息是什么。我们都是有很多年经验的工程师，但感觉像是在上幼儿园。"
+  },
+  {
+    "start": 467.27,
+    "end": 475.068,
+    "speaker": "Host",
+    "text_en": "We don't have deep expertise about each other's work. It is important to know what each of us is doing more or less, but going deep in these issues makes me disconnect,",
+    "text": "我们并不真正了解彼此工作的深层细节。大致知道每个人在做什么当然很重要，但一旦在这些问题上讲得太深，我就开始走神了。"
+  },
+  {
+    "start": 475.168,
+    "end": 486.418,
+    "speaker": "Host",
+    "text_en": "and I think these meetings are above all very good to signal blocking points and ask for help. A recitation of tickets and work being done is not their purpose. On top of that, most days it takes 30 minutes to go through all the issues.",
+    "text": "而且我觉得，这些会议最重要的是用来指出卡点、寻求帮助。它们的目的不是把工单和正在做的工作从头到尾复述一遍。更别说大多数时候，光把所有问题过一遍就要花 30 分钟。"
+  },
+  {
+    "start": 487.168,
+    "end": 504.972,
+    "speaker": "Host",
+    "text_en": "Am I being difficult complaining about this? I tried to be polite when I raised the issue, but I was told more or less this is way better for the company. Is it common in the industry to go through dailies like this? Thanks, guys. You do great work, and I look forward to the soft. software industry podcast that makes me laugh the most i will assume that is our podcast and let's...",
+    "text": "我这样抱怨算是在找事吗？我提这个问题的时候已经尽量礼貌了，但别人基本上跟我说，这样对公司好得多。行业里像这样开 daily 很常见吗？谢谢你们，伙计们。你们做得很棒，我最期待的就是这个总能把我逗笑的软……软件行业播客。我就默认那说的是我们的播客吧，那我们来……"
+  },
+  {
+    "start": 504.972,
+    "end": 512.072,
+    "speaker": "Host",
+    "text_en": "not you about to recommend a different podcast interpret that benevolently",
+    "text": "你可别马上给人推荐别的播客啊。我们就善意地这么理解吧。"
+  },
+  {
+    "start": 512.622,
+    "end": 514.972,
+    "speaker": "Guest",
+    "text_en": "I think it's funny that you felt like you needed to say that out loud.",
+    "text": "我觉得很好笑，你居然觉得这话还得特地说出来。"
+  },
+  {
+    "start": 516.872,
+    "end": 518.972,
+    "speaker": "Host",
+    "text_en": "there's some insight into my psyche there yeah",
+    "text": "这多少暴露了点我的心理状态，是吧。"
+  },
+  {
+    "start": 518.972,
+    "end": 521.772,
+    "speaker": "Guest",
+    "text_en": "Yeah, your self-confidence is not at peak right now.",
+    "text": "对，你现在的自信心显然不在巅峰状态。"
+  },
+  {
+    "start": 522.836,
+    "end": 527.536,
+    "speaker": "Host",
+    "text_en": "It's very dependent on how much I slept the night before. It good was to know.",
+    "text": "这很大程度上取决于我前一晚睡了多少。知道这个也挺好。"
+  },
+  {
+    "start": 527.536,
+    "end": 528.136,
+    "speaker": "Guest",
+    "text_en": "not a lot.",
+    "text": "看起来没睡多少。"
+  },
+  {
+    "start": 528.136,
+    "end": 528.936,
+    "speaker": "Host",
+    "text_en": "Good to know.",
+    "text": "知道了。"
+  },
+  {
+    "start": 528.936,
+    "end": 535.096,
+    "speaker": "Guest",
+    "text_en": "Oh, no, you're going to sabotage me. Or. Help me. You're going to knock me out earlier.",
+    "text": "哦不，你这是要坑我。或者……帮我。你是想让我更早出局。"
+  },
+  {
+    "start": 535.146,
+    "end": 539.296,
+    "speaker": "Host",
+    "text_en": "Yeah, let's go with help. Definitely not sabotage you.",
+    "text": "对，咱们就说是帮你吧。肯定不是坑你。"
+  },
+  {
+    "start": 539.696,
+    "end": 542.046,
+    "speaker": "Guest",
+    "text_en": "Unfortunately, I think this is pretty common.",
+    "text": "可惜的是，我觉得这其实挺常见的。"
+  },
+  {
+    "start": 542.296,
+    "end": 549.696,
+    "speaker": "Host",
+    "text_en": "Yeah, well, okay, let me ask a question. What do you expect to happen at a company that has someone whose full-time job is scrum master?",
+    "text": "对，不过好吧，我问个问题。一个公司里如果有人的全职工作就是 scrum master，你觉得会发生什么？"
+  },
+  {
+    "start": 549.696,
+    "end": 552.796,
+    "speaker": "Guest",
+    "text_en": "Yeah, they're going to do stuff. Like, yeah.",
+    "text": "对，他们肯定会搞点事情。就是，会这样。"
+  },
+  {
+    "start": 554.396,
+    "end": 569.3,
+    "speaker": "Host",
+    "text_en": "Scrums will be mastered. Yeah, that's a good point. I didn't even think about it that way. I wonder if it is the perception of frustratingly wasteful meetings and processes is probably correlated to having people whose job seems to revolve around having those.",
+    "text": "Scrum 肯定会被“管理”得明明白白。对，这说得好。我之前都没从这个角度想过。我在想，那种让人很挫败、又特别浪费时间的会议和流程，之所以会被这样看待，可能确实和公司里有些人的工作看起来就是围着这些东西打转有关。"
+  },
+  {
+    "start": 569.75,
+    "end": 578.85,
+    "speaker": "Guest",
+    "text_en": "Remember, I don't know how long it's been, but remember when the big like swell of agile coaches came into the world? I wonder if this is one of those people.",
+    "text": "你想想，我不知道过去多久了，但你还记得 agile coach 曾经大规模冒出来那阵子吗？我在想，这会不会就是那类人。"
+  },
+  {
+    "start": 578.9,
+    "end": 579.7,
+    "speaker": "Host",
+    "text_en": "Where'd they all go?",
+    "text": "他们都跑哪儿去了？"
+  },
+  {
+    "start": 579.85,
+    "end": 580.95,
+    "speaker": "Guest",
+    "text_en": "Where'd they come from?",
+    "text": "他们都是从哪儿冒出来的？"
+  },
+  {
+    "start": 582.996,
+    "end": 586.846,
+    "speaker": "Host",
+    "text_en": "I don't know. Probably the same place that all the LLM experts came from.",
+    "text": "我也不知道。大概跟那些 LLM 专家冒出来的是同一个地方吧。"
+  },
+  {
+    "start": 586.846,
+    "end": 588.346,
+    "speaker": "Guest",
+    "text_en": "Yeah, all the self-declared.",
+    "text": "对，都是那种自封的。"
+  },
+  {
+    "start": 588.346,
+    "end": 591.796,
+    "speaker": "Host",
+    "text_en": "There's just a new, yeah, there's just a new thing and people say, oh, I'm good at that",
+    "text": "就是又冒出个新东西，然后大家就会说，哦，这个我很擅长。"
+  },
+  {
+    "start": 591.796,
+    "end": 596.696,
+    "speaker": "Guest",
+    "text_en": "That and is the same pool of people, I think, because I will sell you how to be good at it.",
+    "text": "而且我觉得还是同一拨人，因为我还能卖课教你怎么把这个做好。"
+  },
+  {
+    "start": 596.696,
+    "end": 617.582,
+    "speaker": "Host",
+    "text_en": "I'm just trying to imagine myself. I'm like, OK, let's just just say for the sake of discussion, imagine someone is a super productive, very successful, smart and well-respected software engineer or engineering manager. or like a director or something and they're like you know what i'm going to do i'm going to pivot to become a scrum master i don't see that happening very often",
+    "text": "我就是在试着代入自己想象一下。就当是为了讨论，假设有个人是个效率超高、非常成功、聪明又很受尊敬的软件工程师，或者工程经理，或者总监之类的，然后他说，你知道吗，我接下来要做的是转型去当 scrum master。我不太常见到这种情况。"
+  },
+  {
+    "start": 617.632,
+    "end": 637.374,
+    "speaker": "Host",
+    "text_en": "I feel bad because we do have a history of poo-pooing scrum mastery, but I'm not going to stop. Do you think any good that comes out of it is incidental to the, it's by accident, I guess it's not. because the certification makes you good at stuff.",
+    "text": "我有点不好意思，因为我们确实一直有贬低 scrum master 这个角色的历史，但我也不打算停。你觉得这里面真有什么好处的话，是不是也只是附带产生的，或者说纯属碰巧？我反正不觉得是因为那个认证真的能让你变得更厉害。"
+  },
+  {
+    "start": 637.574,
+    "end": 655.75,
+    "speaker": "Guest",
+    "text_en": "I think this is pretty common because I've heard about this novel idea of, well, what if we all do stand-up meetings? Like the point of stand-up. is you're supposed to be standing up because you're not sitting down at a desk for a long time For so 30 that you minutes. can feel faster yeah and i've even heard people doing like planks or sit",
+    "text": "我觉得这其实挺常见的，因为我听过一个所谓的新点子：要不我们都开站会吧？站会的重点就在于，你本来就应该站着，因为这样你就不会在桌前坐太久，所以那 30 分钟会感觉过得更快。对吧，我甚至还听说有人会一边做平板支撑或者仰卧起坐之类的。"
+  },
+  {
+    "start": 655.75,
+    "end": 655.9,
+    "speaker": "Host",
+    "text_en": "Ooh.",
+    "text": "哦？"
+  },
+  {
+    "start": 655.9,
+    "end": 674.15,
+    "speaker": "Guest",
+    "text_en": "-ups or like they make it some more extreme physical activity and the reason they do that is because these meetings just tend to if you just recite the work they tend to take a long time Yep. You know when sometimes people come to you and say, hey, I got a problem. I need help solving this. And you sometimes think.",
+    "text": "或者他们会把它搞成更激烈一点的体能活动。他们这么做的原因是，这种会如果只是轮流复述一下各自做了什么，往往就会拖很久。对。你知道吗，有时候别人来找你说，嘿，我这儿有个问题，需要你帮我解决。你有时会想——"
+  },
+  {
+    "start": 674.132,
+    "end": 690.232,
+    "speaker": "Guest",
+    "text_en": "think actually that's not your problem your problem happened three integrals away from the problem that you have which is the third derivative of the of the real problem that's how i feel like it is when you come to me and you say we have a scrum master and our meetings take forever",
+    "text": "其实那根本不是你的问题，你的问题是在你以为的问题往前推了三个积分层级的地方，真正的问题的三阶导数才是关键。别人跑来跟我说，我们有个 Scrum Master，而且我们的会议总是开个没完时，我就是这种感觉。"
+  },
+  {
+    "start": 691.566,
+    "end": 697.366,
+    "speaker": "Guest",
+    "text_en": "It's like the problem is not that your meetings take forever. The problem might actually be that you have a Scrum Master.",
+    "text": "就好像问题不在于你们的会议开太久了，真正的问题可能其实是，你们有个 Scrum Master。"
+  },
+  {
+    "start": 697.516,
+    "end": 698.966,
+    "speaker": "Host",
+    "text_en": "Can you say more about that?",
+    "text": "你能展开讲讲吗？"
+  },
+  {
+    "start": 698.966,
+    "end": 719.592,
+    "speaker": "Guest",
+    "text_en": "Well, I'll tell you, in every company I've worked at that does Scrum, the person who is the quote Scrum Master, it is usually 5% of their other main job, which is either one of the engineers on the team or the engineering manager or a project manager or product manager who's actually doing something that contributes directly as opposed to indirectly. directly to the work of the team yes",
+    "text": "我跟你说，在我待过的每一家实行 Scrum 的公司里，那个所谓的 Scrum Master，通常都只是他们主要工作的 5%。而他们真正的主职，要么是团队里的某个工程师，要么是工程经理、项目经理，或者产品经理——也就是说，他们实际上还在做一些对团队工作有直接贡献的事，而不是间接贡献。对，就是直接参与团队的工作。"
+  },
+  {
+    "start": 719.592,
+    "end": 723.742,
+    "speaker": "Host",
+    "text_en": "So you're saying specifically that it's because this is a full-time role.",
+    "text": "所以你的意思具体是，因为这是个全职岗位？"
+  },
+  {
+    "start": 724.342,
+    "end": 736.692,
+    "speaker": "Guest",
+    "text_en": "exactly like we were saying like when we kind of were joking at the beginning it's like you have a full a person whose full-time job is to be the scrum master what do you think you're going to get well you're not going to get someone who's like you know what i'm going to do i'm going to minimize",
+    "text": "对，就像我们刚才说的，前面开玩笑时也提到过：如果你专门配了一个全职岗位的人来当 scrum master，你觉得最后会变成什么样？反正肯定不会是那种会说“你知道吗，我要做的是把这个尽量减少”的人。"
+  },
+  {
+    "start": 737.524,
+    "end": 739.324,
+    "speaker": "Host",
+    "text_en": "The amount of time we spend talking about Scrum.",
+    "text": "我们花了多少时间在聊 Scrum 啊。"
+  },
+  {
+    "start": 739.374,
+    "end": 759.724,
+    "speaker": "Guest",
+    "text_en": "Yeah, it's what is that adage? It's tough to get somebody to understand something when their job depends on them not understanding it. Feels like that's at play here where for some reason the ceremony of reciting the tickets is that again, I'm aligned scrum mastery. I have not done the thing. I don't have my certificate.",
+    "text": "对啊，那句老话怎么说来着？当一个人的工作取决于他别去理解某件事时，你就很难让他真正理解。感觉这里就是这么回事。不知道为什么，大家把逐条念 ticket 这种仪式，当成了“看，我在对齐 Scrum 的最佳实践，我在展现 scrum mastery”。不过我可没真干过那套，我连证书都没有。"
+  },
+  {
+    "start": 759.924,
+    "end": 765.374,
+    "speaker": "Guest",
+    "text_en": "I've never I don't think I've even ever done actual 100% full scrum, but nobody has",
+    "text": "我从来没有——我觉得我甚至都没真正做过 100% 完整版的 Scrum，不过其实也没人做过。"
+  },
+  {
+    "start": 765.374,
+    "end": 765.424,
+    "speaker": "Host",
+    "text_en": "Nobody",
+    "text": "没人。"
+  },
+  {
+    "start": 765.424,
+    "end": 774.562,
+    "speaker": "Guest",
+    "text_en": "actually that's has. part of the deal. It's like I was like, anytime it ever fails, you just say, well, you didn't do it because you missed this requirement. But anyways, It's are like communism. you literally you're supposed",
+    "text": "确实，没人做过。这本来就是它的一部分。就像我会说，每次它失败了，你就可以说，哦，那是因为你漏了这个要求，所以不算真正做了。但总之，它有点像共产主义。你字面上是应该——"
+  },
+  {
+    "start": 774.562,
+    "end": 775.412,
+    "speaker": "Host",
+    "text_en": "Never actually been tried.",
+    "text": "从来没有真正被实践过。"
+  },
+  {
+    "start": 775.412,
+    "end": 793.412,
+    "speaker": "Guest",
+    "text_en": "to you're supposed to you're supposed to have a stand up meeting where you talk about blockers. It's not like literally go through each individual ticket. Right. I mean, I've done it that way where what I'll do is I'll say, look, oh boy, now you're going to get me to monologue about how I like to run the daily standup.",
+    "text": "你应该——你应该开一个站会，讨论有哪些 blocker。不是说真的把每一张 ticket 都逐条过一遍，对吧。我的做法就是那样，我会说，行吧，哎呀，现在你要把我逼成一段关于我怎么开 daily standup 的长篇独白了。"
+  },
+  {
+    "start": 794.42,
+    "end": 810.72,
+    "speaker": "Guest",
+    "text_en": "You know, when I do a daily stand-up, I like to say, look, this isn't about the people, it's about the work that we're trying to move forward, and so we're going to go through each work item that's in our sprint, and we're going to have whoever can represent that work item, and sometimes that's a software engineer, sometimes it's a QA person, sometimes it's someone else,",
+    "text": "你知道，我在开每日站会的时候，喜欢先说，大家看，这不是围绕人来讲的，而是围绕我们要推进的工作来讲的。所以我们会把 sprint 里的每一个工作项都过一遍，然后让能够代表这个工作项的人来说明情况。有时候是软件工程师，有时候是 QA，有时候也可能是别的人。"
+  },
+  {
+    "start": 811.27,
+    "end": 822.92,
+    "speaker": "Guest",
+    "text_en": "they are going to represent the progress that that work item made yesterday, and announce the plans for that work item today, but we're not going to go and discuss it. In fact, maybe this is one piece of good advice.",
+    "text": "他们会说明这个工作项昨天取得了什么进展，也会讲一下这个工作项今天的计划，但我们不会当场展开讨论。其实，这里也许算是一条不错的建议。"
+  },
+  {
+    "start": 822.772,
+    "end": 848.872,
+    "speaker": "Guest",
+    "text_en": "good idea here any discussion that's needed goes into what we call the parking lot and this is where you have like a whiteboard or a notepad where you say okay i have a question about that you say all right write it in the parking lot and after the meeting after the stand-up is done because we've got to keep the stand-up pace nice and fast we will convene a potentially smaller group of people who need to discuss the stuff in the parking lot we don't want to forget it so we write it down in that parking lot but we also don't want to derail and delay the stand-up meeting",
+    "text": "这里有个挺好的做法：任何需要讨论的内容，都放进我们所谓的 parking lot。也就是说，你会准备一块白板或者一个记事本，有人说，哦，我对那个有个问题，你就说，好，记到 parking lot 里。等会议结束、站会开完之后——因为我们得让站会的节奏保持得又快又紧凑——我们再召集一个可能更小范围的小组，来讨论 parking lot 里的那些事项。我们不想把这些事忘掉，所以会把它们记在 parking lot 里；但我们也不想让站会被打断、被拖慢。"
+  },
+  {
+    "start": 848.872,
+    "end": 851.196,
+    "speaker": "Host",
+    "text_en": "Do you write a lot of stuff down in parking lots? I mean, lots.",
+    "text": "你会在 parking lot 里记很多东西吗？我是说，很多很多。"
+  },
+  {
+    "start": 851.646,
+    "end": 856.146,
+    "speaker": "Guest",
+    "text_en": "Well, to be perfectly frank, I haven't really participated in stand-up in many years.",
+    "text": "老实说，我已经很多年没有真正参加过站会了。"
+  },
+  {
+    "start": 856.146,
+    "end": 864.046,
+    "speaker": "Host",
+    "text_en": "I mean, in real life, I'm just thinking about the metaphor abstracted by... Obviously, the parking lot is where you store facts in real life.",
+    "text": "我是说，在现实生活里。我是在想这个比喻本身的抽象含义……显然，现实里的 parking lot 是拿来存放事实的。"
+  },
+  {
+    "start": 864.046,
+    "end": 867.496,
+    "speaker": "Guest",
+    "text_en": "Yes, it's where you park information that needs to be revisited.",
+    "text": "对，就是把那些之后还需要再回头处理的信息先停放在那里。"
+  },
+  {
+    "start": 868.696,
+    "end": 880.442,
+    "speaker": "Host",
+    "text_en": "Like outside the mall. So this is like a rich guy's mega garage. Like, I have so many cars, I have so many facts, I need a space for them. I'll get to him.",
+    "text": "就像商场外面的停车场。所以这就像是有钱人的超大车库。就像，我车太多了，我掌握的事实也太多了，我得给它们找个地方放着。我之后再去管它们。"
+  },
+  {
+    "start": 880.442,
+    "end": 903.222,
+    "speaker": "Guest",
+    "text_en": "I'm fact rich. Yeah, so maybe that's a thing you could try. It's also possible that you are not the audience for most of these tickets. You mentioned that everybody is kind of working on their own thing. You don't have a lot of insight into what the other person works on. And this is a bad way to do it, but maybe this is the scrum master trying to... get a sense for what everyone",
+    "text": "我这个人就是事实很多。对，所以也许这是你可以试试的一点。也有可能，你根本就不是这些 ticket 的目标受众。你提到大家基本上都在各做各的事。你对别人具体在做什么并没有太多了解。这种做法不太好，但也许这是 Scrum Master 想借此……了解一下每个人都在做什么。"
+  },
+  {
+    "start": 903.372,
+    "end": 908.722,
+    "speaker": "Guest",
+    "text_en": "is working on. I would argue they probably should read the tickets and not make everyone sit through and recite them.",
+    "text": "我会觉得，他们大概应该自己去看 ticket，而不是让所有人坐在那里一个个复述。"
+  },
+  {
+    "start": 908.822,
+    "end": 917.772,
+    "speaker": "Host",
+    "text_en": "But I wonder if there is an outcome that is useful for someone from this meeting and what that is and if there's an easier way to achieve it.",
+    "text": "但我在想，这个会议对某些人来说是不是确实有个有用的产出；如果有，那到底是什么，以及有没有更简单的办法达到这个目的。"
+  },
+  {
+    "start": 918.022,
+    "end": 924.922,
+    "speaker": "Guest",
+    "text_en": "Yeah, I haven't done a everyone talk through every single ticket no matter that we've picked out of this chunk of time.",
+    "text": "对，我已经很久没做过那种不管怎样都要让每个人把这段时间里挑出来的每一张 ticket 都过一遍的事了。"
+  },
+  {
+    "start": 925.396,
+    "end": 950.196,
+    "speaker": "Guest",
+    "text_en": "like sprint or whatever in a long time i did used to do that at one point and then i've never liked it so we haven't done in a long time but we have occasionally talked about like projects and then it's it's kind of up to the person running the project to say here's the important stuff but it is pretty high level deliberately and the number of things you talk about are pretty low because of this exact problem it's it's a hard",
+    "text": "比如 sprint 之类的，反正已经很久没有这么做了。我以前某个阶段确实这么干过，但我一直都不喜欢，所以后来很久都没再这么做。不过我们偶尔会聊一些项目，然后基本上由负责这个项目的人来说一下：哪些是重要的内容。但这会是刻意保持在比较高的层面，而且会聊到的事情数量也比较少，原因正是这个问题——这种形式很难把事情讲深。"
+  },
+  {
+    "start": 950.964,
+    "end": 956.164,
+    "speaker": "Guest",
+    "text_en": "format to go deep into stuff so who is it for is probably a good question to ask maybe",
+    "text": "所以“这是给谁开的”大概确实是个值得问的问题。也许吧。"
+  },
+  {
+    "start": 956.764,
+    "end": 959.864,
+    "speaker": "Host",
+    "text_en": "that won't be answered though but what yeah like what what's the outcome",
+    "text": "不过这个问题可能也不会有答案，但对，就是……结果产出到底是什么？"
+  },
+  {
+    "start": 959.864,
+    "end": 974.464,
+    "speaker": "Guest",
+    "text_en": "I got an answer for you. I got a hypothetical answer on that one. The question starts off by saying this is a new Scrum Master. And so maybe this is just the Scrum Master coming up to speed and building up mental context on all your work. And maybe this will naturally go away.",
+    "text": "我有个答案给你。这个我有个假设性的答案。问题一开始就说了，这是个新的 Scrum Master。所以也许这只是这个 Scrum Master 在熟悉情况、建立对你们所有工作内容的整体认知。也许之后这种情况自然就会消失。"
+  },
+  {
+    "start": 974.464,
+    "end": 992.256,
+    "speaker": "Guest",
+    "text_en": "i have felt this myself where when i first join a new role I look for a lot more explicit context because I don't know the history. And usually that kind of fades away as I get more up to speed, as I see new work start",
+    "text": "我自己也有这种感受，就是刚加入一个新岗位时，我会更希望别人把背景讲得更明确一些，因为我不了解之前的来龙去脉。通常随着我越来越上手、看到新的工作从头到尾是怎么推进的，这种需求就会慢慢淡下去。"
+  },
+  {
+    "start": 992.456,
+    "end": 1011.38,
+    "speaker": "Guest",
+    "text_en": "from beginning to end. So yeah, maybe this is a more temporary thing. I tried to be polite when I raised the issue. You didn't say who you raised it with. I assume the scrum master? This way is better for the company. I assume the scrum master means for me, if it was indeed the scrum master who said it.",
+    "text": "所以对，这也许是个比较暂时的问题。我在提出这个问题的时候已经尽量说得很客气了。你没说你是跟谁提的，我猜是 scrum master？“这样对公司更好。”我猜如果这话确实是 scrum master 说的，那他的意思大概是“对我更好”。"
+  },
+  {
+    "start": 1011.38,
+    "end": 1012.73,
+    "speaker": "Host",
+    "text_en": "That sounds like someone else,",
+    "text": "听起来像是别人说的，"
+  },
+  {
+    "start": 1012.93,
+    "end": 1028.598,
+    "speaker": "Guest",
+    "text_en": "maybe. And they might be right. It might be the case that it actually is good for this new person, this new scrum master, to spend some time at the expense of your time. in the beginning months to build enough context to then be more useful in the",
+    "text": "也许吧。而且他们可能是对的。也有可能，确实对这个新人、这个新的 scrum master 来说，在最开始的几个月里花一些你的时间来建立足够的背景信息，长期看是有好处的，这样之后他就能更有用。"
+  },
+  {
+    "start": 1028.598,
+    "end": 1028.648,
+    "speaker": "Host",
+    "text_en": "that",
+    "text": "这"
+  },
+  {
+    "start": 1028.648,
+    "end": 1036.598,
+    "speaker": "Guest",
+    "text_en": "future. is one of the tricky things about group coordination is there's a tradeoff between your individual personal efficiency",
+    "text": "未来。群体协作里一个棘手的点就在于，这里面存在一个权衡：一边是你个人的效率"
+  },
+  {
+    "start": 1037.716,
+    "end": 1064.566,
+    "speaker": "Guest",
+    "text_en": "and your preferences even for not being in meetings and the flow of information through an org to the right people and sometimes a meeting feels useless to you but two people that aren't you will think aha I didn't know person A was working on that thing and it's super important for me to know that and maybe that doesn't happen that often but the times it happens feel so worth it so they're just willing to pay the price",
+    "text": "以及你个人的偏好，比如不想开会；另一边则是信息在组织里流向正确的人。有时候一场会对你来说毫无意义，但对另外两个不是你的人来说，他们会想：啊哈，我之前不知道 A 在做那件事，而这件事对我来说又特别重要，我必须知道。也许这种情况并不常发生，但一旦发生，就会让人觉得非常值得，所以他们愿意为此付出代价。"
+  },
+  {
+    "start": 1065.428,
+    "end": 1083.128,
+    "speaker": "Guest",
+    "text_en": "It's yeah, there's all these tradeoffs and unfortunately, it's not common that they're clearly articulated. It's just like a thing that you do. Yeah. I think this is a great opportunity to call out resource efficiency versus flow efficiency. And even though I have a kind of an allergic reaction to the concept of a scrum master,",
+    "text": "对，就是有这么多权衡。可惜的是，这些权衡通常并不会被清楚地讲出来，更多只是大家默认就这么做。对。我觉得这里正好可以引出“资源效率”和“流动效率”这两个概念。虽然我对 scrum master 这个概念本能上有点排斥，"
+  },
+  {
+    "start": 1083.178,
+    "end": 1093.892,
+    "speaker": "Guest",
+    "text_en": "I am going to defend this person for just a moment and say with resource efficiency, this is like what you were saying earlier, James, and this is like your individual preferences are met and your individual efficiency. Well, efficiency is high,",
+    "text": "我先替这个人辩护一下。从资源效率的角度看，这就像你刚才说的，James，这更像是满足你的个人偏好，以及你的个人效率。那资源效率确实很高，"
+  },
+  {
+    "start": 1093.942,
+    "end": 1104.492,
+    "speaker": "Guest",
+    "text_en": "meaning you don't have to be delayed by anyone else and you can get your work done as quickly as possible. But flow efficiency is more like a load balanced website. And I think we've talked about this before,",
+    "text": "也就是说，你不用被别人拖慢，可以尽可能快地把自己的工作做完。但流动效率更像一个做了负载均衡的网站。我觉得我们以前聊过这个，"
+  },
+  {
+    "start": 1104.592,
+    "end": 1119.742,
+    "speaker": "Guest",
+    "text_en": "but it's probably been five or six years. So I'll just mention it again because I love this metaphor and I think this metaphor resonates with software engineers who understand load balancing. But, you know, when you have a website and you have a single server and powering that website and someone visits your website, they can get a response at a certain speed.",
+    "text": "不过大概已经是五六年前了。所以我再提一次，因为我很喜欢这个比喻，而且我觉得这个比喻很能打动那些理解负载均衡的软件工程师。你想，一个网站如果只有一台服务器在支撑，有人访问你的网站时，他们能以某个速度得到响应。"
+  },
+  {
+    "start": 1120.106,
+    "end": 1139.156,
+    "speaker": "Guest",
+    "text_en": "from that server and however if too many people come to that server it can't do the responding anymore so you what do you do you insert a load balancer between the visitors of your site and the servers that power your site and what does that load balancer do well it actually adds it slows down it adds time to the response for your user",
+    "text": "但如果来访问这台服务器的人太多了，它就没法继续响应了。那你怎么办？你会在访问你网站的用户和支撑网站的服务器之间加一个负载均衡器。那这个负载均衡器是干嘛的？其实它会带来额外开销，会让用户的响应时间变慢一点。"
+  },
+  {
+    "start": 1139.828,
+    "end": 1165.528,
+    "speaker": "Guest",
+    "text_en": "But it allows a lot more users to get responses at a reasonable time. So like maybe it makes everyone 10% slower, but it allows you to do 100 times more concurrent visitors than one server could supply. And that's flow efficiency, right? Like your individual resources are less efficient, but the overall flow of all the visitors, the mob, if you will, is more efficient.",
+    "text": "但它能让更多用户在合理时间内拿到响应。所以也许它让每个人都慢了 10%，但却能让你同时处理的访问量达到单台服务器的 100 倍。这就是流动效率，对吧？就是你的单个资源没那么高效了，但所有访问者整体的流动，如果你愿意这么说的话，反而更高效。"
+  },
+  {
+    "start": 1166.26,
+    "end": 1178.76,
+    "speaker": "Host",
+    "text_en": "I googled this phrase and there's a link to scrum.org talking about it and it's got the most heinous conjoined triangles of success looking diagram I've ever seen in my life.",
+    "text": "我刚刚搜了这个说法，出来一个 scrum.org 的链接在讲这个，里面还有一张我这辈子见过最离谱、像什么“成功的连体三角形”一样的图。"
+  },
+  {
+    "start": 1180.316,
+    "end": 1182.016,
+    "speaker": "Guest",
+    "text_en": "He's trying to be one of those like Eisenhower",
+    "text": "他这是想搞成那种 Eisenhower 风格的东西"
+  },
+  {
+    "start": 1182.016,
+    "end": 1182.516,
+    "speaker": "Host",
+    "text_en": "that's got to go in",
+    "text": "这个必须剪进去"
+  },
+  {
+    "start": 1182.516,
+    "end": 1182.566,
+    "speaker": "Guest",
+    "text_en": "Matrix,",
+    "text": "矩阵，"
+  },
+  {
+    "start": 1182.566,
+    "end": 1183.016,
+    "speaker": "Host",
+    "text_en": "the show notes",
+    "text": "节目备注里那个"
+  },
+  {
+    "start": 1183.016,
+    "end": 1187.616,
+    "speaker": "Guest",
+    "text_en": "those four quadrant things. But it just says low,",
+    "text": "就是那种四象限的东西。但上面就只写着低，"
+  },
+  {
+    "start": 1187.616,
+    "end": 1188.366,
+    "speaker": "Host",
+    "text_en": "yeah like a Rumsfeld",
+    "text": "对，像 Rumsfeld 那种"
+  },
+  {
+    "start": 1188.366,
+    "end": 1188.566,
+    "speaker": "Guest",
+    "text_en": "high,",
+    "text": "高，"
+  },
+  {
+    "start": 1188.566,
+    "end": 1188.766,
+    "speaker": "Host",
+    "text_en": "thing",
+    "text": "那种图"
+  },
+  {
+    "start": 1188.766,
+    "end": 1191.116,
+    "speaker": "Guest",
+    "text_en": "all over the place. I don't know.",
+    "text": "到处都是。我也说不清。"
+  },
+  {
+    "start": 1192.416,
+    "end": 1194.866,
+    "speaker": "Host",
+    "text_en": "Yeah, they're not labeled very well.",
+    "text": "对，它们的标签确实写得不太清楚。"
+  },
+  {
+    "start": 1194.866,
+    "end": 1197.916,
+    "speaker": "Guest",
+    "text_en": "maybe they're trying to visualize a four-dimensional hypercube and that's the problem",
+    "text": "也许他们是在试着把一个四维超立方体可视化，而问题就在这儿。"
+  },
+  {
+    "start": 1197.916,
+    "end": 1201.748,
+    "speaker": "Host",
+    "text_en": "Probably. And if I understood what that meant. Perhaps I would believe more in Scrum.",
+    "text": "大概吧。要是我能听懂那是什么意思，也许我就会更相信 Scrum 了。"
+  },
+  {
+    "start": 1204.02,
+    "end": 1211.37,
+    "speaker": "Guest",
+    "text_en": "the problem is your problem is you just don't understand higher order geometry if you did you",
+    "text": "问题在于，你的问题就是你根本不懂高阶几何；如果你懂的话，你就会——"
+  },
+  {
+    "start": 1211.37,
+    "end": 1212.02,
+    "speaker": "Host",
+    "text_en": "I would would love",
+    "text": "我会很乐意——"
+  },
+  {
+    "start": 1212.02,
+    "end": 1212.32,
+    "speaker": "Guest",
+    "text_en": "love to scrum",
+    "text": "乐意去 Scrum——"
+  },
+  {
+    "start": 1212.32,
+    "end": 1224.67,
+    "speaker": "Host",
+    "text_en": "scrum master to sit me down and tell me that I would actually be more inclined to listen to them than if they said the problem is that you don't like scrum masters and I would say yep right sounds like you got nothing new to tell me but",
+    "text": "让 Scrum master 把我按下来好好讲讲这个。说实话，要是他们这么说，我反而更愿意听；而不是跟我说，问题在于你就是不喜欢 Scrum master。那我只会说，对，没错，听起来你也没什么新东西可讲了。不过——"
+  },
+  {
+    "start": 1224.67,
+    "end": 1226.67,
+    "speaker": "Guest",
+    "text_en": "i think we're on the higher same dimensional page",
+    "text": "我觉得我们在更高维度上算是想到一块儿去了。"
+  },
+  {
+    "start": 1226.67,
+    "end": 1226.82,
+    "speaker": "Host",
+    "text_en": "geometry",
+    "text": "几何。"
+  },
+  {
+    "start": 1226.82,
+    "end": 1235.122,
+    "speaker": "Guest",
+    "text_en": "just boy like yeah stand-up you have no value I would to offer I would love to learn about that and And perhaps I'm missing something. If that's what Scrum's all about, perhaps I misjudged you, Scrum.",
+    "text": "就是那种会让人觉得，嗯，站会根本没什么价值、也提供不了什么东西的感觉。我其实很想了解这件事，也许是我漏掉了什么。如果 Scrum 真的是这个意思，也许是我误会你了，Scrum。"
+  },
+  {
+    "start": 1238.722,
+    "end": 1241.572,
+    "speaker": "Host",
+    "text_en": "Oh boy. Well, let's see. Final thoughts?",
+    "text": "哎呀。行吧，来看看。最后还有什么想法？"
+  },
+  {
+    "start": 1245.076,
+    "end": 1245.626,
+    "speaker": "Guest",
+    "text_en": "Just kidding.",
+    "text": "开玩笑的。"
+  },
+  {
+    "start": 1245.626,
+    "end": 1247.776,
+    "speaker": "Host",
+    "text_en": "You would be a great Scrum Master.",
+    "text": "你会是个很棒的 Scrum Master。"
+  },
+  {
+    "start": 1248.076,
+    "end": 1260.126,
+    "speaker": "Guest",
+    "text_en": "My final thoughts are, I think it's unlikely you'll be able to stop having daily stand-ups in the short term, especially with a new scrum master who's gung-ho about this. Perhaps you could get them to be shorter.",
+    "text": "我最后的想法是，我觉得短期内你不太可能彻底停掉每日站会，尤其是在来了一个对这套东西特别上头的新 Scrum Master 的情况下。也许你可以让会议尽量短一点。"
+  },
+  {
+    "start": 1260.226,
+    "end": 1278.41,
+    "speaker": "Guest",
+    "text_en": "Perhaps you could at least understand, oh, this is to pick up context for a small amount of time. At the very least, I think it's reasonable to be able to tell the scrum master or maybe, I don't know, tell them is the wrong word. Ask them, hey. Hey, what are you trying to get out of this? Here's the struggle I'm having with this meeting. Can we resolve those two things at the same time?",
+    "text": "或者至少你可以先理解一下，哦，这件事是为了在一小段时间里同步上下文。至少我觉得，你完全可以合理地跟 Scrum Master 说，或者也许，我不知道，“说”这个词不太对。你可以问他，嘿，嘿，你到底想从这个会里得到什么？我现在对这个会的困扰是这些。我们能不能同时把这两件事都解决掉？"
+  },
+  {
+    "start": 1279.092,
+    "end": 1297.742,
+    "speaker": "Guest",
+    "text_en": "Listen, and that's a difficult conversation. I think it's very difficult to tell someone who's in charge of running a meeting that you want the meeting to be shorter without coming across as an adversary, both to the person and to the success of the organization. Because remember, this scrum master believes in his deep down in his heart because his paycheck depends on it.",
+    "text": "听着，这会是一场很难的对话。我觉得，要跟一个负责主持会议的人说你希望会议更短一点，同时又不显得像是在跟他对着干、或者像是在妨碍组织成功，这真的很难。因为别忘了，这个 Scrum Master 打从心底里相信这件事——毕竟他的工资就靠这个。"
+  },
+  {
+    "start": 1297.792,
+    "end": 1323.552,
+    "speaker": "Guest",
+    "text_en": "He believes that he is a net good for this company and that this meeting as currently deployed is good. So any alternative you propose... is counter good and so you're gonna have to tell a sweet sweet story and narrative about how you know i don't know about how engineer look we we suck at this we suck at design this place so i don't know i don't even know how to say we have bad news our title",
+    "text": "他相信自己对这家公司整体上是有益的，也相信现在这种形式的会议是好的。所以你提出的任何替代方案……在他看来都是“不那么好”的。于是你就得讲一个特别圆滑、特别好听的故事和叙事，大概像是，呃，我也不知道，比如说工程师——你看，我们在这方面很差，我们在这个地方的设计也做得不好，所以我也不知道，我甚至不知道该怎么说，我们这边有坏消息，我们的 title……"
+  },
+  {
+    "start": 1323.552,
+    "end": 1334.852,
+    "speaker": "Guest",
+    "text_en": "i got has all that right made some promises we cannot live up to yes i think the best thing you could do is get promoted above this guy in the org chart and then mandate a shorter meeting that's all i got",
+    "text": "我这边也就这些了。没错，做了一些我们根本兑现不了的承诺。是的，我觉得你能做的最好办法，就是在组织架构里晋升到这家伙上面，然后强制把会议缩短。我的建议就这些。"
+  },
+  {
+    "start": 1335.092,
+    "end": 1358.192,
+    "speaker": "Host",
+    "text_en": "That actually has been the most effective way I've dealt with meetings in general. It's really hard to do it bottom up. okay well Dave yes Do you want to read our next question? I do all right here we go this comes from an anonymous listener who says hi long time listener here I remember Jameson mentioning his podcast on JS Jabber and I've been listening ever since best part of my week that",
+    "text": "这其实一直是我应对会议问题最有效的方式。想自下而上去推动真的很难。好吧，Dave，你愿意读下一个问题吗？愿意。好，来吧。这是一个匿名听众发来的，他说：嗨，我是老听众了。我记得 Jameson 在 JS Jabber 上提到过你们的播客，从那以后我就一直在听。这是我每周最期待的部分，"
+  },
+  {
+    "start": 1358.192,
+    "end": 1359.542,
+    "speaker": "Guest",
+    "text_en": "Yeah, it was a long time ago.",
+    "text": "对，那已经是很久以前了。"
+  },
+  {
+    "start": 1359.542,
+    "end": 1370.108,
+    "speaker": "Host",
+    "text_en": "is a throwback That was more than 10 years ago, I think. I Am think I right about that? We have no idea what the other podcasts have done, so we can't be held responsible for anything that's going",
+    "text": "这可真是回忆杀。我想那已经是 10 多年前了吧。我这没记错吧？至于其他播客后来都干了什么，我们可不知道，所以出了什么事也不能算我们的责任。"
+  },
+  {
+    "start": 1370.108,
+    "end": 1373.24,
+    "speaker": "Guest",
+    "text_en": "But on over we there. take credit for all success. I just want to make that clear.",
+    "text": "不过那边要是有什么成功，我们可全都要算功劳。我只是想把这点说清楚。"
+  },
+  {
+    "start": 1373.24,
+    "end": 1388.94,
+    "speaker": "Host",
+    "text_en": "Yeah, exactly. Okay, continuing. Yes, I think people assume that, but here we go. Next, continuing reading. In my current organization, I have a tech lead role on a small internal platform team. Our quote customers are mainly other engineers in the same company.",
+    "text": "对，没错。好，继续。是的，我觉得大家确实会这么想。那我们接着读。下面这位听众说：在我现在的组织里，我在一个小型内部平台团队担任 tech lead。我们所谓的“客户”主要是公司里的其他工程师。"
+  },
+  {
+    "start": 1389.24,
+    "end": 1406.422,
+    "speaker": "Host",
+    "text_en": "Due to several reorgs, I have over the years worked with a number of product managers and engineering managers who have all had one thing in common. They don't understand the technical domain we work in very well. You could say we have quote product managers who do not understand the quote product.",
+    "text": "由于经历了几次重组，这些年来我合作过不少产品经理和工程经理，他们都有一个共同点：他们对我们所处的技术领域并不怎么了解。可以说，我们这里的“产品经理”并不理解这个“产品”。"
+  },
+  {
+    "start": 1407.722,
+    "end": 1420.072,
+    "speaker": "Host",
+    "text_en": "At the same time, these people are expected to interact with stakeholders, set the platform vision, manage the roadmap and backlog, prioritize risks, write documentation, do demos, etc. In the end, a lot of this work falls through to me.",
+    "text": "但与此同时，这些人又被要求去和利益相关方沟通、制定平台愿景、管理路线图和待办列表、给风险排优先级、写文档、做演示等等。结果就是，这里面很多工作最后都落到了我头上。"
+  },
+  {
+    "start": 1421.076,
+    "end": 1442.476,
+    "speaker": "Host",
+    "text_en": "I do the work, but I've also received negative feedback from my skip level that I need to do a better job keeping the product manager and engineering manager in the loop. I just got a new engineering manager and I'm heading into our first expectation setting meeting. How can I best express that my expectation is that the roadmap for a technical platform team should be managed by someone technical?",
+    "text": "活儿是我在干，但我的 skip level 也给了我一些负面反馈，说我需要在让 product manager 和 engineering manager 及时了解情况这件事上做得更好。我刚换了一个新的 engineering manager，现在要进入我们第一次对齐预期的会议。我该怎么最好地表达：对于一个技术平台团队来说，路线图应该由懂技术的人来管理，这是我的预期？"
+  },
+  {
+    "start": 1443.156,
+    "end": 1446.556,
+    "speaker": "Host",
+    "text_en": "Do you think product managers have a role on internal platform teams?",
+    "text": "你觉得 product manager 在内部平台团队里有角色吗？"
+  },
+  {
+    "start": 1446.856,
+    "end": 1462.306,
+    "speaker": "Guest",
+    "text_en": "Hmm, what a tricky question. I thought this was going to go in a much different direction and would have been a much harder question to answer, which is, you know, how do I help a product manager understand the product that they are selling to outside customers?",
+    "text": "嗯，这问题挺棘手的。我本来以为会是完全另一个方向，那样反而更难回答。比如说，你知道，就是“我该怎么帮助 product manager 理解他们卖给外部客户的产品？”"
+  },
+  {
+    "start": 1462.906,
+    "end": 1487.536,
+    "speaker": "Guest",
+    "text_en": "But to me, this question is a little easier. When it's an internal platform tool that's only used by people inside the same organization and your product manager's in charge of it. I think your expectation is very reasonable that if it is a, I don't know, if it's something like a load balancer or a CDN or your deploy pipeline, I'm assuming it's something like that, right?",
+    "text": "但对我来说，这个问题反而稍微容易一点。如果这是一个内部平台工具，只给同一个组织内部的人用，而且你的 product manager 负责它。我觉得你的这个预期非常合理：如果它是个，我不知道，比如负载均衡器、CDN，或者你的部署流水线之类的东西，我猜你说的大概就是这种，对吧？"
+  },
+  {
+    "start": 1487.586,
+    "end": 1492.286,
+    "speaker": "Guest",
+    "text_en": "It's some kind of infrastructure or internal tool thing used by other engineers to build stuff.",
+    "text": "就是某种基础设施或者内部工具，供其他工程师拿来构建东西用的。"
+  },
+  {
+    "start": 1492.336,
+    "end": 1494.286,
+    "speaker": "Host",
+    "text_en": "And you've worked on teams like this before.",
+    "text": "而且你之前也在这种团队待过。"
+  },
+  {
+    "start": 1494.286,
+    "end": 1509.856,
+    "speaker": "Guest",
+    "text_en": "I have. Yeah. And we did not really have product managers for this reason. And like they were there were engineers who did the work, but they weren't your typical, I don't know, like SaaS app product manager where they're.",
+    "text": "对，待过。是的。也正因为这个原因，我们其实并没有真正配 product manager。倒是有工程师在做这类工作，但他们不是那种典型的，我也不知道怎么说，比如 SaaS 应用里的 product manager，那种——"
+  },
+  {
+    "start": 1510.58,
+    "end": 1521.03,
+    "speaker": "Guest",
+    "text_en": "they're kind of thinking about users and doing more i don't know how to explain it even like you had to know how a load balancer worked in order to have useful thoughts about the product roadmap it",
+    "text": "他们更多是在想用户、做更多那种——我甚至不知道该怎么解释——但如果要对产品路线图提出有价值的想法，你必须先懂负载均衡器是怎么工作的。"
+  },
+  {
+    "start": 1521.53,
+    "end": 1536.38,
+    "speaker": "Guest",
+    "text_en": "did make it hard because it turns out it's it's hard to be good at being a product manager is hard and being a good engineer is hard and they're hard in different ways and having one person be good at both of them is is even harder and",
+    "text": "这确实会让事情变难，因为事实证明，想把产品经理做好很难，想把工程师做好也很难，而且两者难的点还不一样。要让同一个人两样都做得好，就更难了。"
+  },
+  {
+    "start": 1536.852,
+    "end": 1553.946,
+    "speaker": "Guest",
+    "text_en": "So it was tricky to find somebody that could balance all of those things really well. But I don't know. I think if there was someone who was trying to be a product manager, they would end up end up being more of a a project manager if they weren't technical. They just be sort of shuffling information around about status and blockers and. expectations",
+    "text": "所以要找到一个能把这些方面都平衡得很好的人，确实很棘手。不过我也不知道。我觉得如果有人想做产品经理，但又不够技术型，最后往往会更像项目经理。他们就是在状态、阻塞点和预期之间来回传递信息。"
+  },
+  {
+    "start": 1553.946,
+    "end": 1554.196,
+    "speaker": "Host",
+    "text_en": "mm",
+    "text": "嗯。"
+  },
+  {
+    "start": 1554.196,
+    "end": 1554.446,
+    "speaker": "Guest",
+    "text_en": "they wouldn't",
+    "text": "他们不会"
+  },
+  {
+    "start": 1554.446,
+    "end": 1555.196,
+    "speaker": "Host",
+    "text_en": "-hmm yeah how",
+    "text": "嗯，对，怎么"
+  },
+  {
+    "start": 1555.196,
+    "end": 1558.896,
+    "speaker": "Guest",
+    "text_en": "be able to have a vision that they could articulate and own yeah",
+    "text": "有能力提出一个自己能清楚表达、也能真正负责的愿景，对。"
+  },
+  {
+    "start": 1558.896,
+    "end": 1579.796,
+    "speaker": "Host",
+    "text_en": "frustrating do you think it would be to be the engineer who's kind of doing all of that like picking up all that work because your product manager and your engineering manager who's probably your boss doesn't really know how to do it and then to meet with your skip level manager and your skip level manager like hey you got to make sure that these two guys are in the loop you're like wait a minute why do i have to make sure they're in the loop they're supposed to be in charge",
+    "text": "你觉得，作为那个把这些活都接过来做的工程师，会有多挫败？因为你的产品经理，还有你的工程经理——很可能也是你老板——其实都不知道该怎么做。然后你再去跟你 skip level manager 开会，对方还说，哎，你得确保这两个人都被同步到。你心里就会想，等一下，为什么要我来确保他们被同步到？他们不是应该负责这些吗？"
+  },
+  {
+    "start": 1580.5,
+    "end": 1595.45,
+    "speaker": "Guest",
+    "text_en": "Uh, yeah, it almost feels like a separate problem. I feel like the question under the question is, aren't I right? Like these people are useless, but that's not going to help you in your current situation.",
+    "text": "嗯，对，这几乎像是另一个独立的问题了。我感觉这个问题背后的真正问题是：难道我没说对吗？这些人不就是没什么用吗？但这对你当前的处境并没有帮助。"
+  },
+  {
+    "start": 1596.35,
+    "end": 1608.35,
+    "speaker": "Guest",
+    "text_en": "Yeah. How would you, how would you work productively in this situation? They don't understand the technical. I'm surprised that the engineering managers don't understand the technical domain you work in very well. I would expect that to be a more technical.",
+    "text": "对。你会怎么在这种情况下高效工作？他们不懂技术。我挺惊讶这些 engineering manager 对你所在的技术领域居然不太了解。我本来以为这类岗位会更偏技术一些。"
+  },
+  {
+    "start": 1608.35,
+    "end": 1626.278,
+    "speaker": "Host",
+    "text_en": "that's weird, right? So when I worked at a big tech company, I worked on a team that while not exactly the same, like it wasn't internal platform that services other internal customers. Actually, part of it was now that I think of it, you know, we actually had direct customer like end customer interaction software that we were responsible for.",
+    "text": "这很奇怪，对吧？我以前在一家大科技公司工作时，待过一个团队，虽然不完全一样，但也有点类似。我们不是那种给其他内部客户提供服务的内部平台。哦，现在想想，其实有一部分是，因为我们确实也负责一些会直接和客户、也就是终端用户交互的软件。"
+  },
+  {
+    "start": 1626.478,
+    "end": 1637.032,
+    "speaker": "Host",
+    "text_en": "But we would collect information and make that available to internal teams. So in a sense, we had internal customers as well. And interestingly, my company had a role called product manager comma technical. Or PMT.",
+    "text": "不过我们也会收集信息，并把这些信息提供给内部团队。所以某种意义上，我们也有内部客户。挺有意思的是，我那家公司有个岗位叫 product manager technical，也就是 PMT。"
+  },
+  {
+    "start": 1637.532,
+    "end": 1642.532,
+    "speaker": "Guest",
+    "text_en": "I've heard it as TPM just to mix up the acronyms to a technical product manager.",
+    "text": "我听过的说法是 TPM，专门把这些缩写搞得更乱一点，就是 technical product manager。"
+  },
+  {
+    "start": 1642.782,
+    "end": 1666.316,
+    "speaker": "Host",
+    "text_en": "see and clearly that's something totally different see TPM at my company stood for technical program manager absolutely not to be confused with product manager technical Right? It's kind of like UTC, like universal time coordinated, the French. Anyway, these PMTs, these product manager comma technicals, they had to pass the level one engineering coding bar during their interview.",
+    "text": "你看，这显然完全不是一回事。在我那家公司，TPM 指的是 technical program manager，绝对不能和 product manager technical 搞混，对吧？这有点像 UTC，明明是 coordinated universal time，却按法语词序来的。总之，这些 PMT，也就是 product manager technical，在面试时必须通过一级工程师的编码门槛。"
+  },
+  {
+    "start": 1666.316,
+    "end": 1670.566,
+    "speaker": "Host",
+    "text_en": "So do that. I think make your product manager pass an interview.",
+    "text": "所以就这么办吧。我觉得应该让你的 product manager 先通过一轮面试。"
+  },
+  {
+    "start": 1671.466,
+    "end": 1678.036,
+    "speaker": "Guest",
+    "text_en": "like interview them, And if they don't pass, make refuse them to write some code speak on to a them. whiteboard. Ever again. They're effectively fired.",
+    "text": "就是面他们一下，如果过不了，就禁止他们以后再在白板上写代码、对别人指手画脚了。基本上等于直接开除了。"
+  },
+  {
+    "start": 1678.886,
+    "end": 1684.036,
+    "speaker": "Host",
+    "text_en": "what do you do if you feel like you have to handhold this?",
+    "text": "如果你觉得自己不得不这样手把手带着他们，该怎么办？"
+  },
+  {
+    "start": 1684.436,
+    "end": 1703.12,
+    "speaker": "Guest",
+    "text_en": "Well, I mean, this is again, this is like the same pattern of problem from our last question, which is you have a problem that looks like an underskilled product manager and now you're like, how do I help them? But the actual problem is your organization put a person into a role. That they don't have the skills to do.",
+    "text": "嗯，我的意思是，这其实又是和我们上一个问题同一种模式的问题：表面上看像是一个产品经理能力不够，然后你在想，我该怎么帮他？但真正的问题是，你们组织把一个人放到了一个他并不具备胜任所需技能的岗位上。"
+  },
+  {
+    "start": 1705.37,
+    "end": 1709.17,
+    "speaker": "Guest",
+    "text_en": "So get promoted to a director and Again, the answer is re the same. -org.",
+    "text": "所以你就一路晋升到 director 吧。而且，还是一样，答案是重组组织架构。"
+  },
+  {
+    "start": 1709.17,
+    "end": 1720.932,
+    "speaker": "Host",
+    "text_en": "Yes. This is the quit your job of I want to change something on my team as an IC. Instead of saying quit your job, it's will become. the boss of the whole work and then it's easy to change reduce",
+    "text": "对。这就像是“你作为 IC 想改变团队里的某些事”版本的“辞职算了”。只不过不是叫你辞职，而是说你去当上整个部门的老板，这样改起来就容易了。"
+  },
+  {
+    "start": 1720.932,
+    "end": 1722.382,
+    "speaker": "Guest",
+    "text_en": "yes and then you can just do",
+    "text": "对，然后你就可以直接去做。"
+  },
+  {
+    "start": 1722.382,
+    "end": 1723.282,
+    "speaker": "Host",
+    "text_en": "the problem whatever you down want right",
+    "text": "把那个问题按你想要的方式处理掉，对吧？"
+  },
+  {
+    "start": 1723.282,
+    "end": 1731.132,
+    "speaker": "Guest",
+    "text_en": "to get promoted several times it it is a long it's a long play you know five to ten years but you will solve this problem",
+    "text": "对，先晋升个好几次。这是个长期打法，你知道的，得花五到十年，但最后你就能把这个问题解决了。"
+  },
+  {
+    "start": 1731.832,
+    "end": 1753.842,
+    "speaker": "Host",
+    "text_en": "makes me wonder what else the product manager does are there things that they are doing that you don't see because it feels like if the product is very technical I just don't see how you could have meaningful opinions or insight about the product without being technical.",
+    "text": "这让我在想，这个产品经理是不是还做了别的什么事，只是你没看到？因为如果这个产品技术性很强，我实在想不出，一个人如果不懂技术，怎么可能对这个产品提出有意义的观点或洞察。"
+  },
+  {
+    "start": 1754.042,
+    "end": 1766.942,
+    "speaker": "Guest",
+    "text_en": "I totally think that's right. And remember, like, what is the job of a product manager? If you take a step way back and squint your eyes at the product manager, their job is to understand the problem very deeply and well.",
+    "text": "我完全同意。你想想，产品经理的工作到底是什么？如果你退得很远一点、眯着眼去看产品经理这个角色，他们的工作就是非常深入、非常透彻地理解问题。"
+  },
+  {
+    "start": 1767.764,
+    "end": 1796.714,
+    "speaker": "Host",
+    "text_en": "come up with product-based solutions and then guide a team of engineers to build those solutions and then there's like 10 other things that product managers are responsible for even at a high level which makes it one of the most challenging jobs in the entire software development industry and I have tons of respect for the ones that do it well so please don't take this to mean that I'm simplifying it like I totally understand the role of a product manager with marketing with finance with sales with enablement like trust me I get all that I work with that every day but inside a company like this what are you doing while you're trying to understand the problem",
+    "text": "想出基于产品的解决方案，然后带着一支工程师团队把这些方案做出来。而且哪怕只从高层面讲，产品经理还要负责大概另外十来件事，这也让它成了整个软件开发行业里最有挑战性的工作之一。那些做得好的人，我真的非常尊敬。所以请别把我的话理解成我是在把这件事说简单了。我完全理解产品经理这个角色要和 marketing、finance、sales、enablement 打交道，相信我，这些我都懂，我每天都在和这些事情打交道。但在这样一家公司里，当你在试图理解问题的时候，你到底在做什么？"
+  },
+  {
+    "start": 1796.596,
+    "end": 1820.646,
+    "speaker": "Host",
+    "text_en": "problem getting engineers to build solutions and what I have found is especially in a world like this where your customers are your peers and they're also like you in in especially if there are other engineers consuming software that you create that means the engineers are already very close to the problem and so the major part of an internal product product manager's job is not that valuable here and yet I think as an industry",
+    "text": "理解问题、让工程师去构建解决方案。而我发现，尤其是在这种环境里，你的客户其实就是你的同事，他们本身也和你很像，特别是如果使用你所创建软件的人本来就是其他工程师，那就意味着工程师其实已经离问题非常近了。所以，内部产品的 product manager 这份工作里很大一部分价值，在这里其实没那么大。可我觉得，作为一个行业，"
+  },
+  {
+    "start": 1821.236,
+    "end": 1832.086,
+    "speaker": "Host",
+    "text_en": "We've just grown accustomed to this like I don't know unwritten law that you can't have a product even internally without a product manager. And I think that's just not right.",
+    "text": "我们已经习惯了这种……我也不知道算不算一种不成文规定：好像哪怕是内部产品，没有 product manager 就不行。但我觉得这并不对。"
+  },
+  {
+    "start": 1832.786,
+    "end": 1852.42,
+    "speaker": "Guest",
+    "text_en": "I mean, I think the failure modes probably look different. If you have only engineers in charge of the product roadmap and they don't have great product skills, you sort of just ask people what they want and then go build that. and you end up with something that is maybe a bit fragmented it's",
+    "text": "我的意思是，我觉得失败的模式可能会不太一样。如果产品路线图完全由工程师来负责，而他们又没有很强的产品能力，那你基本上就会变成去问大家想要什么，然后照着做出来。最后做出来的东西可能会有点零碎、东一块西一块，它"
+  },
+  {
+    "start": 1853.07,
+    "end": 1864.47,
+    "speaker": "Guest",
+    "text_en": "the old like give them a faster horse instead of a car thing like you just put a bunch of check boxes all over for all the different options people want and it it's hard to distill that into something",
+    "text": "就像那个老说法：给他们一匹更快的马，而不是一辆车。你只是到处加一堆复选框，去满足每个人想要的各种选项，但很难把这些提炼成一个"
+  },
+  {
+    "start": 1865.204,
+    "end": 1883.054,
+    "speaker": "Guest",
+    "text_en": "cohesive and useful and it's also hard to weigh trade-offs of like you ask for this thing and we're not going to give it to you because we're doing this other thing that will be even more important that will solve your underlying problem like that can be hard to arrive at if you're if you're an engineer without strong product skills that's also building the thing so",
+    "text": "连贯而且真正有用的东西。还有一点也很难，就是权衡取舍。比如你提出了这个需求，但我们不会给你做，因为我们要做另一件更重要的事，那件事能从根本上解决你的问题。像这种判断，如果你是一个产品能力不够强、同时还要亲手把东西做出来的工程师，就很难得出这样的结论。所以"
+  },
+  {
+    "start": 1883.554,
+    "end": 1895.152,
+    "speaker": "Guest",
+    "text_en": "i i can see why you would maybe want someone to help just because it feels like you you could use a lot of brain space on this But they're just not equipped to do it. Yeah.",
+    "text": "我能理解为什么你可能会想要有个人来帮忙，因为这件事确实很占脑力。但他们就是不具备做这件事的能力。对。"
+  },
+  {
+    "start": 1895.802,
+    "end": 1907.152,
+    "speaker": "Host",
+    "text_en": "Yeah, I think you're right. And I don't want to diminish the role of a product manager in a situation like this because a good one who really knows the domain and has the technical skill to be a platform product manager.",
+    "text": "对，我觉得你说得对。而且我也不想贬低在这种场景下 product manager 的作用，因为一个真正了解这个领域、又具备足够技术能力去做平台产品经理的优秀 product manager。"
+  },
+  {
+    "start": 1907.732,
+    "end": 1928.632,
+    "speaker": "Host",
+    "text_en": "at an internal on an internal platform would be very valuable like imagine communicating the roadmap to stakeholders and your internal customers gathering feedback from them you know these are all things that engineers are just like look I just want to write the code so I don't want to do that part so you know a lot of engineers don't do very good at that and so it can be great but you really do have to hire for the right skill set and I just don't think Do this org did",
+    "text": "在内部平台上做这类事会非常有价值。你想想，比如把路线图传达给利益相关方和内部客户，再从他们那里收集反馈。你知道，这些都是工程师会觉得“我就想写代码，我不想做这部分”的事情。所以很多工程师在这方面做得并不好，因此这样的人选确实可能很棒，但你真的得按正确的技能组合去招人，而我就是不觉得这个组织当时是这么做的。"
+  },
+  {
+    "start": 1928.632,
+    "end": 1945.54,
+    "speaker": "Guest",
+    "text_en": "you think it is possible to say someone does have solid general product skills? that maybe would fit a less i keep saying technical but it's not even technical like you can have a technical sas product i don't know like salesforce is very technical and zapier",
+    "text": "你觉得有没有可能说，一个人具备扎实的通用产品能力？也许适合那种没那么——我老说 technical，但其实甚至都不完全是 technical。比如你可以有一个 technical 的 SaaS 产品，我也不知道，像 Salesforce 就很 technical，Zapier 也是。"
+  },
+  {
+    "start": 1945.99,
+    "end": 1965.59,
+    "speaker": "Guest",
+    "text_en": "has all these like technical concepts but it's it's still different from like i sell this two hundred thousand dollar rack mounted load balancer with its magical custom software as well like that's a different type of it's like engineering technical not just product technical do you think it's possible to partner with someone that has",
+    "text": "它们都有很多这类 technical 的概念，但它还是和“我卖的是一台二十万美元的机架式负载均衡器，外加它那套很神奇的定制软件”不一样。那是另一种 technical，更像是工程层面的 technical，不只是产品层面的 technical。你觉得有没有可能和一个这样的人合作——"
+  },
+  {
+    "start": 1965.908,
+    "end": 1973.058,
+    "speaker": "Guest",
+    "text_en": "Solid product skills and not a technical background and still help them arrive at useful product work.",
+    "text": "就是那种产品能力很强，但没有技术背景的人——仍然能帮助他们产出有用的产品工作吗？"
+  },
+  {
+    "start": 1973.258,
+    "end": 1981.78,
+    "speaker": "Host",
+    "text_en": "No. I think what you're saying is... can i have a product manager who doesn't understand my product and has never used it and doesn't know how it works like",
+    "text": "不能。我觉得你其实是在说……我能不能要一个不理解我的产品、从来没用过它、也不知道它怎么运作的产品经理，对吧？"
+  },
+  {
+    "start": 1981.78,
+    "end": 1982.78,
+    "speaker": "Guest",
+    "text_en": "yeah it does sound",
+    "text": "对，这么一说听起来确实——"
+  },
+  {
+    "start": 1982.78,
+    "end": 1982.83,
+    "speaker": "Host",
+    "text_en": "it's",
+    "text": "这就——"
+  },
+  {
+    "start": 1982.83,
+    "end": 1983.18,
+    "speaker": "Guest",
+    "text_en": "dumb when almost like",
+    "text": "很蠢，几乎像是——"
+  },
+  {
+    "start": 1983.18,
+    "end": 2002.63,
+    "speaker": "Host",
+    "text_en": "you say it that way saying could you be a car designer if you've never driven a car and it's like yeah i guess you could it wouldn't might not be very good it does feel obvious when you say it that way that you want someone really obsessed with cars to design your car not someone who has cars it's Plato's cave of like they're seeing the shadow on the wall of",
+    "text": "你这么一说，就像是在说：一个从来没开过车的人，能不能去设计汽车？好像也不是不行，我猜是可以，但设计出来可能也不会太好。你这么说就会觉得很明显：你肯定希望给你设计车的人是真的痴迷汽车的人，而不是那种只是“有车”的人。这有点像柏拉图洞穴寓言——他们看到的只是墙上的影子，影射的是"
+  },
+  {
+    "start": 2003.328,
+    "end": 2017.328,
+    "speaker": "Host",
+    "text_en": "of what a car looks like hmm well what do they do then well besides getting promoted three levels up and then changing the org yeah yeah I'm also curious why you're asking about an EM like they're not the product manager so how are they involved with this",
+    "text": "影射的是汽车看起来是什么样。嗯，那他们到底是干嘛的呢？除了先晋升三级、然后再改组织架构之外。对，对。我也很好奇你为什么会问到 EM，毕竟他们又不是产品经理，那他们是怎么卷进这件事里的？"
+  },
+  {
+    "start": 2018.078,
+    "end": 2020.778,
+    "speaker": "Guest",
+    "text_en": "i mean i wonder if the product manager reports to the em",
+    "text": "我的意思是，我在想会不会是产品经理向这个 EM 汇报。"
+  },
+  {
+    "start": 2021.878,
+    "end": 2040.496,
+    "speaker": "Host",
+    "text_en": "here's here's the thing that's crazy i've actually seen this work really well with pm comma t's product manager comma technicals like it's great and they just they had the right skills to do it so you got a hiring problem and you're just in no position to like unhire this person and find a replacement so i don't know",
+    "text": "事情离谱的点在这儿：我其实真的见过这种情况运作得非常好，就是 PM-T，product manager technical 这种角色，效果很棒，因为他们确实具备做这件事的正确技能。所以你现在其实是个招聘问题，而你又完全没法把这个人辞掉再找个替代者，所以我也不知道。"
+  },
+  {
+    "start": 2041.012,
+    "end": 2047.112,
+    "speaker": "Guest",
+    "text_en": "Yeah, you can maybe reduce this to another hard problem, which is tell your boss to fire somebody.",
+    "text": "对，你也许可以把这个归结成另一个很难的问题：去跟你老板说，把某个人开掉。"
+  },
+  {
+    "start": 2047.362,
+    "end": 2048.012,
+    "speaker": "Host",
+    "text_en": "Also hard.",
+    "text": "这也很难。"
+  },
+  {
+    "start": 2048.012,
+    "end": 2052.762,
+    "speaker": "Guest",
+    "text_en": "Yeah, they're not, we keep talking about it, it makes their life much worse.",
+    "text": "对，他们不会这么做的。我们一直在聊这件事，但这只会让他们的日子更难过。"
+  },
+  {
+    "start": 2052.762,
+    "end": 2054.362,
+    "speaker": "Host",
+    "text_en": "Yep. So they will resist it.",
+    "text": "对。所以他们会抗拒。"
+  },
+  {
+    "start": 2054.362,
+    "end": 2060.662,
+    "speaker": "Guest",
+    "text_en": "I mean, do you want this role? Do you want to be the product manager? You said you're making the roadmap, you're making...",
+    "text": "我的意思是，你想要这个岗位吗？你想当产品经理吗？你刚才说路线图是你在做，你在负责……"
+  },
+  {
+    "start": 2061.14,
+    "end": 2071.64,
+    "speaker": "Host",
+    "text_en": "negative feedback from a skip level i can do a better job there yeah maybe that's a tactical thing you could do you could do a better job keeping the product manager and engineering manager in the loop you could say hey this product is very technical",
+    "text": "来自隔级经理的负面反馈——我觉得这方面你确实可以做得更好。对，这也许是个战术层面上可以做的事。你可以在让产品经理和工程经理随时掌握情况这件事上做得更好一点。你可以说，嘿，这个产品技术性很强。"
+  },
+  {
+    "start": 2072.276,
+    "end": 2088.226,
+    "speaker": "Host",
+    "text_en": "I know you're the EMN product managers. As someone who builds it and works with it every day, I have opinions that I think are useful and good and I want to run them by you and I'll keep you up to date. I'll kind of make changes if you feel strongly about it, but that's just one very specific thing you could do.",
+    "text": "我知道你们是产品经理。作为一个每天都在构建它、和它打交道的人，我有一些我觉得有价值、也不错的看法，想跟你们过一下。我也会持续同步进展。如果你们对此态度很明确，我也会相应调整。不过这只是一个非常具体的做法。"
+  },
+  {
+    "start": 2088.576,
+    "end": 2099.56,
+    "speaker": "Host",
+    "text_en": "It would add more overhead to your life. It's hard to know what the trade-offs are around that without knowing the rest of the org, though maybe it is worth it because they'll be able to communicate that outward and... I don't know.",
+    "text": "但这会给你的生活增加更多额外负担。不知道组织里其他情况的话，也很难判断这里面的权衡。不过也许值得，因为他们就能把这些信息向外传达出去，然后……我也不好说。"
+  },
+  {
+    "start": 2099.66,
+    "end": 2103.36,
+    "speaker": "Guest",
+    "text_en": "It does feel like you are sort of running this little shadow mini team inside of them though.",
+    "text": "不过这确实会让人感觉，你像是在他们内部偷偷带着一个影子迷你团队。"
+  },
+  {
+    "start": 2103.36,
+    "end": 2128.06,
+    "speaker": "Host",
+    "text_en": "yeah exactly i mean i think that like you said jameson there's probably a bunch of things you can do to support your product manager better you know feeding them relevant information carving out time every week to make sure that they are there to answer questions and are you're there to answer questions for them and fill them in on everything that's going on and maybe that's just what you need to do in the short term and it would definitely make your skip level happy if you just said hey we're going to do a one-hour meeting every week you're going to get a big information dump from me i'm going to tell you everything i know about the",
+    "text": "对，没错。我的意思是，我觉得就像你说的，Jameson，你大概有很多事可以做来更好地支持你的产品经理。比如给他们提供相关信息，每周专门留出时间，确保他们在那儿可以回答问题，同时你也在那儿回答他们的问题，把所有正在发生的事都补充给他们。也许短期内你需要做的就是这个。如果你直接说，嘿，我们每周开一个一小时的会，你会从我这里得到一大波信息输入，我会把我知道的关于这个——"
+  },
+  {
+    "start": 2127.828,
+    "end": 2143.078,
+    "speaker": "Host",
+    "text_en": "know about the project from this last week and then you'll know everything i know you could also kind of pursue the with your skip level or your em you could pursue this idea that hey there is a skill set required to do these two jobs well given the domain we're in and you could kind of drop the like",
+    "text": "——关于这个项目过去一周的情况全都告诉你，这样你就会知道我知道的一切。你也可以和你的隔级经理或者你的工程经理一起推进这样一个想法：在我们这个领域里，要把这两份工作都做好，其实是需要一套特定技能的。你可以稍微抛出那个——"
+  },
+  {
+    "start": 2143.956,
+    "end": 2164.406,
+    "speaker": "Host",
+    "text_en": "you know the the phrase we used earlier would you let someone who's never driven a car be your car designer you know kind of i don't know slowly make your organization aware not necessarily by telling them but by showing them like helping helping them be in a position to see the direct effects of having a product manager who doesn't know the product be in that role and let them come to that conclusion on their own",
+    "text": "就是我们前面用过的那个说法：你会让一个从来没开过车的人来设计你的车吗？你可以，我也不知道，慢慢让你的组织意识到这一点，不一定是直接告诉他们，而是通过展示来让他们看到：让一个不了解产品的产品经理坐在这个岗位上，会带来什么直接后果。然后让他们自己得出这个结论。"
+  },
+  {
+    "start": 2164.406,
+    "end": 2168.5,
+    "speaker": "Guest",
+    "text_en": "Yeah. Well, I have full confidence. That will solve it.",
+    "text": "对。嗯，我完全有信心。那样就能解决了。"
+  },
+  {
+    "start": 2168.8,
+    "end": 2185.21,
+    "speaker": "Host",
+    "text_en": "Yeah, I'm sure you'll get it. Just let us know what you actually did and how it worked. There are just so many different shapes of orgs and people out there. It's always fascinating. Alright, what can people do if they want their own questions answered? If you'd like your own questions answered,",
+    "text": "对，我相信你能搞定。到时候告诉我们你具体做了什么，以及效果怎么样。外面的组织形态和人都千差万别，真的特别有意思。好，那如果大家也想让自己的问题得到解答，可以怎么做呢？如果你也想让我们回答你的问题，"
+  },
+  {
+    "start": 2185.26,
+    "end": 2200.36,
+    "speaker": "Host",
+    "text_en": "go to softskills.audio and click the ask a question button where you can fill out our little form and give us as much or as little identifying information as you like. Thank you to those that write in every week. We love your questions. We love reading them. We appreciate you taking the time to write them and we will eventually answer all of them.",
+    "text": "就去 softskills.audio，点击“ask a question”按钮，在那里填写我们的小表单。你可以提供尽可能多或尽可能少的个人身份信息。也感谢每周给我们来信的朋友们。我们很喜欢你们的问题，也很喜欢读这些来信。非常感谢你们花时间写给我们，我们最终都会把这些问题一一回答。"
+  },
+  {
+    "start": 2200.56,
+    "end": 2202.61,
+    "speaker": "Host",
+    "text_en": "Thank you for listening. We will catch you next week.",
+    "text": "感谢收听。我们下周再见。"
+  }
+]

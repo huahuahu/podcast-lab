@@ -1,0 +1,766 @@
+{
+  "summary": {
+    "OK": 104,
+    "FLIP": 0,
+    "UNSURE": 22
+  },
+  "suspicious": [],
+  "all": [
+    {
+      "idx": 0,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "像是节目开场引用/独白素材的一部分，和下一段连续成篇，不像主持人与嘉宾即时对话。"
+    },
+    {
+      "idx": 1,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续上一段的宣言式文案，随后才切入主持人正式开场，当前标注可接受。"
+    },
+    {
+      "idx": 2,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "典型主持人开场白，自报家门、报日期并预告嘉宾。"
+    },
+    {
+      "idx": 3,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "明显是主持人口播广告。"
+    },
+    {
+      "idx": 4,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "继续广告内容，语气和结构都符合主持人念赞助。"
+    },
+    {
+      "idx": 5,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "广告收尾和行动号召，显然是主持人。"
+    },
+    {
+      "idx": 6,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "直接点名嘉宾并提出长问题，典型主持人发问。"
+    },
+    {
+      "idx": 7,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "以“对”回应上一段提问，并开始展开分析，符合嘉宾回答。"
+    },
+    {
+      "idx": 8,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "承接上一段时间线叙述，明显还是同一位回答者在继续。"
+    },
+    {
+      "idx": 9,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续完整铺陈事件发展，没有切换说话人的迹象。"
+    },
+    {
+      "idx": 10,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "总结前述时间线并给出判断，仍是嘉宾连续发言。"
+    },
+    {
+      "idx": 11,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "对嘉宾内容做归纳补充并抛出感叹，像主持人接话推进话题。"
+    },
+    {
+      "idx": 12,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "以“先说整个谈判过程”开启系统性回应，符合嘉宾分析。"
+    },
+    {
+      "idx": 13,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续对谈判方式的批评，明显是同一回答继续。"
+    },
+    {
+      "idx": 14,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续阐述理想谈判流程，和前后段衔接自然。"
+    },
+    {
+      "idx": 15,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "虽有转写残句，但内容仍是同一分析脉络中的嘉宾发言。"
+    },
+    {
+      "idx": 16,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "承接上一段指出美伊立场冲突，仍是嘉宾总结判断。"
+    },
+    {
+      "idx": 17,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "切换到乌克兰话题并提出新问题，典型主持人转场提问。"
+    },
+    {
+      "idx": 18,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回答“这意义相当重大”，明显是嘉宾回应主持人问题。"
+    },
+    {
+      "idx": 19,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续解释其判断依据，是上一段回答的自然延续。"
+    },
+    {
+      "idx": 20,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是明显的提问句，符合主持人抛出话题的角色。"
+    },
+    {
+      "idx": 21,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回答上一句关于欧洲是否会军事回应的问题，符合嘉宾展开分析。"
+    },
+    {
+      "idx": 22,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续上一段的因果解释，没有话轮切换迹象。"
+    },
+    {
+      "idx": 23,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是基于前文的追问和总结式反问，符合主持人推进讨论。"
+    },
+    {
+      "idx": 24,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "开头直接纠正并展开回应主持人的问题，符合嘉宾答复。"
+    },
+    {
+      "idx": 25,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是对嘉宾提到事件的澄清和插话式确认，符合主持人口吻。"
+    },
+    {
+      "idx": 26,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "以“没错”承接上一句澄清，明显是嘉宾继续解释。"
+    },
+    {
+      "idx": 27,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续同一论点的延展，没有出现主持人介入的信号。"
+    },
+    {
+      "idx": 28,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "承接上句“这也恰恰说明了”，是同一长段论证的继续。"
+    },
+    {
+      "idx": 29,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "仍在完成上一段结论，语义上是同一发言收束。"
+    },
+    {
+      "idx": 30,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "明显转换到新假设场景并提出问题，符合主持人发问。"
+    },
+    {
+      "idx": 31,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接给出判断并举朝鲜为例，典型嘉宾回答。"
+    },
+    {
+      "idx": 32,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续用朝鲜案例展开论证，属于同一回答。"
+    },
+    {
+      "idx": 33,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "从朝鲜转到伊朗，仍是对上一问题的连续分析。"
+    },
+    {
+      "idx": 34,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续伊朗核威慑的论述，虽有口误重复但仍是同一说话人。"
+    },
+    {
+      "idx": 35,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "补完上一句“拥有核武器”的结论，明显还是嘉宾在收尾。"
+    },
+    {
+      "idx": 36,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是对前述结论提出反例式追问，符合主持人角色。"
+    },
+    {
+      "idx": 37,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回应“他们确实不担心”，明显是嘉宾接答。"
+    },
+    {
+      "idx": 38,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续展开对欧洲和北约风险的分析，没有切换迹象。"
+    },
+    {
+      "idx": 39,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "仍在延续上一段关于俄罗斯升级选项的说明，属于同一长回答。"
+    },
+    {
+      "idx": 40,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续上一轮长篇分析口吻，明显是在展开论述而非主持提问。"
+    },
+    {
+      "idx": 41,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "连续两个追问句明显是主持人推进话题的提问方式。"
+    },
+    {
+      "idx": 42,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回应上句提问并开始系统作答，符合嘉宾角色。"
+    },
+    {
+      "idx": 43,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "与42段无缝衔接，继续扩展同一论点。"
+    },
+    {
+      "idx": 44,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "仍是同一长段论证的延续，没有角色切换迹象。"
+    },
+    {
+      "idx": 45,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续承接前文举例和判断，像嘉宾持续输出观点。"
+    },
+    {
+      "idx": 46,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "句子明显接着45段未完的话头，属于同一人连续发言。"
+    },
+    {
+      "idx": 47,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续分析欧洲安全结构，仍是完整回答的一部分。"
+    },
+    {
+      "idx": 48,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "承接47段对欧洲能力的分析，没有问答转换。"
+    },
+    {
+      "idx": 49,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "明显是主持人切换新话题并铺垫背景。"
+    },
+    {
+      "idx": 50,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "带个人态度和长问题串联，典型主持人提问风格。"
+    },
+    {
+      "idx": 51,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回答“他们那一套是什么”，符合嘉宾解释性回应。"
+    },
+    {
+      "idx": 52,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续定义 neocons 的世界观，明显是同一回答延续。"
+    },
+    {
+      "idx": 53,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "承接前文推演其逻辑后果，仍是嘉宾长篇阐述。"
+    },
+    {
+      "idx": 54,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "从描述对方立场转入自己反驳，仍然是同一发言流。"
+    },
+    {
+      "idx": 55,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "插入追问并具体化案例，符合主持人打断式提问。"
+    },
+    {
+      "idx": 56,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "以“嗯”开头直接回应追问，角色匹配自然。"
+    },
+    {
+      "idx": 57,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续解释对方如何回避失败，明显是同一回答。"
+    },
+    {
+      "idx": 58,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "承接57段补充说明其话术，没有切换迹象。"
+    },
+    {
+      "idx": 59,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "以总结式感叹收束这一回答，符合嘉宾总结口吻。"
+    },
+    {
+      "idx": 60,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这一段是连续长篇背景铺陈，和后面同一人延续论述的节奏一致。"
+    },
+    {
+      "idx": 61,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续展开 Bush doctrine 的论点，没有明显换人迹象。"
+    },
+    {
+      "idx": 62,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "仍是同一论述的总结收束，接到主持人引片段很自然。"
+    },
+    {
+      "idx": 63,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是典型主持人口播和导播指令语气，明显像主持人。"
+    },
+    {
+      "idx": 64,
+      "current": "GUEST",
+      "verdict": "UNSURE",
+      "reason": "这更像插播音频中的辩论发言而非播客两人对话，无法仅按 HOST/GUEST 判断。"
+    },
+    {
+      "idx": 65,
+      "current": "HOST",
+      "verdict": "UNSURE",
+      "reason": "仍像片段中的另一位辩手接话，不一定对应播客里的 HOST。"
+    },
+    {
+      "idx": 66,
+      "current": "GUEST",
+      "verdict": "UNSURE",
+      "reason": "这是片段内即时反驳，像辩论现场角色切换，难映射到播客 GUEST。"
+    },
+    {
+      "idx": 67,
+      "current": "HOST",
+      "verdict": "UNSURE",
+      "reason": "包含重复的“欢迎”疑似转写噪音，且仍在片段对话中，身份难判。"
+    },
+    {
+      "idx": 68,
+      "current": "GUEST",
+      "verdict": "UNSURE",
+      "reason": "延续片段中的争辩发言，但无法确认是否对应播客 GUEST。"
+    },
+    {
+      "idx": 69,
+      "current": "HOST",
+      "verdict": "UNSURE",
+      "reason": "仍像片段里另一方插话，缺乏播客内外角色对应信息。"
+    },
+    {
+      "idx": 70,
+      "current": "GUEST",
+      "verdict": "UNSURE",
+      "reason": "只有极短纠正，像片段中的打断补充，无法稳定判断。"
+    },
+    {
+      "idx": 71,
+      "current": "HOST",
+      "verdict": "UNSURE",
+      "reason": "继续片段中的追问节奏，但不能确定就是播客 HOST。"
+    },
+    {
+      "idx": 72,
+      "current": "GUEST",
+      "verdict": "UNSURE",
+      "reason": "这是被打断的半句回应，文本不足以可靠判断。"
+    },
+    {
+      "idx": 73,
+      "current": "HOST",
+      "verdict": "UNSURE",
+      "reason": "单独一个“你”明显是抢话打断，信息太少无法判断。"
+    },
+    {
+      "idx": 74,
+      "current": "GUEST",
+      "verdict": "UNSURE",
+      "reason": "只是承接上句的残句补完，无法凭此确认说话人映射。"
+    },
+    {
+      "idx": 75,
+      "current": "HOST",
+      "verdict": "UNSURE",
+      "reason": "虽然像追问方，但仍处于外部片段争论中，判断不稳。"
+    },
+    {
+      "idx": 76,
+      "current": "GUEST",
+      "verdict": "UNSURE",
+      "reason": "纯粹口吃式起句，没有足够线索。"
+    },
+    {
+      "idx": 77,
+      "current": "HOST",
+      "verdict": "UNSURE",
+      "reason": "只有打断式短语，无法可靠判断。"
+    },
+    {
+      "idx": 78,
+      "current": "GUEST",
+      "verdict": "UNSURE",
+      "reason": "像对追问的完整回应，但仍是片段内角色，不易映射。"
+    },
+    {
+      "idx": 79,
+      "current": "HOST",
+      "verdict": "UNSURE",
+      "reason": "只是追问尾巴一句，文本过短且仍在片段中。"
+    },
+    {
+      "idx": 80,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "像是在回应前文并铺垫自己观点，符合嘉宾接话展开。"
+    },
+    {
+      "idx": 81,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "带有挑衅式提问和推进话题的语气，符合主持人发问。"
+    },
+    {
+      "idx": 82,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "简短回应主持人的问题，像嘉宾的接球反应。"
+    },
+    {
+      "idx": 83,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "直接评价对方说法不对，延续主持人主导辩论节奏。"
+    },
+    {
+      "idx": 84,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "明显是在被追问后犹豫组织答案，符合嘉宾被逼答的状态。"
+    },
+    {
+      "idx": 85,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "像主持人打趣嘉宾终于要表态的插话。"
+    },
+    {
+      "idx": 86,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这是完整立场陈述，承接前面的犹豫，明显是嘉宾在回答。"
+    },
+    {
+      "idx": 87,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "引用他人观点继续追问，符合主持人补充论点的方式。"
+    },
+    {
+      "idx": 88,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "短促打断式纠正，像嘉宾对主持人提法的即时反应。"
+    },
+    {
+      "idx": 89,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "继续把问题说完整，是主持人追问嘉宾的典型结构。"
+    },
+    {
+      "idx": 90,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "先表同意再扩展到更大背景，符合嘉宾回应式发言。"
+    },
+    {
+      "idx": 91,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "接着嘉宾的话做总结性补充，像主持人维持论述框架。"
+    },
+    {
+      "idx": 92,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "简短反驳主持人的概括，符合嘉宾插入不同意见。"
+    },
+    {
+      "idx": 93,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "像主持人在澄清事实和强调关键点，符合主导说明的角色。"
+    },
+    {
+      "idx": 94,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "情绪化短回应，更像嘉宾对主持人论述的反应。"
+    },
+    {
+      "idx": 95,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "承接对方感叹并试图把话题拉回，符合主持人控场。"
+    },
+    {
+      "idx": 96,
+      "current": "GUEST",
+      "verdict": "UNSURE",
+      "reason": "内容突兀且缺少上下文，难仅凭文本判断是谁在转话题或接梗。"
+    },
+    {
+      "idx": 97,
+      "current": "HOST",
+      "verdict": "UNSURE",
+      "reason": "残句式衔接不足，无法可靠判断是否仍是主持人接续说明。"
+    },
+    {
+      "idx": 98,
+      "current": "GUEST",
+      "verdict": "UNSURE",
+      "reason": "也是未完成句，像接话但缺乏足够语义判断说话人。"
+    },
+    {
+      "idx": 99,
+      "current": "HOST",
+      "verdict": "UNSURE",
+      "reason": "单个词语信息太少，无法根据节奏稳定判断标注是否正确。"
+    },
+    {
+      "idx": 100,
+      "current": "GUEST",
+      "verdict": "UNSURE",
+      "reason": "单句过短且缺少上下文角色线索，难以判断。"
+    },
+    {
+      "idx": 101,
+      "current": "HOST",
+      "verdict": "UNSURE",
+      "reason": "残句式接话信息不足，无法仅凭文本确认说话人。"
+    },
+    {
+      "idx": 102,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "像是在继续自述被指控内容，承接前文更像嘉宾展开说明。"
+    },
+    {
+      "idx": 103,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "包含情绪反应加追问，明显符合主持人总结并发问的节奏。"
+    },
+    {
+      "idx": 104,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回应上一句提问并开始详细论证，符合嘉宾回答。"
+    },
+    {
+      "idx": 105,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续上一段论述，没有转入提问或主持串联。"
+    },
+    {
+      "idx": 106,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "仍是同一长段观点展开，语气和内容连续。"
+    },
+    {
+      "idx": 107,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "承接上句完成论点，明显是同一人持续发言。"
+    },
+    {
+      "idx": 108,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续举例扩展论证，符合嘉宾长篇回应。"
+    },
+    {
+      "idx": 109,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "是前述论证的收束句，仍应为同一位嘉宾。"
+    },
+    {
+      "idx": 110,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "先提新问题又自答补充评论，像主持人转场引出新点。"
+    },
+    {
+      "idx": 111,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "顺着主持人的问题补充细节，典型嘉宾回应。"
+    },
+    {
+      "idx": 112,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续解释 JCPOA 相关立场，明显是同一回答延续。"
+    },
+    {
+      "idx": 113,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "承接上一段继续阐述，没有角色切换迹象。"
+    },
+    {
+      "idx": 114,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "对前述问题作总结性判断，仍是嘉宾在收束观点。"
+    },
+    {
+      "idx": 115,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "主持人式认可后转向信息性提问，符合节目推进功能。"
+    },
+    {
+      "idx": 116,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回答如何观看完整辩论，符合嘉宾答复。"
+    },
+    {
+      "idx": 117,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "像主持人插入拼写澄清，典型辅助性补充。"
+    },
+    {
+      "idx": 118,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "确认主持人补充后继续评价辩论过程，符合嘉宾发言。"
+    },
+    {
+      "idx": 119,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续上一段总结辩论体验，整体仍是嘉宾收尾发言。"
+    },
+    {
+      "idx": 120,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这段像主持人引出嘉宾观点并点名共同熟人，为后面嘉宾展开回应做铺垫。"
+    },
+    {
+      "idx": 121,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "内容是在顺着主持人的引子做长篇分析陈述，明显是嘉宾回答。"
+    },
+    {
+      "idx": 122,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这句承接上一段未完的话继续完成论点，显然还是同一位嘉宾在说。"
+    },
+    {
+      "idx": 123,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是典型主持人收尾致谢并预告下次见面的结束语。"
+    },
+    {
+      "idx": 124,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "简短客套回应主持人的感谢，符合嘉宾在结束时的回话。"
+    },
+    {
+      "idx": 125,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这段是主持人口播后续节目安排并报出自己节目名的标准收尾。"
+    }
+  ]
+}

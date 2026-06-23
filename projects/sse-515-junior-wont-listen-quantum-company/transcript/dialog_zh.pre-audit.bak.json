@@ -1,0 +1,1892 @@
+[
+  {
+    "start": 6.804,
+    "end": 17.004,
+    "speaker": "Host",
+    "text_en": "It takes takes more more than... than oh my gosh i just started talking all right you do it do the thing that you're supposed to do and i won't do the thing i'm not supposed to do",
+    "text": "这可不只是……不只是……哦天哪，我刚一开口就说乱了。好吧，你来吧，做你该做的那部分，我就不做我不该做的那部分了。"
+  },
+  {
+    "start": 17.004,
+    "end": 18.004,
+    "speaker": "Guest",
+    "text_en": "Oh, that sounds like a plan.",
+    "text": "哦，听起来这计划不错。"
+  },
+  {
+    "start": 19.254,
+    "end": 32.504,
+    "speaker": "Host",
+    "text_en": "all right here we go It takes more than joining an empty Zoom room to keep your computer from going to sleep while your Claude session runs overnight to be a great engineer. This is Soft Skills Engineering episode 515. I'm your host, Dave Smith.",
+    "text": "好，开始吧。想成为一名优秀的工程师，光是为了让电脑别休眠、好让你的 Claude 会话整夜跑着，而去加入一个空的 Zoom 会议室，可远远不够。这里是 Soft Skills Engineering 第 515 期。我是主持人 Dave Smith。"
+  },
+  {
+    "start": 33.172,
+    "end": 34.872,
+    "speaker": "Guest",
+    "text_en": "I'm your host, Jameson Dance.",
+    "text": "我是主持人 Jameson Dance。"
+  },
+  {
+    "start": 35.072,
+    "end": 45.122,
+    "speaker": "Host",
+    "text_en": "Soft Skills Engineering is a weekly advice podcast for software developers about all the wrong stuff. I was about to say all the wrong stuff. All the non-technical stuff that goes into... Actually, it is a lot of wrong stuff.",
+    "text": "Soft Skills Engineering 是一档每周更新的播客，给软件开发者提供建议，聊的都是那些不太对劲的东西。我刚刚差点说成“所有不对劲的东西”。是那些构成……其实吧，确实有很多不对劲的东西。"
+  },
+  {
+    "start": 47.322,
+    "end": 51.822,
+    "speaker": "Guest",
+    "text_en": "Okay, about all the non-technical stuff that go into the technical field of software development.",
+    "text": "好吧，就是聊那些进入软件开发这个技术领域时会遇到的、所有非技术性的东西。"
+  },
+  {
+    "start": 52.572,
+    "end": 53.622,
+    "speaker": "Host",
+    "text_en": "All the bad stuff.",
+    "text": "所有糟糕的东西。"
+  },
+  {
+    "start": 53.622,
+    "end": 56.072,
+    "speaker": "Guest",
+    "text_en": "Yes. Come here for wrong answers.",
+    "text": "对。来这儿听错误答案就对了。"
+  },
+  {
+    "start": 56.884,
+    "end": 57.284,
+    "speaker": "Host",
+    "text_en": "We should rename",
+    "text": "我们应该把"
+  },
+  {
+    "start": 57.284,
+    "end": 57.484,
+    "speaker": "Guest",
+    "text_en": "I",
+    "text": "我"
+  },
+  {
+    "start": 57.484,
+    "end": 58.934,
+    "speaker": "Host",
+    "text_en": "our podcast Wrong Answers Only.",
+    "text": "咱们的播客改名叫《只要错误答案》。"
+  },
+  {
+    "start": 59.484,
+    "end": 86.062,
+    "speaker": "Guest",
+    "text_en": "feel like I've seen this spate of weird, horrible solutions for this problem. i've many years ago there were a bunch of apps that did this already before running agents on your computer became a thing like mac os had caffeine and i'm sure there's its version for every other operating system i've seen people build these usb monstrosities that they like you can just not do that yeah",
+    "text": "感觉我已经见过一波这种针对这个问题的奇怪又离谱的解决方案了。很多年前其实就已经有一堆这种应用了，在“让 agent 跑在你电脑上”还没流行起来之前就有。比如 macOS 上有 Caffeine，我敢说其他操作系统肯定也都有对应的版本。我还见过有人做那种夸张的 USB 怪东西，明明你完全没必要这么搞。对。"
+  },
+  {
+    "start": 86.062,
+    "end": 88.612,
+    "speaker": "Host",
+    "text_en": "Yeah, but Claude built it for them, so they feel really cool.",
+    "text": "对啊，但这是 Claude 给他们做的，所以他们会觉得自己特别酷。"
+  },
+  {
+    "start": 88.612,
+    "end": 98.112,
+    "speaker": "Guest",
+    "text_en": "i guess this is yeah this is pretty meta like you can why use a thing someone else built built well when you could build a very crappy expensive version of it yourself yeah",
+    "text": "我猜这事吧，确实挺 meta 的。就是，别人明明已经把这东西做得很好了，你为什么不用，偏要自己做一个又烂又贵的版本呢？对。"
+  },
+  {
+    "start": 98.112,
+    "end": 99.612,
+    "speaker": "Host",
+    "text_en": "And I'll feel like a boss.",
+    "text": "而且我还会觉得自己像个老板。"
+  },
+  {
+    "start": 100.712,
+    "end": 107.462,
+    "speaker": "Guest",
+    "text_en": "yeah dave should i thank our patrons let's do it all right oh my window is borked uh",
+    "text": "对，Dave，我要不要感谢一下我们的 patrons？来吧。好，呃，我的窗口出问题了，呃。"
+  },
+  {
+    "start": 107.462,
+    "end": 112.412,
+    "speaker": "Host",
+    "text_en": "I'm just pre-laughing at the patron names. You haven't even started reading them and I'm already laughing.",
+    "text": "我光是看到这些 patron 名字就已经先笑起来了。你都还没开始念，我就已经在笑了。"
+  },
+  {
+    "start": 115.156,
+    "end": 122.956,
+    "speaker": "Guest",
+    "text_en": "Thank you to the folks that contribute so much that we shout them out or increasingly bizarre phrases that they write for us every single week.",
+    "text": "感谢那些贡献多到值得我们每周专门点名感谢的人，或者说，感谢那些每周都给我们写越来越离谱短语的人。"
+  },
+  {
+    "start": 123.356,
+    "end": 151.632,
+    "speaker": "Host",
+    "text_en": "These are their names on Patreon in case it's not obvious. A human has changed their name to each thing that we say. Thank you too. Will Angel find my pants? 4T2 is the best school. Will Angel Bob Ranger Rob Danger Jameson? Error. Your Will Angel name variant must contain at least one uppercase letter, one number, and one special character. Soft skillet. Happy birthday from episode 400.",
+    "text": "这些就是他们在 Patreon 上的名字，以防这还不够明显。我们说出来的每一句，都是某个真人真的把自己的名字改成那样。也谢谢你们。Will Angel 会帮我找到裤子吗？4T2 是最好的学校。Will Angel Bob Ranger Rob Danger Jameson？错误。你的 Will Angel 名字变体必须至少包含一个大写字母、一个数字和一个特殊字符。柔软的平底锅。来自第 400 期的生日快乐。"
+  },
+  {
+    "start": 152.948,
+    "end": 162.298,
+    "speaker": "Host",
+    "text_en": "Bennett will angel patch The phrase stochastic parrot is funny because real parrots spend most of their time destroying everything",
+    "text": "Bennett will angel patch。“stochastic parrot”这个短语很好笑，因为现实中的鹦鹉大部分时间都在破坏一切。"
+  },
+  {
+    "start": 165.848,
+    "end": 189.866,
+    "speaker": "Host",
+    "text_en": "My actual name on LinkedIn is yammy debugging the dark canny the mobile development ordinary first of his name First or sorry name his of first ordinary development mobile the canny dark the in debugging yammy Semi-colon Jacob Shandling. Bill Engel. I'm the intern on this podcast who got lost in the last re-org. Who should I contact for a new reassignment?",
+    "text": "我在 LinkedIn 上的真名是 yammy debugging the dark canny the mobile development ordinary first of his name。First，哦不对，sorry，name his of first ordinary development mobile the canny dark the in debugging yammy。分号。Jacob Shandling。Bill Engel。我是这个播客里的实习生，在上一次重组里走丢了。我该联系谁，才能重新给我安排岗位？"
+  },
+  {
+    "start": 191.216,
+    "end": 192.666,
+    "speaker": "Guest",
+    "text_en": "Dave. 100% Dave.",
+    "text": "Dave。百分之百是 Dave。"
+  },
+  {
+    "start": 193.316,
+    "end": 210.25,
+    "speaker": "Host",
+    "text_en": "Will Angel probably uses flytrue.io for project execution. An enthusiastic slice of bread, Nick Molyneux, embedded engineers treat assembly the same way Typescript engineers treat JavaScript, Javier Gonzalez chewy meow mix angel drone deploy salt salted fries single open parentheses",
+    "text": "Will Angel 大概会用 flytrue.io 来做项目执行。热情洋溢的一片面包，Nick Molyneux，嵌入式工程师对待 assembly 的方式，就跟 Typescript 工程师对待 JavaScript 一样，Javier Gonzalez，chewy meow mix angel drone deploy salt salted fries single open parentheses"
+  },
+  {
+    "start": 210.25,
+    "end": 214.85,
+    "speaker": "Guest",
+    "text_en": "It's like so many inside jokes in one name. Really good.",
+    "text": "这简直像是把一大堆圈内梗全塞进了一个名字里。真不错。"
+  },
+  {
+    "start": 214.85,
+    "end": 236.45,
+    "speaker": "Host",
+    "text_en": "woe unto you if this is your first listen i'm i will get to questions but yeah there's lore in here ted timbrel i've tried every tts service on the market this is the slowest one this is the most expensive one this is my favorite one a single opening parentheses dan from drone deploy never is not just a crater on mars flamingo emoji i like chicken i like liver mount smacks please deliver",
+    "text": "如果这是你第一次听，那可有你受的。我、我会回答问题的，不过对，这里面是有些梗的。Ted Timbrel，我把市面上所有 TTS 服务都试过了，这是最慢的，这是最贵的，也是我最喜欢的。一个左括号。Dan from DroneDeploy。Never 不只是火星上的一个陨石坑。flamingo emoji。我喜欢鸡肉，我喜欢肝，Mount Smacks，请送来。"
+  },
+  {
+    "start": 236.5,
+    "end": 242.35,
+    "speaker": "Host",
+    "text_en": "liver i can see dodds nice kyle boss can't see dodds slowing",
+    "text": "肝。我能看见点点。Nice Kyle Boss。看不见点点，放慢。"
+  },
+  {
+    "start": 242.35,
+    "end": 242.95,
+    "speaker": "Guest",
+    "text_en": "Can't or can't",
+    "text": "是 can't 还是 can?"
+  },
+  {
+    "start": 242.95,
+    "end": 243.15,
+    "speaker": "Host",
+    "text_en": "down",
+    "text": "慢下来。"
+  },
+  {
+    "start": 243.15,
+    "end": 243.65,
+    "speaker": "Guest",
+    "text_en": "see dots?",
+    "text": "看见点点？"
+  },
+  {
+    "start": 243.65,
+    "end": 244.85,
+    "speaker": "Host",
+    "text_en": "this is kent",
+    "text": "这是 Kent。"
+  },
+  {
+    "start": 244.85,
+    "end": 249.55,
+    "speaker": "Guest",
+    "text_en": "I know, but it's like can't versus can. I love it. I can't see dots.",
+    "text": "我知道，但这就像 can't 和 can 的区别。我太喜欢了。我看不见点点。"
+  },
+  {
+    "start": 249.55,
+    "end": 263.45,
+    "speaker": "Host",
+    "text_en": "got it i got it slowing down jenny kim the stochastic parrot ira chan jonathan king's and i beautiful functional user documentation ask your doctor whether this patron name is right for you vote dot",
+    "text": "懂了，我懂了，放慢。Jenny Kim，随机鹦鹉。Ira Chan。Jonathan King's and I。漂亮又实用的用户文档。请咨询你的医生，看看这个 patron 名字是否适合你。vote dot。"
+  },
+  {
+    "start": 263.732,
+    "end": 288.182,
+    "speaker": "Guest",
+    "text_en": "williameangel.net was temporarily down due to railway getting gcp'd but crabs are now back alongside the regular blog ragnar brayden canes john grant britney alec will angel won't go to slash new conference may 27 28th in newcastle australia but will you closed parentheses followed by a literal closed parentheses closed parentheses and then an actual closing parentheses man the",
+    "text": "williameangel.net 因为 railway 被 gcp 化了，暂时宕机过，不过螃蟹现在已经回来了，常规博客也还在。ragnar brayden canes john grant britney alec will angel 不会去参加 5 月 27 到 28 号在澳大利亚 Newcastle 举办的 slash new conference，但你会，右括号，接着是一个字面意义上的右括号、右括号，然后再来一个真正的右括号。天啊，这个……"
+  },
+  {
+    "start": 288.182,
+    "end": 288.682,
+    "speaker": "Host",
+    "text_en": "That's great.",
+    "text": "太棒了。"
+  },
+  {
+    "start": 288.682,
+    "end": 293.906,
+    "speaker": "Guest",
+    "text_en": "things that I love seeing how weird stuff gets.",
+    "text": "我就喜欢看这些东西到底能离谱成什么样。"
+  },
+  {
+    "start": 294.106,
+    "end": 300.256,
+    "speaker": "Host",
+    "text_en": "It's You know, every time we read these aloud, I think to myself, the listeners do not know how these things are really written.",
+    "text": "就是，你知道吗，每次我们把这些内容念出来的时候，我都会想，听众根本不知道这些东西原本写出来到底是什么样。"
+  },
+  {
+    "start": 300.556,
+    "end": 321.33,
+    "speaker": "Guest",
+    "text_en": "And it occurred to me that we've gone to so much length to allow people to write into computers so that other people can understand what they're saying. But we've done very little in the way of markup. to make text readable out loud in the spoken word so that people can reconstruct what was written on the computer.",
+    "text": "然后我突然想到，我们花了那么多功夫，让人们可以把内容写进电脑里，好让其他人能看懂他们在说什么。但在标记这件事上，我们几乎没怎么下功夫，没去让文本在被大声念出来、变成口语时也依然容易理解，这样人们才能反推出它在电脑上原本是怎么写的。"
+  },
+  {
+    "start": 321.53,
+    "end": 328.63,
+    "speaker": "Host",
+    "text_en": "oh yeah okay i mean we have like phonetic all these funky symbols you see if you go to a dictionary but that doesn't tell you like",
+    "text": "哦对，是这样。我的意思是，我们确实有音标之类的那些花里胡哨的符号，你去查字典就能看到，但那并不能告诉你，比如说"
+  },
+  {
+    "start": 328.63,
+    "end": 329.18,
+    "speaker": "Guest",
+    "text_en": "That's the opposite.",
+    "text": "那正好是反过来的。"
+  },
+  {
+    "start": 329.18,
+    "end": 329.48,
+    "speaker": "Host",
+    "text_en": "how you have to",
+    "text": "你该怎么去"
+  },
+  {
+    "start": 329.48,
+    "end": 329.53,
+    "speaker": "Guest",
+    "text_en": "That's",
+    "text": "那是"
+  },
+  {
+    "start": 329.53,
+    "end": 329.73,
+    "speaker": "Host",
+    "text_en": "say",
+    "text": "可以说是"
+  },
+  {
+    "start": 329.73,
+    "end": 329.93,
+    "speaker": "Guest",
+    "text_en": "the opposite",
+    "text": "反过来的"
+  },
+  {
+    "start": 329.93,
+    "end": 330.08,
+    "speaker": "Host",
+    "text_en": "it",
+    "text": "方向"
+  },
+  {
+    "start": 330.08,
+    "end": 332.38,
+    "speaker": "Guest",
+    "text_en": "direction, right? Like that's how something",
+    "text": "对吧？比如说，这就是某件事"
+  },
+  {
+    "start": 332.38,
+    "end": 332.68,
+    "speaker": "Host",
+    "text_en": "someone",
+    "text": "某个人"
+  },
+  {
+    "start": 332.68,
+    "end": 332.78,
+    "speaker": "Guest",
+    "text_en": "sounds.",
+    "text": "说出来的感觉。"
+  },
+  {
+    "start": 332.78,
+    "end": 335.18,
+    "speaker": "Host",
+    "text_en": "said it how do you get the exact characters back",
+    "text": "别人是这么说的，那你怎么把原原本本的字一个不差地还原出来？"
+  },
+  {
+    "start": 335.53,
+    "end": 341.23,
+    "speaker": "Guest",
+    "text_en": "Exactly. And I got to tell you, there's a lot of stuff in here that I think most people would not be able to recreate the characters.",
+    "text": "没错。而且我得告诉你，这里面有很多东西，我觉得大多数人都没法把这些角色重新还原出来。"
+  },
+  {
+    "start": 341.556,
+    "end": 346.556,
+    "speaker": "Host",
+    "text_en": "This sounds like an exciting research problem that would make you $0 to solve.",
+    "text": "这听起来像是个很有意思的研究问题，而且解决了也一分钱都赚不到。"
+  },
+  {
+    "start": 346.906,
+    "end": 351.856,
+    "speaker": "Guest",
+    "text_en": "Yes. That's why I do most things is to avoid making money. Like this podcast.",
+    "text": "对。所以我做大多数事情的原因，就是为了避免赚钱。比如这个播客。"
+  },
+  {
+    "start": 352.706,
+    "end": 370.842,
+    "speaker": "Host",
+    "text_en": "Well, if you want to join this group and contribute to Dave's black hole of research, then go to softskills.audio, click support us on Patreon, any amount will get you an invite to our Slack team. Enough of an amount will allow you to use this very slow, expensive text-to-speech service. And you get our eternal gratitude as well.",
+    "text": "好吧，如果你想加入这个群体，顺便为 Dave 这个研究黑洞添砖加瓦，那就去 softskills.audio，点击在 Patreon 上支持我们。无论金额多少，你都能收到我们 Slack 团队的邀请。金额够多的话，你还可以使用这个又慢又贵的文本转语音服务。当然，你也会得到我们永恒的感激。"
+  },
+  {
+    "start": 370.842,
+    "end": 374.792,
+    "speaker": "Guest",
+    "text_en": "Also, I can't promise any actual research, but I will definitely think about it.",
+    "text": "另外，我不能保证真的会做什么研究，但我肯定会想一想。"
+  },
+  {
+    "start": 374.992,
+    "end": 378.542,
+    "speaker": "Host",
+    "text_en": "Yeah. Well, I mean, you have thought about it already, so that promise is fulfilled.",
+    "text": "对啊，我是说，你已经想过这事了，所以这个承诺已经兑现了。"
+  },
+  {
+    "start": 378.542,
+    "end": 381.592,
+    "speaker": "Guest",
+    "text_en": "Yeah, and I'll think about it some more. That's my promise to you for the future.",
+    "text": "对，而且我还会继续想。这就是我对你未来的承诺。"
+  },
+  {
+    "start": 381.592,
+    "end": 385.492,
+    "speaker": "Host",
+    "text_en": "Oh, okay. The bar is high. Dave, will you read our first question?",
+    "text": "哦，好吧。门槛还挺高。Dave，你来读我们的第一个问题吧？"
+  },
+  {
+    "start": 385.492,
+    "end": 397.84,
+    "speaker": "Guest",
+    "text_en": "Yeah, this comes from Sam who says, hi, from a longtime listener and first time caller. I need some advice on a toxic workplace situation. Well, you've come to the right place, Sam. We know all about how to make a toxic workplace.",
+    "text": "对，这封来信来自 Sam。他说，嗨，我是老听众，第一次来提问。我想请教一下关于有毒职场环境的问题。嗯，Sam，你算是来对地方了。我们可太懂怎么打造有毒职场了。"
+  },
+  {
+    "start": 399.74,
+    "end": 403.29,
+    "speaker": "Host",
+    "text_en": "Oh, we're going to find out if that's what Sam actually wants is how to make experts.",
+    "text": "哦，我们马上就会知道，Sam 真正想要的到底是不是“如何成为专家”了。"
+  },
+  {
+    "start": 403.29,
+    "end": 415.69,
+    "speaker": "Guest",
+    "text_en": "in workplace toxicity it's like if you call an exterminator and they're like yeah i'm an expert in rats and you think i hope it means they're an expert at exterminating rats not like the rat king",
+    "text": "职场有毒环境方面的专家。就像你打电话给灭虫公司，对方说“对，我是老鼠方面的专家”，你会希望这意思是他们很擅长灭鼠，而不是说他们自己就是鼠王那种。"
+  },
+  {
+    "start": 420.34,
+    "end": 432.268,
+    "speaker": "Host",
+    "text_en": "I swear I saw a script, a sketch comedy show recently where. Oh, I can't remember. Someone was deliberately misunderstanding what pest control was. And they were like, you can get me more pests, right? Anyway, oh, I got to dig.",
+    "text": "我发誓我最近看过一个小品喜剧的剧本还是节目来着，哦，我想不起来了。里面有人故意曲解“害虫防治”是什么意思，还说：“所以你们能给我弄来更多害虫，对吧？”总之，哦，我得去找找。"
+  },
+  {
+    "start": 432.318,
+    "end": 448.816,
+    "speaker": "Guest",
+    "text_en": "I'm going to have to dig that one up. That's us with toxicity. Okay, here we go. Sam continues to say, I'm currently unhappy with my job due to a difficult dynamic with a colleague. My manager put us on the same team. Meaning we share responsibility for our output. Although this colleague is technically a level below me,",
+    "text": "这个我得翻出来看看。我们对“有毒职场”也是这种感觉。好，继续。Sam 接着说，我现在对工作很不开心，原因是我和一位同事之间的关系非常难处理。我的经理把我们安排在同一个团队里，也就是说，我们要共同对产出负责。虽然这位同事在职级上其实比我低一级，"
+  },
+  {
+    "start": 448.916,
+    "end": 463.916,
+    "speaker": "Guest",
+    "text_en": "they act as though they have seniority. This creates significant friction. They're resistant to advice, insist they're always right, and refuse to accept reality even when they can't deliver what's required. They're incredibly stubborn,",
+    "text": "但他们表现得好像自己资历更深一样。这造成了很大的摩擦。他们听不进建议，坚持自己永远是对的，就算根本交付不了要求的东西，也拒绝接受现实。他们特别固执，"
+  },
+  {
+    "start": 464.016,
+    "end": 475.234,
+    "speaker": "Guest",
+    "text_en": "and arguing with them about what's feasible takes an excessive amount of effort. The situation is particularly frustrating because I'm held accountable for... to bolt for the shared results. If I weren't responsible for the final outcome,",
+    "text": "而且每次跟他们争论什么是可行的，都要耗费过多精力。这个情况尤其让人沮丧，因为共享成果最终是由我来背责的。如果我不用对最终结果负责，"
+  },
+  {
+    "start": 475.284,
+    "end": 488.234,
+    "speaker": "Guest",
+    "text_en": "I could probably just ignore their behavior. Instead, they frequently talk a big game while contributing very little actual work. People unfamiliar with our domain are easily misled by their confidence, even though they are incompetent.",
+    "text": "那我大概还能直接无视他们的行为。可实际上，他们经常嘴上说得天花乱坠，真正干的活却很少。不了解我们这个领域的人，很容易被他们的自信骗到，尽管他们其实并不称职。"
+  },
+  {
+    "start": 490.334,
+    "end": 502.732,
+    "speaker": "Guest",
+    "text_en": "Consequently, I'm forced to clean up their mess, otherwise I'd be the one bearing the blame for the failure. I tried discussing this with my manager, but unfortunately Unfortunately, it made me look bad rather than resolving the issue.",
+    "text": "结果就是，我被迫去收拾他们留下的烂摊子，不然最后背锅的人就是我。我试着和我的经理谈过这件事，但很遗憾，问题不但没解决，反而显得是我有问题。"
+  },
+  {
+    "start": 503.132,
+    "end": 515.736,
+    "speaker": "Guest",
+    "text_en": "If I were the manager, I would fire this person immediately. But my manager is clearly one of those people who gets fooled by their smooth talk. I'm very close to handing in my notice, and let the manager know how incompetent this person is,",
+    "text": "如果我是经理，我会立刻把这个人开掉。但我的经理显然就是那种会被花言巧语糊弄过去的人。我已经非常接近要提离职了，而且还想让经理知道这个人到底有多不称职。"
+  },
+  {
+    "start": 516.186,
+    "end": 541.238,
+    "speaker": "Guest",
+    "text_en": "but I'm furious that I feel I have to give up a role I enjoy just because of someone who makes my life miserable. My question is, should I stick it out and try to navigate this politics heavy environment, or is walking away the only option left? How do I leave without burning bridges or letting them win? Wow, there's a lot of feelings in this. In this write-up, in this question.",
+    "text": "但我真的很愤怒，因为我居然觉得自己不得不放弃一份我喜欢的岗位，只是因为有这么一个把我日子搞得很难过的人。我的问题是，我该继续撑下去，想办法在这种政治斗争味很重的环境里周旋，还是说离开已经是唯一剩下的选择了？我该怎么离开，才能既不把关系闹僵，也不让他们得逞？哇，这里面情绪真的很多。就在这段描述里，这个问题里。"
+  },
+  {
+    "start": 541.238,
+    "end": 545.988,
+    "speaker": "Host",
+    "text_en": "Yeah, there's a lot of pain transmitted over text here.",
+    "text": "对，光看文字都能感受到很强的痛苦。"
+  },
+  {
+    "start": 546.238,
+    "end": 561.988,
+    "speaker": "Guest",
+    "text_en": "Yeah, that did come through. See? See how good the writing system is at transmitting? I got it. I mean, loud and clear. Oh, so much pain here. Also, some possible incorrect viewing of reality? Maybe? We're going to look at that? Maybe?",
+    "text": "对，确实传达出来了。看吧？看吧，文字系统在传递这些东西上有多厉害？我完全接收到了。我的意思是，特别清楚。哇，这里面真的有太多痛苦了。另外，对现实的看法可能也有一些不太准确？也许？我们要不要也看看这个？也许？"
+  },
+  {
+    "start": 562.964,
+    "end": 569.964,
+    "speaker": "Host",
+    "text_en": "Yeah, maybe we'll look at it. They're a stubborn. Yeah, there's there's so much here. You are not their boss, right? You're not",
+    "text": "对，也许我们会聊到这个。他们很固执。对，这里面信息量太大了。你不是他们的老板，对吧？你不是"
+  },
+  {
+    "start": 569.964,
+    "end": 570.014,
+    "speaker": "Guest",
+    "text_en": "Yep.",
+    "text": "对。"
+  },
+  {
+    "start": 570.014,
+    "end": 584.864,
+    "speaker": "Host",
+    "text_en": "in charge of them. You are level above them. But that doesn't mean that they must defer to you in all things or do what you say. There's some expectation that there is a bit of deference when there's disagreement, but not always.",
+    "text": "负责管他们的人。你的级别比他们高一级，但这并不意味着他们在所有事情上都必须听你的，或者照你说的做。出现分歧的时候，大家可能会期待他们稍微让一步，但也不总是这样。"
+  },
+  {
+    "start": 584.964,
+    "end": 600.394,
+    "speaker": "Guest",
+    "text_en": "And I feel like generally both people are reasonable and it kind of works out and it sounds like it doesn't. seem reasonable in this situation oh man yeah i tried discussing this with my manager unfortunately made me look bad i'm so curious how that conversation went",
+    "text": "而且我感觉一般来说，双方其实都还算讲道理，事情最后也都能解决。不过听起来这次不是这样。感觉在这个情境里，对方确实不太讲道理。哎，天哪。对，我试着跟我的经理聊过这事，可惜结果反而显得我很难看。我特别好奇那段对话到底是怎么进行的。"
+  },
+  {
+    "start": 600.744,
+    "end": 603.044,
+    "speaker": "Host",
+    "text_en": "Yeah. This, by the way, this kind of conversation.",
+    "text": "对。顺便说一句，这种对话——"
+  },
+  {
+    "start": 603.86,
+    "end": 608.86,
+    "speaker": "Guest",
+    "text_en": "I would say by default goes wrong, especially if the outcome you're hoping for is this person gets fired.",
+    "text": "我会说，默认情况下都会谈崩，尤其是如果你期待的结果是这个人被开除。"
+  },
+  {
+    "start": 608.86,
+    "end": 609.16,
+    "speaker": "Host",
+    "text_en": "Yep, exactly.",
+    "text": "对，完全没错。"
+  },
+  {
+    "start": 609.16,
+    "end": 610.96,
+    "speaker": "Guest",
+    "text_en": "Like that'll that'll just never ever happen.",
+    "text": "因为那基本上是绝对不可能发生的。"
+  },
+  {
+    "start": 610.96,
+    "end": 622.91,
+    "speaker": "Host",
+    "text_en": "And that is what's going on here. If I were the manager, I would fire this person immediately is what we just read. And that is a default fail conversation. If you're trying to go in and have a manager fire someone,",
+    "text": "而这正是这里在发生的事。我们刚刚读到的内容，其实就是“如果我是经理，我会立刻把这个人开掉”。而这种对话默认就是失败的。如果你是想进去跟经理谈，让经理把某个人开除，"
+  },
+  {
+    "start": 623.06,
+    "end": 625.16,
+    "speaker": "Guest",
+    "text_en": "it must be very carefully navigated.",
+    "text": "那就必须非常非常小心地处理。"
+  },
+  {
+    "start": 625.16,
+    "end": 632.76,
+    "speaker": "Host",
+    "text_en": "Yeah, unless they're unless they're going to show up in the news and or your company really doesn't want them to show up.",
+    "text": "对，除非这个人接下来会上新闻，或者你的公司非常不希望他们上新闻。"
+  },
+  {
+    "start": 632.596,
+    "end": 632.596,
+    "speaker": "Guest",
+    "text_en": "Mm",
+    "text": "嗯。"
+  },
+  {
+    "start": 632.596,
+    "end": 632.696,
+    "speaker": "Host",
+    "text_en": "open -hmm.",
+    "text": "开诚布公地说——嗯。"
+  },
+  {
+    "start": 632.696,
+    "end": 656.046,
+    "speaker": "Guest",
+    "text_en": "the news then it's probably yeah if it's conflict between you two i want this person that i have a lot of conflict with to get fired is we talked about this last time i think the easiest way for the manager to make this problem go away is to do nothing if they fire this person it's a big problem for the manager now and they have a bunch of other work to do yeah yeah",
+    "text": "那这样的话，大概就是了。对，如果这是你们两个人之间的冲突——“我想让这个和我冲突很多的人被开除”——我们上次也聊过，我觉得对经理来说，让这个问题消失的最简单办法就是什么都不做。要是他们把这个人开了，那对经理来说现在反而成了个大麻烦，而且他们手头还有一堆别的工作要做。对，对。"
+  },
+  {
+    "start": 657.332,
+    "end": 674.632,
+    "speaker": "Guest",
+    "text_en": "frequently talk a big game while contributing very little actual work i also wonder if maybe the the dynamic i'm picking up is the question asker feels like they're certainly much stronger technically maybe less good at talking a big game or communicating for good and for ill yeah",
+    "text": "经常把话说得很满，但实际干的活却很少。我也在想，也许我感受到的这种互动模式是：提问的人觉得自己在技术上显然强得多，但可能不太擅长自我包装，或者说不太擅长表达和沟通——这有好有坏吧。对。"
+  },
+  {
+    "start": 674.632,
+    "end": 676.682,
+    "speaker": "Host",
+    "text_en": "Maybe self-promotion isn't a strong suit here.",
+    "text": "也许自我宣传不是他的强项。"
+  },
+  {
+    "start": 677.132,
+    "end": 681.89,
+    "speaker": "Guest",
+    "text_en": "and the other person is maybe maybe put all their points in charisma but",
+    "text": "而另一个人可能是——可能把所有点数都加到魅力上了，不过——"
+  },
+  {
+    "start": 681.89,
+    "end": 685.59,
+    "speaker": "Host",
+    "text_en": "yeah the tech tree is uh loaded",
+    "text": "对，技能树算是点歪了。"
+  },
+  {
+    "start": 685.59,
+    "end": 686.19,
+    "speaker": "Guest",
+    "text_en": "it is that",
+    "text": "对，就是那种感觉。"
+  },
+  {
+    "start": 686.19,
+    "end": 686.54,
+    "speaker": "Host",
+    "text_en": "up oh",
+    "text": "哦，哎呀"
+  },
+  {
+    "start": 686.54,
+    "end": 689.49,
+    "speaker": "Guest",
+    "text_en": "is a valuable skill to have so i",
+    "text": "这确实是一项很有价值的技能，所以我——"
+  },
+  {
+    "start": 689.89,
+    "end": 699.69,
+    "speaker": "Host",
+    "text_en": "feel like i've seen this dynamic play out a lot of like oh that person just just talks purdy turns out at a big enough org talking purdy does a lot of things hmm",
+    "text": "我感觉我见过这种情况上演很多次了，就是那种“哦，那个人就是嘴特别会说”。结果在一个足够大的组织里，会说话还真能办成很多事。嗯。"
+  },
+  {
+    "start": 699.69,
+    "end": 725.73,
+    "speaker": "Guest",
+    "text_en": "yeah 100 so I would be very frustrated with this situation as well, and I would probably be my default inclination would be to go find a new job. And that's because I'm a coward and unwilling to confront bad actors in the workplace. But if I really wanted to fix this situation and hereby fix this person wants this other person to be fired, right? Stated clearly and explicitly.",
+    "text": "对，完全是。我也会对这种情况非常沮丧，而且大概率我默认的第一反应会是去找一份新工作。因为我是个胆小鬼，不愿意在职场里正面跟这种糟糕的人对抗。但如果我真的想解决这个问题，也就是解决这个人希望另一个人被开掉这件事，对吧？这点其实已经说得很清楚、很明确了。"
+  },
+  {
+    "start": 726.9,
+    "end": 743.05,
+    "speaker": "Guest",
+    "text_en": "If I really wanted to fix that, I would probably start documenting the contributions. And I would do that for two reasons. Document the contributions so that, number one, of course, like the obvious reason is you want to take this to your manager and you want to have clear evidence of underperformance.",
+    "text": "如果我真想解决这个问题，我大概会先开始把各项贡献记录下来。我这么做有两个原因。把贡献记录下来，第一，当然，最明显的原因就是你想拿给你的经理看，你需要有明确的证据证明对方表现不佳。"
+  },
+  {
+    "start": 743.6,
+    "end": 765.11,
+    "speaker": "Guest",
+    "text_en": "But there's actually an even more important reason, I think, and that is to convince yourself that you are actually correct in your assessment. Sometimes we see what we want to see and our mind has a way of filtering out stuff we don't want to see. And it's very possible that this question asker has formed a story about the coworker.",
+    "text": "但我觉得其实还有一个更重要的原因，那就是说服你自己：你的判断到底是不是真的对。有时候我们会只看到自己想看到的东西，而大脑会自动过滤掉那些我们不想看到的内容。很有可能，这位提问者已经在心里给这个同事编出了一个故事。"
+  },
+  {
+    "start": 765.684,
+    "end": 787.584,
+    "speaker": "Guest",
+    "text_en": "that says, you know, they are horrible, they are bad, they are hurting me. And what happens in that situation is your mind, your brain has a way of now focusing only on the things that reinforce that story about the co-worker. And I see a lot of emotion in this question, which is why I'm advising this exercise. Write it down and don't just write down, here's all the bad things this person did,",
+    "text": "这个故事大概是：你知道的，他们很糟糕，他们很差劲，他们在伤害我。而一旦进入这种状态，你的思维、你的大脑就会只盯着那些能强化这个同事很糟糕的证据。我从这个问题里看到了很多情绪，所以我才会建议做这个练习。把它写下来，而且不要只是写“这个人做了哪些坏事”，"
+  },
+  {
+    "start": 787.634,
+    "end": 794.334,
+    "speaker": "Guest",
+    "text_en": "but try to understand numerically the magnitude of their contribution. And maybe there's some contributions you don't quite quantify.",
+    "text": "而是要尽量从数字上去理解他们贡献的量级。也许其中还有一些贡献是你没法完全量化的。"
+  },
+  {
+    "start": 794.676,
+    "end": 816.326,
+    "speaker": "Guest",
+    "text_en": "you know think try to expand your notion your definition of what a contribution is maybe it's things like helps the team gel maybe it's things like oh always talks to that one product manager that no other engineer can talk to things like that and try to write all that down and then give that a few weeks to accumulate and then take a good honest look at it and ask yourself am I actually right",
+    "text": "你知道，试着把你对“贡献”这个概念、这个定义再扩展开一点。也许贡献包括帮助团队更有凝聚力，也许包括总是能和那个其他工程师都沟通不了的 product manager 说上话，类似这种事。把这些都尽量记下来，然后给自己几周时间让这些内容积累起来，再认真、诚实地回头看看，问问自己：我真的判断对了吗？"
+  },
+  {
+    "start": 816.884,
+    "end": 837.184,
+    "speaker": "Guest",
+    "text_en": "Is my conclusion correct about this person? I think it's pretty natural, especially if you're frustrated with someone to feel like you are actually doing more valuable work. I think most people, if they have a coworker, they really don't get along with part of what their brain will do to protect them is say, and you're like, you're better at job than this person.",
+    "text": "我对这个人的结论真的正确吗？我觉得这其实很正常，尤其是当你对某个人很挫败、很不满的时候，你会觉得自己做的是更有价值的工作。我觉得大多数人如果有个怎么都合不来的同事，大脑为了保护自己，多少都会冒出一种想法：你比这个人更会做这份工作。"
+  },
+  {
+    "start": 837.234,
+    "end": 850.818,
+    "speaker": "Guest",
+    "text_en": "You're more important to the company than this person. It might not always be true, but it is natural to feel this way. I think. what i'm hearing like i'm i'm cleaning up their mess i i don't want to bear the blame for their failure and",
+    "text": "你对公司来说比这个人更重要。这种感觉未必总是真的，但会这么想很正常。我觉得我现在听到的是一种“我在替他们收拾烂摊子，我不想为他们的失败背锅”的感觉。"
+  },
+  {
+    "start": 851.418,
+    "end": 867.568,
+    "speaker": "Guest",
+    "text_en": "so you feel like if you left the failure would be exposed you're kind of carrying this silent burden i think there are two things you could communicate more clearly about this to your manager than i want my colleague fired one is him really unhappy",
+    "text": "所以你会觉得，如果你走了，他们的问题就会暴露出来，你其实一直在默默扛着这个负担。我觉得关于这件事，你可以比“我想让我的同事被开掉”更清楚地跟经理沟通两点。第一点是：我现在真的很不开心，"
+  },
+  {
+    "start": 868.308,
+    "end": 890.158,
+    "speaker": "Guest",
+    "text_en": "to the point that I am considering looking for other options. And it's possible that your manager will say, you should consider that even harder. That's a very strong signal. Or it's also possible your manager doesn't know that you're unhappy enough to quit and they're motivated to keep you around. Their job gets easier the more...",
+    "text": "已经到了我在考虑找其他出路的程度。你的经理有可能会说，那你确实该更认真考虑一下，这本身就是个很强的信号。也有可能你的经理根本不知道你已经不开心到想离职了，而他们其实是有动力把你留下来的。你给他们的工具越多，他们的工作就越容易推进，而不是只有……"
+  },
+  {
+    "start": 890.708,
+    "end": 905.158,
+    "speaker": "Guest",
+    "text_en": "tools you give them besides fire this co-worker if you'll only stay if they're fired that's kind of an ultimatum and i think it sometimes you might give in to that because it's so essential to keep the person but it's also just",
+    "text": "“把这个同事开掉”这一条。如果只有在对方被开掉的情况下你才愿意留下来，那就有点像最后通牒了。我觉得有时候公司可能会因为这个人实在太关键而接受这种条件，但这也只是……"
+  },
+  {
+    "start": 905.684,
+    "end": 917.934,
+    "speaker": "Guest",
+    "text_en": "I think it's bad vibes to say people can demand other people get fired. So part of what you can do is communicate what you are frustrated by without saying, and here's what you have to do about it. Say like,",
+    "text": "我觉得那种氛围不太好，好像别人可以要求把另一个人开掉。所以你能做的一部分，就是把让你受挫的点表达清楚，但不要直接说“你们必须这么处理”。可以这样说："
+  },
+  {
+    "start": 918.034,
+    "end": 932.284,
+    "speaker": "Guest",
+    "text_en": "help me work through this frustration or can you help suggest things I can do? The other thing you could do is this kind of gets with what Dave was saying around documenting. These silent cleanups are probably harming the perception.",
+    "text": "帮我一起理清这种挫败感，或者你能不能帮我想想我可以做些什么？另一件你可以做的事，也和 Dave 刚才说的记录有关。这些默默替别人收尾、收拾残局的事，很可能正在损害外界对你的认知。"
+  },
+  {
+    "start": 932.66,
+    "end": 951.91,
+    "speaker": "Guest",
+    "text_en": "of value making making it more skewed toward this person they talk a big game stuff gets delivered on time and boy it turns out question asker just disappears sometimes and nobody knows what they do then when you're like furiously working to clean up messes so i think you need to make your manager aware of how much time is going into this cleanup",
+    "text": "在价值判断上会越来越偏向这个人，因为他们特别会说，东西也都能按时交付，结果一看，那个提问的人有时候直接就消失了，谁也不知道他到底在干嘛；而你这边还在拼命收拾烂摊子。所以我觉得，你得让你的经理知道，光是这些善后工作就花了你多少时间。"
+  },
+  {
+    "start": 952.916,
+    "end": 970.836,
+    "speaker": "Guest",
+    "text_en": "and ideally make them aware that it's taking this much time and this cleanup is essential and kind of here's the cost of the technical gaps that your co-worker has. Is this the right way we want to spend time? Again. making it broader than i can't get along with this person and they got to be fired hmm",
+    "text": "最好还要让他们知道，这些时间就是这么被占掉的，而且这些收尾工作又是必不可少的；某种程度上，这就是你那位同事技术能力缺口带来的成本。我们真的想把时间花在这种地方吗？还是那句话，把问题说得更宏观一点，而不是变成“我跟这个人处不来，他必须被开掉”，嗯。"
+  },
+  {
+    "start": 970.836,
+    "end": 980.536,
+    "speaker": "Host",
+    "text_en": "yeah it's tricky now okay let's put on our cynical hat for a minute what if you make the job so unbearable for the other person that they leave",
+    "text": "对，这事挺棘手的。好，现在我们先戴上一分钟的犬儒主义帽子：要是你把这份工作环境弄得让对方难受到待不下去，逼得他自己走人呢？"
+  },
+  {
+    "start": 980.536,
+    "end": 988.636,
+    "speaker": "Guest",
+    "text_en": "yeah the parent trap method you got to coat their keyboard with honey so their hands get all sticky oh they're like i can't work here my hands always get sticky",
+    "text": "对，就是《The Parent Trap》那一套。你得在他的键盘上抹满蜂蜜，这样他的手就会变得黏糊糊的。然后他就会说：“我没法在这儿工作了，我的手老是黏黏的。”"
+  },
+  {
+    "start": 989.3,
+    "end": 995.85,
+    "speaker": "Host",
+    "text_en": "yeah then put bees on their keyboard so then their hands get bees on them yeah",
+    "text": "对，然后再把蜜蜂放到他的键盘上，这样他的手上就会沾上蜜蜂，对吧。"
+  },
+  {
+    "start": 995.85,
+    "end": 996.6,
+    "speaker": "Guest",
+    "text_en": "sticky with bees",
+    "text": "黏糊糊的，还沾着蜜蜂。"
+  },
+  {
+    "start": 996.6,
+    "end": 1000.2,
+    "speaker": "Host",
+    "text_en": "and the bees are stuck to their hands because of the honey yeah",
+    "text": "而且因为有蜂蜜，蜜蜂还会粘在他的手上，对。"
+  },
+  {
+    "start": 1000.2,
+    "end": 1002.95,
+    "speaker": "Guest",
+    "text_en": "what's worse than sticky hands sticky hands with bees",
+    "text": "还有什么比手黏糊糊更糟？就是手黏糊糊的，还沾着蜜蜂。"
+  },
+  {
+    "start": 1002.95,
+    "end": 1003.1,
+    "speaker": "Host",
+    "text_en": "i",
+    "text": "我"
+  },
+  {
+    "start": 1003.1,
+    "end": 1003.45,
+    "speaker": "Guest",
+    "text_en": "on them",
+    "text": "对他们"
+  },
+  {
+    "start": 1003.45,
+    "end": 1006.45,
+    "speaker": "Host",
+    "text_en": "feel like wasn't there something with bees in the parent trap",
+    "text": "我怎么觉得《天生一对》里是不是有个跟蜜蜂有关的桥段"
+  },
+  {
+    "start": 1006.45,
+    "end": 1009.85,
+    "speaker": "Guest",
+    "text_en": "oh it sounds right I mean there were so many little gags it's been a long time",
+    "text": "哦，听起来像是有，我是说里面那种小笑料太多了，已经过去很久了"
+  },
+  {
+    "start": 1011.924,
+    "end": 1021.924,
+    "speaker": "Guest",
+    "text_en": "isn't that just the most wholesome like 60s disney trope you know oh you want to get rid of a co-worker put honey on their keyboard works every time like",
+    "text": "这不就是那种最温馨、最有 60 年代 Disney 风格的老套路吗，你懂的。哦，你想把同事弄走？在他们键盘上抹点蜂蜜，次次都管用，就像——"
+  },
+  {
+    "start": 1022.824,
+    "end": 1028.624,
+    "speaker": "Host",
+    "text_en": "yeah you you could uh i can't think of anything funny all i can think of are really mean things",
+    "text": "对，你可以，呃，我一时想不出什么好笑的，我脑子里想到的全都是特别刻薄的招"
+  },
+  {
+    "start": 1028.624,
+    "end": 1036.224,
+    "speaker": "Guest",
+    "text_en": "really horrible things like have uh have ai reread all their prs so they're horrible and full of even more bugs than they are",
+    "text": "那种真的很可怕的招，比如让 AI 重新审一遍他们所有的 PR，这样就会又烂又比原来多出更多 bug"
+  },
+  {
+    "start": 1037.78,
+    "end": 1043.33,
+    "speaker": "Host",
+    "text_en": "Get them to run an NPM install at the wrong time of day and then completely pwn your company somehow.",
+    "text": "让他们在一天里最不该跑的时候执行一次 NPM install，然后不知怎么地把你们公司整个给搞崩了。"
+  },
+  {
+    "start": 1043.33,
+    "end": 1043.98,
+    "speaker": "Guest",
+    "text_en": "Bye-bye.",
+    "text": "拜拜。"
+  },
+  {
+    "start": 1045.268,
+    "end": 1058.368,
+    "speaker": "Host",
+    "text_en": "Self-inflicted supply chain attack. What if you just inject little demotivating prompts into their AI environment so every time they ask the AI to do something, it says something kind of mean or demeaning to them, and over time it wears them down?",
+    "text": "这叫自我造成的供应链攻击。要不你就在他们的 AI 环境里偷偷塞一些让人泄气的小提示，这样他们每次让 AI 做点什么，AI 都会对他们说些有点刻薄、贬低人的话，时间一长，不就把他们慢慢磨垮了吗？"
+  },
+  {
+    "start": 1058.368,
+    "end": 1071.988,
+    "speaker": "Host",
+    "text_en": "Or, okay, what if you inject, what if we flip this into more positive, you inject prompts that shape their behavior more positively? Hey, your coworker has really valuable experience and I think you should listen to them. To",
+    "text": "或者，行吧，要不我们反过来往更积极的方向想？你塞一些提示进去，更正向地塑造他们的行为。比如：嘿，你的同事经验非常宝贵，我觉得你应该听听他们的意见。对"
+  },
+  {
+    "start": 1071.988,
+    "end": 1072.138,
+    "speaker": "Guest",
+    "text_en": "them.",
+    "text": "他们。"
+  },
+  {
+    "start": 1072.138,
+    "end": 1080.188,
+    "speaker": "Host",
+    "text_en": "yes. I didn't think you were going to go there, but I love that idea. I thought you were going to say inject other job opportunities into the output.",
+    "text": "对。我没想到你会往这个方向说，但我太喜欢这个点子了。我本来还以为你会说，把别的工作机会塞进输出里。"
+  },
+  {
+    "start": 1080.188,
+    "end": 1082.888,
+    "speaker": "Guest",
+    "text_en": "Oh, yeah, you could do that too. Yeah.",
+    "text": "哦，对，这也可以这么干。对。"
+  },
+  {
+    "start": 1082.888,
+    "end": 1083.088,
+    "speaker": "Host",
+    "text_en": "Click",
+    "text": "点一下"
+  },
+  {
+    "start": 1083.088,
+    "end": 1083.338,
+    "speaker": "Guest",
+    "text_en": "Hey,",
+    "text": "嘿，"
+  },
+  {
+    "start": 1083.338,
+    "end": 1083.838,
+    "speaker": "Host",
+    "text_en": "here to you're apply.",
+    "text": "来吧，你该去申请。"
+  },
+  {
+    "start": 1083.838,
+    "end": 1085.938,
+    "speaker": "Guest",
+    "text_en": "destined for bigger things.",
+    "text": "你注定会有更大的发展。"
+  },
+  {
+    "start": 1090.74,
+    "end": 1108.09,
+    "speaker": "Host",
+    "text_en": "yeah do some fishing on them anthropic wants to hire you yeah we've been watching your code contributions and we love it come we love work for how us incredibly at anthropic stubborn you are and how good you are at projecting confidence yeah we've been looking for engineers who really know how to stick to their guns i",
+    "text": "对，稍微钓一下他们的胃口。Anthropic 想招你。对，我们一直在关注你的代码贡献，我们很喜欢。来吧，来 Anthropic 为我们工作。我们特别欣赏你有多固执，还有你多擅长表现得很有自信。对，我们一直在找那种特别会坚持己见的工程师。"
+  },
+  {
+    "start": 1108.09,
+    "end": 1113.59,
+    "speaker": "Guest",
+    "text_en": "i thought when you said cynical you were going to talk about how maybe this person is actually very wrong",
+    "text": "我还以为你说“愤世嫉俗”的时候，是要讲这个人其实可能大错特错。"
+  },
+  {
+    "start": 1114.59,
+    "end": 1119.14,
+    "speaker": "Host",
+    "text_en": "mean okay yeah well there is some of that here i mean look this person went and asked their manager",
+    "text": "我是说，好吧，对，这里面确实也有一点这个意思。你看，这个人跑去找他们经理了。"
+  },
+  {
+    "start": 1119.092,
+    "end": 1145.642,
+    "speaker": "Host",
+    "text_en": "manager and said it made me look bad rather than resolving the issue and i don't know maybe it's worth just a moment on this subject because it is the case that when you go into your manager to talk about someone's performance we've already said it's it's a very unlikely to succeed but also it's super easy to look like not a team player you know it's a little bit of a mutiny a little bit of an undermining the team like do you really care about this team and so boy do you have to carefully choose your words",
+    "text": "去跟经理说，这件事让我很难堪，而不是去解决问题。我不知道，也许这个话题值得稍微展开一下，因为确实是这样：当你去找经理谈某个人的表现时，我们前面已经说过了，这事成功的可能性很低；而且也特别容易让你看起来不像个有团队精神的人。你知道，这多少有点像哗变，有点像在拆团队的台。你到底是不是真的在乎这个团队？所以，天哪，你真的得非常谨慎地选择措辞。"
+  },
+  {
+    "start": 1146.356,
+    "end": 1155.268,
+    "speaker": "Host",
+    "text_en": "and frame the whole conversation so that your manager knows, I just want what's best for the team and for this company and for you. And I don't think we're getting that with our current team composition.",
+    "text": "而且要把整段对话都框定成让你的经理明白：我只是想要对团队、对公司、对你都最好的结果。而我觉得以我们现在的团队配置，达不到这个效果。"
+  },
+  {
+    "start": 1155.568,
+    "end": 1172.268,
+    "speaker": "Guest",
+    "text_en": "Yeah. And it really is an important incentive to understand that a coworker who is sometimes very frustrating to you is still not going to get fired by your boss because that is going to be so much more frustrating to your boss.",
+    "text": "对。而且你真的得明白一个很重要的现实：一个有时候让你非常抓狂的同事，也还是不会因为这样就被你老板开掉，因为真要开掉他，对你老板来说只会麻烦得多、烦得多。"
+  },
+  {
+    "start": 1172.568,
+    "end": 1172.768,
+    "speaker": "Host",
+    "text_en": "Yep.",
+    "text": "对。"
+  },
+  {
+    "start": 1172.768,
+    "end": 1199.826,
+    "speaker": "Guest",
+    "text_en": "Sometimes you don't like the code your coworker writes and it makes you mad is a problem that you cause. to your boss not a problem that your co-worker causes i don't know i've just been i've just been on that side of someone coming to me and saying they use the wrong function here repeatedly and my reaction there is how do i not how do i how do i tell this other person to use",
+    "text": "有时候你不喜欢同事写的代码，这让你很生气，这其实是你自己造成的问题。对你老板来说，这不是你同事造成的问题。我不知道，我只是站在过那一边——有人跑来跟我说，这里他们反复用了错误的函数。而我当时的反应是，我该怎么不……我该怎么跟另一个人说要用"
+  },
+  {
+    "start": 1200.0,
+    "end": 1208.9,
+    "speaker": "Guest",
+    "text_en": "the right function like that's i don't know if we care enough that's what linting is for but how do i deal with the problem of this person is very nitpicky about things that don't matter",
+    "text": "正确的函数。就像，这种事我也不知道我们是不是真的在乎到那个程度，这本来就是 linting 要解决的。但我该怎么处理“这个人对一些根本不重要的事特别吹毛求疵”这个问题？"
+  },
+  {
+    "start": 1208.9,
+    "end": 1211.4,
+    "speaker": "Host",
+    "text_en": "Yes. Yes. They thought they were solving one problem,",
+    "text": "对，对。他们以为自己在解决一个问题，"
+  },
+  {
+    "start": 1211.4,
+    "end": 1211.7,
+    "speaker": "Guest",
+    "text_en": "my life worse",
+    "text": "结果让我的生活更糟了。"
+  },
+  {
+    "start": 1211.7,
+    "end": 1217.522,
+    "speaker": "Host",
+    "text_en": "but all they did was expose another problem. Oh, yeah. yeah tricky well oh",
+    "text": "但他们实际上只是暴露了另一个问题。哦，对。对，挺棘手的。嗯，哦——"
+  },
+  {
+    "start": 1217.522,
+    "end": 1235.572,
+    "speaker": "Guest",
+    "text_en": "but i mean how do i leave without burning bridges or letting them win again i think people leave because they have co-workers they don't like that's a reason yeah that's normal and no one wins like this whole like letting them win business you gotta let go of that there is some ego that's shining through in that statement",
+    "text": "但我的意思是，我怎么离开才能既不把关系闹僵，也不让他们又赢一次？我觉得人们会因为不喜欢某些同事而离职，这就是一个理由。对，这很正常，而且谁都没赢。至于这种“让他们赢了”的想法，你得放下。你这句话里其实透着一点自尊心在作祟。"
+  },
+  {
+    "start": 1235.622,
+    "end": 1245.786,
+    "speaker": "Host",
+    "text_en": "that's a good point like they they drove me out and now they're gonna i don't know if they If what you say is true, I think their life will get worse. So I don't think you're really letting them win.",
+    "text": "这点说得好。就像，他们把我逼走了，然后他们就要——我也不知道他们会怎样。如果你说的是真的，我觉得他们的日子反而会更难过。所以我不觉得你真的算是让他们赢了。"
+  },
+  {
+    "start": 1245.786,
+    "end": 1248.136,
+    "speaker": "Guest",
+    "text_en": "Yeah. Yeah, think about how awful it'll be in your absence.",
+    "text": "对。对，想想你不在的时候情况会有多糟。"
+  },
+  {
+    "start": 1249.052,
+    "end": 1266.302,
+    "speaker": "Host",
+    "text_en": "Yeah. But that's also part of why I suggested don't just tell your boss, hey, I want this person fired, like talk to them about your frustrations and what to do about them. And I'm trying to think back to that Amazon guy. I keep thinking about him when I try to think of sneaky phrases that communicate what that VP I'm saying without that we keep just referencing saying it.",
+    "text": "对。但这也是为什么我建议你别只是跟老板说，嘿，我想让这个人被开掉。你要跟老板谈谈你的挫败感，以及该怎么处理。我现在还在回想那个 Amazon 的家伙。每次我想找那种能把那个 VP 的意思传达到、又不用像我们现在这样直接反复提那句话的隐晦说法时，我就会想到他。"
+  },
+  {
+    "start": 1266.602,
+    "end": 1273.502,
+    "speaker": "Guest",
+    "text_en": "Like, I what want was the yeah to be happy and satisfied at work. And I'm really struggling to feel happy and satisfied here.",
+    "text": "比如，我想要的是——对——能在工作中感到开心、满足。而我现在真的很难在这里感到开心和满足。"
+  },
+  {
+    "start": 1273.952,
+    "end": 1279.028,
+    "speaker": "Host",
+    "text_en": "oh yeah one one of the greatest things he said was my career is very important to me i",
+    "text": "哦对，他说过一句特别厉害的话是：我的职业发展对我非常重要，我——"
+  },
+  {
+    "start": 1279.028,
+    "end": 1281.228,
+    "speaker": "Guest",
+    "text_en": "yeah is just it need important to to know yes amazon yeah",
+    "text": "对，就是那种“让你知道这对我很重要”，对，Amazon 那个。"
+  },
+  {
+    "start": 1281.228,
+    "end": 1294.478,
+    "speaker": "Host",
+    "text_en": "i need to know how important it is to you oh and i know there's probably a version of that he called it polite fiction right there's probably a version of that you can deploy here but this is like advanced level stuff you know don't don't toy with this magic unless you're prepared",
+    "text": "我需要知道这件事对你有多重要。哦，我知道这里面大概有个版本——他把这叫作“礼貌性的虚构”，对吧——你在这里可能也能用。但这已经算高阶操作了，你懂的。除非你准备好了，不然别轻易玩这种魔法。"
+  },
+  {
+    "start": 1294.728,
+    "end": 1304.68,
+    "speaker": "Guest",
+    "text_en": "yeah but there's something about like i really want to get along well with my co-workers and and i'm just not feeling that here that's really important to me uh",
+    "text": "对，但像是“我真的很希望能和同事相处得很好，可我在这里就是感受不到这一点，这对我来说真的很重要”，这种说法——"
+  },
+  {
+    "start": 1304.68,
+    "end": 1315.38,
+    "speaker": "Host",
+    "text_en": "Or I think, and that's a little bit me-centric, though. I mean, I'm kind of into the, this team can do better work. And I want to be on a team that does really great work, and I think you do too.",
+    "text": "或者我会想，不过那样有点太以自我为中心了。我的意思是，我更倾向于这种说法：这个团队本来可以做出更好的工作。我想待在一个能做出真正出色成果的团队里，而且我觉得你也是。"
+  },
+  {
+    "start": 1315.38,
+    "end": 1329.08,
+    "speaker": "Guest",
+    "text_en": "so that's more about the fire this guy direction i'm thinking about how do you say and maybe i'll quit if this doesn't get better Oh, I see. The polite fiction thinly-veiled threat, we both know what I'm saying, but I'm not saying I'm going to quit. But I am going to quit.",
+    "text": "所以这更像是往“把这人开掉”那个方向走。我在想该怎么说，比如“如果情况再不好转，也许我就不干了。”哦，我懂了。就是那种礼貌性的托词，带着一点不太遮掩的威胁。我们都知道我在说什么，只是我嘴上没说我要辞职。但我确实会辞职。"
+  },
+  {
+    "start": 1330.548,
+    "end": 1334.598,
+    "speaker": "Host",
+    "text_en": "Because that's some leverage, right? It's like, hey, you're going to lose me and I'm doing 80% of the work around here.",
+    "text": "因为这算是一种筹码，对吧？就像在说，嘿，你们会失去我，而且这里 80% 的活都是我在干。"
+  },
+  {
+    "start": 1334.848,
+    "end": 1344.598,
+    "speaker": "Guest",
+    "text_en": "Yeah, it's really important to me to get along with my coworkers. I'm not going to abuse this person, but I'm just really struggling to be happy and satisfied working with them.",
+    "text": "对，跟同事相处融洽对我来说真的很重要。我不会去苛待这个人，但我现在真的很难在和他们共事时感到开心和满意。"
+  },
+  {
+    "start": 1344.898,
+    "end": 1354.648,
+    "speaker": "Host",
+    "text_en": "Yeah. Another way you can say that is I really want to be on this team. I love working here. I love this company and I love this team. And sometimes there are things that make that hard. And I'd like to talk to you about one of those things.",
+    "text": "对。你也可以换一种说法：我真的很想留在这个团队。我喜欢在这里工作，我喜欢这家公司，也喜欢这个团队。但有时候确实会有一些事情让这一切变得很难。而我想跟你聊聊其中一件事。"
+  },
+  {
+    "start": 1356.116,
+    "end": 1361.216,
+    "speaker": "Guest",
+    "text_en": "I'm not you can tell how bad I am at this because my phrases are crude and yeah",
+    "text": "我不是——你也看得出来我有多不擅长这个，因为我说话都很粗糙，嗯，对。"
+  },
+  {
+    "start": 1361.216,
+    "end": 1365.966,
+    "speaker": "Host",
+    "text_en": "Yes, you would get destroyed by that I Amazon",
+    "text": "对，你在 Amazon 搞这套会被狠狠干趴下。"
+  },
+  {
+    "start": 1365.966,
+    "end": 1371.816,
+    "speaker": "Guest",
+    "text_en": "would be a bad in case you didn't already know I would be a bad VP at Amazon I",
+    "text": "会很惨。万一你们还不知道的话，我在 Amazon 会是个很差劲的 VP。"
+  },
+  {
+    "start": 1371.816,
+    "end": 1374.716,
+    "speaker": "Host",
+    "text_en": "They would chew you up and spit you out of that system so fast.",
+    "text": "他们那个体系会非常快就把你生吞活剥，再吐出来。"
+  },
+  {
+    "start": 1374.716,
+    "end": 1379.966,
+    "speaker": "Guest",
+    "text_en": "would do everything they wanted I would give them my whole team I would yeah yeah",
+    "text": "他们想要什么我都会给，我会把整个团队都给他们，我会的，对，对。"
+  },
+  {
+    "start": 1379.966,
+    "end": 1381.666,
+    "speaker": "Host",
+    "text_en": "All your budget would be drained.",
+    "text": "你的全部预算都会被掏空。"
+  },
+  {
+    "start": 1384.116,
+    "end": 1384.466,
+    "speaker": "Host",
+    "text_en": "That",
+    "text": "那样"
+  },
+  {
+    "start": 1384.466,
+    "end": 1384.516,
+    "speaker": "Guest",
+    "text_en": "my",
+    "text": "我就"
+  },
+  {
+    "start": 1384.516,
+    "end": 1384.666,
+    "speaker": "Host",
+    "text_en": "would lose",
+    "text": "会输掉"
+  },
+  {
+    "start": 1384.666,
+    "end": 1384.916,
+    "speaker": "Guest",
+    "text_en": "gosh.",
+    "text": "天哪。"
+  },
+  {
+    "start": 1384.916,
+    "end": 1385.666,
+    "speaker": "Host",
+    "text_en": "the game.",
+    "text": "这场游戏。"
+  },
+  {
+    "start": 1385.866,
+    "end": 1387.366,
+    "speaker": "Guest",
+    "text_en": "So would I. It is so hard.",
+    "text": "我也是。真的太难了。"
+  },
+  {
+    "start": 1387.366,
+    "end": 1387.666,
+    "speaker": "Host",
+    "text_en": "But I",
+    "text": "但我"
+  },
+  {
+    "start": 1387.666,
+    "end": 1388.016,
+    "speaker": "Guest",
+    "text_en": "I mean, for",
+    "text": "我是说，就"
+  },
+  {
+    "start": 1388.016,
+    "end": 1391.116,
+    "speaker": "Host",
+    "text_en": "would have a million dollars or some large amount of money. Maybe",
+    "text": "本来会有一百万美元，或者一大笔钱。也许"
+  },
+  {
+    "start": 1391.116,
+    "end": 1391.266,
+    "speaker": "Guest",
+    "text_en": "some",
+    "text": "某个"
+  },
+  {
+    "start": 1391.266,
+    "end": 1391.566,
+    "speaker": "Host",
+    "text_en": "it'd be worth",
+    "text": "这会值得"
+  },
+  {
+    "start": 1391.566,
+    "end": 1391.666,
+    "speaker": "Guest",
+    "text_en": "period",
+    "text": "一段"
+  },
+  {
+    "start": 1391.666,
+    "end": 1391.866,
+    "speaker": "Host",
+    "text_en": "it.",
+    "text": "这么做。"
+  },
+  {
+    "start": 1391.866,
+    "end": 1392.816,
+    "speaker": "Guest",
+    "text_en": "of time.",
+    "text": "时间。"
+  },
+  {
+    "start": 1393.716,
+    "end": 1405.258,
+    "speaker": "Host",
+    "text_en": "Until the other VPs convince the even bigger VPs that you deserve to be fired. which they would do or they would keep you around as a patsy because it's like you know i don't know who knows what game they're playing if",
+    "text": "直到其他 VP 说服级别更高的 VP，觉得你活该被开掉。他们确实会这么干，或者也可能把你留着当个背锅侠，因为这就像，你懂的，我也不知道他们到底在玩什么把戏，如果——"
+  },
+  {
+    "start": 1405.258,
+    "end": 1408.708,
+    "speaker": "Guest",
+    "text_en": "Maybe I'd be like the jester, VP, just a lovable distraction.",
+    "text": "也许我会像个宫廷小丑一样，VP 版，就是个讨人喜欢的 distraction。"
+  },
+  {
+    "start": 1410.358,
+    "end": 1417.208,
+    "speaker": "Host",
+    "text_en": "no one will never fire james we will never turn our dark art against james and we love that clique and that little clown around he's like our pet",
+    "text": "没人会开掉 james，我们绝不会把我们的黑魔法用在 james 身上，而且我们喜欢那个小圈子，也喜欢那个到处耍宝的小丑，他就像我们的宠物一样"
+  },
+  {
+    "start": 1417.208,
+    "end": 1428.808,
+    "speaker": "Guest",
+    "text_en": "Yeah, we'll just, we'll keep paying him millions of dollars and being mean to him at work and then he'll be able to complain about how hard his life is getting paid millions of dollars. Dave, I think that means we've answered the",
+    "text": "对，我们就继续，继续每年给他几百万美元，在公司里还对他很刻薄，然后他就还能抱怨自己的人生有多艰难，明明拿着几百万美元。Dave，我觉得这说明我们已经回答了这个——"
+  },
+  {
+    "start": 1428.808,
+    "end": 1429.058,
+    "speaker": "Host",
+    "text_en": "I question.",
+    "text": "问题。"
+  },
+  {
+    "start": 1429.058,
+    "end": 1430.458,
+    "speaker": "Guest",
+    "text_en": "think so. I think we just wandered",
+    "text": "我觉得是。我觉得我们刚刚只是跑偏到——"
+  },
+  {
+    "start": 1430.458,
+    "end": 1430.708,
+    "speaker": "Host",
+    "text_en": "Should into",
+    "text": "闯进了——"
+  },
+  {
+    "start": 1430.708,
+    "end": 1430.858,
+    "speaker": "Guest",
+    "text_en": "I",
+    "text": "我——"
+  },
+  {
+    "start": 1430.858,
+    "end": 1430.908,
+    "speaker": "Host",
+    "text_en": "the",
+    "text": "这就属于"
+  },
+  {
+    "start": 1430.908,
+    "end": 1433.758,
+    "speaker": "Guest",
+    "text_en": "read territory that says this question is over. Good luck.",
+    "text": "那种“这个问题到此为止了，祝你好运”的范畴。"
+  },
+  {
+    "start": 1434.208,
+    "end": 1435.008,
+    "speaker": "Host",
+    "text_en": "our next one?",
+    "text": "下一个？"
+  },
+  {
+    "start": 1435.008,
+    "end": 1456.6,
+    "speaker": "Guest",
+    "text_en": "Oh, last thing. Ditch the cosmic justice. No one wins and loses. There's no right and wrong here. If you quit and they don't, there's not some balance that's been irrevocably thrown out of whack here. It's okay. You can leave. They didn't win. You didn't win. You're just going to get a better job in a better situation. It's okay.",
+    "text": "哦，最后一点。别老想着什么宇宙公平。这里没有谁赢谁输，也没有什么绝对的对错。如果你辞职了而他们没辞，也不代表某种平衡就被彻底打破了。没关系的。你可以离开。他们没赢，你也没赢。你只是要去一份更好的工作，去一个更好的环境而已。没关系。"
+  },
+  {
+    "start": 1456.75,
+    "end": 1457.2,
+    "speaker": "Host",
+    "text_en": "Yep.",
+    "text": "对。"
+  },
+  {
+    "start": 1457.75,
+    "end": 1458.75,
+    "speaker": "Guest",
+    "text_en": "That's up. Now we can. That's",
+    "text": "就这些。现在我们可以了。这就是"
+  },
+  {
+    "start": 1458.75,
+    "end": 1459.5,
+    "speaker": "Host",
+    "text_en": "and it's, yeah,",
+    "text": "而且这，嗯，是的，"
+  },
+  {
+    "start": 1459.5,
+    "end": 1459.8,
+    "speaker": "Guest",
+    "text_en": "all I have.",
+    "text": "我想说的全部。"
+  },
+  {
+    "start": 1459.8,
+    "end": 1473.832,
+    "speaker": "Host",
+    "text_en": "okay, well, I'm almost going to get sucked back in and I can't. Next question from a listener named Hugo. Hello, gentlemen. Ooh, I Ooh. haven't been called gentlemen in a while. Fancy. We are gentlemen. Yeah. Yeah. I guess so. Yeah.",
+    "text": "好吧，我差点又要被带回那个话题里了，但我不能。下一个问题来自一位叫 Hugo 的听众。你们好，先生们。哦——我都，哦——好久没人叫我先生们了。真讲究。我们确实是先生们。对。对。我想算是吧。对。"
+  },
+  {
+    "start": 1473.932,
+    "end": 1489.432,
+    "speaker": "Guest",
+    "text_en": "Good start. Long-time listener of the show and finally getting around to ask my first question. How exciting. I'm going to be joining a new company in a few months and I'm wondering how to best handle the transition in order to make an excellent first impression and set myself up for career growth while not biting off more than I can chew. For context,",
+    "text": "开头不错。我是节目的老听众了，终于准备好来问我的第一个问题。真让人兴奋。几个月后我就要加入一家新公司了，我在想该怎么最好地处理这次过渡，才能留下非常好的第一印象，并为自己的职业发展打好基础，同时又不至于给自己揽下太多做不过来的事。背景是这样的，"
+  },
+  {
+    "start": 1489.482,
+    "end": 1499.82,
+    "speaker": "Guest",
+    "text_en": "I'm joining a company that builds quantum computers after a background in working in completely different non-science. scientific fields. To be fair, I'm just joining as a senior software engineer on the cloud team.",
+    "text": "我要加入的是一家做量子计算机的公司，而我之前的背景是在完全不同的、非科学领域工作。公平地说，我加入的只是云团队的高级软件工程师岗位。"
+  },
+  {
+    "start": 1499.92,
+    "end": 1515.92,
+    "speaker": "Guest",
+    "text_en": "I won't be building the actual computers. I have some experience in leadership, but not nearly as much as I wish I had. This is something I'd love to try and get a little bit more into and couldn't at my last company, which was too small. I'm also a little intimidated at the idea of stepping into the big leagues, but want to use this opportunity to show that I too can ball.",
+    "text": "我不会去造真正的计算机。我有一些带团队的经验，但远没有我希望自己拥有的那么多。这是我很想多尝试、多深入一点的方向，而在我上一家公司做不到，因为公司太小了。一想到自己要进入大联盟，我也有点发怵，但我想借这个机会证明，我也能打出成绩。"
+  },
+  {
+    "start": 1515.92,
+    "end": 1517.92,
+    "speaker": "Host",
+    "text_en": "Yeah, I love that phrase.",
+    "text": "对，我喜欢这个说法。"
+  },
+  {
+    "start": 1517.92,
+    "end": 1526.77,
+    "speaker": "Guest",
+    "text_en": "However, I'm worried that everyone is going to be way smarter than me and that I've actually been playing in the ball pit. I'll pit for years. I'm a little scared of attempting to ball too hard and fumbling.",
+    "text": "不过，我担心大家都会比我聪明太多，结果其实这些年我一直只是在儿童球池里玩。我有点害怕自己太想证明自己，结果反而搞砸了。"
+  },
+  {
+    "start": 1527.12,
+    "end": 1534.804,
+    "speaker": "Host",
+    "text_en": "Okay, now you're mixing sports metaphors. Oh, Because boy. ball too hard, this is a basketball thing. And you don't fumble a basketball,",
+    "text": "好，现在你把体育比喻都混在一起了。哦，因为“打得太猛”这是篮球的说法。而且篮球里你不会说 fumbling，"
+  },
+  {
+    "start": 1534.904,
+    "end": 1551.304,
+    "speaker": "Guest",
+    "text_en": "causing disappointment, I guess, and turning the ball over, I don't know, causing disappointment on their end and imposter syndrome on mine. How would you go about joining the new company with the excitement of a new start and the drive to be the best I can be while also remaining humble and grounded in reality?",
+    "text": "导致他们失望，我猜，或者说失误丢球之类的，我也不知道。总之就是让他们失望，也让我自己更有冒名顶替综合征。你们会怎么做，才能在加入新公司时既带着新开始的兴奋感和想做到最好的冲劲，同时又保持谦逊、脚踏实地呢？"
+  },
+  {
+    "start": 1551.654,
+    "end": 1562.92,
+    "speaker": "Guest",
+    "text_en": "Should I fake it till I make it and be super confident or take a more reserved approach? In France, we call this a rich person problem. Everything is great. because i have a cool new job but i don't want to mess it up help yeah",
+    "text": "我是该先装得很会、表现得超级自信，还是走更保守一点的路线？在法国，我们把这叫作“有钱人的烦恼”。一切其实都很好，因为我有了一份很酷的新工作，但我又不想搞砸，救命。对。"
+  },
+  {
+    "start": 1562.92,
+    "end": 1581.27,
+    "speaker": "Host",
+    "text_en": "Oh, this is a great question. Rich person problem. We call those first world problems or high class problems. i Rich person problem. I'll bet it's really slick in French too. bet it is i would never have guessed i guess the name hugo is french but the rest of it does not read as french to me so it's very i perfectly well written.",
+    "text": "哦，这问题太好了。Rich person problem。我们一般会说“第一世界问题”或者“高阶层的烦恼”。Rich person problem。我敢打赌这词用法语说出来肯定也特别顺。肯定是。我本来完全没猜到，我是说名字 Hugo 听着像法语，但除此之外，整段文字读起来对我来说并不像法语母语者写的，所以这说明写得非常好。"
+  },
+  {
+    "start": 1581.27,
+    "end": 1597.62,
+    "speaker": "Host",
+    "text_en": "quantum computers okay here's my wrong belief i believe quantum computers are fake Well, like I know you can somehow pay money to use one, but you can't actually do useful, like no one's running their application on quantum computers, right?",
+    "text": "量子计算机。好，我先说一个我可能不对的看法：我觉得量子计算机是假的。嗯，就是我知道你大概可以花钱去用一台，但实际上根本做不了什么有用的事吧？比如说，根本没人真的把自己的应用跑在量子计算机上，对吧？"
+  },
+  {
+    "start": 1597.72,
+    "end": 1600.72,
+    "speaker": "Guest",
+    "text_en": "i mean i do my whole tech stack is now running on",
+    "text": "我的意思是，我现在整套技术栈都跑在——"
+  },
+  {
+    "start": 1600.72,
+    "end": 1600.77,
+    "speaker": "Host",
+    "text_en": "You",
+    "text": "你——"
+  },
+  {
+    "start": 1600.77,
+    "end": 1601.12,
+    "speaker": "Guest",
+    "text_en": "quantum yeah",
+    "text": "量子上，对。"
+  },
+  {
+    "start": 1601.12,
+    "end": 1602.02,
+    "speaker": "Host",
+    "text_en": "use quantum",
+    "text": "你用量子——"
+  },
+  {
+    "start": 1602.02,
+    "end": 1602.32,
+    "speaker": "Guest",
+    "text_en": "it's",
+    "text": "是的——"
+  },
+  {
+    "start": 1602.32,
+    "end": 1602.82,
+    "speaker": "Host",
+    "text_en": "JavaScript",
+    "text": "JavaScript"
+  },
+  {
+    "start": 1602.82,
+    "end": 1608.67,
+    "speaker": "Guest",
+    "text_en": "like react on the front end and then like java on the back end and then quantum on the infrastructure yeah",
+    "text": "比如前端用 React，后端用 Java，然后基础设施那块再搞量子计算，对吧"
+  },
+  {
+    "start": 1609.364,
+    "end": 1621.414,
+    "speaker": "Host",
+    "text_en": "Yeah, maybe my bank account will be drained someday because encryption will be broken by the time they're... I feel like you can't actually do real stuff with them, and I choose to not investigate further.",
+    "text": "对，也许哪天我的银行账户会被洗劫一空，因为到那时候加密都被破解了……我感觉你其实没法拿它们做什么真正有用的事，所以我选择不再深究。"
+  },
+  {
+    "start": 1621.714,
+    "end": 1625.114,
+    "speaker": "Guest",
+    "text_en": "Okay, so this relates to the question exactly how?",
+    "text": "好吧，所以这跟那个问题到底有什么关系？"
+  },
+  {
+    "start": 1626.772,
+    "end": 1627.372,
+    "speaker": "Host",
+    "text_en": "up to you",
+    "text": "你自己看着办"
+  },
+  {
+    "start": 1627.622,
+    "end": 1630.022,
+    "speaker": "Guest",
+    "text_en": "The exercise for the reader.",
+    "text": "留给读者自己思考的练习题。"
+  },
+  {
+    "start": 1632.972,
+    "end": 1655.122,
+    "speaker": "Guest",
+    "text_en": "fake it till i make it so i would also imagine that people who work on quantum computers are smart it just sounds like smart people stuff so i can see this i can see you feeling intimidated especially if you haven't worked in like a big tech company before maybe maybe you have i don't know but yeah i can i could feel this should i fake it till i make it i don't do what i would do is the",
+    "text": "先装会了再说。所以我也会觉得，做量子计算机的人应该都很聪明，这听起来就是那种聪明人才会搞的东西。所以我能理解，我能理解你会觉得有点被震住，尤其是如果你以前没在什么大厂干过的话。也可能你干过，我不知道。但对，我能理解这种感觉。那我要不要先装会了再说呢？我不会这么做，我会做的是——"
+  },
+  {
+    "start": 1655.284,
+    "end": 1657.984,
+    "speaker": "Host",
+    "text_en": "the core of all the advice I give on this show and that's why I",
+    "text": "这就是我在这个节目里给的所有建议的核心，所以我才会"
+  },
+  {
+    "start": 1658.084,
+    "end": 1658.734,
+    "speaker": "Guest",
+    "text_en": "would not yeah",
+    "text": "应该不会吧，对"
+  },
+  {
+    "start": 1658.734,
+    "end": 1659.784,
+    "speaker": "Host",
+    "text_en": "you would not fake it but",
+    "text": "你不会硬装会，但"
+  },
+  {
+    "start": 1659.784,
+    "end": 1660.634,
+    "speaker": "Guest",
+    "text_en": "I would hope I",
+    "text": "我希望我不至于"
+  },
+  {
+    "start": 1660.634,
+    "end": 1664.934,
+    "speaker": "Host",
+    "text_en": "okay so what are you gonna like fake quantum experience or something like what or not i mean",
+    "text": "好吧，那你是打算怎么装？伪造点量子方面的经验之类的吗，还是什么？不是，我是说"
+  },
+  {
+    "start": 1665.652,
+    "end": 1685.452,
+    "speaker": "Guest",
+    "text_en": "You're a cloud engineer, like the cloud team. I assume there's just normal computers around somewhere. You're going to, they're not running like quantum terraforming or quantum CDK the HR onboarding you show up on the first day and it's like here's your quantum phone and here's your quantum laptop and your quantum monitor",
+    "text": "你是个云工程师嘛，就是云团队的。我猜总归还是有普通电脑在某个地方吧。他们总不至于跑什么量子 terraforming 或者量子 CDK 吧。HR 入职流程里，你第一天去上班，结果对方说：来，这是你的量子手机，这是你的量子笔记本，还有你的量子显示器。"
+  },
+  {
+    "start": 1685.452,
+    "end": 1694.536,
+    "speaker": "Guest",
+    "text_en": "Fill out this quantum Google form with your i9 information. Like I assume there's just normal computer. computer problems that they have to solve for you yeah",
+    "text": "请用这个量子 Google 表单填写你的 i9 信息。我是说，我猜他们总还是有普通电脑、普通电脑相关的问题需要你去解决吧，对。"
+  },
+  {
+    "start": 1694.536,
+    "end": 1697.436,
+    "speaker": "Host",
+    "text_en": "Please bring a copy of your quantum social security card.",
+    "text": "请带上一份你的量子社保卡复印件。"
+  },
+  {
+    "start": 1697.936,
+    "end": 1698.536,
+    "speaker": "Guest",
+    "text_en": "what",
+    "text": "啥？"
+  },
+  {
+    "start": 1698.536,
+    "end": 1702.186,
+    "speaker": "Host",
+    "text_en": "No, I'm sure you're right about that. So when you say don't fake it, what do you mean exactly?",
+    "text": "不，我很确定你这点说得对。所以你说别装，到底具体是什么意思？"
+  },
+  {
+    "start": 1702.986,
+    "end": 1725.612,
+    "speaker": "Guest",
+    "text_en": "i mean is you have experience and wisdom that they hired you for and i don't think you had to fake that you knew a bunch about quantum computers to get the job but there's a lot of domain knowledge that i think would be pretty fun to build up I would be excited to learn how wrong I was about how fake quantum computers are if I got this job.",
+    "text": "我的意思是，你有他们之所以雇你的那些经验和见识。我不觉得你为了拿到这份工作，非得装作自己很懂量子计算机。但这里面确实有很多领域知识，我觉得学起来会挺有意思的。要是我拿到这份工作，我会很期待去了解自己之前觉得量子计算机有多像骗人的这件事，到底错得有多离谱。"
+  },
+  {
+    "start": 1725.612,
+    "end": 1737.162,
+    "speaker": "Host",
+    "text_en": "So how do you fake your way through an interview for a quantum computers company? I think the way you do it is you find a way to cheat to get the questions beforehand so that you can answer all the questions simultaneously before you were given them.",
+    "text": "那你要怎么在一家量子计算机公司的面试里一路装过去呢？我觉得办法就是想办法作弊，提前拿到题目，这样你就能在题目还没给你之前，同时把所有问题都答完。"
+  },
+  {
+    "start": 1737.162,
+    "end": 1739.912,
+    "speaker": "Guest",
+    "text_en": "Is that what quantum computers do?",
+    "text": "这就是量子计算机干的事吗？"
+  },
+  {
+    "start": 1740.112,
+    "end": 1740.862,
+    "speaker": "Host",
+    "text_en": "That's what they do.",
+    "text": "它们就是干这个的。"
+  },
+  {
+    "start": 1741.812,
+    "end": 1747.528,
+    "speaker": "Guest",
+    "text_en": "Qubits? I know qubits are a thing somehow. There's like a spin somewhere. there's quarks",
+    "text": "量子比特？我知道量子比特好像是个东西。好像 somewhere 有个自旋。还有夸克。"
+  },
+  {
+    "start": 1747.528,
+    "end": 1747.928,
+    "speaker": "Host",
+    "text_en": "Quantum",
+    "text": "量子。"
+  },
+  {
+    "start": 1747.928,
+    "end": 1768.378,
+    "speaker": "Guest",
+    "text_en": "and strange tunneling and quantum entanglement. i've heard those words i believe they also explain how acupuncture works and so maybe i don't know i know quantum woo woo stuff is this it's like what people claim is the mechanism behind a bunch of practices that are not really",
+    "text": "还有各种奇怪的隧穿和量子纠缠。这些词我都听过。我觉得它们好像也被拿来解释针灸是怎么起作用的，所以也许吧，我也不太清楚。我知道有那种“量子玄学”之类的东西，就是人们声称它是很多其实并不怎么靠谱的做法背后的机制。"
+  },
+  {
+    "start": 1768.948,
+    "end": 1771.198,
+    "speaker": "Host",
+    "text_en": "that's scientific or also are fake or",
+    "text": "那种打着科学旗号的，或者其实也是假的，或者……"
+  },
+  {
+    "start": 1771.198,
+    "end": 1779.648,
+    "speaker": "Guest",
+    "text_en": "Oh, that's true. Every time, yeah, every time we don't understand something like whether it's consciousness or yeah, like some medical practices, like, oh, well, that's the quantum realm.",
+    "text": "哦，这倒是真的。每次都是这样，对，每次我们一遇到不理解的东西，比如意识，或者对，像某些医疗做法，就会说，哦，那是量子领域的事。"
+  },
+  {
+    "start": 1779.898,
+    "end": 1796.898,
+    "speaker": "Host",
+    "text_en": "every time someone is trying to convince you a thing it works and is real and isn't just the placebo effect they say well quantum tunneling is how that's how i can put a balloon in your nose and then suddenly your pneumonia goes away or whatever weird thing it is",
+    "text": "每次有人想说服你某个东西真的有效、真的存在，不只是安慰剂效应时，他们就会说，嗯，这是靠量子隧穿实现的，所以我才能把一个气球塞进你鼻子里，然后你的肺炎突然就好了，或者别的什么奇怪玩意儿。"
+  },
+  {
+    "start": 1797.972,
+    "end": 1812.172,
+    "speaker": "Guest",
+    "text_en": "The quantum effect. Okay, so you're saying don't fake it. Listen, I really believe that everybody has to fake it a little bit. Otherwise, there's no growth. If you only do what you already know, and you're unwilling to say, yeah,",
+    "text": "量子效应。好吧，所以你的意思是别装。听着，我真的相信每个人都得稍微装一点。不然就没有成长。如果你只做自己已经会的事，而且不愿意说，嗯，对，"
+  },
+  {
+    "start": 1812.272,
+    "end": 1827.126,
+    "speaker": "Host",
+    "text_en": "I mean, I'm not saying lie about what you've done. And I'm not saying project confidence that isn't deserved. But I am saying be willing to go in there and be curious and humble but excited and eager to help. And I think you're just going to do great.",
+    "text": "我的意思不是让你谎报自己做过什么。也不是让你表现出并不配得上的自信。但我是说，你要愿意走进去，带着好奇和谦逊，同时又充满热情、很想帮忙。我觉得你一定会做得很棒。"
+  },
+  {
+    "start": 1827.176,
+    "end": 1847.726,
+    "speaker": "Guest",
+    "text_en": "I love that energy. Humble, excited, eager to help, and you know some stuff because they hired you for a reason. That's the vibe I would like. Not rolling in, kicking down the door saying, all right, you somehow managed without me for this long, but it's time for me to tell you how stupid and broken everything is here. Especially with that quantum cooling mechanism. Can you believe that? Liquid",
+    "text": "我喜欢这种状态。谦逊、兴奋、愿意帮忙，而且你本来就懂一些东西，因为他们雇你是有原因的。这才是我想要的感觉。不是一进来就踹开门说，好吧，你们居然在没有我的情况下撑了这么久，但现在该由我来告诉你们这里的一切有多蠢、多烂了。尤其是那个量子冷却机制。你能信吗？液态"
+  },
+  {
+    "start": 1847.726,
+    "end": 1847.826,
+    "speaker": "Host",
+    "text_en": "Good",
+    "text": "好"
+  },
+  {
+    "start": 1847.826,
+    "end": 1848.076,
+    "speaker": "Guest",
+    "text_en": "nitrogen?",
+    "text": "氮？"
+  },
+  {
+    "start": 1848.076,
+    "end": 1849.326,
+    "speaker": "Host",
+    "text_en": "news. It's fixed.",
+    "text": "消息。已经修好了。"
+  },
+  {
+    "start": 1851.076,
+    "end": 1856.922,
+    "speaker": "Guest",
+    "text_en": "I'm here. I found all these. There's cords lying around and I unplugged them all because we don't need them.",
+    "text": "我在这儿。我把这些都找出来了。到处都是线，我就全都拔了，反正我们也用不着。"
+  },
+  {
+    "start": 1858.522,
+    "end": 1868.272,
+    "speaker": "Host",
+    "text_en": "I think one of the cool things is that, you know, you join a quantum computer company and you're like, oh boy, what if they find out I'm actually an imposter and don't know anything about quantum computers? Well, guess what, Buster?",
+    "text": "我觉得有意思的一点是，你加入一家量子计算公司时，心里会想，哎呀，要是他们发现我其实是个冒牌货，根本不懂量子计算怎么办？但你猜怎么着，老兄？"
+  },
+  {
+    "start": 1868.372,
+    "end": 1877.364,
+    "speaker": "Host",
+    "text_en": "They already knew that. That's the amazing thing. Like when I joined a big tech company, it was like. What if they find out I don't know how to use all their internal build tools?",
+    "text": "他们早就知道了。这才是最神奇的地方。就像我加入一家大科技公司时，我也会想：要是他们发现我不会用他们那些内部构建工具怎么办？"
+  },
+  {
+    "start": 1879.014,
+    "end": 1880.364,
+    "speaker": "Guest",
+    "text_en": "Nobody knows that.",
+    "text": "没人会那个。"
+  },
+  {
+    "start": 1880.914,
+    "end": 1902.612,
+    "speaker": "Host",
+    "text_en": "yeah unless yeah unless you did just somehow fake your deep knowledge of quantum computing and that was a requirement but i gather this is more about like This is a smart field. People that work here are going to be very smart, which is probably true, but it turns out you can be very smart at science things and bad at like project management or",
+    "text": "对，除非——对，除非你真的是 somehow 伪装出了自己对量子计算有很深的了解，而且那还是硬性要求。但我感觉这更像是在说：这是个很聪明的领域。在这儿工作的人都会非常聪明，这大概也没错。但后来你会发现，一个人可以在科学方面非常聪明，却不擅长项目管理，或者——"
+  },
+  {
+    "start": 1903.012,
+    "end": 1908.562,
+    "speaker": "Guest",
+    "text_en": "building reliable systems out of smart science things. It needs a lot of different skills.",
+    "text": "把那些聪明的科学成果做成可靠的系统。这需要很多不同的技能。"
+  },
+  {
+    "start": 1908.862,
+    "end": 1919.284,
+    "speaker": "Host",
+    "text_en": "Yeah. And I think really this question is not so much about the quantum computer aspect of it. It's about getting into leadership. That's number one, which they've, you know, Hugo has done a little bit of, but not a lot. And also So getting into,",
+    "text": "对。我觉得这个问题其实没那么关乎量子计算本身。它更关乎怎么进入领导岗位。这是第一点，Hugo 之前稍微做过一点，但不算多。另外还有，所以进入——"
+  },
+  {
+    "start": 1919.334,
+    "end": 1930.784,
+    "speaker": "Host",
+    "text_en": "quote, the big leagues, which is like working for a company where I bet everyone already knows what they're doing or these are people that have done, you know, leadership at a huge scale that I've never experienced before. And yeah, that's all true.",
+    "text": "所谓“顶级联赛”，就像去一家我敢说人人都早就知道自己在做什么的公司上班，或者说，那里面的人都做过那种我以前从没经历过的大规模领导工作。对，确实是这样。"
+  },
+  {
+    "start": 1931.134,
+    "end": 1940.634,
+    "speaker": "Host",
+    "text_en": "And I'll tell you, like these companies, having worked at one of these big tech companies, people know that nobody has had the experience that you can get at that big tech company. Or if you have,",
+    "text": "但我跟你说，在这些公司里——我自己也在这种大型科技公司待过——大家都知道，没人会拥有只有在这种大厂里才能获得的那种经验。或者如果你有，"
+  },
+  {
+    "start": 1940.684,
+    "end": 1950.3,
+    "speaker": "Host",
+    "text_en": "you got it at one of the other big tech companies, you know, of which there's like five. And so nobody expects you to come in and just understand all these things. They all expect you to come in and learn.",
+    "text": "那也是在另外几家大厂之一拿到的，你懂的，也就那么五家左右。所以没人会指望你一进来就把这些东西全都懂。他们都默认你是来学习的。"
+  },
+  {
+    "start": 1950.7,
+    "end": 1962.9,
+    "speaker": "Host",
+    "text_en": "And I think that's the thing you've got to bring with you is not a false confidence, but rather a confidence in your own ability to get things done and be successful. Not a confidence that you have all the answers,",
+    "text": "我觉得你真正需要带着的，不是虚张声势的自信，而是对自己把事情做成、取得成功的能力有信心。不是觉得自己已经有所有答案，"
+  },
+  {
+    "start": 1963.05,
+    "end": 1974.15,
+    "speaker": "Host",
+    "text_en": "but a confidence that you can get the answers and a willingness to jump in and be helpful. So I think you're going to do just fine. Intimidation is totally normal. Don't feel imposter syndrome. Imposter syndrome is silly.",
+    "text": "而是相信自己能找到答案，并且愿意主动跳进去帮忙。所以我觉得你一定会做得很好。感到害怕完全正常。别陷入冒名顶替综合征。冒名顶替综合征这东西很可笑。"
+  },
+  {
+    "start": 1974.068,
+    "end": 1985.492,
+    "speaker": "Host",
+    "text_en": "silly and I think that's how you defeat imposter syndrome is by calling it silly because what is that it's just a nervousness about an expectation that other people will have that's not met And it's like, really,",
+    "text": "很可笑。我觉得打败冒名顶替综合征的方法，就是直接说它很可笑。因为那到底是什么？无非就是你在紧张，担心别人对你有一些你达不到的期待。说真的，"
+  },
+  {
+    "start": 1985.642,
+    "end": 1997.942,
+    "speaker": "Host",
+    "text_en": "you're going to obsess about unmet expectations in others about you? Come on, like life's too short. They don't think about you that much. They're just happy to have you on the team and helping out. So get to work, be curious,",
+    "text": "你真要为了别人对你那些没被满足的期待反复内耗吗？拜托，人生太短了。他们没那么在意你。他们只是很高兴你加入团队、能帮上忙。所以赶紧投入工作，保持好奇，"
+  },
+  {
+    "start": 1998.142,
+    "end": 2015.194,
+    "speaker": "Host",
+    "text_en": "be exploratory, learn all you can, ask all the questions you can, don't be ashamed or scared, and you're just going to do great. And so in that sense, yes, you should fake it till you make it. Embrace the job and do everything you can. But don't stand there and be like, well, I already know all the answers. That's horrible.",
+    "text": "多去探索，能学多少学多少，能问多少问多少，别不好意思，也别害怕，你一定会做得很棒。所以从这个意义上说，没错，你确实可以先装会，做到真会。拥抱这份工作，尽你所能去做。但别站在那里一副“这些答案我早都知道了”的样子，那就太糟糕了。"
+  },
+  {
+    "start": 2015.344,
+    "end": 2031.344,
+    "speaker": "Guest",
+    "text_en": "Yeah, I like that. I also think a good way if you're worried about, I can see a view of leadership being you need to kind of bluster your way through and kind of, I don't know, make people do what you say. And typically that doesn't work very well,",
+    "text": "对，我喜欢这个。我也觉得，如果你担心这个问题，一个很好的思路是：我能理解，有些人会觉得领导力就是得靠虚张声势一路顶过去，或者说，嗯，我也不知道，就是让别人按你说的做。但通常那样效果并不好。"
+  },
+  {
+    "start": 2031.394,
+    "end": 2040.244,
+    "speaker": "Guest",
+    "text_en": "especially if you're trying to join as like a peer and show not org chart in charge of you leadership, but just like help come up with good ideas. It's really hard to.",
+    "text": "尤其是如果你是以平级身份加入，想展现的不是那种“我在组织架构上管着你”的领导力，而只是帮大家一起想出好点子。这真的很难做到。"
+  },
+  {
+    "start": 2040.084,
+    "end": 2058.534,
+    "speaker": "Guest",
+    "text_en": "hard to do that but I think you should be willing to propose things and if you see problems say have I've noticed this problem and I have some ideas about it is this a and approach that with curiosity instead of like oh we have to do this we just absolutely must do this thing that is my idea well have we answered this question it's",
+    "text": "确实很难，但我觉得你还是应该愿意提出建议。如果你看到了问题，就说：我注意到这个问题了，我也有一些想法。这是不是一个……要带着好奇心去切入，而不是那种“哦，我们必须这么做，我们绝对得做这件事，因为这是我的主意”。比如，我们回答过这个问题了吗？"
+  },
+  {
+    "start": 2058.534,
+    "end": 2060.584,
+    "speaker": "Host",
+    "text_en": "I think so. Good luck, Hugo. You're going to do great.",
+    "text": "我觉得是的。祝你好运，Hugo。你会做得很棒的。"
+  },
+  {
+    "start": 2061.134,
+    "end": 2062.184,
+    "speaker": "Guest",
+    "text_en": "good to have rich person problems",
+    "text": "有钱人的烦恼总归还是不错的。"
+  },
+  {
+    "start": 2062.584,
+    "end": 2067.77,
+    "speaker": "Host",
+    "text_en": "Oh, absolutely. The best kind of problems. Poor person problems are super painful.",
+    "text": "哦，绝对是。是最好的一类烦恼。穷人的烦恼可太痛苦了。"
+  },
+  {
+    "start": 2067.77,
+    "end": 2074.82,
+    "speaker": "Guest",
+    "text_en": "They are. They are much worse. They are bad. How do I impress people at my white collar job is a pretty solid place to be.",
+    "text": "是啊，确实。那可糟多了，真的很惨。“我该怎么在自己的白领工作里让别人对我刮目相看”，这已经是个相当不错的处境了。"
+  },
+  {
+    "start": 2074.82,
+    "end": 2077.87,
+    "speaker": "Host",
+    "text_en": "It's like a great, that's a great problem set.",
+    "text": "这算是个很棒的问题组合了。"
+  },
+  {
+    "start": 2078.02,
+    "end": 2081.62,
+    "speaker": "Guest",
+    "text_en": "Yeah, not how do I get enough nutrition for my child.",
+    "text": "对，不是“我怎么才能让我的孩子摄入足够的营养”这种问题。"
+  },
+  {
+    "start": 2084.27,
+    "end": 2084.47,
+    "speaker": "Host",
+    "text_en": "What",
+    "text": "这也太"
+  },
+  {
+    "start": 2084.47,
+    "end": 2084.82,
+    "speaker": "Guest",
+    "text_en": "now I'm sad.",
+    "text": "现在我都难过了。"
+  },
+  {
+    "start": 2084.82,
+    "end": 2095.104,
+    "speaker": "Host",
+    "text_en": "a downer. I know. Well, on that note, what can people do if they want their own questions answered? If you have rich person problems that you'd like. You'd like our advice on because we're sure it's",
+    "text": "太扫兴了，我知道。那说到这儿，如果大家也想让自己的问题得到解答，可以怎么做呢？如果你也有那种有钱人的烦恼，想听听我们的建议，因为我们很确定这"
+  },
+  {
+    "start": 2095.104,
+    "end": 2095.154,
+    "speaker": "Guest",
+    "text_en": "heck Yeah.",
+    "text": "必须的。"
+  },
+  {
+    "start": 2095.154,
+    "end": 2110.954,
+    "speaker": "Host",
+    "text_en": "not going to help with the real problems. But if you have rich person problems, you can go to SoftSkills.audio and click the Ask Your Question button. You can fill out a little form there and we love it when you do this. Thank you so much. So many of you do this every week and we really appreciate it. It keeps us going and makes me happy. Thank you for listening. We'll catch you next week.",
+    "text": "肯定帮不上真正的人生难题。但如果你有有钱人的烦恼，可以去 SoftSkills.audio，点击 Ask Your Question 按钮。你可以在那里填一个小表单，我们特别喜欢你们这么做。真的非常感谢。每周都有很多人这样提交问题，我们非常感激。这让我们能一直做下去，也让我很开心。感谢收听，我们下周再见。"
+  }
+]

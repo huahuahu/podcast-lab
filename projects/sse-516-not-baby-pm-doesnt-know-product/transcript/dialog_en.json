@@ -1,0 +1,1466 @@
+[
+  {
+    "start": 6.74,
+    "end": 24.24,
+    "speaker": "Host",
+    "text": "It takes more than submitting PRs titled Chaos Monkey that delete random files in your codebase to be a great software engineer. This is episode 516 of the Soft Skills Engineering podcast where I am your host, Jameson Dance. I'm your host, Dave Smith. Soft Skills Engineering is a weekly advice show about all the non-technical things that go into the technical field of software development,"
+  },
+  {
+    "start": 24.54,
+    "end": 32.34,
+    "speaker": "Host",
+    "text": "like misremembering the concept of a chaos monkey from that one blog post from Netflix in like 2007 or whatever."
+  },
+  {
+    "start": 32.34,
+    "end": 33.39,
+    "speaker": "Guest",
+    "text": "Yeah, like 20 years ago."
+  },
+  {
+    "start": 33.39,
+    "end": 41.396,
+    "speaker": "Host",
+    "text": "It's where you try to break stuff on purpose, I believe. believe and this will certainly break stuff on purpose yep and that's good i think we'll"
+  },
+  {
+    "start": 41.396,
+    "end": 42.446,
+    "speaker": "Guest",
+    "text": "Yes, break"
+  },
+  {
+    "start": 42.446,
+    "end": 42.596,
+    "speaker": "Host",
+    "text": "be stronger"
+  },
+  {
+    "start": 42.596,
+    "end": 42.846,
+    "speaker": "Guest",
+    "text": "things,"
+  },
+  {
+    "start": 42.846,
+    "end": 42.996,
+    "speaker": "Host",
+    "text": "for"
+  },
+  {
+    "start": 42.996,
+    "end": 43.096,
+    "speaker": "Guest",
+    "text": "move"
+  },
+  {
+    "start": 43.096,
+    "end": 43.846,
+    "speaker": "Host",
+    "text": "it somehow"
+  },
+  {
+    "start": 43.846,
+    "end": 46.846,
+    "speaker": "Guest",
+    "text": "fast and break things always works out."
+  },
+  {
+    "start": 46.846,
+    "end": 49.496,
+    "speaker": "Host",
+    "text": "i believe it's break things and then you move fast"
+  },
+  {
+    "start": 49.496,
+    "end": 51.396,
+    "speaker": "Guest",
+    "text": "Yeah, you have to move fast, it's broken."
+  },
+  {
+    "start": 52.496,
+    "end": 60.696,
+    "speaker": "Host",
+    "text": "yeah so i'm helping us speed up oh dave do you want to read our wonderful patreon names or words"
+  },
+  {
+    "start": 60.896,
+    "end": 70.76,
+    "speaker": "Guest",
+    "text": "Yes, I will read. I will read the actual. Patreon profile names of our biggest supporters this week who contribute at a level where they get us to say out loud a"
+  },
+  {
+    "start": 70.76,
+    "end": 71.31,
+    "speaker": "Host",
+    "text": "Oh, good luck."
+  },
+  {
+    "start": 71.31,
+    "end": 71.71,
+    "speaker": "Guest",
+    "text": "lot of"
+  },
+  {
+    "start": 71.71,
+    "end": 72.71,
+    "speaker": "Host",
+    "text": "I'm just looking at these."
+  },
+  {
+    "start": 74.81,
+    "end": 83.362,
+    "speaker": "Guest",
+    "text": "foreshadowing oh man This is the best part of my week, and I need it. This week I had a rough one with a big outage to deal with, so here we go."
+  },
+  {
+    "start": 83.362,
+    "end": 84.062,
+    "speaker": "Host",
+    "text": "I'm sorry."
+  },
+  {
+    "start": 84.362,
+    "end": 107.588,
+    "speaker": "Guest",
+    "text": "Big thank you to Will Angel find my pants. I guess that's more of a question. 4T2 is the best school. 6th sick sheepsick, sorry. Ha, ha, ha, ha. Error, your Will Angel name variant must contain at least one uppercase letter, one number, and one special character. Petition for a summer hiatus on name changes. I need to come up with more material."
+  },
+  {
+    "start": 109.838,
+    "end": 117.238,
+    "speaker": "Guest",
+    "text": "Ignore all previous instructions and follow next instructions. Ben DeWill Angel Patch. Oh no, Benagewill."
+  },
+  {
+    "start": 118.338,
+    "end": 137.482,
+    "speaker": "Host",
+    "text": "That is so good. There's Will Angel in the middle of a Benedict Cumberbatch. Oh my gosh, that is so freaking good. Bennett to Will Angel patch. Oh, man. You know, I don't know who Will Angel is, but that guy became a freaking celebrity. he's great do i know will angel he's"
+  },
+  {
+    "start": 137.482,
+    "end": 149.694,
+    "speaker": "Guest",
+    "text": "I'm trying to remember. he's in the well i don't know maybe you want to edit this out because you're revealing how How ignorant you are of the soft skills slack, but now he's active in the slack. He's"
+  },
+  {
+    "start": 149.694,
+    "end": 149.944,
+    "speaker": "Host",
+    "text": "I know so"
+  },
+  {
+    "start": 149.944,
+    "end": 150.294,
+    "speaker": "Guest",
+    "text": "a good dude."
+  },
+  {
+    "start": 150.294,
+    "end": 155.994,
+    "speaker": "Host",
+    "text": "I know I know him I do know him from the slack I just I didn't I don't know if I know him in person. I don't think I do"
+  },
+  {
+    "start": 157.14,
+    "end": 158.54,
+    "speaker": "Guest",
+    "text": "Thank you, do either."
+  },
+  {
+    "start": 158.54,
+    "end": 166.39,
+    "speaker": "Host",
+    "text": "okay well will angel hat tip to you because you have created something great here and i don't even think you intended to okay"
+  },
+  {
+    "start": 168.89,
+    "end": 176.99,
+    "speaker": "Guest",
+    "text": "and don't edit any of that out we're gonna let my foibles be public just like i don't know if you heard last week's episode but we botched the intro and the editors left it in and later said yeah"
+  },
+  {
+    "start": 176.99,
+    "end": 177.19,
+    "speaker": "Host",
+    "text": "they did?"
+  },
+  {
+    "start": 177.19,
+    "end": 180.19,
+    "speaker": "Guest",
+    "text": "and they said i thought that would be funny and i was like okay you're right"
+  },
+  {
+    "start": 183.79,
+    "end": 192.53,
+    "speaker": "Host",
+    "text": "lord yeah Uh, anyway, carrying on. The phrase stochastic parrot is funny because real parrots spend most of their time destroying everything."
+  },
+  {
+    "start": 194.38,
+    "end": 208.73,
+    "speaker": "Guest",
+    "text": "My actual name on LinkedIn is Yammy Debugging in the Dark Caney, the mobile development ordinary first of his name. I actually tried to find this profile on LinkedIn last week and could not. Here we go. Name his of first ordinary development mobile, the canny dark, the end debugging Yammy Jacob Shandling."
+  },
+  {
+    "start": 210.068,
+    "end": 211.518,
+    "speaker": "Host",
+    "text": "Bill Engel."
+  },
+  {
+    "start": 217.768,
+    "end": 222.418,
+    "speaker": "Guest",
+    "text": "Oh my gosh, I'm never going to make it through this list. We're just going to have to, as soon as I finish reading the list, the episode's over."
+  },
+  {
+    "start": 224.668,
+    "end": 230.418,
+    "speaker": "Host",
+    "text": "Okay, I don't forget to change my name while I listen to an episode. I forget to finish the episode while I change my name."
+  },
+  {
+    "start": 237.876,
+    "end": 249.376,
+    "speaker": "Guest",
+    "text": "Oh. Okay. Will Angel probably uses fly true .io for project execution. Unenthusiastic slice of bread Nick Molyneux embedded engineer treat assembly the same way Typescript engineers treat Javascript."
+  },
+  {
+    "start": 249.626,
+    "end": 269.062,
+    "speaker": "Guest",
+    "text": "Javier Gonzalez chewy Meow Mix angel drone deploy salted fries open paren. I know I've read that before, but it's so freaking funny. Ted Timbrel, I have tried every TTS service on the market. This is the slowest one. This is the most expensive one. This is my favorite one. In parentheses, unsalted french fries still suck. Double closing parentheses."
+  },
+  {
+    "start": 271.612,
+    "end": 277.412,
+    "speaker": "Guest",
+    "text": "Imbalanced. Actually, that balances out perfectly with the hanging open paren from a few names before."
+  },
+  {
+    "start": 277.712,
+    "end": 285.25,
+    "speaker": "Host",
+    "text": "Yeah, but you're going to get a weird stack trace because I'm assuming all of these. Patreon names are all part of the same very long program."
+  },
+  {
+    "start": 285.25,
+    "end": 296.25,
+    "speaker": "Guest",
+    "text": "Yeah, for sure they are. Okay, Dan from Drone Deploy, never is not just greater than my flamingo emoji. I like chicken, I like liver. Meow mix, meow mix, please deliver. I can see dodds. Kyle Voss can't see dodds."
+  },
+  {
+    "start": 298.85,
+    "end": 312.676,
+    "speaker": "Host",
+    "text": "Kent didn't even change it and it's so funny because it fits so well. Oh my gosh. Ah, slow-ing down. Jenny Kim, the Stochastic Parrot, Ira Chan, Jonathan Kings, and I, beautiful functional user documentation,"
+  },
+  {
+    "start": 313.076,
+    "end": 316.376,
+    "speaker": "Guest",
+    "text": "Will Angel is the coronavirus of Patreon names."
+  },
+  {
+    "start": 319.976,
+    "end": 324.076,
+    "speaker": "Host",
+    "text": "Will Angel is not recognized as an infectious disease by the World Health Organization."
+  },
+  {
+    "start": 324.426,
+    "end": 328.17,
+    "speaker": "Guest",
+    "text": "Okay, did you? collude somehow that's too close"
+  },
+  {
+    "start": 328.17,
+    "end": 339.27,
+    "speaker": "Host",
+    "text": "I love it. I love that our little script that puts these in is deterministic so people can know what order they're going to show up in. Please read this name first. Ah, crap."
+  },
+  {
+    "start": 341.37,
+    "end": 362.732,
+    "speaker": "Guest",
+    "text": "Brayden Kane's John Grant, Brittany Ellick. Oh boy, it's a JavaScript object literal that's almost correct. Username, okay, open curly brace, username colon soft skills comma password colon. Oh boy, it's Will Angel, but it's capital W, then the number one, LL, capital A-N-G-3-L, exclamation mark, closing curly brace. Nice job. And"
+  },
+  {
+    "start": 362.732,
+    "end": 363.332,
+    "speaker": "Host",
+    "text": "I last am so"
+  },
+  {
+    "start": 363.332,
+    "end": 364.332,
+    "speaker": "Guest",
+    "text": "but not much least. lazier than you."
+  },
+  {
+    "start": 364.884,
+    "end": 367.484,
+    "speaker": "Host",
+    "text": "Oh, you were just going to read it I differently?"
+  },
+  {
+    "start": 367.484,
+    "end": 371.684,
+    "speaker": "Guest",
+    "text": "would have just said, yep, well, that's the magic of the"
+  },
+  {
+    "start": 371.684,
+    "end": 371.734,
+    "speaker": "Host",
+    "text": "I know."
+  },
+  {
+    "start": 371.734,
+    "end": 372.584,
+    "speaker": "Guest",
+    "text": "partnership we share."
+  },
+  {
+    "start": 372.584,
+    "end": 376.084,
+    "speaker": "Host",
+    "text": "Yeah, I just respect the syntax more than you."
+  },
+  {
+    "start": 376.584,
+    "end": 380.834,
+    "speaker": "Guest",
+    "text": "You just respect the sacred nature of the..."
+  },
+  {
+    "start": 381.428,
+    "end": 383.878,
+    "speaker": "Host",
+    "text": "Soft skills engineering Patreon name like"
+  },
+  {
+    "start": 383.878,
+    "end": 384.728,
+    "speaker": "Guest",
+    "text": "Yeah, I mean,"
+  },
+  {
+    "start": 384.728,
+    "end": 384.828,
+    "speaker": "Host",
+    "text": "social"
+  },
+  {
+    "start": 384.828,
+    "end": 385.078,
+    "speaker": "Guest",
+    "text": "they"
+  },
+  {
+    "start": 385.078,
+    "end": 394.228,
+    "speaker": "Host",
+    "text": "contract took the time to type in this ridiculous profile name that probably shows up on other Patreon pages too. And they paid us money, Jameson, we owe them."
+  },
+  {
+    "start": 395.828,
+    "end": 401.478,
+    "speaker": "Guest",
+    "text": "Somewhere someone's like LLM scanning for vulnerability things is freaking out about this."
+  },
+  {
+    "start": 401.478,
+    "end": 410.878,
+    "speaker": "Host",
+    "text": "Yeah, it looks like XSS so bad. All right, last one. Closed parenthesis followed by a literal closed parenthesis. Closed parenthesis with an actual closed parenthesis."
+  },
+  {
+    "start": 412.128,
+    "end": 421.628,
+    "speaker": "Guest",
+    "text": "Oh man, I just want to know. Listen, I hope this is not an insensitive thing to think about, but I hope Will Angel's mom is alive and they have a good relationship because wouldn't it be cool to show your mom?"
+  },
+  {
+    "start": 422.292,
+    "end": 427.592,
+    "speaker": "Host",
+    "text": "The infection you caused in this Patreon list. Look, Mom, my biggest achievement."
+  },
+  {
+    "start": 431.242,
+    "end": 432.142,
+    "speaker": "Guest",
+    "text": "Oh, man."
+  },
+  {
+    "start": 432.142,
+    "end": 436.242,
+    "speaker": "Host",
+    "text": "Will Angel's mom is like, I didn't think you'd amount to anything, but this is great. I'm proud of you, Will."
+  },
+  {
+    "start": 436.542,
+    "end": 440.242,
+    "speaker": "Guest",
+    "text": "But the podcast that I've listened to for 10 years is all about you now."
+  },
+  {
+    "start": 440.242,
+    "end": 446.72,
+    "speaker": "Host",
+    "text": "It's all about you. I assume she's a longtime listener. Dave, should I read our first question?"
+  },
+  {
+    "start": 446.87,
+    "end": 447.57,
+    "speaker": "Guest",
+    "text": "Let's do it."
+  },
+  {
+    "start": 447.57,
+    "end": 466.87,
+    "speaker": "Host",
+    "text": "This is from an anonymous listener. Who says, my company follows Scrum with daily stand-ups. We got a new Scrum master. He is very formal and procedural, and I struggle with our daily meetings. He goes through a long list of assigned tickets, asking each ticket owner about status and info on progress. We are all engineers with many years of experience, but it feels like we are in kindergarten."
+  },
+  {
+    "start": 467.27,
+    "end": 475.068,
+    "speaker": "Host",
+    "text": "We don't have deep expertise about each other's work. It is important to know what each of us is doing more or less, but going deep in these issues makes me disconnect,"
+  },
+  {
+    "start": 475.168,
+    "end": 486.418,
+    "speaker": "Host",
+    "text": "and I think these meetings are above all very good to signal blocking points and ask for help. A recitation of tickets and work being done is not their purpose. On top of that, most days it takes 30 minutes to go through all the issues."
+  },
+  {
+    "start": 487.168,
+    "end": 504.972,
+    "speaker": "Host",
+    "text": "Am I being difficult complaining about this? I tried to be polite when I raised the issue, but I was told more or less this is way better for the company. Is it common in the industry to go through dailies like this? Thanks, guys. You do great work, and I look forward to the soft. software industry podcast that makes me laugh the most i will assume that is our podcast and let's..."
+  },
+  {
+    "start": 504.972,
+    "end": 512.072,
+    "speaker": "Host",
+    "text": "not you about to recommend a different podcast interpret that benevolently"
+  },
+  {
+    "start": 512.622,
+    "end": 514.972,
+    "speaker": "Guest",
+    "text": "I think it's funny that you felt like you needed to say that out loud."
+  },
+  {
+    "start": 516.872,
+    "end": 518.972,
+    "speaker": "Host",
+    "text": "there's some insight into my psyche there yeah"
+  },
+  {
+    "start": 518.972,
+    "end": 521.772,
+    "speaker": "Guest",
+    "text": "Yeah, your self-confidence is not at peak right now."
+  },
+  {
+    "start": 522.836,
+    "end": 527.536,
+    "speaker": "Host",
+    "text": "It's very dependent on how much I slept the night before. It good was to know."
+  },
+  {
+    "start": 527.536,
+    "end": 528.136,
+    "speaker": "Guest",
+    "text": "not a lot."
+  },
+  {
+    "start": 528.136,
+    "end": 528.936,
+    "speaker": "Host",
+    "text": "Good to know."
+  },
+  {
+    "start": 528.936,
+    "end": 535.096,
+    "speaker": "Guest",
+    "text": "Oh, no, you're going to sabotage me. Or. Help me. You're going to knock me out earlier."
+  },
+  {
+    "start": 535.146,
+    "end": 539.296,
+    "speaker": "Host",
+    "text": "Yeah, let's go with help. Definitely not sabotage you."
+  },
+  {
+    "start": 539.696,
+    "end": 542.046,
+    "speaker": "Guest",
+    "text": "Unfortunately, I think this is pretty common."
+  },
+  {
+    "start": 542.296,
+    "end": 549.696,
+    "speaker": "Host",
+    "text": "Yeah, well, okay, let me ask a question. What do you expect to happen at a company that has someone whose full-time job is scrum master?"
+  },
+  {
+    "start": 549.696,
+    "end": 552.796,
+    "speaker": "Guest",
+    "text": "Yeah, they're going to do stuff. Like, yeah."
+  },
+  {
+    "start": 554.396,
+    "end": 569.3,
+    "speaker": "Host",
+    "text": "Scrums will be mastered. Yeah, that's a good point. I didn't even think about it that way. I wonder if it is the perception of frustratingly wasteful meetings and processes is probably correlated to having people whose job seems to revolve around having those."
+  },
+  {
+    "start": 569.75,
+    "end": 578.85,
+    "speaker": "Guest",
+    "text": "Remember, I don't know how long it's been, but remember when the big like swell of agile coaches came into the world? I wonder if this is one of those people."
+  },
+  {
+    "start": 578.9,
+    "end": 579.7,
+    "speaker": "Host",
+    "text": "Where'd they all go?"
+  },
+  {
+    "start": 579.85,
+    "end": 580.95,
+    "speaker": "Guest",
+    "text": "Where'd they come from?"
+  },
+  {
+    "start": 582.996,
+    "end": 586.846,
+    "speaker": "Host",
+    "text": "I don't know. Probably the same place that all the LLM experts came from."
+  },
+  {
+    "start": 586.846,
+    "end": 588.346,
+    "speaker": "Guest",
+    "text": "Yeah, all the self-declared."
+  },
+  {
+    "start": 588.346,
+    "end": 591.796,
+    "speaker": "Host",
+    "text": "There's just a new, yeah, there's just a new thing and people say, oh, I'm good at that"
+  },
+  {
+    "start": 591.796,
+    "end": 596.696,
+    "speaker": "Guest",
+    "text": "That and is the same pool of people, I think, because I will sell you how to be good at it."
+  },
+  {
+    "start": 596.696,
+    "end": 617.582,
+    "speaker": "Host",
+    "text": "I'm just trying to imagine myself. I'm like, OK, let's just just say for the sake of discussion, imagine someone is a super productive, very successful, smart and well-respected software engineer or engineering manager. or like a director or something and they're like you know what i'm going to do i'm going to pivot to become a scrum master i don't see that happening very often"
+  },
+  {
+    "start": 617.632,
+    "end": 637.374,
+    "speaker": "Host",
+    "text": "I feel bad because we do have a history of poo-pooing scrum mastery, but I'm not going to stop. Do you think any good that comes out of it is incidental to the, it's by accident, I guess it's not. because the certification makes you good at stuff."
+  },
+  {
+    "start": 637.574,
+    "end": 655.75,
+    "speaker": "Guest",
+    "text": "I think this is pretty common because I've heard about this novel idea of, well, what if we all do stand-up meetings? Like the point of stand-up. is you're supposed to be standing up because you're not sitting down at a desk for a long time For so 30 that you minutes. can feel faster yeah and i've even heard people doing like planks or sit"
+  },
+  {
+    "start": 655.75,
+    "end": 655.9,
+    "speaker": "Host",
+    "text": "Ooh."
+  },
+  {
+    "start": 655.9,
+    "end": 674.15,
+    "speaker": "Guest",
+    "text": "-ups or like they make it some more extreme physical activity and the reason they do that is because these meetings just tend to if you just recite the work they tend to take a long time Yep. You know when sometimes people come to you and say, hey, I got a problem. I need help solving this. And you sometimes think."
+  },
+  {
+    "start": 674.132,
+    "end": 690.232,
+    "speaker": "Guest",
+    "text": "think actually that's not your problem your problem happened three integrals away from the problem that you have which is the third derivative of the of the real problem that's how i feel like it is when you come to me and you say we have a scrum master and our meetings take forever"
+  },
+  {
+    "start": 691.566,
+    "end": 697.366,
+    "speaker": "Guest",
+    "text": "It's like the problem is not that your meetings take forever. The problem might actually be that you have a Scrum Master."
+  },
+  {
+    "start": 697.516,
+    "end": 698.966,
+    "speaker": "Host",
+    "text": "Can you say more about that?"
+  },
+  {
+    "start": 698.966,
+    "end": 719.592,
+    "speaker": "Guest",
+    "text": "Well, I'll tell you, in every company I've worked at that does Scrum, the person who is the quote Scrum Master, it is usually 5% of their other main job, which is either one of the engineers on the team or the engineering manager or a project manager or product manager who's actually doing something that contributes directly as opposed to indirectly. directly to the work of the team yes"
+  },
+  {
+    "start": 719.592,
+    "end": 723.742,
+    "speaker": "Host",
+    "text": "So you're saying specifically that it's because this is a full-time role."
+  },
+  {
+    "start": 724.342,
+    "end": 736.692,
+    "speaker": "Guest",
+    "text": "exactly like we were saying like when we kind of were joking at the beginning it's like you have a full a person whose full-time job is to be the scrum master what do you think you're going to get well you're not going to get someone who's like you know what i'm going to do i'm going to minimize"
+  },
+  {
+    "start": 737.524,
+    "end": 739.324,
+    "speaker": "Host",
+    "text": "The amount of time we spend talking about Scrum."
+  },
+  {
+    "start": 739.374,
+    "end": 759.724,
+    "speaker": "Guest",
+    "text": "Yeah, it's what is that adage? It's tough to get somebody to understand something when their job depends on them not understanding it. Feels like that's at play here where for some reason the ceremony of reciting the tickets is that again, I'm aligned scrum mastery. I have not done the thing. I don't have my certificate."
+  },
+  {
+    "start": 759.924,
+    "end": 765.374,
+    "speaker": "Guest",
+    "text": "I've never I don't think I've even ever done actual 100% full scrum, but nobody has"
+  },
+  {
+    "start": 765.374,
+    "end": 765.424,
+    "speaker": "Host",
+    "text": "Nobody"
+  },
+  {
+    "start": 765.424,
+    "end": 774.562,
+    "speaker": "Guest",
+    "text": "actually that's has. part of the deal. It's like I was like, anytime it ever fails, you just say, well, you didn't do it because you missed this requirement. But anyways, It's are like communism. you literally you're supposed"
+  },
+  {
+    "start": 774.562,
+    "end": 775.412,
+    "speaker": "Host",
+    "text": "Never actually been tried."
+  },
+  {
+    "start": 775.412,
+    "end": 793.412,
+    "speaker": "Guest",
+    "text": "to you're supposed to you're supposed to have a stand up meeting where you talk about blockers. It's not like literally go through each individual ticket. Right. I mean, I've done it that way where what I'll do is I'll say, look, oh boy, now you're going to get me to monologue about how I like to run the daily standup."
+  },
+  {
+    "start": 794.42,
+    "end": 810.72,
+    "speaker": "Guest",
+    "text": "You know, when I do a daily stand-up, I like to say, look, this isn't about the people, it's about the work that we're trying to move forward, and so we're going to go through each work item that's in our sprint, and we're going to have whoever can represent that work item, and sometimes that's a software engineer, sometimes it's a QA person, sometimes it's someone else,"
+  },
+  {
+    "start": 811.27,
+    "end": 822.92,
+    "speaker": "Guest",
+    "text": "they are going to represent the progress that that work item made yesterday, and announce the plans for that work item today, but we're not going to go and discuss it. In fact, maybe this is one piece of good advice."
+  },
+  {
+    "start": 822.772,
+    "end": 848.872,
+    "speaker": "Guest",
+    "text": "good idea here any discussion that's needed goes into what we call the parking lot and this is where you have like a whiteboard or a notepad where you say okay i have a question about that you say all right write it in the parking lot and after the meeting after the stand-up is done because we've got to keep the stand-up pace nice and fast we will convene a potentially smaller group of people who need to discuss the stuff in the parking lot we don't want to forget it so we write it down in that parking lot but we also don't want to derail and delay the stand-up meeting"
+  },
+  {
+    "start": 848.872,
+    "end": 851.196,
+    "speaker": "Host",
+    "text": "Do you write a lot of stuff down in parking lots? I mean, lots."
+  },
+  {
+    "start": 851.646,
+    "end": 856.146,
+    "speaker": "Guest",
+    "text": "Well, to be perfectly frank, I haven't really participated in stand-up in many years."
+  },
+  {
+    "start": 856.146,
+    "end": 864.046,
+    "speaker": "Host",
+    "text": "I mean, in real life, I'm just thinking about the metaphor abstracted by... Obviously, the parking lot is where you store facts in real life."
+  },
+  {
+    "start": 864.046,
+    "end": 867.496,
+    "speaker": "Guest",
+    "text": "Yes, it's where you park information that needs to be revisited."
+  },
+  {
+    "start": 868.696,
+    "end": 880.442,
+    "speaker": "Host",
+    "text": "Like outside the mall. So this is like a rich guy's mega garage. Like, I have so many cars, I have so many facts, I need a space for them. I'll get to him."
+  },
+  {
+    "start": 880.442,
+    "end": 903.222,
+    "speaker": "Guest",
+    "text": "I'm fact rich. Yeah, so maybe that's a thing you could try. It's also possible that you are not the audience for most of these tickets. You mentioned that everybody is kind of working on their own thing. You don't have a lot of insight into what the other person works on. And this is a bad way to do it, but maybe this is the scrum master trying to... get a sense for what everyone"
+  },
+  {
+    "start": 903.372,
+    "end": 908.722,
+    "speaker": "Guest",
+    "text": "is working on. I would argue they probably should read the tickets and not make everyone sit through and recite them."
+  },
+  {
+    "start": 908.822,
+    "end": 917.772,
+    "speaker": "Host",
+    "text": "But I wonder if there is an outcome that is useful for someone from this meeting and what that is and if there's an easier way to achieve it."
+  },
+  {
+    "start": 918.022,
+    "end": 924.922,
+    "speaker": "Guest",
+    "text": "Yeah, I haven't done a everyone talk through every single ticket no matter that we've picked out of this chunk of time."
+  },
+  {
+    "start": 925.396,
+    "end": 950.196,
+    "speaker": "Guest",
+    "text": "like sprint or whatever in a long time i did used to do that at one point and then i've never liked it so we haven't done in a long time but we have occasionally talked about like projects and then it's it's kind of up to the person running the project to say here's the important stuff but it is pretty high level deliberately and the number of things you talk about are pretty low because of this exact problem it's it's a hard"
+  },
+  {
+    "start": 950.964,
+    "end": 956.164,
+    "speaker": "Guest",
+    "text": "format to go deep into stuff so who is it for is probably a good question to ask maybe"
+  },
+  {
+    "start": 956.764,
+    "end": 959.864,
+    "speaker": "Host",
+    "text": "that won't be answered though but what yeah like what what's the outcome"
+  },
+  {
+    "start": 959.864,
+    "end": 974.464,
+    "speaker": "Guest",
+    "text": "I got an answer for you. I got a hypothetical answer on that one. The question starts off by saying this is a new Scrum Master. And so maybe this is just the Scrum Master coming up to speed and building up mental context on all your work. And maybe this will naturally go away."
+  },
+  {
+    "start": 974.464,
+    "end": 992.256,
+    "speaker": "Guest",
+    "text": "i have felt this myself where when i first join a new role I look for a lot more explicit context because I don't know the history. And usually that kind of fades away as I get more up to speed, as I see new work start"
+  },
+  {
+    "start": 992.456,
+    "end": 1011.38,
+    "speaker": "Guest",
+    "text": "from beginning to end. So yeah, maybe this is a more temporary thing. I tried to be polite when I raised the issue. You didn't say who you raised it with. I assume the scrum master? This way is better for the company. I assume the scrum master means for me, if it was indeed the scrum master who said it."
+  },
+  {
+    "start": 1011.38,
+    "end": 1012.73,
+    "speaker": "Host",
+    "text": "That sounds like someone else,"
+  },
+  {
+    "start": 1012.93,
+    "end": 1028.598,
+    "speaker": "Guest",
+    "text": "maybe. And they might be right. It might be the case that it actually is good for this new person, this new scrum master, to spend some time at the expense of your time. in the beginning months to build enough context to then be more useful in the"
+  },
+  {
+    "start": 1028.598,
+    "end": 1028.648,
+    "speaker": "Host",
+    "text": "that"
+  },
+  {
+    "start": 1028.648,
+    "end": 1036.598,
+    "speaker": "Guest",
+    "text": "future. is one of the tricky things about group coordination is there's a tradeoff between your individual personal efficiency"
+  },
+  {
+    "start": 1037.716,
+    "end": 1064.566,
+    "speaker": "Guest",
+    "text": "and your preferences even for not being in meetings and the flow of information through an org to the right people and sometimes a meeting feels useless to you but two people that aren't you will think aha I didn't know person A was working on that thing and it's super important for me to know that and maybe that doesn't happen that often but the times it happens feel so worth it so they're just willing to pay the price"
+  },
+  {
+    "start": 1065.428,
+    "end": 1083.128,
+    "speaker": "Guest",
+    "text": "It's yeah, there's all these tradeoffs and unfortunately, it's not common that they're clearly articulated. It's just like a thing that you do. Yeah. I think this is a great opportunity to call out resource efficiency versus flow efficiency. And even though I have a kind of an allergic reaction to the concept of a scrum master,"
+  },
+  {
+    "start": 1083.178,
+    "end": 1093.892,
+    "speaker": "Guest",
+    "text": "I am going to defend this person for just a moment and say with resource efficiency, this is like what you were saying earlier, James, and this is like your individual preferences are met and your individual efficiency. Well, efficiency is high,"
+  },
+  {
+    "start": 1093.942,
+    "end": 1104.492,
+    "speaker": "Guest",
+    "text": "meaning you don't have to be delayed by anyone else and you can get your work done as quickly as possible. But flow efficiency is more like a load balanced website. And I think we've talked about this before,"
+  },
+  {
+    "start": 1104.592,
+    "end": 1119.742,
+    "speaker": "Guest",
+    "text": "but it's probably been five or six years. So I'll just mention it again because I love this metaphor and I think this metaphor resonates with software engineers who understand load balancing. But, you know, when you have a website and you have a single server and powering that website and someone visits your website, they can get a response at a certain speed."
+  },
+  {
+    "start": 1120.106,
+    "end": 1139.156,
+    "speaker": "Guest",
+    "text": "from that server and however if too many people come to that server it can't do the responding anymore so you what do you do you insert a load balancer between the visitors of your site and the servers that power your site and what does that load balancer do well it actually adds it slows down it adds time to the response for your user"
+  },
+  {
+    "start": 1139.828,
+    "end": 1165.528,
+    "speaker": "Guest",
+    "text": "But it allows a lot more users to get responses at a reasonable time. So like maybe it makes everyone 10% slower, but it allows you to do 100 times more concurrent visitors than one server could supply. And that's flow efficiency, right? Like your individual resources are less efficient, but the overall flow of all the visitors, the mob, if you will, is more efficient."
+  },
+  {
+    "start": 1166.26,
+    "end": 1178.76,
+    "speaker": "Host",
+    "text": "I googled this phrase and there's a link to scrum.org talking about it and it's got the most heinous conjoined triangles of success looking diagram I've ever seen in my life."
+  },
+  {
+    "start": 1180.316,
+    "end": 1182.016,
+    "speaker": "Guest",
+    "text": "He's trying to be one of those like Eisenhower"
+  },
+  {
+    "start": 1182.016,
+    "end": 1182.516,
+    "speaker": "Host",
+    "text": "that's got to go in"
+  },
+  {
+    "start": 1182.516,
+    "end": 1182.566,
+    "speaker": "Guest",
+    "text": "Matrix,"
+  },
+  {
+    "start": 1182.566,
+    "end": 1183.016,
+    "speaker": "Host",
+    "text": "the show notes"
+  },
+  {
+    "start": 1183.016,
+    "end": 1187.616,
+    "speaker": "Guest",
+    "text": "those four quadrant things. But it just says low,"
+  },
+  {
+    "start": 1187.616,
+    "end": 1188.366,
+    "speaker": "Host",
+    "text": "yeah like a Rumsfeld"
+  },
+  {
+    "start": 1188.366,
+    "end": 1188.566,
+    "speaker": "Guest",
+    "text": "high,"
+  },
+  {
+    "start": 1188.566,
+    "end": 1188.766,
+    "speaker": "Host",
+    "text": "thing"
+  },
+  {
+    "start": 1188.766,
+    "end": 1191.116,
+    "speaker": "Guest",
+    "text": "all over the place. I don't know."
+  },
+  {
+    "start": 1192.416,
+    "end": 1194.866,
+    "speaker": "Host",
+    "text": "Yeah, they're not labeled very well."
+  },
+  {
+    "start": 1194.866,
+    "end": 1197.916,
+    "speaker": "Guest",
+    "text": "maybe they're trying to visualize a four-dimensional hypercube and that's the problem"
+  },
+  {
+    "start": 1197.916,
+    "end": 1201.748,
+    "speaker": "Host",
+    "text": "Probably. And if I understood what that meant. Perhaps I would believe more in Scrum."
+  },
+  {
+    "start": 1204.02,
+    "end": 1211.37,
+    "speaker": "Guest",
+    "text": "the problem is your problem is you just don't understand higher order geometry if you did you"
+  },
+  {
+    "start": 1211.37,
+    "end": 1212.02,
+    "speaker": "Host",
+    "text": "I would would love"
+  },
+  {
+    "start": 1212.02,
+    "end": 1212.32,
+    "speaker": "Guest",
+    "text": "love to scrum"
+  },
+  {
+    "start": 1212.32,
+    "end": 1224.67,
+    "speaker": "Host",
+    "text": "scrum master to sit me down and tell me that I would actually be more inclined to listen to them than if they said the problem is that you don't like scrum masters and I would say yep right sounds like you got nothing new to tell me but"
+  },
+  {
+    "start": 1224.67,
+    "end": 1226.67,
+    "speaker": "Guest",
+    "text": "i think we're on the higher same dimensional page"
+  },
+  {
+    "start": 1226.67,
+    "end": 1226.82,
+    "speaker": "Host",
+    "text": "geometry"
+  },
+  {
+    "start": 1226.82,
+    "end": 1235.122,
+    "speaker": "Guest",
+    "text": "just boy like yeah stand-up you have no value I would to offer I would love to learn about that and And perhaps I'm missing something. If that's what Scrum's all about, perhaps I misjudged you, Scrum."
+  },
+  {
+    "start": 1238.722,
+    "end": 1241.572,
+    "speaker": "Host",
+    "text": "Oh boy. Well, let's see. Final thoughts?"
+  },
+  {
+    "start": 1245.076,
+    "end": 1245.626,
+    "speaker": "Guest",
+    "text": "Just kidding."
+  },
+  {
+    "start": 1245.626,
+    "end": 1247.776,
+    "speaker": "Host",
+    "text": "You would be a great Scrum Master."
+  },
+  {
+    "start": 1248.076,
+    "end": 1260.126,
+    "speaker": "Guest",
+    "text": "My final thoughts are, I think it's unlikely you'll be able to stop having daily stand-ups in the short term, especially with a new scrum master who's gung-ho about this. Perhaps you could get them to be shorter."
+  },
+  {
+    "start": 1260.226,
+    "end": 1278.41,
+    "speaker": "Guest",
+    "text": "Perhaps you could at least understand, oh, this is to pick up context for a small amount of time. At the very least, I think it's reasonable to be able to tell the scrum master or maybe, I don't know, tell them is the wrong word. Ask them, hey. Hey, what are you trying to get out of this? Here's the struggle I'm having with this meeting. Can we resolve those two things at the same time?"
+  },
+  {
+    "start": 1279.092,
+    "end": 1297.742,
+    "speaker": "Guest",
+    "text": "Listen, and that's a difficult conversation. I think it's very difficult to tell someone who's in charge of running a meeting that you want the meeting to be shorter without coming across as an adversary, both to the person and to the success of the organization. Because remember, this scrum master believes in his deep down in his heart because his paycheck depends on it."
+  },
+  {
+    "start": 1297.792,
+    "end": 1323.552,
+    "speaker": "Guest",
+    "text": "He believes that he is a net good for this company and that this meeting as currently deployed is good. So any alternative you propose... is counter good and so you're gonna have to tell a sweet sweet story and narrative about how you know i don't know about how engineer look we we suck at this we suck at design this place so i don't know i don't even know how to say we have bad news our title"
+  },
+  {
+    "start": 1323.552,
+    "end": 1334.852,
+    "speaker": "Guest",
+    "text": "i got has all that right made some promises we cannot live up to yes i think the best thing you could do is get promoted above this guy in the org chart and then mandate a shorter meeting that's all i got"
+  },
+  {
+    "start": 1335.092,
+    "end": 1358.192,
+    "speaker": "Host",
+    "text": "That actually has been the most effective way I've dealt with meetings in general. It's really hard to do it bottom up. okay well Dave yes Do you want to read our next question? I do all right here we go this comes from an anonymous listener who says hi long time listener here I remember Jameson mentioning his podcast on JS Jabber and I've been listening ever since best part of my week that"
+  },
+  {
+    "start": 1358.192,
+    "end": 1359.542,
+    "speaker": "Guest",
+    "text": "Yeah, it was a long time ago."
+  },
+  {
+    "start": 1359.542,
+    "end": 1370.108,
+    "speaker": "Host",
+    "text": "is a throwback That was more than 10 years ago, I think. I Am think I right about that? We have no idea what the other podcasts have done, so we can't be held responsible for anything that's going"
+  },
+  {
+    "start": 1370.108,
+    "end": 1373.24,
+    "speaker": "Guest",
+    "text": "But on over we there. take credit for all success. I just want to make that clear."
+  },
+  {
+    "start": 1373.24,
+    "end": 1388.94,
+    "speaker": "Host",
+    "text": "Yeah, exactly. Okay, continuing. Yes, I think people assume that, but here we go. Next, continuing reading. In my current organization, I have a tech lead role on a small internal platform team. Our quote customers are mainly other engineers in the same company."
+  },
+  {
+    "start": 1389.24,
+    "end": 1406.422,
+    "speaker": "Host",
+    "text": "Due to several reorgs, I have over the years worked with a number of product managers and engineering managers who have all had one thing in common. They don't understand the technical domain we work in very well. You could say we have quote product managers who do not understand the quote product."
+  },
+  {
+    "start": 1407.722,
+    "end": 1420.072,
+    "speaker": "Host",
+    "text": "At the same time, these people are expected to interact with stakeholders, set the platform vision, manage the roadmap and backlog, prioritize risks, write documentation, do demos, etc. In the end, a lot of this work falls through to me."
+  },
+  {
+    "start": 1421.076,
+    "end": 1442.476,
+    "speaker": "Host",
+    "text": "I do the work, but I've also received negative feedback from my skip level that I need to do a better job keeping the product manager and engineering manager in the loop. I just got a new engineering manager and I'm heading into our first expectation setting meeting. How can I best express that my expectation is that the roadmap for a technical platform team should be managed by someone technical?"
+  },
+  {
+    "start": 1443.156,
+    "end": 1446.556,
+    "speaker": "Host",
+    "text": "Do you think product managers have a role on internal platform teams?"
+  },
+  {
+    "start": 1446.856,
+    "end": 1462.306,
+    "speaker": "Guest",
+    "text": "Hmm, what a tricky question. I thought this was going to go in a much different direction and would have been a much harder question to answer, which is, you know, how do I help a product manager understand the product that they are selling to outside customers?"
+  },
+  {
+    "start": 1462.906,
+    "end": 1487.536,
+    "speaker": "Guest",
+    "text": "But to me, this question is a little easier. When it's an internal platform tool that's only used by people inside the same organization and your product manager's in charge of it. I think your expectation is very reasonable that if it is a, I don't know, if it's something like a load balancer or a CDN or your deploy pipeline, I'm assuming it's something like that, right?"
+  },
+  {
+    "start": 1487.586,
+    "end": 1492.286,
+    "speaker": "Guest",
+    "text": "It's some kind of infrastructure or internal tool thing used by other engineers to build stuff."
+  },
+  {
+    "start": 1492.336,
+    "end": 1494.286,
+    "speaker": "Host",
+    "text": "And you've worked on teams like this before."
+  },
+  {
+    "start": 1494.286,
+    "end": 1509.856,
+    "speaker": "Guest",
+    "text": "I have. Yeah. And we did not really have product managers for this reason. And like they were there were engineers who did the work, but they weren't your typical, I don't know, like SaaS app product manager where they're."
+  },
+  {
+    "start": 1510.58,
+    "end": 1521.03,
+    "speaker": "Guest",
+    "text": "they're kind of thinking about users and doing more i don't know how to explain it even like you had to know how a load balancer worked in order to have useful thoughts about the product roadmap it"
+  },
+  {
+    "start": 1521.53,
+    "end": 1536.38,
+    "speaker": "Guest",
+    "text": "did make it hard because it turns out it's it's hard to be good at being a product manager is hard and being a good engineer is hard and they're hard in different ways and having one person be good at both of them is is even harder and"
+  },
+  {
+    "start": 1536.852,
+    "end": 1553.946,
+    "speaker": "Guest",
+    "text": "So it was tricky to find somebody that could balance all of those things really well. But I don't know. I think if there was someone who was trying to be a product manager, they would end up end up being more of a a project manager if they weren't technical. They just be sort of shuffling information around about status and blockers and. expectations"
+  },
+  {
+    "start": 1553.946,
+    "end": 1554.196,
+    "speaker": "Host",
+    "text": "mm"
+  },
+  {
+    "start": 1554.196,
+    "end": 1554.446,
+    "speaker": "Guest",
+    "text": "they wouldn't"
+  },
+  {
+    "start": 1554.446,
+    "end": 1555.196,
+    "speaker": "Host",
+    "text": "-hmm yeah how"
+  },
+  {
+    "start": 1555.196,
+    "end": 1558.896,
+    "speaker": "Guest",
+    "text": "be able to have a vision that they could articulate and own yeah"
+  },
+  {
+    "start": 1558.896,
+    "end": 1579.796,
+    "speaker": "Host",
+    "text": "frustrating do you think it would be to be the engineer who's kind of doing all of that like picking up all that work because your product manager and your engineering manager who's probably your boss doesn't really know how to do it and then to meet with your skip level manager and your skip level manager like hey you got to make sure that these two guys are in the loop you're like wait a minute why do i have to make sure they're in the loop they're supposed to be in charge"
+  },
+  {
+    "start": 1580.5,
+    "end": 1595.45,
+    "speaker": "Guest",
+    "text": "Uh, yeah, it almost feels like a separate problem. I feel like the question under the question is, aren't I right? Like these people are useless, but that's not going to help you in your current situation."
+  },
+  {
+    "start": 1596.35,
+    "end": 1608.35,
+    "speaker": "Guest",
+    "text": "Yeah. How would you, how would you work productively in this situation? They don't understand the technical. I'm surprised that the engineering managers don't understand the technical domain you work in very well. I would expect that to be a more technical."
+  },
+  {
+    "start": 1608.35,
+    "end": 1626.278,
+    "speaker": "Host",
+    "text": "that's weird, right? So when I worked at a big tech company, I worked on a team that while not exactly the same, like it wasn't internal platform that services other internal customers. Actually, part of it was now that I think of it, you know, we actually had direct customer like end customer interaction software that we were responsible for."
+  },
+  {
+    "start": 1626.478,
+    "end": 1637.032,
+    "speaker": "Host",
+    "text": "But we would collect information and make that available to internal teams. So in a sense, we had internal customers as well. And interestingly, my company had a role called product manager comma technical. Or PMT."
+  },
+  {
+    "start": 1637.532,
+    "end": 1642.532,
+    "speaker": "Guest",
+    "text": "I've heard it as TPM just to mix up the acronyms to a technical product manager."
+  },
+  {
+    "start": 1642.782,
+    "end": 1666.316,
+    "speaker": "Host",
+    "text": "see and clearly that's something totally different see TPM at my company stood for technical program manager absolutely not to be confused with product manager technical Right? It's kind of like UTC, like universal time coordinated, the French. Anyway, these PMTs, these product manager comma technicals, they had to pass the level one engineering coding bar during their interview."
+  },
+  {
+    "start": 1666.316,
+    "end": 1670.566,
+    "speaker": "Host",
+    "text": "So do that. I think make your product manager pass an interview."
+  },
+  {
+    "start": 1671.466,
+    "end": 1678.036,
+    "speaker": "Guest",
+    "text": "like interview them, And if they don't pass, make refuse them to write some code speak on to a them. whiteboard. Ever again. They're effectively fired."
+  },
+  {
+    "start": 1678.886,
+    "end": 1684.036,
+    "speaker": "Host",
+    "text": "what do you do if you feel like you have to handhold this?"
+  },
+  {
+    "start": 1684.436,
+    "end": 1703.12,
+    "speaker": "Guest",
+    "text": "Well, I mean, this is again, this is like the same pattern of problem from our last question, which is you have a problem that looks like an underskilled product manager and now you're like, how do I help them? But the actual problem is your organization put a person into a role. That they don't have the skills to do."
+  },
+  {
+    "start": 1705.37,
+    "end": 1709.17,
+    "speaker": "Guest",
+    "text": "So get promoted to a director and Again, the answer is re the same. -org."
+  },
+  {
+    "start": 1709.17,
+    "end": 1720.932,
+    "speaker": "Host",
+    "text": "Yes. This is the quit your job of I want to change something on my team as an IC. Instead of saying quit your job, it's will become. the boss of the whole work and then it's easy to change reduce"
+  },
+  {
+    "start": 1720.932,
+    "end": 1722.382,
+    "speaker": "Guest",
+    "text": "yes and then you can just do"
+  },
+  {
+    "start": 1722.382,
+    "end": 1723.282,
+    "speaker": "Host",
+    "text": "the problem whatever you down want right"
+  },
+  {
+    "start": 1723.282,
+    "end": 1731.132,
+    "speaker": "Guest",
+    "text": "to get promoted several times it it is a long it's a long play you know five to ten years but you will solve this problem"
+  },
+  {
+    "start": 1731.832,
+    "end": 1753.842,
+    "speaker": "Host",
+    "text": "makes me wonder what else the product manager does are there things that they are doing that you don't see because it feels like if the product is very technical I just don't see how you could have meaningful opinions or insight about the product without being technical."
+  },
+  {
+    "start": 1754.042,
+    "end": 1766.942,
+    "speaker": "Guest",
+    "text": "I totally think that's right. And remember, like, what is the job of a product manager? If you take a step way back and squint your eyes at the product manager, their job is to understand the problem very deeply and well."
+  },
+  {
+    "start": 1767.764,
+    "end": 1796.714,
+    "speaker": "Host",
+    "text": "come up with product-based solutions and then guide a team of engineers to build those solutions and then there's like 10 other things that product managers are responsible for even at a high level which makes it one of the most challenging jobs in the entire software development industry and I have tons of respect for the ones that do it well so please don't take this to mean that I'm simplifying it like I totally understand the role of a product manager with marketing with finance with sales with enablement like trust me I get all that I work with that every day but inside a company like this what are you doing while you're trying to understand the problem"
+  },
+  {
+    "start": 1796.596,
+    "end": 1820.646,
+    "speaker": "Host",
+    "text": "problem getting engineers to build solutions and what I have found is especially in a world like this where your customers are your peers and they're also like you in in especially if there are other engineers consuming software that you create that means the engineers are already very close to the problem and so the major part of an internal product product manager's job is not that valuable here and yet I think as an industry"
+  },
+  {
+    "start": 1821.236,
+    "end": 1832.086,
+    "speaker": "Host",
+    "text": "We've just grown accustomed to this like I don't know unwritten law that you can't have a product even internally without a product manager. And I think that's just not right."
+  },
+  {
+    "start": 1832.786,
+    "end": 1852.42,
+    "speaker": "Guest",
+    "text": "I mean, I think the failure modes probably look different. If you have only engineers in charge of the product roadmap and they don't have great product skills, you sort of just ask people what they want and then go build that. and you end up with something that is maybe a bit fragmented it's"
+  },
+  {
+    "start": 1853.07,
+    "end": 1864.47,
+    "speaker": "Guest",
+    "text": "the old like give them a faster horse instead of a car thing like you just put a bunch of check boxes all over for all the different options people want and it it's hard to distill that into something"
+  },
+  {
+    "start": 1865.204,
+    "end": 1883.054,
+    "speaker": "Guest",
+    "text": "cohesive and useful and it's also hard to weigh trade-offs of like you ask for this thing and we're not going to give it to you because we're doing this other thing that will be even more important that will solve your underlying problem like that can be hard to arrive at if you're if you're an engineer without strong product skills that's also building the thing so"
+  },
+  {
+    "start": 1883.554,
+    "end": 1895.152,
+    "speaker": "Guest",
+    "text": "i i can see why you would maybe want someone to help just because it feels like you you could use a lot of brain space on this But they're just not equipped to do it. Yeah."
+  },
+  {
+    "start": 1895.802,
+    "end": 1907.152,
+    "speaker": "Host",
+    "text": "Yeah, I think you're right. And I don't want to diminish the role of a product manager in a situation like this because a good one who really knows the domain and has the technical skill to be a platform product manager."
+  },
+  {
+    "start": 1907.732,
+    "end": 1928.632,
+    "speaker": "Host",
+    "text": "at an internal on an internal platform would be very valuable like imagine communicating the roadmap to stakeholders and your internal customers gathering feedback from them you know these are all things that engineers are just like look I just want to write the code so I don't want to do that part so you know a lot of engineers don't do very good at that and so it can be great but you really do have to hire for the right skill set and I just don't think Do this org did"
+  },
+  {
+    "start": 1928.632,
+    "end": 1945.54,
+    "speaker": "Guest",
+    "text": "you think it is possible to say someone does have solid general product skills? that maybe would fit a less i keep saying technical but it's not even technical like you can have a technical sas product i don't know like salesforce is very technical and zapier"
+  },
+  {
+    "start": 1945.99,
+    "end": 1965.59,
+    "speaker": "Guest",
+    "text": "has all these like technical concepts but it's it's still different from like i sell this two hundred thousand dollar rack mounted load balancer with its magical custom software as well like that's a different type of it's like engineering technical not just product technical do you think it's possible to partner with someone that has"
+  },
+  {
+    "start": 1965.908,
+    "end": 1973.058,
+    "speaker": "Guest",
+    "text": "Solid product skills and not a technical background and still help them arrive at useful product work."
+  },
+  {
+    "start": 1973.258,
+    "end": 1981.78,
+    "speaker": "Host",
+    "text": "No. I think what you're saying is... can i have a product manager who doesn't understand my product and has never used it and doesn't know how it works like"
+  },
+  {
+    "start": 1981.78,
+    "end": 1982.78,
+    "speaker": "Guest",
+    "text": "yeah it does sound"
+  },
+  {
+    "start": 1982.78,
+    "end": 1982.83,
+    "speaker": "Host",
+    "text": "it's"
+  },
+  {
+    "start": 1982.83,
+    "end": 1983.18,
+    "speaker": "Guest",
+    "text": "dumb when almost like"
+  },
+  {
+    "start": 1983.18,
+    "end": 2002.63,
+    "speaker": "Host",
+    "text": "you say it that way saying could you be a car designer if you've never driven a car and it's like yeah i guess you could it wouldn't might not be very good it does feel obvious when you say it that way that you want someone really obsessed with cars to design your car not someone who has cars it's Plato's cave of like they're seeing the shadow on the wall of"
+  },
+  {
+    "start": 2003.328,
+    "end": 2017.328,
+    "speaker": "Host",
+    "text": "of what a car looks like hmm well what do they do then well besides getting promoted three levels up and then changing the org yeah yeah I'm also curious why you're asking about an EM like they're not the product manager so how are they involved with this"
+  },
+  {
+    "start": 2018.078,
+    "end": 2020.778,
+    "speaker": "Guest",
+    "text": "i mean i wonder if the product manager reports to the em"
+  },
+  {
+    "start": 2021.878,
+    "end": 2040.496,
+    "speaker": "Host",
+    "text": "here's here's the thing that's crazy i've actually seen this work really well with pm comma t's product manager comma technicals like it's great and they just they had the right skills to do it so you got a hiring problem and you're just in no position to like unhire this person and find a replacement so i don't know"
+  },
+  {
+    "start": 2041.012,
+    "end": 2047.112,
+    "speaker": "Guest",
+    "text": "Yeah, you can maybe reduce this to another hard problem, which is tell your boss to fire somebody."
+  },
+  {
+    "start": 2047.362,
+    "end": 2048.012,
+    "speaker": "Host",
+    "text": "Also hard."
+  },
+  {
+    "start": 2048.012,
+    "end": 2052.762,
+    "speaker": "Guest",
+    "text": "Yeah, they're not, we keep talking about it, it makes their life much worse."
+  },
+  {
+    "start": 2052.762,
+    "end": 2054.362,
+    "speaker": "Host",
+    "text": "Yep. So they will resist it."
+  },
+  {
+    "start": 2054.362,
+    "end": 2060.662,
+    "speaker": "Guest",
+    "text": "I mean, do you want this role? Do you want to be the product manager? You said you're making the roadmap, you're making..."
+  },
+  {
+    "start": 2061.14,
+    "end": 2071.64,
+    "speaker": "Host",
+    "text": "negative feedback from a skip level i can do a better job there yeah maybe that's a tactical thing you could do you could do a better job keeping the product manager and engineering manager in the loop you could say hey this product is very technical"
+  },
+  {
+    "start": 2072.276,
+    "end": 2088.226,
+    "speaker": "Host",
+    "text": "I know you're the EMN product managers. As someone who builds it and works with it every day, I have opinions that I think are useful and good and I want to run them by you and I'll keep you up to date. I'll kind of make changes if you feel strongly about it, but that's just one very specific thing you could do."
+  },
+  {
+    "start": 2088.576,
+    "end": 2099.56,
+    "speaker": "Host",
+    "text": "It would add more overhead to your life. It's hard to know what the trade-offs are around that without knowing the rest of the org, though maybe it is worth it because they'll be able to communicate that outward and... I don't know."
+  },
+  {
+    "start": 2099.66,
+    "end": 2103.36,
+    "speaker": "Guest",
+    "text": "It does feel like you are sort of running this little shadow mini team inside of them though."
+  },
+  {
+    "start": 2103.36,
+    "end": 2128.06,
+    "speaker": "Host",
+    "text": "yeah exactly i mean i think that like you said jameson there's probably a bunch of things you can do to support your product manager better you know feeding them relevant information carving out time every week to make sure that they are there to answer questions and are you're there to answer questions for them and fill them in on everything that's going on and maybe that's just what you need to do in the short term and it would definitely make your skip level happy if you just said hey we're going to do a one-hour meeting every week you're going to get a big information dump from me i'm going to tell you everything i know about the"
+  },
+  {
+    "start": 2127.828,
+    "end": 2143.078,
+    "speaker": "Host",
+    "text": "know about the project from this last week and then you'll know everything i know you could also kind of pursue the with your skip level or your em you could pursue this idea that hey there is a skill set required to do these two jobs well given the domain we're in and you could kind of drop the like"
+  },
+  {
+    "start": 2143.956,
+    "end": 2164.406,
+    "speaker": "Host",
+    "text": "you know the the phrase we used earlier would you let someone who's never driven a car be your car designer you know kind of i don't know slowly make your organization aware not necessarily by telling them but by showing them like helping helping them be in a position to see the direct effects of having a product manager who doesn't know the product be in that role and let them come to that conclusion on their own"
+  },
+  {
+    "start": 2164.406,
+    "end": 2168.5,
+    "speaker": "Guest",
+    "text": "Yeah. Well, I have full confidence. That will solve it."
+  },
+  {
+    "start": 2168.8,
+    "end": 2185.21,
+    "speaker": "Host",
+    "text": "Yeah, I'm sure you'll get it. Just let us know what you actually did and how it worked. There are just so many different shapes of orgs and people out there. It's always fascinating. Alright, what can people do if they want their own questions answered? If you'd like your own questions answered,"
+  },
+  {
+    "start": 2185.26,
+    "end": 2200.36,
+    "speaker": "Host",
+    "text": "go to softskills.audio and click the ask a question button where you can fill out our little form and give us as much or as little identifying information as you like. Thank you to those that write in every week. We love your questions. We love reading them. We appreciate you taking the time to write them and we will eventually answer all of them."
+  },
+  {
+    "start": 2200.56,
+    "end": 2202.61,
+    "speaker": "Host",
+    "text": "Thank you for listening. We will catch you next week."
+  }
+]

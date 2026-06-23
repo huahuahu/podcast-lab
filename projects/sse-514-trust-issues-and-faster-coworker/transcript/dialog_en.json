@@ -1,0 +1,1442 @@
+[
+  {
+    "start": 6.868,
+    "end": 22.118,
+    "speaker": "Host",
+    "text": "It takes more than moving from thick clients to thin clients back to thick clients then back to thin clients and then back again a few more times to be great software engineers. This is episode 514 of the Soft Skills Engineering Podcast where I'm your host, Jameson Dance. I'm your host Dave Smith."
+  },
+  {
+    "start": 22.568,
+    "end": 36.184,
+    "speaker": "Host",
+    "text": "Soft Skills Engineering is a weekly advice show about all the non-technical things that go into the technical field of software development like decorating your thin client what do they call those network stations or something? Wasn't that the name for them a while ago? Like how long ago?"
+  },
+  {
+    "start": 36.234,
+    "end": 38.484,
+    "speaker": "Guest",
+    "text": "I don't know, like 15 years ago, 10"
+  },
+  {
+    "start": 38.484,
+    "end": 41.084,
+    "speaker": "Host",
+    "text": "Oh, there was like years a net. ago. There was a net something."
+  },
+  {
+    "start": 41.534,
+    "end": 56.384,
+    "speaker": "Guest",
+    "text": "Yeah, there was an era where you had like the thin client was literally it was a physical machine that then you were connected to some VM somewhere. I don't know, we bounced back and forth so many times. But anyways, the soft skill here is knowing how to decorate it artfully with stickers to"
+  },
+  {
+    "start": 57.534,
+    "end": 57.684,
+    "speaker": "Host",
+    "text": "That's right."
+  },
+  {
+    "start": 57.684,
+    "end": 60.334,
+    "speaker": "Guest",
+    "text": "improve the ambiance of your workplace."
+  },
+  {
+    "start": 61.14,
+    "end": 71.74,
+    "speaker": "Host",
+    "text": "oh all i could think of when you were saying thick client and thin client was now that i'm deep into my 40s i it's very easy for me to feel like a thick client if i don't eat very well doesn't"
+  },
+  {
+    "start": 71.74,
+    "end": 72.34,
+    "speaker": "Guest",
+    "text": "or take much i"
+  },
+  {
+    "start": 72.34,
+    "end": 74.59,
+    "speaker": "Host",
+    "text": "if you eat really well no"
+  },
+  {
+    "start": 74.59,
+    "end": 76.64,
+    "speaker": "Guest",
+    "text": "still feel like a thick client oh"
+  },
+  {
+    "start": 76.64,
+    "end": 79.84,
+    "speaker": "Host",
+    "text": "that's what i'm saying like yeah you're you're eating like a king those"
+  },
+  {
+    "start": 79.84,
+    "end": 79.94,
+    "speaker": "Guest",
+    "text": "i"
+  },
+  {
+    "start": 79.94,
+    "end": 80.19,
+    "speaker": "Host",
+    "text": "kings who"
+  },
+  {
+    "start": 80.19,
+    "end": 80.34,
+    "speaker": "Guest",
+    "text": "see"
+  },
+  {
+    "start": 80.34,
+    "end": 82.74,
+    "speaker": "Host",
+    "text": "got gout all the time from yes"
+  },
+  {
+    "start": 82.74,
+    "end": 85.99,
+    "speaker": "Guest",
+    "text": "depending on what you mean by well i guess"
+  },
+  {
+    "start": 86.54,
+    "end": 93.782,
+    "speaker": "Host",
+    "text": "yes you're eating well in the sense that your ancestors Ancestors would be cheering you on for how many extravagant snacks you can afford."
+  },
+  {
+    "start": 93.782,
+    "end": 110.332,
+    "speaker": "Guest",
+    "text": "Exactly. They were like, you eat more in one day than I ate in a week. Yeah, would you believe how great our descendant is? He can get infinity sugar, the thing we had that one time right before we died? That guy must be royalty. Can you believe this?"
+  },
+  {
+    "start": 110.332,
+    "end": 111.932,
+    "speaker": "Host",
+    "text": "Yeah, good on you."
+  },
+  {
+    "start": 112.032,
+    "end": 112.332,
+    "speaker": "Guest",
+    "text": "Infinity sugar."
+  },
+  {
+    "start": 112.332,
+    "end": 112.732,
+    "speaker": "Host",
+    "text": "Well done."
+  },
+  {
+    "start": 116.542,
+    "end": 118.492,
+    "speaker": "Host",
+    "text": "ah dave do you want to thank our patrons"
+  },
+  {
+    "start": 118.492,
+    "end": 122.192,
+    "speaker": "Guest",
+    "text": "Yes, I do. Let's open this list and see what's in store for us today."
+  },
+  {
+    "start": 124.992,
+    "end": 138.542,
+    "speaker": "Guest",
+    "text": "Okay, big shout out to everyone who has gone to softskills.audio and click the support us on Patreon button and just maxed out their credit card so that we will read your Patreon profile name and they are Giant Panda is Best Panda,"
+  },
+  {
+    "start": 138.692,
+    "end": 150.946,
+    "speaker": "Guest",
+    "text": "42 is the best school, Will Angel, Bob Ranger. Rob Danger Jameson. Error, your Will Angel name variant must contain at least one uppercase letter, one letter, sorry, uppercase letter, one number, and one special character."
+  },
+  {
+    "start": 151.396,
+    "end": 154.296,
+    "speaker": "Host",
+    "text": "I'm starting to believe these aren't all actually Will Angel."
+  },
+  {
+    "start": 155.896,
+    "end": 171.396,
+    "speaker": "Guest",
+    "text": "Happy birthday from episode 400. Oh, was that released on my birthday? Must check. Yep, it was. Happy birthday to me from episode 400. I love it. Okay, here we go. Hey, go back and laugh at that last one."
+  },
+  {
+    "start": 172.308,
+    "end": 174.058,
+    "speaker": "Host",
+    "text": "Ha, ha, ha, ha, ha, ha, ha."
+  },
+  {
+    "start": 174.058,
+    "end": 180.358,
+    "speaker": "Guest",
+    "text": "Oh my gosh. I start every prompt by thinking, by thanking my L lemon advance. It's a token gesture."
+  },
+  {
+    "start": 182.608,
+    "end": 204.142,
+    "speaker": "Guest",
+    "text": "My actual name on LinkedIn is Yami debugging in the dark candy, the mobile development ordinary first of his name. Name his first ordinary development mobile, the candy dark and the debugging Yami, Jacob Shandling. That was semi-colon Jacob Shandling. Love that. Okay, here we go. Kvulati ofer kvantorti. Which by the way, I think that means quality over quantity. Or as my brother used to say,"
+  },
+  {
+    "start": 204.792,
+    "end": 207.892,
+    "speaker": "Guest",
+    "text": "fitha, klitha, who's nitha. That one I have not decoded yet."
+  },
+  {
+    "start": 208.042,
+    "end": 208.342,
+    "speaker": "Host",
+    "text": "Same."
+  },
+  {
+    "start": 208.642,
+    "end": 218.242,
+    "speaker": "Guest",
+    "text": "Okay, I don't get how the person who called others out for not changing their name could have changed theirs. What were they even doing? When are you changing your podcast name to Will Angel Engineering?"
+  },
+  {
+    "start": 221.192,
+    "end": 240.64,
+    "speaker": "Guest",
+    "text": "An enthusiastic slice of bread. Nick Malinoo, embedded engineers treat assembly the same way TypeScript engineers treat JavaScript. Script Javier Gonzalez Chewy Chewy Meow Mix Angel Drone Deploy Salted Fries, open paren. Ted Timberl, I have tried every TTS service on the market. This is the slowest one. This is the most expensive one. This is my favorite one."
+  },
+  {
+    "start": 241.99,
+    "end": 265.548,
+    "speaker": "Guest",
+    "text": "Oh, a single open paren. Dan from Drone Deploy never is not just a greater on Mars Flamingo emoji. I like chicken. I like liver. Meow Mix, Meow Mix, please deliver. Kyle Boss, can't see Dodd's slowing down. Jenny Kim, the Stochastic Parrot. Ira Chan. And Jonathan King, Zenai, beautiful functional user documentation. Ask your doctor whether this Patreon name is right for you."
+  },
+  {
+    "start": 267.398,
+    "end": 270.598,
+    "speaker": "Guest",
+    "text": "Will Angel official has heard your call and will save you."
+  },
+  {
+    "start": 273.798,
+    "end": 299.618,
+    "speaker": "Guest",
+    "text": "Dash dash F spelled D-A-S-H and E-F-F, of course. Brayden Cain, John Grand, Brittany Ellick. Will Angel won't go to Slash New Conference, May 27th to 28th. Yay in Newcastle Australia, but will you but will you got it? Will angel won't but maybe you will Wow will angel. How did you infect our podcast? This is just amazing All right, here we go. Oh, this last one is gonna kill me closed parentheses"
+  },
+  {
+    "start": 300.0,
+    "end": 316.85,
+    "speaker": "Guest",
+    "text": "followed by a literal closed parenthesis closed parenthesis and then there's actually a literal closed parenthesis everything else i read up to that point was reading the words oh my gosh i tell you what you you challenge a group of engineers to create chaos in the spoken word and they deliver"
+  },
+  {
+    "start": 317.1,
+    "end": 320.826,
+    "speaker": "Host",
+    "text": "Good work. Good work, y'all. I'm very pleased."
+  },
+  {
+    "start": 320.976,
+    "end": 326.426,
+    "speaker": "Guest",
+    "text": "I'm very pleased. It's the best part about Fridays. That's the day we record. Oh, I just leaked some insider info."
+  },
+  {
+    "start": 326.576,
+    "end": 339.226,
+    "speaker": "Host",
+    "text": "Oh, no. Now a routine. You know how in thrillers they like follow the person home, figure out their routine? If I never leave my house, then I think I'm safer."
+  },
+  {
+    "start": 339.676,
+    "end": 340.776,
+    "speaker": "Guest",
+    "text": "Yeah, for sure safer."
+  },
+  {
+    "start": 340.976,
+    "end": 345.984,
+    "speaker": "Host",
+    "text": "Yeah, my work from home strategy is playing out. Correctly. Dave, should I read our first question?"
+  },
+  {
+    "start": 345.984,
+    "end": 346.584,
+    "speaker": "Guest",
+    "text": "Go for it."
+  },
+  {
+    "start": 346.584,
+    "end": 359.434,
+    "speaker": "Host",
+    "text": "This is from an anonymous listener who says, My parent organization has trust issues. We registered on a recent survey as one of the lowest across the bigger software org thousands of employees. There are two groups,"
+  },
+  {
+    "start": 359.734,
+    "end": 371.046,
+    "speaker": "Host",
+    "text": "functional trustworthy people who get stuff done, and people who are behind, stuck, or just not working. Those struggling say they need better emotional support, but there is consistent documented evidence that they cannot keep up."
+  },
+  {
+    "start": 371.246,
+    "end": 385.046,
+    "speaker": "Host",
+    "text": "I'm perpetually frustrated that there are only two or three people in an org of 30 who can effectively complete tasks and manage the insane workload. I am biased. Those in whom I have no trust have repeatedly demonstrated that they cannot be trusted. I believe"
+  },
+  {
+    "start": 385.046,
+    "end": 385.296,
+    "speaker": "Guest",
+    "text": "That's"
+  },
+  {
+    "start": 385.296,
+    "end": 385.546,
+    "speaker": "Host",
+    "text": "that the,"
+  },
+  {
+    "start": 385.546,
+    "end": 385.696,
+    "speaker": "Guest",
+    "text": "not bias."
+  },
+  {
+    "start": 385.696,
+    "end": 389.446,
+    "speaker": "Host",
+    "text": "yeah, I think that's a tautology, I guess, or,"
+  },
+  {
+    "start": 389.896,
+    "end": 393.044,
+    "speaker": "Guest",
+    "text": "that is correct observation. Ha ha ha ha."
+  },
+  {
+    "start": 393.044,
+    "end": 405.91,
+    "speaker": "Host",
+    "text": "I believe that the organization would be able to go faster without them. What's the right answer here? Should I start my own company to abandon this mess? Do we cut scope super aggressively to allow the under performers to be reasonable contributors?"
+  },
+  {
+    "start": 406.56,
+    "end": 415.36,
+    "speaker": "Host",
+    "text": "One example: one of these contributors was walked through the process, given written documentation of the process, verbally confirmed an understanding of the process, and committed to starting that day."
+  },
+  {
+    "start": 416.01,
+    "end": 428.47,
+    "speaker": "Host",
+    "text": "Then two days later identified that they hadn't started, for those two days because they were blocked by something that was explicitly captured in the document and discussed in the recorded meeting. They did not raise this until they were asked for their progress. for their progress multiple days beyond the critical start date."
+  },
+  {
+    "start": 428.47,
+    "end": 429.47,
+    "speaker": "Guest",
+    "text": "Oh my gosh."
+  },
+  {
+    "start": 429.97,
+    "end": 430.42,
+    "speaker": "Host",
+    "text": "Ugh."
+  },
+  {
+    "start": 430.42,
+    "end": 454.292,
+    "speaker": "Guest",
+    "text": "So you have trust issues and competency issues, or maybe just trust issues that manifest in symptoms as competency issues. I wasn't sure. It's not clear to me from the question what the survey was actually asking, but somehow the survey showed some employees are sad. And I think the question asker is saying,"
+  },
+  {
+    "start": 454.392,
+    "end": 466.464,
+    "speaker": "Guest",
+    "text": "and I think they're all bad at their, I think all the people who are sad are bad at their jobs. All the people like pulling down whatever ratings we're tracking on this survey are the ones who are really struggling."
+  },
+  {
+    "start": 466.614,
+    "end": 487.184,
+    "speaker": "Host",
+    "text": "Yeah, it makes sense. It's an interesting how the example given here is, you know, the question asker used the word trust, but it's kind of like there's two kinds of trust. You know, like I trust you not to intend to hurt me. That's one kind of trust. But then it's like, I trust you to hold this gun with bullets in it and not shoot anyone on accident. accident it"
+  },
+  {
+    "start": 487.284,
+    "end": 503.634,
+    "speaker": "Host",
+    "text": "was like a different kind of trust right like i know you didn't you won't intend to hurt anyone with this gun in your hands it's like a five-year-old you know like no this five-year-old's got nothing but love in their heart but would i put a gun in their hand no like because i don't trust their competency it feels like we're talking about that second part here yeah"
+  },
+  {
+    "start": 503.634,
+    "end": 520.362,
+    "speaker": "Host",
+    "text": "like trust that you are all working on a hard problem together and you can rely on them to do good work which feels so good like everybody should that's the dream right that you all have that at your jobs not everyone does does not every job has it sometimes it's objective sometimes it's subjective but that's"
+  },
+  {
+    "start": 520.362,
+    "end": 529.162,
+    "speaker": "Host",
+    "text": "honestly one i would say it's one of the best professional feelings when you go to work and the people just blow your mind with how awesome they are they're like they're just competent"
+  },
+  {
+    "start": 529.162,
+    "end": 529.862,
+    "speaker": "Guest",
+    "text": "i can't believe and you did"
+  },
+  {
+    "start": 529.862,
+    "end": 547.394,
+    "speaker": "Host",
+    "text": "that capable that is so cool yeah everybody's good at stuff especially if it's stuff you're bad at then oh that's my favorite work yeah environment and then of course in that case the next thing you have to do is make them look bad so you don't look bad it's like really important when you show up in these surveys Bad results."
+  },
+  {
+    "start": 549.336,
+    "end": 566.586,
+    "speaker": "Host",
+    "text": "what do you so i i think that this person is not like the director of their org i think they're just in the org that's what it looks like what do you do as a part of this org of 30 people where you feel like there are three of you that are good at their at your jobs and you're kind of like carrying everybody else"
+  },
+  {
+    "start": 566.586,
+    "end": 568.786,
+    "speaker": "Guest",
+    "text": "so the question asker didn't say what their role is right"
+  },
+  {
+    "start": 568.786,
+    "end": 577.282,
+    "speaker": "Host",
+    "text": "they did not they did mention their director in the part i edited out but now i just mentioned it so we didn't we lost all the time the time we saved by me editing it out."
+  },
+  {
+    "start": 579.882,
+    "end": 582.332,
+    "speaker": "Guest",
+    "text": "not not all edits result in time savings"
+  },
+  {
+    "start": 582.332,
+    "end": 582.582,
+    "speaker": "Host",
+    "text": "Yep."
+  },
+  {
+    "start": 586.082,
+    "end": 592.582,
+    "speaker": "Host",
+    "text": "so so they they're aware they have a director but they themselves are probably not a director they're probably not also a people manager i'm guessing oh"
+  },
+  {
+    "start": 592.582,
+    "end": 594.632,
+    "speaker": "Guest",
+    "text": "I think so. That's my read on it. Yeah."
+  },
+  {
+    "start": 595.332,
+    "end": 613.79,
+    "speaker": "Host",
+    "text": "man this is okay i'm just gonna i'm gonna rant just briefly but Was it last week, last episode, where I said it's amazing to me how robust the tech industry can be such that you have people who contribute almost nothing? And yet companies can still afford to pay them."
+  },
+  {
+    "start": 613.84,
+    "end": 616.29,
+    "speaker": "Guest",
+    "text": "Oh, yeah, I think it was the last episode. Yeah,"
+  },
+  {
+    "start": 616.29,
+    "end": 627.69,
+    "speaker": "Host",
+    "text": "I'm just feeling that again here. But here it's like 28 out of 30 people are being paid to do a job that only two or three people actually need to do. Here we have it again. It's just wild."
+  },
+  {
+    "start": 627.69,
+    "end": 642.824,
+    "speaker": "Guest",
+    "text": "yeah. I look at this question asker's claim a little skeptically. I believe that there are things that these people do that annoy the question asker. And very possibly they have to, the question asker must clean up other people's mess sometimes."
+  },
+  {
+    "start": 643.474,
+    "end": 654.698,
+    "speaker": "Guest",
+    "text": "I don't believe that they're literally doing nothing, at the very least. they're allowing your director to be a director because part of being a director at a big company is you have to have a lot of people under you so"
+  },
+  {
+    "start": 654.698,
+    "end": 657.948,
+    "speaker": "Host",
+    "text": "so you're saying just their existence is"
+  },
+  {
+    "start": 657.948,
+    "end": 658.348,
+    "speaker": "Guest",
+    "text": "yes there's"
+  },
+  {
+    "start": 658.348,
+    "end": 658.698,
+    "speaker": "Host",
+    "text": "valuable."
+  },
+  {
+    "start": 658.698,
+    "end": 665.048,
+    "speaker": "Guest",
+    "text": "an incentive to get people on your team because then you can say look well look how important i am look how many people i manage obviously"
+  },
+  {
+    "start": 665.048,
+    "end": 665.148,
+    "speaker": "Host",
+    "text": "This"
+  },
+  {
+    "start": 665.148,
+    "end": 665.648,
+    "speaker": "Guest",
+    "text": "i'm doing is important"
+  },
+  {
+    "start": 665.648,
+    "end": 665.798,
+    "speaker": "Host",
+    "text": "changing."
+  },
+  {
+    "start": 665.798,
+    "end": 666.198,
+    "speaker": "Guest",
+    "text": "stuff yeah"
+  },
+  {
+    "start": 666.198,
+    "end": 688.936,
+    "speaker": "Host",
+    "text": "This sentiment is changing, although it's probably going to be like a 10-year process to change it. But I definitely hear a lot more talk of how bad it is to have tons of people on your... in your org chart, but the results at the org level are not strong enough to justify that. I'm hearing that more. But I d I think that still the image t the optics of a giant org chart are still very strong."
+  },
+  {
+    "start": 689.736,
+    "end": 691.536,
+    "speaker": "Host",
+    "text": "There's also"
+  },
+  {
+    "start": 690.836,
+    "end": 710.386,
+    "speaker": "Guest",
+    "text": "I mean, yeah, I don't know. I guess part of my point is they might not all be net negative. Maybe there are things that they do that you are not seeing. That doesn't mean that they're not frustrating to work with, though. And I can see how it'd be frustrating to feel like you just have to carry other people, kind of. What do you do about it? I mean, you can't just get them all fired."
+  },
+  {
+    "start": 710.736,
+    "end": 725.062,
+    "speaker": "Guest",
+    "text": "Like, that's part of my point in saying they're serving some utility. I think it's tough to go to your director and say, hey, I think your whole org is really. really bad and ineffective and probably just needs to be laid off Yeah And you need to be downgraded from a director to just an engineering manager with two reports."
+  },
+  {
+    "start": 725.412,
+    "end": 746.522,
+    "speaker": "Guest",
+    "text": "or you need to hire 30 people at once which is hard and a lot of work Yeah Yeah so I think your your options for changing this are change yourself or try to change the environment change yourself includes quit your job i think that's a valid answer here work with your team right like maybe go to a different team in this giant org"
+  },
+  {
+    "start": 746.522,
+    "end": 748.922,
+    "speaker": "Host",
+    "text": "maybe there's a team that's highly competent."
+  },
+  {
+    "start": 750.522,
+    "end": 764.722,
+    "speaker": "Guest",
+    "text": "yeah i i have seen that happen before too where kind of sucks for the org they leave behind but if there's someone really really capable and they're getting pretty frustrated where they are another org will happily take them and the company's happy to keep them there again it it just"
+  },
+  {
+    "start": 765.268,
+    "end": 773.418,
+    "speaker": "Host",
+    "text": "Too bad about all those people that have to figure it out now, but I think there are some incentives to keep you at the company and happy that your company has. You can try that."
+  },
+  {
+    "start": 773.468,
+    "end": 773.968,
+    "speaker": "Guest",
+    "text": "Yeah, if"
+  },
+  {
+    "start": 773.968,
+    "end": 780.518,
+    "speaker": "Host",
+    "text": "I also noticed the phrase, did I edit this phrase out? The impossible workload or something like that."
+  },
+  {
+    "start": 781.018,
+    "end": 782.768,
+    "speaker": "Guest",
+    "text": "you edited this phrase out, I'm going to have a good laugh."
+  },
+  {
+    "start": 784.118,
+    "end": 787.768,
+    "speaker": "Host",
+    "text": "Just so everyone knows, we sometimes edit the question down for brevity, but..."
+  },
+  {
+    "start": 787.768,
+    "end": 791.068,
+    "speaker": "Guest",
+    "text": "Yeah, who can effectively complete tasks and manage the insane workload?"
+  },
+  {
+    "start": 791.764,
+    "end": 813.564,
+    "speaker": "Host",
+    "text": "I think there are it's possible that you are feeling quite stressed out just by the workload and that's exacerbating all these problems again I don't know what you like I think the answers are probably still mostly the same but I want to recognize that that this is a thing and it's also possible that the insane workload is causing other people to react differently and instead of like sprint even faster"
+  },
+  {
+    "start": 814.196,
+    "end": 829.246,
+    "speaker": "Host",
+    "text": "they're just kind of throwing up their hands and saying i i cannot do a thousand things at once so i will do nothing or or feeling paralyzed or something like that so that feels like there's always a ton to do and part of the job of a business leader is to get people to do more stuff usually but it"
+  },
+  {
+    "start": 829.546,
+    "end": 849.584,
+    "speaker": "Host",
+    "text": "sounds like it isn't working right like if the insane workload is an attempt to push a bunch more output out of the team then feels like it's it's not happening necessarily so maybe there's some but again this is like your your director's job right like i don't know tell them and see if they do anything i don't have any other answers besides quit your team or your job or your org"
+  },
+  {
+    "start": 849.834,
+    "end": 867.0,
+    "speaker": "Host",
+    "text": "or adopt this campaign to like mentor and train up people which if you already are mad at them is going to be rough it's going to be hard for you to do if you don't have empathy for them if you're so frustrated and can't believe that they haven't been fired yet yet you it will not be a good mentoring relationship yeah"
+  },
+  {
+    "start": 867.0,
+    "end": 869.95,
+    "speaker": "Guest",
+    "text": "Yeah, welcome to my training session. I hate you."
+  },
+  {
+    "start": 870.1,
+    "end": 875.6,
+    "speaker": "Host",
+    "text": "i think you should probably not work here anymore and it makes my life worse that you still have a job yeah"
+  },
+  {
+    "start": 875.6,
+    "end": 884.9,
+    "speaker": "Guest",
+    "text": "And depending on how you act during this training session, I may or may not go to your manager and encourage they fire you. Now that you're setting yourself up for success, we're going to do some learning today."
+  },
+  {
+    "start": 886.6,
+    "end": 892.65,
+    "speaker": "Host",
+    "text": "i mean do you you mentioned like tell your manager that they should be fired like do you think that would ever work"
+  },
+  {
+    "start": 892.98,
+    "end": 898.58,
+    "speaker": "Guest",
+    "text": "No, I've tried that twice in my 20-something year career, and it didn't really work either time. It was a stupid approach."
+  },
+  {
+    "start": 900.0,
+    "end": 916.95,
+    "speaker": "Host",
+    "text": "I've actually heard that we've talked about this guy before, but the former Amazon VP who went and bore all to this podcaster who I can't remember the name. He said, when you go to your manager and tell them they need to fire someone, you have created a very hard task for yourself and for the manager because firing someone is a ton of work."
+  },
+  {
+    "start": 917.492,
+    "end": 927.542,
+    "speaker": "Host",
+    "text": "And while they're fired, the manager is going to have to do that work or find some way to get that work done. And they're going to have to hire someone which is in and of itself its own set of work. Whereas if your manager doesn't fire the person,"
+  },
+  {
+    "start": 927.592,
+    "end": 937.198,
+    "speaker": "Host",
+    "text": "then they might have lower performance, but they for sure won't have all that extra work. at least they won't perceive it that way so it just it doesn't work it's not an effective technique"
+  },
+  {
+    "start": 937.298,
+    "end": 948.998,
+    "speaker": "Guest",
+    "text": "Here's my caveat, though. If your manager has concerns about their performance or this is already on their mind, I think it's very unlikely that you will succeed if you say this person should be fired and I want you to."
+  },
+  {
+    "start": 949.598,
+    "end": 950.448,
+    "speaker": "Host",
+    "text": "please fire them."
+  },
+  {
+    "start": 950.448,
+    "end": 972.36,
+    "speaker": "Guest",
+    "text": "that never works that's like a zero percent chance I of success think it is possible to say, here's the cost of working with this person. I want you to know that like this project is. going slower and here's the things I've tried and I just don't know what to do to work effectively to get all my stuff done and also help them and you're giving them some evidence and it's also a bit more"
+  },
+  {
+    "start": 973.076,
+    "end": 984.176,
+    "speaker": "Guest",
+    "text": "helpful to make it about you not say like and get rid of this person but either maybe they're already thinking about this person maybe they're not yet and it helps them look at them i don't know it's it's a longer term thing though"
+  },
+  {
+    "start": 984.426,
+    "end": 1001.376,
+    "speaker": "Host",
+    "text": "Okay, what if you create a new project with like fake requirements? Maybe even you have like a fake product manager persona that you impersonate on Slack and you start feeding requirements to these 28 people on the team that you think can't get anything done and just have them go build some fake thing while you and the other three."
+  },
+  {
+    "start": 1001.236,
+    "end": 1008.536,
+    "speaker": "Host",
+    "text": "The three competent people on the team actually work on the real problem. Just distract the 90% that you think are incapable."
+  },
+  {
+    "start": 1009.036,
+    "end": 1011.586,
+    "speaker": "Guest",
+    "text": "That sounds horrible."
+  },
+  {
+    "start": 1015.008,
+    "end": 1016.558,
+    "speaker": "Host",
+    "text": "It just might work."
+  },
+  {
+    "start": 1018.808,
+    "end": 1041.708,
+    "speaker": "Guest",
+    "text": "horrible effective maybe i know it's crazy because i think about i'm reading this question as if it's coming from an individual contributor on one of multiple teams working in an org full of and i'll just take them at face value let's just take let's believe them that these people are super incompetent and maybe you can be even more charitable than incompetent and you could say they're they're paralyzed by toxic organizational problems"
+  },
+  {
+    "start": 1041.94,
+    "end": 1042.54,
+    "speaker": "Host",
+    "text": "Yeah, they're struggling."
+  },
+  {
+    "start": 1042.54,
+    "end": 1051.69,
+    "speaker": "Guest",
+    "text": "And you, for whatever reason, are, yeah, you're immune to these problems and you even a couple of other people are able to be productive regardless of the horrible environment you're in, whatever. That's like probably the more charitable view."
+  },
+  {
+    "start": 1052.09,
+    "end": 1070.04,
+    "speaker": "Guest",
+    "text": "I think it would be extremely challenging and unlikely to have success for you to launch a campaign to improve this situation. And if you did, if you did succeed, it would require all of your effort. Like, again, let's take it at face value that you're correct in your assessment of these people's abilities."
+  },
+  {
+    "start": 1070.132,
+    "end": 1090.482,
+    "speaker": "Guest",
+    "text": "how are you going to fix that let's say the problem flows down from the top you're going to have to find a way to replace or motivate that top level leadership to make a huge change to completely shift a culture and remember the culture that is in place was put there presumably by the influence of those same leaders that need to be corrected so"
+  },
+  {
+    "start": 1090.982,
+    "end": 1094.732,
+    "speaker": "Guest",
+    "text": "like i mean this would be the achievement of a lifetime"
+  },
+  {
+    "start": 1095.412,
+    "end": 1122.112,
+    "speaker": "Guest",
+    "text": "if an individual contributor was able to make this clear now am I saying you shouldn't try no I think I think it would be it could be an interesting endeavor to go after this but you are going to have to rally every amount of intellect every amount of like emotional positive energy that you can muster and tackle this problem like a real serious engineering problem figure out root causes figure out solutions figure out which people need to hear what words from you"
+  },
+  {
+    "start": 1122.484,
+    "end": 1134.134,
+    "speaker": "Guest",
+    "text": "figure out how to create experiences for others so they can see the problem just as well as you i mean this is this is going to be very very challenging but honestly it might be it might actually be the way to go here because the alternative is just i think leaving"
+  },
+  {
+    "start": 1134.284,
+    "end": 1149.084,
+    "speaker": "Guest",
+    "text": "Yeah, it's like it depends on how open you are to leaving. Another option is maybe you are an individual contributor. You could try to carve out your own little enclave within the org. Either you try to manage a team and then if you're managing a team within the org, you..."
+  },
+  {
+    "start": 1149.428,
+    "end": 1175.928,
+    "speaker": "Guest",
+    "text": "probably have more influence over hiring and firing on that team or you unlikely you'll be able to kind of steal the three good people in the org onto your team because they're probably spread across teams and very important to those teams but it does carve the problem down or size the problem down a little bit to a scope you have more control over it is still hard and I don't know what this says about me I I think I'm a bad coach"
+  },
+  {
+    "start": 1176.596,
+    "end": 1199.746,
+    "speaker": "Guest",
+    "text": "because i hear this situation and think i don't know if you could tell this person who said yes i will do the thing like how do you coach that out of someone it just sounds like they didn't follow up like you can teach people technical skills and you can help guide them about architecture but this feels like more of a personality trait"
+  },
+  {
+    "start": 1200.0,
+    "end": 1217.25,
+    "speaker": "Guest",
+    "text": "almost and i feel like a better coach would would have confidence and a plan for here's and here's how i'll train them about the importance of follow-through and not getting stuck on things and it's almost like psychology or therapy at that point too but part of me looks at this and says they are who they are"
+  },
+  {
+    "start": 1218.068,
+    "end": 1223.068,
+    "speaker": "Guest",
+    "text": "they're not right for this job so but again you can't do that because you're not their boss well"
+  },
+  {
+    "start": 1223.068,
+    "end": 1224.968,
+    "speaker": "Host",
+    "text": "Yep, really challenging situation."
+  },
+  {
+    "start": 1225.518,
+    "end": 1245.118,
+    "speaker": "Guest",
+    "text": "yeah this is this is this and like this extended to your boss are some of the hardest work problems of like i think all the people i work with are bad and i have no ability to fire them or no no no authority over them and what do i do about it it is part of why it's so important to carefully choose where you work and"
+  },
+  {
+    "start": 1245.204,
+    "end": 1256.004,
+    "speaker": "Guest",
+    "text": "And these are the people you're going to spend a lot of time with. The stuff they mess up, the stuff you're going to fix, the stuff that you mess up is stuff they're going to fix. And hopefully you can rely on each other. I don't know. I have no more words about"
+  },
+  {
+    "start": 1256.004,
+    "end": 1256.154,
+    "speaker": "Host",
+    "text": "Total."
+  },
+  {
+    "start": 1256.154,
+    "end": 1256.554,
+    "speaker": "Guest",
+    "text": "this question."
+  },
+  {
+    "start": 1256.754,
+    "end": 1273.032,
+    "speaker": "Host",
+    "text": "Okay. I don't either. All right. Next question. Okay, here we go. This comes from an anonymous listener who says, hi, Dave and Jameson. First, thank you for the podcast. As someone on the spectrum, it really helps me analyze social situations I struggle with."
+  },
+  {
+    "start": 1273.382,
+    "end": 1281.082,
+    "speaker": "Guest",
+    "text": "This podcast helps me learn how to say words. I also struggle with barely. Cool. That's really cool. I was actually super thrilled to read that."
+  },
+  {
+    "start": 1281.182,
+    "end": 1295.952,
+    "speaker": "Host",
+    "text": "glad it helps. Okay. My question, I work at a software company where management is pushing the use of LLMs for coding, and my team recently started using spec. tech-driven development. SDD often requires strong upfront planning, which has quietly split my team,"
+  },
+  {
+    "start": 1296.002,
+    "end": 1307.152,
+    "speaker": "Host",
+    "text": "my small team, between developers who plan well and those who get lost in vibe coding loops. One of those people is a close co-worker I consider a friend. We hang out after work and I have honest chats about everything. He's not strong at planning,"
+  },
+  {
+    "start": 1307.252,
+    "end": 1318.302,
+    "speaker": "Host",
+    "text": "so I end up explaining each ticket to him in detail. But he's really great in other ways. Communicative, asks a lot of questions in refinement sessions that set a good example for others, does thorough handoffs with the QA team, always responds."
+  },
+  {
+    "start": 1318.068,
+    "end": 1327.168,
+    "speaker": "Host",
+    "text": "Always responsive in chat, always trying to help. He's also one of the rare people who actually pay attention to alerts. That's a nice skill. Since we started using SDD, spec-driven development,"
+  },
+  {
+    "start": 1327.218,
+    "end": 1339.88,
+    "speaker": "Host",
+    "text": "the gap in our speed and output quality has become very visible. One of our tech directors noticed and asked me to teach him planning. We spent several days drawing schemos and working through small features together,"
+  },
+  {
+    "start": 1340.43,
+    "end": 1353.18,
+    "speaker": "Host",
+    "text": "and it was clearly painful for him. The tech director also had his own sessions with him, but eventually gave up, because my friend seemed so discouraged, and the tech director decided to \"stop the torture,\" and leave him alone."
+  },
+  {
+    "start": 1353.73,
+    "end": 1375.352,
+    "speaker": "Host",
+    "text": "The hard part is that after all these teaching sessions, he actually seems even slower than before and also more discouraged and down. Since then, our friendship has changed. He stopped talking to me outside of work, and I think he now feels jealous or bothered by the difference in our performance. I'm okay with continuing to explain tickets and outlining detailed execution plans for him,"
+  },
+  {
+    "start": 1375.402,
+    "end": 1387.352,
+    "speaker": "Guest",
+    "text": "but I worry that I'm keeping him in his comfort zone and not really helping his career. And I also miss how things used to be between us. And then there's a heartbroken emoji right there. Oh, that's cute. What should I do?"
+  },
+  {
+    "start": 1387.402,
+    "end": 1399.404,
+    "speaker": "Guest",
+    "text": "P.S. I'm not an LLM fan or enthusiast. I take a practical approach using them. them but i hate how they're taking jobs away from devs who really love coding but are weak at planning or not interested in it it doesn't feel fair doesn't feel"
+  },
+  {
+    "start": 1399.404,
+    "end": 1406.904,
+    "speaker": "Host",
+    "text": "fair that's an inch yeah i mean probably isn't and such is life unfortunately there's a lot here where do you want to start do"
+  },
+  {
+    "start": 1406.904,
+    "end": 1412.254,
+    "speaker": "Guest",
+    "text": "oh man well for one we should start with spec driven development which i actually have not heard of yeah"
+  },
+  {
+    "start": 1412.254,
+    "end": 1414.104,
+    "speaker": "Host",
+    "text": "you want me to poorly explain it to you perfect"
+  },
+  {
+    "start": 1414.104,
+    "end": 1416.154,
+    "speaker": "Guest",
+    "text": "that's why i invited you here"
+  },
+  {
+    "start": 1417.204,
+    "end": 1444.304,
+    "speaker": "Host",
+    "text": "My understanding of it is you work a lot on specs and the main things that you write both by yourself and with LLM help are these spec documents usually mark down technical specifications they might have been design docs earlier some combination of product requirement doc and technical design doc or whatever the the hope is that you have clearly outlined all of the decisions in prose"
+  },
+  {
+    "start": 1445.396,
+    "end": 1472.196,
+    "speaker": "Host",
+    "text": "and maybe there's some hints about like here's where to look in the code and i don't know it but it's not it's not code but it kind of gestures at code in a few places and you you polish this thing and then you hand the spec to robots to one or more llms and then they write all the code then maybe you still verify the code maybe not there's a bunch of fuzziness around this maybe you tell the robot like update the spec if you learn new things or use the spec to verify your output but"
+  },
+  {
+    "start": 1472.628,
+    "end": 1487.878,
+    "speaker": "Host",
+    "text": "The main artifact and level of abstraction that you work with is at the spec level and sometimes even check those in to a repo and you keep them around and try and keep them up to date. It's sort of like abstracting away the code a little bit more."
+  },
+  {
+    "start": 1487.878,
+    "end": 1491.328,
+    "speaker": "Guest",
+    "text": "Okay. So you, I feel like you broke a promise though."
+  },
+  {
+    "start": 1491.328,
+    "end": 1491.378,
+    "speaker": "Host",
+    "text": "Why?"
+  },
+  {
+    "start": 1491.378,
+    "end": 1494.828,
+    "speaker": "Guest",
+    "text": "You said you were going to explain it badly and that was actually really good."
+  },
+  {
+    "start": 1494.828,
+    "end": 1512.4,
+    "speaker": "Host",
+    "text": "I might be explaining it incorrectly because I'm not like a, like with any. software technique there's some people who are very enthusiastic about it and also the definitions are impossible and so whatever you say they'll say actually it's not that it's this other thing it's like if i tried to explain what unit tests are or something like that yeah"
+  },
+  {
+    "start": 1513.2,
+    "end": 1530.246,
+    "speaker": "Host",
+    "text": "so it it seems to require understanding the system pretty well and either being able to prompt the robot to explore very effectively or to to know like where it's missed things and you do have to kind of be able to think through from beginning to end how the how the thing could work"
+  },
+  {
+    "start": 1530.246,
+    "end": 1530.346,
+    "speaker": "Guest",
+    "text": "Mm"
+  },
+  {
+    "start": 1530.346,
+    "end": 1540.646,
+    "speaker": "Host",
+    "text": "or be able to get there with a robot and i've noticed the same thing that not everybody works effectively this way some people are more iterative and just kind of like i'll take the next step and figure it out from there yeah"
+  },
+  {
+    "start": 1540.646,
+    "end": 1542.646,
+    "speaker": "Guest",
+    "text": "Like in the typically like right in the code."
+  },
+  {
+    "start": 1542.896,
+    "end": 1557.152,
+    "speaker": "Host",
+    "text": "yeah and you can certainly do that with robots as well of like okay now now now make it do this thing Yeah, you know true. but sort of like well big design up front is bad if you have these slow human cycles around all of it but maybe it's good if then if robots"
+  },
+  {
+    "start": 1557.152,
+    "end": 1575.392,
+    "speaker": "Guest",
+    "text": "it only takes do a few minutes all the other parts after the big design up front yeah yeah yeah it's like not that big anymore what actually made the design big up front was the engineering time it took to build it not and then the slow feedback and test cycles and stuff and maybe if robots are doing all that so anyways yeah it's It's an idea floating around. It's one way to use robots."
+  },
+  {
+    "start": 1575.392,
+    "end": 1578.892,
+    "speaker": "Host",
+    "text": "Okay. And it's kind of, all right. And it is very much like an AI centric thing."
+  },
+  {
+    "start": 1578.892,
+    "end": 1581.642,
+    "speaker": "Guest",
+    "text": "Yes, very AI centric. And it is, yeah, it's, it's, oh,"
+  },
+  {
+    "start": 1582.142,
+    "end": 1585.442,
+    "speaker": "Host",
+    "text": "I haven't actually heard about AI yet. So this is new to me."
+  },
+  {
+    "start": 1585.592,
+    "end": 1594.942,
+    "speaker": "Guest",
+    "text": "that stands for awesome individuals. And it's where then you hand all the work to awesome individuals to do it. And it's like everyone keeps their job."
+  },
+  {
+    "start": 1595.092,
+    "end": 1595.592,
+    "speaker": "Host",
+    "text": "Is that everyone how that goes?"
+  },
+  {
+    "start": 1595.592,
+    "end": 1604.93,
+    "speaker": "Guest",
+    "text": "keeps their job and nobody's mad about data centers or water use or. electromagnetic interference, I guess, is the new thing people are sad about."
+  },
+  {
+    "start": 1607.7,
+    "end": 1622.5,
+    "speaker": "Host",
+    "text": "Oh boy, this is rough. And you know what I'm seeing here is a really cool willingness to help someone out. But also like it kind of feels like this organization is forcing a single way of doing things that is unlikely to get the best work out of everyone."
+  },
+  {
+    "start": 1622.8,
+    "end": 1637.45,
+    "speaker": "Guest",
+    "text": "Yeah, I mean, is this what it looks like when people are left behind by technology? I feel like, yeah, there's in big technological shifts, there's always people that don't like it, have a hard time with the new thing, like somebody gets left behind and it sucks. Maybe that's..."
+  },
+  {
+    "start": 1637.428,
+    "end": 1649.028,
+    "speaker": "Host",
+    "text": "Well, I What's mean, this happening here? person does seem to be getting left behind, but based on what you were describing, how you've seen different people respond to Spectrum of Development, that it isn't necessarily the only way to get the job done well, right?"
+  },
+  {
+    "start": 1649.078,
+    "end": 1650.628,
+    "speaker": "Guest",
+    "text": "Like, I don't think it is."
+  },
+  {
+    "start": 1650.878,
+    "end": 1655.428,
+    "speaker": "Host",
+    "text": "I don't know. I know you work this way, right? Sort At of. least as of within Sometimes it's the last year?"
+  },
+  {
+    "start": 1655.428,
+    "end": 1671.846,
+    "speaker": "Guest",
+    "text": "a bit more exploratory, but there are times where I feel like I put a bunch of work into planning up front. I'll say it has had mixed results for me. Maybe that's a skill issue, but it didn't feel like the silver bullet to me of like, obviously I will never work another way. It felt like a useful technique sometimes."
+  },
+  {
+    "start": 1673.446,
+    "end": 1685.996,
+    "speaker": "Host",
+    "text": "Well, regardless of the effectiveness of spectrum development, I think that the real question here is what do I do about my co-worker who it looks like I've lost a friendship and also they're definitely struggling and I want to help."
+  },
+  {
+    "start": 1686.096,
+    "end": 1704.426,
+    "speaker": "Host",
+    "text": "And I think the answer is at least I don't know the full answer, but I know the way that it should start. And I think that it needs to start, well, maybe this has already happened, but I was going to suggest sitting down and just saying, hey, I've noticed between us that you seem frustrated. I don't want to guess why. I just want to understand how things look from your perspective."
+  },
+  {
+    "start": 1704.426,
+    "end": 1708.376,
+    "speaker": "Guest",
+    "text": "Yeah, you seem down. I'm sorry, what's going on?"
+  },
+  {
+    "start": 1708.426,
+    "end": 1711.926,
+    "speaker": "Host",
+    "text": "Yeah, exactly. I think Jameson's really good at these kinds of questions."
+  },
+  {
+    "start": 1712.026,
+    "end": 1716.312,
+    "speaker": "Guest",
+    "text": "Why thank you. It's probably because... I don't have to ask you them in real life."
+  },
+  {
+    "start": 1717.412,
+    "end": 1719.362,
+    "speaker": "Host",
+    "text": "Even if I've only seen the practice versions."
+  },
+  {
+    "start": 1719.362,
+    "end": 1722.212,
+    "speaker": "Guest",
+    "text": "Yeah, exactly. You missed all the edits that just happened."
+  },
+  {
+    "start": 1723.762,
+    "end": 1727.012,
+    "speaker": "Host",
+    "text": "That was like Jameson's seventh take to"
+  },
+  {
+    "start": 1727.012,
+    "end": 1727.612,
+    "speaker": "Guest",
+    "text": "Yes, first it"
+  },
+  {
+    "start": 1727.612,
+    "end": 1727.762,
+    "speaker": "Host",
+    "text": "get the"
+  },
+  {
+    "start": 1727.762,
+    "end": 1727.812,
+    "speaker": "Guest",
+    "text": "was,"
+  },
+  {
+    "start": 1727.812,
+    "end": 1728.412,
+    "speaker": "Host",
+    "text": "emotion just right."
+  },
+  {
+    "start": 1728.412,
+    "end": 1730.112,
+    "speaker": "Guest",
+    "text": "hey, idiot, stop being sad."
+  },
+  {
+    "start": 1733.662,
+    "end": 1735.212,
+    "speaker": "Host",
+    "text": "That was actually take one through six."
+  },
+  {
+    "start": 1737.492,
+    "end": 1754.892,
+    "speaker": "Host",
+    "text": "yeah he seems discouraged and down i think yeah there is a separate issue of like his happiness at work versus your friendship and they are kind of intertwined if you are correct that it is because you work differently than he does and it seems to be going better for you than than his work is going but"
+  },
+  {
+    "start": 1755.7,
+    "end": 1768.6,
+    "speaker": "Guest",
+    "text": "I don't know if you have a friendship, but I think it's reasonable to be able to talk to him about it. Say, hey, what's going on? You seem distant, seem upset or sad or whatever, and I care about you. So I'm curious what's going on."
+  },
+  {
+    "start": 1768.6,
+    "end": 1783.4,
+    "speaker": "Guest",
+    "text": "Let him tell you. I mean, you've got a version of events in your head. You've got a story forming about what you think happened. And that story is pretty clearly articulated here. You think that your coworker is resentful, maybe even jealous of how successful you seem to be in this new world."
+  },
+  {
+    "start": 1783.284,
+    "end": 1799.884,
+    "speaker": "Guest",
+    "text": "world and maybe even a little bit frustrated with themselves for not being able to stay up to speed with everybody but that might not actually be what's happening that is a story that you created about the situation and that's natural that's normal we we think in stories we tell ourselves stories like it's how we understand"
+  },
+  {
+    "start": 1800.0,
+    "end": 1819.392,
+    "speaker": "Guest",
+    "text": "understand the world. And so when it comes to understanding what's actually happening with someone, I think it's a really good idea to set those stories completely aside and embrace a attitude of Total unbiased curiosity like come in trying to understand exactly what's happening without trying to influence it."
+  },
+  {
+    "start": 1819.392,
+    "end": 1836.142,
+    "speaker": "Guest",
+    "text": "Yeah. Asking them is a decent way to do it. I mean, they also might not know and or say what they think and what they think might not actually be what's happening. There's all kinds of layers of fuzziness here, but it is useful. And if you do have a friendship, I think it's pretty normal to be able to say to ask what's going on."
+  },
+  {
+    "start": 1836.142,
+    "end": 1846.422,
+    "speaker": "Host",
+    "text": "Listen This person who's writing in says they're on the spectrum, so we should describe the visual cues to look for. Left eyebrow up one millimeter means they're being truthful. Just remember that."
+  },
+  {
+    "start": 1846.422,
+    "end": 1846.922,
+    "speaker": "Guest",
+    "text": "Aha."
+  },
+  {
+    "start": 1848.322,
+    "end": 1852.372,
+    "speaker": "Host",
+    "text": "I've raised my right eyebrow one millimeter. What does that mean, David?"
+  },
+  {
+    "start": 1853.172,
+    "end": 1854.672,
+    "speaker": "Guest",
+    "text": "That means I'm lying."
+  },
+  {
+    "start": 1857.222,
+    "end": 1862.522,
+    "speaker": "Guest",
+    "text": "And it's not appropriate to carry around like a ruler and measure people's faces. I learned that."
+  },
+  {
+    "start": 1864.852,
+    "end": 1886.44,
+    "speaker": "Guest",
+    "text": "yeah that is not appropriate i agree i agree with you we are in agreement there i think you could also ask him if they don't mention anything work related i think i still might say like is there anything about the way we work together that you think that is fresh like anything that's bothering Yes, you anything you would like to be different any I could do to help you."
+  },
+  {
+    "start": 1886.54,
+    "end": 1899.89,
+    "speaker": "Guest",
+    "text": "And you might not get an honest answer here because work is so full of variables that influence the way we behave. It's actually really hard. I can't tell you how many times people have said things at work that I just know are not how they actually feel."
+  },
+  {
+    "start": 1900.14,
+    "end": 1915.106,
+    "speaker": "Host",
+    "text": "I told Dave before we recorded the show that I've just been really grumpy today and it's affected my work today. Hopefully I've not offended anybody or done anything horrible, but yeah, there's some life stuff going on. I bring it to work."
+  },
+  {
+    "start": 1915.256,
+    "end": 1923.456,
+    "speaker": "Guest",
+    "text": "yeah and if you're like me when you feel when you feel grumpy you try to mask it at work a little bit like you you want to minimize the amount that it impacts your day-to-day nice"
+  },
+  {
+    "start": 1923.456,
+    "end": 1939.156,
+    "speaker": "Host",
+    "text": "I actually use it to say no to things because usually I say yes to too many things. So I save it all up. And then it's like it's like an alt in a video game of like my powers are fully charged. No. And then I blast a big wave of energy out and I feel very guilty about it afterwards. It's"
+  },
+  {
+    "start": 1939.156,
+    "end": 1942.036,
+    "speaker": "Guest",
+    "text": "and then like the regular cool down. jameson comes back on monday and is like And it's like, oh, crap."
+  },
+  {
+    "start": 1942.036,
+    "end": 1948.586,
+    "speaker": "Host",
+    "text": "yeah that's my cooldown and then do you say like extra yeses during the cooldown period i don't know sometimes i probably do"
+  },
+  {
+    "start": 1950.286,
+    "end": 1964.836,
+    "speaker": "Host",
+    "text": "worry about keeping this comfort zone not really helping his career i'm also curious again you can't tell us but if there's any kind of experience level difference it almost sounds like this person might be a little more junior maybe not maybe just different skill sets but that impacts things if they are more junior"
+  },
+  {
+    "start": 1965.492,
+    "end": 1982.842,
+    "speaker": "Guest",
+    "text": "This could just be the pain of growth where they're seeing there's this thing I'm not good at and maybe I'll just struggle at it for a little while. Yeah. And when you're not good at something and your team is mandating that something be done that way that you're not good at, there's really two ways you can respond."
+  },
+  {
+    "start": 1982.892,
+    "end": 2001.5,
+    "speaker": "Guest",
+    "text": "Number one is you can try to become really good at that thing. They're deliberate. High effort practice. That's option one. Option two is you can find a way that you can get the same outcomes achieved through a different method and convince the team to approve that method. What I have found is that most teams, especially engineering teams, most managers,"
+  },
+  {
+    "start": 2001.65,
+    "end": 2014.8,
+    "speaker": "Guest",
+    "text": "they actually are not, I say most very carefully here because there are exceptions to this rule, but most of them are not that religiously married to a given technique or practice or tool or technology. Some are, don't get me wrong, and some are like"
+  },
+  {
+    "start": 2015.1,
+    "end": 2028.826,
+    "speaker": "Guest",
+    "text": "wildly, wildly coupled to these ideas, but most aren't, I think. And when I say most, I'm probably talking like more than half. so I don't even want to go as far as like 80% but more than half are not"
+  },
+  {
+    "start": 2029.364,
+    "end": 2056.564,
+    "speaker": "Guest",
+    "text": "irrationally tied to some approach like spec-driven development and so it is possible that you could say look if i can achieve the same goals for this team that you have through a different means than spectrum and development can i do that and you know the beauty of ai these days is you could probably even like retrofit your techniques into a spec-driven development artifact what i mean by that is maybe you have some other way of creating the software product that that you're responsible for creating"
+  },
+  {
+    "start": 2056.82,
+    "end": 2061.82,
+    "speaker": "Guest",
+    "text": "And in the end, you can output a spec that makes it look like you followed the exact process."
+  },
+  {
+    "start": 2061.82,
+    "end": 2071.77,
+    "speaker": "Host",
+    "text": "okay yeah this is like if your org mandates tdd and you hate it and so you don't do it and then you like rearrange all your commits after the feature is done to make it look like you wrote the test first"
+  },
+  {
+    "start": 2071.77,
+    "end": 2075.52,
+    "speaker": "Guest",
+    "text": "I swear Git rebase-i exists because of TDD."
+  },
+  {
+    "start": 2077.67,
+    "end": 2088.178,
+    "speaker": "Host",
+    "text": "yeah where your org mandates pair programming so you tape a smiley face to a life-size cutout of out of john cena and behind you that shows up in all your zoom calls or something yeah"
+  },
+  {
+    "start": 2088.728,
+    "end": 2089.678,
+    "speaker": "Guest",
+    "text": "my pair, my buddy."
+  },
+  {
+    "start": 2093.028,
+    "end": 2099.878,
+    "speaker": "Host",
+    "text": "i like that idea i this is maybe veering too"
+  },
+  {
+    "start": 2100.0,
+    "end": 2127.0,
+    "speaker": "Host",
+    "text": "much into not soft skills engineering but there are a lot of things you can do to nudge ai to help you help it ask you good questions too there's a bunch of like grill me ask me questions about this skill there's a bunch of planning skills and when i say skills i mean the actual like markdown files that get packaged up when you invoke in one of these coding agents so there might be some levers you can use as long as you can recognize if they're doing a good job"
+  },
+  {
+    "start": 2126.964,
+    "end": 2146.914,
+    "speaker": "Guest",
+    "text": "job i think even if you might do all of these things yourself they can still be helpful one other piece of feedback i have or one other suggestion i have i should say is this is tricky and maybe you don't want to do this but you could talk to your manager about it you could say hey i've been working a lot with this teammate and they just seem really sad about it"
+  },
+  {
+    "start": 2147.476,
+    "end": 2170.976,
+    "speaker": "Guest",
+    "text": "any anything you recommend i would do differently the risk here is that it either looks like or is an actual performance problem for your teammate and you're sort of like turning the eye of sauron on on him maybe you get him in trouble somehow in some way or or lead to some kind of consequences but if you either feel like it's worth it or like that probably won't happen based on what you know about your manager and your and your friend"
+  },
+  {
+    "start": 2171.668,
+    "end": 2178.218,
+    "speaker": "Guest",
+    "text": "Then you could involve them, too, because you bring up like I'm not sure if I'm helping his career by doing this for him."
+  },
+  {
+    "start": 2179.028,
+    "end": 2187.878,
+    "speaker": "Host",
+    "text": "that kind of like how should i mentor my friend thing could be useful with the right manager and the right relationship could be could be a good discussion to have with the right manager yeah"
+  },
+  {
+    "start": 2187.878,
+    "end": 2194.228,
+    "speaker": "Guest",
+    "text": "yeah and emphasis on with the right manager because it could also backfire if you don't if they're not really great yeah"
+  },
+  {
+    "start": 2194.228,
+    "end": 2204.578,
+    "speaker": "Host",
+    "text": "or if they're if they say you're doing what for them like you're explaining every single ticket in incredible detail it takes you how many hours like what yeah"
+  },
+  {
+    "start": 2204.578,
+    "end": 2215.664,
+    "speaker": "Guest",
+    "text": "and that that i think realistically that is not sustainable sustainable like having to do all of your work and also sit down and do all the planning for someone else's work oh I don't think that lasts"
+  },
+  {
+    "start": 2216.628,
+    "end": 2223.228,
+    "speaker": "Host",
+    "text": "And even if you're willing to do it for a long period of time, I think that they, it'll eventually have an effect on them that's not what you want."
+  },
+  {
+    "start": 2223.278,
+    "end": 2243.128,
+    "speaker": "Guest",
+    "text": "yeah i guess i didn't think i have to explain every ticket to him in detail or i end up explaining each ticket to him in detail is what the question says i guess that does sound pretty bad i think it's pretty normal for me to talk to folks on my team about tickets and if they're more junior it's more normal that i will explain in more detail or they'll more they'll have more questions but"
+  },
+  {
+    "start": 2243.38,
+    "end": 2261.33,
+    "speaker": "Host",
+    "text": "Every single ticket for the same person sounds like, well, what are they doing then? What have they done to try to understand it before I have to explain it to them? Well, thank you for asking your question. Hopefully we answered. Hopefully we did not say confusing or hard to interpret things for"
+  },
+  {
+    "start": 2261.33,
+    "end": 2262.88,
+    "speaker": "Guest",
+    "text": "I mean, we may have. Yes."
+  },
+  {
+    "start": 2263.58,
+    "end": 2267.934,
+    "speaker": "Host",
+    "text": "which we apologize in advance. Don't do the eyebrow thing. That was Dave's"
+  },
+  {
+    "start": 2267.934,
+    "end": 2270.184,
+    "speaker": "Guest",
+    "text": "Yeah, that uh yeah,"
+  },
+  {
+    "start": 2270.184,
+    "end": 2270.834,
+    "speaker": "Host",
+    "text": "To be clear."
+  },
+  {
+    "start": 2270.834,
+    "end": 2271.484,
+    "speaker": "Guest",
+    "text": "for sure."
+  },
+  {
+    "start": 2271.484,
+    "end": 2273.284,
+    "speaker": "Host",
+    "text": "What can people do if they want their own questions answered?"
+  },
+  {
+    "start": 2273.534,
+    "end": 2283.234,
+    "speaker": "Guest",
+    "text": "If you want your own question answered go to softskills.audio and click the ask a question button where you can fill out our form Thank you so much to everyone who does that every week. We very much appreciate it. We love it. You keep the show going"
+  },
+  {
+    "start": 2283.534,
+    "end": 2285.334,
+    "speaker": "Host",
+    "text": "Thank you, thank you. We will catch you next week."
+  }
+]

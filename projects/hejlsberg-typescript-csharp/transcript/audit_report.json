@@ -1,0 +1,1515 @@
+{
+  "summary": {
+    "OK": 237,
+    "FLIP": 5,
+    "UNSURE": 2
+  },
+  "suspicious": [
+    {
+      "idx": 16,
+      "current": "HOST",
+      "reason": "前半句是主持人提问，但后半句“我是在79年...”明显已切入嘉宾自述。",
+      "text": "那你是怎么从做游戏，走到真正做出自己人生中第一个编译器的？那个编译器又是什么？我是在 79 年从 Danish Technical University 开始的。",
+      "prev": "嗯，我的意思是，那时候系统就是简单到你做得到，对吧？这也是早期那些机器的魅力所在。8 位微型机是这样，甚至早期的 PC 之类的也差不多，对吧？后来我们只是随着时间不断往上加越来越多的层。现在我们的层可真不少，这点毫无疑问。确实如此。",
+      "next": "当时也是，正好赶上 8 位微型计算机开始出现、逐渐能买到了。"
+    },
+    {
+      "idx": 141,
+      "current": "HOST",
+      "reason": "“最后我们还有一个可选阶段”仍是同一套系统性讲解的延续，更像受访者继续分阶段介绍。",
+      "text": "最后我们还有一个可选阶段，叫 emitter。",
+      "prev": "它是我们整个流水线里最大的一部分。它负责从语义层面检查你的程序是不是正确。它会推导类型，检查类型之间的关系是否正确，检查你是不是把正确的东西赋给了正确的对象。然后还会检查你调用的东西是不是真的存在，诸如此类。",
+      "next": "通常来说，编译器里的 emitter 基础设施也会相当庞大，因为那是把中间表示转换成机器码或者字节码的地方。但在我们的场景里，你可以理解为我们只是把类型擦除掉。嗯，我们的编译器其实大致做两件事。早期主要就是 A，把类型擦掉；B，把你的代码降级处理。"
+    },
+    {
+      "idx": 203,
+      "current": "GUEST",
+      "reason": "“比现在有趣得多”像是顺着上一句自我续说并继续展开，更像主持人在补充自己的观点。",
+      "text": "比现在有趣得多。我的意思是，现在你看到的就是一串按字母顺序排列的 diff，然后就全靠你自己去看懂了。其实完全可以用更有教学性的方式来呈现。你还可以让 AI 生成讲解，告诉你改了什么之类的，然后一步步引导你。你明白我的意思吧？所以这种共生关系，",
+      "prev": "但我觉得我们也可以把审代码这个过程变得比现在有趣得多",
+      "next": "我觉得我们还得继续打磨，想办法把乐趣保留下来。但我认为，觉得 AI 会直接消灭程序员，这种想法很愚蠢。归根结底，那当然很好。你知道，vibe coding 在一切顺利的时候很棒。但只要它一跑偏，你就会发现自己根本不知道发生了什么，也没法说服 AI 把它修好。那你怎么办？"
+    },
+    {
+      "idx": 223,
+      "current": "GUEST",
+      "reason": "上一段末尾是“你用什么工具？”，这一段直接回答工具选择，应是主持人作答。",
+      "text": "哦，我用 VS Code。每天从早到晚都是 VS Code。VS Code 加 GitHub，一直都在用。",
+      "prev": "嗯，我算是老派 Windows 用户了。我现在还是……Windows 还是我的桌面系统。我用的是 Lenovo P1。你知道，我喜欢把所有东西都保持便携，所以我没有大屏幕之类的设备。我就是用这台，怎么说，15、16 英寸的笔记本，屏幕是不错的 OLED，键盘也很好。我基本上几乎所有代码都是在这上面写的。你用什么工具？",
+      "next": "那 AI 编程助手这块呢？基本就是 GitHub"
+    },
+    {
+      "idx": 236,
+      "current": "GUEST",
+      "reason": "前半段仍像嘉宾回答，但“最后一个收尾问题”应由主持人发问，当前整段更像主持人。",
+      "text": "开发者很重要。不是靠广告主来买单，而是开发者和企业在买单。这个我很喜欢，就是那种你感觉自己在做有创造性的工作，而且人们愿意为此付费，这很棒。最后一个收尾问题，你会推荐哪本书，为什么？我其实总是推荐同一本书，就是 Niklaus Wirth 的《Programs Plus Data Structures》",
+      "prev": "他们就是这么起家的。",
+      "next": "《= Algorithms》。这本书现在其实网上也能找到。它是七十年代写的，但对我来说，读到这本书真的是一种顿悟。我就是通过它学会了哈希表、怎么构造一个小型编译器之类的东西。真的特别精彩。它用的符号推导很少，但例子特别丰富。而我一直都是个工程师型的人。"
+    }
+  ],
+  "all": [
+    {
+      "idx": 0,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "开场介绍嘉宾和话题，明显是主持人口播。"
+    },
+    {
+      "idx": 1,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "继续节目导语和预告内容，符合主持人串场。"
+    },
+    {
+      "idx": 2,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "从节目预告转入赞助商介绍，是典型主持人口播广告。"
+    },
+    {
+      "idx": 3,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "延续赞助商广告论述，语气和结构都像主持人独白。"
+    },
+    {
+      "idx": 4,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "继续解释赞助商产品价值，仍是主持人广告段落。"
+    },
+    {
+      "idx": 5,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "广告收尾并转向欢迎嘉宾，符合主持人职责。"
+    },
+    {
+      "idx": 6,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "主持人欢迎嘉宾并提出第一个正式问题，标注合理。"
+    },
+    {
+      "idx": 7,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回答主持人关于如何进入编程领域的问题。"
+    },
+    {
+      "idx": 8,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续个人早期接触计算机的回忆，明显还是嘉宾在讲述。"
+    },
+    {
+      "idx": 9,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续补充同一段经历细节，没有说话人切换迹象。"
+    },
+    {
+      "idx": 10,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "提出新的追问，典型主持人接话方式。"
+    },
+    {
+      "idx": 11,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "开始回答关于最早编什么程序的问题，符合嘉宾。"
+    },
+    {
+      "idx": 12,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "承接上一段继续解释技术细节，仍是嘉宾长回答。"
+    },
+    {
+      "idx": 13,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续总结当时编程体验，语义连贯属于同一回答。"
+    },
+    {
+      "idx": 14,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是主持人的简短总结式插话和确认。"
+    },
+    {
+      "idx": 15,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "对主持人的确认作出回应并展开补充，符合嘉宾。"
+    },
+    {
+      "idx": 16,
+      "current": "HOST",
+      "verdict": "FLIP",
+      "reason": "前半句是主持人提问，但后半句“我是在79年...”明显已切入嘉宾自述。"
+    },
+    {
+      "idx": 17,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "承接第16段后半句继续讲自己的经历，作为嘉宾合理。"
+    },
+    {
+      "idx": 18,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是主持人对嘉宾叙述的简短确认式插话。"
+    },
+    {
+      "idx": 19,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续回答并展开个人经历，符合嘉宾长叙述节奏。"
+    },
+    {
+      "idx": 20,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续第一人称讲个人创业和早期经历，明显是在回答前文背景问题。"
+    },
+    {
+      "idx": 21,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续同一段个人叙述，从卖电脑自然过渡到自己开始编程。"
+    },
+    {
+      "idx": 22,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "承接上句朋友建议去看 Pascal，仍是同一人讲述经历。"
+    },
+    {
+      "idx": 23,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续解释早期 Pascal ROM 的实现和其与 Turbo Pascal 的关系，语气连贯。"
+    },
+    {
+      "idx": 24,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是典型主持人总结时间线并抛出新问题的提问方式。"
+    },
+    {
+      "idx": 25,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接纠正并补充主持人的时间线，属于受访者回答。"
+    },
+    {
+      "idx": 26,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续回答自己如何与 Borland 产生联系及首个版本发布时间。"
+    },
+    {
+      "idx": 27,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "简短追问命名来源，明显是主持人接话发问。"
+    },
+    {
+      "idx": 28,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接解释为什么叫 Turbo Pascal，是对上一问的自然回答。"
+    },
+    {
+      "idx": 29,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "主持人进一步追问成功因素，并引出 IDE 话题。"
+    },
+    {
+      "idx": 30,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "从整体体验角度回答成功原因，明显是受访者展开说明。"
+    },
+    {
+      "idx": 31,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续上一段对产品理念的完整阐述，没有换人迹象。"
+    },
+    {
+      "idx": 32,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是主持人基于前述回答做总结式复述并继续提问。"
+    },
+    {
+      "idx": 33,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回应关于 IDE/调试能力的问题，解释早期版本没有调试器。"
+    },
+    {
+      "idx": 34,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续技术细节说明，和上一段构成连续回答。"
+    },
+    {
+      "idx": 35,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "补充澄清当时并无完整调试器，仍是同一回答的收束。"
+    },
+    {
+      "idx": 36,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "主持人转向更宏观的问题，询问 Turbo Pascal 受欢迎的原因。"
+    },
+    {
+      "idx": 37,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接给出竞争优势的总结，是对上一问的明确回答。"
+    },
+    {
+      "idx": 38,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续展开价格、体验和盗版话题，并铺垫一个笑话。"
+    },
+    {
+      "idx": 39,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这是对上一段末尾笑话的重复整理版，虽有编辑痕迹但仍应是同一说话人。"
+    },
+    {
+      "idx": 40,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是承接前文并向对方发问的长问题，符合主持人推进话题的角色。"
+    },
+    {
+      "idx": 41,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回答上一段关于 Delphi 起源与演进的问题，明显是嘉宾展开说明。"
+    },
+    {
+      "idx": 42,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续上一段对产品竞争定位的分析，语气和内容都像同一位回答者继续作答。"
+    },
+    {
+      "idx": 43,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续讲述 Delphi 的市场背景和设计目标，和前后文衔接自然。"
+    },
+    {
+      "idx": 44,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "完成上一段未完的句子并作总结，显然仍是同一位嘉宾在回答。"
+    },
+    {
+      "idx": 45,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是主持人插入个人经历和感叹，起到回应与过渡作用，符合主持人口吻。"
+    },
+    {
+      "idx": 46,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "对主持人的感叹作补充评价，继续从技术角度解释 Delphi 的优势。"
+    },
+    {
+      "idx": 47,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "明确切换到 Microsoft 时期并提出新问题，是典型主持人提问。"
+    },
+    {
+      "idx": 48,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "开始回答关于 90 年代中期编程环境的问题，内容连贯。"
+    },
+    {
+      "idx": 49,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续上一段对 Java 兴起的描述，仍是同一回答脉络。"
+    },
+    {
+      "idx": 50,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续铺陈当时业界对 Java 的反应，并引出自己加入 Microsoft 的背景。"
+    },
+    {
+      "idx": 51,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "顺着上一段讲到自己参与 Visual J++ 的工作，明显是嘉宾自述经历。"
+    },
+    {
+      "idx": 52,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续解释 Visual J++ 6.0 的目标和技术产物，衔接自然。"
+    },
+    {
+      "idx": 53,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "主持人基于前述内容追问 J++ 如何进一步导向后续转折，符合提问节奏。"
+    },
+    {
+      "idx": 54,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回答 J++ 发展受阻的原因，内容是嘉宾视角的内部回顾。"
+    },
+    {
+      "idx": 55,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "承接上一段把结论说完，仍是同一回答的一部分。"
+    },
+    {
+      "idx": 56,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是主持人用半句过渡词引导对方继续展开，虽然很短但符合插话式主持节奏。"
+    },
+    {
+      "idx": 57,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "明显是在接主持人的引导继续分析当时 Microsoft 内部开发工具格局。"
+    },
+    {
+      "idx": 58,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续完成对两派工具优缺点的总结，并引向统一平台需求。"
+    },
+    {
+      "idx": 59,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是主持人总结前文并抛出关于 .NET 与 C# 先后关系的新问题。"
+    },
+    {
+      "idx": 60,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续前文对语言与运行时目标的长篇解释，明显是受访者在展开回答。"
+    },
+    {
+      "idx": 61,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "与上一段语义连贯，仍在补完同一句关于设计定位的说明。"
+    },
+    {
+      "idx": 62,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是典型主持人承接总结后抛出新问题的提问句。"
+    },
+    {
+      "idx": 63,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回应上一段关于设计目标的问题，符合受访者角色。"
+    },
+    {
+      "idx": 64,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续细化统一对象系统和反射等特性，明显是同一回答的延续。"
+    },
+    {
+      "idx": 65,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "仍在系统阐述当年的语言设计方向，没有主持人插话迹象。"
+    },
+    {
+      "idx": 66,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "收束上一段关于标准化与设计打包的说明，逻辑完整。"
+    },
+    {
+      "idx": 67,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "主持人以个人经历和评价作反馈，符合访谈中的承接节奏。"
+    },
+    {
+      "idx": 68,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "继续由主持人扩展问题背景并引导到工程实践层面。"
+    },
+    {
+      "idx": 69,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "与上一段同属一组连续提问，主持人身份合理。"
+    },
+    {
+      "idx": 70,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "开始具体回答团队组织和设计流程，明显是受访者在答问。"
+    },
+    {
+      "idx": 71,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续对语言设计共性与团队经验的说明，衔接自然。"
+    },
+    {
+      "idx": 72,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续展开关于IDE、框架和经验复用的回答，没有换人信号。"
+    },
+    {
+      "idx": 73,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "虽然出现‘你懂我意思吧？对，对’，但整体仍是受访者自述设计小组协作方式。"
+    },
+    {
+      "idx": 74,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "承接上一段继续讲讨论机制和设计方法，仍是同一长回答。"
+    },
+    {
+      "idx": 75,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "自然转入规范编写与编译器实现细节，符合受访者技术叙述。"
+    },
+    {
+      "idx": 76,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是主持人对Rosslyn做确认式追问的典型短问句。"
+    },
+    {
+      "idx": 77,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回答‘对’，并补充背景，符合受访者回应。"
+    },
+    {
+      "idx": 78,
+      "current": "HOST",
+      "verdict": "UNSURE",
+      "reason": "只有一个打断式口头禅，像主持人插话也像受访者自我续接，文本不足以判断。"
+    },
+    {
+      "idx": 79,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "内容明显是在继续解释早期IDE和语言服务情况，符合受访者展开说明。"
+    },
+    {
+      "idx": 80,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续技术细节讲述和自问式“对吧”口吻，明显是在回答前文。"
+    },
+    {
+      "idx": 81,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续解释 Roslyn 的来龙去脉，与上一段同一发言脉络连贯。"
+    },
+    {
+      "idx": 82,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "是对前面经验总结的收束句，接主持人转赞助也很自然。"
+    },
+    {
+      "idx": 83,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "从话题自然切到赞助商口播，典型主持人口吻。"
+    },
+    {
+      "idx": 84,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "持续展开赞助商案例介绍，明显是广告内容。"
+    },
+    {
+      "idx": 85,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "继续讲产品架构与客户收益，仍是完整口播段落。"
+    },
+    {
+      "idx": 86,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "延续赞助商背书与数据，符合主持人广告节奏。"
+    },
+    {
+      "idx": 87,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "仍在做赞助商总结和行动号召，标注合理。"
+    },
+    {
+      "idx": 88,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "从一个赞助商无缝切到另一个赞助商，也是主持人口播常见结构。"
+    },
+    {
+      "idx": 89,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "广告收尾后明确把话题拉回采访并提出问题，典型主持人职责。"
+    },
+    {
+      "idx": 90,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "继续追问并展开问题背景，是主持人连续提问。"
+    },
+    {
+      "idx": 91,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回应上一段关于内部反馈和 beta 测试的问题。"
+    },
+    {
+      "idx": 92,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续补充反馈来源和时间线，仍是回答的一部分。"
+    },
+    {
+      "idx": 93,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "承接上一句讲 beta 发布与用户反馈，虽然句尾被打断但仍属同一回答。"
+    },
+    {
+      "idx": 94,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "明显是主持人切换到新问题并做背景铺垫。"
+    },
+    {
+      "idx": 95,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "是上一段问题的续句，和 94 合起来构成完整提问。"
+    },
+    {
+      "idx": 96,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "开始系统回答 async/await 的设计背景，符合嘉宾长篇解释。"
+    },
+    {
+      "idx": 97,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续上一段对事件循环和状态机问题的展开说明。"
+    },
+    {
+      "idx": 98,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续解释状态机实现困难，逻辑上紧接前文。"
+    },
+    {
+      "idx": 99,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "对前面问题给出核心结论“而这就是 await”，是完整回答的高潮。"
+    },
+    {
+      "idx": 100,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续技术解释语气，明显是在展开前文观点。"
+    },
+    {
+      "idx": 101,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续总结 async/await 的设计思路，和上下文连贯。"
+    },
+    {
+      "idx": 102,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "仍在同一段长回答中，对比线程方案，符合嘉宾长篇解释。"
+    },
+    {
+      "idx": 103,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续分析 async/await 的代价与问题，没有主持人插话迹象。"
+    },
+    {
+      "idx": 104,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "承接 function coloring 的定义与影响，明显是同一人展开。"
+    },
+    {
+      "idx": 105,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续举 Go 的例子作比较，属于嘉宾补充说明。"
+    },
+    {
+      "idx": 106,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "以总结句收束上一话题，并为主持人转场留出空间。"
+    },
+    {
+      "idx": 107,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是明显的转场提问，从技术细节切到 JavaScript 历史。"
+    },
+    {
+      "idx": 108,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "是上一句提问的续句，保持主持人发问节奏。"
+    },
+    {
+      "idx": 109,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回应主持人的回顾性问题，进入长篇回答。"
+    },
+    {
+      "idx": 110,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续回答 JavaScript 崛起原因，叙述连贯。"
+    },
+    {
+      "idx": 111,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "短促感叹句像主持人的捧哏插话。"
+    },
+    {
+      "idx": 112,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "接着主持人的感叹继续讲内部视角和具体事件，符合嘉宾叙述。"
+    },
+    {
+      "idx": 113,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续解释 ScriptSharp 是什么，明显是同一回答延续。"
+    },
+    {
+      "idx": 114,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "从工具链问题过渡到“修好 JavaScript”的想法，逻辑顺畅。"
+    },
+    {
+      "idx": 115,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续举 CoffeeScript 等例子，仍是嘉宾展开背景。"
+    },
+    {
+      "idx": 116,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是对前一句的澄清性追问，典型主持人插问。"
+    },
+    {
+      "idx": 117,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "先回答“对”，再继续扩展评价 JavaScript，本段属于嘉宾。"
+    },
+    {
+      "idx": 118,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续论证类型系统与工具链的关系，是同一长回答的一部分。"
+    },
+    {
+      "idx": 119,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "顺势引出做 JavaScript 超集的想法，明显仍在回答中。"
+    },
+    {
+      "idx": 120,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这句像是在总结自己前面的观点并抛给对方确认，符合嘉宾长段阐述后的收束。"
+    },
+    {
+      "idx": 121,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "明显是主持人接话并扩展成提问背景，语气和信息组织都像采访者。"
+    },
+    {
+      "idx": 122,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回应上一段关于微软与开源关系的问题，内容是第一人称内部视角。"
+    },
+    {
+      "idx": 123,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续上一段继续解释为何必须开源，是同一说话人的连续展开。"
+    },
+    {
+      "idx": 124,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续讲内部推动和 CodePlex 的细节，叙述连贯且仍是当事人视角。"
+    },
+    {
+      "idx": 125,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "承接 CodePlex 话题讲迁移 GitHub 后的变化，明显还是同一人连续讲述。"
+    },
+    {
+      "idx": 126,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续解释开源与开放式开发的区别，逻辑上紧接上一段。"
+    },
+    {
+      "idx": 127,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这是对前面开放式开发话题的个人总结，仍然是嘉宾长回答的尾声。"
+    },
+    {
+      "idx": 128,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "主持人用时间跳转和数据引出新问题，典型采访推进方式。"
+    },
+    {
+      "idx": 129,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回答为何受欢迎的问题，并从排名变化切入，符合嘉宾回应。"
+    },
+    {
+      "idx": 130,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续回答受欢迎原因，补充 JSDoc 和工具支持，连贯自然。"
+    },
+    {
+      "idx": 131,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这是对上一段原因分析的总结判断，仍是同一回答链条。"
+    },
+    {
+      "idx": 132,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "主持人插入一个相关补充点并引向 VS Code，像是追问或提示。"
+    },
+    {
+      "idx": 133,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "嘉宾顺着 VS Code 话题展开，解释姊妹项目和 LSP 的关系。"
+    },
+    {
+      "idx": 134,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续补充 LSP 和早期集成历史，明显是同一人延续发言。"
+    },
+    {
+      "idx": 135,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这是对前面 VS Code 与开源影响的总结句，仍符合嘉宾收尾。"
+    },
+    {
+      "idx": 136,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "主持人明确切换到新主题并提出解释性问题，典型主导提问。"
+    },
+    {
+      "idx": 137,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接开始系统回答编译器流水线，符合嘉宾科普式长答。"
+    },
+    {
+      "idx": 138,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "承接 lexer/parser 继续讲 AST 和 binder，明显是连续说明。"
+    },
+    {
+      "idx": 139,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续介绍 binder、符号表和 type checker，仍是同一回答未结束。"
+    },
+    {
+      "idx": 140,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续前文对编译流水线的技术讲解，明显是受访者在展开说明。"
+    },
+    {
+      "idx": 141,
+      "current": "HOST",
+      "verdict": "FLIP",
+      "reason": "“最后我们还有一个可选阶段”仍是同一套系统性讲解的延续，更像受访者继续分阶段介绍。"
+    },
+    {
+      "idx": 142,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "紧接着解释 emitter 的作用，与上一段构成连续定义和展开。"
+    },
+    {
+      "idx": 143,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续补充 emitter 的降级转换功能，语气和内容都保持同一人长篇说明。"
+    },
+    {
+      "idx": 144,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "仍在总结 emitter 并转入编译器本体，明显是同一发言者的过渡。"
+    },
+    {
+      "idx": 145,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续解释 IDE 服务模式下的编译器设计，属于连续技术阐述。"
+    },
+    {
+      "idx": 146,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "承接上一段说明交互式场景中的具体挑战，逻辑连贯。"
+    },
+    {
+      "idx": 147,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续展开性能约束与延迟计算需求，仍是同一段长回答。"
+    },
+    {
+      "idx": 148,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "给出缓存 AST 的具体例子，明显是前述回答中的实例化说明。"
+    },
+    {
+      "idx": 149,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续总结惰性和可复用设计，和前文完全同一思路。"
+    },
+    {
+      "idx": 150,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这是对前面整段解释的收束句，仍像受访者总结。"
+    },
+    {
+      "idx": 151,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是典型主持人接话确认并提炼观点的回应式提问。"
+    },
+    {
+      "idx": 152,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回应主持人的判断，澄清底层引擎与交互式构建方式。"
+    },
+    {
+      "idx": 153,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "明显是主持人切换到新话题并提出开放式问题。"
+    },
+    {
+      "idx": 154,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回答关于语言特性的提问，先从标准流程角度作答。"
+    },
+    {
+      "idx": 155,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续回答并转入个人偏好，属于同一长回答的自然延伸。"
+    },
+    {
+      "idx": 156,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "具体举例说明希望加入的表达式能力，延续上一段观点。"
+    },
+    {
+      "idx": 157,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续展开 do expressions 的设想和动机，仍是同一回答。"
+    },
+    {
+      "idx": 158,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "从理想特性转回对 JavaScript 与类型检查器的总体评价，衔接自然。"
+    },
+    {
+      "idx": 159,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续总结渐进式类型的独特价值，明显还是受访者在完成回答。"
+    },
+    {
+      "idx": 160,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续技术解释口吻，明显是在展开同一段嘉宾论述。"
+    },
+    {
+      "idx": 161,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续补充上一段关于类型系统可证明性的细节，衔接自然。"
+    },
+    {
+      "idx": 162,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "仍在顺着前文举例论证，没有主持人提问或转场痕迹。"
+    },
+    {
+      "idx": 163,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "作为前面论证的总结句很合理，符合嘉宾长段输出节奏。"
+    },
+    {
+      "idx": 164,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "明显是主持人总结上一话题并转入 AI 新话题的过渡。"
+    },
+    {
+      "idx": 165,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "直接向对方发问，典型主持人提问句式。"
+    },
+    {
+      "idx": 166,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "正面回应主持人关于 AI 工具使用的问题。"
+    },
+    {
+      "idx": 167,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续具体说明团队如何使用 AI，属于同一回答。"
+    },
+    {
+      "idx": 168,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "仍在列举 AI 的实际用途，连贯延续嘉宾发言。"
+    },
+    {
+      "idx": 169,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "以总结和保留意见收束前述回答，符合嘉宾语气。"
+    },
+    {
+      "idx": 170,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是对嘉宾观点的承接性总结与确认，像主持人接话。"
+    },
+    {
+      "idx": 171,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "顺着主持人的评论展开新一层思考，仍是嘉宾主答。"
+    },
+    {
+      "idx": 172,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "是上一句关于非确定性的补充说明，明显同一说话人。"
+    },
+    {
+      "idx": 173,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续完成关于确定性必要性的论证，结构完整。"
+    },
+    {
+      "idx": 174,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "主持人用自己的观察接住嘉宾观点并扩展，符合对话节奏。"
+    },
+    {
+      "idx": 175,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "这是对主持人铺垫句的简短接梗式补全，像嘉宾插话回应。"
+    },
+    {
+      "idx": 176,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "主持人顺势确认并收回话语权，节奏上很自然。"
+    },
+    {
+      "idx": 177,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "明显是主持人提出下一道核心问题，开启新讨论。"
+    },
+    {
+      "idx": 178,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回答主持人的问题，并以轻松开场，符合嘉宾风格。"
+    },
+    {
+      "idx": 179,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续展开对 AI 与类型系统关系的回答，衔接紧密。"
+    },
+    {
+      "idx": 180,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续前文对类型与上下文的论述，像是同一位嘉宾在展开观点。"
+    },
+    {
+      "idx": 181,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续补充 DRY、类型推断与 AI 效率，明显是上一段同一发言者的延续。"
+    },
+    {
+      "idx": 182,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "话题从嘉宾观点切到主持人引入新统计和新议题，符合主持人转场方式。"
+    },
+    {
+      "idx": 183,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是明确向对方抛出的提问，典型主持人发问。"
+    },
+    {
+      "idx": 184,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回应主持人的问题并展开宏观类比，符合嘉宾回答节奏。"
+    },
+    {
+      "idx": 185,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续回答哪些语言特性更重要，并自问自答解释“局部性”，像嘉宾长段输出。"
+    },
+    {
+      "idx": 186,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "承接上一句对 include 和作用域的抱怨，明显是同一人继续展开。"
+    },
+    {
+      "idx": 187,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "以“你明白我的意思吧”收束前面论点，仍是嘉宾总结。"
+    },
+    {
+      "idx": 188,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "主持人接过“局部性/全局变量”话题，加入个人经历作为呼应，很自然。"
+    },
+    {
+      "idx": 189,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "延续上一段个人经历并回扣嘉宾的状态问题，仍是主持人补充。"
+    },
+    {
+      "idx": 190,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "以“没错”回应主持人并举 JavaScript 例子，典型嘉宾接话。"
+    },
+    {
+      "idx": 191,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "对上一段观点做简短总结，仍像嘉宾收尾。"
+    },
+    {
+      "idx": 192,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续扩展到语言服务与搜索方式，属于同一回答链条。"
+    },
+    {
+      "idx": 193,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "承接 grep/语义搜索的对比继续论证，没有换人迹象。"
+    },
+    {
+      "idx": 194,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续补充 AI 与命令行工具的适配问题，仍是嘉宾发言。"
+    },
+    {
+      "idx": 195,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "主持人插入新的追问“性能会不会也很关键”，明显是发问转场。"
+    },
+    {
+      "idx": 196,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回应主持人的性能/LSP问题并提出方案，符合嘉宾回答。"
+    },
+    {
+      "idx": 197,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "补完上一段未说完的句子并总结语义校验的重要性，仍是同一人。"
+    },
+    {
+      "idx": 198,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "主持人再次抛出更宏观的新问题，典型长提问开场。"
+    },
+    {
+      "idx": 199,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是上一段长问题被切开的后半句，仍应属于主持人。"
+    },
+    {
+      "idx": 200,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续前文展开观点、用长段论述总结职业角色变化，像嘉宾持续作答。"
+    },
+    {
+      "idx": 201,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续补充个人感受与偏好，明显还是同一位回答者在展开。"
+    },
+    {
+      "idx": 202,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是对嘉宾观点的插话式回应和推进，符合主持人接话节奏。"
+    },
+    {
+      "idx": 203,
+      "current": "GUEST",
+      "verdict": "FLIP",
+      "reason": "“比现在有趣得多”像是顺着上一句自我续说并继续展开，更像主持人在补充自己的观点。"
+    },
+    {
+      "idx": 204,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "从“我觉得我们还得继续打磨”到后面对 AI 与程序员关系的长篇论证，像嘉宾主导回答。"
+    },
+    {
+      "idx": 205,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续承接上一段论证责任归属，语气和内容都像同一位说话人连续输出。"
+    },
+    {
+      "idx": 206,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "仍在总结 AI 作为工具的立场，和前两段形成完整回答链条。"
+    },
+    {
+      "idx": 207,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "明显是主持人抛出的新问题，转向嘉宾的语言设计经验。"
+    },
+    {
+      "idx": 208,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回答主持人的提问，内容是嘉宾对开发者关切的总结。"
+    },
+    {
+      "idx": 209,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续扩展上一段关于体验与工具情感连接的回答。"
+    },
+    {
+      "idx": 210,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "收束前面关于语言与工作流体验的论述，仍是嘉宾回答。"
+    },
+    {
+      "idx": 211,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这是主持人对嘉宾观点的归纳式确认，典型接话方式。"
+    },
+    {
+      "idx": 212,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "简短肯定回应主持人的总结，符合嘉宾答话。"
+    },
+    {
+      "idx": 213,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "主持人顺势扩展到 IDE 与 agent 界面的新问题，明显在设问。"
+    },
+    {
+      "idx": 214,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "是上一段问题的续句，仍然是主持人在完整铺陈提问。"
+    },
+    {
+      "idx": 215,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回应主持人关于未来界面的提问，并给出自己的判断。"
+    },
+    {
+      "idx": 216,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "主持人再次切换到性能效率话题，明显是新一轮提问开场。"
+    },
+    {
+      "idx": 217,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "延续上一段把问题补充完整，仍是主持人的长提问。"
+    },
+    {
+      "idx": 218,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "开始回答性能是否重要的问题，并举出具体场景，符合嘉宾作答。"
+    },
+    {
+      "idx": 219,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续补充性能重要与不重要的不同场景，明显是同一回答的延续。"
+    },
+    {
+      "idx": 220,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "延续前文观点做总结性回应，像嘉宾在回答问题。"
+    },
+    {
+      "idx": 221,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "先接住对方观点再抛出新问题，明显是主持人推进话题。"
+    },
+    {
+      "idx": 222,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "完整回答个人开发环境，并在末尾反问对方，符合嘉宾展开叙述。"
+    },
+    {
+      "idx": 223,
+      "current": "GUEST",
+      "verdict": "FLIP",
+      "reason": "上一段末尾是“你用什么工具？”，这一段直接回答工具选择，应是主持人作答。"
+    },
+    {
+      "idx": 224,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "承接工具话题继续追问 AI 助手使用情况，像主持人提问。"
+    },
+    {
+      "idx": 225,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "回应 AI 编程助手问题并展开个人判断，符合嘉宾回答。"
+    },
+    {
+      "idx": 226,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "与上一段语义连成一句，显然还是同一说话人继续补充。"
+    },
+    {
+      "idx": 227,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "接住嘉宾未说完的句子并总结提升，像主持人顺势概括。"
+    },
+    {
+      "idx": 228,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "用自身项目经验印证主持人的总结，符合嘉宾回应。"
+    },
+    {
+      "idx": 229,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "明显转入人物经历采访并提出长问题，是主持人职责。"
+    },
+    {
+      "idx": 230,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "直接回答为何长期从事该领域，符合嘉宾自述。"
+    },
+    {
+      "idx": 231,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续上一段的长篇回答，没有换人迹象。"
+    },
+    {
+      "idx": 232,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "举 TypeScript 和 C# 例子继续论证，仍是同一回答链条。"
+    },
+    {
+      "idx": 233,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "继续解释留在 Microsoft 的原因，语气和内容都连贯。"
+    },
+    {
+      "idx": 234,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "补充对 Microsoft 公司文化的看法，仍属嘉宾延展。"
+    },
+    {
+      "idx": 235,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "简短附和“他们就是这么起家的”很像主持人的插话认同。"
+    },
+    {
+      "idx": 236,
+      "current": "GUEST",
+      "verdict": "FLIP",
+      "reason": "前半段仍像嘉宾回答，但“最后一个收尾问题”应由主持人发问，当前整段更像主持人。"
+    },
+    {
+      "idx": 237,
+      "current": "GUEST",
+      "verdict": "OK",
+      "reason": "紧接着书名继续解释推荐理由，明显是嘉宾回答收尾问题。"
+    },
+    {
+      "idx": 238,
+      "current": "GUEST",
+      "verdict": "UNSURE",
+      "reason": "前半段像嘉宾继续回答，但后半段混入双方简短附和，单段内说话人混杂难判。"
+    },
+    {
+      "idx": 239,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "先正式致谢再进入节目总结和复盘，典型主持人收尾。"
+    },
+    {
+      "idx": 240,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "这段是在总结访谈内容并提炼观点，语气像主持人在收尾串联。"
+    },
+    {
+      "idx": 241,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "延续上一段的总结与评论，没有问答关系，更像主持人的结语。"
+    },
+    {
+      "idx": 242,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "继续概括嘉宾观点并上升到普遍启发，符合主持人结束前的总结口吻。"
+    },
+    {
+      "idx": 243,
+      "current": "HOST",
+      "verdict": "OK",
+      "reason": "明显是节目结束时的订阅引导和告别语，典型主持人发言。"
+    }
+  ]
+}

@@ -1,0 +1,1622 @@
+[
+  {
+    "start": 6.804,
+    "end": 17.004,
+    "speaker": "Host",
+    "text": "It takes takes more more than... than oh my gosh i just started talking all right you do it do the thing that you're supposed to do and i won't do the thing i'm not supposed to do"
+  },
+  {
+    "start": 17.004,
+    "end": 18.004,
+    "speaker": "Guest",
+    "text": "Oh, that sounds like a plan."
+  },
+  {
+    "start": 19.254,
+    "end": 32.504,
+    "speaker": "Host",
+    "text": "all right here we go It takes more than joining an empty Zoom room to keep your computer from going to sleep while your Claude session runs overnight to be a great engineer. This is Soft Skills Engineering episode 515. I'm your host, Dave Smith."
+  },
+  {
+    "start": 33.172,
+    "end": 34.872,
+    "speaker": "Guest",
+    "text": "I'm your host, Jameson Dance."
+  },
+  {
+    "start": 35.072,
+    "end": 45.122,
+    "speaker": "Host",
+    "text": "Soft Skills Engineering is a weekly advice podcast for software developers about all the wrong stuff. I was about to say all the wrong stuff. All the non-technical stuff that goes into... Actually, it is a lot of wrong stuff."
+  },
+  {
+    "start": 47.322,
+    "end": 51.822,
+    "speaker": "Guest",
+    "text": "Okay, about all the non-technical stuff that go into the technical field of software development."
+  },
+  {
+    "start": 52.572,
+    "end": 53.622,
+    "speaker": "Host",
+    "text": "All the bad stuff."
+  },
+  {
+    "start": 53.622,
+    "end": 56.072,
+    "speaker": "Guest",
+    "text": "Yes. Come here for wrong answers."
+  },
+  {
+    "start": 56.884,
+    "end": 57.284,
+    "speaker": "Host",
+    "text": "We should rename"
+  },
+  {
+    "start": 57.284,
+    "end": 57.484,
+    "speaker": "Guest",
+    "text": "I"
+  },
+  {
+    "start": 57.484,
+    "end": 58.934,
+    "speaker": "Host",
+    "text": "our podcast Wrong Answers Only."
+  },
+  {
+    "start": 59.484,
+    "end": 86.062,
+    "speaker": "Guest",
+    "text": "feel like I've seen this spate of weird, horrible solutions for this problem. i've many years ago there were a bunch of apps that did this already before running agents on your computer became a thing like mac os had caffeine and i'm sure there's its version for every other operating system i've seen people build these usb monstrosities that they like you can just not do that yeah"
+  },
+  {
+    "start": 86.062,
+    "end": 88.612,
+    "speaker": "Host",
+    "text": "Yeah, but Claude built it for them, so they feel really cool."
+  },
+  {
+    "start": 88.612,
+    "end": 98.112,
+    "speaker": "Guest",
+    "text": "i guess this is yeah this is pretty meta like you can why use a thing someone else built built well when you could build a very crappy expensive version of it yourself yeah"
+  },
+  {
+    "start": 98.112,
+    "end": 99.612,
+    "speaker": "Host",
+    "text": "And I'll feel like a boss."
+  },
+  {
+    "start": 100.712,
+    "end": 107.462,
+    "speaker": "Guest",
+    "text": "yeah dave should i thank our patrons let's do it all right oh my window is borked uh"
+  },
+  {
+    "start": 107.462,
+    "end": 112.412,
+    "speaker": "Host",
+    "text": "I'm just pre-laughing at the patron names. You haven't even started reading them and I'm already laughing."
+  },
+  {
+    "start": 115.156,
+    "end": 122.956,
+    "speaker": "Guest",
+    "text": "Thank you to the folks that contribute so much that we shout them out or increasingly bizarre phrases that they write for us every single week."
+  },
+  {
+    "start": 123.356,
+    "end": 151.632,
+    "speaker": "Host",
+    "text": "These are their names on Patreon in case it's not obvious. A human has changed their name to each thing that we say. Thank you too. Will Angel find my pants? 4T2 is the best school. Will Angel Bob Ranger Rob Danger Jameson? Error. Your Will Angel name variant must contain at least one uppercase letter, one number, and one special character. Soft skillet. Happy birthday from episode 400."
+  },
+  {
+    "start": 152.948,
+    "end": 162.298,
+    "speaker": "Host",
+    "text": "Bennett will angel patch The phrase stochastic parrot is funny because real parrots spend most of their time destroying everything"
+  },
+  {
+    "start": 165.848,
+    "end": 189.866,
+    "speaker": "Host",
+    "text": "My actual name on LinkedIn is yammy debugging the dark canny the mobile development ordinary first of his name First or sorry name his of first ordinary development mobile the canny dark the in debugging yammy Semi-colon Jacob Shandling. Bill Engel. I'm the intern on this podcast who got lost in the last re-org. Who should I contact for a new reassignment?"
+  },
+  {
+    "start": 191.216,
+    "end": 192.666,
+    "speaker": "Guest",
+    "text": "Dave. 100% Dave."
+  },
+  {
+    "start": 193.316,
+    "end": 210.25,
+    "speaker": "Host",
+    "text": "Will Angel probably uses flytrue.io for project execution. An enthusiastic slice of bread, Nick Molyneux, embedded engineers treat assembly the same way Typescript engineers treat JavaScript, Javier Gonzalez chewy meow mix angel drone deploy salt salted fries single open parentheses"
+  },
+  {
+    "start": 210.25,
+    "end": 214.85,
+    "speaker": "Guest",
+    "text": "It's like so many inside jokes in one name. Really good."
+  },
+  {
+    "start": 214.85,
+    "end": 236.45,
+    "speaker": "Host",
+    "text": "woe unto you if this is your first listen i'm i will get to questions but yeah there's lore in here ted timbrel i've tried every tts service on the market this is the slowest one this is the most expensive one this is my favorite one a single opening parentheses dan from drone deploy never is not just a crater on mars flamingo emoji i like chicken i like liver mount smacks please deliver"
+  },
+  {
+    "start": 236.5,
+    "end": 242.35,
+    "speaker": "Host",
+    "text": "liver i can see dodds nice kyle boss can't see dodds slowing"
+  },
+  {
+    "start": 242.35,
+    "end": 242.95,
+    "speaker": "Guest",
+    "text": "Can't or can't"
+  },
+  {
+    "start": 242.95,
+    "end": 243.15,
+    "speaker": "Host",
+    "text": "down"
+  },
+  {
+    "start": 243.15,
+    "end": 243.65,
+    "speaker": "Guest",
+    "text": "see dots?"
+  },
+  {
+    "start": 243.65,
+    "end": 244.85,
+    "speaker": "Host",
+    "text": "this is kent"
+  },
+  {
+    "start": 244.85,
+    "end": 249.55,
+    "speaker": "Guest",
+    "text": "I know, but it's like can't versus can. I love it. I can't see dots."
+  },
+  {
+    "start": 249.55,
+    "end": 263.45,
+    "speaker": "Host",
+    "text": "got it i got it slowing down jenny kim the stochastic parrot ira chan jonathan king's and i beautiful functional user documentation ask your doctor whether this patron name is right for you vote dot"
+  },
+  {
+    "start": 263.732,
+    "end": 288.182,
+    "speaker": "Guest",
+    "text": "williameangel.net was temporarily down due to railway getting gcp'd but crabs are now back alongside the regular blog ragnar brayden canes john grant britney alec will angel won't go to slash new conference may 27 28th in newcastle australia but will you closed parentheses followed by a literal closed parentheses closed parentheses and then an actual closing parentheses man the"
+  },
+  {
+    "start": 288.182,
+    "end": 288.682,
+    "speaker": "Host",
+    "text": "That's great."
+  },
+  {
+    "start": 288.682,
+    "end": 293.906,
+    "speaker": "Guest",
+    "text": "things that I love seeing how weird stuff gets."
+  },
+  {
+    "start": 294.106,
+    "end": 300.256,
+    "speaker": "Host",
+    "text": "It's You know, every time we read these aloud, I think to myself, the listeners do not know how these things are really written."
+  },
+  {
+    "start": 300.556,
+    "end": 321.33,
+    "speaker": "Guest",
+    "text": "And it occurred to me that we've gone to so much length to allow people to write into computers so that other people can understand what they're saying. But we've done very little in the way of markup. to make text readable out loud in the spoken word so that people can reconstruct what was written on the computer."
+  },
+  {
+    "start": 321.53,
+    "end": 328.63,
+    "speaker": "Host",
+    "text": "oh yeah okay i mean we have like phonetic all these funky symbols you see if you go to a dictionary but that doesn't tell you like"
+  },
+  {
+    "start": 328.63,
+    "end": 329.18,
+    "speaker": "Guest",
+    "text": "That's the opposite."
+  },
+  {
+    "start": 329.18,
+    "end": 329.48,
+    "speaker": "Host",
+    "text": "how you have to"
+  },
+  {
+    "start": 329.48,
+    "end": 329.53,
+    "speaker": "Guest",
+    "text": "That's"
+  },
+  {
+    "start": 329.53,
+    "end": 329.73,
+    "speaker": "Host",
+    "text": "say"
+  },
+  {
+    "start": 329.73,
+    "end": 329.93,
+    "speaker": "Guest",
+    "text": "the opposite"
+  },
+  {
+    "start": 329.93,
+    "end": 330.08,
+    "speaker": "Host",
+    "text": "it"
+  },
+  {
+    "start": 330.08,
+    "end": 332.38,
+    "speaker": "Guest",
+    "text": "direction, right? Like that's how something"
+  },
+  {
+    "start": 332.38,
+    "end": 332.68,
+    "speaker": "Host",
+    "text": "someone"
+  },
+  {
+    "start": 332.68,
+    "end": 332.78,
+    "speaker": "Guest",
+    "text": "sounds."
+  },
+  {
+    "start": 332.78,
+    "end": 335.18,
+    "speaker": "Host",
+    "text": "said it how do you get the exact characters back"
+  },
+  {
+    "start": 335.53,
+    "end": 341.23,
+    "speaker": "Guest",
+    "text": "Exactly. And I got to tell you, there's a lot of stuff in here that I think most people would not be able to recreate the characters."
+  },
+  {
+    "start": 341.556,
+    "end": 346.556,
+    "speaker": "Host",
+    "text": "This sounds like an exciting research problem that would make you $0 to solve."
+  },
+  {
+    "start": 346.906,
+    "end": 351.856,
+    "speaker": "Guest",
+    "text": "Yes. That's why I do most things is to avoid making money. Like this podcast."
+  },
+  {
+    "start": 352.706,
+    "end": 370.842,
+    "speaker": "Host",
+    "text": "Well, if you want to join this group and contribute to Dave's black hole of research, then go to softskills.audio, click support us on Patreon, any amount will get you an invite to our Slack team. Enough of an amount will allow you to use this very slow, expensive text-to-speech service. And you get our eternal gratitude as well."
+  },
+  {
+    "start": 370.842,
+    "end": 374.792,
+    "speaker": "Guest",
+    "text": "Also, I can't promise any actual research, but I will definitely think about it."
+  },
+  {
+    "start": 374.992,
+    "end": 378.542,
+    "speaker": "Host",
+    "text": "Yeah. Well, I mean, you have thought about it already, so that promise is fulfilled."
+  },
+  {
+    "start": 378.542,
+    "end": 381.592,
+    "speaker": "Guest",
+    "text": "Yeah, and I'll think about it some more. That's my promise to you for the future."
+  },
+  {
+    "start": 381.592,
+    "end": 385.492,
+    "speaker": "Host",
+    "text": "Oh, okay. The bar is high. Dave, will you read our first question?"
+  },
+  {
+    "start": 385.492,
+    "end": 397.84,
+    "speaker": "Guest",
+    "text": "Yeah, this comes from Sam who says, hi, from a longtime listener and first time caller. I need some advice on a toxic workplace situation. Well, you've come to the right place, Sam. We know all about how to make a toxic workplace."
+  },
+  {
+    "start": 399.74,
+    "end": 403.29,
+    "speaker": "Host",
+    "text": "Oh, we're going to find out if that's what Sam actually wants is how to make experts."
+  },
+  {
+    "start": 403.29,
+    "end": 415.69,
+    "speaker": "Guest",
+    "text": "in workplace toxicity it's like if you call an exterminator and they're like yeah i'm an expert in rats and you think i hope it means they're an expert at exterminating rats not like the rat king"
+  },
+  {
+    "start": 420.34,
+    "end": 432.268,
+    "speaker": "Host",
+    "text": "I swear I saw a script, a sketch comedy show recently where. Oh, I can't remember. Someone was deliberately misunderstanding what pest control was. And they were like, you can get me more pests, right? Anyway, oh, I got to dig."
+  },
+  {
+    "start": 432.318,
+    "end": 448.816,
+    "speaker": "Guest",
+    "text": "I'm going to have to dig that one up. That's us with toxicity. Okay, here we go. Sam continues to say, I'm currently unhappy with my job due to a difficult dynamic with a colleague. My manager put us on the same team. Meaning we share responsibility for our output. Although this colleague is technically a level below me,"
+  },
+  {
+    "start": 448.916,
+    "end": 463.916,
+    "speaker": "Guest",
+    "text": "they act as though they have seniority. This creates significant friction. They're resistant to advice, insist they're always right, and refuse to accept reality even when they can't deliver what's required. They're incredibly stubborn,"
+  },
+  {
+    "start": 464.016,
+    "end": 475.234,
+    "speaker": "Guest",
+    "text": "and arguing with them about what's feasible takes an excessive amount of effort. The situation is particularly frustrating because I'm held accountable for... to bolt for the shared results. If I weren't responsible for the final outcome,"
+  },
+  {
+    "start": 475.284,
+    "end": 488.234,
+    "speaker": "Guest",
+    "text": "I could probably just ignore their behavior. Instead, they frequently talk a big game while contributing very little actual work. People unfamiliar with our domain are easily misled by their confidence, even though they are incompetent."
+  },
+  {
+    "start": 490.334,
+    "end": 502.732,
+    "speaker": "Guest",
+    "text": "Consequently, I'm forced to clean up their mess, otherwise I'd be the one bearing the blame for the failure. I tried discussing this with my manager, but unfortunately Unfortunately, it made me look bad rather than resolving the issue."
+  },
+  {
+    "start": 503.132,
+    "end": 515.736,
+    "speaker": "Guest",
+    "text": "If I were the manager, I would fire this person immediately. But my manager is clearly one of those people who gets fooled by their smooth talk. I'm very close to handing in my notice, and let the manager know how incompetent this person is,"
+  },
+  {
+    "start": 516.186,
+    "end": 541.238,
+    "speaker": "Guest",
+    "text": "but I'm furious that I feel I have to give up a role I enjoy just because of someone who makes my life miserable. My question is, should I stick it out and try to navigate this politics heavy environment, or is walking away the only option left? How do I leave without burning bridges or letting them win? Wow, there's a lot of feelings in this. In this write-up, in this question."
+  },
+  {
+    "start": 541.238,
+    "end": 545.988,
+    "speaker": "Host",
+    "text": "Yeah, there's a lot of pain transmitted over text here."
+  },
+  {
+    "start": 546.238,
+    "end": 561.988,
+    "speaker": "Guest",
+    "text": "Yeah, that did come through. See? See how good the writing system is at transmitting? I got it. I mean, loud and clear. Oh, so much pain here. Also, some possible incorrect viewing of reality? Maybe? We're going to look at that? Maybe?"
+  },
+  {
+    "start": 562.964,
+    "end": 569.964,
+    "speaker": "Host",
+    "text": "Yeah, maybe we'll look at it. They're a stubborn. Yeah, there's there's so much here. You are not their boss, right? You're not"
+  },
+  {
+    "start": 569.964,
+    "end": 570.014,
+    "speaker": "Guest",
+    "text": "Yep."
+  },
+  {
+    "start": 570.014,
+    "end": 584.864,
+    "speaker": "Host",
+    "text": "in charge of them. You are level above them. But that doesn't mean that they must defer to you in all things or do what you say. There's some expectation that there is a bit of deference when there's disagreement, but not always."
+  },
+  {
+    "start": 584.964,
+    "end": 600.394,
+    "speaker": "Guest",
+    "text": "And I feel like generally both people are reasonable and it kind of works out and it sounds like it doesn't. seem reasonable in this situation oh man yeah i tried discussing this with my manager unfortunately made me look bad i'm so curious how that conversation went"
+  },
+  {
+    "start": 600.744,
+    "end": 603.044,
+    "speaker": "Host",
+    "text": "Yeah. This, by the way, this kind of conversation."
+  },
+  {
+    "start": 603.86,
+    "end": 608.86,
+    "speaker": "Guest",
+    "text": "I would say by default goes wrong, especially if the outcome you're hoping for is this person gets fired."
+  },
+  {
+    "start": 608.86,
+    "end": 609.16,
+    "speaker": "Host",
+    "text": "Yep, exactly."
+  },
+  {
+    "start": 609.16,
+    "end": 610.96,
+    "speaker": "Guest",
+    "text": "Like that'll that'll just never ever happen."
+  },
+  {
+    "start": 610.96,
+    "end": 622.91,
+    "speaker": "Host",
+    "text": "And that is what's going on here. If I were the manager, I would fire this person immediately is what we just read. And that is a default fail conversation. If you're trying to go in and have a manager fire someone,"
+  },
+  {
+    "start": 623.06,
+    "end": 625.16,
+    "speaker": "Guest",
+    "text": "it must be very carefully navigated."
+  },
+  {
+    "start": 625.16,
+    "end": 632.76,
+    "speaker": "Host",
+    "text": "Yeah, unless they're unless they're going to show up in the news and or your company really doesn't want them to show up."
+  },
+  {
+    "start": 632.596,
+    "end": 632.596,
+    "speaker": "Guest",
+    "text": "Mm"
+  },
+  {
+    "start": 632.596,
+    "end": 632.696,
+    "speaker": "Host",
+    "text": "open -hmm."
+  },
+  {
+    "start": 632.696,
+    "end": 656.046,
+    "speaker": "Guest",
+    "text": "the news then it's probably yeah if it's conflict between you two i want this person that i have a lot of conflict with to get fired is we talked about this last time i think the easiest way for the manager to make this problem go away is to do nothing if they fire this person it's a big problem for the manager now and they have a bunch of other work to do yeah yeah"
+  },
+  {
+    "start": 657.332,
+    "end": 674.632,
+    "speaker": "Guest",
+    "text": "frequently talk a big game while contributing very little actual work i also wonder if maybe the the dynamic i'm picking up is the question asker feels like they're certainly much stronger technically maybe less good at talking a big game or communicating for good and for ill yeah"
+  },
+  {
+    "start": 674.632,
+    "end": 676.682,
+    "speaker": "Host",
+    "text": "Maybe self-promotion isn't a strong suit here."
+  },
+  {
+    "start": 677.132,
+    "end": 681.89,
+    "speaker": "Guest",
+    "text": "and the other person is maybe maybe put all their points in charisma but"
+  },
+  {
+    "start": 681.89,
+    "end": 685.59,
+    "speaker": "Host",
+    "text": "yeah the tech tree is uh loaded"
+  },
+  {
+    "start": 685.59,
+    "end": 686.19,
+    "speaker": "Guest",
+    "text": "it is that"
+  },
+  {
+    "start": 686.19,
+    "end": 686.54,
+    "speaker": "Host",
+    "text": "up oh"
+  },
+  {
+    "start": 686.54,
+    "end": 689.49,
+    "speaker": "Guest",
+    "text": "is a valuable skill to have so i"
+  },
+  {
+    "start": 689.89,
+    "end": 699.69,
+    "speaker": "Host",
+    "text": "feel like i've seen this dynamic play out a lot of like oh that person just just talks purdy turns out at a big enough org talking purdy does a lot of things hmm"
+  },
+  {
+    "start": 699.69,
+    "end": 725.73,
+    "speaker": "Guest",
+    "text": "yeah 100 so I would be very frustrated with this situation as well, and I would probably be my default inclination would be to go find a new job. And that's because I'm a coward and unwilling to confront bad actors in the workplace. But if I really wanted to fix this situation and hereby fix this person wants this other person to be fired, right? Stated clearly and explicitly."
+  },
+  {
+    "start": 726.9,
+    "end": 743.05,
+    "speaker": "Guest",
+    "text": "If I really wanted to fix that, I would probably start documenting the contributions. And I would do that for two reasons. Document the contributions so that, number one, of course, like the obvious reason is you want to take this to your manager and you want to have clear evidence of underperformance."
+  },
+  {
+    "start": 743.6,
+    "end": 765.11,
+    "speaker": "Guest",
+    "text": "But there's actually an even more important reason, I think, and that is to convince yourself that you are actually correct in your assessment. Sometimes we see what we want to see and our mind has a way of filtering out stuff we don't want to see. And it's very possible that this question asker has formed a story about the coworker."
+  },
+  {
+    "start": 765.684,
+    "end": 787.584,
+    "speaker": "Guest",
+    "text": "that says, you know, they are horrible, they are bad, they are hurting me. And what happens in that situation is your mind, your brain has a way of now focusing only on the things that reinforce that story about the co-worker. And I see a lot of emotion in this question, which is why I'm advising this exercise. Write it down and don't just write down, here's all the bad things this person did,"
+  },
+  {
+    "start": 787.634,
+    "end": 794.334,
+    "speaker": "Guest",
+    "text": "but try to understand numerically the magnitude of their contribution. And maybe there's some contributions you don't quite quantify."
+  },
+  {
+    "start": 794.676,
+    "end": 816.326,
+    "speaker": "Guest",
+    "text": "you know think try to expand your notion your definition of what a contribution is maybe it's things like helps the team gel maybe it's things like oh always talks to that one product manager that no other engineer can talk to things like that and try to write all that down and then give that a few weeks to accumulate and then take a good honest look at it and ask yourself am I actually right"
+  },
+  {
+    "start": 816.884,
+    "end": 837.184,
+    "speaker": "Guest",
+    "text": "Is my conclusion correct about this person? I think it's pretty natural, especially if you're frustrated with someone to feel like you are actually doing more valuable work. I think most people, if they have a coworker, they really don't get along with part of what their brain will do to protect them is say, and you're like, you're better at job than this person."
+  },
+  {
+    "start": 837.234,
+    "end": 850.818,
+    "speaker": "Guest",
+    "text": "You're more important to the company than this person. It might not always be true, but it is natural to feel this way. I think. what i'm hearing like i'm i'm cleaning up their mess i i don't want to bear the blame for their failure and"
+  },
+  {
+    "start": 851.418,
+    "end": 867.568,
+    "speaker": "Guest",
+    "text": "so you feel like if you left the failure would be exposed you're kind of carrying this silent burden i think there are two things you could communicate more clearly about this to your manager than i want my colleague fired one is him really unhappy"
+  },
+  {
+    "start": 868.308,
+    "end": 890.158,
+    "speaker": "Guest",
+    "text": "to the point that I am considering looking for other options. And it's possible that your manager will say, you should consider that even harder. That's a very strong signal. Or it's also possible your manager doesn't know that you're unhappy enough to quit and they're motivated to keep you around. Their job gets easier the more..."
+  },
+  {
+    "start": 890.708,
+    "end": 905.158,
+    "speaker": "Guest",
+    "text": "tools you give them besides fire this co-worker if you'll only stay if they're fired that's kind of an ultimatum and i think it sometimes you might give in to that because it's so essential to keep the person but it's also just"
+  },
+  {
+    "start": 905.684,
+    "end": 917.934,
+    "speaker": "Guest",
+    "text": "I think it's bad vibes to say people can demand other people get fired. So part of what you can do is communicate what you are frustrated by without saying, and here's what you have to do about it. Say like,"
+  },
+  {
+    "start": 918.034,
+    "end": 932.284,
+    "speaker": "Guest",
+    "text": "help me work through this frustration or can you help suggest things I can do? The other thing you could do is this kind of gets with what Dave was saying around documenting. These silent cleanups are probably harming the perception."
+  },
+  {
+    "start": 932.66,
+    "end": 951.91,
+    "speaker": "Guest",
+    "text": "of value making making it more skewed toward this person they talk a big game stuff gets delivered on time and boy it turns out question asker just disappears sometimes and nobody knows what they do then when you're like furiously working to clean up messes so i think you need to make your manager aware of how much time is going into this cleanup"
+  },
+  {
+    "start": 952.916,
+    "end": 970.836,
+    "speaker": "Guest",
+    "text": "and ideally make them aware that it's taking this much time and this cleanup is essential and kind of here's the cost of the technical gaps that your co-worker has. Is this the right way we want to spend time? Again. making it broader than i can't get along with this person and they got to be fired hmm"
+  },
+  {
+    "start": 970.836,
+    "end": 980.536,
+    "speaker": "Host",
+    "text": "yeah it's tricky now okay let's put on our cynical hat for a minute what if you make the job so unbearable for the other person that they leave"
+  },
+  {
+    "start": 980.536,
+    "end": 988.636,
+    "speaker": "Guest",
+    "text": "yeah the parent trap method you got to coat their keyboard with honey so their hands get all sticky oh they're like i can't work here my hands always get sticky"
+  },
+  {
+    "start": 989.3,
+    "end": 995.85,
+    "speaker": "Host",
+    "text": "yeah then put bees on their keyboard so then their hands get bees on them yeah"
+  },
+  {
+    "start": 995.85,
+    "end": 996.6,
+    "speaker": "Guest",
+    "text": "sticky with bees"
+  },
+  {
+    "start": 996.6,
+    "end": 1000.2,
+    "speaker": "Host",
+    "text": "and the bees are stuck to their hands because of the honey yeah"
+  },
+  {
+    "start": 1000.2,
+    "end": 1002.95,
+    "speaker": "Guest",
+    "text": "what's worse than sticky hands sticky hands with bees"
+  },
+  {
+    "start": 1002.95,
+    "end": 1003.1,
+    "speaker": "Host",
+    "text": "i"
+  },
+  {
+    "start": 1003.1,
+    "end": 1003.45,
+    "speaker": "Guest",
+    "text": "on them"
+  },
+  {
+    "start": 1003.45,
+    "end": 1006.45,
+    "speaker": "Host",
+    "text": "feel like wasn't there something with bees in the parent trap"
+  },
+  {
+    "start": 1006.45,
+    "end": 1009.85,
+    "speaker": "Guest",
+    "text": "oh it sounds right I mean there were so many little gags it's been a long time"
+  },
+  {
+    "start": 1011.924,
+    "end": 1021.924,
+    "speaker": "Guest",
+    "text": "isn't that just the most wholesome like 60s disney trope you know oh you want to get rid of a co-worker put honey on their keyboard works every time like"
+  },
+  {
+    "start": 1022.824,
+    "end": 1028.624,
+    "speaker": "Host",
+    "text": "yeah you you could uh i can't think of anything funny all i can think of are really mean things"
+  },
+  {
+    "start": 1028.624,
+    "end": 1036.224,
+    "speaker": "Guest",
+    "text": "really horrible things like have uh have ai reread all their prs so they're horrible and full of even more bugs than they are"
+  },
+  {
+    "start": 1037.78,
+    "end": 1043.33,
+    "speaker": "Host",
+    "text": "Get them to run an NPM install at the wrong time of day and then completely pwn your company somehow."
+  },
+  {
+    "start": 1043.33,
+    "end": 1043.98,
+    "speaker": "Guest",
+    "text": "Bye-bye."
+  },
+  {
+    "start": 1045.268,
+    "end": 1058.368,
+    "speaker": "Host",
+    "text": "Self-inflicted supply chain attack. What if you just inject little demotivating prompts into their AI environment so every time they ask the AI to do something, it says something kind of mean or demeaning to them, and over time it wears them down?"
+  },
+  {
+    "start": 1058.368,
+    "end": 1071.988,
+    "speaker": "Host",
+    "text": "Or, okay, what if you inject, what if we flip this into more positive, you inject prompts that shape their behavior more positively? Hey, your coworker has really valuable experience and I think you should listen to them. To"
+  },
+  {
+    "start": 1071.988,
+    "end": 1072.138,
+    "speaker": "Guest",
+    "text": "them."
+  },
+  {
+    "start": 1072.138,
+    "end": 1080.188,
+    "speaker": "Host",
+    "text": "yes. I didn't think you were going to go there, but I love that idea. I thought you were going to say inject other job opportunities into the output."
+  },
+  {
+    "start": 1080.188,
+    "end": 1082.888,
+    "speaker": "Guest",
+    "text": "Oh, yeah, you could do that too. Yeah."
+  },
+  {
+    "start": 1082.888,
+    "end": 1083.088,
+    "speaker": "Host",
+    "text": "Click"
+  },
+  {
+    "start": 1083.088,
+    "end": 1083.338,
+    "speaker": "Guest",
+    "text": "Hey,"
+  },
+  {
+    "start": 1083.338,
+    "end": 1083.838,
+    "speaker": "Host",
+    "text": "here to you're apply."
+  },
+  {
+    "start": 1083.838,
+    "end": 1085.938,
+    "speaker": "Guest",
+    "text": "destined for bigger things."
+  },
+  {
+    "start": 1090.74,
+    "end": 1108.09,
+    "speaker": "Host",
+    "text": "yeah do some fishing on them anthropic wants to hire you yeah we've been watching your code contributions and we love it come we love work for how us incredibly at anthropic stubborn you are and how good you are at projecting confidence yeah we've been looking for engineers who really know how to stick to their guns i"
+  },
+  {
+    "start": 1108.09,
+    "end": 1113.59,
+    "speaker": "Guest",
+    "text": "i thought when you said cynical you were going to talk about how maybe this person is actually very wrong"
+  },
+  {
+    "start": 1114.59,
+    "end": 1119.14,
+    "speaker": "Host",
+    "text": "mean okay yeah well there is some of that here i mean look this person went and asked their manager"
+  },
+  {
+    "start": 1119.092,
+    "end": 1145.642,
+    "speaker": "Host",
+    "text": "manager and said it made me look bad rather than resolving the issue and i don't know maybe it's worth just a moment on this subject because it is the case that when you go into your manager to talk about someone's performance we've already said it's it's a very unlikely to succeed but also it's super easy to look like not a team player you know it's a little bit of a mutiny a little bit of an undermining the team like do you really care about this team and so boy do you have to carefully choose your words"
+  },
+  {
+    "start": 1146.356,
+    "end": 1155.268,
+    "speaker": "Host",
+    "text": "and frame the whole conversation so that your manager knows, I just want what's best for the team and for this company and for you. And I don't think we're getting that with our current team composition."
+  },
+  {
+    "start": 1155.568,
+    "end": 1172.268,
+    "speaker": "Guest",
+    "text": "Yeah. And it really is an important incentive to understand that a coworker who is sometimes very frustrating to you is still not going to get fired by your boss because that is going to be so much more frustrating to your boss."
+  },
+  {
+    "start": 1172.568,
+    "end": 1172.768,
+    "speaker": "Host",
+    "text": "Yep."
+  },
+  {
+    "start": 1172.768,
+    "end": 1199.826,
+    "speaker": "Guest",
+    "text": "Sometimes you don't like the code your coworker writes and it makes you mad is a problem that you cause. to your boss not a problem that your co-worker causes i don't know i've just been i've just been on that side of someone coming to me and saying they use the wrong function here repeatedly and my reaction there is how do i not how do i how do i tell this other person to use"
+  },
+  {
+    "start": 1200.0,
+    "end": 1208.9,
+    "speaker": "Guest",
+    "text": "the right function like that's i don't know if we care enough that's what linting is for but how do i deal with the problem of this person is very nitpicky about things that don't matter"
+  },
+  {
+    "start": 1208.9,
+    "end": 1211.4,
+    "speaker": "Host",
+    "text": "Yes. Yes. They thought they were solving one problem,"
+  },
+  {
+    "start": 1211.4,
+    "end": 1211.7,
+    "speaker": "Guest",
+    "text": "my life worse"
+  },
+  {
+    "start": 1211.7,
+    "end": 1217.522,
+    "speaker": "Host",
+    "text": "but all they did was expose another problem. Oh, yeah. yeah tricky well oh"
+  },
+  {
+    "start": 1217.522,
+    "end": 1235.572,
+    "speaker": "Guest",
+    "text": "but i mean how do i leave without burning bridges or letting them win again i think people leave because they have co-workers they don't like that's a reason yeah that's normal and no one wins like this whole like letting them win business you gotta let go of that there is some ego that's shining through in that statement"
+  },
+  {
+    "start": 1235.622,
+    "end": 1245.786,
+    "speaker": "Host",
+    "text": "that's a good point like they they drove me out and now they're gonna i don't know if they If what you say is true, I think their life will get worse. So I don't think you're really letting them win."
+  },
+  {
+    "start": 1245.786,
+    "end": 1248.136,
+    "speaker": "Guest",
+    "text": "Yeah. Yeah, think about how awful it'll be in your absence."
+  },
+  {
+    "start": 1249.052,
+    "end": 1266.302,
+    "speaker": "Host",
+    "text": "Yeah. But that's also part of why I suggested don't just tell your boss, hey, I want this person fired, like talk to them about your frustrations and what to do about them. And I'm trying to think back to that Amazon guy. I keep thinking about him when I try to think of sneaky phrases that communicate what that VP I'm saying without that we keep just referencing saying it."
+  },
+  {
+    "start": 1266.602,
+    "end": 1273.502,
+    "speaker": "Guest",
+    "text": "Like, I what want was the yeah to be happy and satisfied at work. And I'm really struggling to feel happy and satisfied here."
+  },
+  {
+    "start": 1273.952,
+    "end": 1279.028,
+    "speaker": "Host",
+    "text": "oh yeah one one of the greatest things he said was my career is very important to me i"
+  },
+  {
+    "start": 1279.028,
+    "end": 1281.228,
+    "speaker": "Guest",
+    "text": "yeah is just it need important to to know yes amazon yeah"
+  },
+  {
+    "start": 1281.228,
+    "end": 1294.478,
+    "speaker": "Host",
+    "text": "i need to know how important it is to you oh and i know there's probably a version of that he called it polite fiction right there's probably a version of that you can deploy here but this is like advanced level stuff you know don't don't toy with this magic unless you're prepared"
+  },
+  {
+    "start": 1294.728,
+    "end": 1304.68,
+    "speaker": "Guest",
+    "text": "yeah but there's something about like i really want to get along well with my co-workers and and i'm just not feeling that here that's really important to me uh"
+  },
+  {
+    "start": 1304.68,
+    "end": 1315.38,
+    "speaker": "Host",
+    "text": "Or I think, and that's a little bit me-centric, though. I mean, I'm kind of into the, this team can do better work. And I want to be on a team that does really great work, and I think you do too."
+  },
+  {
+    "start": 1315.38,
+    "end": 1329.08,
+    "speaker": "Guest",
+    "text": "so that's more about the fire this guy direction i'm thinking about how do you say and maybe i'll quit if this doesn't get better Oh, I see. The polite fiction thinly-veiled threat, we both know what I'm saying, but I'm not saying I'm going to quit. But I am going to quit."
+  },
+  {
+    "start": 1330.548,
+    "end": 1334.598,
+    "speaker": "Host",
+    "text": "Because that's some leverage, right? It's like, hey, you're going to lose me and I'm doing 80% of the work around here."
+  },
+  {
+    "start": 1334.848,
+    "end": 1344.598,
+    "speaker": "Guest",
+    "text": "Yeah, it's really important to me to get along with my coworkers. I'm not going to abuse this person, but I'm just really struggling to be happy and satisfied working with them."
+  },
+  {
+    "start": 1344.898,
+    "end": 1354.648,
+    "speaker": "Host",
+    "text": "Yeah. Another way you can say that is I really want to be on this team. I love working here. I love this company and I love this team. And sometimes there are things that make that hard. And I'd like to talk to you about one of those things."
+  },
+  {
+    "start": 1356.116,
+    "end": 1361.216,
+    "speaker": "Guest",
+    "text": "I'm not you can tell how bad I am at this because my phrases are crude and yeah"
+  },
+  {
+    "start": 1361.216,
+    "end": 1365.966,
+    "speaker": "Host",
+    "text": "Yes, you would get destroyed by that I Amazon"
+  },
+  {
+    "start": 1365.966,
+    "end": 1371.816,
+    "speaker": "Guest",
+    "text": "would be a bad in case you didn't already know I would be a bad VP at Amazon I"
+  },
+  {
+    "start": 1371.816,
+    "end": 1374.716,
+    "speaker": "Host",
+    "text": "They would chew you up and spit you out of that system so fast."
+  },
+  {
+    "start": 1374.716,
+    "end": 1379.966,
+    "speaker": "Guest",
+    "text": "would do everything they wanted I would give them my whole team I would yeah yeah"
+  },
+  {
+    "start": 1379.966,
+    "end": 1381.666,
+    "speaker": "Host",
+    "text": "All your budget would be drained."
+  },
+  {
+    "start": 1384.116,
+    "end": 1384.466,
+    "speaker": "Host",
+    "text": "That"
+  },
+  {
+    "start": 1384.466,
+    "end": 1384.516,
+    "speaker": "Guest",
+    "text": "my"
+  },
+  {
+    "start": 1384.516,
+    "end": 1384.666,
+    "speaker": "Host",
+    "text": "would lose"
+  },
+  {
+    "start": 1384.666,
+    "end": 1384.916,
+    "speaker": "Guest",
+    "text": "gosh."
+  },
+  {
+    "start": 1384.916,
+    "end": 1385.666,
+    "speaker": "Host",
+    "text": "the game."
+  },
+  {
+    "start": 1385.866,
+    "end": 1387.366,
+    "speaker": "Guest",
+    "text": "So would I. It is so hard."
+  },
+  {
+    "start": 1387.366,
+    "end": 1387.666,
+    "speaker": "Host",
+    "text": "But I"
+  },
+  {
+    "start": 1387.666,
+    "end": 1388.016,
+    "speaker": "Guest",
+    "text": "I mean, for"
+  },
+  {
+    "start": 1388.016,
+    "end": 1391.116,
+    "speaker": "Host",
+    "text": "would have a million dollars or some large amount of money. Maybe"
+  },
+  {
+    "start": 1391.116,
+    "end": 1391.266,
+    "speaker": "Guest",
+    "text": "some"
+  },
+  {
+    "start": 1391.266,
+    "end": 1391.566,
+    "speaker": "Host",
+    "text": "it'd be worth"
+  },
+  {
+    "start": 1391.566,
+    "end": 1391.666,
+    "speaker": "Guest",
+    "text": "period"
+  },
+  {
+    "start": 1391.666,
+    "end": 1391.866,
+    "speaker": "Host",
+    "text": "it."
+  },
+  {
+    "start": 1391.866,
+    "end": 1392.816,
+    "speaker": "Guest",
+    "text": "of time."
+  },
+  {
+    "start": 1393.716,
+    "end": 1405.258,
+    "speaker": "Host",
+    "text": "Until the other VPs convince the even bigger VPs that you deserve to be fired. which they would do or they would keep you around as a patsy because it's like you know i don't know who knows what game they're playing if"
+  },
+  {
+    "start": 1405.258,
+    "end": 1408.708,
+    "speaker": "Guest",
+    "text": "Maybe I'd be like the jester, VP, just a lovable distraction."
+  },
+  {
+    "start": 1410.358,
+    "end": 1417.208,
+    "speaker": "Host",
+    "text": "no one will never fire james we will never turn our dark art against james and we love that clique and that little clown around he's like our pet"
+  },
+  {
+    "start": 1417.208,
+    "end": 1428.808,
+    "speaker": "Guest",
+    "text": "Yeah, we'll just, we'll keep paying him millions of dollars and being mean to him at work and then he'll be able to complain about how hard his life is getting paid millions of dollars. Dave, I think that means we've answered the"
+  },
+  {
+    "start": 1428.808,
+    "end": 1429.058,
+    "speaker": "Host",
+    "text": "I question."
+  },
+  {
+    "start": 1429.058,
+    "end": 1430.458,
+    "speaker": "Guest",
+    "text": "think so. I think we just wandered"
+  },
+  {
+    "start": 1430.458,
+    "end": 1430.708,
+    "speaker": "Host",
+    "text": "Should into"
+  },
+  {
+    "start": 1430.708,
+    "end": 1430.858,
+    "speaker": "Guest",
+    "text": "I"
+  },
+  {
+    "start": 1430.858,
+    "end": 1430.908,
+    "speaker": "Host",
+    "text": "the"
+  },
+  {
+    "start": 1430.908,
+    "end": 1433.758,
+    "speaker": "Guest",
+    "text": "read territory that says this question is over. Good luck."
+  },
+  {
+    "start": 1434.208,
+    "end": 1435.008,
+    "speaker": "Host",
+    "text": "our next one?"
+  },
+  {
+    "start": 1435.008,
+    "end": 1456.6,
+    "speaker": "Guest",
+    "text": "Oh, last thing. Ditch the cosmic justice. No one wins and loses. There's no right and wrong here. If you quit and they don't, there's not some balance that's been irrevocably thrown out of whack here. It's okay. You can leave. They didn't win. You didn't win. You're just going to get a better job in a better situation. It's okay."
+  },
+  {
+    "start": 1456.75,
+    "end": 1457.2,
+    "speaker": "Host",
+    "text": "Yep."
+  },
+  {
+    "start": 1457.75,
+    "end": 1458.75,
+    "speaker": "Guest",
+    "text": "That's up. Now we can. That's"
+  },
+  {
+    "start": 1458.75,
+    "end": 1459.5,
+    "speaker": "Host",
+    "text": "and it's, yeah,"
+  },
+  {
+    "start": 1459.5,
+    "end": 1459.8,
+    "speaker": "Guest",
+    "text": "all I have."
+  },
+  {
+    "start": 1459.8,
+    "end": 1473.832,
+    "speaker": "Host",
+    "text": "okay, well, I'm almost going to get sucked back in and I can't. Next question from a listener named Hugo. Hello, gentlemen. Ooh, I Ooh. haven't been called gentlemen in a while. Fancy. We are gentlemen. Yeah. Yeah. I guess so. Yeah."
+  },
+  {
+    "start": 1473.932,
+    "end": 1489.432,
+    "speaker": "Guest",
+    "text": "Good start. Long-time listener of the show and finally getting around to ask my first question. How exciting. I'm going to be joining a new company in a few months and I'm wondering how to best handle the transition in order to make an excellent first impression and set myself up for career growth while not biting off more than I can chew. For context,"
+  },
+  {
+    "start": 1489.482,
+    "end": 1499.82,
+    "speaker": "Guest",
+    "text": "I'm joining a company that builds quantum computers after a background in working in completely different non-science. scientific fields. To be fair, I'm just joining as a senior software engineer on the cloud team."
+  },
+  {
+    "start": 1499.92,
+    "end": 1515.92,
+    "speaker": "Guest",
+    "text": "I won't be building the actual computers. I have some experience in leadership, but not nearly as much as I wish I had. This is something I'd love to try and get a little bit more into and couldn't at my last company, which was too small. I'm also a little intimidated at the idea of stepping into the big leagues, but want to use this opportunity to show that I too can ball."
+  },
+  {
+    "start": 1515.92,
+    "end": 1517.92,
+    "speaker": "Host",
+    "text": "Yeah, I love that phrase."
+  },
+  {
+    "start": 1517.92,
+    "end": 1526.77,
+    "speaker": "Guest",
+    "text": "However, I'm worried that everyone is going to be way smarter than me and that I've actually been playing in the ball pit. I'll pit for years. I'm a little scared of attempting to ball too hard and fumbling."
+  },
+  {
+    "start": 1527.12,
+    "end": 1534.804,
+    "speaker": "Host",
+    "text": "Okay, now you're mixing sports metaphors. Oh, Because boy. ball too hard, this is a basketball thing. And you don't fumble a basketball,"
+  },
+  {
+    "start": 1534.904,
+    "end": 1551.304,
+    "speaker": "Guest",
+    "text": "causing disappointment, I guess, and turning the ball over, I don't know, causing disappointment on their end and imposter syndrome on mine. How would you go about joining the new company with the excitement of a new start and the drive to be the best I can be while also remaining humble and grounded in reality?"
+  },
+  {
+    "start": 1551.654,
+    "end": 1562.92,
+    "speaker": "Guest",
+    "text": "Should I fake it till I make it and be super confident or take a more reserved approach? In France, we call this a rich person problem. Everything is great. because i have a cool new job but i don't want to mess it up help yeah"
+  },
+  {
+    "start": 1562.92,
+    "end": 1581.27,
+    "speaker": "Host",
+    "text": "Oh, this is a great question. Rich person problem. We call those first world problems or high class problems. i Rich person problem. I'll bet it's really slick in French too. bet it is i would never have guessed i guess the name hugo is french but the rest of it does not read as french to me so it's very i perfectly well written."
+  },
+  {
+    "start": 1581.27,
+    "end": 1597.62,
+    "speaker": "Host",
+    "text": "quantum computers okay here's my wrong belief i believe quantum computers are fake Well, like I know you can somehow pay money to use one, but you can't actually do useful, like no one's running their application on quantum computers, right?"
+  },
+  {
+    "start": 1597.72,
+    "end": 1600.72,
+    "speaker": "Guest",
+    "text": "i mean i do my whole tech stack is now running on"
+  },
+  {
+    "start": 1600.72,
+    "end": 1600.77,
+    "speaker": "Host",
+    "text": "You"
+  },
+  {
+    "start": 1600.77,
+    "end": 1601.12,
+    "speaker": "Guest",
+    "text": "quantum yeah"
+  },
+  {
+    "start": 1601.12,
+    "end": 1602.02,
+    "speaker": "Host",
+    "text": "use quantum"
+  },
+  {
+    "start": 1602.02,
+    "end": 1602.32,
+    "speaker": "Guest",
+    "text": "it's"
+  },
+  {
+    "start": 1602.32,
+    "end": 1602.82,
+    "speaker": "Host",
+    "text": "JavaScript"
+  },
+  {
+    "start": 1602.82,
+    "end": 1608.67,
+    "speaker": "Guest",
+    "text": "like react on the front end and then like java on the back end and then quantum on the infrastructure yeah"
+  },
+  {
+    "start": 1609.364,
+    "end": 1621.414,
+    "speaker": "Host",
+    "text": "Yeah, maybe my bank account will be drained someday because encryption will be broken by the time they're... I feel like you can't actually do real stuff with them, and I choose to not investigate further."
+  },
+  {
+    "start": 1621.714,
+    "end": 1625.114,
+    "speaker": "Guest",
+    "text": "Okay, so this relates to the question exactly how?"
+  },
+  {
+    "start": 1626.772,
+    "end": 1627.372,
+    "speaker": "Host",
+    "text": "up to you"
+  },
+  {
+    "start": 1627.622,
+    "end": 1630.022,
+    "speaker": "Guest",
+    "text": "The exercise for the reader."
+  },
+  {
+    "start": 1632.972,
+    "end": 1655.122,
+    "speaker": "Guest",
+    "text": "fake it till i make it so i would also imagine that people who work on quantum computers are smart it just sounds like smart people stuff so i can see this i can see you feeling intimidated especially if you haven't worked in like a big tech company before maybe maybe you have i don't know but yeah i can i could feel this should i fake it till i make it i don't do what i would do is the"
+  },
+  {
+    "start": 1655.284,
+    "end": 1657.984,
+    "speaker": "Host",
+    "text": "the core of all the advice I give on this show and that's why I"
+  },
+  {
+    "start": 1658.084,
+    "end": 1658.734,
+    "speaker": "Guest",
+    "text": "would not yeah"
+  },
+  {
+    "start": 1658.734,
+    "end": 1659.784,
+    "speaker": "Host",
+    "text": "you would not fake it but"
+  },
+  {
+    "start": 1659.784,
+    "end": 1660.634,
+    "speaker": "Guest",
+    "text": "I would hope I"
+  },
+  {
+    "start": 1660.634,
+    "end": 1664.934,
+    "speaker": "Host",
+    "text": "okay so what are you gonna like fake quantum experience or something like what or not i mean"
+  },
+  {
+    "start": 1665.652,
+    "end": 1685.452,
+    "speaker": "Guest",
+    "text": "You're a cloud engineer, like the cloud team. I assume there's just normal computers around somewhere. You're going to, they're not running like quantum terraforming or quantum CDK the HR onboarding you show up on the first day and it's like here's your quantum phone and here's your quantum laptop and your quantum monitor"
+  },
+  {
+    "start": 1685.452,
+    "end": 1694.536,
+    "speaker": "Guest",
+    "text": "Fill out this quantum Google form with your i9 information. Like I assume there's just normal computer. computer problems that they have to solve for you yeah"
+  },
+  {
+    "start": 1694.536,
+    "end": 1697.436,
+    "speaker": "Host",
+    "text": "Please bring a copy of your quantum social security card."
+  },
+  {
+    "start": 1697.936,
+    "end": 1698.536,
+    "speaker": "Guest",
+    "text": "what"
+  },
+  {
+    "start": 1698.536,
+    "end": 1702.186,
+    "speaker": "Host",
+    "text": "No, I'm sure you're right about that. So when you say don't fake it, what do you mean exactly?"
+  },
+  {
+    "start": 1702.986,
+    "end": 1725.612,
+    "speaker": "Guest",
+    "text": "i mean is you have experience and wisdom that they hired you for and i don't think you had to fake that you knew a bunch about quantum computers to get the job but there's a lot of domain knowledge that i think would be pretty fun to build up I would be excited to learn how wrong I was about how fake quantum computers are if I got this job."
+  },
+  {
+    "start": 1725.612,
+    "end": 1737.162,
+    "speaker": "Host",
+    "text": "So how do you fake your way through an interview for a quantum computers company? I think the way you do it is you find a way to cheat to get the questions beforehand so that you can answer all the questions simultaneously before you were given them."
+  },
+  {
+    "start": 1737.162,
+    "end": 1739.912,
+    "speaker": "Guest",
+    "text": "Is that what quantum computers do?"
+  },
+  {
+    "start": 1740.112,
+    "end": 1740.862,
+    "speaker": "Host",
+    "text": "That's what they do."
+  },
+  {
+    "start": 1741.812,
+    "end": 1747.528,
+    "speaker": "Guest",
+    "text": "Qubits? I know qubits are a thing somehow. There's like a spin somewhere. there's quarks"
+  },
+  {
+    "start": 1747.528,
+    "end": 1747.928,
+    "speaker": "Host",
+    "text": "Quantum"
+  },
+  {
+    "start": 1747.928,
+    "end": 1768.378,
+    "speaker": "Guest",
+    "text": "and strange tunneling and quantum entanglement. i've heard those words i believe they also explain how acupuncture works and so maybe i don't know i know quantum woo woo stuff is this it's like what people claim is the mechanism behind a bunch of practices that are not really"
+  },
+  {
+    "start": 1768.948,
+    "end": 1771.198,
+    "speaker": "Host",
+    "text": "that's scientific or also are fake or"
+  },
+  {
+    "start": 1771.198,
+    "end": 1779.648,
+    "speaker": "Guest",
+    "text": "Oh, that's true. Every time, yeah, every time we don't understand something like whether it's consciousness or yeah, like some medical practices, like, oh, well, that's the quantum realm."
+  },
+  {
+    "start": 1779.898,
+    "end": 1796.898,
+    "speaker": "Host",
+    "text": "every time someone is trying to convince you a thing it works and is real and isn't just the placebo effect they say well quantum tunneling is how that's how i can put a balloon in your nose and then suddenly your pneumonia goes away or whatever weird thing it is"
+  },
+  {
+    "start": 1797.972,
+    "end": 1812.172,
+    "speaker": "Guest",
+    "text": "The quantum effect. Okay, so you're saying don't fake it. Listen, I really believe that everybody has to fake it a little bit. Otherwise, there's no growth. If you only do what you already know, and you're unwilling to say, yeah,"
+  },
+  {
+    "start": 1812.272,
+    "end": 1827.126,
+    "speaker": "Host",
+    "text": "I mean, I'm not saying lie about what you've done. And I'm not saying project confidence that isn't deserved. But I am saying be willing to go in there and be curious and humble but excited and eager to help. And I think you're just going to do great."
+  },
+  {
+    "start": 1827.176,
+    "end": 1847.726,
+    "speaker": "Guest",
+    "text": "I love that energy. Humble, excited, eager to help, and you know some stuff because they hired you for a reason. That's the vibe I would like. Not rolling in, kicking down the door saying, all right, you somehow managed without me for this long, but it's time for me to tell you how stupid and broken everything is here. Especially with that quantum cooling mechanism. Can you believe that? Liquid"
+  },
+  {
+    "start": 1847.726,
+    "end": 1847.826,
+    "speaker": "Host",
+    "text": "Good"
+  },
+  {
+    "start": 1847.826,
+    "end": 1848.076,
+    "speaker": "Guest",
+    "text": "nitrogen?"
+  },
+  {
+    "start": 1848.076,
+    "end": 1849.326,
+    "speaker": "Host",
+    "text": "news. It's fixed."
+  },
+  {
+    "start": 1851.076,
+    "end": 1856.922,
+    "speaker": "Guest",
+    "text": "I'm here. I found all these. There's cords lying around and I unplugged them all because we don't need them."
+  },
+  {
+    "start": 1858.522,
+    "end": 1868.272,
+    "speaker": "Host",
+    "text": "I think one of the cool things is that, you know, you join a quantum computer company and you're like, oh boy, what if they find out I'm actually an imposter and don't know anything about quantum computers? Well, guess what, Buster?"
+  },
+  {
+    "start": 1868.372,
+    "end": 1877.364,
+    "speaker": "Host",
+    "text": "They already knew that. That's the amazing thing. Like when I joined a big tech company, it was like. What if they find out I don't know how to use all their internal build tools?"
+  },
+  {
+    "start": 1879.014,
+    "end": 1880.364,
+    "speaker": "Guest",
+    "text": "Nobody knows that."
+  },
+  {
+    "start": 1880.914,
+    "end": 1902.612,
+    "speaker": "Host",
+    "text": "yeah unless yeah unless you did just somehow fake your deep knowledge of quantum computing and that was a requirement but i gather this is more about like This is a smart field. People that work here are going to be very smart, which is probably true, but it turns out you can be very smart at science things and bad at like project management or"
+  },
+  {
+    "start": 1903.012,
+    "end": 1908.562,
+    "speaker": "Guest",
+    "text": "building reliable systems out of smart science things. It needs a lot of different skills."
+  },
+  {
+    "start": 1908.862,
+    "end": 1919.284,
+    "speaker": "Host",
+    "text": "Yeah. And I think really this question is not so much about the quantum computer aspect of it. It's about getting into leadership. That's number one, which they've, you know, Hugo has done a little bit of, but not a lot. And also So getting into,"
+  },
+  {
+    "start": 1919.334,
+    "end": 1930.784,
+    "speaker": "Host",
+    "text": "quote, the big leagues, which is like working for a company where I bet everyone already knows what they're doing or these are people that have done, you know, leadership at a huge scale that I've never experienced before. And yeah, that's all true."
+  },
+  {
+    "start": 1931.134,
+    "end": 1940.634,
+    "speaker": "Host",
+    "text": "And I'll tell you, like these companies, having worked at one of these big tech companies, people know that nobody has had the experience that you can get at that big tech company. Or if you have,"
+  },
+  {
+    "start": 1940.684,
+    "end": 1950.3,
+    "speaker": "Host",
+    "text": "you got it at one of the other big tech companies, you know, of which there's like five. And so nobody expects you to come in and just understand all these things. They all expect you to come in and learn."
+  },
+  {
+    "start": 1950.7,
+    "end": 1962.9,
+    "speaker": "Host",
+    "text": "And I think that's the thing you've got to bring with you is not a false confidence, but rather a confidence in your own ability to get things done and be successful. Not a confidence that you have all the answers,"
+  },
+  {
+    "start": 1963.05,
+    "end": 1974.15,
+    "speaker": "Host",
+    "text": "but a confidence that you can get the answers and a willingness to jump in and be helpful. So I think you're going to do just fine. Intimidation is totally normal. Don't feel imposter syndrome. Imposter syndrome is silly."
+  },
+  {
+    "start": 1974.068,
+    "end": 1985.492,
+    "speaker": "Host",
+    "text": "silly and I think that's how you defeat imposter syndrome is by calling it silly because what is that it's just a nervousness about an expectation that other people will have that's not met And it's like, really,"
+  },
+  {
+    "start": 1985.642,
+    "end": 1997.942,
+    "speaker": "Host",
+    "text": "you're going to obsess about unmet expectations in others about you? Come on, like life's too short. They don't think about you that much. They're just happy to have you on the team and helping out. So get to work, be curious,"
+  },
+  {
+    "start": 1998.142,
+    "end": 2015.194,
+    "speaker": "Host",
+    "text": "be exploratory, learn all you can, ask all the questions you can, don't be ashamed or scared, and you're just going to do great. And so in that sense, yes, you should fake it till you make it. Embrace the job and do everything you can. But don't stand there and be like, well, I already know all the answers. That's horrible."
+  },
+  {
+    "start": 2015.344,
+    "end": 2031.344,
+    "speaker": "Guest",
+    "text": "Yeah, I like that. I also think a good way if you're worried about, I can see a view of leadership being you need to kind of bluster your way through and kind of, I don't know, make people do what you say. And typically that doesn't work very well,"
+  },
+  {
+    "start": 2031.394,
+    "end": 2040.244,
+    "speaker": "Guest",
+    "text": "especially if you're trying to join as like a peer and show not org chart in charge of you leadership, but just like help come up with good ideas. It's really hard to."
+  },
+  {
+    "start": 2040.084,
+    "end": 2058.534,
+    "speaker": "Guest",
+    "text": "hard to do that but I think you should be willing to propose things and if you see problems say have I've noticed this problem and I have some ideas about it is this a and approach that with curiosity instead of like oh we have to do this we just absolutely must do this thing that is my idea well have we answered this question it's"
+  },
+  {
+    "start": 2058.534,
+    "end": 2060.584,
+    "speaker": "Host",
+    "text": "I think so. Good luck, Hugo. You're going to do great."
+  },
+  {
+    "start": 2061.134,
+    "end": 2062.184,
+    "speaker": "Guest",
+    "text": "good to have rich person problems"
+  },
+  {
+    "start": 2062.584,
+    "end": 2067.77,
+    "speaker": "Host",
+    "text": "Oh, absolutely. The best kind of problems. Poor person problems are super painful."
+  },
+  {
+    "start": 2067.77,
+    "end": 2074.82,
+    "speaker": "Guest",
+    "text": "They are. They are much worse. They are bad. How do I impress people at my white collar job is a pretty solid place to be."
+  },
+  {
+    "start": 2074.82,
+    "end": 2077.87,
+    "speaker": "Host",
+    "text": "It's like a great, that's a great problem set."
+  },
+  {
+    "start": 2078.02,
+    "end": 2081.62,
+    "speaker": "Guest",
+    "text": "Yeah, not how do I get enough nutrition for my child."
+  },
+  {
+    "start": 2084.27,
+    "end": 2084.47,
+    "speaker": "Host",
+    "text": "What"
+  },
+  {
+    "start": 2084.47,
+    "end": 2084.82,
+    "speaker": "Guest",
+    "text": "now I'm sad."
+  },
+  {
+    "start": 2084.82,
+    "end": 2095.104,
+    "speaker": "Host",
+    "text": "a downer. I know. Well, on that note, what can people do if they want their own questions answered? If you have rich person problems that you'd like. You'd like our advice on because we're sure it's"
+  },
+  {
+    "start": 2095.104,
+    "end": 2095.154,
+    "speaker": "Guest",
+    "text": "heck Yeah."
+  },
+  {
+    "start": 2095.154,
+    "end": 2110.954,
+    "speaker": "Host",
+    "text": "not going to help with the real problems. But if you have rich person problems, you can go to SoftSkills.audio and click the Ask Your Question button. You can fill out a little form there and we love it when you do this. Thank you so much. So many of you do this every week and we really appreciate it. It keeps us going and makes me happy. Thank you for listening. We'll catch you next week."
+  }
+]

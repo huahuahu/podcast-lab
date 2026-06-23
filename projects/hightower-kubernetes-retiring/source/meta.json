@@ -1,0 +1,20 @@
+{
+  "slug": "hightower-kubernetes-retiring",
+  "source_url": "https://www.youtube.com/watch?v=UlXpOGIpITM",
+  "source_kind": "youtube",
+  "title": "Kubernetes and retiring at the top with Kelsey Hightower",
+  "author": "The Pragmatic Engineer",
+  "lang": "en",
+  "duration_sec": 10269,
+  "thumbnail_url": "https://i.ytimg.com/vi/UlXpOGIpITM/maxresdefault.jpg",
+  "has_official_transcript": true,
+  "transcript_kind": "substack",
+  "transcript_source": "https://newsletter.pragmaticengineer.com/p/kubernetes-and-retiring-at-the-top (substack en.vtt + transcription.json)",
+  "series": null,
+  "needs_chapters": false,
+  "lane": "translate",
+  "voices": {
+    "Gergely": "zh-CN-YunxiNeural",
+    "Kelsey":  "zh-CN-YunyangNeural"
+  }
+}
