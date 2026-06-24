@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Thu, 25 Jun 2026 07:15:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 07:50:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,20 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP41 · John Mearsheimer × Judge Napolitano：Netanyahu 与以色列的衰落</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">mearsheimer-napolitano-netanyahu</guid>
+      <pubDate>Thu, 25 Jun 2026 07:50:00 +0800</pubDate>
+      <description>Judging Freedom 2026-06-23 期，Andrew Napolitano 法官对话 John Mearsheimer 教授，约 32 分钟。主要话题：(1) 霍尔木兹海峡目前部分开放、伊朗仍实际控制，正在拿它做筹码逼美国/以色列在黎巴嫩问题上让步。(2) 战后形势再评估——2 月 27 日开战那一刻，伊朗、美国、以色列三方都没意识到伊朗手里牌有多硬；3-4 月战事推进，海峡控制 + 能打到海湾美军基地和以色列本土的远程导弹，让伊朗实际上赢下这场仗，谈判桌上现在地位很强。(3) CIA / Mossad / NSC 全线误判，参照 2025 年 6 月那场 12 天战争旧框架，没人预想到伊朗会用霍尔木兹做杠杆。(4) 以色列海军重创但被压住不报——McGregor 上校转述退役海军司令说法，伊朗导弹打得 IDF 元气大伤，但审查制度不让外泄；Mearsheimer 认为正因为损失太大，Netanyahu 政府才如此死扛舆论口径。(5) Netanyahu 的国内政治账：能不能撑到十月选举，以及隐瞒损失对国内民意的影响。(6) 以色列的「衰落」主线：从军事力量、外交孤立、与美关系结构性变化几个层面展开。开篇引用更点出节目底色——「以不正当方式使用武力已经成了常态」。中文双人配音（云希 Napolitano / 云扬 Mearsheimer），Azure STT + GPT 翻译 + edge-tts。原片：https://www.youtube.com/watch?v=dTOhamHI_bk</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.42.0-mearsheimer-napolitano-netanyahu/podcast_zh.mp3" length="10768028" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/mearsheimer-napolitano-netanyahu.png"/>
+      <category>News</category>
+      <itunes:author>Judge Napolitano - Judging Freedom / Andrew Napolitano × John Mearsheimer</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>30:43</itunes:duration>
+    </item>
 
     <item>
       <title>EP40 · John Mearsheimer × 南华早报 Yonden Lhatoo：美中竞争、台海与以伊战争</title>
