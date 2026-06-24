@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Tue, 23 Jun 2026 21:15:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 07:15:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,20 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP40 · John Mearsheimer × 南华早报 Yonden Lhatoo：美中竞争、台海与以伊战争</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">mearsheimer-scmp</guid>
+      <pubDate>Thu, 25 Jun 2026 07:15:00 +0800</pubDate>
+      <description>南华早报 Talking Post 2026 年的访谈，主持人 Yonden Lhatoo 在香港对话 John Mearsheimer，约 36 分钟。围绕几个问题展开：(1) 中美关系——Trump 与习近平会面后，双边到底是「缓和」还是「暂缓」？Mearsheimer 认为根子上还是结构性安全竞争，美国眼下被中东（Iran）和欧洲（乌克兰）拖住，腾不出手在东亚开第二战线，所以暂时姿态柔软；一旦那两场战争平息，注意力会重新回到亚洲，对华遏制会升温。(2) 主持人把 Iran、Venezuela 这些点连起来问「是不是在一个个清算中国的伙伴」，Mearsheimer 不接这套——他不把这些国家定义为「China 的伙伴」，认为美国有自己一套独立的全球议程。(3) 台海与南海——中国决心主导亚洲，美国一定会阻止，这是不可调和的核心矛盾。(4) 以伊战争——美国和 Israel 联手对 Iran 开战、最后输掉这件事他说得毫不客气，美国遭遇了重大失败、Iranians 赢了这场战争。(5) 被贴「反美」标签——Mearsheimer 自陈是民族主义者，正因为爱这个国家，才更要批评政府的蠢事，「这恰恰是爱国主义的最高形式」。中文双人配音（云希 Host / 云扬 Mearsheimer），Azure STT + GPT 翻译 + edge-tts。原片：https://www.youtube.com/watch?v=WqLfsxWHq5Y</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.41.0-mearsheimer-scmp/podcast_zh.mp3" length="11869172" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/mearsheimer-scmp.png"/>
+      <category>News</category>
+      <itunes:author>South China Morning Post / Yonden Lhatoo × John Mearsheimer</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>33:42</itunes:duration>
+    </item>
 
     <item>
       <title>EP39 · 在小创业公司待了 5 年该不该跳 / 签证身份是不是被公司吃定了（SSE 518）</title>
