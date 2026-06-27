@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Thu, 25 Jun 2026 07:50:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2026 12:00:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,20 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP42 · 王晓欣《音韵与译音——浅谈语言学与中国历史研究》</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wangxiaoxin-yinyun-yiyin</guid>
+      <pubDate>Sat, 27 Jun 2026 12:00:00 +0800</pubDate>
+      <description>南开大学历史学院王晓欣讲座，从音韵学与译音两条线索，谈语言学方法如何介入中国历史研究：古代外来名物、人名、地名的对音问题，反过来可以校正史料、定位族群与时段。中文原音搬运自 B 站（5P 合并），passthrough lane 直发，未做转写。时长约 1h05m。来源：https://www.bilibili.com/video/BV1rD4y1h7GQ/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.43.0-wangxiaoxin-yinyun-yiyin/audio.mp3" length="36336668" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wangxiaoxin-yinyun-yiyin.png"/>
+      <category>Society &amp; Culture</category>
+      <itunes:author>王晓欣（南开大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:05:28</itunes:duration>
+    </item>
 
     <item>
       <title>EP41 · John Mearsheimer × Judge Napolitano：Netanyahu 与以色列的衰落</title>
