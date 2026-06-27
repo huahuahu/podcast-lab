@@ -129,17 +129,21 @@ bash scripts/publish/final_acceptance.sh <slug>
 - **代码参考**：EP36 hightower-kubernetes-retiring，参考 `transcript/substack_*.{vtt,json}` 和当时的处理脚本片段。
 
 ### 10. B 站多 P 视频（playlist）手工拼接
-- pipeline 默认仅拿 p1（yt-dlp 不加 `--yes-playlist` 时）。多 P 讲座（如 chenshangjun 5P 、qianliqun 2P）需要手工介入：
+- pipeline 默认仅拿 p1（yt-dlp 不加 `--yes-playlist` 时）。多 P 讲座（如 chenshangjun 5P 、qianliqun 2P）需要手工介入。
+- **2026-06-27 起 yt-dlp 抓 B 站普遍 HTTP 412 风控**（上游 issue #14830），即使升 nightly + `--impersonate chrome` + `--cookies-from-browser chrome` 都失败。**改用 BBDown**（`/tmp/bbdown_bin/BBDown`，1.6.3 osx-arm64，未登录就能拿音频流）：
   ```bash
   cd projects/<slug>/source
-  yt-dlp -x --audio-format mp3 --audio-quality 0 \
-    -o "p%(playlist_index)s.%(ext)s" --yes-playlist "<url>"
-  printf "file 'p1.mp3'\nfile 'p2.mp3'\n" > concat.txt   # 按顺序列全
-  ffmpeg -y -f concat -safe 0 -i concat.txt -c copy audio.mp3
-  trash p*.mp3 concat.txt
+  /tmp/bbdown_bin/BBDown "<bilibili-url>" --audio-only -p ALL --skip-subtitle -F "<pageNumberWithZero>"
+  # 产物在 source/<视频原标题>/[P1]1.m4a ... [P5]5.m4a，把它们 mv 出来
+  D="$(ls -d *标题关键字*)" && mv "$D"/*.m4a . && trash "$D"
+  printf "file '[P1]1.m4a'\nfile '[P2]2.m4a'\n...\n" > concat.txt
+  ffmpeg -y -f concat -safe 0 -i concat.txt -c:a libmp3lame -q:a 4 audio.mp3
+  trash '[P'*.m4a concat.txt
+  # 顺手抓封面：BBDown ... --cover-only --skip-subtitle，把 [P1]1.jpg 复制成 thumbnail.jpg
   ```
-- meta.json 手寫（参考 qianliqun-gushi-xinbian），lane=passthrough，lang=zh，duration_sec 用 `ffprobe -show_entries format=duration` 拿。
-- TODO: 以后可考虑给 youtube adapter 加 `MULTI_P=1` 开关自动走这个流程。
+- **ffmpeg 自带 AAC 解码器对 B 站 HE-AAC 流会狂刷 `decode_band_types: Input buffer exhausted` / `Number of bands exceeds limit`**——是已知 ffmpeg AAC 解码 bug，**但 mp3 输出实际是对的**，时长按 ffprobe 校验和源时长一致即可放心；别看到 warning 就重跑。
+- meta.json 手寫（参考 qianliqun-gushi-xinbian / wangxiaoxin-yinyun-yiyin），lane=passthrough，lang=zh，duration_sec 用 `ffprobe -show_entries format=duration` 拿。
+- TODO: 以后可考虑给 youtube adapter 加 `MULTI_P=1` 开关自动走这个流程；BBDown 路径也建议固化到 `~/git/podcast-lab/bin/`。
 
 ---
 
