@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Sat, 27 Jun 2026 12:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 23:55:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,20 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP43 · 没有 tech lead 的团队 &amp; &quot;vibe&quot; 政治（SSE 519）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-519</guid>
+      <pubDate>Tue, 30 Jun 2026 23:55:00 +0800</pubDate>
+      <description>Soft Skills Engineering 第 519 期中文双人配音。两个问题：(1) 来自瑞典的资深开发问：自己见过很多组织——尤其是规模大、偏老派的非科技公司——其实没有 tech lead 或 staff engineer 角色，只有不写代码的 architect；自己待过的很多团队都是「所有开发平级、没有 tiebreaker」。运转良好时是因为某个人或共识自然形成，失败模式让他抓狂：共识被一票否决劫持讨论推不动；技术优先级谈不拢取最大公约数；团队永远在 bickering 和 bikeshedding。这是 regional/cultural，还是组织类型的问题？Dave / Jamison 的看法：不是瑞典问题，是组织/团队问题各地都有；没有 tech lead 的好处是万一 tech lead 是个烂人整个团队没救，平级团队至少还能讲理；但代价是总有人事实上变成 tech lead——通常是那个「在乎 + 愿意推动」的人；给提问者的建议：在没有 tech lead 的团队里显式把「因为没有 tech lead 所以现在卡在 X」说出来，承认「好吧那现在我就是 tech lead 了」。(2) 大厂工程师（自称 An Engineer Who Refuses to Look Bored）在非技术 org 里干活：sprint 全打完、story points 全 crush、有需要周末提交代码，老板说 output 没问题只让他改沟通；但周围人觉得他「vibe 显得懒、不投入」，已传到 skip-level；朋友拿原始指标辩护时对方答不上来只说「就是一种 vibe」。怎么用数据打赢 vibe 指控？Dave / Jamison 的看法：不要把 vibe 当成纯政治阴谋，团队感受是真的会影响产出；「抽离/不投入」和「主动说错话」同样破坏氛围；真正该做的是主动挖更具体的反馈——追问到底是 vibe 的哪一面、什么时刻、谁这么觉得，直到能落到一个具体行为；可以选择不 play corporate theater，但要清楚代价：在非技术 org 里「感觉」比 metric 影响更大。中文双人配音（云希 Host + 云扬 Guest），Azure STT + GPT 翻译 + edge-tts，原片约 34m。来源：https://softskills.audio/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.44.0-sse-519/podcast_zh.mp3" length="14906109" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-519.png"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jamison Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>42:42</itunes:duration>
+    </item>
 
     <item>
       <title>EP42 · 王晓欣《音韵与译音——浅谈语言学与中国历史研究》</title>
