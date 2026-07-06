@@ -1,0 +1,1219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <title>中国文学史（陈引驰 · 欧丽娟）</title>
+    <link>https://huahuahu.github.io/podcast-lab/</link>
+    <language>zh-cn</language>
+    <copyright>版权归原讲者及所属大学所有。本 feed 仅作个人学习聚合。</copyright>
+    <description>复旦大学陈引驰教授与台湾大学欧丽娟教授合璧的《中国文学史》全 84 讲：陈引驰 P01–P50 走史纲脉络（神话·诗经·屈原·史传·诸子·秦汉·六朝·陶渊明·声律宫体），欧丽娟 P51–P84 同一时段更细读（先秦·楚辞·汉赋乐府·建安正始·西东晋·陶渊明·六朝小说·南北朝民歌山水·永明宫体）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。</description>
+    <lastBuildDate>Mon, 06 Jul 2026 23:30:00 +0800</lastBuildDate>
+    <generator>Podcast Lab</generator>
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    <ttl>60</ttl>
+
+    <atom:link href="https://huahuahu.github.io/podcast-lab/wenxueshi.xml" rel="self" type="application/rss+xml"/>
+
+    <image>
+      <url>https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png</url>
+      <title>中国文学史（陈引驰 · 欧丽娟）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+    </image>
+
+    <itunes:type>serial</itunes:type>
+    <itunes:author>陈引驰（复旦大学）· 欧丽娟（台湾大学）</itunes:author>
+    <itunes:summary>复旦大学陈引驰教授（P01–P50）与台湾大学欧丽娟教授（P51–P84）合璧的《中国文学史》全 84 讲。中文原音，passthrough 直发。</itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+    <itunes:category text="Arts">
+      <itunes:category text="Books"/>
+    </itunes:category>
+    <itunes:category text="Education">
+      <itunes:category text="Courses"/>
+    </itunes:category>
+    <itunes:owner>
+      <itunes:name>Podcast Lab</itunes:name>
+      <itunes:email>placeholder@example.com</itunes:email>
+    </itunes:owner>
+
+    <item>
+      <title>WSEP01 · 陈引驰 · 第1讲 关于“文学史”</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p01</guid>
+      <pubDate>Mon, 06 Jul 2026 23:30:00 +0800</pubDate>
+      <description>《中国文学史》系列第 1 讲（P01）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 24:02。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p01.mp3" length="12975543" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>1</itunes:episode>
+      <itunes:duration>24:02</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP02 · 陈引驰 · 第2讲 “文学”概念</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p02</guid>
+      <pubDate>Mon, 06 Jul 2026 23:29:00 +0800</pubDate>
+      <description>《中国文学史》系列第 2 讲（P02）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 25:55。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p02.mp3" length="13638111" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>2</itunes:episode>
+      <itunes:duration>25:55</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP03 · 陈引驰 · 第3讲 中国文学特质：语言形式</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p03</guid>
+      <pubDate>Mon, 06 Jul 2026 23:28:00 +0800</pubDate>
+      <description>《中国文学史》系列第 3 讲（P03）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 32:19。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p03.mp3" length="16778213" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>3</itunes:episode>
+      <itunes:duration>32:19</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP04 · 陈引驰 · 第4讲 中国文学特质：表现内容、现实经验、伦理、政治</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p04</guid>
+      <pubDate>Mon, 06 Jul 2026 23:27:00 +0800</pubDate>
+      <description>《中国文学史》系列第 4 讲（P04）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 22:25。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p04.mp3" length="11954443" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>4</itunes:episode>
+      <itunes:duration>22:25</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP05 · 陈引驰 · 第5讲 中国文学史鸟瞰：早期的中国文学史</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p05</guid>
+      <pubDate>Mon, 06 Jul 2026 23:26:00 +0800</pubDate>
+      <description>《中国文学史》系列第 5 讲（P05）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 23:36。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p05.mp3" length="12553810" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>5</itunes:episode>
+      <itunes:duration>23:36</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP06 · 陈引驰 · 第6讲 中国文学史鸟瞰：中古时期的中国文学史</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p06</guid>
+      <pubDate>Mon, 06 Jul 2026 23:25:00 +0800</pubDate>
+      <description>《中国文学史》系列第 6 讲（P06）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 23:03。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p06.mp3" length="12506622" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>6</itunes:episode>
+      <itunes:duration>23:03</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP07 · 陈引驰 · 第7讲 中国文学史鸟瞰：唐宋时期、近世（宋元明清）的中国文学史</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p07</guid>
+      <pubDate>Mon, 06 Jul 2026 23:24:00 +0800</pubDate>
+      <description>《中国文学史》系列第 7 讲（P07）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 22:09。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p07.mp3" length="12295996" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>7</itunes:episode>
+      <itunes:duration>22:09</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP08 · 陈引驰 · 第8讲 中国文学史鸟瞰：近代中国文学的转型 (2)</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p08</guid>
+      <pubDate>Mon, 06 Jul 2026 23:23:00 +0800</pubDate>
+      <description>《中国文学史》系列第 8 讲（P08）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 22:31。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p08.mp3" length="12840752" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>8</itunes:episode>
+      <itunes:duration>22:31</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP09 · 陈引驰 · 第9讲 不可重复的想象：上古神话</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p09</guid>
+      <pubDate>Mon, 06 Jul 2026 23:22:00 +0800</pubDate>
+      <description>《中国文学史》系列第 9 讲（P09）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 34:40。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p09.mp3" length="17347161" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>9</itunes:episode>
+      <itunes:duration>34:40</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP10 · 陈引驰 · 第10讲 诗经（一）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p10</guid>
+      <pubDate>Mon, 06 Jul 2026 23:21:00 +0800</pubDate>
+      <description>《中国文学史》系列第 10 讲（P10）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 22:05。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p10.mp3" length="11635373" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>10</itunes:episode>
+      <itunes:duration>22:05</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP11 · 陈引驰 · 第11讲 诗经（二）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p11</guid>
+      <pubDate>Mon, 06 Jul 2026 23:20:00 +0800</pubDate>
+      <description>《中国文学史》系列第 11 讲（P11）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 22:02。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p11.mp3" length="11595691" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>11</itunes:episode>
+      <itunes:duration>22:02</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP12 · 陈引驰 · 第12讲 诗经（三）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p12</guid>
+      <pubDate>Mon, 06 Jul 2026 23:19:00 +0800</pubDate>
+      <description>《中国文学史》系列第 12 讲（P12）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 22:09。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p12.mp3" length="11823606" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>12</itunes:episode>
+      <itunes:duration>22:09</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP13 · 陈引驰 · 第13讲 诗经（四）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p13</guid>
+      <pubDate>Mon, 06 Jul 2026 23:18:00 +0800</pubDate>
+      <description>《中国文学史》系列第 13 讲（P13）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 30:03。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p13.mp3" length="15022324" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>13</itunes:episode>
+      <itunes:duration>30:03</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP14 · 陈引驰 · 第14讲 屈原（一）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p14</guid>
+      <pubDate>Mon, 06 Jul 2026 23:17:00 +0800</pubDate>
+      <description>《中国文学史》系列第 14 讲（P14）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 32:25。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p14.mp3" length="16017749" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>14</itunes:episode>
+      <itunes:duration>32:25</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP15 · 陈引驰 · 第15讲 屈原（二）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p15</guid>
+      <pubDate>Mon, 06 Jul 2026 23:16:00 +0800</pubDate>
+      <description>《中国文学史》系列第 15 讲（P15）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 23:20。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p15.mp3" length="12389595" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>15</itunes:episode>
+      <itunes:duration>23:20</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP16 · 陈引驰 · 第16讲 屈原（三） (2)</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p16</guid>
+      <pubDate>Mon, 06 Jul 2026 23:15:00 +0800</pubDate>
+      <description>《中国文学史》系列第 16 讲（P16）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 22:25。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p16.mp3" length="12114596" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>16</itunes:episode>
+      <itunes:duration>22:25</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP17 · 陈引驰 · 第17讲 屈原（四）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p17</guid>
+      <pubDate>Mon, 06 Jul 2026 23:14:00 +0800</pubDate>
+      <description>《中国文学史》系列第 17 讲（P17）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 22:08。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p17.mp3" length="11679225" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>17</itunes:episode>
+      <itunes:duration>22:08</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP18 · 陈引驰 · 第18讲 屈原（五）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p18</guid>
+      <pubDate>Mon, 06 Jul 2026 23:13:00 +0800</pubDate>
+      <description>《中国文学史》系列第 18 讲（P18）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 22:36。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p18.mp3" length="12072197" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>18</itunes:episode>
+      <itunes:duration>22:36</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP19 · 陈引驰 · 第19讲 历史叙述和文学（一）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p19</guid>
+      <pubDate>Mon, 06 Jul 2026 23:12:00 +0800</pubDate>
+      <description>《中国文学史》系列第 19 讲（P19）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 26:15。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p19.mp3" length="13740579" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>19</itunes:episode>
+      <itunes:duration>26:15</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP20 · 陈引驰 · 第20讲 历史叙述和文学（二）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p20</guid>
+      <pubDate>Mon, 06 Jul 2026 23:11:00 +0800</pubDate>
+      <description>《中国文学史》系列第 20 讲（P20）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 26:33。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p20.mp3" length="13707133" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>20</itunes:episode>
+      <itunes:duration>26:33</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP21 · 陈引驰 · 第21讲 历史叙述和文学（三）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p21</guid>
+      <pubDate>Mon, 06 Jul 2026 23:10:00 +0800</pubDate>
+      <description>《中国文学史》系列第 21 讲（P21）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 22:15。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p21.mp3" length="12842327" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>21</itunes:episode>
+      <itunes:duration>22:15</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP22 · 陈引驰 · 第22讲 历史叙述和文学（四）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p22</guid>
+      <pubDate>Mon, 06 Jul 2026 23:09:00 +0800</pubDate>
+      <description>《中国文学史》系列第 22 讲（P22）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 22:20。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p22.mp3" length="11883456" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>22</itunes:episode>
+      <itunes:duration>22:20</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP23 · 陈引驰 · 第23讲 诸子散文（一）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p23</guid>
+      <pubDate>Mon, 06 Jul 2026 23:08:00 +0800</pubDate>
+      <description>《中国文学史》系列第 23 讲（P23）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 23:00。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p23.mp3" length="11581629" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>23</itunes:episode>
+      <itunes:duration>23:00</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP24 · 陈引驰 · 第24讲 诸子散文（二）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p24</guid>
+      <pubDate>Mon, 06 Jul 2026 23:07:00 +0800</pubDate>
+      <description>《中国文学史》系列第 24 讲（P24）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 22:23。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p24.mp3" length="11769817" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>24</itunes:episode>
+      <itunes:duration>22:23</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP25 · 陈引驰 · 第25讲 诸子散文（三）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p25</guid>
+      <pubDate>Mon, 06 Jul 2026 23:06:00 +0800</pubDate>
+      <description>《中国文学史》系列第 25 讲（P25）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 23:03。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p25.mp3" length="12006176" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>25</itunes:episode>
+      <itunes:duration>23:03</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP26 · 陈引驰 · 第26讲 诸子散文（四）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p26</guid>
+      <pubDate>Mon, 06 Jul 2026 23:05:00 +0800</pubDate>
+      <description>《中国文学史》系列第 26 讲（P26）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 22:53。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p26.mp3" length="11799888" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>26</itunes:episode>
+      <itunes:duration>22:53</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP27 · 陈引驰 · 第27讲 诸子散文（五）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p27</guid>
+      <pubDate>Mon, 06 Jul 2026 23:04:00 +0800</pubDate>
+      <description>《中国文学史》系列第 27 讲（P27）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 22:33。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p27.mp3" length="11380290" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>27</itunes:episode>
+      <itunes:duration>22:33</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP28 · 陈引驰 · 第28讲 诸子散文（六）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p28</guid>
+      <pubDate>Mon, 06 Jul 2026 23:03:00 +0800</pubDate>
+      <description>《中国文学史》系列第 28 讲（P28）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 29:44。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p28.mp3" length="14982173" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>28</itunes:episode>
+      <itunes:duration>29:44</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP29 · 陈引驰 · 第29讲 秦汉的政治与史传 (2)</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p29</guid>
+      <pubDate>Mon, 06 Jul 2026 23:02:00 +0800</pubDate>
+      <description>《中国文学史》系列第 29 讲（P29）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 22:24。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p29.mp3" length="11657527" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>29</itunes:episode>
+      <itunes:duration>22:24</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP30 · 陈引驰 · 第30讲 秦汉文学（一）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p30</guid>
+      <pubDate>Mon, 06 Jul 2026 23:01:00 +0800</pubDate>
+      <description>《中国文学史》系列第 30 讲（P30）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 23:59。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p30.mp3" length="12283222" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>30</itunes:episode>
+      <itunes:duration>23:59</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP31 · 陈引驰 · 第31讲 秦汉文学（二）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p31</guid>
+      <pubDate>Mon, 06 Jul 2026 23:00:00 +0800</pubDate>
+      <description>《中国文学史》系列第 31 讲（P31）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 24:09。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p31.mp3" length="13000691" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>31</itunes:episode>
+      <itunes:duration>24:09</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP32 · 陈引驰 · 第32讲 秦汉文学（三）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p32</guid>
+      <pubDate>Mon, 06 Jul 2026 22:59:00 +0800</pubDate>
+      <description>《中国文学史》系列第 32 讲（P32）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 23:03。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p32.mp3" length="12081665" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>32</itunes:episode>
+      <itunes:duration>23:03</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP33 · 陈引驰 · 第33讲 秦汉文学（四）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p33</guid>
+      <pubDate>Mon, 06 Jul 2026 22:58:00 +0800</pubDate>
+      <description>《中国文学史》系列第 33 讲（P33）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 24:40。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p33.mp3" length="12494712" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>33</itunes:episode>
+      <itunes:duration>24:40</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP34 · 陈引驰 · 第34讲 秦汉文学（五）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p34</guid>
+      <pubDate>Mon, 06 Jul 2026 22:57:00 +0800</pubDate>
+      <description>《中国文学史》系列第 34 讲（P34）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 25:27。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p34.mp3" length="13448093" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>34</itunes:episode>
+      <itunes:duration>25:27</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP35 · 陈引驰 · 第35讲 秦汉文学（六）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p35</guid>
+      <pubDate>Mon, 06 Jul 2026 22:56:00 +0800</pubDate>
+      <description>《中国文学史》系列第 35 讲（P35）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 23:51。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p35.mp3" length="12743172" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>35</itunes:episode>
+      <itunes:duration>23:51</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP36 · 陈引驰 · 第36讲 秦汉文学（七）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p36</guid>
+      <pubDate>Mon, 06 Jul 2026 22:55:00 +0800</pubDate>
+      <description>《中国文学史》系列第 36 讲（P36）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 22:41。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p36.mp3" length="11564006" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>36</itunes:episode>
+      <itunes:duration>22:41</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP37 · 陈引驰 · 第37讲 秦汉文学（八）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p37</guid>
+      <pubDate>Mon, 06 Jul 2026 22:54:00 +0800</pubDate>
+      <description>《中国文学史》系列第 37 讲（P37）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 19:43。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p37.mp3" length="10700156" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>37</itunes:episode>
+      <itunes:duration>19:43</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP38 · 陈引驰 · 第38讲 秦汉文学（九）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p38</guid>
+      <pubDate>Mon, 06 Jul 2026 22:53:00 +0800</pubDate>
+      <description>《中国文学史》系列第 38 讲（P38）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 23:34。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p38.mp3" length="12885558" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>38</itunes:episode>
+      <itunes:duration>23:34</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP39 · 陈引驰 · 第39讲 秦汉文学（十）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p39</guid>
+      <pubDate>Mon, 06 Jul 2026 22:52:00 +0800</pubDate>
+      <description>《中国文学史》系列第 39 讲（P39）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 22:25。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p39.mp3" length="12077050" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>39</itunes:episode>
+      <itunes:duration>22:25</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP40 · 陈引驰 · 第40讲 秦汉文学（十一）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p40</guid>
+      <pubDate>Mon, 06 Jul 2026 22:51:00 +0800</pubDate>
+      <description>《中国文学史》系列第 40 讲（P40）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 27:45。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p40.mp3" length="14910510" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>40</itunes:episode>
+      <itunes:duration>27:45</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP41 · 陈引驰 · 第41讲 六朝诗（一） (2)</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p41</guid>
+      <pubDate>Mon, 06 Jul 2026 22:50:00 +0800</pubDate>
+      <description>《中国文学史》系列第 41 讲（P41）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 22:54。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p41.mp3" length="12163482" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>41</itunes:episode>
+      <itunes:duration>22:54</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP42 · 陈引驰 · 第42讲 六朝诗（二）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p42</guid>
+      <pubDate>Mon, 06 Jul 2026 22:49:00 +0800</pubDate>
+      <description>《中国文学史》系列第 42 讲（P42）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 22:03。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p42.mp3" length="11832954" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>42</itunes:episode>
+      <itunes:duration>22:03</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP43 · 陈引驰 · 第43讲 六朝诗（三）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p43</guid>
+      <pubDate>Mon, 06 Jul 2026 22:48:00 +0800</pubDate>
+      <description>《中国文学史》系列第 43 讲（P43）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 22:26。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p43.mp3" length="12441158" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>43</itunes:episode>
+      <itunes:duration>22:26</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP44 · 陈引驰 · 第44讲 六朝诗（四）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p44</guid>
+      <pubDate>Mon, 06 Jul 2026 22:47:00 +0800</pubDate>
+      <description>《中国文学史》系列第 44 讲（P44）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 18:10。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p44.mp3" length="10244753" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>44</itunes:episode>
+      <itunes:duration>18:10</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP45 · 陈引驰 · 第45讲 陶渊明诗史地位（一）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p45</guid>
+      <pubDate>Mon, 06 Jul 2026 22:46:00 +0800</pubDate>
+      <description>《中国文学史》系列第 45 讲（P45）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 22:47。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p45.mp3" length="12341888" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>45</itunes:episode>
+      <itunes:duration>22:47</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP46 · 陈引驰 · 第46讲 陶渊明诗史地位（二）mp4</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p46</guid>
+      <pubDate>Mon, 06 Jul 2026 22:45:00 +0800</pubDate>
+      <description>《中国文学史》系列第 46 讲（P46）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 22:19。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p46.mp3" length="12135605" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>46</itunes:episode>
+      <itunes:duration>22:19</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP47 · 陈引驰 · 第47讲 陶渊明诗史地位（一）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p47</guid>
+      <pubDate>Mon, 06 Jul 2026 22:44:00 +0800</pubDate>
+      <description>《中国文学史》系列第 47 讲（P47）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 22:50。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p47.mp3" length="12760179" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>47</itunes:episode>
+      <itunes:duration>22:50</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP48 · 陈引驰 · 第48讲 陶渊明诗史地位（一）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p48</guid>
+      <pubDate>Mon, 06 Jul 2026 22:43:00 +0800</pubDate>
+      <description>《中国文学史》系列第 48 讲（P48）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 18:47。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p48.mp3" length="10723442" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>48</itunes:episode>
+      <itunes:duration>18:47</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP49 · 陈引驰 · 第49讲 声律与宫体（一）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p49</guid>
+      <pubDate>Mon, 06 Jul 2026 22:42:00 +0800</pubDate>
+      <description>《中国文学史》系列第 49 讲（P49）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 22:03。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p49.mp3" length="11398652" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>49</itunes:episode>
+      <itunes:duration>22:03</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP50 · 陈引驰 · 第50讲 声律与宫体（二）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p50</guid>
+      <pubDate>Mon, 06 Jul 2026 22:41:00 +0800</pubDate>
+      <description>《中国文学史》系列第 50 讲（P50）。主讲：陈引驰（复旦大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 17:34。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p50.mp3" length="9620537" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>陈引驰（复旦大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>50</itunes:episode>
+      <itunes:duration>17:34</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP51 · 欧丽娟 · 第1讲 序论：何谓文学</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p51</guid>
+      <pubDate>Mon, 06 Jul 2026 22:40:00 +0800</pubDate>
+      <description>《中国文学史》系列第 51 讲（P51）。主讲：欧丽娟（台湾大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 1:42:41。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p51.mp3" length="58788648" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>欧丽娟（台湾大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>51</itunes:episode>
+      <itunes:duration>1:42:41</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP52 · 欧丽娟 · 第2讲 先秦文学：非纯文学</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p52</guid>
+      <pubDate>Mon, 06 Jul 2026 22:39:00 +0800</pubDate>
+      <description>《中国文学史》系列第 52 讲（P52）。主讲：欧丽娟（台湾大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 2:04:02。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p52.mp3" length="50840691" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>欧丽娟（台湾大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>52</itunes:episode>
+      <itunes:duration>2:04:02</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP53 · 欧丽娟 · 第3讲 先秦文学：寓言</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p53</guid>
+      <pubDate>Mon, 06 Jul 2026 22:38:00 +0800</pubDate>
+      <description>《中国文学史》系列第 53 讲（P53）。主讲：欧丽娟（台湾大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 1:49:48。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p53.mp3" length="45667029" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>欧丽娟（台湾大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>53</itunes:episode>
+      <itunes:duration>1:49:48</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP54 · 欧丽娟 · 第4讲 诗经：纯文学的发生</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p54</guid>
+      <pubDate>Mon, 06 Jul 2026 22:37:00 +0800</pubDate>
+      <description>《中国文学史》系列第 54 讲（P54）。主讲：欧丽娟（台湾大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 1:28:07。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p54.mp3" length="53286027" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>欧丽娟（台湾大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>54</itunes:episode>
+      <itunes:duration>1:28:07</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP55 · 欧丽娟 · 第5讲 诗经：诗六艺</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p55</guid>
+      <pubDate>Mon, 06 Jul 2026 22:36:00 +0800</pubDate>
+      <description>《中国文学史》系列第 55 讲（P55）。主讲：欧丽娟（台湾大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 1:53:42。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p55.mp3" length="47667738" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>欧丽娟（台湾大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>55</itunes:episode>
+      <itunes:duration>1:53:42</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP56 · 欧丽娟 · 第6讲 楚辞：概说</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p56</guid>
+      <pubDate>Mon, 06 Jul 2026 22:35:00 +0800</pubDate>
+      <description>《中国文学史》系列第 56 讲（P56）。主讲：欧丽娟（台湾大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 2:37:16。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p56.mp3" length="65232063" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>欧丽娟（台湾大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>56</itunes:episode>
+      <itunes:duration>2:37:16</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP57 · 欧丽娟 · 第7讲 楚辞 II</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p57</guid>
+      <pubDate>Mon, 06 Jul 2026 22:34:00 +0800</pubDate>
+      <description>《中国文学史》系列第 57 讲（P57）。主讲：欧丽娟（台湾大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 2:29:56。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p57.mp3" length="61072857" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>欧丽娟（台湾大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>57</itunes:episode>
+      <itunes:duration>2:29:56</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP58 · 欧丽娟 · 第8讲 楚辞：宋玉</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p58</guid>
+      <pubDate>Mon, 06 Jul 2026 22:33:00 +0800</pubDate>
+      <description>《中国文学史》系列第 58 讲（P58）。主讲：欧丽娟（台湾大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 1:57:28。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p58.mp3" length="49016295" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>欧丽娟（台湾大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>58</itunes:episode>
+      <itunes:duration>1:57:28</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP59 · 欧丽娟 · 第9讲 汉代文学：总论</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p59</guid>
+      <pubDate>Mon, 06 Jul 2026 22:32:00 +0800</pubDate>
+      <description>《中国文学史》系列第 59 讲（P59）。主讲：欧丽娟（台湾大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 2:39:25。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p59.mp3" length="65872221" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>欧丽娟（台湾大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>59</itunes:episode>
+      <itunes:duration>2:39:25</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP60 · 欧丽娟 · 第10讲 汉代文学：汉赋</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p60</guid>
+      <pubDate>Mon, 06 Jul 2026 22:31:00 +0800</pubDate>
+      <description>《中国文学史》系列第 60 讲（P60）。主讲：欧丽娟（台湾大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 2:36:56。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p60.mp3" length="65006302" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>欧丽娟（台湾大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>60</itunes:episode>
+      <itunes:duration>2:36:56</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP61 · 欧丽娟 · 第11讲 汉代文学：乐府民歌</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p61</guid>
+      <pubDate>Mon, 06 Jul 2026 22:30:00 +0800</pubDate>
+      <description>《中国文学史》系列第 61 讲（P61）。主讲：欧丽娟（台湾大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 2:45:19。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p61.mp3" length="97595044" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>欧丽娟（台湾大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>61</itunes:episode>
+      <itunes:duration>2:45:19</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP62 · 欧丽娟 · 第12讲 汉代文学：文人诗</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p62</guid>
+      <pubDate>Mon, 06 Jul 2026 22:29:00 +0800</pubDate>
+      <description>《中国文学史》系列第 62 讲（P62）。主讲：欧丽娟（台湾大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 2:10:46。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p62.mp3" length="74851897" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>欧丽娟（台湾大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>62</itunes:episode>
+      <itunes:duration>2:10:46</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP63 · 欧丽娟 · 第13讲 汉代文学：五言诗</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p63</guid>
+      <pubDate>Mon, 06 Jul 2026 22:28:00 +0800</pubDate>
+      <description>《中国文学史》系列第 63 讲（P63）。主讲：欧丽娟（台湾大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 2:52:32。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p63.mp3" length="97755169" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>欧丽娟（台湾大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>63</itunes:episode>
+      <itunes:duration>2:52:32</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP64 · 欧丽娟 · 第14讲 魏晋文学：概述</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p64</guid>
+      <pubDate>Mon, 06 Jul 2026 22:27:00 +0800</pubDate>
+      <description>《中国文学史》系列第 64 讲（P64）。主讲：欧丽娟（台湾大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 52:33。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p64.mp3" length="32413630" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>欧丽娟（台湾大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>64</itunes:episode>
+      <itunes:duration>52:33</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP65 · 欧丽娟 · 第15讲 魏晋文学 II</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p65</guid>
+      <pubDate>Mon, 06 Jul 2026 22:26:00 +0800</pubDate>
+      <description>《中国文学史》系列第 65 讲（P65）。主讲：欧丽娟（台湾大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 2:13:41。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p65.mp3" length="79033984" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>欧丽娟（台湾大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>65</itunes:episode>
+      <itunes:duration>2:13:41</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP66 · 欧丽娟 · 第16讲 魏晋文学：建安文学</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p66</guid>
+      <pubDate>Mon, 06 Jul 2026 22:25:00 +0800</pubDate>
+      <description>《中国文学史》系列第 66 讲（P66）。主讲：欧丽娟（台湾大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 2:01:36。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p66.mp3" length="72861748" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>欧丽娟（台湾大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>66</itunes:episode>
+      <itunes:duration>2:01:36</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP67 · 欧丽娟 · 第17讲 魏晋文学：建安文学 II</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p67</guid>
+      <pubDate>Mon, 06 Jul 2026 22:24:00 +0800</pubDate>
+      <description>《中国文学史》系列第 67 讲（P67）。主讲：欧丽娟（台湾大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 1:11:08。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p67.mp3" length="43337983" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>欧丽娟（台湾大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>67</itunes:episode>
+      <itunes:duration>1:11:08</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP68 · 欧丽娟 · 第18讲 魏晋文学：正始玄风</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p68</guid>
+      <pubDate>Mon, 06 Jul 2026 22:23:00 +0800</pubDate>
+      <description>《中国文学史》系列第 68 讲（P68）。主讲：欧丽娟（台湾大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 1:06:50。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p68.mp3" length="41409244" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>欧丽娟（台湾大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>68</itunes:episode>
+      <itunes:duration>1:06:50</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP69 · 欧丽娟 · 第19讲 魏晋文学：阮籍</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p69</guid>
+      <pubDate>Mon, 06 Jul 2026 22:22:00 +0800</pubDate>
+      <description>《中国文学史》系列第 69 讲（P69）。主讲：欧丽娟（台湾大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 2:16:35。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p69.mp3" length="81934822" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>欧丽娟（台湾大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>69</itunes:episode>
+      <itunes:duration>2:16:35</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP70 · 欧丽娟 · 第20讲 西晋文学：六朝的巧构形似之言</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p70</guid>
+      <pubDate>Mon, 06 Jul 2026 22:21:00 +0800</pubDate>
+      <description>《中国文学史》系列第 70 讲（P70）。主讲：欧丽娟（台湾大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 2:18:46。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p70.mp3" length="79687075" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>欧丽娟（台湾大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>70</itunes:episode>
+      <itunes:duration>2:18:46</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP71 · 欧丽娟 · 第21讲 西晋文学：拟古诗</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p71</guid>
+      <pubDate>Mon, 06 Jul 2026 22:20:00 +0800</pubDate>
+      <description>《中国文学史》系列第 71 讲（P71）。主讲：欧丽娟（台湾大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 2:08:27。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p71.mp3" length="74150377" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>欧丽娟（台湾大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>71</itunes:episode>
+      <itunes:duration>2:08:27</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP72 · 欧丽娟 · 第22讲 东晋文学：左思</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p72</guid>
+      <pubDate>Mon, 06 Jul 2026 22:19:00 +0800</pubDate>
+      <description>《中国文学史》系列第 72 讲（P72）。主讲：欧丽娟（台湾大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 2:08:24。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p72.mp3" length="73144366" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>欧丽娟（台湾大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>72</itunes:episode>
+      <itunes:duration>2:08:24</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP73 · 欧丽娟 · 第23讲 东晋文学概说</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p73</guid>
+      <pubDate>Mon, 06 Jul 2026 22:18:00 +0800</pubDate>
+      <description>《中国文学史》系列第 73 讲（P73）。主讲：欧丽娟（台湾大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 1:25:24。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p73.mp3" length="49588819" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>欧丽娟（台湾大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>73</itunes:episode>
+      <itunes:duration>1:25:24</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP74 · 欧丽娟 · 第24讲 东晋文学：郭璞与游仙诗</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p74</guid>
+      <pubDate>Mon, 06 Jul 2026 22:17:00 +0800</pubDate>
+      <description>《中国文学史》系列第 74 讲（P74）。主讲：欧丽娟（台湾大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 2:42:36。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p74.mp3" length="96269338" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>欧丽娟（台湾大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>74</itunes:episode>
+      <itunes:duration>2:42:36</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP75 · 欧丽娟 · 第25讲 东晋文学：陶渊明</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p75</guid>
+      <pubDate>Mon, 06 Jul 2026 22:16:00 +0800</pubDate>
+      <description>《中国文学史》系列第 75 讲（P75）。主讲：欧丽娟（台湾大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 4:20:41。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p75.mp3" length="152864089" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>欧丽娟（台湾大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>75</itunes:episode>
+      <itunes:duration>4:20:41</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP76 · 欧丽娟 · 第26讲 六朝小说概论</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p76</guid>
+      <pubDate>Mon, 06 Jul 2026 22:15:00 +0800</pubDate>
+      <description>《中国文学史》系列第 76 讲（P76）。主讲：欧丽娟（台湾大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 1:36:38。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p76.mp3" length="57525643" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>欧丽娟（台湾大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>76</itunes:episode>
+      <itunes:duration>1:36:38</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP77 · 欧丽娟 · 第27讲 六朝志怪小说</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p77</guid>
+      <pubDate>Mon, 06 Jul 2026 22:14:00 +0800</pubDate>
+      <description>《中国文学史》系列第 77 讲（P77）。主讲：欧丽娟（台湾大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 2:59:49。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p77.mp3" length="107188531" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>欧丽娟（台湾大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>77</itunes:episode>
+      <itunes:duration>2:59:49</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP78 · 欧丽娟 · 第28讲 南北朝民歌：概论</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p78</guid>
+      <pubDate>Mon, 06 Jul 2026 22:13:00 +0800</pubDate>
+      <description>《中国文学史》系列第 78 讲（P78）。主讲：欧丽娟（台湾大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 3:05:26。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p78.mp3" length="105902353" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>欧丽娟（台湾大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>78</itunes:episode>
+      <itunes:duration>3:05:26</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP79 · 欧丽娟 · 第29讲 南北朝诗歌：文学</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p79</guid>
+      <pubDate>Mon, 06 Jul 2026 22:12:00 +0800</pubDate>
+      <description>《中国文学史》系列第 79 讲（P79）。主讲：欧丽娟（台湾大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 1:09:38。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p79.mp3" length="41061385" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>欧丽娟（台湾大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>79</itunes:episode>
+      <itunes:duration>1:09:38</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP80 · 欧丽娟 · 第30讲 南北朝诗歌：山水诗</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p80</guid>
+      <pubDate>Mon, 06 Jul 2026 22:11:00 +0800</pubDate>
+      <description>《中国文学史》系列第 80 讲（P80）。主讲：欧丽娟（台湾大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 1:43:19。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p80.mp3" length="61752244" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>欧丽娟（台湾大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>80</itunes:episode>
+      <itunes:duration>1:43:19</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP81 · 欧丽娟 · 第31讲 谢灵运</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p81</guid>
+      <pubDate>Mon, 06 Jul 2026 22:10:00 +0800</pubDate>
+      <description>《中国文学史》系列第 81 讲（P81）。主讲：欧丽娟（台湾大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 3:49:19。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p81.mp3" length="129009226" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>欧丽娟（台湾大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>81</itunes:episode>
+      <itunes:duration>3:49:19</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP82 · 欧丽娟 · 第32讲 鲍照</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p82</guid>
+      <pubDate>Mon, 06 Jul 2026 22:09:00 +0800</pubDate>
+      <description>《中国文学史》系列第 82 讲（P82）。主讲：欧丽娟（台湾大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 1:39:18。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p82.mp3" length="59509111" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>欧丽娟（台湾大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>82</itunes:episode>
+      <itunes:duration>1:39:18</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP83 · 欧丽娟 · 第33讲 永明体</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p83</guid>
+      <pubDate>Mon, 06 Jul 2026 22:08:00 +0800</pubDate>
+      <description>《中国文学史》系列第 83 讲（P83）。主讲：欧丽娟（台湾大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 3:01:53。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p83.mp3" length="108204634" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>欧丽娟（台湾大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>83</itunes:episode>
+      <itunes:duration>3:01:53</itunes:duration>
+    </item>
+    <item>
+      <title>WSEP84 · 欧丽娟 · 第34讲 宫体诗</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wenxueshi-p84</guid>
+      <pubDate>Mon, 06 Jul 2026 22:07:00 +0800</pubDate>
+      <description>《中国文学史》系列第 84 讲（P84）。主讲：欧丽娟（台湾大学）。中文原音搬运自 B 站合集（BV1GDgczeE1G），passthrough 直发，未做转写。时长约 2:08:04。来源：https://www.bilibili.com/video/BV1GDgczeE1G/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v1.0.0-wenxueshi/p84.mp3" length="76221634" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wenxueshi.png"/>
+      <category>Arts</category>
+      <itunes:author>欧丽娟（台湾大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>84</itunes:episode>
+      <itunes:duration>2:08:04</itunes:duration>
+    </item>
+  </channel>
+</rss>
