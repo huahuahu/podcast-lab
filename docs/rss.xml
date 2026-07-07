@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Thu, 02 Jul 2026 08:20:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 08:35:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,20 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP47 · 老团队人手一个 AI &amp; 代码没人管（SSE 520）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-520</guid>
+      <pubDate>Tue, 07 Jul 2026 08:35:00 +0800</pubDate>
+      <description>Soft Skills Engineering 第 520 期中文双人配音。两个问题：(1) 老听众回到以前合作过的团队，之前离开时 AI 编程还没起来，这个团队是他共事过「技术最扎实 + 人也最好」的一群人；回来一看几乎所有人都靠 AI 写代码，PR 描述全 AI 生成，code review 变成把 AI 建议复制粘贴到 GitHub。作为远程团队本来连接感就弱，现在他感觉几乎所有互动都是「他的 AI 助手在跟我的 AI 助手说话」；受不了失去 craftsmanship、参与感和互相学习，但不想变成刚回来就把老规矩塞回全组的人。Dave / Jamison 的看法：完全共情——协作里最珍贵的是从别人那里学、看别人怎么想问题，AI 中介化会把这层洗掉；这也不是全新问题——世纪之交做企业软件那阵子一样有过一波涌入 + 尚未沉淀的协作规范；不要幻想稳定终态，只是形式在变；面试要多问同事画像；可以自己不这样做 code review 保留 craftsmanship，但要接受你和团队的距离会一直存在，甚至可能就是走人的时机。(2) 中级全栈开发跳槽被 bait-and-switch：说好带新 squad，入职第一天发现 squad 计划被砍，一个现有开发被提拔成 sole lead，他被塞进那个 squad；团队构成是这个 lead + 两位 20 年 VB6 老兵 + 他；代码库无法无天：直连数据库、fat controllers、动辄一两千行的类、复制粘贴样板，还有严重 broken access control (OWASP #1)，认证用户能通过 email 查询字符串拉出任何人 PII；同事狂用 AI 但从不 review，一直提交「AI slop」，他停下不收拾都没人发现。他已经在找下家，问 bait-and-switch 怎么办 + 走前怎么保持理智。Dave / Jamison 的看法：先分清「被 bait-and-switch」（核心委屈）和「代码库烂 + VB6 老兵」（其实完全可预期）；20 年 VB6 老兵组合本身就是强 code smell；保持理智：不要再帮他们收拾 AI slop——停下反而更清楚组织真实状态，把精力留给面试和自我建设；顺便做一次「什么样的团队是我要的」的复盘，把这次踩到的信号写进下一次面试 checklist。中文双人配音（云希 Host + 云扬 Guest），Azure STT + GPT 翻译 + edge-tts，原片约 40m。来源：https://softskills.audio/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.48.0-sse-520/podcast_zh.mp3" length="17457093" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-520.png"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jamison Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>49:45</itunes:duration>
+    </item>
 
     <item>
       <title>EP46 · 叶舒宪《新神话主义与文化资本》</title>
