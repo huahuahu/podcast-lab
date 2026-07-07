@@ -91,9 +91,10 @@ bash scripts/publish/final_acceptance.sh <slug>
 - `lane_translate.sh` 末尾根据 “meta.series == softskills_engineering” 或 **slug 前缀 `sse-`** 触发，所以本地 mp3 / direct_mp3 进来的 SSE 集也会自动分章。
 - 内置 `detect_sse` 靠 LEAD 词则（“说下一个问题” / “亲爱的 SSE”等）划分 Q1/Q2，中译本偶尔会让 LEAD 变迷路。只识出 1–2 章时：
   1. 看 `transcript/dialog_zh.json` 手工找 Q1/Q2 入口 idx（提示词：“亲爱 / 这位听众 / Anon E. Mouse / 该不该…”）
-  2. 读 `transcript/timings.json` 拿 `start_ms`，手写 `transcript/chapters.json`（样本：sse-512）
-  3. 跑 `python3 scripts/add_chapters.py <proj>`，会读已有 chapters.json 重写 mp3。
+  2. 读 `transcript/timings.json` 拿 `start_ms`，手写 `transcript/chapters.json`（样本：sse-512、sse-520）
+  3. `chapters.json` 写好后不能直接跑 `add_chapters.py`（会重新 detect 覆写）——手写一段 python 把 chapters + timings 拼成 `ffmetadata.txt`，直接调 `ffmpeg -i bak -i ffmetadata.txt -map_metadata 1 -codec copy` 写回 mp3。
   4. 重传 release（`gh release upload ... --clobber`）并同步 RSS 里的 `enclosure length`（看 `curl -sIL <mp3-url> | grep content-length`）。
+- **2026-07-07 sse-520**：detect_sse 只识出 Q2 的 LEAD (“我已经赢得了读…”)，Q1 的信件正文直接从开场拉到 Dave 读，没有 LEAD 句 → 转而把 Q2 错标成“问题 1”。手补 Q1 (07:23) 后才 3 章。TODO：考虑把 detect_sse 添一条“Letter opener”信号（“Hi Jamison and Dave / Long time listener” 之类）作为 Q1 fallback 入口。
 
 ### 7. 本地 / direct_mp3 进来的 “series=null” 坑
 - `adapter_local.sh` / `direct_mp3` 写 `meta.json` 时 `series=null`。以前会让 `lane_translate` 最后那步 add_chapters 被跳过（于是 sse-512 首发没带章节）。
