@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Wed, 08 Jul 2026 07:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 08:40:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,34 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP50 · Soft Skills Engineering #522 · 在第一家公司待太久 &amp; 转行读硕士还是本科</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-522</guid>
+      <pubDate>Sun, 26 Jul 2026 08:40:00 +0800</pubDate>
+      <description>Soft Skills Engineering 第 522 期中文双人配音。两个问题：(1) 2022 年毕业几乎立刻接了实习那家公司的全职 offer，一晃到 2026 年年中还在原地，快 4 年只做过一个 CLI 工具，几乎没有 cloud/后端经验，人在 Canada 想搬 Europe，感到在市场上没吸引力也不知怎么破局。Dave / Jamison 的看法：你没有真的被困住，只是感觉被困住——不会有什么东西凭空把你弹出去，得自己动手。第一层是 job crafting，不辞职改造工作内容，最有效的做法是自己先去找项目/团队/roadmap 上的坑、跟相关人聊过，再回头找经理只回答 yes/no，别让经理替你找机会；更进一步是自己创造机会，发现公司还没在做但值得做的事主动提出来。如果心里其实想走那就先动起来——4 年积累的公司人脉是资产，联系那些已经跳到别的地方的老同事远比海投冷申管用；现在环境难（LLM 简历一堆），但顺手投一投成本很低，也是联系 recruiter 说「我在找新工作」的好时机。(2) 非 CS 工程背景想转行做软件工程，公司报学费，post-bacc 本科 vs. 硕士选哪个更好找工作？Dave / Jamison 的看法：硕士夹在 PhD 和「本科/什么都没有」中间是个尴尬中间地带，Jamison 招人时硕士几乎不加分，唯一说明的事情是「这个人在没工作的情况下把它读完了」；更值钱的是实打实的软件开发经验——业余项目、自学、在现在公司里接开发的活，两年这样的经验比一个硕士学位有用。但结合来信人的具体情况：公司给报学费相当于省几万美元，如果能找到晚上课或不影响白天工作的项目，就是几乎零成本的资历补齐，值得读。更重要的是对自己诚实：说「先接受正规训练再开始做 software development」而没开始，答案往往是「其实没那么想做」；反过来说，如果你就是那种需要外部结构才能逼自己学的人，读硕士本身作为「结构化催逼」就是有价值的。中文双人配音（云希 Host + 云扬 Guest），Azure STT + GPT 翻译 + edge-tts，原片约 29m。来源：https://softskills.audio/2026/07/20/episode-522-i-stayed-too-long-at-my-first-job-and-should-i-get-a-masters-degree/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.51.0-sse-522/podcast_zh.mp3" length="11804340" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-522.png"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jamison Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>33:40</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP49 · Soft Skills Engineering #521 · 该不该谈涨薪 &amp; 干得好为什么升不了职</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-521</guid>
+      <pubDate>Sun, 26 Jul 2026 08:35:00 +0800</pubDate>
+      <description>Soft Skills Engineering 第 521 期中文双人配音。两个问题：(1) 有 10 年经验的工程师失业将近一年，快拿到一家大公司 offer，行情差不敢去谈涨薪、怕 offer 被撤，但也不甘白拿。Dave / Jamison 的看法：offer 直接被撤概率不大，但你冒的风险不是「少拿几 k」而是「把整张桌子丢了」——失业一年成本比 5k 涨幅高多了；大公司谈判空间本来就小，hiring manager 能撬的杠杆是 level 不是薪资；谈之前一定要打听清楚桌子另一边——这个岗位招了多久、你是被 hiring manager 明确要过来还是入池再匹配，决定实际筹码；如果一定要谈，姿态要软——「我真的很想要这份工作，只是薪酬没到我理想，有没有办法再提高一点；不行我也非常感兴趣」；心态上把没谈到的钱当机会成本放下，别咬着自己。(2) 老听众 Stu 回听 500 期那句「努力把分配给你的活做出色不是晋升路径」很不服气：Jira 队列 + 主导项目 + deadline 全占满了，晋升的事到底要怎么做？Dave / Jamison 的看法：把本职工作做完是领当前工资的成本，不是升职的证明——想让公司给你更高薪水和责任，就得给公司更高价值的产出。入门级前几年是「公司还没确认你能不能干活」的阶段，有相当比例的人在这一档就流失，过了那道坎预期就完全不同。想升职最有参考价值的信息是看你公司里最近刚晋升的人，岗位/级别/团队越接近越管用；关键动作是从「接 ticket」升级成「定义 ticket」——不是别人丢给你一个问题让你搞定，而是你主动说「我们应该做这个问题」并且判断对了、交付了。有时候升职卡住是「你在当前 level 做当前 level 的事做得太久，没腾出时间做下一级的事」，也可能是机会问题——「不是你的错，但确实是你的问题」。中文双人配音（云希 Host + 云扬 Guest），Azure STT + GPT 翻译 + edge-tts，原片约 31m。来源：https://softskills.audio/2026/07/13/episode-521-negotiating-.-.-.-now-and-doing-good-work-is-not-enough-for-promotion/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.50.0-sse-521/podcast_zh.mp3" length="14119435" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-521.png"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jamison Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>40:28</itunes:duration>
+    </item>
 
     <item>
       <title>EP48 · 李开元《文学比史学更真实？——在历史记载的空白处》</title>
