@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Sat, 01 Aug 2026 15:05:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 17:26:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,20 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP52 · 冯时《探源溯流：从文字起源认识中华文明》</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">fengshi-tanyuan-suliu</guid>
+      <pubDate>Mon, 17 Aug 2026 17:26:00 +0800</pubDate>
+      <description>考古学家、古文字学家冯时在河南安阳殷墟博物馆的讲座，从文字学与天文考古学出发，讨论中华文明的起源、核心观念与连续性。讲座首先追问「文明」在中国自身文献传统中的含义，将中华文明概括为道德、知识、礼仪「三要」，并从「文」「德」「信」等古文字切入，说明观象授时、时间秩序与早期道德观念之间的联系。随后结合湖北秭归柳林溪、山西陶寺、安徽双墩、河南西水坡、辽宁牛河梁等考古材料，讨论二绳、九宫、天圆地方、天柱以及「五田文」「八爻」等早期文字与时空知识体系。后半部分集中讨论汉字起源年代及「夷夏两源」：从陶寺「文邑」、柳林溪七千年前文字、仰韶文化小口尖底瓶，到丁公龙山文字与贾湖龟甲刻符，说明中国早期文字并非单线发展；文字最初与宗教、通神和知识传承密切相关。冯时据此提出，中华文明的重要核心是道德观与宇宙观，而文字的持续传承，也是中华文明绵延不绝的重要原因。中文原声，passthrough lane，时长约 1h54m。来源：https://www.bilibili.com/video/BV192gk6TEVy</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.53.0-fengshi-tanyuan-suliu/podcast_zh.mp3" length="82297356" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/fengshi-tanyuan-suliu.png"/>
+      <category>Society &amp; Culture</category>
+      <itunes:author>冯时（中国社会科学院）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:54:18</itunes:duration>
+    </item>
 
     <item>
       <title>EP51 · Soft Skills Engineering #523 · 刺头工单 &amp; 不想再当 Lead</title>
