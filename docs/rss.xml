@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Mon, 17 Aug 2026 17:26:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 21:05:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,20 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP53 · Soft Skills Engineering #524 · CTO 的 AI slop &amp; 跨时区晚间会议</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-524</guid>
+      <pubDate>Fri, 21 Aug 2026 21:05:00 +0800</pubDate>
+      <description>Soft Skills Engineering 第 524 期中文双人配音。两个问题：(1) 一家小软件公司的 CTO 每隔几个月就用 AI vibe code 一个新项目，再打断产品路线图，把半成品交给工程师清理、整合、测试和上线；最近甚至要求保留让自己继续往生产代码里加东西的通道，尽管他不运行真正产品，也不了解生成代码。Dave / Jamison 的看法：这是典型的外部性——CTO 获得生成代码的即时成就感，团队承担理解、审查、QA、部署、市场沟通和支持的全部成本。问题不在高管能不能写代码，而在于是否负责端到端交付。工程经理应把成本、路线图冲突和离职风险向上沟通；如果想法值得做，就将原型和需求送回正常流程，或让 CTO 自己承担运行、审查、QA 和发布。若公司始终不愿修正，这完全可以成为合理的离职理由。(2) 中欧的大厂高级工程师与美国团队相差九小时，晚上 7:30 开会；现在女儿开始上幼儿园，他又要清晨五六点起床陪伴和接送，晚间会议已经无法清晰表达。但跳槽会让年薪从 16 万美元降到当地约 6–8 万，搬去美国也不现实。Dave / Jamison 的建议：先争取让美国团队上午开会，或减少参会频率；不要低估晚间会议对非英语母语者的额外认知负担，也不要低估失去同事连接带来的孤独感。若会议无法移动，可考虑内部转到欧洲或邻近时区团队；长期终究要在薪资、健康、家庭和职业参与感之间做真实选择。中文版从零用 AI 转录、AI 说话人校正、AI 全量翻译，云希 / 云扬双男声严格配音；331/331 段均为真实语音，无静音 fallback。时长约 43m18s。来源：https://softskills.audio/2026/08/03/episode-524-my-cto-ai-codes-big-piles-of-slop-and-early-mornings,-late-meetings/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.54.0-sse-524/podcast_zh.mp3" length="14916181" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-524.png"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jamison Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>43:18</itunes:duration>
+    </item>
 
     <item>
       <title>EP52 · 冯时《探源溯流：从文字起源认识中华文明》</title>
