@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Fri, 21 Aug 2026 21:05:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 16:45:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,34 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP55 · Soft Skills Engineering #526 · 刚升职又想升 &amp; 软件工程师变运维</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-526</guid>
+      <pubDate>Sat, 22 Aug 2026 16:45:00 +0800</pubDate>
+      <description>Soft Skills Engineering 第 526 期中文双人配音。两个问题：(1) 大型基础设施公司的工程师去年刚升到 SWE II，今年经理又明确说其工作已达到晋升标准，却因为「刚升过」和团队名额，要推迟到明年，并用一次性奖金补偿。Dave / Jamison 的建议：大公司通常有未明说的晋升节奏和名额；与其每周追问，不如把承诺具体化——下一级证据、评审人、目标周期、经理如何推动及中间里程碑。可以询问年中晋升，但最强杠杆仍是另一份 offer，而那意味着必须真的准备离开。(2) 为大厂品牌和高薪入职，结果所谓软件工程岗位主要是内部工具和运维；如何利用一年准备内部转岗或外部跳槽？Dave / Jamison 的建议：主动约 1:1 完全正常；优先利用内部职位系统、人脉和现有身份寻找产品工程团队，同时主动争取自动化、开发体验和端到端工程项目，避免履历只剩运维。若内部机会不存在，就继续准备外部面试，并在下一次认真筛选团队。AI 转录、AI 说话人校正、AI 全量翻译，云希 / 云扬双男声严格配音；341/341 段均为真实语音，无静音 fallback。中文版约 44m31s。来源：https://softskills.audio/2026/08/17/episode-526-why-can't-i-get-promoted-so-quickly-after-my-last-promotion-and-i-got-hired-as-a-software-engineer-but-ended-up-doing-ops/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.56.0-sse-526/podcast_zh.mp3" length="15332538" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-526.png"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jamison Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>44:31</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP54 · Soft Skills Engineering #525 · 拯救 500 人公司 &amp; AI-first 技术债</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-525</guid>
+      <pubDate>Sat, 22 Aug 2026 16:40:00 +0800</pubDate>
+      <description>Soft Skills Engineering 第 525 期中文双人配音。两个问题：(1) 高级数据工程师入职一家约 500 人的软件公司三个月后，公司裁掉一半员工、放弃原业务并宣布 AI-first，却没有新战略，反而让工程团队想产品点子「拯救公司」。Dave / Jamison 的判断：这种短经历非常容易解释，不会污染简历；可以暂时留下体验高模糊度，但应立刻开始看机会，不要把这里当成稳定归宿。(2) 从完全不用 AI 的万人公司跳到 AI-first 金融科技公司，担心同事一路 vibe coding、vibe architecting、vibe testing，留下技术债山。Dave / Jamison 认为担忧合理：AI 对已有上下文、代码审查和「已知的未知」很有效，对陌生领域架构和「未知的未知」却会自信地把人带偏。过去关于 DRY、抽象和复用的一些直觉需要重新审视，但验证反而成为新瓶颈。建议保留领域判断、测试和系统后果意识，不必追逐每周所有新工作流，允许实践先沉淀几周。AI 转录、AI 说话人校正、AI 全量翻译，云希 / 云扬双男声严格配音；291/291 段均为真实语音，无静音 fallback。中文版约 37m48s。来源：https://softskills.audio/2026/08/10/episode-525-how-do-i-save-my-company-of-500-people-and-my-new-company-is-insane-with-ai/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.55.0-sse-525/podcast_zh.mp3" length="13019377" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-525.png"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jamison Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>37:48</itunes:duration>
+    </item>
 
     <item>
       <title>EP53 · Soft Skills Engineering #524 · CTO 的 AI slop &amp; 跨时区晚间会议</title>
