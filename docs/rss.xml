@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Sat, 22 Aug 2026 16:45:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 22:10:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,20 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP56 · Soft Skills Engineering #527 · 十年经验被裁 &amp; 临退休转安全</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-527</guid>
+      <pubDate>Wed, 26 Aug 2026 22:10:00 +0800</pubDate>
+      <description>Soft Skills Engineering 第 527 期中文双人配音。两个问题：(1) 十年经验工程师在大裁员中失业，每天申请 10–20 个岗位、逐份调整简历和求职信，几个月却只有三次通过筛选。Dave / Jamison 认为，AI 让批量包装和群发申请变得容易，招聘方材料暴涨、信任被侵蚀，冷申请价值进一步下降。最有效的是绕开拥堵入口：联系十年的前同事、参加线下活动、主动找到目标公司的内部 recruiter，让真人背书并表达对公司的真实兴趣；同时熟练使用当前 AI 开发工具，避免通过筛选后被视为落伍。(2) 从业三十多年、距退休不到十年，现在爱上安全与合规，担心年龄和重新成为新手。Dave / Jamison 的答案很积极：安全需求快速增长，三十年软件经验会形成判断 AI 输出、识别荒谬方案和理解系统后果的蜘蛛感应，AI 又能弥补记忆和信息检索速度。关键是分清深入技术的安全工作与企业里的打勾式合规；优秀合规人员应理解工程现实、和团队共同权衡风险。若这件事让你兴奋，就把它当作职业生涯最后一场冒险。AI 转录、AI 说话人校正、AI 全量翻译，云希 / 云扬双男声严格配音；379/379 段均为真实语音，无静音 fallback。中文版约 48m46s。来源：https://softskills.audio/2026/08/24/episode-527-i-lost-my-job-after-10-years-and-am-i-too-old-to-switch-to-a-security-career/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.57.0-sse-527/podcast_zh.mp3" length="16790907" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-527.png"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jamison Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>48:46</itunes:duration>
+    </item>
 
     <item>
       <title>EP55 · Soft Skills Engineering #526 · 刚升职又想升 &amp; 软件工程师变运维</title>
