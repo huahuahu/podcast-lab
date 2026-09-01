@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Mon, 31 Aug 2026 17:45:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 13:44:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,20 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP58 · Soft Skills Engineering #528 · 家族软件公司摸鱼 &amp; 收购后何时离开</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-528</guid>
+      <pubDate>Tue, 01 Sep 2026 13:44:00 +0800</pubDate>
+      <description>Soft Skills Engineering 第 528 期中文双人配音。两个问题：(1) 入职经营三十多年的家族企业集团技术部门一个半月，却几乎没有任务，该继续等待还是主动改变？Dave / Jamison 建议先理解业务、客户和团队节奏，主动与经理同事沟通，从文档、自动化、开发体验和入职流程等低风险小项目入手，把自己从“公司花钱却无事可做的人”变成让其他成员工作更顺畅的人；同时也要接受低节奏可能长期持续。(2) 工作八年的 SaaS 初创公司被十倍规模的上市科技公司全现金收购，担心官僚体系毁掉文化，什么时候该离开？两位主持人结合各自收购经历，建议先观察而非预先逃跑：收购也会带来新系统、大规模问题、岗位与人脉，可设定观察窗口和离开条件；同时仔细确认股权兑现、留任与 vesting 条款。若文化、自主权、效率和成长空间确实持续恶化，再从容离开。MLX Whisper 转录、AI 说话人校正和全量翻译，云希 / 云扬双男声严格配音；346/346 段均为真实语音，无静音 fallback。写入开场、问题 1、问题 2 三章；中文版约 37m22s。来源：https://softskills.audio/2026/08/31/episode-528-sleepy-family-software-business-and-leaving-after-an-acquisition/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.59.0-sse-528/podcast_zh.mp3" length="12750607" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-528.png"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jamison Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>37:22</itunes:duration>
+    </item>
 
     <item>
       <title>EP57 · 性能为何重要，却被普遍忽视？——与 Casey Muratori 谈高性能代码</title>
