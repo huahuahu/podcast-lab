@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Tue, 01 Sep 2026 13:44:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 20:18:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,20 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP59 · 从 Chrome DevTools 到 AI 工程——Addy Osmani</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">pragmatic-addy-osmani</guid>
+      <pubDate>Fri, 04 Sep 2026 20:18:00 +0800</pubDate>
+      <description>The Pragmatic Engineer 主持人 Gergely Orosz 与 Addy Osmani 回顾他从爱尔兰乡村少年、自己编写浏览器，到参与 jQuery、创建 TodoMVC，再到加入 Google Chrome 团队并推动 Chrome DevTools、Lighthouse、Core Web Vitals 与 Web 性能工作的职业历程。后半重点讨论 AI agent 如何改变软件开发：认知债务与认知投降的风险、与 agent 建立可验证的工作循环、loop engineering，以及工程师角色从直接生产代码转向编排、验证和保持系统理解。使用 Substack 官方逐词时间戳及说话人转录，跳过语音识别；AI 全量翻译，云希 / 云扬双男声严格配音。154 个官方轮次无损拆为 262 段，262/262 均为真实语音，无静音 fallback；依据官方 timestamps 映射并写入 18 个中文章节。中文版约 1h27m59s。来源：https://newsletter.pragmaticengineer.com/p/from-chrome-devtools-to-ai-engineering</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.60.0-pragmatic-addy-osmani/podcast_zh.mp3" length="29291746" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/pragmatic-addy-osmani.png"/>
+      <category>Technology</category>
+      <itunes:author>Gergely Orosz × Addy Osmani</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:27:59</itunes:duration>
+    </item>
 
     <item>
       <title>EP58 · Soft Skills Engineering #528 · 家族软件公司摸鱼 &amp; 收购后何时离开</title>
