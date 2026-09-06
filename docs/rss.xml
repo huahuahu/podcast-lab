@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Fri, 04 Sep 2026 20:18:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 15:37:00 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,34 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP61 · 上下文工程——Dex Horthy</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">pragmatic-dex-horthy</guid>
+      <pubDate>Sun, 06 Sep 2026 15:37:00 +0800</pubDate>
+      <description>The Pragmatic Engineer 主持人 Gergely Orosz 与 HumanLayer 联合创始人兼 CEO Dex Horthy 深入讨论上下文工程：为什么 LLM 的上下文窗口不是越满越好，以及如何把关键约束、计划和验证反馈组织给 Agent。对话区分 Context Engineering、Harness Engineering 与 Loop Engineering，拆解十二要素 Agent、上下文过载、软件工厂、RPI 框架、有意识的上下文压缩、“更猛地烧 token”与“更聪明地用 token”，并讨论 AI slop、规格漂移与无人阅读代码的质量风险。使用 Substack 官方逐词 speaker transcript，跳过语音识别；AI 全量中文翻译，云希 / 云扬双男声严格配音。156 个轮次无损拆为 250 段，250/250 均为真实语音，无静音 fallback；映射并写入 19 个官方章节。中文版约 1h47m04s。来源：https://newsletter.pragmaticengineer.com/p/context-engineering-with-dex-horthy</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.62.0-pragmatic-dex-horthy/podcast_zh.mp3" length="52279531" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/pragmatic-dex-horthy.png"/>
+      <category>Technology</category>
+      <itunes:author>Gergely Orosz × Dex Horthy</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:47:04</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP60 · 别再怀疑 AI 编程——Charity Majors</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">pragmatic-charity-majors</guid>
+      <pubDate>Sun, 06 Sep 2026 15:32:00 +0800</pubDate>
+      <description>The Pragmatic Engineer 主持人 Gergely Orosz 与 Honeycomb 联合创始人兼 CTO Charity Majors 讨论为什么不该再笼统怀疑 AI，但也绝不能把它当成魔法。代码生成成本骤降后，真正的瓶颈转移到验证、测试、可观测性与生产责任。两人深入讨论代码评审、非确定性系统、值班工程师看到的 AI slop 代价，以及一条重要边界：不要把自己没读过、不了解的 AI 产物丢给同事，让别人承担理解成本。后半涵盖 DevOps、OpenTelemetry、现代可观测性、工程管理、初级工程师与 AI 疲劳。使用 Substack 官方逐词 speaker transcript，跳过语音识别；AI 全量中文翻译，云希 / 云扬双男声严格配音。249 个轮次无损拆为 263 段，263/263 均为真实语音，无静音 fallback；映射并写入 20 个官方章节。中文版约 1h39m25s。来源：https://newsletter.pragmaticengineer.com/p/stop-being-skeptical-about-ai-for</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.61.0-pragmatic-charity-majors/podcast_zh.mp3" length="35791561" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/pragmatic-charity-majors.png"/>
+      <category>Technology</category>
+      <itunes:author>Gergely Orosz × Charity Majors</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:39:25</itunes:duration>
+    </item>
 
     <item>
       <title>EP59 · 从 Chrome DevTools 到 AI 工程——Addy Osmani</title>
