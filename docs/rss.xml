@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Sun, 06 Sep 2026 15:37:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 07:18:23 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,21 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP62 · Soft Skills Engineering #529 · 开放办公室的 Zoom 噪声与惜字如金的 Staff 工程师</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-529</guid>
+      <pubDate>Tue, 08 Sep 2026 07:18:23 +0800</pubDate>
+      <description>同事在开放办公区大声开 Zoom，连经理也是重灾区，技术负责人如何推动改变？一位经验三年的工程师向熟悉代码库的 Staff 同事求教，却只得到“差不多是一个东西”，该继续追问还是换个方法？Dave 和 Jamison 建议：从专注力、会议沟通等实际影响建立办公规范；提问前展示思考与尝试，也可找更愿意解释的人，或用具体改动征求反馈。开场聊 AI 智能体事件，结尾预告 Utah JS 大会。 非官方 AI 中文改编；本机转录、完整内容中译、云希/云扬双男声严格配音。194/194 合成片段通过技术检查，无失败静音占位或文本截断；内嵌五章，中文版约34分08秒。未做全片人工试听。</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.63.0-sse-529/podcast_zh.mp3" length="32765643" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-529.png"/>
+      <podcast:chapters url="https://github.com/huahuahu/podcast-lab/releases/download/v0.63.0-sse-529/chapters.json" type="application/json+chapters"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jamison Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>34:08</itunes:duration>
+    </item>
 
     <item>
       <title>EP61 · 上下文工程——Dex Horthy</title>
