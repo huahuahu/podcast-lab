@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Tue, 08 Sep 2026 07:18:23 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 19:49:14 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,20 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP63 · 葛晓音：南朝二谢与山水诗</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">gexiaoyin-nanchao-erxie</guid>
+      <pubDate>Wed, 09 Sep 2026 19:49:14 +0800</pubDate>
+      <description>北京大学葛晓音教授《南朝二谢与山水诗》讲座，主题为谢灵运、谢朓与南朝山水诗。完整收录 B 站视频的 2 个分 P，按原顺序合并，保留中文原声，未做翻译、重新配音或转写。时长 2:02:09。原视频 UP 主：゚端木樽者。来源：https://www.bilibili.com/video/BV16bjs67Eik/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.64.0-gexiaoyin-nanchao-erxie/audio.mp3" length="79906802" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/gexiaoyin-nanchao-erxie.png"/>
+      <category>Society &amp; Culture</category>
+      <itunes:author>葛晓音（北京大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>2:02:09</itunes:duration>
+    </item>
 
     <item>
       <title>EP62 · Soft Skills Engineering #529 · 开放办公室的 Zoom 噪声与惜字如金的 Staff 工程师</title>
