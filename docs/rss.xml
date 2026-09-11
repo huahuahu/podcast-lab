@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Wed, 09 Sep 2026 19:49:14 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 07:25:20 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,21 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP64 · Codex 是如何打造的：对话 Tibo Sottiaux · 完整中文版</title>
+      <link>https://github.com/huahuahu/podcast-lab/releases/tag/v0.65.0-pragmatic-tibo-sottiaux</link>
+      <guid isPermaLink="false">pragmatic-tibo-sottiaux</guid>
+      <pubDate>Fri, 11 Sep 2026 07:25:20 +0800</pubDate>
+      <description>Gergely Orosz 对话 OpenAI 的 Tibo Sottiaux：从 Google 与研究基础设施经历，聊到 Codex 的早期探索、Rust 选择、开源的收益与代价，以及兼容其他模型的取舍。进一步讨论执行框架和模型如何共同演进、智能体时代的软件开发与代码审查、维护和架构成本的变化，以及 Codex 与 ChatGPT 合并的工程挑战，最后谈个人工作方式和给工程师的建议。保留完整赞助、开场和收尾。 非官方 AI 中文配音，不代表原节目或嘉宾官方发布。云希/云扬双人，完整75轮、1528源段、133段严格TTS，保留赞助与首尾；16章已嵌入，约1小时7分45秒。Whisper全片对照相似度98.63%，不是翻译准确率；未做全片人工听校。原节目：https://newsletter.pragmaticengineer.com/p/building-codex-with-tibo-sottiaux</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.65.0-pragmatic-tibo-sottiaux/podcast_zh.mp3" length="65049694" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/pragmatic-tibo-sottiaux.png"/>
+      <podcast:chapters url="https://github.com/huahuahu/podcast-lab/releases/download/v0.65.0-pragmatic-tibo-sottiaux/chapters.json" type="application/json+chapters"/>
+      <category>Technology</category>
+      <itunes:author>Gergely Orosz × Tibo Sottiaux</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:07:45</itunes:duration>
+    </item>
 
     <item>
       <title>EP63 · 葛晓音：南朝二谢与山水诗</title>
