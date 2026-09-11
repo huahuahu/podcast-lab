@@ -1,0 +1,1195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <title>Podcast Lab</title>
+    <link>https://huahuahu.github.io/podcast-lab/</link>
+    <language>zh-cn</language>
+    <copyright>Copyright 2026 Podcast Lab</copyright>
+    <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
+    <lastBuildDate>Fri, 11 Sep 2026 07:25:20 +0800</lastBuildDate>
+    <generator>Codex</generator>
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    <ttl>60</ttl>
+
+    <atom:link href="https://huahuahu.github.io/podcast-lab/rss.xml" rel="self" type="application/rss+xml"/>
+
+    <image>
+      <url>https://huahuahu.github.io/podcast-lab/assets/cover.png</url>
+      <title>Podcast Lab</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+    </image>
+
+    <itunes:type>serial</itunes:type>
+    <itunes:author>Podcast Lab</itunes:author>
+    <itunes:summary>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/cover.png"/>
+    <itunes:category text="Technology"/>
+    <itunes:category text="Business">
+      <itunes:category text="Careers"/>
+    </itunes:category>
+    <itunes:owner>
+      <itunes:name>Podcast Lab</itunes:name>
+      <itunes:email>placeholder@example.com</itunes:email>
+    </itunes:owner>
+
+    <item>
+      <title>EP64 · Codex 是如何打造的：对话 Tibo Sottiaux · 完整中文版</title>
+      <link>https://github.com/huahuahu/podcast-lab/releases/tag/v0.65.0-pragmatic-tibo-sottiaux</link>
+      <guid isPermaLink="false">pragmatic-tibo-sottiaux</guid>
+      <pubDate>Fri, 11 Sep 2026 07:25:20 +0800</pubDate>
+      <description>Gergely Orosz 对话 OpenAI 的 Tibo Sottiaux：从 Google 与研究基础设施经历，聊到 Codex 的早期探索、Rust 选择、开源的收益与代价，以及兼容其他模型的取舍。进一步讨论执行框架和模型如何共同演进、智能体时代的软件开发与代码审查、维护和架构成本的变化，以及 Codex 与 ChatGPT 合并的工程挑战，最后谈个人工作方式和给工程师的建议。保留完整赞助、开场和收尾。 非官方 AI 中文配音，不代表原节目或嘉宾官方发布。云希/云扬双人，完整75轮、1528源段、133段严格TTS，保留赞助与首尾；16章已嵌入，约1小时7分45秒。Whisper全片对照相似度98.63%，不是翻译准确率；未做全片人工听校。原节目：https://newsletter.pragmaticengineer.com/p/building-codex-with-tibo-sottiaux</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.65.0-pragmatic-tibo-sottiaux/podcast_zh.mp3" length="65049694" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/pragmatic-tibo-sottiaux.png"/>
+      <podcast:chapters url="https://github.com/huahuahu/podcast-lab/releases/download/v0.65.0-pragmatic-tibo-sottiaux/chapters.json" type="application/json+chapters"/>
+      <category>Technology</category>
+      <itunes:author>Gergely Orosz × Tibo Sottiaux</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:07:45</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP63 · 葛晓音：南朝二谢与山水诗</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">gexiaoyin-nanchao-erxie</guid>
+      <pubDate>Wed, 09 Sep 2026 19:49:14 +0800</pubDate>
+      <description>北京大学葛晓音教授《南朝二谢与山水诗》讲座，主题为谢灵运、谢朓与南朝山水诗。完整收录 B 站视频的 2 个分 P，按原顺序合并，保留中文原声，未做翻译、重新配音或转写。时长 2:02:09。原视频 UP 主：゚端木樽者。来源：https://www.bilibili.com/video/BV16bjs67Eik/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.64.0-gexiaoyin-nanchao-erxie/audio.mp3" length="79906802" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/gexiaoyin-nanchao-erxie.png"/>
+      <category>Society &amp; Culture</category>
+      <itunes:author>葛晓音（北京大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>2:02:09</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP62 · Soft Skills Engineering #529 · 开放办公室的 Zoom 噪声与惜字如金的 Staff 工程师</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-529</guid>
+      <pubDate>Tue, 08 Sep 2026 07:18:23 +0800</pubDate>
+      <description>同事在开放办公区大声开 Zoom，连经理也是重灾区，技术负责人如何推动改变？一位经验三年的工程师向熟悉代码库的 Staff 同事求教，却只得到“差不多是一个东西”，该继续追问还是换个方法？Dave 和 Jamison 建议：从专注力、会议沟通等实际影响建立办公规范；提问前展示思考与尝试，也可找更愿意解释的人，或用具体改动征求反馈。开场聊 AI 智能体事件，结尾预告 Utah JS 大会。 非官方 AI 中文改编；本机转录、完整内容中译、云希/云扬双男声严格配音。194/194 合成片段通过技术检查，无失败静音占位或文本截断；内嵌五章，中文版约34分08秒。未做全片人工试听。</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.63.0-sse-529/podcast_zh.mp3" length="32765643" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-529.png"/>
+      <podcast:chapters url="https://github.com/huahuahu/podcast-lab/releases/download/v0.63.0-sse-529/chapters.json" type="application/json+chapters"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jamison Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>34:08</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP61 · 上下文工程——Dex Horthy</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">pragmatic-dex-horthy</guid>
+      <pubDate>Sun, 06 Sep 2026 15:37:00 +0800</pubDate>
+      <description>The Pragmatic Engineer 主持人 Gergely Orosz 与 HumanLayer 联合创始人兼 CEO Dex Horthy 深入讨论上下文工程：为什么 LLM 的上下文窗口不是越满越好，以及如何把关键约束、计划和验证反馈组织给 Agent。对话区分 Context Engineering、Harness Engineering 与 Loop Engineering，拆解十二要素 Agent、上下文过载、软件工厂、RPI 框架、有意识的上下文压缩、“更猛地烧 token”与“更聪明地用 token”，并讨论 AI slop、规格漂移与无人阅读代码的质量风险。使用 Substack 官方逐词 speaker transcript，跳过语音识别；AI 全量中文翻译，云希 / 云扬双男声严格配音。156 个轮次无损拆为 250 段，250/250 均为真实语音，无静音 fallback；映射并写入 19 个官方章节。中文版约 1h47m04s。来源：https://newsletter.pragmaticengineer.com/p/context-engineering-with-dex-horthy</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.62.0-pragmatic-dex-horthy/podcast_zh.mp3" length="52279531" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/pragmatic-dex-horthy.png"/>
+      <category>Technology</category>
+      <itunes:author>Gergely Orosz × Dex Horthy</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:47:04</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP60 · 别再怀疑 AI 编程——Charity Majors</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">pragmatic-charity-majors</guid>
+      <pubDate>Sun, 06 Sep 2026 15:32:00 +0800</pubDate>
+      <description>The Pragmatic Engineer 主持人 Gergely Orosz 与 Honeycomb 联合创始人兼 CTO Charity Majors 讨论为什么不该再笼统怀疑 AI，但也绝不能把它当成魔法。代码生成成本骤降后，真正的瓶颈转移到验证、测试、可观测性与生产责任。两人深入讨论代码评审、非确定性系统、值班工程师看到的 AI slop 代价，以及一条重要边界：不要把自己没读过、不了解的 AI 产物丢给同事，让别人承担理解成本。后半涵盖 DevOps、OpenTelemetry、现代可观测性、工程管理、初级工程师与 AI 疲劳。使用 Substack 官方逐词 speaker transcript，跳过语音识别；AI 全量中文翻译，云希 / 云扬双男声严格配音。249 个轮次无损拆为 263 段，263/263 均为真实语音，无静音 fallback；映射并写入 20 个官方章节。中文版约 1h39m25s。来源：https://newsletter.pragmaticengineer.com/p/stop-being-skeptical-about-ai-for</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.61.0-pragmatic-charity-majors/podcast_zh.mp3" length="35791561" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/pragmatic-charity-majors.png"/>
+      <category>Technology</category>
+      <itunes:author>Gergely Orosz × Charity Majors</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:39:25</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP59 · 从 Chrome DevTools 到 AI 工程——Addy Osmani</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">pragmatic-addy-osmani</guid>
+      <pubDate>Fri, 04 Sep 2026 20:18:00 +0800</pubDate>
+      <description>The Pragmatic Engineer 主持人 Gergely Orosz 与 Addy Osmani 回顾他从爱尔兰乡村少年、自己编写浏览器，到参与 jQuery、创建 TodoMVC，再到加入 Google Chrome 团队并推动 Chrome DevTools、Lighthouse、Core Web Vitals 与 Web 性能工作的职业历程。后半重点讨论 AI agent 如何改变软件开发：认知债务与认知投降的风险、与 agent 建立可验证的工作循环、loop engineering，以及工程师角色从直接生产代码转向编排、验证和保持系统理解。使用 Substack 官方逐词时间戳及说话人转录，跳过语音识别；AI 全量翻译，云希 / 云扬双男声严格配音。154 个官方轮次无损拆为 262 段，262/262 均为真实语音，无静音 fallback；依据官方 timestamps 映射并写入 18 个中文章节。中文版约 1h27m59s。来源：https://newsletter.pragmaticengineer.com/p/from-chrome-devtools-to-ai-engineering</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.60.0-pragmatic-addy-osmani/podcast_zh.mp3" length="29291746" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/pragmatic-addy-osmani.png"/>
+      <category>Technology</category>
+      <itunes:author>Gergely Orosz × Addy Osmani</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:27:59</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP58 · Soft Skills Engineering #528 · 家族软件公司摸鱼 &amp; 收购后何时离开</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-528</guid>
+      <pubDate>Tue, 01 Sep 2026 13:44:00 +0800</pubDate>
+      <description>Soft Skills Engineering 第 528 期中文双人配音。两个问题：(1) 入职经营三十多年的家族企业集团技术部门一个半月，却几乎没有任务，该继续等待还是主动改变？Dave / Jamison 建议先理解业务、客户和团队节奏，主动与经理同事沟通，从文档、自动化、开发体验和入职流程等低风险小项目入手，把自己从“公司花钱却无事可做的人”变成让其他成员工作更顺畅的人；同时也要接受低节奏可能长期持续。(2) 工作八年的 SaaS 初创公司被十倍规模的上市科技公司全现金收购，担心官僚体系毁掉文化，什么时候该离开？两位主持人结合各自收购经历，建议先观察而非预先逃跑：收购也会带来新系统、大规模问题、岗位与人脉，可设定观察窗口和离开条件；同时仔细确认股权兑现、留任与 vesting 条款。若文化、自主权、效率和成长空间确实持续恶化，再从容离开。MLX Whisper 转录、AI 说话人校正和全量翻译，云希 / 云扬双男声严格配音；346/346 段均为真实语音，无静音 fallback。写入开场、问题 1、问题 2 三章；中文版约 37m22s。来源：https://softskills.audio/2026/08/31/episode-528-sleepy-family-software-business-and-leaving-after-an-acquisition/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.59.0-sse-528/podcast_zh.mp3" length="12750607" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-528.png"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jamison Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>37:22</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP57 · 性能为何重要，却被普遍忽视？——与 Casey Muratori 谈高性能代码</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">pragmatic-performance-casey</guid>
+      <pubDate>Mon, 31 Aug 2026 17:45:00 +0800</pubDate>
+      <description>The Pragmatic Engineer 主持人 Gergely Orosz 与游戏程序员、Computer, Enhance! 创作者 Casey Muratori 深谈软件性能。Casey 认为，大量软件比合理水平慢 10–100 倍；性能不只是 profiler 里的几个热点，更常是架构、数据组织和依赖选择的结果。他解释为什么应该先估算硬件理论上限，为什么“过早优化是万恶之源”经常被误用，以及学习阅读汇编和理解 CPU 如何让高级语言开发者做出更好的设计决策。访谈也回顾微软早期 Windows 游戏生态与 DirectX 前史、游戏从自研引擎走向 Unreal / Unity 后的行业变化、GTA 6 的漫长开发，以及新游戏为何还要与几十年的经典作品争夺玩家时间。后半讨论 Clean Code、多态与 TDD 的真实成本，什么是好代码和优秀工程师，Casey 为什么坚持不用 AI 编写自己的项目，以及 AI、工程师自主权和职业倦怠之间的关系。使用 Substack 官方逐词时间戳及 speaker transcript，跳过语音识别；AI 全量翻译，云希 / 云扬双男声严格配音。132 个官方轮次无损拆为 296 段，296/296 均为真实语音，无静音 fallback；依据官方 timestamps 映射并写入 20 个中文章节。中文版约 1h53m。来源：https://newsletter.pragmaticengineer.com/p/why-performant-code-matters-but-gets</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.58.0-pragmatic-performance-casey/podcast_zh.mp3" length="40089149" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/pragmatic-performance-casey.png"/>
+      <category>Technology</category>
+      <itunes:author>Gergely Orosz × Casey Muratori</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:53:02</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP56 · Soft Skills Engineering #527 · 十年经验被裁 &amp; 临退休转安全</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-527</guid>
+      <pubDate>Wed, 26 Aug 2026 22:10:00 +0800</pubDate>
+      <description>Soft Skills Engineering 第 527 期中文双人配音。两个问题：(1) 十年经验工程师在大裁员中失业，每天申请 10–20 个岗位、逐份调整简历和求职信，几个月却只有三次通过筛选。Dave / Jamison 认为，AI 让批量包装和群发申请变得容易，招聘方材料暴涨、信任被侵蚀，冷申请价值进一步下降。最有效的是绕开拥堵入口：联系十年的前同事、参加线下活动、主动找到目标公司的内部 recruiter，让真人背书并表达对公司的真实兴趣；同时熟练使用当前 AI 开发工具，避免通过筛选后被视为落伍。(2) 从业三十多年、距退休不到十年，现在爱上安全与合规，担心年龄和重新成为新手。Dave / Jamison 的答案很积极：安全需求快速增长，三十年软件经验会形成判断 AI 输出、识别荒谬方案和理解系统后果的蜘蛛感应，AI 又能弥补记忆和信息检索速度。关键是分清深入技术的安全工作与企业里的打勾式合规；优秀合规人员应理解工程现实、和团队共同权衡风险。若这件事让你兴奋，就把它当作职业生涯最后一场冒险。AI 转录、AI 说话人校正、AI 全量翻译，云希 / 云扬双男声严格配音；379/379 段均为真实语音，无静音 fallback。中文版约 48m46s。来源：https://softskills.audio/2026/08/24/episode-527-i-lost-my-job-after-10-years-and-am-i-too-old-to-switch-to-a-security-career/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.57.0-sse-527/podcast_zh.mp3" length="16790907" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-527.png"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jamison Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>48:46</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP55 · Soft Skills Engineering #526 · 刚升职又想升 &amp; 软件工程师变运维</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-526</guid>
+      <pubDate>Sat, 22 Aug 2026 16:45:00 +0800</pubDate>
+      <description>Soft Skills Engineering 第 526 期中文双人配音。两个问题：(1) 大型基础设施公司的工程师去年刚升到 SWE II，今年经理又明确说其工作已达到晋升标准，却因为「刚升过」和团队名额，要推迟到明年，并用一次性奖金补偿。Dave / Jamison 的建议：大公司通常有未明说的晋升节奏和名额；与其每周追问，不如把承诺具体化——下一级证据、评审人、目标周期、经理如何推动及中间里程碑。可以询问年中晋升，但最强杠杆仍是另一份 offer，而那意味着必须真的准备离开。(2) 为大厂品牌和高薪入职，结果所谓软件工程岗位主要是内部工具和运维；如何利用一年准备内部转岗或外部跳槽？Dave / Jamison 的建议：主动约 1:1 完全正常；优先利用内部职位系统、人脉和现有身份寻找产品工程团队，同时主动争取自动化、开发体验和端到端工程项目，避免履历只剩运维。若内部机会不存在，就继续准备外部面试，并在下一次认真筛选团队。AI 转录、AI 说话人校正、AI 全量翻译，云希 / 云扬双男声严格配音；341/341 段均为真实语音，无静音 fallback。中文版约 44m31s。来源：https://softskills.audio/2026/08/17/episode-526-why-can't-i-get-promoted-so-quickly-after-my-last-promotion-and-i-got-hired-as-a-software-engineer-but-ended-up-doing-ops/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.56.0-sse-526/podcast_zh.mp3" length="15332538" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-526.png"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jamison Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>44:31</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP54 · Soft Skills Engineering #525 · 拯救 500 人公司 &amp; AI-first 技术债</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-525</guid>
+      <pubDate>Sat, 22 Aug 2026 16:40:00 +0800</pubDate>
+      <description>Soft Skills Engineering 第 525 期中文双人配音。两个问题：(1) 高级数据工程师入职一家约 500 人的软件公司三个月后，公司裁掉一半员工、放弃原业务并宣布 AI-first，却没有新战略，反而让工程团队想产品点子「拯救公司」。Dave / Jamison 的判断：这种短经历非常容易解释，不会污染简历；可以暂时留下体验高模糊度，但应立刻开始看机会，不要把这里当成稳定归宿。(2) 从完全不用 AI 的万人公司跳到 AI-first 金融科技公司，担心同事一路 vibe coding、vibe architecting、vibe testing，留下技术债山。Dave / Jamison 认为担忧合理：AI 对已有上下文、代码审查和「已知的未知」很有效，对陌生领域架构和「未知的未知」却会自信地把人带偏。过去关于 DRY、抽象和复用的一些直觉需要重新审视，但验证反而成为新瓶颈。建议保留领域判断、测试和系统后果意识，不必追逐每周所有新工作流，允许实践先沉淀几周。AI 转录、AI 说话人校正、AI 全量翻译，云希 / 云扬双男声严格配音；291/291 段均为真实语音，无静音 fallback。中文版约 37m48s。来源：https://softskills.audio/2026/08/10/episode-525-how-do-i-save-my-company-of-500-people-and-my-new-company-is-insane-with-ai/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.55.0-sse-525/podcast_zh.mp3" length="13019377" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-525.png"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jamison Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>37:48</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP53 · Soft Skills Engineering #524 · CTO 的 AI slop &amp; 跨时区晚间会议</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-524</guid>
+      <pubDate>Fri, 21 Aug 2026 21:05:00 +0800</pubDate>
+      <description>Soft Skills Engineering 第 524 期中文双人配音。两个问题：(1) 一家小软件公司的 CTO 每隔几个月就用 AI vibe code 一个新项目，再打断产品路线图，把半成品交给工程师清理、整合、测试和上线；最近甚至要求保留让自己继续往生产代码里加东西的通道，尽管他不运行真正产品，也不了解生成代码。Dave / Jamison 的看法：这是典型的外部性——CTO 获得生成代码的即时成就感，团队承担理解、审查、QA、部署、市场沟通和支持的全部成本。问题不在高管能不能写代码，而在于是否负责端到端交付。工程经理应把成本、路线图冲突和离职风险向上沟通；如果想法值得做，就将原型和需求送回正常流程，或让 CTO 自己承担运行、审查、QA 和发布。若公司始终不愿修正，这完全可以成为合理的离职理由。(2) 中欧的大厂高级工程师与美国团队相差九小时，晚上 7:30 开会；现在女儿开始上幼儿园，他又要清晨五六点起床陪伴和接送，晚间会议已经无法清晰表达。但跳槽会让年薪从 16 万美元降到当地约 6–8 万，搬去美国也不现实。Dave / Jamison 的建议：先争取让美国团队上午开会，或减少参会频率；不要低估晚间会议对非英语母语者的额外认知负担，也不要低估失去同事连接带来的孤独感。若会议无法移动，可考虑内部转到欧洲或邻近时区团队；长期终究要在薪资、健康、家庭和职业参与感之间做真实选择。中文版从零用 AI 转录、AI 说话人校正、AI 全量翻译，云希 / 云扬双男声严格配音；331/331 段均为真实语音，无静音 fallback。时长约 43m18s。来源：https://softskills.audio/2026/08/03/episode-524-my-cto-ai-codes-big-piles-of-slop-and-early-mornings,-late-meetings/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.54.0-sse-524/podcast_zh.mp3" length="14916181" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-524.png"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jamison Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>43:18</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP52 · 冯时《探源溯流：从文字起源认识中华文明》</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">fengshi-tanyuan-suliu</guid>
+      <pubDate>Mon, 17 Aug 2026 17:26:00 +0800</pubDate>
+      <description>考古学家、古文字学家冯时在河南安阳殷墟博物馆的讲座，从文字学与天文考古学出发，讨论中华文明的起源、核心观念与连续性。讲座首先追问「文明」在中国自身文献传统中的含义，将中华文明概括为道德、知识、礼仪「三要」，并从「文」「德」「信」等古文字切入，说明观象授时、时间秩序与早期道德观念之间的联系。随后结合湖北秭归柳林溪、山西陶寺、安徽双墩、河南西水坡、辽宁牛河梁等考古材料，讨论二绳、九宫、天圆地方、天柱以及「五田文」「八爻」等早期文字与时空知识体系。后半部分集中讨论汉字起源年代及「夷夏两源」：从陶寺「文邑」、柳林溪七千年前文字、仰韶文化小口尖底瓶，到丁公龙山文字与贾湖龟甲刻符，说明中国早期文字并非单线发展；文字最初与宗教、通神和知识传承密切相关。冯时据此提出，中华文明的重要核心是道德观与宇宙观，而文字的持续传承，也是中华文明绵延不绝的重要原因。中文原声，passthrough lane，时长约 1h54m。来源：https://www.bilibili.com/video/BV192gk6TEVy</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.53.0-fengshi-tanyuan-suliu/podcast_zh.mp3" length="82297356" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/fengshi-tanyuan-suliu.png"/>
+      <category>Society &amp; Culture</category>
+      <itunes:author>冯时（中国社会科学院）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:54:18</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP51 · Soft Skills Engineering #523 · 刺头工单 &amp; 不想再当 Lead</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-523</guid>
+      <pubDate>Sat, 01 Aug 2026 15:05:00 +0800</pubDate>
+      <description>Soft Skills Engineering 第 523 期中文双人配音，也是第 331 期重播。两个问题：(1) 刚毕业半年的工程师按高级同事要求，带着日志、复现步骤和健康检查给 infra 团队提交工单；对方经理却把他拉进群聊，质问为什么开票，还说「先做好你自己的工作，我们不能替你 debug」。Dave / Jamison 的建议：大型公司里的基础设施团队常被低质量请求淹没，久而久之会形成防御性很强的「人肉 API」；先研究他们以前成功关闭的工单，找出所需信息、格式和沟通方式，像给开源项目提 PR 一样先读 README 和成功案例。同时把经历告诉自己的经理或资深同事，但不要只抱怨态度，而要聚焦结果：我想完成任务，这次沟通没有达到预期，请帮我检查技术判断、组织边界和正确升级路径。(2) 小型创业公司除两位创始人外的第一位员工，招聘、培训新开发者后自然成了 Lead Developer；但创始人回复率低、需求定义糟糕，CTO 还会周末直接重写功能再把烂摊子留给团队，他暂时不想辞职，只想回到合同里的 IC 岗位。Dave / Jamison 的看法：四五人的开发团队确实需要有人承担协调职能；如果要退出，不能只带着「反正不是我」去谈。先列出自己喜欢和讨厌的具体职责，把团队真正需要的 Lead / 产品管理工作拆出来，再提出可行替代方案——谁来接、是否轮值、是否需要产品经理，以及你回到编码、指导和评审后能为公司创造什么更大价值。中文双人配音（云希 Host + 云扬 Guest），Azure STT + 全新中文翻译 + edge-tts，中文版约 38m。来源：https://softskills.audio/2026/07/27/episode-523-rerun-of-331-prickly-ticket-and-title-downgrade/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.52.0-sse-523/podcast_zh.mp3" length="12929792" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-523.png"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jamison Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>38:04</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP50 · Soft Skills Engineering #522 · 在第一家公司待太久 &amp; 转行读硕士还是本科</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-522</guid>
+      <pubDate>Sun, 26 Jul 2026 08:40:00 +0800</pubDate>
+      <description>Soft Skills Engineering 第 522 期中文双人配音。两个问题：(1) 2022 年毕业几乎立刻接了实习那家公司的全职 offer，一晃到 2026 年年中还在原地，快 4 年只做过一个 CLI 工具，几乎没有 cloud/后端经验，人在 Canada 想搬 Europe，感到在市场上没吸引力也不知怎么破局。Dave / Jamison 的看法：你没有真的被困住，只是感觉被困住——不会有什么东西凭空把你弹出去，得自己动手。第一层是 job crafting，不辞职改造工作内容，最有效的做法是自己先去找项目/团队/roadmap 上的坑、跟相关人聊过，再回头找经理只回答 yes/no，别让经理替你找机会；更进一步是自己创造机会，发现公司还没在做但值得做的事主动提出来。如果心里其实想走那就先动起来——4 年积累的公司人脉是资产，联系那些已经跳到别的地方的老同事远比海投冷申管用；现在环境难（LLM 简历一堆），但顺手投一投成本很低，也是联系 recruiter 说「我在找新工作」的好时机。(2) 非 CS 工程背景想转行做软件工程，公司报学费，post-bacc 本科 vs. 硕士选哪个更好找工作？Dave / Jamison 的看法：硕士夹在 PhD 和「本科/什么都没有」中间是个尴尬中间地带，Jamison 招人时硕士几乎不加分，唯一说明的事情是「这个人在没工作的情况下把它读完了」；更值钱的是实打实的软件开发经验——业余项目、自学、在现在公司里接开发的活，两年这样的经验比一个硕士学位有用。但结合来信人的具体情况：公司给报学费相当于省几万美元，如果能找到晚上课或不影响白天工作的项目，就是几乎零成本的资历补齐，值得读。更重要的是对自己诚实：说「先接受正规训练再开始做 software development」而没开始，答案往往是「其实没那么想做」；反过来说，如果你就是那种需要外部结构才能逼自己学的人，读硕士本身作为「结构化催逼」就是有价值的。中文双人配音（云希 Host + 云扬 Guest），Azure STT + GPT 翻译 + edge-tts，原片约 29m。来源：https://softskills.audio/2026/07/20/episode-522-i-stayed-too-long-at-my-first-job-and-should-i-get-a-masters-degree/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.51.0-sse-522/podcast_zh.mp3" length="11804340" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-522.png"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jamison Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>33:40</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP49 · Soft Skills Engineering #521 · 该不该谈涨薪 &amp; 干得好为什么升不了职</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-521</guid>
+      <pubDate>Sun, 26 Jul 2026 08:35:00 +0800</pubDate>
+      <description>Soft Skills Engineering 第 521 期中文双人配音。两个问题：(1) 有 10 年经验的工程师失业将近一年，快拿到一家大公司 offer，行情差不敢去谈涨薪、怕 offer 被撤，但也不甘白拿。Dave / Jamison 的看法：offer 直接被撤概率不大，但你冒的风险不是「少拿几 k」而是「把整张桌子丢了」——失业一年成本比 5k 涨幅高多了；大公司谈判空间本来就小，hiring manager 能撬的杠杆是 level 不是薪资；谈之前一定要打听清楚桌子另一边——这个岗位招了多久、你是被 hiring manager 明确要过来还是入池再匹配，决定实际筹码；如果一定要谈，姿态要软——「我真的很想要这份工作，只是薪酬没到我理想，有没有办法再提高一点；不行我也非常感兴趣」；心态上把没谈到的钱当机会成本放下，别咬着自己。(2) 老听众 Stu 回听 500 期那句「努力把分配给你的活做出色不是晋升路径」很不服气：Jira 队列 + 主导项目 + deadline 全占满了，晋升的事到底要怎么做？Dave / Jamison 的看法：把本职工作做完是领当前工资的成本，不是升职的证明——想让公司给你更高薪水和责任，就得给公司更高价值的产出。入门级前几年是「公司还没确认你能不能干活」的阶段，有相当比例的人在这一档就流失，过了那道坎预期就完全不同。想升职最有参考价值的信息是看你公司里最近刚晋升的人，岗位/级别/团队越接近越管用；关键动作是从「接 ticket」升级成「定义 ticket」——不是别人丢给你一个问题让你搞定，而是你主动说「我们应该做这个问题」并且判断对了、交付了。有时候升职卡住是「你在当前 level 做当前 level 的事做得太久，没腾出时间做下一级的事」，也可能是机会问题——「不是你的错，但确实是你的问题」。中文双人配音（云希 Host + 云扬 Guest），Azure STT + GPT 翻译 + edge-tts，原片约 31m。来源：https://softskills.audio/2026/07/13/episode-521-negotiating-.-.-.-now-and-doing-good-work-is-not-enough-for-promotion/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.50.0-sse-521/podcast_zh.mp3" length="14119435" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-521.png"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jamison Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>40:28</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP48 · 李开元《文学比史学更真实？——在历史记载的空白处》</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">likaiyuan-wenxue-shixue</guid>
+      <pubDate>Wed, 08 Jul 2026 07:30:00 +0800</pubDate>
+      <description>旅日历史学者、《秦崩》《楚亡》《汉兴》三部曲作者李开元在北京大学的讲座。以历史学者的角度回过头去谈文学：在史料语焉不详或索性空白的地方，文学如何比史学“更真实”地承载了历史。中文原音搬运自 B 站，passthrough lane 直发，未做转写。时长约 1h20m。来源：https://www.bilibili.com/video/BV1ZXMK6zEfV</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.49.0-likaiyuan-wenxue-shixue/audio.mp3" length="58360350" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/likaiyuan-wenxue-shixue.png"/>
+      <category>Society &amp; Culture</category>
+      <itunes:author>李开元</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:20:12</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP47 · 老团队人手一个 AI &amp; 代码没人管（SSE 520）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-520</guid>
+      <pubDate>Tue, 07 Jul 2026 08:35:00 +0800</pubDate>
+      <description>Soft Skills Engineering 第 520 期中文双人配音。两个问题：(1) 老听众回到以前合作过的团队，之前离开时 AI 编程还没起来，这个团队是他共事过「技术最扎实 + 人也最好」的一群人；回来一看几乎所有人都靠 AI 写代码，PR 描述全 AI 生成，code review 变成把 AI 建议复制粘贴到 GitHub。作为远程团队本来连接感就弱，现在他感觉几乎所有互动都是「他的 AI 助手在跟我的 AI 助手说话」；受不了失去 craftsmanship、参与感和互相学习，但不想变成刚回来就把老规矩塞回全组的人。Dave / Jamison 的看法：完全共情——协作里最珍贵的是从别人那里学、看别人怎么想问题，AI 中介化会把这层洗掉；这也不是全新问题——世纪之交做企业软件那阵子一样有过一波涌入 + 尚未沉淀的协作规范；不要幻想稳定终态，只是形式在变；面试要多问同事画像；可以自己不这样做 code review 保留 craftsmanship，但要接受你和团队的距离会一直存在，甚至可能就是走人的时机。(2) 中级全栈开发跳槽被 bait-and-switch：说好带新 squad，入职第一天发现 squad 计划被砍，一个现有开发被提拔成 sole lead，他被塞进那个 squad；团队构成是这个 lead + 两位 20 年 VB6 老兵 + 他；代码库无法无天：直连数据库、fat controllers、动辄一两千行的类、复制粘贴样板，还有严重 broken access control (OWASP #1)，认证用户能通过 email 查询字符串拉出任何人 PII；同事狂用 AI 但从不 review，一直提交「AI slop」，他停下不收拾都没人发现。他已经在找下家，问 bait-and-switch 怎么办 + 走前怎么保持理智。Dave / Jamison 的看法：先分清「被 bait-and-switch」（核心委屈）和「代码库烂 + VB6 老兵」（其实完全可预期）；20 年 VB6 老兵组合本身就是强 code smell；保持理智：不要再帮他们收拾 AI slop——停下反而更清楚组织真实状态，把精力留给面试和自我建设；顺便做一次「什么样的团队是我要的」的复盘，把这次踩到的信号写进下一次面试 checklist。中文双人配音（云希 Host + 云扬 Guest），Azure STT + GPT 翻译 + edge-tts，原片约 40m。来源：https://softskills.audio/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.48.0-sse-520/podcast_zh.mp3" length="17457093" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-520.png"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jamison Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>49:45</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP46 · 叶舒宪《新神话主义与文化资本》</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">yeshuxian-xinshenhuazhuyi</guid>
+      <pubDate>Thu, 02 Jul 2026 08:20:00 +0800</pubDate>
+      <description>上海交通大学叶舒宪教授讲座，围绕“新神话主义”思潮与文化资本的当代生产展开。中文原音搬运自 B 站（5P 合并），passthrough lane 直发，未做转写。时长约 1h48m。来源：https://www.bilibili.com/video/BV1T44y1D7PD</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.47.0-yeshuxian-xinshenhuazhuyi/audio.mp3" length="58771820" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/yeshuxian-xinshenhuazhuyi.png"/>
+      <category>Society &amp; Culture</category>
+      <itunes:author>叶舒宪（上海交通大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:48:24</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP45 · 李守奎《说解汉字一百五十讲：如何走出汉字阐释的困境？》</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">lishoukui-shuojie-hanzi</guid>
+      <pubDate>Thu, 02 Jul 2026 08:10:00 +0800</pubDate>
+      <description>清华大学出土文献研究与保护中心李守奎教授讲座，围绕汉字阐释的方法论与当下困境展开。中文原音搬运自 B 站，passthrough lane 直发，未做转写。时长约 2h00m。来源：https://www.bilibili.com/video/BV1hpffYuEge</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.46.0-lishoukui-shuojie-hanzi/audio.mp3" length="84775969" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/lishoukui-shuojie-hanzi.png"/>
+      <category>Society &amp; Culture</category>
+      <itunes:author>李守奎（清华大学出土文献研究与保护中心）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>2:00:07</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP44 · 康震《中唐政治的文学境象：韩愈诗文笺证》</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">kangzhen-hanyu-zhongtang</guid>
+      <pubDate>Thu, 02 Jul 2026 08:00:00 +0800</pubDate>
+      <description>北京师范大学康震教授讲座，从中唐政治史的视角切入韩愈诗文，逐篇笺证。中文原音搬运自 B 站，passthrough lane 直发，未做转写。时长约 2h25m。来源：https://www.bilibili.com/video/BV1k8w8eQEhN</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.45.0-kangzhen-hanyu-zhongtang/audio.mp3" length="71337833" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/kangzhen-hanyu-zhongtang.png"/>
+      <category>Society &amp; Culture</category>
+      <itunes:author>康震（北京师范大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>2:25:04</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP43 · 没有 tech lead 的团队 &amp; &quot;vibe&quot; 政治（SSE 519）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-519</guid>
+      <pubDate>Tue, 30 Jun 2026 23:55:00 +0800</pubDate>
+      <description>Soft Skills Engineering 第 519 期中文双人配音。两个问题：(1) 来自瑞典的资深开发问：自己见过很多组织——尤其是规模大、偏老派的非科技公司——其实没有 tech lead 或 staff engineer 角色，只有不写代码的 architect；自己待过的很多团队都是「所有开发平级、没有 tiebreaker」。运转良好时是因为某个人或共识自然形成，失败模式让他抓狂：共识被一票否决劫持讨论推不动；技术优先级谈不拢取最大公约数；团队永远在 bickering 和 bikeshedding。这是 regional/cultural，还是组织类型的问题？Dave / Jamison 的看法：不是瑞典问题，是组织/团队问题各地都有；没有 tech lead 的好处是万一 tech lead 是个烂人整个团队没救，平级团队至少还能讲理；但代价是总有人事实上变成 tech lead——通常是那个「在乎 + 愿意推动」的人；给提问者的建议：在没有 tech lead 的团队里显式把「因为没有 tech lead 所以现在卡在 X」说出来，承认「好吧那现在我就是 tech lead 了」。(2) 大厂工程师（自称 An Engineer Who Refuses to Look Bored）在非技术 org 里干活：sprint 全打完、story points 全 crush、有需要周末提交代码，老板说 output 没问题只让他改沟通；但周围人觉得他「vibe 显得懒、不投入」，已传到 skip-level；朋友拿原始指标辩护时对方答不上来只说「就是一种 vibe」。怎么用数据打赢 vibe 指控？Dave / Jamison 的看法：不要把 vibe 当成纯政治阴谋，团队感受是真的会影响产出；「抽离/不投入」和「主动说错话」同样破坏氛围；真正该做的是主动挖更具体的反馈——追问到底是 vibe 的哪一面、什么时刻、谁这么觉得，直到能落到一个具体行为；可以选择不 play corporate theater，但要清楚代价：在非技术 org 里「感觉」比 metric 影响更大。中文双人配音（云希 Host + 云扬 Guest），Azure STT + GPT 翻译 + edge-tts，原片约 34m。来源：https://softskills.audio/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.44.0-sse-519/podcast_zh.mp3" length="14906109" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-519.png"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jamison Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>42:42</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP42 · 王晓欣《音韵与译音——浅谈语言学与中国历史研究》</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">wangxiaoxin-yinyun-yiyin</guid>
+      <pubDate>Sat, 27 Jun 2026 12:00:00 +0800</pubDate>
+      <description>南开大学历史学院王晓欣讲座，从音韵学与译音两条线索，谈语言学方法如何介入中国历史研究：古代外来名物、人名、地名的对音问题，反过来可以校正史料、定位族群与时段。中文原音搬运自 B 站（5P 合并），passthrough lane 直发，未做转写。时长约 1h05m。来源：https://www.bilibili.com/video/BV1rD4y1h7GQ/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.43.0-wangxiaoxin-yinyun-yiyin/audio.mp3" length="36336668" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/wangxiaoxin-yinyun-yiyin.png"/>
+      <category>Society &amp; Culture</category>
+      <itunes:author>王晓欣（南开大学）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:05:28</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP41 · John Mearsheimer × Judge Napolitano：Netanyahu 与以色列的衰落</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">mearsheimer-napolitano-netanyahu</guid>
+      <pubDate>Thu, 25 Jun 2026 07:50:00 +0800</pubDate>
+      <description>Judging Freedom 2026-06-23 期，Andrew Napolitano 法官对话 John Mearsheimer 教授，约 32 分钟。主要话题：(1) 霍尔木兹海峡目前部分开放、伊朗仍实际控制，正在拿它做筹码逼美国/以色列在黎巴嫩问题上让步。(2) 战后形势再评估——2 月 27 日开战那一刻，伊朗、美国、以色列三方都没意识到伊朗手里牌有多硬；3-4 月战事推进，海峡控制 + 能打到海湾美军基地和以色列本土的远程导弹，让伊朗实际上赢下这场仗，谈判桌上现在地位很强。(3) CIA / Mossad / NSC 全线误判，参照 2025 年 6 月那场 12 天战争旧框架，没人预想到伊朗会用霍尔木兹做杠杆。(4) 以色列海军重创但被压住不报——McGregor 上校转述退役海军司令说法，伊朗导弹打得 IDF 元气大伤，但审查制度不让外泄；Mearsheimer 认为正因为损失太大，Netanyahu 政府才如此死扛舆论口径。(5) Netanyahu 的国内政治账：能不能撑到十月选举，以及隐瞒损失对国内民意的影响。(6) 以色列的「衰落」主线：从军事力量、外交孤立、与美关系结构性变化几个层面展开。开篇引用更点出节目底色——「以不正当方式使用武力已经成了常态」。中文双人配音（云希 Napolitano / 云扬 Mearsheimer），Azure STT + GPT 翻译 + edge-tts。原片：https://www.youtube.com/watch?v=dTOhamHI_bk</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.42.0-mearsheimer-napolitano-netanyahu/podcast_zh.mp3" length="10768028" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/mearsheimer-napolitano-netanyahu.png"/>
+      <category>News</category>
+      <itunes:author>Judge Napolitano - Judging Freedom / Andrew Napolitano × John Mearsheimer</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>30:43</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP40 · John Mearsheimer × 南华早报 Yonden Lhatoo：美中竞争、台海与以伊战争</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">mearsheimer-scmp</guid>
+      <pubDate>Thu, 25 Jun 2026 07:15:00 +0800</pubDate>
+      <description>南华早报 Talking Post 2026 年的访谈，主持人 Yonden Lhatoo 在香港对话 John Mearsheimer，约 36 分钟。围绕几个问题展开：(1) 中美关系——Trump 与习近平会面后，双边到底是「缓和」还是「暂缓」？Mearsheimer 认为根子上还是结构性安全竞争，美国眼下被中东（Iran）和欧洲（乌克兰）拖住，腾不出手在东亚开第二战线，所以暂时姿态柔软；一旦那两场战争平息，注意力会重新回到亚洲，对华遏制会升温。(2) 主持人把 Iran、Venezuela 这些点连起来问「是不是在一个个清算中国的伙伴」，Mearsheimer 不接这套——他不把这些国家定义为「China 的伙伴」，认为美国有自己一套独立的全球议程。(3) 台海与南海——中国决心主导亚洲，美国一定会阻止，这是不可调和的核心矛盾。(4) 以伊战争——美国和 Israel 联手对 Iran 开战、最后输掉这件事他说得毫不客气，美国遭遇了重大失败、Iranians 赢了这场战争。(5) 被贴「反美」标签——Mearsheimer 自陈是民族主义者，正因为爱这个国家，才更要批评政府的蠢事，「这恰恰是爱国主义的最高形式」。中文双人配音（云希 Host / 云扬 Mearsheimer），Azure STT + GPT 翻译 + edge-tts。原片：https://www.youtube.com/watch?v=WqLfsxWHq5Y</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.41.0-mearsheimer-scmp/podcast_zh.mp3" length="11869172" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/mearsheimer-scmp.png"/>
+      <category>News</category>
+      <itunes:author>South China Morning Post / Yonden Lhatoo × John Mearsheimer</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>33:42</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP39 · 在小创业公司待了 5 年该不该跳 / 签证身份是不是被公司吃定了（SSE 518）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-518</guid>
+      <pubDate>Tue, 23 Jun 2026 21:15:00 +0800</pubDate>
+      <description>Soft Skills Engineering 第 518 期中文双人配音。两个问题：(1) 匿名听众在一家全员远程的小创业公司做了 5 年全栈，团队只有 4 个开发 + 1 个 tech lead；同城唯一的开发同事刚走，自己成了主时区独苗，压力陡增；5 年纪念加薪却给得很抠。第一份工作就在这，AI 冲击 + 招聘冷的当下犹豫要不要先告诉老板「我在考虑离开」换反向 offer。Dave / Jamison 的看法：现在最该做的不是辞职而是去面试，拿到外面市场的「真实薪资刻度」，否则跟老板谈加薪都是空对空；「我在考虑离开」只在你真准备好走的时候才有用，不然就是把自己暴露；加薪谈判的基本原则——把贡献写清楚、给具体数字、说清这件事对自己很重要、找对时机和人。(2) 匿名听众在欧洲跨国大厂，持工作签证想拿移民身份。同事都准点下班，自己却经常周末 8h+，怀疑公司是不是吃定签证身份在欺负他。Dave / Jamison 的看法：这不一定是签证歧视，更可能是你给自己定的「完成度」标准比同事高；但签证身份确实让人不敢推回去，「被开就要回国」的恐惧持续笼罩在所有职场决策上。测试方法：看跟你移民身份相同的同事是不是也都在拼命加班——如果只有你这样，是个人选择问题；如果都这样，公司在系统性吃签证身份红利。长期可持续的解法只有一个：故意把自己活得像那个 35h 同事一样，看看 sky 塌不塌——大概率不会。中文双人配音（云希 Host + 云扬 Guest），Azure STT + GPT 翻译 + edge-tts，原片约 33m。来源：https://softskills.audio/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.40.0-sse-518/podcast_zh.mp3" length="10850517" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-518.png"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jamison Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>31:05</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP38 · 跳到 SaaS 公司更好？为什么让我同时管两个团队？（SSE 517）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-517</guid>
+      <pubDate>Mon, 22 Jun 2026 07:45:00 +0800</pubDate>
+      <description>Soft Skills Engineering 第 517 期中文双人配音。两个问题：(1) 新西兰听众 Sure 在电信公司做工程师，纠结要不要跳到 SaaS 公司——Dave / Jameson 的看法：其他条件差不多时去「软件本身就是产品」的公司更好，根本原因是软件不是收入来源时，工程团队就是成本中心，公司会持续不断地压预算压人头；但 SaaS 也不是万能药，规模大了之后大多数工程师其实也在做内部工具；Jameson 自己最满意的反例其实是定制软件外包公司，因为客户直接掏钱、公司对工程师特别上心。结论：与其纠结公司类型，不如看具体岗位离产生收入的链路有多近。(2) 入职 7 个月、单团队带得特别好的 EM「Walter」，被通知再加一个团队凑成 16 人，公司新口径是 EM 都要带 ≥2 团队，HR 标准里那条「带 ≥2 团队=senior EM」被说成「过时了」——更刺人的是，他要接手的团队原本由 senior EM 带，那位现在反而只带一个。Dave / Jameson：这就是悄悄的 scope 重新分配 + 行业扁平化趋势；必须谈涨薪，理由是 HR 自己写的标准；即使因医疗假短期内不能离职，也要留下书面痕迹；同时主动做授权别两边自抗；长期是组织红灯，回来后认真看外面机会。中文双人配音（云希 Host + 云扬 Guest），Azure STT + GPT 翻译 + edge-tts，原片 32m。来源：https://softskills.audio/2026/06/15/episode-517-is-it-good-for-my-career-to-work-at-a-saas-company-and-why-am-i-being-asked-to-manage-two-teams/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.39.0-sse-517/podcast_zh.mp3" length="14577405" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-517.png"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jameson Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>41:55</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP37 · Dax Raad：OpenCode 的爆炸增长与 AI 编程的真实代价</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">pe-opencode-dax-raad</guid>
+      <pubDate>Mon, 15 Jun 2026 07:45:00 +0800</pubDate>
+      <description>The Pragmatic Engineer 2026-05-27 期，主持 Gergely Orosz × 嘉宾 Dax Raad（OpenCode 联合创始人）。约 80 分钟的深度对谈，地点在迈阿密。OpenCode 是过去半年里增长最猛的开源 AI 编程 harness 之一，月活从年初的 65 万涨到接近 800 万；但 Dax 这次跑出来劝大家慢下来。主线：他的非典型路径（高中辍学创业 → DevTools/SST → OpenCode）、为什么定位「中立」让 OpenCode 起飞、推理（inference）的真实利润结构、那份引爆讨论的「我们只是感觉自己变快了」内部备忘录、AI 时代「被压低的刺痛感」（the muted prickle）如何钝化判断力、企业级 onboard 的「无聊但必须」、为什么 quality 不能装、agent 时代怎么定义程序员的好品位。走 Substack 官方带 word-level 时间戳 + speaker 标签的 transcript，跳过 Azure 转写；中译 + edge-tts 双男声（云希 Gergely / 云扬 Dax）。原视频：https://youtu.be/1VqKUrxR2C8</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.38.0-pe-opencode-dax-raad/podcast_zh.mp3" length="34972724" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/pe-opencode-dax-raad.png"/>
+      <category>Technology</category>
+      <itunes:author>The Pragmatic Engineer / Gergely Orosz × Dax Raad</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:37:46</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP36 · Kubernetes 与功成身退：Kelsey Hightower 的非典型工程师之路</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">hightower-kubernetes-retiring</guid>
+      <pubDate>Sat, 13 Jun 2026 21:00:00 +0800</pubDate>
+      <description>The Pragmatic Engineer 2026-06-03 期，主持 Gergely Orosz × 嘉宾 Kelsey Hightower（前 Google Distinguished Engineer、Kubernetes 早期布道者，已从 Google 退休两年）。约 3 小时 23 分的长访谈：从 19 岁辍学装宽带 → Google 杰出工程师的自学之路、Kubernetes 走到今天的设计哲学、在职业巅峰主动离开 Google 的思考、对 AI 与软件工程未来的看法。走 Substack 官方带时间戳 + speaker 标签的 transcript，跳过 Azure 转写；中译 + edge-tts 双男声（云希 / 云扬）。原视频：https://youtu.be/UlXpOGIpITM</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.37.0-hightower-kubernetes-retiring/podcast_zh.mp3" length="72716636" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/hightower-kubernetes-retiring.png"/>
+      <category>Technology</category>
+      <itunes:author>The Pragmatic Engineer / Gergely Orosz × Kelsey Hightower</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>2:52:11</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP35 · 查屏球：由〈雁塔题名〉看李商隐及第与令狐家族关系</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">chaqiu-yishan-lingu</guid>
+      <pubDate>Thu, 11 Jun 2026 08:15:00 +0800</pubDate>
+      <description>复旦大学查屏球讲座，从《雁塔题名》考据切入，重新审视李商隐及第过程，以及他与令狐家族（令狐楚、令狐绹父子）之间纠缠半生的关系——这条线索是理解李商隐「义山情感世界」的关键参照系。中文原音搬运自 B 站（UP 主 ゚端木樽者），passthrough lane 直发，未做转写。时长约 2h00m。来源：https://www.bilibili.com/video/BV1cY4y1P71o</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.36.0-chaqiu-yishan-lingu/audio.mp3" length="119015414" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/chaqiu-yishan-lingu.png"/>
+      <category>Society &amp; Culture</category>
+      <itunes:author>查屏球</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>2:00:46</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP34 · 我不是小孩 &amp; 产品经理不懂产品（SSE 516）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-516-not-baby-pm-doesnt-know-product</guid>
+      <pubDate>Tue, 09 Jun 2026 17:30:00 +0800</pubDate>
+      <description>Soft Skills Engineering 第 516 期中文双人配音。两个问题：(1) 新来一个特别教条的 Scrum master，daily 像上幼儿园——Dave / Jameson 的暴论是，真正的根本问题不是会议太长，而是「你们公司有个全职 Scrum master」，这个岗位真正的工作只占 5%，剩下 95% 是流程虚胖；听众不是无理取闹，但单靠抱怨改不了，这是组织结构问题。(2) 内部平台产品的 PM 不懂技术怎么办——内部技术产品的 PM 必须有技术背景，否则会退化成「传话项目经理」；这又是一个「表面上是人不行，实际上是组织把人放错岗位」的问题，半开玩笑的长期方案是自己升到 director 重组架构，短期实操是给 PM 设个工程师面试编码门槛。中文双人配音（云希 Host + 云扬 Guest），Azure STT + GPT 翻译 + edge-tts，原片 36m50s。来源：https://softskills.audio/2026/06/08/episode-516-not-a-baby-and-my-product-manager-doesn't-know-the-product/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.35.0-sse-516-not-baby-pm-doesnt-know-product/podcast_zh.mp3" length="15780597" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-516-not-baby-pm-doesnt-know-product.png"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jameson Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>36:50</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP33 · 陈允锋：唐代诗歌中的西域情怀</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">chenyunfeng-tangshi-xiyu</guid>
+      <pubDate>Fri, 05 Jun 2026 18:30:00 +0800</pubDate>
+      <description>香港樹仁大學陈允鋒教授讲座《唐代詩歌中的西域情懷》。中文原音搬运自 B 站（UP 主 ゚端木樽者），passthrough lane 直发，未做转写。时长约 1h31m。来源：https://www.bilibili.com/video/BV1qV4y117Fo/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.34.0-chenyunfeng-tangshi-xiyu/audio.mp3" length="78565074" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/chenyunfeng-tangshi-xiyu.png"/>
+      <category>Education</category>
+      <itunes:author>陈允锋 · 香港树仁大学</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:31:21</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP32 · 陈尚君：朱东润先生的生平与学术</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">chenshangjun-zhudongrun</guid>
+      <pubDate>Fri, 05 Jun 2026 18:25:00 +0800</pubDate>
+      <description>复旦大学陈尚君教授讲座《朱东润先生的生平与学术》。完整四 P 合并版，中文原音搬运自 B 站（UP 主 ゚端木樽者），passthrough lane 直发，未做转写。时长约 1h26m。来源：https://www.bilibili.com/video/BV1LL41167UH/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.33.0-chenshangjun-zhudongrun/audio.mp3" length="93684596" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/chenshangjun-zhudongrun.png"/>
+      <category>Education</category>
+      <itunes:author>陈尚君 · 复旦大学</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:26:14</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP31 · 鬼谷早知道 S10E14 · 一人公司的另一种可能：AI 负责经营，人类负责热爱</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">kjzzd-s10e14</guid>
+      <pubDate>Fri, 05 Jun 2026 12:00:00 +0800</pubDate>
+      <description>声动活泼《鬼谷早知道》英文访谈 S10E14 的中文双人配音版。主理人 Kassandra Su 对谈 Gumroad 创始人 Sahil Lavingia：AI 时代「一人公司」的真实形态（不是真的一人，更像四个人 + 一堆 agent）、Gumroad 从裁员到稳定运转的复盘、AI 能写代码但找不到客户、创业者的自由意志与行业的倍数效应。中文版使用 Podcast Lab v4 管线（Azure STT + GPT-5.4 翻译 + edge-tts 双音色：Host 晓晓 / Guest 云扬）。原片：https://guiguzaozhidao.fireside.fm/20240428</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.32.0-kjzzd-s10e14/podcast_zh.mp3" length="14568860" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/kjzzd-s10e14.png"/>
+      <category>Technology</category>
+      <category>Business</category>
+      <itunes:author>声动活泼 · Kassandra Su × Sahil Lavingia</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>41:06</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP30 · SSE 515 · 新人不听我的 / 量子公司菜鸟</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-515-junior-wont-listen-quantum-company</guid>
+      <pubDate>Tue, 02 Jun 2026 08:30:00 +0800</pubDate>
+      <description>Soft Skills Engineering 第 515 期中文双人配音。两个问题：(1) 新人到岗就一副「老子最懂」的样子、固执到无视事实、拒绝承认交付不了——Dave / Jameson 建议从今天起记录贡献、跟经理沟通时说「我不开心 + 担心我离职后扛着的事会暴露」，而不是单纯抱怨「他不行」；大公司里坏员工被开掉的速度远比想象的慢，能动的层级是经理→你这一段。(2) 几个月后要去量子计算公司当云团队高级工程师，怕自己最菜——别装懂量子（他们雇你是冲云那块），保持谦逊+兴奋+愿意帮忙的姿态，这个问题本质上根本不关于量子计算，关于的是「怎么进入新领域和高级岗位」。中文双人配音（云希 Host + 云扬 Guest），Azure STT + GPT-5.4 翻译 + edge-tts，原片 35m18s，中文版 35m18s。来源：https://softskills.audio/2026/06/01/episode-515-my-junior-team-member-won't-listen-to-me-and-will-i-be-the-dumbest-employee-at-a-quantum-computer-company/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.31.0-sse-515-junior-wont-listen-quantum-company/podcast_zh.mp3" length="15756876" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-515-junior-wont-listen-quantum-company.png"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jameson Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>35:18</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP29 · 钱理群漫谈鲁迅的〈故事新编〉</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">qianliqun-gushi-xinbian</guid>
+      <pubDate>Sun, 31 May 2026 09:30:00 +0800</pubDate>
+      <description>北京大学钱理群讲座，漫谈鲁迅的《故事新编》。完整两 P 合并版，中文原音搬运自 B 站（UP 主 ゚端木樽者），passthrough lane 直发，未做转写。时长约 2h08m。来源：https://www.bilibili.com/video/BV17vTAzrESB/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.30.0-qianliqun-gushi-xinbian/audio.mp3" length="153359348" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/qianliqun-gushi-xinbian.png"/>
+      <category>Society &amp; Culture</category>
+      <itunes:author>钱理群</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>2:08:53</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP28 · 金文京：当今“东亚汉字文化圈”的困境——论固有名词的读法</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">jin-wenjing-cjk</guid>
+      <pubDate>Sun, 31 May 2026 09:25:00 +0800</pubDate>
+      <description>日本京都大学金文京教授讲座，谈中日韩越在固有名词（人名、地名）读法上的纠葛与困境——同一个汉字写法，跨过国界后到底怎么念才算「对」。中文原音搬运自 B 站（UP 主 ゚端木樽者），passthrough lane 直发，未做转写。时长约 1h33m。来源：https://www.bilibili.com/video/BV1GM411E7f8/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.29.0-jin-wenjing-cjk/audio.mp3" length="88545227" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/jin-wenjing-cjk.png"/>
+      <category>Society &amp; Culture</category>
+      <itunes:author>金文京</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:33:26</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP27 · Mearsheimer：新保守派想要更多战争</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">mearsheimer-neocons-more-war</guid>
+      <pubDate>Fri, 29 May 2026 14:30:00 +0800</pubDate>
+      <description>Judge Napolitano 的 Judging Freedom 直播（2026-05-26），芝加哥大学政治学教授 John Mearsheimer 谈 neocons（新保守派）对战争的执念。聊了：美国是否真的恢复了对伊朗军事资产的打击，谈判桌上其实只有 Trump 一个人；俄罗斯被欧洲援乌惹毛后攻击 NATO 国家的动机正在变强，第五条款会怎么把美国拖下水；neocons 所谓「到处斩妖除魔」本质就是「与美国利益冲突的国家」；2003 年 Bush doctrine 里没打成的伊朗今年终于动手，Mearsheimer 认为这是美国外交政策的重大灾难；2014 年基辅政变与 Victoria Nuland 的角色。中文双人配音（Host + Guest），Azure STT + GPT 翻译 + edge-tts，原片 29m23s，中文版 26m55s。来源：https://www.youtube.com/live/VS8qkhd-2Cw</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.28.0-mearsheimer-neocons-more-war/podcast_zh.mp3" length="9437012" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/mearsheimer-neocons-more-war.png"/>
+      <category>News</category>
+      <itunes:author>John Mearsheimer × Judge Napolitano</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>26:55</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP26 · Anders Hejlsberg：从 Turbo Pascal 到 C# 到 TypeScript</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">hejlsberg-typescript-csharp</guid>
+      <pubDate>Thu, 28 May 2026 13:40:00 +0800</pubDate>
+      <description>Anders Hejlsberg 在 Gergely Orosz 的 Pragmatic Engineer 播客上聊自己 40 年语言设计生涯——历史上「最被广泛使用的编程语言」里有三种出自他手：Turbo Pascal、C# 和 TypeScript。三段职业生涯的幕后故事：Borland 时代用 49.99 美元 + 集成 IDE 砸碎「编译器是上千刀工业品」的格局；C# 真正的起点是 Sun 与 Microsoft 围绕 Java 的那场官司——没那场诉讼就没有 C#；TypeScript 在 Microsoft 内部开源是当年的大事，为什么选结构化类型而不是名义类型，为什么最近用 Go 重写编译器。贯穿始终的几个元观点：IDE 和编程语言密不可分，「语言」的边界一直包括工具；AI 不改变语言设计的本质，agents 越多「审代码、搭架构、把握全局」的人越重要；真正出色的技术成果几乎都来自一小撮愿意互相挑刺的小团队，而不是委员会。中文双人配音（Xiaoxiao 女声 Host + Yunyang 男声 Anders），Azure STT + GPT-5.4 翻译 + edge-tts，原片 76m01s，中文版 81m14s。</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.27.0-hejlsberg-typescript-csharp/podcast_zh.mp3" length="28749044" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/hejlsberg-typescript-csharp.png"/>
+      <category>Technology</category>
+      <itunes:author>Anders Hejlsberg × Gergely Orosz</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>81:14</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP25 · SSE 514 · 大组织信任度倒数 / 同事因我做得更快而记恨我</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-514-trust-issues-and-faster-coworker</guid>
+      <pubDate>Mon, 25 May 2026 21:40:00 +0800</pubDate>
+      <description>SSE 第 514 期，两个问题：(1) 整个大组织在「员工对管理层的信任度」调查里垫底，30 人小团队里只有两三个人扛得住工作量，那些「需要更多情绪支持」的人有明确书面证据是真的跟不上——这是偏见吗？Dave / Jameson：被反复证伪后的判断不是偏见而是同义反复；组织级信任度低本质是契约履行率低，能改的不多，把精力花在能信的两三个人身上，别替不行的人擦屁股。(2) 同事是我朋友，沟通 / QA / 告警都很强，就是 spec-driven development 做不好，我每张 ticket 都要事无巨细讲给他听，是不是在害他？答案：这种做法既不可持续也最终会害到他；多数团队/经理并不教条绑死 SDD，可以提议「换条路达成同样结果、最后再补 spec」；让 AI 反过来当教练训练规划能力；和靠谱的经理聊聊也行，但要小心「索伦之眼」一旦看过去就是绩效问题了。中文双男声配音（云希 Host + 云扬 Guest），Azure STT + GPT 翻译 + edge-tts，原片 38m13s，中文版 48m07s。</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.26.0-sse-514-trust-issues-and-faster-coworker/podcast_zh.mp3" length="16832328" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-514-trust-issues-and-faster-coworker.png"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jameson Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>48:07</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP24 · 陈尚君：中国诗歌史上的双子星座——李白和杜甫</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">chenshangjun-libai-dufu</guid>
+      <pubDate>Sat, 23 May 2026 20:30:00 +0800</pubDate>
+      <description>复旦大学陈尚君讲座，谈李白与杜甫。完整 5 P 合并版。中文原音搬运自 B 站（UP 主 ゚端木樽者），passthrough lane 直发，未做转写。时长约 2h04m。来源：https://www.bilibili.com/video/BV13XjhzKEoC</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.25.0-chenshangjun-libai-dufu/audio.mp3" length="128783036" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/chenshangjun-libai-dufu.png"/>
+      <category>Society &amp; Culture</category>
+      <itunes:author>陈尚君</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>2:04:19</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP23 · 冯时讲座：绝地天通（与谈人 王铭铭）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">fengshi-juedi-tiantong</guid>
+      <pubDate>Sat, 23 May 2026 20:05:00 +0800</pubDate>
+      <description>冯时 2026-05-19 讲座「绝地天通」，与谈人王铭铭。中文原音搬运自 B 站（UP 主 key-lv），passthrough lane 直发，未做转写。原片 2h43m54s。来源：https://www.bilibili.com/video/BV1S1Lq6cEhb/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.24.0-fengshi-juedi-tiantong/audio.mp3" length="167155362" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/fengshi-juedi-tiantong.png"/>
+      <category>Society &amp; Culture</category>
+      <itunes:author>冯时 × 王铭铭</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>2:43:54</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP22 · SSE 513 · 被遗忘的员工 / AI 世界里到底该练什么技能</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-513-forgotten-employee-skills-ai-world</guid>
+      <pubDate>Wed, 20 May 2026 09:10:00 +0800</pubDate>
+      <description>SSE 第 513 期，两个问题：(1) 公司重组后我被「遗忘」整整一个月，工资照发但没人派活——多久后我在道德上有义务主动开口？Dave / Jameson：别急着自首，只要你愿意接活就没有道德问题，给前经理或 skip-level 发个低姿态的「need help finding next thing」留个痕，真正风险是绩效周期没人写考评。(2) 13 年经验的工程师在 AI 满天飞的世界里到底该深耕什么？答案不绕弯：写代码的杠杆在贬值，**系统级理解**在升值——架构怎么交互、故障点在哪、安全威胁面在哪，LLM 一个人搞不定，必须有掌握上下文的人类。判断方法：看哪些 benchmark 还没被刷满，那就是 LLM 还不行的地方。中文双男声配音（云希 Host + 云扬 Guest），Azure STT + GPT 翻译 + edge-tts，原片 36m55s。</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.23.0-sse-513-forgotten-employee-skills-ai-world/podcast_zh.mp3" length="16033509" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-513-forgotten-employee-skills-ai-world.png"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jameson Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>36:55</itunes:duration>
+    </item>
+    <item>
+      <title>EP21 · SSE 512 · 非工程师能不能用 AI 写生产代码 / 工具要不要分享</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-512-non-engineers-and-sharing-tools</guid>
+      <pubDate>Tue, 12 May 2026 07:35:00 +0800</pubDate>
+      <description>SSE 第 512 期，两个问题：(1) 非工程师真的能（在 AI 帮助下）给生产系统贡献代码吗？COBOL / low-code / no-code / BDD 都试过，结果反复说明你还是需要懂行的人；把软件工程「民主化」的前提就是错的——就像普及识字不等于人人都得当作家。(2) 我的小工具到底要不要分享给团队？合规 check-in 总卡 review，不分享又显得「藏私」。Dave 和 Jameson 的看法：分享利远大于弊，但要会包装、给 team lead 留台阶。中文双男声配音（云希 Host + 云扬 Guest），Azure STT + GPT 翻译 + edge-tts，原片 42m30s。</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.22.0-sse-512-non-engineers-and-sharing-tools/podcast_zh.mp3" length="18436846" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-512-non-engineers-and-sharing-tools.png"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jameson Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>52:41</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP20 · Microsoft 大佬 Anders Hejlsberg：AI 永远不会取代程序员</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">microsoft-lead-ai-wont-replace-coders</guid>
+      <pubDate>Sun, 10 May 2026 21:50:00 +0800</pubDate>
+      <description>C# 和 TypeScript 之父、Microsoft technical fellow Anders Hejlsberg 聊编程和 AI 的未来。他的几个详起点：AI 本身不会创新（CPU、OS、语言、framework 还得人来做）；vibe coding 在被训练集见过几十亿次的东西上能玩，一到新业务逻辑就得靠人；学编程仍然值得，编程语言是 AI 表达自己的方式；新人最常见错误是投入时间不够。中文双人配音版（Azure STT + GPT 翻译 + edge-tts），原片 12m59s。</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.21.0-microsoft-lead-ai-wont-replace-coders/podcast_zh.mp3" length="6147764" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/microsoft-lead-ai-wont-replace-coders.png"/>
+      <category>Technology</category>
+      <itunes:author>Anders Hejlsberg × Sajjaad Khader</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>17:30</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP19 · All-In · OpenAI 业绩没达标、Codex vs Claude、Elon 告 Sam、巨头 CapEx 与减肥药狂潮</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">allin-openai-misses-codex-vs-claude</guid>
+      <pubDate>Sun, 10 May 2026 18:45:00 +0800</pubDate>
+      <description>All-In Podcast 四位 besties（Chamath / Jason / Sacks / Freeberg）圆桌：OpenAI 内部数字翻车 + Greg Brockman 记日记、Codex 与 Claude 的编码 agent 对厶、Elon vs Sam 上庭、大厂 CapEx 洪流与自由现金流之死、GLP-1 三期临床数据 + FDA 节奏、以及 EPA / 最高法 / Mamdani 加税。中文 4 人配音版（Azure STT + GPT 翻译 + edge-tts），原片 1h21m。</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.20.0-allin-openai-misses-codex-vs-claude/podcast_zh.mp3" length="37288556" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/allin-openai-misses-codex-vs-claude.png"/>
+      <category>Technology</category>
+      <itunes:author>Chamath Palihapitiya × Jason Calacanis × David Sacks × David Friedberg</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:48:03</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP18 · All-In · Elon 收购 Anthropic？AI 寡头格局、“AI 版 FDA” 与如何炒 AI 周期</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">allin-elon-anthropic-ai-monopoly</guid>
+      <pubDate>Sun, 10 May 2026 17:30:00 +0800</pubDate>
+      <description>All-In Podcast 四位 besties（Chamath / Jason / Sacks / Freeberg）本周圆桌：Elon 想让 xAI 收购 Anthropic、下一组 AI 寡头格局、白宫会不会搞“AI 版 FDA”、以及如何在这一轮 AI 周期里调仓。中文 4 人配音版（Azure STT + GPT 翻译 + edge-tts），原片 1h22m。</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.19.0-allin-elon-anthropic-ai-monopoly/podcast_zh.mp3" length="36926780" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/allin-elon-anthropic-ai-monopoly.png"/>
+      <category>Technology</category>
+      <itunes:author>Chamath Palihapitiya × Jason Calacanis × David Sacks × David Friedberg</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:46:07</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP17 · 米尔斯海默：特朗普在伊朗战争里找不到下台阶</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">mearsheimer-iran-trump-no-offramp</guid>
+      <pubDate>Sat, 09 May 2026 23:50:00 +0800</pubDate>
+      <description>Rachel Blevins 对话芝加哥大学米尔斯海默教授：伊朗为何不让步、霍尔木兹海峡、特朗普访华前的中东僵局。中文 AI 配音版（Azure STT + GPT 翻译 + edge-tts），原片 31 分钟。</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.18.0-mearsheimer-iran-trump-no-offramp/podcast_zh.mp3" length="9868196" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/mearsheimer-iran-trump-no-offramp.png"/>
+      <category>News</category>
+      <itunes:author>Rachel Blevins × John Mearsheimer</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>27:58</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP16 · APRD 财富智慧课二 · 系统化投资构筑终身养老财富</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">aprd-wealth-class-2-systematic-investment</guid>
+      <pubDate>Sat, 09 May 2026 23:10:00 +0800</pubDate>
+      <description>APRD 健康嘉年华线上财富智慧课第二讲：健康财富管理进阶课，用系统化投资构筑终身养老财富。原始中文音频，108 分钟。</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.17.0-aprd-wealth-class-2-systematic-investment/audio.mp3" length="51316893" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/aprd-wealth-class-2-systematic-investment.png"/>
+      <category>Business</category>
+      <itunes:author>APRD</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>1:48:24</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP15 · 郭宇 × 单向街东京：Claude Code / 知识工作者的终结</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">guoyu-claude-code-end-of-knowledge-work</guid>
+      <pubDate>Sat, 09 May 2026 15:45:00 +0800</pubDate>
+      <description>郭宇在单向街东京的现场对谈：从 2025 年 10 月 Claude Code Skills 这个节点切入，论证「软件的终结」与知识工作者的失业时间表。原始中文音频，37 分钟。</description>
+      <content:encoded><![CDATA[
+        <h3>谁在说</h3>
+        <p>郭宇——2008 年自学编程，2011 年进互联网，参与抖音从 0 到 1，2020 年从字节跳动「退休」到东京，目前以投资人 / 写作者身份生活。这场是 2026 年 5 月在单向街东京的现场对谈。</p>
+        <h3>核心观点</h3>
+        <ul>
+          <li>真正的拐点不是 ChatGPT，而是 2025 年 10 月 Claude Code 的 Skills 机制——软件不再需要被「写死」，而是 Token 流动出来的</li>
+          <li>SaaS、初级程序员、企业内部法务首批被替代；Claude 2 月发布的 Legal Plugin 单日触发法律科技板块约 2850 亿美元抛售</li>
+          <li>中美在编码模型上有 6–12 个月代差：中国卡都被消费级多模态吃掉，编码模型靠蒸馏永远晚一代</li>
+          <li>One-Man AI：他在自己的 5090 上每晚跑 1000 个循环，让 Agent 自己设计公司、写代码、发邮件</li>
+          <li>给年轻人的建议：未来 3–6 个月学会用 Claude Code，再之后连这个都不用学</li>
+        </ul>
+        <p>更详细的整理：项目仓库里的 <code>blog/post.md</code>。</p>
+        <p><small>原始来源：<a href="https://www.youtube.com/watch?v=rwueq7n_3yA">单向街东京 YouTube</a>。流程：原始中文音频 + YouTube 官方自动中文字幕（opencc 繁→简，1127 cues）。本期不重新合成，直接发布原音频。</small></p>
+      ]]></content:encoded>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.16.0-guoyu-claude-code-end-of-knowledge-work/audio.mp3" length="51150476" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/guoyu-claude-code-end-of-knowledge-work.png"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/guoyu-claude-code-end-of-knowledge-work/zh.vtt" type="text/vtt" language="zh" rel="captions"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/guoyu-claude-code-end-of-knowledge-work/zh.srt" type="application/srt" language="zh"/>
+      <category>Technology</category>
+      <itunes:author>郭宇 / 单向街东京</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>37:28</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP14 · Soft Skills Engineering #511 · 临时管理岗 + 软件团队的绩效奖金</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-511-temp-management</guid>
+      <pubDate>Tue, 05 May 2026 22:30:00 +0800</pubDate>
+      <description>SSE 第 511 期，两个问题：(1) FAANG Staff Engineer 被点名顶替请病假的 manager（1–2 个月），临时管理岗该怎么管？1–2 个月够不够看出自己喜不喜欢做管理？(2) HR 卡涨薪、说差距用绩效奖金来体现——软件团队的绩效奖金到底该怎么衡量？双男声中文 TTS（云希 + 云扬），翻译后做了 GPT-5.4 的 speaker 二次校验，修正了 16 处 diarize 翻转。</description>
+      <content:encoded><![CDATA[
+        <h3>中文摘要</h3>
+        <p>Dave Smith 和 Jameson Dance 在 SSE 第 511 期回答两个问题：</p>
+        <ol>
+          <li><strong>临时管理岗到底要不要接？</strong>一位 FAANG 大厂的 Staff Engineer，干了 7 年从没主动追求过管理岗。一位同事请 1–2 个月病假，他被点名临时顶上当 manager。Dave 和 Jameson 的看法：downside 很小、upside 很大，值得接。但策略上不要做大刀阔斧的重组——你没那个上下文，而且两个月后人家要回来。比较合理的目标：(a) 先做交接，把那位 manager 脑子里的隐性知识尽量榨出来；(b) 写一个 60/90 天的「假装我会一直干下去」的计划，但只动小的、可逆的优化；(c) 把这当成一次「我喜不喜欢做 manager」的低风险试用期。</li>
+          <li><strong>软件工程师的绩效奖金该怎么衡量？</strong>HR 卡涨薪，说会用绩效奖金体现差距，但又没有明确目标。Dave 和 Jameson 的悲观判断：基本无解。任何指标都会被 game。最终在大公司里，绩效奖金更像「每个 manager 在房间里替自己团队讲故事的能力」决定的——所以你真正的工作其实是吟游诗人，是让你的 manager 手里有一套关于你的好故事。Goodhart's law 永远在场。</li>
+        </ol>
+        <p>顺手扯到的话题：和 LLM 吵架到底比和人吵架轻松还是难、Postel's law 该不该被讨厌、邪恶 Dave Smith、把同事病情搞得严重一点拖延对方回归、Gen Z 用 lore 这个词聊家庭日常。</p>
+        <p><small>原始来源：<a href="https://softskills.audio/2026/05/04/episode-511-should-i-take-a-temporary-management-position-and-performance-based-bonuses/">Soft Skills Engineering Episode 511</a>。流程：Azure diarize STT → GPT-5.4 speaker reassign → smart-merge → GPT-5.4 翻译 → <strong>GPT-5.4 speaker 二次校验（修正 16 处）</strong> → edge-tts 双男声（云希 Host + 云扬 Guest）→ scheme B 字幕。</small></p>
+      ]]></content:encoded>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.15.0-sse-511-temp-management/podcast_zh.mp3" length="14537348" type="audio/mpeg"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/sse-511-temp-management/zh.vtt" type="text/vtt" language="zh" rel="captions"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/sse-511-temp-management/bilingual.vtt" type="text/vtt" language="zh" rel="captions"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/sse-511-temp-management/zh.srt" type="application/srt" language="zh"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/sse-511-temp-management/bilingual.srt" type="application/srt" language="zh"/>
+      <category>Technology</category>
+      <category>Business</category>
+      <itunes:author>Podcast Lab</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/sse-511-temp-management.jpg"/>
+      <itunes:duration>00:41:29</itunes:duration>
+      <itunes:summary>Soft Skills Engineering 第 511 期：临时管理岗要不要接 + 软件团队绩效奖金到底怎么发。</itunes:summary>
+      <itunes:subtitle>临时 manager · 绩效奖金 · 双男声 · GPT-5.4 二次 speaker 校验</itunes:subtitle>
+    </item>
+
+    <item>
+      <title>EP13 · Jensen Huang × Dwarkesh · Nvidia 的供应链护城河、TPU 竞争与卖芯片给中国（修订版 · 官方说话人标注）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">dwarkesh-jensen-huang-2026-v2</guid>
+      <pubDate>Tue, 05 May 2026 19:30:00 +0800</pubDate>
+      <description>同一集的修订版：用 Dwarkesh 官网带说话人标签的官方 transcript 重新对齐 Host/Guest，修掉初版里 LLM 把开篇问题误判成 Jensen 等错误。其余流程保持一致：Copilot GPT-5.4 翻译，edge-tts 双男声（云希 + 云扬），scheme B 字幕。内容/翻译质量较初版整体有提升，逐字时间戳与原音频对齐更精准。</description>
+      <content:encoded><![CDATA[
+        <h3>修订说明</h3>
+        <p>初版（2026-05-04 发布）使用 Copilot GPT-5.4 根据对话内容把每段判定 Host 还是 Guest，但因为 YouTube 字幕按时间切而不按说话人切，部分跨说话人边界的段落被整段误判，最显眼的是开篇问 Nvidia 护城河那一段——明显是 Dwarkesh，却被标成 Jensen。</p>
+        <p>本版改用 Dwarkesh 官网（dwarkesh.com/p/jensen-huang）发布的带说话人标签的官方 transcript：抓全文 → 拆成 (Dwarkesh / Jensen) × (paragraph) 的 181 轮 → 用 token-stream 对齐还原每一轮在原音频里的起止时间 → 据此重建 dialog_en.json，顺带把 sponsor reads 也对齐过滤掉。最终 91 Host / 90 Guest，开篇正确归 Dwarkesh，全集 100% 官方覆盖。</p>
+        <h3>中文摘要</h3>
+        <p>Dwarkesh Patel 与 Jensen Huang 1 小时 43 分钟长谈，几乎全程围绕一个问题：Nvidia 的真正护城河到底在哪里？</p>
+        <ul>
+          <li>真正的护城河不是 CUDA，而是 Nvidia 对台积电、HBM、CoWoS 这条已经极端瓶颈化的先进半导体供应链的整合能力——别的对手就算芯片设计追上，也很难拿到产能</li>
+          <li>TPU 已经是 Anthropic 的主力算力来源；Jensen 承认「他们大部分推理跑在 TPU 上」，但坚持 Nvidia 平台的可编程性和泛化性是 ASIC 替代不了的</li>
+          <li>关于卖 AI 芯片给中国：Jensen 的立场是「让中国的 AI 跑在美国的栈上」对长期更有利，封锁只会逼出本土替代</li>
+          <li>Nvidia 不做 hyperscaler，是因为「能不做的事就不做」——CUDA、向量库、机器人这些没人愿意做的他才下场，云已经很多人在做了</li>
+          <li>Jensen 自陈最大遗憾：没更早大额投资 Anthropic。当时根本没意识到 VC 撑不起一家 AI lab，Google 那种体量的现金支持是必须的</li>
+        </ul>
+        <p><small>原始来源：<a href="https://www.dwarkesh.com/p/jensen-huang">Dwarkesh Podcast</a> · <a href="https://youtu.be/Hrbq66XqtCo">YouTube</a>。修订版改动：用官网带说话人标签的 transcript 重新对齐 Host/Guest（替换 LLM 判定），并据此重新跑翻译与 TTS。</small></p>
+      ]]></content:encoded>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.14.0-dwarkesh-jensen-huang-2026-v2/podcast_zh.mp3" length="33355172" type="audio/mpeg"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/dwarkesh-jensen-huang-2026-v2/zh.vtt" type="text/vtt" language="zh" rel="captions"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/dwarkesh-jensen-huang-2026-v2/bilingual.vtt" type="text/vtt" language="zh" rel="captions"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/dwarkesh-jensen-huang-2026-v2/zh.srt" type="application/srt" language="zh"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/dwarkesh-jensen-huang-2026-v2/bilingual.srt" type="application/srt" language="zh"/>
+      <category>Technology</category>
+      <category>Business</category>
+      <itunes:author>Podcast Lab</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/dwarkesh-jensen-huang-2026-v2.jpg"/>
+      <itunes:duration>01:33:37</itunes:duration>
+      <itunes:summary>Dwarkesh × Jensen Huang 修订版：改用 Dwarkesh 官网官方 transcript 重新对齐说话人。</itunes:summary>
+      <itunes:subtitle>修订版 · 官方说话人标注 · TPU 竞争 · 卖芯片给中国</itunes:subtitle>
+    </item>
+
+    <item>
+      <title>EP12 · This Coding Tool Kills AI Code Slop（治 AI 代码肇邋的工具）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">ai-code-slop-coding-tool</guid>
+      <pubDate>Mon, 04 May 2026 17:00:00 +0800</pubDate>
+      <description>一个短视频推荐专门清理 AI 生成代码凗余的工具。AI 写代码总是只加不删，一个重构下去可能删 10 行、加 2000 行；这个工具兼容主流 linter，帮 vibe coder 把 AI 生成的冗余代码收拾干净。</description>
+      <content:encoded><![CDATA[
+        <h3>中文摘要</h3>
+        <p>AI 写代码的一个明显毛病：它从不删代码。就算叫它重构，净增量依然是正的。本期介绍一个 tool，专门用来手术式地干掉这些 AI 生成的凗余片段，能接主流 linter。</p>
+        <p><small>原始来源：<a href="https://www.youtube.com/watch?v=XLtuSy1opW4">YouTube</a>。本集作为管线测试集，验证 RSS transcript 新约定（VTT 优先 + rel="captions"）。</small></p>
+      ]]></content:encoded>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.13.0-ai-code-slop-coding-tool/podcast_zh.mp3" length="4974716" type="audio/mpeg"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/ai-code-slop-coding-tool/zh.vtt" type="text/vtt" language="zh" rel="captions"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/ai-code-slop-coding-tool/bilingual.vtt" type="text/vtt" language="zh" rel="captions"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/ai-code-slop-coding-tool/zh.srt" type="application/srt" language="zh"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/ai-code-slop-coding-tool/bilingual.srt" type="application/srt" language="zh"/>
+      <category>Technology</category>
+      <itunes:author>Podcast Lab</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/cover.png"/>
+      <itunes:duration>00:14:00</itunes:duration>
+      <itunes:summary>介绍一个专门清理 AI 生成代码凗余的工具。</itunes:summary>
+      <itunes:subtitle>治 AI 只加不删的肇邋代码</itunes:subtitle>
+    </item>
+
+    <item>
+      <title>EP11 · Jensen Huang × Dwarkesh · Nvidia 的供应链护城河、TPU 竞争与卖芯片给中国</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">dwarkesh-jensen-huang-2026</guid>
+      <pubDate>Mon, 04 May 2026 16:00:00 +0800</pubDate>
+      <description>Dwarkesh Patel 长聊 Nvidia CEO Jensen Huang。主线是 Nvidia 的真正护城河到底是什么——不是 CUDA，而是对全球先进半导体供应链的掌控；以及由此延伸的硬话题：Google TPU 会不会撼动 Nvidia、Anthropic 大量跑在 TPU 上意味着什么、应不应该卖 AI 芯片给中国、Nvidia 为什么不直接做 hyperscaler，以及 Jensen 对没更早投 Anthropic 的遗憾。</description>
+      <content:encoded><![CDATA[
+        <h3>中文摘要</h3>
+        <p>Dwarkesh Patel 与 Jensen Huang 1 小时 43 分钟的长谈，几乎全程围绕一个问题：Nvidia 的真正护城河到底在哪里？</p>
+        <ul>
+          <li>真正的护城河不是 CUDA，而是 Nvidia 对台积电、HBM、CoWoS 这条已经极端瓶颈化的先进半导体供应链的整合能力——别的对手就算芯片设计追上，也很难拿到产能</li>
+          <li>TPU 已经是 Anthropic 的主力算力来源；Jensen 承认「他们大部分推理跑在 TPU 上」，但坚持 Nvidia 平台的可编程性和泛化性是 ASIC 替代不了的</li>
+          <li>关于卖 AI 芯片给中国：Jensen 的立场是「让中国的 AI 跑在美国的栈上」对长期更有利，封锁只会逼出本土替代</li>
+          <li>Nvidia 不做 hyperscaler，是因为「能不做的事就不做」——CUDA、向量库、机器人这些没人愿意做的他才下场，云已经很多人在做了</li>
+          <li>Jensen 自陈最大遗憾：没更早大额投资 Anthropic。当时根本没意识到 VC 撑不起一家 AI lab，Google 那种体量的现金支持是必须的</li>
+        </ul>
+        <p><small>原始来源：<a href="https://www.dwarkesh.com/p/jensen-huang">Dwarkesh Podcast</a> · <a href="https://youtu.be/Hrbq66XqtCo">YouTube</a>。本期跳过 Azure STT，直接复用 YouTube 上的人工英文字幕做 transcript；其余流程保持一致：Copilot GPT-5.4 重分配 Host/Guest + 翻译，edge-tts 双男声（云希 + 云扬），scheme B 字幕。</small></p>
+      ]]></content:encoded>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.12.0-dwarkesh-jensen-huang-2026/podcast_zh.mp3" length="36082196" type="audio/mpeg"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/dwarkesh-jensen-huang-2026/zh.vtt" type="text/vtt" language="zh" rel="captions"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/dwarkesh-jensen-huang-2026/bilingual.vtt" type="text/vtt" language="zh" rel="captions"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/dwarkesh-jensen-huang-2026/zh.srt" type="application/srt" language="zh"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/dwarkesh-jensen-huang-2026/bilingual.srt" type="application/srt" language="zh"/>
+      <category>Technology</category>
+      <category>Business</category>
+      <itunes:author>Podcast Lab</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/cover.png"/>
+      <itunes:duration>01:41:30</itunes:duration>
+      <itunes:summary>Dwarkesh × Jensen Huang：Nvidia 真正的护城河是供应链，不是 CUDA。</itunes:summary>
+      <itunes:subtitle>TPU 竞争、卖芯片给中国、为什么不做 hyperscaler</itunes:subtitle>
+    </item>
+
+    <item>
+      <title>EP10 · Mearsheimer · Netanyahu 把 Trump 骗进战争</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">mearsheimer-netanyahu-tricked-trump</guid>
+      <pubDate>Fri, 01 May 2026 18:30:00 +0800</pubDate>
+      <description>Judge Napolitano 访谈 John Mearsheimer：以色列人——尤其是 Netanyahu——把 Trump 骗进了一场针对 Iran 的战争。事先承诺 96 小时收兵，事后却让美国深陷其中。两人聊 Islamabad 的假谈判、Vance 在背后给 Netanyahu 汇报、Hezbollah 与 Lebanon 的局势，以及游说集团对美国对伊政策的支配。</description>
+      <content:encoded><![CDATA[
+        <h3>中文摘要</h3>
+        <p>Judge Napolitano 与 Prof. John Mearsheimer 对谈，核心判断：以色列人骗了 Trump，把他拖进了一场出不来的战争。</p>
+        <ul>
+          <li>所谓 96 小时收兵是谎言；Islamabad 的两周谈判看起来不像是真心想达成长期和平</li>
+          <li>副总统 Vance 在谈判期间给 Netanyahu 通报进展，等于以色列在场外指挥美方立场</li>
+          <li>除了 Pistol Pete (Hegseth)，Trump 的几乎所有顾问当时都告诉他攻击 Iran 是个馊主意，但他被 Mossad 与 Netanyahu 拖了进去</li>
+          <li>Hezbollah 在 Lebanon 仍然活跃；以色列正试图借黎巴嫩政府之手解除 Hezbollah 武装，可能引发内战</li>
+          <li>由于游说集团的力量，Trump 几乎没有任何谈判空间；这场冲突不会被真正解决</li>
+        </ul>
+        <p><small>原始来源：<a href="https://judgenap.com/">Judging Freedom</a> — Judge Andrew Napolitano。中文版由 Podcast Lab v3 管线自动生成（Azure gpt-4o-transcribe-diarize 直连 + Copilot GPT-5.4 重分配与翻译 + edge-tts 双音色，scheme B 字幕）。</small></p>
+      ]]></content:encoded>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.11.0-mearsheimer-netanyahu-tricked-trump/podcast_zh.mp3" length="8984108" type="audio/mpeg"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/mearsheimer-netanyahu-tricked-trump/zh.vtt" type="text/vtt" language="zh" rel="captions"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/mearsheimer-netanyahu-tricked-trump/bilingual.vtt" type="text/vtt" language="zh" rel="captions"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/mearsheimer-netanyahu-tricked-trump/zh.srt" type="application/srt" language="zh"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/mearsheimer-netanyahu-tricked-trump/bilingual.srt" type="application/srt" language="zh"/>
+      <category>News</category>
+      <category>Politics</category>
+      <itunes:author>Podcast Lab</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/cover.png"/>
+      <itunes:duration>00:25:42</itunes:duration>
+      <itunes:summary>Mearsheimer 与 Napolitano：Netanyahu 把 Trump 骗进了一场出不来的伊朗战争。</itunes:summary>
+      <itunes:subtitle>96 小时收兵的谎言与 Islamabad 的假谈判</itunes:subtitle>
+    </item>
+
+    <item>
+      <title>EP09 · SSE #510：又老又落后，怎么撑到退休？</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-510-old-and-behind</guid>
+      <pubDate>Fri, 01 May 2026 09:00:00 +0800</pubDate>
+      <description>Soft Skills Engineering #510 中文版。Dave 和 Jameson 回答两个问题：(1) 将近 40 岁、在大型远程办公公司里和一群 20 多岁同事相处不来，年度线下聚会该怎么社交？是否会被看成在拍马屁？(2) 在保险/金融大厂工作 30 年的资深工程师，离退休还有几年，已经厌倦了这个冷血贪权的行业，怎么既不留下一地消沉，又不再给这头怪兽添柴？</description>
+      <content:encoded><![CDATA[
+        <h3>中文摘要</h3>
+        <p>Dave Smith 和 Jameson Dance 回答两个问题：</p>
+        <ol>
+          <li>
+            <p>一位将近 40 岁的听众，在大型远程办公公司里，团队里五个人之外谁都不熟。年度线下聚会上，他的资历、年龄、外貌都让他在那群 20 多岁的同事中显得格格不入；和年纪、人生阶段更接近的同事走近些，又怕被看成是在拍马屁，因为那些人大多是 team lead 或更高。这种情况下他到底该怎么社交？两位主持都笑说「想太多」，但也确实给出了挺实在的建议。</p>
+          </li>
+          <li>
+            <p>一位资深工程师，在科技行业干了 30 年，过去 20 年都在同一家保险/金融公司。他越来越无法认同这个行业的经营方式，主动揽事和「做最出彩的人」都已经放下了，决定接受平庸，再过几年就退休。他的问题是：怎么才能既不在离开时给同事们留下一地消沉情绪，又不在这之前继续给这台怪兽添柴？这一段 Dave 和 Jameson 都很走心，Jameson 几乎落泪，给出了从「在体制内悄悄做点善意的事」到「被裁的可能性远比你想象的大」再到「为同事和自己活，不为公司」一系列建议。</p>
+          </li>
+        </ol>
+        <p><small>原始来源：<a href="https://softskills.audio/episodes/510">Soft Skills Engineering Episode 510</a>。中文版由 Podcast Lab v3 管线自动生成（Azure gpt-4o-transcribe-diarize 直连 + Copilot GPT-5.4 重分配与翻译 + edge-tts 双音色，scheme B 字幕）。</small></p>
+      ]]></content:encoded>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.10.0-sse-510-old-and-behind/podcast_zh.mp3" length="15725828" type="audio/mpeg"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/sse-510-old-and-behind/zh.vtt" type="text/vtt" language="zh" rel="captions"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/sse-510-old-and-behind/bilingual.vtt" type="text/vtt" language="zh" rel="captions"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/sse-510-old-and-behind/zh.srt" type="application/srt" language="zh"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/sse-510-old-and-behind/bilingual.srt" type="application/srt" language="zh"/>
+      <category>Technology</category>
+      <category>Career</category>
+      <itunes:author>Podcast Lab</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/cover.png"/>
+      <itunes:duration>00:45:46</itunes:duration>
+      <itunes:summary>SSE #510：怎么和年轻同事社交不被看成拍马屁？怎么撑过退休前的最后几年？</itunes:summary>
+      <itunes:subtitle>聚会社交 &amp; 厌倦行业前的最后几年</itunes:subtitle>
+    </item>
+
+    <item>
+      <title>EP07 · 财富智慧课 #1 · 家庭资产配置（APRD 系列）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">aprd-wealth-class-1-asset-allocation</guid>
+      <pubDate>Wed, 29 Apr 2026 19:00:00 +0800</pubDate>
+      <description>APRD 财富智慧课第一节：家庭资产配置。主讲人梳理通胀对货币购买力的侵蚀、复利与时间的关系、超额储蓄怎么处置，以及个人在「财富战场上场」之前要先做好的功课，并用约 50 分钟讲家庭资产配置的实操方法。</description>
+      <content:encoded><![CDATA[
+        <h3>课程概要</h3>
+        <p>APRD 财富智慧课系列第一节，主讲家庭资产配置。课程分三大部分：</p>
+        <ul>
+          <li>当下家庭财富管理面对的路径与挑战，包括通胀对货币购买力的侵蚀、社会服务性通胀的真实水平</li>
+          <li>复利与时间的关系：为什么时间比收益率更重要，以及大部分人为什么挣不到「最后阶段」的指数级回报</li>
+          <li>实操：约 50 分钟讲个人/家庭在财富战场上场前应做的准备和资产配置方法</li>
+        </ul>
+        <p><small>录制日期 2026-04-27，时长 02:09:31。中文字幕由 Azure OpenAI gpt-4o-mini-transcribe 自动生成，音频为原录音直接转 mp3，未做翻译、TTS 或 diarization。</small></p>
+      ]]></content:encoded>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.8.0-aprd-wealth-class-1/podcast_zh.mp3" length="44189243" type="audio/mpeg"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/aprd-wealth-class-1-asset-allocation/zh.vtt" type="text/vtt" language="zh" rel="captions"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/aprd-wealth-class-1-asset-allocation/zh.srt" type="application/srt" language="zh"/>
+      <category>Business</category>
+      <category>Investing</category>
+      <itunes:author>Podcast Lab</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/cover.png"/>
+      <itunes:duration>02:09:31</itunes:duration>
+      <itunes:summary>家庭资产配置实操：通胀、复利、时间、超额储蓄怎么处置。</itunes:summary>
+      <itunes:subtitle>APRD 财富智慧课系列第一节</itunes:subtitle>
+    </item>
+
+    <item>
+      <title>EP06 · John Mearsheimer：Trump 是怎样输掉这场战争的</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">mearsheimer-trump-lost-war</guid>
+      <pubDate>Wed, 29 Apr 2026 18:00:00 +0800</pubDate>
+      <description>Judge Napolitano 访谈 John Mearsheimer，分析 Trump 在伊朗战争中的战略失败、Iran 与 Russia/Hezbollah/Hamas 三方支持的关系，以及为什么美国-伊朗很难达成有实质意义的和平协议。</description>
+      <content:encoded><![CDATA[
+        <h3>中文摘要</h3>
+        <p>Judge Napolitano 与 John Mearsheimer 对谈，讨论：</p>
+        <ul>
+          <li>伊朗人民在这场战争中展现的勇气与 Tehran 的外交盟友</li>
+          <li>Iran 对 Hezbollah、Hamas 、其他代理组织的支持什么不会停</li>
+          <li>为什么 Trump 政府在以色列压力下很难达成实质和平协议</li>
+          <li>美国国力在中东问题上的受损</li>
+        </ul>
+        <p><small>原始来源：<a href="https://www.youtube.com/watch?v=VHXJxEU7Ses">Prof. John Mearsheimer: How Trump Lost His War</a> on Judging Freedom。中文版由 Podcast Lab v3 管线自动生成（Azure diarize 直连 + Copilot GPT-5.4 重分配与翻译 + edge-tts 双音色）。</small></p>
+      ]]></content:encoded>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.7.0-mearsheimer-trump-lost-war/podcast_zh.mp3" length="10764236" type="audio/mpeg"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/mearsheimer-trump-lost-war/zh.vtt" type="text/vtt" language="zh" rel="captions"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/mearsheimer-trump-lost-war/bilingual.srt" type="application/srt" language="zh"/>
+      <category>News</category>
+      <category>Politics</category>
+      <itunes:author>Podcast Lab</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/cover.png"/>
+      <itunes:duration>00:30:47</itunes:duration>
+      <itunes:summary>Mearsheimer 分析 Trump 在伊朗战争中的战略失败与中东各方势力。</itunes:summary>
+      <itunes:subtitle>Trump 在伊朗战争中的战略失败</itunes:subtitle>
+    </item>
+
+    <item>
+      <title>EP08 · DHH × Pragmatic Engineer：用 AI 写代码的新方式（v2 重制）</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">dhh-new-way-of-writing-code</guid>
+      <pubDate>Wed, 29 Apr 2026 21:00:00 +0800</pubDate>
+      <description>The Pragmatic Engineer 访谈 DHH（David Heinemeier Hansson）。DHH 半年前还狠批 AI 编程，冬休期间 180 度大转变——37signals 现在 AI-first，每个工程师/设计师都变得更雄心勃勃。聊到 Hey、Linux 发行版 Omarchy、Basecamp 重做、AI tooling 演化、传统 IDE 让位给 agent、招聘标准变化，以及 Smalltalk 与 Kent Beck 的影响。　　本期为 v2 重制版：旧版 speaker 分配在多次手工修补后不一致、结尾不稳；本版整集从 STT 起重跑全管线，干净一致。</description>
+      <content:encoded><![CDATA[
+        <h3>中文摘要</h3>
+        <p>The Pragmatic Engineer 主持人 Gergely Orosz 访谈 DHH。</p>
+        <p>半年前 DHH 在别人的 podcast 上狠批 AI 编程工具。冬休期间几周，他做了 180 度大转变，所以今天这期节目讨论：到底什么变了？37signals 的团队现在怎么写代码？AI 怎么让设计师也能全栈、让小公司重做心中的 Linux 发行版、让招聘标准提高。</p>
+        <p>还聊到传统 IDE、Smalltalk、Kent Beck的《Smalltalk Best Practices》对他的影响，以及 DHH 有什么送给年轻开发者的建议。</p>
+        <p><strong>v2 说明：</strong>旧版（v0.6.0）的 speaker 分配在 LLM reassign 之前打过多个手工补丁，又单独修补过 chunk 3，结尾几个 chunk 主持/嘉宾切换不稳，听感乱。这一版整集从头重跑（STT → LLM reassign → 翻译 → TTS → 字幕），全程不修补，HOST/GUEST 一致。</p>
+        <p><small>原始来源：<a href="https://www.pragmaticengineer.com/dhh-new-way-of-writing-code">DHH's new way of writing code</a> on The Pragmatic Engineer Podcast。中文版由 Podcast Lab v3 管线自动生成。</small></p>
+      ]]></content:encoded>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.9.0-dhh-new-way-of-writing-code/podcast_zh.mp3" length="47079284" type="audio/mpeg"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/dhh-new-way-of-writing-code/zh.vtt" type="text/vtt" language="zh" rel="captions"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/dhh-new-way-of-writing-code/bilingual.vtt" type="text/vtt" language="zh" rel="captions"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/dhh-new-way-of-writing-code/zh.srt" type="application/srt" language="zh"/>
+      <podcast:transcript url="https://huahuahu.github.io/podcast-lab/transcripts/dhh-new-way-of-writing-code/bilingual.srt" type="application/srt" language="zh"/>
+      <category>Technology</category>
+      <category>Programming</category>
+      <category>AI</category>
+      <itunes:author>Podcast Lab</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/cover.png"/>
+      <itunes:duration>02:14:51</itunes:duration>
+      <itunes:summary>DHH 谈他如何从狠批 AI 编程到 AI-first，以及 37signals 的工作方式变革。（v2 重制）</itunes:summary>
+      <itunes:subtitle>DHH 反转：从狠批 AI 编程到 AI-first（v2 重制）</itunes:subtitle>
+    </item>
+
+    <item>
+      <title>EP05 · SSE #509：我讨厌 AI 编程，该转去做 manager 吗？</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">sse-509-ai-dev-hater-manager</guid>
+      <pubDate>Fri, 24 Apr 2026 00:54:00 +0800</pubDate>
+      <description>Soft Skills Engineering #509 中文版。Jamison Dance 和 Dave Smith 回答两个开发者来信：一位否认强推 AI 编程的工程师该不该转做 engineering manager；另一位从个体贡献过渡到需要带团队的角色，如何在 leading 和 doing 之间找到自己的节奏。</description>
+      <content:encoded><![CDATA[
+        <h3>中文摘要</h3>
+        <p>这一期里，Dave 和 Jamison 回答了这些问题：</p>
+        <ol>
+          <li>
+            <p>我在一家 big tech 做 senior software engineer，现在很想换条职业赛道。随着 AI 的崛起，我已经不再享受这份工作了，而且每天都很焦虑，总觉得下一波大 layoff 随时会来。现在我感觉自己就像在流水线上干活一样，像只猴子一样不停按回车。所以我一直在考虑转方向，想去做 engineering management。一方面，我确实挺喜欢带新人、做战略规划，以及协调 vendor 和不同团队之间的项目，但除此之外，我也没有特别明确的证据说明这条路适合我。在我现在的工作里，短期内也没有机会让我更进一步，去管理一个跨团队项目，所以我不太确定该怎么判断 engineering management 到底是不是适合自己。如果不真的去做这份工作，我该怎么弄清楚？另外，一个人通常要怎么转过去，尤其是通过 external hire 或者内部 transfer 的方式？</p>
+          </li>
+          <li>
+            <p>Paolo 问：</p>
+            <p>我最近进入了一个 senior role。我不再是项目里的主要推动者了。现在我应该给 junior developers 留出空间，让他们来主导、做决定、对结果负责。我的工作是带他们、支持他们，而不是自己直接上手掌舵。</p>
+            <p>但我看到有些项目会因为大家太被动而拖下来。有时候方案效率不高；有时候则是还没真正搞清楚核心问题，就已经开始执行了。还有一些情况下，整个节奏会直接停住，好几周都没有什么实质进展，因为没人主动把事情往前推。顺便说一下，我已经多次主动 check in、表示可以提供帮助了，但这些问题还是一直在发生。</p>
+            <p>我相信人是在挣扎中成长的，所以我不想一看到阻力就立刻跳进去接管。但如果项目延期或者失败，责任最后还是会落到我头上。</p>
+            <p>所以这个平衡到底该怎么拿捏？你怎么才能既给别人真正的 ownership，而不是象征性的 ownership，同时又能维持标准和 accountability？另外，又该怎么避免自己变成那种太快冲进去接管一切的 micromanager，或者变成那种放任事情一路漂下去的甩手领导？</p>
+          </li>
+        </ol>
+
+        <hr/>
+
+        <h3>Original Release Notes</h3>
+        <p>In this episode, Dave and Jamison answer these questions:</p>
+        <ol>
+          <li>
+            <p>I am a senior software engineer at big tech and need a career change. With the rise of AI, I no longer enjoy this profession and panic everyday just waiting for a huge round of layoffs. At this point I feel like I am on some assembly line hitting enter like a monkey. Therefore I have been thinking of changing lanes and would like to get into engineering management. On the one hand I have enjoyed mentoring, strategic planning and coordinating projects across vendors and across teams, but besides that I don’t have clear evidence that this profession would fit me. In my current job there is no immediate opportunity to step up and manage a cross team project at the moment, so I am not sure how I can figure out if engineering management is the right choice for me. How do I figure this out without doing the job and how does one transition into it, probably as an external hire or transfer hire?</p>
+          </li>
+          <li>
+            <p>Paolo asks,</p>
+            <p>I’ve stepped into a senior role recently. I’m no longer the primary driver on projects. I’m supposed to create space for junior developers to lead, make decisions, and own outcomes. My job is to mentor and support, not to take the wheel.</p>
+            <p>But I’m seeing projects drag because of passivity. Sometimes the solutions are inefficient. Other times it feels like the core problem isn’t fully understood before execution starts. In a few cases, momentum just stalls, and weeks go by without real progress because no one is pushing the work forward. It’s worth mentioning that I check in multiple times to offer help yet these problems keep happening.</p>
+            <p>I believe people grow by struggling, so I don’t want to jump in at the first sign of friction. But if a project slips or fails, that responsibility ultimately rolls up to me.</p>
+            <p>So how do you strike the balance? How do you give someone real ownership, not just symbolic ownership, while still maintaining standards and accountability? And how do you avoid becoming either the micromanager who swoops in too quickly or the absentee leader who lets things drift?</p>
+          </li>
+        </ol>
+
+        <hr/>
+        <p><small>中文版由 <a href="https://github.com/huahuahu/podcast-lab">Podcast Lab v3</a> 管线自动生成：Azure gpt-4o-transcribe-diarize + Copilot GPT-5.4 翻译 + edge-tts 双音色合成。原始来源：<a href="https://softskills.audio/2026/04/20/episode-509-i-hate-ai-software-dev,-so-should-i-become-a-manager-and-leading,-not-doing/">Soft Skills Engineering #509</a>。</small></p>
+      ]]></content:encoded>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.5.0-sse-509-ai-dev-hater-manager/podcast_zh.mp3" length="16269020" type="audio/mpeg"/>
+      <category>Technology</category>
+      <category>Career</category>
+      <itunes:author>Podcast Lab</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/cover.png"/>
+      <itunes:duration>00:46:58</itunes:duration>
+      <itunes:summary>听众来信：讨厌 AI 编程该不该转做 manager？leading vs doing 怎么选？</itunes:summary>
+      <itunes:subtitle>AI 让编码变趣了吗？lead 还是 do？</itunes:subtitle>
+    </item>
+
+    <item>
+      <title>EP04 · John Mearsheimer：美国正在输掉以色列的战争</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">mearsheimer-america-losing-israel-war</guid>
+      <pubDate>Wed, 22 Apr 2026 08:55:00 +0800</pubDate>
+      <description>Judge Napolitano 访谈国际关系学者 John Mearsheimer，分析美国在伊朗-以色列战争中的战略困境、与 Tehran 谈判的前景、Trump 政府的外交表现，以及美国美学、政府效能和大国矛盾背后的跟脚。原视频标题为 America Is Losing Israel's War — Here's Why。</description>
+      <content:encoded><![CDATA[
+        <p>Judge Napolitano 与 John Mearsheimer 对谈，讨论美国在以色列与伊朗冲突中的困局： Hormuz 海峡封锁的经济冲击、以色列对白宫的持续压力、Trump 政府的外交变数，以及大国战略关系中的重构信号。</p>
+        <p>原始来源：<a href="https://www.youtube.com/watch?v=AdC37Wj4kiM">America Is Losing Israel's War — Here's Why</a>。</p>
+      ]]></content:encoded>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.4.0-mearsheimer-america-losing-israel-war/podcast_zh.mp3" length="10180268" type="audio/mpeg"/>
+      <category>News</category>
+      <category>Politics</category>
+      <itunes:author>Podcast Lab</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/cover.png"/>
+      <itunes:duration>00:29:06</itunes:duration>
+      <itunes:summary>Mearsheimer 分析美国在以伊战争中的战略困境与 Trump 政府的外交表现。</itunes:summary>
+      <itunes:subtitle>美国为何在以色列的战争中节节败退</itunes:subtitle>
+    </item>
+
+    <item>
+      <title>EP03 · Judge Napolitano：谁真的想要伊朗战争？</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">napolitano-who-wants-iran-war</guid>
+      <pubDate>Wed, 22 Apr 2026 08:24:00 +0800</pubDate>
+      <description>Judge Napolitano 与嘉宾短频讨论：中东几乎没有国家想要一场伊朗战争，中国、俄罗斯都不想。唯有以色列施加强大压力。原视频来自 Judging Freedom 频道，标题 Who really wants war with Iran?。</description>
+      <content:encoded><![CDATA[
+        <p>短片段：Judge Napolitano 与嘉宾分析中东各方为何都不愿意与伊朗开战，以及为什么在以色列压力下 Trump 仍有可能被推入战争的故事线。</p>
+        <p>原始来源：<a href="https://www.youtube.com/watch?v=O-_BEnupKjc">Who really wants war with Iran?</a>。</p>
+      ]]></content:encoded>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.3.0-napolitano-who-wants-iran-war/podcast_zh.mp3" length="498452" type="audio/mpeg"/>
+      <category>News</category>
+      <category>Politics</category>
+      <itunes:author>Podcast Lab</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/cover.png"/>
+      <itunes:duration>00:01:25</itunes:duration>
+      <itunes:summary>Judge Napolitano 与嘉宾短频分析：中东和主要大国都不想打伊朗战争，唯有以色列在施压。</itunes:summary>
+      <itunes:subtitle>短片段：谁在推动伊朗战争？</itunes:subtitle>
+    </item>
+
+    <item>
+      <title>EP02 · Chris Hedges × John Mearsheimer：伊朗战争还有出路吗？</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">hedges-mearsheimer-iran-war</guid>
+      <pubDate>Tue, 21 Apr 2026 22:45:00 +0800</pubDate>
+      <description>于 Chris Hedges 访谈国际关系学者 John Mearsheimer。两人分析伊朗-美国新一轮谈判、Hormuz 海峡封锁、以色列因素、Trump 的策略选择，以及大国关系重塑中的潜在变变。原始节目为 The Chris Hedges Report：Is There a Way out of the Iran War? (w/ John Mearsheimer)。</description>
+      <content:encoded><![CDATA[
+        <p>这期节目 Chris Hedges 与 John Mearsheimer 对谈，讨论伊朗与美国在 Islamabad 恢复谈判的前景、以色列在停火框架内的角色、Hormuz 海峡封锁对全球能源技治经济的冲击，以及 Trump 的决策风格与美国国力受损的体现。</p>
+        <p>原始来源：<a href="https://www.youtube.com/watch?v=GMg6_jGfjzM">Is There a Way out of the Iran War? (w/ John Mearsheimer)</a>。</p>
+        <p>中文版使用 Podcast Lab v3 管线制作：Azure gpt-4o-transcribe-diarize 转录 + 说话人分离，Copilot GPT-5.4 完成 Host/Guest 重分配和翻译，edge-tts 双音色合成（主持人 晓晓 / 嘉宾 云扬）。</p>
+      ]]></content:encoded>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.2.0-hedges-mearsheimer-iran-war/podcast_zh.mp3" length="13790708" type="audio/mpeg"/>
+      <category>News</category>
+      <category>Politics</category>
+      <itunes:author>Podcast Lab</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/cover.png"/>
+      <itunes:duration>00:39:29</itunes:duration>
+      <itunes:summary>Chris Hedges 访谈 John Mearsheimer，分析伊朗-美国谈判前景、以色列因素、Hormuz 封锁对全球经济的冲击，以及 Trump 的处理方式。</itunes:summary>
+      <itunes:subtitle>Chris Hedges 与 John Mearsheimer 对谈伊朗战争与大国关系</itunes:subtitle>
+    </item>
+
+    <item>
+      <title>EP01 · Ethan Evans：公司政治如何运作，以及怎样赢</title>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">ethan-evans-corp-politics</guid>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0800</pubDate>
+      <description>前 Amazon VP Ethan Evans 与 Ryan Peterman 的长访谈中文整理版，围绕公司政治、Empire Building、重组、scope 争夺、坏经理、skip manager、晋升叙事和职场影响力展开。原始访谈标题为 Retired Amazon VP: How Corporate Politics Work And How To Win | Ethan Evans。</description>
+      <content:encoded><![CDATA[
+        <p>这是一集围绕大公司内部运作机制的长访谈中文整理版。Ethan Evans 结合自己在 Amazon 的管理经历，讨论了公司政治、晋升门槛、团队重组、scope 争夺、坏经理、skip manager、内部博弈与影响力表达。</p>
+        <p>原始来源：<a href="https://www.youtube.com/watch?v=6WaeGfLnRvc">Ryan Peterman 访谈 Ethan Evans</a>。</p>
+        <p>当前 RSS 已预留正式音频地址，后续替换占位链接后即可用于正式播客订阅。</p>
+      ]]></content:encoded>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.1.0-ethan-evans-zh/ethan-evans-corp-politics-zh.mp3" length="58163252" type="audio/mpeg"/>
+      <category>Technology</category>
+      <category>Careers</category>
+      <itunes:author>Podcast Lab</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/cover.png"/>
+      <itunes:duration>02:50:45</itunes:duration>
+      <itunes:summary>前 Amazon VP Ethan Evans 与 Ryan Peterman 的长访谈中文整理版，聚焦公司政治、晋升、组织重组、scope 争夺和职场影响力。</itunes:summary>
+      <itunes:subtitle>前 Amazon VP 谈公司政治、重组与晋升规则</itunes:subtitle>
+    </item>
+  </channel>
+</rss>

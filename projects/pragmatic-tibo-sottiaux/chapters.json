@@ -1,0 +1,69 @@
+{
+  "version": "1.2.0",
+  "chapters": [
+    {
+      "startTime": 0.0,
+      "title": "开场"
+    },
+    {
+      "startTime": 430.41,
+      "title": "在 Google 工作"
+    },
+    {
+      "startTime": 752.918,
+      "title": "是什么吸引 Tibo 加入 OpenAI"
+    },
+    {
+      "startTime": 920.82,
+      "title": "Codex 的早期岁月"
+    },
+    {
+      "startTime": 1084.642,
+      "title": "为什么 Codex 用 Rust 构建"
+    },
+    {
+      "startTime": 1248.502,
+      "title": "为什么 Codex 开源"
+    },
+    {
+      "startTime": 1474.842,
+      "title": "Codex 为什么兼容其他模型"
+    },
+    {
+      "startTime": 1870.198,
+      "title": "Harness 如何工作"
+    },
+    {
+      "startTime": 2101.422,
+      "title": "Harness 与模型的改进"
+    },
+    {
+      "startTime": 2334.574,
+      "title": "Codex 背后的软件开发生命周期"
+    },
+    {
+      "startTime": 2624.284,
+      "title": "Codex 的代码审查"
+    },
+    {
+      "startTime": 2908.834,
+      "title": "维护与架构"
+    },
+    {
+      "startTime": 3129.684,
+      "title": "AI 工具如何扩展工程师的能力"
+    },
+    {
+      "startTime": 3426.022,
+      "title": "合并：ChatGPT 与 Codex"
+    },
+    {
+      "startTime": 3667.588,
+      "title": "Tibo 如何使用 Codex 与 ChatGPT"
+    },
+    {
+      "startTime": 3811.788,
+      "title": "给想从事 AI 的工程师的建议"
+    }
+  ]
+}

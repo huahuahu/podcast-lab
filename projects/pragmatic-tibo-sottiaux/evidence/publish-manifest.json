@@ -1,0 +1,30 @@
+{
+  "status": "published_verified",
+  "ep": "EP64",
+  "tag": "v0.65.0-pragmatic-tibo-sottiaux",
+  "title": "EP64 · Codex 是如何打造的：对话 Tibo Sottiaux · 完整中文版",
+  "guid": "pragmatic-tibo-sottiaux",
+  "pubDate": "Fri, 11 Sep 2026 07:25:20 +0800",
+  "urls": {
+    "release": "https://github.com/huahuahu/podcast-lab/releases/tag/v0.65.0-pragmatic-tibo-sottiaux",
+    "audio": "https://github.com/huahuahu/podcast-lab/releases/download/v0.65.0-pragmatic-tibo-sottiaux/podcast_zh.mp3",
+    "chapters": "https://github.com/huahuahu/podcast-lab/releases/download/v0.65.0-pragmatic-tibo-sottiaux/chapters.json",
+    "cover": "https://huahuahu.github.io/podcast-lab/assets/covers/pragmatic-tibo-sottiaux.png",
+    "rss": "https://huahuahu.github.io/podcast-lab/rss.xml",
+    "source": "https://newsletter.pragmaticengineer.com/p/building-codex-with-tibo-sottiaux"
+  },
+  "audio": {
+    "path": "projects/pragmatic-tibo-sottiaux/audio/podcast_zh.mp3",
+    "bytes": 65049694,
+    "duration_sec": 4065.48,
+    "sha256": "fb1bb7228f05eb5f8ab27033d7908fb384b880537047b0628abe62d7f5154936",
+    "embedded_chapters": 16
+  },
+  "previous_rss_items": 63,
+  "new_rss_items": 64,
+  "prior_items_unchanged": true,
+  "base_commit": "c67b2ace79c79f8d8dfc4c129977483d7a38382a",
+  "published_at_verified": "2026-09-11T09:38:29.210024+00:00",
+  "publication_commit": "08b543f9cbaf36caecbd193d1054cb47c0aa78a5",
+  "verification_file": "evidence/published-verification.json"
+}

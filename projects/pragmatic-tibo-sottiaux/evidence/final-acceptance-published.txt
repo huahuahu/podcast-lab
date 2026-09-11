@@ -1,0 +1,16 @@
+⏳ 等 GitHub Pages 部署 + RSS 出现 slug=pragmatic-tibo-sottiaux ...
+scripts/publish/final_acceptance.sh: line 18: [: 0
+0: integer expression expected
+scripts/publish/final_acceptance.sh: line 18: [: 0
+0: integer expression expected
+scripts/publish/final_acceptance.sh: line 18: [: 0
+0: integer expression expected
+scripts/publish/final_acceptance.sh: line 18: [: 0
+0: integer expression expected
+✅ RSS 已更新
+🔗 检查 URL HEAD:
+  ✓ 200 https://github.com/huahuahu/podcast-lab/releases/download/v0.65.0-pragmatic-tibo-sottiaux/chapters.json
+  ✓ 200 https://github.com/huahuahu/podcast-lab/releases/download/v0.65.0-pragmatic-tibo-sottiaux/podcast_zh.mp3
+  ✓ 200 https://huahuahu.github.io/podcast-lab/assets/covers/pragmatic-tibo-sottiaux.png
+  ✓ itunes:image 存在
+✅ final_acceptance OK — 可在播客客户端订阅播放

@@ -1,0 +1,135 @@
+{
+  "status": "published_verified",
+  "verified_at": "2026-09-11T09:38:29.210024+00:00",
+  "ep": "EP64",
+  "tag": "v0.65.0-pragmatic-tibo-sottiaux",
+  "title": "EP64 · Codex 是如何打造的：对话 Tibo Sottiaux · 完整中文版",
+  "urls": {
+    "release": "https://github.com/huahuahu/podcast-lab/releases/tag/v0.65.0-pragmatic-tibo-sottiaux",
+    "audio": "https://github.com/huahuahu/podcast-lab/releases/download/v0.65.0-pragmatic-tibo-sottiaux/podcast_zh.mp3",
+    "chapters": "https://github.com/huahuahu/podcast-lab/releases/download/v0.65.0-pragmatic-tibo-sottiaux/chapters.json",
+    "cover": "https://huahuahu.github.io/podcast-lab/assets/covers/pragmatic-tibo-sottiaux.png",
+    "rss": "https://huahuahu.github.io/podcast-lab/rss.xml",
+    "source": "https://newsletter.pragmaticengineer.com/p/building-codex-with-tibo-sottiaux"
+  },
+  "publication_commit": "08b543f9cbaf36caecbd193d1054cb47c0aa78a5",
+  "remote_master_at_verification": "08b543f9cbaf36caecbd193d1054cb47c0aa78a5",
+  "release_reused_without_create_or_upload": true,
+  "release": {
+    "assets": [
+      {
+        "apiUrl": "https://api.github.com/repos/huahuahu/podcast-lab/releases/assets/556016522",
+        "contentType": "application/json",
+        "createdAt": "2026-09-10T23:25:29Z",
+        "digest": "sha256:aa889064c6be924c4b4f4b361a2c2c6f36c51202194d44e35e4a1a90b2e8cc47",
+        "downloadCount": 1,
+        "id": "RA_kwDOSGuUDc4hJCOK",
+        "label": "",
+        "name": "chapters.json",
+        "size": 1417,
+        "state": "uploaded",
+        "updatedAt": "2026-09-10T23:25:30Z",
+        "url": "https://github.com/huahuahu/podcast-lab/releases/download/v0.65.0-pragmatic-tibo-sottiaux/chapters.json"
+      },
+      {
+        "apiUrl": "https://api.github.com/repos/huahuahu/podcast-lab/releases/assets/556016521",
+        "contentType": "audio/mpeg",
+        "createdAt": "2026-09-10T23:25:29Z",
+        "digest": "sha256:fb1bb7228f05eb5f8ab27033d7908fb384b880537047b0628abe62d7f5154936",
+        "downloadCount": 1,
+        "id": "RA_kwDOSGuUDc4hJCOJ",
+        "label": "",
+        "name": "podcast_zh.mp3",
+        "size": 65049694,
+        "state": "uploaded",
+        "updatedAt": "2026-09-10T23:25:37Z",
+        "url": "https://github.com/huahuahu/podcast-lab/releases/download/v0.65.0-pragmatic-tibo-sottiaux/podcast_zh.mp3"
+      }
+    ],
+    "isDraft": false,
+    "name": "EP64 · Codex 是如何打造的：对话 Tibo Sottiaux · 完整中文版",
+    "tagName": "v0.65.0-pragmatic-tibo-sottiaux",
+    "url": "https://github.com/huahuahu/podcast-lab/releases/tag/v0.65.0-pragmatic-tibo-sottiaux"
+  },
+  "public": {
+    "audio": {
+      "url": "https://github.com/huahuahu/podcast-lab/releases/download/v0.65.0-pragmatic-tibo-sottiaux/podcast_zh.mp3",
+      "curl_exit_code": 0,
+      "http_and_size": "200 65049694",
+      "checked_at": "2026-09-11T09:37:25.677134+00:00",
+      "http_status": 200,
+      "bytes": 65049694,
+      "sha256": "fb1bb7228f05eb5f8ab27033d7908fb384b880537047b0628abe62d7f5154936"
+    },
+    "chapters": {
+      "url": "https://github.com/huahuahu/podcast-lab/releases/download/v0.65.0-pragmatic-tibo-sottiaux/chapters.json",
+      "curl_exit_code": 0,
+      "http_and_size": "200 1417",
+      "checked_at": "2026-09-11T09:37:26.967489+00:00",
+      "http_status": 200,
+      "bytes": 1417,
+      "sha256": "aa889064c6be924c4b4f4b361a2c2c6f36c51202194d44e35e4a1a90b2e8cc47",
+      "chapter_count": 16,
+      "matches_local": true
+    },
+    "cover": {
+      "url": "https://huahuahu.github.io/podcast-lab/assets/covers/pragmatic-tibo-sottiaux.png",
+      "http_status": 200,
+      "bytes": 413506,
+      "sha256": "68ec9c5e2145d1d32fcfb103fb3b8a82b23fdc1cb1e6f85137ace01f8565118c",
+      "checked_at": "2026-09-11T09:37:55.065373+00:00",
+      "previous_attempt": {
+        "url": "https://huahuahu.github.io/podcast-lab/assets/covers/pragmatic-tibo-sottiaux.png",
+        "curl_exit_code": 56,
+        "http_and_size": "404 0",
+        "checked_at": "2026-09-11T09:37:27.574813+00:00",
+        "error": "curl: (56) The requested URL returned error: 404\n"
+      },
+      "matches_local": true
+    },
+    "rss": {
+      "url": "https://huahuahu.github.io/podcast-lab/rss.xml",
+      "http_status": 200,
+      "bytes": 136363,
+      "sha256": "3f0a97ee3c655164b10057c365019643a802d282ae30778ead1e6711d0cf52be",
+      "checked_at": "2026-09-11T09:37:55.763956+00:00",
+      "item_count": 64,
+      "matching_guid_count": 1,
+      "title": "EP64 · Codex 是如何打造的：对话 Tibo Sottiaux · 完整中文版",
+      "enclosure": {
+        "url": "https://github.com/huahuahu/podcast-lab/releases/download/v0.65.0-pragmatic-tibo-sottiaux/podcast_zh.mp3",
+        "length": "65049694",
+        "type": "audio/mpeg"
+      },
+      "previous_items_preserved": 63,
+      "prior_items_unchanged": true,
+      "matches_local": true,
+      "duration": "1:07:45"
+    }
+  },
+  "final_acceptance": {
+    "started_at": "2026-09-11T09:37:03.852347+00:00",
+    "finished_at": "2026-09-11T09:37:35.203718+00:00",
+    "exit_code": 0,
+    "command": "bash scripts/publish/final_acceptance.sh pragmatic-tibo-sottiaux",
+    "publication_commit": "08b543f9cbaf36caecbd193d1054cb47c0aa78a5"
+  },
+  "pages_deployment": {
+    "conclusion": "success",
+    "databaseId": 34585107074,
+    "headSha": "08b543f9cbaf36caecbd193d1054cb47c0aa78a5",
+    "status": "completed",
+    "workflowName": "pages-build-deployment"
+  },
+  "protected_files_unchanged": {
+    "docs/MAINTENANCE.md": true,
+    "scripts/reassign_speakers_llm.py": true,
+    "scripts/translate_dialog_copilot.py": true
+  },
+  "manual_full_listening": false,
+  "notes": [
+    "First cover GET returned 404 before Pages finished; subsequent public GET and script HEAD returned 200.",
+    "Existing final_acceptance.sh emitted integer-expression warnings while RSS was absent, then passed with exit 0. Public RSS was additionally parsed and every prior item compared.",
+    "Earlier local acceptance.json and delivery_report.md are retained as historical pre-publication records; this verification is the current publication status."
+  ]
+}

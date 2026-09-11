@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-09-11T09:36:31.106530+00:00",
+  "base_commit": "c67b2ace79c79f8d8dfc4c129977483d7a38382a",
+  "previous_items": 63,
+  "new_items": 64,
+  "all_previous_items_unchanged": true,
+  "only_item_and_lastBuildDate_changed": true,
+  "protected_sha256": {
+    "docs/MAINTENANCE.md": "2043cd940f066502f8ebd88836504b317ef1f5805bf49c45b532870f8340b904",
+    "scripts/reassign_speakers_llm.py": "37ca203c49296b2fa031c2f39136dfb2121f247a986bd0199ac73bfdf7fdeee9",
+    "scripts/translate_dialog_copilot.py": "e3c3c7b30d40d14ee07248f6d7cd00b8b723b2316fd89c7be4de5246ec9d15b8"
+  },
+  "rss_sha256": "3f0a97ee3c655164b10057c365019643a802d282ae30778ead1e6711d0cf52be"
+}
