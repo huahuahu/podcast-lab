@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Fri, 11 Sep 2026 07:25:20 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 17:29:15 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,21 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP65 · Soft Skills Engineering #530 · 产品工程师的面试定位与团队为何不质疑骨干 · 完整中文版</title>
+      <link>https://github.com/huahuahu/podcast-lab/releases/tag/v0.66.0-sse-530</link>
+      <guid isPermaLink="false">sse-530</guid>
+      <pubDate>Tue, 15 Sep 2026 17:29:15 +0800</pubDate>
+      <description>转行做技术、擅长分析和跨团队协作，却在技术面试中吃亏，该补算法还是寻找更适合的产品工程岗位？Dave 与 Jamison 讨论用业务成果讲好自己的故事，以及 AI 工具如何改变面试。随后，升职后的团队骨干发现工作全涌向自己，团队不再质疑方案；两人讨论公开交接责任、共同知识及适时退后。完整保留开场、赞助人致谢、两封来信、讨论及收尾。 非官方 AI 中文配音；Dave 云希/Jamison 云扬，42:48，7章；362源段、219轮、230严格TTS片段。未全片人工听校，语义说话人推断与专名仍有不确定性；ASR相似度98.14%不是翻译准确率。开头输入为“五百三十期”，但ASR反复识别为537，发音/识别歧义尚未经人耳确认，本次原样发布。原节目：https://softskills.audio/2026/09/14/episode-530-product-engineering-and-why-does-my-team-never-challenge-my-ideas/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.66.0-sse-530/podcast_zh.mp3" length="41093983" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-530.png"/>
+      <podcast:chapters url="https://github.com/huahuahu/podcast-lab/releases/download/v0.66.0-sse-530/chapters.json" type="application/json+chapters"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jamison Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>42:48</itunes:duration>
+    </item>
 
     <item>
       <title>EP64 · Codex 是如何打造的：对话 Tibo Sottiaux · 完整中文版</title>
