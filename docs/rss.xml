@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Tue, 15 Sep 2026 17:29:15 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 17:55:44 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,20 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP66 · 葛兆光：“天下”抑或“世界”？中古佛教入华对古代中国天下观的冲击 · 完整中文原声</title>
+      <link>https://github.com/huahuahu/podcast-lab/releases/tag/v0.67.0-gezhaoguang-tianxia-shijie</link>
+      <guid isPermaLink="false">gezhaoguang-tianxia-shijie</guid>
+      <pubDate>Fri, 18 Sep 2026 17:55:44 +0800</pubDate>
+      <description>葛兆光主讲，邓小南主持，杨立华评议：《“天下”抑或“世界”？中古佛教入华对古代中国天下观的冲击》。官方视频由北大文研院发布，仅1P；本版为Podcast Lab非官方音频整理，完整中文原声，非AI配音，不翻译、不TTS、不剪内容、不生成主题章节。时长2:20:42，单个完整MP3；未做全片人工听校，技术解码和样本覆盖检查不等于内容听校。2026-06-22是平台发布日期，不推断讲座举行日期。官方来源：https://www.bilibili.com/video/BV1KD7P6iEBv/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.67.0-gezhaoguang-tianxia-shijie/podcast_original.mp3" length="135139965" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/gezhaoguang-tianxia-shijie.png"/>
+      <category>Society &amp; Culture</category>
+      <itunes:author>葛兆光（主讲）／邓小南（主持）／杨立华（评议）</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>2:20:42</itunes:duration>
+    </item>
 
     <item>
       <title>EP65 · Soft Skills Engineering #530 · 产品工程师的面试定位与团队为何不质疑骨干 · 完整中文版</title>
