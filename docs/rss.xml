@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Fri, 18 Sep 2026 17:55:44 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 17:36:32 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,21 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP67 · Soft Skills Engineering #531 · 如何获得深入反馈，与狂灌 AI 垃圾的同事 · 完整中文版</title>
+      <link>https://github.com/huahuahu/podcast-lab/releases/tag/v0.68.0-sse-531</link>
+      <guid isPermaLink="false">sse-531</guid>
+      <pubDate>Tue, 22 Sep 2026 17:36:32 +0800</pubDate>
+      <description>驻场顾问怎样获得深入反馈，又不显得缺乏自信？同事狂灌冗长、难懂的AI代码与设计文档，审查责任该由谁承担？Dave与Jamison讨论反馈机制、代码首阅与复审、团队约定及按风险选择审查深度。完整保留开场、支持者致谢、两封来信、全部讨论与收尾。非官方AI中文双人配音，不代表原节目或主持人官方认可；Dave云希/Jamison云扬，38:37，8章。未全片人工听校；语义说话人推断、专名拼写及发音有不确定性，97.44%回转录字符相似度不是翻译准确率。不复刻原音乐、自然笑声或真实声音身份。原节目第531期（2026-09-21），本feed为EP67。官方来源：https://softskills.audio/2026/09/21/episode-531-shallow-feedback-and-my-coworker-is-a-huge-sloperator/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.68.0-sse-531/podcast_zh.mp3" length="37085452" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-531.png"/>
+      <podcast:chapters url="https://github.com/huahuahu/podcast-lab/releases/download/v0.68.0-sse-531/chapters.json" type="application/json+chapters"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jamison Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>38:37</itunes:duration>
+    </item>
 
     <item>
       <title>EP66 · 葛兆光：“天下”抑或“世界”？中古佛教入华对古代中国天下观的冲击 · 完整中文原声</title>
