@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Tue, 22 Sep 2026 17:36:32 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 06:46:58 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,36 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP69 · Soft Skills Engineering #533 · 被同事的低质量 AI 内容淹没 · 完整中文版</title>
+      <link>https://github.com/huahuahu/podcast-lab/releases/tag/v0.70.0-sse-533</link>
+      <guid isPermaLink="false">sse-533</guid>
+      <pubDate>Thu, 08 Oct 2026 06:46:58 +0800</pubDate>
+      <description>同事把未经检查的AI代码和文档交过来，最熟悉项目的人却成了全天候审查员。讨论工作边界、管理责任、专业知识差距、代码理解与协作质量标准；另含第521期零筹码谈薪听众反馈，本集仅一封正式来信。完整保留开场、致谢、来信、全部讨论与正常收尾，非摘要。Dave云希/Jamison云扬，38:21，12章。非官方AI中文双人配音，不代表原节目或主持人认可。未全片人工听校、声纹验证或翻译准确率测量；说话人按语义推断，昵称拼写、发音及短应答归属可能有误。不复刻原音乐、自然笑声或真实声音身份。原转录879段均已审阅，744有效语言段完整译入；135个尾乐空白、标点及重复Bye伪影经两次独立尾片识别复核排除，原音频和转录保留。原节目第533期（2026-10-05），本feed为EP69。官方来源：https://softskills.audio/2026/10/05/episode-533-i'm-drowning-in-ai-slop-from-lazy-coworkers/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.70.0-sse-533/podcast_zh.mp3" length="36821250" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-533.png"/>
+      <podcast:chapters url="https://github.com/huahuahu/podcast-lab/releases/download/v0.70.0-sse-533/chapters.json" type="application/json+chapters"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jamison Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>38:21</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP68 · Soft Skills Engineering #532 · 新公司一团糟；在日本工作的工程师如何转向英语岗位 · 完整中文版</title>
+      <link>https://github.com/huahuahu/podcast-lab/releases/tag/v0.69.0-sse-532</link>
+      <guid isPermaLink="false">sse-532</guid>
+      <pubDate>Thu, 08 Oct 2026 06:46:57 +0800</pubDate>
+      <description>入职后发现新公司混乱，怎样决定留下推动改变还是寻找下一份工作？在东京工作的日语非母语工程师，如何转向英语岗位、练习口语与技术面试？完整保留开场、致谢、来信、全部讨论与正常收尾，非摘要。Dave云希/Jamison云扬，37:41，9章。非官方AI中文双人配音，不代表原节目或主持人认可。未全片人工听校、声纹验证或翻译准确率测量；说话人按语义推断，昵称拼写、发音及短应答归属可能有误。不复刻原音乐、自然笑声或真实声音身份。第56轮当前使用Dave/云希，文字逻辑上更可能是Jamison/云扬；保留已交付音色疑点，未缺失内容。最后章节起点略早于提问入口。原节目第532期（2026-09-28），本feed为EP68。官方来源：https://softskills.audio/2026/09/28/episode-532-my-new-company-is-an-absolute-mess-and-should-i-get-an-english-speaking-job-as-a-japanese-engineer/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.69.0-sse-532/podcast_zh.mp3" length="36179213" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-532.png"/>
+      <podcast:chapters url="https://github.com/huahuahu/podcast-lab/releases/download/v0.69.0-sse-532/chapters.json" type="application/json+chapters"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jamison Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>37:41</itunes:duration>
+    </item>
 
     <item>
       <title>EP67 · Soft Skills Engineering #531 · 如何获得深入反馈，与狂灌 AI 垃圾的同事 · 完整中文版</title>
