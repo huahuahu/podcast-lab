@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Thu, 08 Oct 2026 06:46:58 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 06:56:51 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,21 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP70 · Soft Skills Engineering #534 · 资深工程师仍会漏细节；接手无人审查的AI代码堆 · 完整中文版</title>
+      <link>https://github.com/huahuahu/podcast-lab/releases/tag/v0.71.0-sse-534</link>
+      <guid isPermaLink="false">sse-534</guid>
+      <pubDate>Wed, 14 Oct 2026 06:56:51 +0800</pubDate>
+      <description>二十年经验的工程师仍会漏掉重要细节，如何通过理解自测、亲手记笔记、同伴评审和流程补位？接手产品经理用Claude生成、从未经过工程师审查的大型代码库，又如何确认成功标准、锁定行为测试、厘清数据模型与集成边界？完整保留开场、致谢、两封来信、全部讨论与正常收尾，非摘要。Dave云希/Jamison云扬，45:59，8章。非官方AI中文双人配音，不代表原节目或主持人认可。未全片人工听校、声纹验证或翻译准确率测量；说话人按语义推断，昵称拼写、发音及短应答归属可能有误；认国旗闲聊已修正一轮角色，短插话边界仍未经声纹确认。不复刻原音乐、自然笑声或真实声音身份。原ASR1052段全部审阅，919有效语言段译入；133空白、标点及尾乐重复Bye伪影经三个无前文独立尾片ASR复核排除，原件保留。ASR字符相似度不是翻译准确率。原节目第534期（2026-10-12），本feed为EP70。官方来源：https://softskills.audio/2026/10/12/episode-534-i'm-so-bad-at-my-job-and-i've-inherited-a-huge-slop-pile/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.71.0-sse-534/podcast_zh.mp3" length="44152610" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-534.png"/>
+      <podcast:chapters url="https://github.com/huahuahu/podcast-lab/releases/download/v0.71.0-sse-534/chapters.json" type="application/json+chapters"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jamison Dance</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>45:59</itunes:duration>
+    </item>
 
     <item>
       <title>EP69 · Soft Skills Engineering #533 · 被同事的低质量 AI 内容淹没 · 完整中文版</title>
