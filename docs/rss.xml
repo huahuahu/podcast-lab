@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Wed, 14 Oct 2026 06:56:51 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 07:36:43 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,20 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP71 · 邓小南《“转型时代”——宋代政治文化面面观》· 完整原声</title>
+      <link>https://github.com/huahuahu/podcast-lab/releases/tag/v0.72.0-dengxiaonan-song-political-culture</link>
+      <guid isPermaLink="false">dengxiaonan-song-political-culture</guid>
+      <pubDate>Fri, 30 Oct 2026 07:36:43 +0800</pubDate>
+      <description>北京大学邓小南《“转型时代”——宋代政治文化面面观》讲座（主讲人及单位据源视频标题）。完整保留指定B站视频全部1P的中文原声，仅转换为MP3；不翻译、不TTS、不剪切，非AI配音、非摘要。非官方音频整理，不代表讲者或原上传者认可。时长1:15:18。原上传者：゚端木樽者，源简介仅“自学自用。”；未据标题编造详细内容提要。无可靠公开字幕或章节时间点，因此未添加推测章节。未全片人工听校；技术完整性核验不证明线下讲座在上传前未经剪辑。本期不包含所在宋史合集的其他视频。来源：https://www.bilibili.com/video/BV1YMa26KEgU</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.72.0-dengxiaonan-song-political-culture/P01-song-political-culture.mp3" length="72283161" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/dengxiaonan-song-political-culture.png"/>
+      <category>History</category>
+      <itunes:author>邓小南</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:15:18</itunes:duration>
+    </item>
 
     <item>
       <title>EP70 · Soft Skills Engineering #534 · 资深工程师仍会漏细节；接手无人审查的AI代码堆 · 完整中文版</title>
