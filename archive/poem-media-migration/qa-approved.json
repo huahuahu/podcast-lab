@@ -1,0 +1,18 @@
+{
+  "approved": true,
+  "scope": "Local migration readiness only; remote assets and public HTTP gated separately",
+  "feeds": 7,
+  "item_references": 168,
+  "unique_audio": 84,
+  "checks": [
+    "source metadata and order",
+    "enclosure URLs and lengths",
+    "duration matches ffprobe evidence",
+    "all source SHA256",
+    "protected existing feeds unchanged"
+  ],
+  "limitations": [
+    "original cover unavailable; no fabricated replacement",
+    "source contact@example.com placeholder retained; directory submission not included"
+  ]
+}

@@ -1,0 +1,506 @@
+[
+  {
+    "asset": "taoyuanming-030.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/4171264",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-029.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/30733406",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-028.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/9377364",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-027.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/53254301",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-025.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/7957556",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-024.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/15597014",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-023.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/110523112",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-022.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/48002688",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-021.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/32867506",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-020.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/128359476",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-019.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/48320293",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-018.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/256802557",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-017.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/106516512",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-015.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/80665736",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-014.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/82402819",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-013.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/135202557",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-012.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/171602623",
+    "prefix_matches": true
+  },
+  {
+    "asset": "ruanji-019.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/83304921",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-010.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/103202557",
+    "prefix_matches": true
+  },
+  {
+    "asset": "ruanji-018.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/50202511",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-009.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/41046967",
+    "prefix_matches": true
+  },
+  {
+    "asset": "ruanji-017.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/24351867",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-008.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/51483408",
+    "prefix_matches": true
+  },
+  {
+    "asset": "ruanji-016.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/102063977",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-007.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/50652087",
+    "prefix_matches": true
+  },
+  {
+    "asset": "ruanji-015.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/40780455",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-006.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/62222451",
+    "prefix_matches": true
+  },
+  {
+    "asset": "ruanji-014.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/81168102",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-005.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/134283047",
+    "prefix_matches": true
+  },
+  {
+    "asset": "ruanji-013.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/56510477",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-004.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/124043047",
+    "prefix_matches": true
+  },
+  {
+    "asset": "ruanji-012.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/23894469",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-003.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/168123112",
+    "prefix_matches": true
+  },
+  {
+    "asset": "ruanji-011.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/131137404",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-002.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/47237778",
+    "prefix_matches": true
+  },
+  {
+    "asset": "ruanji-010.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/40373555",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-001.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/151203080",
+    "prefix_matches": true
+  },
+  {
+    "asset": "chu-sheng-tang-009.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/369327992",
+    "prefix_matches": true
+  },
+  {
+    "asset": "ruanji-009.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/53229096",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-036.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/39337514",
+    "prefix_matches": true
+  },
+  {
+    "asset": "chu-sheng-tang-008.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/268477785",
+    "prefix_matches": true
+  },
+  {
+    "asset": "zhong-wan-tang-008.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/103239506",
+    "prefix_matches": true
+  },
+  {
+    "asset": "ruanji-008.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/38314797",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-035.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/49164152",
+    "prefix_matches": true
+  },
+  {
+    "asset": "chu-sheng-tang-007.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/158703313",
+    "prefix_matches": true
+  },
+  {
+    "asset": "zhong-wan-tang-007.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/75426386",
+    "prefix_matches": true
+  },
+  {
+    "asset": "ruanji-007.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/58701583",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-034.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/60297331",
+    "prefix_matches": true
+  },
+  {
+    "asset": "dufu-006.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/600987830",
+    "prefix_matches": true
+  },
+  {
+    "asset": "jianggao-006.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/105000574",
+    "prefix_matches": true
+  },
+  {
+    "asset": "chu-sheng-tang-006.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/53854490",
+    "prefix_matches": true
+  },
+  {
+    "asset": "zhong-wan-tang-006.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/109839818",
+    "prefix_matches": true
+  },
+  {
+    "asset": "ruanji-006.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/42262715",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-033.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/54512358",
+    "prefix_matches": true
+  },
+  {
+    "asset": "dufu-005.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/192357496",
+    "prefix_matches": true
+  },
+  {
+    "asset": "jianggao-005.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/230444753",
+    "prefix_matches": true
+  },
+  {
+    "asset": "chu-sheng-tang-005.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/465856502",
+    "prefix_matches": true
+  },
+  {
+    "asset": "zhong-wan-tang-005.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/27058706",
+    "prefix_matches": true
+  },
+  {
+    "asset": "ruanji-005.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/52224723",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-032.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/60048645",
+    "prefix_matches": true
+  },
+  {
+    "asset": "dufu-004.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/55803961",
+    "prefix_matches": true
+  },
+  {
+    "asset": "jianggao-004.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/129587858",
+    "prefix_matches": true
+  },
+  {
+    "asset": "chu-sheng-tang-004.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/60236727",
+    "prefix_matches": true
+  },
+  {
+    "asset": "zhong-wan-tang-004.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/188545106",
+    "prefix_matches": true
+  },
+  {
+    "asset": "ruanji-004.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/50865941",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-031.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/91934752",
+    "prefix_matches": true
+  },
+  {
+    "asset": "dufu-003.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/335860647",
+    "prefix_matches": true
+  },
+  {
+    "asset": "jianggao-003.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/98031940",
+    "prefix_matches": true
+  },
+  {
+    "asset": "chu-sheng-tang-003.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/63412799",
+    "prefix_matches": true
+  },
+  {
+    "asset": "zhong-wan-tang-003.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/221102546",
+    "prefix_matches": true
+  },
+  {
+    "asset": "ruanji-003.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/79698767",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-026.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/44703274",
+    "prefix_matches": true
+  },
+  {
+    "asset": "dufu-002.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/85557430",
+    "prefix_matches": true
+  },
+  {
+    "asset": "jianggao-002.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/117159006",
+    "prefix_matches": true
+  },
+  {
+    "asset": "chu-sheng-tang-002.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/57145501",
+    "prefix_matches": true
+  },
+  {
+    "asset": "zhong-wan-tang-002.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/942611998",
+    "prefix_matches": true
+  },
+  {
+    "asset": "ruanji-002.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/31730109",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-016.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/64615685",
+    "prefix_matches": true
+  },
+  {
+    "asset": "dufu-001.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/115979635",
+    "prefix_matches": true
+  },
+  {
+    "asset": "jianggao-001.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/99073494",
+    "prefix_matches": true
+  },
+  {
+    "asset": "chu-sheng-tang-001.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/90922036",
+    "prefix_matches": true
+  },
+  {
+    "asset": "zhong-wan-tang-001.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/215329106",
+    "prefix_matches": true
+  },
+  {
+    "asset": "ruanji-001.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/125845368",
+    "prefix_matches": true
+  },
+  {
+    "asset": "taoyuanming-011.mp3",
+    "http": 206,
+    "content_range": "bytes 0-1023/60639640",
+    "prefix_matches": true
+  }
+]

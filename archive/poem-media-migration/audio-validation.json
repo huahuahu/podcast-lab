@@ -1,0 +1,426 @@
+{
+  "count": 84,
+  "failures": [],
+  "assets": [
+    {
+      "asset": "taoyuanming-030.mp3",
+      "codec": "mp3",
+      "duration_seconds": 260.702
+    },
+    {
+      "asset": "taoyuanming-029.mp3",
+      "codec": "mp3",
+      "duration_seconds": 1920.835875
+    },
+    {
+      "asset": "taoyuanming-028.mp3",
+      "codec": "mp3",
+      "duration_seconds": 586.08325
+    },
+    {
+      "asset": "taoyuanming-027.mp3",
+      "codec": "mp3",
+      "duration_seconds": 3328.391813
+    },
+    {
+      "asset": "taoyuanming-025.mp3",
+      "codec": "mp3",
+      "duration_seconds": 497.34525
+    },
+    {
+      "asset": "taoyuanming-024.mp3",
+      "codec": "mp3",
+      "duration_seconds": 974.811375
+    },
+    {
+      "asset": "taoyuanming-023.mp3",
+      "codec": "mp3",
+      "duration_seconds": 2763.049796
+    },
+    {
+      "asset": "taoyuanming-022.mp3",
+      "codec": "mp3",
+      "duration_seconds": 1200.039184
+    },
+    {
+      "asset": "taoyuanming-021.mp3",
+      "codec": "mp3",
+      "duration_seconds": 2054.217125
+    },
+    {
+      "asset": "taoyuanming-020.mp3",
+      "codec": "mp3",
+      "duration_seconds": 4011.232625
+    },
+    {
+      "asset": "taoyuanming-019.mp3",
+      "codec": "mp3",
+      "duration_seconds": 3020.016313
+    },
+    {
+      "asset": "taoyuanming-018.mp3",
+      "codec": "mp3",
+      "duration_seconds": 6420.035918
+    },
+    {
+      "asset": "taoyuanming-017.mp3",
+      "codec": "mp3",
+      "duration_seconds": 6657.28
+    },
+    {
+      "asset": "taoyuanming-015.mp3",
+      "codec": "mp3",
+      "duration_seconds": 5041.6065
+    },
+    {
+      "asset": "taoyuanming-014.mp3",
+      "codec": "mp3",
+      "duration_seconds": 2060.042449
+    },
+    {
+      "asset": "taoyuanming-013.mp3",
+      "codec": "mp3",
+      "duration_seconds": 3380.035918
+    },
+    {
+      "asset": "taoyuanming-012.mp3",
+      "codec": "mp3",
+      "duration_seconds": 4290.037551
+    },
+    {
+      "asset": "ruanji-019.mp3",
+      "codec": "mp3",
+      "duration_seconds": 3470.726583
+    },
+    {
+      "asset": "taoyuanming-010.mp3",
+      "codec": "mp3",
+      "duration_seconds": 2580.035918
+    },
+    {
+      "asset": "ruanji-018.mp3",
+      "codec": "mp3",
+      "duration_seconds": 2091.492083
+    },
+    {
+      "asset": "taoyuanming-009.mp3",
+      "codec": "mp3",
+      "duration_seconds": 2565.433438
+    },
+    {
+      "asset": "ruanji-017.mp3",
+      "codec": "mp3",
+      "duration_seconds": 1014.328667
+    },
+    {
+      "asset": "taoyuanming-008.mp3",
+      "codec": "mp3",
+      "duration_seconds": 3217.711
+    },
+    {
+      "asset": "ruanji-016.mp3",
+      "codec": "mp3",
+      "duration_seconds": 4252.365833
+    },
+    {
+      "asset": "taoyuanming-007.mp3",
+      "codec": "mp3",
+      "duration_seconds": 3165.753438
+    },
+    {
+      "asset": "ruanji-015.mp3",
+      "codec": "mp3",
+      "duration_seconds": 1698.88575
+    },
+    {
+      "asset": "taoyuanming-006.mp3",
+      "codec": "mp3",
+      "duration_seconds": 3888.901188
+    },
+    {
+      "asset": "ruanji-014.mp3",
+      "codec": "mp3",
+      "duration_seconds": 3381.678083
+    },
+    {
+      "asset": "taoyuanming-005.mp3",
+      "codec": "mp3",
+      "duration_seconds": 3357.048163
+    },
+    {
+      "asset": "ruanji-013.mp3",
+      "codec": "mp3",
+      "duration_seconds": 2354.255583
+    },
+    {
+      "asset": "taoyuanming-004.mp3",
+      "codec": "mp3",
+      "duration_seconds": 3101.048163
+    },
+    {
+      "asset": "ruanji-012.mp3",
+      "codec": "mp3",
+      "duration_seconds": 995.287833
+    },
+    {
+      "asset": "taoyuanming-003.mp3",
+      "codec": "mp3",
+      "duration_seconds": 4203.049796
+    },
+    {
+      "asset": "ruanji-011.mp3",
+      "codec": "mp3",
+      "duration_seconds": 3278.2415
+    },
+    {
+      "asset": "taoyuanming-002.mp3",
+      "codec": "mp3",
+      "duration_seconds": 2952.359125
+    },
+    {
+      "asset": "ruanji-010.mp3",
+      "codec": "mp3",
+      "duration_seconds": 1681.931583
+    },
+    {
+      "asset": "taoyuanming-001.mp3",
+      "codec": "mp3",
+      "duration_seconds": 3780.04898
+    },
+    {
+      "asset": "chu-sheng-tang-009.mp3",
+      "codec": "mp3",
+      "duration_seconds": 23082.9975
+    },
+    {
+      "asset": "ruanji-009.mp3",
+      "codec": "mp3",
+      "duration_seconds": 2217.552833
+    },
+    {
+      "asset": "taoyuanming-036.mp3",
+      "codec": "mp3",
+      "duration_seconds": 2458.592625
+    },
+    {
+      "asset": "chu-sheng-tang-008.mp3",
+      "codec": "mp3",
+      "duration_seconds": 16779.859563
+    },
+    {
+      "asset": "zhong-wan-tang-008.mp3",
+      "codec": "mp3",
+      "duration_seconds": 2580.96
+    },
+    {
+      "asset": "ruanji-008.mp3",
+      "codec": "mp3",
+      "duration_seconds": 1596.117417
+    },
+    {
+      "asset": "taoyuanming-035.mp3",
+      "codec": "mp3",
+      "duration_seconds": 3072.7575
+    },
+    {
+      "asset": "chu-sheng-tang-007.mp3",
+      "codec": "mp3",
+      "duration_seconds": 9918.955063
+    },
+    {
+      "asset": "zhong-wan-tang-007.mp3",
+      "codec": "mp3",
+      "duration_seconds": 1885.632
+    },
+    {
+      "asset": "ruanji-007.mp3",
+      "codec": "mp3",
+      "duration_seconds": 2445.599417
+    },
+    {
+      "asset": "taoyuanming-034.mp3",
+      "codec": "mp3",
+      "duration_seconds": 3768.581188
+    },
+    {
+      "asset": "dufu-006.mp3",
+      "codec": "mp3",
+      "duration_seconds": 15024.666122
+    },
+    {
+      "asset": "jianggao-006.mp3",
+      "codec": "mp3",
+      "duration_seconds": 6562.533875
+    },
+    {
+      "asset": "chu-sheng-tang-006.mp3",
+      "codec": "mp3",
+      "duration_seconds": 3365.903625
+    },
+    {
+      "asset": "zhong-wan-tang-006.mp3",
+      "codec": "mp3",
+      "duration_seconds": 2745.965714
+    },
+    {
+      "asset": "ruanji-006.mp3",
+      "codec": "mp3",
+      "duration_seconds": 1760.625
+    },
+    {
+      "asset": "taoyuanming-033.mp3",
+      "codec": "mp3",
+      "duration_seconds": 3407.020375
+    },
+    {
+      "asset": "dufu-005.mp3",
+      "codec": "mp3",
+      "duration_seconds": 4808.907755
+    },
+    {
+      "asset": "jianggao-005.mp3",
+      "codec": "mp3",
+      "duration_seconds": 14402.795063
+    },
+    {
+      "asset": "chu-sheng-tang-005.mp3",
+      "codec": "mp3",
+      "duration_seconds": 14558.014688
+    },
+    {
+      "asset": "zhong-wan-tang-005.mp3",
+      "codec": "mp3",
+      "duration_seconds": 676.44
+    },
+    {
+      "asset": "ruanji-005.mp3",
+      "codec": "mp3",
+      "duration_seconds": 2175.74125
+    },
+    {
+      "asset": "taoyuanming-032.mp3",
+      "codec": "mp3",
+      "duration_seconds": 3753.038313
+    },
+    {
+      "asset": "dufu-004.mp3",
+      "codec": "mp3",
+      "duration_seconds": 1395.069388
+    },
+    {
+      "asset": "jianggao-004.mp3",
+      "codec": "mp3",
+      "duration_seconds": 8099.239125
+    },
+    {
+      "asset": "chu-sheng-tang-004.mp3",
+      "codec": "mp3",
+      "duration_seconds": 3764.793438
+    },
+    {
+      "asset": "zhong-wan-tang-004.mp3",
+      "codec": "mp3",
+      "duration_seconds": 4713.6
+    },
+    {
+      "asset": "ruanji-004.mp3",
+      "codec": "mp3",
+      "duration_seconds": 2119.114333
+    },
+    {
+      "asset": "taoyuanming-031.mp3",
+      "codec": "mp3",
+      "duration_seconds": 5745.92
+    },
+    {
+      "asset": "dufu-003.mp3",
+      "codec": "mp3",
+      "duration_seconds": 8396.486531
+    },
+    {
+      "asset": "jianggao-003.mp3",
+      "codec": "mp3",
+      "duration_seconds": 6126.99425
+    },
+    {
+      "asset": "chu-sheng-tang-003.mp3",
+      "codec": "mp3",
+      "duration_seconds": 3963.297938
+    },
+    {
+      "asset": "zhong-wan-tang-003.mp3",
+      "codec": "mp3",
+      "duration_seconds": 5527.536
+    },
+    {
+      "asset": "ruanji-003.mp3",
+      "codec": "mp3",
+      "duration_seconds": 3320.4605
+    },
+    {
+      "asset": "taoyuanming-026.mp3",
+      "codec": "mp3",
+      "duration_seconds": 2793.952625
+    },
+    {
+      "asset": "dufu-002.mp3",
+      "codec": "mp3",
+      "duration_seconds": 2138.906122
+    },
+    {
+      "asset": "jianggao-002.mp3",
+      "codec": "mp3",
+      "duration_seconds": 7322.435875
+    },
+    {
+      "asset": "chu-sheng-tang-002.mp3",
+      "codec": "mp3",
+      "duration_seconds": 3571.591813
+    },
+    {
+      "asset": "zhong-wan-tang-002.mp3",
+      "codec": "mp3",
+      "duration_seconds": 23565.270204
+    },
+    {
+      "asset": "ruanji-002.mp3",
+      "codec": "mp3",
+      "duration_seconds": 1321.799
+    },
+    {
+      "asset": "taoyuanming-016.mp3",
+      "codec": "mp3",
+      "duration_seconds": 4038.478313
+    },
+    {
+      "asset": "dufu-001.mp3",
+      "codec": "mp3",
+      "duration_seconds": 2899.461224
+    },
+    {
+      "asset": "jianggao-001.mp3",
+      "codec": "mp3",
+      "duration_seconds": 6192.091375
+    },
+    {
+      "asset": "chu-sheng-tang-001.mp3",
+      "codec": "mp3",
+      "duration_seconds": 5682.62525
+    },
+    {
+      "asset": "zhong-wan-tang-001.mp3",
+      "codec": "mp3",
+      "duration_seconds": 5383.2
+    },
+    {
+      "asset": "ruanji-001.mp3",
+      "codec": "mp3",
+      "duration_seconds": 3145.9406
+    },
+    {
+      "asset": "taoyuanming-011.mp3",
+      "codec": "mp3",
+      "duration_seconds": 3789.9755
+    }
+  ]
+}

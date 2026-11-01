@@ -244,3 +244,9 @@ bash scripts/publish/final_acceptance.sh <slug>
 3. **加新音色 / 新 series** → 直接到"配置约束"那段补一笔。
 4. **删了某个废弃脚本** → 同步更新"仓库结构"。
 5. 这个文件不要怕长。**搜得到 > 简洁**。
+
+## 叶嘉莹独立 feeds 迁移
+
+原 poemMedia 的7份 XML 保存在 `docs/feeds/all.xml` 与 `docs/feeds/yejiaying-*.xml`，不加入主 RSS，不占主节目 EP 编号。84个音频按6个系列使用 `poem-media-*-v1` Release。映射、校验和维护说明见 `archive/poem-media-migration/README.md`。
+
+GitHub大文件上传超时后，先查远端附件状态再续传：已上传附件必须核对大小及 SHA256 后跳过；确认该附件上传进程已退出后，只清理本次任务草稿中 `state=starter` 且 digest 为空的失败占位附件；其 size 可能已等于请求声明的全文件大小，不能用 size=0 判断失败占位。不要无条件 clobber 已成功资源。全部资源校验通过后才发布草稿，并显式设置 `latest=false`，保留主节目的 Latest。
