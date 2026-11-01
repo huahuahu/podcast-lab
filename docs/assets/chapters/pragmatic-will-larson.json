@@ -1,0 +1,197 @@
+{
+  "version": "1.2.0",
+  "chapters": [
+    {
+      "startTime": 0.0,
+      "title": "节目导读：工程管理、AI与CTO路径"
+    },
+    {
+      "startTime": 64.434,
+      "title": "赞助：TurboPuffer v3公开重写与性能优化"
+    },
+    {
+      "startTime": 203.094,
+      "title": "开场与计算机启蒙"
+    },
+    {
+      "startTime": 365.396,
+      "title": "小型大学的计算机科学与没有现成路径的职业起点"
+    },
+    {
+      "startTime": 589.562,
+      "title": "写作如何带来雅虎的合同工作"
+    },
+    {
+      "startTime": 743.388,
+      "title": "雅虎自建技术栈与服务器黑市"
+    },
+    {
+      "startTime": 910.636,
+      "title": "加入Digg：社区、首页与内容分发"
+    },
+    {
+      "startTime": 1037.358,
+      "title": "Digg v4大重写的内部背景"
+    },
+    {
+      "startTime": 1297.36,
+      "title": "Digg改版：社区反应与上线失败"
+    },
+    {
+      "startTime": 1389.734,
+      "title": "Cassandra、未做完的负载测试与仓促上线"
+    },
+    {
+      "startTime": 1554.242,
+      "title": "香槟派对旁的网站崩溃"
+    },
+    {
+      "startTime": 1680.244,
+      "title": "六个人救站：Redis缓存与Python默认参数内存泄漏"
+    },
+    {
+      "startTime": 1849.36,
+      "title": "从Digg收购到工程管理职业选择"
+    },
+    {
+      "startTime": 1969.958,
+      "title": "加入高速增长的Uber"
+    },
+    {
+      "startTime": 2158.416,
+      "title": "六人基础设施团队的职责范围"
+    },
+    {
+      "startTime": 2219.144,
+      "title": "两年从六人到七十人：Uber招聘故事"
+    },
+    {
+      "startTime": 2368.964,
+      "title": "从Stripe到Calm：首次担任CTO的动机"
+    },
+    {
+      "startTime": 2518.58,
+      "title": "从 Calm、Carta 到 Imprint：三次担任 CTO"
+    },
+    {
+      "startTime": 2537.88,
+      "title": "CTO 做什么：技术与管理重新汇合"
+    },
+    {
+      "startTime": 2731.922,
+      "title": "工程、产品、设计统一汇报与智能体时代的决策"
+    },
+    {
+      "startTime": 2875.51,
+      "title": "赞助商口播：Entire 与 Antithesis"
+    },
+    {
+      "startTime": 3119.42,
+      "title": "从 2007 年至今：软件工程管理如何变化"
+    },
+    {
+      "startTime": 3149.578,
+      "title": "雅虎、Digg 与 Uber：缺乏管理支持的早期经历"
+    },
+    {
+      "startTime": 3332.858,
+      "title": "Uber 的见习经理培训与自主解决问题文化"
+    },
+    {
+      "startTime": 3496.036,
+      "title": "Stripe 的管理岗位建设"
+    },
+    {
+      "startTime": 3588.088,
+      "title": "Staff 级工程师：有趣的问题与业务需要"
+    },
+    {
+      "startTime": 3706.622,
+      "title": "零利率如何改变工程管理与招聘激励"
+    },
+    {
+      "startTime": 3894.302,
+      "title": "招聘名额、团队流失率与业务隔离"
+    },
+    {
+      "startTime": 4086.784,
+      "title": "禁止技术决策后的管理偏向"
+    },
+    {
+      "startTime": 4177.45,
+      "title": "AI 时代还需要职业晋升阶梯吗"
+    },
+    {
+      "startTime": 4305.382,
+      "title": "Staff 与 Principal：在模糊问题中作决策"
+    },
+    {
+      "startTime": 4444.484,
+      "title": "初级工程师的培养与人为精确的职级标准"
+    },
+    {
+      "startTime": 4639.256,
+      "title": "Carta 的职级比例、成本与人才梯队"
+    },
+    {
+      "startTime": 4800.272,
+      "title": "AI 工具普及后，软件工程师的职责如何变化"
+    },
+    {
+      "startTime": 4963.388,
+      "title": "AI 改变软件工作：成果、心流与实现之外的难点"
+    },
+    {
+      "startTime": 5199.486,
+      "title": "Carta 案例：领域知识与复杂业务的防御能力"
+    },
+    {
+      "startTime": 5355.8,
+      "title": "设计师、产品经理与工程师的职责边界"
+    },
+    {
+      "startTime": 5472.644,
+      "title": "设计系统的作用与人的注意力约束"
+    },
+    {
+      "startTime": 5598.724,
+      "title": "持久且高主人翁意识的团队为何重要"
+    },
+    {
+      "startTime": 5907.038,
+      "title": "不断救火为何阻碍组织规模化"
+    },
+    {
+      "startTime": 6000.776,
+      "title": "Slack Agents：长期团队积累如何推动产品创新"
+    },
+    {
+      "startTime": 6297.762,
+      "title": "成为工程高管：技术能力与组织运营能力"
+    },
+    {
+      "startTime": 6730.79,
+      "title": "中层管理的困境与重新学习技能"
+    },
+    {
+      "startTime": 7295.926,
+      "title": "TLM回归与管理层级扁平化"
+    },
+    {
+      "startTime": 7458.682,
+      "title": "二十年写作：为什么不用AI替自己表达"
+    },
+    {
+      "startTime": 8009.626,
+      "title": "影响力靠好想法，而不是量产内容"
+    },
+    {
+      "startTime": 8205.204,
+      "title": "荐书：类型系统、TLA+与软件验证"
+    },
+    {
+      "startTime": 8355.26,
+      "title": "主持人总结与节目收尾"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "version": "1.2.0",
+  "chapters": [
+    {
+      "startTime": 0.0,
+      "title": "开场：Uber 的内部工具与本期赞助"
+    },
+    {
+      "startTime": 160.936,
+      "title": "Uday 加入 Uber：从实时 API 说起"
+    },
+    {
+      "startTime": 338.542,
+      "title": "从两个服务到数千个微服务"
+    },
+    {
+      "startTime": 480.932,
+      "title": "工程团队规模与全球技术中心"
+    },
+    {
+      "startTime": 568.674,
+      "title": "AI 之前的开发基础：uOwn、M3DB 与 Michelangelo"
+    },
+    {
+      "startTime": 718.618,
+      "title": "Cadence、Morpheus 与城市维度的基础设施"
+    },
+    {
+      "startTime": 970.518,
+      "title": "DevPod：从云端开发机到智能体工作空间"
+    },
+    {
+      "startTime": 1186.13,
+      "title": "AI 基础设施：模型与运行框架解耦"
+    },
+    {
+      "startTime": 1370.364,
+      "title": "模型网关与 Michelangelo"
+    },
+    {
+      "startTime": 1462.124,
+      "title": "AI Guard：统一安全防护与可观测性"
+    },
+    {
+      "startTime": 1567.654,
+      "title": "AIFX：统一运行框架、工具与设置"
+    },
+    {
+      "startTime": 1668.966,
+      "title": "支出档位、成本反馈与负责任使用"
+    },
+    {
+      "startTime": 1849.88,
+      "title": "MCP 网关：从内部 API 到统一工具接入"
+    },
+    {
+      "startTime": 2068.472,
+      "title": "复用 API 基础设施，打通 MCP 与 CLI"
+    },
+    {
+      "startTime": 2173.964,
+      "title": "技能单体仓库、质量与持续改进"
+    },
+    {
+      "startTime": 2405.42,
+      "title": "上下文图谱与 Cortana 助手"
+    },
+    {
+      "startTime": 2748.4,
+      "title": "监控数据、权限与访问审批"
+    },
+    {
+      "startTime": 2831.558,
+      "title": "赞助转场：turbopuffer 与 Linear"
+    },
+    {
+      "startTime": 3052.728,
+      "title": "回到 Uber：功能生命周期与设计文档"
+    },
+    {
+      "startTime": 3181.156,
+      "title": "规划的重要性与复杂边界情况"
+    },
+    {
+      "startTime": 3270.034,
+      "title": "后台编程智能体 Minion"
+    },
+    {
+      "startTime": 3466.684,
+      "title": "DevPod 快速启动与统一 Bazel 构建"
+    },
+    {
+      "startTime": 3597.606,
+      "title": "自愈式 CI 与内循环验证"
+    },
+    {
+      "startTime": 3743.34,
+      "title": "Code Inbox 与评审风险信号"
+    },
+    {
+      "startTime": 3834.412,
+      "title": "人工代码评审与自动合入的边界"
+    },
+    {
+      "startTime": 3939.832,
+      "title": "Slate：智能体端到端测试"
+    },
+    {
+      "startTime": 4195.224,
+      "title": "Jaeger 与测试请求路由"
+    },
+    {
+      "startTime": 4268.96,
+      "title": "多年基础设施积累如何支撑AI验证"
+    },
+    {
+      "startTime": 4317.002,
+      "title": "Capri：捕获回放与组合回归测试"
+    },
+    {
+      "startTime": 4702.848,
+      "title": "Edge Gateway与统一入口的上下文"
+    },
+    {
+      "startTime": 4798.556,
+      "title": "Shepherd：大规模代码迁移"
+    },
+    {
+      "startTime": 4903.798,
+      "title": "Fox：持续自动化代码维护"
+    },
+    {
+      "startTime": 5066.042,
+      "title": "Wisdom、DebugAssist与Minion的缺陷修复闭环"
+    },
+    {
+      "startTime": 5285.334,
+      "title": "智能体时代的软件工程与下一处瓶颈"
+    },
+    {
+      "startTime": 5378.486,
+      "title": "从 diff 吞吐量到功能交付速度"
+    },
+    {
+      "startTime": 5585.132,
+      "title": "工程师的新职责：上下文、并行工作与验证"
+    },
+    {
+      "startTime": 5757.156,
+      "title": "客户支持规则的智能体化与自动评估"
+    },
+    {
+      "startTime": 5892.086,
+      "title": "Uday 喜爱的个人智能体工具"
+    },
+    {
+      "startTime": 5980.044,
+      "title": "主持人总结：Capri、代码审查与十年基础设施投入"
+    }
+  ]
+}

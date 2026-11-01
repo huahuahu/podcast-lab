@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Fri, 30 Oct 2026 07:36:43 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 22:20:49 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,51 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP74 · Pragmatic Engineer · Google 软件工程与计算机教育：对谈 Titus Winters · 完整中文双人版</title>
+      <link>https://github.com/huahuahu/podcast-lab/releases/tag/v0.75.0-pragmatic-titus-winters</link>
+      <guid isPermaLink="false">pragmatic-titus-winters</guid>
+      <pubDate>Sun, 01 Nov 2026 22:20:49 +0800</pubDate>
+      <description>非官方 AI 中文双人配音，不代表原节目或嘉宾认可。The Pragmatic Engineer；主持人 Gergely Orosz，嘉宾 Titus Winters；原片日期 2026-10-29。基于官方英文逐字稿制作的完整内容中文版，非摘要，不保证原音频逐秒还原。先前已整合 14 处独立局部原音补文及有证据的角色修正，补文不冒充官方原文。约1.2秒原话无法可靠翻译，正文明确读出编者不清说明；四处短句保留官方角色并披露不确定。未全片人工听校，未做声纹验证，不宣称额外中文 ASR 检查通过。官方来源：https://newsletter.pragmaticengineer.com/p/software-engineering-at-google-and</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.75.0-pragmatic-titus-winters/podcast_zh.mp3" length="105542196" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/pragmatic-titus-winters.png"/>
+      <podcast:chapters url="https://huahuahu.github.io/podcast-lab/assets/chapters/pragmatic-titus-winters.json" type="application/json+chapters"/>
+      <category>Technology</category>
+      <itunes:author>Gergely Orosz / Titus Winters · 非官方AI中文配音</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:49:56</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP73 · Pragmatic Engineer · 工程管理的新规则：对谈 Will Larson · 完整中文双人版</title>
+      <link>https://github.com/huahuahu/podcast-lab/releases/tag/v0.74.0-pragmatic-will-larson</link>
+      <guid isPermaLink="false">pragmatic-will-larson</guid>
+      <pubDate>Sun, 01 Nov 2026 22:20:49 +0800</pubDate>
+      <description>非官方 AI 中文双人配音，不代表原节目或嘉宾认可。The Pragmatic Engineer；主持人 Gergely Orosz，嘉宾 Will Larson；原片日期 2026-10-21。基于官方英文逐字稿制作的完整内容中文版，非摘要，不保证原音频逐秒还原。先前已整合 27 处独立局部原音补文及有证据的角色修正，补文不冒充官方原文。保留少量短回应归属不确定，以及 barakat 等原词不清的限制。未全片人工听校，未做声纹验证，不宣称额外中文 ASR 检查通过。官方来源：https://newsletter.pragmaticengineer.com/p/the-revised-rules-of-engineering</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.74.0-pragmatic-will-larson/podcast_zh.mp3" length="137140143" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/pragmatic-will-larson.png"/>
+      <podcast:chapters url="https://huahuahu.github.io/podcast-lab/assets/chapters/pragmatic-will-larson.json" type="application/json+chapters"/>
+      <category>Technology</category>
+      <itunes:author>Gergely Orosz / Will Larson · 非官方AI中文配音</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>2:22:51</itunes:duration>
+    </item>
+
+    <item>
+      <title>EP72 · Pragmatic Engineer · Uber 的 AI 基础设施内幕：对谈 Uday Kiran Medisetty · 完整中文双人版</title>
+      <link>https://github.com/huahuahu/podcast-lab/releases/tag/v0.73.0-pragmatic-uber-ai-infra</link>
+      <guid isPermaLink="false">pragmatic-uber-ai-infra</guid>
+      <pubDate>Sun, 01 Nov 2026 22:20:49 +0800</pubDate>
+      <description>非官方 AI 中文双人配音，不代表原节目或嘉宾认可。The Pragmatic Engineer；主持人 Gergely Orosz，嘉宾 Uday Kiran Medisetty；原片日期 2026-10-14。基于官方英文逐字稿制作的完整内容中文版，非摘要，不保证原音频逐秒还原。先前已整合 17 处独立局部原音补文及有证据的角色修正，补文不冒充官方原文。保留 lose 动词原意未明、若干未完句及短回应角色不确定。未全片人工听校，未做声纹验证，不宣称额外中文 ASR 检查通过。官方来源：https://newsletter.pragmaticengineer.com/p/ubers-ai-infra-from-the-inside</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.73.0-pragmatic-uber-ai-infra/podcast_zh.mp3" length="98884524" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/pragmatic-uber-ai-infra.png"/>
+      <podcast:chapters url="https://huahuahu.github.io/podcast-lab/assets/chapters/pragmatic-uber-ai-infra.json" type="application/json+chapters"/>
+      <category>Technology</category>
+      <itunes:author>Gergely Orosz / Uday Kiran Medisetty · 非官方AI中文配音</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:43:00</itunes:duration>
+    </item>
 
     <item>
       <title>EP71 · 邓小南《“转型时代”——宋代政治文化面面观》· 完整原声</title>

@@ -1,0 +1,113 @@
+{
+  "version": "1.2.0",
+  "chapters": [
+    {
+      "startTime": 0.0,
+      "title": "开场预告：工程教育、谷歌与 AI"
+    },
+    {
+      "startTime": 73.588,
+      "title": "赞助：turbopuffer 与 Linear"
+    },
+    {
+      "startTime": 219.448,
+      "title": "从 QBasic 到计算机科学教育研究"
+    },
+    {
+      "startTime": 468.224,
+      "title": "加入谷歌与找到适合自己的团队"
+    },
+    {
+      "startTime": 960.426,
+      "title": "强制测试、可变更性与工程中的恐惧"
+    },
+    {
+      "startTime": 1202.332,
+      "title": "从学校评分到工程反馈"
+    },
+    {
+      "startTime": 1358.076,
+      "title": "Abseil：开源之前的大规模清理"
+    },
+    {
+      "startTime": 1559.77,
+      "title": "两亿五千万行代码：不停业地更换地基"
+    },
+    {
+      "startTime": 1756.75,
+      "title": "编译器辅助重构与 clang-format"
+    },
+    {
+      "startTime": 2108.354,
+      "title": "让 AI 生成确定性工具"
+    },
+    {
+      "startTime": 2381.108,
+      "title": "赞助：WorkOS Airlock 与 turbopuffer v3"
+    },
+    {
+      "startTime": 2632.322,
+      "title": "《谷歌软件工程》的写作过程"
+    },
+    {
+      "startTime": 2873.806,
+      "title": "可读性认证、导师制度与信息共享"
+    },
+    {
+      "startTime": 3169.282,
+      "title": "软件工程是一项团队运动"
+    },
+    {
+      "startTime": 3388.32,
+      "title": "信任、心理安全感与学习文化"
+    },
+    {
+      "startTime": 3730.996,
+      "title": "增长、绩效竞争与裁员的隐性成本"
+    },
+    {
+      "startTime": 4071.858,
+      "title": "开发者体验与生产力度量"
+    },
+    {
+      "startTime": 4282.472,
+      "title": "技术工作的四种影响"
+    },
+    {
+      "startTime": 4478.398,
+      "title": "AI 创新如何改变成本结构"
+    },
+    {
+      "startTime": 4731.444,
+      "title": "重新设计计算机科学教育"
+    },
+    {
+      "startTime": 5010.568,
+      "title": "项目、反复实践与实习"
+    },
+    {
+      "startTime": 5534.208,
+      "title": "新人该学什么：能力与责任"
+    },
+    {
+      "startTime": 5813.332,
+      "title": "AI 时代如何考核学习过程"
+    },
+    {
+      "startTime": 6031.642,
+      "title": "泰特斯的软件工程学校"
+    },
+    {
+      "startTime": 6271.652,
+      "title": "毕业生的差异化与领域专长"
+    },
+    {
+      "startTime": 6383.95,
+      "title": "推荐阅读"
+    },
+    {
+      "startTime": 6420.788,
+      "title": "主持人总结与收尾"
+    }
+  ]
+}
