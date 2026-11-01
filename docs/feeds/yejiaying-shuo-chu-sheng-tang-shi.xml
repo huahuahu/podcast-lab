@@ -18,94 +18,17 @@
       <itunes:name>叶嘉莹</itunes:name>
       <itunes:email>contact@example.com</itunes:email>
     </itunes:owner>
+    <itunes:type>serial</itunes:type>
     <item>
-      <title>9-叶嘉莹说初盛唐诗_李白</title>
-      <description>叶嘉莹说初盛唐诗 - 第 9 集</description>
+      <title>1-叶嘉莹说初盛唐诗-王绩</title>
+      <description>叶嘉莹说初盛唐诗 - 第 1 集</description>
       <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">chu-sheng-tang-009</guid>
+      <guid isPermaLink="false">chu-sheng-tang-001</guid>
       <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-chu-sheng-tang-v1/chu-sheng-tang-009.mp3" length="369327992" type="audio/mpeg" />
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-chu-sheng-tang-v1/chu-sheng-tang-001.mp3" length="90922036" type="audio/mpeg" />
       <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>06:24:43</itunes:duration>
-      <itunes:episode>9</itunes:episode>
-      <itunes:season>1</itunes:season>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>8-叶嘉莹说初盛唐诗_王维</title>
-      <description>叶嘉莹说初盛唐诗 - 第 8 集</description>
-      <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">chu-sheng-tang-008</guid>
-      <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-chu-sheng-tang-v1/chu-sheng-tang-008.mp3" length="268477785" type="audio/mpeg" />
-      <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>04:39:40</itunes:duration>
-      <itunes:episode>8</itunes:episode>
-      <itunes:season>1</itunes:season>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>7-叶嘉莹说初盛唐诗_孟浩然</title>
-      <description>叶嘉莹说初盛唐诗 - 第 7 集</description>
-      <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">chu-sheng-tang-007</guid>
-      <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-chu-sheng-tang-v1/chu-sheng-tang-007.mp3" length="158703313" type="audio/mpeg" />
-      <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>02:45:19</itunes:duration>
-      <itunes:episode>7</itunes:episode>
-      <itunes:season>1</itunes:season>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>6-叶嘉莹说初盛唐诗_张九龄</title>
-      <description>叶嘉莹说初盛唐诗 - 第 6 集</description>
-      <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">chu-sheng-tang-006</guid>
-      <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-chu-sheng-tang-v1/chu-sheng-tang-006.mp3" length="53854490" type="audio/mpeg" />
-      <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>00:56:06</itunes:duration>
-      <itunes:episode>6</itunes:episode>
-      <itunes:season>1</itunes:season>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>5-叶嘉莹说初盛唐诗_陈子昂</title>
-      <description>叶嘉莹说初盛唐诗 - 第 5 集</description>
-      <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">chu-sheng-tang-005</guid>
-      <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-chu-sheng-tang-v1/chu-sheng-tang-005.mp3" length="465856502" type="audio/mpeg" />
-      <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>04:02:38</itunes:duration>
-      <itunes:episode>5</itunes:episode>
-      <itunes:season>1</itunes:season>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>4-叶嘉莹说初盛唐诗-骆宾王</title>
-      <description>叶嘉莹说初盛唐诗 - 第 4 集</description>
-      <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">chu-sheng-tang-004</guid>
-      <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-chu-sheng-tang-v1/chu-sheng-tang-004.mp3" length="60236727" type="audio/mpeg" />
-      <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>01:02:45</itunes:duration>
-      <itunes:episode>4</itunes:episode>
-      <itunes:season>1</itunes:season>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>3-叶嘉莹说初盛唐诗-王勃</title>
-      <description>叶嘉莹说初盛唐诗 - 第 3 集</description>
-      <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">chu-sheng-tang-003</guid>
-      <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-chu-sheng-tang-v1/chu-sheng-tang-003.mp3" length="63412799" type="audio/mpeg" />
-      <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>01:06:03</itunes:duration>
-      <itunes:episode>3</itunes:episode>
+      <itunes:duration>01:34:43</itunes:duration>
+      <itunes:episode>1</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -123,15 +46,93 @@
       <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
-      <title>1-叶嘉莹说初盛唐诗-王绩</title>
-      <description>叶嘉莹说初盛唐诗 - 第 1 集</description>
+      <title>3-叶嘉莹说初盛唐诗-王勃</title>
+      <description>叶嘉莹说初盛唐诗 - 第 3 集</description>
       <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">chu-sheng-tang-001</guid>
+      <guid isPermaLink="false">chu-sheng-tang-003</guid>
       <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-chu-sheng-tang-v1/chu-sheng-tang-001.mp3" length="90922036" type="audio/mpeg" />
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-chu-sheng-tang-v1/chu-sheng-tang-003.mp3" length="63412799" type="audio/mpeg" />
       <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>01:34:43</itunes:duration>
-      <itunes:episode>1</itunes:episode>
+      <itunes:duration>01:06:03</itunes:duration>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>4-叶嘉莹说初盛唐诗-骆宾王</title>
+      <description>叶嘉莹说初盛唐诗 - 第 4 集</description>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">chu-sheng-tang-004</guid>
+      <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-chu-sheng-tang-v1/chu-sheng-tang-004.mp3" length="60236727" type="audio/mpeg" />
+      <itunes:author>叶嘉莹</itunes:author>
+      <itunes:duration>01:02:45</itunes:duration>
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>5-叶嘉莹说初盛唐诗_陈子昂</title>
+      <description>叶嘉莹说初盛唐诗 - 第 5 集</description>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">chu-sheng-tang-005</guid>
+      <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-chu-sheng-tang-v1/chu-sheng-tang-005.mp3" length="465856502" type="audio/mpeg" />
+      <itunes:author>叶嘉莹</itunes:author>
+      <itunes:duration>04:02:38</itunes:duration>
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>6-叶嘉莹说初盛唐诗_张九龄</title>
+      <description>叶嘉莹说初盛唐诗 - 第 6 集</description>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">chu-sheng-tang-006</guid>
+      <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-chu-sheng-tang-v1/chu-sheng-tang-006.mp3" length="53854490" type="audio/mpeg" />
+      <itunes:author>叶嘉莹</itunes:author>
+      <itunes:duration>00:56:06</itunes:duration>
+      <itunes:episode>6</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>7-叶嘉莹说初盛唐诗_孟浩然</title>
+      <description>叶嘉莹说初盛唐诗 - 第 7 集</description>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">chu-sheng-tang-007</guid>
+      <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-chu-sheng-tang-v1/chu-sheng-tang-007.mp3" length="158703313" type="audio/mpeg" />
+      <itunes:author>叶嘉莹</itunes:author>
+      <itunes:duration>02:45:19</itunes:duration>
+      <itunes:episode>7</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>8-叶嘉莹说初盛唐诗_王维</title>
+      <description>叶嘉莹说初盛唐诗 - 第 8 集</description>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">chu-sheng-tang-008</guid>
+      <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-chu-sheng-tang-v1/chu-sheng-tang-008.mp3" length="268477785" type="audio/mpeg" />
+      <itunes:author>叶嘉莹</itunes:author>
+      <itunes:duration>04:39:40</itunes:duration>
+      <itunes:episode>8</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>9-叶嘉莹说初盛唐诗_李白</title>
+      <description>叶嘉莹说初盛唐诗 - 第 9 集</description>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">chu-sheng-tang-009</guid>
+      <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-chu-sheng-tang-v1/chu-sheng-tang-009.mp3" length="369327992" type="audio/mpeg" />
+      <itunes:author>叶嘉莹</itunes:author>
+      <itunes:duration>06:24:43</itunes:duration>
+      <itunes:episode>9</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
     </item>

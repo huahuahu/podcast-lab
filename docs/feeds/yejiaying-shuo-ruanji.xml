@@ -18,94 +18,147 @@
       <itunes:name>叶嘉莹</itunes:name>
       <itunes:email>contact@example.com</itunes:email>
     </itunes:owner>
+    <itunes:type>serial</itunes:type>
     <item>
-      <title>37叶嘉莹说阮籍咏怀诗_湛湛长江水</title>
-      <description>叶嘉莹说阮籍咏怀诗 - 第 19 集</description>
+      <title>1叶嘉莹说阮籍咏怀诗_意旨遥深的诗人——阮籍</title>
+      <description>叶嘉莹说阮籍咏怀诗 - 第 1 集</description>
       <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">ruanji-019</guid>
+      <guid isPermaLink="false">ruanji-001</guid>
       <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-019.mp3" length="83304921" type="audio/mpeg" />
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-001.mp3" length="125845368" type="audio/mpeg" />
       <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>00:57:51</itunes:duration>
-      <itunes:episode>19</itunes:episode>
+      <itunes:duration>00:52:26</itunes:duration>
+      <itunes:episode>1</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
-      <title>36叶嘉莹说阮籍咏怀诗_北里多奇舞</title>
-      <description>叶嘉莹说阮籍咏怀诗 - 第 18 集</description>
+      <title>2叶嘉莹说阮籍咏怀诗_寄兴幽远的诗歌——阮籍的咏怀诗</title>
+      <description>叶嘉莹说阮籍咏怀诗 - 第 11 集</description>
       <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">ruanji-018</guid>
+      <guid isPermaLink="false">ruanji-011</guid>
       <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-018.mp3" length="50202511" type="audio/mpeg" />
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-011.mp3" length="131137404" type="audio/mpeg" />
       <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>00:34:51</itunes:duration>
-      <itunes:episode>18</itunes:episode>
+      <itunes:duration>00:54:38</itunes:duration>
+      <itunes:episode>2</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
-      <title>35叶嘉莹说阮籍咏怀诗_独坐空堂上</title>
-      <description>叶嘉莹说阮籍咏怀诗 - 第 17 集</description>
+      <title>21叶嘉莹说阮籍咏怀诗_夜中不能寐</title>
+      <description>叶嘉莹说阮籍咏怀诗 - 第 2 集</description>
       <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">ruanji-017</guid>
+      <guid isPermaLink="false">ruanji-002</guid>
       <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-017.mp3" length="24351867" type="audio/mpeg" />
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-002.mp3" length="31730109" type="audio/mpeg" />
       <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>00:16:54</itunes:duration>
-      <itunes:episode>17</itunes:episode>
+      <itunes:duration>00:22:02</itunes:duration>
+      <itunes:episode>3</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
-      <title>34叶嘉莹说阮籍咏怀诗_灼灼西隤日</title>
-      <description>叶嘉莹说阮籍咏怀诗 - 第 16 集</description>
+      <title>22叶嘉莹说阮籍咏怀诗_二妃游江滨</title>
+      <description>叶嘉莹说阮籍咏怀诗 - 第 3 集</description>
       <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">ruanji-016</guid>
+      <guid isPermaLink="false">ruanji-003</guid>
       <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-016.mp3" length="102063977" type="audio/mpeg" />
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-003.mp3" length="79698767" type="audio/mpeg" />
       <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>01:10:52</itunes:duration>
-      <itunes:episode>16</itunes:episode>
+      <itunes:duration>00:55:20</itunes:duration>
+      <itunes:episode>4</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
-      <title>33叶嘉莹说阮籍咏怀诗_炎暑惟兹夏</title>
-      <description>叶嘉莹说阮籍咏怀诗 - 第 15 集</description>
+      <title>23叶嘉莹说阮籍咏怀诗_嘉树下成溪</title>
+      <description>叶嘉莹说阮籍咏怀诗 - 第 4 集</description>
       <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">ruanji-015</guid>
+      <guid isPermaLink="false">ruanji-004</guid>
       <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-015.mp3" length="40780455" type="audio/mpeg" />
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-004.mp3" length="50865941" type="audio/mpeg" />
       <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>00:28:19</itunes:duration>
-      <itunes:episode>15</itunes:episode>
+      <itunes:duration>00:35:19</itunes:duration>
+      <itunes:episode>5</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
-      <title>32叶嘉莹说阮籍咏怀诗_徘徊蓬池上</title>
-      <description>叶嘉莹说阮籍咏怀诗 - 第 14 集</description>
+      <title>24叶嘉莹说阮籍咏怀诗_昔日繁华子</title>
+      <description>叶嘉莹说阮籍咏怀诗 - 第 5 集</description>
       <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">ruanji-014</guid>
+      <guid isPermaLink="false">ruanji-005</guid>
       <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-014.mp3" length="81168102" type="audio/mpeg" />
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-005.mp3" length="52224723" type="audio/mpeg" />
       <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>00:56:22</itunes:duration>
-      <itunes:episode>14</itunes:episode>
+      <itunes:duration>00:36:16</itunes:duration>
+      <itunes:episode>6</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
-      <title>31叶嘉莹说阮籍咏怀诗_昔年十四五</title>
-      <description>叶嘉莹说阮籍咏怀诗 - 第 13 集</description>
+      <title>25叶嘉莹说阮籍咏怀诗_天马出西北</title>
+      <description>叶嘉莹说阮籍咏怀诗 - 第 6 集</description>
       <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">ruanji-013</guid>
+      <guid isPermaLink="false">ruanji-006</guid>
       <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-013.mp3" length="56510477" type="audio/mpeg" />
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-006.mp3" length="42262715" type="audio/mpeg" />
       <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>00:39:14</itunes:duration>
-      <itunes:episode>13</itunes:episode>
+      <itunes:duration>00:29:21</itunes:duration>
+      <itunes:episode>7</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>26叶嘉莹说阮籍咏怀诗_登高临四野</title>
+      <description>叶嘉莹说阮籍咏怀诗 - 第 7 集</description>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">ruanji-007</guid>
+      <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-007.mp3" length="58701583" type="audio/mpeg" />
+      <itunes:author>叶嘉莹</itunes:author>
+      <itunes:duration>00:40:46</itunes:duration>
+      <itunes:episode>8</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>27叶嘉莹说阮籍咏怀诗_开秋兆凉气</title>
+      <description>叶嘉莹说阮籍咏怀诗 - 第 8 集</description>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">ruanji-008</guid>
+      <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-008.mp3" length="38314797" type="audio/mpeg" />
+      <itunes:author>叶嘉莹</itunes:author>
+      <itunes:duration>00:26:36</itunes:duration>
+      <itunes:episode>9</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>28叶嘉莹说阮籍咏怀诗_平生少年时</title>
+      <description>叶嘉莹说阮籍咏怀诗 - 第 9 集</description>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">ruanji-009</guid>
+      <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-009.mp3" length="53229096" type="audio/mpeg" />
+      <itunes:author>叶嘉莹</itunes:author>
+      <itunes:duration>00:36:58</itunes:duration>
+      <itunes:episode>10</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>29叶嘉莹说阮籍咏怀诗_昔闻东陵瓜</title>
+      <description>叶嘉莹说阮籍咏怀诗 - 第 10 集</description>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">ruanji-010</guid>
+      <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-010.mp3" length="40373555" type="audio/mpeg" />
+      <itunes:author>叶嘉莹</itunes:author>
+      <itunes:duration>00:28:02</itunes:duration>
+      <itunes:episode>11</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -123,145 +176,93 @@
       <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
-      <title>2叶嘉莹说阮籍咏怀诗_寄兴幽远的诗歌——阮籍的咏怀诗</title>
-      <description>叶嘉莹说阮籍咏怀诗 - 第 11 集</description>
+      <title>31叶嘉莹说阮籍咏怀诗_昔年十四五</title>
+      <description>叶嘉莹说阮籍咏怀诗 - 第 13 集</description>
       <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">ruanji-011</guid>
+      <guid isPermaLink="false">ruanji-013</guid>
       <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-011.mp3" length="131137404" type="audio/mpeg" />
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-013.mp3" length="56510477" type="audio/mpeg" />
       <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>00:54:38</itunes:duration>
-      <itunes:episode>11</itunes:episode>
+      <itunes:duration>00:39:14</itunes:duration>
+      <itunes:episode>13</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
-      <title>29叶嘉莹说阮籍咏怀诗_昔闻东陵瓜</title>
-      <description>叶嘉莹说阮籍咏怀诗 - 第 10 集</description>
+      <title>32叶嘉莹说阮籍咏怀诗_徘徊蓬池上</title>
+      <description>叶嘉莹说阮籍咏怀诗 - 第 14 集</description>
       <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">ruanji-010</guid>
+      <guid isPermaLink="false">ruanji-014</guid>
       <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-010.mp3" length="40373555" type="audio/mpeg" />
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-014.mp3" length="81168102" type="audio/mpeg" />
       <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>00:28:02</itunes:duration>
-      <itunes:episode>10</itunes:episode>
+      <itunes:duration>00:56:22</itunes:duration>
+      <itunes:episode>14</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
-      <title>28叶嘉莹说阮籍咏怀诗_平生少年时</title>
-      <description>叶嘉莹说阮籍咏怀诗 - 第 9 集</description>
+      <title>33叶嘉莹说阮籍咏怀诗_炎暑惟兹夏</title>
+      <description>叶嘉莹说阮籍咏怀诗 - 第 15 集</description>
       <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">ruanji-009</guid>
+      <guid isPermaLink="false">ruanji-015</guid>
       <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-009.mp3" length="53229096" type="audio/mpeg" />
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-015.mp3" length="40780455" type="audio/mpeg" />
       <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>00:36:58</itunes:duration>
-      <itunes:episode>9</itunes:episode>
+      <itunes:duration>00:28:19</itunes:duration>
+      <itunes:episode>15</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
-      <title>27叶嘉莹说阮籍咏怀诗_开秋兆凉气</title>
-      <description>叶嘉莹说阮籍咏怀诗 - 第 8 集</description>
+      <title>34叶嘉莹说阮籍咏怀诗_灼灼西隤日</title>
+      <description>叶嘉莹说阮籍咏怀诗 - 第 16 集</description>
       <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">ruanji-008</guid>
+      <guid isPermaLink="false">ruanji-016</guid>
       <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-008.mp3" length="38314797" type="audio/mpeg" />
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-016.mp3" length="102063977" type="audio/mpeg" />
       <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>00:26:36</itunes:duration>
-      <itunes:episode>8</itunes:episode>
+      <itunes:duration>01:10:52</itunes:duration>
+      <itunes:episode>16</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
-      <title>26叶嘉莹说阮籍咏怀诗_登高临四野</title>
-      <description>叶嘉莹说阮籍咏怀诗 - 第 7 集</description>
+      <title>35叶嘉莹说阮籍咏怀诗_独坐空堂上</title>
+      <description>叶嘉莹说阮籍咏怀诗 - 第 17 集</description>
       <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">ruanji-007</guid>
+      <guid isPermaLink="false">ruanji-017</guid>
       <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-007.mp3" length="58701583" type="audio/mpeg" />
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-017.mp3" length="24351867" type="audio/mpeg" />
       <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>00:40:46</itunes:duration>
-      <itunes:episode>7</itunes:episode>
+      <itunes:duration>00:16:54</itunes:duration>
+      <itunes:episode>17</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
-      <title>25叶嘉莹说阮籍咏怀诗_天马出西北</title>
-      <description>叶嘉莹说阮籍咏怀诗 - 第 6 集</description>
+      <title>36叶嘉莹说阮籍咏怀诗_北里多奇舞</title>
+      <description>叶嘉莹说阮籍咏怀诗 - 第 18 集</description>
       <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">ruanji-006</guid>
+      <guid isPermaLink="false">ruanji-018</guid>
       <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-006.mp3" length="42262715" type="audio/mpeg" />
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-018.mp3" length="50202511" type="audio/mpeg" />
       <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>00:29:21</itunes:duration>
-      <itunes:episode>6</itunes:episode>
+      <itunes:duration>00:34:51</itunes:duration>
+      <itunes:episode>18</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
-      <title>24叶嘉莹说阮籍咏怀诗_昔日繁华子</title>
-      <description>叶嘉莹说阮籍咏怀诗 - 第 5 集</description>
+      <title>37叶嘉莹说阮籍咏怀诗_湛湛长江水</title>
+      <description>叶嘉莹说阮籍咏怀诗 - 第 19 集</description>
       <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">ruanji-005</guid>
+      <guid isPermaLink="false">ruanji-019</guid>
       <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-005.mp3" length="52224723" type="audio/mpeg" />
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-019.mp3" length="83304921" type="audio/mpeg" />
       <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>00:36:16</itunes:duration>
-      <itunes:episode>5</itunes:episode>
-      <itunes:season>1</itunes:season>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>23叶嘉莹说阮籍咏怀诗_嘉树下成溪</title>
-      <description>叶嘉莹说阮籍咏怀诗 - 第 4 集</description>
-      <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">ruanji-004</guid>
-      <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-004.mp3" length="50865941" type="audio/mpeg" />
-      <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>00:35:19</itunes:duration>
-      <itunes:episode>4</itunes:episode>
-      <itunes:season>1</itunes:season>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>22叶嘉莹说阮籍咏怀诗_二妃游江滨</title>
-      <description>叶嘉莹说阮籍咏怀诗 - 第 3 集</description>
-      <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">ruanji-003</guid>
-      <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-003.mp3" length="79698767" type="audio/mpeg" />
-      <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>00:55:20</itunes:duration>
-      <itunes:episode>3</itunes:episode>
-      <itunes:season>1</itunes:season>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>21叶嘉莹说阮籍咏怀诗_夜中不能寐</title>
-      <description>叶嘉莹说阮籍咏怀诗 - 第 2 集</description>
-      <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">ruanji-002</guid>
-      <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-002.mp3" length="31730109" type="audio/mpeg" />
-      <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>00:22:02</itunes:duration>
-      <itunes:episode>2</itunes:episode>
-      <itunes:season>1</itunes:season>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>1叶嘉莹说阮籍咏怀诗_意旨遥深的诗人——阮籍</title>
-      <description>叶嘉莹说阮籍咏怀诗 - 第 1 集</description>
-      <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">ruanji-001</guid>
-      <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-ruanji-v1/ruanji-001.mp3" length="125845368" type="audio/mpeg" />
-      <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>00:52:26</itunes:duration>
-      <itunes:episode>1</itunes:episode>
+      <itunes:duration>00:57:51</itunes:duration>
+      <itunes:episode>19</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
     </item>

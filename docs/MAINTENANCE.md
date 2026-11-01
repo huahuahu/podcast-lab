@@ -250,3 +250,5 @@ bash scripts/publish/final_acceptance.sh <slug>
 原 poemMedia 的7份 XML 保存在 `docs/feeds/all.xml` 与 `docs/feeds/yejiaying-*.xml`，不加入主 RSS，不占主节目 EP 编号。84个音频按6个系列使用 `poem-media-*-v1` Release。映射、校验和维护说明见 `archive/poem-media-migration/README.md`。
 
 GitHub大文件上传超时后，先查远端附件状态再续传：已上传附件必须核对大小及 SHA256 后跳过；确认该附件上传进程已退出后，只清理本次任务草稿中 `state=starter` 且 digest 为空的失败占位附件；其 size 可能已等于请求声明的全文件大小，不能用 size=0 判断失败占位。不要无条件 clobber 已成功资源。全部资源校验通过后才发布草稿，并显式设置 `latest=false`，保留主节目的 Latest。
+
+2026-11-01 用户要求从第1集顺序播放：`archive/poem-media-migration/order_feeds.py` 按标题前的阿拉伯数字／中晚唐“诗人之X”中文数字作数值排序，不能按GUID文件名或字符串字典序。6个系列分别设置连续 `itunes:episode` 与 `itunes:type=serial`；合集按上述脚本中的系列顺序分为6季，各季从1开始。标题原有跳号保留，GUID、发布日期和音频链接不变。生成器末尾调用同一排序逻辑。客户端自选排序仍可能覆盖feed建议。

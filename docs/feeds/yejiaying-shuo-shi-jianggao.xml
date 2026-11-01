@@ -18,55 +18,17 @@
       <itunes:name>叶嘉莹</itunes:name>
       <itunes:email>contact@example.com</itunes:email>
     </itunes:owner>
+    <itunes:type>serial</itunes:type>
     <item>
-      <title>8-一位晚清诗人的几首落花诗</title>
-      <description>叶嘉莹说诗讲稿 - 第 6 集</description>
+      <title>1-从赋比兴谈诗歌中兴发感动之作用</title>
+      <description>叶嘉莹说诗讲稿 - 第 1 集</description>
       <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">jianggao-006</guid>
+      <guid isPermaLink="false">jianggao-001</guid>
       <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-jianggao-v1/jianggao-006.mp3" length="105000574" type="audio/mpeg" />
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-jianggao-v1/jianggao-001.mp3" length="99073494" type="audio/mpeg" />
       <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>01:49:23</itunes:duration>
-      <itunes:episode>6</itunes:episode>
-      <itunes:season>1</itunes:season>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>7-从西方文论看李商隐的几首诗</title>
-      <description>叶嘉莹说诗讲稿 - 第 5 集</description>
-      <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">jianggao-005</guid>
-      <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-jianggao-v1/jianggao-005.mp3" length="230444753" type="audio/mpeg" />
-      <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>04:00:03</itunes:duration>
-      <itunes:episode>5</itunes:episode>
-      <itunes:season>1</itunes:season>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>6-杜甫诗在写实中的象喻性</title>
-      <description>叶嘉莹说诗讲稿 - 第 4 集</description>
-      <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">jianggao-004</guid>
-      <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-jianggao-v1/jianggao-004.mp3" length="129587858" type="audio/mpeg" />
-      <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>02:14:59</itunes:duration>
-      <itunes:episode>4</itunes:episode>
-      <itunes:season>1</itunes:season>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>5-古诗吟诵的古老传统</title>
-      <description>叶嘉莹说诗讲稿 - 第 3 集</description>
-      <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">jianggao-003</guid>
-      <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-jianggao-v1/jianggao-003.mp3" length="98031940" type="audio/mpeg" />
-      <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>01:42:07</itunes:duration>
-      <itunes:episode>3</itunes:episode>
+      <itunes:duration>01:43:12</itunes:duration>
+      <itunes:episode>1</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -84,15 +46,54 @@
       <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
-      <title>1-从赋比兴谈诗歌中兴发感动之作用</title>
-      <description>叶嘉莹说诗讲稿 - 第 1 集</description>
+      <title>5-古诗吟诵的古老传统</title>
+      <description>叶嘉莹说诗讲稿 - 第 3 集</description>
       <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">jianggao-001</guid>
+      <guid isPermaLink="false">jianggao-003</guid>
       <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-jianggao-v1/jianggao-001.mp3" length="99073494" type="audio/mpeg" />
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-jianggao-v1/jianggao-003.mp3" length="98031940" type="audio/mpeg" />
       <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>01:43:12</itunes:duration>
-      <itunes:episode>1</itunes:episode>
+      <itunes:duration>01:42:07</itunes:duration>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>6-杜甫诗在写实中的象喻性</title>
+      <description>叶嘉莹说诗讲稿 - 第 4 集</description>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">jianggao-004</guid>
+      <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-jianggao-v1/jianggao-004.mp3" length="129587858" type="audio/mpeg" />
+      <itunes:author>叶嘉莹</itunes:author>
+      <itunes:duration>02:14:59</itunes:duration>
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>7-从西方文论看李商隐的几首诗</title>
+      <description>叶嘉莹说诗讲稿 - 第 5 集</description>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">jianggao-005</guid>
+      <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-jianggao-v1/jianggao-005.mp3" length="230444753" type="audio/mpeg" />
+      <itunes:author>叶嘉莹</itunes:author>
+      <itunes:duration>04:00:03</itunes:duration>
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>8-一位晚清诗人的几首落花诗</title>
+      <description>叶嘉莹说诗讲稿 - 第 6 集</description>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">jianggao-006</guid>
+      <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-jianggao-v1/jianggao-006.mp3" length="105000574" type="audio/mpeg" />
+      <itunes:author>叶嘉莹</itunes:author>
+      <itunes:duration>01:49:23</itunes:duration>
+      <itunes:episode>6</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
     </item>

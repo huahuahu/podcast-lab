@@ -34,8 +34,10 @@ for item in all_feed.findall('item'):
  if f.stat().st_size < 10000: raise SystemExit(f'not materialized or too small: {f} ({f.stat().st_size})')
  # Hard link gives upload basename without re-encoding or copying bytes.
  sd=STAGE/TAGS[series]; sd.mkdir(parents=True,exist_ok=True); dst=sd/asset
- if dst.exists() or dst.is_symlink(): dst.unlink()
- os.link(f,dst)
+ if dst.exists():
+  if not os.path.samefile(f,dst): raise SystemExit(f'Unexpected staging file: {dst}')
+ elif dst.is_symlink(): raise SystemExit(f'Unexpected staging symlink: {dst}')
+ else: os.link(f,dst)
  h=hashlib.sha256()
  with open(f,'rb') as fp:
   for b in iter(lambda:fp.read(8*1024*1024),b''): h.update(b)
@@ -82,4 +84,6 @@ manifest={'source_repo':'/Users/tigerguo/git/Legacy/poemMedia','target_repo':'hu
  'asset_count':len(rows),'total_bytes':sum(r['bytes'] for r in rows),'release_tags':TAGS,
  'feeds':feed_stats,'assets':rows}
 (OUT/'archive/poem-media-migration/manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
+from order_feeds import main as order_feeds
+order_feeds()
 print(json.dumps({'assets':len(rows),'bytes':manifest['total_bytes'],'feeds':feed_stats,'tags':TAGS},ensure_ascii=False,indent=2))

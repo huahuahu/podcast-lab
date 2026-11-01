@@ -18,55 +18,17 @@
       <itunes:name>叶嘉莹</itunes:name>
       <itunes:email>contact@example.com</itunes:email>
     </itunes:owner>
+    <itunes:type>serial</itunes:type>
     <item>
-      <title>9-杜甫的一组名诗</title>
-      <description>叶嘉莹说杜甫 - 第 6 集</description>
+      <title>1-早期生活及诗作</title>
+      <description>叶嘉莹说杜甫 - 第 1 集</description>
       <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">dufu-006</guid>
+      <guid isPermaLink="false">dufu-001</guid>
       <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-dufu-v1/dufu-006.mp3" length="600987830" type="audio/mpeg" />
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-dufu-v1/dufu-001.mp3" length="115979635" type="audio/mpeg" />
       <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>04:10:25</itunes:duration>
-      <itunes:episode>6</itunes:episode>
-      <itunes:season>1</itunes:season>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>6-长安收复后官拾遗时的作品</title>
-      <description>叶嘉莹说杜甫 - 第 5 集</description>
-      <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">dufu-005</guid>
-      <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-dufu-v1/dufu-005.mp3" length="192357496" type="audio/mpeg" />
-      <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>01:20:09</itunes:duration>
-      <itunes:episode>5</itunes:episode>
-      <itunes:season>1</itunes:season>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>4-身陷长安时的作品</title>
-      <description>叶嘉莹说杜甫 - 第 4 集</description>
-      <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">dufu-004</guid>
-      <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-dufu-v1/dufu-004.mp3" length="55803961" type="audio/mpeg" />
-      <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>00:23:15</itunes:duration>
-      <itunes:episode>4</itunes:episode>
-      <itunes:season>1</itunes:season>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>3-安史之乱将起时的一篇名作</title>
-      <description>叶嘉莹说杜甫 - 第 3 集</description>
-      <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">dufu-003</guid>
-      <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-dufu-v1/dufu-003.mp3" length="335860647" type="audio/mpeg" />
-      <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>02:19:56</itunes:duration>
-      <itunes:episode>3</itunes:episode>
+      <itunes:duration>00:48:19</itunes:duration>
+      <itunes:episode>1</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -84,15 +46,54 @@
       <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
-      <title>1-早期生活及诗作</title>
-      <description>叶嘉莹说杜甫 - 第 1 集</description>
+      <title>3-安史之乱将起时的一篇名作</title>
+      <description>叶嘉莹说杜甫 - 第 3 集</description>
       <link>https://huahuahu.github.io/podcast-lab/</link>
-      <guid isPermaLink="false">dufu-001</guid>
+      <guid isPermaLink="false">dufu-003</guid>
       <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
-      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-dufu-v1/dufu-001.mp3" length="115979635" type="audio/mpeg" />
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-dufu-v1/dufu-003.mp3" length="335860647" type="audio/mpeg" />
       <itunes:author>叶嘉莹</itunes:author>
-      <itunes:duration>00:48:19</itunes:duration>
-      <itunes:episode>1</itunes:episode>
+      <itunes:duration>02:19:56</itunes:duration>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>4-身陷长安时的作品</title>
+      <description>叶嘉莹说杜甫 - 第 4 集</description>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">dufu-004</guid>
+      <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-dufu-v1/dufu-004.mp3" length="55803961" type="audio/mpeg" />
+      <itunes:author>叶嘉莹</itunes:author>
+      <itunes:duration>00:23:15</itunes:duration>
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>6-长安收复后官拾遗时的作品</title>
+      <description>叶嘉莹说杜甫 - 第 5 集</description>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">dufu-005</guid>
+      <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-dufu-v1/dufu-005.mp3" length="192357496" type="audio/mpeg" />
+      <itunes:author>叶嘉莹</itunes:author>
+      <itunes:duration>01:20:09</itunes:duration>
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>9-杜甫的一组名诗</title>
+      <description>叶嘉莹说杜甫 - 第 6 集</description>
+      <link>https://huahuahu.github.io/podcast-lab/</link>
+      <guid isPermaLink="false">dufu-006</guid>
+      <pubDate>Sun, 15 Mar 2026 12:45:39 +0000</pubDate>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/poem-media-dufu-v1/dufu-006.mp3" length="600987830" type="audio/mpeg" />
+      <itunes:author>叶嘉莹</itunes:author>
+      <itunes:duration>04:10:25</itunes:duration>
+      <itunes:episode>6</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
