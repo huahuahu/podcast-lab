@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Sun, 01 Nov 2026 22:20:49 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 17:45:58 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,21 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP75 · Soft Skills Engineering #537 · ADHD是否影响工作，以及创业公司被收购 · 完整中文双人版</title>
+      <link>https://github.com/huahuahu/podcast-lab/releases/tag/v0.76.0-sse-537</link>
+      <guid isPermaLink="false">sse-537</guid>
+      <pubDate>Wed, 04 Nov 2026 17:45:58 +0800</pubDate>
+      <description>升任助理总监后，ADHD会如何影响工作？主持人分享个人经历，讨论好奇心、上下文切换、执行力和权力关系。创业公司被收购后，如何适应大公司流程、用文档建立共同认识，并找到适合自己的工作方式？完整保留开场、支持者致谢、两封来信、全部讨论与收尾，非摘要。非官方AI中文双人版，不代表原节目或主持人认可；Dave云希、Jamison云扬，非本人声音克隆。未全片人工听校，未做声纹验证或翻译准确率测量；短插话说话人按语义推断，Patreon昵称及部分发音存在不确定性。医疗提醒：ADHD讨论是主持人的个人经历及玩笑，不构成诊断或用药建议。原话把Adderall/利他林与甲基苯丙胺混称不准确；请勿据此自行用药或分享处方药，诊断及用药调整应咨询合格医疗专业人员。中文37:13，12章。原节目第537期，2026-11-02；本feed编号EP75。官方来源：https://softskills.audio/2026/11/02/episode-537-is-my-adhd-affecting-my-work-and-my-startup-got-acquired/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.76.0-sse-537/podcast_zh.mp3" length="35725686" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-537.png"/>
+      <podcast:chapters url="https://huahuahu.github.io/podcast-lab/assets/chapters/sse-537.json" type="application/json+chapters"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jamison Dance · 非官方AI中文配音</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>37:13</itunes:duration>
+    </item>
 
     <item>
       <title>EP74 · Pragmatic Engineer · Google 软件工程与计算机教育：对谈 Titus Winters · 完整中文双人版</title>
