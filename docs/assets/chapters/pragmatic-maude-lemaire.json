@@ -1,0 +1,85 @@
+{
+  "version": "1.2.0",
+  "chapters": [
+    {
+      "startTime": 0.0,
+      "title": "开场、嘉宾介绍与赞助"
+    },
+    {
+      "startTime": 199.95,
+      "title": "从计算机家庭走向软件工程"
+    },
+    {
+      "startTime": 500.316,
+      "title": "Rent the Runway 与职业起点"
+    },
+    {
+      "startTime": 621.95,
+      "title": "2016 年的 Slack：扩展与企业客户"
+    },
+    {
+      "startTime": 914.47,
+      "title": "Slack 架构：团队分片与企业组织"
+    },
+    {
+      "startTime": 1230.286,
+      "title": "在线迁移：抽象层、双写与影子读取"
+    },
+    {
+      "startTime": 1586.48,
+      "title": "一次内部事故及迁移教训"
+    },
+    {
+      "startTime": 1746.642,
+      "title": "负载测试与惊群效应"
+    },
+    {
+      "startTime": 2119.934,
+      "title": "事件洪峰与重度用户体验"
+    },
+    {
+      "startTime": 2316.728,
+      "title": "中场赞助与超大规模压测引子"
+    },
+    {
+      "startTime": 2584.594,
+      "title": "50 万 WebSocket：压测的成本与保真度"
+    },
+    {
+      "startTime": 2920.44,
+      "title": "轻量客户端与录制真实使用流程"
+    },
+    {
+      "startTime": 3216.76,
+      "title": "加入 GitHub：可靠性与数据库扩展"
+    },
+    {
+      "startTime": 3393.392,
+      "title": "Vitess、分片与跨分片查询"
+    },
+    {
+      "startTime": 3631.592,
+      "title": "Rails、ActiveRecord 与查询代价"
+    },
+    {
+      "startTime": 4086.62,
+      "title": "Cursor 性能优化：首个 token 延迟"
+    },
+    {
+      "startTime": 4401.264,
+      "title": "AI 并行化建议为何可能适得其反"
+    },
+    {
+      "startTime": 4508.574,
+      "title": "如何使用 AI 并保留工程判断"
+    },
+    {
+      "startTime": 4687.952,
+      "title": "产品与平台团队互相轮岗"
+    },
+    {
+      "startTime": 5021.446,
+      "title": "致谢与主持人总结"
+    }
+  ]
+}

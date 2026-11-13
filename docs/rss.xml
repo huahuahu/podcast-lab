@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Wed, 11 Nov 2026 17:37:25 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 17:00:40 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,21 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP77 · Pragmatic Engineer · Slack与GitHub如何扩展：对谈Maude Lemaire · 完整中文双人版</title>
+      <link>https://github.com/huahuahu/podcast-lab/releases/tag/v0.78.0-pragmatic-maude-lemaire</link>
+      <guid isPermaLink="false">pragmatic-maude-lemaire</guid>
+      <pubDate>Fri, 13 Nov 2026 17:00:40 +0800</pubDate>
+      <description>Maude Lemaire与Gergely Orosz聊Slack的在线迁移、50万WebSocket负载测试与事件洪峰，GitHub的Vitess分片和跨分片查询，以及Cursor首个token延迟、AI变异测试和产品/平台团队轮岗。基于完整官方逐字稿的中文双人版，保留开场、赞助、访谈与收尾，非摘要。非官方AI中文双人版，不代表原节目或嘉宾认可；主持人云希、嘉宾晓晓为通用合成音色，非声音克隆。未全片人工听校、未做声纹验证或翻译准确率测量。沿用官方角色标签，个别打断/接话及标签错误可能保留；不做原音缺漏审计或补文。官方稿局部边界：第32轮三万/四万/五万人数不一致保留；Rapid赞助商拼写未确认；第80轮customer with 500及第112轮across most截断保留，slot reviews含义不明保留slot审查；第167轮10,000 in month emoji按上下文译为第一万零一个表情符号；第175轮话题跳转及第177轮未完句按稿保留。技术专名按上下文规范化，英文引用保留。官方发布日期2026-11-05，嘉宾Maude Lemaire，主持Gergely Orosz。中文1:26:12，20章；官方来源：https://newsletter.pragmaticengineer.com/p/scaling-slack-and-github-with-maude</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.78.0-pragmatic-maude-lemaire/podcast_zh.mp3" length="103455529" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/pragmatic-maude-lemaire.png"/>
+      <podcast:chapters url="https://huahuahu.github.io/podcast-lab/assets/chapters/pragmatic-maude-lemaire.json" type="application/json+chapters"/>
+      <category>Technology</category>
+      <itunes:author>Gergely Orosz × Maude Lemaire · 非官方AI中文配音</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:26:12</itunes:duration>
+    </item>
 
     <item>
       <title>EP76 · Soft Skills Engineering #538 · 有毒经理还是低影响项目；升任Staff却没有Staff级工作 · 完整中文双人版</title>
