@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Fri, 13 Nov 2026 17:00:40 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 08:04:43 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,21 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP78 · 一虎谈 · 胡一虎对话翟东升：逆全球化与未来经济 · 完整中文原声</title>
+      <link>https://github.com/huahuahu/podcast-lab/releases/tag/v0.79.0-hu-yihu-zhai-dongsheng-deglobalization</link>
+      <guid isPermaLink="false">hu-yihu-zhai-dongsheng-deglobalization</guid>
+      <pubDate>Sat, 14 Nov 2026 08:04:43 +0800</pubDate>
+      <description>新浪新闻视频播客《一虎谈》第七期，胡一虎对话翟东升。从十二年前关于“主动去美国化”的讨论谈起，两人围绕逆全球化的历史周期、中美竞争与相互依赖、欧洲的战略选择、中国在未来全球化中的角色，以及AI投资、房地产和人民币汇率等议题展开交流。本期完整保留二人的中文原声，包括开场预告与收尾；简介与章节仅作导航，节目中的判断、预测和政策主张均属于对话者观点，而非已证实结论。 非官方原声音频整理，保留指定视频完整1P中文原声，不翻译、不TTS、不摘要删减；未取得或声称原节目授权/背书。政治经济分析及预测是受访者观点，不作为已证实结论或投资建议。未全片人工听校；章节由本机离线转录辅助整理，时间为原音时间，存在转录/对齐误差。 来源：新浪丨一虎谈，B站2026-11-12发布（平台发布日期，非访谈录制日期）；原节目《一虎谈》第七期，本feed编号另计。https://www.bilibili.com/video/BV19pW26jEKy/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.79.0-hu-yihu-zhai-dongsheng-deglobalization/podcast_original.mp3" length="109132909" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/hu-yihu-zhai-dongsheng-deglobalization.png"/>
+      <podcast:chapters url="https://huahuahu.github.io/podcast-lab/assets/chapters/hu-yihu-zhai-dongsheng-deglobalization.json" type="application/json+chapters"/>
+      <category>Society &amp; Culture</category>
+      <itunes:author>胡一虎 / 翟东升 · 非官方中文原声整理</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:30:57</itunes:duration>
+    </item>
 
     <item>
       <title>EP77 · Pragmatic Engineer · Slack与GitHub如何扩展：对谈Maude Lemaire · 完整中文双人版</title>
