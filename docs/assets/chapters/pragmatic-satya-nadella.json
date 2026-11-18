@@ -1,0 +1,105 @@
+{
+  "version": "1.2.0",
+  "chapters": [
+    {
+      "startTime": 0.0,
+      "title": "开场、嘉宾介绍与 turbopuffer 赞助"
+    },
+    {
+      "startTime": 100.284,
+      "title": "微软拥抱开源：事实与外界叙事"
+    },
+    {
+      "startTime": 227.194,
+      "title": "VS Code：在开放社区中学习"
+    },
+    {
+      "startTime": 337.698,
+      "title": "Copilot、Cursor 与 Claude Code：先发优势之后"
+    },
+    {
+      "startTime": 584.05,
+      "title": "决策模型：智能时代的新基础构件"
+    },
+    {
+      "startTime": 763.144,
+      "title": "代码生成变便宜之后，验证成为难题"
+    },
+    {
+      "startTime": 845.708,
+      "title": "重返小团队，亲身学习新的生产方式"
+    },
+    {
+      "startTime": 963.018,
+      "title": "软件工厂：意图、规格与代码输出"
+    },
+    {
+      "startTime": 1162.786,
+      "title": "生产日志、验证闭环与运维智能体"
+    },
+    {
+      "startTime": 1256.236,
+      "title": "Windows 等存量系统如何改造"
+    },
+    {
+      "startTime": 1478.272,
+      "title": "这次技术转型与以往有何不同"
+    },
+    {
+      "startTime": 1625.352,
+      "title": "工程经验不会贬值，工作方式需要改变"
+    },
+    {
+      "startTime": 1777.352,
+      "title": "自愿离职、团队重组与职业自主权"
+    },
+    {
+      "startTime": 2003.41,
+      "title": "面对焦虑：前线部署工程师的新角色"
+    },
+    {
+      "startTime": 2192.7,
+      "title": "初级岗位招聘放缓：不要过早外推长期趋势"
+    },
+    {
+      "startTime": 2327.828,
+      "title": "Linear 与 WorkOS 赞助；开放模型趋势"
+    },
+    {
+      "startTime": 2815.642,
+      "title": "企业为什么要拥有自己的 AI 基础设施"
+    },
+    {
+      "startTime": 2898.858,
+      "title": "Foundry、运行框架、私有评测与成本优化"
+    },
+    {
+      "startTime": 3100.268,
+      "title": "保持自主：上下文、模型与框架分离"
+    },
+    {
+      "startTime": 3200.14,
+      "title": "信任架构：将权限与智能分开"
+    },
+    {
+      "startTime": 3362.21,
+      "title": "本地模型与云端协同"
+    },
+    {
+      "startTime": 3478.526,
+      "title": "混合智能、模型路由与不按量计费的智能"
+    },
+    {
+      "startTime": 3560.47,
+      "title": "MAI 模型、子智能体与更多选择"
+    },
+    {
+      "startTime": 3719.612,
+      "title": "给工程师的建议：少说、多做、继续学习"
+    },
+    {
+      "startTime": 3824.092,
+      "title": "主持人总结与收尾"
+    }
+  ]
+}

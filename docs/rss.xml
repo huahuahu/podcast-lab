@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Thu, 19 Nov 2026 06:59:53 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 07:14:31 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,21 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP80 · Pragmatic Engineer · 代码变便宜之后的软件工程：对谈微软 CEO 萨提亚·纳德拉 · 完整中文双人版</title>
+      <link>https://github.com/huahuahu/podcast-lab/releases/tag/v0.81.0-pragmatic-satya-nadella</link>
+      <guid isPermaLink="false">pragmatic-satya-nadella</guid>
+      <pubDate>Thu, 19 Nov 2026 07:14:31 +0800</pubDate>
+      <description>微软CEO萨提亚·纳德拉与Gergely Orosz讨论：代码生成变便宜之后，规格设计与验证为何更重要；软件工厂与存量系统改造；工程经验、自愿离职与初级招聘；企业自己的AI运行框架、上下文与私有评测；将权限与智能分开的信任架构，以及本地与云端混合模型。完整保留官方逐字稿开场、赞助、访谈与收尾，非摘要。完整非官方AI中文双人版，不代表原节目或嘉宾授权或认可。主持人云希、嘉宾云扬为固定通用中文男声，非声音克隆。沿用官方角色标签，未做声纹验证；原稿局部断句、短插话及技术专名可能有误，未做原音缺漏审计或补文。未全片人工听校，未测量翻译准确率。招聘与组织变化中的预测和观点不等于已发生的事实。官方发布日期2026-11-16，以官方RSS Mon, 16 Nov 2026 13:33:48 GMT为据，非录制日期。中文1:06:49，25章。官方来源：https://newsletter.pragmaticengineer.com/p/software-engineering-after-code-becomes</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.81.0-pragmatic-satya-nadella/podcast_zh.mp3" length="80202386" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/pragmatic-satya-nadella.png"/>
+      <podcast:chapters url="https://huahuahu.github.io/podcast-lab/assets/chapters/pragmatic-satya-nadella.json" type="application/json+chapters"/>
+      <category>Technology</category>
+      <itunes:author>Gergely Orosz × Satya Nadella · 非官方AI中文配音</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:06:49</itunes:duration>
+    </item>
 
     <item>
       <title>EP79 · Soft Skills Engineering #539 · 新人任务为何总是耗时太久；团队调到七小时时差之外 · 完整中文双人版</title>
