@@ -1,0 +1,113 @@
+{
+  "version": "1.2.0",
+  "chapters": [
+    {
+      "startTime": 0.0,
+      "title": "开场、嘉宾介绍与 turbopuffer 赞助"
+    },
+    {
+      "startTime": 207.924,
+      "title": "一个月五千多个 PR：机器如何构建机器"
+    },
+    {
+      "startTime": 352.256,
+      "title": "Codex、Claude Code 与日常智能体工作流"
+    },
+    {
+      "startTime": 593.894,
+      "title": "三十年工程经历：Netsil、FluxNinja 与 CodeRabbit"
+    },
+    {
+      "startTime": 872.056,
+      "title": "从 Copilot 预见代码审查的瓶颈"
+    },
+    {
+      "startTime": 1034.384,
+      "title": "从手写代码转向验证与反馈循环"
+    },
+    {
+      "startTime": 1164.332,
+      "title": "智能体如何爬坡：形式化方法、模拟与渐进发布"
+    },
+    {
+      "startTime": 1446.894,
+      "title": "什么是软件工厂：开发环境、云端与协作"
+    },
+    {
+      "startTime": 1821.798,
+      "title": "“人工代码审查已死”？人的判断仍然重要"
+    },
+    {
+      "startTime": 2122.484,
+      "title": "生产发布的责任与工程师“驾照”"
+    },
+    {
+      "startTime": 2297.412,
+      "title": "信任、扣分与故障后的问责"
+    },
+    {
+      "startTime": 2527.544,
+      "title": "更高产量需要更强的生产监控"
+    },
+    {
+      "startTime": 2607.27,
+      "title": "Entire、WorkOS 赞助与质量讨论"
+    },
+    {
+      "startTime": 2959.332,
+      "title": "CI 成本、CPU 短缺与自建基础设施"
+    },
+    {
+      "startTime": 3161.55,
+      "title": "迁移 Bun、长期任务与分布式系统"
+    },
+    {
+      "startTime": 3421.42,
+      "title": "模型评测、微调与开源反馈循环"
+    },
+    {
+      "startTime": 3742.822,
+      "title": "TLA+、Lean 与形式化验证实践"
+    },
+    {
+      "startTime": 3862.216,
+      "title": "每月 AI 成本与模型路由"
+    },
+    {
+      "startTime": 4060.366,
+      "title": "八百万美元种子轮还够不够：融资与竞争"
+    },
+    {
+      "startTime": 4599.308,
+      "title": "高增长创业的压缩时间窗口"
+    },
+    {
+      "startTime": 4817.344,
+      "title": "软件工厂的成本与既有企业的不同处境"
+    },
+    {
+      "startTime": 5118.818,
+      "title": "招聘：主动性、系统思维与策略游戏"
+    },
+    {
+      "startTime": 5335.566,
+      "title": "作战室：工程、产品与设计一起驱动智能体"
+    },
+    {
+      "startTime": 5483.028,
+      "title": "工作强度、睡眠与健康"
+    },
+    {
+      "startTime": 5748.964,
+      "title": "倦怠、回报与创业风险"
+    },
+    {
+      "startTime": 6124.198,
+      "title": "经验如何迁移：给工程师的建议"
+    },
+    {
+      "startTime": 6293.29,
+      "title": "推荐阅读、黑天鹅与主持人总结"
+    }
+  ]
+}
