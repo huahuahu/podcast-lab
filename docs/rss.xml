@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Fri, 20 Nov 2026 20:46:20 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 22:17:53 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,21 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP82 · Soft Skills Engineering #540 · 八分钟就想结束面试；混乱组织里如何晋升 · 完整中文双人版</title>
+      <link>https://github.com/huahuahu/podcast-lab/releases/tag/v0.83.0-sse-540</link>
+      <guid isPermaLink="false">sse-540</guid>
+      <pubDate>Tue, 24 Nov 2026 22:17:53 +0800</pubDate>
+      <description>面试八分钟就发现候选人不合适，该提前结束还是继续？讨论坦诚反馈、缩短初筛、面试权限与多人面试退出机制。在非软件组织中，晋升标准模糊、清理旧系统的价值难被看见怎么办？讨论调查规则、与经理沟通、将技术成果转化成业务价值、转岗与晋升焦虑。完整保留开场、支持者致谢、两封来信全部讨论与收尾，非摘要。完整非官方AI中文双人版，不代表原节目或主持人授权或认可。Dave使用云希、Jamison使用云扬通用合成音色，非本人声音克隆；角色按语义推断，未做声纹验证，短插话及支持者昵称可能有误。开场540在回转录中出现“四十期／四十七”的同音歧义，TTS输入与返回边界均为540，未声称人耳确认发音。未全片人工听校，未测量翻译准确率。节目中关于AI及职业发展的判断为主持人观点；致谢昵称中的肠镜说法不是医疗建议。 原节目第540期，官方发布日期2026-11-23，非录制日期；本feed编号EP82。中文35:03，16章。官方来源：https://softskills.audio/2026/11/23/episode-540-truncate-bad-interviews-and-how-to-get-promoted-in-chaos/</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.83.0-sse-540/podcast_zh.mp3" length="33648104" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/sse-540.png"/>
+      <podcast:chapters url="https://huahuahu.github.io/podcast-lab/assets/chapters/sse-540.json" type="application/json+chapters"/>
+      <category>Technology</category>
+      <itunes:author>Dave Smith × Jamison Dance · 非官方AI中文配音</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>35:03</itunes:duration>
+    </item>
 
     <item>
       <title>EP81 · Pragmatic Engineer · 软件工厂与代码审查：对谈 CodeRabbit CEO Harjot Gill · 完整中文双人版</title>
