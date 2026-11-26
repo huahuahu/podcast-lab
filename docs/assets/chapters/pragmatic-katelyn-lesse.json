@@ -1,0 +1,133 @@
+{
+  "version": "1.2.0",
+  "chapters": [
+    {
+      "startTime": 0.0,
+      "title": "开场、嘉宾介绍与 turbopuffer／Entire 赞助"
+    },
+    {
+      "startTime": 194.042,
+      "title": "从化工转向编程：Betterment 与早期管理经历"
+    },
+    {
+      "startTime": 389.816,
+      "title": "Stripe 的工程文化与职业选择"
+    },
+    {
+      "startTime": 483.208,
+      "title": "Claude 平台：模型之上的 API 基础设施"
+    },
+    {
+      "startTime": 722.22,
+      "title": "从 Python 单体迁移到 Rust"
+    },
+    {
+      "startTime": 822.276,
+      "title": "早期选择 Python 的背景与 CPU 压力"
+    },
+    {
+      "startTime": 1122.222,
+      "title": "为什么选择 Rust：性能、内存安全与智能体验证"
+    },
+    {
+      "startTime": 1415.268,
+      "title": "与模型一起学习 Rust：理解、信任与验证"
+    },
+    {
+      "startTime": 1670.72,
+      "title": "全量重写与影子流量：在隐私约束下验证等价性"
+    },
+    {
+      "startTime": 2016.232,
+      "title": "赞助与新人入职：从文档转向询问 Claude"
+    },
+    {
+      "startTime": 2510.966,
+      "title": "迁移前后：语言学习、工程工艺与时间分配"
+    },
+    {
+      "startTime": 2956.184,
+      "title": "五六个月完成迁移：团队协调成为主要工作"
+    },
+    {
+      "startTime": 3172.028,
+      "title": "Claude Managed Agents：从无状态 API 到智能体运行"
+    },
+    {
+      "startTime": 3330.906,
+      "title": "沙箱、延迟与成本：中途重做架构"
+    },
+    {
+      "startTime": 3711.204,
+      "title": "从零构建仍需目标对齐与设计"
+    },
+    {
+      "startTime": 3792.918,
+      "title": "团队规模、入职和内部智能体工具"
+    },
+    {
+      "startTime": 4064.262,
+      "title": "日常工程流程：人与多个智能体协作"
+    },
+    {
+      "startTime": 4530.802,
+      "title": "代码审查：由智能体判断是否需要人类介入"
+    },
+    {
+      "startTime": 4661.682,
+      "title": "生产监控与值班：让 Claude 先处理告警"
+    },
+    {
+      "startTime": 4851.048,
+      "title": "产品经理发布代码：权限与团队责任"
+    },
+    {
+      "startTime": 5242.056,
+      "title": "团队继续拥有系统，工程师继续承担值班"
+    },
+    {
+      "startTime": 5311.78,
+      "title": "软件工厂与持续运行的 QA 智能体"
+    },
+    {
+      "startTime": 5434.168,
+      "title": "基础设施与平台加速团队"
+    },
+    {
+      "startTime": 5807.92,
+      "title": "逐步取消算法面试：信号、主观性与新实验"
+    },
+    {
+      "startTime": 6076.554,
+      "title": "职级、晋升与绩效：如何衡量影响"
+    },
+    {
+      "startTime": 6312.528,
+      "title": "及时反馈，不把问题留到绩效评审"
+    },
+    {
+      "startTime": 6422.762,
+      "title": "工程师的身份认同与更高的目标"
+    },
+    {
+      "startTime": 6676.65,
+      "title": "成本、应用场景和技术变化的时间尺度"
+    },
+    {
+      "startTime": 6940.484,
+      "title": "工程意味着完成、维护并继续构建"
+    },
+    {
+      "startTime": 7173.578,
+      "title": "新的工程工作：协调、判断与深厚专业知识"
+    },
+    {
+      "startTime": 7351.142,
+      "title": "推荐《挽救计划》与访谈致谢"
+    },
+    {
+      "startTime": 7410.65,
+      "title": "主持人总结、相关资料与节目收尾"
+    }
+  ]
+}

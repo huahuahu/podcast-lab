@@ -10,7 +10,7 @@
     <language>zh-cn</language>
     <copyright>Copyright 2026 Podcast Lab</copyright>
     <description>Podcast Lab 把英文视频、播客和长谈节目整理成适合中文听众订阅的播客 feed。相关话题涵盖大公司职场政治、国际关系和地缘政治等。</description>
-    <lastBuildDate>Tue, 24 Nov 2026 22:17:53 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 08:57:20 +0800</lastBuildDate>
     <generator>Codex</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -36,6 +36,21 @@
       <itunes:name>Podcast Lab</itunes:name>
       <itunes:email>placeholder@example.com</itunes:email>
     </itunes:owner>
+
+    <item>
+      <title>EP83 · Pragmatic Engineer · Anthropic 在2026年如何构建软件：对谈Katelyn Lesse · 完整中文双人版</title>
+      <link>https://github.com/huahuahu/podcast-lab/releases/tag/v0.84.0-pragmatic-katelyn-lesse</link>
+      <guid isPermaLink="false">pragmatic-katelyn-lesse</guid>
+      <pubDate>Thu, 26 Nov 2026 08:57:20 +0800</pubDate>
+      <description>Katelyn Lesse与Gergely Orosz讨论Anthropic的实际工程方式：Claude API从Python迁往Rust，利用影子流量在隐私约束下验证；Managed Agents架构重做；智能体参与代码审查、入职、生产监控与值班；产品经理发布代码及团队责任；软件工厂、算法面试、晋升与工程师身份认同。完整保留官方逐字稿开场、赞助、访谈与收尾，非摘要。完整非官方AI中文双人版，不代表原节目或嘉宾授权或认可。主持人云希通用男声、嘉宾晓晓通用女声，非声音克隆。沿用官方角色标签，未做声纹验证；原稿局部断句、短插话及技术专名可能有误，未做原音缺漏审计或补文。未全片人工听校，未测量翻译准确率。技术、招聘与职业发展观点和预测是说话人观点，不是本制作独立证实。官方标签局部可能有短插话错位。官方发布日期2026-11-25，以官方RSS Wed, 25 Nov 2026 17:31:32 GMT为据，北京时间2026-11-26 01:31:32，非录制日期。中文2:07:06，32章。官方来源：https://newsletter.pragmaticengineer.com/p/how-anthropic-builds-software-in</description>
+      <enclosure url="https://github.com/huahuahu/podcast-lab/releases/download/v0.84.0-pragmatic-katelyn-lesse/podcast_zh.mp3" length="152533363" type="audio/mpeg"/>
+      <itunes:image href="https://huahuahu.github.io/podcast-lab/assets/covers/pragmatic-katelyn-lesse.png"/>
+      <podcast:chapters url="https://huahuahu.github.io/podcast-lab/assets/chapters/pragmatic-katelyn-lesse.json" type="application/json+chapters"/>
+      <category>Technology</category>
+      <itunes:author>Gergely Orosz × Katelyn Lesse · 非官方AI中文配音</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>2:07:06</itunes:duration>
+    </item>
 
     <item>
       <title>EP82 · Soft Skills Engineering #540 · 八分钟就想结束面试；混乱组织里如何晋升 · 完整中文双人版</title>
